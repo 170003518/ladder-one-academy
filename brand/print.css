@@ -1,0 +1,383 @@
+/* ==========================================================================
+   Ladder One Academy — print.css
+   Printed material: 3x5 note cards tiled on Letter, and full-page tests and
+   worksheets. Depends on brand/theme.css for every color and font.
+
+   These classes are deliberately NOT wrapped in @media print — brand/preview.html
+   renders them on screen so a layout can be checked without burning paper.
+   Only page setup and screen-chrome suppression live in the print block.
+   ========================================================================== */
+
+/* --- Page setup -----------------------------------------------------------
+   0.5in margin leaves a 7.5 x 10in live area: exactly two 3in columns with a
+   0.5in gutter, and exactly two 5in rows. */
+@page {
+  size: letter portrait;
+  margin: 0.5in;
+}
+
+@page :first { margin: 0.5in; }
+
+/* --- The sheet ------------------------------------------------------------ */
+.l1a-sheet {
+  box-sizing: border-box;
+  width: 7.5in;
+  min-height: 10in;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: var(--card-w) var(--card-w);
+  grid-template-rows: var(--card-h) var(--card-h);
+  column-gap: 0.5in;
+  row-gap: 0;
+  justify-content: center;
+  align-content: start;
+  background: var(--paper);
+}
+
+/* Backs sheet. Printing duplex on the LONG edge mirrors the page left-to-right,
+   so the back of the card in column 1 must be laid out in column 2. Setting the
+   grid to rtl swaps the columns while .l1a-card resets text direction. Rows are
+   unaffected by a long-edge flip and stay in order.
+   Feed order: print all fronts, reload the stack unturned, print all backs. */
+.l1a-sheet--backs { direction: rtl; }
+.l1a-sheet--backs > .l1a-card { direction: ltr; }
+
+/* --- The card ------------------------------------------------------------- */
+.l1a-card {
+  box-sizing: border-box;
+  position: relative;
+  width: var(--card-w);
+  height: var(--card-h);
+  padding: var(--card-pad) var(--card-pad) var(--card-pad) calc(var(--tier-bar-w) + var(--card-pad));
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 9.5pt;
+  line-height: var(--lh-snug);
+  overflow: hidden;
+
+  /* Cut guide. A hairline dashed trim box on every card; adjacent cards share
+     a cut so the whole sheet comes apart in four straight passes. */
+  outline: 0.5pt dashed var(--cut-guide);
+  outline-offset: 0;
+}
+
+/* Corner crop ticks, drawn just inside the trim box so a blade has something to
+   line up on even if the dashed outline is faint. */
+.l1a-card::before,
+.l1a-card::after {
+  content: "";
+  position: absolute;
+  width: 0.18in;
+  height: 0.18in;
+  pointer-events: none;
+}
+.l1a-card::before {
+  top: 0; right: 0;
+  border-top: 0.75pt solid var(--cut-guide);
+  border-right: 0.75pt solid var(--cut-guide);
+}
+.l1a-card::after {
+  bottom: 0; right: 0;
+  border-bottom: 0.75pt solid var(--cut-guide);
+  border-right: 0.75pt solid var(--cut-guide);
+}
+
+/* --- Tier color bar -------------------------------------------------------
+   Down the left edge of every printed piece. In black and white the color is
+   gone, so each tier also carries a pattern: EMT solid, Fire hatched,
+   Paramedic dotted. The pattern is always drawn — it reads as texture in color
+   and as the sole identifier in mono. */
+.l1a-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--tier-bar-w);
+  height: 100%;
+  background-color: var(--tier-color);
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+.tier-emt   > .l1a-bar { background-image: none; }
+.tier-fire  > .l1a-bar {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(15, 31, 61, 0.55) 0 2px,
+    transparent 2px 6px);
+}
+.tier-medic > .l1a-bar {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(15, 31, 61, 0.55) 0 2px,
+    transparent 2px 7px);
+}
+
+/* The EMT bar is star white on white paper, so it needs an edge to exist at all. */
+.tier-emt > .l1a-bar { box-shadow: inset -0.5pt 0 0 var(--rule), inset 0.5pt 0 0 var(--rule); }
+
+/* --- Card furniture ------------------------------------------------------- */
+.l1a-card__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-bottom: 0.14in;
+}
+
+.l1a-card__stamp {
+  display: flex;
+  align-items: center;
+  gap: 0.05in;
+  font-family: var(--font-display);
+  font-size: 7pt;
+  font-weight: 700;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.l1a-card__stamp svg { width: 0.19in; height: 0.228in; flex: none; display: block; }
+
+.l1a-card__type {
+  font-family: var(--font-display);
+  font-size: 6.5pt;
+  font-weight: 600;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+
+.l1a-card__title {
+  font-family: var(--font-display);
+  font-size: 15pt;
+  font-weight: 600;
+  line-height: var(--lh-tight);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 0 0 0.05in;
+  color: var(--ink);
+}
+
+.l1a-card__summary {
+  font-size: 8.5pt;
+  font-style: italic;
+  color: var(--ink-muted);
+  margin: 0 0 0.12in;
+}
+
+.l1a-card__rule {
+  border: 0;
+  border-top: 0.75pt solid var(--rule);
+  margin: 0 0 0.12in;
+}
+
+.l1a-card__body { margin: 0; }
+.l1a-card__body ul { margin: 0; padding-left: 0.16in; }
+.l1a-card__body li { margin-bottom: 0.05in; }
+
+/* Numbers, doses and ranges line up in the monospace face. */
+.l1a-card__numbers {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+  font-size: 8.5pt;
+  font-variant-numeric: tabular-nums;
+}
+.l1a-card__numbers th,
+.l1a-card__numbers td {
+  text-align: left;
+  padding: 0.035in 0;
+  border-bottom: 0.5pt solid var(--rule);
+  vertical-align: baseline;
+}
+.l1a-card__numbers td:last-child { text-align: right; white-space: nowrap; }
+.l1a-card__numbers th {
+  font-family: var(--font-ui);
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* Critical skill steps — the ones that fail a station. */
+.l1a-critical {
+  background: var(--signal-yellow);
+  padding: 0 0.03in;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+.l1a-card__why {
+  position: absolute;
+  left: calc(var(--tier-bar-w) + var(--card-pad));
+  right: var(--card-pad);
+  bottom: 0.52in;
+  font-size: 7.5pt;
+  font-style: italic;
+  color: var(--ink-muted);
+  border-top: 0.5pt solid var(--rule);
+  padding-top: 0.06in;
+  margin: 0;
+}
+
+.l1a-card__footer,
+.l1a-page__footer {
+  position: absolute;
+  left: calc(var(--tier-bar-w) + var(--card-pad));
+  right: var(--card-pad);
+  bottom: 0.14in;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-2);
+  font-family: var(--font-ui);
+  font-size: 6pt;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: var(--ink-muted);
+}
+.l1a-card__footer .num,
+.l1a-page__footer .num { font-family: var(--font-mono); }
+
+/* High-yield flag, top right of the card body. */
+.l1a-card .l1a-highyield {
+  font-size: 6pt;
+  padding: 0.01in 0.06in;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* --- Full page: tests and worksheets -------------------------------------- */
+.l1a-page {
+  box-sizing: border-box;
+  position: relative;
+  width: 7.5in;
+  min-height: 10in;
+  margin: 0 auto;
+  padding: 0.3in 0.3in 0.55in calc(var(--tier-bar-w) + 0.34in);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 10.5pt;
+  line-height: var(--lh-normal);
+}
+
+.l1a-page__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  border-bottom: 1pt solid var(--ink);
+  padding-bottom: 0.1in;
+  margin-bottom: 0.22in;
+}
+
+.l1a-page__stamp {
+  display: flex;
+  align-items: center;
+  gap: 0.08in;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 10pt;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+}
+.l1a-page__stamp svg { width: 0.34in; height: 0.408in; flex: none; display: block; }
+.l1a-page__stamp small {
+  display: block;
+  font-size: 6pt;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wider);
+  color: var(--ink-muted);
+}
+
+.l1a-page__title {
+  font-family: var(--font-display);
+  font-size: 16pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin: 0;
+  text-align: right;
+}
+.l1a-page__meta {
+  font-family: var(--font-mono);
+  font-size: 7.5pt;
+  color: var(--ink-muted);
+  text-align: right;
+  margin: 0.03in 0 0;
+}
+
+/* Name / date rule at the top of a printed test. */
+.l1a-page__fields {
+  display: flex;
+  gap: 0.3in;
+  font-size: 8.5pt;
+  color: var(--ink-muted);
+  margin-bottom: 0.24in;
+}
+.l1a-page__fields span {
+  flex: 1;
+  border-bottom: 0.75pt solid var(--rule);
+  padding-bottom: 0.14in;
+}
+
+.l1a-q { margin: 0 0 0.2in; break-inside: avoid; page-break-inside: avoid; }
+.l1a-q__stem { margin: 0 0 0.08in; }
+.l1a-q__num {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  margin-right: 0.06in;
+}
+.l1a-q__options {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 0.24in;
+}
+.l1a-q__options li { margin-bottom: 0.045in; }
+.l1a-q__options li::before {
+  content: counter(l1a-opt, upper-alpha) ".";
+  counter-increment: l1a-opt;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  margin-left: -0.24in;
+  margin-right: 0.08in;
+}
+.l1a-q__options { counter-reset: l1a-opt; }
+
+/* --- Print-only rules ----------------------------------------------------- */
+@media print {
+  html, body {
+    background: #fff !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Anything that is screen chrome disappears. */
+  .no-print, .l1a-preview__chrome, nav, header.app, footer.app, button { display: none !important; }
+
+  .l1a-sheet, .l1a-page {
+    margin: 0;
+    width: auto;
+    min-height: auto;
+    break-after: page;
+    page-break-after: always;
+  }
+  .l1a-sheet:last-child, .l1a-page:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  .l1a-card { break-inside: avoid; page-break-inside: avoid; }
+
+  /* Color bars, high-yield flags and critical-step highlights must survive the
+     browser's default "don't print backgrounds" behavior. */
+  .l1a-bar, .l1a-highyield, .l1a-critical {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+/* --- Mono / black-and-white proof ------------------------------------------
+   Put .l1a-mono on a sheet or page to see exactly what a black-and-white
+   printer produces. The tier bar patterns carry the tier. */
+.l1a-mono { filter: grayscale(100%) contrast(1.08); }

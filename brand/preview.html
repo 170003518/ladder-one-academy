@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en" data-text-size="base">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L1A Brand Kit — Preview</title>
+<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="print.css">
+<style>
+  /* Preview chrome only. None of this ships in the app — it is the scaffolding
+     that lets the brand pieces be looked at side by side. */
+  .wrap { max-width: 60rem; margin: 0 auto; padding: var(--space-6) var(--space-5) var(--space-12); }
+  .lede { color: var(--text-muted); max-width: 44rem; }
+  section { margin: var(--space-10) 0 0; }
+  section > h2 {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: var(--space-2);
+    color: var(--text);
+  }
+  .note {
+    border-left: 3px solid var(--signal-yellow);
+    background: var(--surface);
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
+    margin: var(--space-4) 0;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: var(--space-6); align-items: flex-end; }
+
+  .logo-plate { padding: var(--space-5); border-radius: var(--radius); text-align: center; }
+  .logo-plate.on-navy  { background: var(--navy); border: 1px solid var(--border); }
+  .logo-plate.on-white { background: #fff; color: var(--navy); }
+  .logo-plate small { display: block; margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--text-muted); }
+  .logo-plate.on-white small { color: var(--ink-muted); }
+
+  .lockup { display: flex; align-items: center; gap: var(--space-3); }
+  .lockup svg { width: 76px; height: auto; display: block; }
+  .lockup .word { text-align: left; font-family: var(--font-display); line-height: 1; }
+  .lockup .word b { display: block; font-size: 2rem; font-weight: 700; letter-spacing: 0.04em; }
+  .lockup .word i {
+    display: block; font-style: normal; font-size: 0.8rem; font-weight: 500;
+    letter-spacing: var(--tracking-wider); margin-top: 3px;
+  }
+  .lockup .word em { display:block; font-style: italic; font-family: var(--font-ui); font-size: .72rem; color: var(--text-muted); margin-top: 6px; letter-spacing: 0; }
+  .on-white .lockup .word em { color: var(--ink-muted); }
+
+  .sizes { display: flex; align-items: flex-end; gap: var(--space-5); }
+  .sizes figure { margin: 0; text-align: center; }
+  .sizes figcaption { font-size: var(--fs-xs); color: var(--text-muted); margin-top: var(--space-2); }
+
+  .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); gap: var(--space-4); }
+  .sw { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--surface); }
+  .sw .chip { height: 4.5rem; }
+  .sw .meta { padding: var(--space-3); font-size: var(--fs-sm); }
+  .sw .meta b { display: block; font-family: var(--font-display); letter-spacing: var(--tracking-wide); text-transform: uppercase; font-size: var(--fs-sm); }
+  .sw .meta code { display: block; font-size: var(--fs-xs); color: var(--text-muted); margin-top: 2px; }
+  .sw .meta span { display: block; font-size: var(--fs-xs); color: var(--text-muted); margin-top: var(--space-2); }
+
+  .scale-row { display: flex; align-items: baseline; gap: var(--space-4); border-bottom: 1px dotted var(--border); padding: var(--space-2) 0; }
+  .scale-row code { min-width: 7rem; font-size: var(--fs-xs); color: var(--text-muted); }
+
+  table.spec { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); }
+  table.spec th, table.spec td { text-align: left; padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.spec th { font-family: var(--font-display); letter-spacing: var(--tracking-wide); text-transform: uppercase; font-size: var(--fs-xs); color: var(--text-muted); }
+  table.spec td.num { color: var(--text); }
+
+  /* Paper blocks get a shadow on screen so sheet edges are obvious. */
+  .paper-stage { background: #55607A; padding: var(--space-6); border-radius: var(--radius); overflow-x: auto; }
+  .paper-stage .l1a-sheet, .paper-stage .l1a-page { box-shadow: 0 10px 30px rgba(0,0,0,.45); }
+  .stage-label { font-family: var(--font-display); letter-spacing: var(--tracking-wider); text-transform: uppercase; font-size: var(--fs-xs); color: var(--text-muted); margin: var(--space-5) 0 var(--space-2); }
+  .toggles { display: flex; gap: var(--space-3); flex-wrap: wrap; margin: var(--space-4) 0; }
+  .toggles button {
+    font: inherit; font-family: var(--font-display); text-transform: uppercase; letter-spacing: var(--tracking-wide);
+    font-size: var(--fs-xs); padding: var(--space-2) var(--space-4); cursor: pointer;
+    background: var(--surface-raised); color: var(--text); border: 1px solid var(--border); border-radius: var(--radius-pill);
+  }
+  .toggles button[aria-pressed="true"] { background: var(--ember); border-color: var(--ember); color: #fff; }
+</style>
+</head>
+<body>
+
+<!-- The mark as a reusable symbol so every stamp inherits currentColor. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="l1a-mark" viewBox="0 0 200 240">
+    <path d="M100 6 L188 30 V132 C188 186 148 218 100 234 C52 218 12 186 12 132 V30 Z"
+          fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
+    <rect x="93.5" y="37" width="13" height="50" rx="6.5"/>
+    <rect x="93.5" y="37" width="13" height="50" rx="6.5" transform="rotate(60 100 62)"/>
+    <rect x="93.5" y="37" width="13" height="50" rx="6.5" transform="rotate(120 100 62)"/>
+    <rect x="86.45" y="106.5" width="27.1" height="11" rx="2"/>
+    <rect x="76.45" y="142.5" width="47.1" height="11" rx="2"/>
+    <rect x="66.45" y="178.5" width="67.1" height="11" rx="2"/>
+    <polygon points="87,92 97,92 67,200 57,200"/>
+    <polygon points="113,92 103,92 133,200 143,200"/>
+  </symbol>
+</svg>
+
+<div class="wrap l1a-preview__chrome">
+
+  <h1>Ladder One Academy — Brand Kit</h1>
+  <p class="lede">Everything in <code>brand/</code>, rendered. The paper sections below are the real print classes from <code>print.css</code>, shown on screen so you can check a layout without printing it. Hit <b>Cmd&nbsp;+&nbsp;P</b> and the preview chrome disappears, leaving only the sheets.</p>
+
+  <div class="note">
+    <b>The sample content is layout filler, not reviewed content.</b> Every fact on the cards and the test page is lifted verbatim from <code>docs/emt-blueprint.md</code> or is non-clinical. Nothing here has been checked against a source text, nothing carries a <code>reviewed_against</code>, and the test page deliberately shows no answer key.
+  </div>
+
+  <!-- ============================= LOGO ============================= -->
+  <section>
+    <h2>Logo</h2>
+    <p class="lede">Navy shield, three-rung ladder, Star of Life above. The rails run from a narrow gap at the top out to a wide one at the bottom, so the space they enclose above the top rung reads as an <b>A</b>. Rungs are colored bottom to top — star white EMT, ember Fire, line blue Paramedic — and in the app each one lights as its tier unlocks, which makes the logo the progress indicator.</p>
+
+    <div class="row">
+      <div class="logo-plate on-navy">
+        <img src="logo.svg" alt="Ladder One Academy logo in full color" width="150">
+        <small>logo.svg — on Turnout Navy</small>
+      </div>
+      <div class="logo-plate on-white">
+        <img src="logo.svg" alt="Ladder One Academy logo in full color on white" width="150">
+        <small>logo.svg — on white</small>
+      </div>
+      <div class="logo-plate on-white">
+        <svg viewBox="0 0 200 240" style="width:150px;height:auto" aria-label="Ladder One Academy single-color mark"><use href="#l1a-mark"/></svg>
+        <small>logo-mono.svg — print, currentColor</small>
+      </div>
+    </div>
+
+    <p class="stage-label">Wordmark lockup</p>
+    <div class="row">
+      <div class="logo-plate on-navy">
+        <div class="lockup">
+          <img src="logo.svg" alt="" width="76">
+          <span class="word"><b>LADDER ONE</b><i>ACADEMY</i><em>Climb to certified.</em></span>
+        </div>
+      </div>
+      <div class="logo-plate on-white">
+        <div class="lockup" style="color:var(--navy)">
+          <svg viewBox="0 0 200 240" style="width:76px;height:auto" aria-hidden="true"><use href="#l1a-mark"/></svg>
+          <span class="word"><b>LADDER ONE</b><i>ACADEMY</i><em>Climb to certified.</em></span>
+        </div>
+      </div>
+    </div>
+
+    <p class="stage-label">Holds up small — card corners, watermark, favicon</p>
+    <div class="logo-plate on-navy" style="text-align:left">
+      <div class="sizes">
+        <figure><img src="logo.svg" alt="" width="96"><figcaption>96px</figcaption></figure>
+        <figure><img src="logo.svg" alt="" width="48"><figcaption>48px</figcaption></figure>
+        <figure><img src="logo.svg" alt="" width="32"><figcaption>32px</figcaption></figure>
+        <figure><img src="logo.svg" alt="" width="16"><figcaption>16px favicon</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ PALETTE ============================ -->
+  <section>
+    <h2>Palette</h2>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:var(--navy)"></div><div class="meta"><b>Turnout Navy</b><code>--navy · #0F1F3D</code><span>Primary background, headers, shield</span></div></div>
+      <div class="sw"><div class="chip" style="background:var(--ember)"></div><div class="meta"><b>Ember</b><code>--ember · #F25C19</code><span>Fire tier, CTAs, unlocked glow</span></div></div>
+      <div class="sw"><div class="chip" style="background:var(--line-blue)"></div><div class="meta"><b>Line Blue</b><code>--line-blue · #2E7DFF</code><span>Paramedic tier, links</span></div></div>
+      <div class="sw"><div class="chip" style="background:var(--star-white)"></div><div class="meta"><b>Star White</b><code>--star-white · #F5F7FA</code><span>EMT tier, card backgrounds</span></div></div>
+      <div class="sw"><div class="chip" style="background:var(--signal-yellow)"></div><div class="meta"><b>Signal Yellow</b><code>--signal-yellow · #FFC72C</code><span>Warnings, high-yield flags, critical steps</span></div></div>
+      <div class="sw"><div class="chip" style="background:var(--slate)"></div><div class="meta"><b>Slate</b><code>--slate · #8A94A6</code><span>Locked states, secondary text</span></div></div>
+    </div>
+
+    <p class="stage-label">Tier mapping and the black-and-white fallback</p>
+    <table class="spec">
+      <tr><th>Rung</th><th>Tier</th><th>Color</th><th>Bar in color</th><th>Bar in black &amp; white</th></tr>
+      <tr><td class="num">1</td><td>EMT</td><td>Star White</td>
+          <td><span style="display:inline-block;width:3rem;height:1rem;background:var(--star-white);box-shadow:inset 0 0 0 1px var(--rule)"></span></td><td>Solid</td></tr>
+      <tr><td class="num">2</td><td>Fire</td><td>Ember</td>
+          <td><span class="tier-fire" style="position:relative;display:inline-block;width:3rem;height:1rem"><span class="l1a-bar" style="width:100%"></span></span></td><td>Hatched</td></tr>
+      <tr><td class="num">3</td><td>Paramedic</td><td>Line Blue</td>
+          <td><span class="tier-medic" style="position:relative;display:inline-block;width:3rem;height:1rem"><span class="l1a-bar" style="width:100%"></span></span></td><td>Dotted</td></tr>
+      <tr><td class="num">—</td><td>Locked</td><td>Slate</td>
+          <td><span style="display:inline-block;width:3rem;height:1rem;background:var(--slate)"></span></td><td>Solid, 40% gray</td></tr>
+    </table>
+  </section>
+
+  <!-- =========================== TYPE =========================== -->
+  <section>
+    <h2>Type</h2>
+    <table class="spec">
+      <tr><th>Role</th><th>Face</th><th>Fallback</th><th>Used for</th></tr>
+      <tr><td>Display</td><td>Oswald 500/600/700</td><td>Haettenschweiler → Arial Narrow Bold → Impact</td><td>Headings, card titles, stamps</td></tr>
+      <tr><td>Body</td><td>Inter 400–700</td><td>system-ui → Segoe UI → Helvetica</td><td>Everything you read</td></tr>
+      <tr><td>Mono</td><td>IBM Plex Mono 400/600</td><td>ui-monospace → SF Mono → Menlo</td><td>Doses, vitals, formulas, radio reports</td></tr>
+      <tr><td>Accessible</td><td>Atkinson Hyperlegible</td><td>Verdana</td><td>The dyslexia-friendly toggle</td></tr>
+    </table>
+
+    <p class="stage-label">Scale</p>
+    <div class="scale-row"><code>--fs-3xl 3rem</code><span style="font-family:var(--font-display);font-size:var(--fs-3xl);text-transform:uppercase">Climb to certified</span></div>
+    <div class="scale-row"><code>--fs-2xl 2.25rem</code><span style="font-family:var(--font-display);font-size:var(--fs-2xl);text-transform:uppercase">Rung 1 — EMT</span></div>
+    <div class="scale-row"><code>--fs-xl 1.75rem</code><span style="font-family:var(--font-display);font-size:var(--fs-xl);text-transform:uppercase">Airway, Respiration &amp; Ventilation</span></div>
+    <div class="scale-row"><code>--fs-lg 1.375rem</code><span style="font-family:var(--font-display);font-size:var(--fs-lg);text-transform:uppercase">Oxygen delivery</span></div>
+    <div class="scale-row"><code>--fs-md 1.125rem</code><span style="font-size:var(--fs-md)">Non-rebreather mask</span></div>
+    <div class="scale-row"><code>--fs-base 1rem</code><span style="font-size:var(--fs-base)">The reservoir must be inflated before the mask is applied.</span></div>
+    <div class="scale-row"><code>--fs-sm 0.875rem</code><span style="font-size:var(--fs-sm)">Secondary text, card summaries, captions.</span></div>
+    <div class="scale-row"><code>--fs-xs 0.75rem</code><span style="font-size:var(--fs-xs)">Footers, type labels, meta.</span></div>
+
+    <p class="stage-label">Numbers set in the mono face — tabular, so columns line up</p>
+    <table class="spec" style="max-width:26rem">
+      <tr><th>Device</th><th>Flow</th></tr>
+      <tr><td>Nasal cannula</td><td class="num">1–6 L/min</td></tr>
+      <tr><td>Non-rebreather</td><td class="num">10–15 L/min</td></tr>
+      <tr><td>Bag-valve-mask</td><td class="num">15 L/min</td></tr>
+    </table>
+
+    <p class="stage-label">Accessibility toggles — the app sets these on &lt;html&gt;</p>
+    <div class="toggles">
+      <button type="button" id="t-font" aria-pressed="false">Dyslexia-friendly font</button>
+      <button type="button" id="t-size" aria-pressed="false">Larger text</button>
+      <button type="button" id="t-mono" aria-pressed="false">Black &amp; white proof</button>
+    </div>
+  </section>
+
+  <!-- =========================== CARDS =========================== -->
+  <section>
+    <h2>Printed cards — 3×5 in, four up on Letter</h2>
+    <p class="lede">Two 3&nbsp;in columns with a 0.5&nbsp;in gutter, two 5&nbsp;in rows, inside a 0.5&nbsp;in page margin. Each card carries the stamp top-left, the tier bar down the left edge, the card type top-right, and the footer line across the bottom. Dashed trim boxes and corner ticks are the cut guides.</p>
+    <p class="lede"><b>Duplex:</b> print the fronts sheet, put the stack back in unturned, then print the backs sheet. The backs grid is mirrored left-to-right so a long-edge flip lands each back on its own front.</p>
+  </section>
+</div>
+
+<div class="paper-stage l1a-preview__chrome"><p class="stage-label" style="margin-top:0">Sheet 1 — fronts</p>
+
+<div class="l1a-sheet" id="sheet-fronts">
+
+  <div class="l1a-card tier-emt">
+    <div class="l1a-bar"></div>
+    <div class="l1a-card__head">
+      <span class="l1a-card__stamp"><svg viewBox="0 0 200 240" aria-hidden="true"><use href="#l1a-mark"/></svg>L1A</span>
+      <span class="l1a-card__type">Concept</span>
+    </div>
+    <h3 class="l1a-card__title">Non-rebreather mask</h3>
+    <p class="l1a-card__summary">The highest-concentration oxygen an EMT gives a patient who is still breathing on their own.</p>
+    <hr class="l1a-card__rule">
+    <div class="l1a-card__body">
+      <span class="l1a-highyield">High-yield</span>
+      <ul style="margin-top:.08in">
+        <li><span class="num">10–15 L/min</span></li>
+        <li>Delivers <span class="num">~90%</span> O₂</li>
+        <li>Reservoir must be inflated before applying</li>
+      </ul>
+    </div>
+    <p class="l1a-card__why">Why it matters: the wrong device on a patient who is breathing poorly wastes the only intervention you have.</p>
+    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 2 — Airway</span><span class="num">01</span></div>
+  </div>
+
+  <div class="l1a-card tier-emt">
+    <div class="l1a-bar"></div>
+    <div class="l1a-card__head">
+      <span class="l1a-card__stamp"><svg viewBox="0 0 200 240" aria-hidden="true"><use href="#l1a-mark"/></svg>L1A</span>
+      <span class="l1a-card__type">Numbers</span>
+    </div>
+    <h3 class="l1a-card__title">O₂ delivery at a glance</h3>
+    <p class="l1a-card__summary">EMT-scope devices, flow and concentration.</p>
+    <hr class="l1a-card__rule">
+    <table class="l1a-card__numbers">
+      <tr><th>Nasal cannula</th><td>1–6 L/min</td></tr>
+      <tr><th>Non-rebreather</th><td>10–15 L/min</td></tr>
+      <tr><th>NRB concentration</th><td>~90%</td></tr>
+      <tr><th>Bag-valve-mask</th><td>15 L/min</td></tr>
+    </table>
+    <p class="l1a-card__why">Why it matters: these four numbers are asked more ways than almost anything else in the airway domain.</p>
+    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 2 — Airway</span><span class="num">02</span></div>
+  </div>
+
+  <div class="l1a-card tier-emt">
+    <div class="l1a-bar"></div>
+    <div class="l1a-card__head">
+      <span class="l1a-card__stamp"><svg viewBox="0 0 200 240" aria-hidden="true"><use href="#l1a-mark"/></svg>L1A</span>
+      <span class="l1a-card__type">Mnemonic</span>
+    </div>
+    <h3 class="l1a-card__title">SAMPLE</h3>
+    <p class="l1a-card__summary">The history you take on every patient.</p>
+    <hr class="l1a-card__rule">
+    <table class="l1a-card__numbers">
+      <tr><th style="font-family:var(--font-mono);font-weight:600">S</th><td style="text-align:left">Signs and symptoms</td></tr>
+      <tr><th style="font-family:var(--font-mono);font-weight:600">A</th><td style="text-align:left">Allergies</td></tr>
+      <tr><th style="font-family:var(--font-mono);font-weight:600">M</th><td style="text-align:left">Medications</td></tr>
+      <tr><th style="font-family:var(--font-mono);font-weight:600">P</th><td style="text-align:left">Past medical history</td></tr>
+      <tr><th style="font-family:var(--font-mono);font-weight:600">L</th><td style="text-align:left">Last oral intake</td></tr>
+      <tr><th style="font-family:var(--font-mono);font-weight:600">E</th><td style="text-align:left">Events leading up</td></tr>
+    </table>
+    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 3 — Assessment</span><span class="num">03</span></div>
+  </div>
+
+  <div class="l1a-card tier-emt">
+    <div class="l1a-bar"></div>
+    <div class="l1a-card__head">
+      <span class="l1a-card__stamp"><svg viewBox="0 0 200 240" aria-hidden="true"><use href="#l1a-mark"/></svg>L1A</span>
+      <span class="l1a-card__type">Concept</span>
+    </div>
+    <h3 class="l1a-card__title">Negligence: the four elements</h3>
+    <p class="l1a-card__summary">All four must be present. Miss one and the claim fails.</p>
+    <hr class="l1a-card__rule">
+    <div class="l1a-card__body">
+      <ul>
+        <li><b>Duty to act</b></li>
+        <li><b>Breach</b> of that duty</li>
+        <li><b>Causation</b> — the breach caused the harm</li>
+        <li><b>Damages</b> — actual harm resulted</li>
+      </ul>
+    </div>
+    <p class="l1a-card__why">Why it matters: abandonment and refusal questions are really negligence questions wearing a different hat.</p>
+    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 1 — Preparatory</span><span class="num">04</span></div>
+  </div>
+
+</div>
+
+<p class="stage-label">Sheet 2 — backs, mirrored for a long-edge duplex flip</p>
+
+<div class="l1a-sheet l1a-sheet--backs" id="sheet-backs">
+  <div class="l1a-card tier-emt">
+    <div class="l1a-bar"></div>
+    <div class="l1a-card__head"><span class="l1a-card__type">Back · 01</span><span class="l1a-card__stamp"><svg viewBox="0 0 200 240" aria-hidden="true"><use href="#l1a-mark"/></svg>L1A</span></div>
+    <h3 class="l1a-card__title">Which patient?</h3>
+    <hr class="l1a-card__rule">
+    <div class="l1a-card__body"><p>A patient who is <b>breathing adequately on their own</b> and needs high-flow oxygen. A patient who is not moving enough air needs a bag-valve-mask instead.</p></div>
+    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 2 — Airway</span><span class="num">01</span></div>
+  </div>
+  <div class="l1a-card tier-emt">
+    <div class="l1a-bar"></div>
+    <div class="l1a-card__head"><span class="l1a-card__type">Back · 02</span><span class="l1a-card__stamp"><svg viewBox="0 0 200 240" aria-hidden="true"><use href="#l1a-mark"/></svg>L1A</span></div>
+    <h3 class="l1a-card__title">Set-up order</h3>
+    <hr class="l1a-card__rule">
+    <div class="l1a-card__body"><p>Regulator on, flow set, <span class="l1a-critical">reservoir inflated</span>, then the mask goes on the face.</p></div>
+    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 2 — Airway</span><span class="num">02</span></div>
+  </div>
+  <div class="l1a-card tier-emt">
+    <div class="l1a-bar"></div>
+    <div class="l1a-card__head"><span class="l1a-card__type">Back · 03</span><span class="l1a-card__stamp"><svg viewBox="0 0 200 240" aria-hidden="true"><use href="#l1a-mark"/></svg>L1A</span></div>
+    <h3 class="l1a-card__title">Pair it with</h3>
+    <hr class="l1a-card__rule">
+    <div class="l1a-card__body"><p><b>OPQRST</b> for the complaint itself. SAMPLE is the patient; OPQRST is the pain.</p></div>
+    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 3 — Assessment</span><span class="num">03</span></div>
+  </div>
+  <div class="l1a-card tier-emt">
+    <div class="l1a-bar"></div>
+    <div class="l1a-card__head"><span class="l1a-card__type">Back · 04</span><span class="l1a-card__stamp"><svg viewBox="0 0 200 240" aria-hidden="true"><use href="#l1a-mark"/></svg>L1A</span></div>
+    <h3 class="l1a-card__title">Memory hook</h3>
+    <hr class="l1a-card__rule">
+    <div class="l1a-card__body"><p><b>D-B-C-D.</b> Duty, Breach, Causation, Damages — in that order, because that is the order a claim has to prove them.</p></div>
+    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 1 — Preparatory</span><span class="num">04</span></div>
+  </div>
+</div>
+</div>
+
+<div class="wrap l1a-preview__chrome" style="padding-top:0">
+  <section>
+    <h2>Printed test page</h2>
+    <p class="lede">Same furniture at full-page scale: stamp top-left, tier bar down the left edge, footer across the bottom. No answer key on the printed sheet — rationales live in the app's review mode.</p>
+  </section>
+</div>
+
+<div class="paper-stage l1a-preview__chrome">
+<div class="l1a-page tier-emt" id="testpage">
+  <div class="l1a-bar"></div>
+  <div class="l1a-page__head">
+    <span class="l1a-page__stamp">
+      <svg viewBox="0 0 200 240" aria-hidden="true"><use href="#l1a-mark"/></svg>
+      <span>Ladder One Academy<small>Climb to certified</small></span>
+    </span>
+    <span>
+      <h1 class="l1a-page__title">Module 2 Exam</h1>
+      <p class="l1a-page__meta">Airway, Respiration &amp; Ventilation · 25 items · pass 80%</p>
+    </span>
+  </div>
+
+  <div class="l1a-page__fields">
+    <span>Name</span><span>Date</span><span>Attempt</span>
+  </div>
+
+  <div class="l1a-q">
+    <p class="l1a-q__stem"><span class="l1a-q__num">1.</span>You are treating an alert adult who is breathing on their own, moving adequate air, and needs high-flow oxygen. Which device do you reach for?</p>
+    <ol class="l1a-q__options">
+      <li>Nasal cannula</li><li>Non-rebreather mask</li><li>Bag-valve-mask</li><li>CPAP</li>
+    </ol>
+  </div>
+
+  <div class="l1a-q">
+    <p class="l1a-q__stem"><span class="l1a-q__num">2.</span>At what flow rate is a non-rebreather mask run?</p>
+    <ol class="l1a-q__options">
+      <li><span class="num">1–6 L/min</span></li><li><span class="num">6–10 L/min</span></li><li><span class="num">10–15 L/min</span></li><li><span class="num">15–25 L/min</span></li>
+    </ol>
+  </div>
+
+  <div class="l1a-q">
+    <p class="l1a-q__stem"><span class="l1a-q__num">3.</span>Which of the following is <b>NOT</b> one of the four elements of negligence?</p>
+    <ol class="l1a-q__options">
+      <li>Duty to act</li><li>Breach of duty</li><li>Consent</li><li>Damages</li>
+    </ol>
+  </div>
+
+  <div class="l1a-q">
+    <p class="l1a-q__stem"><span class="l1a-q__num">4.</span>Before a non-rebreather mask is placed on a patient's face, what must be done first?</p>
+    <ol class="l1a-q__options">
+      <li>Inflate the reservoir bag</li><li>Attach a humidifier</li><li>Confirm a pulse oximetry reading</li><li>Seat the patient upright</li>
+    </ol>
+  </div>
+
+  <div class="l1a-page__footer">
+    <span>Ladder One Academy · Rung 1 · EMT · Module 2 — Airway</span>
+    <span class="num">Page 1 of 1</span>
+  </div>
+</div>
+</div>
+
+<div class="wrap l1a-preview__chrome" style="padding-top:var(--space-8)">
+  <section>
+    <h2>What to check</h2>
+    <ul>
+      <li>Does the <b>A</b> read in the logo at 32px and 16px, or do the rails close up?</li>
+      <li>Is the EMT bar visible against white paper, or too faint to see?</li>
+      <li>Toggle <b>Black &amp; white proof</b> above — can you still tell the three tiers apart by pattern alone?</li>
+      <li>Print to PDF at 100% scale (not "fit to page") and measure a card. It should be exactly 3 × 5 in.</li>
+      <li>Fold the printed fronts sheet along the gutter — do the backs land where you expect?</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+  // Preview-only toggles. In the app these live in js/app.js and persist with progress.
+  const root = document.documentElement;
+  const bind = (id, on, off) => {
+    const b = document.getElementById(id);
+    b.addEventListener('click', () => {
+      const next = b.getAttribute('aria-pressed') !== 'true';
+      b.setAttribute('aria-pressed', String(next));
+      next ? on() : off();
+    });
+  };
+  bind('t-font',
+    () => root.setAttribute('data-font', 'hyperlegible'),
+    () => root.removeAttribute('data-font'));
+  bind('t-size',
+    () => root.setAttribute('data-text-size', 'xl'),
+    () => root.setAttribute('data-text-size', 'base'));
+  bind('t-mono',
+    () => document.querySelectorAll('.l1a-sheet, .l1a-page').forEach(n => n.classList.add('l1a-mono')),
+    () => document.querySelectorAll('.l1a-sheet, .l1a-page').forEach(n => n.classList.remove('l1a-mono')));
+</script>
+
+</body>
+</html>

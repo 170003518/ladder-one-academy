@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240" fill="currentColor" role="img" aria-labelledby="l1a-mono-title l1a-mono-desc">
+  <title id="l1a-mono-title">Ladder One Academy</title>
+  <desc id="l1a-mono-desc">Single-color version of the Ladder One Academy mark: an outlined shield holding a three-rung ladder whose rails form the letter A in negative space, with a six-point Star of Life above it.</desc>
+
+  <!-- One color throughout, inherited from the surrounding text color. For
+       print, black on white; the tier is carried by the color bar and the
+       footer line, not by the mark. -->
+  <path d="M100 6 L188 30 V132 C188 186 148 218 100 234 C52 218 12 186 12 132 V30 Z"
+        fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="93.5" y="37" width="13" height="50" rx="6.5"/>
+    <rect x="93.5" y="37" width="13" height="50" rx="6.5" transform="rotate(60 100 62)"/>
+    <rect x="93.5" y="37" width="13" height="50" rx="6.5" transform="rotate(120 100 62)"/>
+  </g>
+
+  <g>
+    <rect x="86.45" y="106.5" width="27.1" height="11" rx="2"/>
+    <rect x="76.45" y="142.5" width="47.1" height="11" rx="2"/>
+    <rect x="66.45" y="178.5" width="67.1" height="11" rx="2"/>
+    <polygon points="87,92 97,92 67,200 57,200"/>
+    <polygon points="113,92 103,92 133,200 143,200"/>
+  </g>
+</svg>

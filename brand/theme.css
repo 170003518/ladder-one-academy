@@ -1,0 +1,205 @@
+/* ==========================================================================
+   Ladder One Academy — theme.css
+   The single source of brand truth. Every renderer pulls from here: app shell,
+   card printer, worksheet generator, test pages. Nothing hardcodes a hex value.
+   Palette and type are locked in docs/master-plan.md §2.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+:root {
+  /* --- Brand palette ------------------------------------------------------ */
+  --navy:           #0F1F3D;  /* Turnout Navy — primary background, headers, shield */
+  --ember:          #F25C19;  /* Fire tier accent, CTAs, unlocked glow */
+  --line-blue:      #2E7DFF;  /* Paramedic tier accent, links */
+  --star-white:     #F5F7FA;  /* EMT tier accent, card backgrounds */
+  --signal-yellow:  #FFC72C;  /* Warnings, high-yield flags */
+  --slate:          #8A94A6;  /* Locked states, secondary text */
+
+  /* --- Tier colors --------------------------------------------------------
+     Rung 1 EMT = star white, Rung 2 Fire = ember, Rung 3 Paramedic = line blue.
+     --tier-color is rebound per scope by .tier-emt / .tier-fire / .tier-medic. */
+  --tier-emt:    var(--star-white);
+  --tier-fire:   var(--ember);
+  --tier-medic:  var(--line-blue);
+  --tier-locked: var(--slate);
+  --tier-color:  var(--tier-emt);
+
+  /* --- Navy ramp ----------------------------------------------------------
+     Derived from Turnout Navy. Used for app surfaces; print never uses these. */
+  --navy-900: #081328;
+  --navy-800: #0F1F3D;
+  --navy-700: #162C52;
+  --navy-600: #1E3A68;
+  --navy-500: #2A4A80;
+
+  /* --- Semantic tokens (app shell, dark by default) ----------------------- */
+  --bg:            var(--navy-900);
+  --surface:       var(--navy-800);
+  --surface-raised:var(--navy-700);
+  --border:        #24365C;
+  --text:          var(--star-white);
+  --text-muted:    var(--slate);
+  --text-inverse:  var(--navy);
+  --link:          var(--line-blue);
+  --accent:        var(--ember);
+  --warn:          var(--signal-yellow);
+  --focus-ring:    var(--signal-yellow);
+
+  /* --- Paper tokens (cards, worksheets, tests — always light) ------------- */
+  --paper:         #FFFFFF;
+  --paper-tint:    var(--star-white);
+  --ink:           var(--navy);
+  --ink-muted:     #5B657A;
+  --rule:          #C8D0DD;   /* hairlines on printed material */
+  --cut-guide:     #B9C0CC;   /* trim marks — light enough to ignore, dark enough to follow */
+
+  /* --- Type stacks --------------------------------------------------------
+     Google Fonts first, then a system fallback that keeps the same feel so a
+     failed font load degrades rather than breaks the layout. */
+  --font-heading: 'Oswald', 'Haettenschweiler', 'Arial Narrow Bold', 'Impact', sans-serif;
+  --font-body:    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  --font-a11y:    'Atkinson Hyperlegible', 'Comic Sans MS', Verdana, sans-serif;
+
+  /* Rebound by the accessibility toggle; everything else references these. */
+  --font-ui:      var(--font-body);
+  --font-display: var(--font-heading);
+
+  /* --- Type scale (1.25 ratio off a 1rem base) --------------------------- */
+  --fs-xs:   0.75rem;
+  --fs-sm:   0.875rem;
+  --fs-base: 1rem;
+  --fs-md:   1.125rem;
+  --fs-lg:   1.375rem;
+  --fs-xl:   1.75rem;
+  --fs-2xl:  2.25rem;
+  --fs-3xl:  3rem;
+
+  --lh-tight:  1.15;
+  --lh-snug:   1.35;
+  --lh-normal: 1.55;
+  --lh-loose:  1.75;
+
+  --tracking-wide:  0.06em;
+  --tracking-wider: 0.14em;   /* the ACADEMY lockup and card type labels */
+
+  /* --- Spacing (4px base) ------------------------------------------------ */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.5rem;
+  --space-6:  2rem;
+  --space-8:  3rem;
+  --space-10: 4rem;
+  --space-12: 6rem;
+
+  /* --- Shape & motion ---------------------------------------------------- */
+  --radius-sm: 3px;
+  --radius:    6px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  --shadow-1: 0 1px 2px rgba(8, 19, 40, 0.35);
+  --shadow-2: 0 4px 14px rgba(8, 19, 40, 0.45);
+  --glow-unlocked: 0 0 0 3px rgba(242, 92, 25, 0.35);
+
+  --transition: 160ms ease;
+
+  /* --- Print geometry (shared with print.css) ---------------------------- */
+  --card-w: 3in;
+  --card-h: 5in;
+  --card-pad: 0.22in;
+  --tier-bar-w: 0.18in;
+}
+
+/* --- Tier scoping ---------------------------------------------------------
+   Put .tier-emt / .tier-fire / .tier-medic on any container and everything
+   inside it — color bars, rung highlights, CTA accents — follows. */
+.tier-emt    { --tier-color: var(--tier-emt); }
+.tier-fire   { --tier-color: var(--tier-fire); }
+.tier-medic  { --tier-color: var(--tier-medic); }
+.tier-locked { --tier-color: var(--tier-locked); }
+
+/* --- Accessibility options (CLAUDE.md non-negotiables) --------------------
+   Set on <html> by js/app.js and persisted with the rest of progress state. */
+[data-font="hyperlegible"] { --font-ui: var(--font-a11y); --font-display: var(--font-a11y); }
+
+[data-text-size="base"] { font-size: 100%; }
+[data-text-size="lg"]   { font-size: 112.5%; }
+[data-text-size="xl"]   { font-size: 125%; }
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --transition: 0ms; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* --- Base ---------------------------------------------------------------- */
+html { font-size: 100%; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: var(--fs-base);
+  line-height: var(--lh-normal);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  margin: 0 0 var(--space-3);
+}
+
+h1 { font-size: var(--fs-2xl); }
+h2 { font-size: var(--fs-xl); }
+h3 { font-size: var(--fs-lg); }
+h4 { font-size: var(--fs-md); }
+
+p { margin: 0 0 var(--space-4); }
+
+a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+/* Numbers, doses, vitals, radio reports — tabular so columns line up. */
+.num, code, kbd, samp {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Keyboard navigation is a non-negotiable — never remove this. */
+:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* --- Shared brand bits ---------------------------------------------------- */
+.l1a-stamp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+}
+
+.l1a-highyield {
+  display: inline-block;
+  padding: 0.1em 0.55em;
+  border-radius: var(--radius-pill);
+  background: var(--signal-yellow);
+  color: var(--navy);
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}

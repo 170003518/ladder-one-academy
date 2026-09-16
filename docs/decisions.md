@@ -24,3 +24,16 @@
 - `progress.schema.json` is one format for both `localStorage` (`l1a.progress`) and the export file, so an export is a real backup. SRS state is SM-2 shaped (`interval_days`, `ease` 1.3–3.5, `due`, `last_result`, `confidence`).
 - Questions carry optional `source` (text, edition, page) and an optional `retired` object (`on`, `reason`). Retired questions are **never served** — not in lesson checks, module exams, mixed review, focus drills or simulations — but stay in the file so past attempt records still resolve to the item that was actually asked. Retire, never delete.
 - Questions and cards live in their own per-module files, not inside the module file: `content/<tier>/questions/<NN>-<slug>.json` and `content/<tier>/cards/<NN>-<slug>.json`, wrapped by `question-bank.schema.json` and `card-deck.schema.json`. At ~8 questions per concept a module's bank dwarfs its content; reading one lesson must not mean downloading every question in the module. Banks load on demand when a test starts.
+
+## 2026-09-15 — Brand kit (Phase 1, step 2)
+
+- `brand/theme.css` is the single source of brand truth: palette, tier colors, semantic tokens, paper tokens, type stacks, 1.25 type scale, 4px spacing scale, print geometry. No renderer hardcodes a hex value.
+- Monospace face: **IBM Plex Mono** (Google Fonts), for doses, vitals, formulas and radio reports. Set with `tabular-nums` so figures line up in columns.
+- Dyslexia-friendly option: **Atkinson Hyperlegible** (Google Fonts), toggled by `[data-font="hyperlegible"]` on `<html>`. Note this is *not* OpenDyslexic, which is not served by Google Fonts and would need self-hosting — swap it in later if Atkinson does not help.
+- Text-size option is `[data-text-size="base|lg|xl"]` on `<html>`, scaling the root font size so the whole rem-based scale moves together.
+- Logo: rails run from a 6px gap at the top to a 66px gap at the bottom; the triangle they enclose above the top rung is the A counter, and the top rung is its crossbar. Rungs carry ids `rung-1`/`rung-2`/`rung-3` so the app can light them as tiers unlock. Star of Life is star white, not the traditional blue — line blue is already spoken for by the Paramedic rung.
+- `logo-mono.svg` uses `fill="currentColor"` and an outlined shield, so a single-color print mark inherits the surrounding text color.
+- Print geometry: Letter, 0.5in margin → a 7.5 × 10in live area holding exactly two 3in columns with a 0.5in gutter and two 5in rows. Four cards per sheet.
+- Duplex: backs sheet uses `direction: rtl` on the grid to mirror columns for a **long-edge** flip. Print all fronts, reload the stack unturned, print all backs.
+- Black and white: the tier bar carries a pattern as well as a color — EMT solid, Fire hatched, Paramedic dotted — so a mono print is still unambiguous. `.l1a-mono` renders a grayscale proof on screen.
+- Print classes are deliberately **not** wrapped in `@media print`, so `brand/preview.html` can render real sheets on screen. Only page setup and chrome suppression live in the print block.
