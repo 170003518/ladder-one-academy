@@ -12,8 +12,10 @@
 
 import * as progress from './progress.js';
 import { renderLadder } from './ladder.js';
-import { renderLesson, markViewed, availableModes } from './lesson.js';
+import { renderLesson, markViewed, modesFor } from './lesson.js';
 import * as quiz from './quiz.js';
+import * as exam from './exam.js';
+import { renderPrintCard } from './print.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -24,11 +26,13 @@ const MODULE_FILES = {
   medic: []
 };
 const QUESTION_FILES = { 'EMT-02': 'content/emt/questions/02-airway.json' };
+const CARD_FILES     = { 'EMT-02': 'content/emt/cards/02-airway.json' };
 
 const app = {
   el: null,
   modulesByTier: { emt: [], fire: [], medic: [] },
   questionsByModule: {},
+  decksByModule: {},
   loadError: null,
   depth: 'plain'
 };
@@ -76,7 +80,36 @@ async function loadQuestions(moduleId) {
   return app.questionsByModule[moduleId];
 }
 
+/** Lazily pull a module's card deck. */
+async function loadDeck(moduleId) {
+  if (app.decksByModule[moduleId]) return app.decksByModule[moduleId];
+  const path = CARD_FILES[moduleId];
+  if (!path) return (app.decksByModule[moduleId] = { cards: [] });
+  try {
+    const res = await fetch(path, { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    app.decksByModule[moduleId] = await res.json();
+  } catch (err) {
+    console.error('[l1a] card deck:', err);
+    app.decksByModule[moduleId] = { cards: [] };
+  }
+  return app.decksByModule[moduleId];
+}
+
 /* --- Lookup --------------------------------------------------------------- */
+
+function findModule(moduleId) {
+  for (const mods of Object.values(app.modulesByTier)) {
+    const m = mods.find(x => x.id === moduleId);
+    if (m) return m;
+  }
+  return null;
+}
+
+function notFound(what) {
+  return `<section class="stub"><h1>Not found</h1><p>${what}</p>
+    <p><a class="back" href="#/">Back to the Ladder</a></p></section>`;
+}
 
 function findConcept(conceptId) {
   for (const mods of Object.values(app.modulesByTier)) {
@@ -99,6 +132,35 @@ async function route() {
   const hash = location.hash || '#/';
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean);
 
+  if (parts[0] === 'exam' && parts[1]) {
+    const mod = findModule(decodeURIComponent(parts[1]));
+    if (!mod) { ctx = null; app.el.innerHTML = notFound('No loaded module has that id.'); return done(); }
+    quiz.abandon();
+    const questions = await loadQuestions(mod.id);
+    ctx = { kind: 'exam', module: mod, questions };
+    app.el.innerHTML = shell(exam.renderExam(mod, questions));
+    return done();
+  }
+
+  if (parts[0] === 'print' && parts[1]) {
+    exam.abandon(); quiz.abandon();
+    const first = decodeURIComponent(parts[1]);
+    // #/print/<moduleId> opens the first card; #/print/card/<cardId> opens one.
+    let deck, card;
+    if (first === 'card' && parts[2]) {
+      const cardId = decodeURIComponent(parts[2]);
+      const moduleId = cardId.slice(0, cardId.indexOf('-', cardId.indexOf('-') + 1));
+      deck = await loadDeck(moduleId);
+      card = (deck.cards || []).find(c => c.id === cardId);
+    } else {
+      deck = await loadDeck(first);
+      card = (deck.cards || [])[0];
+    }
+    ctx = { kind: 'print' };
+    app.el.innerHTML = shell(renderPrintCard(card, deck));
+    return done();
+  }
+
   if (parts[0] === 'lesson' && parts[1]) {
     const conceptId = decodeURIComponent(parts[1]);
     const found = findConcept(conceptId);
@@ -109,27 +171,44 @@ async function route() {
         <p><a class="back" href="#/">Back to the Ladder</a></p></section>`;
       return done();
     }
+    exam.abandon();
     const questions = await loadQuestions(found.module.id);
-    const modes = availableModes(found.concept, questions.some(q => !q.retired && found.lesson.concepts.includes(q.concept_id)));
+    // The Quiz tab appears only when something can actually be served — the
+    // verify bar applies here exactly as it does in an exam. modesFor() is the
+    // single source of truth, shared with the renderer.
+    const modes = modesFor(found.concept, found.lesson, questions);
     const wanted = parts[2];
     const mode = modes.includes(wanted) ? wanted : (modes[0] || 'read');
 
-    // Leaving the lesson, or switching away from Quiz, throws away a running
-    // check rather than letting it silently resume later.
-    if (ctx && (ctx.lesson.id !== found.lesson.id || mode !== 'quiz')) quiz.abandon();
+    // Keep a running check alive only when we are staying in the same lesson AND
+    // still on the Quiz tab. Anything else — a different lesson, a different
+    // mode, or arriving from the exam or print route where ctx has no lesson at
+    // all — throws it away rather than letting it silently resume later.
+    if (ctx?.kind !== 'lesson' || ctx.lesson.id !== found.lesson.id || mode !== 'quiz') quiz.abandon();
 
-    ctx = { ...found, mode, depth: app.depth, questions };
-    app.el.innerHTML = renderLesson(ctx);
+    ctx = { kind: 'lesson', ...found, mode, depth: app.depth, questions };
+    app.el.innerHTML = shell(renderLesson(ctx));
     return done();
   }
 
   quiz.abandon();
+  exam.abandon();
   ctx = null;
-  app.el.innerHTML = renderLadder(progress.load(), {
+  app.el.innerHTML = shell(renderLadder(progress.load(), {
     modulesByTier: app.modulesByTier,
     loadError: app.loadError
-  });
+  }));
   done();
+}
+
+/* Dev mode gets a banner on every screen. Unverified content is barred
+   everywhere by default; if it is coming through, that has to be impossible
+   to miss. */
+function shell(html) {
+  const banner = progress.devMode()
+    ? `<div class="devbanner" role="status">DEV MODE — unverified content is being served. Nothing here is study material.</div>`
+    : '';
+  return banner + html;
 }
 
 function done() {
@@ -137,11 +216,18 @@ function done() {
   window.scrollTo(0, 0);
 }
 
+function examClock() {
+  const el = document.getElementById('exam-clock');
+  return el ? el.textContent : '';
+}
+
 /** Re-render the current view in place, without touching the hash. */
 function refresh() {
   if (!ctx) return route();
+  if (ctx.kind === 'exam') { app.el.innerHTML = shell(exam.renderExam(ctx.module, ctx.questions)); return; }
+  if (ctx.kind === 'print') return route();
   ctx.depth = app.depth;
-  app.el.innerHTML = renderLesson(ctx);
+  app.el.innerHTML = shell(renderLesson(ctx));
 }
 
 /* --- Events --------------------------------------------------------------- */
@@ -159,7 +245,8 @@ function wire() {
   /* Everything inside <main> is re-rendered constantly, so all of it is
      delegated from the container rather than bound to elements. */
   app.el.addEventListener('click', ev => {
-    const t = ev.target.closest('[data-depth], #mark-viewed, #quiz-start, [data-answer], [data-confidence], #quiz-again');
+    const t = ev.target.closest('[data-depth], #mark-viewed, #quiz-start, [data-answer], [data-confidence], #quiz-again, '
+      + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print');
     if (!t) return;
 
     if (t.dataset.depth) { app.depth = t.dataset.depth; return refresh(); }
@@ -183,6 +270,26 @@ function wire() {
       quiz.tag(t.dataset.confidence);
       return refresh();
     }
+
+    /* --- Module exam --- */
+    if (t.id === 'exam-start') {
+      exam.abandon();
+      // The clock ticks without a full re-render; repainting the paper every
+      // second would fight the radio buttons and lose scroll position.
+      exam.start(ctx.module, ctx.questions, () => {
+        const el = document.getElementById('exam-clock');
+        if (el) el.textContent = examClock();
+      });
+      return refresh();
+    }
+    if (t.dataset.examAnswer !== undefined) { exam.choose(Number(t.dataset.examAnswer)); return refresh(); }
+    if (t.dataset.examConfidence) { exam.tagAndAdvance(t.dataset.examConfidence); return refresh(); }
+    if (t.id === 'exam-review') { exam.toReview(); return refresh(); }
+    if (t.id === 'review-back') { exam.toResult(); return refresh(); }
+    if (t.id === 'review-prev') { exam.reviewGo(-1); return refresh(); }
+    if (t.id === 'review-next') { exam.reviewGo(1); return refresh(); }
+
+    if (t.id === 'do-print') { window.print(); return; }
   });
 
   app.el.addEventListener('change', ev => {
@@ -215,6 +322,22 @@ function wire() {
     file.value = '';
   });
 
+  const devBtn = document.getElementById('devmode');
+  const paintDev = () => {
+    const on = progress.devMode();
+    devBtn.setAttribute('aria-pressed', String(on));
+    devBtn.textContent = on ? 'Dev mode: on' : 'Dev mode: off';
+  };
+  devBtn.addEventListener('click', () => {
+    const on = progress.setDevMode(!progress.devMode());
+    paintDev();
+    say(on
+      ? 'Dev mode on — unverified content will be served.'
+      : 'Dev mode off — unverified content is barred again.');
+    route();
+  });
+  paintDev();
+
   document.getElementById('reset').addEventListener('click', () => {
     if (!confirm('Clear all progress on this device? Export first if you want a backup.')) return;
     progress.reset();
@@ -232,6 +355,16 @@ async function boot() {
   app.el = document.getElementById('main');
   app.el.innerHTML = '<p class="loading">Loading…</p>';
   progress.load();
+
+  // ?dev=1 / ?dev=0 flips the flag and drops out of the URL, so a link can turn
+  // it on without anyone having to open devtools.
+  const q = new URLSearchParams(location.search);
+  if (q.has('dev')) {
+    progress.setDevMode(q.get('dev') !== '0' && q.get('dev') !== 'false');
+    q.delete('dev');
+    const rest = q.toString();
+    history.replaceState(null, '', location.pathname + (rest ? '?' + rest : '') + location.hash);
+  }
   await loadContent();
   wire();
   await route();

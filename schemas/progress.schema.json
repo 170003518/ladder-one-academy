@@ -9,10 +9,10 @@
 
   "properties": {
     "export_version": {
-      "description": "Format version of this file. Import refuses a version it does not know rather than guessing at a migration.",
+      "description": "Format version of this file. Import refuses a version it does not know rather than guessing at a migration. 1.0.0 records are migrated forward on load by adding an empty question_history; anything else is set aside.",
       "type": "string",
-      "const": "1.0.0",
-      "default": "1.0.0"
+      "const": "1.1.0",
+      "default": "1.1.0"
     },
     "exported_at": {
       "description": "Set only when written to a file, never in localStorage. ISO 8601.",
@@ -140,6 +140,46 @@
         }
       },
       "default": {}
+    },
+
+    "question_history": {
+      "description": "Every answer ever given, newest last. This is the raw record the Focus List, weak-spot detection and any future FSRS-style scheduler are derived from - the per-concept summaries elsewhere in this file are rollups of it, not the source. Kept flat rather than nested under concepts so it can be filtered by context or date without walking the whole tree.",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question_id", "concept_id", "at", "context", "correct", "chosen", "confidence"],
+        "properties": {
+          "question_id": {
+            "description": "The item answered. Resolves into a question bank; a retired question still resolves, which is why questions are retired rather than deleted.",
+            "type": "string",
+            "pattern": "^(EMT|FIRE|MEDIC)-[0-9]{2}-[0-9]{2}-[0-9]{2}-Q[0-9]{3}$"
+          },
+          "concept_id": {
+            "description": "The question's primary concept, copied here so history can be filtered without loading the bank.",
+            "$ref": "#/$defs/concept_id"
+          },
+          "at": { "$ref": "#/$defs/timestamp" },
+          "context": {
+            "description": "Where the question was served. Retention means something different in a timed exam than in a focus drill, so the context travels with the answer.",
+            "type": "string",
+            "enum": ["lesson_check", "module_exam", "focus_drill", "simulation"]
+          },
+          "correct": { "type": "boolean" },
+          "chosen": {
+            "description": "Zero-based index into the question's options[] as they were presented.",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "confidence": {
+            "description": "Self-rated at the time of answering. A right answer tagged 'guessed' is the whole reason this is recorded - it looks identical to real knowledge in a score, and is not.",
+            "type": "string",
+            "enum": ["guessed", "unsure", "knew_it"]
+          }
+        }
+      }
     },
 
     "srs": {

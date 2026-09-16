@@ -25,6 +25,9 @@ const ATTEST_LABEL = {
    The logo is the progress indicator: a rung is dark slate until its tier
    opens. Geometry is identical to brand/logo.svg. */
 function markSVG(status) {
+  /* A rung lights as soon as its tier is UNLOCKED — not when it is complete.
+     Locked rungs are slate; the rails behind them are darker still so a lit
+     rung reads as lit even when it is star white. */
   const fill = (key, color) => (status[key] === 'locked' ? 'var(--slate)' : color);
   return `
   <svg class="mark" viewBox="0 0 200 240" role="img" aria-label="Ladder One Academy — ${
@@ -42,8 +45,8 @@ function markSVG(status) {
     <rect x="85.44" y="106.5" width="29.11" height="11" rx="2" fill="${fill('medic', 'var(--line-blue)')}"/>
     <rect x="75.44" y="142.5" width="49.11" height="11" rx="2" fill="${fill('fire', 'var(--ember)')}"/>
     <rect x="65.44" y="178.5" width="69.11" height="11" rx="2" fill="${fill('emt', 'var(--star-white)')}"/>
-    <polygon points="84.5,92 97.5,92 67.5,200 54.5,200" fill="#DCE3EC"/>
-    <polygon points="115.5,92 102.5,92 132.5,200 145.5,200" fill="#DCE3EC"/>
+    <polygon points="84.5,92 97.5,92 67.5,200 54.5,200" fill="var(--navy-500)"/>
+    <polygon points="115.5,92 102.5,92 132.5,200 145.5,200" fill="var(--navy-500)"/>
   </svg>`;
 }
 
@@ -88,7 +91,7 @@ export function nextIncomplete(state, modules) {
 
 /* --- Render --------------------------------------------------------------- */
 
-function tierCard(tier, status, { modules, progress, attested }) {
+function tierCard(tier, status, { modules, progress, attested, progressByModule }) {
   const locked = status === 'locked';
   const stateLabel = status === 'complete' ? 'Complete' : locked ? 'Locked' : 'In progress';
 
@@ -101,9 +104,18 @@ function tierCard(tier, status, { modules, progress, attested }) {
          <div class="bar" role="img" aria-label="${progress.pct}% complete">
            <span style="width:${progress.pct}%"></span>
          </div>
-         <ul class="modlist">${modules.map(m =>
-           `<li><span class="num">${String(m.number).padStart(2, '0')}</span> ${esc(m.title)}
-              <em>${m.lessons.length} lessons · ${m.concepts.length} concepts</em></li>`).join('')}</ul>`
+         <ul class="modlist">${modules.map(m => {
+           const ex = progressByModule[m.id] || {};
+           return `<li>
+             <span class="num">${String(m.number).padStart(2, '0')}</span> ${esc(m.title)}
+             <em>${m.lessons.length} lessons · ${m.concepts.length} concepts${
+               ex.best_pct != null ? ` · exam best <span class="num">${ex.best_pct}%</span>` : ''}${
+               ex.complete ? ' · <b>passed</b>' : ''}</em>
+             <span class="modlinks">
+               <a href="#/exam/${encodeURIComponent(m.id)}">Module exam</a>
+               <a href="#/print/${encodeURIComponent(m.id)}">Print a card</a>
+             </span>
+           </li>`; }).join('')}</ul>`
       : `<p class="meta">No modules built yet.</p>`;
 
   /* The self-attest override. Offered on the locked tier itself: attesting that
@@ -179,7 +191,8 @@ export function renderLadder(state, { modulesByTier, loadError }) {
       ${TIERS.map(t => tierCard(t, status[t.key], {
         modules: modulesByTier[t.key] || [],
         progress: progressByTier[t.key],
-        attested: isAttested(state, t.key)
+        attested: isAttested(state, t.key),
+        progressByModule: state.modules || {}
       })).join('')}
     </div>
   </section>`;

@@ -115,6 +115,17 @@
       }
     },
 
+    "verify": {
+      "description": "True = content on this card is unconfirmed. A flagged card prints with a verify mark and is kept out of the spaced-repetition deck: drilling an unverified fact is worse than not drilling it, because repetition is what makes it stick. Inherited from the parent concept unless set explicitly.",
+      "type": "boolean",
+      "default": false
+    },
+    "verify_notes": {
+      "description": "What needs checking. Expected whenever verify is true.",
+      "type": "string",
+      "maxLength": 600
+    },
+
     "media": {
       "description": "Media id from the parent concept's media[] to print on the card - a diagram or strip. Must be print_safe.",
       "$ref": "#/$defs/media_id"
@@ -131,6 +142,11 @@
     {
       "description": "Naming a side without media is meaningless.",
       "dependentRequired": { "side": ["media"] }
+    },
+    {
+      "description": "If it is flagged for verification, say what needs verifying.",
+      "if": { "properties": { "verify": { "const": true } }, "required": ["verify"] },
+      "then": { "required": ["verify_notes"] }
     }
   ],
 

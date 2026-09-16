@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-02",
+  "tier": "emt",
+  "cards": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-01-C01",
+      "concept_id": "EMT-02-01-01",
+      "type": "concept",
+      "front": {
+        "title": "Upper vs. lower airway",
+        "summary": "Why the airway is described in two halves."
+      },
+      "back": {
+        "body": "The airway is split into an upper and a lower section at a named landmark. Each half has its own characteristic set of problems, which is what makes the split worth knowing rather than trivia.",
+        "why_it_matters": "Structure names from one half are the standard distractors for the other."
+      },
+      "high_yield": false,
+      "number": 1,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-02-C02",
+      "concept_id": "EMT-02-01-02",
+      "type": "concept",
+      "front": {
+        "title": "Pediatric airway differences",
+        "summary": "A child is not a small adult."
+      },
+      "back": {
+        "body": "Several parts of a child's airway are proportioned differently from an adult's. Each difference changes something you physically do — how you position, how you size equipment, how you ventilate.",
+        "why_it_matters": "It is why pediatric airway questions have different right answers than the adult versions."
+      },
+      "high_yield": false,
+      "number": 2,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-01-C03",
+      "concept_id": "EMT-02-02-01",
+      "type": "concept",
+      "front": {
+        "title": "Head-tilt/chin-lift",
+        "summary": "The default manual airway maneuver."
+      },
+      "back": {
+        "body": "In an unresponsive patient the tongue is the most likely obstruction. This maneuver moves the jaw, and the tongue with it, off the back of the throat. It is the first choice when nothing about the mechanism raises a spinal concern.",
+        "why_it_matters": "Its one contraindication is the entire reason the other maneuver exists."
+      },
+      "high_yield": false,
+      "number": 3,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-02-C04",
+      "concept_id": "EMT-02-02-02",
+      "type": "compare",
+      "front": {
+        "title": "Head-tilt/chin-lift vs. jaw-thrust",
+        "summary": "Which maneuver, and why."
+      },
+      "back": {
+        "body": "Both open the airway. Head-tilt/chin-lift is the default when nothing about the mechanism suggests a spinal injury. Jaw-thrust is for when it does — it gets the jaw forward without the head movement the default requires.",
+        "why_it_matters": "Pick the maneuver that matches how the patient got hurt."
+      },
+      "high_yield": false,
+      "number": 4,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02-C05",
+      "concept_id": "EMT-02-03-02",
+      "type": "concept",
+      "front": {
+        "title": "Nasal cannula",
+        "summary": "The low-flow device."
+      },
+      "back": {
+        "body": "For a patient breathing adequately who needs modest supplemental oxygen. Comfortable and well tolerated, which is exactly why it gets chosen for patients who need far more than it can give.",
+        "why_it_matters": "On the exam it is the wrong answer whenever the patient needs high flow."
+      },
+      "high_yield": false,
+      "number": 5,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-03-C06",
+      "concept_id": "EMT-02-03-03",
+      "type": "concept",
+      "front": {
+        "title": "Non-rebreather mask",
+        "summary": "The high-flow device for a patient still breathing on their own."
+      },
+      "back": {
+        "body": "The reservoir fills while the patient exhales, so the next breath comes mostly from the bag rather than from room air. The reservoir has to be prepared before the mask goes on the face.",
+        "why_it_matters": "Using it on a patient who is not moving enough air is the classic error — that patient needs assisted ventilation."
+      },
+      "high_yield": true,
+      "number": 6,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+    }
+  ]
+}

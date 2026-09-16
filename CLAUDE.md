@@ -53,8 +53,14 @@ python3 -m http.server 8000
 
 then open `http://localhost:8000`. On Cloudflare Pages this is a non-issue; it is served over http already.
 
+**Dev mode.** Unverified content (`verify: true`) is barred from every question context — lesson checks,
+module exams, everything. While the bank is stubs that leaves the app empty, so dev mode lets flagged
+content through behind a banner on every screen. Toggle it in the footer, or open
+`http://localhost:8000/?dev=1` (`?dev=0` turns it off). It is stored under `l1a.devMode`, separately from
+progress, and defaults to off.
+
 ## Phase 1 (current)
 1. ~~Schemas in `/schemas/`.~~ Done — concept, module, question, question-bank, card, card-deck, progress.
 2. ~~`brand/theme.css`, `brand/logo.svg`, `brand/logo-mono.svg`, `brand/print.css`.~~ Done, with `brand/preview.html` to check them.
-3. Shell v1: Ladder home *(done)*, lesson view (Read + Quiz modes), module exam, print one card.
+3. ~~Shell v1: Ladder home, lesson view (Read + Quiz modes), module exam, print one card.~~ Done.
 4. `content/emt/02-airway.json` — currently a six-concept stub, all `verify: true`. Needs the real module built from the blueprint.

@@ -8,6 +8,7 @@
 
 import { load as loadProgress, update as updateProgress, isConceptComplete } from './progress.js';
 import { renderQuiz } from './quiz.js';
+import { isServable } from './bank.js';
 
 export const esc = s => String(s).replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -27,6 +28,16 @@ export const MODE_LABEL = {
  * driven by the question bank, not by concept.modes, because the bank is a
  * separate file and modes.quiz only ever holds configuration.
  */
+/**
+ * The tab list for one concept in one lesson. Single source of truth — the
+ * router and the renderer must never compute this differently, or the default
+ * tab and the visible tabs can disagree.
+ */
+export function modesFor(concept, lesson, questions) {
+  const hasServable = questions.some(q => isServable(q) && lesson.concepts.includes(q.concept_id));
+  return availableModes(concept, hasServable);
+}
+
 export function availableModes(concept, hasQuestions) {
   const present = MODE_ORDER.filter(m => m !== 'quiz' && concept.modes && concept.modes[m]);
   if (hasQuestions) {
@@ -94,7 +105,7 @@ function simpleMode(mode, concept) {
 export function renderLesson(ctx) {
   const { module: mod, lesson, concept, mode, depth, questions } = ctx;
   const state = loadProgress();
-  const modes = availableModes(concept, questions.length > 0);
+  const modes = modesFor(concept, lesson, questions);
   const active = modes.includes(mode) ? mode : (modes[0] || 'read');
 
   const ids = lesson.concepts;

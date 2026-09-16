@@ -12,7 +12,8 @@
    failing.
    ========================================================================== */
 
-import { update as updateProgress, load as loadProgress } from './progress.js';
+import { update as updateProgress, recordAnswer, devMode } from './progress.js';
+import { pickAcrossConcepts, withheldSummary } from './bank.js';
 
 const esc = s => String(s).replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -33,44 +34,13 @@ export function abandon() { run = null; }
 
 /* --- Selection ------------------------------------------------------------ */
 
-function shuffle(arr) {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
 /**
- * Pick the questions for a lesson check.
- * Retired items are never served — not here, not anywhere (question.schema.json).
- * Items flagged verify:true ARE served in a lesson check; they are barred only
- * from module exams and full simulations, which gate progression.
- * Spread across the lesson's concepts rather than clustering on one.
+ * Pick the questions for a lesson check. The rule about what may be served
+ * lives in bank.js — retired never, unverified only in dev mode — so the
+ * lesson check and the module exam cannot drift apart.
  */
 export function selectQuestions(lesson, allQuestions, poolSize) {
-  const byConcept = new Map();
-  for (const id of lesson.concepts) byConcept.set(id, []);
-
-  for (const q of allQuestions) {
-    if (q.retired) continue;
-    if (byConcept.has(q.concept_id)) byConcept.get(q.concept_id).push(q);
-  }
-
-  const pools = [...byConcept.values()].map(shuffle);
-  const picked = [];
-  let round = 0;
-  while (picked.length < poolSize) {
-    let took = false;
-    for (const pool of pools) {
-      if (pool[round]) { picked.push(pool[round]); took = true; }
-      if (picked.length >= poolSize) break;
-    }
-    if (!took) break;   // every pool exhausted
-    round++;
-  }
-  return shuffle(picked);
+  return pickAcrossConcepts(lesson.concepts, allQuestions, poolSize);
 }
 
 /* --- Lifecycle ------------------------------------------------------------ */
@@ -100,11 +70,17 @@ export function answer(index) {
 export function tag(confidence) {
   if (!run || run.stage !== 'rationale') return;
   const q = run.questions[run.i];
-  run.answers.push({
+  const correct = run.chosen === q.correct_index;
+  run.answers.push({ questionId: q.id, conceptId: q.concept_id, chosen: run.chosen, correct, confidence });
+
+  // Every answer goes into question_history the moment it is tagged, not at the
+  // end of the run — abandoning a check should not erase what was answered.
+  recordAnswer({
     questionId: q.id,
     conceptId: q.concept_id,
+    context: 'lesson_check',
+    correct,
     chosen: run.chosen,
-    correct: run.chosen === q.correct_index,
     confidence
   });
   run.chosen = null;
@@ -171,20 +147,29 @@ export function renderQuiz(ctx) {
   const cfg = { ...DEFAULTS, ...(concept.modes?.quiz || {}) };
 
   if (!run || run.lessonId !== lesson.id) {
-    const available = questions.filter(q => !q.retired && lesson.concepts.includes(q.concept_id)).length;
-    if (!available) {
-      return `<div class="stub-box"><h2>No questions yet</h2>
-        <p>The bank has nothing for this lesson.</p></div>`;
+    const held = withheldSummary(questions, lesson.concepts);
+    if (!held.servable) {
+      return `<div class="stub-box"><h2>No questions available</h2>
+        ${held.unverified
+          ? `<p><span class="num">${held.unverified}</span> question${held.unverified === 1 ? ' is' : 's are'} written for this
+             lesson but flagged <code>verify: true</code>, so ${held.unverified === 1 ? 'it is' : 'they are'} not served.
+             Unverified content is barred from every question context.</p>
+             <p class="quiz-note">Turn on dev mode in the footer to work with stub content.</p>`
+          : `<p>The bank has nothing for this lesson.</p>`}
+      </div>`;
     }
+    const available = held.servable;
     return `
     <div class="quiz-intro">
       <h2>Lesson check</h2>
       <p>${Math.min(cfg.pool_size, available)} questions drawn across all
          <span class="num">${lesson.concepts.length}</span> concepts in
          <b>${esc(lesson.title)}</b>. Pass is <span class="num">${cfg.pass_pct}%</span>.</p>
-      <p class="quiz-note">Every question in this bank is flagged <code>verify: true</code> — placeholder
-         items written from the stub key points. They are fine for wiring up the check; they are not
-         study material.</p>
+      ${devMode() && held.unverified
+        ? `<p class="quiz-note">Dev mode is on, so <span class="num">${held.unverified}</span> unverified
+             question${held.unverified === 1 ? '' : 's'} ${held.unverified === 1 ? 'is' : 'are'} being served.
+             Placeholder items written from the stub key points — fine for wiring up the check, not study material.</p>`
+        : ''}
       <button type="button" class="cta" id="quiz-start">Start the check</button>
     </div>`;
   }
