@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-02",
+  "tier": "emt",
+  "number": 2,
+  "title": "Airway, Respiration & Ventilation",
+  "short_title": "Airway",
+  "domain_weighting": { "AIR": 100 },
+  "exam": { "length": 25, "pass_pct": 80, "retake_after_hours": 24 },
+
+  "lessons": [
+    {
+      "id": "EMT-02-01",
+      "title": "Airway anatomy and physiology",
+      "concepts": ["EMT-02-01-01", "EMT-02-01-02"]
+    },
+    {
+      "id": "EMT-02-02",
+      "title": "Opening and maintaining the airway",
+      "concepts": ["EMT-02-02-01", "EMT-02-02-02"]
+    },
+    {
+      "id": "EMT-02-03",
+      "title": "Oxygen delivery",
+      "concepts": ["EMT-02-03-02", "EMT-02-03-03"]
+    }
+  ],
+
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-01",
+      "title": "Upper vs. lower airway structures",
+      "domain": "AIR",
+      "difficulty": 1,
+      "key_points": [
+        "The airway is described in two halves, upper and lower, and the dividing landmark is a named structure",
+        "Each half has a characteristic set of problems, which is why the split is worth knowing",
+        "Structure names appear in questions as distractors for one another"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Air has to travel a route from the outside world down into the lungs. That route is divided into an upper section and a lower section, and knowing which structures belong to which half is what lets you predict where a problem is and what it will sound like."
+        }
+      },
+      "verify": true,
+      "verify_notes": "Stub. The dividing landmark, the full structure list for each half, and the characteristic problems of each half are all unwritten. Nothing here has been checked against a source text. Fill from AAOS Emergency Care and confirm the structure list against the current National EMS Education Standards."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-02",
+      "title": "Pediatric airway differences",
+      "domain": "AIR",
+      "difficulty": 2,
+      "key_points": [
+        "A child's airway differs from an adult's in several specific, testable ways",
+        "Each anatomical difference changes how you position, size equipment, and ventilate",
+        "This concept is the reason pediatric airway questions have different right answers than adult ones"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A child is not a small adult. Several parts of the airway are proportioned differently, and each of those differences changes something you physically do at the head of the stretcher. The exam tests the differences by making you pick the pediatric-specific action."
+        }
+      },
+      "verify": true,
+      "verify_notes": "Stub. The specific anatomical differences, the ages at which they stop applying, and the positioning and equipment-sizing changes that follow from each are all unwritten. No numbers, no ages, no equipment sizes have been entered. Fill from AAOS Emergency Care and the current pediatric airway guidance."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-01",
+      "title": "Head-tilt/chin-lift",
+      "domain": "AIR",
+      "difficulty": 1,
+      "key_points": [
+        "This is the default manual airway maneuver when there is no reason to suspect a spinal injury",
+        "It has a specific contraindication, which is the whole reason the other maneuver exists",
+        "The exam pairs it with jaw-thrust to test whether you pick the maneuver that matches the mechanism"
+      ],
+      "modes": {
+        "read": {
+          "plain": "When someone is unresponsive, the tongue is the thing most likely to be blocking the airway. This maneuver moves the jaw, and with it the tongue, off the back of the throat. It is the first thing you do on a patient whose mechanism does not make you worry about the spine."
+        }
+      },
+      "verify": true,
+      "verify_notes": "Stub. The step-by-step technique, hand placement, and the exact contraindication wording are unwritten, and no skill-sheet steps have been entered. Fill from AAOS Emergency Care and cross-check against the NREMT airway skill sheet before this feeds a Skill card."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-02",
+      "title": "Jaw-thrust: when and why",
+      "domain": "AIR",
+      "difficulty": 2,
+      "key_points": [
+        "This is the maneuver you use when the mechanism makes a spinal injury plausible",
+        "It opens the airway without the movement that the default maneuver requires",
+        "Choosing between this and head-tilt/chin-lift is driven entirely by the mechanism of injury"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Sometimes you need the airway open but the way the patient got hurt means you do not want to move their neck. This maneuver gets the jaw forward while leaving the head where it is. Deciding between this and the default one is a mechanism question, not an airway question."
+        }
+      },
+      "verify": true,
+      "verify_notes": "Stub. Technique, hand placement, the mechanisms that trigger it, and how it interacts with current spinal motion restriction guidance are all unwritten. Spinal guidance has changed in recent years, so confirm against current standards rather than an older text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02",
+      "title": "Nasal cannula",
+      "domain": "AIR",
+      "difficulty": 1,
+      "key_points": [
+        "A low-flow device for a patient who is breathing adequately and needs modest supplemental oxygen",
+        "It has a flow range, and going above that range causes a specific problem rather than helping",
+        "Its place in the exam is as the wrong answer when the patient needs high-flow oxygen"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This is the two-prong tube that sits under the nose. It is for a patient who is breathing fine on their own and just needs a little more oxygen than room air. It is comfortable and well tolerated, which is exactly why it gets chosen wrongly for patients who need far more."
+        }
+      },
+      "verify": true,
+      "verify_notes": "Stub. Flow range, delivered oxygen concentration, and the reason for the upper flow limit are all unwritten - no numbers have been entered. Fill from AAOS Emergency Care and confirm against current oxygen-administration guidance."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-03",
+      "title": "Non-rebreather mask",
+      "domain": "AIR",
+      "difficulty": 1,
+      "high_yield": true,
+      "key_points": [
+        "The high-flow device for a patient who is still breathing adequately on their own",
+        "The reservoir has to be prepared before the mask goes on the face",
+        "Using it on a patient who is not moving enough air is the classic error - that patient needs assisted ventilation instead"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This is the mask with the bag hanging off it. The bag fills with oxygen while the patient breathes out, so their next breath comes mostly from the bag instead of from room air. It is the most oxygen an EMT can give someone who is still breathing on their own."
+        }
+      },
+      "verify": true,
+      "verify_notes": "Stub. Flow rate and delivered concentration are deliberately not entered - docs/emt-blueprint.md quotes figures but they have not been checked against a source text, and this concept must not ship numbers until they are. Fill from AAOS Emergency Care and confirm against current oxygen-administration guidance."
+    }
+  ]
+}

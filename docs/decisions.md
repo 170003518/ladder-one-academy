@@ -41,3 +41,16 @@
 - **Tier bar textures reassigned.** EMT = star white fill with a fine navy diagonal hatch (star white on white paper is otherwise invisible); Fire = solid ember; Paramedic = line blue, dotted. This supersedes the "solid / hatched / dotted" reading of master-plan §2, where the hatch sat on Fire. Textures live in `brand/print.css` only — `theme.css` carries the colors, not the textures.
 - Star of Life redrawn as six straight bars with flat square ends crossing at the center (three rects at 0/60/120 degrees, no corner radius). Size and position unchanged.
 - Ladder rails thickened from 10 to 13 units in **both** logo files — they were already geometrically identical; the colour version only *looked* thinner because `#C9D2E0` on navy is far lower contrast than solid `currentColor` on white. Rails also lightened to `#DCE3EC`. Rung widths recomputed so they still meet the rail centre lines. The two marks stay interchangeable.
+
+## 2026-09-15 — Shell v1: Ladder home (Phase 1, step 3)
+
+- **Hash routing** (`#/`, `#/lesson/:conceptId`). No server rewrites needed, which is what a static Pages deploy wants. Unknown routes fall back to the Ladder.
+- `js/progress.js` is the only module that touches `localStorage`. One key, `l1a.progress`, holding exactly the `progress.schema.json` shape — verified: a populated runtime record validates against the schema with zero errors.
+- A progress record that cannot be parsed, or that carries an unknown `export_version`, is **set aside under `l1a.progress.broken`** and a fresh record is started. Never overwrite a record we failed to understand, and never guess at a migration.
+- **Gating is recomputed from the rules on every render**, never trusted from stored `status`. The stored value is a cache; `tierStatus()` is the truth. A hand-edited import cannot unlock a tier it has not earned.
+- **Self-attest lives on the tier being unlocked**, not the tier being skipped — checking it on the Fire card means "I'm already a certified EMT", and it opens Fire only. Paramedic stays locked. Labelled on screen as the honour system, because for a single user that is exactly what it is.
+- The **logo is the progress indicator**: `ladder.js` renders the mark inline with rung fills driven by unlock status, locked rungs in `--slate`. Confirmed working — attesting Fire turns the middle rung ember without a reload.
+- **Continue** resolves to the first incomplete concept in lesson order across loaded modules, and routes to `#/lesson/<id>`. With no lesson view yet, that route renders a stub that still resolves the concept, lesson and module, so the wiring is visibly real.
+- `MODULE_FILES` in `app.js` is the manifest of built modules. The Ladder reports "N of 11 modules built" from it rather than pretending the tier is complete.
+- Tier completion deliberately requires all 11 EMT modules, so EMT cannot read as complete off one stub module.
+- `content/emt/02-airway.json` is a **stub**: 3 lessons, 6 concepts, only `title`, `key_points` and `modes.read.plain` filled. Every concept is `verify: true` with notes naming exactly what is missing. No flow rates, concentrations, ages or equipment sizes have been entered anywhere — the blueprint quotes some figures, but they have not been checked against a source text, so they stay out.

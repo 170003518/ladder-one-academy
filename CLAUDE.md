@@ -43,8 +43,18 @@ docs/                   master-plan.md, emt-blueprint.md, decisions.md
 - Keep `docs/decisions.md` updated with any architecture or content decision made in a session.
 - Do not add dependencies without asking. Vanilla first.
 
+## Running locally
+The shell uses ES modules and `fetch` for content, so `file://` will not work — the browser
+blocks both. Serve the folder over http from the repo root:
+
+```
+python3 -m http.server 8000
+```
+
+then open `http://localhost:8000`. On Cloudflare Pages this is a non-issue; it is served over http already.
+
 ## Phase 1 (current)
-1. Schemas in `/schemas/`.
-2. `brand/theme.css`, `brand/logo.svg`, `brand/print.css`.
-3. Shell v1: Ladder home, lesson view (Read + Quiz modes), module exam, print one card.
-4. `content/emt/02-airway.json` — first real module, built from the blueprint.
+1. ~~Schemas in `/schemas/`.~~ Done — concept, module, question, question-bank, card, card-deck, progress.
+2. ~~`brand/theme.css`, `brand/logo.svg`, `brand/logo-mono.svg`, `brand/print.css`.~~ Done, with `brand/preview.html` to check them.
+3. Shell v1: Ladder home *(done)*, lesson view (Read + Quiz modes), module exam, print one card.
+4. `content/emt/02-airway.json` — currently a six-concept stub, all `verify: true`. Needs the real module built from the blueprint.
