@@ -1,0 +1,528 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ladderoneacademy.local/schemas/concept.schema.json",
+  "title": "L1A Concept",
+  "description": "One concept ID from the tier blueprint. The content spine: every lesson, card, question, worksheet and media asset hangs off one of these. See docs/emt-blueprint.md 'Concept spec' and docs/master-plan.md 5, 6, 7, 10.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "domain", "difficulty", "key_points"],
+
+  "properties": {
+    "schema_version": {
+      "description": "Version of this schema the record was authored against.",
+      "type": "string",
+      "const": "1.0.0",
+      "default": "1.0.0"
+    },
+
+    "id": {
+      "description": "Concept ID: TIER-MM-LL-CC. Example EMT-02-03-04 = EMT tier, module 02 Airway, lesson 03 Oxygen delivery, concept 04 Non-rebreather mask.",
+      "type": "string",
+      "pattern": "^(EMT|FIRE|MEDIC)-[0-9]{2}-[0-9]{2}-[0-9]{2}$"
+    },
+    "title": {
+      "description": "Short human title, sentence case. Appears as the lesson heading and the card title.",
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "domain": {
+      "description": "NREMT/exam domain tag, so exams can be weighted like the real thing. Preparatory, assessment and pharmacology concepts take whichever domain they feed. This enum is EMT-only and will be extended with the Fire (NFPA 1001 / Florida BFST) and Paramedic domain tags when those tiers begin.",
+      "type": "string",
+      "enum": ["AIR", "CARD", "TRAU", "MED", "OPS"]
+    },
+    "difficulty": {
+      "description": "1 = foundational, 3 = typical exam level, 5 = hardest application/scenario. Feeds question selection and SRS initial interval.",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "high_yield": {
+      "description": "Known exam favorite. Renders the Signal Yellow high-yield flag on cards and weights the concept up in focus drills.",
+      "type": "boolean",
+      "default": false
+    },
+
+    "prereqs": {
+      "description": "Concept IDs that should be complete before this one. Used to order lessons and to explain a locked item.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/concept_id" },
+      "uniqueItems": true,
+      "default": []
+    },
+    "related": {
+      "description": "Concept IDs worth linking sideways to. Not gating; powers 'see also' and interleaved review.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/concept_id" },
+      "uniqueItems": true,
+      "default": []
+    },
+
+    "key_points": {
+      "description": "The canonical facts. Every mode ends with this same Key Points box, and cards plus Teach It Back checks are generated from it. Keep each one atomic.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 3, "maxLength": 240 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "misconceptions": {
+      "description": "What learners get wrong, phrased as the wrong belief or the wrong action. Feeds distractor writing and Quiz It explanations.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 3, "maxLength": 240 },
+      "uniqueItems": true,
+      "default": []
+    },
+    "exam_favorites": {
+      "description": "The angles this concept is actually tested from. Drives question_targets and the high-yield flag.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 3, "maxLength": 240 },
+      "uniqueItems": true,
+      "default": []
+    },
+
+    "modes": {
+      "description": "The 8 learning modes. All optional so a concept can ship in Read + Quiz for Phase 1 and gain modes later; the app only renders the tabs that are present.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "read": {
+          "description": "Mode 1 - Read. Layered textbook explanation. Plain English is the Phase 1 minimum; standard and deep unlock the depth toggle.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["plain"],
+          "properties": {
+            "plain": { "type": "string", "minLength": 20 },
+            "standard": { "type": "string", "minLength": 20 },
+            "deep": { "type": "string", "minLength": 20 }
+          }
+        },
+        "eli_new": {
+          "description": "Mode 2 - Explain Like I'm New. Analogy-first version for when the standard text bounces off.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["body"],
+          "properties": {
+            "analogy": {
+              "description": "The one-line hook, e.g. 'Preload is how full the balloon is before you squeeze it.'",
+              "type": "string",
+              "maxLength": 240
+            },
+            "body": { "type": "string", "minLength": 20 }
+          }
+        },
+        "see": {
+          "description": "Mode 3 - See It. Ordered list of media ids from this concept's media[] array: diagrams, labeled anatomy, flowcharts, algorithm trees, ECG strips, equipment photos.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/media_id" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "hear": {
+          "description": "Mode 4 - Hear It. Default is browser text-to-speech over the script (decisions.md, Sept 15 2026); a pre-rendered file may override it.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["source"],
+          "properties": {
+            "source": { "type": "string", "enum": ["tts", "file"] },
+            "script": {
+              "description": "What gets spoken. If omitted with source 'tts', the app narrates modes.read.standard, falling back to modes.read.plain.",
+              "type": "string",
+              "minLength": 20
+            },
+            "audio": {
+              "description": "Media id of the audio asset. Required when source is 'file'.",
+              "$ref": "#/$defs/media_id"
+            }
+          },
+          "allOf": [
+            {
+              "if": { "properties": { "source": { "const": "file" } }, "required": ["source"] },
+              "then": { "required": ["audio"] }
+            }
+          ]
+        },
+        "do": {
+          "description": "Mode 5 - Do It. Names an interaction the app knows how to render and hands it this concept's data. Code never hardcodes the content.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["activity", "type"],
+          "properties": {
+            "activity": {
+              "description": "Stable slug for the interaction instance, e.g. 'select_device_scenario'.",
+              "type": "string",
+              "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+            },
+            "type": {
+              "description": "Which renderer in js/ handles it.",
+              "type": "string",
+              "enum": ["drag_order", "click_the_anatomy", "build_the_algorithm", "select_device", "virtual_patient", "sort_into_buckets", "label_the_diagram"]
+            },
+            "prompt": { "type": "string", "maxLength": 400 },
+            "config": {
+              "description": "Renderer-specific payload. Shape is owned by the matching module in js/.",
+              "type": "object"
+            }
+          }
+        },
+        "quiz": {
+          "description": "Mode 6 - Quiz It. The lesson check. Questions live in the question bank and are pulled by concept ID; list ids here only to pin a specific set.",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "question_ids": {
+              "type": "array",
+              "items": { "type": "string" },
+              "uniqueItems": true
+            },
+            "pool_size": {
+              "description": "How many questions to draw for the lesson check (master-plan 7: 5-10).",
+              "type": "integer",
+              "minimum": 3,
+              "maximum": 20,
+              "default": 5
+            },
+            "pass_pct": {
+              "description": "Lesson-complete threshold. 80 per the gating rules in master-plan 8.",
+              "type": "integer",
+              "minimum": 50,
+              "maximum": 100,
+              "default": 80
+            }
+          }
+        },
+        "teach": {
+          "description": "Mode 7 - Teach It Back. Learner explains it in their own words; the app checks the response against must_hit.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["prompt", "must_hit"],
+          "properties": {
+            "prompt": { "type": "string", "minLength": 10, "maxLength": 400 },
+            "must_hit": {
+              "description": "Each entry is one idea the explanation has to contain, with the accepted wordings for a simple keyword match.",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["point", "accept"],
+                "properties": {
+                  "point": { "type": "string", "minLength": 3, "maxLength": 240 },
+                  "accept": {
+                    "type": "array",
+                    "items": { "type": "string", "minLength": 2 },
+                    "minItems": 1,
+                    "uniqueItems": true
+                  }
+                }
+              }
+            },
+            "model_answer": {
+              "description": "Shown after the learner submits, never before.",
+              "type": "string",
+              "minLength": 20
+            }
+          }
+        },
+        "story": {
+          "description": "Mode 8 - Story It. A short realistic call narrative from dispatch to handoff that carries the concept.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["body"],
+          "properties": {
+            "title": { "type": "string", "maxLength": 80 },
+            "dispatch": {
+              "description": "The dispatch line that opens the narrative, e.g. 'Engine 1, Rescue 1 - 62-year-old male, difficulty breathing.'",
+              "type": "string",
+              "maxLength": 240
+            },
+            "body": { "type": "string", "minLength": 40 }
+          }
+        }
+      }
+    },
+
+    "cards": {
+      "description": "Which note-card types this concept generates for the curated deck and the SRS deck (master-plan 6).",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["concept", "drug", "skill", "numbers", "algorithm", "mnemonic", "compare"]
+      },
+      "uniqueItems": true,
+      "default": ["concept"]
+    },
+
+    "card_data": {
+      "description": "Structured payload for the card types listed in cards[]. Every leaf is a string so nothing is silently coerced and printed wrong; the card renderer lays these out, it never parses prose. Include only the sub-object matching a type in cards[]. Values here are clinical content - fill them from a reviewed source, or leave the field out and set verify.",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "drug": {
+          "description": "Drug Card. EMT scope is assist/administer only - see docs/emt-blueprint.md module 09. Never write a dose that is not in the reviewed source; omit the field and set verify instead.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["generic", "class", "scope"],
+          "properties": {
+            "generic": { "description": "Generic name.", "type": "string", "minLength": 2, "maxLength": 80 },
+            "trade": { "description": "Common trade name(s), comma separated.", "type": "string", "maxLength": 120 },
+            "class": { "description": "Pharmacologic class.", "type": "string", "minLength": 2, "maxLength": 80 },
+            "indications": { "$ref": "#/$defs/string_list" },
+            "contraindications": { "$ref": "#/$defs/string_list" },
+            "dose_adult": { "description": "Adult dose exactly as the reviewed source words it, units included.", "type": "string", "maxLength": 240 },
+            "dose_peds": { "description": "Pediatric dose exactly as the reviewed source words it, units included. Omit where no pediatric dose applies.", "type": "string", "maxLength": 240 },
+            "route": { "description": "Route(s) of administration.", "type": "string", "maxLength": 120 },
+            "onset": { "description": "Onset, and duration where the source gives it.", "type": "string", "maxLength": 120 },
+            "side_effects": { "$ref": "#/$defs/string_list" },
+            "scope": { "description": "Who may give it and how, e.g. which level administers versus assists. Renders as the scope flag on the card.", "type": "string", "minLength": 2, "maxLength": 120 }
+          }
+        },
+        "numbers": {
+          "description": "Numbers Card. Vitals ranges, scores, formulas, intervals. Rendered in the monospace face so figures line up.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "value"],
+            "properties": {
+              "label": { "description": "What the figure is, e.g. the measurement and the population it applies to.", "type": "string", "minLength": 2, "maxLength": 120 },
+              "value": { "description": "The figure or range as a string, so a range, an inequality or a formula all round-trip unchanged.", "type": "string", "minLength": 1, "maxLength": 80 },
+              "unit": { "type": "string", "maxLength": 32 },
+              "note": { "description": "Caveat or condition attached to this figure.", "type": "string", "maxLength": 200 }
+            }
+          }
+        },
+        "skill": {
+          "description": "Skill Card. The numbered checklist, in order. Critical steps print in Signal Yellow - these are the ones that fail a station.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["steps"],
+          "properties": {
+            "sheet": { "description": "Which skill sheet this tracks, e.g. the NREMT or Florida station name.", "type": "string", "maxLength": 120 },
+            "steps": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["text", "critical"],
+                "properties": {
+                  "text": { "description": "One step, imperative voice.", "type": "string", "minLength": 3, "maxLength": 240 },
+                  "critical": { "description": "True = critical criterion. Missing it fails the station.", "type": "boolean" },
+                  "note": { "description": "Common fail point or examiner cue.", "type": "string", "maxLength": 240 }
+                }
+              }
+            }
+          }
+        },
+        "mnemonic": {
+          "description": "Mnemonic Card. The acronym and what each letter stands for, in order.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["acronym", "expansion"],
+          "properties": {
+            "acronym": { "type": "string", "minLength": 2, "maxLength": 40 },
+            "expansion": {
+              "description": "One entry per letter, in acronym order.",
+              "type": "array",
+              "minItems": 2,
+              "items": { "type": "string", "minLength": 1, "maxLength": 160 }
+            },
+            "memory_image": { "description": "The picture to hang it on.", "type": "string", "maxLength": 240 }
+          }
+        },
+        "compare": {
+          "description": "Compare Card. Two easily-confused things side by side. Every row fills both sides so the columns stay parallel in print.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["left_label", "right_label", "rows"],
+          "properties": {
+            "left_label": { "type": "string", "minLength": 1, "maxLength": 60 },
+            "right_label": { "type": "string", "minLength": 1, "maxLength": 60 },
+            "rows": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["feature", "left", "right"],
+                "properties": {
+                  "feature": { "description": "What is being compared on this row, e.g. onset, or a given finding.", "type": "string", "minLength": 1, "maxLength": 80 },
+                  "left": { "type": "string", "minLength": 1, "maxLength": 200 },
+                  "right": { "type": "string", "minLength": 1, "maxLength": 200 }
+                }
+              }
+            }
+          }
+        },
+        "algorithm": {
+          "description": "Algorithm Card. A condensed decision tree. Nodes are the boxes, branches are the arrows between them; the renderer walks from the node named start.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "nodes", "branches"],
+          "properties": {
+            "start": { "description": "Node id the tree begins at.", "$ref": "#/$defs/node_id" },
+            "nodes": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["id", "text", "kind"],
+                "properties": {
+                  "id": { "$ref": "#/$defs/node_id" },
+                  "text": { "description": "What the box says.", "type": "string", "minLength": 2, "maxLength": 200 },
+                  "kind": { "description": "decision = a question with branches out; action = do this; end = terminal.", "type": "string", "enum": ["decision", "action", "end"] }
+                }
+              }
+            },
+            "branches": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["from", "to", "condition"],
+                "properties": {
+                  "from": { "$ref": "#/$defs/node_id" },
+                  "to": { "$ref": "#/$defs/node_id" },
+                  "condition": { "description": "The arrow label - what makes you take this path.", "type": "string", "minLength": 1, "maxLength": 120 }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "question_targets": {
+      "description": "How many questions of each style the bank should hold for this concept. Blueprint budget is ~8 per concept to reach the 2,500-question EMT target.",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "recall": { "$ref": "#/$defs/question_count" },
+        "application": { "$ref": "#/$defs/question_count" },
+        "scenario": { "$ref": "#/$defs/question_count" },
+        "image": { "$ref": "#/$defs/question_count" },
+        "calculation": { "$ref": "#/$defs/question_count" },
+        "sequence": {
+          "description": "Skill-step ordering items. Mostly Module 10.",
+          "$ref": "#/$defs/question_count"
+        }
+      }
+    },
+
+    "media": {
+      "description": "Every asset this concept uses, in one place. Doubles as the copyright manifest required by master-plan 10.7 - nothing renders that is not listed here.",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "src", "kind", "alt"],
+        "properties": {
+          "id": { "$ref": "#/$defs/media_id" },
+          "src": {
+            "description": "Path under media/, relative to the repo root.",
+            "type": "string",
+            "pattern": "^media/[A-Za-z0-9._/-]+$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": ["diagram", "photo", "flowchart", "ecg", "animation", "audio"]
+          },
+          "alt": {
+            "description": "Required. Accessibility is a non-negotiable.",
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 300
+          },
+          "caption": { "type": "string", "maxLength": 300 },
+          "source": {
+            "description": "Where it came from. 'original' for assets drawn for L1A.",
+            "type": "string",
+            "minLength": 3
+          },
+          "license": {
+            "description": "License or usage basis. Anything not clearly clean stays out.",
+            "type": "string",
+            "minLength": 2
+          },
+          "print_safe": {
+            "description": "Whether it still reads in black and white on a printed card or worksheet.",
+            "type": "boolean",
+            "default": true
+          }
+        }
+      }
+    },
+
+    "reviewed_against": {
+      "description": "Source text and guideline edition this concept was human-reviewed against, e.g. 'AAOS Emergency Care 12e / AHA 2025'. Not set = AI draft, not yet reviewed.",
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "reviewed_on": {
+      "description": "Date of that review, ISO YYYY-MM-DD. Guidelines change; this is what makes a re-review sweep possible.",
+      "type": "string",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "verify": {
+      "description": "True = something here is unconfirmed and must be checked against a source before it is trusted. Per CLAUDE.md, mark this rather than guessing, and never invent drug doses. The app shows a verify banner on the lesson and excludes the concept from module exams and full simulations. The same exclusion applies to any concept with no reviewed_against: module exams gate progression, so unreviewed or unverified content never decides whether a module is complete. Such concepts still appear in lessons, lesson checks, decks and focus drills.",
+      "type": "boolean",
+      "default": false
+    },
+    "verify_notes": {
+      "description": "What exactly needs checking, so the reviewer does not have to re-derive it. Expected whenever verify is true.",
+      "type": "string",
+      "maxLength": 600
+    }
+  },
+
+  "allOf": [
+    {
+      "description": "reviewed_against and reviewed_on travel together - a review date means nothing without the source.",
+      "dependentRequired": {
+        "reviewed_against": ["reviewed_on"],
+        "reviewed_on": ["reviewed_against"]
+      }
+    },
+    {
+      "description": "If it is flagged for verification, say what needs verifying.",
+      "if": { "properties": { "verify": { "const": true } }, "required": ["verify"] },
+      "then": { "required": ["verify_notes"] }
+    }
+  ],
+
+  "$defs": {
+    "concept_id": {
+      "type": "string",
+      "pattern": "^(EMT|FIRE|MEDIC)-[0-9]{2}-[0-9]{2}-[0-9]{2}$"
+    },
+    "media_id": {
+      "description": "Concept-local media key, lowercase snake_case.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+    },
+    "question_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 20
+    },
+    "string_list": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 2, "maxLength": 240 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "node_id": {
+      "description": "Algorithm node key, lowercase snake_case, unique within the card.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+    }
+  }
+}

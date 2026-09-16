@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ladderoneacademy.local/schemas/module.schema.json",
+  "title": "L1A Module",
+  "description": "One content file: content/<tier>/<NN>-<slug>.json, e.g. content/emt/02-airway.json. The wrapper carries the module's identity and its lesson order; the concepts themselves are inlined so the app fetches one file per module and no more. lessons[] is the running order and the table of contents; concepts[] is the content. Every concept ID listed in a lesson must have a matching entry in concepts[].",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "tier", "number", "title", "lessons", "concepts"],
+
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0",
+      "default": "1.0.0"
+    },
+
+    "id": {
+      "description": "Module ID: TIER-MM. The prefix of every concept ID inside it, e.g. EMT-02 for Airway.",
+      "type": "string",
+      "pattern": "^(EMT|FIRE|MEDIC)-[0-9]{2}$"
+    },
+    "tier": {
+      "description": "Which rung this belongs to. Matches the content/ subfolder name.",
+      "type": "string",
+      "enum": ["emt", "fire", "medic"]
+    },
+    "number": {
+      "description": "Module number within the tier, matching the MM in id and the filename prefix. EMT runs 1-11.",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20
+    },
+    "title": {
+      "description": "Module name as it appears on screen and in the print footer, e.g. 'Airway, Respiration & Ventilation'.",
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "short_title": {
+      "description": "Compact form for the print footer and card corners, e.g. 'Airway'. Falls back to title.",
+      "type": "string",
+      "maxLength": 32
+    },
+
+    "domain_weighting": {
+      "description": "Share of this module's exam questions drawn from each domain, as percentages that should total 100. A single-domain module is just one key at 100. Lets a module exam mirror the real blueprint weighting instead of sampling flat.",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "AIR": { "$ref": "#/$defs/weight" },
+        "CARD": { "$ref": "#/$defs/weight" },
+        "TRAU": { "$ref": "#/$defs/weight" },
+        "MED": { "$ref": "#/$defs/weight" },
+        "OPS": { "$ref": "#/$defs/weight" }
+      }
+    },
+
+    "exam": {
+      "description": "Module exam settings. Defaults follow the gating rules in docs/master-plan.md 8.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "length": {
+          "description": "Questions per module exam (master-plan 7: 25-50).",
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 100,
+          "default": 25
+        },
+        "pass_pct": {
+          "type": "integer",
+          "minimum": 50,
+          "maximum": 100,
+          "default": 80
+        },
+        "retake_after_hours": {
+          "description": "Review period before a retake, with a fresh question set.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 168,
+          "default": 24
+        }
+      }
+    },
+
+    "lessons": {
+      "description": "Lessons in running order. Each lists its concept IDs in teaching order.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "concepts"],
+        "properties": {
+          "id": {
+            "description": "Lesson ID: TIER-MM-LL, e.g. EMT-02-03 for Oxygen delivery.",
+            "type": "string",
+            "pattern": "^(EMT|FIRE|MEDIC)-[0-9]{2}-[0-9]{2}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 80
+          },
+          "concepts": {
+            "description": "Concept IDs in the order they are taught. Each must appear in the module's concepts[] array.",
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "$ref": "#/$defs/concept_id" }
+          }
+        }
+      }
+    },
+
+    "concepts": {
+      "description": "The full concept records for this module, inline. Order here does not matter - lessons[] owns the running order.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "concept.schema.json" }
+    },
+
+    "reviewed_against": {
+      "description": "Source text and guideline edition the module as a whole was reviewed against. Individual concepts may carry their own, which wins.",
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "reviewed_on": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    }
+  },
+
+  "allOf": [
+    {
+      "description": "A review date means nothing without the source it was reviewed against.",
+      "dependentRequired": {
+        "reviewed_against": ["reviewed_on"],
+        "reviewed_on": ["reviewed_against"]
+      }
+    }
+  ],
+
+  "$defs": {
+    "concept_id": {
+      "type": "string",
+      "pattern": "^(EMT|FIRE|MEDIC)-[0-9]{2}-[0-9]{2}-[0-9]{2}$"
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    }
+  }
+}

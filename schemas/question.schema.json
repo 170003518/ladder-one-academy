@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ladderoneacademy.local/schemas/question.schema.json",
+  "title": "L1A Question",
+  "description": "One exam-bank item. Non-negotiable per CLAUDE.md: exactly four options, a rationale on every one of them including the correct one, and a primary concept ID. Scenario items must be clinically realistic. See docs/master-plan.md 7.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "concept_id", "style", "stem", "options", "correct_index", "difficulty", "domain"],
+
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0",
+      "default": "1.0.0"
+    },
+
+    "id": {
+      "description": "Question ID: the primary concept ID plus -Qnnn, e.g. EMT-02-03-04-Q001. Keeps the bank self-indexing - the concept a question belongs to is readable from its id alone.",
+      "type": "string",
+      "pattern": "^(EMT|FIRE|MEDIC)-[0-9]{2}-[0-9]{2}-[0-9]{2}-Q[0-9]{3}$"
+    },
+    "concept_id": {
+      "description": "Primary concept this question tests. A miss here is what feeds the Focus List, so it must be the concept actually being assessed, not merely mentioned.",
+      "$ref": "#/$defs/concept_id"
+    },
+    "secondary_concepts": {
+      "description": "Other concept IDs the item draws on - typically the assessment or pharmacology concept a scenario also exercises. Weighted lower than the primary in weak-spot detection.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/concept_id" },
+      "uniqueItems": true,
+      "default": []
+    },
+
+    "style": {
+      "description": "Matches the keys of concept.question_targets so the bank can be audited against the per-concept budget.",
+      "type": "string",
+      "enum": ["recall", "application", "scenario", "image", "calculation", "sequence"]
+    },
+    "stem": {
+      "description": "The question. Scenario items open with the call, e.g. what you find on arrival, then ask one thing. Avoid absolutes unless the absolute is the point.",
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 1200
+    },
+    "options": {
+      "description": "Exactly four. Order is the display order; correct_index points into this array. Distractors should come from the concept's misconceptions[] wherever possible - that is what makes a wrong answer instructive instead of filler.",
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "rationale"],
+        "properties": {
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "rationale": {
+            "description": "Required on all four. For the correct option say why it is right; for each wrong one say why it is wrong, not merely that it is. This is the whole teaching value of the bank.",
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 800
+          }
+        }
+      }
+    },
+    "correct_index": {
+      "description": "Zero-based index into options[]. Exactly one correct answer; where the real exam would ask for the best answer, the stem says so and the rationales explain why the runners-up lose.",
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+
+    "difficulty": {
+      "description": "1 = foundational, 3 = typical exam level, 5 = hardest application. Drives adaptive simulation selection; should sit near the parent concept's difficulty.",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "domain": {
+      "description": "Exam domain for score-report breakdown and domain-weighted selection. Normally inherited from the primary concept; set it explicitly when a scenario is scored under a different domain than the concept's home. EMT-only enum, extended when Fire and Paramedic begin.",
+      "type": "string",
+      "enum": ["AIR", "CARD", "TRAU", "MED", "OPS"]
+    },
+
+    "media": {
+      "description": "Media id for image-based items - an ECG strip, equipment photo, or wound image. Must resolve to an entry in the primary concept's media[] array. Required in practice for style 'image'.",
+      "$ref": "#/$defs/media_id"
+    },
+
+    "verify": {
+      "description": "True = a fact, dose or rationale in this item is unconfirmed. Per CLAUDE.md, flag rather than guess. A flagged question is never served in a module exam or full simulation, for the same reason a flagged concept is not: module exams gate progression.",
+      "type": "boolean",
+      "default": false
+    },
+    "verify_notes": {
+      "description": "What needs checking. Expected whenever verify is true.",
+      "type": "string",
+      "maxLength": 600
+    }
+  },
+
+  "allOf": [
+    {
+      "description": "If it is flagged for verification, say what needs verifying.",
+      "if": { "properties": { "verify": { "const": true } }, "required": ["verify"] },
+      "then": { "required": ["verify_notes"] }
+    },
+    {
+      "description": "An image-style item needs an image.",
+      "if": { "properties": { "style": { "const": "image" } }, "required": ["style"] },
+      "then": { "required": ["media"] }
+    }
+  ],
+
+  "$defs": {
+    "concept_id": {
+      "type": "string",
+      "pattern": "^(EMT|FIRE|MEDIC)-[0-9]{2}-[0-9]{2}-[0-9]{2}$"
+    },
+    "media_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+    }
+  }
+}
