@@ -17,6 +17,8 @@ import * as quiz from './quiz.js';
 import * as exam from './exam.js';
 import { renderPrintCard } from './print.js';
 import { pickDo, resetDo } from './interact.js';
+import * as hear from './hear.js';
+import * as teach from './teach.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -133,6 +135,9 @@ async function route() {
   const hash = location.hash || '#/';
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean);
 
+  // Nothing should keep talking after the view changes.
+  hear.abandon();
+
   if (parts[0] === 'exam' && parts[1]) {
     const mod = findModule(decodeURIComponent(parts[1]));
     if (!mod) { ctx = null; app.el.innerHTML = notFound('No loaded module has that id.'); return done(); }
@@ -186,6 +191,10 @@ async function route() {
     // mode, or arriving from the exam or print route where ctx has no lesson at
     // all — throws it away rather than letting it silently resume later.
     if (ctx?.kind !== 'lesson' || ctx.lesson.id !== found.lesson.id || mode !== 'quiz') quiz.abandon();
+
+    // Switching concept clears a Teach It Back attempt; switching mode does not,
+    // so tabbing away and back does not throw away what was written.
+    if (ctx?.kind === 'lesson' && ctx.concept.id !== found.concept.id) teach.reset(ctx.concept.id);
 
     ctx = { kind: 'lesson', ...found, mode, depth: app.depth, questions };
     app.el.innerHTML = shell(renderLesson(ctx));
@@ -248,7 +257,7 @@ function wire() {
   app.el.addEventListener('click', ev => {
     const t = ev.target.closest('[data-depth], #mark-viewed, #quiz-start, [data-answer], [data-confidence], #quiz-again, '
       + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print, '
-      + '[data-do-pick], #do-reset');
+      + '[data-do-pick], #do-reset, #hear-play, #hear-stop, #teach-submit, #teach-again');
     if (!t) return;
 
     if (t.dataset.depth) { app.depth = t.dataset.depth; return refresh(); }
@@ -300,6 +309,25 @@ function wire() {
       return refresh();
     }
     if (t.id === 'do-reset') { resetDo(ctx.concept.id); return refresh(); }
+
+    /* --- Hear It ---
+       Speech controls deliberately do NOT re-render: replacing innerHTML
+       mid-utterance would drop the highlighted paragraph while it kept talking.
+       hear.js paints the highlight into the existing DOM itself. */
+    if (t.id === 'hear-play') { hear.toggle(ctx.concept); return; }
+    if (t.id === 'hear-stop') { hear.stop(); return; }
+
+    /* --- Teach It Back --- */
+    if (t.id === 'teach-submit') {
+      const box = document.getElementById('teach-answer');
+      teach.submit(ctx.concept, box ? box.value : '');
+      return refresh();
+    }
+    if (t.id === 'teach-again') { teach.reset(ctx.concept.id); return refresh(); }
+  });
+
+  app.el.addEventListener('input', ev => {
+    if (ev.target?.id === 'hear-rate') hear.setRate(ev.target.value);
   });
 
   app.el.addEventListener('change', ev => {

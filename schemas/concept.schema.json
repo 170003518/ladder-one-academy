@@ -155,7 +155,7 @@
             "type": {
               "description": "Which renderer in js/ handles it.",
               "type": "string",
-              "enum": ["drag_order", "click_the_anatomy", "build_the_algorithm", "select_device", "virtual_patient", "sort_into_buckets", "label_the_diagram"]
+              "enum": ["drag_order", "click_the_anatomy", "build_the_algorithm", "select_device", "calculation", "virtual_patient", "sort_into_buckets", "label_the_diagram"]
             },
             "prompt": { "type": "string", "maxLength": 400 },
             "config": {

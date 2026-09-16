@@ -302,6 +302,81 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02-C02",
+      "concept_id": "EMT-02-03-02",
+      "type": "concept",
+      "front": {
+        "title": "Nasal cannula",
+        "summary": "Low-flow oxygen for the patient who is breathing well"
+      },
+      "back": {
+        "body": "Two prongs just inside the nostrils · 1 to 6 L/min · roughly 24 to 44% O2 · For adequate breathing with a mildly low sat · Above 6 L/min: switch device, don't raise flow · Useless for mouth breathers or a blocked nose",
+        "why_it_matters": "The most common device you'll use, and the one most often used wrong by cranking the flow."
+      },
+      "high_yield": false,
+      "number": 13,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-03-C02",
+      "concept_id": "EMT-02-03-03",
+      "type": "concept",
+      "front": {
+        "title": "Non-rebreather mask",
+        "summary": "High-concentration oxygen for the patient who is still breathing adequately"
+      },
+      "back": {
+        "body": "10 to 15 L/min · Up to ~90% O2 · Fill the reservoir before applying · One-way valves keep exhaled air out · Bag must not collapse more than one-third · Inadequate breathing means BVM, not NRB",
+        "why_it_matters": "The device-selection question between NRB and BVM is on every EMT exam."
+      },
+      "high_yield": true,
+      "number": 14,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-06-C02",
+      "concept_id": "EMT-02-03-06",
+      "type": "concept",
+      "front": {
+        "title": "Oxygen is a drug",
+        "summary": "Titrate it like one"
+      },
+      "back": {
+        "body": "Target 94 to 99% for most patients · Below target: give and adjust · In range and comfortable: no oxygen needed · Routine high-flow for non-hypoxic cardiac and stroke patients is no longer recommended · Hypoxia, shock, distress, inadequate breathing, CO: high-flow now",
+        "why_it_matters": "Reflex 15 L/min for everyone is old practice, and the exam tests whether you know why."
+      },
+      "high_yield": true,
+      "number": 15,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-06. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

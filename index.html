@@ -262,6 +262,70 @@
   .do-worked { margin: 0; font-size: var(--fs-sm); color: var(--text-muted); }
   .do-note { font-size: var(--fs-xs); color: var(--text-muted); margin-top: var(--space-4); }
 
+  /* --- Hear It ------------------------------------------------------------ */
+  .hear-controls { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-3); }
+  .hear-controls button {
+    font: inherit; font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase;
+    background: var(--surface-raised); color: var(--text);
+    border: 1px solid var(--border); border-radius: var(--radius-pill);
+    padding: var(--space-2) var(--space-5); cursor: pointer; min-width: 6rem;
+  }
+  #hear-play { background: var(--ember); border-color: var(--ember); color: #fff; }
+  .hear-rate {
+    display: flex; align-items: center; gap: var(--space-2);
+    font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--text-muted);
+  }
+  .hear-rate input { width: 8rem; accent-color: var(--ember); }
+  #hear-rate-label { color: var(--text); min-width: 2.8rem; }
+  .hear-status { font-size: var(--fs-xs); color: var(--text-muted); }
+  .hear-source { font-size: var(--fs-sm); color: var(--text-muted); margin-bottom: var(--space-4); }
+  .hear-text { font-size: var(--fs-md); line-height: var(--lh-loose); max-width: 38rem; }
+  .hear-para {
+    padding: var(--space-2) var(--space-3);
+    border-left: 3px solid transparent; border-radius: var(--radius-sm);
+    transition: background var(--transition), border-color var(--transition);
+  }
+  .hear-para.is-read { opacity: .5; }
+  .hear-para.is-reading {
+    background: var(--surface); border-left-color: var(--signal-yellow); opacity: 1;
+  }
+
+  /* --- Teach It Back ------------------------------------------------------ */
+  .teach-prompt { font-size: var(--fs-md); max-width: 38rem; margin-bottom: var(--space-4); }
+  .teach-input {
+    display: block; width: 100%; max-width: 38rem;
+    font: inherit; font-family: var(--font-ui); font-size: var(--fs-base);
+    line-height: var(--lh-normal); color: var(--text);
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: var(--space-3) var(--space-4); resize: vertical;
+  }
+  .teach-foot { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-4); }
+  .teach-foot button {
+    font: inherit; font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase;
+    background: var(--ember); color: #fff; border: 0; border-radius: var(--radius-pill);
+    padding: var(--space-2) var(--space-5); cursor: pointer;
+  }
+  #teach-again { background: var(--surface-raised); color: var(--text); border: 1px solid var(--border); }
+  .teach-yours, .teach-results, .teach-model {
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: var(--space-4); margin-bottom: var(--space-4); max-width: 40rem;
+  }
+  .teach-results { border-left: 3px solid var(--tier-color); }
+  .teach-model { border-left: 3px solid var(--line-blue); }
+  .teach-yours h3, .teach-results h3, .teach-model h3 { font-size: var(--fs-md); margin-bottom: var(--space-3); }
+  .teach-echo { white-space: pre-wrap; color: var(--text-muted); margin: 0; }
+  .teach-points { list-style: none; margin: 0 0 var(--space-3); padding: 0; }
+  .teach-points li { display: flex; gap: var(--space-3); margin-bottom: var(--space-2); }
+  .teach-mark { flex: none; font-weight: 700; }
+  .teach-points .is-hit .teach-mark { color: var(--line-blue); }
+  .teach-points .is-miss .teach-mark { color: var(--ember); }
+  .teach-points .is-miss { color: var(--text-muted); }
+  .teach-accept { display: block; font-size: var(--fs-xs); font-style: italic; opacity: .8; }
+  .teach-caveat { font-size: var(--fs-xs); color: var(--text-muted); margin: 0; }
+
   /* --- Dev mode banner ---------------------------------------------------- */
   .devbanner {
     background: var(--signal-yellow); color: var(--navy);

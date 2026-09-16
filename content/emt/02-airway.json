@@ -169,7 +169,7 @@
         },
         "do": {
           "activity": "cylinder_duration_calc",
-          "type": "select_device",
+          "type": "calculation",
           "prompt": "You have an E cylinder reading 1,400 psi and a patient on a non-rebreather at 15 L/min. How many minutes of oxygen do you have?",
           "config": {
             "answer_minutes": 22,

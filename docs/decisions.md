@@ -89,3 +89,17 @@
 - **Card metadata supplied** (the draft carried none): `schema_version`, `print_size`, `number`, `footer`, and `verify_notes` on all 8 new cards. Deck numbering continues from the existing cards, 5–12.
 - **`select_device` now covers two config shapes**, detected from the config rather than declared: `match` (`devices[]` + `patients[{text, correct, why}]`) and `choice` (`choices[]` + `correct_choice` + `worked_solution`). The oxygen-duration calculation is authored as `select_device` because `concept.schema.json`'s `type` enum has no calculation renderer; rather than change the content's declared type, the renderer handles both. If calculation activities become common, the enum should gain a `calculation` type and the content should be migrated to it.
 - **Do It is practice, not assessment.** Picks are in memory, nothing is recorded to progress and nothing gates on it.
+
+## 2026-09-15 — Hear It, Teach It Back, calculation type
+
+- **`calculation` added to `modes.do.type`**, and EMT-02-03-01's `cylinder_duration_calc` migrated to it. The renderer still detects the shape from the config rather than the declared type, so both `select_device` and `calculation` reach the same code — the type is now honest about what the activity is.
+- **Hear It uses browser SpeechSynthesis**, per the locked audio decision. Narration source order: `modes.hear.script` → `read.standard` → `read.plain`. Voice and accent come from the operating system, not the app, and the screen says so.
+- **Narration is chunked, not read as one utterance.** Blank-line paragraphs are used where the author wrote them, but `read.standard` is typically one unbroken 650–870 character block; a single block makes the highlight meaningless and hands the browser a very long utterance, which several of them truncate. A single block over 300 characters is therefore split on sentence boundaries into roughly 240-character chunks. Verified: an 868-character block becomes 5 chunks of 135–268 characters.
+- **Speech controls do not re-render the view.** Replacing `innerHTML` mid-utterance would drop the highlighted node while the browser kept talking, so `hear.js` paints the highlight into the existing DOM itself. It also updates the Mark viewed button directly when playback finishes.
+- **Pause then resume re-speaks the current chunk** rather than calling `resume()`, which is unreliable across browsers. Costs a repeated sentence or two; gains predictability.
+- **Leaving any view cancels speech.** Nothing keeps talking after a route change.
+- **Teach It Back never shows the model answer before submit.** Showing it first would turn the highest-retention mode in the plan into a reading exercise.
+- **Teach matching is case-insensitive substring matching** against each `must_hit[].accept` list. It is crude on purpose and the screen says so: it can miss a good explanation that used different words, and credit a wrong one containing the right phrase. Missed points show what was looked for, so the accept list doubles as a hint after the fact.
+- **Submitting records the mode-viewed flag**, including a blank submit — the result screen makes an empty answer obvious.
+- **A Teach attempt survives switching modes but not switching concepts**, so tabbing away and back does not throw away what was written.
+- Three concept cards added (EMT-02-03-02-C02, -03-C02, -06-C02), closing the gap where those concepts declared a `concept` card in `cards[]` that the draft never supplied. Every concept's declared `cards[]` is now covered by the deck.
