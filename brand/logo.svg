@@ -11,22 +11,24 @@
         d="M100 17 L178 38 V131 C178 179 143 207 100 222 C57 207 22 179 22 131 V38 Z"
         fill="none" stroke="#F5F7FA" stroke-width="1.25" stroke-opacity="0.35" stroke-linejoin="round"/>
 
-  <!-- Star of Life: six spokes, built as three bars at 60 degrees. -->
+  <!-- Star of Life: six straight bars with flat square ends, crossing at the
+       center. Three rects at 0, 60 and 120 degrees make the six spokes. -->
   <g id="star-of-life" fill="#F5F7FA">
-    <rect x="93.5" y="37" width="13" height="50" rx="6.5"/>
-    <rect x="93.5" y="37" width="13" height="50" rx="6.5" transform="rotate(60 100 62)"/>
-    <rect x="93.5" y="37" width="13" height="50" rx="6.5" transform="rotate(120 100 62)"/>
+    <rect x="93.5" y="37" width="13" height="50"/>
+    <rect x="93.5" y="37" width="13" height="50" transform="rotate(60 100 62)"/>
+    <rect x="93.5" y="37" width="13" height="50" transform="rotate(120 100 62)"/>
   </g>
 
   <!-- Ladder. Rungs are drawn first so the rails cap their ends cleanly.
-       The rails run from a 6px gap at the top out to a 66px gap at the bottom;
-       the triangle of negative space they enclose above the top rung is the A. -->
+       Rails are 13 units wide, running from a 5-unit gap at the top out to a
+       65-unit gap at the bottom; the triangle of negative space they enclose
+       above the top rung is the A. -->
   <g id="ladder">
-    <rect id="rung-3" data-tier="medic" x="86.45" y="106.5" width="27.1" height="11" rx="2" fill="#2E7DFF"/>
-    <rect id="rung-2" data-tier="fire"  x="76.45" y="142.5" width="47.1" height="11" rx="2" fill="#F25C19"/>
-    <rect id="rung-1" data-tier="emt"   x="66.45" y="178.5" width="67.1" height="11" rx="2" fill="#F5F7FA"/>
+    <rect id="rung-3" data-tier="medic" x="85.44" y="106.5" width="29.11" height="11" rx="2" fill="#2E7DFF"/>
+    <rect id="rung-2" data-tier="fire"  x="75.44" y="142.5" width="49.11" height="11" rx="2" fill="#F25C19"/>
+    <rect id="rung-1" data-tier="emt"   x="65.44" y="178.5" width="69.11" height="11" rx="2" fill="#F5F7FA"/>
 
-    <polygon id="rail-left"  points="87,92 97,92 67,200 57,200"  fill="#C9D2E0"/>
-    <polygon id="rail-right" points="113,92 103,92 133,200 143,200" fill="#C9D2E0"/>
+    <polygon id="rail-left"  points="84.5,92 97.5,92 67.5,200 54.5,200"    fill="#DCE3EC"/>
+    <polygon id="rail-right" points="115.5,92 102.5,92 132.5,200 145.5,200" fill="#DCE3EC"/>
   </g>
 </svg>
