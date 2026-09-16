@@ -24,7 +24,9 @@ Personal EMT → Fire → Paramedic learning platform and test-prep program for 
 ## Repo layout
 ```
 index.html              app shell
-js/                     app.js (router/state), ladder.js, lesson.js, deck.js, tests.js, print.js, progress.js, srs.js
+js/                     app.js (router/state), progress.js, ladder.js, lesson.js, interact.js (Do It),
+                        bank.js (question selection), quiz.js (lesson check), exam.js (module exam),
+                        print.js — still to come: deck.js, srs.js
 brand/                  theme.css, logo.svg, logo-mono.svg, print.css, preview.html
 content/emt/            01-preparatory.json … 11-exam-prep.json   (module + concepts)
 content/emt/questions/  01-preparatory.json … 11-exam-prep.json   (question bank, loaded on demand)

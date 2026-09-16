@@ -5,27 +5,44 @@
   "number": 2,
   "title": "Airway, Respiration & Ventilation",
   "short_title": "Airway",
-  "domain_weighting": { "AIR": 100 },
-  "exam": { "length": 25, "pass_pct": 80, "retake_after_hours": 24 },
-
+  "domain_weighting": {
+    "AIR": 100
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
   "lessons": [
     {
       "id": "EMT-02-01",
       "title": "Airway anatomy and physiology",
-      "concepts": ["EMT-02-01-01", "EMT-02-01-02"]
+      "concepts": [
+        "EMT-02-01-01",
+        "EMT-02-01-02"
+      ]
     },
     {
       "id": "EMT-02-02",
       "title": "Opening and maintaining the airway",
-      "concepts": ["EMT-02-02-01", "EMT-02-02-02"]
+      "concepts": [
+        "EMT-02-02-01",
+        "EMT-02-02-02"
+      ]
     },
     {
       "id": "EMT-02-03",
       "title": "Oxygen delivery",
-      "concepts": ["EMT-02-03-02", "EMT-02-03-03"]
+      "concepts": [
+        "EMT-02-03-01",
+        "EMT-02-03-02",
+        "EMT-02-03-03",
+        "EMT-02-03-04",
+        "EMT-02-03-05",
+        "EMT-02-03-06"
+      ]
     }
   ],
-
   "concepts": [
     {
       "schema_version": "1.0.0",
@@ -105,42 +122,827 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-03-01",
+      "title": "Oxygen cylinders, regulators, and safety",
+      "domain": "AIR",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-03-02",
+        "EMT-02-03-03",
+        "EMT-09-02-01",
+        "EMT-09-03-01"
+      ],
+      "key_points": [
+        "Oxygen is stored as a compressed gas in green (US) steel or aluminum cylinders",
+        "Common EMS sizes: D (about 350 L) and E (about 625 L) portable; M (about 3,000 L) onboard the ambulance",
+        "A full cylinder reads about 2,000 psi; replace or refill at the safe residual pressure of 200 psi",
+        "A regulator reduces cylinder pressure to a safe working pressure and a flowmeter sets liters per minute",
+        "Duration (min) = (gauge psi − 200) × cylinder constant ÷ flow rate in L/min",
+        "Cylinder constants: D = 0.16, E = 0.28, M = 1.56",
+        "Never use oil, grease, or petroleum products near oxygen equipment; keep cylinders secured and away from heat and open flame",
+        "Cylinders must be hydrostatically tested on a schedule (every 5 years for most; the date is stamped on the cylinder)"
+      ],
+      "misconceptions": [
+        "Thinking oxygen itself is flammable (it is not, but it makes other things burn faster and hotter)",
+        "Running a cylinder to 0 psi instead of swapping at 200 psi",
+        "Forgetting to subtract the safe residual pressure in the duration calculation",
+        "Laying an unsecured cylinder loose in the ambulance"
+      ],
+      "exam_favorites": [
+        "The safe residual pressure (200 psi)",
+        "Duration of flow calculation with a D or E cylinder",
+        "Safety rules: no petroleum products, secure the cylinder, keep away from heat"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Every breath of oxygen you give a patient starts in a green metal tank. Oxygen is squeezed into the cylinder as a gas at very high pressure, about 2,000 psi when full. That pressure is far too high to send to a patient, so a regulator screws onto the cylinder and steps it down to a safe working pressure. A flowmeter on the regulator lets you dial in how many liters per minute the patient gets.\n\nYou will use two portable sizes constantly: the D cylinder (roughly 350 liters) that rides in your jump bag, and the E cylinder (roughly 625 liters) that fits on the stretcher. The big M cylinder (roughly 3,000 liters) lives in the ambulance and feeds the wall outlets.\n\nThe gauge tells you how much is left. When it reads 200 psi, that is your safe residual pressure: swap the tank. Below that, the flow becomes unreliable and moisture or contaminants can get in. Never plan to run a tank dry.\n\nSafety matters because oxygen feeds fire. It is not flammable on its own, but anything burning in oxygen-rich air burns fast and hot. So: no smoking, no open flame, no oil or grease on any fitting, and always keep the cylinder secured so it cannot fall or roll. A knocked-over cylinder with the valve sheared off becomes a rocket.",
+          "standard": "Oxygen cylinders are color-coded green in the United States and labeled with the contents. Sizes used in EMS include D (about 350 L), E (about 625 L), and M (about 3,000 L). A full cylinder is pressurized to approximately 2,000 psi. A pressure regulator reduces this to a working pressure (typically 40 to 70 psi), and a flowmeter, either a pressure-compensated or a Bourdon-gauge type, controls the flow in liters per minute. The pin-index safety system ensures a regulator can only be attached to the correct gas.\n\nTo calculate how long a cylinder will last: Duration (minutes) = (gauge pressure in psi − 200 psi safe residual) × cylinder constant ÷ flow rate (L/min). Constants: D = 0.16, E = 0.28, M = 1.56. Example: an E cylinder at 2,000 psi running at 15 L/min lasts (2,000 − 200) × 0.28 ÷ 15 = 33.6 minutes.\n\nSafety: keep cylinders secured in transport, store away from heat and combustibles, never use petroleum-based lubricants, open the valve slowly, and stand to the side of the regulator when opening. Cylinders require hydrostatic testing on a fixed schedule; the last test date is stamped on the cylinder."
+        },
+        "eli_new": {
+          "analogy": "A cylinder is a scuba tank for your patient, and the regulator is the mouthpiece that makes the pressure survivable.",
+          "body": "Think of a fire hose hooked straight to a hydrant with no nozzle. That is 2,000 psi of oxygen with no regulator: useless and dangerous. The regulator is the nozzle that tames it. The flowmeter is the trigger you squeeze a little or a lot.\n\nThe 200 psi rule is like the gas light in your car. When it comes on you can still drive a bit, but you do not plan a road trip on it. You swap the tank.\n\nThe duration formula is just: how much is really in there (pressure minus the 200 you will not use), times how big the tank is (the constant), divided by how fast you are pouring it out (the flow rate). Bigger tank, bigger constant. Faster flow, shorter time."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "do": {
+          "activity": "cylinder_duration_calc",
+          "type": "select_device",
+          "prompt": "You have an E cylinder reading 1,400 psi and a patient on a non-rebreather at 15 L/min. How many minutes of oxygen do you have?",
+          "config": {
+            "answer_minutes": 22,
+            "tolerance": 1,
+            "worked_solution": "(1,400 − 200) × 0.28 ÷ 15 = 1,200 × 0.28 ÷ 15 = 336 ÷ 15 = 22.4 minutes",
+            "choices": [
+              "About 12 minutes",
+              "About 22 minutes",
+              "About 26 minutes",
+              "About 40 minutes"
+            ],
+            "correct_choice": 1
+          }
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain to a new partner how to tell if a cylinder needs to be swapped and how to figure out how long it will last.",
+          "must_hit": [
+            {
+              "point": "Swap at the safe residual pressure",
+              "accept": [
+                "200 psi",
+                "200",
+                "safe residual"
+              ]
+            },
+            {
+              "point": "Duration uses the constant for the cylinder size",
+              "accept": [
+                "constant",
+                "0.28",
+                "0.16",
+                "cylinder size"
+              ]
+            },
+            {
+              "point": "Divide by the flow rate",
+              "accept": [
+                "flow rate",
+                "liters per minute",
+                "L/min",
+                "divide"
+              ]
+            }
+          ],
+          "model_answer": "Check the gauge. At 200 psi the tank is at safe residual and gets swapped, because flow gets unreliable below that. To know how long it lasts, take the gauge pressure, subtract 200, multiply by the cylinder constant (0.16 for a D, 0.28 for an E), and divide by the flow rate in liters per minute. That gives you minutes."
+        },
+        "story": {
+          "title": "The tank that was almost empty",
+          "dispatch": "Rescue 5, respond for a 71-year-old female, shortness of breath, third-floor apartment, no elevator.",
+          "body": "You grab the jump bag and the D cylinder and start up the stairs. Your partner glances at the gauge on the way: 600 psi. Enough for the assessment, maybe, but this patient is going to need a non-rebreather at 15 liters, and (600 − 200) × 0.16 ÷ 15 is a little over four minutes. Your partner radios the engine crew arriving behind you to bring the E cylinder from the stretcher.\n\nUpstairs the patient is sitting bolt upright, speaking two words at a time, sats 86%. You put her on the NRB from the D tank while the E arrives ninety seconds later. You swap the regulator over, and the D cylinder goes back on the truck tagged for refill. Nobody had to make her wait for oxygen because someone read a gauge on a staircase."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Full cylinder",
+            "value": "~2,000",
+            "unit": "psi",
+            "note": ""
+          },
+          {
+            "label": "Safe residual (swap)",
+            "value": "200",
+            "unit": "psi",
+            "note": ""
+          },
+          {
+            "label": "D cylinder",
+            "value": "~350 L",
+            "unit": "",
+            "note": "constant 0.16"
+          },
+          {
+            "label": "E cylinder",
+            "value": "~625 L",
+            "unit": "",
+            "note": "constant 0.28"
+          },
+          {
+            "label": "M cylinder",
+            "value": "~3,000 L",
+            "unit": "",
+            "note": "constant 1.56"
+          },
+          {
+            "label": "Duration formula",
+            "value": "(psi − 200) × constant ÷ L/min",
+            "unit": "min",
+            "note": ""
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "calculation": 3
+      },
+      "media": [],
+      "verify": true,
+      "verify_notes": "Confirm cylinder volumes, constants (D 0.16, E 0.28, M 1.56), full pressure (~2,000 psi), safe residual (200 psi), working pressure range, and hydrostatic test interval against AAOS Emergency Care 12e, Airway Management chapter."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-03-02",
       "title": "Nasal cannula",
       "domain": "AIR",
       "difficulty": 1,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-03-01"
+      ],
+      "related": [
+        "EMT-02-03-03",
+        "EMT-02-03-06"
+      ],
       "key_points": [
-        "A low-flow device for a patient who is breathing adequately and needs modest supplemental oxygen",
-        "It has a flow range, and going above that range causes a specific problem rather than helping",
-        "Its place in the exam is as the wrong answer when the patient needs high-flow oxygen"
+        "Two prongs that sit just inside the nostrils, tubing looped over the ears",
+        "Flow rate 1 to 6 L/min",
+        "Delivers roughly 24% to 44% oxygen",
+        "For patients who are breathing adequately and need low-concentration supplemental oxygen",
+        "Above 6 L/min the nasal passages dry out and concentration does not meaningfully rise; switch to a mask",
+        "Useless for a mouth-breather or a patient with blocked nasal passages"
+      ],
+      "misconceptions": [
+        "Cranking a cannula to 10 or 15 L/min expecting more oxygen",
+        "Using a cannula on a patient in obvious respiratory distress who needs a non-rebreather",
+        "Thinking the prongs go deep into the nose"
+      ],
+      "exam_favorites": [
+        "Flow range 1 to 6 L/min and 24 to 44% concentration",
+        "Which patient gets a cannula versus a non-rebreather"
       ],
       "modes": {
         "read": {
-          "plain": "This is the two-prong tube that sits under the nose. It is for a patient who is breathing fine on their own and just needs a little more oxygen than room air. It is comfortable and well tolerated, which is exactly why it gets chosen wrongly for patients who need far more."
+          "plain": "The nasal cannula is the gentlest way to give oxygen. Two small prongs rest just inside the nostrils, the tubing loops over the ears, and a slider snugs it under the chin. It is comfortable, it lets the patient talk and eat, and it does not feel like suffocation the way a mask can to an anxious patient.\n\nIt runs at 1 to 6 liters per minute and bumps the oxygen the patient breathes from room air (21%) up to somewhere between 24% and 44%. That is a modest boost, which is exactly the point. It is for the patient who is breathing fine on their own but whose oxygen saturation is a little low, or who has a condition where a little supplemental oxygen helps.\n\nDo not go above 6 L/min. The nose dries out, it gets uncomfortable, and you do not gain much concentration. If the patient needs more than a cannula can give, that is a mask decision, not a flow-rate decision.\n\nIt also does nothing for a patient who breathes through their mouth, or whose nose is blocked by swelling, blood, or a deviated septum. Watch how they breathe before you pick the device.",
+          "standard": "A nasal cannula delivers low-flow oxygen at 1 to 6 L/min, producing an inspired oxygen concentration of approximately 24% to 44% depending on flow and the patient's breathing pattern. It is indicated for patients with adequate spontaneous ventilation who require low-concentration supplemental oxygen, typically when SpO2 is mildly reduced or per protocol for specific conditions. Flow above 6 L/min causes mucosal drying and discomfort without a proportional gain in FiO2. Humidification may be added for prolonged use. Contraindications are relative: mouth breathing, nasal obstruction, and severe hypoxia that requires high-concentration delivery."
+        },
+        "eli_new": {
+          "analogy": "A cannula is a garden hose trickling into a pool. A non-rebreather is the fire hose.",
+          "body": "Room air is 21% oxygen. A cannula adds a gentle trickle on top of each breath the patient takes: 1 to 6 liters a minute, which nudges what they breathe up into the 24 to 44% range. It is a top-up, not a rescue.\n\nTurning the trickle up past 6 does not turn it into a fire hose; it just blasts dry air up someone's nose. When a patient needs a lot of oxygen, you change the device, not the dial."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Tell a new EMT when they should reach for a nasal cannula and when they should not.",
+          "must_hit": [
+            {
+              "point": "Adequate breathing, needs a little oxygen",
+              "accept": [
+                "breathing adequately",
+                "breathing fine",
+                "low concentration",
+                "a little oxygen",
+                "mildly low"
+              ]
+            },
+            {
+              "point": "1 to 6 L/min",
+              "accept": [
+                "1 to 6",
+                "1-6",
+                "6 L",
+                "six liters"
+              ]
+            },
+            {
+              "point": "Not for distress or mouth breathers",
+              "accept": [
+                "mouth breath",
+                "distress",
+                "non-rebreather",
+                "blocked nose",
+                "not enough"
+              ]
+            }
+          ],
+          "model_answer": "Use a cannula on a patient who is breathing fine on their own but has a mildly low sat or a condition that calls for a little supplemental oxygen. Run it at 1 to 6 liters per minute. Do not use it on someone in real distress who needs high-concentration oxygen, and do not use it on a mouth breather or someone with a blocked nose because the oxygen never reaches them."
+        },
+        "story": {
+          "title": "Two words at a time",
+          "dispatch": "Medic 12, 58-year-old male, chest discomfort, alert and oriented, private residence.",
+          "body": "He meets you at the door, talking in full sentences, a little pale, hand on his chest. Pulse ox reads 92% on room air. He is not in distress; he is worried. You sit him down and reach for the nasal cannula, set it at 2 L/min, and his sats climb to 96% within a minute while you finish your assessment and get him to the truck.\n\nOn a different call last week, a woman could only speak two words at a time and her sats were 84%. Nobody reached for a cannula that day. Same shelf in the bag, completely different device, because the question you ask first is not 'does he need oxygen?' but 'how much, and how well is he breathing on his own?'"
         }
       },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Flow",
+              "left": "1 to 6 L/min",
+              "right": "10 to 15 L/min"
+            },
+            {
+              "feature": "Concentration",
+              "left": "24 to 44%",
+              "right": "up to ~90%"
+            },
+            {
+              "feature": "Patient",
+              "left": "Breathing well, mildly low sat",
+              "right": "Breathing adequately, needs high O2"
+            },
+            {
+              "feature": "Not for",
+              "left": "Mouth breathers, distress",
+              "right": "Inadequate breathing (use BVM)"
+            }
+          ],
+          "left_label": "Nasal cannula",
+          "right_label": "Non-rebreather"
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 3
+      },
+      "media": [],
       "verify": true,
-      "verify_notes": "Stub. Flow range, delivered oxygen concentration, and the reason for the upper flow limit are all unwritten - no numbers have been entered. Fill from AAOS Emergency Care and confirm against current oxygen-administration guidance."
+      "verify_notes": "Confirm flow range (1 to 6 L/min) and concentration range (24 to 44%) against AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-03-03",
       "title": "Non-rebreather mask",
       "domain": "AIR",
-      "difficulty": 1,
+      "difficulty": 2,
       "high_yield": true,
+      "prereqs": [
+        "EMT-02-03-01",
+        "EMT-02-03-02"
+      ],
+      "related": [
+        "EMT-02-04-01",
+        "EMT-02-03-06",
+        "EMT-02-01-05"
+      ],
       "key_points": [
-        "The high-flow device for a patient who is still breathing adequately on their own",
-        "The reservoir has to be prepared before the mask goes on the face",
-        "Using it on a patient who is not moving enough air is the classic error - that patient needs assisted ventilation instead"
+        "The EMT's preferred device for high-concentration oxygen in a patient who is breathing adequately",
+        "Flow rate 10 to 15 L/min; commonly set at 15",
+        "Delivers up to about 90% oxygen",
+        "Inflate the reservoir bag fully before placing the mask on the patient",
+        "One-way valves keep exhaled air out of the reservoir so the patient does not rebreathe it",
+        "The reservoir should never collapse more than about a third during inhalation; if it does, increase the flow",
+        "Requires adequate spontaneous breathing; an apneic or inadequately breathing patient needs a BVM instead"
+      ],
+      "misconceptions": [
+        "Putting a non-rebreather on a patient who is not breathing adequately (they need ventilation, not a mask)",
+        "Applying the mask with the reservoir bag flat",
+        "Running it below 10 L/min, which lets the bag collapse and drops the concentration",
+        "Believing the mask delivers 100% oxygen"
+      ],
+      "exam_favorites": [
+        "Flow rate 10 to 15 L/min and ~90% concentration",
+        "Inflating the reservoir before application",
+        "NRB versus BVM: the breathing-adequacy decision"
       ],
       "modes": {
         "read": {
-          "plain": "This is the mask with the bag hanging off it. The bag fills with oxygen while the patient breathes out, so their next breath comes mostly from the bag instead of from room air. It is the most oxygen an EMT can give someone who is still breathing on their own."
+          "plain": "When a patient needs a lot of oxygen and is still breathing on their own, the non-rebreather mask is your tool. It is a face mask with a soft bag hanging off the bottom. Oxygen flows into the bag, and each time the patient inhales they draw from that bag through a one-way valve. When they exhale, flaps on the mask open and their breath goes out into the room, not back into the bag. That is why it is called a non-rebreather.\n\nSet the flow at 10 to 15 liters per minute. Most crews just set 15. Before the mask touches the face, put your thumb over the valve inside the mask so the bag fills completely. A full bag means the patient's first breath is oxygen-rich. Then seal the mask over the nose and mouth and tighten the strap.\n\nWatch the bag. It should not go flat more than about a third with each breath. If it collapses, turn the flow up. At the right flow, the mask gives up to about 90% oxygen, which is the most an EMT can deliver without ventilating.\n\nThe one thing it cannot do is breathe for the patient. If the breathing is too slow, too shallow, or absent, the mask is just oxygen sitting on a face. That patient needs a bag-valve-mask.",
+          "standard": "The non-rebreather (NRB) mask is the delivery device of choice for high-concentration oxygen in the spontaneously breathing patient with adequate tidal volume and rate. At 10 to 15 L/min it delivers an inspired oxygen concentration of up to approximately 90%. A reservoir bag is filled before application by occluding the inlet valve; the bag should remain at least two-thirds inflated during inspiration, and flow should be increased if it collapses. One-way valves prevent exhaled gas from entering the reservoir. Indications include hypoxia with adequate breathing, shock, and any condition where high FiO2 is warranted per protocol. The NRB is inappropriate for patients with inadequate ventilation, who require positive-pressure ventilation with a BVM."
+        },
+        "eli_new": {
+          "analogy": "The reservoir bag is a full glass of oxygen the patient sips from; the valves make sure they never spit back into the glass.",
+          "body": "Picture a glass being refilled from a tap at 15 liters a minute. The patient drinks from the glass (inhales), and the glass refills before the next sip. If the tap is too slow, the glass empties and they end up drinking air instead. That is why you never run it under 10, and why you fill the glass before you hand it over.\n\nThe flap valves are the 'no backwash' rule. Exhaled breath is low on oxygen and high on carbon dioxide. The valves let it out into the room instead of back into the glass. That single design detail is what pushes the concentration up to 90%."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "do": {
+          "activity": "select_device_scenario",
+          "type": "select_device",
+          "prompt": "Pick the right device for each patient.",
+          "config": {
+            "devices": [
+              "Nasal cannula",
+              "Non-rebreather mask",
+              "Bag-valve-mask"
+            ],
+            "patients": [
+              {
+                "text": "Alert, speaking full sentences, SpO2 91%, no distress",
+                "correct": 0,
+                "why": "Breathing well, only needs a small boost."
+              },
+              {
+                "text": "Anxious, speaking short phrases, SpO2 85%, breathing 26 times a minute with good chest rise",
+                "correct": 1,
+                "why": "Breathing adequately but very hypoxic: high-concentration oxygen."
+              },
+              {
+                "text": "Unresponsive, breathing 6 times a minute with shallow chest rise",
+                "correct": 2,
+                "why": "Inadequate breathing. A mask cannot fix rate or depth; ventilate."
+              }
+            ]
+          }
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk a new EMT through putting a non-rebreather on a patient, including what to check before and after.",
+          "must_hit": [
+            {
+              "point": "Fill the reservoir first",
+              "accept": [
+                "fill the bag",
+                "inflate",
+                "reservoir",
+                "prefill"
+              ]
+            },
+            {
+              "point": "10 to 15 L/min",
+              "accept": [
+                "15",
+                "10 to 15",
+                "10-15",
+                "fifteen"
+              ]
+            },
+            {
+              "point": "Watch that the bag does not collapse",
+              "accept": [
+                "collapse",
+                "deflate",
+                "bag stays",
+                "third"
+              ]
+            },
+            {
+              "point": "Patient must be breathing adequately",
+              "accept": [
+                "breathing adequately",
+                "adequate",
+                "BVM",
+                "not breathing"
+              ]
+            }
+          ],
+          "model_answer": "First confirm they are breathing adequately; if not, this is a BVM patient. Set the flow at 15 liters per minute, cover the valve inside the mask so the reservoir fills all the way, then seal the mask over the nose and mouth and snug the strap. Watch the bag: it should not collapse more than about a third when they breathe in. If it does, turn the flow up. Reassess their sats and work of breathing."
+        },
+        "story": {
+          "title": "Fill the bag",
+          "dispatch": "Engine 3, Rescue 3, 44-year-old male, difficulty breathing, possible asthma, convenience store.",
+          "body": "He is leaning on the counter with his hands on his knees, speaking in short bursts, wheezing you can hear from the door. Sats 87%. Breathing fast but moving air, chest rising well. You reach for the non-rebreather, crank the flow to 15, and hold your thumb over the inlet until the bag is round and tight. Only then does it go on his face.\n\nYour partner is already pulling the SAMPLE history and reaching for his inhaler. Within two minutes the sats are at 93% and climbing, and the bag is filling fully between each breath. You keep watching it. If it ever starts to collapse, or if he stops being able to move air on his own, the mask comes off and the BVM comes out. Tonight it does not come to that."
         }
       },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "steps": [
+            {
+              "text": "Confirm the patient is breathing adequately (rate, depth, chest rise)",
+              "critical": true
+            },
+            {
+              "text": "Attach the mask tubing to the flowmeter and set 10 to 15 L/min",
+              "critical": true
+            },
+            {
+              "text": "Occlude the inlet valve to fully inflate the reservoir bag before application",
+              "critical": true
+            },
+            {
+              "text": "Place the mask over the nose and mouth and tighten the strap for a seal",
+              "critical": false
+            },
+            {
+              "text": "Confirm the bag does not collapse more than one-third on inhalation; increase flow if it does",
+              "critical": true
+            },
+            {
+              "text": "Reassess SpO2, work of breathing, and mental status",
+              "critical": false
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 3,
+        "scenario": 2
+      },
+      "media": [],
       "verify": true,
-      "verify_notes": "Stub. Flow rate and delivered concentration are deliberately not entered - docs/emt-blueprint.md quotes figures but they have not been checked against a source text, and this concept must not ship numbers until they are. Fill from AAOS Emergency Care and confirm against current oxygen-administration guidance."
+      "verify_notes": "Confirm flow range (10 to 15 L/min), delivered concentration (up to ~90%), and the reservoir collapse guidance (no more than one-third) against AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-04",
+      "title": "Other delivery devices: partial rebreather, Venturi, humidified oxygen",
+      "domain": "AIR",
+      "difficulty": 2,
+      "high_yield": false,
+      "prereqs": [
+        "EMT-02-03-02",
+        "EMT-02-03-03"
+      ],
+      "related": [
+        "EMT-02-05-02"
+      ],
+      "key_points": [
+        "Partial rebreather mask: looks like an NRB but has no one-way valve between mask and bag, so some exhaled air is rebreathed; delivers roughly 40% to 60% at 6 to 10 L/min; rarely used in EMS",
+        "Venturi mask: uses color-coded adapters to deliver a precise concentration (about 24% to 50%); used for patients who need a controlled, exact FiO2, classically some COPD patients",
+        "Humidified oxygen: bubbles oxygen through sterile water to reduce drying; useful on long transports and for pediatric patients; not needed for short calls",
+        "Tracheostomy mask: fits over a stoma to deliver oxygen to a patient who breathes through the neck",
+        "Awareness-level devices for the EMT; the workhorses remain the cannula, the NRB, and the BVM"
+      ],
+      "misconceptions": [
+        "Confusing a partial rebreather with a non-rebreather (the valve is the difference)",
+        "Thinking the Venturi mask is a high-concentration device"
+      ],
+      "exam_favorites": [
+        "Which device delivers a precise, controlled concentration (Venturi)",
+        "What makes a partial rebreather different from an NRB"
+      ],
+      "modes": {
+        "read": {
+          "plain": "You will spend almost all of your career with three devices: the cannula, the non-rebreather, and the bag-valve-mask. But a few others show up in the ambulance, in the hospital, and on the exam, and you need to recognize them.\n\nThe partial rebreather mask looks almost identical to a non-rebreather, but it is missing the one-way valve between the mask and the bag. That means a bit of each exhaled breath goes back into the bag and gets breathed again. It delivers a middling concentration, somewhere around 40 to 60%, at 6 to 10 liters per minute. It is uncommon in the field.\n\nThe Venturi mask is the precision tool. It comes with color-coded plastic adapters, and each one mixes a fixed ratio of room air with oxygen to deliver an exact percentage, roughly 24% to 50%. It is used when a doctor wants a specific concentration, most famously for certain COPD patients whose breathing is sensitive to too much oxygen.\n\nHumidified oxygen just means the gas bubbles through sterile water before reaching the patient. Dry oxygen irritates the airway over time, so humidification helps on long transports and with kids. It is not something you set up for a ten-minute ride.\n\nA tracheostomy mask is a small mask that sits over a stoma in the neck for patients who breathe that way.",
+          "standard": "Partial rebreather masks lack the inspiratory one-way valve of the NRB, allowing partial rebreathing of exhaled gas; they deliver approximately 40% to 60% oxygen at 6 to 10 L/min. Venturi masks entrain room air through calibrated, color-coded jet adapters to deliver a fixed FiO2 of roughly 24% to 50%, permitting precise titration for patients with chronic CO2 retention or other conditions requiring a controlled concentration. Humidifiers add moisture to the oxygen stream to reduce mucosal drying during prolonged administration and in pediatric patients. Tracheostomy masks deliver oxygen over a stoma. These devices are awareness-level for the EMT."
+        },
+        "eli_new": {
+          "analogy": "The Venturi mask is the mixing valve on a shower: you set the exact temperature and it stays there.",
+          "body": "A non-rebreather is 'as hot as it goes.' A cannula is 'a little warm.' The Venturi mask lets you dial in the precise temperature, because each colored adapter mixes a fixed amount of room air with the oxygen. That precision is what a doctor wants for a patient whose body reacts badly to too much oxygen.\n\nThe partial rebreather is the NRB's cheaper cousin: same shape, but a valve was left out, so the patient gets a bit of their own exhaled breath back. Less oxygen, less precise, less used."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between a partial rebreather, a non-rebreather, and a Venturi mask in your own words.",
+          "must_hit": [
+            {
+              "point": "Partial rebreather lacks the one-way valve",
+              "accept": [
+                "no valve",
+                "missing valve",
+                "one-way valve",
+                "rebreathe"
+              ]
+            },
+            {
+              "point": "Venturi delivers a precise concentration",
+              "accept": [
+                "precise",
+                "exact",
+                "controlled",
+                "specific percentage",
+                "adapter"
+              ]
+            }
+          ],
+          "model_answer": "A non-rebreather has one-way valves so the patient only gets fresh oxygen from the bag, which is why it reaches about 90%. A partial rebreather looks the same but is missing that valve, so some exhaled air gets rebreathed and the concentration is lower. A Venturi mask uses color-coded adapters to mix a set amount of room air with oxygen so it delivers an exact percentage, used when a patient needs a controlled dose."
+        },
+        "story": {
+          "title": "The green adapter",
+          "dispatch": "Interfacility transfer, 68-year-old male, COPD exacerbation, hospital to hospital, 45-minute transport.",
+          "body": "The nurse hands you the chart and points at the patient's face: a Venturi mask with a green adapter. 'He retains CO2. The doctor wants him at exactly 28%, no more, and we've got him there. Do not swap him to a non-rebreather.' You confirm the adapter, the flow rate printed on it, and the sats: 90%, which the physician's orders say is his target. On the truck, you hook the Venturi to your own oxygen, add a humidifier bottle because it is a long ride, and keep the same adapter. Forty-five minutes later he arrives exactly as you found him. On a call like this, the most important skill was knowing what not to change."
+        }
+      },
+      "cards": [
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Key feature",
+              "left": "No one-way valve; some rebreathing",
+              "right": "Color-coded adapters mix air and O2"
+            },
+            {
+              "feature": "Concentration",
+              "left": "~40 to 60%",
+              "right": "Precise ~24 to 50%"
+            },
+            {
+              "feature": "Flow",
+              "left": "6 to 10 L/min",
+              "right": "Printed on each adapter"
+            },
+            {
+              "feature": "Used for",
+              "left": "Rarely in EMS",
+              "right": "Controlled FiO2, e.g. some COPD"
+            }
+          ],
+          "left_label": "Partial rebreather",
+          "right_label": "Venturi mask"
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 1
+      },
+      "media": [],
+      "verify": true,
+      "verify_notes": "Confirm partial rebreather concentration and flow range, Venturi concentration range, and whether AAOS 12e still covers the partial rebreather at all."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-05",
+      "title": "Pulse oximetry",
+      "domain": "AIR",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-05-06",
+        "EMT-05-05-04",
+        "EMT-02-03-06"
+      ],
+      "key_points": [
+        "Measures the percentage of hemoglobin saturated with oxygen (SpO2) using light through a fingertip, toe, or earlobe",
+        "Normal SpO2 in a healthy person is about 95% to 100%; below 94% generally indicates hypoxia in the acutely ill",
+        "It is a tool, not a diagnosis: treat the patient, not the number",
+        "False or unreliable readings: carbon monoxide poisoning (reads falsely high), poor perfusion or shock, hypothermia, nail polish or artificial nails, bright ambient light, movement, dark or thick skin at the probe site in some devices",
+        "A patient can have a normal SpO2 and still be in respiratory distress or breathing inadequately",
+        "Always confirm a low reading with the patient's appearance and confirm a normal reading does not contradict what you see"
+      ],
+      "misconceptions": [
+        "Trusting a 99% reading in a patient pulled from a house fire (CO poisoning fools the sensor)",
+        "Withholding oxygen from a patient in obvious distress because the number looks fine",
+        "Treating a low number on a cold, poorly perfused finger as a true reading without checking"
+      ],
+      "exam_favorites": [
+        "Carbon monoxide gives a falsely high reading",
+        "Causes of inaccurate readings",
+        "Normal range and the threshold for concern"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The pulse oximeter is the small clip you put on a fingertip. It shines light through the tissue and measures how much of the patient's hemoglobin is carrying oxygen. The number it gives, SpO2, is a percentage. Healthy people run 95 to 100%. In a sick patient, anything under 94% is a flag.\n\nHere is the most important thing: it can lie. Carbon monoxide latches onto hemoglobin and the sensor cannot tell the difference between that and oxygen, so a CO-poisoned patient can read 99% while suffocating. Cold fingers, shock, and poor circulation give weak or wrong readings. Nail polish, artificial nails, bright lights, and a patient who will not hold still all interfere.\n\nSo you never treat the number alone. If the patient looks hypoxic, they are hypoxic until proven otherwise. If the number is low but the patient looks fine, check the probe, the finger, and the perfusion before you act on it. It is one vital sign among several, and the patient in front of you outranks it.",
+          "standard": "Pulse oximetry estimates arterial oxygen saturation (SpO2) by measuring the differential absorption of red and infrared light by oxyhemoglobin and deoxyhemoglobin across a pulsatile capillary bed. Normal values are approximately 95% to 100%; readings below 94% in acutely ill patients suggest hypoxemia and typically warrant supplemental oxygen per protocol. The device cannot distinguish carboxyhemoglobin from oxyhemoglobin, producing falsely normal or high readings in carbon monoxide poisoning. Accuracy is also reduced by hypoperfusion, hypothermia, vasoconstriction, motion artifact, ambient light, nail polish, and severe anemia. SpO2 reflects oxygenation, not ventilation; a patient with adequate saturation may still have inadequate ventilation and rising CO2. Clinical assessment always takes precedence over the reading."
+        },
+        "eli_new": {
+          "analogy": "The pulse ox counts how many seats on the bus are full. It cannot tell you who is sitting in them.",
+          "body": "Hemoglobin is a bus with seats for oxygen. The pulse ox counts full seats and reports a percentage. But carbon monoxide sits in the same seats, and the device counts it as a passenger. That is why a CO patient can read 99% and still be dying: the seats are full of the wrong thing.\n\nIt also needs a good signal to count at all. Cold fingers, shock, nail polish, and a patient waving their hand around all blur the picture. And even a perfectly accurate full-bus count tells you nothing about whether the patient is breathing enough to keep it full. Look at the patient first, then the number."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain to a new EMT when you should not trust the pulse oximeter.",
+          "must_hit": [
+            {
+              "point": "Carbon monoxide reads falsely high",
+              "accept": [
+                "carbon monoxide",
+                "CO",
+                "falsely high",
+                "house fire"
+              ]
+            },
+            {
+              "point": "Poor perfusion or cold gives bad readings",
+              "accept": [
+                "perfusion",
+                "cold",
+                "shock",
+                "circulation"
+              ]
+            },
+            {
+              "point": "Treat the patient, not the number",
+              "accept": [
+                "patient not the number",
+                "look at the patient",
+                "clinical",
+                "how they look"
+              ]
+            }
+          ],
+          "model_answer": "Do not trust it in carbon monoxide poisoning, because CO fills hemoglobin and the sensor reads it as oxygen, so the number looks great while the patient is hypoxic. Do not trust it on cold fingers, in shock, or with poor circulation, nail polish, bright light, or a moving patient. And never let a normal number talk you out of treating a patient who looks like they are struggling."
+        },
+        "story": {
+          "title": "Ninety-nine percent",
+          "dispatch": "Rescue 7, 35-year-old female, headache and nausea, family reports 'the whole house feels sick.'",
+          "body": "It is the first cold night of the year. Three people in the living room, all with headaches, one vomiting. Your partner clips the pulse ox on the patient: 99%. He looks at you like the call is nothing. You look at the space heater in the corner, then at the three sick people, and you say the word out loud: carbon monoxide. Everyone goes outside. Fire comes in with a meter and it screams in the kitchen.\n\nAll three go on non-rebreathers at 15 liters, sats 99% the whole way to the hospital, because the number was never going to tell you the truth. The heater was."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Normal SpO2",
+            "value": "95 to 100",
+            "unit": "%",
+            "note": "healthy"
+          },
+          {
+            "label": "Hypoxia flag (acutely ill)",
+            "value": "< 94",
+            "unit": "%",
+            "note": "give O2 per protocol"
+          },
+          {
+            "label": "CO poisoning",
+            "value": "falsely high",
+            "unit": "",
+            "note": "never trust"
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 3,
+        "scenario": 2
+      },
+      "media": [],
+      "verify": true,
+      "verify_notes": "Confirm normal range and the 94% threshold wording against AAOS 12e and current AHA guidance; confirm the list of interference causes."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-06",
+      "title": "Oxygen targets and when not to over-oxygenate",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-03-02",
+        "EMT-02-03-03",
+        "EMT-02-03-05"
+      ],
+      "related": [
+        "EMT-04-02-01",
+        "EMT-05-02-01",
+        "EMT-02-05-02"
+      ],
+      "key_points": [
+        "Oxygen is a drug: it has indications, a dose, and side effects",
+        "Modern guidance is to titrate oxygen to a target SpO2 of 94% to 99% in most patients rather than giving high-flow oxygen to everyone",
+        "Give high-concentration oxygen without hesitation to any patient with signs of hypoxia, shock, respiratory distress, or inadequate breathing",
+        "Routine high-flow oxygen in patients who are not hypoxic (some heart attack and stroke patients) is no longer recommended; hyperoxia may worsen outcomes",
+        "Some chronic COPD patients who retain CO2 rely on a low-oxygen drive; titrate to a lower target (often about 88% to 92%) per protocol, but never withhold oxygen from a COPD patient in true distress",
+        "Follow local protocol; it overrides any general rule"
+      ],
+      "misconceptions": [
+        "'Everyone gets 15 liters by non-rebreather' as a reflex",
+        "Withholding oxygen entirely from a hypoxic COPD patient because of the hypoxic-drive concern",
+        "Thinking more oxygen is always harmless"
+      ],
+      "exam_favorites": [
+        "The SpO2 target range for most patients",
+        "The COPD patient: lower target, but never withhold from a patient in distress",
+        "Why routine high-flow oxygen is no longer given to non-hypoxic cardiac and stroke patients"
+      ],
+      "modes": {
+        "read": {
+          "plain": "For decades every ambulance patient got a non-rebreather at 15 liters. That is not how it works anymore. Oxygen is a drug, and like any drug you give the right dose to the right patient. Too little is dangerous. Too much, it turns out, can also be.\n\nThe modern rule is simple: aim for a saturation of 94 to 99%. If the patient is below 94%, give oxygen and adjust until they are in range. If they are already in range and breathing comfortably, they do not need more. Research showed that flooding non-hypoxic heart attack and stroke patients with oxygen did not help and may have hurt, so routine high-flow oxygen for those patients is gone.\n\nThere is one group that needs extra care. Some patients with severe, long-standing COPD retain carbon dioxide, and their breathing drive has adapted to run on low oxygen. Give them too much and their breathing can slow. For these patients protocols usually set a lower target, around 88 to 92%. But this is not a reason to withhold oxygen. A COPD patient who is blue, confused, and struggling gets oxygen. You just watch closely and titrate.\n\nAnd when a patient is clearly hypoxic, in shock, or in respiratory distress, none of this hesitation applies. High-concentration oxygen, now. The targets exist to stop reflex over-treatment, not to make you slow down for the patient who is dying in front of you.",
+          "standard": "Current guidelines treat supplemental oxygen as a titratable medication with a target SpO2 of 94% to 99% for most acutely ill patients. High-concentration oxygen remains indicated for hypoxemia, shock, respiratory distress, inadequate ventilation, cardiac arrest, carbon monoxide poisoning, and other conditions per protocol. Routine high-flow oxygen in normoxic patients with acute coronary syndrome or stroke is no longer recommended, as hyperoxia is associated with vasoconstriction and increased oxidative injury without demonstrated benefit. For patients with COPD at risk of hypercapnic respiratory failure, a target of approximately 88% to 92% is commonly used; oxygen should still be administered to any such patient with hypoxemia or distress, with close monitoring of mental status and respiratory effort. Local protocol governs specific targets and devices."
+        },
+        "eli_new": {
+          "analogy": "Oxygen is medicine, not water. You do not pour it on everyone; you dose it.",
+          "body": "Imagine giving every patient the maximum dose of a painkiller whether they hurt or not. Nobody would do that. Oxygen used to be treated that way, and it took a lot of research to notice that some patients were worse for it.\n\nThe target of 94 to 99% is the dosing chart. Below it, give more. In it, hold steady. The COPD exception is a patient whose body is used to running a little low, so their chart says 88 to 92. But a chart never tells you to let someone suffocate. Distress means give oxygen, every time, and then adjust."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why we no longer put every patient on a non-rebreather, and who still gets high-flow oxygen without question.",
+          "must_hit": [
+            {
+              "point": "Target SpO2 94 to 99%",
+              "accept": [
+                "94",
+                "94 to 99",
+                "94-99",
+                "titrate"
+              ]
+            },
+            {
+              "point": "Too much oxygen can harm some patients",
+              "accept": [
+                "harm",
+                "worse",
+                "hyperoxia",
+                "not helpful",
+                "stroke",
+                "heart attack"
+              ]
+            },
+            {
+              "point": "Distress, shock, hypoxia still get high-flow oxygen",
+              "accept": [
+                "distress",
+                "shock",
+                "hypoxic",
+                "struggling",
+                "without question",
+                "non-rebreather"
+              ]
+            }
+          ],
+          "model_answer": "Oxygen is a drug with a dose. We aim for a sat of 94 to 99% and adjust to get there, because research showed that flooding patients who were not hypoxic, like some heart attack and stroke patients, did not help and may have hurt them. That said, anyone hypoxic, in shock, or in respiratory distress still gets high-concentration oxygen right away. Some COPD patients have a lower target, around 88 to 92, but you never withhold oxygen from one who is struggling."
+        },
+        "story": {
+          "title": "Ninety-six and comfortable",
+          "dispatch": "Medic 2, 62-year-old male, chest pain, onset 20 minutes ago, alert, private residence.",
+          "body": "He is sitting on the couch, gray, sweaty, pressure in the center of his chest. You get him on the monitor and the pulse ox: 96%. Breathing normally, speaking in full sentences. The older EMT you rode with as a student would have had a non-rebreather on him before the door closed. You do not. You give aspirin per protocol, get the twelve-lead, and move. On the way in you check the sat again: 95%. Still in range. No oxygen.\n\nYour partner asks about it. You tell him what you were taught: oxygen is a drug, this patient is not hypoxic, and pushing his sats to 100% would not help his heart and might make things worse. If he drops under 94, the cannula goes on. He never does."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Target SpO2 (most patients)",
+            "value": "94 to 99",
+            "unit": "%",
+            "note": "titrate"
+          },
+          {
+            "label": "Target SpO2 (CO2-retaining COPD)",
+            "value": "~88 to 92",
+            "unit": "%",
+            "note": "per protocol; never withhold in distress"
+          },
+          {
+            "label": "High-flow O2 without hesitation",
+            "value": "hypoxia, shock, distress, inadequate breathing, CO poisoning",
+            "unit": "",
+            "note": ""
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 3,
+        "scenario": 3
+      },
+      "media": [],
+      "verify": true,
+      "verify_notes": "Confirm the 94 to 99% target and the COPD 88 to 92% range as stated in AAOS 12e and current AHA guidance; confirm the current wording on oxygen in ACS and stroke."
     }
   ]
 }

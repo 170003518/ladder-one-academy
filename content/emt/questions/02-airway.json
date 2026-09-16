@@ -365,183 +365,696 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-03-01-Q001",
+      "concept_id": "EMT-02-03-01",
+      "style": "recall",
+      "stem": "At what cylinder pressure should an EMT replace an oxygen cylinder?",
+      "options": [
+        {
+          "text": "0 psi",
+          "rationale": "Running a cylinder empty allows moisture and contaminants in and gives unreliable flow near the end. Never plan to run one dry."
+        },
+        {
+          "text": "200 psi",
+          "rationale": "Correct. 200 psi is the safe residual pressure. At that reading the cylinder is swapped or refilled."
+        },
+        {
+          "text": "500 psi",
+          "rationale": "Plenty of usable oxygen remains at 500 psi. Swapping this early wastes supply and time."
+        },
+        {
+          "text": "1,000 psi",
+          "rationale": "A cylinder at 1,000 psi is roughly half full and has significant usable volume."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm safe residual pressure in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-01-Q002",
+      "concept_id": "EMT-02-03-01",
+      "style": "calculation",
+      "stem": "A D cylinder reads 1,700 psi. The patient is on a non-rebreather at 15 L/min. Approximately how long will the cylinder last?",
+      "options": [
+        {
+          "text": "About 8 minutes",
+          "rationale": "This is what you get if you forget the constant and just divide. The constant accounts for cylinder volume."
+        },
+        {
+          "text": "About 16 minutes",
+          "rationale": "Correct. (1,700 − 200) × 0.16 ÷ 15 = 1,500 × 0.16 ÷ 15 = 240 ÷ 15 = 16 minutes."
+        },
+        {
+          "text": "About 18 minutes",
+          "rationale": "This results from forgetting to subtract the 200 psi safe residual: 1,700 × 0.16 ÷ 15 = 18.1. The residual is not usable."
+        },
+        {
+          "text": "About 28 minutes",
+          "rationale": "This uses the E cylinder constant (0.28) on a D cylinder. Match the constant to the cylinder size."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm D constant 0.16 in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-01-Q003",
+      "concept_id": "EMT-02-03-01",
+      "style": "application",
+      "stem": "Which action is a safety violation when handling an oxygen cylinder?",
+      "options": [
+        {
+          "text": "Opening the cylinder valve slowly while standing to the side of the regulator",
+          "rationale": "This is correct practice. Slow opening and staying out of line with the regulator protects you if a fitting fails."
+        },
+        {
+          "text": "Applying a small amount of grease to a stiff regulator fitting",
+          "rationale": "Correct. Petroleum products can ignite violently in the presence of pressurized oxygen. Never use oil or grease on oxygen equipment."
+        },
+        {
+          "text": "Securing the cylinder in a bracket before transport",
+          "rationale": "Securing the cylinder is required. An unsecured cylinder can become a projectile if the valve breaks."
+        },
+        {
+          "text": "Checking the hydrostatic test date stamped on the cylinder",
+          "rationale": "Checking the test date is part of proper equipment inspection."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm safety rules list in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-01-Q004",
+      "concept_id": "EMT-02-03-01",
+      "style": "recall",
+      "stem": "What is the function of the regulator on an oxygen cylinder?",
+      "options": [
+        {
+          "text": "It increases the pressure so oxygen can be delivered through long tubing",
+          "rationale": "Pressure needs to go down, not up. Cylinder pressure is far too high to deliver to a patient."
+        },
+        {
+          "text": "It reduces the high cylinder pressure to a safe working pressure",
+          "rationale": "Correct. The regulator drops roughly 2,000 psi to a safe working pressure; the attached flowmeter then sets liters per minute."
+        },
+        {
+          "text": "It humidifies the oxygen before it reaches the patient",
+          "rationale": "Humidification is done by a separate humidifier bottle, not the regulator."
+        },
+        {
+          "text": "It filters carbon dioxide out of the oxygen supply",
+          "rationale": "Medical oxygen cylinders contain oxygen only; no CO2 filtering is involved."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm regulator description in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-03-02-Q001",
       "concept_id": "EMT-02-03-02",
       "style": "recall",
-      "stem": "A nasal cannula is intended for a patient who:",
+      "stem": "A nasal cannula should be set to a flow rate of:",
       "options": [
         {
-          "text": "Is breathing adequately and needs modest supplemental oxygen",
-          "rationale": "Correct. It is a low-flow device for a patient managing their own breathing."
+          "text": "1 to 6 L/min",
+          "rationale": "Correct. This is the working range for a cannula, delivering roughly 24% to 44% oxygen."
         },
         {
-          "text": "Is not moving enough air on their own",
-          "rationale": "A patient moving inadequate air needs assisted ventilation, not a low-flow device."
+          "text": "6 to 10 L/min",
+          "rationale": "Flow above 6 L/min dries the nasal passages without meaningfully raising the concentration. This range is closer to a partial rebreather."
         },
         {
-          "text": "Needs the highest concentration of oxygen available",
-          "rationale": "High-flow need points to a different device entirely."
+          "text": "10 to 15 L/min",
+          "rationale": "This is the non-rebreather range. A cannula at this flow is uncomfortable and ineffective."
         },
         {
-          "text": "Has no pulse",
-          "rationale": "A pulseless patient needs resuscitation, not a nasal cannula."
+          "text": "15 to 25 L/min",
+          "rationale": "No standard EMT device runs at this flow. It is beyond the range of the cannula and the NRB."
         }
       ],
       "correct_index": 0,
       "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm cannula flow range in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-03-02-Q002",
       "concept_id": "EMT-02-03-02",
       "style": "application",
-      "stem": "Running a nasal cannula above its intended flow range:",
+      "stem": "Which patient is the best candidate for a nasal cannula?",
       "options": [
         {
-          "text": "Causes a specific problem rather than delivering more benefit",
-          "rationale": "Correct. There is an upper limit, and exceeding it creates its own problem."
+          "text": "A 70-year-old who is breathing 8 times per minute with shallow chest rise",
+          "rationale": "This patient is breathing inadequately and needs ventilation with a BVM, not a passive oxygen device."
         },
         {
-          "text": "Roughly doubles the oxygen the patient receives",
-          "rationale": "Exceeding the range does not scale delivery in that way."
+          "text": "A 55-year-old with chest pain, speaking in full sentences, SpO2 91%",
+          "rationale": "Correct. Breathing adequately, mildly hypoxic, and needs only a modest oxygen boost. Titrate toward 94% to 99%."
         },
         {
-          "text": "Is required for every adult patient",
-          "rationale": "There is no such blanket requirement."
+          "text": "A 30-year-old asthmatic in obvious distress with SpO2 84%",
+          "rationale": "Severe hypoxia with distress calls for a non-rebreather. A cannula cannot deliver enough oxygen."
         },
         {
-          "text": "Has no effect of any kind",
-          "rationale": "If it had no effect there would be no stated range."
+          "text": "A 40-year-old with a broken nose and both nostrils packed with blood",
+          "rationale": "Nasal obstruction defeats the cannula; the oxygen never reaches the airway. Use a mask."
         }
       ],
-      "correct_index": 0,
-      "difficulty": 1,
+      "correct_index": 1,
+      "difficulty": 2,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm device-selection guidance in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-03-02-Q003",
       "concept_id": "EMT-02-03-02",
-      "style": "scenario",
-      "stem": "Your patient needs high-flow oxygen. Why is a nasal cannula the wrong choice here?",
+      "style": "recall",
+      "stem": "The approximate oxygen concentration delivered by a nasal cannula is:",
       "options": [
         {
-          "text": "It is a low-flow device and cannot meet a high-flow need",
-          "rationale": "Correct. Its comfort makes it tempting, which is exactly why it is the classic wrong answer in this situation."
+          "text": "21%",
+          "rationale": "21% is room air. A cannula adds oxygen on top of that."
         },
         {
-          "text": "It is uncomfortable for most patients",
-          "rationale": "Comfort is one of its advantages, not a reason to reject it."
+          "text": "24% to 44%",
+          "rationale": "Correct. Across its 1 to 6 L/min range a cannula delivers roughly 24% to 44%."
         },
         {
-          "text": "It cannot be used on awake patients",
-          "rationale": "It is routinely used on awake patients."
+          "text": "50% to 60%",
+          "rationale": "This is closer to a partial rebreather's range, not a cannula."
         },
         {
-          "text": "It requires a physician order in all systems",
-          "rationale": "Order requirements are not what makes it wrong for a high-flow need."
+          "text": "Up to 90%",
+          "rationale": "That is the non-rebreather. A cannula cannot approach this concentration."
         }
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm cannula concentration range in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02-Q004",
+      "concept_id": "EMT-02-03-02",
+      "style": "application",
+      "stem": "Your patient on a nasal cannula at 6 L/min still has an SpO2 of 90%. The best next step is to:",
+      "options": [
+        {
+          "text": "Increase the cannula to 10 L/min",
+          "rationale": "More flow through a cannula dries the nose without adding meaningful concentration. The device is at its ceiling."
+        },
+        {
+          "text": "Switch to a non-rebreather mask at 15 L/min",
+          "rationale": "Correct. When a cannula cannot get the patient into the target range, change the device to one that delivers more, and reassess breathing adequacy."
+        },
+        {
+          "text": "Leave the cannula in place and reassess in 15 minutes",
+          "rationale": "A sat below the target with a device already maxed out is a reason to act now, not wait."
+        },
+        {
+          "text": "Remove all oxygen and observe",
+          "rationale": "A hypoxic patient needs more oxygen, not less."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm escalation guidance in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-03-03-Q001",
       "concept_id": "EMT-02-03-03",
       "style": "recall",
-      "stem": "A non-rebreather mask is appropriate for a patient who:",
+      "stem": "A non-rebreather mask set at 15 L/min delivers an oxygen concentration of approximately:",
       "options": [
         {
-          "text": "Is still breathing adequately on their own and needs high-flow oxygen",
-          "rationale": "Correct. It is the high-flow device for a patient managing their own breathing."
+          "text": "44%",
+          "rationale": "This is the top of the nasal cannula range."
         },
         {
-          "text": "Is not moving enough air on their own",
-          "rationale": "That patient needs assisted ventilation instead — this is the classic error."
+          "text": "60%",
+          "rationale": "This is roughly the top of a partial rebreather's range, which lacks the NRB's one-way valve."
         },
         {
-          "text": "Is apneic",
-          "rationale": "An apneic patient is not breathing and cannot draw from the reservoir."
+          "text": "90%",
+          "rationale": "Correct. With a properly inflated reservoir and 10 to 15 L/min, an NRB delivers up to about 90%."
         },
         {
-          "text": "Is in cardiac arrest",
-          "rationale": "Cardiac arrest calls for resuscitation, not a mask on a spontaneously breathing patient."
+          "text": "100%",
+          "rationale": "The mask is not perfectly sealed and always entrains a little room air, so it does not reach 100%."
         }
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm NRB delivered concentration in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-03-03-Q002",
       "concept_id": "EMT-02-03-03",
-      "style": "recall",
-      "stem": "Before a non-rebreather mask is placed on the patient's face, what has to happen?",
+      "style": "application",
+      "stem": "Before placing a non-rebreather mask on a patient, the EMT must:",
       "options": [
         {
-          "text": "The reservoir has to be prepared",
-          "rationale": "Correct. Preparing the reservoir before application is part of the device working as intended."
+          "text": "Set the flow to 6 L/min",
+          "rationale": "6 L/min is too low for an NRB; the reservoir will collapse and concentration will fall."
         },
         {
-          "text": "The patient must be laid supine",
-          "rationale": "Position is not a prerequisite for applying the device."
+          "text": "Fully inflate the reservoir bag",
+          "rationale": "Correct. Occlude the valve so the bag fills completely, so the patient's first breath draws high-concentration oxygen."
         },
         {
-          "text": "A nasal cannula must be applied underneath first",
-          "rationale": "Layering a cannula underneath is not part of the standard application."
+          "text": "Remove the one-way valves so the patient can exhale easily",
+          "rationale": "The valves are what make it a non-rebreather. Removing them lets exhaled air back into the reservoir and drops the concentration."
         },
         {
-          "text": "The oxygen must be humidified",
-          "rationale": "Humidification is a separate consideration, not a prerequisite here."
+          "text": "Confirm the patient is not breathing",
+          "rationale": "Backwards. The NRB requires a patient who is breathing adequately. A non-breathing patient needs a BVM."
         }
       ],
-      "correct_index": 0,
-      "difficulty": 1,
+      "correct_index": 1,
+      "difficulty": 2,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm NRB application steps in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-03-03-Q003",
       "concept_id": "EMT-02-03-03",
       "style": "scenario",
-      "stem": "You reach for a non-rebreather on a patient who is not moving enough air. What is wrong with that choice?",
+      "stem": "You arrive to find a 60-year-old man who is unresponsive, breathing 6 times per minute with shallow, irregular respirations, and cyanotic around the lips. Which oxygen delivery method is most appropriate?",
       "options": [
         {
-          "text": "That patient needs assisted ventilation, not a mask they have to draw from",
-          "rationale": "Correct. A non-rebreather relies on the patient's own breath; a patient moving too little air cannot use it."
+          "text": "Nasal cannula at 6 L/min",
+          "rationale": "A cannula cannot correct inadequate breathing and delivers too little oxygen for this patient."
         },
         {
-          "text": "Nothing — it is the right device for that patient",
-          "rationale": "This is precisely the error the concept warns about."
+          "text": "Non-rebreather mask at 15 L/min",
+          "rationale": "The NRB depends on the patient breathing adequately on his own. At 6 shallow breaths per minute he is not, so the mask is oxygen sitting on a face."
         },
         {
-          "text": "The mask will be the wrong size for an adult",
-          "rationale": "Sizing is not the issue being tested here."
+          "text": "Bag-valve-mask with supplemental oxygen",
+          "rationale": "Correct. Inadequate rate and depth require positive-pressure ventilation. The BVM both ventilates and delivers high-concentration oxygen."
         },
         {
-          "text": "A nasal cannula would deliver more oxygen",
-          "rationale": "A cannula is a low-flow device and would deliver less, not more."
+          "text": "Venturi mask at 28%",
+          "rationale": "A Venturi mask delivers a controlled low concentration and, like any passive mask, does not help a patient who is not breathing adequately."
+        }
+      ],
+      "correct_index": 2,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm NRB vs BVM decision criteria in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-03-Q004",
+      "concept_id": "EMT-02-03-03",
+      "style": "application",
+      "stem": "While your patient is on a non-rebreather, you notice the reservoir bag collapsing almost completely with each breath. You should:",
+      "options": [
+        {
+          "text": "Increase the oxygen flow rate",
+          "rationale": "Correct. A collapsing reservoir means the flow is not keeping up with the patient's demand. Turn it up until the bag stays at least two-thirds full."
+        },
+        {
+          "text": "Loosen the mask strap to let in more room air",
+          "rationale": "Letting in room air lowers the oxygen concentration. That is the opposite of the goal."
+        },
+        {
+          "text": "Switch to a nasal cannula",
+          "rationale": "A patient drawing this hard needs more oxygen, not a lower-concentration device."
+        },
+        {
+          "text": "Remove the reservoir bag",
+          "rationale": "The reservoir is what makes the NRB work. Without it the mask becomes a simple face mask with much lower concentration."
         }
       ],
       "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm reservoir collapse guidance in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-04-Q001",
+      "concept_id": "EMT-02-03-04",
+      "style": "recall",
+      "stem": "Which oxygen delivery device provides the most precise, controlled oxygen concentration?",
+      "options": [
+        {
+          "text": "Non-rebreather mask",
+          "rationale": "The NRB delivers high concentration but not a precise, adjustable percentage."
+        },
+        {
+          "text": "Venturi mask",
+          "rationale": "Correct. Color-coded adapters entrain a fixed ratio of room air to deliver a specific concentration, roughly 24% to 50%."
+        },
+        {
+          "text": "Partial rebreather mask",
+          "rationale": "The partial rebreather's concentration varies with the patient's breathing and is not precisely controlled."
+        },
+        {
+          "text": "Nasal cannula",
+          "rationale": "Cannula concentration varies widely with the patient's breathing pattern and is not precise."
+        }
+      ],
+      "correct_index": 1,
       "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm Venturi description in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-04-Q002",
+      "concept_id": "EMT-02-03-04",
+      "style": "recall",
+      "stem": "The main difference between a partial rebreather mask and a non-rebreather mask is that the partial rebreather:",
+      "options": [
+        {
+          "text": "Has a larger reservoir bag",
+          "rationale": "Bag size is similar. The difference is in the valves, not the bag."
+        },
+        {
+          "text": "Lacks the one-way valve between the mask and the reservoir, so some exhaled air is rebreathed",
+          "rationale": "Correct. Without that valve, part of each exhaled breath returns to the bag, lowering the delivered concentration."
+        },
+        {
+          "text": "Delivers a higher oxygen concentration",
+          "rationale": "It delivers a lower concentration, roughly 40% to 60%, because of the rebreathing."
+        },
+        {
+          "text": "Is used for patients who are not breathing",
+          "rationale": "Like all passive masks, it requires adequate spontaneous breathing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm partial rebreather description in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-04-Q003",
+      "concept_id": "EMT-02-03-04",
+      "style": "application",
+      "stem": "Humidified oxygen is most appropriate for:",
+      "options": [
+        {
+          "text": "A 10-minute transport of an adult with chest pain",
+          "rationale": "Short transports do not need humidification; dry oxygen for a few minutes causes no meaningful harm."
+        },
+        {
+          "text": "A 90-minute interfacility transfer of a pediatric patient on continuous oxygen",
+          "rationale": "Correct. Prolonged administration and pediatric patients are the classic indications, because dry oxygen irritates the airway over time."
+        },
+        {
+          "text": "A patient in cardiac arrest receiving BVM ventilation",
+          "rationale": "Humidification is not a priority during resuscitation; ventilation and compressions are."
+        },
+        {
+          "text": "Any patient on a non-rebreather",
+          "rationale": "Routine humidification is unnecessary for typical short EMS calls."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm humidification indications in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-05-Q001",
+      "concept_id": "EMT-02-03-05",
+      "style": "scenario",
+      "stem": "You are treating a patient rescued from a house fire. She is confused with a headache, but her pulse oximeter reads 99%. The most likely explanation is:",
+      "options": [
+        {
+          "text": "She is adequately oxygenated and does not need supplemental oxygen",
+          "rationale": "A confused, symptomatic fire victim with a perfect reading should raise suspicion, not reassurance."
+        },
+        {
+          "text": "Carbon monoxide is bound to her hemoglobin and the oximeter cannot distinguish it from oxygen",
+          "rationale": "Correct. Pulse oximetry reads carboxyhemoglobin as saturated hemoglobin, giving a falsely high value. Treat with high-flow oxygen regardless of the number."
+        },
+        {
+          "text": "The probe is on too tightly",
+          "rationale": "A tight probe may reduce signal quality but does not produce a falsely high reading in this pattern."
+        },
+        {
+          "text": "Smoke has coated the sensor",
+          "rationale": "A dirty sensor typically gives no reading or a poor signal, not a confidently high one."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm CO and pulse oximetry statement in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-05-Q002",
+      "concept_id": "EMT-02-03-05",
+      "style": "recall",
+      "stem": "Which of the following is most likely to cause an inaccurate pulse oximetry reading?",
+      "options": [
+        {
+          "text": "The patient is sitting upright",
+          "rationale": "Position does not affect the reading."
+        },
+        {
+          "text": "The patient has cold hands and poor circulation",
+          "rationale": "Correct. The device needs a strong pulsatile signal; cold, poorly perfused fingers give weak or false readings."
+        },
+        {
+          "text": "The patient recently ate",
+          "rationale": "Food intake has no effect on oximetry."
+        },
+        {
+          "text": "The patient is on a nasal cannula",
+          "rationale": "Supplemental oxygen changes the true saturation but does not make the reading inaccurate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm interference list in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-05-Q003",
+      "concept_id": "EMT-02-03-05",
+      "style": "application",
+      "stem": "A patient with obvious labored breathing and accessory muscle use has a pulse oximeter reading of 97%. The EMT should:",
+      "options": [
+        {
+          "text": "Withhold oxygen because the saturation is normal",
+          "rationale": "The patient's presentation outranks the number. Visible distress is treated."
+        },
+        {
+          "text": "Treat the patient's distress and continue to assess, regardless of the reading",
+          "rationale": "Correct. SpO2 reflects oxygenation only; a patient can be working hard and heading toward failure with a normal number. Treat what you see."
+        },
+        {
+          "text": "Assume the oximeter is broken and replace it",
+          "rationale": "The reading may be accurate. The lesson is that a normal SpO2 does not rule out inadequate ventilation, not that the device is faulty."
+        },
+        {
+          "text": "Document the reading and take no further action",
+          "rationale": "A patient in labored breathing always requires intervention and reassessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm 'treat the patient not the monitor' guidance in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-05-Q004",
+      "concept_id": "EMT-02-03-05",
+      "style": "recall",
+      "stem": "Pulse oximetry measures:",
+      "options": [
+        {
+          "text": "The amount of carbon dioxide in exhaled breath",
+          "rationale": "That is capnography, a separate device."
+        },
+        {
+          "text": "The percentage of hemoglobin saturated with oxygen",
+          "rationale": "Correct. SpO2 is the percentage of hemoglobin binding sites occupied by oxygen (or, unfortunately, carbon monoxide)."
+        },
+        {
+          "text": "The respiratory rate",
+          "rationale": "Respiratory rate is counted by observation; some monitors estimate it, but that is not what pulse oximetry measures."
+        },
+        {
+          "text": "The partial pressure of oxygen in arterial blood",
+          "rationale": "PaO2 requires an arterial blood gas. SpO2 is an estimate of saturation, not partial pressure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm definition in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-06-Q001",
+      "concept_id": "EMT-02-03-06",
+      "style": "recall",
+      "stem": "For most acutely ill patients, supplemental oxygen should be titrated to maintain an SpO2 of:",
+      "options": [
+        {
+          "text": "85% to 90%",
+          "rationale": "This is below the accepted target and represents hypoxia in most patients."
+        },
+        {
+          "text": "88% to 92%",
+          "rationale": "This is the lower target used for some CO2-retaining COPD patients, not the general population."
+        },
+        {
+          "text": "94% to 99%",
+          "rationale": "Correct. This is the current target for most patients; give oxygen when below it and avoid pushing beyond it."
+        },
+        {
+          "text": "100% at all times",
+          "rationale": "Routinely driving saturation to 100% is no longer recommended and may be harmful in some conditions."
+        }
+      ],
+      "correct_index": 2,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm target range in AAOS 12e and current AHA guidance."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-06-Q002",
+      "concept_id": "EMT-02-03-06",
+      "style": "scenario",
+      "stem": "A 70-year-old with a history of severe COPD is cyanotic, confused, and breathing 30 times per minute with an SpO2 of 78%. Your partner hesitates to give oxygen because 'COPD patients can stop breathing with too much oxygen.' The correct action is to:",
+      "options": [
+        {
+          "text": "Withhold oxygen and transport rapidly",
+          "rationale": "Withholding oxygen from a severely hypoxic, cyanotic patient is never correct. Hypoxia kills far faster than hypercapnia."
+        },
+        {
+          "text": "Give high-concentration oxygen now and monitor breathing and mental status closely, titrating per protocol",
+          "rationale": "Correct. A COPD patient in true distress gets oxygen. The hypoxic-drive concern means you watch and titrate, not that you withhold."
+        },
+        {
+          "text": "Apply a nasal cannula at 1 L/min and reassess in 10 minutes",
+          "rationale": "Far too little oxygen for a patient this hypoxic, and too long a wait."
+        },
+        {
+          "text": "Have the patient breathe into a paper bag",
+          "rationale": "This has no role here and would worsen hypoxia."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm COPD oxygen guidance in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-06-Q003",
+      "concept_id": "EMT-02-03-06",
+      "style": "application",
+      "stem": "A patient with chest pain suggestive of a heart attack is alert, breathing comfortably, and has an SpO2 of 97%. Regarding oxygen, the EMT should:",
+      "options": [
+        {
+          "text": "Apply a non-rebreather at 15 L/min because all cardiac patients receive high-flow oxygen",
+          "rationale": "This was old practice. Routine high-flow oxygen for non-hypoxic cardiac patients is no longer recommended."
+        },
+        {
+          "text": "Withhold supplemental oxygen unless the SpO2 falls below 94% or distress develops, per protocol",
+          "rationale": "Correct. The patient is not hypoxic. Current guidance is to titrate oxygen to the target range, not to give it reflexively."
+        },
+        {
+          "text": "Apply a nasal cannula at 2 L/min as a precaution",
+          "rationale": "Oxygen is a drug; giving it without an indication is not a 'precaution,' and hyperoxia may cause harm in ACS."
+        },
+        {
+          "text": "Have the patient hyperventilate to increase oxygen",
+          "rationale": "Hyperventilation does not meaningfully raise saturation in a patient already at 97% and can cause harm."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "secondary_concepts": [
+        "EMT-04-02-01"
+      ],
+      "verify": true,
+      "verify_notes": "Confirm current ACS oxygen guidance in AAOS 12e and AHA."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-06-Q004",
+      "concept_id": "EMT-02-03-06",
+      "style": "application",
+      "stem": "Which patient should receive high-concentration oxygen immediately, without waiting for a pulse oximetry reading?",
+      "options": [
+        {
+          "text": "A patient with a sprained ankle and normal breathing",
+          "rationale": "No indication for oxygen."
+        },
+        {
+          "text": "A patient with signs of shock: pale, cool, clammy skin and a rapid weak pulse",
+          "rationale": "Correct. Shock is a perfusion emergency; high-concentration oxygen is indicated regardless of the reading."
+        },
+        {
+          "text": "A patient with a mild headache and no other complaints",
+          "rationale": "No indication for oxygen."
+        },
+        {
+          "text": "A patient who is anxious but has normal skin color and normal breathing",
+          "rationale": "Anxiety alone is not an indication for oxygen; reassess and treat the cause."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm indications for high-concentration oxygen in AAOS 12e."
     }
   ]
 }

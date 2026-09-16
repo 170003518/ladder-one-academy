@@ -16,6 +16,7 @@ import { renderLesson, markViewed, modesFor } from './lesson.js';
 import * as quiz from './quiz.js';
 import * as exam from './exam.js';
 import { renderPrintCard } from './print.js';
+import { pickDo, resetDo } from './interact.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -246,7 +247,8 @@ function wire() {
      delegated from the container rather than bound to elements. */
   app.el.addEventListener('click', ev => {
     const t = ev.target.closest('[data-depth], #mark-viewed, #quiz-start, [data-answer], [data-confidence], #quiz-again, '
-      + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print');
+      + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print, '
+      + '[data-do-pick], #do-reset');
     if (!t) return;
 
     if (t.dataset.depth) { app.depth = t.dataset.depth; return refresh(); }
@@ -290,6 +292,14 @@ function wire() {
     if (t.id === 'review-next') { exam.reviewGo(1); return refresh(); }
 
     if (t.id === 'do-print') { window.print(); return; }
+
+    /* --- Do It --- */
+    if (t.dataset.doPick) {
+      const [item, choice] = t.dataset.doPick.split(':').map(Number);
+      pickDo(ctx.concept.id, item, choice);
+      return refresh();
+    }
+    if (t.id === 'do-reset') { resetDo(ctx.concept.id); return refresh(); }
   });
 
   app.el.addEventListener('change', ev => {

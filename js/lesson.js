@@ -9,6 +9,7 @@
 import { load as loadProgress, update as updateProgress, isConceptComplete } from './progress.js';
 import { renderQuiz } from './quiz.js';
 import { isServable } from './bank.js';
+import { renderDo } from './interact.js';
 
 export const esc = s => String(s).replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -93,7 +94,9 @@ function simpleMode(mode, concept) {
     case 'eli_new':
       return `${m.analogy ? `<p class="analogy">${esc(m.analogy)}</p>` : ''}<div class="prose"><p>${esc(m.body)}</p></div>`;
     case 'story':
-      return `${m.title ? `<h2>${esc(m.title)}</h2>` : ''}${m.dispatch ? `<p class="dispatch">${esc(m.dispatch)}</p>` : ''}<div class="prose"><p>${esc(m.body)}</p></div>`;
+      return `${m.title ? `<h2>${esc(m.title)}</h2>` : ''}${m.dispatch ? `<p class="dispatch">${esc(m.dispatch)}</p>` : ''}<div class="prose">${m.body.split(/\n{2,}/).map(p => `<p>${esc(p)}</p>`).join('')}</div>`;
+    case 'do':
+      return renderDo(concept);
     default:
       return `<div class="stub-box"><h2>${esc(MODE_LABEL[mode])} — not built yet</h2>
         <p>The concept carries data for this mode, but the renderer is still to come.</p></div>`;

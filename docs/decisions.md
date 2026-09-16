@@ -81,3 +81,11 @@
 - **A failed attempt locks the retake for `retake_after_hours`** and the retake draws a fresh set. A pass does not lock anything.
 - **Exam run state is in memory.** Refreshing mid-paper loses the attempt, unrecorded — we cannot tell a refresh from a walk-away, and recording a partial paper as a score would be worse.
 - **One card per print sheet still uses the real two-column grid**, so the single card sits in the cell it would occupy on a full sheet and the mirrored backs sheet puts its back in the opposite column. Verified: front at column 1, back at column 2, card exactly 3 × 5 in.
+
+## 2026-09-15 — Content: EMT-02-03 Oxygen delivery
+
+- First real content merged. Lesson EMT-02-03 goes from 2 stub concepts to **6 authored concepts**, the bank from 18 to **35 questions**, the deck from 6 to **12 cards**. Everything still carries `verify: true` — drafted at AAOS Emergency Care 12e level but not reviewed against a source text, so it stays barred from every question context unless dev mode is on.
+- **Field adaptations made to fit the schemas, content untouched:** `card_data.compare.left_name` / `right_name` → `left_label` / `right_label`, and `rows[].label` → `rows[].feature`, on EMT-02-03-02 and EMT-02-03-04.
+- **Card metadata supplied** (the draft carried none): `schema_version`, `print_size`, `number`, `footer`, and `verify_notes` on all 8 new cards. Deck numbering continues from the existing cards, 5–12.
+- **`select_device` now covers two config shapes**, detected from the config rather than declared: `match` (`devices[]` + `patients[{text, correct, why}]`) and `choice` (`choices[]` + `correct_choice` + `worked_solution`). The oxygen-duration calculation is authored as `select_device` because `concept.schema.json`'s `type` enum has no calculation renderer; rather than change the content's declared type, the renderer handles both. If calculation activities become common, the enum should gain a `calculation` type and the content should be migrated to it.
+- **Do It is practice, not assessment.** Picks are in memory, nothing is recorded to progress and nothing gates on it.
