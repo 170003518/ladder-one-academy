@@ -85,7 +85,7 @@
     },
 
     "footer": {
-      "description": "The printed footer line and the left-edge color bar. Renders as: Ladder One Academy - Rung N - Tier - Module N Name. In black and white the tier bar becomes a pattern rather than a color.",
+      "description": "The printed footer line and the left-edge color bar. Cards use the SHORT form - Rung N - Tier - Module N Name - with no 'Ladder One Academy' prefix, because the stamp above already reads L1A and the full string wraps to two lines at 3x5 in. Tests and worksheets keep the full form. In black and white the tier bar is told apart by texture rather than color: EMT hatched, Fire solid, Paramedic dotted.",
       "type": "object",
       "additionalProperties": false,
       "required": ["tier", "rung", "module_number", "module_name"],

@@ -85,9 +85,10 @@
 
 /* --- Tier color bar -------------------------------------------------------
    Down the left edge of every printed piece. In black and white the color is
-   gone, so each tier also carries a pattern: EMT solid, Fire hatched,
-   Paramedic dotted. The pattern is always drawn — it reads as texture in color
-   and as the sole identifier in mono. */
+   gone, so each tier is also identifiable by texture: EMT hatched, Fire solid,
+   Paramedic dotted. The texture is always drawn — it reads as detail in color
+   and as the sole identifier in mono. These patterns live here in the print
+   stylesheet only; theme.css carries the colors, not the textures. */
 .l1a-bar {
   position: absolute;
   top: 0;
@@ -99,22 +100,27 @@
   -webkit-print-color-adjust: exact;
 }
 
-.tier-emt   > .l1a-bar { background-image: none; }
-.tier-fire  > .l1a-bar {
+/* EMT — star white fill carrying a fine navy diagonal hatch. Star white on
+   white paper is almost nothing, so the hatch is what makes the bar exist,
+   in color and in black and white alike. */
+.tier-emt > .l1a-bar {
   background-image: repeating-linear-gradient(
-    -45deg,
-    rgba(15, 31, 61, 0.55) 0 2px,
-    transparent 2px 6px);
+    45deg,
+    var(--navy) 0 0.5pt,
+    transparent 0.5pt 4pt);
+  box-shadow: inset -0.5pt 0 0 var(--navy), inset 0.5pt 0 0 var(--navy);
 }
+
+/* Fire — solid ember, no pattern. */
+.tier-fire > .l1a-bar { background-image: none; }
+
+/* Paramedic — line blue, dotted. */
 .tier-medic > .l1a-bar {
   background-image: repeating-linear-gradient(
     to bottom,
-    rgba(15, 31, 61, 0.55) 0 2px,
+    rgba(15, 31, 61, 0.65) 0 2px,
     transparent 2px 7px);
 }
-
-/* The EMT bar is star white on white paper, so it needs an edge to exist at all. */
-.tier-emt > .l1a-bar { box-shadow: inset -0.5pt 0 0 var(--rule), inset 0.5pt 0 0 var(--rule); }
 
 /* --- Card furniture ------------------------------------------------------- */
 .l1a-card__head {
@@ -219,6 +225,10 @@
   margin: 0;
 }
 
+/* Card footer is the SHORT form — "Rung 1 · EMT · Module 2 — Airway", no
+   "Ladder One Academy" prefix, because the stamp above already reads L1A and
+   the full string wraps to two lines at 3in. Tests and worksheets, which have
+   the width for it, keep the full form in .l1a-page__footer. */
 .l1a-card__footer,
 .l1a-page__footer {
   position: absolute;

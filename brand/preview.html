@@ -167,9 +167,9 @@
     <table class="spec">
       <tr><th>Rung</th><th>Tier</th><th>Color</th><th>Bar in color</th><th>Bar in black &amp; white</th></tr>
       <tr><td class="num">1</td><td>EMT</td><td>Star White</td>
-          <td><span style="display:inline-block;width:3rem;height:1rem;background:var(--star-white);box-shadow:inset 0 0 0 1px var(--rule)"></span></td><td>Solid</td></tr>
+          <td><span class="tier-emt" style="position:relative;display:inline-block;width:3rem;height:1rem"><span class="l1a-bar" style="width:100%"></span></span></td><td>Navy diagonal hatch</td></tr>
       <tr><td class="num">2</td><td>Fire</td><td>Ember</td>
-          <td><span class="tier-fire" style="position:relative;display:inline-block;width:3rem;height:1rem"><span class="l1a-bar" style="width:100%"></span></span></td><td>Hatched</td></tr>
+          <td><span class="tier-fire" style="position:relative;display:inline-block;width:3rem;height:1rem"><span class="l1a-bar" style="width:100%"></span></span></td><td>Solid</td></tr>
       <tr><td class="num">3</td><td>Paramedic</td><td>Line Blue</td>
           <td><span class="tier-medic" style="position:relative;display:inline-block;width:3rem;height:1rem"><span class="l1a-bar" style="width:100%"></span></span></td><td>Dotted</td></tr>
       <tr><td class="num">—</td><td>Locked</td><td>Slate</td>
@@ -217,7 +217,7 @@
   <!-- =========================== CARDS =========================== -->
   <section>
     <h2>Printed cards — 3×5 in, four up on Letter</h2>
-    <p class="lede">Two 3&nbsp;in columns with a 0.5&nbsp;in gutter, two 5&nbsp;in rows, inside a 0.5&nbsp;in page margin. Each card carries the stamp top-left, the tier bar down the left edge, the card type top-right, and the footer line across the bottom. Dashed trim boxes and corner ticks are the cut guides.</p>
+    <p class="lede">Two 3&nbsp;in columns with a 0.5&nbsp;in gutter, two 5&nbsp;in rows, inside a 0.5&nbsp;in page margin. Each card carries the stamp top-left, the tier bar down the left edge, the card type top-right, and the footer line across the bottom. Dashed trim boxes and corner ticks are the cut guides. Card footers use the short form — no <i>Ladder One Academy</i> prefix — so they hold one line; the test page below keeps the full form.</p>
     <p class="lede"><b>Duplex:</b> print the fronts sheet, put the stack back in unturned, then print the backs sheet. The backs grid is mirrored left-to-right so a long-edge flip lands each back on its own front.</p>
   </section>
 </div>
@@ -244,7 +244,7 @@
       </ul>
     </div>
     <p class="l1a-card__why">Why it matters: the wrong device on a patient who is breathing poorly wastes the only intervention you have.</p>
-    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 2 — Airway</span><span class="num">01</span></div>
+    <div class="l1a-card__footer"><span>Rung 1 · EMT · Module 2 — Airway</span><span class="num">01</span></div>
   </div>
 
   <div class="l1a-card tier-emt">
@@ -263,7 +263,7 @@
       <tr><th>Bag-valve-mask</th><td>15 L/min</td></tr>
     </table>
     <p class="l1a-card__why">Why it matters: these four numbers are asked more ways than almost anything else in the airway domain.</p>
-    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 2 — Airway</span><span class="num">02</span></div>
+    <div class="l1a-card__footer"><span>Rung 1 · EMT · Module 2 — Airway</span><span class="num">02</span></div>
   </div>
 
   <div class="l1a-card tier-emt">
@@ -283,7 +283,7 @@
       <tr><th style="font-family:var(--font-mono);font-weight:600">L</th><td style="text-align:left">Last oral intake</td></tr>
       <tr><th style="font-family:var(--font-mono);font-weight:600">E</th><td style="text-align:left">Events leading up</td></tr>
     </table>
-    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 3 — Assessment</span><span class="num">03</span></div>
+    <div class="l1a-card__footer"><span>Rung 1 · EMT · Module 3 — Assessment</span><span class="num">03</span></div>
   </div>
 
   <div class="l1a-card tier-emt">
@@ -304,7 +304,7 @@
       </ul>
     </div>
     <p class="l1a-card__why">Why it matters: abandonment and refusal questions are really negligence questions wearing a different hat.</p>
-    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 1 — Preparatory</span><span class="num">04</span></div>
+    <div class="l1a-card__footer"><span>Rung 1 · EMT · Module 1 — Preparatory</span><span class="num">04</span></div>
   </div>
 
 </div>
@@ -318,7 +318,7 @@
     <h3 class="l1a-card__title">Which patient?</h3>
     <hr class="l1a-card__rule">
     <div class="l1a-card__body"><p>A patient who is <b>breathing adequately on their own</b> and needs high-flow oxygen. A patient who is not moving enough air needs a bag-valve-mask instead.</p></div>
-    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 2 — Airway</span><span class="num">01</span></div>
+    <div class="l1a-card__footer"><span>Rung 1 · EMT · Module 2 — Airway</span><span class="num">01</span></div>
   </div>
   <div class="l1a-card tier-emt">
     <div class="l1a-bar"></div>
@@ -326,7 +326,7 @@
     <h3 class="l1a-card__title">Set-up order</h3>
     <hr class="l1a-card__rule">
     <div class="l1a-card__body"><p>Regulator on, flow set, <span class="l1a-critical">reservoir inflated</span>, then the mask goes on the face.</p></div>
-    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 2 — Airway</span><span class="num">02</span></div>
+    <div class="l1a-card__footer"><span>Rung 1 · EMT · Module 2 — Airway</span><span class="num">02</span></div>
   </div>
   <div class="l1a-card tier-emt">
     <div class="l1a-bar"></div>
@@ -334,7 +334,7 @@
     <h3 class="l1a-card__title">Pair it with</h3>
     <hr class="l1a-card__rule">
     <div class="l1a-card__body"><p><b>OPQRST</b> for the complaint itself. SAMPLE is the patient; OPQRST is the pain.</p></div>
-    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 3 — Assessment</span><span class="num">03</span></div>
+    <div class="l1a-card__footer"><span>Rung 1 · EMT · Module 3 — Assessment</span><span class="num">03</span></div>
   </div>
   <div class="l1a-card tier-emt">
     <div class="l1a-bar"></div>
@@ -342,7 +342,7 @@
     <h3 class="l1a-card__title">Memory hook</h3>
     <hr class="l1a-card__rule">
     <div class="l1a-card__body"><p><b>D-B-C-D.</b> Duty, Breach, Causation, Damages — in that order, because that is the order a claim has to prove them.</p></div>
-    <div class="l1a-card__footer"><span>Ladder One Academy · Rung 1 · EMT · Module 1 — Preparatory</span><span class="num">04</span></div>
+    <div class="l1a-card__footer"><span>Rung 1 · EMT · Module 1 — Preparatory</span><span class="num">04</span></div>
   </div>
 </div>
 </div>
@@ -412,8 +412,8 @@
     <h2>What to check</h2>
     <ul>
       <li>Does the <b>A</b> read in the logo at 32px and 16px, or do the rails close up?</li>
-      <li>Is the EMT bar visible against white paper, or too faint to see?</li>
-      <li>Toggle <b>Black &amp; white proof</b> above — can you still tell the three tiers apart by pattern alone?</li>
+      <li>Is the EMT hatch fine enough to read as a texture, or does it fill in and go solid navy at print resolution?</li>
+      <li>Toggle <b>Black &amp; white proof</b> above — can you still tell the three tiers apart by texture alone? EMT hatched, Fire solid, Paramedic dotted.</li>
       <li>Print to PDF at 100% scale (not "fit to page") and measure a card. It should be exactly 3 × 5 in.</li>
       <li>Fold the printed fronts sheet along the gutter — do the backs land where you expect?</li>
     </ul>

@@ -62,7 +62,9 @@ Tagline options (pick one):
 - Note cards & print: same pair, plus a monospace for dosages, formulas, and radio reports so numbers line up.
 
 ### Brand rules for printed material
-- Every test, worksheet, and note card carries the L1A stamp top-left, tier color bar down the left edge, and a footer: *Ladder One Academy · Rung 1 · EMT · Module 5 — Airway*.
+- Every test, worksheet, and note card carries the L1A stamp top-left and a tier color bar down the left edge.
+- Footer, **full form** — tests, worksheets and any full page: *Ladder One Academy · Rung 1 · EMT · Module 5 — Airway*.
+- Footer, **short form** — note cards only: *Rung 1 · EMT · Module 5 — Airway*. The stamp already reads L1A, and at 3×5 in the full string wraps to two lines.
 - Print in black and white must still look intentional (tier color bar becomes a pattern: solid / hatched / dotted).
 
 ---
@@ -174,6 +176,7 @@ Note cards are a first-class product, not an export.
 ### Formatting standard (the "looks professional" requirement)
 - Sizes: 3×5 in, 4×6 in, and A6. Print layout auto-tiles them onto Letter/A4 with cut guides, front/back aligned for duplex printing.
 - Layout: L1A stamp top-left, tier color bar left edge, card type label top-right, module reference in footer, card number for ordering.
+- Card footer uses the **short form** — *Rung 1 · EMT · Module 5 — Airway* — with no "Ladder One Academy" prefix, so it stays on one line at 3×5 in. Tests and worksheets keep the full form.
 - Consistent hierarchy: title, one-sentence summary, body, "High-yield" flag if it's a known exam favorite.
 - Output: PDF (print), PNG (share), and digital flip cards in-app.
 - Export to Anki/Quizlet format so nobody is locked in.

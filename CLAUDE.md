@@ -19,7 +19,7 @@ Personal EMT → Fire → Paramedic learning platform and test-prep program for 
 - Tier colors: EMT = star white, Fire = ember, Paramedic = line blue.
 - Fonts: headings Oswald, body Inter, numbers/doses in a monospace. Load from Google Fonts with system fallbacks.
 - Logo: `brand/logo.svg` (shield, three-rung ladder, Star of Life). Rungs light up by tier in the app.
-- Every printed page carries the L1A stamp top-left, tier color bar on the left edge, footer `Ladder One Academy · Rung N · Tier · Module N — Name`.
+- Every printed piece carries the L1A stamp top-left and a tier color bar on the left edge. Footer on tests and worksheets: `Ladder One Academy · Rung N · Tier · Module N — Name`. Footer on note cards (short form, fits one line at 3×5): `Rung N · Tier · Module N — Name`.
 
 ## Repo layout
 ```
