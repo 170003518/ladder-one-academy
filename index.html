@@ -110,6 +110,112 @@
   .stub-box h2 { margin-bottom: var(--space-2); font-size: var(--fs-md); color: var(--text-muted); }
   .back { font-family: var(--font-display); letter-spacing: var(--tracking-wide); text-transform: uppercase; font-size: var(--fs-sm); }
 
+  /* --- Lesson view -------------------------------------------------------- */
+  .lesson .crumb { font-size: var(--fs-xs); color: var(--text-muted); margin-bottom: var(--space-3); }
+  .lesson .crumb a { color: var(--text-muted); }
+  .lesson .crumb span { opacity: .5; margin: 0 .25em; }
+
+  .lesson-head h1 { margin-bottom: var(--space-2); }
+  .lesson-meta {
+    display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap;
+    font-size: var(--fs-sm); color: var(--text-muted); margin-bottom: var(--space-4);
+  }
+  .done-flag {
+    font-family: var(--font-display); font-size: var(--fs-xs); text-transform: uppercase;
+    letter-spacing: var(--tracking-wide); color: var(--line-blue);
+  }
+
+  .verify-banner {
+    border-left: 3px solid var(--signal-yellow); background: var(--surface);
+    padding: var(--space-3) var(--space-4); font-size: var(--fs-sm);
+    color: var(--text-muted); margin-bottom: var(--space-5);
+  }
+  .verify-banner b { color: var(--signal-yellow); }
+  .verify-banner__rule { display: block; margin-top: var(--space-2); font-size: var(--fs-xs); opacity: .85; }
+
+  .tabs { display: flex; flex-wrap: wrap; gap: var(--space-1); border-bottom: 1px solid var(--border); margin-bottom: var(--space-5); }
+  .tab {
+    text-decoration: none; color: var(--text-muted);
+    font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase;
+    padding: var(--space-3) var(--space-4); border-bottom: 2px solid transparent; margin-bottom: -1px;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.is-active { color: var(--text); border-bottom-color: var(--tier-color); }
+
+  .depth { display: flex; gap: var(--space-2); margin-bottom: var(--space-4); }
+  .depth button, .confidence-btns button, .mode-foot button, .quiz-actions button {
+    font: inherit; font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase;
+    background: var(--surface-raised); color: var(--text);
+    border: 1px solid var(--border); border-radius: var(--radius-pill);
+    padding: var(--space-2) var(--space-4); cursor: pointer;
+  }
+  .depth button[aria-pressed="true"] { background: var(--tier-color); color: var(--navy); border-color: var(--tier-color); }
+  .depth-none { font-size: var(--fs-sm); color: var(--text-muted); font-style: italic; margin-bottom: var(--space-4); }
+
+  .prose { font-size: var(--fs-md); line-height: var(--lh-loose); max-width: 38rem; }
+  .analogy { font-size: var(--fs-lg); font-style: italic; color: var(--signal-yellow); max-width: 34rem; }
+  .dispatch { font-family: var(--font-mono); font-size: var(--fs-sm); color: var(--text-muted); }
+
+  .mode-foot { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; margin: var(--space-5) 0; }
+  .mode-foot button:disabled { opacity: .55; cursor: default; }
+  .mode-foot__hint { font-size: var(--fs-xs); color: var(--text-muted); }
+
+  .keypoints {
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 3px solid var(--tier-color); border-radius: var(--radius);
+    padding: var(--space-4) var(--space-5); margin: var(--space-5) 0;
+  }
+  .keypoints h2 { font-size: var(--fs-md); margin-bottom: var(--space-3); }
+  .keypoints ul { margin: 0; padding-left: var(--space-5); }
+  .keypoints li { margin-bottom: var(--space-2); }
+
+  .concept-nav {
+    display: flex; align-items: center; justify-content: space-between; gap: var(--space-3);
+    border-top: 1px solid var(--border); padding-top: var(--space-4); margin-top: var(--space-6);
+    font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase;
+  }
+  .concept-nav .is-off { color: var(--slate); opacity: .45; }
+  .nav-pos { font-family: var(--font-ui); letter-spacing: 0; text-transform: none; color: var(--text-muted); }
+
+  /* --- Quiz --------------------------------------------------------------- */
+  .quiz-intro h2, .quiz-result h2 { font-size: var(--fs-lg); }
+  .quiz-note { font-size: var(--fs-sm); color: var(--text-muted); max-width: 38rem; }
+  .quiz-progress { font-size: var(--fs-xs); color: var(--text-muted); text-transform: uppercase; letter-spacing: var(--tracking-wide); }
+  .quiz-style { font-family: var(--font-mono); }
+  .quiz-stem { font-size: var(--fs-md); line-height: var(--lh-snug); max-width: 38rem; margin-bottom: var(--space-4); }
+
+  .opts { list-style: none; margin: 0 0 var(--space-5); padding: 0; max-width: 40rem; }
+  .opt { margin-bottom: var(--space-2); }
+  .opt > button {
+    display: flex; gap: var(--space-3); width: 100%; text-align: left;
+    font: inherit; color: var(--text); cursor: pointer;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: var(--space-3) var(--space-4);
+  }
+  .opt > button:hover:not(:disabled) { border-color: var(--slate); }
+  .opt > button:disabled { cursor: default; }
+  .opt-letter { flex: none; color: var(--text-muted); font-weight: 600; }
+  .opt.is-correct > button { border-color: var(--line-blue); box-shadow: inset 3px 0 0 var(--line-blue); }
+  .opt.is-wrong   > button { border-color: var(--ember);     box-shadow: inset 3px 0 0 var(--ember); }
+  .opt.is-dim     > button { opacity: .5; }
+  .rationale { font-size: var(--fs-sm); color: var(--text-muted); margin: var(--space-2) 0 0 var(--space-6); max-width: 36rem; }
+  .rationale b { color: var(--text); }
+
+  .confidence { border-top: 1px solid var(--border); padding-top: var(--space-4); }
+  .confidence > p { margin-bottom: var(--space-3); font-family: var(--font-display); text-transform: uppercase; letter-spacing: var(--tracking-wide); font-size: var(--fs-xs); color: var(--text-muted); }
+  .confidence-btns { display: flex; gap: var(--space-2); flex-wrap: wrap; margin-bottom: var(--space-3); }
+  .confidence-note { font-size: var(--fs-xs); color: var(--text-muted); margin: 0; }
+
+  .quiz-result { border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-5); }
+  .quiz-result.is-pass { border-left: 3px solid var(--line-blue); }
+  .quiz-result.is-fail { border-left: 3px solid var(--ember); }
+  .score { font-size: var(--fs-lg); }
+  .focus-note { font-size: var(--fs-sm); color: var(--text-muted); }
+  .quiz-actions { display: flex; align-items: center; gap: var(--space-4); flex-wrap: wrap; margin-top: var(--space-4); }
+
   /* --- Footer controls ---------------------------------------------------- */
   footer.app button {
     font: inherit; font-family: var(--font-display); font-size: var(--fs-xs);

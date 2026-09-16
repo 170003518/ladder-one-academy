@@ -1,0 +1,547 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-02",
+  "tier": "emt",
+  "questions": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-01-Q001",
+      "concept_id": "EMT-02-01-01",
+      "style": "recall",
+      "stem": "The EMT curriculum describes the airway as divided into how many named sections?",
+      "options": [
+        {
+          "text": "One continuous passage with no divisions",
+          "rationale": "The curriculum does divide it; treating it as one undivided passage is the misconception this question targets."
+        },
+        {
+          "text": "Two — an upper section and a lower section",
+          "rationale": "Correct. The airway is described in two halves, upper and lower, separated by a named landmark structure."
+        },
+        {
+          "text": "Three — upper, middle and lower",
+          "rationale": "There is no middle section in this scheme; three is a plausible-sounding invention."
+        },
+        {
+          "text": "Four, one for each lung lobe group",
+          "rationale": "Lobes describe lung anatomy, not the division of the airway passage itself."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-01-Q002",
+      "concept_id": "EMT-02-01-01",
+      "style": "recall",
+      "stem": "Why is the airway split into an upper and a lower section at all?",
+      "options": [
+        {
+          "text": "Because each half has its own characteristic set of problems",
+          "rationale": "Correct. The split is worth knowing because it predicts the kind of problem you are dealing with."
+        },
+        {
+          "text": "Because only the upper half carries air",
+          "rationale": "Both halves carry air; this option misstates the basic function."
+        },
+        {
+          "text": "Because EMTs do not assess the lower half",
+          "rationale": "Scope does not define the anatomical split, and the lower half is very much assessed."
+        },
+        {
+          "text": "Because the division matches the two lungs",
+          "rationale": "The split is a single landmark along one passage, not a left-right division."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-01-Q003",
+      "concept_id": "EMT-02-01-01",
+      "style": "application",
+      "stem": "On an exam, structure names from the two halves of the airway most often appear as:",
+      "options": [
+        {
+          "text": "Distractors for one another",
+          "rationale": "Correct. Options are built from names in the other half, so knowing which half a structure belongs to is what separates the answers."
+        },
+        {
+          "text": "Answers that are never tested",
+          "rationale": "Structure names are tested routinely; this option is simply false."
+        },
+        {
+          "text": "Items that only appear in trauma questions",
+          "rationale": "They appear across medical and trauma questions alike."
+        },
+        {
+          "text": "Items that only appear in pediatric questions",
+          "rationale": "Pediatrics has its own differences, but structure naming is not limited to it."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-02-Q001",
+      "concept_id": "EMT-02-01-02",
+      "style": "recall",
+      "stem": "Compared with an adult's airway, a child's airway:",
+      "options": [
+        {
+          "text": "Is identical, only smaller in every dimension",
+          "rationale": "This is the exact misconception the concept exists to correct — a child is not a scaled-down adult."
+        },
+        {
+          "text": "Differs in several specific ways that change what you physically do",
+          "rationale": "Correct. Each difference changes positioning, equipment sizing or ventilation."
+        },
+        {
+          "text": "Differs only in overall length",
+          "rationale": "Length alone does not account for the changes in approach the concept describes."
+        },
+        {
+          "text": "Differs in ways that require no change in approach",
+          "rationale": "If no change followed, the differences would not be testable or clinically relevant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-02-Q002",
+      "concept_id": "EMT-02-01-02",
+      "style": "recall",
+      "stem": "Each anatomical difference in the pediatric airway matters because it changes:",
+      "options": [
+        {
+          "text": "How you position the patient, size equipment, and ventilate",
+          "rationale": "Correct. The differences are worth learning because each maps to a physical action."
+        },
+        {
+          "text": "Only which medications are given",
+          "rationale": "Medication choice is not what this concept is about."
+        },
+        {
+          "text": "Only the transport destination",
+          "rationale": "Destination decisions are a separate topic entirely."
+        },
+        {
+          "text": "Nothing you physically do at the head of the stretcher",
+          "rationale": "The whole point of the concept is that each difference changes an action."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-02-Q003",
+      "concept_id": "EMT-02-01-02",
+      "style": "application",
+      "stem": "Pediatric airway questions often have a different correct answer from the adult version because:",
+      "options": [
+        {
+          "text": "The anatomical differences change which action is indicated",
+          "rationale": "Correct. Same scenario, different anatomy, therefore a different right answer."
+        },
+        {
+          "text": "Children are always transported regardless of findings",
+          "rationale": "Transport decisions are not what makes the airway answer differ."
+        },
+        {
+          "text": "EMTs are not permitted to manage pediatric airways",
+          "rationale": "Pediatric airway management is within EMT scope."
+        },
+        {
+          "text": "The exam scores pediatric items differently",
+          "rationale": "Scoring is not the reason the clinical answer changes."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-01-Q001",
+      "concept_id": "EMT-02-02-01",
+      "style": "recall",
+      "stem": "In an unresponsive patient, which structure is most likely to be obstructing the airway?",
+      "options": [
+        {
+          "text": "The tongue",
+          "rationale": "Correct. In an unresponsive patient the tongue is the structure most likely to be against the back of the throat."
+        },
+        {
+          "text": "The teeth",
+          "rationale": "Teeth can be a foreign-body concern but are not the usual cause of obstruction in an unresponsive patient."
+        },
+        {
+          "text": "The diaphragm",
+          "rationale": "The diaphragm is a muscle of ventilation, not a structure that obstructs the upper airway."
+        },
+        {
+          "text": "The tracheal rings",
+          "rationale": "Tracheal cartilage holds the airway open rather than blocking it."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-01-Q002",
+      "concept_id": "EMT-02-02-01",
+      "style": "recall",
+      "stem": "Head-tilt/chin-lift is the default manual airway maneuver when:",
+      "options": [
+        {
+          "text": "There is no reason to suspect a spinal injury",
+          "rationale": "Correct. It is the first choice when the mechanism does not raise spinal concern."
+        },
+        {
+          "text": "The mechanism strongly suggests a spinal injury",
+          "rationale": "That is the situation the other maneuver exists for."
+        },
+        {
+          "text": "The patient is awake and talking",
+          "rationale": "A patient who is talking is maintaining their own airway."
+        },
+        {
+          "text": "The patient is already breathing normally",
+          "rationale": "A patient breathing normally on their own does not need the maneuver."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-01-Q003",
+      "concept_id": "EMT-02-02-01",
+      "style": "application",
+      "stem": "Head-tilt/chin-lift and jaw-thrust are paired on exams in order to test whether you:",
+      "options": [
+        {
+          "text": "Pick the maneuver that matches the mechanism of injury",
+          "rationale": "Correct. The pairing is a mechanism question wearing an airway question's clothes."
+        },
+        {
+          "text": "Can name the anatomy of the upper airway",
+          "rationale": "Naming anatomy is tested elsewhere, not by this pairing."
+        },
+        {
+          "text": "Know an oxygen flow rate",
+          "rationale": "Flow rates belong to the oxygen delivery lesson."
+        },
+        {
+          "text": "Can size an airway adjunct correctly",
+          "rationale": "Adjunct sizing is a separate skill with its own questions."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-02-Q001",
+      "concept_id": "EMT-02-02-02",
+      "style": "recall",
+      "stem": "Jaw-thrust is chosen over head-tilt/chin-lift when:",
+      "options": [
+        {
+          "text": "The mechanism makes a spinal injury plausible",
+          "rationale": "Correct. The mechanism, not the patient's presentation, drives this choice."
+        },
+        {
+          "text": "The patient is a child rather than an adult",
+          "rationale": "Age alone does not select the maneuver."
+        },
+        {
+          "text": "The patient is breathing rapidly",
+          "rationale": "Respiratory rate does not determine which manual maneuver you use."
+        },
+        {
+          "text": "No airway adjunct is available",
+          "rationale": "Adjunct availability is unrelated to the choice of manual maneuver."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-02-Q002",
+      "concept_id": "EMT-02-02-02",
+      "style": "recall",
+      "stem": "The advantage of the jaw-thrust is that it:",
+      "options": [
+        {
+          "text": "Opens the airway without the head movement the default maneuver requires",
+          "rationale": "Correct. It gets the jaw forward while leaving the head where it is."
+        },
+        {
+          "text": "Is faster to perform than any other maneuver",
+          "rationale": "Speed is not the reason it is chosen."
+        },
+        {
+          "text": "Requires no hands on the patient",
+          "rationale": "It is a hands-on maneuver by definition."
+        },
+        {
+          "text": "Works only on patients who are awake",
+          "rationale": "An awake patient maintaining their own airway does not need it."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-02-Q003",
+      "concept_id": "EMT-02-02-02",
+      "style": "application",
+      "stem": "Choosing between head-tilt/chin-lift and jaw-thrust is driven entirely by:",
+      "options": [
+        {
+          "text": "The mechanism of injury",
+          "rationale": "Correct. This is a mechanism decision, not an airway-findings decision."
+        },
+        {
+          "text": "The patient's age",
+          "rationale": "Age changes technique details, not which of these two you select."
+        },
+        {
+          "text": "The equipment on the stretcher",
+          "rationale": "Neither maneuver requires equipment."
+        },
+        {
+          "text": "The expected transport time",
+          "rationale": "Transport time has no bearing on opening the airway now."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02-Q001",
+      "concept_id": "EMT-02-03-02",
+      "style": "recall",
+      "stem": "A nasal cannula is intended for a patient who:",
+      "options": [
+        {
+          "text": "Is breathing adequately and needs modest supplemental oxygen",
+          "rationale": "Correct. It is a low-flow device for a patient managing their own breathing."
+        },
+        {
+          "text": "Is not moving enough air on their own",
+          "rationale": "A patient moving inadequate air needs assisted ventilation, not a low-flow device."
+        },
+        {
+          "text": "Needs the highest concentration of oxygen available",
+          "rationale": "High-flow need points to a different device entirely."
+        },
+        {
+          "text": "Has no pulse",
+          "rationale": "A pulseless patient needs resuscitation, not a nasal cannula."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02-Q002",
+      "concept_id": "EMT-02-03-02",
+      "style": "application",
+      "stem": "Running a nasal cannula above its intended flow range:",
+      "options": [
+        {
+          "text": "Causes a specific problem rather than delivering more benefit",
+          "rationale": "Correct. There is an upper limit, and exceeding it creates its own problem."
+        },
+        {
+          "text": "Roughly doubles the oxygen the patient receives",
+          "rationale": "Exceeding the range does not scale delivery in that way."
+        },
+        {
+          "text": "Is required for every adult patient",
+          "rationale": "There is no such blanket requirement."
+        },
+        {
+          "text": "Has no effect of any kind",
+          "rationale": "If it had no effect there would be no stated range."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02-Q003",
+      "concept_id": "EMT-02-03-02",
+      "style": "scenario",
+      "stem": "Your patient needs high-flow oxygen. Why is a nasal cannula the wrong choice here?",
+      "options": [
+        {
+          "text": "It is a low-flow device and cannot meet a high-flow need",
+          "rationale": "Correct. Its comfort makes it tempting, which is exactly why it is the classic wrong answer in this situation."
+        },
+        {
+          "text": "It is uncomfortable for most patients",
+          "rationale": "Comfort is one of its advantages, not a reason to reject it."
+        },
+        {
+          "text": "It cannot be used on awake patients",
+          "rationale": "It is routinely used on awake patients."
+        },
+        {
+          "text": "It requires a physician order in all systems",
+          "rationale": "Order requirements are not what makes it wrong for a high-flow need."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-03-Q001",
+      "concept_id": "EMT-02-03-03",
+      "style": "recall",
+      "stem": "A non-rebreather mask is appropriate for a patient who:",
+      "options": [
+        {
+          "text": "Is still breathing adequately on their own and needs high-flow oxygen",
+          "rationale": "Correct. It is the high-flow device for a patient managing their own breathing."
+        },
+        {
+          "text": "Is not moving enough air on their own",
+          "rationale": "That patient needs assisted ventilation instead — this is the classic error."
+        },
+        {
+          "text": "Is apneic",
+          "rationale": "An apneic patient is not breathing and cannot draw from the reservoir."
+        },
+        {
+          "text": "Is in cardiac arrest",
+          "rationale": "Cardiac arrest calls for resuscitation, not a mask on a spontaneously breathing patient."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-03-Q002",
+      "concept_id": "EMT-02-03-03",
+      "style": "recall",
+      "stem": "Before a non-rebreather mask is placed on the patient's face, what has to happen?",
+      "options": [
+        {
+          "text": "The reservoir has to be prepared",
+          "rationale": "Correct. Preparing the reservoir before application is part of the device working as intended."
+        },
+        {
+          "text": "The patient must be laid supine",
+          "rationale": "Position is not a prerequisite for applying the device."
+        },
+        {
+          "text": "A nasal cannula must be applied underneath first",
+          "rationale": "Layering a cannula underneath is not part of the standard application."
+        },
+        {
+          "text": "The oxygen must be humidified",
+          "rationale": "Humidification is a separate consideration, not a prerequisite here."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-03-Q003",
+      "concept_id": "EMT-02-03-03",
+      "style": "scenario",
+      "stem": "You reach for a non-rebreather on a patient who is not moving enough air. What is wrong with that choice?",
+      "options": [
+        {
+          "text": "That patient needs assisted ventilation, not a mask they have to draw from",
+          "rationale": "Correct. A non-rebreather relies on the patient's own breath; a patient moving too little air cannot use it."
+        },
+        {
+          "text": "Nothing — it is the right device for that patient",
+          "rationale": "This is precisely the error the concept warns about."
+        },
+        {
+          "text": "The mask will be the wrong size for an adult",
+          "rationale": "Sizing is not the issue being tested here."
+        },
+        {
+          "text": "A nasal cannula would deliver more oxygen",
+          "rationale": "A cannula is a low-flow device and would deliver less, not more."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+    }
+  ]
+}
