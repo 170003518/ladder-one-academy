@@ -23,15 +23,17 @@ Personal EMT → Fire → Paramedic learning platform and test-prep program for 
 
 ## Repo layout
 ```
-index.html          app shell
-js/                 app.js (router/state), ladder.js, lesson.js, deck.js, tests.js, print.js, progress.js, srs.js
-brand/              theme.css, logo.svg, print.css
-content/emt/        01-preparatory.json … 11-exam-prep.json
-content/fire/       (later)
-content/medic/      (later)
-media/              diagrams, images, audio
-schemas/            concept.schema.json, question.schema.json, card.schema.json, progress.schema.json
-docs/               master-plan.md, emt-blueprint.md, decisions.md
+index.html              app shell
+js/                     app.js (router/state), ladder.js, lesson.js, deck.js, tests.js, print.js, progress.js, srs.js
+brand/                  theme.css, logo.svg, logo-mono.svg, print.css, preview.html
+content/emt/            01-preparatory.json … 11-exam-prep.json   (module + concepts)
+content/emt/questions/  01-preparatory.json … 11-exam-prep.json   (question bank, loaded on demand)
+content/emt/cards/      01-preparatory.json … 11-exam-prep.json   (curated deck)
+content/fire/           (later, same three-folder shape)
+content/medic/          (later, same three-folder shape)
+media/                  diagrams, images, audio
+schemas/                concept, module, question, question-bank, card, card-deck, progress (.schema.json)
+docs/                   master-plan.md, emt-blueprint.md, decisions.md
 ```
 
 ## Working style

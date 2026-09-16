@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ladderoneacademy.local/schemas/question-bank.schema.json",
+  "title": "L1A Question Bank",
+  "description": "One module's questions: content/<tier>/questions/<NN>-<slug>.json, e.g. content/emt/questions/02-airway.json. Kept out of the module file because at ~8 questions per concept a module's bank dwarfs its content, and reading one lesson should not mean downloading every question in the module. Loaded on demand when a test starts. Questions whose id does not begin with this file's module_id do not belong here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "module_id", "tier", "questions"],
+
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0",
+      "default": "1.0.0"
+    },
+    "module_id": {
+      "description": "Module this bank belongs to: TIER-MM. Every question id here starts with it.",
+      "type": "string",
+      "pattern": "^(EMT|FIRE|MEDIC)-[0-9]{2}$"
+    },
+    "tier": {
+      "description": "Matches the content/ subfolder name and the module file's tier.",
+      "type": "string",
+      "enum": ["emt", "fire", "medic"]
+    },
+    "questions": {
+      "description": "The items, inline. Order is irrelevant - the test engine selects by concept, domain, style and difficulty. Retired items stay in the array and are filtered at selection time.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "question.schema.json" }
+    }
+  }
+}
