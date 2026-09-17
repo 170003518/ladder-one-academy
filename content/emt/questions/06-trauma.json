@@ -4472,6 +4472,1446 @@
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-01-Q001",
+      "concept_id": "EMT-06-06-01",
+      "style": "recall",
+      "stem": "Why do scalp wounds bleed so heavily?",
+      "options": [
+        {
+          "text": "The scalp has no clotting factors",
+          "rationale": "Clotting is normal there."
+        },
+        {
+          "text": "Rich blood supply and vessels held open so they cannot retract",
+          "rationale": "Correct. They cannot constrict the way vessels elsewhere do."
+        },
+        {
+          "text": "Scalp skin is thinner than elsewhere",
+          "rationale": "Thickness is not the mechanism."
+        },
+        {
+          "text": "Head injuries always damage arteries",
+          "rationale": "Not the explanation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-01-Q002",
+      "concept_id": "EMT-06-06-01",
+      "style": "recall",
+      "stem": "How useful are Battle sign and raccoon eyes in the field?",
+      "options": [
+        {
+          "text": "Highly useful — they appear immediately",
+          "rationale": "Both take hours to develop."
+        },
+        {
+          "text": "Limited — they take hours, so absence early means nothing",
+          "rationale": "Correct. Suspect a basilar fracture from the mechanism anyway."
+        },
+        {
+          "text": "They rule out basilar skull fracture when absent",
+          "rationale": "They exclude nothing."
+        },
+        {
+          "text": "They are only seen in children",
+          "rationale": "They occur at any age."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-01-Q003",
+      "concept_id": "EMT-06-06-01",
+      "style": "application",
+      "stem": "Clear fluid is draining from a patient's ear after a head injury. What should you do?",
+      "options": [
+        {
+          "text": "Pack the ear to stop the leak",
+          "rationale": "Packing raises intracranial pressure and risks driving contamination inward."
+        },
+        {
+          "text": "Cover loosely and allow it to drain",
+          "rationale": "Correct. It may be cerebrospinal fluid from a basilar fracture."
+        },
+        {
+          "text": "Irrigate the ear canal",
+          "rationale": "Never appropriate here."
+        },
+        {
+          "text": "Apply firm pressure over the ear",
+          "rationale": "Pressure does not help and may harm."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-01-Q004",
+      "concept_id": "EMT-06-06-01",
+      "style": "recall",
+      "stem": "Why must a scalp wound never be probed?",
+      "options": [
+        {
+          "text": "Because it causes pain",
+          "rationale": "Pain is not the primary reason."
+        },
+        {
+          "text": "Because bone fragments may be pushed inward towards the brain",
+          "rationale": "Correct. Leave exploration to people with imaging."
+        },
+        {
+          "text": "Because it introduces infection only",
+          "rationale": "Infection is a concern but not the main danger."
+        },
+        {
+          "text": "Because it restarts bleeding",
+          "rationale": "Bleeding is a lesser concern than fragment displacement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-01-Q005",
+      "concept_id": "EMT-06-06-01",
+      "style": "application",
+      "stem": "You feel a boggy, step-like area under a bleeding scalp wound. How should pressure be applied?",
+      "options": [
+        {
+          "text": "Firmly, directly over the area",
+          "rationale": "Firm pressure over a depressed fracture may push fragments inward."
+        },
+        {
+          "text": "Gently, around the edges rather than over the defect",
+          "rationale": "Correct. Control what you can without pushing anything in."
+        },
+        {
+          "text": "Not at all; leave it to bleed",
+          "rationale": "Bleeding still needs controlling, just carefully."
+        },
+        {
+          "text": "With a tourniquet around the head",
+          "rationale": "Never appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-01-Q006",
+      "concept_id": "EMT-06-06-01",
+      "style": "scenario",
+      "stem": "Why does a skull fracture matter?",
+      "options": [
+        {
+          "text": "Because the bone injury itself is usually what harms the patient",
+          "rationale": "The bone rarely causes the harm."
+        },
+        {
+          "text": "Because it tells you how much force reached the brain underneath",
+          "rationale": "Correct. The brain determines the outcome, not the bone."
+        },
+        {
+          "text": "Because it always requires surgery",
+          "rationale": "Not all skull fractures do."
+        },
+        {
+          "text": "Because it prevents assessment of consciousness",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-02-Q001",
+      "concept_id": "EMT-06-06-02",
+      "style": "recall",
+      "stem": "What is secondary brain injury?",
+      "options": [
+        {
+          "text": "A second impact to the head",
+          "rationale": "Not what the term describes."
+        },
+        {
+          "text": "Damage occurring after the impact, from hypoxia, hypotension and rising pressure",
+          "rationale": "Correct. Preventing it is the prehospital job."
+        },
+        {
+          "text": "The bruise on the opposite side of the brain",
+          "rationale": "That is a specific injury pattern, not secondary injury."
+        },
+        {
+          "text": "Damage sustained at the moment of impact",
+          "rationale": "That is primary injury."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-02-Q002",
+      "concept_id": "EMT-06-06-02",
+      "style": "recall",
+      "stem": "What are the three components of the Cushing triad?",
+      "options": [
+        {
+          "text": "Falling blood pressure, rising pulse, fast breathing",
+          "rationale": "That describes shock, not raised intracranial pressure."
+        },
+        {
+          "text": "Rising blood pressure, falling pulse, irregular breathing",
+          "rationale": "Correct, and it is a late sign."
+        },
+        {
+          "text": "Dilated pupils, seizures, vomiting",
+          "rationale": "Signs of rising pressure, but not the triad."
+        },
+        {
+          "text": "Fever, headache, neck stiffness",
+          "rationale": "That suggests infection."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-02-Q003",
+      "concept_id": "EMT-06-06-02",
+      "style": "application",
+      "stem": "Which two factors most worsen outcome in traumatic brain injury?",
+      "options": [
+        {
+          "text": "Pain and anxiety",
+          "rationale": "Neither is a primary determinant of outcome."
+        },
+        {
+          "text": "Hypoxia and hypotension",
+          "rationale": "Correct. That is why oxygenation and perfusion are the treatment."
+        },
+        {
+          "text": "Hypertension and bradycardia",
+          "rationale": "Those are signs of raised pressure, not causes of worse outcome."
+        },
+        {
+          "text": "Vomiting and headache",
+          "rationale": "Indicators of rising pressure, not the main determinants."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-02-Q004",
+      "concept_id": "EMT-06-06-02",
+      "style": "application",
+      "stem": "A head-injured patient was alert and is now confused, with equal pupils and normal vital signs. How significant is this?",
+      "options": [
+        {
+          "text": "Not significant while the vital signs are normal",
+          "rationale": "A falling level of consciousness is the most important sign."
+        },
+        {
+          "text": "Highly significant — deterioration in consciousness is the key finding",
+          "rationale": "Correct. It precedes pupil changes and the Cushing triad."
+        },
+        {
+          "text": "Significant only if the pupils become unequal",
+          "rationale": "Waiting for pupil change means waiting too long."
+        },
+        {
+          "text": "Expected after any head injury",
+          "rationale": "Deterioration is never simply expected."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-02-Q005",
+      "concept_id": "EMT-06-06-02",
+      "style": "recall",
+      "stem": "Which pupil finding suggests herniation?",
+      "options": [
+        {
+          "text": "Both pupils constricted and reactive",
+          "rationale": "Not a herniation finding."
+        },
+        {
+          "text": "A fixed dilated pupil, usually on the injured side",
+          "rationale": "Correct, with rapid decline in consciousness and posturing."
+        },
+        {
+          "text": "Both pupils equal and reactive",
+          "rationale": "A normal finding."
+        },
+        {
+          "text": "Pupils that flicker rapidly",
+          "rationale": "Not a described herniation sign."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-02-Q006",
+      "concept_id": "EMT-06-06-02",
+      "style": "scenario",
+      "stem": "Why should you not wait for the Cushing triad before acting?",
+      "options": [
+        {
+          "text": "Because it is unreliable and rarely occurs",
+          "rationale": "It occurs and is reliable — the problem is timing."
+        },
+        {
+          "text": "Because it is a late sign confirming what consciousness already told you",
+          "rationale": "Correct. By then the pressure has been rising for some time."
+        },
+        {
+          "text": "Because it only occurs in children",
+          "rationale": "It occurs at any age."
+        },
+        {
+          "text": "Because EMTs cannot measure blood pressure accurately enough",
+          "rationale": "Measurement is not the issue."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-03-Q001",
+      "concept_id": "EMT-06-06-03",
+      "style": "recall",
+      "stem": "Is loss of consciousness required for a concussion?",
+      "options": [
+        {
+          "text": "Yes, by definition",
+          "rationale": "Most concussions involve no loss of consciousness at all."
+        },
+        {
+          "text": "No — most concussions do not involve it",
+          "rationale": "Correct. 'He never went out' is not reassurance."
+        },
+        {
+          "text": "Only in adults",
+          "rationale": "Not an age-related requirement."
+        },
+        {
+          "text": "Only if the head was struck directly",
+          "rationale": "Force can be transmitted through the body."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-03-Q002",
+      "concept_id": "EMT-06-06-03",
+      "style": "application",
+      "stem": "A player has asked the same question twice in ninety seconds. What does this indicate?",
+      "options": [
+        {
+          "text": "Anxiety about the game",
+          "rationale": "Repetition reflects impaired memory consolidation."
+        },
+        {
+          "text": "A brain not laying down new memory properly — a concussion finding",
+          "rationale": "Correct. It is often the first thing bystanders notice."
+        },
+        {
+          "text": "Hearing difficulty from the impact",
+          "rationale": "Not the likely explanation."
+        },
+        {
+          "text": "Nothing significant if he is otherwise well",
+          "rationale": "It is one of the most useful findings available."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-03-Q003",
+      "concept_id": "EMT-06-06-03",
+      "style": "recall",
+      "stem": "When may a player with a suspected concussion return to the game?",
+      "options": [
+        {
+          "text": "Once symptoms settle during the match",
+          "rationale": "Symptoms settling does not mean recovery."
+        },
+        {
+          "text": "Not that day, under any circumstances",
+          "rationale": "Correct. A second impact before recovery can be catastrophic."
+        },
+        {
+          "text": "After ten minutes of observation",
+          "rationale": "Observation does not clear a concussion."
+        },
+        {
+          "text": "If the coach confirms they seem normal",
+          "rationale": "Not a clinical judgement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-03-Q004",
+      "concept_id": "EMT-06-06-03",
+      "style": "application",
+      "stem": "Why does a second head injury before recovery matter so much?",
+      "options": [
+        {
+          "text": "Because it doubles the original damage",
+          "rationale": "The concern is disproportionate swelling, not addition."
+        },
+        {
+          "text": "Because it can produce swelling far out of proportion to the force involved",
+          "rationale": "Correct. Rare, catastrophic and entirely preventable."
+        },
+        {
+          "text": "Because it prevents the first injury healing",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "Because it always causes a skull fracture",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-03-Q005",
+      "concept_id": "EMT-06-06-03",
+      "style": "recall",
+      "stem": "Which of these is a red flag requiring urgent assessment?",
+      "options": [
+        {
+          "text": "A mild headache that is improving",
+          "rationale": "Improvement is reassuring."
+        },
+        {
+          "text": "Repeated vomiting",
+          "rationale": "Correct, along with worsening headache, seizures, drowsiness and weakness."
+        },
+        {
+          "text": "Feeling slightly tired",
+          "rationale": "Non-specific and common."
+        },
+        {
+          "text": "Wanting to go home",
+          "rationale": "Not a clinical red flag."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-03-Q006",
+      "concept_id": "EMT-06-06-03",
+      "style": "scenario",
+      "stem": "A concussed patient seems entirely well at the roadside. What should you explain?",
+      "options": [
+        {
+          "text": "That they have been cleared and need no follow-up",
+          "rationale": "Nobody is cleared by looking well at the roadside."
+        },
+        {
+          "text": "That symptoms can develop or worsen over hours and somebody should stay with them",
+          "rationale": "Correct. Say it plainly to the patient and whoever is with them."
+        },
+        {
+          "text": "That they may return to activity immediately",
+          "rationale": "No same-day return, regardless."
+        },
+        {
+          "text": "That the injury is now resolved",
+          "rationale": "Symptoms frequently evolve."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-04-Q001",
+      "concept_id": "EMT-06-06-04",
+      "style": "recall",
+      "stem": "Why are both eyes covered for a serious injury to one?",
+      "options": [
+        {
+          "text": "To keep the patient calm",
+          "rationale": "Covering both is more distressing, not less."
+        },
+        {
+          "text": "Because the eyes move together, so the uninjured one drags the injured one",
+          "rationale": "Correct. They are on the same wiring."
+        },
+        {
+          "text": "To protect the uninjured eye from infection",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because protocol requires symmetry",
+          "rationale": "Not a clinical rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-04-Q002",
+      "concept_id": "EMT-06-06-04",
+      "style": "application",
+      "stem": "In which direction should a chemical eye injury be irrigated?",
+      "options": [
+        {
+          "text": "Across the bridge of the nose from the injured side",
+          "rationale": "This washes chemical into the other eye."
+        },
+        {
+          "text": "From the inner corner outwards, away from the other eye",
+          "rationale": "Correct. Direction turns one injured eye into two if wrong."
+        },
+        {
+          "text": "Directly downwards into the eye",
+          "rationale": "Not the described technique."
+        },
+        {
+          "text": "Direction does not matter if the flow is copious",
+          "rationale": "Direction matters greatly."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-04-Q003",
+      "concept_id": "EMT-06-06-04",
+      "style": "recall",
+      "stem": "How should an avulsed tooth be handled?",
+      "options": [
+        {
+          "text": "By the root, to keep the crown clean",
+          "rationale": "The root surface carries the cells that allow reattachment."
+        },
+        {
+          "text": "By the crown only, never the root, and kept moist",
+          "rationale": "Correct. Do not scrub it clean and never let it dry."
+        },
+        {
+          "text": "Scrubbed clean and wrapped in dry gauze",
+          "rationale": "Both scrubbing and drying destroy its viability."
+        },
+        {
+          "text": "Left at the scene for the dentist",
+          "rationale": "It should accompany the patient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-04-Q004",
+      "concept_id": "EMT-06-06-04",
+      "style": "application",
+      "stem": "An eyeball has been displaced from its socket. What do you do?",
+      "options": [
+        {
+          "text": "Gently push it back into position",
+          "rationale": "Replacement is never attempted."
+        },
+        {
+          "text": "Cover with a moist sterile dressing and a protective shield, and cover the other eye",
+          "rationale": "Correct. Nothing presses on it and both eyes are covered."
+        },
+        {
+          "text": "Apply firm pressure to reduce swelling",
+          "rationale": "Pressure on a displaced globe causes further injury."
+        },
+        {
+          "text": "Irrigate the socket",
+          "rationale": "Not indicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-04-Q005",
+      "concept_id": "EMT-06-06-04",
+      "style": "recall",
+      "stem": "Should an ear canal be packed after head trauma with fluid draining?",
+      "options": [
+        {
+          "text": "Yes, to stop the drainage",
+          "rationale": "Packing risks raising pressure and driving contamination inward."
+        },
+        {
+          "text": "No — cover loosely and let it drain",
+          "rationale": "Correct, particularly where cerebrospinal fluid is suspected."
+        },
+        {
+          "text": "Only with sterile gauze",
+          "rationale": "The material is not the issue."
+        },
+        {
+          "text": "Only if the fluid is clear",
+          "rationale": "Clear fluid is exactly when not to pack."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-04-Q006",
+      "concept_id": "EMT-06-06-04",
+      "style": "scenario",
+      "stem": "What should accompany covering both eyes?",
+      "options": [
+        {
+          "text": "Silence, to let the patient rest",
+          "rationale": "A patient who cannot see needs your voice."
+        },
+        {
+          "text": "Explanation beforehand and continued talking throughout",
+          "rationale": "Correct. Sudden blindness in a strange environment is frightening."
+        },
+        {
+          "text": "Sedation",
+          "rationale": "Outside EMT scope and not indicated."
+        },
+        {
+          "text": "Removing the dressing periodically so they can see",
+          "rationale": "Removing it defeats the purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-05-Q001",
+      "concept_id": "EMT-06-06-05",
+      "style": "recall",
+      "stem": "Why does an open neck wound need an occlusive dressing?",
+      "options": [
+        {
+          "text": "To keep it clean",
+          "rationale": "Cleanliness is not the reason."
+        },
+        {
+          "text": "To stop air being drawn into a neck vein, which can be rapidly fatal",
+          "rationale": "Correct. It also holds pressure on the bleeding."
+        },
+        {
+          "text": "To absorb more blood",
+          "rationale": "Occlusive dressings do not absorb well."
+        },
+        {
+          "text": "To reduce swelling",
+          "rationale": "Not its function."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-05-Q002",
+      "concept_id": "EMT-06-06-05",
+      "style": "recall",
+      "stem": "What must never be done to control neck bleeding?",
+      "options": [
+        {
+          "text": "Apply direct manual pressure to the wound",
+          "rationale": "That is exactly what should be done."
+        },
+        {
+          "text": "Apply pressure or a bandage all the way around the neck",
+          "rationale": "Correct. It compromises the airway and the other carotid."
+        },
+        {
+          "text": "Use an occlusive dressing",
+          "rationale": "Occlusive dressings are indicated here."
+        },
+        {
+          "text": "Maintain in-line stabilisation",
+          "rationale": "Appropriate alongside the other measures."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-05-Q003",
+      "concept_id": "EMT-06-06-05",
+      "style": "application",
+      "stem": "How should a neck dressing be secured if a hand cannot be spared?",
+      "options": [
+        {
+          "text": "Bandaged firmly around the neck",
+          "rationale": "Never circumferentially around the neck."
+        },
+        {
+          "text": "Over the dressing and under the opposite armpit",
+          "rationale": "Correct. It holds firmly without encircling the neck."
+        },
+        {
+          "text": "Taped across the chin",
+          "rationale": "Not a recognised technique."
+        },
+        {
+          "text": "Held in place by a cervical collar",
+          "rationale": "A collar is not a pressure device."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-05-Q004",
+      "concept_id": "EMT-06-06-05",
+      "style": "application",
+      "stem": "A patient with a neck injury is talking normally but has a swelling that is visibly growing. What is the concern?",
+      "options": [
+        {
+          "text": "Cosmetic disfigurement",
+          "rationale": "Not the clinical concern."
+        },
+        {
+          "text": "The swelling can compress and close the airway over minutes",
+          "rationale": "Correct. Watch the airway continuously and listen to the voice."
+        },
+        {
+          "text": "Infection developing later",
+          "rationale": "Not the acute concern."
+        },
+        {
+          "text": "Nothing while they are still talking",
+          "rationale": "Talking now does not predict talking in five minutes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-05-Q005",
+      "concept_id": "EMT-06-06-05",
+      "style": "recall",
+      "stem": "Which finding suggests the airway itself has been injured?",
+      "options": [
+        {
+          "text": "Pain at the wound site",
+          "rationale": "Non-specific."
+        },
+        {
+          "text": "Hoarseness, bubbling air from the wound, or crackling under the skin",
+          "rationale": "Correct, along with difficulty swallowing."
+        },
+        {
+          "text": "Bleeding that has stopped",
+          "rationale": "Not an indicator of airway injury."
+        },
+        {
+          "text": "A fast pulse",
+          "rationale": "Non-specific."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-05-Q006",
+      "concept_id": "EMT-06-06-05",
+      "style": "scenario",
+      "stem": "What takes priority over maintaining in-line stabilisation in a neck injury?",
+      "options": [
+        {
+          "text": "Nothing; stabilisation always comes first",
+          "rationale": "Airway and catastrophic bleeding come first."
+        },
+        {
+          "text": "The airway and control of catastrophic bleeding",
+          "rationale": "Correct, with stabilisation maintained as far as possible alongside."
+        },
+        {
+          "text": "Obtaining a full history",
+          "rationale": "History does not precede either."
+        },
+        {
+          "text": "Documentation of the wound",
+          "rationale": "Never a priority over treatment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-06-Q001",
+      "concept_id": "EMT-06-06-06",
+      "style": "recall",
+      "stem": "Why did practice move away from universal backboarding?",
+      "options": [
+        {
+          "text": "Boards became too expensive",
+          "rationale": "Cost was not the driver."
+        },
+        {
+          "text": "Boards cause pressure injury, pain, breathing and airway problems with little evidence of benefit",
+          "rationale": "Correct, and unstable spinal injury is uncommon among those boarded."
+        },
+        {
+          "text": "They were found to be too comfortable",
+          "rationale": "The opposite; discomfort was part of the problem."
+        },
+        {
+          "text": "Spinal injuries became less common",
+          "rationale": "Prevalence did not change; the evidence did."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-06-Q002",
+      "concept_id": "EMT-06-06-06",
+      "style": "recall",
+      "stem": "Which tenderness matters in the selective criteria?",
+      "options": [
+        {
+          "text": "Tenderness in the muscles beside the spine",
+          "rationale": "Paraspinal muscle tenderness is common and not the criterion."
+        },
+        {
+          "text": "Midline tenderness over the spine itself",
+          "rationale": "Correct. The distinction is deliberate and important."
+        },
+        {
+          "text": "Tenderness anywhere on the back",
+          "rationale": "Too broad to be useful."
+        },
+        {
+          "text": "Tenderness only on movement",
+          "rationale": "Not the stated criterion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-06-Q003",
+      "concept_id": "EMT-06-06-06",
+      "style": "application",
+      "stem": "What is the long backboard's role in current practice?",
+      "options": [
+        {
+          "text": "The primary transport device for spinal injury",
+          "rationale": "It is no longer generally used for transport."
+        },
+        {
+          "text": "An extrication device, removed once the patient is on the stretcher",
+          "rationale": "Correct. It gets them out of a space, not to hospital."
+        },
+        {
+          "text": "A comfort measure for long journeys",
+          "rationale": "It is markedly uncomfortable."
+        },
+        {
+          "text": "Obsolete and no longer carried",
+          "rationale": "It still has an extrication role."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-06-Q004",
+      "concept_id": "EMT-06-06-06",
+      "style": "application",
+      "stem": "An alert, sober patient has no deficit, no midline tenderness and no distracting injury after a significant crash. What does the mechanism alone indicate?",
+      "options": [
+        {
+          "text": "Restriction is required because the mechanism was significant",
+          "rationale": "Selective restriction is based on the patient, not the mechanism."
+        },
+        {
+          "text": "Restriction is generally not indicated, per protocol",
+          "rationale": "Correct. The patient's findings govern, not the crash."
+        },
+        {
+          "text": "A backboard for transport regardless",
+          "rationale": "Backboards are not transport devices."
+        },
+        {
+          "text": "Restriction for the first twenty minutes only",
+          "rationale": "Not a recognised approach."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-06-Q005",
+      "concept_id": "EMT-06-06-06",
+      "style": "recall",
+      "stem": "What is the goal where restriction is indicated?",
+      "options": [
+        {
+          "text": "Rigid immobilisation of the whole spine",
+          "rationale": "Rigid immobilisation was never truly achievable."
+        },
+        {
+          "text": "Minimising movement",
+          "rationale": "Correct — collar, scoop transfer, padded stretcher, minimal handling."
+        },
+        {
+          "text": "Preventing all patient motion including breathing",
+          "rationale": "Never the goal."
+        },
+        {
+          "text": "Securing the patient for the driver's convenience",
+          "rationale": "Not a clinical goal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-06-Q006",
+      "concept_id": "EMT-06-06-06",
+      "style": "sequence",
+      "stem": "What underpins every spinal precaution and costs nothing?",
+      "options": [
+        {
+          "text": "A cervical collar",
+          "rationale": "Useful, but not the foundation."
+        },
+        {
+          "text": "Manual in-line stabilisation",
+          "rationale": "Correct. Hands on the head, held neutral, applied early and maintained."
+        },
+        {
+          "text": "A scoop stretcher",
+          "rationale": "A transfer device, not the foundation."
+        },
+        {
+          "text": "Head blocks",
+          "rationale": "An adjunct, not the foundation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-07-Q001",
+      "concept_id": "EMT-06-06-07",
+      "style": "recall",
+      "stem": "Why is the skin warm and dry in neurogenic shock?",
+      "options": [
+        {
+          "text": "Because the patient is febrile",
+          "rationale": "Fever is not the mechanism."
+        },
+        {
+          "text": "Because the nerves that would clamp the skin vessels have been interrupted",
+          "rationale": "Correct. The vessels stay open."
+        },
+        {
+          "text": "Because blood is being diverted to the skin",
+          "rationale": "Blood is not actively diverted there."
+        },
+        {
+          "text": "Because the patient is warm from exertion",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-07-Q002",
+      "concept_id": "EMT-06-06-07",
+      "style": "recall",
+      "stem": "Why is the pulse normal or slow rather than fast?",
+      "options": [
+        {
+          "text": "Because the heart is damaged",
+          "rationale": "The heart itself is usually uninjured."
+        },
+        {
+          "text": "Because the nerves that would speed the heart have been interrupted",
+          "rationale": "Correct, sometimes leaving unopposed slowing influence."
+        },
+        {
+          "text": "Because blood pressure is normal",
+          "rationale": "Blood pressure is low."
+        },
+        {
+          "text": "Because the patient is calm",
+          "rationale": "Calmness does not explain bradycardia with hypotension."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-07-Q003",
+      "concept_id": "EMT-06-06-07",
+      "style": "application",
+      "stem": "A trauma patient is hypotensive with a pulse of 56 and warm dry skin. What should you do?",
+      "options": [
+        {
+          "text": "Conclude neurogenic shock and stop searching",
+          "rationale": "Never assume it; the bleeding is what kills them."
+        },
+        {
+          "text": "Suspect neurogenic shock but continue searching for bleeding",
+          "rationale": "Correct. It is a conclusion after looking, not instead of looking."
+        },
+        {
+          "text": "Treat as hemorrhagic shock only and ignore the spinal findings",
+          "rationale": "Both possibilities are held, not one."
+        },
+        {
+          "text": "Assume the readings are erroneous",
+          "rationale": "The pattern is recognisable and real."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-07-Q004",
+      "concept_id": "EMT-06-06-07",
+      "style": "recall",
+      "stem": "How does neurogenic shock differ in mechanism from hemorrhagic shock?",
+      "options": [
+        {
+          "text": "More blood is lost, faster",
+          "rationale": "No blood is lost in neurogenic shock."
+        },
+        {
+          "text": "The container enlarges while the volume stays the same",
+          "rationale": "Correct. A distribution problem, not a volume problem."
+        },
+        {
+          "text": "The heart stops pumping effectively",
+          "rationale": "Cardiac function is not the primary problem."
+        },
+        {
+          "text": "The blood becomes unable to carry oxygen",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-07-Q005",
+      "concept_id": "EMT-06-06-07",
+      "style": "application",
+      "stem": "Why do these patients become hypothermic quickly?",
+      "options": [
+        {
+          "text": "Because they are usually found outdoors",
+          "rationale": "Environment contributes but is not the mechanism."
+        },
+        {
+          "text": "Because they cannot shiver or constrict skin vessels below the injury",
+          "rationale": "Correct. They take on the temperature around them."
+        },
+        {
+          "text": "Because their metabolism stops",
+          "rationale": "Metabolism does not stop."
+        },
+        {
+          "text": "Because of blood loss",
+          "rationale": "There is no blood loss in neurogenic shock."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-07-Q006",
+      "concept_id": "EMT-06-06-07",
+      "style": "scenario",
+      "stem": "What is spinal shock?",
+      "options": [
+        {
+          "text": "Another name for neurogenic shock",
+          "rationale": "They are different things with similar names."
+        },
+        {
+          "text": "A temporary loss of cord function below the injury, not a circulatory problem",
+          "rationale": "Correct. Flaccid paralysis and absent reflexes, potentially recovering."
+        },
+        {
+          "text": "Shock caused by the pain of a spinal injury",
+          "rationale": "Not what the term means."
+        },
+        {
+          "text": "Shock from bleeding around the spinal cord",
+          "rationale": "Not what the term means."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-08-Q001",
+      "concept_id": "EMT-06-06-08",
+      "style": "recall",
+      "stem": "When should a helmet be left in place?",
+      "options": [
+        {
+          "text": "Whenever the patient is conscious",
+          "rationale": "Consciousness is not the criterion."
+        },
+        {
+          "text": "When the airway is clear, it fits snugly, and the head can be immobilised in it",
+          "rationale": "Correct. A helmet that is helping stays on."
+        },
+        {
+          "text": "Always, without exception",
+          "rationale": "There are clear indications for removal."
+        },
+        {
+          "text": "Only for motorcyclists",
+          "rationale": "The criteria are not vehicle-specific."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-08-Q002",
+      "concept_id": "EMT-06-06-08",
+      "style": "recall",
+      "stem": "Why is a loose helmet removed?",
+      "options": [
+        {
+          "text": "Because it is uncomfortable",
+          "rationale": "Comfort is not the reason."
+        },
+        {
+          "text": "Because the head moves independently inside it, so it stabilises nothing and is in the way",
+          "rationale": "Correct. It has stopped helping and started obstructing."
+        },
+        {
+          "text": "Because it may fall off during transport",
+          "rationale": "Not the clinical rationale."
+        },
+        {
+          "text": "Because loose helmets indicate a failed helmet",
+          "rationale": "Not the reason given."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-08-Q003",
+      "concept_id": "EMT-06-06-08",
+      "style": "sequence",
+      "stem": "What is the critical moment in helmet removal?",
+      "options": [
+        {
+          "text": "Unfastening the chin strap",
+          "rationale": "Necessary but not the critical moment."
+        },
+        {
+          "text": "The stabilising person changing hold to take the head from below",
+          "rationale": "Correct. The helmet had been holding the head; your hands must take over first."
+        },
+        {
+          "text": "Removing the visor",
+          "rationale": "A practical step, not the critical one."
+        },
+        {
+          "text": "Spreading the sides of the helmet",
+          "rationale": "Necessary but not where the risk sits."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-08-Q004",
+      "concept_id": "EMT-06-06-08",
+      "style": "application",
+      "stem": "A footballer wearing a helmet and shoulder pads needs the helmet removed. What about the pads?",
+      "options": [
+        {
+          "text": "Leave the pads on for protection",
+          "rationale": "Leaving pads on drops the head into extension."
+        },
+        {
+          "text": "Remove both together, or neither",
+          "rationale": "Correct. They are a matched pair for head position."
+        },
+        {
+          "text": "Remove the pads first, then the helmet",
+          "rationale": "Removing pads alone reverses the problem."
+        },
+        {
+          "text": "It makes no difference",
+          "rationale": "Head position changes substantially either way."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-08-Q005",
+      "concept_id": "EMT-06-06-08",
+      "style": "application",
+      "stem": "What is often preferable to removing a sports helmet?",
+      "options": [
+        {
+          "text": "Cutting the helmet in half",
+          "rationale": "Not a recognised technique."
+        },
+        {
+          "text": "Removing only the facemask, giving airway access without moving the head",
+          "rationale": "Correct, where the helmet design allows it."
+        },
+        {
+          "text": "Loosening the chin strap and leaving it",
+          "rationale": "This creates the loose-helmet problem."
+        },
+        {
+          "text": "Removing the helmet but leaving the chin strap fastened",
+          "rationale": "Not possible or sensible."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-08-Q006",
+      "concept_id": "EMT-06-06-08",
+      "style": "sequence",
+      "stem": "What should be done once the helmet is off?",
+      "options": [
+        {
+          "text": "Nothing further; the head is now free",
+          "rationale": "The head often sits lower than neutral without the helmet."
+        },
+        {
+          "text": "Pad behind the head to restore neutral alignment, and reassess neurological findings",
+          "rationale": "Correct. The helmet had been holding it higher than it now sits."
+        },
+        {
+          "text": "Apply a collar immediately without reassessment",
+          "rationale": "Reassessment comes with it, not instead of it."
+        },
+        {
+          "text": "Sit the patient up",
+          "rationale": "Never appropriate after helmet removal for spinal precautions."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

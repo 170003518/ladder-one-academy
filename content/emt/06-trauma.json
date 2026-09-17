@@ -68,6 +68,20 @@
         "EMT-06-05-05",
         "EMT-06-05-06"
       ]
+    },
+    {
+      "id": "EMT-06-06",
+      "title": "Head, face, neck and spine",
+      "concepts": [
+        "EMT-06-06-01",
+        "EMT-06-06-02",
+        "EMT-06-06-03",
+        "EMT-06-06-04",
+        "EMT-06-06-05",
+        "EMT-06-06-06",
+        "EMT-06-06-07",
+        "EMT-06-06-08"
+      ]
     }
   ],
   "concepts": [
@@ -4553,6 +4567,1509 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm binder placement, tensioning and the guidance on improvised binders against the current text, local protocol and the manufacturer's instructions for the specific device carried."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-01",
+      "title": "Skull fractures and scalp wounds",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-06-02",
+        "EMT-06-02-06",
+        "EMT-06-06-04"
+      ],
+      "key_points": [
+        "Scalp wounds bleed dramatically because the scalp has a rich blood supply and the vessels do not retract well",
+        "That bleeding can be significant, particularly in children and in anticoagulated patients",
+        "Control scalp bleeding with direct pressure, but not firm pressure over a suspected depressed or open skull fracture",
+        "Never probe a scalp wound with fingers or instruments, because you may push fragments inward",
+        "A basilar skull fracture is a fracture at the base of the skull and has characteristic late signs",
+        "Bruising behind the ear, called Battle sign, and bruising around both eyes, called raccoon eyes, appear hours after the injury and their absence early means nothing",
+        "Clear or blood-stained fluid from the ear or nose may be cerebrospinal fluid and suggests a basilar fracture",
+        "Do not pack the ears or nose where cerebrospinal fluid is suspected — cover loosely and let it drain",
+        "Any skull fracture means force reached the brain, so the brain injury underneath matters more than the bone"
+      ],
+      "misconceptions": [
+        "Packing a draining ear or nose",
+        "Probing a scalp wound",
+        "Pressing hard over a depressed skull fracture",
+        "Expecting Battle sign or raccoon eyes early",
+        "Treating the skull fracture rather than the brain beneath it"
+      ],
+      "exam_favorites": [
+        "Why scalp wounds bleed so much",
+        "Battle sign and raccoon eyes are late",
+        "Do not pack a draining ear",
+        "The brain matters more than the bone"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Scalp wounds bleed far more than they should, and there is a reason. The scalp has an unusually rich blood supply, and its vessels are held open by the fibrous tissue around them, so they cannot retract and constrict the way vessels elsewhere do. A small scalp laceration produces a genuinely alarming quantity of blood.\n\nUsually it looks worse than it is. But not always: in a small child, whose total blood volume is modest, and in anybody on an anticoagulant, a scalp wound can cause significant blood loss. Do not dismiss it simply because scalp wounds are famous for looking dramatic.\n\nControl it with direct pressure, with one important caution. If you suspect a depressed or open skull fracture underneath — if you can feel a step, a soft boggy area, or anything that moves — do not press hard on it. Use gentle pressure around the edges instead, and control what you can without pushing anything inward.\n\nAnd never probe a scalp wound. Not with a finger, not with an instrument, not to see how deep it is. If there are bone fragments, probing pushes them towards the brain. Cover it, apply appropriate pressure, and leave the exploration to people with imaging.\n\nA basilar skull fracture is a fracture through the base of the skull, and it has a set of signs worth knowing precisely because of when they appear.\n\nBattle sign is bruising over the mastoid, behind the ear. Raccoon eyes is bruising around both eyes, without direct injury to them. Both are real and both are useful — and both take hours to develop. They are more often seen in the emergency department than in the field. So finding neither tells you nothing at all about whether there is a basilar fracture; if the mechanism fits, suspect it anyway.\n\nThe finding you may actually see is fluid. Clear or blood-tinged fluid draining from the ear or the nose after head trauma can be cerebrospinal fluid, escaping through a fracture at the skull base. Blood that appears diluted, or has a clear ring around it on a dressing, points the same way.\n\nWhat you do about that is specific: nothing that blocks it. Do not pack the ear. Do not pack the nose. Cover loosely with a dressing that absorbs without obstructing, and let it drain. Packing raises the pressure inside the skull and can drive contamination inward through the fracture, towards the brain and the fluid around it.\n\nAnd hold onto the last point, which puts the rest in perspective. A skull fracture matters mainly because it tells you how much force reached the head. The bone itself is rarely what harms the patient; the brain underneath it is. A patient with an obvious skull fracture and a normal level of consciousness may do well. A patient with no fracture at all and a falling level of consciousness is in far more trouble.",
+          "standard": "Scalp lacerations produce disproportionate haemorrhage owing to rich vascularity and fibrous tethering of vessels preventing retraction and vasoconstriction. Loss may be clinically significant in paediatric patients and those receiving anticoagulation. Haemorrhage control employs direct pressure, modified to peripheral gentle pressure where depressed or open skull fracture is suspected. Wound probing is contraindicated owing to risk of intracranial displacement of fragments. Basilar skull fracture presents with retroauricular ecchymosis (Battle sign) and periorbital ecchymosis (raccoon eyes), both developing over hours and therefore frequently absent prehospitally; early absence carries no exclusionary value. Otorrhoea or rhinorrhoea of clear or blood-tinged fluid suggests cerebrospinal fluid leak through a basilar fracture, with a halo appearance on absorbent dressing. Aural and nasal packing are contraindicated, raising intracranial pressure and risking retrograde contamination; loose absorbent covering permitting drainage is indicated. Skull fracture principally indicates transmitted force; underlying cerebral injury determines outcome, and absence of fracture does not indicate absence of brain injury."
+        },
+        "eli_new": {
+          "analogy": "The skull fracture is the dent in the bonnet. It tells you how hard the impact was. The engine is what you actually care about.",
+          "body": "Battle sign and raccoon eyes are famous and nearly useless to you, because they take hours to appear. Look for them, but never let their absence talk you out of a basilar fracture the mechanism already suggested."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why scalp wounds bleed heavily, the basilar skull fracture signs, and what you must not do.",
+          "must_hit": [
+            {
+              "point": "Rich blood supply and vessels that cannot retract",
+              "accept": [
+                "rich",
+                "blood supply",
+                "retract",
+                "constrict",
+                "vessel"
+              ]
+            },
+            {
+              "point": "It can be significant in children and anticoagulated patients",
+              "accept": [
+                "child",
+                "anticoagul",
+                "significant",
+                "volume",
+                "thinner"
+              ]
+            },
+            {
+              "point": "Never probe a scalp wound",
+              "accept": [
+                "probe",
+                "finger",
+                "instrument",
+                "never",
+                "fragment"
+              ]
+            },
+            {
+              "point": "Gentle pressure only over a suspected depressed fracture",
+              "accept": [
+                "gentle",
+                "depressed",
+                "press",
+                "around",
+                "edges"
+              ]
+            },
+            {
+              "point": "Battle sign and raccoon eyes take hours and are often absent early",
+              "accept": [
+                "battle",
+                "raccoon",
+                "hours",
+                "late",
+                "absent"
+              ]
+            },
+            {
+              "point": "Clear or blood-stained fluid from ear or nose may be CSF",
+              "accept": [
+                "fluid",
+                "clear",
+                "ear",
+                "nose",
+                "csf",
+                "cerebrospinal",
+                "halo"
+              ]
+            },
+            {
+              "point": "Do not pack a draining ear or nose — cover loosely",
+              "accept": [
+                "pack",
+                "cover",
+                "loose",
+                "drain",
+                "never"
+              ]
+            },
+            {
+              "point": "The brain underneath matters more than the bone",
+              "accept": [
+                "brain",
+                "underneath",
+                "bone",
+                "matters",
+                "force"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "No bruising at all",
+          "dispatch": "Medic 4 — fall down concrete steps, head injury, 20 minutes ago.",
+          "body": "The student checked behind both ears and around both eyes and found nothing, and said so as though it settled something.\n\nThere was clear fluid at the left ear, and a dressing on it showed a pale ring spreading out from the blood in the middle.\n\nBattle sign and raccoon eyes take hours. The halo on the dressing was there in twenty minutes."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the basilar skull fracture signs and the guidance on packing against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-02",
+      "title": "Traumatic brain injury, Cushing triad and herniation",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-06-01"
+      ],
+      "related": [
+        "EMT-06-06-01",
+        "EMT-06-06-03",
+        "EMT-03-02-02"
+      ],
+      "key_points": [
+        "The skull is a closed box: once the brain swells or blood collects, something has to give and the pressure rises",
+        "Primary brain injury is the damage done at the moment of impact and cannot be undone",
+        "Secondary brain injury is the damage that follows — from low oxygen, low blood pressure, rising pressure inside the skull — and preventing it is the entire prehospital job",
+        "The two things that most worsen outcome are hypoxia and hypotension, so oxygenation and perfusion are the treatment",
+        "A falling level of consciousness is the single most important sign, and repeated assessments matter more than any one",
+        "The Cushing triad is rising blood pressure, falling pulse rate and irregular breathing, and it is a late sign of dangerously raised pressure",
+        "Herniation signs include a fixed dilated pupil, usually on the same side as the injury, and posturing or a rapid fall in consciousness",
+        "Vomiting, seizures and worsening headache all suggest rising pressure",
+        "Keep the head neutral and elevated per protocol, avoid anything that raises pressure further, and transport quickly with a pre-alert"
+      ],
+      "misconceptions": [
+        "Treating a single normal assessment as reassurance",
+        "Waiting for the Cushing triad before acting",
+        "Allowing hypoxia or hypotension in a head-injured patient",
+        "Hyperventilating routinely rather than per protocol"
+      ],
+      "exam_favorites": [
+        "Primary versus secondary injury",
+        "Hypoxia and hypotension are the enemies",
+        "The Cushing triad is late",
+        "Repeated assessments beat any single one"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The skull is a closed box with a fixed volume, containing brain, blood and cerebrospinal fluid. Add anything — swelling, a collection of blood — and there is nowhere for it to go. The pressure inside rises, and rising pressure squeezes the brain against the inside of its own container.\n\nThat gives us the most useful distinction in head injury.\n\nPrimary brain injury is what happened at the moment of impact: bruising, tearing, shearing of tissue. It is done. Nothing anybody does afterwards changes it.\n\nSecondary brain injury is everything that happens after — injury caused by low oxygen, low blood pressure, rising intracranial pressure, high or low carbon dioxide, high temperature, seizures. That damage has not happened yet when you arrive, and preventing it is the entire prehospital job.\n\nThis is genuinely one of the places where an EMT changes outcomes. Two things worsen head injury outcome more than anything else: hypoxia and hypotension. A brain that is swelling and under pressure needs oxygen and needs blood arriving. Let the saturation drop or the blood pressure fall and the brain is injured further, on top of what the impact did.\n\nSo the treatment is unglamorous and enormously effective. Keep the airway clear. Keep the oxygen up. Support ventilation if it is inadequate — at a normal rate, not fast, unless your protocol directs otherwise for signs of herniation. And treat any other cause of low blood pressure aggressively, because that bleeding leg is now also a brain problem.\n\nThe most important sign is the level of consciousness, and specifically whether it is changing. One assessment is a data point; three assessments are a trend, and the trend is what matters. A patient who was alert and is now confused has deteriorated even if they are still talking. Record each assessment with a time.\n\nThe Cushing triad is the classic teaching sign of dangerously raised intracranial pressure: blood pressure going up, pulse rate coming down, and breathing becoming irregular. Learn it, recognise it — and understand that it is a late sign. By the time it is present the pressure has been rising for some time. It confirms what a falling level of consciousness told you earlier. Do not wait for it.\n\nHerniation is the brain being forced through the openings in the skull, and it is catastrophic. The signs: a pupil that becomes fixed and dilated, usually on the same side as the injury; a rapid fall in consciousness; and posturing, where the limbs adopt rigid abnormal positions in response to stimulus. Vomiting, seizures and a worsening headache all point at rising pressure too.\n\nPractically: keep the head in a neutral position and elevate it per protocol. Avoid anything that raises pressure further — constriction around the neck, rough handling, letting them strain. Keep them warm, treat seizures per protocol, and transport quickly with a pre-alert. A patient with signs of rising pressure needs a neurosurgical centre, and that decision is made faster if you say so on the radio.",
+          "standard": "The cranial vault is a fixed-volume compartment containing brain, blood and cerebrospinal fluid; addition of oedema or haematoma raises intracranial pressure. Primary brain injury denotes damage sustained at impact and is not modifiable. Secondary brain injury denotes subsequent damage from hypoxia, hypotension, raised intracranial pressure, abnormal carbon dioxide, hyperthermia and seizure activity; its prevention constitutes the prehospital objective. Hypoxia and hypotension are the principal determinants of worsened outcome, rendering oxygenation and perfusion the primary interventions. Ventilatory support is provided at normal rate unless protocol directs otherwise for herniation signs. Serial assessment of level of consciousness provides the most significant clinical information, trend exceeding any single measurement in value; assessments are documented with times. The Cushing triad — hypertension, bradycardia and irregular respiration — indicates critically raised intracranial pressure and is a late finding confirming earlier deterioration in consciousness. Herniation manifests as ipsilateral fixed dilated pupil, rapid decline in consciousness and abnormal posturing. Vomiting, seizures and progressive headache indicate rising pressure. Management comprises neutral head positioning with elevation per protocol, avoidance of cervical constriction and straining, normothermia, seizure management per protocol, and expedited transport to neurosurgical capability with prearrival notification."
+        },
+        "eli_new": {
+          "analogy": "The impact is a fire that has already happened. Everything you do is stopping the sprinklers from failing while somebody drives to the building.",
+          "body": "The single most valuable thing in a head injury is repeated assessment of consciousness with times on it. Not the pupils, not the Cushing triad — those come late. A patient going from alert to confused over twenty minutes is the finding, and it only exists if somebody checked twice."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain primary versus secondary brain injury, the Cushing triad, and what actually changes outcome.",
+          "must_hit": [
+            {
+              "point": "The skull is a closed box, so pressure rises when anything is added",
+              "accept": [
+                "closed",
+                "box",
+                "fixed",
+                "pressure",
+                "volume",
+                "nowhere"
+              ]
+            },
+            {
+              "point": "Primary injury happens at impact and cannot be undone",
+              "accept": [
+                "primary",
+                "impact",
+                "moment",
+                "done",
+                "undone"
+              ]
+            },
+            {
+              "point": "Secondary injury follows and preventing it is the prehospital job",
+              "accept": [
+                "secondary",
+                "prevent",
+                "after",
+                "job",
+                "follow"
+              ]
+            },
+            {
+              "point": "Hypoxia and hypotension worsen outcome most",
+              "accept": [
+                "hypox",
+                "oxygen",
+                "hypotens",
+                "pressure",
+                "perfusion"
+              ]
+            },
+            {
+              "point": "A falling level of consciousness is the most important sign",
+              "accept": [
+                "consciousness",
+                "level",
+                "falling",
+                "trend",
+                "repeat"
+              ]
+            },
+            {
+              "point": "Cushing triad: rising BP, falling pulse, irregular breathing — and it is late",
+              "accept": [
+                "cushing",
+                "rising",
+                "blood pressure",
+                "brady",
+                "irregular",
+                "late"
+              ]
+            },
+            {
+              "point": "Herniation: fixed dilated pupil, rapid decline, posturing",
+              "accept": [
+                "herniat",
+                "pupil",
+                "dilated",
+                "posturing",
+                "fixed"
+              ]
+            },
+            {
+              "point": "Head neutral and elevated per protocol, warm, rapid transport with pre-alert",
+              "accept": [
+                "neutral",
+                "elevat",
+                "warm",
+                "transport",
+                "pre-alert",
+                "notify"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Still talking",
+          "dispatch": "Medic 8 — assault, head injury, patient conscious on arrival.",
+          "body": "At ten past he was alert and oriented and irritated about the whole thing. At twenty past he was alert but had asked the same question twice. At half past he did not know what month it was.\n\nHis pupils were equal throughout, his blood pressure was unremarkable, and nothing resembling a Cushing triad ever appeared.\n\nThree assessments with three times on them said everything. Any one of them on its own said nothing at all."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Cushing triad — blood pressure",
+            "value": "RISING",
+            "note": "Widening pulse pressure. Part of a LATE sign, not an early one."
+          },
+          {
+            "label": "Cushing triad — pulse",
+            "value": "FALLING",
+            "note": "Bradycardia. The opposite of what shock does, which is why it stands out."
+          },
+          {
+            "label": "Cushing triad — breathing",
+            "value": "IRREGULAR",
+            "note": "Pattern becomes irregular rather than simply fast or slow."
+          },
+          {
+            "label": "When the Cushing triad appears",
+            "value": "late",
+            "note": "It confirms what a falling level of consciousness already told you. Do not wait for it."
+          },
+          {
+            "label": "The two things that worsen outcome most",
+            "value": "hypoxia + hypotension",
+            "note": "Which makes oxygenation and perfusion the treatment."
+          },
+          {
+            "label": "The most important sign",
+            "value": "level of consciousness, repeated",
+            "note": "Trend beats any single assessment. Record each one with a time."
+          },
+          {
+            "label": "Herniation — pupil",
+            "value": "fixed and dilated",
+            "note": "Usually on the same side as the injury. With rapid decline in consciousness and posturing."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the Cushing triad components, herniation signs and positioning guidance against the current text and local protocol. Ventilation rate guidance for signs of herniation is protocol-specific and deliberately not stated here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-03",
+      "title": "Concussion",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-06-02"
+      ],
+      "related": [
+        "EMT-06-06-02",
+        "EMT-06-06-01"
+      ],
+      "key_points": [
+        "A concussion is a brain injury caused by force transmitted to the head, producing a temporary disturbance of brain function",
+        "Loss of consciousness is not required, and most concussions do not involve it",
+        "Symptoms are headache, confusion, feeling dazed or slowed, dizziness, nausea, visual disturbance, and sensitivity to light and noise",
+        "Amnesia around the event is common: being unable to recall the moments before or after is a significant finding",
+        "Repeating the same question, or seeming vague and slowed, is often the first thing bystanders notice",
+        "Symptoms can appear or worsen over hours, so a patient who seems fine now is not cleared",
+        "Anyone with a suspected concussion stops the activity and does not return to it the same day",
+        "A second head injury before the first has recovered can be far more serious than either would have been",
+        "Red flags requiring urgent assessment include worsening headache, repeated vomiting, seizures, increasing drowsiness, weakness or a deteriorating level of consciousness"
+      ],
+      "misconceptions": [
+        "Believing a concussion requires loss of consciousness",
+        "Allowing a player back into a game after a head injury",
+        "Treating a well-seeming patient as cleared",
+        "Dismissing repeated questioning as ordinary shock"
+      ],
+      "exam_favorites": [
+        "Loss of consciousness is not required",
+        "Amnesia and repeated questioning",
+        "No return to activity the same day",
+        "Red flags that need urgent assessment"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A concussion is a brain injury. The word sounds mild and the injury is not — it is a disturbance of brain function caused by force transmitted to the head, whether the head was struck directly or the force arrived through the body.\n\nStart by correcting the belief that gets in the way of everything else: you do not have to be knocked out to have a concussion. Most concussions do not involve any loss of consciousness at all. 'He never went out' is not a reason to relax, and it is offered constantly, usually by somebody who wants the game to continue.\n\nWhat you see: headache. Confusion. A patient who seems dazed, slowed, foggy, 'not quite there'. Dizziness. Nausea. Blurred or double vision. Sensitivity to light and noise. They may be unusually emotional or irritable in a way that is out of character.\n\nAmnesia around the event is important. Not remembering the moments before the impact, or the moments after, is a significant finding, and it is worth asking about specifically: what is the last thing you remember before? What is the first thing after?\n\nAnd the thing bystanders notice first — before any of the medical signs — is repetition. Asking the same question two or three times. 'What happened?' answered, and asked again a minute later. That is a brain not laying down new memory properly, and a teammate or a parent will often report it before you have asked anything.\n\nSymptoms evolve. Someone can seem entirely fine on scene and develop a significant headache, nausea and confusion over the following hours. So nobody is cleared by looking well at the roadside. Say that plainly to the patient and to whoever is with them, and make sure somebody will be with them.\n\nOn returning to activity, the position is simple and not negotiable: if concussion is suspected, the activity stops and they do not go back to it that day. No exceptions for how important the match is or how much they insist they are fine.\n\nThe reason is the second impact. A brain that has been concussed and has not recovered is vulnerable, and a second head injury during that window can produce swelling far out of proportion to the force involved. It is rare and it is catastrophic, and it is entirely preventable by not letting somebody back on.\n\nRed flags mean urgent assessment now rather than watchful waiting: a headache that keeps worsening, repeated vomiting, a seizure, increasing drowsiness or difficulty waking, weakness or numbness, slurred speech, unequal pupils, or any fall in level of consciousness. Those move the patient from concussion to a possible bleed.",
+          "standard": "Concussion denotes traumatic brain injury producing transient disturbance of cerebral function following force transmitted to the head, whether by direct impact or transmitted through the body. Loss of consciousness is not required and is absent in most cases. Clinical features comprise headache, confusion, feeling dazed or cognitively slowed, dizziness, nausea, visual disturbance, photophobia, phonophobia and uncharacteristic emotional lability. Peri-event amnesia, retrograde or anterograde, constitutes a significant finding elicited by specific questioning. Repetitive questioning reflects impaired memory consolidation and is frequently the earliest observation reported by bystanders. Symptoms may develop or progress over hours, so apparent wellness at initial assessment does not constitute clearance. Suspected concussion mandates cessation of activity with no same-day return. Repeat head injury prior to recovery may produce cerebral oedema disproportionate to the force involved, a rare and catastrophic outcome preventable by removal from activity. Red flags requiring urgent evaluation comprise progressive headache, repeated vomiting, seizure, increasing somnolence, focal weakness, dysarthria, pupillary inequality and any decline in level of consciousness."
+        },
+        "eli_new": {
+          "analogy": "The brain is a processor that has been dropped. It still runs, it just runs slower and loses things it was told a minute ago.",
+          "body": "Two sentences to have ready, because you will need them. 'You do not have to be knocked out to have a concussion.' And 'He is not going back on today.' Both will be argued with, and neither is negotiable."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what a concussion is, whether loss of consciousness is required, and the rules about returning to activity.",
+          "must_hit": [
+            {
+              "point": "A brain injury from force transmitted to the head",
+              "accept": [
+                "brain",
+                "injury",
+                "force",
+                "head",
+                "transmit"
+              ]
+            },
+            {
+              "point": "Loss of consciousness is NOT required and is usually absent",
+              "accept": [
+                "not required",
+                "without",
+                "most",
+                "conscious",
+                "knocked out"
+              ]
+            },
+            {
+              "point": "Headache, confusion, dazed or slowed, dizziness, nausea, light and noise sensitivity",
+              "accept": [
+                "headache",
+                "confus",
+                "dazed",
+                "dizz",
+                "nausea",
+                "light",
+                "noise"
+              ]
+            },
+            {
+              "point": "Amnesia around the event, and repeated questioning",
+              "accept": [
+                "amnesia",
+                "remember",
+                "repeat",
+                "question",
+                "memory"
+              ]
+            },
+            {
+              "point": "Symptoms can appear or worsen over hours",
+              "accept": [
+                "hours",
+                "worsen",
+                "later",
+                "develop",
+                "evolve"
+              ]
+            },
+            {
+              "point": "Stop the activity and no return the same day",
+              "accept": [
+                "stop",
+                "activity",
+                "return",
+                "same day",
+                "game"
+              ]
+            },
+            {
+              "point": "A second injury before recovery can be far more serious",
+              "accept": [
+                "second",
+                "impact",
+                "before",
+                "recover",
+                "swelling",
+                "worse"
+              ]
+            },
+            {
+              "point": "Red flags: worsening headache, repeated vomiting, seizures, drowsiness, weakness",
+              "accept": [
+                "worsen",
+                "vomit",
+                "seizure",
+                "drowsy",
+                "weak",
+                "slur",
+                "pupil"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He never went out",
+          "dispatch": "Medic 2 — rugby match, player struck head, on the touchline.",
+          "body": "The coach said it three times: he never went out, he was up straight away, he is completely fine.\n\nHe had asked his own teammate what the score was twice in ninety seconds.\n\nMost concussions do not involve losing consciousness. The repeated question was the finding, and the coach had watched it happen without recognising it."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the concussion features, the return-to-activity guidance and the red flag list against the current text and current concussion guidelines, which are revised and vary between sporting bodies."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-04",
+      "title": "Eye, ear, nose and dental injuries",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "prereqs": [],
+      "related": [
+        "EMT-06-06-01",
+        "EMT-06-04-03",
+        "EMT-02-01-01"
+      ],
+      "key_points": [
+        "Do not remove an impaled object from an eye — stabilise it and cover both eyes to stop tracking movement",
+        "Cover both eyes for any serious eye injury, because the eyes move together and movement of the good eye moves the injured one",
+        "Explain what you are doing before covering both eyes, because sudden blindness is frightening",
+        "For chemical in the eye, irrigate immediately and copiously from the inner corner outwards, and keep going per protocol",
+        "Irrigate away from the uninjured eye so you do not wash chemical into it",
+        "Do not attempt to replace a displaced eyeball; cover it with a moist sterile dressing and a protective shield",
+        "Do not remove contact lenses unless there is a chemical burn and your protocol directs it",
+        "For a knocked-out tooth, handle it by the crown and not the root, keep it moist, and bring it — milk or the patient's own saliva per protocol",
+        "For ear injuries, do not pack the canal, particularly where cerebrospinal fluid may be draining"
+      ],
+      "misconceptions": [
+        "Removing an impaled object from an eye",
+        "Covering only the injured eye",
+        "Handling an avulsed tooth by its root",
+        "Letting an avulsed tooth dry out",
+        "Irrigating a chemical eye injury across the bridge of the nose into the other eye"
+      ],
+      "exam_favorites": [
+        "Cover both eyes and why",
+        "Irrigate inner to outer, away from the good eye",
+        "Hold a tooth by the crown",
+        "Do not pack an ear"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The eyes move together. That single fact drives most of eye injury care.\n\nWhen the good eye looks left, the injured eye looks left too, whether it should or not. So for any serious eye injury — and especially an impaled object or a penetrating injury — you cover both eyes. Covering only the injured one leaves it tracking every movement of the other, which drags on the wound.\n\nThat is uncomfortable to do, because covering both eyes makes someone suddenly blind, in pain, in a strange environment, in the back of an ambulance. So explain first, explain properly, and keep talking to them. Tell them what you are doing and why, tell them who is with them, describe what is happening around them. A frightened patient who cannot see needs your voice more than anything else you can offer.\n\nAn impaled object in an eye is never removed. Stabilise it — a cup or cone over it, secured without pressing on it — and cover both eyes.\n\nChemical in the eye is the one true eye emergency where you make a large difference. Irrigate immediately, copiously, and for far longer than feels necessary, per protocol. Direction matters: irrigate from the inner corner outwards, so the fluid runs away from the nose rather than across it. If you irrigate the wrong way you wash the chemical straight into the other eye, and a patient with one injured eye becomes a patient with two. Contact lenses come out for a chemical burn if protocol directs it; otherwise leave them alone.\n\nIf an eyeball has been displaced from its socket, do not try to push it back. Cover it with a moist sterile dressing, protect it with a shield that does not press on it, cover the other eye, and go.\n\nTeeth. A tooth that has been knocked out can often be reimplanted, and how it is handled decides whether that works. Hold it by the crown — the part you chew with — never by the root. The root surface carries the cells that allow reattachment, and handling or scrubbing them destroys it. Do not scrub it clean. Keep it moist: milk is commonly recommended, and the patient's own saliva works, per your protocol. Never let it dry out, and bring it with the patient. Also check that a missing tooth is not in the airway.\n\nEars: do not pack the canal. That applies particularly where clear fluid may be draining after head trauma, where packing risks raising pressure and driving contamination inward. Cover loosely and let it drain.",
+          "standard": "Conjugate eye movement dictates management: bilateral occlusion is required for significant unilateral injury, as movement of the uninjured eye produces corresponding movement of the injured one. Patients require explanation and continued verbal contact, as sudden bilateral occlusion produces significant distress. Impaled ocular objects are stabilised without pressure and not removed. Chemical exposure requires immediate copious irrigation from the medial to lateral canthus, directing fluid away from the contralateral eye to prevent cross-contamination, continued per protocol; contact lens removal is indicated in chemical injury where protocol directs. Globe avulsion is managed by moist sterile covering and a protective shield without replacement attempt. Avulsed teeth may be reimplanted; handling is confined to the crown, as root surface cells permitting reattachment are destroyed by handling or cleaning. The tooth is kept moist in milk or the patient's saliva per protocol, never permitted to desiccate, and transported with the patient; airway assessment for missing dentition is required. Aural canal packing is contraindicated, particularly where cerebrospinal fluid leak is suspected."
+        },
+        "eli_new": {
+          "analogy": "Both eyes are on the same wiring. Covering one and leaving the other free is like immobilising one wheel of a pair on the same axle.",
+          "body": "Irrigate from the nose outwards, never across. Get that direction wrong on a chemical splash and you have taken a patient with one damaged eye and given them two."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why both eyes are covered, how a chemical eye injury is irrigated, and how a knocked-out tooth is handled.",
+          "must_hit": [
+            {
+              "point": "The eyes move together, so covering one leaves the injured one tracking",
+              "accept": [
+                "together",
+                "move",
+                "track",
+                "both",
+                "conjugate"
+              ]
+            },
+            {
+              "point": "Explain before covering both eyes and keep talking to them",
+              "accept": [
+                "explain",
+                "talk",
+                "frighten",
+                "reassure",
+                "voice"
+              ]
+            },
+            {
+              "point": "Never remove an impaled object from an eye — stabilise it",
+              "accept": [
+                "impaled",
+                "remove",
+                "stabilis",
+                "stabiliz",
+                "never"
+              ]
+            },
+            {
+              "point": "Irrigate from the inner corner outwards, away from the other eye",
+              "accept": [
+                "inner",
+                "outward",
+                "away",
+                "other eye",
+                "nose",
+                "direction"
+              ]
+            },
+            {
+              "point": "Do not replace a displaced eyeball; moist dressing and a shield",
+              "accept": [
+                "replace",
+                "displaced",
+                "moist",
+                "shield",
+                "cover"
+              ]
+            },
+            {
+              "point": "Hold an avulsed tooth by the crown, never the root",
+              "accept": [
+                "crown",
+                "root",
+                "handle",
+                "tooth"
+              ]
+            },
+            {
+              "point": "Keep the tooth moist and bring it; do not pack an ear",
+              "accept": [
+                "moist",
+                "milk",
+                "saliva",
+                "dry",
+                "bring",
+                "pack",
+                "ear"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Straight across",
+          "dispatch": "Medic 7 — workshop, chemical splash to the right eye.",
+          "body": "Somebody had started irrigating immediately, which was exactly right, and was doing it with the patient flat and the water running across the bridge of the nose.\n\nBy the time the crew arrived the left eye was stinging too.\n\nThe instinct to irrigate fast was correct. The direction turned one injured eye into two."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm eye irrigation technique and duration, contact lens guidance, and the recommended storage medium for an avulsed tooth against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-05",
+      "title": "Neck injuries and open neck wounds",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-06-06",
+        "EMT-06-02-01",
+        "EMT-06-07-03"
+      ],
+      "key_points": [
+        "The neck contains the airway, the major vessels to and from the brain, the spinal cord and the nerves, all in a small space with little protection",
+        "An open neck wound involving a large vein can draw air into the circulation, which can be rapidly fatal",
+        "Cover an open neck wound with an occlusive dressing to keep air out, and apply direct pressure to control bleeding",
+        "Never apply circumferential pressure or a dressing all the way around the neck",
+        "Press on the wound, not around the neck, and hold it manually rather than relying on a bandage",
+        "Expanding swelling or a growing haematoma in the neck can compress the airway, so the airway is watched continuously",
+        "Hoarseness, difficulty swallowing, air bubbling from a wound, or crackling under the skin suggest injury to the airway itself",
+        "Assume spinal injury with any significant neck trauma, and maintain manual in-line stabilisation while managing everything else",
+        "These patients deteriorate quickly, so transport early with a pre-alert"
+      ],
+      "misconceptions": [
+        "Bandaging circumferentially around the neck",
+        "Leaving an open neck wound uncovered",
+        "Relying on a bandage rather than a hand for pressure",
+        "Not watching the airway while managing the bleeding"
+      ],
+      "exam_favorites": [
+        "Air entering a neck vein",
+        "Occlusive dressing plus direct pressure",
+        "Never circumferential",
+        "Watch the airway continuously"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Everything important passes through the neck, in a small space, with very little protecting it. The airway. The arteries carrying blood to the brain. The large veins carrying it back. The spinal cord. Major nerves. A wound in that space can involve several of those at once.\n\nOne danger is particular to the neck and worth understanding rather than memorising. The large veins there operate at low pressure, and when the chest expands during a breath, pressure inside them can fall below atmospheric. An open wound into such a vein can therefore draw air in — and air entering the circulation in volume can be rapidly fatal.\n\nThat is why an open neck wound gets an occlusive dressing. Not just any dressing — one that does not let air through. It serves two purposes at once: keeping air out, and holding pressure on the bleeding.\n\nControl the bleeding with direct pressure on the wound. And now the rule that matters most, because breaking it can kill somebody: never apply pressure all the way around the neck. Do not wrap a bandage around it. Do not tie anything around it. The patient has an airway and a second carotid artery in there, and circumferential pressure compromises both.\n\nSo: press on the wound with your hand, and keep your hand there. Manual pressure is better here than any securing method, because you can direct it precisely at the wound and nowhere else. If you must secure it, the standard approach is to bandage over the dressing and under the opposite armpit — which holds it firmly without going around the neck.\n\nThe second danger is swelling. A haematoma in the neck expands into a space with nowhere to go, and the thing it compresses is the airway. A patient talking normally now can have a rapidly enlarging swelling that closes their airway over minutes. So you watch the airway continuously, not once. Listen to the voice.\n\nSigns that the airway itself is injured: hoarseness or a changed voice, difficulty swallowing, air bubbling out of the wound with breathing, and crackling under the skin when you touch it, which is air in the tissues. Any of those means the airway has been breached, and it is a reason to be moving.\n\nAssume a spinal injury with any significant neck trauma and maintain manual in-line stabilisation throughout — but not at the cost of the airway or the bleeding, which come first.\n\nThese patients can go from talking to critical in a short time. Transport early and pre-alert.",
+          "standard": "The cervical region contains the airway, carotid and vertebral arteries, jugular venous system, spinal cord and major nerves within a confined, poorly protected space. Open wounds involving large cervical veins risk venous air embolism, as negative intrathoracic pressure during inspiration may entrain air, potentially producing rapid fatality. Occlusive dressing is therefore indicated, providing both air exclusion and haemorrhage control. Circumferential pressure or bandaging is absolutely contraindicated owing to airway and contralateral carotid compromise; manual direct pressure over the wound is preferred, with securing achieved by bandaging over the dressing and beneath the contralateral axilla. Expanding cervical haematoma compresses the airway within a non-expansile space, potentially producing obstruction over minutes in an initially conversational patient, requiring continuous airway monitoring including voice assessment. Findings suggesting laryngotracheal injury comprise hoarseness or voice change, dysphagia, air bubbling from the wound and subcutaneous emphysema. Spinal injury is assumed with significant cervical trauma, with manual in-line stabilisation maintained, subordinate to airway and haemorrhage priorities. Early transport with prearrival notification is indicated."
+        },
+        "eli_new": {
+          "analogy": "The neck is a corridor with everything running through it and no walls. A wound there is never just one injury.",
+          "body": "Never wrap anything around a neck. Your hand goes on the wound and stays there, and if it has to be secured, it goes over the dressing and under the opposite armpit."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why an open neck wound needs an occlusive dressing, and the absolute rule about pressure.",
+          "must_hit": [
+            {
+              "point": "The neck holds the airway, major vessels, cord and nerves in a small space",
+              "accept": [
+                "airway",
+                "vessel",
+                "artery",
+                "vein",
+                "cord",
+                "nerve",
+                "small"
+              ]
+            },
+            {
+              "point": "Air can be drawn into a neck vein and be rapidly fatal",
+              "accept": [
+                "air",
+                "vein",
+                "embol",
+                "draw",
+                "fatal",
+                "suck"
+              ]
+            },
+            {
+              "point": "Occlusive dressing keeps air out and holds pressure",
+              "accept": [
+                "occlusive",
+                "air",
+                "dressing",
+                "pressure",
+                "seal"
+              ]
+            },
+            {
+              "point": "NEVER apply circumferential pressure or bandage around the neck",
+              "accept": [
+                "circumferent",
+                "around",
+                "never",
+                "wrap",
+                "bandage"
+              ]
+            },
+            {
+              "point": "Manual pressure on the wound; secure under the opposite armpit if needed",
+              "accept": [
+                "manual",
+                "hand",
+                "wound",
+                "armpit",
+                "axilla",
+                "opposite"
+              ]
+            },
+            {
+              "point": "Expanding swelling can close the airway over minutes",
+              "accept": [
+                "swell",
+                "haematom",
+                "hematom",
+                "airway",
+                "compress",
+                "minutes"
+              ]
+            },
+            {
+              "point": "Hoarseness, bubbling air and crackling under the skin suggest airway injury",
+              "accept": [
+                "hoarse",
+                "voice",
+                "bubbl",
+                "crackl",
+                "emphysema",
+                "swallow"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Bandaged it nicely",
+          "dispatch": "Debrief — open neck wound, bystander first aid before arrival.",
+          "body": "Somebody had done what looked entirely sensible and wrapped a bandage firmly around the neck to hold a dressing on the wound.\n\nIt was holding the dressing beautifully. It was also compressing the airway and the other carotid artery.\n\nA hand on the wound would have done the same job without either of those."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the management of open neck wounds, including securing technique, against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-06",
+      "title": "Spinal motion restriction",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-06-05",
+        "EMT-06-06-07",
+        "EMT-06-08-02"
+      ],
+      "key_points": [
+        "Modern practice restricts spinal motion selectively rather than immobilising everybody with a mechanism",
+        "The change happened because long backboards cause real harm — pressure injuries, pain, breathing restriction and difficulty managing the airway — with little evidence of benefit",
+        "Selective criteria typically consider mental status, intoxication, neurological deficit, midline spinal tenderness, and any distracting injury",
+        "A patient who is alert, sober, has no neurological deficit, no midline tenderness and no distracting injury generally does not need restriction, per protocol",
+        "The exact criteria are set locally and vary — use yours, not a remembered version",
+        "Where restriction is indicated, the goal is minimising movement, not achieving rigid immobilisation",
+        "A cervical collar with the patient on a padded stretcher, moved with a scoop and handled minimally, is common current practice",
+        "The long backboard is now generally an extrication device rather than a transport device",
+        "Manual in-line stabilisation is the foundation and continues while anything else is being done"
+      ],
+      "misconceptions": [
+        "Immobilising every patient with a mechanism regardless of findings",
+        "Using a long backboard for transport",
+        "Applying remembered criteria from a different service",
+        "Treating rigid immobilisation as the goal rather than reduced movement"
+      ],
+      "exam_favorites": [
+        "Why practice changed",
+        "The selective criteria",
+        "Backboards are extrication devices",
+        "Minimise movement, not achieve rigidity"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Spinal care has changed substantially, and it is worth understanding why rather than just learning the new rules.\n\nFor decades, anybody with a mechanism that could conceivably have injured a spine was strapped to a long rigid board with a collar and blocks. It felt careful and responsible.\n\nThen the harms were examined properly. Rigid boards cause pressure injuries quickly — measurably, within under an hour. They are extremely uncomfortable, which causes patients to move more, not less. They restrict chest expansion and make breathing harder. They make airway management difficult, and a patient who vomits while strapped supine to a board is a serious problem. And the evidence that they prevented spinal cord injury turned out to be thin.\n\nMeanwhile, a genuinely unstable spinal injury is uncommon, and most patients being boarded had no spinal injury at all.\n\nSo practice moved to selective spinal motion restriction: deciding based on the patient rather than the mechanism.\n\nThe criteria usually consider: is the patient alert and oriented, or is their mental status altered? Are they intoxicated? Is there any neurological deficit — weakness, numbness, tingling? Is there midline tenderness when you palpate the spine itself, as opposed to the muscles beside it? And is there a distracting injury — something painful enough that they might not notice a sore back?\n\nA patient who is alert, sober, neurologically intact, without midline tenderness and without a distracting injury generally does not need restriction, however dramatic their crash was.\n\nThe specific criteria are set by your service, and they differ between systems. Use yours, from the protocol, not a half-remembered version from a textbook or another state.\n\nWhen restriction is indicated, the goal has shifted too. It is to minimise movement, not to achieve rigid immobilisation — which was never really achievable anyway. In practice that usually means a correctly sized cervical collar, the patient moved with a scoop stretcher rather than log rolled, placed on a padded ambulance stretcher, handled as little as possible, and transported smoothly.\n\nThe long backboard still exists and still has a job: getting someone out of a vehicle or a difficult space. It is an extrication device. They come off it once they are on the stretcher.\n\nAnd underneath all of this, manual in-line stabilisation remains the foundation. Somebody's hands holding the head in a neutral position, applied early and maintained while everything else happens. It is free, it causes no harm, and it is the most effective spinal precaution you have.",
+          "standard": "Contemporary practice employs selective spinal motion restriction in place of universal immobilisation based on mechanism. This change reflects documented harms of long spine boards — pressure injury developing within under an hour, pain producing increased patient movement, restricted chest expansion, and impaired airway management, particularly with emesis in supine restrained patients — alongside limited evidence of benefit, and the low prevalence of unstable spinal injury among immobilised patients. Selective criteria typically assess mental status, intoxication, neurological deficit, midline spinal tenderness as distinct from paraspinal tenderness, and the presence of distracting injury. Patients who are alert, unintoxicated, neurologically intact, without midline tenderness and without distracting injury generally do not require restriction. Criteria are established locally and vary between systems. Where restriction is indicated, the objective is minimisation of movement rather than rigid immobilisation: appropriately sized cervical collar, scoop stretcher transfer in preference to log rolling, padded stretcher, minimal handling and smooth transport. The long spine board functions as an extrication device, with removal following transfer. Manual in-line stabilisation constitutes the foundation of spinal precaution, applied early and maintained throughout."
+        },
+        "eli_new": {
+          "analogy": "The board was a device for reassuring the crew. It was not evidence, and the patients on it were paying for that reassurance in pressure injuries.",
+          "body": "Two hands on a head, held neutral, costs nothing and harms nobody, and it is the most effective spinal precaution you have. Everything after that is a decision about devices; this bit is just doing it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why spinal practice changed, what the selective criteria consider, and what the goal is now.",
+          "must_hit": [
+            {
+              "point": "Practice moved from universal immobilisation to selective restriction",
+              "accept": [
+                "selective",
+                "universal",
+                "mechanism",
+                "patient",
+                "changed"
+              ]
+            },
+            {
+              "point": "Backboards cause pressure injury, pain, breathing and airway problems",
+              "accept": [
+                "pressure",
+                "injury",
+                "pain",
+                "breath",
+                "airway",
+                "vomit",
+                "harm"
+              ]
+            },
+            {
+              "point": "Criteria consider mental status, intoxication, deficit, midline tenderness, distracting injury",
+              "accept": [
+                "mental",
+                "intoxicat",
+                "deficit",
+                "midline",
+                "tender",
+                "distract"
+              ]
+            },
+            {
+              "point": "Midline tenderness, not tenderness in the muscles beside the spine",
+              "accept": [
+                "midline",
+                "spine",
+                "muscle",
+                "beside",
+                "paraspinal"
+              ]
+            },
+            {
+              "point": "The criteria are local and must be used as written",
+              "accept": [
+                "local",
+                "protocol",
+                "varies",
+                "yours",
+                "service"
+              ]
+            },
+            {
+              "point": "The goal is minimising movement, not rigid immobilisation",
+              "accept": [
+                "minimis",
+                "minimiz",
+                "movement",
+                "rigid",
+                "immobilis",
+                "goal"
+              ]
+            },
+            {
+              "point": "The backboard is an extrication device, not a transport device",
+              "accept": [
+                "extricat",
+                "transport",
+                "board",
+                "device",
+                "off"
+              ]
+            },
+            {
+              "point": "Manual in-line stabilisation is the foundation",
+              "accept": [
+                "manual",
+                "in-line",
+                "hands",
+                "neutral",
+                "foundation"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Off the board",
+          "dispatch": "Medic 6 — rear-end collision, driver alert, ambulatory, neck a bit stiff.",
+          "body": "The mechanism looked impressive and a few years ago he would have gone on a board without a second thought.\n\nHe was alert, sober, neurologically intact, tender only in the muscle beside the spine and not over the midline, and had no other injury.\n\nHe travelled sitting comfortably on the stretcher. The old answer would have been an hour flat on a rigid board that was going to hurt him."
+        }
+      },
+      "cards": [
+        "concept",
+        "algorithm"
+      ],
+      "card_data": {
+        "algorithm": {
+          "start": "mis",
+          "nodes": [
+            {
+              "id": "mis",
+              "text": "Apply manual in-line stabilisation and keep it. Then work your protocol's criteria.",
+              "kind": "action"
+            },
+            {
+              "id": "ams",
+              "text": "Altered mental status, or intoxicated?",
+              "kind": "decision"
+            },
+            {
+              "id": "deficit",
+              "text": "Any neurological deficit — weakness, numbness, tingling?",
+              "kind": "decision"
+            },
+            {
+              "id": "midline",
+              "text": "Midline spinal tenderness (over the spine itself, not the muscle beside it)?",
+              "kind": "decision"
+            },
+            {
+              "id": "distract",
+              "text": "Any distracting injury?",
+              "kind": "decision"
+            },
+            {
+              "id": "restrict",
+              "text": "RESTRICT per protocol: collar, scoop transfer, padded stretcher, minimal handling, smooth transport.",
+              "kind": "action"
+            },
+            {
+              "id": "norestrict",
+              "text": "Restriction generally not indicated per protocol. Document each criterion you assessed.",
+              "kind": "action"
+            }
+          ],
+          "branches": [
+            {
+              "from": "mis",
+              "condition": "Always first",
+              "to": "ams"
+            },
+            {
+              "from": "ams",
+              "condition": "Yes",
+              "to": "restrict"
+            },
+            {
+              "from": "ams",
+              "condition": "No",
+              "to": "deficit"
+            },
+            {
+              "from": "deficit",
+              "condition": "Yes",
+              "to": "restrict"
+            },
+            {
+              "from": "deficit",
+              "condition": "No",
+              "to": "midline"
+            },
+            {
+              "from": "midline",
+              "condition": "Yes",
+              "to": "restrict"
+            },
+            {
+              "from": "midline",
+              "condition": "No",
+              "to": "distract"
+            },
+            {
+              "from": "distract",
+              "condition": "Yes",
+              "to": "restrict"
+            },
+            {
+              "from": "distract",
+              "condition": "No",
+              "to": "norestrict"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the selective spinal motion restriction criteria against YOUR OWN service's protocol, which governs and varies substantially between systems. The criteria listed here are the categories commonly assessed, not a decision rule."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-07",
+      "title": "Neurogenic shock",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-06-06"
+      ],
+      "related": [
+        "EMT-06-02-05",
+        "EMT-04-04-01",
+        "EMT-06-06-06"
+      ],
+      "key_points": [
+        "Neurogenic shock follows a spinal cord injury that interrupts the nerves controlling blood vessel tone",
+        "The vessels dilate and the container becomes too large for the volume inside it, so the pressure falls",
+        "Nothing has been lost — this is a distribution problem, not a volume problem, which is why it looks different from bleeding",
+        "The skin is warm, dry and often flushed below the level of injury, rather than cool and clammy",
+        "The pulse is normal or slow rather than fast, because the nerves that would speed the heart have also been interrupted",
+        "A hypotensive trauma patient with a slow pulse and warm dry skin is the classic picture",
+        "Never assume neurogenic shock until haemorrhage has been excluded, because a bleeding patient can also have a spinal injury",
+        "These patients lose the ability to regulate their temperature and become hypothermic quickly",
+        "Spinal shock is a different thing: a temporary loss of cord function below the injury, not a circulatory problem"
+      ],
+      "misconceptions": [
+        "Diagnosing neurogenic shock without excluding bleeding",
+        "Expecting cool clammy skin and a fast pulse",
+        "Confusing neurogenic shock with spinal shock",
+        "Letting these patients get cold"
+      ],
+      "exam_favorites": [
+        "Why the skin is warm and the pulse slow",
+        "A distribution problem, not a volume problem",
+        "Exclude bleeding first",
+        "Neurogenic versus spinal shock"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Neurogenic shock is the one type of shock that looks nothing like the others, and understanding why makes it easy to remember.\n\nThe nerves that keep blood vessels partly constricted run down the spinal cord and out to the body. A cord injury can interrupt them. When that happens, everything below the injury relaxes and dilates.\n\nNow think about the plumbing. The volume of blood has not changed at all — none has been lost. But the container holding it has suddenly become much larger. The same amount of fluid in a larger space means lower pressure everywhere.\n\nThis is a distribution problem, not a volume problem. And that single distinction explains every finding.\n\nWhy is the skin warm, dry and often flushed? Because in haemorrhagic shock the body clamps down the skin vessels to push blood to the core, which gives you the classic pale, cool, clammy patient. Here, the nerves that would do that clamping have been cut. The vessels stay open. The skin stays warm and pink and dry.\n\nWhy is the pulse normal or slow rather than fast? Same reason. Bleeding makes the heart speed up because the nervous system drives it to. Those same nerves have been interrupted, so the heart does not respond. In some cord injuries the unopposed slowing influence makes the pulse frankly slow.\n\nSo the picture to memorise is: a hypotensive trauma patient with a slow pulse and warm, dry, flushed skin. Everything is the opposite of what shock is supposed to look like, and that is why it is recognisable.\n\nNow the safety rule, which matters more than the recognition. Never assume neurogenic shock until you have excluded bleeding. A patient with a spinal cord injury has been in something violent, and that same violence breaks spleens and pelvises and femurs. If you decide early that low pressure is neurogenic, you stop looking for the bleeding, and the bleeding is the thing that kills them. Neurogenic shock is what you conclude after searching, not what you assume instead of searching.\n\nTemperature deserves attention. These patients cannot regulate their own temperature below the injury — they cannot shiver, cannot constrict skin vessels — so they take on the temperature of their surroundings. They get cold fast, and cold makes bleeding worse and everything else harder. Blankets, early, and keep the compartment warm.\n\nOne piece of vocabulary to keep straight. Spinal shock is not the same thing and is not a circulatory problem at all. It is a temporary loss of cord function below the injury — flaccid paralysis, absent reflexes — which may recover partly or wholly over time. Neurogenic shock is about blood pressure. Spinal shock is about cord function. The words are similar and they mean different things.",
+          "standard": "Neurogenic shock results from spinal cord injury interrupting sympathetic vasomotor innervation, producing vasodilation below the level of injury. Circulating volume is unchanged; increased vascular capacitance relative to fixed volume produces hypotension, constituting distributive rather than hypovolaemic shock. Cutaneous findings are warm, dry and frequently flushed skin below the injury, reflecting absent compensatory vasoconstriction. Heart rate is normal or bradycardic, as sympathetic chronotropic drive is interrupted with unopposed vagal influence. The characteristic presentation comprises hypotension with bradycardia and warm dry skin in a trauma patient. Haemorrhage must be excluded before attributing hypotension to neurogenic causes, as the mechanisms producing cord injury also produce intra-abdominal, pelvic and long bone haemorrhage; premature attribution terminates the search for the treatable cause. Thermoregulation is impaired below the injury, with absent shivering and cutaneous vasoconstriction producing rapid poikilothermic heat loss; active warming is indicated. Spinal shock is a distinct entity denoting transient loss of cord function below the injury with flaccid paralysis and areflexia, potentially recovering over time, and is not a circulatory phenomenon."
+        },
+        "eli_new": {
+          "analogy": "The blood did not leave. The container got bigger. Same water, wider tank, lower level everywhere.",
+          "body": "Neurogenic shock is a conclusion, never an assumption. The moment you decide low pressure is neurogenic, you stop looking for the bleed — and that patient was in something violent enough to break a spine, which is violent enough to break a spleen."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why neurogenic shock produces warm skin and a slow pulse, and the rule about diagnosing it.",
+          "must_hit": [
+            {
+              "point": "A cord injury interrupts the nerves controlling vessel tone",
+              "accept": [
+                "cord",
+                "nerve",
+                "spinal",
+                "tone",
+                "interrupt",
+                "sympath"
+              ]
+            },
+            {
+              "point": "Vessels dilate so the container is too big for the volume",
+              "accept": [
+                "dilat",
+                "container",
+                "volume",
+                "space",
+                "capacit",
+                "bigger"
+              ]
+            },
+            {
+              "point": "It is a distribution problem, not a volume problem",
+              "accept": [
+                "distribut",
+                "volume",
+                "lost",
+                "not",
+                "problem"
+              ]
+            },
+            {
+              "point": "Skin is warm, dry and flushed because the clamping nerves are cut",
+              "accept": [
+                "warm",
+                "dry",
+                "flush",
+                "clamp",
+                "constrict",
+                "pink"
+              ]
+            },
+            {
+              "point": "Pulse is normal or slow because the speeding nerves are interrupted",
+              "accept": [
+                "slow",
+                "brady",
+                "normal",
+                "fast",
+                "heart",
+                "nerve"
+              ]
+            },
+            {
+              "point": "Never assume it until bleeding has been excluded",
+              "accept": [
+                "exclude",
+                "bleeding",
+                "haemorrhage",
+                "hemorrhage",
+                "assume",
+                "search"
+              ]
+            },
+            {
+              "point": "They lose temperature control and get cold fast",
+              "accept": [
+                "temperature",
+                "cold",
+                "hypotherm",
+                "shiver",
+                "warm",
+                "blanket"
+              ]
+            },
+            {
+              "point": "Spinal shock is different — loss of cord function, not circulation",
+              "accept": [
+                "spinal shock",
+                "different",
+                "function",
+                "paralysis",
+                "reflex"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Warm and slow",
+          "dispatch": "Medic 5 — fall from height, patient conscious, unable to move legs.",
+          "body": "His pressure was 78 systolic, his pulse was 56, and his skin was warm, dry and pink.\n\nSomebody said neurogenic shock straight away, and they were probably right, and the officer said prove it first.\n\nHe had fallen far enough to break his spine, which is far enough to break a spleen. Neurogenic shock is what you conclude after looking, not instead of looking."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Hemorrhagic shock",
+          "right_label": "Neurogenic shock",
+          "rows": [
+            {
+              "feature": "The problem",
+              "left": "Volume lost from the container",
+              "right": "Container enlarged; volume unchanged"
+            },
+            {
+              "feature": "Type",
+              "left": "Hypovolaemic",
+              "right": "Distributive"
+            },
+            {
+              "feature": "Skin",
+              "left": "Pale, COOL, CLAMMY",
+              "right": "WARM, DRY, often flushed"
+            },
+            {
+              "feature": "Pulse",
+              "left": "FAST, weak",
+              "right": "NORMAL or SLOW"
+            },
+            {
+              "feature": "Why the skin differs",
+              "left": "Vessels clamp down to protect the core",
+              "right": "The nerves that would clamp them are interrupted"
+            },
+            {
+              "feature": "Why the pulse differs",
+              "left": "Nervous system drives the heart faster",
+              "right": "That same drive has been cut off"
+            },
+            {
+              "feature": "Temperature control",
+              "left": "Preserved",
+              "right": "LOST below the injury — they get cold fast"
+            },
+            {
+              "feature": "Field treatment",
+              "left": "Stop the bleeding, keep warm, transport",
+              "right": "Keep warm, transport — and KEEP LOOKING FOR BLEEDING"
+            },
+            {
+              "feature": "The rule",
+              "left": "Assume this first",
+              "right": "Conclude this only after excluding the other"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the neurogenic shock presentation and the distinction from spinal shock against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-06-08",
+      "title": "Helmet removal",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-06-06"
+      ],
+      "related": [
+        "EMT-06-06-06",
+        "EMT-06-08-02",
+        "EMT-06-06-01"
+      ],
+      "key_points": [
+        "A helmet is left in place if the airway is clear, it fits snugly, and the head can be immobilised within it",
+        "It is removed if it interferes with the airway or ventilation, if it is loose enough that the head moves inside it, or if it prevents immobilisation",
+        "It is also removed for cardiac arrest, where chest compressions and full airway access are needed",
+        "Removal is always a two-person procedure — one maintains stabilisation while the other removes",
+        "The person maintaining stabilisation changes hands part way through, taking hold from below so the head is never unsupported",
+        "Full-face helmets need the visor removed and the sides spread to clear the nose and ears",
+        "Motorcycle helmets and sports helmets differ; some sports helmets are designed for the facemask to be removed while leaving the helmet on",
+        "Remove shoulder pads and helmet together where both are worn, because removing one alone changes the head position",
+        "Move slowly and stop if there is resistance, pain, or any change in neurological findings"
+      ],
+      "misconceptions": [
+        "Removing a helmet single-handed",
+        "Removing a helmet that is doing no harm",
+        "Removing a sports helmet when only the facemask needed to come off",
+        "Removing a helmet and leaving shoulder pads on"
+      ],
+      "exam_favorites": [
+        "When to leave a helmet on",
+        "Two people, always",
+        "Change hands from below",
+        "Helmet and shoulder pads together"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The starting position is that helmets usually stay on. A well-fitting helmet holds the head securely, and taking it off requires moving that head.\n\nLeave it on if three things are true: the airway is clear and you can manage the breathing, it fits snugly with no movement of the head inside, and you can immobilise the head adequately with it in place.\n\nTake it off if any of those fail. If you cannot access or manage the airway. If it is loose enough that the head moves independently inside it — in which case it is providing no stabilisation and is actively in the way. If it prevents you immobilising the head properly. And in cardiac arrest, where you need full airway access and the patient flat for compressions.\n\nThe principle is simple: a helmet that is helping stays; a helmet that is preventing something necessary comes off.\n\nRemoval is a two-person job and cannot safely be done alone. That is not a preference.\n\nPerson one takes the head first, usually reaching in from the sides at the base of the helmet and supporting the mandible and the occiput. Person two then works the helmet.\n\nThe important part is the handover in the middle. Person two spreads the sides of the helmet and eases it off, and at a certain point person one has to change their hold — taking the head from below, hands under the occiput and supporting the jaw, so the head stays supported while the helmet passes over it. That transfer, done slowly and with both people talking, is the whole skill. Done badly, the head drops backwards when the helmet clears it, because the helmet had been holding it.\n\nPractical details. Full-face helmets need the visor taken off first, and the sides spread outwards to clear the nose — a full-face helmet will not come off a face without that. Glasses come off first.\n\nSports helmets are different from motorcycle helmets. Many are designed so that the facemask comes off while the helmet stays on, which gives you full airway access without moving the head at all. Where that is possible it is much better than removal.\n\nAnd where shoulder pads are worn with a helmet — American football, some other sports — they are a matched pair. Removing the helmet alone leaves the pads propping the shoulders up and the head falls back into extension; removing the pads alone does the reverse. Take both, or neither.\n\nThroughout: slowly. If you meet resistance, or the patient reports pain, or anything changes neurologically, stop and reassess. There is no version of this that should be done quickly.",
+          "standard": "Helmets are retained where the airway is accessible and manageable, the fit is snug without independent head movement, and adequate immobilisation is achievable in situ. Removal is indicated where the helmet impedes airway access or ventilation, where fit permits independent head movement, where it precludes adequate immobilisation, and in cardiac arrest requiring full airway access and supine positioning. Removal is a two-person procedure. The first provider establishes stabilisation from the sides, supporting mandible and occiput. The second provider removes the visor, spreads the helmet laterally to clear the nose and auricles, and eases it off. Mid-procedure the first provider transfers hold to an inferior approach, supporting occiput and mandible from below, maintaining continuous support as the helmet passes; failure of this transfer permits occipital drop as the supporting helmet clears. Sports helmets frequently permit facemask removal with helmet retention, providing airway access without head movement, which is preferred where available. Where shoulder pads accompany a helmet, both are removed together, as isolated removal of either alters head position into extension or flexion. The procedure is performed slowly, with cessation for resistance, pain or neurological change."
+        },
+        "eli_new": {
+          "analogy": "The helmet has been holding the head. The moment it clears, whatever your hands are not doing, gravity is.",
+          "body": "The whole skill is the handover in the middle. One set of hands has to take the head from below before the helmet passes over it, and if that transfer is rushed the head drops the moment the helmet clears."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "State when a helmet stays on, when it comes off, and describe the removal.",
+          "must_hit": [
+            {
+              "point": "Leave it on if the airway is clear, it fits snugly, and the head can be immobilised",
+              "accept": [
+                "leave",
+                "airway",
+                "snug",
+                "fit",
+                "immobilis",
+                "stays"
+              ]
+            },
+            {
+              "point": "Remove it if it blocks the airway, is loose, prevents immobilisation, or for cardiac arrest",
+              "accept": [
+                "airway",
+                "loose",
+                "immobilis",
+                "arrest",
+                "remove",
+                "prevent"
+              ]
+            },
+            {
+              "point": "Always two people",
+              "accept": [
+                "two",
+                "second",
+                "never alone",
+                "partner"
+              ]
+            },
+            {
+              "point": "The stabilising person changes hold, taking the head from below",
+              "accept": [
+                "change",
+                "hold",
+                "below",
+                "occiput",
+                "transfer",
+                "hands"
+              ]
+            },
+            {
+              "point": "Remove the visor and spread the sides to clear the nose",
+              "accept": [
+                "visor",
+                "spread",
+                "nose",
+                "side",
+                "glasses"
+              ]
+            },
+            {
+              "point": "Sports helmets may allow facemask removal with the helmet on",
+              "accept": [
+                "sport",
+                "facemask",
+                "mask",
+                "remove",
+                "on"
+              ]
+            },
+            {
+              "point": "Helmet and shoulder pads come off together or not at all",
+              "accept": [
+                "shoulder",
+                "pad",
+                "together",
+                "both",
+                "neither"
+              ]
+            },
+            {
+              "point": "Move slowly and stop for resistance, pain or neurological change",
+              "accept": [
+                "slow",
+                "stop",
+                "resist",
+                "pain",
+                "neurolog",
+                "change"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The head dropped",
+          "dispatch": "Training debrief — helmet removal, practical assessment.",
+          "body": "The removal went well right up to the last moment, when the helmet cleared and the head dropped back two or three centimetres onto the mat.\n\nThe student holding stabilisation had not changed their hold and had nothing underneath the occiput.\n\nThe helmet had been doing that job for them the entire time, and it stopped the instant it came off."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Helmet removal",
+          "steps": [
+            {
+              "text": "Decide whether it needs to come off at all",
+              "critical": true,
+              "note": "Stays on if: airway clear and manageable, fits snugly, head can be immobilised in it."
+            },
+            {
+              "text": "Remove it if it blocks the airway, is loose, prevents immobilisation, or the patient is in cardiac arrest",
+              "critical": true
+            },
+            {
+              "text": "For a sports helmet, check whether the FACEMASK alone can be removed",
+              "critical": false,
+              "note": "Airway access without moving the head at all. Much better than removal where available."
+            },
+            {
+              "text": "Get a SECOND PERSON — this cannot be done alone",
+              "critical": true
+            },
+            {
+              "text": "Person one establishes stabilisation from the SIDES, supporting mandible and occiput",
+              "critical": true
+            },
+            {
+              "text": "Person two removes the visor and any glasses",
+              "critical": false
+            },
+            {
+              "text": "Person two unfastens the chin strap",
+              "critical": true
+            },
+            {
+              "text": "Person two SPREADS the sides of the helmet outward to clear the ears and nose",
+              "critical": true
+            },
+            {
+              "text": "PERSON ONE CHANGES HOLD, taking the head FROM BELOW — hands under the occiput, supporting the jaw",
+              "critical": true,
+              "note": "This is the whole skill. The helmet has been holding the head; your hands must take over BEFORE it clears."
+            },
+            {
+              "text": "Person two eases the helmet off slowly, tilting to clear the nose",
+              "critical": true
+            },
+            {
+              "text": "Maintain neutral alignment throughout — pad behind the head once the helmet is off",
+              "critical": true,
+              "note": "Without the helmet the head often sits lower than neutral. Padding restores it."
+            },
+            {
+              "text": "If both helmet and SHOULDER PADS are worn, remove BOTH or NEITHER",
+              "critical": true
+            },
+            {
+              "text": "STOP for resistance, pain or any neurological change",
+              "critical": true
+            },
+            {
+              "text": "Reassess neurological findings after removal and document them",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm helmet removal indications and technique against the current text and local protocol. Sports helmet and shoulder pad management varies by sport and by governing body guidance."
     }
   ]
 }
