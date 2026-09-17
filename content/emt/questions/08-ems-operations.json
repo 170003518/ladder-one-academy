@@ -902,6 +902,726 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-01-Q001",
+      "concept_id": "EMT-08-02-01",
+      "style": "recall",
+      "stem": "What is the single most important lifting rule?",
+      "options": [
+        {
+          "text": "Lift quickly to minimise time under load",
+          "rationale": "Speed is not the rule."
+        },
+        {
+          "text": "Never twist while under load",
+          "rationale": "Correct — move your feet instead."
+        },
+        {
+          "text": "Always use four people",
+          "rationale": "Numbers vary with the lift."
+        },
+        {
+          "text": "Keep your back vertical at all times",
+          "rationale": "Straight, not necessarily vertical."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-01-Q002",
+      "concept_id": "EMT-08-02-01",
+      "style": "application",
+      "stem": "Why keep the weight close to your body?",
+      "options": [
+        {
+          "text": "It feels lighter psychologically",
+          "rationale": "The effect is physical, not psychological."
+        },
+        {
+          "text": "Distance multiplies the load on your spine, dramatically rather than gradually",
+          "rationale": "Correct — distance multiplies the load on your spine, dramatically rather than gradually."
+        },
+        {
+          "text": "It improves your grip",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "It keeps the patient comfortable",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-01-Q003",
+      "concept_id": "EMT-08-02-01",
+      "style": "sequence",
+      "stem": "Who decides when the lift begins?",
+      "options": [
+        {
+          "text": "Each provider, when they feel ready",
+          "rationale": "That is how people get hurt."
+        },
+        {
+          "text": "One designated person, and everyone lifts on that count",
+          "rationale": "Correct — one designated person, and everyone lifts on that count."
+        },
+        {
+          "text": "The patient",
+          "rationale": "Not the patient's call."
+        },
+        {
+          "text": "Whoever is carrying the most weight",
+          "rationale": "Not how it is organised."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-01-Q004",
+      "concept_id": "EMT-08-02-01",
+      "style": "sequence",
+      "stem": "When should additional help be requested?",
+      "options": [
+        {
+          "text": "Once the lift proves difficult",
+          "rationale": "At that point you are asking to be rescued."
+        },
+        {
+          "text": "Before the lift begins",
+          "rationale": "Correct — before the lift begins."
+        },
+        {
+          "text": "After the patient is moved",
+          "rationale": "Too late to matter."
+        },
+        {
+          "text": "Only if someone is injured",
+          "rationale": "Far too late."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-01-Q005",
+      "concept_id": "EMT-08-02-01",
+      "style": "application",
+      "stem": "You need to change direction while carrying. What do you do?",
+      "options": [
+        {
+          "text": "Swivel at the waist, keeping your feet planted",
+          "rationale": "Exactly the movement that injures people."
+        },
+        {
+          "text": "Move your feet and turn your whole body",
+          "rationale": "Correct — move your feet and turn your whole body."
+        },
+        {
+          "text": "Pass the load to the other side",
+          "rationale": "Not the technique."
+        },
+        {
+          "text": "Lower the load and restart",
+          "rationale": "Unnecessary if you move your feet."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-01-Q006",
+      "concept_id": "EMT-08-02-01",
+      "style": "recall",
+      "stem": "Where does lifting injury risk concentrate?",
+      "options": [
+        {
+          "text": "In the planned lift itself",
+          "rationale": "Less than in the unplanned moments."
+        },
+        {
+          "text": "In unplanned moments: tight corners, sudden shifts, stumbles",
+          "rationale": "Correct — in unplanned moments: tight corners, sudden shifts, stumbles."
+        },
+        {
+          "text": "In the initial approach",
+          "rationale": "Not where injuries cluster."
+        },
+        {
+          "text": "In loading the vehicle",
+          "rationale": "One moment among several."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-02-Q001",
+      "concept_id": "EMT-08-02-02",
+      "style": "recall",
+      "stem": "What justifies an emergency move?",
+      "options": [
+        {
+          "text": "The patient is seriously injured",
+          "rationale": "Severity alone does not justify it."
+        },
+        {
+          "text": "The danger of staying outweighs the risk of moving",
+          "rationale": "Correct — the danger of staying outweighs the risk of moving."
+        },
+        {
+          "text": "The crew is short of time",
+          "rationale": "Never a justification."
+        },
+        {
+          "text": "The patient asks to be moved",
+          "rationale": "Not the test."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-02-Q002",
+      "concept_id": "EMT-08-02-02",
+      "style": "recall",
+      "stem": "Which are the three reasons for an emergency move?",
+      "options": [
+        {
+          "text": "Danger, access to another patient, and care that cannot be given where they are",
+          "rationale": "Correct — danger, access to another patient, and care that cannot be given where they are."
+        },
+        {
+          "text": "Danger, patient request, and crew fatigue",
+          "rationale": "Two of those are not reasons."
+        },
+        {
+          "text": "Weather, distance, and time of day",
+          "rationale": "None of those are reasons."
+        },
+        {
+          "text": "Danger, difficult access, and awkward position",
+          "rationale": "Difficulty is not a reason."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-02-Q003",
+      "concept_id": "EMT-08-02-02",
+      "style": "application",
+      "stem": "How should an emergency drag be performed?",
+      "options": [
+        {
+          "text": "Sideways, to clear obstacles quickly",
+          "rationale": "That bends and twists the spine."
+        },
+        {
+          "text": "Along the long axis of the body, pulling from the shoulders or clothing",
+          "rationale": "Correct — along the long axis of the body, pulling from the shoulders or clothing."
+        },
+        {
+          "text": "By the ankles, which is fastest",
+          "rationale": "Not the technique described."
+        },
+        {
+          "text": "By lifting under the arms and hips",
+          "rationale": "Not a drag technique."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-02-Q004",
+      "concept_id": "EMT-08-02-02",
+      "style": "application",
+      "stem": "Rapid extrication is suggested because the door is jammed. Is that appropriate?",
+      "options": [
+        {
+          "text": "Yes, difficulty justifies it",
+          "rationale": "Convenience is never the justification."
+        },
+        {
+          "text": "No — an urgent move is justified by condition, not convenience",
+          "rationale": "Correct — no — an urgent move is justified by condition, not convenience."
+        },
+        {
+          "text": "Yes, if it saves more than five minutes",
+          "rationale": "Time saving is not the test."
+        },
+        {
+          "text": "Only with medical direction approval",
+          "rationale": "The principle applies regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-02-Q005",
+      "concept_id": "EMT-08-02-02",
+      "style": "scenario",
+      "stem": "Where do most provider back injuries occur?",
+      "options": [
+        {
+          "text": "During emergency moves",
+          "rationale": "Less often than you would think."
+        },
+        {
+          "text": "During routine non-urgent moves, because that is where most lifting happens",
+          "rationale": "Correct — during routine non-urgent moves, because that is where most lifting happens."
+        },
+        {
+          "text": "During rapid extrication",
+          "rationale": "Not the main source."
+        },
+        {
+          "text": "During loading only",
+          "rationale": "One moment among many."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-02-Q006",
+      "concept_id": "EMT-08-02-02",
+      "style": "recall",
+      "stem": "A patient in cardiac arrest is on a soft bed. Why move them?",
+      "options": [
+        {
+          "text": "For crew comfort",
+          "rationale": "Not a justification."
+        },
+        {
+          "text": "The care they need cannot be given where they are",
+          "rationale": "Correct — the third emergency move reason."
+        },
+        {
+          "text": "To clear the room",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because arrest always requires the floor",
+          "rationale": "The reason is the care, not a blanket rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-03-Q001",
+      "concept_id": "EMT-08-02-03",
+      "style": "recall",
+      "stem": "What limits the use of a stair chair?",
+      "options": [
+        {
+          "text": "The height of the staircase",
+          "rationale": "Not the limiting factor."
+        },
+        {
+          "text": "The patient must be able to tolerate sitting upright",
+          "rationale": "Correct — the patient must be able to tolerate sitting upright."
+        },
+        {
+          "text": "The number of providers available",
+          "rationale": "Not the defining limit."
+        },
+        {
+          "text": "The width of the doorway",
+          "rationale": "A practical factor, not the defining limit."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-03-Q002",
+      "concept_id": "EMT-08-02-03",
+      "style": "recall",
+      "stem": "What is the advantage of a scoop stretcher?",
+      "options": [
+        {
+          "text": "It is lighter than other devices",
+          "rationale": "Not the main advantage."
+        },
+        {
+          "text": "It assembles under the patient with very little patient movement",
+          "rationale": "Correct — it assembles under the patient with very little patient movement."
+        },
+        {
+          "text": "It provides the best spinal immobilisation",
+          "rationale": "Not the stated advantage."
+        },
+        {
+          "text": "It fits through narrow corridors",
+          "rationale": "That is a flexible stretcher."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-03-Q003",
+      "concept_id": "EMT-08-02-03",
+      "style": "application",
+      "stem": "What is a long backboard for?",
+      "options": [
+        {
+          "text": "Transporting patients comfortably",
+          "rationale": "It is not a comfortable transport surface."
+        },
+        {
+          "text": "Extrication and movement",
+          "rationale": "Correct — then follow protocol for what they travel on."
+        },
+        {
+          "text": "Long-distance transfers",
+          "rationale": "Prolonged board time causes pain and pressure injury."
+        },
+        {
+          "text": "Replacing the stretcher",
+          "rationale": "Not its purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-03-Q004",
+      "concept_id": "EMT-08-02-03",
+      "style": "application",
+      "stem": "Which device suits a long transport over rough ground?",
+      "options": [
+        {
+          "text": "A long backboard",
+          "rationale": "The patient slides and it is uncomfortable."
+        },
+        {
+          "text": "A vacuum mattress",
+          "rationale": "Correct — it conforms, spreads load and holds position."
+        },
+        {
+          "text": "A stair chair",
+          "rationale": "Not suited to rough ground."
+        },
+        {
+          "text": "A flexible stretcher",
+          "rationale": "For confined spaces, not long transport."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-03-Q005",
+      "concept_id": "EMT-08-02-03",
+      "style": "scenario",
+      "stem": "Which device is most underused?",
+      "options": [
+        {
+          "text": "The basket stretcher",
+          "rationale": "Specialised, not underused."
+        },
+        {
+          "text": "Slide sheets and transfer boards",
+          "rationale": "Correct — they turn a lift into a slide."
+        },
+        {
+          "text": "The wheeled stretcher",
+          "rationale": "Used constantly."
+        },
+        {
+          "text": "The scoop stretcher",
+          "rationale": "Reasonably well used."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-03-Q006",
+      "concept_id": "EMT-08-02-03",
+      "style": "recall",
+      "stem": "What should you do if you are unfamiliar with a device?",
+      "options": [
+        {
+          "text": "Follow the others and work it out",
+          "rationale": "That is how patients get dropped."
+        },
+        {
+          "text": "Say so before the lift rather than during it",
+          "rationale": "Correct — say so before the lift rather than during it."
+        },
+        {
+          "text": "Take the lightest position",
+          "rationale": "Does not solve the problem."
+        },
+        {
+          "text": "Use a different device without telling anyone",
+          "rationale": "Communicate instead."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-04-Q001",
+      "concept_id": "EMT-08-02-04",
+      "style": "recall",
+      "stem": "What must be secured?",
+      "options": [
+        {
+          "text": "The patient to the device",
+          "rationale": "Necessary but not sufficient."
+        },
+        {
+          "text": "The patient to the device, and the device to the vehicle",
+          "rationale": "Correct — both, every time."
+        },
+        {
+          "text": "The device to the vehicle",
+          "rationale": "Necessary but not sufficient."
+        },
+        {
+          "text": "Whichever the situation allows",
+          "rationale": "Both are always required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-04-Q002",
+      "concept_id": "EMT-08-02-04",
+      "style": "application",
+      "stem": "Why secure the legs as well as the chest?",
+      "options": [
+        {
+          "text": "It looks more professional",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Patients slide downwards whenever the device tilts",
+          "rationale": "Correct — patients slide downwards whenever the device tilts."
+        },
+        {
+          "text": "It prevents kicking",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is required for billing",
+          "rationale": "Not a reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-04-Q003",
+      "concept_id": "EMT-08-02-04",
+      "style": "application",
+      "stem": "How should a patient with breathing difficulty be positioned?",
+      "options": [
+        {
+          "text": "Flat, to aid circulation",
+          "rationale": "That worsens their breathing."
+        },
+        {
+          "text": "Upright, unless their condition prevents it",
+          "rationale": "Correct — upright, unless their condition prevents it."
+        },
+        {
+          "text": "On their left side",
+          "rationale": "Not indicated for breathing difficulty."
+        },
+        {
+          "text": "Head down",
+          "rationale": "Contraindicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-04-Q004",
+      "concept_id": "EMT-08-02-04",
+      "style": "recall",
+      "stem": "How should a patient in shock be positioned?",
+      "options": [
+        {
+          "text": "Legs elevated in all cases",
+          "rationale": "Guidance has changed and varies."
+        },
+        {
+          "text": "According to your local protocol",
+          "rationale": "Correct — according to your local protocol."
+        },
+        {
+          "text": "Sitting upright always",
+          "rationale": "Not a general rule."
+        },
+        {
+          "text": "Head down always",
+          "rationale": "Not a general rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-04-Q005",
+      "concept_id": "EMT-08-02-04",
+      "style": "scenario",
+      "stem": "When are patients most likely to become cold?",
+      "options": [
+        {
+          "text": "During the hospital handover",
+          "rationale": "Less exposed by then."
+        },
+        {
+          "text": "While being moved — outdoors, clothing removed, doors open",
+          "rationale": "Correct — while being moved — outdoors, clothing removed, doors open."
+        },
+        {
+          "text": "On arrival at scene",
+          "rationale": "Before you have exposed them."
+        },
+        {
+          "text": "During assessment only",
+          "rationale": "Movement is the bigger exposure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-04-Q006",
+      "concept_id": "EMT-08-02-04",
+      "style": "recall",
+      "stem": "How tight should straps be?",
+      "options": [
+        {
+          "text": "Tight enough to look tidy",
+          "rationale": "Appearance is not the test."
+        },
+        {
+          "text": "Snug enough that the patient does not move in a sudden stop",
+          "rationale": "Correct — and rechecked after moving."
+        },
+        {
+          "text": "Loose enough for comfort",
+          "rationale": "Comfort does not override safety."
+        },
+        {
+          "text": "As tight as the patient will tolerate",
+          "rationale": "Snug, not maximal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

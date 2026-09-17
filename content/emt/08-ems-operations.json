@@ -24,6 +24,16 @@
         "EMT-08-01-04",
         "EMT-08-01-05"
       ]
+    },
+    {
+      "id": "EMT-08-02",
+      "title": "Lifting and moving",
+      "concepts": [
+        "EMT-08-02-01",
+        "EMT-08-02-02",
+        "EMT-08-02-03",
+        "EMT-08-02-04"
+      ]
     }
   ],
   "concepts": [
@@ -802,6 +812,735 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm air medical activation criteria, landing zone dimensions and approach procedures against your local protocol and the operating service's requirements. Landing zone size requirements vary by aircraft and service and are deliberately not stated here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-01",
+      "title": "Body mechanics and safe lifting",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-02-02",
+        "EMT-08-02-03",
+        "EMT-07-05-03"
+      ],
+      "key_points": [
+        "Back injury ends more EMS careers than anything dramatic, and it accumulates rather than arriving",
+        "Lift with the legs, keep the back straight, and never twist while under load",
+        "Keep the weight as close to your body as possible — distance multiplies the load on your spine",
+        "Feet shoulder width apart, weight balanced, and a firm grip with the palms up where you can",
+        "Communicate before and during every lift so everyone moves at the same moment",
+        "One person calls the lift, and everyone else lifts on their count rather than their own judgement",
+        "Know your limits and ask for help before you start, not once you are committed",
+        "Use equipment that does the work for you wherever it is available — that is what it is for",
+        "Push rather than pull where you have the choice, and work at waist level where you can",
+        "The most dangerous moments are the unplanned ones: an awkward corner, a sudden shift, a stumble"
+      ],
+      "misconceptions": [
+        "Twisting while carrying a load",
+        "Holding the weight away from the body",
+        "Asking for help only after the lift has started",
+        "Lifting on your own count rather than the caller's"
+      ],
+      "exam_favorites": [
+        "Never twist under load",
+        "Keep it close",
+        "One person calls it"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Back injury ends more EMS careers than anything that would make the news. And it rarely arrives as a single dramatic event. It accumulates — a slightly wrong lift, a twist under load, an awkward corner, hundreds of times, until one ordinary movement is the one that does it. Which means the habits you build now matter more than any single lift.\n\nThe mechanics are simple enough to state.\n\nLift with your legs, which are built for it, rather than with your back, which is not. Keep your back straight — straight, not necessarily vertical. Bend at the hips and knees.\n\nNever twist while under load. This is the single most important rule in the whole topic. The spine tolerates compression reasonably well and tolerates rotation under load very badly. So if you need to change direction while carrying, move your feet and turn your whole body. The instinct to swivel at the waist because your feet are planted is exactly the movement that injures people.\n\nKeep the weight close to your body. This one is underappreciated, and the physics is unforgiving: the further the load is from your spine, the greater the effective force on it, and the multiplication is dramatic rather than gradual. A weight held at arm's length loads your back several times more than the same weight held against your chest. So get close before you lift, and stay close while you carry.\n\nStance: feet about shoulder width apart, weight balanced between them, and a firm grip. Where you have the choice, grip with the palms up, which is stronger and more stable than palms down.\n\nThen communication, which is the part crews actually get wrong most often. Talk before the lift: who is where, what is the plan, where are we going, what happens at the door. Talk during it. And have one person call the lift, with everybody moving on that person's count — not on their own assessment of when things look ready. Two people lifting a quarter of a second apart means one of them briefly took the whole weight, and that is a classic injury.\n\nKnow your limits, and ask for help before you begin. Once the lift is underway you are committed, and a request for help at that point is a request to rescue you. Asking at the start costs you a minute and nothing else.\n\nUse the equipment. Stair chairs, powered stretchers, lifting sheets, slide boards — they exist precisely so that human backs do not have to do the work, and there is nothing impressive about doing it the hard way.\n\nPush rather than pull where you have the choice, because pushing uses larger muscle groups and keeps the load closer. Work at waist level where you can, and avoid lifting from the floor when there is any alternative.\n\nAnd know where the danger concentrates. It is not the straightforward lift you planned for. It is the unplanned moment: the corner that turned out to be tighter than it looked, the patient who shifted suddenly, the person who stumbled and whose share of the weight moved to everyone else without warning. Plan the route, walk it first if you need to, and slow down at the awkward parts.",
+          "standard": "Musculoskeletal back injury constitutes the leading cause of career termination in EMS and typically results from cumulative rather than singular mechanism. Correct technique comprises lifting with the lower limbs rather than the lumbar spine, maintaining a straight back with flexion at hip and knee. Rotation under load is the principal prohibited movement, as the spine tolerates axial compression considerably better than loaded rotation; directional change while carrying requires repositioning of the feet and rotation of the whole body. Load proximity to the body is critical, as the moment arm increases spinal loading disproportionately with distance; loads held at arm's length impose several times the spinal loading of the same mass held against the trunk. Stance comprises feet at approximately shoulder width with balanced weight distribution and a secure grip, with supinated grip preferred where available. Communication requirements comprise pre-lift briefing addressing positions, plan, route and obstacles; continued communication during movement; and designation of a single individual to initiate the lift, with all personnel moving on that count rather than independent judgement, as asynchronous lifting transiently loads individual providers. Personal limits should be assessed and additional assistance requested before commencement rather than during an executed lift. Mechanical aids including stair chairs, powered stretchers, lifting sheets and slide boards should be used where available. Pushing is preferred to pulling, and work at waist height is preferred to floor-level lifting. Injury risk concentrates in unplanned events including constricted routes, sudden patient movement and provider stumbling."
+        },
+        "eli_new": {
+          "analogy": "The spine handles being squashed reasonably well and handles being twisted under load very badly. Move your feet.",
+          "body": "Distance multiplies. The same weight held at arm's length loads your back several times more than held against your chest, so get close before you lift and stay close while you carry."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain safe lifting technique and the communication that goes with it.",
+          "must_hit": [
+            {
+              "point": "Back injury ends careers and accumulates over time",
+              "accept": [
+                "back",
+                "career",
+                "cumulat",
+                "accumulat",
+                "injury"
+              ]
+            },
+            {
+              "point": "Lift with the legs and keep the back straight",
+              "accept": [
+                "legs",
+                "straight",
+                "back",
+                "knee",
+                "hip"
+              ]
+            },
+            {
+              "point": "Never twist under load — move your feet instead",
+              "accept": [
+                "twist",
+                "rotat",
+                "feet",
+                "turn",
+                "whole body"
+              ]
+            },
+            {
+              "point": "Keep the weight close because distance multiplies the load",
+              "accept": [
+                "close",
+                "distance",
+                "arm's length",
+                "multipl",
+                "moment"
+              ]
+            },
+            {
+              "point": "Feet shoulder width, balanced, firm grip palms up",
+              "accept": [
+                "shoulder width",
+                "balance",
+                "grip",
+                "palms",
+                "stance"
+              ]
+            },
+            {
+              "point": "One person calls the lift and everyone moves on that count",
+              "accept": [
+                "call",
+                "count",
+                "one person",
+                "together",
+                "same moment"
+              ]
+            },
+            {
+              "point": "Ask for help before starting, not once committed",
+              "accept": [
+                "help",
+                "before",
+                "limit",
+                "committed",
+                "start"
+              ]
+            },
+            {
+              "point": "Use equipment, push rather than pull, work at waist level",
+              "accept": [
+                "equipment",
+                "stair chair",
+                "push",
+                "pull",
+                "waist"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "On three",
+          "dispatch": "Medic 5 — lift from a bathroom floor, three providers.",
+          "body": "Somebody started early, half a beat ahead of the count, which is how it usually goes.\n\nFor about a quarter of a second one person had most of the weight.\n\nThey put the patient down and did it again properly, which cost them thirty seconds."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Safe lifting",
+          "steps": [
+            {
+              "text": "PLAN THE ROUTE FIRST — doors, corners, stairs, surfaces. Walk it if you need to",
+              "critical": true
+            },
+            {
+              "text": "DECIDE WHETHER YOU HAVE ENOUGH PEOPLE AND ASK NOW — not once you are committed",
+              "critical": true
+            },
+            {
+              "text": "USE THE EQUIPMENT: stair chair, powered stretcher, lifting sheet, slide board",
+              "critical": false
+            },
+            {
+              "text": "GET CLOSE TO THE LOAD BEFORE LIFTING — distance multiplies the force on your spine",
+              "critical": true
+            },
+            {
+              "text": "FEET SHOULDER WIDTH, WEIGHT BALANCED, FIRM GRIP, PALMS UP WHERE YOU CAN",
+              "critical": true
+            },
+            {
+              "text": "BEND AT THE HIPS AND KNEES · BACK STRAIGHT · LIFT WITH THE LEGS",
+              "critical": true
+            },
+            {
+              "text": "BRIEF THE LIFT OUT LOUD: who is where, where we are going, what happens at the door",
+              "critical": true
+            },
+            {
+              "text": "ONE PERSON CALLS IT — everyone lifts ON THAT COUNT, not on their own judgement",
+              "critical": true,
+              "note": "Lifting a quarter-second apart means somebody briefly took the whole weight. That is a classic injury."
+            },
+            {
+              "text": "NEVER TWIST UNDER LOAD — to change direction, MOVE YOUR FEET and turn the whole body",
+              "critical": true
+            },
+            {
+              "text": "KEEP THE WEIGHT CLOSE THROUGHOUT THE CARRY, not just at the lift",
+              "critical": true
+            },
+            {
+              "text": "PUSH RATHER THAN PULL, and work at waist level rather than from the floor",
+              "critical": false
+            },
+            {
+              "text": "SLOW DOWN AT THE AWKWARD PARTS — corners, stairs, thresholds. That is where injuries happen",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm lifting technique and moving and handling procedure against your service's own policy and training."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-02",
+      "title": "Emergency, urgent and non-urgent moves",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-02-01"
+      ],
+      "related": [
+        "EMT-08-02-01",
+        "EMT-08-02-03",
+        "EMT-08-03-01"
+      ],
+      "key_points": [
+        "How you move a patient depends on why you are moving them and how much time you have",
+        "An emergency move is used when the danger of staying outweighs the risk of moving",
+        "Three reasons for an emergency move: immediate danger, inability to reach another patient, or care that cannot be given where they are",
+        "Emergency moves accept a risk of worsening injury because the alternative is worse",
+        "Drag along the long axis of the body wherever possible to limit spinal movement",
+        "Common emergency moves include clothes drags, blanket drags, shoulder drags and the firefighter's carry",
+        "An urgent move is used when the patient's condition requires quicker movement than a routine transfer",
+        "The rapid extrication technique is an urgent move, used for condition rather than convenience",
+        "Non-urgent moves are planned and unhurried, and this is where most patient movement happens",
+        "Speed is never a reason on its own — the justification is danger or condition, not schedule"
+      ],
+      "misconceptions": [
+        "Using an emergency move for convenience or speed",
+        "Dragging across the body rather than along its long axis",
+        "Using rapid extrication because the scene is awkward",
+        "Treating non-urgent moves as unimportant"
+      ],
+      "exam_favorites": [
+        "Three reasons for an emergency move",
+        "Drag along the long axis",
+        "Condition, not convenience"
+      ],
+      "modes": {
+        "read": {
+          "plain": "How you move a patient depends on two things: why you are moving them, and how much time you have. Those give you three categories, and the distinction between them is a distinction of justification rather than technique.\n\nAn emergency move is used when the danger of staying where they are outweighs the risk of moving them badly. That is the whole test, and it is worth stating clearly because an emergency move genuinely does accept a risk of worsening an injury. You do it anyway, because the alternative is worse.\n\nThere are three accepted reasons.\n\nFirst, immediate danger to the patient or the crew — fire, explosion risk, structural collapse, hazardous material, an unsafe scene, rising water, traffic.\n\nSecond, you cannot reach another patient who needs care without moving this one.\n\nThird, the care the patient needs cannot be given where they are. The classic example is a patient in cardiac arrest in a seated position, or on a bed you cannot compress against. The intervention requires them somewhere else, so they go somewhere else.\n\nWhen you do perform one, the technique principle is to drag along the long axis of the body wherever possible — pull from the shoulders or the clothing so the whole body moves in line, rather than dragging sideways which bends and twists the spine. The common versions are the clothes drag, the blanket drag, the shoulder or armpit drag, and, where one person must move someone quickly, a firefighter's carry. You are not trying to protect the spine perfectly; you are trying to protect it as much as an emergency allows.\n\nAn urgent move sits in the middle. The patient's condition requires them moved more quickly than a routine, unhurried transfer would allow, but there is no immediate environmental danger. The rapid extrication technique from a vehicle is the standard example: the patient's condition means they need to be out now, so they come out with manual spinal stabilisation and speed rather than with the full sequence.\n\nAnd the discipline to hold on to here is that an urgent move is justified by condition, not convenience. Rapid extrication because the patient is deteriorating is correct. Rapid extrication because the vehicle is an awkward shape and the full method would take longer is not.\n\nNon-urgent moves are the planned, unhurried ones, and they are the overwhelming majority of patient movement. There is no immediate threat and the patient's condition allows you to do it properly: choose the right device, position it well, get enough people, brief the lift, and move deliberately. The fact that these are routine does not make them safe — most of the back injuries happen here, simply because this is where most of the lifting is.\n\nThe summary: speed is never a justification on its own. The justification is danger or condition, and if neither applies, you have time to do it properly.",
+          "standard": "Patient movement is categorised by justification and available time. Emergency moves are indicated where the hazard of remaining in position exceeds the risk of movement, and explicitly accept potential injury exacerbation. Three accepted indications exist: immediate danger to patient or providers including fire, explosion risk, structural instability, hazardous materials, scene insecurity, water ingress or traffic; obstruction of access to another patient requiring care; and inability to deliver required care in the present position, exemplified by cardiac arrest in a seated position or on a non-rigid surface. Technique prioritises traction along the longitudinal body axis, applied at the shoulders or clothing, to limit lateral spinal flexion and rotation; recognised methods comprise the clothing drag, blanket drag, shoulder or axillary drag, and single-provider carries. Urgent moves are indicated where patient condition requires expedited movement absent immediate environmental hazard, exemplified by rapid extrication from a vehicle with manual spinal stabilisation. Justification is patient condition rather than operational convenience; extrication difficulty or time saving do not constitute indications. Non-urgent moves comprise planned, unhurried transfers where neither hazard nor condition compels expedition, permitting device selection, positioning, adequate personnel and briefed execution, and constitute the majority of patient movement and consequently the majority of provider injury. Expedition alone does not justify categorical escalation."
+        },
+        "eli_new": {
+          "analogy": "An emergency move accepts that you might make an injury worse. You do it because staying is worse still, and that trade is the whole definition.",
+          "body": "Rapid extrication because the patient is deteriorating is correct. Rapid extrication because the car is an awkward shape is not. Condition, never convenience."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Distinguish emergency, urgent and non-urgent moves and give the indications for each.",
+          "must_hit": [
+            {
+              "point": "An emergency move is used when staying is more dangerous than moving",
+              "accept": [
+                "danger",
+                "outweigh",
+                "staying",
+                "risk",
+                "emergency move"
+              ]
+            },
+            {
+              "point": "It accepts a risk of worsening injury",
+              "accept": [
+                "worsen",
+                "accept",
+                "risk",
+                "injury",
+                "anyway"
+              ]
+            },
+            {
+              "point": "Three reasons: danger, access to another patient, care impossible where they are",
+              "accept": [
+                "danger",
+                "another patient",
+                "care",
+                "cannot",
+                "three"
+              ]
+            },
+            {
+              "point": "Drag along the long axis of the body",
+              "accept": [
+                "long axis",
+                "drag",
+                "in line",
+                "shoulder",
+                "clothing"
+              ]
+            },
+            {
+              "point": "Common emergency moves include clothes, blanket and shoulder drags",
+              "accept": [
+                "clothes",
+                "blanket",
+                "shoulder",
+                "armpit",
+                "carry"
+              ]
+            },
+            {
+              "point": "An urgent move is driven by the patient's condition",
+              "accept": [
+                "urgent",
+                "condition",
+                "rapid extrication",
+                "quick",
+                "deteriorat"
+              ]
+            },
+            {
+              "point": "Condition justifies an urgent move, convenience does not",
+              "accept": [
+                "convenience",
+                "condition",
+                "not",
+                "justif",
+                "awkward"
+              ]
+            },
+            {
+              "point": "Non-urgent moves are planned and are where most injuries happen",
+              "accept": [
+                "non-urgent",
+                "planned",
+                "majority",
+                "most",
+                "injur"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The reason",
+          "dispatch": "Engine 1 — vehicle collision, patient seated, extrication being discussed.",
+          "body": "Somebody suggested rapid extrication because the door was jammed and the full method would take a while.\n\nThe officer asked what the patient's condition was, and the honest answer was stable.\n\nThey did it properly. It took eleven minutes and nothing was worse for it."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "EMERGENCY move",
+          "right_label": "NON-URGENT move",
+          "rows": [
+            {
+              "feature": "What justifies it",
+              "left": "THE DANGER OF STAYING OUTWEIGHS THE RISK OF MOVING",
+              "right": "Nothing compels haste — there is time to do it properly"
+            },
+            {
+              "feature": "The three reasons",
+              "left": "IMMEDIATE DANGER · CANNOT REACH ANOTHER PATIENT · CARE IMPOSSIBLE WHERE THEY ARE",
+              "right": "Not applicable — routine transfer"
+            },
+            {
+              "feature": "Risk accepted",
+              "left": "YES — you may worsen an injury, and you do it anyway",
+              "right": "None should be accepted"
+            },
+            {
+              "feature": "Spinal care",
+              "left": "DRAG ALONG THE LONG AXIS — as much protection as an emergency allows",
+              "right": "Full precautions as indicated"
+            },
+            {
+              "feature": "Typical methods",
+              "left": "Clothes drag · blanket drag · shoulder or armpit drag · single-provider carry",
+              "right": "Stretcher, stair chair, scoop, slide sheet, with enough people"
+            },
+            {
+              "feature": "Planning",
+              "left": "Seconds — decide and go",
+              "right": "Route planned, device chosen, lift briefed"
+            },
+            {
+              "feature": "Where injuries happen",
+              "left": "Occasionally, under pressure",
+              "right": "MOST PROVIDER BACK INJURIES HAPPEN HERE, because this is where most of the lifting is"
+            },
+            {
+              "feature": "Speed as a reason",
+              "left": "Not speed — DANGER",
+              "right": "NEVER a justification on its own"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm move categories, indications and techniques against the current text and your local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-03",
+      "title": "Devices and when to use each",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-02-01"
+      ],
+      "related": [
+        "EMT-08-02-01",
+        "EMT-08-02-02",
+        "EMT-06-03-01"
+      ],
+      "key_points": [
+        "Choosing the right device is most of what makes a move safe and comfortable",
+        "The wheeled stretcher is the default for transport, and is loaded and unloaded to a procedure",
+        "A stair chair moves a seated patient down stairs, and needs a patient who can tolerate sitting up",
+        "A scoop stretcher splits lengthways and assembles under a patient with minimal movement",
+        "A long backboard is an extrication and movement device, not a comfortable transport surface",
+        "A vacuum mattress conforms to the patient and is more comfortable and more stable for long journeys",
+        "A basket stretcher is for rough ground and technical rescue where wheels are useless",
+        "A flexible stretcher moves a patient through narrow or awkward spaces",
+        "Slide sheets and transfer boards move a patient sideways between surfaces with much less effort",
+        "Every device has weight limits and a correct procedure — improvising with an unfamiliar device is how people get dropped"
+      ],
+      "misconceptions": [
+        "Using a stair chair for a patient who cannot tolerate sitting",
+        "Leaving a patient on a long board for a long transport",
+        "Improvising with an unfamiliar device",
+        "Ignoring a device's weight limit"
+      ],
+      "exam_favorites": [
+        "Scoop for minimal movement",
+        "Board is not a transport surface",
+        "Slide sheets"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Most of what makes a move safe and comfortable is choosing the right device before you start. The lift technique matters, but the device decides how hard the lift has to be in the first place.\n\nThe wheeled stretcher is the default for transport. It carries the patient for the bulk of the journey and it loads and unloads to a specific procedure — learn yours, because loading is a moment with a known injury pattern, and powered models have their own sequence that must be followed rather than approximated.\n\nA stair chair moves a seated patient down stairs, and it is enormously better than carrying someone on a stretcher down a staircase. The condition it imposes is that the patient must be able to tolerate sitting upright: not someone with a suspected spinal injury, not someone hypotensive who deteriorates when sat up, not someone who cannot maintain the position. Many models have tracks for descending stairs, which are far safer than lifting each step.\n\nA scoop stretcher splits lengthways into two halves that assemble underneath a patient from either side. Its virtue is that you can get it under someone with very little movement of the patient, which makes it excellent where you want to lift someone off the ground without rolling them.\n\nA long backboard is an extrication and movement device. It is worth saying plainly that it is not a comfortable or benign transport surface — prolonged time on a rigid board causes pain and pressure injury, and practice in most systems has moved away from transporting patients on one. Use it to move someone, then follow your protocol for what they travel on.\n\nA vacuum mattress conforms to the patient's shape when the air is drawn out, becoming rigid while spreading the load. It is more comfortable and more stable than a rigid board, especially for longer journeys and rough ground, where a patient on a flat board slides and a patient in a vacuum mattress does not.\n\nA basket stretcher is for rough ground and technical rescue — down a slope, across a field, off a trail, out of a confined space, on a rope system. Anywhere wheels are useless and the patient must be carried by hand.\n\nA flexible stretcher wraps around the patient and is for narrow, awkward spaces: tight staircases, small bathrooms, corridors with sharp turns, where a rigid device simply will not go round the corner.\n\nAnd slide sheets and transfer boards, which are the most underused equipment in the service. Moving a patient sideways between two surfaces at the same height is where a great deal of unnecessary lifting happens, and a slide sheet turns a lift into a slide. Use them.\n\nFinally: every device has a weight limit and a correct procedure. Exceeding the limit is how equipment fails, and improvising with a device you have not used before is how patients get dropped. If you do not know a device, say so before the lift rather than during it.",
+          "standard": "Device selection substantially determines the safety and comfort of patient movement and precedes technique in importance. The wheeled stretcher constitutes the default transport device, with model-specific loading and unloading procedures; loading carries a recognised injury pattern and powered models require adherence to their specific sequence. Stair chairs facilitate seated movement on stairways and are contraindicated where the patient cannot tolerate upright positioning, including suspected spinal injury, hypotension with positional intolerance, and inability to maintain posture; tracked models permit controlled descent. Scoop stretchers separate longitudinally and assemble beneath the patient bilaterally, permitting placement with minimal patient movement and avoidance of log-rolling. Long backboards constitute extrication and movement devices rather than transport surfaces; prolonged immobilisation produces pain and pressure injury, and contemporary practice in most systems avoids transport upon them. Vacuum mattresses conform to patient contour on evacuation of air, providing rigidity with load distribution, superior comfort and stability over extended transport and uneven terrain. Basket stretchers serve rough terrain and technical rescue where wheeled transport is impracticable. Flexible stretchers accommodate confined and angular spaces inaccessible to rigid devices. Slide sheets and transfer boards facilitate lateral transfer between surfaces of equivalent height, converting lifting to sliding, and are substantially underutilised. All devices carry weight limits and defined procedures; limit exceedance produces equipment failure and unfamiliar device improvisation produces patient drops."
+        },
+        "eli_new": {
+          "analogy": "A slide sheet turns a lift into a slide. Moving somebody sideways between two beds is where an enormous amount of unnecessary lifting happens.",
+          "body": "The long board is a device for moving people, not a surface for lying on. Use it to get them somewhere, then follow your protocol for what they actually travel on."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the main patient movement devices and say when each is the right choice.",
+          "must_hit": [
+            {
+              "point": "The wheeled stretcher is the default and loads to a procedure",
+              "accept": [
+                "wheeled",
+                "stretcher",
+                "default",
+                "load",
+                "procedure"
+              ]
+            },
+            {
+              "point": "A stair chair needs a patient who tolerates sitting upright",
+              "accept": [
+                "stair chair",
+                "sitting",
+                "upright",
+                "tolerate",
+                "stairs"
+              ]
+            },
+            {
+              "point": "A scoop assembles under the patient with minimal movement",
+              "accept": [
+                "scoop",
+                "split",
+                "underneath",
+                "minimal",
+                "roll"
+              ]
+            },
+            {
+              "point": "A long board is for movement, not for transport comfort",
+              "accept": [
+                "board",
+                "not",
+                "transport",
+                "pressure",
+                "extrication"
+              ]
+            },
+            {
+              "point": "A vacuum mattress conforms and is better for long or rough journeys",
+              "accept": [
+                "vacuum",
+                "conform",
+                "rigid",
+                "comfort",
+                "rough"
+              ]
+            },
+            {
+              "point": "A basket stretcher is for rough ground and technical rescue",
+              "accept": [
+                "basket",
+                "rough",
+                "terrain",
+                "rescue",
+                "rope"
+              ]
+            },
+            {
+              "point": "A flexible stretcher fits narrow awkward spaces",
+              "accept": [
+                "flexible",
+                "narrow",
+                "awkward",
+                "corner",
+                "confined"
+              ]
+            },
+            {
+              "point": "Slide sheets turn a lift into a slide, and every device has limits",
+              "accept": [
+                "slide sheet",
+                "transfer board",
+                "lateral",
+                "limit",
+                "procedure"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Sideways",
+          "dispatch": "Medic 3 — transfer between beds, three providers available.",
+          "body": "They were setting up to lift, because that is what everybody does.\n\nSomebody went back for a slide sheet, which took ninety seconds.\n\nThe move itself took about four, and nobody lifted anything."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm device indications, weight limits and procedures against your service's own equipment and policy. Spinal immobilisation practice varies considerably by system; confirm against your protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-02-04",
+      "title": "Packaging, positioning and securing",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-02-03"
+      ],
+      "related": [
+        "EMT-08-02-03",
+        "EMT-08-01-03",
+        "EMT-03-04-01"
+      ],
+      "key_points": [
+        "Packaging means preparing the patient for movement so that nothing shifts and nothing is forgotten",
+        "Position by condition: the position that helps this patient is a clinical decision, not a default",
+        "Sit a patient with breathing difficulty up, unless their condition prevents it",
+        "Position a patient with reduced consciousness who is breathing to protect their airway",
+        "Shock positioning varies between systems — follow your protocol rather than a remembered rule",
+        "Secure the patient to the device, then secure the device to the vehicle — both, every time",
+        "Straps must be snug enough to hold in a sudden stop, and checked again after moving",
+        "Secure the legs as well as the chest, because a patient slides downwards on inclines and stairs",
+        "Protect against cold at every stage, since patients cool while being moved and cold worsens outcomes",
+        "Keep tubing, lines, monitors and oxygen where they will not be caught, pulled or trapped"
+      ],
+      "misconceptions": [
+        "Securing the patient but not the device",
+        "Leaving straps loose enough to allow sliding",
+        "Using a remembered shock position rather than the protocol",
+        "Forgetting the patient is getting cold during the move"
+      ],
+      "exam_favorites": [
+        "Both sets of straps",
+        "Position by condition",
+        "Cold during movement"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Packaging means preparing the patient for movement so that nothing shifts, nothing is caught and nothing is forgotten. It is the step that gets rushed, and it is the step that decides whether the journey is safe.\n\nStart with position, and treat it as a clinical decision rather than a default. The right position depends on the patient's condition.\n\nA patient with breathing difficulty goes up. Sitting upright lets the diaphragm work and is frequently the single most effective thing you do for them, so unless their condition prevents it, sit them up.\n\nA patient with reduced consciousness who is breathing adequately gets positioned so their airway is protected — in most systems, on their side. The job is to ensure that if they vomit, it comes out rather than going in.\n\nA patient in shock is where you follow your protocol rather than a remembered rule, because guidance on positioning in shock has changed and varies between systems. Look it up in your own protocol and know what yours says.\n\nThen securing, and the rule that catches people: secure the patient to the device, then secure the device to the vehicle. Both. Every time. A patient perfectly strapped to a stretcher that is not locked into its mount is not secured at all, and an unlocked stretcher in a collision is an enormous heavy object with a person attached to it.\n\nStraps need to be snug. Snug enough that the patient does not move in a sudden stop — and that is the test, not whether they look tidy. Check them again after you have moved, because straps loosen as a patient settles and as the device is handled.\n\nSecure the legs as well as the chest. This gets forgotten, and it matters because patients slide downwards whenever the device tilts — going down stairs, on a ramp, on any incline. Chest straps alone do not prevent that, and a patient sliding down a tilted stretcher is both frightening and dangerous.\n\nProtect against cold at every stage. Patients cool while being moved, and the moving is exactly when they are least covered and most exposed — outdoors, with clothing cut away, with doors open. Cold worsens bleeding, worsens outcomes, and is deeply unpleasant. Cover them, and cover them again after each stage of the move.\n\nAnd manage the equipment attached to them. Tubing, lines, monitor cables, oxygen tubing and bags all need to be where they will not be caught on a door frame, trapped under the device, or pulled as the stretcher moves. The moment where an oxygen line catches on a door handle is both undignified and genuinely dangerous, and it is completely preventable by thinking about it for five seconds before you start.",
+          "standard": "Packaging comprises preparation of the patient for movement to prevent displacement, entrapment and omission. Positioning constitutes a clinical determination based on patient condition rather than a default. Respiratory compromise indicates upright positioning to permit diaphragmatic excursion, frequently constituting the most effective single intervention, unless otherwise contraindicated. Reduced consciousness with adequate spontaneous ventilation indicates positioning for airway protection, typically lateral, to permit drainage of emesis. Positioning in shock should follow local protocol, as guidance has been revised and varies between systems. Securing requires both fixation of the patient to the device and fixation of the device to the vehicle; a patient secured to an unlocked stretcher is unsecured, and an unrestrained stretcher constitutes a substantial mass hazard in collision. Strap tension must prevent patient movement during sudden deceleration, this functional criterion superseding appearance, and requires re-verification following movement as tension reduces with patient settling and device handling. Lower limb securing is required in addition to thoracic securing, as patients migrate distally whenever the device inclines, including stairways and ramps, which thoracic restraint alone does not prevent. Thermal protection is required at each stage, as patient cooling coincides with periods of maximal exposure through outdoor movement, clothing removal and open doors; hypothermia exacerbates haemorrhage and adverse outcome. Attached equipment including tubing, lines, monitoring cables and oxygen supply requires positioning to prevent snagging, entrapment beneath the device and traction during movement."
+        },
+        "eli_new": {
+          "analogy": "A patient perfectly strapped to a stretcher that is not locked to the vehicle is not secured at all. It is a very heavy object with a person attached.",
+          "body": "Strap the legs too. Patients slide downwards every time the device tilts, and chest straps alone do nothing about that."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain packaging: positioning, securing and the things that get forgotten.",
+          "must_hit": [
+            {
+              "point": "Position by condition, as a clinical decision",
+              "accept": [
+                "position",
+                "condition",
+                "clinical",
+                "decision",
+                "depends"
+              ]
+            },
+            {
+              "point": "Breathing difficulty sits up",
+              "accept": [
+                "breathing",
+                "upright",
+                "sit",
+                "diaphragm",
+                "difficulty"
+              ]
+            },
+            {
+              "point": "Reduced consciousness is positioned to protect the airway",
+              "accept": [
+                "unconscious",
+                "reduced",
+                "airway",
+                "side",
+                "vomit"
+              ]
+            },
+            {
+              "point": "Shock positioning follows your protocol",
+              "accept": [
+                "shock",
+                "protocol",
+                "varies",
+                "look up",
+                "system"
+              ]
+            },
+            {
+              "point": "Secure the patient to the device and the device to the vehicle",
+              "accept": [
+                "both",
+                "device",
+                "vehicle",
+                "lock",
+                "secure"
+              ]
+            },
+            {
+              "point": "Straps snug enough to hold in a sudden stop, rechecked after moving",
+              "accept": [
+                "snug",
+                "tight",
+                "sudden stop",
+                "recheck",
+                "loosen"
+              ]
+            },
+            {
+              "point": "Secure the legs because patients slide on inclines",
+              "accept": [
+                "legs",
+                "slide",
+                "incline",
+                "stairs",
+                "tilt"
+              ]
+            },
+            {
+              "point": "Protect against cold and manage tubing and lines",
+              "accept": [
+                "cold",
+                "cover",
+                "warm",
+                "tubing",
+                "line",
+                "caught"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Both",
+          "dispatch": "Medic 6 — loading complete, ready for transport.",
+          "body": "The patient was strapped beautifully. Chest, hips, legs, all snug, all checked.\n\nThe stretcher had not gone into its mount properly and nobody had heard it click.\n\nSomebody checked, because checking both is the habit, and it had not latched."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm positioning guidance, particularly for shock, and securing procedure against your local protocol and your service's equipment."
     }
   ]
 }
