@@ -6332,6 +6332,906 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-01-Q001",
+      "concept_id": "EMT-01-07-01",
+      "style": "recall",
+      "stem": "What does anaerobic metabolism produce?",
+      "options": [
+        {
+          "text": "More energy and clean waste",
+          "rationale": "It produces far less energy."
+        },
+        {
+          "text": "Far less energy, and acid as a by-product",
+          "rationale": "Correct — far less energy, and acid as a by-product."
+        },
+        {
+          "text": "The same energy with different waste",
+          "rationale": "The energy yield falls substantially."
+        },
+        {
+          "text": "No energy at all",
+          "rationale": "It produces some, briefly."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-01-Q002",
+      "concept_id": "EMT-01-07-01",
+      "style": "application",
+      "stem": "Why does shock become harder to reverse over time?",
+      "options": [
+        {
+          "text": "Patients become psychologically resigned",
+          "rationale": "Not a physiological mechanism."
+        },
+        {
+          "text": "Accumulating acid impairs the heart, the vessels and medications",
+          "rationale": "Correct — the chemistry itself changes."
+        },
+        {
+          "text": "Blood loss accelerates automatically",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "It does not — shock is a stable state",
+          "rationale": "Shock deepens; it does not hold."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-01-Q003",
+      "concept_id": "EMT-01-07-01",
+      "style": "recall",
+      "stem": "Which tissue tolerates oxygen shortage worst?",
+      "options": [
+        {
+          "text": "Skeletal muscle",
+          "rationale": "Muscle tolerates it comparatively well."
+        },
+        {
+          "text": "Brain",
+          "rationale": "Correct — minutes, not hours."
+        },
+        {
+          "text": "Skin",
+          "rationale": "Skin tolerates it well."
+        },
+        {
+          "text": "Bone",
+          "rationale": "Bone is relatively tolerant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-01-Q004",
+      "concept_id": "EMT-01-07-01",
+      "style": "application",
+      "stem": "Why is cold protective in some emergencies?",
+      "options": [
+        {
+          "text": "It stops bleeding",
+          "rationale": "Cold actually impairs clotting."
+        },
+        {
+          "text": "It slows metabolism, so cells need less and tolerate shortage longer",
+          "rationale": "Correct — the basis of cold-water drowning survival."
+        },
+        {
+          "text": "It increases oxygen in the blood",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It reduces pain, allowing better assessment",
+          "rationale": "Not the mechanism described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-01-Q005",
+      "concept_id": "EMT-01-07-01",
+      "style": "recall",
+      "stem": "Is anaerobic metabolism a sustainable alternative?",
+      "options": [
+        {
+          "text": "Yes, cells can run on it indefinitely",
+          "rationale": "It buys minutes, not indefinite operation."
+        },
+        {
+          "text": "No — it is a short-term emergency measure with a cost",
+          "rationale": "Correct — no — it is a short-term emergency measure with a cost."
+        },
+        {
+          "text": "Yes, in muscle but not elsewhere",
+          "rationale": "Even muscle cannot sustain it."
+        },
+        {
+          "text": "Yes, provided glucose is available",
+          "rationale": "Glucose availability does not make it sustainable."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-01-Q006",
+      "concept_id": "EMT-01-07-01",
+      "style": "scenario",
+      "stem": "What are all emergency interventions ultimately doing?",
+      "options": [
+        {
+          "text": "Treating symptoms",
+          "rationale": "Symptom relief is one purpose among several."
+        },
+        {
+          "text": "Delivering oxygen to cells or reducing what they need",
+          "rationale": "Correct — every intervention is on one side of that."
+        },
+        {
+          "text": "Preventing infection",
+          "rationale": "Only some interventions do."
+        },
+        {
+          "text": "Relieving pain",
+          "rationale": "Important, but not the organising principle."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-02-Q001",
+      "concept_id": "EMT-01-07-02",
+      "style": "recall",
+      "stem": "What is perfusion?",
+      "options": [
+        {
+          "text": "The amount of blood the heart pumps per minute",
+          "rationale": "That is cardiac output."
+        },
+        {
+          "text": "Blood reaching tissue and delivering oxygen",
+          "rationale": "Correct — delivery, not dispatch."
+        },
+        {
+          "text": "The pressure inside the arteries",
+          "rationale": "That is blood pressure."
+        },
+        {
+          "text": "The oxygen content of the blood",
+          "rationale": "That is one requirement, not the whole."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-02-Q002",
+      "concept_id": "EMT-01-07-02",
+      "style": "recall",
+      "stem": "What is cardiac output?",
+      "options": [
+        {
+          "text": "Heart rate alone",
+          "rationale": "Rate is one factor of two."
+        },
+        {
+          "text": "Stroke volume multiplied by heart rate",
+          "rationale": "Correct — stroke volume multiplied by heart rate."
+        },
+        {
+          "text": "Blood pressure divided by resistance",
+          "rationale": "Not the definition used here."
+        },
+        {
+          "text": "The volume of blood in the body",
+          "rationale": "That is circulating volume."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-02-Q003",
+      "concept_id": "EMT-01-07-02",
+      "style": "application",
+      "stem": "Why is carbon monoxide poisoning a perfusion problem?",
+      "options": [
+        {
+          "text": "It stops the heart pumping",
+          "rationale": "The pump works normally."
+        },
+        {
+          "text": "Blood arrives normally but carries almost no oxygen",
+          "rationale": "Correct — perfect circulation, starving tissue."
+        },
+        {
+          "text": "It causes massive vasodilation",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It reduces circulating volume",
+          "rationale": "Volume is unaffected."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-02-Q004",
+      "concept_id": "EMT-01-07-02",
+      "style": "application",
+      "stem": "Why does compensated shock have a normal blood pressure?",
+      "options": [
+        {
+          "text": "Because perfusion is adequate",
+          "rationale": "Perfusion is already failing."
+        },
+        {
+          "text": "Because the body works hard to hold the pressure up while perfusion fails",
+          "rationale": "Correct — because the body works hard to hold the pressure up while perfusion fails."
+        },
+        {
+          "text": "Because the measurement is inaccurate",
+          "rationale": "The measurement is accurate and incomplete."
+        },
+        {
+          "text": "Because blood pressure is unrelated to shock",
+          "rationale": "It is related, but it changes late."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-02-Q005",
+      "concept_id": "EMT-01-07-02",
+      "style": "recall",
+      "stem": "Which findings show perfusion earlier than blood pressure?",
+      "options": [
+        {
+          "text": "Temperature and respiratory rate",
+          "rationale": "Useful, but not the named perfusion indicators."
+        },
+        {
+          "text": "Capillary refill, skin findings and mental status",
+          "rationale": "Correct — all three change first."
+        },
+        {
+          "text": "Pupil size and reaction",
+          "rationale": "Not primary perfusion indicators."
+        },
+        {
+          "text": "Oxygen saturation alone",
+          "rationale": "Saturation does not indicate perfusion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-02-Q006",
+      "concept_id": "EMT-01-07-02",
+      "style": "scenario",
+      "stem": "Can perfusion fail in one place only?",
+      "options": [
+        {
+          "text": "No — it is always a whole-body problem",
+          "rationale": "Regional failure is common."
+        },
+        {
+          "text": "Yes — a blocked coronary artery or a stroke is regional perfusion failure",
+          "rationale": "Correct, along with compartment syndrome."
+        },
+        {
+          "text": "Only in the limbs",
+          "rationale": "It occurs in any territory."
+        },
+        {
+          "text": "Only after global failure",
+          "rationale": "Regional failure occurs independently."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-03-Q001",
+      "concept_id": "EMT-01-07-03",
+      "style": "recall",
+      "stem": "Which type of shock involves the container becoming too large?",
+      "options": [
+        {
+          "text": "Hypovolaemic",
+          "rationale": "That is loss of fluid."
+        },
+        {
+          "text": "Distributive",
+          "rationale": "Correct — septic, anaphylactic and neurogenic belong here."
+        },
+        {
+          "text": "Cardiogenic",
+          "rationale": "That is pump failure."
+        },
+        {
+          "text": "Obstructive",
+          "rationale": "That is mechanical blockage of flow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-03-Q002",
+      "concept_id": "EMT-01-07-03",
+      "style": "recall",
+      "stem": "Can hypovolaemic shock occur without bleeding?",
+      "options": [
+        {
+          "text": "No, it always involves blood loss",
+          "rationale": "Fluid can be lost several ways."
+        },
+        {
+          "text": "Yes — vomiting, diarrhoea, burns and hyperglycaemia all cause it",
+          "rationale": "Correct — yes — vomiting, diarrhoea, burns and hyperglycaemia all cause it."
+        },
+        {
+          "text": "Only in children",
+          "rationale": "Not age-specific."
+        },
+        {
+          "text": "Only with severe dehydration over weeks",
+          "rationale": "It can occur far faster than that."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-03-Q003",
+      "concept_id": "EMT-01-07-03",
+      "style": "application",
+      "stem": "How does the transition from compensated to decompensated shock occur?",
+      "options": [
+        {
+          "text": "Gradually, over a predictable period",
+          "rationale": "It is abrupt, not a slope."
+        },
+        {
+          "text": "Abruptly — compensation holds until it cannot",
+          "rationale": "Correct, which is why you act on the compensated picture."
+        },
+        {
+          "text": "Only after a blood pressure of 90 is reached",
+          "rationale": "No single threshold defines it."
+        },
+        {
+          "text": "It does not occur in adults",
+          "rationale": "It occurs at all ages."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-03-Q004",
+      "concept_id": "EMT-01-07-03",
+      "style": "application",
+      "stem": "What does a normal blood pressure mean in a seriously injured child?",
+      "options": [
+        {
+          "text": "That they are stable",
+          "rationale": "Children hold pressure long after perfusion is failing."
+        },
+        {
+          "text": "Very little — children compensate longer and then crash abruptly",
+          "rationale": "Correct. Read pulse, refill, skin and mental status."
+        },
+        {
+          "text": "That the injury was minor",
+          "rationale": "The mechanism is unaffected by the reading."
+        },
+        {
+          "text": "That no further assessment is needed",
+          "rationale": "The opposite is true."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-03-Q005",
+      "concept_id": "EMT-01-07-03",
+      "style": "recall",
+      "stem": "What is obstructive shock?",
+      "options": [
+        {
+          "text": "Loss of circulating volume",
+          "rationale": "That is hypovolaemic."
+        },
+        {
+          "text": "Something mechanically blocking flow, as in tension pneumothorax or tamponade",
+          "rationale": "Correct — something mechanically blocking flow, as in tension pneumothorax or tamponade."
+        },
+        {
+          "text": "Failure of the heart muscle",
+          "rationale": "That is cardiogenic."
+        },
+        {
+          "text": "Widespread vasodilation",
+          "rationale": "That is distributive."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-03-Q006",
+      "concept_id": "EMT-01-07-03",
+      "style": "scenario",
+      "stem": "Which stage is the one to act on?",
+      "options": [
+        {
+          "text": "Decompensated — when the diagnosis is certain",
+          "rationale": "By then you are already behind."
+        },
+        {
+          "text": "Compensated — while the pressure still looks normal",
+          "rationale": "Correct. That is the window."
+        },
+        {
+          "text": "Neither — wait for the hospital",
+          "rationale": "Field recognition is the point."
+        },
+        {
+          "text": "Only when consciousness falls",
+          "rationale": "That is a late finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-04-Q001",
+      "concept_id": "EMT-01-07-04",
+      "style": "recall",
+      "stem": "What distinguishes respiratory failure from respiratory distress?",
+      "options": [
+        {
+          "text": "Failure involves faster breathing",
+          "rationale": "Failure often involves slowing."
+        },
+        {
+          "text": "In failure the work is no longer achieving adequate gas exchange",
+          "rationale": "Correct — and arrest follows."
+        },
+        {
+          "text": "Failure always involves cyanosis",
+          "rationale": "Cyanosis is late and often absent."
+        },
+        {
+          "text": "Distress is more serious",
+          "rationale": "Failure is the more serious state."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-04-Q002",
+      "concept_id": "EMT-01-07-04",
+      "style": "application",
+      "stem": "A patient breathing at 36 is now at 20 with nothing else improved. What does this mean?",
+      "options": [
+        {
+          "text": "They are improving",
+          "rationale": "Only if everything else improved too."
+        },
+        {
+          "text": "They are exhausting and running out — an ominous finding",
+          "rationale": "Correct, and it reads like progress on a chart."
+        },
+        {
+          "text": "The first reading was wrong",
+          "rationale": "No basis for assuming that."
+        },
+        {
+          "text": "The oxygen is working",
+          "rationale": "Not indicated by a falling rate alone."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-04-Q003",
+      "concept_id": "EMT-01-07-04",
+      "style": "recall",
+      "stem": "Which is an EARLY sign of hypoxia?",
+      "options": [
+        {
+          "text": "Drowsiness",
+          "rationale": "Drowsiness is late."
+        },
+        {
+          "text": "Restlessness and anxiety",
+          "rationale": "Correct — a hypoxic brain is an agitated brain."
+        },
+        {
+          "text": "Cyanosis",
+          "rationale": "Very late."
+        },
+        {
+          "text": "Unresponsiveness",
+          "rationale": "Very late."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-04-Q004",
+      "concept_id": "EMT-01-07-04",
+      "style": "application",
+      "stem": "A patient is not moving enough air. What do they need?",
+      "options": [
+        {
+          "text": "More oxygen through a non-rebreather",
+          "rationale": "Oxygen does little if air is not moving."
+        },
+        {
+          "text": "Assisted ventilation with a bag-valve mask",
+          "rationale": "Correct — assisted ventilation with a bag-valve mask."
+        },
+        {
+          "text": "Encouragement to breathe more deeply",
+          "rationale": "Insufficient when ventilation is failing."
+        },
+        {
+          "text": "A nasal cannula at higher flow",
+          "rationale": "Does not address ventilation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-04-Q005",
+      "concept_id": "EMT-01-07-04",
+      "style": "recall",
+      "stem": "How useful is the absence of cyanosis?",
+      "options": [
+        {
+          "text": "It excludes significant hypoxia",
+          "rationale": "Patients arrest without ever turning blue."
+        },
+        {
+          "text": "It proves nothing — cyanosis is very late",
+          "rationale": "Correct — it proves nothing — cyanosis is very late."
+        },
+        {
+          "text": "It indicates adequate ventilation",
+          "rationale": "It indicates neither."
+        },
+        {
+          "text": "It is the most reliable early sign",
+          "rationale": "It is among the latest."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-04-Q006",
+      "concept_id": "EMT-01-07-04",
+      "style": "scenario",
+      "stem": "Which assessment quickly quantifies respiratory distress?",
+      "options": [
+        {
+          "text": "Counting the pulse",
+          "rationale": "Useful but not a respiratory measure."
+        },
+        {
+          "text": "How many words they can say before stopping for breath",
+          "rationale": "Correct — quick and quantifiable."
+        },
+        {
+          "text": "Measuring the chest circumference",
+          "rationale": "Not a clinical assessment."
+        },
+        {
+          "text": "Asking them to rate their breathlessness out of ten",
+          "rationale": "Subjective and slower."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-05-Q001",
+      "concept_id": "EMT-01-07-05",
+      "style": "recall",
+      "stem": "How does carbon dioxide affect blood acidity?",
+      "options": [
+        {
+          "text": "More carbon dioxide makes blood more alkaline",
+          "rationale": "It makes blood more acidic."
+        },
+        {
+          "text": "More carbon dioxide makes blood more acidic",
+          "rationale": "Correct — which makes breathing an acid control system."
+        },
+        {
+          "text": "Carbon dioxide has no effect on acidity",
+          "rationale": "It behaves as an acid in solution."
+        },
+        {
+          "text": "It only matters in kidney failure",
+          "rationale": "It matters continuously."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-05-Q002",
+      "concept_id": "EMT-01-07-05",
+      "style": "recall",
+      "stem": "Which produces a metabolic acidosis?",
+      "options": [
+        {
+          "text": "Hyperventilation",
+          "rationale": "That produces a respiratory alkalosis."
+        },
+        {
+          "text": "Shock, diabetic ketoacidosis, kidney failure and prolonged seizures",
+          "rationale": "Correct — shock, diabetic ketoacidosis, kidney failure and prolonged seizures."
+        },
+        {
+          "text": "Prolonged vomiting",
+          "rationale": "That produces a metabolic alkalosis."
+        },
+        {
+          "text": "Opioid overdose",
+          "rationale": "That produces a respiratory acidosis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-05-Q003",
+      "concept_id": "EMT-01-07-05",
+      "style": "application",
+      "stem": "Why must Kussmaul respirations in DKA not be slowed?",
+      "options": [
+        {
+          "text": "Because it would be uncomfortable for the patient",
+          "rationale": "Comfort is not the issue."
+        },
+        {
+          "text": "Because that breathing is compensation holding their chemistry together",
+          "rationale": "Correct — suppressing it removes their only defence."
+        },
+        {
+          "text": "Because it would raise their oxygen requirement",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "They should be slowed, to reduce the work of breathing",
+          "rationale": "That is the harmful intervention this warns against."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-05-Q004",
+      "concept_id": "EMT-01-07-05",
+      "style": "application",
+      "stem": "Is hyperventilation always anxiety?",
+      "options": [
+        {
+          "text": "Yes, in a patient with no chest findings",
+          "rationale": "Many causes exist."
+        },
+        {
+          "text": "No — pain, fever and compensating for acidosis all cause it",
+          "rationale": "Correct — no — pain, fever and compensating for acidosis all cause it."
+        },
+        {
+          "text": "Only in young patients",
+          "rationale": "Cause is not age-determined."
+        },
+        {
+          "text": "Only if the patient denies distress",
+          "rationale": "Denial does not establish cause."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-05-Q005",
+      "concept_id": "EMT-01-07-05",
+      "style": "recall",
+      "stem": "What produces a respiratory acidosis?",
+      "options": [
+        {
+          "text": "Breathing too much",
+          "rationale": "That is respiratory alkalosis."
+        },
+        {
+          "text": "Not breathing enough, so carbon dioxide builds up",
+          "rationale": "Correct — not breathing enough, so carbon dioxide builds up."
+        },
+        {
+          "text": "Losing stomach acid",
+          "rationale": "That is metabolic alkalosis."
+        },
+        {
+          "text": "Producing acid from anaerobic metabolism",
+          "rationale": "That is metabolic acidosis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-05-Q006",
+      "concept_id": "EMT-01-07-05",
+      "style": "scenario",
+      "stem": "What question should abnormal breathing prompt?",
+      "options": [
+        {
+          "text": "How fast is it?",
+          "rationale": "Rate alone does not answer it."
+        },
+        {
+          "text": "Is this the problem, or the answer to a problem?",
+          "rationale": "Correct — those need opposite responses."
+        },
+        {
+          "text": "Is the patient anxious?",
+          "rationale": "Too narrow a question."
+        },
+        {
+          "text": "Does it need oxygen?",
+          "rationale": "A later question."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

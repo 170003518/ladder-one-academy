@@ -87,6 +87,17 @@
         "EMT-01-06-07",
         "EMT-01-06-08"
       ]
+    },
+    {
+      "id": "EMT-01-07",
+      "title": "Pathophysiology basics",
+      "concepts": [
+        "EMT-01-07-01",
+        "EMT-01-07-02",
+        "EMT-01-07-03",
+        "EMT-01-07-04",
+        "EMT-01-07-05"
+      ]
     }
   ],
   "concepts": [
@@ -5703,6 +5714,900 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm endocrine, lymphatic and immune descriptions against the current text. No medication names or doses are stated."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-01",
+      "title": "Cellular metabolism and oxygenation",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-07-02",
+        "EMT-01-07-03",
+        "EMT-06-09-02"
+      ],
+      "key_points": [
+        "Every cell needs oxygen and glucose to make energy, and produces carbon dioxide and water as waste",
+        "With enough oxygen, metabolism is aerobic: efficient, producing a large amount of energy per unit of fuel",
+        "Without enough oxygen, metabolism becomes anaerobic: far less energy and acid as a by-product",
+        "Anaerobic metabolism is a short-term emergency measure, not a sustainable alternative",
+        "The acid produced accumulates, and that acidosis is what makes shock progressively harder to reverse",
+        "Cells die when the shortfall goes on long enough, and different tissues tolerate it for very different periods",
+        "Brain tissue tolerates it worst, which is why the brain is the first thing to fail",
+        "Everything you do in an emergency is ultimately about getting oxygen to cells or reducing what they need",
+        "Cold reduces how much cells need, which is why hypothermic patients survive things warm ones do not"
+      ],
+      "misconceptions": [
+        "Treating anaerobic metabolism as a workable alternative",
+        "Thinking acidosis is a laboratory abstraction rather than a clinical problem",
+        "Assuming all tissue tolerates oxygen shortage equally"
+      ],
+      "exam_favorites": [
+        "Aerobic versus anaerobic",
+        "Why acid accumulates in shock",
+        "Why cold is protective"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Every cell in the body runs on the same basic arrangement: take in oxygen and glucose, make energy, produce carbon dioxide and water as waste. That is metabolism, and almost everything in emergency medicine comes back to it.\n\nWhen there is enough oxygen, the process is aerobic and it is efficient — a large amount of energy from each unit of fuel, with clean waste products the body disposes of easily.\n\nWhen oxygen runs short, cells switch to anaerobic metabolism. They can keep going, briefly, but two things change. They get far less energy from the same fuel. And instead of clean waste, they produce acid.\n\nIt is important to understand what that switch actually is. It is not an alternative setting the body can run on. It is an emergency measure that buys minutes, and it comes with a bill.\n\nThat bill is acidosis. The acid accumulates, and as it does, things stop working properly. Enzymes work less well. The heart contracts less effectively. Blood vessels respond less reliably to the signals telling them to stay constricted. Medications become less effective.\n\nAnd that is the crucial part of this whole concept: acidosis is why shock gets harder to reverse the longer it goes on. A patient who has been in shock for forty minutes is not simply a patient who has been in shock for ten minutes with more time elapsed. Their chemistry has changed, and the changes make everything you and the hospital do work less well. Shock feeds itself.\n\nEventually cells die, and different tissues tolerate the shortfall for very different lengths of time. Muscle and skin tolerate it comparatively well. The brain tolerates it worst of all — minutes, not hours — which is why the brain fails first and why an altered mental status is such an early warning.\n\nStep back and this explains your job. Everything you do in an emergency is either getting oxygen to cells or reducing what they need. Oxygen, ventilation, stopping bleeding, keeping blood circulating, keeping them warm, keeping them still, keeping them calm. Every one of those is one side or the other of that equation.\n\nAnd it explains why cold is protective. Cold slows metabolism, so cells need less, so they tolerate a shortfall for longer. That is the mechanism behind cold-water drowning survival and behind 'nobody is dead until they are warm and dead'.",
+          "standard": "Cellular metabolism requires oxygen and glucose, generating adenosine triphosphate with carbon dioxide and water as products. Aerobic metabolism yields substantially greater energy per substrate unit with readily excreted waste products. Oxygen deficiency produces a shift to anaerobic metabolism, yielding markedly less energy and generating lactic acid. Anaerobic metabolism constitutes a temporising mechanism rather than a sustainable alternative pathway. Accumulating acidosis impairs enzymatic function, reduces myocardial contractility, diminishes vascular responsiveness to vasoconstrictive stimuli and reduces pharmacological efficacy. Consequently shock becomes progressively refractory with duration, as metabolic derangement compounds the initial insult; prolonged shock differs qualitatively rather than merely temporally from early shock. Cellular death follows sustained deficiency, with tissue tolerance varying substantially; cerebral tissue demonstrates the least tolerance, accounting for the primacy of altered mental status as an indicator. Emergency intervention addresses either oxygen delivery or metabolic demand: oxygen administration, ventilation, haemorrhage control, circulatory support, thermal management, immobilisation and anxiolysis all operate on one side of this relationship. Hypothermia reduces metabolic demand, extending tolerance of hypoxic insult and underlying survival following cold-water submersion."
+        },
+        "eli_new": {
+          "analogy": "Aerobic metabolism is running the engine properly. Anaerobic is running it on the wrong fuel: it keeps going for a while, it produces very little, and it fills the system with something corrosive.",
+          "body": "Acidosis is why shock gets harder to fix the longer it runs. Forty minutes of shock is not ten minutes of shock plus half an hour — the chemistry has changed, and the changes make everything anybody does afterwards work less well. That is the argument for moving."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain aerobic versus anaerobic metabolism and why shock becomes harder to reverse.",
+          "must_hit": [
+            {
+              "point": "Cells need oxygen and glucose to make energy",
+              "accept": [
+                "oxygen",
+                "glucose",
+                "energy",
+                "metabolism",
+                "cell"
+              ]
+            },
+            {
+              "point": "Aerobic is efficient; anaerobic yields far less energy and produces acid",
+              "accept": [
+                "aerobic",
+                "efficient",
+                "anaerobic",
+                "less",
+                "acid",
+                "lactic"
+              ]
+            },
+            {
+              "point": "Anaerobic metabolism buys minutes and is not sustainable",
+              "accept": [
+                "temporar",
+                "minutes",
+                "not sustain",
+                "emergency",
+                "brief"
+              ]
+            },
+            {
+              "point": "Acidosis impairs the heart, the vessels and medications",
+              "accept": [
+                "acidosis",
+                "heart",
+                "contract",
+                "vessel",
+                "medication",
+                "enzyme"
+              ]
+            },
+            {
+              "point": "Shock becomes harder to reverse the longer it runs",
+              "accept": [
+                "harder",
+                "reverse",
+                "longer",
+                "progressive",
+                "refract",
+                "feeds"
+              ]
+            },
+            {
+              "point": "The brain tolerates oxygen shortage worst",
+              "accept": [
+                "brain",
+                "worst",
+                "first",
+                "minutes",
+                "tolerate"
+              ]
+            },
+            {
+              "point": "Everything you do is delivering oxygen or reducing demand",
+              "accept": [
+                "deliver",
+                "demand",
+                "reduce",
+                "oxygen",
+                "both sides"
+              ]
+            },
+            {
+              "point": "Cold reduces demand, which is why it is protective",
+              "accept": [
+                "cold",
+                "protect",
+                "slow",
+                "demand",
+                "hypotherm",
+                "survive"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Forty minutes",
+          "dispatch": "Debrief — delayed extrication, patient in shock throughout.",
+          "body": "Everything done at the hospital was correct and should have worked, and it worked far less well than anybody expected.\n\nHe had been shocked for forty minutes before he moved.\n\nBy then his chemistry had changed, and changed chemistry makes every subsequent intervention less effective. Shock is not a state you can hold at; it deepens."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the description of aerobic and anaerobic metabolism and the consequences of acidosis against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-02",
+      "title": "Perfusion and what determines it",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-06-04",
+        "EMT-04-04-01",
+        "EMT-05-05-04"
+      ],
+      "key_points": [
+        "Perfusion is blood reaching tissue and delivering oxygen — not blood being pumped, and not a pressure reading",
+        "Adequate perfusion needs three things working: a pump that works, enough fluid, and vessels of the right size",
+        "It also needs the blood to be carrying oxygen, which is why carbon monoxide poisoning starves tissue with a full circulation",
+        "Cardiac output is how much the heart moves per minute: stroke volume multiplied by heart rate",
+        "The body compensates for falling output by speeding the heart and narrowing the vessels",
+        "That compensation holds blood pressure up while perfusion is already failing — which is compensated shock",
+        "Capillary refill, skin findings and mental status show perfusion earlier than blood pressure does",
+        "Perfusion can fail globally or in one region — a blocked coronary artery is a local perfusion failure",
+        "The whole of shock management is protecting or restoring perfusion"
+      ],
+      "misconceptions": [
+        "Equating cardiac output with perfusion",
+        "Reading a blood pressure as a perfusion measurement",
+        "Forgetting that blood must be carrying oxygen to be useful",
+        "Waiting for pressure to fall before treating"
+      ],
+      "exam_favorites": [
+        "The three requirements for perfusion",
+        "Cardiac output as stroke volume times rate",
+        "Why compensation hides failing perfusion"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Perfusion is the point of the whole circulatory system: blood arriving at tissue and delivering oxygen. Not blood being pumped. Not a number on a cuff. Arriving, and unloading.\n\nFor that to happen, several things all have to work.\n\nA pump that works. If the heart is not moving blood effectively — damaged muscle, a rhythm that does not fill properly, something pressing on it from outside — perfusion fails whatever else is intact.\n\nEnough fluid. If volume has been lost, there is not enough to deliver even with a perfect pump.\n\nVessels of the right size. The container has to match the contents. Let the vessels dilate too far, as in neurogenic or septic or anaphylactic shock, and the same volume no longer fills the space or maintains pressure.\n\nAnd a fourth that is easy to forget: the blood has to actually be carrying oxygen. This is why carbon monoxide poisoning is so dangerous — the pump works, the volume is normal, the vessels are fine, and the blood arrives everywhere carrying nothing useful. Perfect circulation, starving tissue.\n\nCardiac output is the useful measure of how much the heart moves per minute, and it is simply stroke volume — how much per beat — multiplied by heart rate. Which tells you the two ways the body can raise it: bigger beats or faster ones. Under stress it mostly does the second, which is why a rising pulse is the earliest reliable sign of trouble.\n\nWhen output falls, the body compensates. The heart speeds up. The vessels narrow, particularly in the skin and the gut, to maintain pressure and redirect what is left to the brain and heart.\n\nAnd here is the trap the whole concept exists to explain. That compensation holds the blood pressure up while perfusion is already failing. The number stays normal because the body is working extremely hard to keep it there. Compensated shock is a patient whose blood pressure looks fine and whose tissues are already short.\n\nWhich is why the things that show perfusion earlier are the things you should read first: capillary refill, skin colour and temperature and moisture, and mental status. All three change before the pressure does.\n\nPerfusion can also fail in one place rather than everywhere. A blocked coronary artery is a local perfusion failure; so is a stroke, and so is compartment syndrome. Same principle, smaller territory.",
+          "standard": "Perfusion denotes delivery of oxygenated blood to tissue with unloading of oxygen, distinct from cardiac ejection and from measured arterial pressure. Adequate perfusion requires effective cardiac function, sufficient circulating volume, appropriate vascular calibre, and blood capable of oxygen transport; carbon monoxide toxicity demonstrates the last requirement, producing tissue hypoxia despite intact pump, volume and vasculature. Cardiac output equals stroke volume multiplied by heart rate, permitting augmentation by increased stroke volume or rate; sympathetic compensation predominantly increases rate, rendering tachycardia the earliest reliable indicator. Compensatory mechanisms comprise tachycardia and selective vasoconstriction of cutaneous and splanchnic beds, preserving central perfusion and arterial pressure. Compensation maintains blood pressure despite established perfusion failure, constituting compensated shock. Capillary refill, cutaneous findings and mental status alter prior to blood pressure and are therefore assessed preferentially. Perfusion failure may be global or regional; coronary occlusion, cerebrovascular occlusion and compartment syndrome represent regional failure by identical mechanism. Shock management comprises protection and restoration of perfusion."
+        },
+        "eli_new": {
+          "analogy": "Perfusion is delivery, not dispatch. A parcel that left the warehouse is not a parcel that arrived.",
+          "body": "Carbon monoxide is the clearest illustration of why perfusion is more than circulation. Pump fine, volume fine, vessels fine, blood arriving everywhere on schedule — and carrying nothing. Perfect delivery of an empty parcel."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define perfusion and name everything that has to work for it to happen.",
+          "must_hit": [
+            {
+              "point": "Perfusion is blood reaching tissue and delivering oxygen",
+              "accept": [
+                "reach",
+                "deliver",
+                "tissue",
+                "oxygen",
+                "arriv"
+              ]
+            },
+            {
+              "point": "It needs a working pump, enough fluid and vessels of the right size",
+              "accept": [
+                "pump",
+                "fluid",
+                "volume",
+                "vessel",
+                "size",
+                "container"
+              ]
+            },
+            {
+              "point": "The blood must also be carrying oxygen — carbon monoxide shows why",
+              "accept": [
+                "carry",
+                "oxygen",
+                "carbon monoxide",
+                "hemoglobin",
+                "haemoglobin"
+              ]
+            },
+            {
+              "point": "Cardiac output is stroke volume times heart rate",
+              "accept": [
+                "cardiac output",
+                "stroke volume",
+                "rate",
+                "multipl",
+                "times"
+              ]
+            },
+            {
+              "point": "Compensation is a faster heart and narrower vessels",
+              "accept": [
+                "compensat",
+                "faster",
+                "narrow",
+                "constrict",
+                "redirect"
+              ]
+            },
+            {
+              "point": "Compensation holds the blood pressure up while perfusion already fails",
+              "accept": [
+                "hold",
+                "pressure",
+                "already",
+                "failing",
+                "compensated shock"
+              ]
+            },
+            {
+              "point": "Capillary refill, skin and mental status change before pressure does",
+              "accept": [
+                "capillary",
+                "refill",
+                "skin",
+                "mental",
+                "before",
+                "earlier"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Everything working",
+          "dispatch": "Medic 4 — carbon monoxide exposure, saturations reading 99 percent.",
+          "body": "His heart was fine, his volume was fine, his vessels were fine, and blood was arriving everywhere it should.\n\nIt was carrying almost nothing.\n\nCirculation and perfusion are not the same word. This was perfect circulation with the tissue starving."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the determinants of perfusion and the description of compensation against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-03",
+      "title": "Shock as a perfusion failure",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-04-04-01",
+        "EMT-06-02-05",
+        "EMT-01-07-02"
+      ],
+      "key_points": [
+        "Shock is inadequate perfusion — a definition, not a blood pressure reading",
+        "Every type of shock is one of the three circulatory components failing, plus obstruction",
+        "Hypovolaemic: not enough fluid, from bleeding or from losses such as vomiting, diarrhoea or burns",
+        "Cardiogenic: the pump is failing, usually from damaged heart muscle",
+        "Distributive: the container has enlarged — septic, anaphylactic and neurogenic all belong here",
+        "Obstructive: something mechanically blocks flow, as in tension pneumothorax and cardiac tamponade",
+        "Compensated shock maintains blood pressure by speeding the heart and clamping vessels; decompensated is when that fails",
+        "The stages progress, and the progression is not linear — decompensation happens quickly once it starts",
+        "Children compensate longer and then crash abruptly, so a normal blood pressure in an injured child is not reassurance"
+      ],
+      "misconceptions": [
+        "Defining shock by blood pressure",
+        "Assuming all shock involves blood loss",
+        "Expecting a gradual decline from compensated to decompensated",
+        "Reading a child's normal blood pressure as stability"
+      ],
+      "exam_favorites": [
+        "The four categories and their mechanisms",
+        "Compensated versus decompensated",
+        "Why children crash abruptly"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Shock is inadequate perfusion. That is the whole definition, and it is worth saying that it contains no numbers, because shock is routinely taught as though it were a blood pressure.\n\nThe circulatory system has three parts — pump, container, fluid — so shock sorts into categories by which part has failed, plus one for flow being blocked.\n\nHypovolaemic shock: not enough fluid. Bleeding is the obvious cause, internal or external. But fluid can be lost other ways — prolonged vomiting, severe diarrhoea, large burns weeping plasma, and the osmotic losses of untreated hyperglycaemia. Same category, no blood involved.\n\nCardiogenic shock: the pump is failing. Usually because heart muscle has been damaged, most often by a myocardial infarction. The volume is there and the vessels are fine; nothing is moving it.\n\nDistributive shock: the container has become too large for its contents. Nothing has been lost — the space has grown. Three kinds belong here. Septic, where infection causes widespread vasodilation. Anaphylactic, where the allergic response does. And neurogenic, where the nerves that keep vessels constricted have been cut.\n\nObstructive shock: something mechanically blocks the flow. A tension pneumothorax kinking the great veins. Cardiac tamponade squeezing the heart so it cannot fill. Pump, container and fluid are all fine, and something is physically in the way.\n\nThen the stages, which matter more for what you do.\n\nCompensated shock: the body is winning, at cost. The heart speeds up, vessels clamp down, blood is redirected to the brain and the heart. Blood pressure stays normal. The patient is tachycardic, pale, cool, clammy and anxious. This is the stage where recognition matters, and the stage that gets missed because the number looks fine.\n\nDecompensated shock: the compensation fails. Blood pressure falls, mental status declines, and the patient deteriorates quickly.\n\nAnd the thing to understand about the transition: it is not a gradual slope. Compensation holds and holds and then gives way, fairly suddenly, because it is a system operating at its limit rather than a dial being slowly turned. A patient does not drift gently from one stage to the other.\n\nThis matters most in children. They compensate extremely well — better than adults — and hold a normal blood pressure far longer. Then they decompensate very abruptly, with little warning. A normal blood pressure in a seriously injured child is close to meaningless as reassurance, and the findings worth reading are the pulse, the capillary refill, the skin and the mental status.",
+          "standard": "Shock denotes inadequate tissue perfusion, a definition independent of blood pressure measurement. Classification follows the component of the circulatory system that has failed. Hypovolaemic shock results from inadequate circulating volume, from haemorrhage or from non-haemorrhagic losses including emesis, diarrhoea, burn exudate and osmotic diuresis in hyperglycaemia. Cardiogenic shock results from pump failure, most commonly following myocardial infarction. Distributive shock results from increased vascular capacitance without volume loss, comprising septic, anaphylactic and neurogenic aetiologies. Obstructive shock results from mechanical impedance to flow, as in tension pneumothorax and cardiac tamponade. Compensated shock maintains arterial pressure through tachycardia and selective vasoconstriction, presenting with tachycardia, pallor, cool clammy skin and anxiety with preserved blood pressure; recognition at this stage is the objective, and normotension is the principal reason for missed recognition. Decompensated shock follows failure of compensation, with hypotension and declining mental status. Transition between stages is abrupt rather than progressive, reflecting a system operating at its physiological limit. Paediatric patients compensate more effectively and for longer before decompensating abruptly; normotension in a seriously injured child carries minimal reassurance value, and assessment relies on pulse, capillary refill, cutaneous findings and mental status."
+        },
+        "eli_new": {
+          "analogy": "Compensation is not a dial being turned down slowly. It is somebody holding a door shut against pressure — it holds, and holds, and then it does not.",
+          "body": "The transition is the part to understand. Patients do not slide gradually from compensated into decompensated shock; the compensation holds until it cannot, and then things move fast. That is why you act on the compensated picture rather than waiting to see what happens."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define shock, name the four categories, and explain the two stages.",
+          "must_hit": [
+            {
+              "point": "Shock is inadequate perfusion, not a blood pressure",
+              "accept": [
+                "inadequate",
+                "perfusion",
+                "not",
+                "pressure",
+                "definition"
+              ]
+            },
+            {
+              "point": "Hypovolaemic: not enough fluid, from bleeding or other losses",
+              "accept": [
+                "hypovol",
+                "fluid",
+                "bleed",
+                "vomit",
+                "diarrh",
+                "burn"
+              ]
+            },
+            {
+              "point": "Cardiogenic: the pump is failing",
+              "accept": [
+                "cardiogenic",
+                "pump",
+                "heart muscle",
+                "infarct"
+              ]
+            },
+            {
+              "point": "Distributive: the container has enlarged — septic, anaphylactic, neurogenic",
+              "accept": [
+                "distributive",
+                "container",
+                "septic",
+                "anaphylactic",
+                "neurogenic",
+                "dilat"
+              ]
+            },
+            {
+              "point": "Obstructive: flow is mechanically blocked",
+              "accept": [
+                "obstructive",
+                "block",
+                "tension",
+                "tamponade",
+                "mechanic"
+              ]
+            },
+            {
+              "point": "Compensated holds pressure by speeding the heart and clamping vessels",
+              "accept": [
+                "compensat",
+                "fast",
+                "clamp",
+                "pressure",
+                "normal"
+              ]
+            },
+            {
+              "point": "Decompensated is when compensation fails, and the transition is abrupt",
+              "accept": [
+                "decompensat",
+                "fail",
+                "abrupt",
+                "sudden",
+                "not gradual"
+              ]
+            },
+            {
+              "point": "Children compensate longer then crash abruptly",
+              "accept": [
+                "child",
+                "longer",
+                "crash",
+                "abrupt",
+                "normal",
+                "reassur"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Holding the door",
+          "dispatch": "Medic 2 — injured child, all observations within normal range.",
+          "body": "Every number on the chart was normal for her age, repeatedly, for about twenty minutes.\n\nHer capillary refill was slow the whole time and nobody weighted it against the numbers.\n\nChildren hold the door shut longer than adults do, and when it goes, it goes all at once."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Compensated shock",
+          "right_label": "Decompensated shock",
+          "rows": [
+            {
+              "feature": "Blood pressure",
+              "left": "NORMAL — held up by effort",
+              "right": "Falling or low"
+            },
+            {
+              "feature": "Pulse",
+              "left": "Fast",
+              "right": "Fast and weak, then slow and agonal"
+            },
+            {
+              "feature": "Skin",
+              "left": "Pale, cool, clammy",
+              "right": "Mottled, cold, very clammy"
+            },
+            {
+              "feature": "Mental status",
+              "left": "Anxious, restless",
+              "right": "Confused → drowsy → unresponsive"
+            },
+            {
+              "feature": "Capillary refill",
+              "left": "Delayed",
+              "right": "Markedly delayed"
+            },
+            {
+              "feature": "What it means",
+              "left": "The body is winning, at cost",
+              "right": "Compensation has failed"
+            },
+            {
+              "feature": "Your window",
+              "left": "THIS IS WHERE YOU ACT",
+              "right": "You are already behind"
+            },
+            {
+              "feature": "The transition",
+              "left": "Holds and holds…",
+              "right": "…and then goes, quickly. Not a gradual slope."
+            },
+            {
+              "feature": "Children",
+              "left": "Hold this stage LONGER than adults",
+              "right": "Enter it very abruptly, with little warning"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the shock classification and stage descriptions against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-04",
+      "title": "Respiratory failure basics",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-05-01",
+        "EMT-01-06-03",
+        "EMT-02-04-01"
+      ],
+      "key_points": [
+        "Respiratory distress is working hard to breathe; respiratory failure is working hard and no longer succeeding",
+        "Distress can be sustained for a while; failure cannot, and arrest follows",
+        "Signs of distress: fast breathing, accessory muscle use, tripod position, nasal flaring, retractions, inability to speak in full sentences",
+        "Signs that failure is arriving: exhaustion, a falling respiratory rate in a patient who was fast, decreasing effort, and altered mental status",
+        "A tiring patient whose rate slows is not improving — they are running out, and it is an ominous sign",
+        "Restlessness and anxiety are early hypoxia; drowsiness and confusion are late",
+        "Cyanosis is a very late sign and its absence proves nothing",
+        "Failure can be a ventilation problem, an oxygenation problem, or both, and they need different things",
+        "The intervention for failing ventilation is assisted ventilation, not more oxygen through a mask"
+      ],
+      "misconceptions": [
+        "Reading a falling respiratory rate as improvement",
+        "Waiting for cyanosis before acting",
+        "Giving more oxygen to a patient whose problem is inadequate ventilation",
+        "Mistaking early hypoxic restlessness for anxiety"
+      ],
+      "exam_favorites": [
+        "Distress versus failure",
+        "Why a slowing rate is ominous",
+        "Restlessness as early hypoxia"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two words that describe very different situations.\n\nRespiratory distress is a patient working hard to breathe and managing it. The work is visible and the gas exchange is still adequate. It is uncomfortable, it is unsustainable indefinitely, and it is survivable.\n\nRespiratory failure is working hard and no longer succeeding. Gas exchange has become inadequate, and what follows failure is arrest.\n\nThe signs of distress are the ones people picture. Breathing fast. Using accessory muscles — neck and shoulders — to drag air in. Sitting forward on braced arms in the tripod position. Nasal flaring, particularly in children. Retractions, where the skin pulls in between and below the ribs. Unable to say a full sentence without stopping for breath — and counting how many words somebody manages is one of the quickest assessments there is.\n\nThe signs of failure arriving are different in character, and this is the part that matters most.\n\nExhaustion. The work of breathing is physically hard, and a patient cannot sustain it indefinitely. Watch for effort decreasing not because the problem is resolving but because the muscles are giving out.\n\nA falling respiratory rate in a patient who was breathing fast. This is the one to be absolutely clear about. If somebody has been breathing at 36 for twenty minutes and is now at 20, that is not improvement unless everything else has improved too. Read on its own, it means they are running out. It is one of the most ominous findings in respiratory assessment and it is routinely recorded as progress.\n\nAltered mental status. Restlessness and anxiety come early in hypoxia — a hypoxic brain is an agitated brain. Drowsiness and confusion come late, and a patient who has gone quiet and sleepy after being agitated has deteriorated, not settled.\n\nCyanosis is very late. Useful when you see it and never something to wait for; plenty of patients arrest without ever turning visibly blue.\n\nAnd one distinction that changes your hands. Failure can be a ventilation problem — not moving enough air — or an oxygenation problem — moving air that is not loading oxygen — or both. They need different things. Oxygen through a mask helps an oxygenation problem. It does very little for a patient who is not moving enough air, and the intervention there is assisted ventilation with a bag-valve mask. Turning the oxygen up on a patient whose ventilation is failing is a common and costly substitution.",
+          "standard": "Respiratory distress denotes increased work of breathing with maintained adequacy of gas exchange; respiratory failure denotes inadequate gas exchange despite effort, with respiratory arrest as the subsequent state. Distress is characterised by tachypnoea, accessory muscle recruitment, tripod positioning, nasal flaring, intercostal and subcostal retraction, and reduced sentence length, the last providing rapid quantifiable assessment. Indicators of impending failure comprise exhaustion with declining effort from muscular fatigue rather than resolution, falling respiratory rate in a previously tachypnoeic patient, and altered mental status. A decreasing rate absent other improvement indicates decompensation and constitutes an ominous finding frequently misinterpreted as progress. Hypoxia produces restlessness and anxiety early, with somnolence and confusion late; transition from agitation to somnolence represents deterioration. Cyanosis is a late finding and its absence carries no exclusionary value. Failure may be ventilatory, oxygenatory, or combined, requiring different intervention: supplemental oxygen addresses oxygenation failure, whereas ventilatory failure requires assisted ventilation with a bag-valve mask; increasing oxygen delivery in ventilatory failure constitutes an ineffective substitution."
+        },
+        "eli_new": {
+          "analogy": "Distress is somebody sprinting. Failure is somebody sprinting who has stopped getting anywhere, and arrest is when they stop running.",
+          "body": "A slowing respiratory rate in someone who was breathing fast is one of the most dangerous findings there is, and it looks like good news on a chart. Unless everything else improved too, they are not settling. They are running out."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Distinguish respiratory distress from failure, and name the signs that failure is arriving.",
+          "must_hit": [
+            {
+              "point": "Distress is working hard and managing; failure is working hard and not succeeding",
+              "accept": [
+                "distress",
+                "failure",
+                "managing",
+                "succeed",
+                "adequate",
+                "inadequate"
+              ]
+            },
+            {
+              "point": "Distress: fast rate, accessory muscles, tripod, flaring, retractions, short sentences",
+              "accept": [
+                "fast",
+                "accessory",
+                "tripod",
+                "flaring",
+                "retraction",
+                "sentence"
+              ]
+            },
+            {
+              "point": "Failure arriving: exhaustion and decreasing effort",
+              "accept": [
+                "exhaust",
+                "tir",
+                "effort",
+                "decreas",
+                "fatigue"
+              ]
+            },
+            {
+              "point": "A falling rate in a previously fast patient is ominous, not improvement",
+              "accept": [
+                "falling",
+                "slow",
+                "rate",
+                "ominous",
+                "not improv",
+                "running out"
+              ]
+            },
+            {
+              "point": "Restlessness is early hypoxia; drowsiness and confusion are late",
+              "accept": [
+                "restless",
+                "anxious",
+                "early",
+                "drowsy",
+                "confus",
+                "late"
+              ]
+            },
+            {
+              "point": "Cyanosis is very late and its absence proves nothing",
+              "accept": [
+                "cyanosis",
+                "late",
+                "absence",
+                "blue",
+                "nothing"
+              ]
+            },
+            {
+              "point": "Ventilation failure needs assisted ventilation, not more oxygen",
+              "accept": [
+                "ventilat",
+                "assist",
+                "bag",
+                "oxygen",
+                "mask",
+                "not"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Down to twenty",
+          "dispatch": "Medic 5 — severe asthma, rate 36 on arrival, 20 twenty minutes later.",
+          "body": "The second set of observations looked better than the first and somebody said so.\n\nNothing else had improved. He was quieter because he had less left, not because the asthma had eased.\n\nA falling rate in a patient who was fast is the sound of somebody running out, and it reads like progress on a chart."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Respiratory distress",
+          "right_label": "Respiratory failure arriving",
+          "rows": [
+            {
+              "feature": "What is happening",
+              "left": "Working hard AND managing",
+              "right": "Working hard and NO LONGER SUCCEEDING"
+            },
+            {
+              "feature": "Respiratory rate",
+              "left": "FAST",
+              "right": "FALLING, in a patient who was fast — ominous"
+            },
+            {
+              "feature": "Effort",
+              "left": "Visibly increased — accessory muscles, retractions, tripod",
+              "right": "DECREASING — because the muscles are giving out"
+            },
+            {
+              "feature": "Speech",
+              "left": "Short sentences, a few words at a time",
+              "right": "Unable to speak"
+            },
+            {
+              "feature": "Mental status",
+              "left": "Anxious, restless — EARLY hypoxia",
+              "right": "Drowsy, confused — LATE hypoxia"
+            },
+            {
+              "feature": "Cyanosis",
+              "left": "Usually absent",
+              "right": "May appear — very late, and absence proves nothing"
+            },
+            {
+              "feature": "What it looks like on a chart",
+              "left": "Obviously unwell",
+              "right": "DECEPTIVELY BETTER — slower rate, less effort, quieter"
+            },
+            {
+              "feature": "Your intervention",
+              "left": "Oxygen, position, treat the cause",
+              "right": "ASSISTED VENTILATION — not more oxygen through a mask"
+            },
+            {
+              "feature": "What follows",
+              "left": "Can be sustained for a while",
+              "right": "Arrest"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the distinction between respiratory distress and failure, and the described signs, against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-07-05",
+      "title": "Acid–base basics at EMT level",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-03-03",
+        "EMT-01-07-01",
+        "EMT-01-07-04"
+      ],
+      "key_points": [
+        "The body keeps its acidity within a narrow range, and outside it, enzymes and organs stop working properly",
+        "Carbon dioxide behaves as an acid in the blood: more of it means more acidic, less means more alkaline",
+        "Breathing is therefore an acid control system as well as an oxygen one — breathe more, blow off acid",
+        "Respiratory acidosis: not breathing enough, so carbon dioxide builds up — the patient in respiratory failure",
+        "Respiratory alkalosis: breathing too much, blowing off too much carbon dioxide — the hyperventilating patient",
+        "Metabolic acidosis: acid produced or retained by the body — shock, diabetic ketoacidosis, kidney failure, prolonged seizures",
+        "Metabolic alkalosis: acid lost, most often through prolonged vomiting",
+        "The body compensates across systems: a metabolic acidosis is answered by breathing faster and deeper",
+        "Kussmaul respirations in ketoacidosis are exactly that compensation, which is why you support them and never suppress them"
+      ],
+      "misconceptions": [
+        "Treating deep rapid breathing in DKA as a respiratory problem to be slowed",
+        "Assuming hyperventilation is always anxiety",
+        "Forgetting that shock produces a metabolic acidosis"
+      ],
+      "exam_favorites": [
+        "Carbon dioxide as an acid",
+        "The four categories",
+        "Why Kussmaul breathing must not be suppressed"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The body keeps its acidity inside a narrow band. Outside that band, enzymes stop working properly, the heart contracts less well, and vessels respond less reliably. It is one of the tightly defended variables, and knowing a little about it explains several things you will see.\n\nStart with the fact that makes it usable: carbon dioxide behaves as an acid in the blood. More carbon dioxide means more acidic. Less means more alkaline.\n\nWhich means breathing is an acid control system as well as an oxygen delivery system. Breathe more and you blow off carbon dioxide and become less acidic. Breathe less and it accumulates.\n\nThat gives four categories.\n\nRespiratory acidosis: not breathing enough, so carbon dioxide builds up and the blood becomes acidic. This is the patient in respiratory failure, the patient with an opioid overdose, the patient who is tiring.\n\nRespiratory alkalosis: breathing too much, blowing off too much carbon dioxide. The hyperventilating patient — and worth remembering that hyperventilation has plenty of causes besides anxiety, including pain, fever, and a metabolic acidosis being compensated for.\n\nMetabolic acidosis: acid produced or retained by the body itself. Shock, where tissues are working anaerobically and producing acid. Diabetic ketoacidosis, where fat is being burned. Kidney failure, where acid is not excreted. Prolonged seizures, where muscle produces it in quantity.\n\nMetabolic alkalosis: acid lost from the body, most often through prolonged vomiting, which removes stomach acid.\n\nNow the part that matters at the bedside: the systems compensate for each other. If the problem is metabolic acidosis, the lungs answer it — breathing faster and deeper to blow off carbon dioxide and offset the acid.\n\nWhich brings us to the practical point of this whole concept. The deep, rapid, sighing Kussmaul respirations of diabetic ketoacidosis are exactly that compensation. That patient is breathing like that because it is the only thing holding their blood chemistry together.\n\nSo you support that breathing. You never try to slow it down, never coach them to breathe more slowly, and never treat it as a primary respiratory problem. Suppressing the compensation removes the only defence they have, and it is a genuinely harmful intervention that looks helpful.\n\nThe same logic applies more broadly: when breathing is abnormal, ask whether it is the problem or the answer to a problem. Those two need opposite responses.",
+          "standard": "Physiological function requires maintenance of arterial pH within a narrow range; deviation impairs enzymatic activity, myocardial contractility and vascular responsiveness. Carbon dioxide functions as an acid in solution, with hypercapnia producing acidosis and hypocapnia alkalosis; ventilation therefore constitutes an acid-base regulatory mechanism in addition to oxygen delivery. Respiratory acidosis results from hypoventilation with carbon dioxide retention, as in respiratory failure, opioid toxicity and respiratory muscle fatigue. Respiratory alkalosis results from hyperventilation with excessive carbon dioxide elimination; hyperventilation has multiple aetiologies including pain, pyrexia and compensation for metabolic acidosis, and is not attributable to anxiety by default. Metabolic acidosis results from endogenous acid production or retention, as in shock with anaerobic metabolism, diabetic ketoacidosis, renal failure and prolonged seizure activity. Metabolic alkalosis results from acid loss, most commonly through protracted emesis. Cross-system compensation occurs: metabolic acidosis provokes increased ventilatory rate and depth to eliminate carbon dioxide. Kussmaul respirations in ketoacidosis represent this compensation; ventilatory support is indicated while suppression is contraindicated, as it removes the sole compensatory mechanism. Abnormal respiratory patterns require determination of whether they represent the primary disorder or its compensation, as management differs accordingly."
+        },
+        "eli_new": {
+          "analogy": "Carbon dioxide is an acid you can breathe away. Which makes the lungs the fastest acid control the body has, and the reason a patient in ketoacidosis breathes like that.",
+          "body": "When you find abnormal breathing, ask one question: is this the problem, or the answer to a problem? Kussmaul respirations in DKA are the answer, and slowing them down removes the only thing keeping that patient's chemistry survivable."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how carbon dioxide relates to acidity and why Kussmaul respirations must not be suppressed.",
+          "must_hit": [
+            {
+              "point": "The body keeps acidity in a narrow range or things stop working",
+              "accept": [
+                "narrow",
+                "range",
+                "ph",
+                "enzyme",
+                "stop working"
+              ]
+            },
+            {
+              "point": "Carbon dioxide behaves as an acid — more means more acidic",
+              "accept": [
+                "carbon dioxide",
+                "co2",
+                "acid",
+                "more",
+                "less"
+              ]
+            },
+            {
+              "point": "Breathing is an acid control system as well as an oxygen one",
+              "accept": [
+                "breath",
+                "control",
+                "blow off",
+                "acid",
+                "lungs"
+              ]
+            },
+            {
+              "point": "Respiratory acidosis is not breathing enough; alkalosis is breathing too much",
+              "accept": [
+                "respiratory",
+                "acidosis",
+                "alkalosis",
+                "hypoventilat",
+                "hyperventilat"
+              ]
+            },
+            {
+              "point": "Metabolic acidosis comes from shock, DKA, kidney failure and seizures",
+              "accept": [
+                "metabolic",
+                "shock",
+                "ketoacidosis",
+                "kidney",
+                "seizure"
+              ]
+            },
+            {
+              "point": "The systems compensate for each other",
+              "accept": [
+                "compensat",
+                "offset",
+                "answer",
+                "other system"
+              ]
+            },
+            {
+              "point": "Kussmaul breathing is compensation and must be supported, not slowed",
+              "accept": [
+                "kussmaul",
+                "compensat",
+                "support",
+                "slow",
+                "suppress",
+                "never"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Slow your breathing down",
+          "dispatch": "Medic 9 — young adult, deep rapid breathing, initially treated as hyperventilation.",
+          "body": "The breathing pattern looked like anxiety and somebody began coaching him to slow it down, which is a reasonable thing to try.\n\nHis breath smelled faintly sweet and his mouth was parched.\n\nThat breathing was the only thing keeping his blood from turning to acid, and slowing it down was taking away the only defence he had."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Carbon dioxide in the blood",
+            "value": "behaves as an ACID",
+            "note": "More CO2 = more acidic. Less = more alkaline. Which makes breathing an acid control system."
+          },
+          {
+            "label": "RESPIRATORY ACIDOSIS",
+            "value": "not breathing enough",
+            "note": "CO2 builds up. Respiratory failure, opioid overdose, a tiring patient."
+          },
+          {
+            "label": "RESPIRATORY ALKALOSIS",
+            "value": "breathing too much",
+            "note": "Too much CO2 blown off. Not always anxiety — pain, fever, and compensation for acidosis all do it."
+          },
+          {
+            "label": "METABOLIC ACIDOSIS",
+            "value": "acid made or retained",
+            "note": "Shock (anaerobic metabolism), diabetic ketoacidosis, kidney failure, prolonged seizures."
+          },
+          {
+            "label": "METABOLIC ALKALOSIS",
+            "value": "acid lost",
+            "note": "Most often prolonged vomiting, which removes stomach acid."
+          },
+          {
+            "label": "Kussmaul respirations in DKA",
+            "value": "COMPENSATION, not the problem",
+            "note": "SUPPORT them. Never slow them. Suppressing it removes the only defence the patient has."
+          },
+          {
+            "label": "The question to ask about abnormal breathing",
+            "value": "problem, or answer to a problem?",
+            "note": "Those two need opposite responses."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the acid-base categories and compensation descriptions against the current text. No blood gas values or pH thresholds are stated, as these are not field measurements."
     }
   ]
 }
