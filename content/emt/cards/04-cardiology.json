@@ -363,7 +363,7 @@
         "summary": "Assisting, not administering"
       },
       "back": {
-        "body": "Patient's OWN prescription, per protocol, usually with medical direction · Six rights every time · ASPIRIN: reduces clot formation, CHEWED not swallowed so it works sooner; withhold for allergy and per protocol for active bleeding · NITROGLYCERIN: dilates vessels, reduces workload; BLOOD PRESSURE BEFORE AND AFTER EVERY DOSE · ASK EVERY PATIENT about erectile dysfunction medication — privately — the combination can be fatal",
+        "body": "Patient's OWN prescription, per protocol, usually with medical direction · Six rights every time · ASPIRIN: reduces clot formation, CHEWED not swallowed so it works sooner; withhold for allergy and per protocol for active bleeding · NITROGLYCERIN: dilates vessels, reduces workload; BLOOD PRESSURE BEFORE AND AFTER EVERY DOSE, withhold below 90 mmHg systolic or per protocol · NOT with a head injury · MAX 3 doses per protocol · ASK EVERY PATIENT about erectile dysfunction medication in the last 24–48 h — privately — the combination can be fatal",
         "why_it_matters": "Seventy-two years old with his daughter in the house is exactly the patient nobody asks."
       },
       "high_yield": true,
@@ -376,7 +376,7 @@
         "module_name": "Cardiology"
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-08. Check every figure on this card against the source before it is printed or drilled."
+      "verify_notes": "Contraindication figures (systolic below 90 mmHg, erectile dysfunction medication within the prior 24 to 48 hours, head injury, maximum three doses) were supplied from standard curriculum and MUST be checked against AAOS Emergency Care 12e and local protocol before this card is printed or drilled. Every one is a protocol-set number and local protocol overrides."
     },
     {
       "schema_version": "1.0.0",
@@ -388,7 +388,7 @@
         "summary": "Critical steps and the common fails"
       },
       "back": {
-        "body": "See the skill card steps. Critical: protocol or medical direction, confirm it is this patient's prescription and in date, ASK about erectile dysfunction medication privately, blood pressure before AND after, six rights, reassess and document.",
+        "body": "See the skill card steps. Critical: protocol or medical direction, confirm it is this patient's prescription and in date, rule out head injury, ASK about erectile dysfunction medication in the last 24–48 h privately, blood pressure before AND after (withhold below 90 mmHg systolic or per protocol), six rights, stop at three doses, reassess and document.",
         "why_it_matters": "Skipping the awkward question and skipping the pre-dose pressure are the two fails that hurt patients."
       },
       "high_yield": false,
@@ -401,7 +401,32 @@
         "module_name": "Cardiology"
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-08. Check every figure on this card against the source before it is printed or drilled."
+      "verify_notes": "Contraindication figures (systolic below 90 mmHg, erectile dysfunction medication within the prior 24 to 48 hours, head injury, maximum three doses) were supplied from standard curriculum and MUST be checked against AAOS Emergency Care 12e and local protocol before this card is printed or drilled. Every one is a protocol-set number and local protocol overrides."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-C12",
+      "concept_id": "EMT-04-02-08",
+      "type": "numbers",
+      "front": {
+        "title": "Nitroglycerin: the numbers",
+        "summary": "Every figure here is protocol-set"
+      },
+      "back": {
+        "body": "Minimum systolic to assist: 90 mmHg (or your protocol's higher floor) · Erectile dysfunction medication window: 24 to 48 hours depending on the drug — anything inside it is a contraindication · Head injury: contraindicated · Maximum assisted doses: 3, per protocol · Blood pressures per dose: 2, one before and one after",
+        "why_it_matters": "These are the figures a protocol sets and an exam asks for. Confirm yours before you need them."
+      },
+      "high_yield": true,
+      "number": 17,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Contraindication figures (systolic below 90 mmHg, erectile dysfunction medication within the prior 24 to 48 hours, head injury, maximum three doses) were supplied from standard curriculum and MUST be checked against AAOS Emergency Care 12e and local protocol before this card is printed or drilled. Every one is a protocol-set number and local protocol overrides."
     },
     {
       "schema_version": "1.0.0",
@@ -417,7 +442,7 @@
         "why_it_matters": "A patient who got compressions from a stranger in a minute has a different outcome from one who waited eight for you."
       },
       "high_yield": true,
-      "number": 17,
+      "number": 18,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -442,7 +467,7 @@
         "why_it_matters": "Recoil is the one people get wrong without knowing it. Leaning feels like commitment and is not."
       },
       "high_yield": true,
-      "number": 18,
+      "number": 19,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -467,7 +492,7 @@
         "why_it_matters": "Every one of these is revised between guideline editions — confirm against the edition your course uses."
       },
       "high_yield": true,
-      "number": 19,
+      "number": 20,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -492,7 +517,7 @@
         "why_it_matters": "Agonal gasps are not breathing, and leaning is not compressing."
       },
       "high_yield": false,
-      "number": 20,
+      "number": 21,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -517,7 +542,7 @@
         "why_it_matters": "Children arrest from breathing, not from the heart. The ratio change is that fact written down."
       },
       "high_yield": true,
-      "number": 21,
+      "number": 22,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -542,7 +567,7 @@
         "why_it_matters": "15:2 is the single most commonly missed number in paediatric resuscitation."
       },
       "high_yield": true,
-      "number": 22,
+      "number": 23,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -567,7 +592,7 @@
         "why_it_matters": "Everything except the rate and the single-rescuer ratio changes between them."
       },
       "high_yield": false,
-      "number": 23,
+      "number": 24,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -592,7 +617,7 @@
         "why_it_matters": "Announcing clear without looking is how a family member gets shocked."
       },
       "high_yield": true,
-      "number": 24,
+      "number": 25,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -617,7 +642,7 @@
         "why_it_matters": "The two fails are a delayed pad and a pause after the shock."
       },
       "high_yield": false,
-      "number": 25,
+      "number": 26,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -642,7 +667,7 @@
         "why_it_matters": "A pit crew does not decide who changes the tyre when the car pulls in."
       },
       "high_yield": false,
-      "number": 26,
+      "number": 27,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -667,7 +692,7 @@
         "why_it_matters": "A person is excellent for two minutes. That is the whole argument."
       },
       "high_yield": false,
-      "number": 27,
+      "number": 28,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -692,7 +717,7 @@
         "why_it_matters": "The moment the pulse returns, relief floods the room and discipline drops — which is exactly when they re-arrest."
       },
       "high_yield": true,
-      "number": 28,
+      "number": 29,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -717,7 +742,7 @@
         "why_it_matters": "Certainty from a relative is not documentation. If in doubt, your hands go on the chest."
       },
       "high_yield": true,
-      "number": 29,
+      "number": 30,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -742,7 +767,7 @@
         "why_it_matters": "The risk is hunting for the special part and forgetting the ordinary part."
       },
       "high_yield": true,
-      "number": 30,
+      "number": 31,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -767,7 +792,7 @@
         "why_it_matters": "The early signs are the body fighting. The late signs are the body losing."
       },
       "high_yield": true,
-      "number": 31,
+      "number": 32,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -792,7 +817,7 @@
         "why_it_matters": "Waiting for the pressure to drop means waiting until the body has already been overrun."
       },
       "high_yield": false,
-      "number": 32,
+      "number": 33,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -817,7 +842,7 @@
         "why_it_matters": "A patient can bleed to death internally while looking, at first glance, largely intact."
       },
       "high_yield": true,
-      "number": 33,
+      "number": 34,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -842,7 +867,7 @@
         "why_it_matters": "Same shocked patient, opposite neck. That look decides whether fluid is medicine or poison."
       },
       "high_yield": true,
-      "number": 34,
+      "number": 35,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -867,7 +892,7 @@
         "why_it_matters": "A shocked patient who is not tachycardic should make you think neurogenic."
       },
       "high_yield": true,
-      "number": 35,
+      "number": 36,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -892,7 +917,7 @@
         "why_it_matters": "If you only learn one exception in shock, learn this one."
       },
       "high_yield": true,
-      "number": 36,
+      "number": 37,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -917,7 +942,7 @@
         "why_it_matters": "Full neck veins in a deteriorating chest trauma patient puts tension pneumothorax at the top of the list."
       },
       "high_yield": true,
-      "number": 37,
+      "number": 38,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -942,7 +967,7 @@
         "why_it_matters": "The neck is the observation most often skipped and the one that sorts the categories."
       },
       "high_yield": true,
-      "number": 38,
+      "number": 39,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -967,7 +992,7 @@
         "why_it_matters": "Two seconds at the neck changes the treatment."
       },
       "high_yield": true,
-      "number": 39,
+      "number": 40,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -992,7 +1017,7 @@
         "why_it_matters": "Almost nothing that fixes shock happens in the back of an ambulance. Recognition, bleeding, warmth and time are what you control."
       },
       "high_yield": true,
-      "number": 40,
+      "number": 41,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1017,7 +1042,7 @@
         "why_it_matters": "The neglected step is warmth, and the consequence does not show on a monitor until much later."
       },
       "high_yield": false,
-      "number": 41,
+      "number": 42,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",

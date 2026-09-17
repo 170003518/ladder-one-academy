@@ -1547,24 +1547,31 @@
         "Aspirin is chewed rather than swallowed whole so it acts faster",
         "Nitroglycerin dilates blood vessels and reduces the heart's workload, and is assisted with the patient's own prescribed medication",
         "Nitroglycerin can drop blood pressure sharply, so a blood pressure is checked before and after every dose",
-        "Nitroglycerin is contraindicated where the patient has recently taken erectile dysfunction medication, because the combination can cause a catastrophic fall in pressure",
+        "Nitroglycerin is withheld if the systolic blood pressure is below 90 mmHg, or below whatever threshold local protocol sets",
+        "Nitroglycerin is withheld where there is a head injury, because vasodilation can worsen bleeding and raise intracranial pressure",
+        "Nitroglycerin is contraindicated where the patient has taken an erectile dysfunction medication in the prior 24 to 48 hours depending on the drug, because the combination can cause a catastrophic fall in pressure",
+        "A maximum of three doses is assisted with, per protocol, with a blood pressure between each one",
         "Always run the six rights before assisting"
       ],
       "misconceptions": [
         "Assisting with nitroglycerin without checking a blood pressure first",
         "Failing to ask about erectile dysfunction medication because it feels awkward",
         "Assisting with medication prescribed to somebody else",
-        "Giving aspirin to swallow whole"
+        "Giving aspirin to swallow whole",
+        "Assisting with nitroglycerin in a patient with a head injury",
+        "Continuing past three doses because the pain has not gone"
       ],
       "exam_favorites": [
         "Why aspirin is chewed",
         "Blood pressure before and after nitroglycerin",
-        "The erectile dysfunction medication interaction"
+        "The erectile dysfunction medication interaction",
+        "The systolic threshold below which nitroglycerin is withheld",
+        "The maximum number of assisted doses"
       ],
       "modes": {
         "read": {
-          "plain": "Two medications an EMT may assist with in a cardiac call. Neither is carried and administered on your own authority: you are helping a patient take something, within protocol and usually after speaking to medical direction.\n\nAspirin is given because it makes platelets less likely to clump, which matters when the problem is a clot forming in a coronary artery. The practical detail is that it is chewed rather than swallowed, because chewing gets it working sooner. You withhold it for a known allergy, and per your protocol where there is active bleeding or a bleeding disorder.\n\nNitroglycerin relaxes blood vessels. That reduces how hard the heart has to work and can relieve the pain of angina. You are assisting with the patient's own prescription.\n\nAnd it has a consequence that dictates the whole procedure: it can drop blood pressure sharply. So you take a blood pressure before every dose and after every dose, and you follow the thresholds in your protocol about when not to give it.\n\nThere is one interaction that has to be asked about explicitly. Erectile dysfunction medications work in a related way, and taken together with nitroglycerin they can produce a catastrophic and sometimes fatal fall in blood pressure. This question is awkward and it is not optional. Ask it directly, ask it out of earshot of family, and ask it of every patient, regardless of age or who is in the room.\n\nAnd run the six rights before assisting with either.",
-          "standard": "Aspirin and nitroglycerin are administered at EMT level by assisting the patient, under protocol and commonly with online medical direction. Aspirin exerts antiplatelet effect and is indicated in suspected acute coronary syndrome; it is chewed rather than swallowed to accelerate absorption. Contraindications include known hypersensitivity and, per protocol, active haemorrhage or bleeding disorder. Nitroglycerin produces vasodilation, reducing myocardial workload and relieving anginal pain, and is assisted using the patient's own prescribed supply. Because nitroglycerin may produce marked hypotension, blood pressure is measured before and after each dose and protocol thresholds observed. Concurrent use of phosphodiesterase inhibitors prescribed for erectile dysfunction constitutes a contraindication, as the combination may precipitate profound and potentially fatal hypotension; this history must be elicited directly, privately and from every patient irrespective of age. The six rights are verified prior to assisting with either medication."
+          "plain": "Two medications an EMT may assist with in a cardiac call. Neither is carried and administered on your own authority: you are helping a patient take something, within protocol and usually after speaking to medical direction.\n\nAspirin is given because it makes platelets less likely to clump, which matters when the problem is a clot forming in a coronary artery. The practical detail is that it is chewed rather than swallowed, because chewing gets it working sooner. You withhold it for a known allergy, and per your protocol where there is active bleeding or a bleeding disorder.\n\nNitroglycerin relaxes blood vessels. That reduces how hard the heart has to work and can relieve the pain of angina. You are assisting with the patient's own prescription.\n\nAnd it has a consequence that dictates the whole procedure: it can drop blood pressure sharply. So you take a blood pressure before every dose and after every dose. The usual floor is a systolic below 90 mmHg — below that you do not assist — but that is a protocol number and yours may be higher. You assist with a maximum of three doses, with a pressure between each one.\n\nA head injury is also a contraindication. Nitroglycerin widens vessels, and in a head-injured patient that can make bleeding worse and raise the pressure inside the skull.\n\nThere is one interaction that has to be asked about explicitly. Erectile dysfunction medications work in a related way, and taken together with nitroglycerin they can produce a catastrophic and sometimes fatal fall in blood pressure. The window is the prior 24 to 48 hours depending on which drug it was, so \"yesterday\" is still a yes. This question is awkward and it is not optional. Ask it directly, ask it out of earshot of family, and ask it of every patient, regardless of age or who is in the room.\n\nAnd run the six rights before assisting with either.",
+          "standard": "Aspirin and nitroglycerin are administered at EMT level by assisting the patient, under protocol and commonly with online medical direction. Aspirin exerts antiplatelet effect and is indicated in suspected acute coronary syndrome; it is chewed rather than swallowed to accelerate absorption. Contraindications include known hypersensitivity and, per protocol, active haemorrhage or bleeding disorder. Nitroglycerin produces vasodilation, reducing myocardial workload and relieving anginal pain, and is assisted using the patient's own prescribed supply. Because nitroglycerin may produce marked hypotension, blood pressure is measured before and after each dose and protocol thresholds observed; a systolic below 90 mmHg is a common floor, and assistance is limited to a maximum of three doses per protocol. Head injury is a contraindication, as vasodilation may exacerbate intracranial haemorrhage and raise intracranial pressure. Use of phosphodiesterase inhibitors prescribed for erectile dysfunction within the preceding 24 to 48 hours, depending on agent, constitutes a contraindication, as the combination may precipitate profound and potentially fatal hypotension; this history must be elicited directly, privately and from every patient irrespective of age. The six rights are verified prior to assisting with either medication."
         },
         "eli_new": {
           "analogy": "Nitroglycerin opens the pipes. If someone has already taken something else that opens the pipes, the pressure has nowhere to go.",
@@ -1637,7 +1644,8 @@
       },
       "cards": [
         "concept",
-        "skill"
+        "skill",
+        "numbers"
       ],
       "card_data": {
         "skill": {
@@ -1652,14 +1660,19 @@
               "critical": true
             },
             {
-              "text": "Ask directly and privately about erectile dysfunction medication",
+              "text": "Rule out a head injury",
               "critical": true,
-              "note": "The combination can cause a catastrophic fall in blood pressure. Ask every patient."
+              "note": "Vasodilation can worsen intracranial bleeding and raise intracranial pressure."
+            },
+            {
+              "text": "Ask directly and privately about erectile dysfunction medication in the last 24 to 48 hours",
+              "critical": true,
+              "note": "The combination can cause a catastrophic fall in blood pressure. Ask every patient, whatever their age."
             },
             {
               "text": "Take and record a blood pressure BEFORE the dose",
               "critical": true,
-              "note": "Follow your protocol's minimum systolic threshold."
+              "note": "Withhold below 90 mmHg systolic, or below your protocol's threshold if it is higher."
             },
             {
               "text": "Run the six rights",
@@ -1676,17 +1689,52 @@
             {
               "text": "Reassess pain, vital signs and mental status, and document",
               "critical": true
+            },
+            {
+              "text": "Stop at a maximum of three doses, with a blood pressure between each",
+              "critical": true,
+              "note": "Per protocol. Pain that has not resolved after three doses is a transport decision, not a fourth dose."
             }
           ]
-        }
+        },
+        "numbers": [
+          {
+            "label": "Nitroglycerin — minimum systolic BP",
+            "value": "90",
+            "unit": "mmHg",
+            "note": "Do not assist below this. Local protocol may set a higher floor; protocol wins."
+          },
+          {
+            "label": "Nitroglycerin — erectile dysfunction medication window",
+            "value": "24 to 48",
+            "unit": "hours",
+            "note": "Depends on the drug. Anything inside the window is a contraindication."
+          },
+          {
+            "label": "Nitroglycerin — maximum assisted doses",
+            "value": "3",
+            "unit": "doses",
+            "note": "Per protocol, with a blood pressure between each dose."
+          },
+          {
+            "label": "Nitroglycerin — head injury",
+            "value": "contraindicated",
+            "note": "Vasodilation can worsen intracranial bleeding and raise intracranial pressure."
+          },
+          {
+            "label": "Blood pressure checks per dose",
+            "value": "2",
+            "note": "One before, one after. Every dose, every time."
+          }
+        ]
       },
       "question_targets": {
-        "recall": 2,
-        "application": 1,
+        "recall": 3,
+        "application": 2,
         "sequence": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted. Confirm the contraindication list, the protocol thresholds for blood pressure, and the medication names and doses from your own protocol."
+      "verify_notes": "Contraindication figures (systolic below 90 mmHg, erectile dysfunction medication within the prior 24 to 48 hours, head injury, maximum three doses) were supplied from standard curriculum and MUST be checked against AAOS Emergency Care 12e and against local protocol before use — every one of them is a protocol-set number and local protocol overrides. Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. No medication names or doses beyond the drug being assisted with are stated."
     },
     {
       "schema_version": "1.0.0",

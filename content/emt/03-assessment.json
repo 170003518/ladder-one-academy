@@ -2880,7 +2880,8 @@
         }
       },
       "cards": [
-        "concept"
+        "concept",
+        "numbers"
       ],
       "question_targets": {
         "recall": 2,
@@ -2888,7 +2889,46 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives.",
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Adult — pulse, resting",
+            "value": "60 to 100",
+            "unit": "bpm"
+          },
+          {
+            "label": "Adult — respirations",
+            "value": "12 to 20",
+            "unit": "breaths/min"
+          },
+          {
+            "label": "Adult — systolic blood pressure",
+            "value": "roughly 90 to 140",
+            "unit": "mmHg"
+          },
+          {
+            "label": "Infant under 1 — pulse",
+            "value": "100 to 160",
+            "unit": "bpm"
+          },
+          {
+            "label": "Infant under 1 — respirations",
+            "value": "30 to 60",
+            "unit": "breaths/min"
+          },
+          {
+            "label": "Child 1 to 10 — minimum acceptable systolic",
+            "value": "70 + (2 x age in years)",
+            "unit": "mmHg"
+          },
+          {
+            "label": "Toddler, preschool, school age, adolescent",
+            "value": "not filled in",
+            "note": "These bands vary between texts and editions. Fill them from your own text rather than trusting a guess."
+          }
+        ]
+      }
     },
     {
       "schema_version": "1.0.0",

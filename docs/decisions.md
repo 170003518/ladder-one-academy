@@ -270,3 +270,34 @@ time to sit under `.ws-diagram--labelled`.
 Figures without `labels` keep the previous page: the image as authored, a generic
 instruction, and eight blank lines. A flowchart whose boxes *are* the content has
 nothing to label and should not get the array.
+
+## Nitroglycerin contraindication figures (batch 3, item 1)
+
+The four figures supplied — systolic floor 90 mmHg, erectile dysfunction medication
+window 24 to 48 hours, head injury, maximum three doses — went into `EMT-04-02-08`'s
+key points, both read depths, the skill card steps, a new `numbers` card, and four new
+questions. All stay `verify: true`, and every `verify_notes` now names the four figures
+explicitly and says local protocol overrides them. The erectile dysfunction window is
+worded "24 to 48 hours depending on the drug" rather than picking one number, because
+it genuinely differs by agent and the agent is not named here.
+
+Two judgment calls. The head-injury rationale (vasodilation worsening intracranial
+bleeding and raising intracranial pressure) is stated, because a contraindication
+without its reason is not studyable — but it carries the same verify flag. And "maximum
+three doses" was read as a count, not a dose, so it is inside the no-doses rule: no
+milligram figure appears anywhere.
+
+## Pre-existing defects found while validating
+
+`EMT-03-05-01` (pulse) had a "Normal vital signs by age" `numbers` card in the deck that
+the concept never declared in `cards[]` and had no `card_data` for. The card was right
+and the concept was incomplete, so the concept now declares it and carries the figures,
+intermediate paediatric bands still deliberately blank.
+
+Two validator rules were too strict and have been relaxed:
+
+- A `related`/`prereqs` reference into a module that has not been written yet is a
+  deliberate forward link, not a broken reference. Only a miss inside a module that
+  exists on disk is an error; the rest are counted as notes.
+- `quiz.js` draws `min(pool_size, available)`, so a concept with fewer questions than
+  its `pool_size` degrades gracefully. That is thinness to report, not a defect.

@@ -1115,6 +1115,126 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-Q004",
+      "concept_id": "EMT-04-02-08",
+      "style": "recall",
+      "stem": "Below which systolic blood pressure is nitroglycerin commonly withheld, absent a higher local threshold?",
+      "options": [
+        {
+          "text": "70 mmHg",
+          "rationale": "Lower than the usual floor; the patient would already be profoundly hypotensive."
+        },
+        {
+          "text": "90 mmHg",
+          "rationale": "Correct. 90 mmHg systolic is the common floor, and local protocol may set it higher."
+        },
+        {
+          "text": "110 mmHg",
+          "rationale": "Higher than the usual floor; this would withhold from patients who could safely receive it."
+        },
+        {
+          "text": "140 mmHg",
+          "rationale": "This is a raised pressure, not a contraindication threshold."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Tests a figure supplied from standard curriculum (systolic 90 mmHg, 24 to 48 hour erectile dysfunction medication window, head injury, maximum three doses). Not reviewed against a source text. Confirm the fact tested and every rationale against AAOS Emergency Care 12e and local protocol, then add a source reference. Local protocol overrides all of these."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-Q005",
+      "concept_id": "EMT-04-02-08",
+      "style": "recall",
+      "stem": "A patient took an erectile dysfunction medication last night. How does that affect assisting with nitroglycerin today?",
+      "options": [
+        {
+          "text": "It does not matter once the drug has worn off overnight",
+          "rationale": "The window runs 24 to 48 hours depending on the drug, so last night is still inside it."
+        },
+        {
+          "text": "It is a contraindication; the window runs 24 to 48 hours depending on the drug",
+          "rationale": "Correct. Anything inside that window contraindicates nitroglycerin."
+        },
+        {
+          "text": "It only matters if the patient is under 60",
+          "rationale": "Age has nothing to do with it. Ask every patient."
+        },
+        {
+          "text": "It means the dose should be halved",
+          "rationale": "Dose is not adjusted around this; the medication is withheld."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Tests a figure supplied from standard curriculum (systolic 90 mmHg, 24 to 48 hour erectile dysfunction medication window, head injury, maximum three doses). Not reviewed against a source text. Confirm the fact tested and every rationale against AAOS Emergency Care 12e and local protocol, then add a source reference. Local protocol overrides all of these."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-Q006",
+      "concept_id": "EMT-04-02-08",
+      "style": "application",
+      "stem": "You are assisting a patient with chest pain who also struck their head in a fall. What is the significance for nitroglycerin?",
+      "options": [
+        {
+          "text": "No significance; treat the chest pain",
+          "rationale": "Head injury is a contraindication, not an incidental finding."
+        },
+        {
+          "text": "Head injury is a contraindication, because vasodilation can worsen bleeding and raise intracranial pressure",
+          "rationale": "Correct. This is why the head is part of the check before assisting."
+        },
+        {
+          "text": "It means giving the dose lying flat",
+          "rationale": "Position does not resolve a contraindication."
+        },
+        {
+          "text": "It means doubling the interval between doses",
+          "rationale": "Interval changes do not make a contraindicated medication safe."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Tests a figure supplied from standard curriculum (systolic 90 mmHg, 24 to 48 hour erectile dysfunction medication window, head injury, maximum three doses). Not reviewed against a source text. Confirm the fact tested and every rationale against AAOS Emergency Care 12e and local protocol, then add a source reference. Local protocol overrides all of these."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-Q007",
+      "concept_id": "EMT-04-02-08",
+      "style": "application",
+      "stem": "A patient's chest pain has not resolved after three assisted doses of nitroglycerin, each with a pressure taken. What is the appropriate next action?",
+      "options": [
+        {
+          "text": "Assist with a fourth dose",
+          "rationale": "Three doses is the protocol maximum; a fourth is outside it."
+        },
+        {
+          "text": "Stop at three, reassess, and make a transport decision",
+          "rationale": "Correct. Pain persisting past three doses is a transport decision, not a fourth dose."
+        },
+        {
+          "text": "Wait ten minutes and restart the sequence",
+          "rationale": "Restarting does not reset the maximum."
+        },
+        {
+          "text": "Assist with a double dose to catch up",
+          "rationale": "Doses are not doubled, and this exceeds the maximum."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Tests a figure supplied from standard curriculum (systolic 90 mmHg, 24 to 48 hour erectile dysfunction medication window, head injury, maximum three doses). Not reviewed against a source text. Confirm the fact tested and every rationale against AAOS Emergency Care 12e and local protocol, then add a source reference. Local protocol overrides all of these."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-03-01-Q001",
       "concept_id": "EMT-04-03-01",
       "style": "recall",
