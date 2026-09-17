@@ -43,6 +43,15 @@
         "EMT-05-03-03",
         "EMT-05-03-04"
       ]
+    },
+    {
+      "id": "EMT-05-04",
+      "title": "Allergic reactions and anaphylaxis",
+      "concepts": [
+        "EMT-05-04-01",
+        "EMT-05-04-02",
+        "EMT-05-04-03"
+      ]
     }
   ],
   "concepts": [
@@ -1754,6 +1763,557 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the thyrotoxic and myxoedema crisis presentations and the adrenal crisis features against the current text. No steroid names or doses are stated; steroid administration is outside EMT scope."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-01",
+      "title": "Allergic reaction versus anaphylaxis",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-04-02",
+        "EMT-02-05-01"
+      ],
+      "key_points": [
+        "An allergic reaction is the immune system overreacting to something harmless; anaphylaxis is that reaction affecting the whole body at once",
+        "The line between them is not how bad the rash looks — it is whether the airway, breathing or circulation is involved",
+        "Skin findings alone, however dramatic, are an allergic reaction",
+        "Airway swelling, wheeze or stridor, hypotension, or sudden collapse make it anaphylaxis",
+        "Gastrointestinal symptoms — cramping, vomiting, diarrhoea — alongside skin findings after an exposure also point to anaphylaxis",
+        "Anaphylaxis can occur with no skin findings at all, which is how it gets missed",
+        "The distinction matters because it decides whether epinephrine is indicated",
+        "A patient's sense that something is very wrong, or a feeling of impending doom, is a real finding"
+      ],
+      "misconceptions": [
+        "Grading severity by how much rash there is",
+        "Waiting for hives before calling it anaphylaxis",
+        "Treating throat tightness as anxiety",
+        "Assuming a reaction that started mild will stay mild"
+      ],
+      "exam_favorites": [
+        "What moves a reaction from allergic to anaphylactic",
+        "Anaphylaxis without skin findings",
+        "Why the distinction decides treatment"
+      ],
+      "modes": {
+        "read": {
+          "plain": "An allergic reaction is the immune system deciding that something harmless is a threat and mounting a response out of all proportion. Anaphylaxis is that same response going body-wide and starting to close things down.\n\nHere is the distinction that matters, and it is not the one people instinctively use. It is not how dramatic the rash is. Someone can be covered head to foot in hives and be having an allergic reaction. Someone else can have no rash whatsoever and be in anaphylaxis.\n\nThe question is whether the airway, breathing or circulation is involved.\n\nAirway: swelling of the lips, tongue, throat; a hoarse voice; a feeling that the throat is closing; stridor. Breathing: wheeze, tightness, difficulty getting air. Circulation: low blood pressure, dizziness, pallor, collapse.\n\nAny of those, after an exposure, is anaphylaxis.\n\nThere is a fourth thing worth adding. Gut symptoms — sudden cramping, vomiting, diarrhoea — appearing with skin findings after an exposure is also treated as anaphylaxis. The gut is smooth muscle and it reacts too.\n\nNow the dangerous version. Anaphylaxis with no skin findings at all. Perhaps a third of cases have little or no rash, and those are the ones that get called asthma, or a panic attack, or food poisoning. If someone was exposed to something and is now struggling to breathe or going pale and faint, the absence of hives means nothing.\n\nThe reason all of this matters is that it decides one thing: whether epinephrine is indicated. That decision is why we are so precise about the line.\n\nAnd take the patient's own alarm seriously. Patients in anaphylaxis often describe a feeling that something is terribly wrong, before anything measurable has changed. It is a recognised finding, not nerves.",
+          "standard": "Allergic reaction denotes an exaggerated immune response to an otherwise innocuous antigen. Anaphylaxis denotes a systemic, multi-organ manifestation of that response. Differentiation rests on involvement of airway, breathing or circulation rather than the extent of cutaneous findings; isolated cutaneous manifestations, irrespective of severity, constitute allergic reaction. Airway involvement comprises oropharyngeal or laryngeal oedema, hoarseness, throat tightness and stridor; respiratory involvement comprises bronchospasm with wheeze and dyspnoea; circulatory involvement comprises hypotension, presyncope and collapse. Gastrointestinal involvement — cramping, emesis, diarrhoea — concurrent with cutaneous findings following exposure also satisfies anaphylaxis criteria. A substantial minority of anaphylactic presentations lack significant cutaneous findings, constituting the principal source of missed diagnosis. The distinction determines the indication for epinephrine. Patient-reported sense of impending doom is a recognised clinical finding."
+        },
+        "eli_new": {
+          "analogy": "An allergic reaction is a fire alarm going off in one room. Anaphylaxis is the whole building's sprinkler system triggering at once, and the building is the patient.",
+          "body": "Unlearn the idea that severity is measured in rash. A covered-in-hives patient who is breathing fine and talking normally is having an allergic reaction. A patient with no rash at all who is going quiet and pale is in anaphylaxis, and is far closer to dying."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between an allergic reaction and anaphylaxis, and why it is not about how bad the rash is.",
+          "must_hit": [
+            {
+              "point": "Allergic reaction is an immune overreaction; anaphylaxis is systemic",
+              "accept": [
+                "immune",
+                "overreact",
+                "systemic",
+                "whole body",
+                "body-wide"
+              ]
+            },
+            {
+              "point": "The line is airway, breathing or circulation involvement",
+              "accept": [
+                "airway",
+                "breathing",
+                "circulation",
+                "abc",
+                "blood pressure"
+              ]
+            },
+            {
+              "point": "Skin findings alone, however dramatic, are an allergic reaction",
+              "accept": [
+                "skin",
+                "rash",
+                "hives",
+                "alone",
+                "only"
+              ]
+            },
+            {
+              "point": "Anaphylaxis can occur with no skin findings at all",
+              "accept": [
+                "no rash",
+                "without",
+                "absent",
+                "no hives",
+                "no skin"
+              ]
+            },
+            {
+              "point": "Gut symptoms with skin findings after exposure count as anaphylaxis",
+              "accept": [
+                "vomit",
+                "diarrh",
+                "cramp",
+                "gut",
+                "gastro"
+              ]
+            },
+            {
+              "point": "The distinction decides whether epinephrine is indicated",
+              "accept": [
+                "epinephrine",
+                "adrenaline",
+                "indicat",
+                "decide",
+                "treatment"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "No rash",
+          "dispatch": "Medic 3 — 22-year-old female, difficulty breathing at a restaurant.",
+          "body": "She was wheezing hard and the crew had her down as an asthma attack, because she had asthma and because she did not have a single mark on her.\n\nHer friend said she had eaten something with peanuts in it about ten minutes earlier.\n\nAbout a third of anaphylaxis comes without a rash. The absence of hives had been doing the reassuring, and it should not have been."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Allergic reaction",
+          "right_label": "Anaphylaxis",
+          "rows": [
+            {
+              "feature": "What it is",
+              "left": "Immune overreaction, confined",
+              "right": "The same response gone body-wide"
+            },
+            {
+              "feature": "Skin",
+              "left": "Hives, itching, flushing — may be dramatic",
+              "right": "Often present, but ABSENT in a substantial minority"
+            },
+            {
+              "feature": "Airway",
+              "left": "Not involved",
+              "right": "Swelling of lips, tongue or throat; hoarseness; stridor"
+            },
+            {
+              "feature": "Breathing",
+              "left": "Normal",
+              "right": "Wheeze, tightness, difficulty getting air"
+            },
+            {
+              "feature": "Circulation",
+              "left": "Normal",
+              "right": "Hypotension, dizziness, pallor, collapse"
+            },
+            {
+              "feature": "Gut",
+              "left": "Not typically",
+              "right": "Cramping, vomiting, diarrhoea — with skin findings after exposure, this counts"
+            },
+            {
+              "feature": "The deciding question",
+              "left": "Skin only",
+              "right": "Is airway, breathing or circulation involved?"
+            },
+            {
+              "feature": "Epinephrine",
+              "left": "Not indicated",
+              "right": "Indicated — this is the whole reason for the distinction"
+            },
+            {
+              "feature": "Trap",
+              "left": "Assuming it will stay mild",
+              "right": "Ruling it out because there is no rash"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the anaphylaxis criteria, including the gastrointestinal criterion and the proportion of cases without cutaneous findings, against the current text and current anaphylaxis guidelines. The figure of roughly one third is stated as approximate and must be checked."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02",
+      "title": "Anaphylaxis recognition and the epinephrine auto-injector",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-04-01"
+      ],
+      "related": [
+        "EMT-05-04-01",
+        "EMT-05-04-03",
+        "EMT-04-04-01"
+      ],
+      "key_points": [
+        "Epinephrine is the treatment for anaphylaxis, and delay in giving it is the thing most associated with deaths",
+        "It works by tightening blood vessels to restore pressure, relaxing the airways, and reducing swelling",
+        "The auto-injector is given into the outer thigh muscle, and can be given through clothing",
+        "It is held in place for the time the device specifies, then the site is massaged if protocol says to",
+        "EMT scope is typically assisting a patient with their own prescribed auto-injector, or administering from the service's supply where protocol allows — know which applies to you",
+        "There is no absolute contraindication to epinephrine in true anaphylaxis",
+        "After giving it, reassess continuously: improvement can be dramatic and can also be temporary",
+        "The used device is a sharp and goes straight into a sharps container",
+        "High-flow oxygen, positioning, and rapid transport go with it — a hypotensive patient is laid flat unless breathing prevents it"
+      ],
+      "misconceptions": [
+        "Waiting to see whether the patient improves on their own before giving epinephrine",
+        "Giving it into the buttock or the arm rather than the outer thigh",
+        "Sitting a hypotensive anaphylaxis patient upright",
+        "Standing a patient up to walk to the ambulance after epinephrine",
+        "Assuming one dose has fixed it and relaxing"
+      ],
+      "exam_favorites": [
+        "Why delay is the danger",
+        "The injection site",
+        "No absolute contraindication in true anaphylaxis",
+        "Positioning a hypotensive patient"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Epinephrine is the treatment. Not an adjunct, not something to consider — the treatment. And the single finding that comes up again and again when anaphylaxis deaths are examined is that it was given late.\n\nIt does three things at once, and each one addresses part of what is killing the patient. It tightens blood vessels, which brings the blood pressure back up. It relaxes the airways, which opens up the wheeze. And it reduces the swelling that is closing the throat.\n\nGiving it is mechanically simple. Outer thigh, into the muscle, and through clothing is fine — do not waste time undressing anybody. Hold the device in place for however long its instructions specify, because pulling it out early means part of the dose stays in the device. Then massage the site if your protocol says to.\n\nKnow your own scope here, because it varies. In some systems an EMT assists a patient with their own prescribed auto-injector and can do nothing else. In others the service carries them and the EMT administers. Find out which applies to you before you need to know.\n\nIn true anaphylaxis there is no absolute contraindication. Not age, not heart disease, not high blood pressure. The reaction will kill the patient faster than the epinephrine will hurt them. This matters because hesitation is what harms people here.\n\nAfterwards, keep watching. The improvement can be remarkable and it can also wear off, and a patient who looks well ten minutes later can deteriorate again. One dose does not end the emergency.\n\nThe rest goes alongside: high-flow oxygen, rapid transport, and position. A hypotensive anaphylaxis patient lies flat, legs up if your protocol allows, unless their breathing will not tolerate it. Do not sit them up because it seems kinder, and do not let them walk to the ambulance. Sudden position changes in a patient with no blood pressure reserve have caused arrests.\n\nAnd the used device is a sharp. Straight into the container.",
+          "standard": "Epinephrine constitutes definitive prehospital therapy for anaphylaxis; delayed administration is the factor most consistently associated with fatal outcome. Mechanism comprises alpha-mediated vasoconstriction restoring perfusion pressure, beta-mediated bronchodilation, and reduction of mucosal oedema. Auto-injector administration is intramuscular into the anterolateral thigh, through clothing where necessary, held for the duration specified by the device, with site massage per protocol. Scope varies by jurisdiction between assisting with a patient's prescribed device and administering from service supply; providers must establish which applies. No absolute contraindication exists in genuine anaphylaxis. Continuous reassessment following administration is mandatory, as clinical improvement may be transient. Adjunctive management comprises high-concentration oxygen, supine positioning with leg elevation per protocol in hypotensive patients unless respiratory compromise precludes it, and expedited transport. Ambulation and sudden postural change are avoided. Used devices are disposed of as sharps."
+        },
+        "eli_new": {
+          "analogy": "Epinephrine does three jobs at once: it squeezes the pipes, opens the airways and takes the swelling down. All three are the things trying to kill the patient.",
+          "body": "The killer here is hesitation. Everyone worries about giving epinephrine to an older patient or someone with a heart condition. In real anaphylaxis that worry is backwards — the reaction is the immediate threat, and the people who die are the ones who got it late."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how and where an epinephrine auto-injector is given, and what you do afterwards.",
+          "must_hit": [
+            {
+              "point": "Delay in giving epinephrine is what is associated with deaths",
+              "accept": [
+                "delay",
+                "late",
+                "early",
+                "death",
+                "immediately"
+              ]
+            },
+            {
+              "point": "It tightens vessels, opens airways and reduces swelling",
+              "accept": [
+                "vessel",
+                "pressure",
+                "airway",
+                "bronch",
+                "swell"
+              ]
+            },
+            {
+              "point": "Outer thigh, into muscle, through clothing is fine",
+              "accept": [
+                "thigh",
+                "muscle",
+                "intramuscular",
+                "clothing",
+                "lateral"
+              ]
+            },
+            {
+              "point": "Hold for the specified time, then massage per protocol",
+              "accept": [
+                "hold",
+                "seconds",
+                "massage",
+                "in place"
+              ]
+            },
+            {
+              "point": "No absolute contraindication in true anaphylaxis",
+              "accept": [
+                "no contraindication",
+                "absolute",
+                "none",
+                "regardless"
+              ]
+            },
+            {
+              "point": "Reassess continuously; improvement can be temporary",
+              "accept": [
+                "reassess",
+                "again",
+                "temporary",
+                "wear off",
+                "monitor"
+              ]
+            },
+            {
+              "point": "Oxygen, lay a hypotensive patient flat, do not let them walk",
+              "accept": [
+                "oxygen",
+                "flat",
+                "supine",
+                "walk",
+                "position"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She was fine again",
+          "dispatch": "Medic 5 — 31-year-old male, wasp sting, auto-injector given by a colleague.",
+          "body": "By the time the ambulance arrived he was sitting up, talking, apologetic, and saying he did not need to go anywhere.\n\nThe crew took him anyway, flat on the stretcher, because epinephrine buys time rather than ending the reaction.\n\nHe deteriorated again about twenty minutes later, in the back of a moving ambulance, which is exactly where you want that to happen."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug",
+        "skill"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "Epinephrine (auto-injector)",
+          "trade": "Auto-injector devices vary by region and supplier",
+          "class": "Sympathomimetic / catecholamine",
+          "indications": [
+            "Anaphylaxis",
+            "Severe allergic reaction with airway, breathing or circulatory involvement per protocol"
+          ],
+          "contraindications": [
+            "No absolute contraindication in true anaphylaxis",
+            "Follow protocol for relative cautions and for reactions that do not meet anaphylaxis criteria"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify",
+          "route": "Intramuscular, anterolateral thigh; may be given through clothing",
+          "onset": "per protocol / verify",
+          "side_effects": [
+            "Tachycardia",
+            "Palpitations",
+            "Tremor",
+            "Anxiety",
+            "Pallor",
+            "Headache"
+          ],
+          "scope": "EMT assists with the patient's prescribed device, or administers from service supply where protocol allows"
+        },
+        "skill": {
+          "sheet": "Epinephrine auto-injector",
+          "steps": [
+            {
+              "text": "Confirm anaphylaxis: exposure plus airway, breathing or circulatory involvement",
+              "critical": true
+            },
+            {
+              "text": "Confirm scope and protocol — assisting with the patient's device, or administering from service supply",
+              "critical": true
+            },
+            {
+              "text": "Check the device: right patient, in date, and the liquid is clear if a window is present",
+              "critical": true
+            },
+            {
+              "text": "Expose or identify the outer thigh; clothing may be left in place",
+              "critical": false
+            },
+            {
+              "text": "Remove the safety cap and press firmly into the outer thigh at right angles",
+              "critical": true
+            },
+            {
+              "text": "Hold in place for the time the device specifies",
+              "critical": true,
+              "note": "Pulling out early leaves part of the dose in the device. Hold times differ between devices."
+            },
+            {
+              "text": "Remove and massage the site if protocol directs",
+              "critical": false
+            },
+            {
+              "text": "Dispose of the device as a sharp",
+              "critical": true
+            },
+            {
+              "text": "High-flow oxygen; lay a hypotensive patient flat, legs raised per protocol, unless breathing prevents it",
+              "critical": true
+            },
+            {
+              "text": "Do NOT let the patient stand or walk",
+              "critical": true,
+              "note": "Sudden postural change in a patient with no pressure reserve has caused arrests."
+            },
+            {
+              "text": "Reassess continuously and expedite transport — improvement may be temporary",
+              "critical": true
+            },
+            {
+              "text": "Record the time given, the device and site, and the response",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the auto-injector technique, hold time and site massage guidance against the current text, the device manufacturer's instructions, and local protocol — hold times differ between devices. No epinephrine dose or concentration is stated; those are device- and protocol-specific."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-03",
+      "title": "Common allergens and biphasic reactions",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-04-01"
+      ],
+      "related": [
+        "EMT-05-04-01",
+        "EMT-05-04-02"
+      ],
+      "key_points": [
+        "The common triggers are foods, insect stings, medications, and latex",
+        "Nuts, shellfish, eggs, milk and wheat account for a large share of food reactions",
+        "The route matters less than people expect: a severe reaction can follow eating, injection, or contact",
+        "A biphasic reaction is a second wave hours after the first has settled, without any further exposure",
+        "That second wave is the reason every anaphylaxis patient is transported, even if they feel completely well",
+        "Previous mild reactions do not predict mild future ones — each exposure is its own event",
+        "Ask what was eaten, taken, touched or stung, and how long before symptoms started",
+        "Bring the packaging, the device, or the medication with you where practical"
+      ],
+      "misconceptions": [
+        "Reassuring a patient that because past reactions were mild this one will be",
+        "Allowing a refusal after anaphylaxis because the patient feels better",
+        "Assuming a reaction needs a swallowed allergen",
+        "Not asking about new medications started recently"
+      ],
+      "exam_favorites": [
+        "The common allergen groups",
+        "What a biphasic reaction is and why it drives transport",
+        "Past reactions do not predict future severity"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Most reactions come from a short list. Foods — particularly nuts, shellfish, eggs, milk and wheat. Insect stings, especially bees and wasps. Medications, including antibiotics and common painkillers. And latex, which matters in healthcare settings and for anybody with repeated exposure.\n\nThe route matters less than people assume. Swallowed, injected, or touched can all produce a severe reaction. A patient does not have to have eaten anything.\n\nNow the thing that governs your decisions: biphasic reactions. In some patients the reaction settles, they feel genuinely better, and then hours later a second wave arrives with no further exposure at all. It can be as severe as the first. It can be worse.\n\nThat is why every anaphylaxis patient goes to hospital, even the ones sitting up feeling fine and embarrassed. They need observation for a period their doctors will decide. Somebody who feels better and goes home is exactly the person a second wave catches, and often somewhere without help.\n\nThere is a related idea that catches people out. Previous mild reactions do not predict mild future ones. A patient who has had itchy lips twice before can have full anaphylaxis on the third exposure. Nothing about past events makes this one safer, so do not let a reassuring history slow you down.\n\nHistory-taking here is quick and specific. What was eaten, taken, touched or stung? How long between the exposure and the first symptom? Has this happened before, and what happened that time? Do they carry an auto-injector, and has it been used today?\n\nAnd take the evidence with you. The food packaging, the used device, the medication box. The hospital will want to know what caused this, and the answer is usually still in the room.",
+          "standard": "Common allergens comprise foods — predominantly tree nuts, peanuts, shellfish, egg, milk and wheat — hymenoptera venom, pharmaceuticals including antibiotics and non-steroidal anti-inflammatory agents, and latex. Route of exposure does not reliably predict severity; ingestion, parenteral exposure and contact may each produce systemic reaction. Biphasic anaphylaxis denotes recurrence of symptoms following apparent resolution, occurring hours after the initial episode without re-exposure, and may equal or exceed the initial reaction in severity. This phenomenon mandates transport and observation of all anaphylaxis patients irrespective of apparent recovery. Severity of prior reactions does not predict severity of subsequent reactions. History should establish the agent, the interval to symptom onset, prior reaction history and auto-injector use. Causative packaging, devices or medications should accompany the patient where practicable."
+        },
+        "eli_new": {
+          "analogy": "A biphasic reaction is the second wave after a tsunami. The water going back out is not the end of it, and people who walk back onto the sand are the ones who get caught.",
+          "body": "The single practical consequence of this whole concept: never let an anaphylaxis patient stay home because they feel better. Feeling better is what happens between the two waves."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the common allergen groups, explain what a biphasic reaction is, and say what it means for transport.",
+          "must_hit": [
+            {
+              "point": "Foods, insect stings, medications and latex",
+              "accept": [
+                "food",
+                "nut",
+                "shellfish",
+                "sting",
+                "medication",
+                "latex",
+                "bee"
+              ]
+            },
+            {
+              "point": "A biphasic reaction is a second wave hours later with no new exposure",
+              "accept": [
+                "biphasic",
+                "second",
+                "hours",
+                "later",
+                "again",
+                "return"
+              ]
+            },
+            {
+              "point": "It can be as severe as the first or worse",
+              "accept": [
+                "severe",
+                "worse",
+                "same",
+                "equal"
+              ]
+            },
+            {
+              "point": "Every anaphylaxis patient is transported even if they feel well",
+              "accept": [
+                "transport",
+                "hospital",
+                "observ",
+                "even if",
+                "feel"
+              ]
+            },
+            {
+              "point": "Past mild reactions do not predict mild future ones",
+              "accept": [
+                "past",
+                "previous",
+                "predict",
+                "mild",
+                "history"
+              ]
+            },
+            {
+              "point": "Ask what and when, and bring the packaging or device",
+              "accept": [
+                "packaging",
+                "device",
+                "bring",
+                "what",
+                "when",
+                "ask"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Twice before",
+          "dispatch": "Medic 2 — 9-year-old girl, facial swelling at a birthday party.",
+          "body": "Her mother said she had reacted to nuts twice before and both times it had been itchy lips and nothing more, and she was quite calm about it.\n\nThis time her voice had changed and she was starting to wheeze.\n\nThe two previous reactions had been real. They had also been completely uninformative about this one."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the common allergen list and the biphasic reaction timeframe against the current text and current anaphylaxis guidelines. No specific observation period is stated, as that is an institutional decision that varies."
     }
   ]
 }

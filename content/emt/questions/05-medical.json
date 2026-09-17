@@ -1802,6 +1802,516 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-01-Q001",
+      "concept_id": "EMT-05-04-01",
+      "style": "recall",
+      "stem": "What distinguishes anaphylaxis from an allergic reaction?",
+      "options": [
+        {
+          "text": "The extent and severity of the rash",
+          "rationale": "Severity of rash does not make the distinction."
+        },
+        {
+          "text": "Involvement of airway, breathing or circulation",
+          "rationale": "Correct. That is the line, regardless of how the skin looks."
+        },
+        {
+          "text": "Whether the patient has a known allergy",
+          "rationale": "A known allergy is neither required nor sufficient."
+        },
+        {
+          "text": "How quickly symptoms appeared",
+          "rationale": "Speed is concerning but does not define anaphylaxis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-01-Q002",
+      "concept_id": "EMT-05-04-01",
+      "style": "application",
+      "stem": "A patient who ate peanuts ten minutes ago is wheezing hard with no rash at all. What is this?",
+      "options": [
+        {
+          "text": "An asthma attack, since there is no rash",
+          "rationale": "The absence of a rash excludes nothing."
+        },
+        {
+          "text": "Anaphylaxis — respiratory involvement after exposure, and a substantial minority have no skin findings",
+          "rationale": "Correct. This is the classic missed presentation."
+        },
+        {
+          "text": "A panic attack from the restaurant setting",
+          "rationale": "Wheeze after a known exposure is not assumed psychological."
+        },
+        {
+          "text": "An allergic reaction only, since the skin is clear",
+          "rationale": "Respiratory involvement makes it anaphylaxis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-01-Q003",
+      "concept_id": "EMT-05-04-01",
+      "style": "recall",
+      "stem": "A patient is covered in hives but is breathing normally with a normal blood pressure. What is this?",
+      "options": [
+        {
+          "text": "Anaphylaxis, because the rash is extensive",
+          "rationale": "Extent of rash does not make anaphylaxis."
+        },
+        {
+          "text": "An allergic reaction",
+          "rationale": "Correct. Skin findings alone, however dramatic, are an allergic reaction."
+        },
+        {
+          "text": "Anaphylactic shock",
+          "rationale": "There is no circulatory involvement described."
+        },
+        {
+          "text": "A reaction that requires no assessment",
+          "rationale": "Every reaction is assessed and monitored for progression."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-01-Q004",
+      "concept_id": "EMT-05-04-01",
+      "style": "recall",
+      "stem": "Sudden cramping, vomiting and diarrhoea with hives after an exposure should be regarded as what?",
+      "options": [
+        {
+          "text": "Food poisoning",
+          "rationale": "The timing and the concurrent skin findings point elsewhere."
+        },
+        {
+          "text": "Anaphylaxis",
+          "rationale": "Correct. Gastrointestinal involvement with skin findings after exposure meets the criteria."
+        },
+        {
+          "text": "An allergic reaction only",
+          "rationale": "Gut involvement alongside skin findings moves it past that."
+        },
+        {
+          "text": "Gastroenteritis unrelated to the exposure",
+          "rationale": "Unlikely given the timing and the rash."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-01-Q005",
+      "concept_id": "EMT-05-04-01",
+      "style": "application",
+      "stem": "Why does the allergic reaction versus anaphylaxis distinction matter so much?",
+      "options": [
+        {
+          "text": "It determines the transport destination",
+          "rationale": "Destination is not what hinges on it."
+        },
+        {
+          "text": "It determines whether epinephrine is indicated",
+          "rationale": "Correct. That is the practical consequence of the line."
+        },
+        {
+          "text": "It determines whether the patient can refuse care",
+          "rationale": "Refusal rights are not decided by classification."
+        },
+        {
+          "text": "It determines the billing category",
+          "rationale": "Not a clinical consideration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-01-Q006",
+      "concept_id": "EMT-05-04-01",
+      "style": "scenario",
+      "stem": "A patient with mild hives says she feels like something terrible is about to happen. How should this be regarded?",
+      "options": [
+        {
+          "text": "As anxiety, to be reassured away",
+          "rationale": "A sense of impending doom is a recognised clinical finding."
+        },
+        {
+          "text": "As a recognised finding that raises concern for progression",
+          "rationale": "Correct. Patients often sense this before anything measurable changes."
+        },
+        {
+          "text": "As irrelevant to the physical assessment",
+          "rationale": "It is part of the assessment."
+        },
+        {
+          "text": "As evidence the reaction has resolved",
+          "rationale": "It suggests the opposite."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02-Q001",
+      "concept_id": "EMT-05-04-02",
+      "style": "recall",
+      "stem": "Where is an epinephrine auto-injector administered?",
+      "options": [
+        {
+          "text": "Into the upper arm muscle",
+          "rationale": "The outer thigh is the site, not the arm."
+        },
+        {
+          "text": "Into the outer thigh muscle",
+          "rationale": "Correct. Anterolateral thigh, and through clothing if needed."
+        },
+        {
+          "text": "Into the buttock",
+          "rationale": "Not the site for an auto-injector."
+        },
+        {
+          "text": "Under the tongue",
+          "rationale": "Epinephrine auto-injectors are intramuscular devices."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02-Q002",
+      "concept_id": "EMT-05-04-02",
+      "style": "recall",
+      "stem": "What is the absolute contraindication to epinephrine in true anaphylaxis?",
+      "options": [
+        {
+          "text": "Age over 65",
+          "rationale": "Age is not a contraindication in true anaphylaxis."
+        },
+        {
+          "text": "There is none",
+          "rationale": "Correct. The reaction is the immediate threat; hesitation is what harms patients."
+        },
+        {
+          "text": "Known coronary artery disease",
+          "rationale": "A relative caution at most, and not a reason to withhold in anaphylaxis."
+        },
+        {
+          "text": "Hypertension",
+          "rationale": "Not a contraindication in a patient whose pressure is collapsing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02-Q003",
+      "concept_id": "EMT-05-04-02",
+      "style": "application",
+      "stem": "An anaphylaxis patient improves dramatically after epinephrine and wants to stay home. What is the concern?",
+      "options": [
+        {
+          "text": "None; the epinephrine has resolved the reaction",
+          "rationale": "Epinephrine buys time; it does not end the reaction."
+        },
+        {
+          "text": "The improvement may be temporary and the patient can deteriorate again",
+          "rationale": "Correct. One dose does not end the emergency."
+        },
+        {
+          "text": "The patient will become hypertensive",
+          "rationale": "Transient tachycardia is expected, but recurrence is the real concern."
+        },
+        {
+          "text": "The device may have been faulty",
+          "rationale": "A dramatic improvement suggests it worked."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02-Q004",
+      "concept_id": "EMT-05-04-02",
+      "style": "application",
+      "stem": "How should a hypotensive anaphylaxis patient be positioned?",
+      "options": [
+        {
+          "text": "Sitting fully upright for comfort",
+          "rationale": "Sitting a hypotensive patient up removes what little perfusion pressure they have."
+        },
+        {
+          "text": "Flat, legs raised per protocol, unless breathing prevents it",
+          "rationale": "Correct. Sudden postural change in these patients has caused arrests."
+        },
+        {
+          "text": "Standing, to walk to the ambulance",
+          "rationale": "Walking these patients is specifically avoided."
+        },
+        {
+          "text": "Prone",
+          "rationale": "Not an appropriate position for this patient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02-Q005",
+      "concept_id": "EMT-05-04-02",
+      "style": "sequence",
+      "stem": "Why is the auto-injector held in place for the time the device specifies?",
+      "options": [
+        {
+          "text": "To reduce pain at the injection site",
+          "rationale": "Hold time is not about comfort."
+        },
+        {
+          "text": "Because removing it early leaves part of the dose in the device",
+          "rationale": "Correct. An incomplete dose is the consequence of pulling out early."
+        },
+        {
+          "text": "To allow the needle to sterilise the site",
+          "rationale": "Needles do not sterilise sites."
+        },
+        {
+          "text": "Because the device cannot be removed sooner",
+          "rationale": "It can be, which is exactly the problem."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02-Q006",
+      "concept_id": "EMT-05-04-02",
+      "style": "recall",
+      "stem": "What does epinephrine do in anaphylaxis?",
+      "options": [
+        {
+          "text": "Blocks the immune response at its source",
+          "rationale": "It treats the effects; it does not switch off the immune response."
+        },
+        {
+          "text": "Tightens blood vessels, opens the airways, and reduces swelling",
+          "rationale": "Correct. Three actions, each against part of what is killing the patient."
+        },
+        {
+          "text": "Sedates the patient to reduce oxygen demand",
+          "rationale": "It is not a sedative."
+        },
+        {
+          "text": "Neutralises the allergen",
+          "rationale": "It does not neutralise anything."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-03-Q001",
+      "concept_id": "EMT-05-04-03",
+      "style": "recall",
+      "stem": "What is a biphasic reaction?",
+      "options": [
+        {
+          "text": "A reaction that affects two body systems at once",
+          "rationale": "That describes systemic involvement, not a biphasic reaction."
+        },
+        {
+          "text": "A second wave of symptoms hours later without further exposure",
+          "rationale": "Correct. It can equal or exceed the first."
+        },
+        {
+          "text": "A reaction to two allergens simultaneously",
+          "rationale": "Not what the term means."
+        },
+        {
+          "text": "A reaction that responds to two doses of epinephrine",
+          "rationale": "Repeat dosing is a separate matter."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-03-Q002",
+      "concept_id": "EMT-05-04-03",
+      "style": "application",
+      "stem": "An anaphylaxis patient feels completely well after epinephrine and wishes to stay home. What should you explain?",
+      "options": [
+        {
+          "text": "That the reaction is over and staying home is reasonable",
+          "rationale": "This is the exact scenario a biphasic reaction catches."
+        },
+        {
+          "text": "That a second wave can occur hours later, so observation is needed",
+          "rationale": "Correct. Feeling better is what happens between the waves."
+        },
+        {
+          "text": "That refusal is impossible after epinephrine",
+          "rationale": "Patients retain the right to refuse; the task is informing them properly."
+        },
+        {
+          "text": "That they must stay home and monitor themselves",
+          "rationale": "Self-monitoring is not a substitute for observation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-03-Q003",
+      "concept_id": "EMT-05-04-03",
+      "style": "application",
+      "stem": "A child has had two previous mild reactions to nuts. How does that inform this reaction?",
+      "options": [
+        {
+          "text": "It predicts a mild reaction this time",
+          "rationale": "Past severity does not predict future severity."
+        },
+        {
+          "text": "It does not predict severity; each exposure is its own event",
+          "rationale": "Correct. A history of mild reactions is uninformative about this one."
+        },
+        {
+          "text": "It means the child has outgrown the allergy",
+          "rationale": "Nothing here supports that."
+        },
+        {
+          "text": "It means epinephrine is not needed",
+          "rationale": "Need for epinephrine is decided by this presentation, not past ones."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-03-Q004",
+      "concept_id": "EMT-05-04-03",
+      "style": "recall",
+      "stem": "Which of these is a common allergen group?",
+      "options": [
+        {
+          "text": "Ultraviolet light",
+          "rationale": "Not among the common allergen groups described."
+        },
+        {
+          "text": "Insect stings",
+          "rationale": "Correct. Foods, stings, medications and latex are the common groups."
+        },
+        {
+          "text": "Cold air",
+          "rationale": "A trigger for some airway conditions, but not a common allergen group."
+        },
+        {
+          "text": "Loud noise",
+          "rationale": "Not an allergen."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-03-Q005",
+      "concept_id": "EMT-05-04-03",
+      "style": "scenario",
+      "stem": "What should accompany the patient to hospital where practical?",
+      "options": [
+        {
+          "text": "Nothing; the hospital will determine the cause",
+          "rationale": "The answer is usually still in the room."
+        },
+        {
+          "text": "The food packaging, used device or medication involved",
+          "rationale": "Correct. It tells the hospital what caused this."
+        },
+        {
+          "text": "Only the patient's insurance details",
+          "rationale": "Not a clinical consideration."
+        },
+        {
+          "text": "A written statement from a witness",
+          "rationale": "Useful context but not the priority item."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

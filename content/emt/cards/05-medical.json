@@ -452,6 +452,156 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-03-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-01-C01",
+      "concept_id": "EMT-05-04-01",
+      "type": "concept",
+      "front": {
+        "title": "Allergic reaction vs anaphylaxis",
+        "summary": "It is not about the rash"
+      },
+      "back": {
+        "body": "ALLERGIC REACTION = immune overreaction · ANAPHYLAXIS = the same thing gone BODY-WIDE · THE LINE IS AIRWAY, BREATHING OR CIRCULATION — NOT how bad the rash is · Skin only, however dramatic = allergic reaction · Swelling, stridor, hoarse voice, wheeze, low pressure, collapse = ANAPHYLAXIS · Gut symptoms + skin after exposure = ANAPHYLAXIS · ABOUT A THIRD HAVE NO RASH AT ALL — that is how it gets missed · A sense of impending doom is a real finding",
+        "why_it_matters": "She was wheezing with not a mark on her, and the absence of hives was doing the reassuring."
+      },
+      "high_yield": true,
+      "number": 19,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-04-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-01-C02",
+      "concept_id": "EMT-05-04-01",
+      "type": "compare",
+      "front": {
+        "title": "Allergic reaction vs anaphylaxis",
+        "summary": "Side by side"
+      },
+      "back": {
+        "body": "See the comparison rows. The deciding question is one line: is airway, breathing or circulation involved? Everything else is detail.",
+        "why_it_matters": "Covered in hives and talking normally is the less dangerous patient. Pale and quiet with no rash is the other one."
+      },
+      "high_yield": true,
+      "number": 20,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-04-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02-C03",
+      "concept_id": "EMT-05-04-02",
+      "type": "concept",
+      "front": {
+        "title": "Epinephrine in anaphylaxis",
+        "summary": "Early, outer thigh, then watch"
+      },
+      "back": {
+        "body": "EPINEPHRINE IS THE TREATMENT — DELAY IS WHAT KILLS · Tightens vessels (pressure) · opens airways (wheeze) · reduces swelling (throat) · OUTER THIGH, intramuscular, THROUGH CLOTHING IS FINE · Hold for the device's stated time · NO ABSOLUTE CONTRAINDICATION IN TRUE ANAPHYLAXIS — not age, not heart disease · Improvement MAY BE TEMPORARY, keep reassessing · High-flow O2 · HYPOTENSIVE = FLAT, legs up per protocol · DO NOT LET THEM WALK · Device = sharp",
+        "why_it_matters": "He was sitting up apologising and deteriorated again twenty minutes later."
+      },
+      "high_yield": true,
+      "number": 21,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-04-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02-C04",
+      "concept_id": "EMT-05-04-02",
+      "type": "drug",
+      "front": {
+        "title": "Epinephrine auto-injector",
+        "summary": "Assist or administer per protocol"
+      },
+      "back": {
+        "body": "See the drug card fields. CLASS: sympathomimetic · INDICATION: anaphylaxis · CONTRAINDICATIONS: none absolute in true anaphylaxis · ROUTE: intramuscular, anterolateral thigh, through clothing · SIDE EFFECTS: tachycardia, palpitations, tremor, anxiety, pallor, headache · DOSE: PER PROTOCOL — VERIFY, not stated here",
+        "why_it_matters": "Know before the call whether your service lets you assist only, or administer."
+      },
+      "high_yield": true,
+      "number": 22,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-04-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-02-C05",
+      "concept_id": "EMT-05-04-02",
+      "type": "skill",
+      "front": {
+        "title": "Epinephrine auto-injector",
+        "summary": "Critical steps"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: confirm anaphylaxis, confirm scope, check the device, outer thigh at right angles, HOLD for the stated time, dispose as a sharp, high-flow oxygen, hypotensive patients FLAT, DO NOT LET THEM WALK, reassess continuously, document time and response.",
+        "why_it_matters": "Pulling the device out early leaves part of the dose behind."
+      },
+      "high_yield": true,
+      "number": 23,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-04-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-04-03-C06",
+      "concept_id": "EMT-05-04-03",
+      "type": "concept",
+      "front": {
+        "title": "Allergens and biphasic reactions",
+        "summary": "The second wave"
+      },
+      "back": {
+        "body": "COMMON TRIGGERS: foods (nuts, shellfish, egg, milk, wheat) · insect stings · medications · latex · Route matters less than expected: eaten, injected or touched · BIPHASIC = a second wave HOURS LATER with NO further exposure, can be as bad or worse · THIS IS WHY EVERY ANAPHYLAXIS PATIENT IS TRANSPORTED, however well they feel · PAST MILD REACTIONS PREDICT NOTHING · Ask what and how long · Bring the packaging, device or medication",
+        "why_it_matters": "Feeling better is what happens between the two waves."
+      },
+      "high_yield": true,
+      "number": 24,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-04-03. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }
