@@ -22,6 +22,7 @@ import * as teach from './teach.js';
 import * as see from './see.js';
 import * as sort from './sort.js';
 import * as deckprint from './deckprint.js';
+import * as deck from './deck.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -140,6 +141,7 @@ async function route() {
 
   // Nothing should keep talking after the view changes.
   hear.abandon();
+  if (ctx?.kind === 'deck' && parts[0] !== 'deck') deck.abandon();
 
   if (parts[0] === 'exam' && parts[1]) {
     const mod = findModule(decodeURIComponent(parts[1]));
@@ -148,6 +150,16 @@ async function route() {
     const questions = await loadQuestions(mod.id);
     ctx = { kind: 'exam', module: mod, questions };
     app.el.innerHTML = shell(exam.renderExam(mod, questions));
+    return done();
+  }
+
+  if (parts[0] === 'deck') {
+    exam.abandon(); quiz.abandon();
+    const moduleId = parts[1] ? decodeURIComponent(parts[1]) : 'EMT-02';
+    const mod = findModule(moduleId);
+    const d = await loadDeck(moduleId);
+    ctx = { kind: 'deck', module: mod, deck: d };
+    app.el.innerHTML = shell(deck.renderDeck(mod, d));
     return done();
   }
 
@@ -254,6 +266,7 @@ function refresh() {
   if (!ctx) return route();
   if (ctx.kind === 'exam') { app.el.innerHTML = shell(exam.renderExam(ctx.module, ctx.questions)); return; }
   if (ctx.kind === 'print') return route();
+  if (ctx.kind === 'deck') { app.el.innerHTML = shell(deck.renderDeck(ctx.module, ctx.deck)); return; }
   if (ctx.kind === 'deckprint') { app.el.innerHTML = shell(deckprint.renderDeckPrint(ctx.module, ctx.deck)); return; }
   ctx.depth = app.depth;
   app.el.innerHTML = shell(renderLesson(ctx));
@@ -278,7 +291,7 @@ function wire() {
       + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print, '
       + '[data-do-pick], #do-reset, #hear-play, #hear-stop, #teach-submit, #teach-again, '
       + '[data-see-zoom], #see-close, [data-sort-item], [data-sort-bucket], [data-sort-unplace], #sort-check, #sort-reset, '
-      + '#deck-all, #deck-none');
+      + '#deck-all, #deck-none, #deck-study, #deck-study-all, #deck-flip, [data-grade], #deck-stop, #deck-back');
     if (!t) return;
 
     if (t.dataset.depth) { app.depth = t.dataset.depth; return refresh(); }
@@ -360,6 +373,13 @@ function wire() {
     /* --- Deck print --- */
     if (t.id === 'deck-all')  { deckprint.selectAll(ctx.deck.cards || []); return refresh(); }
     if (t.id === 'deck-none') { deckprint.selectNone(); return refresh(); }
+
+    /* --- SRS deck --- */
+    if (t.id === 'deck-study')     { deck.start(ctx.deck, 'due'); return refresh(); }
+    if (t.id === 'deck-study-all') { deck.start(ctx.deck, 'all'); return refresh(); }
+    if (t.id === 'deck-flip')      { deck.flip(); return refresh(); }
+    if (t.dataset.grade)           { deck.rate(t.dataset.grade); return refresh(); }
+    if (t.id === 'deck-stop' || t.id === 'deck-back') { deck.abandon(); return refresh(); }
   });
 
   /* Drag and drop is the desktop path into the same sort functions the taps use.

@@ -114,6 +114,7 @@ function tierCard(tier, status, { modules, progress, attested, progressByModule 
              <span class="modlinks">
                <a href="#/exam/${encodeURIComponent(m.id)}">Module exam</a>
                <a href="#/print/${encodeURIComponent(m.id)}">Print a card</a>
+               <a href="#/deck/${encodeURIComponent(m.id)}">Study the deck</a>
                <a href="#/print/deck/${encodeURIComponent(m.id)}">Print the deck</a>
              </span>
            </li>`; }).join('')}</ul>`

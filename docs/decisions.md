@@ -169,3 +169,16 @@
 - **Print-safe means never colour-only.** Every distinction carries a label as well as a colour, and the flowchart additionally uses solid versus dashed box outlines with a key explaining what the dash means — so the chart still works in black and white, which master-plan §2 requires.
 - The flowchart deliberately includes a "chest sounds clear" box for pulmonary embolism, because the absence of a finding is the hardest thing to represent on a chart organised by what you hear.
 - Alt text runs 300–900 characters and names every box and branch. This is why the `media[].alt` cap was raised to 1000; a screen-reader user gets the whole chart or none of it.
+
+## 2026-09-16 — Deck v1 (spaced repetition)
+
+- `js/srs.js` holds the scheduling as pure functions; `js/deck.js` is the screen. Route `#/deck/<moduleId>`.
+- **SM-2 shaped, with two deliberate departures** so the four buttons behave the way a learner expects:
+  - **Hard** multiplies by a fixed 1.2 rather than by ease. In textbook SM-2 a "hard" answer can still schedule *further out* than the previous interval, which reads as broken.
+  - **Easy** multiplies by ease and then 1.3, so it visibly buys more time than Good.
+  Ease is clamped to 1.3–3.5 because `progress.schema.json` bounds it there. Verified: good → 1, 6, 15 days; hard after that → 18 days with ease dropping 2.5 → 2.35; again → interval 0, due today, reps reset, lapse counted; ease floors at 1.3 and ceilings at 3.5.
+- **A card graded Again goes to the back of today's queue** rather than disappearing until tomorrow. Relearning happens in the session it failed in.
+- **Unverified cards are kept out of the deck**, as decided when `verify` was added to `card.schema.json` — repetition is what makes a fact stick, so drilling an unverified fact is worse than not drilling it. With all 59 cards currently drafts, the deck is correctly empty with dev mode off and says why.
+- **"Study all" is the fallback** for studying ahead of an exam. It ignores the due date but still reschedules every card graded, and the screen says so — a study-ahead session that silently left the schedule untouched would be more surprising than one that moves it.
+- Grades are written the moment they are given, not at the end of a session, so abandoning a session keeps the work already done. Session state itself stays in memory.
+- The grade buttons show where each choice sends the card ("today", "tomorrow", "15 days") before it is pressed.
