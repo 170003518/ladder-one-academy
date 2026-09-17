@@ -218,6 +218,9 @@ export function renderLadder(state, { modulesByTier, loadError, cardsByTier = {}
       ${meter(computeReadiness(state, modulesByTier.emt || [], cardsByTier.emt || [], 'emt', MODULES_IN_TIER.emt))}
     </div>
     ${banner}
+    <p class="ladder-tools">
+      <a href="#/library">Library</a> — search every concept, card, mnemonic and drug written so far.
+    </p>
     <div class="rungs">
       ${TIERS.map(t => tierCard(t, status[t.key], {
         modules: modulesByTier[t.key] || [],

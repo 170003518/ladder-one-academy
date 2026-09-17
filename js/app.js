@@ -26,6 +26,7 @@ import * as deck from './deck.js';
 import { renderOverview } from './overview.js';
 import { buildWorksheet, renderWorksheetView, newSeed } from './worksheet.js';
 import { renderReadiness } from './readiness.js';
+import { buildIndex, renderLibrary, KINDS } from './library.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -57,6 +58,7 @@ const app = {
   questionsByModule: {},
   decksByModule: {},
   cardsByTier: { emt: [], fire: [], medic: [] },
+  libraryIndex: null,
   loadError: null,
   depth: 'plain'
 };
@@ -174,6 +176,19 @@ async function route() {
     const questions = await loadQuestions(mod.id);
     ctx = { kind: 'exam', module: mod, questions };
     app.el.innerHTML = shell(exam.renderExam(mod, questions));
+    return done();
+  }
+
+  if (parts[0] === 'library') {
+    exam.abandon(); quiz.abandon();
+    // The index is built once from everything already loaded at boot, then
+    // filtered in place — retyping a search should not re-walk the content.
+    if (!app.libraryIndex) {
+      const mods = Object.values(app.modulesByTier).flat();
+      app.libraryIndex = buildIndex(mods, app.decksByModule);
+    }
+    ctx = { kind: 'library', query: '', kinds: new Set(KINDS), limit: 60 };
+    app.el.innerHTML = shell(renderLibrary(app.libraryIndex, ctx));
     return done();
   }
 
@@ -326,6 +341,7 @@ function refresh() {
   if (!ctx) return route();
   if (ctx.kind === 'exam') { app.el.innerHTML = shell(exam.renderExam(ctx.module, ctx.questions)); return; }
   if (ctx.kind === 'print') return route();
+  if (ctx.kind === 'library') { app.el.innerHTML = shell(renderLibrary(app.libraryIndex, ctx)); return; }
   if (ctx.kind === 'readiness') { app.el.innerHTML = shell(renderReadiness(app.modulesByTier.emt, app.cardsByTier.emt)); return; }
   if (ctx.kind === 'worksheet') { app.el.innerHTML = shell(renderWorksheetView(ctx.module, ctx.lesson, ctx.sheet)); return; }
   if (ctx.kind === 'overview') { app.el.innerHTML = shell(renderOverview(ctx.module, ctx.questions)); return; }
@@ -354,8 +370,25 @@ function wire() {
       + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print, '
       + '[data-do-pick], #do-reset, #hear-play, #hear-stop, #teach-submit, #teach-again, '
       + '[data-see-zoom], #see-close, [data-sort-item], [data-sort-bucket], [data-sort-unplace], #sort-check, #sort-reset, '
-      + '#ws-new, #deck-all, #deck-none, #deck-study, #deck-study-all, #deck-flip, [data-grade], #deck-stop, #deck-back');
+      + '#ws-new, #deck-all, #deck-none, #deck-study, #deck-study-all, #deck-flip, [data-grade], #deck-stop, #deck-back, '
+      + '.lib-chip, #lib-more');
     if (!t) return;
+
+    // Library: the filter chips and the show-more button re-render in place,
+    // then the search box is refocused with the caret where it was.
+    if (ctx?.kind === 'library' && (t.classList.contains('lib-chip') || t.id === 'lib-more')) {
+      if (t.id === 'lib-more') ctx.limit += 60;
+      else {
+        const k = t.dataset.kind;
+        if (ctx.kinds.has(k)) ctx.kinds.delete(k); else ctx.kinds.add(k);
+        if (!ctx.kinds.size) KINDS.forEach(x => ctx.kinds.add(x));  // never filter to nothing
+        ctx.limit = 60;
+      }
+      refresh();
+      const box = document.getElementById('lib-q');
+      if (box) { box.focus(); box.setSelectionRange(box.value.length, box.value.length); }
+      return;
+    }
 
     if (t.dataset.depth) { app.depth = t.dataset.depth; return refresh(); }
 
@@ -476,6 +509,15 @@ function wire() {
 
   app.el.addEventListener('input', ev => {
     if (ev.target?.id === 'hear-rate') hear.setRate(ev.target.value);
+
+    if (ev.target?.id === 'lib-q' && ctx?.kind === 'library') {
+      const caret = ev.target.selectionStart;
+      ctx.query = ev.target.value;
+      ctx.limit = 60;
+      refresh();
+      const box = document.getElementById('lib-q');
+      if (box) { box.focus(); box.setSelectionRange(caret, caret); }
+    }
   });
 
   app.el.addEventListener('change', ev => {

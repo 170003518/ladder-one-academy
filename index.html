@@ -106,6 +106,45 @@
   .stub .crumb { font-family: var(--font-display); letter-spacing: var(--tracking-wider); text-transform: uppercase; font-size: var(--fs-xs); color: var(--text-muted); margin-bottom: var(--space-2); }
   .stub h1 { margin-bottom: var(--space-2); }
   .verify-flag { color: var(--signal-yellow); font-size: var(--fs-sm); }
+
+  /* --- Library ----------------------------------------------------------- */
+  .ladder-tools { margin: 0 0 var(--space-4); color: var(--text-muted); font-size: var(--fs-sm); }
+  .ladder-tools a { font-weight: 600; }
+  .library .lead { max-width: 62ch; }
+  .lib-controls { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center;
+    margin: var(--space-4) 0 var(--space-3); }
+  .lib-search { flex: 1 1 22rem; }
+  .lib-search > span { position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+  .lib-search input { width: 100%; padding: 0.6rem 0.8rem; font: inherit; color: var(--text);
+    background: var(--surface-raised); border: 1px solid var(--border); border-radius: 6px; }
+  .lib-search input:focus-visible { outline: 2px solid var(--line-blue); outline-offset: 1px; }
+  .lib-kinds { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .lib-chip { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.7rem;
+    font: inherit; font-size: var(--fs-sm); color: var(--text-muted); cursor: pointer;
+    background: transparent; border: 1px solid var(--border); border-radius: 999px; }
+  .lib-chip span { font-family: var(--font-mono); font-size: 0.75rem; opacity: 0.75; }
+  .lib-chip.is-on { color: var(--text); background: var(--surface-raised); border-color: var(--line-blue); }
+  .lib-count { margin: 0 0 var(--space-3); color: var(--text-muted); font-size: var(--fs-sm); }
+  .lib-empty { color: var(--text-muted); }
+  .lib-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2); }
+  .lib-row { padding: var(--space-3); background: var(--surface-raised); border: 1px solid var(--border);
+    border-radius: 8px; }
+  .lib-row__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-2); }
+  .lib-row__title { margin: 0; font-size: 1rem; }
+  .lib-kind { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em;
+    text-transform: uppercase; padding: 0.15rem 0.45rem; border-radius: 4px;
+    background: var(--navy-500); color: var(--star-white); }
+  .lib-kind--card { background: var(--line-blue); }
+  .lib-kind--mnemonic { background: var(--ember); }
+  .lib-kind--drug { background: #1B7F4B; }
+  .lib-high { color: var(--signal-yellow); }
+  .lib-row__sub { margin: 0.35rem 0 0; color: var(--text-muted); font-size: var(--fs-sm); }
+  .lib-row__detail { margin: 0.35rem 0 0; font-size: var(--fs-sm);
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .lib-row__links { margin: 0.5rem 0 0; display: flex; gap: var(--space-3); font-size: var(--fs-sm); }
+  .lib-more { margin-top: var(--space-3); }
+  @media print { .lib-controls, .lib-row__links, .lib-more { display: none; } }
   .stub-box { border: 1px dashed var(--border); border-radius: var(--radius); padding: var(--space-5); margin: var(--space-5) 0; }
   .stub-box h2 { margin-bottom: var(--space-2); font-size: var(--fs-md); color: var(--text-muted); }
   .back { font-family: var(--font-display); letter-spacing: var(--tracking-wide); text-transform: uppercase; font-size: var(--fs-sm); }
