@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-05",
+  "tier": "emt",
+  "questions": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-01-Q001",
+      "concept_id": "EMT-05-01-01",
+      "style": "recall",
+      "stem": "For a responsive medical patient, what carries the greater diagnostic weight?",
+      "options": [
+        {
+          "text": "The physical examination",
+          "rationale": "On a trauma patient the exam leads; on a medical patient it follows the history."
+        },
+        {
+          "text": "The history of the present illness and past history",
+          "rationale": "Correct. The story usually tells you more than your hands do."
+        },
+        {
+          "text": "The mechanism of injury",
+          "rationale": "Medical patients often have no mechanism at all."
+        },
+        {
+          "text": "The vital signs alone",
+          "rationale": "Vitals matter but rarely name the problem on their own."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-01-Q002",
+      "concept_id": "EMT-05-01-01",
+      "style": "application",
+      "stem": "You arrive to find a medical patient unresponsive with no bystanders. What assessment path do you take?",
+      "options": [
+        {
+          "text": "Wait for family before doing anything",
+          "rationale": "Assessment does not wait on a history that may never arrive."
+        },
+        {
+          "text": "Primary assessment, then a rapid head-to-toe and vital signs, gathering history from the scene",
+          "rationale": "Correct. With no history available, the exam leads and the scene supplies what it can."
+        },
+        {
+          "text": "A focused exam of the chest only",
+          "rationale": "A focused exam needs a history to focus it."
+        },
+        {
+          "text": "History only, from the patient's phone",
+          "rationale": "The phone is not an assessment and the patient needs one now."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-01-Q003",
+      "concept_id": "EMT-05-01-01",
+      "style": "scenario",
+      "stem": "A patient with shortness of breath is talking to you in full sentences. What comes before the history?",
+      "options": [
+        {
+          "text": "Nothing; start with OPQRST immediately",
+          "rationale": "Scene safety and the primary assessment still come first."
+        },
+        {
+          "text": "Scene size-up, precautions, general impression and the primary assessment",
+          "rationale": "Correct. The front of the call does not change because the patient is medical."
+        },
+        {
+          "text": "A full set of vital signs and nothing else",
+          "rationale": "Vitals are part of the assessment but do not replace the primary."
+        },
+        {
+          "text": "Transport decision",
+          "rationale": "A transport decision is made from an assessment, not before one."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-01-Q004",
+      "concept_id": "EMT-05-01-01",
+      "style": "recall",
+      "stem": "How often is an unstable patient reassessed?",
+      "options": [
+        {
+          "text": "Every 5 minutes",
+          "rationale": "Correct. Fifteen minutes is the stable-patient interval."
+        },
+        {
+          "text": "Every 15 minutes",
+          "rationale": "That is the interval for a stable patient."
+        },
+        {
+          "text": "Every 30 minutes",
+          "rationale": "Too long for anybody you are actively worried about."
+        },
+        {
+          "text": "Only on arrival at hospital",
+          "rationale": "Reassessment is continuous during transport."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-02-Q001",
+      "concept_id": "EMT-05-01-02",
+      "style": "recall",
+      "stem": "How should the chief complaint be documented?",
+      "options": [
+        {
+          "text": "As your field impression",
+          "rationale": "The impression is yours; the complaint is the patient's."
+        },
+        {
+          "text": "In the patient's own words, quoted",
+          "rationale": "Correct. The quote is data; a diagnosis written in its place is a guess."
+        },
+        {
+          "text": "As the dispatch code",
+          "rationale": "Dispatch information is often wrong and is not the patient's complaint."
+        },
+        {
+          "text": "As the most likely diagnosis",
+          "rationale": "Writing a diagnosis here passes your guess to everybody downstream."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-02-Q002",
+      "concept_id": "EMT-05-01-02",
+      "style": "application",
+      "stem": "An 82-year-old says only that she feels weak and not right. How should this be regarded?",
+      "options": [
+        {
+          "text": "As a low-acuity complaint",
+          "rationale": "Non-specific complaints in older patients carry a high rate of serious illness."
+        },
+        {
+          "text": "As a complaint that raises the index of suspicion, since serious illness often presents this way",
+          "rationale": "Correct. Cardiac events, sepsis and occult bleeding all present as weakness."
+        },
+        {
+          "text": "As a social call requiring no assessment",
+          "rationale": "Every patient gets an assessment."
+        },
+        {
+          "text": "As anxiety until proven otherwise",
+          "rationale": "That is a diagnosis of exclusion and not one an EMT makes on scene."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-02-Q003",
+      "concept_id": "EMT-05-01-02",
+      "style": "scenario",
+      "stem": "A patient gasps that she cannot breathe. The crew suspects a panic attack. What goes in the chief complaint field?",
+      "options": [
+        {
+          "text": "Anxiety attack",
+          "rationale": "That is an impression, and recording it hands your guess to the hospital."
+        },
+        {
+          "text": "\"I can't breathe\"",
+          "rationale": "Correct. Her words go in the complaint field; your impression goes in the narrative."
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "rationale": "A diagnosis, not a complaint, and one that can mask a real respiratory problem."
+        },
+        {
+          "text": "Psychiatric",
+          "rationale": "A category, not a complaint, and not what she said."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    }
+  ]
+}

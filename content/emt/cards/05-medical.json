@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-05",
+  "tier": "emt",
+  "cards": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-01-C01",
+      "concept_id": "EMT-05-01-01",
+      "type": "concept",
+      "front": {
+        "title": "The medical patient",
+        "summary": "History leads, exam follows"
+      },
+      "back": {
+        "body": "MEDICAL inverts TRAUMA · The story tells you more than your hands do · Scene safety + primary assessment FIRST regardless · RESPONSIVE: OPQRST + SAMPLE, then a focused exam aimed by the history · UNRESPONSIVE: rapid head-to-toe + vitals first, history from family, bottles, the room · Reassess 5 min unstable / 15 min stable",
+        "why_it_matters": "The refrigerator full of insulin is history nobody asked for."
+      },
+      "high_yield": true,
+      "number": 1,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-01-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-02-C02",
+      "concept_id": "EMT-05-01-02",
+      "type": "concept",
+      "front": {
+        "title": "Chief complaint",
+        "summary": "Their words, not your diagnosis"
+      },
+      "back": {
+        "body": "Chief complaint = what the PATIENT says, quoted · Never write your impression in that field · Common: chest pain, SOB, altered mental status, abdominal pain, weakness, dizziness, syncope, nausea/vomiting · VAGUE COMPLAINTS IN OLDER PATIENTS ARE HIGH RISK — cardiac events, sepsis and GI bleeds all present as 'just weak' · The complaint starts the questioning, it does not name the system",
+        "why_it_matters": "Write 'anxiety attack' and every person after you reads your guess instead of her symptom."
+      },
+      "high_yield": true,
+      "number": 2,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-01-02. Check every figure on this card against the source before it is printed or drilled."
+    }
+  ]
+}

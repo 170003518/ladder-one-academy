@@ -31,19 +31,22 @@ import { renderReadiness } from './readiness.js';
    built" from the length of the module list. Question banks are loaded lazily —
    a bank dwarfs its module and is only needed when a check starts. */
 const MODULE_FILES = {
-  emt:   ['content/emt/02-airway.json', 'content/emt/03-assessment.json', 'content/emt/04-cardiology.json'],
+  emt:   ['content/emt/02-airway.json', 'content/emt/03-assessment.json', 'content/emt/04-cardiology.json',
+          'content/emt/05-medical.json'],
   fire:  [],
   medic: []
 };
 const QUESTION_FILES = {
   'EMT-02': 'content/emt/questions/02-airway.json',
   'EMT-03': 'content/emt/questions/03-assessment.json',
-  'EMT-04': 'content/emt/questions/04-cardiology.json'
+  'EMT-04': 'content/emt/questions/04-cardiology.json',
+  'EMT-05': 'content/emt/questions/05-medical.json'
 };
 const CARD_FILES = {
   'EMT-02': 'content/emt/cards/02-airway.json',
   'EMT-03': 'content/emt/cards/03-assessment.json',
-  'EMT-04': 'content/emt/cards/04-cardiology.json'
+  'EMT-04': 'content/emt/cards/04-cardiology.json',
+  'EMT-05': 'content/emt/cards/05-medical.json'
 };
 
 const app = {

@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-05",
+  "tier": "emt",
+  "number": 5,
+  "title": "Medical Emergencies",
+  "short_title": "Medical",
+  "domain_weighting": {
+    "MED": 100
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [
+    {
+      "id": "EMT-05-01",
+      "title": "Medical overview",
+      "concepts": [
+        "EMT-05-01-01",
+        "EMT-05-01-02"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-01",
+      "title": "Approach to the medical patient",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-01-01",
+        "EMT-03-04-01",
+        "EMT-03-06-01"
+      ],
+      "key_points": [
+        "A medical patient's history usually tells you more than the physical exam does, which reverses the trauma priority",
+        "Scene size-up and the primary assessment come first regardless, and a medical call can still have an unsafe scene",
+        "The history of the present illness is gathered with OPQRST, the past history with SAMPLE",
+        "A responsive medical patient gets a history-focused assessment; an unresponsive one gets a rapid head-to-toe first",
+        "Pill bottles, the refrigerator, the room and the family are all part of the history",
+        "Reassess every 5 minutes for an unstable patient and every 15 for a stable one"
+      ],
+      "misconceptions": [
+        "Running a trauma-style rapid exam on a talking medical patient and learning nothing",
+        "Skipping the medication list because the patient 'takes a lot of things'",
+        "Treating an unresponsive medical patient as purely medical and missing an injury from a fall"
+      ],
+      "exam_favorites": [
+        "Why history outweighs exam in a medical patient",
+        "Which assessment path a responsive vs unresponsive medical patient gets",
+        "Reassessment intervals"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A medical patient is different from a trauma patient in one important way: the story matters more than what your hands find.\n\nOn a trauma call you look for damage. You expose, you palpate, you find the broken thing. On a medical call the broken thing is usually invisible. The information is in what the patient tells you, what their medications tell you, and what the room tells you.\n\nSo the order changes. For a responsive medical patient you take the history first and let it steer your exam. OPQRST for what is happening now, SAMPLE for the background. Then you examine what the history points at.\n\nFor an unresponsive medical patient you cannot take a history, so you do the opposite: a rapid head-to-toe, then vital signs, then whatever history you can get from family, from bottles on the counter, from a wallet card.\n\nWhat does not change is the front of the call. Scene safety, standard precautions, general impression, primary assessment, life threats. A medical call can absolutely have an unsafe scene, and a patient who is short of breath still needs an airway checked before you ask about their history.\n\nAnd look around. A refrigerator with insulin in it, a nebuliser on the table, an oxygen concentrator in the corner, a pile of dialysis supplies. That is history.",
+          "standard": "The medical patient assessment inverts the emphasis of the trauma pathway: the history of present illness carries the greater diagnostic weight, with physical examination directed by that history rather than conducted comprehensively. Scene size-up, standard precautions and primary assessment remain unchanged and precede all else. For the responsive medical patient, OPQRST characterises the present complaint and SAMPLE establishes background, after which a focused examination targets the implicated system. For the unresponsive medical patient, a rapid head-to-toe survey and vital signs precede history, which is then obtained from bystanders, family, medication containers and medical identification. Environmental inspection is part of history-gathering. Reassessment occurs at five-minute intervals for the unstable patient and fifteen-minute intervals for the stable patient."
+        },
+        "eli_new": {
+          "analogy": "On a trauma call you are a mechanic looking for the dent. On a medical call you are a detective taking statements.",
+          "body": "New EMTs run the same physical exam on everybody because it feels like doing something. On a medical patient who is talking to you, the exam is the smaller half of the job. Ask, listen, look at the room, and let what you hear decide what you touch."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you assess a responsive medical patient and how that differs from an unresponsive one.",
+          "must_hit": [
+            {
+              "point": "Scene safety and primary assessment first regardless",
+              "accept": [
+                "scene",
+                "safety",
+                "primary",
+                "life threat",
+                "airway"
+              ]
+            },
+            {
+              "point": "Responsive: history first, OPQRST and SAMPLE, then focused exam",
+              "accept": [
+                "history",
+                "opqrst",
+                "sample",
+                "focused",
+                "responsive"
+              ]
+            },
+            {
+              "point": "Unresponsive: rapid head-to-toe first, then history from others",
+              "accept": [
+                "rapid",
+                "head to toe",
+                "unresponsive",
+                "family",
+                "bystander"
+              ]
+            },
+            {
+              "point": "The room and the medications are history",
+              "accept": [
+                "room",
+                "medication",
+                "pill",
+                "bottle",
+                "scene"
+              ]
+            },
+            {
+              "point": "Reassess 5 minutes unstable, 15 stable",
+              "accept": [
+                "five",
+                "fifteen",
+                "reassess",
+                "minute"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The refrigerator",
+          "dispatch": "Medic 4 — 61-year-old female, generally unwell, no other information.",
+          "body": "She said she felt tired and a bit off and could not be more specific than that, and her vitals were unremarkable.\n\nThe student opened the refrigerator looking for somewhere to put the used sharps and saw a shelf of insulin pens.\n\nShe had not mentioned diabetes because nobody had asked, and she did not think of it as being related to feeling tired."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the reassessment intervals and the responsive versus unresponsive assessment pathways against the current text; these are curriculum-standard but wording varies by edition."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-02",
+      "title": "Common medical chief complaints",
+      "domain": "MED",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-03-04-01",
+        "EMT-05-01-01"
+      ],
+      "key_points": [
+        "A chief complaint is what the patient says is wrong, in their words, not your impression of it",
+        "The common EMS medical complaints are chest pain, shortness of breath, altered mental status, abdominal pain, weakness, dizziness, syncope, nausea and vomiting",
+        "Vague complaints like 'weakness' or 'not feeling right' are associated with serious illness surprisingly often, especially in older patients",
+        "The same complaint can come from many systems, so the complaint starts the assessment rather than ending it",
+        "Document the complaint in the patient's own words in quotation marks"
+      ],
+      "misconceptions": [
+        "Rewriting the chief complaint as a diagnosis, for example recording 'anxiety attack' when the patient said they cannot breathe",
+        "Treating 'generalised weakness' as a low-acuity complaint",
+        "Assuming a complaint belongs to the obvious system"
+      ],
+      "exam_favorites": [
+        "Chief complaint in the patient's own words",
+        "Why vague complaints are high risk in older patients"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The chief complaint is what the patient says is wrong. Not what you think is wrong. Their words, in quotation marks, on the report.\n\nThere is a reason to be strict about this. The moment you write down 'anxiety attack' instead of 'I can't breathe', you have made a diagnosis, and everybody downstream of you inherits it. The triage nurse reads your diagnosis instead of the patient's symptom.\n\nThe complaints you will see most are chest pain, shortness of breath, altered mental status, abdominal pain, weakness, dizziness, fainting, and nausea or vomiting.\n\nOne of those deserves particular attention: weakness. 'I just feel weak.' 'I'm not right.' It sounds like nothing. In an older patient it is associated with serious illness often enough that it should raise your index of suspicion rather than lower it. Heart attacks present as weakness. So does sepsis. So does a slow gastrointestinal bleed.\n\nAnd remember that a complaint is a starting point, not a system. Abdominal pain can be cardiac. Shortness of breath can be metabolic. Weakness can be almost anything. The complaint tells you where to begin asking, not where to stop.",
+          "standard": "The chief complaint is recorded as the patient's own stated reason for seeking care, quoted verbatim, and is distinguished from the provider's impression. High-frequency EMS medical complaints include chest pain, dyspnoea, altered mental status, abdominal pain, generalised weakness, dizziness, syncope and nausea or vomiting. Non-specific complaints, particularly generalised weakness in geriatric patients, correlate with serious underlying pathology at a rate that warrants a raised index of suspicion rather than a reduced one; acute coronary syndrome, sepsis and occult gastrointestinal haemorrhage all present this way. A chief complaint localises the initial line of questioning but does not establish the system of origin, and complaints frequently arise from a system other than the one implied."
+        },
+        "eli_new": {
+          "analogy": "The chief complaint is the headline, not the article. It tells you which page to turn to.",
+          "body": "Writing down what the patient actually said feels less professional than writing a diagnosis. It is the opposite. The quote is data; your diagnosis is a guess, and if you write the guess, everybody after you reads the guess."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what a chief complaint is, how it is documented, and why vague complaints deserve attention.",
+          "must_hit": [
+            {
+              "point": "The patient's own words, quoted",
+              "accept": [
+                "own words",
+                "quote",
+                "verbatim",
+                "patient said"
+              ]
+            },
+            {
+              "point": "Not the provider's diagnosis or impression",
+              "accept": [
+                "not a diagnosis",
+                "impression",
+                "diagnose"
+              ]
+            },
+            {
+              "point": "Vague complaints like weakness are high risk, especially in older patients",
+              "accept": [
+                "weak",
+                "vague",
+                "older",
+                "elderly",
+                "geriatric",
+                "non-specific"
+              ]
+            },
+            {
+              "point": "The complaint starts the assessment rather than naming the system",
+              "accept": [
+                "starting point",
+                "system",
+                "begin",
+                "narrow"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Just weak",
+          "dispatch": "Medic 2 — 79-year-old male, generalised weakness, no pain.",
+          "body": "He had been feeling weak for two days. No chest pain, no shortness of breath, nothing that fitted a box.\n\nThe crew wrote down what he said, took a full set of vitals, and transported him without much urgency.\n\nThe complaint on the chart read 'generalised weakness x 2 days'. That was the right thing to write, and it was enough for the nurse to take him seriously."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the list of high-frequency complaints and the association between non-specific complaints and serious illness in older patients against the current text."
+    }
+  ]
+}
