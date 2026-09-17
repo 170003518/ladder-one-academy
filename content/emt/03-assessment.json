@@ -38,6 +38,16 @@
         "EMT-03-02-06",
         "EMT-03-02-07"
       ]
+    },
+    {
+      "id": "EMT-03-03",
+      "title": "History taking",
+      "concepts": [
+        "EMT-03-03-01",
+        "EMT-03-03-02",
+        "EMT-03-03-03",
+        "EMT-03-03-04"
+      ]
     }
   ],
   "concepts": [
@@ -1586,6 +1596,498 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment. Confirm whether the current text teaches XABC explicitly and the exact indications it gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-01",
+      "title": "SAMPLE history",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-03-02",
+        "EMT-03-03-03"
+      ],
+      "key_points": [
+        "SAMPLE is the framework for the history of every patient, medical or trauma",
+        "Signs and symptoms — what you can observe, and what the patient reports",
+        "Allergies — to medications, foods and environment",
+        "Medications — prescribed, over the counter, and anything else taken",
+        "Past medical history — relevant conditions, surgery and hospital admissions",
+        "Last oral intake — what and when, which matters for surgery and for diabetic patients",
+        "Events leading up — what was happening immediately before this started",
+        "The E is the one most often rushed and is frequently the most useful letter"
+      ],
+      "misconceptions": [
+        "Reciting the letters without listening to the answers",
+        "Taking the medication list only from what the patient remembers, when the bottles are on the table",
+        "Skipping last oral intake because it sounds irrelevant"
+      ],
+      "exam_favorites": [
+        "What each letter stands for",
+        "Why events leading up matters",
+        "That it applies to trauma patients too"
+      ],
+      "modes": {
+        "read": {
+          "plain": "SAMPLE is the history you take on everyone. It is deliberately broad, because at the point you are asking you usually do not know what is wrong.\n\nSigns and symptoms is the split between what you can see and measure and what the patient tells you. Allergies covers medications, foods and environment, and is worth asking even when it seems irrelevant. Medications means everything — prescribed, bought over the counter, borrowed, herbal. The most efficient version of this question is not asking; it is collecting the bottles.\n\nPast medical history is the conditions, surgeries and admissions that bear on today. Last oral intake is what and when, which matters if they might go to surgery and matters enormously in a diabetic patient.\n\nEvents leading up is the letter people rush, and it is very often the one that solves the call. What exactly were you doing when this started? The answer separates chest pain at rest from chest pain climbing stairs, and it is the question that finds the seizure behind the crash.\n\nAnd it is not only for medical patients. A trauma patient has a SAMPLE history too, and their medications and past history change how they respond to injury.",
+          "standard": "The SAMPLE mnemonic structures history acquisition for all patients regardless of presentation: Signs and symptoms, Allergies, Medications, Past medical history, Last oral intake, and Events leading up to the incident. Signs are objectively observable findings while symptoms are subjectively reported. Medication histories are most reliably obtained by direct inspection of containers rather than patient recall. Last oral intake informs surgical planning and is of particular significance in diabetic patients. The events preceding onset frequently provide the diagnostically decisive information and are commonly under-explored. SAMPLE applies to trauma presentations as well as medical, as comorbidity and medication influence physiological response to injury."
+        },
+        "eli_new": {
+          "analogy": "Six questions that fit in your pocket and work on a patient you know nothing about.",
+          "body": "The reason the same six questions are used on everybody is that at the moment you ask them, you usually do not yet know what is wrong. A framework that only works once you know the answer is not much of a framework."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Run through SAMPLE and say which letter people most often rush, and why it matters.",
+          "must_hit": [
+            {
+              "point": "Signs and symptoms, Allergies, Medications, Past history, Last intake, Events",
+              "accept": [
+                "sign",
+                "allerg",
+                "medicat",
+                "past",
+                "last",
+                "event"
+              ]
+            },
+            {
+              "point": "Events leading up is the one most often rushed",
+              "accept": [
+                "event",
+                "leading up",
+                "rushed",
+                "last letter",
+                "before"
+              ]
+            },
+            {
+              "point": "Medications are best collected, not recalled",
+              "accept": [
+                "bottle",
+                "bring",
+                "collect",
+                "list",
+                "container"
+              ]
+            },
+            {
+              "point": "It applies to trauma patients too",
+              "accept": [
+                "trauma",
+                "both",
+                "every patient",
+                "injur"
+              ]
+            }
+          ],
+          "model_answer": "Signs and symptoms, Allergies, Medications, Past medical history, Last oral intake, and Events leading up. Signs are what you can see and measure, symptoms are what they report. For medications, collect the bottles rather than relying on memory. Last oral intake matters for surgery and for diabetic patients. The letter people rush is Events — what exactly were you doing when this started — and it is very often the one that solves the call, separating chest pain at rest from chest pain on exertion, or finding the seizure behind a crash. It applies to trauma patients too, because their medications and history change how they respond to injury."
+        },
+        "story": {
+          "title": "The last letter",
+          "dispatch": "Rescue 4 — 58-year-old male, chest pain, at home.",
+          "body": "Everything about the history was unremarkable until the last question.\n\nWhat were you doing when it started? He had been carrying a washing machine up a flight of stairs with his son.\n\nThat single answer changed the whole shape of the call, and it was the one the crew nearly skipped because they already had the other five letters."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "SAMPLE",
+          "expansion": [
+            "Signs and symptoms — what you observe, what they report",
+            "Allergies — medications, foods, environment",
+            "Medications — prescribed, over the counter, anything taken (collect the bottles)",
+            "Past medical history — conditions, surgery, admissions",
+            "Last oral intake — what and when",
+            "Events leading up — what was happening when it started"
+          ],
+          "memory_image": "Six questions in your pocket that work on a patient you know nothing about. The last one usually solves it."
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and the exact expansion the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-02",
+      "title": "OPQRST",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-03-01"
+      ],
+      "related": [
+        "EMT-03-03-01",
+        "EMT-03-03-04"
+      ],
+      "key_points": [
+        "OPQRST interrogates a symptom, usually pain, in detail",
+        "Onset — what were they doing, and did it start suddenly or gradually",
+        "Provocation and palliation — what makes it worse and what makes it better",
+        "Quality — the patient's own words for what it feels like",
+        "Region and radiation — where it is and where it travels",
+        "Severity — a scale, mainly useful for comparison over time",
+        "Time — how long it has been going on, and whether it has happened before",
+        "Quality is recorded in the patient's words, not translated into yours"
+      ],
+      "misconceptions": [
+        "Putting words in the patient's mouth when asking about quality",
+        "Treating a severity score as an objective measurement",
+        "Using OPQRST instead of SAMPLE rather than alongside it"
+      ],
+      "exam_favorites": [
+        "What each letter asks",
+        "Recording quality verbatim",
+        "That severity is for trending"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Where SAMPLE describes the patient, OPQRST describes the complaint. They are companions, not alternatives: SAMPLE is the person, OPQRST is the pain.\n\nOnset asks what they were doing and whether it arrived suddenly or crept up. Provocation and palliation asks what makes it worse and what makes it better — movement, breathing, position, rest, medication. Quality asks what it feels like, and the discipline here is to record their words. If they say it feels like a band around the chest, write that down. Do not offer them a menu of adjectives and then write down the one they picked.\n\nRegion and radiation asks where it is and where it goes. Severity asks for a number, and the number matters far less than people think in absolute terms — its value is comparison. A seven now and a nine in ten minutes tells you something; a seven on its own tells you very little.\n\nTime asks how long, and it is worth adding: has this ever happened before, and was it like this?\n\nUsed together, these two frameworks give you a person and a problem, which is most of what a receiving clinician needs from you.",
+          "standard": "OPQRST provides systematic interrogation of a symptom, most commonly pain: Onset, Provocation and palliation, Quality, Region and radiation, Severity, and Time. Onset establishes activity at the time of symptom initiation and whether onset was abrupt or gradual. Provocation and palliation identify exacerbating and relieving factors. Quality should be documented using the patient's own descriptive language rather than clinician-supplied terminology, as leading questions compromise the diagnostic value of the response. Region and radiation establish location and referral pattern. Severity, typically elicited as a numerical rating, derives its principal value from serial comparison rather than absolute magnitude. Time establishes duration and prior occurrence. OPQRST complements rather than replaces SAMPLE."
+        },
+        "eli_new": {
+          "analogy": "SAMPLE is the person. OPQRST is the pain. You need both to tell the story.",
+          "body": "The commonest error is a leading question. If you ask whether the pain is crushing, a frightened patient will very often say yes, and you have just invented a finding. Ask what it feels like, then stop talking."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Run through OPQRST and explain why quality must be recorded in the patient's own words.",
+          "must_hit": [
+            {
+              "point": "Onset, Provocation/palliation, Quality, Region/radiation, Severity, Time",
+              "accept": [
+                "onset",
+                "provoc",
+                "palliat",
+                "quality",
+                "region",
+                "radiat",
+                "severity",
+                "time"
+              ]
+            },
+            {
+              "point": "Quality in the patient's own words, no leading questions",
+              "accept": [
+                "own words",
+                "their words",
+                "leading",
+                "verbatim",
+                "do not suggest"
+              ]
+            },
+            {
+              "point": "Severity is mainly for comparison over time",
+              "accept": [
+                "compar",
+                "trend",
+                "over time",
+                "serial",
+                "change"
+              ]
+            },
+            {
+              "point": "It complements SAMPLE rather than replacing it",
+              "accept": [
+                "sample",
+                "alongside",
+                "both",
+                "complement",
+                "together"
+              ]
+            }
+          ],
+          "model_answer": "Onset — what were they doing and did it come on suddenly or gradually. Provocation and palliation — what makes it worse and what makes it better. Quality — what it feels like, in their words. Region and radiation — where it is and where it travels. Severity — a number. Time — how long, and has it happened before. Quality goes down verbatim because a leading question invents findings: ask a frightened patient whether it is crushing and many will agree, and now that word is in the record. Severity matters mostly for comparison — a seven that becomes a nine is information, a seven on its own is not much. And it sits alongside SAMPLE, which describes the person rather than the pain."
+        },
+        "story": {
+          "title": "In her own words",
+          "dispatch": "Rescue 4 — 63-year-old female, chest discomfort.",
+          "body": "The student asked whether the pain was crushing. She said yes, because that was the word on offer and she was frightened.\n\nThe paramedic asked her again, differently: what does it actually feel like? She thought about it and said it felt like indigestion, high up, and that it had been coming and going for two days.\n\nBoth answers went in the notes. Only one of them was hers."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "OPQRST",
+          "expansion": [
+            "Onset — what were you doing? sudden or gradual?",
+            "Provocation and palliation — what makes it worse? what makes it better?",
+            "Quality — what does it feel like? (their words, no menu)",
+            "Region and radiation — where is it? where does it go?",
+            "Severity — a number, mainly useful for comparison",
+            "Time — how long? has it happened before?"
+          ],
+          "memory_image": "SAMPLE is the person; OPQRST is the pain. Ask Q and then stop talking."
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and the exact expansion the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-03",
+      "title": "Chief complaint versus the primary problem",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-03-01"
+      ],
+      "related": [
+        "EMT-03-03-04",
+        "EMT-03-04-02"
+      ],
+      "key_points": [
+        "The chief complaint is what the patient says is wrong, in their words",
+        "The primary problem is what is actually threatening them, which may be different",
+        "The chief complaint is recorded as stated, not translated into a diagnosis",
+        "A patient may lead with the symptom that frightens them rather than the one that matters",
+        "Some patients lead with the least alarming complaint out of embarrassment or denial"
+      ],
+      "misconceptions": [
+        "Rewriting the chief complaint into medical language",
+        "Assuming the loudest complaint is the most dangerous one",
+        "Stopping the assessment once the stated complaint is explained"
+      ],
+      "exam_favorites": [
+        "Recording the complaint verbatim",
+        "That the two can differ",
+        "Why patients lead with the wrong thing"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The chief complaint is the answer to why did you call today, recorded in the patient's own words. Not your interpretation of it. If they say I feel funny, the chief complaint is that they feel funny.\n\nThe primary problem is what is actually threatening them, and the gap between the two is where patients get missed.\n\nPeople lead with the symptom that frightens them, which is not reliably the dangerous one. Someone may complain bitterly about a grazed elbow and mention almost in passing that they blacked out before they fell. The elbow is the chief complaint. The syncope is the primary problem.\n\nAnd some patients minimise. They lead with the least alarming thing on the list because they are embarrassed, or frightened of the answer, or do not want to make a fuss. Older patients in particular will apologise for calling while describing something serious.\n\nSo you record what they said, and you keep assessing past it. Explaining the chief complaint is not the same as finishing the call.",
+          "standard": "The chief complaint is the patient's stated reason for seeking care, documented verbatim rather than translated into clinical terminology. The primary problem is the condition presenting the greatest threat, which may differ from the chief complaint. Patients commonly present the symptom producing the most alarm rather than the most clinically significant finding, and may minimise or omit significant symptoms through embarrassment, denial or reluctance to inconvenience responders. Assessment therefore continues beyond explanation of the stated complaint, and identification of a plausible cause for the chief complaint does not conclude the evaluation."
+        },
+        "eli_new": {
+          "analogy": "What they called about and what is wrong with them are two different questions. Ask both.",
+          "body": "The chief complaint is the door the patient opened. It is not necessarily the room the problem is in, and walking through the door and stopping there is how serious things get missed."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between the chief complaint and the primary problem, and why patients often lead with the wrong one.",
+          "must_hit": [
+            {
+              "point": "Chief complaint is what they say, in their words",
+              "accept": [
+                "their words",
+                "verbatim",
+                "what they say",
+                "stated",
+                "own words"
+              ]
+            },
+            {
+              "point": "Primary problem is what is actually threatening them",
+              "accept": [
+                "primary problem",
+                "actual",
+                "threat",
+                "dangerous",
+                "real"
+              ]
+            },
+            {
+              "point": "Patients lead with what frightens them or minimise out of embarrassment",
+              "accept": [
+                "frighten",
+                "embarrass",
+                "minimis",
+                "minimiz",
+                "fuss",
+                "deny",
+                "denial"
+              ]
+            },
+            {
+              "point": "Keep assessing past the stated complaint",
+              "accept": [
+                "keep",
+                "continue",
+                "past",
+                "beyond",
+                "not finished"
+              ]
+            }
+          ],
+          "model_answer": "The chief complaint is what the patient says is wrong, recorded in their words — if they say they feel funny, that is the chief complaint. The primary problem is what is actually threatening them, and the gap between the two is where people get missed. Patients lead with whatever frightens them most, which is not reliably the dangerous thing: someone may complain about a grazed elbow and mention in passing that they blacked out before falling. Others minimise out of embarrassment or a reluctance to be a nuisance, older patients especially. So you record what they said and keep assessing past it, because explaining the complaint is not the same as finishing the call."
+        },
+        "story": {
+          "title": "The elbow",
+          "dispatch": "Rescue 4 — 74-year-old male, fall, minor injury.",
+          "body": "He wanted to talk about his elbow. It was grazed and it was bleeding a little and it clearly annoyed him a great deal.\n\nIt was only when your partner asked what happened just before he fell that he said, offhand, that everything had gone grey for a second.\n\nChief complaint: grazed elbow. Primary problem: syncope in a 74-year-old. He would not have mentioned the second one if nobody had asked."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and the exact expansion the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-04",
+      "title": "Interviewing and difficult histories",
+      "domain": "MED",
+      "difficulty": 3,
+      "prereqs": [
+        "EMT-03-03-01",
+        "EMT-03-03-02"
+      ],
+      "related": [
+        "EMT-03-03-03"
+      ],
+      "key_points": [
+        "Open questions first, closed questions to narrow down",
+        "Get to the patient's eye level and give them time to answer",
+        "Silence is a tool: people fill it with information",
+        "Avoid leading questions, which manufacture findings that were never there",
+        "Children, older adults, patients who are deaf or do not share your language, and intoxicated or frightened patients all need the approach adapted rather than abandoned",
+        "Family and bystanders are a legitimate source when the patient cannot tell you",
+        "Ask about sensitive subjects directly and without an audience"
+      ],
+      "misconceptions": [
+        "Interviewing a patient while standing over them",
+        "Asking leading questions to speed things up",
+        "Interviewing a teenager in front of their parents about sensitive topics",
+        "Giving up on a history because the patient is difficult to interview"
+      ],
+      "exam_favorites": [
+        "Open before closed",
+        "Leading questions manufacture findings",
+        "Adapting rather than abandoning"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A history is a conversation you are steering, and the quality of what you get back depends almost entirely on how you ask.\n\nStart open. What is going on today? Tell me about it. Let them talk before you start narrowing. Then use closed questions to pin down what you still need. Doing it the other way round gives you a series of yes and no answers and no story.\n\nGet down to their eye level. Somebody standing over you is someone you give short answers to. And leave silences alone; most people will fill them, and what they fill them with is often the thing they were not sure whether to mention.\n\nAvoid leading. It is the single most damaging habit in history taking, because it does not merely waste time, it creates findings that were never there and then those findings get handed to the hospital.\n\nSome histories are hard. A frightened child. An older patient who is hard of hearing. Someone who does not share your language. Someone intoxicated, or in pain, or convinced they are wasting your time. None of that is a reason to stop — it is a reason to change how you are asking. Use family. Use the bottles on the side. Use interpretation if you have it.\n\nAnd the sensitive questions — drug use, pregnancy, domestic violence, self-harm — get asked directly, in plain language, and without an audience. A question you asked in front of somebody's partner may as well not have been asked.",
+          "standard": "History acquisition is an interview technique. Open-ended questioning is used initially to elicit narrative, with closed questioning subsequently applied to clarify specific points; reversing this order yields a series of discrete answers without a coherent history. Positioning at the patient's eye level and tolerating silence improve disclosure. Leading questions should be avoided, as they generate findings that were not independently reported and that subsequently propagate into the clinical record. Communication barriers — pediatric and geriatric patients, hearing impairment, language discordance, intoxication and anxiety — require adaptation of technique rather than abandonment of the history, with family members and medication containers serving as legitimate collateral sources. Sensitive subjects are addressed directly and out of the hearing of accompanying persons."
+        },
+        "eli_new": {
+          "analogy": "A leading question does not save you time. It just puts your words into the record with the patient's name on them.",
+          "body": "The instinct under time pressure is to ask fast closed questions, because they produce fast answers. They also produce a history with no shape, and they invite the patient to agree with whatever you suggested. Slowing down for the first thirty seconds usually saves time overall."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you would take a history from a patient who is hard to interview, and what a leading question does.",
+          "must_hit": [
+            {
+              "point": "Open questions first, then closed",
+              "accept": [
+                "open",
+                "closed",
+                "first",
+                "narrow"
+              ]
+            },
+            {
+              "point": "Eye level, time, and allow silence",
+              "accept": [
+                "eye level",
+                "kneel",
+                "sit",
+                "silence",
+                "time",
+                "pause"
+              ]
+            },
+            {
+              "point": "Leading questions create findings that were never there",
+              "accept": [
+                "leading",
+                "suggest",
+                "invent",
+                "manufactur",
+                "put words"
+              ]
+            },
+            {
+              "point": "Adapt rather than abandon; use family and medication containers",
+              "accept": [
+                "family",
+                "bystander",
+                "bottle",
+                "interpret",
+                "adapt",
+                "collateral"
+              ]
+            },
+            {
+              "point": "Sensitive questions asked directly and privately",
+              "accept": [
+                "private",
+                "alone",
+                "without",
+                "sensitive",
+                "directly"
+              ]
+            }
+          ],
+          "model_answer": "Start open — tell me what is going on — and let them talk before narrowing with closed questions; doing it the other way gives you yes-and-no answers and no story. Get to their eye level, give them time, and leave silences alone, because people fill them with the thing they were unsure about mentioning. Never lead: asking whether the pain is crushing manufactures a finding that then follows the patient into hospital. When the interview is hard — a frightened child, someone hard of hearing, no shared language, intoxication — you change the approach rather than give up, using family, the medication bottles, and interpretation. And ask the sensitive things directly and without an audience, because a question asked in front of someone's partner may as well not have been asked."
+        },
+        "story": {
+          "title": "Wait four seconds",
+          "dispatch": "Rescue 4 — 17-year-old female, abdominal pain, at home with parents.",
+          "body": "Her answers in the living room were short and gave you nothing.\n\nOn the way to the ambulance, alone, your partner asked the same question and then said nothing at all for about four seconds.\n\nShe filled the silence. The history changed completely, and so did the destination."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and the exact expansion the current text gives."
     }
   ]
 }

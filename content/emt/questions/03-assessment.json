@@ -1142,6 +1142,366 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-01-Q001",
+      "concept_id": "EMT-03-03-01",
+      "style": "recall",
+      "stem": "What does the E in SAMPLE stand for?",
+      "options": [
+        {
+          "text": "Environment",
+          "rationale": "Environment is not a SAMPLE element."
+        },
+        {
+          "text": "Events leading up to the incident",
+          "rationale": "Correct, and it is very often the letter that solves the call."
+        },
+        {
+          "text": "Examination findings",
+          "rationale": "Examination is separate from the history."
+        },
+        {
+          "text": "Exposure",
+          "rationale": "Exposure belongs to trauma assessment, not SAMPLE."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-01-Q002",
+      "concept_id": "EMT-03-03-01",
+      "style": "application",
+      "stem": "What is the most reliable way to obtain a medication history?",
+      "options": [
+        {
+          "text": "Ask the patient to list them from memory",
+          "rationale": "Recall is the least reliable method available."
+        },
+        {
+          "text": "Collect the containers and bring them with you",
+          "rationale": "Correct. The bottles are more accurate than anyone's memory."
+        },
+        {
+          "text": "Ask a neighbour",
+          "rationale": "A neighbour is a poor source for a medication list."
+        },
+        {
+          "text": "Look at what is in the bathroom cabinet only",
+          "rationale": "Incomplete and not necessarily current."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-01-Q003",
+      "concept_id": "EMT-03-03-01",
+      "style": "application",
+      "stem": "Does SAMPLE apply to trauma patients?",
+      "options": [
+        {
+          "text": "No, it is only for medical patients",
+          "rationale": "It applies to every patient."
+        },
+        {
+          "text": "Yes, because comorbidity and medications change how they respond to injury",
+          "rationale": "Correct. A trauma patient has a history too, and it changes their physiology."
+        },
+        {
+          "text": "Only if they are unresponsive",
+          "rationale": "Responsiveness does not determine whether you take a history."
+        },
+        {
+          "text": "Only for patients over 65",
+          "rationale": "Age is not the criterion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-02-Q001",
+      "concept_id": "EMT-03-03-02",
+      "style": "recall",
+      "stem": "In OPQRST, what does Q ask?",
+      "options": [
+        {
+          "text": "How quickly it came on",
+          "rationale": "That is onset."
+        },
+        {
+          "text": "What it feels like, in the patient's words",
+          "rationale": "Correct, and their words are what gets recorded."
+        },
+        {
+          "text": "How bad it is out of ten",
+          "rationale": "That is severity."
+        },
+        {
+          "text": "Where it is located",
+          "rationale": "That is region."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-02-Q002",
+      "concept_id": "EMT-03-03-02",
+      "style": "application",
+      "stem": "Why should you avoid asking a patient whether their pain is crushing?",
+      "options": [
+        {
+          "text": "Because crushing pain is not clinically relevant",
+          "rationale": "It is relevant, which is exactly why inventing it is harmful."
+        },
+        {
+          "text": "Because a leading question can produce a finding the patient never reported",
+          "rationale": "Correct, and that finding then follows them into hospital."
+        },
+        {
+          "text": "Because patients cannot describe pain accurately",
+          "rationale": "Many describe it very well when not led."
+        },
+        {
+          "text": "Because quality is not part of OPQRST",
+          "rationale": "Quality is the Q."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-02-Q003",
+      "concept_id": "EMT-03-03-02",
+      "style": "application",
+      "stem": "What is a severity score most useful for?",
+      "options": [
+        {
+          "text": "Deciding the transport destination",
+          "rationale": "Destination is not set by a pain score."
+        },
+        {
+          "text": "Comparison over time as the call progresses",
+          "rationale": "Correct. A seven becoming a nine is the information."
+        },
+        {
+          "text": "Determining whether the patient is telling the truth",
+          "rationale": "Not a legitimate use."
+        },
+        {
+          "text": "Calculating a medication dose",
+          "rationale": "EMTs do not dose from a pain score."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-03-Q001",
+      "concept_id": "EMT-03-03-03",
+      "style": "recall",
+      "stem": "How should a chief complaint be recorded?",
+      "options": [
+        {
+          "text": "Translated into medical terminology",
+          "rationale": "Translation loses what the patient actually said."
+        },
+        {
+          "text": "In the patient's own words",
+          "rationale": "Correct. Translation loses the thing the patient actually reported."
+        },
+        {
+          "text": "As your working diagnosis",
+          "rationale": "A diagnosis is not a complaint."
+        },
+        {
+          "text": "As the dispatch code",
+          "rationale": "Dispatch information is not the patient's complaint."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-03-Q002",
+      "concept_id": "EMT-03-03-03",
+      "style": "application",
+      "stem": "A patient complains about a grazed elbow and mentions in passing that he blacked out before falling. What is the primary problem?",
+      "options": [
+        {
+          "text": "The grazed elbow",
+          "rationale": "That is the chief complaint, not the threat."
+        },
+        {
+          "text": "The episode of syncope",
+          "rationale": "Correct — the dangerous finding was the one mentioned in passing."
+        },
+        {
+          "text": "The patient's age",
+          "rationale": "Age is context, not the problem."
+        },
+        {
+          "text": "There is no primary problem if the injury is minor",
+          "rationale": "Minor injury does not exclude a serious cause."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-03-Q003",
+      "concept_id": "EMT-03-03-03",
+      "style": "application",
+      "stem": "Why might a patient lead with a less serious complaint?",
+      "options": [
+        {
+          "text": "Because they are deliberately misleading you",
+          "rationale": "Deliberate deception is rare and not the usual explanation."
+        },
+        {
+          "text": "Because they lead with what frightens them, or minimise out of embarrassment",
+          "rationale": "Correct. Fear and embarrassment both distort which symptom comes first."
+        },
+        {
+          "text": "Because dispatch instructed them to",
+          "rationale": "Dispatch does not shape the complaint that way."
+        },
+        {
+          "text": "Because minor complaints are more common",
+          "rationale": "Prevalence is not the mechanism described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-04-Q001",
+      "concept_id": "EMT-03-03-04",
+      "style": "recall",
+      "stem": "What kind of question should you start a history with?",
+      "options": [
+        {
+          "text": "A closed question, to save time",
+          "rationale": "Closed first produces answers without a story."
+        },
+        {
+          "text": "An open question, to let the patient give a narrative",
+          "rationale": "Correct, then narrow with closed questions."
+        },
+        {
+          "text": "A leading question, to confirm your suspicion",
+          "rationale": "Leading questions manufacture findings."
+        },
+        {
+          "text": "No question; begin with the physical exam",
+          "rationale": "The history usually starts first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-04-Q002",
+      "concept_id": "EMT-03-03-04",
+      "style": "application",
+      "stem": "A teenager gives short, unhelpful answers in front of her parents. What is the best next step?",
+      "options": [
+        {
+          "text": "Accept that no history is obtainable",
+          "rationale": "The history is obtainable with a change of approach."
+        },
+        {
+          "text": "Find a way to ask again privately",
+          "rationale": "Correct. A question asked with an audience may as well not have been asked."
+        },
+        {
+          "text": "Ask the parents to answer for her",
+          "rationale": "Not appropriate for sensitive history."
+        },
+        {
+          "text": "Ask leading questions to speed it up",
+          "rationale": "This would make the record worse, not better."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-04-Q003",
+      "concept_id": "EMT-03-03-04",
+      "style": "scenario",
+      "stem": "Your patient has advanced dementia and cannot give a history. What do you do?",
+      "options": [
+        {
+          "text": "Document that no history was available and move on",
+          "rationale": "Collateral sources are available and should be used."
+        },
+        {
+          "text": "Use family, carers and the medication containers as collateral sources",
+          "rationale": "Correct — adapt rather than abandon."
+        },
+        {
+          "text": "Assume the dispatch information is accurate and complete",
+          "rationale": "Dispatch is not a history."
+        },
+        {
+          "text": "Wait until the patient becomes able to answer",
+          "rationale": "That may never happen."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
