@@ -1,0 +1,727 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-06",
+  "tier": "emt",
+  "questions": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-01-Q001",
+      "concept_id": "EMT-06-01-01",
+      "style": "recall",
+      "stem": "Which factor contributes most to the energy in a collision?",
+      "options": [
+        {
+          "text": "The mass of the vehicle",
+          "rationale": "Mass contributes linearly; speed contributes far more."
+        },
+        {
+          "text": "The speed",
+          "rationale": "Correct. Doubling speed multiplies energy roughly fourfold."
+        },
+        {
+          "text": "The colour of the vehicle",
+          "rationale": "Not a factor in energy transfer."
+        },
+        {
+          "text": "The number of occupants",
+          "rationale": "Not the dominant determinant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-01-Q002",
+      "concept_id": "EMT-06-01-01",
+      "style": "recall",
+      "stem": "What are the three collisions in a vehicle crash?",
+      "options": [
+        {
+          "text": "Front, side and rear impact",
+          "rationale": "Those are impact directions, not the three collisions."
+        },
+        {
+          "text": "Vehicle into object, occupant into vehicle, organs into the body's interior",
+          "rationale": "Correct. The third is the one nobody pictures."
+        },
+        {
+          "text": "Driver, passenger and pedestrian",
+          "rationale": "Not the model described."
+        },
+        {
+          "text": "Impact, rollover and ejection",
+          "rationale": "Those are crash types, not the collision sequence."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-01-Q003",
+      "concept_id": "EMT-06-01-01",
+      "style": "application",
+      "stem": "A stab wound is one centimetre across. What does that tell you about internal damage?",
+      "options": [
+        {
+          "text": "The damage is proportionally small",
+          "rationale": "Wound size correlates poorly with internal damage."
+        },
+        {
+          "text": "Very little — the damage follows the path of the blade, not the size of the hole",
+          "rationale": "Correct. A small hole can conceal multiple organ injuries."
+        },
+        {
+          "text": "There is no internal damage",
+          "rationale": "A small wound excludes nothing."
+        },
+        {
+          "text": "Damage is limited to the skin",
+          "rationale": "Penetrating injury by definition goes deeper."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-01-Q004",
+      "concept_id": "EMT-06-01-01",
+      "style": "application",
+      "stem": "Why should you look at the vehicle before it is towed?",
+      "options": [
+        {
+          "text": "To assess repair costs for documentation",
+          "rationale": "Not a clinical consideration."
+        },
+        {
+          "text": "Because deformation shows where the energy went, and the information is unavailable later",
+          "rationale": "Correct. A starred windscreen and a bent wheel change what the hospital looks for."
+        },
+        {
+          "text": "To determine who was at fault",
+          "rationale": "Not an EMT function."
+        },
+        {
+          "text": "To decide whether the patient is telling the truth",
+          "rationale": "Not the purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-01-Q005",
+      "concept_id": "EMT-06-01-01",
+      "style": "recall",
+      "stem": "How does blunt trauma typically present externally?",
+      "options": [
+        {
+          "text": "With extensive open wounds",
+          "rationale": "Open wounds are more characteristic of penetrating trauma."
+        },
+        {
+          "text": "Often with little to see, despite significant internal injury",
+          "rationale": "Correct. The energy spreads and goes through."
+        },
+        {
+          "text": "Always with obvious deformity",
+          "rationale": "Deformity may be entirely absent."
+        },
+        {
+          "text": "With bleeding that is easy to quantify",
+          "rationale": "Blunt trauma bleeding is often internal and unquantifiable."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-01-Q006",
+      "concept_id": "EMT-06-01-01",
+      "style": "scenario",
+      "stem": "What is the correct role of mechanism in your assessment?",
+      "options": [
+        {
+          "text": "It determines the injuries the patient has",
+          "rationale": "It informs, but does not determine."
+        },
+        {
+          "text": "It raises or lowers your index of suspicion without replacing assessment",
+          "rationale": "Correct. It decides how hard you look, not what you find."
+        },
+        {
+          "text": "It replaces the physical examination in obvious cases",
+          "rationale": "It never replaces assessment."
+        },
+        {
+          "text": "It is irrelevant once the patient is assessed",
+          "rationale": "It shapes how thoroughly you assess."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-02-Q001",
+      "concept_id": "EMT-06-01-02",
+      "style": "recall",
+      "stem": "Which of these raises the index of suspicion sharply?",
+      "options": [
+        {
+          "text": "The patient being anxious",
+          "rationale": "Anxiety is not a mechanism."
+        },
+        {
+          "text": "Death of another occupant in the same vehicle",
+          "rationale": "Correct. It indicates the energy available in that crash."
+        },
+        {
+          "text": "The vehicle being an older model",
+          "rationale": "Not a recognised criterion."
+        },
+        {
+          "text": "The patient not wearing a coat",
+          "rationale": "Not relevant to mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-02-Q002",
+      "concept_id": "EMT-06-01-02",
+      "style": "application",
+      "stem": "An 82-year-old falls from standing height. How significant is this mechanism?",
+      "options": [
+        {
+          "text": "Insignificant, since the distance was small",
+          "rationale": "Ground-level falls are a leading cause of serious injury in older patients."
+        },
+        {
+          "text": "Significant — older patients are injured by considerably less energy",
+          "rationale": "Correct. Brittle bones and reduced reserve change the meaning of the fall."
+        },
+        {
+          "text": "Significant only if they lost consciousness",
+          "rationale": "Loss of consciousness is not required."
+        },
+        {
+          "text": "Equivalent to the same fall in a 25-year-old",
+          "rationale": "The same fall means something quite different at 82."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-02-Q003",
+      "concept_id": "EMT-06-01-02",
+      "style": "recall",
+      "stem": "Where do the numerical thresholds for significant mechanism come from?",
+      "options": [
+        {
+          "text": "A single national standard used everywhere",
+          "rationale": "They vary between systems."
+        },
+        {
+          "text": "Local trauma triage criteria, which vary and are revised",
+          "rationale": "Correct. Use your own service's figures, not a half-remembered number."
+        },
+        {
+          "text": "The patient's insurance provider",
+          "rationale": "Not a clinical source."
+        },
+        {
+          "text": "The attending EMT's judgement alone",
+          "rationale": "Judgement applies, but the criteria are written down locally."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-02-Q004",
+      "concept_id": "EMT-06-01-02",
+      "style": "application",
+      "stem": "A patient in a serious crash says they feel completely fine. How does this affect your index of suspicion?",
+      "options": [
+        {
+          "text": "It lowers it substantially",
+          "rationale": "Adrenaline masks pain and distracting injuries hide others."
+        },
+        {
+          "text": "It does not lower it",
+          "rationale": "Correct. Believe the mechanism over the reassurance."
+        },
+        {
+          "text": "It removes the need for a full assessment",
+          "rationale": "The opposite is true."
+        },
+        {
+          "text": "It means the mechanism was overestimated",
+          "rationale": "The mechanism is assessed from the scene, not the patient's mood."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-02-Q005",
+      "concept_id": "EMT-06-01-02",
+      "style": "recall",
+      "stem": "Why do children warrant particular caution in trauma?",
+      "options": [
+        {
+          "text": "They cannot report symptoms at any age",
+          "rationale": "Many can report symptoms perfectly well."
+        },
+        {
+          "text": "Energy is distributed through less body mass, organs sit closer, and they compensate then crash suddenly",
+          "rationale": "Correct. Their compensation is what hides the severity."
+        },
+        {
+          "text": "They always have less serious injuries",
+          "rationale": "They frequently have more serious ones."
+        },
+        {
+          "text": "They have greater physiological reserve so are never at risk",
+          "rationale": "Their compensation masks injury, which is the danger."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-02-Q006",
+      "concept_id": "EMT-06-01-02",
+      "style": "scenario",
+      "stem": "What does a high index of suspicion change about your care?",
+      "options": [
+        {
+          "text": "Nothing; it is a theoretical concept",
+          "rationale": "It changes three practical things."
+        },
+        {
+          "text": "Assessment thoroughness, transport timing, and what you say at handover",
+          "rationale": "Correct. Saying the mechanism out loud changes how you are met."
+        },
+        {
+          "text": "Only the documentation",
+          "rationale": "It changes clinical decisions as well."
+        },
+        {
+          "text": "Only whether you request air transport",
+          "rationale": "That is one possible consequence among several."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-03-Q001",
+      "concept_id": "EMT-06-01-03",
+      "style": "recall",
+      "stem": "Which trauma triage tier is assessed first?",
+      "options": [
+        {
+          "text": "Mechanism of injury",
+          "rationale": "Mechanism is the third tier."
+        },
+        {
+          "text": "Physiological findings — vital signs and level of consciousness",
+          "rationale": "Correct. Being abnormal now outranks every theory about mechanism."
+        },
+        {
+          "text": "Special considerations such as age",
+          "rationale": "That tier is fourth."
+        },
+        {
+          "text": "Anatomical injuries",
+          "rationale": "Anatomical criteria are second."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-03-Q002",
+      "concept_id": "EMT-06-01-03",
+      "style": "recall",
+      "stem": "Why are trauma triage criteria deliberately over-inclusive?",
+      "options": [
+        {
+          "text": "To increase trauma centre funding",
+          "rationale": "Not the rationale."
+        },
+        {
+          "text": "Because under-triage causes more harm than over-triage",
+          "rationale": "Correct. The two errors are not equivalent."
+        },
+        {
+          "text": "Because EMTs cannot assess patients accurately",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To reduce the number of transports",
+          "rationale": "They increase trauma centre transports, not reduce them."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-03-Q003",
+      "concept_id": "EMT-06-01-03",
+      "style": "application",
+      "stem": "A patient with normal vital signs has an open femur fracture. The local hospital is 6 minutes away; the trauma centre is 20. Where should they go?",
+      "options": [
+        {
+          "text": "The local hospital, since it is closest",
+          "rationale": "Nearest is not automatically right when definitive care is elsewhere."
+        },
+        {
+          "text": "The trauma centre — the named injury meets anatomical criteria",
+          "rationale": "Correct. Fourteen extra minutes beats an hour of transfer."
+        },
+        {
+          "text": "Whichever the patient prefers",
+          "rationale": "Destination is a protocol decision, not a preference."
+        },
+        {
+          "text": "The local hospital, since the vital signs are normal",
+          "rationale": "Anatomical criteria apply regardless of normal physiology."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-03-Q004",
+      "concept_id": "EMT-06-01-03",
+      "style": "application",
+      "stem": "An 88-year-old on an anticoagulant meets no physiological, anatomical or mechanism criteria. What applies?",
+      "options": [
+        {
+          "text": "Nothing further; transport to the nearest facility",
+          "rationale": "The fourth tier exists for exactly this patient."
+        },
+        {
+          "text": "The special considerations tier, which can escalate the destination",
+          "rationale": "Correct. It is the tier most often skipped."
+        },
+        {
+          "text": "Only the mechanism tier, reassessed",
+          "rationale": "The mechanism tier has already been checked."
+        },
+        {
+          "text": "A refusal should be encouraged",
+          "rationale": "Never an appropriate conclusion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-03-Q005",
+      "concept_id": "EMT-06-01-03",
+      "style": "recall",
+      "stem": "Which of these is an anatomical triage criterion?",
+      "options": [
+        {
+          "text": "Being over 65",
+          "rationale": "Age is a special consideration, not an anatomical criterion."
+        },
+        {
+          "text": "Penetrating injury to the torso",
+          "rationale": "Correct. It names an injury requiring trauma centre resources."
+        },
+        {
+          "text": "A rollover crash",
+          "rationale": "That is a mechanism criterion."
+        },
+        {
+          "text": "A systolic pressure of 80",
+          "rationale": "That is a physiological criterion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-03-Q006",
+      "concept_id": "EMT-06-01-03",
+      "style": "scenario",
+      "stem": "What is the main exception to bypassing a nearer hospital?",
+      "options": [
+        {
+          "text": "The patient's family preference",
+          "rationale": "Not a clinical exception."
+        },
+        {
+          "text": "An airway you cannot manage",
+          "rationale": "Correct, and the exception is written into local protocol."
+        },
+        {
+          "text": "Heavy traffic on the route",
+          "rationale": "A practical factor, not the principal clinical exception."
+        },
+        {
+          "text": "The patient being uninsured",
+          "rationale": "Never a clinical consideration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-04-Q001",
+      "concept_id": "EMT-06-01-04",
+      "style": "recall",
+      "stem": "What does definitive care mean for a patient bleeding internally?",
+      "options": [
+        {
+          "text": "High-flow oxygen and a cannula",
+          "rationale": "Neither stops internal bleeding."
+        },
+        {
+          "text": "Surgical control of the bleeding and blood replacement",
+          "rationale": "Correct. Neither is available in an ambulance."
+        },
+        {
+          "text": "A pressure dressing applied on scene",
+          "rationale": "Cannot address bleeding inside the abdomen."
+        },
+        {
+          "text": "A full secondary survey",
+          "rationale": "Assessment is not treatment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-04-Q002",
+      "concept_id": "EMT-06-01-04",
+      "style": "recall",
+      "stem": "How should the traditional one-hour figure be understood?",
+      "options": [
+        {
+          "text": "As a precise biological deadline",
+          "rationale": "Nobody becomes unsalvageable at sixty-one minutes."
+        },
+        {
+          "text": "As a teaching construct — time matters continuously, without a threshold",
+          "rationale": "Correct. Less time is better, with no cliff edge."
+        },
+        {
+          "text": "As a legal requirement for transport times",
+          "rationale": "It is not a legal standard."
+        },
+        {
+          "text": "As applying equally to all patients",
+          "rationale": "It concerns major trauma specifically."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-04-Q003",
+      "concept_id": "EMT-06-01-04",
+      "style": "recall",
+      "stem": "What is the platinum ten minutes?",
+      "options": [
+        {
+          "text": "The time within which definitive care must be delivered",
+          "rationale": "It refers to scene time, not to definitive care."
+        },
+        {
+          "text": "A target of about ten minutes for scene time in major trauma",
+          "rationale": "Correct. Aim to be moving within roughly ten minutes."
+        },
+        {
+          "text": "The interval between injury and the first vital signs",
+          "rationale": "Not what the term describes."
+        },
+        {
+          "text": "The maximum permitted transport time",
+          "rationale": "Not what the term describes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-04-Q004",
+      "concept_id": "EMT-06-01-04",
+      "style": "application",
+      "stem": "Which task belongs on scene rather than en route in major trauma?",
+      "options": [
+        {
+          "text": "A full secondary survey",
+          "rationale": "Works perfectly well in a moving ambulance."
+        },
+        {
+          "text": "Control of catastrophic external bleeding",
+          "rationale": "Correct. It cannot wait and cannot be deferred."
+        },
+        {
+          "text": "Splinting a forearm fracture",
+          "rationale": "Can be done en route."
+        },
+        {
+          "text": "Obtaining a detailed medical history",
+          "rationale": "Can be done en route."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-04-Q005",
+      "concept_id": "EMT-06-01-04",
+      "style": "application",
+      "stem": "A major trauma scene time runs to eleven minutes with no errors made. What was likely the cause?",
+      "options": [
+        {
+          "text": "The crew moved too slowly between tasks",
+          "rationale": "Speed of movement is rarely the cause."
+        },
+        {
+          "text": "Tasks performed sequentially, or deferrable procedures done early",
+          "rationale": "Correct. The remedy is parallel working, not rushing."
+        },
+        {
+          "text": "Insufficient equipment on the vehicle",
+          "rationale": "Not the usual cause."
+        },
+        {
+          "text": "The patient was uncooperative",
+          "rationale": "Not implied by the scenario."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-04-Q006",
+      "concept_id": "EMT-06-01-04",
+      "style": "scenario",
+      "stem": "Is load and go the opposite of good care?",
+      "options": [
+        {
+          "text": "Yes — it means skipping assessment",
+          "rationale": "Assessment is not skipped; it is moved into the ambulance."
+        },
+        {
+          "text": "No — for a patient bleeding internally it is what good care looks like",
+          "rationale": "Correct. A careful scene assessment here is the wrong decision made carefully."
+        },
+        {
+          "text": "Yes — it prioritises speed over the patient",
+          "rationale": "The priority is the patient reaching the treatment."
+        },
+        {
+          "text": "It applies equally to every trauma patient",
+          "rationale": "It applies to major trauma specifically."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    }
+  ]
+}

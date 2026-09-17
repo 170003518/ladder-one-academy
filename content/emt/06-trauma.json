@@ -1,0 +1,693 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-06",
+  "tier": "emt",
+  "number": 6,
+  "title": "Trauma",
+  "short_title": "Trauma",
+  "domain_weighting": {
+    "TRAU": 100
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [
+    {
+      "id": "EMT-06-01",
+      "title": "Trauma overview",
+      "concepts": [
+        "EMT-06-01-01",
+        "EMT-06-01-02",
+        "EMT-06-01-03",
+        "EMT-06-01-04"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-01",
+      "title": "Kinematics: blunt versus penetrating",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-01-02",
+        "EMT-06-07-01"
+      ],
+      "key_points": [
+        "Kinematics is working out what the body absorbed from how the incident happened",
+        "Energy is transferred to tissue and that transfer is what causes injury — speed matters far more than weight",
+        "Blunt trauma spreads energy over a wide area, so injuries are often internal with little to see outside",
+        "Penetrating trauma concentrates energy along a path, so the damage follows the track of the object",
+        "A small external wound in penetrating trauma says nothing about the internal damage",
+        "Look for the three collisions in a vehicle: vehicle into object, occupant into vehicle, organs into the inside of the body",
+        "Examine the scene as well as the patient — a starred windscreen, a bent steering wheel, a deformed door tell you where the energy went",
+        "Kinematics raises or lowers your index of suspicion; it never replaces assessment"
+      ],
+      "misconceptions": [
+        "Assuming a patient is uninjured because there is nothing to see",
+        "Judging a stab wound by the size of the hole",
+        "Not looking at the vehicle before it is towed",
+        "Using mechanism alone to decide a patient is fine"
+      ],
+      "exam_favorites": [
+        "The three collisions",
+        "Why a small penetrating wound means little",
+        "Energy transfer and speed"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Kinematics is the study of what happened to the body, worked out from what happened to everything else. You are reconstructing where the energy went.\n\nThe principle is that injury is energy transferred into tissue. And of the two things that determine how much energy there is, speed matters far more than weight. Doubling the mass roughly doubles the energy; doubling the speed multiplies it by about four. A small car at high speed carries more energy than a large car at low speed, and that is why speed dominates every mechanism discussion.\n\nBlunt trauma spreads that energy across a wide area. Nothing breaks the skin, the force goes through, and organs decelerate, tear, shear and bleed inside a body that looks untouched. This is what makes blunt trauma dangerous to assess: the outside can be almost normal while a spleen is bleeding.\n\nPenetrating trauma does the opposite. It concentrates energy along a narrow path, and the damage follows that path. Which gives you a useful question — what is on the line between the entry point and wherever the object stopped?\n\nAnd here is the thing people get wrong constantly: the size of the external wound tells you nothing. A knife wound may be a centimetre across and have gone through a lung, a diaphragm and a liver. Never be reassured by a small hole.\n\nFor vehicle crashes, think in three collisions. First, the vehicle hits something and stops. Second, the occupant keeps moving and hits the inside of the vehicle — windscreen, wheel, dashboard, door. Third, and the one that gets forgotten, the organs keep moving and hit the inside of the body. That third collision is where the aorta tears and the brain strikes the skull, and there is nothing to see from outside.\n\nWhich is why you look at the vehicle. A starred windscreen means a head hit it. A bent steering wheel means a chest did. An intruding door means the energy came in sideways at somebody's chest and pelvis. Look before it gets towed, because that information is not available later and it genuinely changes what the hospital looks for.\n\nOne caution to finish. Kinematics moves your index of suspicion up or down. It never replaces assessment. A terrible-looking crash can produce an uninjured patient and a trivial one can kill. You use the mechanism to decide how hard to look — not to decide what you will find.",
+          "standard": "Kinematics comprises analysis of energy transfer to tissue derived from incident mechanics. Kinetic energy varies with the square of velocity and linearly with mass, rendering velocity the dominant determinant. Blunt trauma distributes energy across a broad surface, producing internal injury with minimal external evidence through deceleration, shearing and compression. Penetrating trauma concentrates energy along a trajectory, with injury following the path of the projectile or implement; external wound dimensions correlate poorly with internal damage. Vehicular trauma is analysed as three sequential collisions: vehicle with object, occupant with vehicle interior, and viscera with the internal body structures, the last producing aortic disruption and cerebral injury without external signs. Vehicle inspection for windscreen starring, steering wheel deformation and compartment intrusion identifies energy distribution and is unavailable after recovery. Kinematic analysis modifies index of suspicion and does not substitute for assessment."
+        },
+        "eli_new": {
+          "analogy": "Energy has to go somewhere. Kinematics is following it from the bumper, through the windscreen, into the patient, and then into the organs that kept moving after the patient stopped.",
+          "body": "The third collision is the one nobody pictures. The car stops, then the person stops, and then — a fraction of a second later — the organs stop, by hitting the inside of the body. Nothing about that is visible from outside, which is exactly why mechanism matters."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the three collisions, and why a small penetrating wound tells you little.",
+          "must_hit": [
+            {
+              "point": "Injury is energy transferred to tissue, and speed matters more than weight",
+              "accept": [
+                "energy",
+                "transfer",
+                "speed",
+                "velocity",
+                "mass"
+              ]
+            },
+            {
+              "point": "Blunt spreads energy widely, often with little to see outside",
+              "accept": [
+                "blunt",
+                "spread",
+                "internal",
+                "nothing",
+                "outside"
+              ]
+            },
+            {
+              "point": "Penetrating concentrates energy along a path",
+              "accept": [
+                "penetrat",
+                "path",
+                "track",
+                "trajectory",
+                "concentrat"
+              ]
+            },
+            {
+              "point": "Wound size says nothing about internal damage",
+              "accept": [
+                "size",
+                "small",
+                "hole",
+                "nothing",
+                "internal"
+              ]
+            },
+            {
+              "point": "Three collisions: vehicle, occupant, organs",
+              "accept": [
+                "three",
+                "vehicle",
+                "occupant",
+                "organ",
+                "collision"
+              ]
+            },
+            {
+              "point": "Look at the vehicle for where the energy went",
+              "accept": [
+                "vehicle",
+                "windscreen",
+                "windshield",
+                "wheel",
+                "intrusion",
+                "scene"
+              ]
+            },
+            {
+              "point": "Mechanism raises suspicion but never replaces assessment",
+              "accept": [
+                "suspicion",
+                "replace",
+                "assess",
+                "index",
+                "never"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Not a mark on him",
+          "dispatch": "Engine 3 — single vehicle into a wall, driver out and walking.",
+          "body": "He was on the verge, apologetic, entirely uninjured to look at, and quite keen for everybody to go home.\n\nThe officer walked round the car anyway and found the steering wheel bent forward and a starred windscreen.\n\nSomething had hit both of those hard enough to deform them, and that something had been him."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the kinematics principles and the three-collision model against the current text. No specific speed or force thresholds are stated."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-02",
+      "title": "Mechanism-based index of suspicion",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-01-01"
+      ],
+      "related": [
+        "EMT-06-01-01",
+        "EMT-06-01-03",
+        "EMT-05-09-02"
+      ],
+      "key_points": [
+        "Index of suspicion is how strongly you expect injury before you have found any",
+        "It comes from the mechanism, the patient's age and health, and what the scene shows you",
+        "Certain mechanisms raise it sharply: ejection, death of another occupant in the same vehicle, a fall from height, rollover, intrusion into the compartment, and being struck as a pedestrian",
+        "The specific thresholds for significant mechanism vary between systems and are set by local trauma triage criteria — use yours",
+        "Older patients and children are injured by less energy than a healthy adult, so the same mechanism means more in them",
+        "Patients on anticoagulants sustain more serious bleeding from the same mechanism",
+        "A high index of suspicion changes what you do: more thorough assessment, earlier transport decision, and saying it out loud at handover",
+        "The absence of complaint does not lower the index of suspicion, because distracting injuries and adrenaline both mask pain"
+      ],
+      "misconceptions": [
+        "Lowering suspicion because the patient says they are fine",
+        "Applying adult thresholds to a child or an older patient",
+        "Quoting a height or speed threshold from memory instead of the local criteria",
+        "Failing to mention the mechanism at handover"
+      ],
+      "exam_favorites": [
+        "What raises the index of suspicion",
+        "Why age changes the same mechanism",
+        "Not lowering suspicion on a patient's say-so"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Index of suspicion is the expectation you carry before you have found anything. It is not a guess; it is a deliberate position you take based on the mechanism, the patient, and the scene.\n\nSome mechanisms raise it sharply. Ejection from a vehicle. Another occupant in the same vehicle who died. A significant fall. A rollover. Intrusion into the passenger compartment. A pedestrian struck by a vehicle. A motorcyclist separated from the machine. Each of those tells you a large amount of energy was available.\n\nNow, you will have noticed I have not given you numbers — no fall heights, no speeds, no intrusion measurements. That is deliberate. Those thresholds genuinely differ between systems, and they get revised. Your service has trauma triage criteria with specific figures in them and those figures are the ones that matter for your destination decisions. Learn yours, from your own protocol, rather than from a number somebody half-remembers from a different state.\n\nThe patient changes the meaning of the mechanism, and this is where real judgement comes in.\n\nOlder patients are injured by less energy. Bones are more brittle, tissues less elastic, and the reserve to compensate is smaller. A fall from standing height — which in a young adult is nothing — is a genuinely significant mechanism in an eighty-year-old. It is one of the commonest ways older people sustain serious injury, and it barely registers as a mechanism if you are thinking in terms of road speeds.\n\nChildren are different again. They are smaller, so the same energy is distributed through less body, and their organs sit closer together. They also compensate extremely well and then fall apart suddenly.\n\nAnd anticoagulants change everything, as covered elsewhere: the same mechanism, much more bleeding.\n\nSo what does a high index of suspicion actually change? Three things. You assess more thoroughly and you look for things you have not been told about. You make your transport decision earlier rather than waiting to be convinced. And you say it out loud at handover — 'ejected', 'fatality in the same vehicle', 'fall from standing on a blood thinner'. That sentence changes how the receiving team meets you.\n\nOne last point, and it is the one that catches people. A patient saying they feel fine does not lower the index of suspicion. Adrenaline is a powerful painkiller for the first half hour. A dramatic, obvious injury distracts from a quiet serious one. People walk around on fractured spines. Believe the mechanism over the reassurance.",
+          "standard": "Index of suspicion denotes anticipatory expectation of injury derived from mechanism, patient factors and scene findings, established prior to examination. Mechanisms conferring elevated suspicion include ejection, death of another occupant within the same vehicle, falls, rollover, compartment intrusion, pedestrian and motorcyclist impacts. Specific numerical thresholds defining significant mechanism vary between systems and are established by local trauma triage criteria, which govern destination decisions. Geriatric patients sustain injury at lower energy owing to reduced bone density, decreased tissue elasticity and diminished physiological reserve; ground-level falls constitute significant mechanism in this population. Paediatric patients distribute energy through smaller body mass with closer organ proximity and compensate effectively prior to abrupt decompensation. Anticoagulation increases haemorrhage severity for equivalent mechanism. Elevated index of suspicion alters assessment thoroughness, transport timing and handover content. Absence of patient complaint does not reduce index of suspicion owing to catecholamine-mediated analgesia and distracting injury."
+        },
+        "eli_new": {
+          "analogy": "Index of suspicion is how hard you are prepared to look before anybody has given you a reason. The mechanism buys that willingness; the patient's reassurance does not sell it back.",
+          "body": "The mechanism people underrate most is a fall from standing height in an older person. It sounds like nothing next to a road crash, and it is one of the most common ways older patients are seriously hurt."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what raises the index of suspicion, how patient factors change it, and what it changes about your care.",
+          "must_hit": [
+            {
+              "point": "It is the expectation of injury before finding any",
+              "accept": [
+                "expect",
+                "before",
+                "suspicion",
+                "anticipat"
+              ]
+            },
+            {
+              "point": "Ejection, a death in the same vehicle, falls, rollover, intrusion, pedestrians",
+              "accept": [
+                "eject",
+                "death",
+                "fatal",
+                "fall",
+                "rollover",
+                "intrusion",
+                "pedestrian"
+              ]
+            },
+            {
+              "point": "Numeric thresholds come from local trauma triage criteria",
+              "accept": [
+                "local",
+                "protocol",
+                "criteria",
+                "threshold",
+                "triage",
+                "varies"
+              ]
+            },
+            {
+              "point": "Older patients are injured by less energy; a standing fall matters",
+              "accept": [
+                "older",
+                "elderly",
+                "less",
+                "standing",
+                "fall",
+                "brittle"
+              ]
+            },
+            {
+              "point": "Children compensate well then deteriorate suddenly",
+              "accept": [
+                "child",
+                "paediatric",
+                "pediatric",
+                "compensat",
+                "sudden"
+              ]
+            },
+            {
+              "point": "It changes assessment depth, transport timing and handover",
+              "accept": [
+                "assess",
+                "transport",
+                "handover",
+                "earlier",
+                "thorough"
+              ]
+            },
+            {
+              "point": "Feeling fine does not lower it",
+              "accept": [
+                "fine",
+                "feel",
+                "adrenaline",
+                "distract",
+                "mask",
+                "lower"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Off the bottom step",
+          "dispatch": "Medic 1 — 82-year-old female, fall at home, sitting up talking.",
+          "body": "She had missed the bottom step and landed on the hall floor. A metre, at most. It did not sound like a mechanism at all.\n\nThe crew treated it as one, because she was 82 and on an anticoagulant.\n\nA fall from standing is one of the most common ways older people are seriously injured, and it barely registers if you are thinking in road speeds."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the list of high-risk mechanisms against the current text and your own trauma triage criteria. Numerical thresholds for fall height, speed and intrusion are deliberately omitted because they vary between systems and are revised; local criteria govern."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-03",
+      "title": "Trauma triage and destination",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-01-02"
+      ],
+      "related": [
+        "EMT-06-01-02",
+        "EMT-06-01-04",
+        "EMT-06-08-01"
+      ],
+      "key_points": [
+        "Not every injured patient needs a trauma centre, and not every hospital can manage major trauma",
+        "Trauma triage criteria decide destination, and they are set locally — learn yours specifically",
+        "Criteria are usually tiered: physiological findings first, then anatomical injuries, then mechanism, then special patient factors",
+        "Physiological criteria come first because a patient who is abnormal now is the most urgent regardless of what caused it",
+        "Anatomical criteria are specific injuries that need trauma centre resources, such as penetrating injury to the torso or two or more long bone fractures",
+        "Mechanism criteria come third, and they catch patients who look well but were exposed to major energy",
+        "Special considerations include age, anticoagulation, pregnancy and burns, and they can move a patient up a tier",
+        "Under-triage — taking a major trauma patient to the wrong hospital — is more harmful than over-triage, so the criteria are deliberately cautious",
+        "Time to definitive care is what matters, so a longer drive to the right hospital usually beats a short drive to the wrong one"
+      ],
+      "misconceptions": [
+        "Taking a major trauma patient to the nearest hospital because it is nearer",
+        "Applying criteria from memory rather than from the local protocol",
+        "Ignoring the special-considerations tier in older or pregnant patients",
+        "Treating over-triage as an equal error to under-triage"
+      ],
+      "exam_favorites": [
+        "The four tiers in order",
+        "Why physiological criteria come first",
+        "Under-triage versus over-triage",
+        "Nearest is not always right"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two facts sit under this whole concept. Not every injured patient needs a trauma centre — sending everybody would swamp the system and help nobody. And not every hospital can manage major trauma; some do not have a surgeon in the building overnight.\n\nSo there are criteria that decide where a patient goes. They are set locally, they vary, and they are revised. Learn yours specifically, from your own protocol.\n\nWhat is consistent is the structure. The criteria come in tiers, checked in order.\n\nFirst, physiological. What are the vital signs and the level of consciousness doing right now? A patient who is hypotensive, or breathing badly, or has a reduced level of consciousness goes to a trauma centre regardless of what caused it. This tier is first because being abnormal now outranks every theory about mechanism.\n\nSecond, anatomical. Specific injuries that need resources only a trauma centre has: penetrating injury to the head, neck, torso or proximal limbs; two or more long bone fractures; a flail chest; a suspected pelvic fracture; an amputation; paralysis. The patient may look stable, but the injury named is one that needs a surgeon.\n\nThird, mechanism. This tier catches the patient who is physiologically normal, has no obvious named injury, and was exposed to an enormous amount of energy. Ejection, a death in the same vehicle, a significant fall. They may well be fine. Some of them are not, and this tier exists for those.\n\nFourth, special considerations. Age — both ends. Anticoagulation. Pregnancy. Burns. Anything that means this patient tolerates injury worse than the tier they landed in suggests. This tier moves people up, and it is the one most often skipped.\n\nNow the asymmetry that explains why the criteria are deliberately over-inclusive. Over-triage means taking somebody to a trauma centre who turned out not to need it. Cost: resources, and a longer journey for that patient. Under-triage means taking a major trauma patient somewhere that cannot manage them. Cost: a transfer that wastes the hour that mattered most, and sometimes a death.\n\nThose two errors are not equivalent, and the criteria are written knowing that. A degree of over-triage is designed in, on purpose. If you are hesitating between the two, the system's own logic says go to the trauma centre.\n\nWhich answers the question about distance. Nearest is not automatically right. What matters is time to definitive care — to a surgeon, an operating theatre, blood. A longer drive to a hospital that can provide that usually beats a shorter drive to one that will have to arrange a transfer. There are exceptions, chiefly an airway you cannot manage, and those exceptions are in your protocol too.",
+          "standard": "Trauma triage criteria determine destination and are established locally with substantial inter-system variation. Criteria are conventionally structured in sequential tiers. Physiological criteria — abnormal vital signs and reduced level of consciousness — are assessed first, as current physiological derangement supersedes mechanistic inference. Anatomical criteria comprise specific injuries requiring trauma centre resources: penetrating injury to head, neck, torso or proximal extremities; multiple long bone fractures; flail chest; suspected pelvic fracture; amputation; and neurological deficit. Mechanism criteria identify physiologically normal patients exposed to substantial energy transfer. Special consideration criteria — age extremes, anticoagulation, pregnancy, burns — escalate triage tier and are the most frequently omitted. Under-triage carries substantially greater harm than over-triage, as inter-facility transfer consumes the interval of greatest therapeutic value; criteria are therefore deliberately over-inclusive. Destination selection is governed by time to definitive care rather than geographical proximity, with unmanageable airway constituting the principal exception per local protocol."
+        },
+        "eli_new": {
+          "analogy": "Over-triage costs a longer journey. Under-triage costs the hour that mattered. The criteria are written knowing those are not the same mistake.",
+          "body": "The tier people skip is the fourth one. A patient who does not meet physiological, anatomical or mechanism criteria but is 88 and on an anticoagulant is not a low-acuity patient, and that tier exists to catch exactly them."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the four tiers of trauma triage in order and explain why under-triage matters more than over-triage.",
+          "must_hit": [
+            {
+              "point": "Physiological first: vital signs and consciousness now",
+              "accept": [
+                "physiolog",
+                "vital",
+                "conscious",
+                "first",
+                "abnormal"
+              ]
+            },
+            {
+              "point": "Anatomical second: specific injuries needing trauma centre resources",
+              "accept": [
+                "anatom",
+                "penetrat",
+                "fracture",
+                "flail",
+                "injury"
+              ]
+            },
+            {
+              "point": "Mechanism third: well-looking patients exposed to major energy",
+              "accept": [
+                "mechanism",
+                "energy",
+                "eject",
+                "fall",
+                "third"
+              ]
+            },
+            {
+              "point": "Special considerations fourth: age, anticoagulation, pregnancy, burns",
+              "accept": [
+                "age",
+                "anticoagul",
+                "pregnan",
+                "burn",
+                "special"
+              ]
+            },
+            {
+              "point": "Under-triage is more harmful than over-triage",
+              "accept": [
+                "under",
+                "over",
+                "triage",
+                "harm",
+                "worse"
+              ]
+            },
+            {
+              "point": "Criteria are deliberately over-inclusive, and local protocol governs",
+              "accept": [
+                "over-inclusive",
+                "cautious",
+                "local",
+                "protocol",
+                "deliberate"
+              ]
+            },
+            {
+              "point": "Time to definitive care beats geographical nearest",
+              "accept": [
+                "time",
+                "definitive",
+                "nearest",
+                "distance",
+                "surgeon"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Fourteen minutes further",
+          "dispatch": "Medic 3 — motorcyclist versus car, patient conscious and talking.",
+          "body": "His vital signs were normal, he was making jokes, and the local hospital was six minutes away.\n\nHe had an open femur fracture and had been separated from the bike at speed, and the trauma centre was twenty minutes.\n\nThey drove the twenty. Under-triage costs an hour of transfer; over-triage costs fourteen minutes of driving."
+        }
+      },
+      "cards": [
+        "concept",
+        "algorithm"
+      ],
+      "card_data": {
+        "algorithm": {
+          "start": "physio",
+          "nodes": [
+            {
+              "id": "physio",
+              "text": "Abnormal vital signs or reduced level of consciousness?",
+              "kind": "decision"
+            },
+            {
+              "id": "anat",
+              "text": "Named injury: penetrating to head/neck/torso, 2+ long bones, flail chest, pelvic fracture, amputation, paralysis?",
+              "kind": "decision"
+            },
+            {
+              "id": "mech",
+              "text": "High-energy mechanism: ejection, death in same vehicle, significant fall, rollover, intrusion?",
+              "kind": "decision"
+            },
+            {
+              "id": "special",
+              "text": "Age at either extreme, anticoagulated, pregnant, burns?",
+              "kind": "decision"
+            },
+            {
+              "id": "tc",
+              "text": "Trauma centre per local criteria. Pre-alert.",
+              "kind": "action"
+            },
+            {
+              "id": "local",
+              "text": "Closest appropriate facility per local protocol. Reassess en route.",
+              "kind": "action"
+            }
+          ],
+          "branches": [
+            {
+              "from": "physio",
+              "condition": "Yes",
+              "to": "tc"
+            },
+            {
+              "from": "physio",
+              "condition": "No",
+              "to": "anat"
+            },
+            {
+              "from": "anat",
+              "condition": "Yes",
+              "to": "tc"
+            },
+            {
+              "from": "anat",
+              "condition": "No",
+              "to": "mech"
+            },
+            {
+              "from": "mech",
+              "condition": "Yes",
+              "to": "tc"
+            },
+            {
+              "from": "mech",
+              "condition": "No",
+              "to": "special"
+            },
+            {
+              "from": "special",
+              "condition": "Yes",
+              "to": "tc"
+            },
+            {
+              "from": "special",
+              "condition": "No",
+              "to": "local"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the triage tier structure against the current text, and confirm every specific criterion against your own local trauma triage protocol, which governs destination decisions and varies substantially."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-04",
+      "title": "The golden period and the platinum ten minutes",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-01-03"
+      ],
+      "related": [
+        "EMT-06-01-03",
+        "EMT-06-08-01",
+        "EMT-06-02-01"
+      ],
+      "key_points": [
+        "The golden period is the idea that outcomes in major trauma depend on how quickly definitive care is reached",
+        "Definitive care usually means surgery and blood, and neither is available in an ambulance",
+        "The historical figure of one hour is a useful teaching idea rather than a precise biological threshold, and the modern framing is simply that time matters",
+        "The platinum ten minutes is the target for scene time in major trauma: aim to be moving within about ten minutes",
+        "On-scene time is spent only on what cannot be done in a moving ambulance",
+        "Airway, catastrophic bleeding control and extrication are scene tasks; almost everything else can be done en route",
+        "Load and go is not the opposite of good care, it is what good care looks like when the problem is inside the abdomen",
+        "Long scene times in major trauma are usually caused by doing sequentially what could be done simultaneously, or by procedures that could wait"
+      ],
+      "misconceptions": [
+        "Completing a full secondary survey on scene in major trauma",
+        "Treating the one hour as a precise deadline",
+        "Delaying transport for interventions that could be done en route",
+        "Confusing speed with rushing — the goal is efficiency, not panic"
+      ],
+      "exam_favorites": [
+        "What definitive care actually means",
+        "The platinum ten minutes",
+        "What belongs on scene and what belongs en route"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The golden period is the idea that in major trauma, outcome depends heavily on how fast the patient reaches definitive care.\n\nStart with what definitive care means, because the concept is meaningless without it. For a patient bleeding inside their abdomen, definitive care is a surgeon stopping the bleeding and blood replacing what was lost. That is it. It is not oxygen, not a splint, not a cannula, and not anything an ambulance carries. Which means every minute on scene is a minute the actual treatment is not happening.\n\nYou will hear it called the golden hour, and it is worth being honest about that number. It came from observation rather than from a biological threshold, and it has been debated for decades. Nobody becomes unsalvageable at sixty-one minutes. The modern framing is more sensible: for a bleeding trauma patient, time matters, less of it is better, and there is no threshold below which delay stops costing anything.\n\nThe platinum ten minutes is the practical half. It is a target for scene time in major trauma — aim to have the patient moving within about ten minutes of your arrival.\n\nThat sounds impossible until you apply the rule that makes it work: on scene, do only what cannot be done in a moving ambulance.\n\nWhat cannot: managing an airway that is failing now. Stopping catastrophic external bleeding. Getting the patient physically out of the wreckage. Those are scene tasks and they are why you are on scene at all.\n\nWhat can: a full set of vital signs, splinting most things, bandaging most things, the secondary survey, a detailed history, getting a name and date of birth. All of it works fine at fifty kilometres an hour.\n\nLoad and go has a bad reputation, as though it means abandoning care. It does not. It means recognising that for this particular patient the treatment is elsewhere, and everything you can do is done better while travelling towards it. Careful, complete assessment on scene is right for many patients. For the one bleeding internally, it is the wrong choice made carefully.\n\nAnd when scene times run long in major trauma, the cause is usually one of two things. Either tasks are being done one after another that three people could do simultaneously, or somebody is doing a procedure that would work just as well in ten minutes' time. Neither is about speed of movement. The answer is not to rush — rushing causes errors — it is to work in parallel and to leave the deferrable things for the journey.",
+          "standard": "The golden period denotes the relationship between time to definitive care and outcome in major trauma. Definitive care comprises surgical haemorrhage control and blood product administration, neither available prehospitally; scene time therefore represents delay to the only effective intervention. The traditional one-hour figure derives from observational origins rather than a defined physiological threshold and is best understood as a teaching construct; contemporary framing holds that time to definitive care matters continuously without a discrete threshold. The platinum ten minutes denotes a target scene interval of approximately ten minutes in major trauma. Scene interventions are restricted to those impossible during transport: airway management, control of catastrophic external haemorrhage and extrication. Assessment, splinting, bandaging, vital signs and history are performed en route. Prolonged scene times typically result from sequential rather than parallel task performance, or from deferrable procedures performed prematurely; the remedy is parallel working rather than increased speed of movement."
+        },
+        "eli_new": {
+          "analogy": "The treatment for a bleeding abdomen is in an operating theatre. Everything you do on scene happens somewhere the treatment is not.",
+          "body": "Load and go is not the opposite of thorough care. For a patient bleeding internally, a careful complete scene assessment is the wrong decision made carefully. Do the three things that cannot wait, and do everything else while moving."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what definitive care means in major trauma, what the platinum ten minutes is, and what belongs on scene.",
+          "must_hit": [
+            {
+              "point": "Definitive care is surgery and blood, not available in an ambulance",
+              "accept": [
+                "surgery",
+                "surgeon",
+                "blood",
+                "theatre",
+                "definitive",
+                "hospital"
+              ]
+            },
+            {
+              "point": "The one hour figure is a teaching idea, not a precise threshold",
+              "accept": [
+                "hour",
+                "teaching",
+                "not precise",
+                "threshold",
+                "debate",
+                "construct"
+              ]
+            },
+            {
+              "point": "The platinum ten minutes is a scene time target",
+              "accept": [
+                "ten",
+                "platinum",
+                "scene",
+                "target",
+                "minutes"
+              ]
+            },
+            {
+              "point": "On scene do only what cannot be done moving",
+              "accept": [
+                "cannot",
+                "scene",
+                "moving",
+                "en route",
+                "only"
+              ]
+            },
+            {
+              "point": "Airway, catastrophic bleeding and extrication are scene tasks",
+              "accept": [
+                "airway",
+                "bleeding",
+                "haemorrhage",
+                "hemorrhage",
+                "extricat"
+              ]
+            },
+            {
+              "point": "Assessment, splinting and history work fine en route",
+              "accept": [
+                "splint",
+                "assess",
+                "history",
+                "vital",
+                "route",
+                "travel"
+              ]
+            },
+            {
+              "point": "Long scene times come from sequential work, not slow movement",
+              "accept": [
+                "sequential",
+                "parallel",
+                "same time",
+                "simultan",
+                "rush"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Eleven minutes on scene",
+          "dispatch": "Debrief — penetrating abdominal injury, scene time review.",
+          "body": "Everything had been done correctly. Full set of vitals, complete secondary survey, a splint on a forearm, and a careful handover prepared.\n\nAll of it was good care and all of it could have happened in the back of a moving ambulance.\n\nNobody had rushed, and nobody had made a mistake. The eleven minutes were the mistake."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the golden period and platinum ten minute concepts against the current text. The one hour figure is presented as a teaching construct rather than a physiological threshold, which reflects current understanding but should be checked against your own source's wording."
+    }
+  ]
+}

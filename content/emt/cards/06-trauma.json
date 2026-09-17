@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-06",
+  "tier": "emt",
+  "cards": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-01-C01",
+      "concept_id": "EMT-06-01-01",
+      "type": "concept",
+      "front": {
+        "title": "Kinematics",
+        "summary": "Follow where the energy went"
+      },
+      "back": {
+        "body": "INJURY IS ENERGY TRANSFERRED INTO TISSUE · SPEED MATTERS FAR MORE THAN WEIGHT — double the speed, roughly four times the energy · BLUNT: energy spread wide → serious INTERNAL injury with LITTLE TO SEE · PENETRATING: energy along a PATH → ask what is on the line between entry and where it stopped · THE SIZE OF THE HOLE TELLS YOU NOTHING · THREE COLLISIONS: vehicle into object → occupant into vehicle → ORGANS INTO THE INSIDE OF THE BODY · LOOK AT THE VEHICLE BEFORE IT IS TOWED: starred windscreen, bent wheel, intruded door · Mechanism raises suspicion — it NEVER replaces assessment",
+        "why_it_matters": "Something bent that steering wheel and starred that windscreen, and that something was him."
+      },
+      "high_yield": true,
+      "number": 1,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-01-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-02-C02",
+      "concept_id": "EMT-06-01-02",
+      "type": "concept",
+      "front": {
+        "title": "Index of suspicion",
+        "summary": "What you expect before you find anything"
+      },
+      "back": {
+        "body": "RAISED BY: ejection · DEATH OF ANOTHER OCCUPANT · falls · rollover · compartment intrusion · pedestrian or motorcyclist struck · NUMERIC THRESHOLDS COME FROM YOUR LOCAL TRAUMA TRIAGE CRITERIA — they vary and get revised, so use yours · OLDER PATIENTS ARE INJURED BY FAR LESS ENERGY — A FALL FROM STANDING IS A REAL MECHANISM AT 82 · CHILDREN compensate beautifully and then crash · ANTICOAGULANTS: same mechanism, much more bleeding · IT CHANGES: how hard you assess · how early you decide to go · what you say at handover · 'I FEEL FINE' DOES NOT LOWER IT",
+        "why_it_matters": "A metre off the bottom step does not sound like a mechanism. At 82, on a blood thinner, it is one."
+      },
+      "high_yield": true,
+      "number": 2,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-01-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-03-C03",
+      "concept_id": "EMT-06-01-03",
+      "type": "concept",
+      "front": {
+        "title": "Trauma triage and destination",
+        "summary": "Nearest is not automatically right"
+      },
+      "back": {
+        "body": "FOUR TIERS, IN ORDER · 1 PHYSIOLOGICAL: abnormal vitals or reduced consciousness NOW — outranks every theory · 2 ANATOMICAL: penetrating head/neck/torso, 2+ long bones, flail chest, pelvic fracture, amputation, paralysis · 3 MECHANISM: well-looking patient, enormous energy · 4 SPECIAL: age either end, ANTICOAGULATED, pregnant, burns — THE TIER MOST OFTEN SKIPPED · UNDER-TRIAGE IS FAR WORSE THAN OVER-TRIAGE, so the criteria are deliberately cautious — hesitating? Go to the trauma centre · TIME TO DEFINITIVE CARE beats geographical nearest · THE NUMBERS ARE YOUR LOCAL PROTOCOL'S, NOT A REMEMBERED ONE",
+        "why_it_matters": "Under-triage costs an hour of transfer. Over-triage cost them fourteen minutes of driving."
+      },
+      "high_yield": true,
+      "number": 3,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-01-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-03-C04",
+      "concept_id": "EMT-06-01-03",
+      "type": "algorithm",
+      "front": {
+        "title": "Trauma destination",
+        "summary": "Work the tiers in order"
+      },
+      "back": {
+        "body": "See the algorithm card. Physiological → anatomical → mechanism → special considerations. A yes at any tier means trauma centre per local criteria, with a pre-alert. Only a no at all four goes to the closest appropriate facility.",
+        "why_it_matters": "The fourth box is the one people never reach, because they stop looking after the third."
+      },
+      "high_yield": true,
+      "number": 4,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-01-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-01-04-C05",
+      "concept_id": "EMT-06-01-04",
+      "type": "concept",
+      "front": {
+        "title": "Golden period, platinum ten",
+        "summary": "Do only what cannot be done moving"
+      },
+      "back": {
+        "body": "DEFINITIVE CARE = A SURGEON AND BLOOD — neither is on your ambulance · Every scene minute is a minute the treatment is not happening · The 'golden HOUR' is a TEACHING IDEA, not a biological deadline — time matters continuously, no cliff edge · PLATINUM TEN MINUTES = target scene time in major trauma · ON SCENE ONLY: failing AIRWAY · CATASTROPHIC BLEEDING · EXTRICATION · EN ROUTE: vitals, splinting, bandaging, secondary survey, history · LOAD AND GO IS GOOD CARE when the problem is inside the abdomen · Long scene times = SEQUENTIAL work, not slow movement — work in PARALLEL, do not rush",
+        "why_it_matters": "Nobody rushed and nobody made a mistake. The eleven minutes were the mistake."
+      },
+      "high_yield": true,
+      "number": 5,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-01-04. Check every figure on this card against the source before it is printed or drilled."
+    }
+  ]
+}
