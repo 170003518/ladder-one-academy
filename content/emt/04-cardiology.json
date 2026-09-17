@@ -23,6 +23,20 @@
         "EMT-04-01-03",
         "EMT-04-01-04"
       ]
+    },
+    {
+      "id": "EMT-04-02",
+      "title": "Cardiac emergencies",
+      "concepts": [
+        "EMT-04-02-01",
+        "EMT-04-02-02",
+        "EMT-04-02-03",
+        "EMT-04-02-04",
+        "EMT-04-02-05",
+        "EMT-04-02-06",
+        "EMT-04-02-07",
+        "EMT-04-02-08"
+      ]
     }
   ],
   "concepts": [
@@ -532,6 +546,1054 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the anatomy, terminology and any figures against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-01",
+      "title": "Acute coronary syndrome: angina and myocardial infarction",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-01-04"
+      ],
+      "related": [
+        "EMT-04-02-02",
+        "EMT-04-02-08"
+      ],
+      "key_points": [
+        "Both are caused by a coronary artery not delivering enough blood to the muscle it supplies",
+        "Angina is demand outrunning supply, usually brought on by exertion and relieved by rest",
+        "A myocardial infarction is a blockage severe enough that muscle begins to die",
+        "Pain that comes on at rest, lasts longer than usual, or is not relieved by rest is the worrying pattern",
+        "Associated findings include shortness of breath, sweating, nausea, and a feeling of impending doom",
+        "You cannot reliably tell angina from infarction in the field, and you should not try to",
+        "Time matters: muscle that stays without blood does not come back"
+      ],
+      "misconceptions": [
+        "Trying to distinguish angina from infarction on scene",
+        "Being reassured because the pain is not severe",
+        "Waiting to see whether rest relieves it before acting"
+      ],
+      "exam_favorites": [
+        "Demand versus supply",
+        "The worrying pattern",
+        "That you cannot tell them apart in the field"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Both of these come from the same place: a coronary artery that is not delivering what the muscle behind it needs.\n\nAngina is a mismatch. The artery is narrowed, and at rest the supply is just about adequate. Ask the muscle to work harder — climbing stairs, carrying something, an argument — and demand outruns supply, and the muscle complains. Stop, and the demand falls back, and the pain goes. That pattern of predictable exertion and relief by rest is what angina classically looks like.\n\nA myocardial infarction is when the artery blocks badly enough that the muscle downstream is no longer getting what it needs even at rest. It begins to die. Pain arrives without exertion, lasts longer, and does not settle when they stop.\n\nWhat you look for alongside the pain is the autonomic package: breathlessness, sweating, nausea, sometimes vomiting, and that particular anxious feeling patients describe as knowing something is badly wrong.\n\nThe important professional point is that you cannot tell these two apart in the field, and you must not try. The treatment pathway is the same for both, and being right about which one it was is the hospital's job, with tests you do not have. Treat the worst case and move.",
+          "standard": "Acute coronary syndrome encompasses a spectrum of presentations arising from inadequate coronary perfusion of myocardium. Angina pectoris results from a supply-demand mismatch in the presence of coronary stenosis, characteristically precipitated by exertion or emotional stress and relieved by rest as demand falls. Myocardial infarction results from coronary occlusion of sufficient severity to produce myocardial necrosis, characteristically occurring at rest, of longer duration, and unrelieved by rest. Associated autonomic features include dyspnoea, diaphoresis, nausea, vomiting and a subjective sense of impending doom. Prehospital differentiation between angina and infarction is not reliably achievable and is not attempted; management is directed at the more serious possibility, and delay to definitive care directly increases myocardial loss."
+        },
+        "eli_new": {
+          "analogy": "Angina is the muscle complaining. Infarction is the muscle dying. From the outside they can look the same.",
+          "body": "New providers want to decide which one it is, because deciding feels like competence. The competent move is recognising that you cannot decide, treating for the worse of the two, and getting the patient to somewhere that can."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between angina and a myocardial infarction, and why you do not try to tell them apart on scene.",
+          "must_hit": [
+            {
+              "point": "Both come from inadequate coronary blood supply",
+              "accept": [
+                "coronary",
+                "supply",
+                "blood",
+                "artery",
+                "narrow",
+                "block"
+              ]
+            },
+            {
+              "point": "Angina is demand outrunning supply, relieved by rest",
+              "accept": [
+                "exertion",
+                "demand",
+                "rest",
+                "relieved",
+                "predictable"
+              ]
+            },
+            {
+              "point": "Infarction means muscle is dying, and rest does not fix it",
+              "accept": [
+                "dying",
+                "necros",
+                "infarct",
+                "at rest",
+                "not relieved",
+                "longer"
+              ]
+            },
+            {
+              "point": "You cannot reliably distinguish them in the field",
+              "accept": [
+                "cannot",
+                "not distinguish",
+                "same treatment",
+                "hospital",
+                "tests"
+              ]
+            },
+            {
+              "point": "Time matters",
+              "accept": [
+                "time",
+                "muscle",
+                "delay",
+                "does not come back"
+              ]
+            }
+          ],
+          "model_answer": "Both come from a coronary artery failing to deliver what the muscle behind it needs. In angina the artery is narrowed and supply is adequate at rest, so pain appears when demand rises with exertion and goes when they stop. In an infarction the artery is blocked badly enough that the muscle is starved even at rest, and it begins to die — so the pain comes on without exertion, lasts longer and is not relieved by rest. Alongside the pain look for breathlessness, sweating, nausea and that sense of impending doom. And you do not try to tell them apart on scene: the field treatment is the same for both and distinguishing them needs tests you do not have. Treat the worse case and move, because muscle without blood does not come back."
+        },
+        "story": {
+          "title": "It went away last time",
+          "dispatch": "Rescue 6 — 64-year-old male, chest pain, at home.",
+          "body": "He had angina and he knew the drill: sit down, it passes.\n\nHe had been sitting down for forty minutes and it had not passed, and that was the sentence that mattered in the whole history.\n\nHe kept apologising for calling. The thing that had changed was not how bad it was. It was that rest had stopped working."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Cause",
+              "left": "Narrowed artery, demand outruns supply",
+              "right": "Occluded artery, muscle starving"
+            },
+            {
+              "feature": "Trigger",
+              "left": "Usually exertion or stress",
+              "right": "Often at rest"
+            },
+            {
+              "feature": "Relieved by rest",
+              "left": "Usually yes",
+              "right": "No"
+            },
+            {
+              "feature": "Duration",
+              "left": "Shorter, predictable",
+              "right": "Longer, unfamiliar"
+            },
+            {
+              "feature": "Muscle damage",
+              "left": "Not yet",
+              "right": "Occurring now"
+            },
+            {
+              "feature": "Can you tell in the field?",
+              "left": "No",
+              "right": "No — treat the worse case"
+            }
+          ],
+          "left_label": "Angina",
+          "right_label": "Myocardial infarction"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-02",
+      "title": "Atypical presentations",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-02-01"
+      ],
+      "related": [
+        "EMT-04-02-01"
+      ],
+      "key_points": [
+        "Many patients having a heart attack do not have classic chest pain",
+        "Women, people with diabetes and older adults are the groups most often cited for atypical presentation",
+        "Atypical presentations include shortness of breath alone, weakness, nausea or vomiting, back or jaw discomfort, and simply feeling unwell",
+        "Diabetic neuropathy can blunt the pain that would otherwise be the warning",
+        "Silent infarction happens and is more common in these groups",
+        "If the patient is in a high-risk group and something is wrong that you cannot explain, consider a cardiac cause"
+      ],
+      "misconceptions": [
+        "Ruling out a cardiac cause because there is no chest pain",
+        "Attributing weakness and nausea in an older patient to age or a virus",
+        "Expecting every heart attack to look like the one in the textbook"
+      ],
+      "exam_favorites": [
+        "Who presents atypically",
+        "What atypical looks like",
+        "Silent infarction"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The classic picture — crushing central chest pain radiating to the left arm — is real, and it is also not how a very large share of heart attacks arrive.\n\nThree groups come up repeatedly. Women, people with diabetes, and older adults. Their heart attacks are more likely to present without the pain you are expecting.\n\nWhat you get instead is shortness of breath with no pain at all. Or profound weakness and fatigue. Or nausea and vomiting that looks gastrointestinal. Or discomfort in the back, the jaw, the shoulder or the upper abdomen. Or, most difficult of all, a patient who simply feels unwell and cannot tell you why.\n\nThere is a mechanism behind part of this. Long-standing diabetes damages nerves, and nerves are how pain is reported. A patient whose nerves are not delivering the message can have significant muscle damage without the warning that should accompany it. Entirely silent heart attacks happen, and they happen most in exactly these groups.\n\nSo the working rule is a low threshold. A 78-year-old with diabetes who is weak, clammy and vaguely nauseated and cannot explain it has earned a cardiac workup, whatever they are or are not complaining of.",
+          "standard": "A substantial proportion of myocardial infarctions present without classical chest pain. Atypical presentation is disproportionately represented among women, patients with diabetes mellitus and older adults. Presentations include isolated dyspnoea, profound weakness or fatigue, nausea and vomiting suggesting gastrointestinal aetiology, and discomfort referred to the back, jaw, shoulder or epigastrium; non-specific malaise may be the sole complaint. Diabetic autonomic and peripheral neuropathy attenuates nociceptive transmission, and silent infarction occurs with increased frequency in this population. A low threshold for considering acute coronary syndrome is therefore appropriate in high-risk groups presenting with unexplained symptoms irrespective of the presence of chest pain."
+        },
+        "eli_new": {
+          "analogy": "The textbook heart attack is one of the ways it arrives, not the only one.",
+          "body": "The reason atypical presentations get missed is not ignorance, it is pattern matching. You are looking for the picture you were taught, and this patient does not match it, so the search stops. The fix is to make the risk group itself a trigger."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain who is most likely to have an atypical heart attack and what it looks like.",
+          "must_hit": [
+            {
+              "point": "Women, people with diabetes, and older adults",
+              "accept": [
+                "women",
+                "diabet",
+                "older",
+                "elderly"
+              ]
+            },
+            {
+              "point": "Shortness of breath, weakness, nausea, jaw or back discomfort, feeling unwell",
+              "accept": [
+                "breath",
+                "weak",
+                "nausea",
+                "vomit",
+                "jaw",
+                "back",
+                "unwell",
+                "fatigue"
+              ]
+            },
+            {
+              "point": "Diabetic nerve damage blunts the pain warning",
+              "accept": [
+                "neuropath",
+                "nerve",
+                "blunt",
+                "silent",
+                "no pain"
+              ]
+            },
+            {
+              "point": "Low threshold: high-risk group plus unexplained symptoms means consider cardiac",
+              "accept": [
+                "low threshold",
+                "consider",
+                "suspect",
+                "risk group",
+                "unexplained"
+              ]
+            }
+          ],
+          "model_answer": "Women, people with diabetes and older adults are the groups most often cited. Instead of classic chest pain you may get shortness of breath alone, profound weakness, nausea and vomiting that looks gastrointestinal, discomfort in the back, jaw, shoulder or upper abdomen, or a patient who simply feels unwell and cannot say why. There is a mechanism in diabetes: long-standing nerve damage blunts the pain that should be the warning, so significant infarction can occur silently. The working rule is a low threshold — a high-risk patient with unexplained symptoms gets considered as cardiac whether or not they mention their chest."
+        },
+        "story": {
+          "title": "Just tired",
+          "dispatch": "Rescue 6 — 78-year-old female, generally unwell, called by her daughter.",
+          "body": "No chest pain. None at all, and she was asked three different ways.\n\nWhat she had was two days of feeling exhausted, some nausea she blamed on a sandwich, and skin that was faintly damp when you took her hand.\n\nDiabetic for thirty years. The hospital found a substantial infarction and she never once complained of her chest."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-03",
+      "title": "Heart failure: the cardiac presentation",
+      "domain": "CARD",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-01-01"
+      ],
+      "related": [
+        "EMT-02-05-04",
+        "EMT-04-02-04"
+      ],
+      "key_points": [
+        "Heart failure means the heart cannot move blood forward well enough to meet demand",
+        "Left-sided failure backs blood up into the lungs, producing breathlessness and crackles",
+        "Right-sided failure backs blood up into the body, producing swollen ankles and distended neck veins",
+        "The two commonly occur together, because left-sided failure eventually strains the right",
+        "Patients cannot lie flat and often report sleeping on extra pillows or in a chair",
+        "Acute worsening is a common reason for a 999 call and responds to sitting the patient up and, per protocol, CPAP"
+      ],
+      "misconceptions": [
+        "Treating heart failure as a lung disease",
+        "Laying a breathless heart failure patient flat",
+        "Looking only for pulmonary signs and missing the peripheral ones"
+      ],
+      "exam_favorites": [
+        "Left versus right and where it backs up",
+        "Why they cannot lie flat",
+        "That both sides commonly coexist"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Heart failure is a pump problem with consequences that show up wherever the blood is backing up, and the circuit tells you where that will be.\n\nWhen the left side fails, blood stacks up behind it, and what is behind the left side is the lungs. Pressure rises in the lung vessels, fluid is squeezed into the air spaces, and the patient becomes breathless with crackles at the bases. That is the presentation you will meet most often in an emergency.\n\nWhen the right side fails, blood stacks up behind it into the body. Ankles and lower legs swell. Neck veins stand out. The abdomen may become distended.\n\nMost patients with long-standing failure have both, because a struggling left side eventually raises the pressure the right side has to push into, and the right gives way too.\n\nThe practical sign to ask about is posture. These patients cannot lie flat, because lying flat spreads the fluid across more lung. Ask how many pillows they sleep on, and whether that has changed. Moving from two pillows to three, and then to an armchair, is a story of worsening failure told in furniture.\n\nAcute deterioration is a common call, and the immediate things that help are sitting them up, oxygen where indicated, and CPAP within your protocol.",
+          "standard": "Heart failure denotes inadequate forward cardiac output relative to demand. Left ventricular failure produces elevated pulmonary venous pressure with transudation of fluid into the alveolar space, presenting as dyspnoea with bibasal crackles. Right ventricular failure produces systemic venous congestion, manifesting as dependent peripheral oedema, jugular venous distension and abdominal distension. Biventricular failure is common in chronic disease, as left-sided failure elevates pulmonary vascular pressure and imposes additional load on the right ventricle. Orthopnoea results from redistribution of pulmonary fluid in recumbency, and a history of increasing pillow use or sleeping upright provides useful evidence of progression. Acute decompensation is managed by upright positioning, supplemental oxygen where indicated, and continuous positive airway pressure in accordance with protocol."
+        },
+        "eli_new": {
+          "analogy": "The pump fails, and the fluid piles up on whichever side of it failed.",
+          "body": "Left and right failure are easy to mix up until you connect them to the circuit. Whatever is immediately behind the failing chamber is where the fluid goes: behind the left is the lungs, behind the right is the body."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between left-sided and right-sided heart failure and why these patients cannot lie flat.",
+          "must_hit": [
+            {
+              "point": "Left failure backs up into the lungs",
+              "accept": [
+                "left",
+                "lung",
+                "pulmonary",
+                "crackle",
+                "breathless"
+              ]
+            },
+            {
+              "point": "Right failure backs up into the body",
+              "accept": [
+                "right",
+                "ankle",
+                "oedema",
+                "edema",
+                "neck vein",
+                "jvd",
+                "swell"
+              ]
+            },
+            {
+              "point": "Both often coexist",
+              "accept": [
+                "both",
+                "together",
+                "coexist",
+                "eventually"
+              ]
+            },
+            {
+              "point": "Lying flat spreads fluid across more lung",
+              "accept": [
+                "flat",
+                "pillow",
+                "upright",
+                "spread",
+                "orthopn"
+              ]
+            }
+          ],
+          "model_answer": "Heart failure means the pump cannot move blood forward well enough, and the symptoms appear wherever blood backs up. Behind the left side are the lungs, so left-sided failure causes breathlessness and crackles at the bases. Behind the right side is the body, so right-sided failure causes swollen ankles, distended neck veins and sometimes a distended abdomen. Most long-standing patients have both, because a failing left side raises the pressure the right has to work against. They cannot lie flat because lying flat spreads the fluid across more lung — so ask about pillows, and whether that has changed, because two pillows becoming three and then an armchair is the story of the illness. Acutely, sit them up, give oxygen where indicated, and use CPAP within protocol."
+        },
+        "story": {
+          "title": "Told in furniture",
+          "dispatch": "Rescue 6 — 81-year-old male, difficulty breathing, worse for three nights.",
+          "body": "The useful part of the history was not about his chest at all.\n\nHe used to sleep on one pillow. Three months ago it became two. Last week it became three, and for the last three nights he had been sleeping in the armchair by the window.\n\nHis ankles were over the tops of his slippers. Nobody needed a test to know which way this had been going."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Blood backs up into",
+              "left": "The lungs",
+              "right": "The body"
+            },
+            {
+              "feature": "Main symptom",
+              "left": "Breathlessness",
+              "right": "Swelling"
+            },
+            {
+              "feature": "Classic findings",
+              "left": "Crackles, pink frothy sputum",
+              "right": "Ankle oedema, distended neck veins"
+            },
+            {
+              "feature": "Posture",
+              "left": "Cannot lie flat",
+              "right": "Less posture-dependent"
+            },
+            {
+              "feature": "In practice",
+              "left": "Often both",
+              "right": "Often both"
+            }
+          ],
+          "left_label": "Left-sided failure",
+          "right_label": "Right-sided failure"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-04",
+      "title": "Cardiogenic shock",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-02-01",
+        "EMT-04-02-03"
+      ],
+      "related": [
+        "EMT-04-04-03",
+        "EMT-04-04-05"
+      ],
+      "key_points": [
+        "Shock caused by the heart itself failing as a pump, most often after a large myocardial infarction",
+        "The patient has enough blood; the pump cannot move it",
+        "Findings are the usual shock picture — pale, cool, clammy, altered mental status — plus signs of a failing heart",
+        "Unlike hypovolaemic shock, the neck veins are often distended rather than flat",
+        "Fluid is not the answer here and can make it worse by flooding lungs that are already congested",
+        "EMT care is oxygen, position, rapid transport and early ALS; the definitive treatment is in hospital",
+        "Mortality is high and recognition matters more than anything an EMT can do at the roadside"
+      ],
+      "misconceptions": [
+        "Treating cardiogenic shock with fluids as though it were blood loss",
+        "Expecting flat neck veins in every shocked patient",
+        "Laying a patient with pulmonary congestion flat"
+      ],
+      "exam_favorites": [
+        "Pump failure rather than volume loss",
+        "Distended rather than flat neck veins",
+        "Why fluids are wrong"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Cardiogenic shock is the heart failing so badly as a pump that the rest of the body stops being perfused. The commonest cause is a large heart attack that has destroyed enough muscle that what remains cannot do the job.\n\nThe crucial difference from the shock you may be more used to is the volume. In bleeding, there is not enough blood. Here there is plenty of blood; the pump simply cannot move it. That single difference changes what helps and what harms.\n\nThe patient looks shocked in the familiar ways — pale, cool, clammy, confused or drowsy, with a fast weak pulse and eventually a falling blood pressure. What is added is evidence that the heart is the problem: often chest pain or a recent history of it, breathlessness, crackles, and neck veins that are distended rather than flat, because blood is backing up behind a failing pump.\n\nThat neck vein finding is the one worth carrying. A shocked patient with flat neck veins is usually short of volume. A shocked patient with full neck veins usually is not, and giving them fluid can flood lungs that are already wet.\n\nAn EMT's contribution here is recognition, oxygen, an upright position if the lungs are congested, minimal delay, and ALS as early as possible. This is a condition where the useful thing you do is get them somewhere that can help.",
+          "standard": "Cardiogenic shock is hypoperfusion resulting from primary failure of myocardial pump function, most commonly following extensive myocardial infarction. Circulating volume is adequate; the deficit is in forward output. Presentation combines the general features of shock — pallor, cool diaphoretic skin, altered mental status, tachycardia with weak pulses and eventual hypotension — with evidence of cardiac aetiology including chest pain, dyspnoea, pulmonary crackles and jugular venous distension. Distended rather than flat neck veins distinguish it from hypovolaemic shock and indicate that volume administration is inappropriate and potentially harmful, as fluid loading exacerbates pulmonary congestion. Prehospital management comprises recognition, oxygen, appropriate positioning, minimised scene time and early advanced life support activation; mortality remains high and definitive management is in hospital."
+        },
+        "eli_new": {
+          "analogy": "In bleeding, the tank is empty. In cardiogenic shock, the tank is full and the pump has failed.",
+          "body": "The neck veins are the quickest way to separate the two in your head. Empty tank, flat veins. Failed pump, full veins. That one observation changes whether fluid helps or harms."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what cardiogenic shock is and how you would tell it apart from shock caused by bleeding.",
+          "must_hit": [
+            {
+              "point": "The pump fails; volume is adequate",
+              "accept": [
+                "pump",
+                "not volume",
+                "enough blood",
+                "failing heart"
+              ]
+            },
+            {
+              "point": "Usually follows a large myocardial infarction",
+              "accept": [
+                "infarct",
+                "heart attack",
+                "mi"
+              ]
+            },
+            {
+              "point": "Neck veins distended rather than flat",
+              "accept": [
+                "neck vein",
+                "jvd",
+                "distend",
+                "flat",
+                "full"
+              ]
+            },
+            {
+              "point": "Fluids are wrong and can flood the lungs",
+              "accept": [
+                "fluid",
+                "not fluid",
+                "flood",
+                "congest",
+                "harm"
+              ]
+            },
+            {
+              "point": "Recognition, oxygen, position, rapid transport, early ALS",
+              "accept": [
+                "oxygen",
+                "position",
+                "transport",
+                "als",
+                "recogni"
+              ]
+            }
+          ],
+          "model_answer": "It is shock caused by the heart failing as a pump, usually after a large heart attack destroyed enough muscle that what is left cannot do the job. The key difference from bleeding is that there is plenty of blood — the pump just cannot move it. The patient looks shocked in the usual ways, pale, cool, clammy, altered, with a fast weak pulse, but with cardiac evidence added: chest pain or recent chest pain, breathlessness, crackles, and neck veins that are distended rather than flat. That is the quickest discriminator — flat veins means an empty tank, full veins means a failed pump — and it matters because fluid helps the first and floods the lungs of the second. Your contribution is recognition, oxygen, upright positioning if the lungs are wet, minimal delay and early ALS."
+        },
+        "story": {
+          "title": "Full veins",
+          "dispatch": "Rescue 6 — 69-year-old male, collapse, chest pain earlier today.",
+          "body": "He was shocked by every measure. Grey, wet, confused, thready at 130.\n\nThe student reached for the reasoning she knew: shocked patient, give fluid.\n\nThe officer pointed at his neck. The veins were standing out like cords, and his chest was full of crackles. This was a pump that had stopped working, not a tank that had emptied, and a litre of fluid would have gone straight into his lungs."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-05",
+      "title": "Hypertensive emergency",
+      "domain": "CARD",
+      "difficulty": 3,
+      "prereqs": [],
+      "related": [
+        "EMT-04-02-06"
+      ],
+      "key_points": [
+        "A very high blood pressure that is causing damage to organs right now",
+        "The number alone does not make it an emergency; the evidence of damage does",
+        "Warning features include severe headache, visual disturbance, chest pain, breathlessness, altered mental status, seizure and one-sided weakness",
+        "Many people live with chronically high readings and are not in an emergency",
+        "EMT care is calm, position of comfort, oxygen if indicated, and transport with a report of the number and the findings together",
+        "Do not attempt to lower blood pressure in the field"
+      ],
+      "misconceptions": [
+        "Treating a high number in a well patient as an emergency",
+        "Ignoring a high number in a patient with neurological findings",
+        "Attempting to reduce blood pressure at the roadside"
+      ],
+      "exam_favorites": [
+        "Number plus evidence of damage",
+        "That chronic hypertension is not an emergency",
+        "Report both together"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A hypertensive emergency is not defined by how big the number is. It is defined by a very high blood pressure that is actively damaging organs at the moment you are standing there.\n\nThat distinction matters because a great many people walk around with readings that would alarm you and are not in any immediate danger. A number on its own, in a patient who feels well and has no findings, is a number.\n\nWhat turns it into an emergency is evidence. A severe headache, particularly one described as the worst ever. Disturbed vision. Chest pain. Breathlessness. Confusion or altered mental status. A seizure. Weakness or numbness down one side. These say the pressure is doing harm to a brain, a heart or a kidney, and that patient needs to move.\n\nYour job is not to fix the pressure. There is nothing an EMT carries that safely lowers blood pressure, and lowering it too quickly is itself dangerous. Keep them calm, let them sit how they are comfortable, give oxygen if indicated, and transport.\n\nWhen you hand over, give the number and the findings together. A systolic reading with no context invites the wrong conclusion in either direction.",
+          "standard": "Hypertensive emergency denotes severe blood pressure elevation accompanied by evidence of acute end-organ damage, and is defined by the presence of that damage rather than by the absolute value. Chronic asymptomatic hypertension is common and does not constitute an emergency. Features indicating end-organ involvement include severe headache, visual disturbance, chest pain, dyspnoea, altered mental status, seizure and focal neurological deficit, reflecting cerebral, cardiac or renal injury. Prehospital management is supportive: reduction of anxiety, position of comfort, supplemental oxygen where indicated and transport. Attempts to reduce blood pressure in the prehospital environment are not undertaken, as abrupt reduction carries its own risk. Handover should communicate the measured value together with the associated clinical findings."
+        },
+        "eli_new": {
+          "analogy": "The number is not the emergency. What the number is doing to the organs is the emergency.",
+          "body": "A very high reading produces an urge to do something about the reading. There is nothing to do about the reading. The useful question is whether this pressure is currently hurting a brain, a heart or a kidney, and that is answered by looking at the patient rather than the cuff."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what makes a high blood pressure a hypertensive emergency and what you do about it.",
+          "must_hit": [
+            {
+              "point": "Evidence of organ damage, not the number alone",
+              "accept": [
+                "organ",
+                "damage",
+                "not the number",
+                "evidence",
+                "end organ"
+              ]
+            },
+            {
+              "point": "Headache, visual changes, chest pain, altered mental status, seizure, one-sided weakness",
+              "accept": [
+                "headache",
+                "vision",
+                "visual",
+                "chest",
+                "altered",
+                "seizure",
+                "weakness"
+              ]
+            },
+            {
+              "point": "Chronic high readings are common and not emergencies",
+              "accept": [
+                "chronic",
+                "many people",
+                "live with",
+                "not an emergency"
+              ]
+            },
+            {
+              "point": "Do not try to lower it; support and transport",
+              "accept": [
+                "do not lower",
+                "not lower",
+                "transport",
+                "calm",
+                "support"
+              ]
+            }
+          ],
+          "model_answer": "It is a very high pressure that is actively damaging organs right now, and it is the damage rather than the number that defines it — plenty of people live with readings that would alarm you and are in no immediate danger. The evidence you look for is a severe headache, disturbed vision, chest pain, breathlessness, confusion, a seizure, or one-sided weakness, all of which say a brain, heart or kidney is being harmed. You do not try to lower the pressure: nothing an EMT carries does that safely, and dropping it too fast is dangerous in itself. Keep them calm, let them sit comfortably, oxygen if indicated, transport — and hand over the number and the findings together."
+        },
+        "story": {
+          "title": "Two hundred and ten",
+          "dispatch": "Rescue 6 — 58-year-old male, headache, home.",
+          "body": "The systolic reading was high enough that the student went quiet.\n\nWhat mattered was not the number. It was that he said this was the worst headache of his life, that the light was hurting his eyes, and that his wife said he had been muddling his words for about an hour.\n\nThe same number, in a man with no symptoms, would have been a different call entirely."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-06",
+      "title": "Aortic aneurysm and dissection",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-01-01"
+      ],
+      "related": [
+        "EMT-04-02-01",
+        "EMT-04-02-05"
+      ],
+      "key_points": [
+        "The aorta is the largest artery in the body, leaving the left ventricle",
+        "An aneurysm is a weakened, bulging section of the wall; a dissection is a tear allowing blood between the layers",
+        "Classic dissection pain is sudden, severe, tearing or ripping, often described as the worst pain of the patient's life",
+        "Pain in the chest may radiate to the back and between the shoulder blades",
+        "A difference in blood pressure or pulse between the two arms is a suggestive finding",
+        "An abdominal aneurysm may present as back or abdominal pain with a pulsating mass",
+        "Do not palpate deeply or repeatedly if you suspect an abdominal aneurysm",
+        "There is nothing an EMT can do but recognise, handle gently, and move fast"
+      ],
+      "misconceptions": [
+        "Deeply palpating a suspected abdominal aortic aneurysm",
+        "Dismissing tearing back pain as musculoskeletal",
+        "Failing to check both arms when dissection is suspected"
+      ],
+      "exam_favorites": [
+        "Tearing pain radiating to the back",
+        "The two-arm difference",
+        "Not palpating a suspected AAA"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The aorta is the main pipe out of the heart, and its problems are among the most lethal things you will meet.\n\nAn aneurysm is a section of the wall that has weakened and ballooned outward. A dissection is a tear in the inner lining that lets blood force its way between the layers of the wall, splitting them apart. Both can rupture, and rupture is usually rapidly fatal.\n\nThe pain is the thing patients remember. Sudden, severe, and described as tearing or ripping rather than crushing. It often starts in the chest and goes through to the back, between the shoulder blades. Patients frequently say it is the worst pain they have ever had, and they often can tell you the exact second it started.\n\nOne physical finding is worth knowing: a significant difference in blood pressure or pulse strength between the two arms, which can happen when the dissection involves the vessels supplying one arm.\n\nAn abdominal aneurysm presents differently — abdominal or back pain, sometimes with a pulsating mass in the abdomen. If you suspect one, do not go pressing on it. Deep or repeated palpation of a weakened aortic wall is exactly what you do not want to do.\n\nThere is no field treatment. Recognise it, handle the patient gently, give oxygen if indicated, do not delay, and tell the hospital what you are worried about.",
+          "standard": "The aorta is the principal systemic artery arising from the left ventricle. Aortic aneurysm denotes pathological dilatation of a weakened arterial wall; aortic dissection denotes an intimal tear permitting blood to enter and separate the layers of the arterial wall. Both carry risk of rupture with high associated mortality. Dissection characteristically produces abrupt, severe pain described as tearing or ripping, frequently anterior with radiation to the interscapular region, and of an intensity patients identify as unprecedented with a precisely identifiable onset. A significant differential in blood pressure or pulse quality between the upper limbs is a suggestive finding where the dissection involves the origin of a subclavian vessel. Abdominal aortic aneurysm may present with abdominal or back pain and a pulsatile mass; deep or repeated palpation is contraindicated. No prehospital intervention alters the pathology; management comprises recognition, gentle handling, oxygen where indicated, expedited transport and early notification."
+        },
+        "eli_new": {
+          "analogy": "Crushing is the word for a heart attack. Tearing is the word that should make you think of the aorta.",
+          "body": "The word patients choose does real diagnostic work here. Nobody describes angina as ripping. When someone reaches for tearing, ripping or splitting, and can tell you the exact moment it began, that vocabulary should move the aorta up your list."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what an aortic dissection is, what the pain classically sounds like, and what you must not do if you suspect an abdominal aneurysm.",
+          "must_hit": [
+            {
+              "point": "A tear letting blood between the layers of the aortic wall",
+              "accept": [
+                "tear",
+                "layer",
+                "split",
+                "dissect",
+                "wall"
+              ]
+            },
+            {
+              "point": "Sudden, severe, tearing or ripping pain",
+              "accept": [
+                "tearing",
+                "ripping",
+                "sudden",
+                "severe",
+                "worst"
+              ]
+            },
+            {
+              "point": "Often radiates to the back between the shoulder blades",
+              "accept": [
+                "back",
+                "shoulder blade",
+                "interscapular",
+                "through to"
+              ]
+            },
+            {
+              "point": "Check both arms for a difference",
+              "accept": [
+                "both arms",
+                "two arms",
+                "difference",
+                "arm"
+              ]
+            },
+            {
+              "point": "Do not palpate a suspected abdominal aneurysm deeply",
+              "accept": [
+                "do not palpate",
+                "not press",
+                "deep",
+                "palpat"
+              ]
+            }
+          ],
+          "model_answer": "An aneurysm is a weakened ballooning section of the aortic wall; a dissection is a tear in the lining that lets blood force its way between the layers and split them apart. Both can rupture and rupture is usually fatal. The pain is sudden, severe, and described as tearing or ripping rather than crushing, often starting in the chest and going through to the back between the shoulder blades, and patients often know the exact second it started. A meaningful difference in blood pressure or pulse between the two arms is suggestive, so check both. If you suspect an abdominal aneurysm, do not palpate deeply or repeatedly — pressing on a weakened aortic wall is the last thing you want to do. There is no field treatment: recognise, handle gently, move, and tell the hospital."
+        },
+        "story": {
+          "title": "The word he used",
+          "dispatch": "Rescue 6 — 61-year-old male, chest and back pain, sudden onset.",
+          "body": "He said it felt like something had torn. Not crushing, not pressure — torn, and he could name the minute.\n\nIt had started between his shoulder blades and come round to the front.\n\nThe blood pressure in his right arm and his left arm were not close to each other, and that was the finding that went in the pre-alert."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-07",
+      "title": "Cardiac arrest causes and sudden cardiac death",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-04-03-01",
+        "EMT-04-03-02",
+        "EMT-03-02-04"
+      ],
+      "key_points": [
+        "Cardiac arrest is the heart stopping effective pumping; the patient is unresponsive, not breathing normally, and has no pulse",
+        "Sudden cardiac death most often follows a lethal rhythm disturbance, frequently triggered by a heart attack",
+        "Other causes include respiratory failure, severe blood loss, electrolyte problems, drowning, electrocution, overdose and hypothermia",
+        "In adults the commonest path is a primary cardiac event; in children it is more often respiratory",
+        "Agonal gasps are common in the first minutes and are frequently mistaken for breathing",
+        "The interventions that change outcome are early recognition, early compressions and early defibrillation"
+      ],
+      "misconceptions": [
+        "Mistaking agonal gasps for breathing and delaying compressions",
+        "Assuming a pediatric arrest has the same cause as an adult one",
+        "Searching for a cause before starting compressions"
+      ],
+      "exam_favorites": [
+        "What cardiac arrest is",
+        "Adult versus pediatric cause",
+        "Agonal gasps"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Cardiac arrest means the heart has stopped pumping effectively. The patient is unresponsive, is not breathing normally, and has no pulse, and those three findings together are the whole definition.\n\nIn adults, the commonest route is a lethal rhythm disturbance — the electrical system degenerates into something that quivers instead of pumping — and the commonest trigger for that is a heart attack. That is what sudden cardiac death usually is.\n\nThere are other causes, and it is worth holding them loosely in mind: respiratory failure that went on too long, catastrophic blood loss, electrolyte disturbances, drowning, electrocution, overdose and severe hypothermia.\n\nThe age difference matters. Adults arrest from their hearts. Children much more often arrest from their breathing — a respiratory problem that was not fixed, which eventually starves the heart. That is why airway and ventilation carry more weight in a pediatric arrest.\n\nOne recognition point causes more delay than anything else: agonal gasps. In the first minutes after an arrest, many patients make slow, irregular, gulping movements. They look like breathing to anyone who has not seen them before, and they are not. A patient who is unresponsive and making those movements is in arrest.\n\nAnd resist the urge to work out why before you start. The things that change outcomes are recognising it, starting compressions, and getting a defibrillator on. The cause can be considered while the compressions are already happening.",
+          "standard": "Cardiac arrest denotes cessation of effective cardiac output, identified by unresponsiveness, absence of normal breathing and absence of a palpable pulse. In adults, sudden cardiac death most commonly results from malignant dysrhythmia, frequently precipitated by acute myocardial infarction. Additional aetiologies include respiratory failure, exsanguination, electrolyte disturbance, submersion, electrocution, toxic ingestion and severe hypothermia. Aetiology differs by age: adult arrest is predominantly of primary cardiac origin, whereas pediatric arrest more commonly results from progressive respiratory failure, which alters the emphasis placed on airway and ventilation. Agonal respiration occurs frequently in the early minutes following arrest and is commonly misinterpreted as effective breathing, producing delay in initiating compressions. Outcome is determined principally by early recognition, early chest compressions and early defibrillation rather than by identification of the underlying cause."
+        },
+        "eli_new": {
+          "analogy": "Three findings and you are done deciding: unresponsive, not breathing normally, no pulse. Start.",
+          "body": "The gap between an arrest happening and compressions starting is almost entirely made of hesitation, and most of that hesitation is somebody watching agonal gasps and wondering whether that counts as breathing. It does not."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define cardiac arrest, explain how causes differ between adults and children, and describe why agonal gasps cause delay.",
+          "must_hit": [
+            {
+              "point": "Unresponsive, not breathing normally, no pulse",
+              "accept": [
+                "unresponsive",
+                "not breathing",
+                "no pulse",
+                "pulseless"
+              ]
+            },
+            {
+              "point": "Adults usually a lethal rhythm, often triggered by a heart attack",
+              "accept": [
+                "rhythm",
+                "cardiac",
+                "heart attack",
+                "infarct",
+                "dysrhythm"
+              ]
+            },
+            {
+              "point": "Children more often respiratory in origin",
+              "accept": [
+                "child",
+                "pediatric",
+                "respiratory",
+                "breathing"
+              ]
+            },
+            {
+              "point": "Agonal gasps look like breathing and are not",
+              "accept": [
+                "agonal",
+                "gasp",
+                "look like",
+                "mistake",
+                "not breathing"
+              ]
+            },
+            {
+              "point": "Early recognition, compressions and defibrillation change outcome",
+              "accept": [
+                "compress",
+                "defibrillat",
+                "early",
+                "aed",
+                "recogni"
+              ]
+            }
+          ],
+          "model_answer": "Cardiac arrest is the heart no longer pumping effectively, and the definition is three findings together: unresponsive, not breathing normally, no pulse. In adults it usually comes from a lethal rhythm disturbance, most often triggered by a heart attack — that is what sudden cardiac death generally is. Other causes include respiratory failure, major blood loss, electrolyte problems, drowning, electrocution, overdose and hypothermia. In children the cause is far more often respiratory, a breathing problem that was not fixed, which is why airway and ventilation matter more in a paediatric arrest. Agonal gasps — slow irregular gulping in the first minutes — look like breathing to anyone who has not seen them, and mistaking them is the commonest source of delay. What changes outcome is early recognition, early compressions and early defibrillation, not working out the cause first."
+        },
+        "story": {
+          "title": "Eleven seconds",
+          "dispatch": "Rescue 6 — collapse in a supermarket, staff on scene.",
+          "body": "The staff member said he was still breathing, and from where she was standing he was: big, slow, gulping movements every ten seconds or so.\n\nYour partner had two fingers on his neck before the sentence finished and said, no pulse, starting.\n\nEleven seconds from door to first compression. Everything that mattered on that call had already happened by the time anybody wondered why he had arrested."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08",
+      "title": "Assisting with aspirin and nitroglycerin",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-02-01"
+      ],
+      "related": [
+        "EMT-04-02-01",
+        "EMT-02-05-10"
+      ],
+      "key_points": [
+        "Both are assisted rather than administered independently, within protocol and often with medical direction",
+        "Aspirin is given for suspected acute coronary syndrome because it reduces clot formation",
+        "Aspirin is withheld where there is an allergy, or per protocol where there is active bleeding or a bleeding disorder",
+        "Aspirin is chewed rather than swallowed whole so it acts faster",
+        "Nitroglycerin dilates blood vessels and reduces the heart's workload, and is assisted with the patient's own prescribed medication",
+        "Nitroglycerin can drop blood pressure sharply, so a blood pressure is checked before and after every dose",
+        "Nitroglycerin is contraindicated where the patient has recently taken erectile dysfunction medication, because the combination can cause a catastrophic fall in pressure",
+        "Always run the six rights before assisting"
+      ],
+      "misconceptions": [
+        "Assisting with nitroglycerin without checking a blood pressure first",
+        "Failing to ask about erectile dysfunction medication because it feels awkward",
+        "Assisting with medication prescribed to somebody else",
+        "Giving aspirin to swallow whole"
+      ],
+      "exam_favorites": [
+        "Why aspirin is chewed",
+        "Blood pressure before and after nitroglycerin",
+        "The erectile dysfunction medication interaction"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two medications an EMT may assist with in a cardiac call. Neither is carried and administered on your own authority: you are helping a patient take something, within protocol and usually after speaking to medical direction.\n\nAspirin is given because it makes platelets less likely to clump, which matters when the problem is a clot forming in a coronary artery. The practical detail is that it is chewed rather than swallowed, because chewing gets it working sooner. You withhold it for a known allergy, and per your protocol where there is active bleeding or a bleeding disorder.\n\nNitroglycerin relaxes blood vessels. That reduces how hard the heart has to work and can relieve the pain of angina. You are assisting with the patient's own prescription.\n\nAnd it has a consequence that dictates the whole procedure: it can drop blood pressure sharply. So you take a blood pressure before every dose and after every dose, and you follow the thresholds in your protocol about when not to give it.\n\nThere is one interaction that has to be asked about explicitly. Erectile dysfunction medications work in a related way, and taken together with nitroglycerin they can produce a catastrophic and sometimes fatal fall in blood pressure. This question is awkward and it is not optional. Ask it directly, ask it out of earshot of family, and ask it of every patient, regardless of age or who is in the room.\n\nAnd run the six rights before assisting with either.",
+          "standard": "Aspirin and nitroglycerin are administered at EMT level by assisting the patient, under protocol and commonly with online medical direction. Aspirin exerts antiplatelet effect and is indicated in suspected acute coronary syndrome; it is chewed rather than swallowed to accelerate absorption. Contraindications include known hypersensitivity and, per protocol, active haemorrhage or bleeding disorder. Nitroglycerin produces vasodilation, reducing myocardial workload and relieving anginal pain, and is assisted using the patient's own prescribed supply. Because nitroglycerin may produce marked hypotension, blood pressure is measured before and after each dose and protocol thresholds observed. Concurrent use of phosphodiesterase inhibitors prescribed for erectile dysfunction constitutes a contraindication, as the combination may precipitate profound and potentially fatal hypotension; this history must be elicited directly, privately and from every patient irrespective of age. The six rights are verified prior to assisting with either medication."
+        },
+        "eli_new": {
+          "analogy": "Nitroglycerin opens the pipes. If someone has already taken something else that opens the pipes, the pressure has nowhere to go.",
+          "body": "The erectile dysfunction question is skipped constantly, because it is embarrassing to ask and people assume it does not apply to the patient in front of them. It is asked of everybody, quietly, away from the family, because the consequence of not asking can be fatal."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what you check before assisting a patient with nitroglycerin and why aspirin is chewed.",
+          "must_hit": [
+            {
+              "point": "Assisting with the patient's own prescription, per protocol",
+              "accept": [
+                "own",
+                "prescribed",
+                "protocol",
+                "medical direction",
+                "assist"
+              ]
+            },
+            {
+              "point": "Aspirin is chewed to work faster",
+              "accept": [
+                "chew",
+                "faster",
+                "absorb",
+                "sooner"
+              ]
+            },
+            {
+              "point": "Blood pressure before and after every nitroglycerin dose",
+              "accept": [
+                "blood pressure",
+                "before",
+                "after",
+                "bp"
+              ]
+            },
+            {
+              "point": "Ask about erectile dysfunction medication",
+              "accept": [
+                "erectile",
+                "ed medication",
+                "sildenafil",
+                "viagra",
+                "interaction"
+              ]
+            },
+            {
+              "point": "Run the six rights",
+              "accept": [
+                "six rights",
+                "right patient",
+                "rights"
+              ]
+            }
+          ],
+          "model_answer": "You are assisting with the patient's own prescribed medication, under protocol and usually after medical direction, and you run the six rights first. Aspirin is chewed rather than swallowed because chewing gets it absorbed and working sooner; you withhold it for a known allergy and, per protocol, for active bleeding or a bleeding disorder. Nitroglycerin relaxes blood vessels and reduces the heart's workload, but it can drop blood pressure sharply, so you take a blood pressure before and after every single dose and follow your protocol's thresholds. And you must ask directly about erectile dysfunction medication, because the combination can cause a catastrophic fall in pressure. Ask it of every patient, quietly and out of earshot of family, however awkward it feels."
+        },
+        "story": {
+          "title": "Ask everybody",
+          "dispatch": "Rescue 6 — 72-year-old male, chest pain, at home with his daughter.",
+          "body": "The medic asked the daughter to fetch his medication list from upstairs, which she did, and which took about ninety seconds.\n\nIn those ninety seconds he asked the question, quietly, and the answer was yes, last night.\n\nHe was seventy-two and his daughter was in the house and it would have been very easy not to ask. The nitroglycerin did not get given."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Assisting with nitroglycerin",
+          "steps": [
+            {
+              "text": "Confirm suspected cardiac chest pain and obtain protocol or medical direction approval",
+              "critical": true
+            },
+            {
+              "text": "Confirm the medication is prescribed to THIS patient and is in date",
+              "critical": true
+            },
+            {
+              "text": "Ask directly and privately about erectile dysfunction medication",
+              "critical": true,
+              "note": "The combination can cause a catastrophic fall in blood pressure. Ask every patient."
+            },
+            {
+              "text": "Take and record a blood pressure BEFORE the dose",
+              "critical": true,
+              "note": "Follow your protocol's minimum systolic threshold."
+            },
+            {
+              "text": "Run the six rights",
+              "critical": true
+            },
+            {
+              "text": "Assist the patient to take the dose as prescribed",
+              "critical": false
+            },
+            {
+              "text": "Take and record a blood pressure AFTER the dose",
+              "critical": true
+            },
+            {
+              "text": "Reassess pain, vital signs and mental status, and document",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted. Confirm the contraindication list, the protocol thresholds for blood pressure, and the medication names and doses from your own protocol."
     }
   ]
 }

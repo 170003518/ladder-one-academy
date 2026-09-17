@@ -127,6 +127,281 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-01-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-01-C01",
+      "concept_id": "EMT-04-02-01",
+      "type": "concept",
+      "front": {
+        "title": "Angina and infarction",
+        "summary": "The muscle complaining, or dying"
+      },
+      "back": {
+        "body": "Both = a coronary artery not delivering enough · ANGINA: narrowed artery, demand outruns supply on exertion, RELIEVED BY REST · INFARCTION: blocked enough that muscle starves at rest and begins to DIE, not relieved by rest, lasts longer · Look for breathlessness, sweating, nausea, impending doom · You CANNOT tell them apart in the field — treat the worse case",
+        "why_it_matters": "The change that matters in a known angina patient is that rest stopped working."
+      },
+      "high_yield": true,
+      "number": 6,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-01-C02",
+      "concept_id": "EMT-04-02-01",
+      "type": "compare",
+      "front": {
+        "title": "Angina vs. MI",
+        "summary": "What separates them, and what does not"
+      },
+      "back": {
+        "body": "Angina is provoked by exertion and relieved by rest; infarction often starts at rest, lasts longer and does not settle. Angina has not yet damaged muscle; infarction is damaging it now. Neither can be reliably distinguished in the field.",
+        "why_it_matters": "Deciding which it is feels like competence. Recognising you cannot is the competent move."
+      },
+      "high_yield": false,
+      "number": 7,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-02-C03",
+      "concept_id": "EMT-04-02-02",
+      "type": "concept",
+      "front": {
+        "title": "Atypical presentation",
+        "summary": "Not every heart attack hurts"
+      },
+      "back": {
+        "body": "WOMEN · PEOPLE WITH DIABETES · OLDER ADULTS are the groups most often cited · Instead of chest pain: shortness of breath alone, profound weakness, nausea or vomiting, back, jaw or shoulder discomfort, or just feeling unwell · Diabetic nerve damage BLUNTS the warning — silent infarction happens · High-risk group + unexplained symptoms = consider cardiac",
+        "why_it_matters": "The classic picture is one way it arrives, not the only one."
+      },
+      "high_yield": true,
+      "number": 8,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-03-C04",
+      "concept_id": "EMT-04-02-03",
+      "type": "concept",
+      "front": {
+        "title": "Heart failure",
+        "summary": "The fluid piles up behind whichever side failed"
+      },
+      "back": {
+        "body": "LEFT fails → backs into the LUNGS → breathlessness, crackles · RIGHT fails → backs into the BODY → swollen ankles, distended neck veins · Most chronic patients have BOTH · Cannot lie flat — ask about PILLOWS and whether that has changed · Acutely: sit them up, oxygen if indicated, CPAP per protocol",
+        "why_it_matters": "Two pillows becoming three and then an armchair is the story of the illness, told in furniture."
+      },
+      "high_yield": true,
+      "number": 9,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-03-C05",
+      "concept_id": "EMT-04-02-03",
+      "type": "compare",
+      "front": {
+        "title": "Left vs. right heart failure",
+        "summary": "Where the blood backs up"
+      },
+      "back": {
+        "body": "Left-sided failure backs blood into the lungs, producing breathlessness, crackles and pink frothy sputum, and the patient cannot lie flat. Right-sided failure backs blood into the body, producing ankle swelling and distended neck veins. In chronic disease both are usually present.",
+        "why_it_matters": "Whatever sits immediately behind the failing chamber is where the fluid goes."
+      },
+      "high_yield": false,
+      "number": 10,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-04-C06",
+      "concept_id": "EMT-04-02-04",
+      "type": "concept",
+      "front": {
+        "title": "Cardiogenic shock",
+        "summary": "Full tank, failed pump"
+      },
+      "back": {
+        "body": "Shock from the HEART failing as a pump, usually after a large MI · Volume is ADEQUATE — the pump cannot move it · Usual shock picture PLUS cardiac evidence: chest pain, breathlessness, crackles · NECK VEINS DISTENDED, not flat — that is the discriminator · FLUID IS WRONG here and floods congested lungs · Oxygen, position, fast transport, early ALS",
+        "why_it_matters": "Empty tank, flat veins. Failed pump, full veins. That one look changes the treatment."
+      },
+      "high_yield": true,
+      "number": 11,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-05-C07",
+      "concept_id": "EMT-04-02-05",
+      "type": "concept",
+      "front": {
+        "title": "Hypertensive emergency",
+        "summary": "The damage, not the number"
+      },
+      "back": {
+        "body": "Defined by EVIDENCE OF ORGAN DAMAGE, not by how big the reading is · Many people live with high readings and are not emergencies · Warning features: worst-ever headache, visual disturbance, chest pain, breathlessness, altered mental status, seizure, one-sided weakness · DO NOT try to lower it in the field · Calm, position of comfort, oxygen if indicated, transport · Report the NUMBER AND THE FINDINGS together",
+        "why_it_matters": "There is nothing to do about the reading. The question is what the reading is doing to the organs."
+      },
+      "high_yield": false,
+      "number": 12,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-06-C08",
+      "concept_id": "EMT-04-02-06",
+      "type": "concept",
+      "front": {
+        "title": "Aortic aneurysm and dissection",
+        "summary": "When the word is tearing"
+      },
+      "back": {
+        "body": "Aneurysm = weakened ballooning wall · Dissection = tear letting blood BETWEEN the layers · Pain: SUDDEN, severe, TEARING or RIPPING, chest through to the back between the shoulder blades, often the worst of their life with an exact known onset · Check BOTH ARMS for a blood pressure difference · Abdominal AAA: back or abdominal pain, pulsating mass — DO NOT PALPATE DEEPLY · No field treatment: recognise, gentle, fast",
+        "why_it_matters": "Nobody describes angina as ripping. The word the patient chooses does real work here."
+      },
+      "high_yield": true,
+      "number": 13,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-07-C09",
+      "concept_id": "EMT-04-02-07",
+      "type": "concept",
+      "front": {
+        "title": "Cardiac arrest",
+        "summary": "Three findings and you start"
+      },
+      "back": {
+        "body": "Unresponsive + not breathing normally + no pulse · Adults: usually a lethal RHYTHM, most often triggered by a heart attack · Children: far more often RESPIRATORY in origin · Other causes: respiratory failure, blood loss, electrolytes, drowning, electrocution, overdose, hypothermia · AGONAL GASPS look like breathing and are not · Outcome is set by early recognition, early compressions, early defibrillation — not by finding the cause",
+        "why_it_matters": "Almost all the delay between arrest and compressions is somebody watching agonal gasps and wondering."
+      },
+      "high_yield": true,
+      "number": 14,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-C10",
+      "concept_id": "EMT-04-02-08",
+      "type": "concept",
+      "front": {
+        "title": "Aspirin and nitroglycerin",
+        "summary": "Assisting, not administering"
+      },
+      "back": {
+        "body": "Patient's OWN prescription, per protocol, usually with medical direction · Six rights every time · ASPIRIN: reduces clot formation, CHEWED not swallowed so it works sooner; withhold for allergy and per protocol for active bleeding · NITROGLYCERIN: dilates vessels, reduces workload; BLOOD PRESSURE BEFORE AND AFTER EVERY DOSE · ASK EVERY PATIENT about erectile dysfunction medication — privately — the combination can be fatal",
+        "why_it_matters": "Seventy-two years old with his daughter in the house is exactly the patient nobody asks."
+      },
+      "high_yield": true,
+      "number": 15,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-08. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-C11",
+      "concept_id": "EMT-04-02-08",
+      "type": "skill",
+      "front": {
+        "title": "Assisting with nitroglycerin",
+        "summary": "Critical steps and the common fails"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: protocol or medical direction, confirm it is this patient's prescription and in date, ASK about erectile dysfunction medication privately, blood pressure before AND after, six rights, reassess and document.",
+        "why_it_matters": "Skipping the awkward question and skipping the pre-dose pressure are the two fails that hurt patients."
+      },
+      "high_yield": false,
+      "number": 16,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-02-08. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

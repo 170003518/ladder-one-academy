@@ -392,6 +392,726 @@
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-01-Q001",
+      "concept_id": "EMT-04-02-01",
+      "style": "recall",
+      "stem": "What classically relieves the pain of angina?",
+      "options": [
+        {
+          "text": "Rest",
+          "rationale": "Correct — demand falls back and supply becomes adequate again."
+        },
+        {
+          "text": "Exercise",
+          "rationale": "Exertion typically provokes it rather than relieving it."
+        },
+        {
+          "text": "Lying flat",
+          "rationale": "Position is not the classic relieving factor."
+        },
+        {
+          "text": "Eating",
+          "rationale": "Food is not the classic relieving factor."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-01-Q002",
+      "concept_id": "EMT-04-02-01",
+      "style": "application",
+      "stem": "Why should you not try to distinguish angina from myocardial infarction in the field?",
+      "options": [
+        {
+          "text": "Because the treatments are completely different",
+          "rationale": "The field pathway is the same for both."
+        },
+        {
+          "text": "Because it cannot be done reliably without tests you do not have",
+          "rationale": "Correct — treat the worse case and transport."
+        },
+        {
+          "text": "Because angina is not serious",
+          "rationale": "Angina is a warning that is very much worth taking seriously."
+        },
+        {
+          "text": "Because infarction never presents with pain",
+          "rationale": "Infarction frequently presents with pain."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-01-Q003",
+      "concept_id": "EMT-04-02-01",
+      "style": "scenario",
+      "stem": "A known angina patient has had pain for 40 minutes that has not settled with rest. What has changed?",
+      "options": [
+        {
+          "text": "Nothing of significance — he has angina",
+          "rationale": "Rest no longer relieving it is the significant change."
+        },
+        {
+          "text": "Rest has stopped working, which suggests infarction rather than angina",
+          "rationale": "Correct. This is the distinction the concept is built around."
+        },
+        {
+          "text": "The pain is less severe than usual",
+          "rationale": "Severity is not what has changed here."
+        },
+        {
+          "text": "He needs no assessment because he knows his condition",
+          "rationale": "Familiarity does not reduce the need for assessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-02-Q001",
+      "concept_id": "EMT-04-02-02",
+      "style": "recall",
+      "stem": "Which groups most often present atypically in a heart attack?",
+      "options": [
+        {
+          "text": "Young athletes",
+          "rationale": "Not one of the classically cited groups."
+        },
+        {
+          "text": "Women, people with diabetes and older adults",
+          "rationale": "Correct — these are the groups most often cited."
+        },
+        {
+          "text": "Smokers only",
+          "rationale": "Smoking is a risk factor, not a driver of atypical presentation."
+        },
+        {
+          "text": "Men under 40",
+          "rationale": "Not one of the classically cited groups."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-02-Q002",
+      "concept_id": "EMT-04-02-02",
+      "style": "application",
+      "stem": "Why can a patient with long-standing diabetes have a heart attack without chest pain?",
+      "options": [
+        {
+          "text": "Because diabetes protects the heart",
+          "rationale": "It does not; diabetes increases cardiac risk."
+        },
+        {
+          "text": "Because nerve damage blunts the pain that would be the warning",
+          "rationale": "Correct — silent infarction is more common in this group."
+        },
+        {
+          "text": "Because their heart rate is always slow",
+          "rationale": "Heart rate is not the mechanism."
+        },
+        {
+          "text": "Because they take aspirin routinely",
+          "rationale": "Aspirin use does not remove pain perception."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-02-Q003",
+      "concept_id": "EMT-04-02-02",
+      "style": "scenario",
+      "stem": "A 78-year-old diabetic woman is weak, clammy and nauseated with no chest pain. What should you consider?",
+      "options": [
+        {
+          "text": "A viral illness, and reassure the family",
+          "rationale": "Dismissing this picture in this patient is the classic miss."
+        },
+        {
+          "text": "A possible cardiac cause despite the absence of chest pain",
+          "rationale": "Correct — high-risk group plus unexplained symptoms."
+        },
+        {
+          "text": "Anxiety alone",
+          "rationale": "Clammy skin and this risk profile point elsewhere."
+        },
+        {
+          "text": "Nothing, since she has no pain",
+          "rationale": "Absence of pain does not exclude infarction in this group."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-03-Q001",
+      "concept_id": "EMT-04-02-03",
+      "style": "recall",
+      "stem": "Where does blood back up in left-sided heart failure?",
+      "options": [
+        {
+          "text": "Into the legs and abdomen",
+          "rationale": "That is the pattern of right-sided failure."
+        },
+        {
+          "text": "Into the lungs",
+          "rationale": "Correct — producing breathlessness and crackles."
+        },
+        {
+          "text": "Into the coronary arteries",
+          "rationale": "Not where backpressure accumulates."
+        },
+        {
+          "text": "Into the aorta",
+          "rationale": "Backpressure does not accumulate forward into the aorta."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-03-Q002",
+      "concept_id": "EMT-04-02-03",
+      "style": "application",
+      "stem": "A heart failure patient reports moving from two pillows to sleeping in a chair. What does this indicate?",
+      "options": [
+        {
+          "text": "Improving symptoms",
+          "rationale": "Needing to sit more upright indicates worsening."
+        },
+        {
+          "text": "Worsening failure, because lying flat spreads fluid across more lung",
+          "rationale": "Correct. This is the distinction the concept is built around."
+        },
+        {
+          "text": "A sleep disorder unrelated to the heart",
+          "rationale": "The pattern is characteristic of worsening failure."
+        },
+        {
+          "text": "A new respiratory infection",
+          "rationale": "Possible, but the pillow history is the classic failure story."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-03-Q003",
+      "concept_id": "EMT-04-02-03",
+      "style": "recall",
+      "stem": "Which findings suggest right-sided heart failure?",
+      "options": [
+        {
+          "text": "Crackles and pink frothy sputum",
+          "rationale": "Those are left-sided findings."
+        },
+        {
+          "text": "Swollen ankles and distended neck veins",
+          "rationale": "Correct — systemic venous congestion."
+        },
+        {
+          "text": "Wheeze throughout both lung fields",
+          "rationale": "That suggests bronchospasm."
+        },
+        {
+          "text": "A barking cough",
+          "rationale": "That suggests croup, not heart failure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-04-Q001",
+      "concept_id": "EMT-04-02-04",
+      "style": "recall",
+      "stem": "What is the underlying problem in cardiogenic shock?",
+      "options": [
+        {
+          "text": "There is not enough circulating blood",
+          "rationale": "Volume is adequate in cardiogenic shock."
+        },
+        {
+          "text": "The heart cannot pump the blood it has",
+          "rationale": "Correct — pump failure, not volume loss."
+        },
+        {
+          "text": "The blood vessels have dilated excessively",
+          "rationale": "That describes distributive shock."
+        },
+        {
+          "text": "Something is obstructing blood flow outside the heart",
+          "rationale": "That describes obstructive shock."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-04-Q002",
+      "concept_id": "EMT-04-02-04",
+      "style": "application",
+      "stem": "Which finding helps distinguish cardiogenic shock from hypovolaemic shock?",
+      "options": [
+        {
+          "text": "Cool clammy skin",
+          "rationale": "Both produce cool clammy skin."
+        },
+        {
+          "text": "Distended rather than flat neck veins",
+          "rationale": "Correct — a full tank behind a failed pump."
+        },
+        {
+          "text": "A fast heart rate",
+          "rationale": "Both produce tachycardia."
+        },
+        {
+          "text": "Altered mental status",
+          "rationale": "Both can produce altered mental status."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-04-Q003",
+      "concept_id": "EMT-04-02-04",
+      "style": "application",
+      "stem": "Why is giving fluid inappropriate in cardiogenic shock?",
+      "options": [
+        {
+          "text": "Because the patient has enough volume and fluid worsens pulmonary congestion",
+          "rationale": "Correct. This is the distinction the concept is built around."
+        },
+        {
+          "text": "Because fluid raises the heart rate dangerously",
+          "rationale": "That is not the mechanism of harm here."
+        },
+        {
+          "text": "Because fluid cannot be given by EMTs in any circumstance",
+          "rationale": "Scope is not the reasoning being tested."
+        },
+        {
+          "text": "Because it dilutes the blood",
+          "rationale": "Dilution is not the concern described."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-05-Q001",
+      "concept_id": "EMT-04-02-05",
+      "style": "recall",
+      "stem": "What makes a high blood pressure a hypertensive emergency?",
+      "options": [
+        {
+          "text": "The systolic exceeding a fixed number",
+          "rationale": "The number alone does not define it."
+        },
+        {
+          "text": "Evidence that the pressure is damaging organs now",
+          "rationale": "Correct. This is the distinction the concept is built around."
+        },
+        {
+          "text": "The patient having a history of hypertension",
+          "rationale": "Chronic hypertension is common and not itself an emergency."
+        },
+        {
+          "text": "The patient feeling anxious",
+          "rationale": "Anxiety does not define the emergency."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-05-Q002",
+      "concept_id": "EMT-04-02-05",
+      "style": "application",
+      "stem": "Which finding alongside a very high reading is most concerning?",
+      "options": [
+        {
+          "text": "The patient is anxious about the number",
+          "rationale": "Anxiety about a reading is not end-organ damage."
+        },
+        {
+          "text": "Severe headache with visual disturbance and confusion",
+          "rationale": "Correct — this suggests the brain is being affected."
+        },
+        {
+          "text": "The patient took their medication this morning",
+          "rationale": "Adherence is not a warning sign."
+        },
+        {
+          "text": "The reading was taken in the left arm",
+          "rationale": "Arm choice does not indicate an emergency."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-05-Q003",
+      "concept_id": "EMT-04-02-05",
+      "style": "application",
+      "stem": "What should an EMT do about a very high blood pressure in the field?",
+      "options": [
+        {
+          "text": "Attempt to lower it",
+          "rationale": "There is nothing an EMT carries that safely lowers it, and rapid reduction is dangerous."
+        },
+        {
+          "text": "Support the patient, keep them calm and transport, reporting the number with the findings",
+          "rationale": "Correct. This is the distinction the concept is built around."
+        },
+        {
+          "text": "Withhold oxygen to avoid raising it further",
+          "rationale": "Oxygen is given where indicated."
+        },
+        {
+          "text": "Have the patient lie flat to reduce it",
+          "rationale": "Position does not treat the pressure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-06-Q001",
+      "concept_id": "EMT-04-02-06",
+      "style": "recall",
+      "stem": "How is the pain of an aortic dissection classically described?",
+      "options": [
+        {
+          "text": "Crushing, like a weight",
+          "rationale": "That is the classic description of cardiac ischaemic pain."
+        },
+        {
+          "text": "Tearing or ripping, often radiating to the back",
+          "rationale": "Correct — and patients often know the exact moment it began."
+        },
+        {
+          "text": "Burning, worse after meals",
+          "rationale": "That suggests a gastrointestinal cause."
+        },
+        {
+          "text": "Dull and gradually building over days",
+          "rationale": "Dissection is characteristically abrupt."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-06-Q002",
+      "concept_id": "EMT-04-02-06",
+      "style": "application",
+      "stem": "Which physical finding supports suspicion of aortic dissection?",
+      "options": [
+        {
+          "text": "Equal blood pressures in both arms",
+          "rationale": "Equality does not support the suspicion."
+        },
+        {
+          "text": "A significant difference in blood pressure between the two arms",
+          "rationale": "Correct. This is the distinction the concept is built around."
+        },
+        {
+          "text": "A regular pulse",
+          "rationale": "A regular pulse is not specific to dissection."
+        },
+        {
+          "text": "Warm dry skin",
+          "rationale": "Not a supporting finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-06-Q003",
+      "concept_id": "EMT-04-02-06",
+      "style": "application",
+      "stem": "What must you avoid if you suspect an abdominal aortic aneurysm?",
+      "options": [
+        {
+          "text": "Giving oxygen",
+          "rationale": "Oxygen is given where indicated."
+        },
+        {
+          "text": "Deep or repeated palpation of the abdomen",
+          "rationale": "Correct — pressing on a weakened aortic wall risks rupture."
+        },
+        {
+          "text": "Taking a blood pressure",
+          "rationale": "Blood pressure measurement is appropriate."
+        },
+        {
+          "text": "Transporting the patient",
+          "rationale": "Rapid transport is exactly what is needed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-07-Q001",
+      "concept_id": "EMT-04-02-07",
+      "style": "recall",
+      "stem": "What three findings together define cardiac arrest?",
+      "options": [
+        {
+          "text": "Unresponsive, not breathing normally, no pulse",
+          "rationale": "Correct — that is the whole definition."
+        },
+        {
+          "text": "Chest pain, sweating and nausea",
+          "rationale": "Those suggest a cardiac event, not arrest."
+        },
+        {
+          "text": "Low blood pressure, fast pulse, cool skin",
+          "rationale": "That describes shock."
+        },
+        {
+          "text": "Confusion, slurred speech and weakness",
+          "rationale": "That suggests a neurological problem."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-07-Q002",
+      "concept_id": "EMT-04-02-07",
+      "style": "application",
+      "stem": "How do the usual causes of cardiac arrest differ between adults and children?",
+      "options": [
+        {
+          "text": "They are identical",
+          "rationale": "The typical pathway differs by age."
+        },
+        {
+          "text": "Adults are usually primary cardiac; children are more often respiratory",
+          "rationale": "Correct, which is why airway and ventilation carry more weight in children."
+        },
+        {
+          "text": "Adults are usually respiratory; children are usually cardiac",
+          "rationale": "This reverses the pattern."
+        },
+        {
+          "text": "Children never sustain cardiac arrest",
+          "rationale": "They do, and the cause is usually respiratory rather than cardiac."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-07-Q003",
+      "concept_id": "EMT-04-02-07",
+      "style": "scenario",
+      "stem": "A collapsed man is unresponsive and making slow gulping movements every ten seconds. What do you do?",
+      "options": [
+        {
+          "text": "Monitor his breathing and reassess in two minutes",
+          "rationale": "Those movements are agonal, and delay costs survival."
+        },
+        {
+          "text": "Check a pulse and, if absent, begin compressions immediately",
+          "rationale": "Correct — agonal gasps are not breathing."
+        },
+        {
+          "text": "Place him in the recovery position",
+          "rationale": "That would be appropriate only for a patient breathing adequately."
+        },
+        {
+          "text": "Give oxygen by non-rebreather and wait",
+          "rationale": "A non-rebreather does nothing for a pulseless patient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-Q001",
+      "concept_id": "EMT-04-02-08",
+      "style": "recall",
+      "stem": "Why is aspirin chewed rather than swallowed whole in a suspected cardiac event?",
+      "options": [
+        {
+          "text": "Because it tastes better",
+          "rationale": "Taste is not the reason."
+        },
+        {
+          "text": "Because chewing speeds absorption so it works sooner",
+          "rationale": "Correct. This is the distinction the concept is built around."
+        },
+        {
+          "text": "Because it cannot be swallowed whole",
+          "rationale": "It can, but more slowly."
+        },
+        {
+          "text": "Because it prevents nausea",
+          "rationale": "Chewing does not prevent nausea."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-Q002",
+      "concept_id": "EMT-04-02-08",
+      "style": "application",
+      "stem": "What must be asked before assisting with nitroglycerin, however awkward?",
+      "options": [
+        {
+          "text": "Whether the patient has eaten today",
+          "rationale": "Not a nitroglycerin contraindication."
+        },
+        {
+          "text": "Whether they have taken erectile dysfunction medication",
+          "rationale": "Correct — the combination can cause a catastrophic fall in blood pressure."
+        },
+        {
+          "text": "Whether they smoke",
+          "rationale": "Smoking history does not contraindicate it."
+        },
+        {
+          "text": "Whether they have had surgery",
+          "rationale": "Not the specific contraindication being tested."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-08-Q003",
+      "concept_id": "EMT-04-02-08",
+      "style": "sequence",
+      "stem": "Put assisting with nitroglycerin in order: 1) take a blood pressure after the dose, 2) confirm protocol or medical direction, 3) take a blood pressure before the dose and run the six rights, 4) assist the patient to take the dose.",
+      "options": [
+        {
+          "text": "2, 3, 4, 1",
+          "rationale": "Correct. Authority, then checks and a pre-dose pressure, then the dose, then a post-dose pressure."
+        },
+        {
+          "text": "3, 2, 4, 1",
+          "rationale": "Running the checks before you have authority to assist reverses the order."
+        },
+        {
+          "text": "2, 4, 3, 1",
+          "rationale": "Giving the dose before the pre-dose blood pressure removes the safety check."
+        },
+        {
+          "text": "4, 2, 3, 1",
+          "rationale": "Assisting first is the wrong order entirely."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
