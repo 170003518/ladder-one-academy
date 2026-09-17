@@ -36,7 +36,9 @@ const MODULE_FILES = {
           'content/emt/05-medical.json', 'content/emt/06-trauma.json',
           'content/emt/07-special-populations.json',
           'content/emt/08-ems-operations.json',
-          'content/emt/09-pharmacology.json'],
+          'content/emt/09-pharmacology.json',
+          'content/emt/10-psychomotor-skills.json',
+          'content/emt/11-exam-prep.json'],
   fire:  [],
   medic: []
 };
@@ -49,7 +51,9 @@ const QUESTION_FILES = {
   'EMT-06': 'content/emt/questions/06-trauma.json',
   'EMT-07': 'content/emt/questions/07-special-populations.json',
   'EMT-08': 'content/emt/questions/08-ems-operations.json',
-  'EMT-09': 'content/emt/questions/09-pharmacology.json'
+  'EMT-09': 'content/emt/questions/09-pharmacology.json',
+  'EMT-10': 'content/emt/questions/10-psychomotor-skills.json',
+  'EMT-11': 'content/emt/questions/11-exam-prep.json'
 };
 const CARD_FILES = {
   'EMT-01': 'content/emt/cards/01-preparatory.json',
@@ -60,7 +64,9 @@ const CARD_FILES = {
   'EMT-06': 'content/emt/cards/06-trauma.json',
   'EMT-07': 'content/emt/cards/07-special-populations.json',
   'EMT-08': 'content/emt/cards/08-ems-operations.json',
-  'EMT-09': 'content/emt/cards/09-pharmacology.json'
+  'EMT-09': 'content/emt/cards/09-pharmacology.json',
+  'EMT-10': 'content/emt/cards/10-psychomotor-skills.json',
+  'EMT-11': 'content/emt/cards/11-exam-prep.json'
 };
 
 const app = {

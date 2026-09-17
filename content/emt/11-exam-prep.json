@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-11",
+  "tier": "emt",
+  "number": 11,
+  "title": "Exam Preparation",
+  "short_title": "Exam Prep",
+  "domain_weighting": {
+    "OPS": 100
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [],
+  "concepts": []
+}

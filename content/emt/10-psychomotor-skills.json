@@ -1,0 +1,3216 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-10",
+  "tier": "emt",
+  "number": 10,
+  "title": "Psychomotor Skills",
+  "short_title": "Skills",
+  "domain_weighting": {
+    "AIR": 34,
+    "TRAU": 33,
+    "OPS": 33
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [
+    {
+      "id": "EMT-10-01",
+      "title": "Assessment and airway skills",
+      "concepts": [
+        "EMT-10-01-01",
+        "EMT-10-01-02",
+        "EMT-10-01-03",
+        "EMT-10-01-04",
+        "EMT-10-01-05"
+      ]
+    },
+    {
+      "id": "EMT-10-02",
+      "title": "Cardiac and trauma skills",
+      "concepts": [
+        "EMT-10-02-01",
+        "EMT-10-02-02",
+        "EMT-10-02-03",
+        "EMT-10-02-04",
+        "EMT-10-02-05"
+      ]
+    },
+    {
+      "id": "EMT-10-03",
+      "title": "Spinal, obstetric and operational skills",
+      "concepts": [
+        "EMT-10-03-01",
+        "EMT-10-03-02",
+        "EMT-10-03-03",
+        "EMT-10-03-04",
+        "EMT-10-03-05"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-01",
+      "title": "Patient assessment — medical",
+      "domain": "AIR",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-10-01-02",
+        "EMT-03-01-01"
+      ],
+      "key_points": [
+        "Scene size-up comes first and includes body substance isolation, scene safety, mechanism or nature, patients and resources",
+        "Form a general impression, then assess level of consciousness, then airway, breathing and circulation",
+        "Identify and treat life threats as you find them rather than completing the survey first",
+        "Make a transport decision once the primary assessment is done",
+        "Take a history using a structured approach, and take it from the patient where possible",
+        "Assess the complaint properly using a pain or symptom structure, not a single question",
+        "Get a full set of vital signs, and get them again — one set is a snapshot",
+        "Perform a focused examination guided by the complaint",
+        "Reassess: repeat the primary assessment, the vital signs and the effect of anything you did",
+        "State your findings and your decisions out loud, because the examiner cannot score what you did silently"
+      ],
+      "misconceptions": [
+        "Failing to state body substance isolation and scene safety out loud",
+        "Completing the survey before treating a found life threat",
+        "Taking only one set of vital signs",
+        "Performing steps silently so nothing can be credited"
+      ],
+      "exam_favorites": [
+        "Scene size-up out loud",
+        "Treat as you find",
+        "Say everything"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The medical assessment sheet tests a sequence, and the sequence is the same one you use on every real call. What makes it a test is that everything has to be visible and audible.\n\nScene size-up comes first, and it is scored. Body substance isolation, scene safety, the nature of the illness, the number of patients, and whether additional resources are needed. Say all five out loud. On a real call you do most of this by looking; in an assessment, looking is not scoreable.\n\nThen the primary assessment. General impression, level of consciousness, airway, breathing, circulation. And the rule that governs it: treat life threats as you find them. Do not finish the survey and then go back. If the airway is compromised, you fix it there, at that point, and then carry on.\n\nMake a transport decision once the primary assessment is complete. Say it out loud — this is a priority patient, or this is not.\n\nThen the history, taken from the patient where possible. Use whatever structured approach your programme teaches, and actually work through it rather than sampling the parts you find interesting. Assess the complaint itself with a proper symptom structure — onset, provocation, quality, radiation, severity, time — rather than one question about pain.\n\nA full set of vital signs, and then another set. One set is a snapshot and two sets are a trend, and on the sheet the second set is frequently where people lose points because time ran short.\n\nA focused examination guided by the complaint. Chest pain gets a chest and cardiovascular examination; abdominal pain gets an abdomen.\n\nThen reassessment: repeat the primary assessment, repeat the vital signs, and check the effect of anything you did.\n\nAnd the single most common cause of failure across every skill sheet: doing things silently. The examiner cannot score what they did not see or hear. Narrate. Say what you are doing, what you found, and what you are deciding. It feels artificial and it is the difference between passing and failing.",
+          "standard": "The medical patient assessment sequence proceeds through scene size-up, primary assessment, history, secondary assessment and reassessment, with all components requiring overt performance for evaluation. Scene size-up comprises body substance isolation, scene safety determination, nature of illness, patient count and resource requirement, all verbalised. Primary assessment comprises general impression, level of consciousness, airway, breathing and circulation, with identified life threats managed at the point of identification rather than following survey completion. A transport priority decision follows primary assessment completion and is verbalised. History acquisition employs the programme's structured approach, obtained from the patient where possible, with complaint assessment employing a symptom structure addressing onset, provocation, quality, radiation, severity and time. A complete set of vital signs is obtained and repeated, single measurements providing state and paired measurements providing trend; omission of the second set is a common source of point loss under time constraint. Focused physical examination is directed by the presenting complaint. Reassessment comprises repetition of the primary assessment and vital signs and evaluation of intervention effect. The predominant cause of evaluation failure across skill sheets is silent performance, as unobserved actions cannot be credited; narration of actions, findings and decisions is required."
+        },
+        "eli_new": {
+          "analogy": "On a real call you size up the scene by looking. In an assessment, looking is not scoreable — so say it.",
+          "body": "The commonest reason people fail skill sheets is doing things silently. Narrate everything. It feels artificial and it is the difference between passing and failing."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk through the medical patient assessment in order.",
+          "must_hit": [
+            {
+              "point": "Scene size-up: BSI, safety, nature, patients, resources",
+              "accept": [
+                "size-up",
+                "body substance",
+                "safety",
+                "nature",
+                "patients",
+                "resources"
+              ]
+            },
+            {
+              "point": "General impression, level of consciousness, then ABC",
+              "accept": [
+                "general impression",
+                "consciousness",
+                "airway",
+                "breathing",
+                "circulation"
+              ]
+            },
+            {
+              "point": "Treat life threats as you find them",
+              "accept": [
+                "treat",
+                "find",
+                "life threat",
+                "immediately",
+                "not wait"
+              ]
+            },
+            {
+              "point": "Make a transport decision after the primary assessment",
+              "accept": [
+                "transport",
+                "decision",
+                "priority",
+                "after",
+                "primary"
+              ]
+            },
+            {
+              "point": "Take a structured history and assess the complaint properly",
+              "accept": [
+                "history",
+                "structured",
+                "complaint",
+                "onset",
+                "severity",
+                "symptom"
+              ]
+            },
+            {
+              "point": "Two sets of vital signs",
+              "accept": [
+                "vital signs",
+                "two",
+                "second",
+                "again",
+                "trend"
+              ]
+            },
+            {
+              "point": "Focused examination guided by the complaint, then reassess",
+              "accept": [
+                "focused",
+                "exam",
+                "complaint",
+                "reassess",
+                "repeat"
+              ]
+            },
+            {
+              "point": "Say everything out loud — silent work cannot be scored",
+              "accept": [
+                "out loud",
+                "narrate",
+                "say",
+                "silent",
+                "score"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He did it all",
+          "dispatch": "Skills testing — medical assessment station.",
+          "body": "He did every single step, correctly, in order, and failed.\n\nHe had checked scene safety by looking around the room, which is exactly what you do on a real call.\n\nThe examiner had no way of knowing he had done it."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Patient assessment — medical",
+          "steps": [
+            {
+              "text": "SCENE SIZE-UP, ALL FIVE OUT LOUD: body substance isolation · scene safety · nature of illness · number of patients · additional resources",
+              "critical": true
+            },
+            {
+              "text": "GENERAL IMPRESSION and LEVEL OF CONSCIOUSNESS",
+              "critical": true
+            },
+            {
+              "text": "AIRWAY — assess and manage",
+              "critical": true
+            },
+            {
+              "text": "BREATHING — assess, and provide oxygen or ventilation as indicated",
+              "critical": true
+            },
+            {
+              "text": "CIRCULATION — pulse, major bleeding, skin",
+              "critical": true
+            },
+            {
+              "text": "TREAT LIFE THREATS AS YOU FIND THEM — do not finish the survey first",
+              "critical": true
+            },
+            {
+              "text": "STATE THE TRANSPORT DECISION OUT LOUD",
+              "critical": true
+            },
+            {
+              "text": "HISTORY using your programme's structured approach, from the patient where possible",
+              "critical": true
+            },
+            {
+              "text": "ASSESS THE COMPLAINT with a symptom structure — onset, provocation, quality, radiation, severity, time",
+              "critical": true
+            },
+            {
+              "text": "FULL SET OF VITAL SIGNS",
+              "critical": true
+            },
+            {
+              "text": "FOCUSED EXAMINATION guided by the complaint",
+              "critical": true
+            },
+            {
+              "text": "SECOND SET OF VITAL SIGNS — commonly lost when time runs short",
+              "critical": true
+            },
+            {
+              "text": "REASSESS: repeat the primary assessment, the vitals, and the effect of what you did",
+              "critical": true
+            },
+            {
+              "text": "NARRATE EVERYTHING. The examiner cannot score what you did silently",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-02",
+      "title": "Patient assessment — trauma",
+      "domain": "AIR",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-10-01-01"
+      ],
+      "related": [
+        "EMT-10-01-01",
+        "EMT-06-01-01",
+        "EMT-10-03-01"
+      ],
+      "key_points": [
+        "Scene size-up includes the mechanism of injury and whether the scene is safe to enter",
+        "Consider spinal motion restriction early where the mechanism suggests it",
+        "Primary assessment follows the same order, with major bleeding controlled immediately",
+        "A rapid trauma survey examines the whole body quickly for injuries that will kill",
+        "Work head to toe, inspecting and palpating, and say what you find and what you do not",
+        "Assess the chest for equal rise, wounds and sounds, and the abdomen for rigidity and tenderness",
+        "Check the pelvis carefully as your programme directs, and the limbs for circulation, movement and sensation",
+        "Expose what you need to see and cover the patient again immediately",
+        "Make the transport decision early — in trauma the clock is the treatment",
+        "Reassess frequently, because trauma patients change while you are working"
+      ],
+      "misconceptions": [
+        "Delaying the transport decision in a clearly serious patient",
+        "Failing to control major bleeding immediately",
+        "Exposing the patient and leaving them uncovered",
+        "Examining silently without narrating findings"
+      ],
+      "exam_favorites": [
+        "Bleeding first",
+        "Transport decision early",
+        "Cover them again"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The trauma sheet tests the same sequence with a different emphasis. The emphasis is speed, because in serious trauma the clock is the treatment.\n\nScene size-up includes the mechanism of injury, and mechanism drives your expectations for the whole call. Say what you see: the damage to the vehicle, the height of the fall, the position the patient was found in. And say whether the scene is safe to enter.\n\nWhere the mechanism suggests it, consider spinal motion restriction early and say so.\n\nPrimary assessment follows the same order, with one difference in emphasis: major external bleeding is controlled immediately. It is the fastest-killing thing you can fix with your hands, and it does not wait for the rest of the survey.\n\nThen the rapid trauma survey — a quick, whole-body examination looking for the injuries that will kill. It is not a detailed examination; it is a deliberate sweep. Head to toe, inspecting and palpating, and narrating both what you find and what you do not find. \"No deformity, no crepitus, no instability\" is a finding and it is scoreable.\n\nChest: equal rise and fall, wounds, breath sounds. Abdomen: rigidity, tenderness, distension. Pelvis: assess as your programme directs — practice varies on whether and how it is compressed, so follow your own sheet. Limbs: circulation, movement and sensation in each one.\n\nExpose what you need to see. And then cover the patient again immediately, because trauma patients lose heat fast and hypothermia worsens bleeding and outcomes. On a sheet this is a scored step; on a real call it is one of the more important things you do.\n\nMake the transport decision early and say it. In serious trauma, deciding late is the most consequential error available, because everything else you can do is a holding measure and the definitive treatment is elsewhere.\n\nThen reassess frequently. Trauma patients change while you work, and the patient you assessed four minutes ago is not necessarily the patient in front of you now.",
+          "standard": "Trauma patient assessment follows the general sequence with emphasis on expedition, as time to definitive care constitutes a determinant of outcome. Scene size-up includes mechanism of injury, which informs expectations throughout, with verbalisation of vehicle damage, fall height and patient position, together with scene safety determination. Spinal motion restriction is considered early where mechanism indicates and the consideration verbalised. Primary assessment follows standard order with immediate control of major external haemorrhage, this constituting the most rapidly fatal manually correctable finding. The rapid trauma survey comprises expeditious whole-body examination directed at life-threatening injury rather than detailed assessment, proceeding cranially to caudally with inspection and palpation and narration of both positive and negative findings, negative findings being creditable. Thoracic assessment addresses symmetry of chest rise, wounds and breath sounds; abdominal assessment addresses rigidity, tenderness and distension; pelvic assessment follows programme-specific direction, as practice varies regarding compression; limb assessment addresses circulation, movement and sensation in each extremity. Exposure is limited to requirement and followed by immediate recovering, as trauma patients lose heat rapidly and hypothermia exacerbates haemorrhage and adverse outcome. The transport decision is made and verbalised early, delayed decision constituting the most consequential error given that prehospital measures are temporising and definitive care is elsewhere. Frequent reassessment is required, as trauma patients deteriorate during assessment."
+        },
+        "eli_new": {
+          "analogy": "In serious trauma the clock is the treatment. Everything you do on scene is a holding measure.",
+          "body": "Narrate what you did not find as well as what you did. 'No deformity, no crepitus, no instability' is a finding, and it is scoreable."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk through the trauma assessment and say what is emphasised differently.",
+          "must_hit": [
+            {
+              "point": "Size-up includes mechanism of injury and scene safety",
+              "accept": [
+                "mechanism",
+                "size-up",
+                "safety",
+                "damage",
+                "height"
+              ]
+            },
+            {
+              "point": "Consider spinal motion restriction early where indicated",
+              "accept": [
+                "spinal",
+                "motion restriction",
+                "early",
+                "mechanism",
+                "consider"
+              ]
+            },
+            {
+              "point": "Major bleeding is controlled immediately",
+              "accept": [
+                "bleeding",
+                "control",
+                "immediate",
+                "first",
+                "haemorrhage"
+              ]
+            },
+            {
+              "point": "A rapid trauma survey sweeps the whole body for killers",
+              "accept": [
+                "rapid",
+                "survey",
+                "whole body",
+                "quick",
+                "sweep"
+              ]
+            },
+            {
+              "point": "Narrate findings and absence of findings",
+              "accept": [
+                "narrate",
+                "no deformity",
+                "negative",
+                "say",
+                "finding"
+              ]
+            },
+            {
+              "point": "Chest, abdomen, pelvis, limbs with circulation movement sensation",
+              "accept": [
+                "chest",
+                "abdomen",
+                "pelvis",
+                "limb",
+                "circulation",
+                "movement",
+                "sensation"
+              ]
+            },
+            {
+              "point": "Expose what you need and cover them again immediately",
+              "accept": [
+                "expose",
+                "cover",
+                "heat",
+                "hypotherm",
+                "again"
+              ]
+            },
+            {
+              "point": "Make the transport decision early and reassess frequently",
+              "accept": [
+                "transport",
+                "early",
+                "decision",
+                "reassess",
+                "frequent"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Covered",
+          "dispatch": "Skills testing — trauma assessment station.",
+          "body": "She exposed the chest properly, examined it properly, and then pulled the blanket back up without being prompted.\n\nThe examiner made a mark, because it is a scored step.\n\nOn a real call it is one of the more important things you will do all shift."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Patient assessment — trauma",
+          "steps": [
+            {
+              "text": "SCENE SIZE-UP OUT LOUD, including THE MECHANISM OF INJURY and whether the scene is safe",
+              "critical": true
+            },
+            {
+              "text": "CONSIDER SPINAL MOTION RESTRICTION EARLY where the mechanism suggests it — and SAY SO",
+              "critical": true
+            },
+            {
+              "text": "GENERAL IMPRESSION and LEVEL OF CONSCIOUSNESS",
+              "critical": true
+            },
+            {
+              "text": "AIRWAY · BREATHING · CIRCULATION — CONTROL MAJOR EXTERNAL BLEEDING IMMEDIATELY",
+              "critical": true,
+              "note": "It is the fastest-killing thing you can fix with your hands. It does not wait for the rest of the survey."
+            },
+            {
+              "text": "STATE THE TRANSPORT DECISION EARLY — in serious trauma the clock is the treatment",
+              "critical": true
+            },
+            {
+              "text": "RAPID TRAUMA SURVEY — whole body, head to toe, inspect and palpate",
+              "critical": true
+            },
+            {
+              "text": "NARRATE WHAT YOU FIND AND WHAT YOU DO NOT — 'no deformity, no crepitus, no instability' is scoreable",
+              "critical": true
+            },
+            {
+              "text": "CHEST: equal rise and fall, wounds, breath sounds",
+              "critical": true
+            },
+            {
+              "text": "ABDOMEN: rigidity, tenderness, distension",
+              "critical": true
+            },
+            {
+              "text": "PELVIS: assess AS YOUR PROGRAMME DIRECTS — practice varies on compression",
+              "critical": true
+            },
+            {
+              "text": "LIMBS: CIRCULATION, MOVEMENT AND SENSATION in each one",
+              "critical": true
+            },
+            {
+              "text": "EXPOSE WHAT YOU NEED TO SEE — THEN COVER THEM AGAIN IMMEDIATELY",
+              "critical": true
+            },
+            {
+              "text": "BASELINE VITAL SIGNS and a HISTORY",
+              "critical": true
+            },
+            {
+              "text": "REASSESS FREQUENTLY — trauma patients change while you are working",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-03",
+      "title": "Oxygen by non-rebreather mask",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-03-01",
+        "EMT-09-02-01"
+      ],
+      "key_points": [
+        "Take body substance isolation precautions and state that you have",
+        "Gather the cylinder, regulator, tubing and mask before you start",
+        "Check the cylinder pressure and say what it reads",
+        "Crack the cylinder valve briefly to clear debris from the port where your programme requires it",
+        "Attach the regulator to the cylinder, aligning the pins and tightening it properly",
+        "Open the cylinder valve and check for leaks",
+        "Attach the tubing to the regulator, then pre-fill the reservoir bag before applying the mask",
+        "Apply the mask to the patient's face and adjust it to a good seal",
+        "Set the flow rate as your protocol directs so the reservoir does not collapse on inspiration",
+        "Reassess the patient afterwards, and watch the cylinder contents during transport"
+      ],
+      "misconceptions": [
+        "Applying the mask before filling the reservoir bag",
+        "Failing to state the cylinder pressure",
+        "Not checking for leaks after opening the valve",
+        "Setting a flow that lets the reservoir collapse"
+      ],
+      "exam_favorites": [
+        "Fill the bag first",
+        "Say the pressure",
+        "Check for leaks"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This is a short sheet and it is failed on small omissions rather than on anything conceptual. So the discipline is completeness and narration.\n\nTake body substance isolation precautions, and say that you have.\n\nGather the equipment before you start: cylinder, regulator, tubing and mask. Assembling while looking for parts loses time and looks disorganised.\n\nCheck the cylinder pressure and say what it reads. That is a scored step and it is easily forgotten, and on a real call it is the check that prevents running out mid-transport.\n\nWhere your programme requires it, crack the cylinder valve briefly — open and shut it quickly — to blow debris out of the port before attaching the regulator. Practice varies on this, so follow your own sheet.\n\nAttach the regulator to the cylinder, making sure the pins align with the holes, and tighten it properly. Then open the cylinder valve and check for leaks — listen and look. A hiss is a leak, and a leak found now is a problem solved; a leak found later is a cylinder that emptied.\n\nAttach the tubing to the regulator.\n\nNow the step this sheet is famous for: pre-fill the reservoir bag before putting the mask on the patient. A non-rebreather works by giving the patient a reservoir of oxygen to draw from, and a collapsed bag has nothing in it. Occlude the valve with your finger until the bag inflates, then apply the mask. Putting the mask on first is the classic error and it is exactly what people do when they are hurrying.\n\nApply the mask to the face and adjust the strap and the nose clip for a good seal.\n\nSet the flow rate as your protocol directs — high enough that the reservoir bag does not collapse when the patient breathes in. If it collapses, the flow is too low for this patient.\n\nThen reassess the patient, and keep an eye on the cylinder contents through the transport.",
+          "standard": "Oxygen administration by non-rebreather mask is evaluated on completeness and verbalisation, failure typically resulting from minor omission. Body substance isolation precautions are taken and verbalised. Equipment comprising cylinder, regulator, tubing and mask is assembled prior to commencement. Cylinder pressure is checked and verbalised, this constituting both a scored step and the check preventing mid-transport exhaustion. Where programme-specified, the cylinder valve is briefly opened and closed to clear particulate from the port prior to regulator attachment; practice varies. The regulator is attached with pin alignment and secured. The cylinder valve is opened and leak assessment performed by auscultation and inspection. Tubing is attached to the regulator. The reservoir bag is pre-filled prior to mask application by occluding the valve until inflation, as the device functions by providing a reservoir from which the patient draws and a collapsed reservoir contains no oxygen; mask application prior to reservoir filling constitutes the characteristic error and occurs under time pressure. The mask is applied and adjusted at strap and nasal clip for seal. Flow rate is set per protocol at a level preventing reservoir collapse during inspiration, collapse indicating inadequate flow for that patient. Patient reassessment follows, with monitoring of cylinder contents during transport."
+        },
+        "eli_new": {
+          "analogy": "The whole device is a bag of oxygen for the patient to draw from. Putting it on before the bag is full gives them a bag of nothing.",
+          "body": "Fill the reservoir before the mask goes on. Putting the mask on first is the classic error, and it is exactly what people do when they are hurrying."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk through applying oxygen by non-rebreather mask.",
+          "must_hit": [
+            {
+              "point": "Take and state body substance isolation precautions",
+              "accept": [
+                "body substance",
+                "bsi",
+                "gloves",
+                "precaution",
+                "state"
+              ]
+            },
+            {
+              "point": "Gather cylinder, regulator, tubing and mask first",
+              "accept": [
+                "gather",
+                "cylinder",
+                "regulator",
+                "tubing",
+                "mask"
+              ]
+            },
+            {
+              "point": "Check and state the cylinder pressure",
+              "accept": [
+                "pressure",
+                "check",
+                "gauge",
+                "state",
+                "reads"
+              ]
+            },
+            {
+              "point": "Crack the valve where your programme requires it",
+              "accept": [
+                "crack",
+                "valve",
+                "debris",
+                "port",
+                "briefly"
+              ]
+            },
+            {
+              "point": "Attach the regulator with pins aligned and tighten it",
+              "accept": [
+                "regulator",
+                "pin",
+                "align",
+                "tighten",
+                "attach"
+              ]
+            },
+            {
+              "point": "Open the valve and check for leaks",
+              "accept": [
+                "open",
+                "valve",
+                "leak",
+                "hiss",
+                "listen"
+              ]
+            },
+            {
+              "point": "Pre-fill the reservoir bag before applying the mask",
+              "accept": [
+                "fill",
+                "reservoir",
+                "before",
+                "bag",
+                "occlude"
+              ]
+            },
+            {
+              "point": "Set a flow that stops the reservoir collapsing, then reassess",
+              "accept": [
+                "flow",
+                "collapse",
+                "reservoir",
+                "reassess",
+                "protocol"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The bag was flat",
+          "dispatch": "Skills testing — oxygen administration station.",
+          "body": "Everything else was right, and quick, and the mask went on a patient in about forty seconds.\n\nThe reservoir bag was completely flat when it did.\n\nThat is a bag of nothing, and it is the one thing this station exists to check."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Oxygen by non-rebreather mask",
+          "steps": [
+            {
+              "text": "TAKE BODY SUBSTANCE ISOLATION PRECAUTIONS — and SAY that you have",
+              "critical": true
+            },
+            {
+              "text": "GATHER THE EQUIPMENT FIRST: cylinder, regulator, tubing, mask",
+              "critical": false
+            },
+            {
+              "text": "CHECK THE CYLINDER PRESSURE AND SAY WHAT IT READS",
+              "critical": true
+            },
+            {
+              "text": "CRACK THE CYLINDER VALVE briefly to clear the port, where your programme requires it",
+              "critical": false
+            },
+            {
+              "text": "ATTACH THE REGULATOR — PINS ALIGNED, tightened properly",
+              "critical": true
+            },
+            {
+              "text": "OPEN THE CYLINDER VALVE AND CHECK FOR LEAKS — listen and look",
+              "critical": true
+            },
+            {
+              "text": "ATTACH THE TUBING to the regulator",
+              "critical": true
+            },
+            {
+              "text": "PRE-FILL THE RESERVOIR BAG BEFORE THE MASK GOES ON — occlude the valve until it inflates",
+              "critical": true,
+              "note": "THE classic failure. The device is a bag of oxygen to draw from; a flat bag is a bag of nothing."
+            },
+            {
+              "text": "APPLY THE MASK and adjust the strap and nose clip for a SEAL",
+              "critical": true
+            },
+            {
+              "text": "SET THE FLOW PER PROTOCOL — high enough that the RESERVOIR DOES NOT COLLAPSE on inspiration",
+              "critical": true
+            },
+            {
+              "text": "REASSESS THE PATIENT, and watch the cylinder contents through the transport",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-04",
+      "title": "Airway adjuncts and suction",
+      "domain": "AIR",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-02-02",
+        "EMT-02-04-01",
+        "EMT-10-01-05"
+      ],
+      "key_points": [
+        "Take body substance isolation precautions and state that you have",
+        "Open the airway manually first — an adjunct does not replace a manoeuvre",
+        "An oropharyngeal airway is used only in a patient with no gag reflex",
+        "Size it from the corner of the mouth to the angle of the jaw, or as your programme directs",
+        "Insert it as your programme teaches, and remove it immediately if the patient gags",
+        "A nasopharyngeal airway is tolerated by patients who still have a gag reflex",
+        "Size and lubricate it, and insert it along the floor of the nasal passage, bevel as directed",
+        "Suction is measured before insertion so you do not go too deep",
+        "Suction on the way out, not on the way in, and limit each attempt to a short period",
+        "Suctioning removes oxygen as well as secretions, so oxygenate between attempts"
+      ],
+      "misconceptions": [
+        "Inserting an oral airway in a patient with a gag reflex",
+        "Suctioning on the way in",
+        "Suctioning for too long without oxygenating",
+        "Using an adjunct instead of a manual airway manoeuvre"
+      ],
+      "exam_favorites": [
+        "No gag for an oral airway",
+        "Suction on the way out",
+        "Measure before you insert"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two related skills, and both are failed on the same kinds of detail.\n\nTake body substance isolation precautions and say so. Airway work is splash work, and eye protection belongs here.\n\nOpen the airway manually first. An adjunct holds a manually opened airway open; it does not open a closed one, and it does not replace the manoeuvre. Head tilt chin lift, or a jaw thrust where your protocol directs, comes first.\n\nThe oropharyngeal airway is for a patient with no gag reflex. That is the governing rule. If the patient gags, the airway comes straight out — because a patient who gags is a patient who can vomit, and vomit in an unprotected airway is far worse than the problem you were solving.\n\nSize it from the corner of the mouth to the angle of the jaw, or from the centre of the mouth to the angle, depending on your programme — use your own sheet. Insert it as you were taught, and say what you are doing.\n\nThe nasopharyngeal airway is tolerated by patients who still have a gag reflex, which is its main advantage. Size it, lubricate it with a water-soluble lubricant, and insert it along the floor of the nasal passage — straight back, not upwards — with the bevel oriented as your programme directs. It should go in easily; force is not part of this skill.\n\nSuction. Two rules carry it.\n\nMeasure the catheter before you insert it, so you know how far is far enough and do not go deeper. Measuring is a scored step and it prevents you from stimulating a gag or causing injury.\n\nAnd suction on the way out, not on the way in. Insert without suction to the measured depth, then apply suction as you withdraw. Suctioning on the way in wastes time, damages tissue and removes oxygen from an airway you are trying to help.\n\nLimit each attempt to a short period as your programme specifies, because suctioning removes oxygen along with the secretions. Oxygenate between attempts, and say that you are doing it. A patient who is suctioned repeatedly without oxygenation in between is being made more hypoxic by the intervention meant to help them.",
+          "standard": "Airway adjunct insertion and suction are evaluated on procedural detail. Body substance isolation precautions including eye protection are taken and verbalised, airway procedures generating splash exposure. Manual airway opening precedes adjunct insertion, as adjuncts maintain a manually opened airway rather than opening a closed one; head tilt chin lift or jaw thrust per protocol is performed first. The oropharyngeal airway is indicated only in the absence of gag reflex; gagging necessitates immediate removal, as a patient retaining gag reflex may vomit, and emesis in an unprotected airway exceeds the original problem in severity. Sizing is from the mouth corner to the mandibular angle or from mouth centre to angle per programme, and insertion follows programme technique with verbalisation. The nasopharyngeal airway is tolerated with intact gag reflex, constituting its principal advantage. It is sized, lubricated with water-soluble lubricant, and inserted along the nasal floor posteriorly rather than superiorly with bevel orientation per programme; insertion should be atraumatic and force is not indicated. Suction requires catheter measurement prior to insertion, establishing insertion depth and preventing excessive advancement with consequent gag stimulation or injury; measurement is a scored step. Suction is applied during withdrawal rather than insertion; the catheter is advanced to measured depth without suction and suction applied on withdrawal, as suction during insertion is inefficient, traumatic and removes oxygen. Attempt duration is limited per programme specification, as suction removes oxygen with secretions; oxygenation between attempts is performed and verbalised, repeated unoxygenated suction rendering the patient progressively hypoxic."
+        },
+        "eli_new": {
+          "analogy": "An adjunct holds an open airway open. It does not open a closed one, which is why the manual manoeuvre comes first every time.",
+          "body": "Suction on the way out, not on the way in. And measure first, so you know how far is far enough."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how airway adjuncts are chosen and inserted, and how suction is performed.",
+          "must_hit": [
+            {
+              "point": "Open the airway manually first",
+              "accept": [
+                "manual",
+                "first",
+                "head tilt",
+                "jaw thrust",
+                "manoeuvre"
+              ]
+            },
+            {
+              "point": "An oral airway is only for a patient with no gag reflex",
+              "accept": [
+                "gag",
+                "no gag",
+                "oral",
+                "oropharyngeal",
+                "only"
+              ]
+            },
+            {
+              "point": "Remove it immediately if the patient gags",
+              "accept": [
+                "remove",
+                "gag",
+                "immediately",
+                "vomit",
+                "out"
+              ]
+            },
+            {
+              "point": "Size it as your programme directs",
+              "accept": [
+                "size",
+                "corner",
+                "angle",
+                "jaw",
+                "measure"
+              ]
+            },
+            {
+              "point": "A nasal airway is tolerated with a gag reflex",
+              "accept": [
+                "nasopharyngeal",
+                "nasal",
+                "tolerated",
+                "gag",
+                "advantage"
+              ]
+            },
+            {
+              "point": "Lubricate and insert along the floor of the nasal passage",
+              "accept": [
+                "lubricat",
+                "floor",
+                "straight back",
+                "bevel",
+                "nasal"
+              ]
+            },
+            {
+              "point": "Measure the suction catheter before inserting it",
+              "accept": [
+                "measure",
+                "catheter",
+                "before",
+                "depth",
+                "insert"
+              ]
+            },
+            {
+              "point": "Suction on the way out, limit attempts, oxygenate between",
+              "accept": [
+                "way out",
+                "withdraw",
+                "limit",
+                "oxygenate",
+                "between"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "On the way in",
+          "dispatch": "Skills testing — airway and suction station.",
+          "body": "He inserted the catheter with the suction already running, which is what looks efficient.\n\nIt wastes the time, damages the tissue and pulls oxygen out of the airway you are trying to help.\n\nIn without suction, out with it. That is the whole skill."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Airway adjuncts and suction",
+          "steps": [
+            {
+              "text": "BODY SUBSTANCE ISOLATION, INCLUDING EYE PROTECTION — and say so. This is splash work",
+              "critical": true
+            },
+            {
+              "text": "OPEN THE AIRWAY MANUALLY FIRST — an adjunct holds an open airway open; it does not open a closed one",
+              "critical": true
+            },
+            {
+              "text": "ORAL AIRWAY ONLY IF THERE IS NO GAG REFLEX",
+              "critical": true
+            },
+            {
+              "text": "SIZE IT as your programme directs — mouth corner to the angle of the jaw, or centre to angle",
+              "critical": true
+            },
+            {
+              "text": "INSERT as taught, narrating. IF THE PATIENT GAGS, REMOVE IT IMMEDIATELY",
+              "critical": true,
+              "note": "A patient who gags can vomit, and vomit in an unprotected airway is worse than the problem you were solving."
+            },
+            {
+              "text": "NASAL AIRWAY is TOLERATED WITH A GAG REFLEX — that is its advantage",
+              "critical": true
+            },
+            {
+              "text": "SIZE IT, LUBRICATE with water-soluble lubricant, insert ALONG THE FLOOR of the nasal passage, bevel as directed",
+              "critical": true
+            },
+            {
+              "text": "FORCE IS NOT PART OF THIS SKILL — it should pass easily",
+              "critical": true
+            },
+            {
+              "text": "SUCTION: MEASURE THE CATHETER BEFORE INSERTING IT",
+              "critical": true
+            },
+            {
+              "text": "INSERT WITHOUT SUCTION to the measured depth",
+              "critical": true
+            },
+            {
+              "text": "SUCTION ON THE WAY OUT, NOT ON THE WAY IN",
+              "critical": true
+            },
+            {
+              "text": "LIMIT EACH ATTEMPT to the period your programme specifies",
+              "critical": true
+            },
+            {
+              "text": "OXYGENATE BETWEEN ATTEMPTS — and SAY you are doing it. Suction removes oxygen too",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-05",
+      "title": "Bag-valve-mask ventilation of an apnoeic patient",
+      "domain": "AIR",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-10-01-04"
+      ],
+      "related": [
+        "EMT-02-02-01",
+        "EMT-10-01-04",
+        "EMT-10-02-01"
+      ],
+      "key_points": [
+        "Take body substance isolation precautions including eye protection and state that you have",
+        "Open the airway, insert an adjunct where appropriate, and suction if needed",
+        "Select the correct mask size, because a mask that does not seal does not ventilate",
+        "Attach oxygen to the device at the flow your protocol directs",
+        "Achieve a seal using the technique your programme teaches, two-handed where a second rescuer is available",
+        "Two-rescuer technique is markedly more effective, so use it whenever you can",
+        "Ventilate at the rate and volume your protocol directs, and say the rate you are using",
+        "Judge effectiveness by visible chest rise, and fix the seal or position before anything else if it is absent",
+        "Squeeze slowly and smoothly — fast, forceful squeezes inflate the stomach rather than the lungs",
+        "Gastric distension impairs ventilation and causes vomiting, so slow delivery is a safety measure"
+      ],
+      "misconceptions": [
+        "Squeezing fast and hard, inflating the stomach",
+        "Using a mask that does not fit the patient",
+        "Persisting with a one-handed seal when help is available",
+        "Continuing without chest rise instead of fixing the seal"
+      ],
+      "exam_favorites": [
+        "A mask that does not seal does not ventilate",
+        "Slow and smooth",
+        "Two rescuers"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This is the station that most rewards understanding what you are actually doing, because almost every failure comes from the seal or from the squeeze.\n\nBody substance isolation including eye protection, stated out loud. This is the splash skill above all others.\n\nOpen the airway, insert an adjunct where appropriate, and suction if needed. The bag does not fix an obstructed airway.\n\nSelect the correct mask size, and take this seriously: a mask that does not seal does not ventilate at all. Not partially, not less well — the air goes around the mask instead of into the patient. Get the size right before you start rather than discovering it mid-sequence.\n\nAttach oxygen at the flow your protocol directs, and let the reservoir fill.\n\nAchieve a seal using your programme's technique. And this is the single most useful practical point in the skill: two-rescuer technique is markedly more effective than one. One person holds the mask with both hands and concentrates entirely on the seal and the airway position; the other squeezes. If a second rescuer is available, use them. One-handed seals leak, and people persist with them out of habit while the patient is not being ventilated.\n\nVentilate at the rate and volume your protocol directs, and say the rate you are using out loud so it can be scored.\n\nJudge effectiveness by visible chest rise. That is the measure — not how the bag feels, not how hard you are working. If the chest is not rising, stop and fix the cause before continuing: reposition the head, improve the seal, check for obstruction, consider an adjunct. Ventilating enthusiastically with no chest rise achieves nothing at all, and it is a common and understandable error because it feels like doing something.\n\nAnd the squeeze. Slow and smooth. Fast, forceful squeezing pushes air into the stomach rather than the lungs, because the pressure required to open the oesophagus is exceeded when you deliver a breath too quickly. An inflated stomach then pushes up on the diaphragm, making ventilation harder, and it makes vomiting considerably more likely — which in an unprotected airway is a serious problem.\n\nSo slow delivery is not a refinement of technique. It is a safety measure, and it is the difference between ventilating a patient and filling their stomach.",
+          "standard": "Bag-valve-mask ventilation failure predominantly results from inadequate seal or inappropriate delivery technique. Body substance isolation including eye protection is taken and verbalised, this procedure carrying the highest splash exposure. Airway opening, adjunct insertion where appropriate and suction where required precede ventilation, as the device does not overcome obstruction. Correct mask sizing is essential: an inadequate seal produces no ventilation rather than reduced ventilation, gas escaping around the mask; sizing is determined before commencement. Oxygen is connected at protocol-specified flow with reservoir filling. Seal is achieved by programme technique. Two-rescuer technique is markedly superior, permitting one provider to maintain bimanual seal and airway position while the second delivers ventilation, and should be employed where personnel permit; single-handed seals leak and are persisted with habitually while ventilation is not occurring. Ventilation rate and volume follow protocol, with rate verbalised. Efficacy is determined by visible chest rise rather than bag compliance or provider effort; absence of chest rise requires correction of head position, seal, obstruction and adjunct provision before continuation, as ventilation without chest rise achieves nothing while subjectively constituting intervention. Delivery is slow and smooth, as rapid forceful compression exceeds the pressure required to open the oesophagus and directs gas to the stomach rather than the lungs; gastric distension elevates the diaphragm impairing ventilation and substantially increases emesis risk, hazardous in an unprotected airway. Slow delivery therefore constitutes a safety measure rather than technique refinement."
+        },
+        "eli_new": {
+          "analogy": "A mask that does not seal does not ventilate at all. Not less well — at all. The air goes round the outside.",
+          "body": "Slow and smooth. Squeeze fast and the air goes into the stomach instead of the lungs, and then the stomach pushes on the diaphragm and makes everything harder."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to ventilate an apnoeic patient with a bag-valve-mask.",
+          "must_hit": [
+            {
+              "point": "BSI including eye protection, stated",
+              "accept": [
+                "body substance",
+                "eye protection",
+                "bsi",
+                "splash",
+                "state"
+              ]
+            },
+            {
+              "point": "Open the airway, adjunct where appropriate, suction if needed",
+              "accept": [
+                "open",
+                "airway",
+                "adjunct",
+                "suction",
+                "first"
+              ]
+            },
+            {
+              "point": "Correct mask size — a mask that does not seal does not ventilate",
+              "accept": [
+                "mask",
+                "size",
+                "seal",
+                "not ventilate",
+                "around"
+              ]
+            },
+            {
+              "point": "Attach oxygen at the protocol flow",
+              "accept": [
+                "oxygen",
+                "attach",
+                "flow",
+                "reservoir",
+                "protocol"
+              ]
+            },
+            {
+              "point": "Two-rescuer technique is markedly more effective",
+              "accept": [
+                "two",
+                "rescuer",
+                "both hands",
+                "effective",
+                "help"
+              ]
+            },
+            {
+              "point": "Ventilate at the protocol rate and say it out loud",
+              "accept": [
+                "rate",
+                "volume",
+                "protocol",
+                "say",
+                "out loud"
+              ]
+            },
+            {
+              "point": "Judge by visible chest rise and fix the cause if absent",
+              "accept": [
+                "chest rise",
+                "visible",
+                "fix",
+                "reposition",
+                "seal"
+              ]
+            },
+            {
+              "point": "Squeeze slowly and smoothly to avoid gastric distension",
+              "accept": [
+                "slow",
+                "smooth",
+                "stomach",
+                "gastric",
+                "distension",
+                "vomit"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Slower",
+          "dispatch": "Skills testing — bag-valve-mask station.",
+          "body": "He was working hard, squeezing fast, and the belly was rising more than the chest was.\n\nThe examiner said one word, which was slower, and he slowed down.\n\nThe chest started moving instead."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Bag-valve-mask ventilation",
+          "steps": [
+            {
+              "text": "BODY SUBSTANCE ISOLATION INCLUDING EYE PROTECTION — and say so. This is the splash skill",
+              "critical": true
+            },
+            {
+              "text": "OPEN THE AIRWAY · INSERT AN ADJUNCT where appropriate · SUCTION if needed",
+              "critical": true
+            },
+            {
+              "text": "SELECT THE CORRECT MASK SIZE — A MASK THAT DOES NOT SEAL DOES NOT VENTILATE AT ALL",
+              "critical": true,
+              "note": "Not partially. Not less well. The air goes around the mask instead of into the patient."
+            },
+            {
+              "text": "ATTACH OXYGEN at the protocol flow and let the reservoir fill",
+              "critical": true
+            },
+            {
+              "text": "ACHIEVE A SEAL using your programme's technique",
+              "critical": true
+            },
+            {
+              "text": "USE TWO-RESCUER TECHNIQUE WHENEVER YOU CAN — one holds the mask with BOTH HANDS, the other squeezes",
+              "critical": true,
+              "note": "Markedly more effective. One-handed seals leak, and people persist with them while the patient is not being ventilated."
+            },
+            {
+              "text": "VENTILATE AT THE PROTOCOL RATE AND VOLUME — SAY THE RATE OUT LOUD",
+              "critical": true
+            },
+            {
+              "text": "JUDGE BY VISIBLE CHEST RISE — not by how the bag feels or how hard you are working",
+              "critical": true
+            },
+            {
+              "text": "NO CHEST RISE? STOP AND FIX IT: reposition the head, improve the seal, check for obstruction",
+              "critical": true
+            },
+            {
+              "text": "SQUEEZE SLOWLY AND SMOOTHLY — fast and forceful inflates the STOMACH instead of the lungs",
+              "critical": true,
+              "note": "Gastric distension pushes up on the diaphragm and makes vomiting much more likely. Slow delivery is a safety measure."
+            },
+            {
+              "text": "REASSESS and continue at the stated rate",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-01",
+      "title": "Cardiac arrest management with an AED",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-04-03-02",
+        "EMT-10-01-05"
+      ],
+      "key_points": [
+        "Take body substance isolation precautions and confirm the scene is safe",
+        "Confirm unresponsiveness, absent normal breathing and no pulse, taking no more than the checking time your protocol allows",
+        "Start compressions immediately and send for the defibrillator at the same time",
+        "Compression quality is the treatment: correct depth, correct rate, full recoil, minimal interruption",
+        "Interruptions are what kill — every pause costs perfusion that takes several compressions to rebuild",
+        "Turn the AED on as soon as it arrives and follow its prompts",
+        "Apply the pads to bare, dry skin in the positions marked on them",
+        "Say clear and look before analysing and before any shock, both times",
+        "Resume compressions immediately after a shock or a no-shock decision, without checking a pulse first",
+        "Continue in cycles, minimising every pause, and change compressors as your protocol directs"
+      ],
+      "misconceptions": [
+        "Long pauses in compressions around the AED",
+        "Checking a pulse immediately after a shock",
+        "Applying pads to wet or unprepared skin",
+        "Failing to look as well as say clear"
+      ],
+      "exam_favorites": [
+        "Compressions are the treatment",
+        "Resume immediately after the shock",
+        "Clear means look"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Everything on this sheet is about one thing: compressions, delivered well, with as few interruptions as possible.\n\nBody substance isolation and scene safety, stated.\n\nConfirm unresponsiveness, absent normal breathing and no pulse. Take no more than the checking time your protocol allows — this is a check, not a deliberation. Agonal gasping is not breathing, and it is the finding most often misread on real calls.\n\nStart compressions immediately, and send for the defibrillator at the same time rather than afterwards. Those two things happen together.\n\nCompression quality is the treatment. Correct depth, correct rate, full recoil between compressions, and minimal interruption. Full recoil matters more than people expect — leaning on the chest prevents it refilling, and a heart that cannot fill cannot be emptied usefully.\n\nAnd the idea that makes sense of the whole skill: interruptions are what kill. Perfusion pressure builds over several compressions and falls immediately when you stop. Every pause throws away what you have built and costs several compressions to get back. So every step around the AED is organised to make the pauses short.\n\nTurn the AED on as soon as it arrives and follow its prompts. Do not try to get ahead of it.\n\nApply the pads to bare, dry skin in the positions marked on the pads themselves. Bare and dry matters: chest hair, sweat, water and medication patches all interfere, and a pad that does not stick does not deliver.\n\nSay clear and look before analysing, and again before shocking. Both times, and the looking is the part that gets dropped. Saying clear while your eyes are on the machine is not clearing the patient; it is announcing an intention. Look up, see the whole patient and everyone around them, then press.\n\nThen the step that is scored and is counterintuitive: resume compressions immediately after a shock, or after a no-shock decision. Do not check a pulse first. A pulse check after a shock is a pause during the period when compressions matter most, and any rhythm that has returned will still be there in two minutes.\n\nContinue in cycles, keep every pause short, and change compressors as your protocol directs — because compression quality falls off with fatigue long before the person doing it notices.",
+          "standard": "Cardiac arrest management centres on high-quality chest compression with minimal interruption. Body substance isolation and scene safety are confirmed and verbalised. Assessment confirms unresponsiveness, absence of normal breathing and absence of pulse within the protocol-specified checking interval; agonal respiration does not constitute breathing and is the most frequently misinterpreted finding. Compressions commence immediately with concurrent rather than subsequent dispatch for the defibrillator. Compression quality constitutes the therapeutic intervention, comprising protocol-specified depth and rate, complete recoil and minimal interruption; incomplete recoil from leaning prevents ventricular filling, and an unfilled ventricle cannot be usefully emptied. Interruption is the principal determinant of failure, as coronary perfusion pressure accumulates over successive compressions and falls immediately on cessation, each pause requiring several compressions to restore. The AED is activated on arrival with adherence to its prompts. Pads are applied to bare, dry skin in the positions marked; chest hair, moisture and transdermal medication patches impair adhesion and conduction, and non-adherent pads do not deliver energy. Clearance is announced and visually confirmed before analysis and again before shock delivery, visual confirmation being the component commonly omitted; verbal clearance with attention directed at the device announces intent without confirming clearance. Compressions resume immediately following shock delivery or no-shock decision without intervening pulse check, as post-shock pulse checking imposes a pause during the period of greatest compression benefit and any restored rhythm persists for subsequent assessment. Cycles continue with minimised pauses and compressor rotation per protocol, as compression quality declines with fatigue before subjective recognition."
+        },
+        "eli_new": {
+          "analogy": "Perfusion pressure builds over several compressions and falls the instant you stop. Every pause throws away what you just built.",
+          "body": "Saying clear while looking at the machine is announcing an intention. Look up, see the whole patient and everyone round them, then press."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk through cardiac arrest management with an AED and say what governs it.",
+          "must_hit": [
+            {
+              "point": "Confirm unresponsiveness, no normal breathing and no pulse quickly",
+              "accept": [
+                "unresponsive",
+                "breathing",
+                "pulse",
+                "check",
+                "agonal"
+              ]
+            },
+            {
+              "point": "Start compressions immediately and send for the AED at the same time",
+              "accept": [
+                "immediate",
+                "compressions",
+                "send",
+                "same time",
+                "defibrillator"
+              ]
+            },
+            {
+              "point": "Compression quality is the treatment: depth, rate, full recoil",
+              "accept": [
+                "depth",
+                "rate",
+                "recoil",
+                "quality",
+                "lean"
+              ]
+            },
+            {
+              "point": "Interruptions are what kill",
+              "accept": [
+                "interrupt",
+                "pause",
+                "perfusion",
+                "kill",
+                "minimal"
+              ]
+            },
+            {
+              "point": "Follow the AED prompts and apply pads to bare dry skin",
+              "accept": [
+                "prompt",
+                "pads",
+                "bare",
+                "dry",
+                "position"
+              ]
+            },
+            {
+              "point": "Say clear and look, before analysis and before the shock",
+              "accept": [
+                "clear",
+                "look",
+                "both",
+                "analyse",
+                "shock"
+              ]
+            },
+            {
+              "point": "Resume compressions immediately without a pulse check",
+              "accept": [
+                "resume",
+                "immediately",
+                "no pulse check",
+                "after",
+                "shock"
+              ]
+            },
+            {
+              "point": "Change compressors as protocol directs",
+              "accept": [
+                "change",
+                "rotate",
+                "compressor",
+                "fatigue",
+                "quality"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Eyes up",
+          "dispatch": "Skills testing — cardiac arrest station.",
+          "body": "He said clear both times, clearly and loudly, with his eyes on the machine.\n\nThe examiner asked afterwards what the other rescuer had been doing at that moment.\n\nHe had no idea, which is exactly the point of looking."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Cardiac arrest with an AED",
+          "steps": [
+            {
+              "text": "BODY SUBSTANCE ISOLATION and SCENE SAFETY, stated",
+              "critical": true
+            },
+            {
+              "text": "CONFIRM UNRESPONSIVE · NO NORMAL BREATHING · NO PULSE — within the checking time your protocol allows",
+              "critical": true,
+              "note": "Agonal gasping is NOT breathing. It is the finding most often misread on real calls."
+            },
+            {
+              "text": "START COMPRESSIONS IMMEDIATELY and SEND FOR THE DEFIBRILLATOR AT THE SAME TIME",
+              "critical": true
+            },
+            {
+              "text": "COMPRESSION QUALITY IS THE TREATMENT: correct depth · correct rate · FULL RECOIL · minimal interruption",
+              "critical": true,
+              "note": "Leaning prevents the chest refilling. A heart that cannot fill cannot be emptied usefully."
+            },
+            {
+              "text": "MINIMISE EVERY PAUSE — perfusion builds over several compressions and falls the instant you stop",
+              "critical": true
+            },
+            {
+              "text": "TURN THE AED ON AS SOON AS IT ARRIVES and FOLLOW ITS PROMPTS",
+              "critical": true
+            },
+            {
+              "text": "PADS TO BARE, DRY SKIN in the positions marked on them — hair, sweat, water and patches all interfere",
+              "critical": true
+            },
+            {
+              "text": "SAY CLEAR AND LOOK BEFORE ANALYSING",
+              "critical": true
+            },
+            {
+              "text": "SAY CLEAR AND LOOK AGAIN BEFORE THE SHOCK — the LOOKING is the part that gets dropped",
+              "critical": true
+            },
+            {
+              "text": "RESUME COMPRESSIONS IMMEDIATELY AFTER THE SHOCK OR THE NO-SHOCK DECISION — DO NOT CHECK A PULSE FIRST",
+              "critical": true
+            },
+            {
+              "text": "CONTINUE IN CYCLES, pauses short, CHANGING COMPRESSORS as your protocol directs",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear. Resuscitation figures must be confirmed against current AHA guidelines, which are revised on a cycle."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-02",
+      "title": "Bleeding control and shock management",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-02-02",
+        "EMT-06-02-01"
+      ],
+      "key_points": [
+        "Take body substance isolation precautions, including eye protection, and state that you have",
+        "Apply direct pressure immediately, firmly, with a dressing and your hand",
+        "Do not lift the dressing to look — lifting disturbs the clot you are trying to form",
+        "If it bleeds through, add dressings on top and press harder rather than removing anything",
+        "Where direct pressure fails on a limb, apply a tourniquet as your protocol directs",
+        "Place a tourniquet proximal to the wound, tighten until bleeding stops, and note the time",
+        "A tourniquet that is tight enough hurts, and one that is not tight enough makes bleeding worse",
+        "Treat for shock: position as protocol directs, give oxygen, and keep the patient warm",
+        "Keeping the patient warm is a treatment, because cold worsens bleeding",
+        "Reassess the wound, the distal circulation and the patient throughout"
+      ],
+      "misconceptions": [
+        "Lifting the dressing to check the wound",
+        "Removing soaked dressings rather than adding more",
+        "Applying a tourniquet too loosely",
+        "Forgetting to note the tourniquet time"
+      ],
+      "exam_favorites": [
+        "Do not look under it",
+        "Add, do not remove",
+        "Note the time"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Bleeding control is the skill where doing less is doing better, because the enemy is disturbance.\n\nBody substance isolation including eye protection, stated out loud. Arterial bleeding sprays, and it is the kind of exposure that stays with you.\n\nApply direct pressure immediately. A dressing and your hand, pressed firmly on the point that is bleeding. Firmly means firmly — half-hearted pressure controls nothing and prolongs the bleeding.\n\nThen the discipline that this station exists to test: do not lift the dressing to look. Everybody wants to check whether it is working. Lifting disturbs the clot that is forming and restarts the bleeding, and then you are further behind than when you started. Leave it alone.\n\nIf blood comes through, add dressings on top and press harder. Do not remove the soaked ones — the clot is in them.\n\nWhere direct pressure fails on a limb, apply a tourniquet as your protocol directs. Place it proximal to the wound — between the wound and the body — and tighten it until the bleeding stops. Then note the time and say it out loud, and make sure it is written down and handed over. That time matters to the receiving hospital.\n\nAnd know this: a tourniquet that is tight enough hurts. Patients will tell you so, and it is not a reason to loosen it. A half-tight tourniquet is genuinely worse than none at all, because it stops the veins returning blood while leaving the arteries flowing in, and the limb bleeds more than it did before.\n\nThen treat for shock, which is the other half of this station. Position as your protocol directs. Give oxygen. And keep the patient warm.\n\nThat last one is scored and it is not a comfort measure. Cold blood clots badly. A patient who is bleeding and cold bleeds more than the same patient kept warm, and the cooling happens quickly — outdoors, with clothing cut away, with the doors open. Cover them and keep covering them.\n\nReassess throughout: the wound, the circulation beyond it, and the patient as a whole.",
+          "standard": "Haemorrhage control is characterised by minimisation of disturbance. Body substance isolation including eye protection is taken and verbalised, arterial haemorrhage producing significant splash exposure. Direct pressure is applied immediately with dressing and manual pressure at the bleeding point, with sufficient force, as inadequate pressure fails to achieve control and prolongs haemorrhage. Dressing elevation for inspection is contraindicated, as it disrupts forming clot and re-initiates haemorrhage. Saturated dressings are supplemented rather than replaced, with additional pressure, as clot resides within the existing dressing. Where direct pressure fails on an extremity, tourniquet application per protocol is indicated, positioned proximal to the wound and tightened until haemorrhage ceases, with application time noted, verbalised, documented and handed over, this information being required by the receiving facility. Adequate tourniquet tension produces pain, which does not constitute an indication for loosening; partial tension is more harmful than no tourniquet, occluding venous return while permitting arterial inflow and increasing haemorrhage. Shock management comprises protocol-directed positioning, oxygen administration and maintenance of normothermia. Thermal maintenance is a scored therapeutic measure rather than comfort provision: hypothermic blood exhibits impaired coagulation, and haemorrhaging patients who become cold bleed more than those kept warm; cooling occurs rapidly with outdoor exposure, clothing removal and open compartments. Reassessment addresses the wound, distal circulation and overall patient status."
+        },
+        "eli_new": {
+          "analogy": "A half-tight tourniquet stops the blood getting out of the limb while letting it keep coming in. That is worse than no tourniquet at all.",
+          "body": "Do not lift the dressing to look. Everybody wants to, and lifting restarts the bleeding you had just stopped."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how bleeding is controlled and how shock is managed alongside it.",
+          "must_hit": [
+            {
+              "point": "BSI including eye protection, stated",
+              "accept": [
+                "body substance",
+                "eye protection",
+                "bsi",
+                "splash",
+                "state"
+              ]
+            },
+            {
+              "point": "Direct pressure immediately and firmly",
+              "accept": [
+                "direct pressure",
+                "immediate",
+                "firm",
+                "dressing",
+                "hand"
+              ]
+            },
+            {
+              "point": "Do not lift the dressing to look",
+              "accept": [
+                "not lift",
+                "look",
+                "clot",
+                "disturb",
+                "leave"
+              ]
+            },
+            {
+              "point": "Add dressings on top rather than removing soaked ones",
+              "accept": [
+                "add",
+                "on top",
+                "not remove",
+                "soaked",
+                "more"
+              ]
+            },
+            {
+              "point": "Tourniquet proximal to the wound where pressure fails",
+              "accept": [
+                "tourniquet",
+                "proximal",
+                "above",
+                "limb",
+                "fails"
+              ]
+            },
+            {
+              "point": "Tighten until bleeding stops and note the time",
+              "accept": [
+                "tighten",
+                "stops",
+                "time",
+                "note",
+                "say"
+              ]
+            },
+            {
+              "point": "A half-tight tourniquet makes bleeding worse",
+              "accept": [
+                "half",
+                "loose",
+                "worse",
+                "vein",
+                "artery"
+              ]
+            },
+            {
+              "point": "Treat shock: position, oxygen, and keep them warm",
+              "accept": [
+                "position",
+                "oxygen",
+                "warm",
+                "cold",
+                "clot"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Just a look",
+          "dispatch": "Skills testing — bleeding control station.",
+          "body": "The bleeding had stopped and she wanted to check, so she lifted the corner of the dressing.\n\nIt started again, and everything after that was catching up.\n\nThe whole station exists to test whether you can leave it alone."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Bleeding control and shock management",
+          "steps": [
+            {
+              "text": "BODY SUBSTANCE ISOLATION INCLUDING EYE PROTECTION — arterial bleeding sprays",
+              "critical": true
+            },
+            {
+              "text": "APPLY DIRECT PRESSURE IMMEDIATELY — dressing and hand, FIRMLY, on the bleeding point",
+              "critical": true
+            },
+            {
+              "text": "DO NOT LIFT THE DRESSING TO LOOK — it disturbs the clot and restarts the bleeding",
+              "critical": true
+            },
+            {
+              "text": "BLEEDING THROUGH? ADD DRESSINGS ON TOP AND PRESS HARDER. DO NOT REMOVE the soaked ones",
+              "critical": true
+            },
+            {
+              "text": "DIRECT PRESSURE FAILING ON A LIMB → TOURNIQUET as your protocol directs",
+              "critical": true
+            },
+            {
+              "text": "PLACE IT PROXIMAL TO THE WOUND — between the wound and the body",
+              "critical": true
+            },
+            {
+              "text": "TIGHTEN UNTIL THE BLEEDING STOPS — a tourniquet tight enough HURTS, and that is not a reason to loosen it",
+              "critical": true,
+              "note": "A half-tight tourniquet stops venous return while arteries keep filling the limb. Worse than none at all."
+            },
+            {
+              "text": "NOTE THE TIME, SAY IT OUT LOUD, WRITE IT DOWN AND HAND IT OVER",
+              "critical": true
+            },
+            {
+              "text": "TREAT FOR SHOCK: position as protocol directs · oxygen · KEEP THEM WARM",
+              "critical": true
+            },
+            {
+              "text": "WARMTH IS A TREATMENT — cold blood clots badly, and a cold bleeding patient bleeds more",
+              "critical": true
+            },
+            {
+              "text": "REASSESS the wound, the circulation beyond it, and the patient",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-03",
+      "title": "Long bone immobilisation",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-04-01",
+        "EMT-10-02-04",
+        "EMT-10-02-05"
+      ],
+      "key_points": [
+        "Take body substance isolation precautions and state them",
+        "Assess circulation, movement and sensation distal to the injury before you splint",
+        "Expose the injury and control any bleeding first",
+        "Choose a splint that will immobilise the joint above and the joint below the fracture",
+        "Support the limb above and below the injury throughout, with two people where possible",
+        "Apply the splint without deliberately straightening the limb unless your protocol directs it",
+        "Pad voids so the splint supports the limb evenly rather than pressing in one place",
+        "Secure the splint so it does not move, but not so tightly that it impairs circulation",
+        "Reassess circulation, movement and sensation after splinting and say the result out loud",
+        "If distal circulation is lost after splinting, loosen and reassess immediately"
+      ],
+      "misconceptions": [
+        "Splinting without checking distal function first",
+        "Immobilising only the fracture and not the joints",
+        "Letting the limb move while the splint is applied",
+        "Failing to recheck circulation afterwards"
+      ],
+      "exam_favorites": [
+        "Check before and after",
+        "Joint above and below",
+        "Support throughout"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This is a sheet where the marks are in the checks, not in the splint.\n\nBody substance isolation, stated.\n\nAssess circulation, movement and sensation distal to the injury before you splint, and say what you found. This is the step that gets forgotten under pressure, and it is the one that makes the check afterwards meaningful — without a before, the after tells you nothing.\n\nExpose the injury and control any bleeding first. A splint over an uncontrolled wound hides a problem you cannot then see.\n\nChoose a splint long enough to immobilise the joint above and the joint below the fracture. That is the principle that defines long bone splinting: a bone moves when the joints at either end move, so immobilising the bone alone does nothing.\n\nSupport the limb above and below the injury throughout the whole process, and keep supporting it until the splint is secured. This is where two people are needed — one supports, the other applies. A limb that drops or twists while you are wrestling with straps undoes everything and hurts considerably.\n\nApply the splint without deliberately straightening the limb, unless your protocol directs realignment in specific circumstances. Splint it as it lies, where you can.\n\nPad the voids — the gaps between the limb and the splint. Padding spreads the support evenly. Without it the splint contacts at a few points and presses, which is uncomfortable and can cause injury over a long transport.\n\nSecure it firmly enough that the limb does not move, and not so tightly that circulation is impaired. Those two requirements pull against each other and the balance is the skill.\n\nThen reassess circulation, movement and sensation, and say the result out loud. That is a scored step and it is the whole point of the before check.\n\nAnd if distal circulation has been lost after splinting, loosen it and reassess immediately. A well-applied splint on a limb with no blood supply is a failed splint.",
+          "standard": "Long bone immobilisation evaluation centres on assessment rather than device application. Body substance isolation is taken and verbalised. Distal circulation, movement and sensation are assessed and verbalised prior to splinting; this step is commonly omitted under pressure and is prerequisite to meaningful post-application assessment. The injury is exposed and haemorrhage controlled prior to splinting, as a splint applied over uncontrolled haemorrhage conceals a subsequently unassessable problem. Splint selection provides immobilisation of the joints proximal and distal to the fracture, as long bone movement occurs through the joints at either end and isolated fracture-site immobilisation is ineffective. The limb is supported proximal and distal to the injury throughout application until the splint is secured, requiring two providers where available; limb movement during application negates prior positioning and causes pain. Deliberate realignment is not performed unless protocol directs in specified circumstances; splinting in the position found is preferred where practicable. Voids between limb and splint are padded to distribute support, unpadded splints producing point contact with discomfort and potential injury over extended transport. Securing is sufficient to prevent limb movement without impairing circulation, these requirements being in tension. Distal circulation, movement and sensation are reassessed and verbalised following application, constituting a scored step and the purpose of the prior assessment. Loss of distal circulation following application requires immediate loosening and reassessment; a correctly applied splint on a limb without perfusion constitutes a failed splint."
+        },
+        "eli_new": {
+          "analogy": "A bone moves when the joints at either end move. Immobilising the bone alone achieves nothing, which is why the splint reaches past both.",
+          "body": "Check circulation, movement and sensation before as well as after. Without the before, the after tells you nothing at all."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how a long bone is immobilised and what is checked.",
+          "must_hit": [
+            {
+              "point": "Check circulation, movement and sensation before splinting",
+              "accept": [
+                "circulation",
+                "movement",
+                "sensation",
+                "before",
+                "distal"
+              ]
+            },
+            {
+              "point": "Expose the injury and control bleeding first",
+              "accept": [
+                "expose",
+                "bleeding",
+                "control",
+                "first",
+                "wound"
+              ]
+            },
+            {
+              "point": "Immobilise the joint above and the joint below",
+              "accept": [
+                "joint above",
+                "joint below",
+                "both",
+                "past",
+                "either end"
+              ]
+            },
+            {
+              "point": "Support the limb above and below throughout",
+              "accept": [
+                "support",
+                "throughout",
+                "two people",
+                "above",
+                "below"
+              ]
+            },
+            {
+              "point": "Do not deliberately straighten unless protocol directs",
+              "accept": [
+                "straighten",
+                "realign",
+                "as it lies",
+                "protocol",
+                "position found"
+              ]
+            },
+            {
+              "point": "Pad the voids",
+              "accept": [
+                "pad",
+                "void",
+                "gap",
+                "even",
+                "spread"
+              ]
+            },
+            {
+              "point": "Secure firmly but not so tightly that circulation is impaired",
+              "accept": [
+                "secure",
+                "firm",
+                "tight",
+                "circulation",
+                "balance"
+              ]
+            },
+            {
+              "point": "Recheck afterwards and loosen immediately if circulation is lost",
+              "accept": [
+                "recheck",
+                "after",
+                "say",
+                "loosen",
+                "lost"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Before",
+          "dispatch": "Skills testing — long bone immobilisation station.",
+          "body": "The splint was neat, padded, secure, and applied quickly.\n\nHe checked circulation, movement and sensation afterwards and reported them normal.\n\nHe had not checked before, so nobody in that room knew whether normal was a change."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Long bone immobilisation",
+          "steps": [
+            {
+              "text": "BODY SUBSTANCE ISOLATION, stated",
+              "critical": true
+            },
+            {
+              "text": "ASSESS CIRCULATION, MOVEMENT AND SENSATION DISTAL TO THE INJURY — AND SAY WHAT YOU FOUND",
+              "critical": true,
+              "note": "Without a before, the after tells you nothing. This is the step that gets forgotten under pressure."
+            },
+            {
+              "text": "EXPOSE THE INJURY AND CONTROL ANY BLEEDING FIRST",
+              "critical": true
+            },
+            {
+              "text": "SELECT A SPLINT THAT IMMOBILISES THE JOINT ABOVE AND THE JOINT BELOW",
+              "critical": true
+            },
+            {
+              "text": "SUPPORT THE LIMB ABOVE AND BELOW THROUGHOUT — two people where possible",
+              "critical": true
+            },
+            {
+              "text": "DO NOT DELIBERATELY STRAIGHTEN unless your protocol directs it — splint it as it lies",
+              "critical": true
+            },
+            {
+              "text": "PAD THE VOIDS so support is spread rather than pressing at a few points",
+              "critical": true
+            },
+            {
+              "text": "SECURE IT so the limb does not move — but NOT SO TIGHTLY that circulation is impaired",
+              "critical": true
+            },
+            {
+              "text": "REASSESS CIRCULATION, MOVEMENT AND SENSATION AND SAY THE RESULT OUT LOUD",
+              "critical": true
+            },
+            {
+              "text": "CIRCULATION LOST? LOOSEN AND REASSESS IMMEDIATELY — a splint on a limb with no blood supply has failed",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-04",
+      "title": "Joint immobilisation",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-10-02-03"
+      ],
+      "related": [
+        "EMT-10-02-03",
+        "EMT-06-04-01"
+      ],
+      "key_points": [
+        "The principle reverses: for a joint injury, immobilise the bone above and the bone below",
+        "Take body substance isolation precautions and state them",
+        "Assess circulation, movement and sensation distal to the injury before splinting",
+        "Immobilise the joint in the position found wherever your protocol allows",
+        "Do not attempt to straighten or reduce a dislocated joint",
+        "Support the limb above and below the joint throughout",
+        "Pad generously, because a joint splinted in an odd position leaves large voids",
+        "Secure the splint without pressure directly over the injured joint",
+        "Reassess circulation, movement and sensation afterwards and say the result",
+        "A joint with no distal pulse is urgent, so say so and do not delay transport"
+      ],
+      "misconceptions": [
+        "Attempting to straighten a dislocated joint",
+        "Applying the same rule as long bone splinting",
+        "Securing a strap directly over the injured joint",
+        "Skipping the before or after circulation check"
+      ],
+      "exam_favorites": [
+        "Bone above, bone below",
+        "Position found",
+        "No pulse means urgent"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The principle here is the reverse of long bone splinting, and it is the single thing this station tests.\n\nFor a long bone, you immobilise the joint above and the joint below. For a joint, you immobilise the bone above and the bone below. Same idea, applied in the opposite direction — you are stopping the structures either side of the injury from moving it.\n\nBody substance isolation, stated. Assess circulation, movement and sensation distal to the injury and say what you found.\n\nImmobilise the joint in the position found, wherever your protocol allows. And do not attempt to straighten or reduce a dislocated joint. That is not an EMT procedure, it can cause serious damage to nerves and vessels, and the position the joint has adopted is frequently the position in which the remaining blood supply is least compromised.\n\nSupport the limb above and below the joint throughout, exactly as with a long bone, and for the same reason.\n\nPad generously. A joint splinted in an awkward position leaves large voids between the limb and the splint, and those voids are where movement and pressure injuries come from. Use more padding than feels necessary.\n\nSecure the splint without putting a strap directly over the injured joint. Pressure on the injury hurts, may worsen the damage, and is an easy thing to avoid by placing the straps above and below.\n\nReassess circulation, movement and sensation afterwards and say the result.\n\nAnd one clinical point worth carrying beyond the test. A joint injury with no distal pulse is urgent. Dislocations can compress or kink the vessels that run past the joint, and a limb without blood supply has a limited time before permanent damage. Say it out loud, tell the receiving hospital, and do not let the splinting become the reason transport was delayed.",
+          "standard": "Joint immobilisation inverts the long bone principle: the bones proximal and distal to the injured joint are immobilised, preventing movement of the injury by the adjacent structures. Body substance isolation is taken and verbalised, and distal circulation, movement and sensation assessed and verbalised. The joint is immobilised in the position found where protocol permits. Reduction or straightening of dislocation is not performed at EMT level, carrying risk of neurovascular injury; the adopted position frequently represents that of least vascular compromise. The limb is supported proximal and distal to the joint throughout application. Generous padding is required, as immobilisation in a non-anatomical position produces substantial voids between limb and splint, these being the source of movement and pressure injury. Securing avoids strapping directly over the injured joint, as pressure at the injury produces pain and potential exacerbation and is readily avoided by proximal and distal strap placement. Distal circulation, movement and sensation are reassessed and verbalised. Joint injury with absent distal pulse constitutes urgency, as dislocation may compress or angulate vessels traversing the joint and limb ischaemia carries limited tolerance before permanent injury; the finding is verbalised, communicated to the receiving facility, and splinting must not delay transport."
+        },
+        "eli_new": {
+          "analogy": "Long bone: splint the joints either end. Joint: splint the bones either end. The same idea pointed the other way.",
+          "body": "Do not straighten a dislocation. The position it has found is frequently the position where the blood supply is least squeezed."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how a joint injury is immobilised and how it differs from a long bone.",
+          "must_hit": [
+            {
+              "point": "Immobilise the bone above and the bone below the joint",
+              "accept": [
+                "bone above",
+                "bone below",
+                "either side",
+                "reverse",
+                "opposite"
+              ]
+            },
+            {
+              "point": "Assess circulation, movement and sensation before",
+              "accept": [
+                "circulation",
+                "movement",
+                "sensation",
+                "before",
+                "distal"
+              ]
+            },
+            {
+              "point": "Immobilise in the position found where protocol allows",
+              "accept": [
+                "position found",
+                "as it lies",
+                "protocol",
+                "allow",
+                "found"
+              ]
+            },
+            {
+              "point": "Do not straighten or reduce a dislocation",
+              "accept": [
+                "not straighten",
+                "reduce",
+                "dislocat",
+                "damage",
+                "nerve"
+              ]
+            },
+            {
+              "point": "Support the limb above and below throughout",
+              "accept": [
+                "support",
+                "above",
+                "below",
+                "throughout",
+                "two"
+              ]
+            },
+            {
+              "point": "Pad generously because the voids are large",
+              "accept": [
+                "pad",
+                "void",
+                "large",
+                "generous",
+                "awkward"
+              ]
+            },
+            {
+              "point": "Do not strap directly over the injured joint",
+              "accept": [
+                "strap",
+                "over",
+                "joint",
+                "pressure",
+                "above and below"
+              ]
+            },
+            {
+              "point": "Reassess afterwards; no distal pulse is urgent",
+              "accept": [
+                "reassess",
+                "after",
+                "pulse",
+                "urgent",
+                "transport"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Leave it where it is",
+          "dispatch": "Skills testing — joint immobilisation station.",
+          "body": "The joint was in an unnatural position and everything in him wanted to move it towards normal.\n\nHe splinted it where it was and padded the gap.\n\nThe position a dislocated joint has found is often the one where the vessels are least squeezed."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Joint immobilisation",
+          "steps": [
+            {
+              "text": "BODY SUBSTANCE ISOLATION, stated",
+              "critical": true
+            },
+            {
+              "text": "ASSESS CIRCULATION, MOVEMENT AND SENSATION DISTAL TO THE INJURY — and say what you found",
+              "critical": true
+            },
+            {
+              "text": "IMMOBILISE THE BONE ABOVE AND THE BONE BELOW — the REVERSE of long bone splinting",
+              "critical": true
+            },
+            {
+              "text": "IMMOBILISE IN THE POSITION FOUND wherever your protocol allows",
+              "critical": true
+            },
+            {
+              "text": "DO NOT STRAIGHTEN OR REDUCE A DISLOCATED JOINT",
+              "critical": true,
+              "note": "Not an EMT procedure. The position it has found is frequently the one where the vessels are least compromised."
+            },
+            {
+              "text": "SUPPORT THE LIMB ABOVE AND BELOW THE JOINT THROUGHOUT",
+              "critical": true
+            },
+            {
+              "text": "PAD GENEROUSLY — an awkward position leaves large voids, and voids are where movement and pressure injury come from",
+              "critical": true
+            },
+            {
+              "text": "SECURE WITHOUT A STRAP DIRECTLY OVER THE INJURED JOINT — place them above and below",
+              "critical": true
+            },
+            {
+              "text": "REASSESS CIRCULATION, MOVEMENT AND SENSATION AND SAY THE RESULT",
+              "critical": true
+            },
+            {
+              "text": "NO DISTAL PULSE = URGENT. Say it, tell the hospital, and DO NOT LET SPLINTING DELAY TRANSPORT",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-05",
+      "title": "Traction splinting",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-10-02-03"
+      ],
+      "related": [
+        "EMT-10-02-03",
+        "EMT-06-04-01"
+      ],
+      "key_points": [
+        "A traction splint is used for a mid-shaft femur fracture without joint or lower leg injury",
+        "It works by applying gentle pull that reduces muscle spasm, pain and internal bleeding",
+        "Take body substance isolation precautions and assess circulation, movement and sensation first",
+        "It is contraindicated where there is a joint injury, a pelvic injury or injury to the same lower leg",
+        "It is contraindicated in a partial amputation or avulsion where traction could separate the limb",
+        "Two people are required: one maintains manual traction throughout, the other applies the device",
+        "Manual traction is applied first and is never released until the device has taken over",
+        "Measure the splint against the uninjured leg before applying it",
+        "Apply mechanical traction until the pain and spasm ease, not to a fixed force",
+        "Reassess circulation, movement and sensation afterwards and secure the patient to the stretcher"
+      ],
+      "misconceptions": [
+        "Releasing manual traction before the device takes over",
+        "Using it with a lower leg or joint injury",
+        "Applying it single-handed",
+        "Applying maximum traction rather than easing spasm"
+      ],
+      "exam_favorites": [
+        "When not to use it",
+        "Never release manual traction",
+        "Measure on the good leg"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A traction splint is for one specific injury: a mid-shaft femur fracture, without injury to the joints at either end and without injury to the lower leg on the same side.\n\nUnderstanding why it works makes the rest obvious. The thigh muscles are the most powerful in the body, and when the femur breaks they contract hard, dragging the broken ends past each other. That spasm causes severe pain, further damage, and significant internal bleeding into the thigh. Gentle, sustained traction overcomes the spasm, realigns the ends, and reduces all three.\n\nBody substance isolation, stated. Assess circulation, movement and sensation distal to the injury and say what you found.\n\nNow the contraindications, which is what the station is really testing. Do not use a traction splint where there is an injury to the knee or hip, a pelvic injury, or an injury to the lower leg or ankle on the same side — because traction pulls against those structures and the device anchors on them. And do not use it in a partial amputation or avulsion, where traction could separate the limb.\n\nIf you cannot pull against the ankle and foot safely, you cannot use this device. That is the simplest way to hold the contraindication list.\n\nTwo people are required, and this is not negotiable. One person applies and maintains manual traction; the other applies the device. There is no single-handed version of this skill.\n\nManual traction is applied first, and it is never released until the mechanical device has taken over. Releasing early lets the muscles spasm again, which undoes everything and causes severe pain. Whoever holds the traction says so and keeps saying so.\n\nMeasure the splint against the uninjured leg before you apply it, so it is the right length without moving the injured one.\n\nApply mechanical traction until the pain and the spasm ease. That is the endpoint — not a fixed force, not as much as the device will give. The patient's response is the measure.\n\nThen reassess circulation, movement and sensation, say the result, and secure both the splint and the patient to the stretcher for transport.",
+          "standard": "Traction splinting is indicated for isolated mid-shaft femoral fracture without injury to adjacent joints or the ipsilateral lower leg. The mechanism addresses spasm of the thigh musculature, the most powerful in the body, which on femoral fracture contracts and displaces fracture ends, producing severe pain, additional tissue damage and significant intramuscular haemorrhage; sustained gentle traction overcomes spasm, restores alignment and reduces all three. Body substance isolation is taken and verbalised, with distal circulation, movement and sensation assessed and verbalised. Contraindications comprise injury to the knee, hip or pelvis, and injury to the ipsilateral lower leg or ankle, as traction acts against and the device anchors upon these structures; and partial amputation or avulsion, where traction risks limb separation. The practical formulation is that inability to safely apply traction against the ankle and foot precludes use. Two providers are required without exception: one applies and maintains manual traction, the other applies the device. Manual traction precedes device application and is not released until mechanical traction is established; premature release permits recurrence of spasm, negating the intervention and producing severe pain, and the provider maintaining traction verbalises this continuously. The device is measured against the uninjured limb prior to application, avoiding manipulation of the injured limb. Mechanical traction is applied until pain and spasm subside, this constituting the endpoint rather than a fixed force or maximal device capacity. Distal circulation, movement and sensation are reassessed and verbalised, and both device and patient secured to the stretcher."
+        },
+        "eli_new": {
+          "analogy": "The thigh muscles are the strongest in the body, and when the femur breaks they pull the broken ends past each other. Traction is what stops them.",
+          "body": "If you cannot safely pull against the ankle and foot, you cannot use this device. That is the contraindication list in one sentence."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain when a traction splint is used, when it is not, and how it is applied.",
+          "must_hit": [
+            {
+              "point": "It is for a mid-shaft femur fracture",
+              "accept": [
+                "mid-shaft",
+                "femur",
+                "thigh",
+                "isolated",
+                "shaft"
+              ]
+            },
+            {
+              "point": "It overcomes muscle spasm, reducing pain, damage and bleeding",
+              "accept": [
+                "spasm",
+                "muscle",
+                "pain",
+                "bleeding",
+                "align"
+              ]
+            },
+            {
+              "point": "Contraindicated with joint, pelvic or lower leg injury on the same side",
+              "accept": [
+                "knee",
+                "hip",
+                "pelvi",
+                "lower leg",
+                "ankle",
+                "same side"
+              ]
+            },
+            {
+              "point": "Contraindicated in partial amputation or avulsion",
+              "accept": [
+                "amputation",
+                "avulsion",
+                "separate",
+                "partial",
+                "limb"
+              ]
+            },
+            {
+              "point": "Two people are required",
+              "accept": [
+                "two",
+                "people",
+                "required",
+                "one holds",
+                "other"
+              ]
+            },
+            {
+              "point": "Manual traction is applied first and never released early",
+              "accept": [
+                "manual",
+                "first",
+                "never release",
+                "until",
+                "device"
+              ]
+            },
+            {
+              "point": "Measure against the uninjured leg",
+              "accept": [
+                "measure",
+                "uninjured",
+                "good leg",
+                "other",
+                "before"
+              ]
+            },
+            {
+              "point": "Traction until pain and spasm ease, then reassess",
+              "accept": [
+                "until",
+                "pain",
+                "spasm",
+                "ease",
+                "reassess",
+                "endpoint"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Still holding",
+          "dispatch": "Skills testing — traction splint station.",
+          "body": "He said still holding, every twenty seconds or so, the whole way through.\n\nIt sounded excessive and it meant nobody ever had to wonder.\n\nReleasing manual traction early lets the muscles spasm again, and everything you did comes undone."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Traction splinting",
+          "steps": [
+            {
+              "text": "BODY SUBSTANCE ISOLATION, stated",
+              "critical": true
+            },
+            {
+              "text": "ASSESS CIRCULATION, MOVEMENT AND SENSATION DISTAL TO THE INJURY — and say what you found",
+              "critical": true
+            },
+            {
+              "text": "CONFIRM IT IS INDICATED: MID-SHAFT FEMUR FRACTURE, with no joint, pelvic or lower leg injury on that side",
+              "critical": true
+            },
+            {
+              "text": "CONTRAINDICATED: knee · hip · PELVIS · LOWER LEG OR ANKLE on the same side · PARTIAL AMPUTATION OR AVULSION",
+              "critical": true,
+              "note": "If you cannot safely pull against the ankle and foot, you cannot use this device."
+            },
+            {
+              "text": "TWO PEOPLE ARE REQUIRED — there is no single-handed version of this skill",
+              "critical": true
+            },
+            {
+              "text": "APPLY MANUAL TRACTION FIRST",
+              "critical": true
+            },
+            {
+              "text": "NEVER RELEASE MANUAL TRACTION UNTIL THE DEVICE HAS TAKEN OVER — and keep saying that you are holding it",
+              "critical": true,
+              "note": "Release early and the muscles spasm again. Everything you did comes undone, painfully."
+            },
+            {
+              "text": "MEASURE THE SPLINT AGAINST THE UNINJURED LEG",
+              "critical": true
+            },
+            {
+              "text": "APPLY THE DEVICE and secure the ankle hitch and the proximal anchor as taught",
+              "critical": true
+            },
+            {
+              "text": "APPLY MECHANICAL TRACTION UNTIL THE PAIN AND SPASM EASE — not to a fixed force, not to the device's maximum",
+              "critical": true
+            },
+            {
+              "text": "REASSESS CIRCULATION, MOVEMENT AND SENSATION AND SAY THE RESULT",
+              "critical": true
+            },
+            {
+              "text": "SECURE THE SPLINT AND THE PATIENT TO THE STRETCHER",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-01",
+      "title": "Spinal motion restriction — seated patient",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-10-03-02",
+        "EMT-06-03-01"
+      ],
+      "key_points": [
+        "Manual stabilisation is taken first and is not released until the patient is fully secured",
+        "Assess circulation, movement and sensation in all four limbs before and after",
+        "Apply a correctly sized cervical collar, and say that you have checked the size",
+        "A collar that is the wrong size is worse than no collar, because it moves the neck",
+        "Position the device behind the patient without moving them",
+        "Secure the torso first, then the head — always in that order",
+        "Securing the head before the torso lets the body move against a fixed head",
+        "Check and tighten the straps once the device is in place, because they loosen as it settles",
+        "Secure the legs, then move the patient to the long device as your protocol directs",
+        "Reassess circulation, movement and sensation in all four limbs and say the result"
+      ],
+      "misconceptions": [
+        "Securing the head before the torso",
+        "Releasing manual stabilisation before the patient is secured",
+        "Using a collar that has not been sized",
+        "Skipping the four-limb check before or after"
+      ],
+      "exam_favorites": [
+        "Torso then head",
+        "Manual stabilisation throughout",
+        "Size the collar"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This station is failed on order and on continuity, not on strength.\n\nManual stabilisation is taken first — one person holds the head in a neutral position — and it is not released until the patient is fully secured to the device. Not when the collar is on. Not when the torso straps are done. Fully secured. The person holding says so and keeps saying so.\n\nAssess circulation, movement and sensation in all four limbs before you begin, and say what you found.\n\nApply a correctly sized cervical collar, and say out loud that you have sized it. This matters clinically as well as for the mark: a collar that is too big extends the neck and a collar that is too small flexes it, and either way the device you applied to prevent movement has caused movement. A wrong-sized collar is worse than no collar at all.\n\nPosition the device behind the patient without moving them. It goes to them; they do not go to it.\n\nThen the order that defines this skill: secure the torso first, then the head. Always.\n\nThe reason is worth understanding rather than memorising. If you fix the head to the board and then tighten the torso straps, every adjustment of the body pulls the spine against a fixed head. You have made the head the anchor and the body the moving part, which is exactly backwards. Secure the torso, so the body is the fixed part, and then bring the head to it.\n\nOnce the device is in place, check and tighten the straps. They loosen as the device settles and as the patient's clothing compresses, and a loose device moves.\n\nSecure the legs, then move the patient onto the long device as your protocol directs.\n\nAnd finally reassess circulation, movement and sensation in all four limbs, and say the result.",
+          "standard": "Seated spinal motion restriction is evaluated on sequence and continuity. Manual in-line stabilisation in neutral position is established first and maintained until the patient is completely secured to the device, not until collar application or torso securing; the provider maintaining stabilisation verbalises continuously. Circulation, movement and sensation are assessed in all four extremities before commencement and verbalised. A correctly sized cervical collar is applied with verbalisation of sizing. Sizing carries clinical consequence: an oversized collar produces cervical extension and an undersized collar produces flexion, such that a device applied to prevent movement causes it; an incorrectly sized collar is inferior to no collar. The device is positioned behind the patient without patient movement. The torso is secured before the head, invariably. The rationale is mechanical: head fixation prior to torso securing renders the head the anchor point, such that subsequent torso adjustment moves the spine against a fixed cranium, inverting the intended arrangement; torso securing establishes the body as the fixed component to which the head is subsequently brought. Straps are checked and tightened following placement, as they loosen with device settling and clothing compression, and a loose device permits movement. The legs are secured and the patient transferred to the long device per protocol. Circulation, movement and sensation are reassessed in all four extremities and verbalised."
+        },
+        "eli_new": {
+          "analogy": "Fix the head first and every tug on the body pulls the spine against an anchored head. You have made the head the fixed point and the body the moving one, which is exactly backwards.",
+          "body": "A wrong-sized collar is worse than no collar. Too big extends the neck, too small flexes it, and either way the thing you applied to stop movement has caused it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain seated spinal motion restriction and why the order matters.",
+          "must_hit": [
+            {
+              "point": "Manual stabilisation first and maintained until fully secured",
+              "accept": [
+                "manual",
+                "stabilis",
+                "first",
+                "until",
+                "secured"
+              ]
+            },
+            {
+              "point": "Check circulation, movement and sensation in all four limbs before",
+              "accept": [
+                "four",
+                "limbs",
+                "circulation",
+                "movement",
+                "sensation",
+                "before"
+              ]
+            },
+            {
+              "point": "Size the collar and say that you have",
+              "accept": [
+                "collar",
+                "size",
+                "sized",
+                "say",
+                "correct"
+              ]
+            },
+            {
+              "point": "A wrong-sized collar is worse than none",
+              "accept": [
+                "wrong",
+                "worse",
+                "extend",
+                "flex",
+                "none"
+              ]
+            },
+            {
+              "point": "Bring the device to the patient without moving them",
+              "accept": [
+                "behind",
+                "without moving",
+                "device",
+                "position",
+                "to them"
+              ]
+            },
+            {
+              "point": "Secure the torso first, then the head",
+              "accept": [
+                "torso",
+                "first",
+                "head",
+                "order",
+                "then"
+              ]
+            },
+            {
+              "point": "Head-first securing makes the body move against a fixed head",
+              "accept": [
+                "anchor",
+                "fixed",
+                "backwards",
+                "pull",
+                "against"
+              ]
+            },
+            {
+              "point": "Recheck the straps, secure the legs, and reassess all four limbs",
+              "accept": [
+                "straps",
+                "tighten",
+                "legs",
+                "reassess",
+                "four"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Torso first",
+          "dispatch": "Skills testing — seated spinal motion restriction station.",
+          "body": "She did the head straps first because they were right there and it felt efficient.\n\nEvery adjustment she made to the torso straps afterwards moved the spine against a head that could not move.\n\nThe order is not arbitrary and it is not a formality."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Spinal motion restriction — seated",
+          "steps": [
+            {
+              "text": "TAKE MANUAL STABILISATION FIRST — head in a neutral position",
+              "critical": true
+            },
+            {
+              "text": "DO NOT RELEASE IT UNTIL THE PATIENT IS FULLY SECURED — not at the collar, not at the torso straps. Keep saying you are holding it",
+              "critical": true
+            },
+            {
+              "text": "ASSESS CIRCULATION, MOVEMENT AND SENSATION IN ALL FOUR LIMBS — and say what you found",
+              "critical": true
+            },
+            {
+              "text": "APPLY A CORRECTLY SIZED CERVICAL COLLAR — and SAY that you sized it",
+              "critical": true,
+              "note": "Too big extends the neck, too small flexes it. A wrong-sized collar is worse than no collar at all."
+            },
+            {
+              "text": "POSITION THE DEVICE BEHIND THE PATIENT WITHOUT MOVING THEM — it goes to them",
+              "critical": true
+            },
+            {
+              "text": "SECURE THE TORSO FIRST",
+              "critical": true
+            },
+            {
+              "text": "THEN SECURE THE HEAD — ALWAYS IN THAT ORDER",
+              "critical": true,
+              "note": "Head first makes the head the anchor and the body the moving part. Every torso adjustment then pulls the spine against a fixed head."
+            },
+            {
+              "text": "CHECK AND TIGHTEN THE STRAPS — they loosen as the device settles",
+              "critical": true
+            },
+            {
+              "text": "SECURE THE LEGS",
+              "critical": true
+            },
+            {
+              "text": "MOVE TO THE LONG DEVICE as your protocol directs",
+              "critical": true
+            },
+            {
+              "text": "REASSESS CIRCULATION, MOVEMENT AND SENSATION IN ALL FOUR LIMBS and say the result",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies, and spinal motion restriction practice varies widely between systems. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use, and against your local protocol. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-02",
+      "title": "Spinal motion restriction — supine patient",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-10-03-01"
+      ],
+      "related": [
+        "EMT-10-03-01",
+        "EMT-06-03-01",
+        "EMT-07-03-02"
+      ],
+      "key_points": [
+        "Manual stabilisation is taken first and held until the patient is fully secured",
+        "Assess circulation, movement and sensation in all four limbs before and after",
+        "Apply a correctly sized cervical collar",
+        "Position the device and move the patient onto it as your programme directs",
+        "The move is directed by the person holding the head, and everybody moves on their count",
+        "Move the patient as a unit, keeping the head, neck and torso in line",
+        "Centre the patient on the device before securing anything",
+        "Secure the torso first, then the legs, then the head — the same principle as the seated patient",
+        "Pad voids under the head or shoulders as needed to keep the head in a neutral position",
+        "Reassess circulation, movement and sensation in all four limbs and say the result"
+      ],
+      "misconceptions": [
+        "Letting someone other than the head-holder direct the move",
+        "Securing the head before the torso",
+        "Failing to centre the patient before strapping",
+        "Neglecting padding, leaving the head out of neutral"
+      ],
+      "exam_favorites": [
+        "The head-holder directs",
+        "Centre first",
+        "Pad to neutral"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The same principles as the seated patient, with one addition: the move itself.\n\nManual stabilisation first, held until the patient is fully secured. Circulation, movement and sensation in all four limbs, checked and stated. A correctly sized collar.\n\nPosition the device and move the patient onto it as your programme directs — log roll, scoop or another method, depending on your own sheet.\n\nNow the rule that governs the move: the person holding the head directs it, and everybody moves on their count. Not the most senior person, not the person at the hips, not whoever speaks first. The head-holder, because they are the one who can feel whether the spine is staying in line and because their hands are the thing everybody else is moving around.\n\nSay it out loud before you start: I am holding the head, I will call the move, we move on three.\n\nMove the patient as a unit. Head, neck and torso stay in line with each other. The commonest failure is the hips or the legs arriving before or after the shoulders, which twists exactly the thing you are protecting.\n\nCentre the patient on the device before you secure anything. A patient strapped off-centre cannot be corrected without unstrapping and moving them again, and everyone will be tempted to leave it.\n\nThen secure in the same order as the seated patient: torso first, then legs, then head. Same principle, same reason — the body is the fixed part, and the head is brought to it.\n\nPad voids as needed. Adults frequently need padding under the head to keep it neutral; children need padding under the shoulders instead, because of the prominent occiput covered in Module 07. Look at whether the head is actually neutral rather than assuming the board does it for you.\n\nThen reassess circulation, movement and sensation in all four limbs and say the result.",
+          "standard": "Supine spinal motion restriction follows the principles of the seated technique with the addition of patient transfer. Manual in-line stabilisation is established first and maintained until complete securing. Circulation, movement and sensation are assessed in all four extremities and verbalised. A correctly sized cervical collar is applied. The device is positioned and the patient transferred by the programme-specified method. The provider maintaining head stabilisation directs the transfer and all personnel move on that provider's count, irrespective of seniority or position, as that provider assesses spinal alignment and constitutes the fixed reference around which others move; the arrangement is verbalised before commencement. The patient is moved as a unit with head, neck and torso maintained in alignment; the characteristic failure is asynchronous movement of the pelvis or lower limbs relative to the shoulders, producing rotation of the structure being protected. The patient is centred on the device prior to securing, as off-centre securing cannot be corrected without repeat unstrapping and transfer, which is commonly omitted. Securing proceeds torso, legs, then head, following the seated principle whereby the trunk constitutes the fixed component. Voids are padded as required: adults frequently require occipital padding to achieve neutral alignment, whereas children require padding beneath the shoulders to offset occipital prominence as described in Module 07; neutral alignment is assessed rather than assumed from device geometry. Circulation, movement and sensation are reassessed in all four extremities and verbalised."
+        },
+        "eli_new": {
+          "analogy": "The head-holder calls the move because their hands are the thing everyone else is moving around.",
+          "body": "Centre the patient before you strap anything. Off-centre cannot be fixed without undoing it all, and everyone will be tempted to leave it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain supine spinal motion restriction, including who directs the move.",
+          "must_hit": [
+            {
+              "point": "Manual stabilisation first, held until fully secured",
+              "accept": [
+                "manual",
+                "first",
+                "until",
+                "secured",
+                "hold"
+              ]
+            },
+            {
+              "point": "Four-limb check before and after",
+              "accept": [
+                "four",
+                "limbs",
+                "before",
+                "after",
+                "circulation"
+              ]
+            },
+            {
+              "point": "Correctly sized collar",
+              "accept": [
+                "collar",
+                "size",
+                "correct",
+                "sized",
+                "apply"
+              ]
+            },
+            {
+              "point": "The head-holder directs the move and everyone moves on their count",
+              "accept": [
+                "head",
+                "directs",
+                "count",
+                "holder",
+                "calls"
+              ]
+            },
+            {
+              "point": "Move as a unit with head, neck and torso in line",
+              "accept": [
+                "unit",
+                "line",
+                "head",
+                "torso",
+                "together"
+              ]
+            },
+            {
+              "point": "Centre the patient before securing",
+              "accept": [
+                "centre",
+                "center",
+                "before",
+                "secure",
+                "position"
+              ]
+            },
+            {
+              "point": "Torso, then legs, then head",
+              "accept": [
+                "torso",
+                "legs",
+                "head",
+                "order",
+                "then"
+              ]
+            },
+            {
+              "point": "Pad voids to keep the head neutral",
+              "accept": [
+                "pad",
+                "void",
+                "neutral",
+                "shoulder",
+                "occiput",
+                "head"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Who calls it",
+          "dispatch": "Skills testing — supine spinal motion restriction station.",
+          "body": "Two people started counting at once, from opposite ends of the patient.\n\nThey stopped, and the person holding the head said that they would call it.\n\nThat is the rule, and it exists because their hands are what everybody else is moving around."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Spinal motion restriction — supine",
+          "steps": [
+            {
+              "text": "TAKE MANUAL STABILISATION FIRST and HOLD IT UNTIL THE PATIENT IS FULLY SECURED",
+              "critical": true
+            },
+            {
+              "text": "ASSESS CIRCULATION, MOVEMENT AND SENSATION IN ALL FOUR LIMBS — and say what you found",
+              "critical": true
+            },
+            {
+              "text": "APPLY A CORRECTLY SIZED CERVICAL COLLAR",
+              "critical": true
+            },
+            {
+              "text": "POSITION THE DEVICE and prepare the move as your programme directs",
+              "critical": true
+            },
+            {
+              "text": "THE PERSON HOLDING THE HEAD DIRECTS THE MOVE — everybody moves on THEIR count",
+              "critical": true,
+              "note": "Not the most senior, not whoever speaks first. Their hands are what everyone else is moving around."
+            },
+            {
+              "text": "SAY IT BEFORE YOU START: 'I have the head, I will call it, we move on three'",
+              "critical": true
+            },
+            {
+              "text": "MOVE AS A UNIT — head, neck and torso IN LINE. The usual failure is the hips arriving out of time",
+              "critical": true
+            },
+            {
+              "text": "CENTRE THE PATIENT ON THE DEVICE BEFORE SECURING ANYTHING",
+              "critical": true
+            },
+            {
+              "text": "SECURE THE TORSO, THEN THE LEGS, THEN THE HEAD — same principle as the seated patient",
+              "critical": true
+            },
+            {
+              "text": "PAD VOIDS TO KEEP THE HEAD NEUTRAL — adults often need it under the head, CHILDREN UNDER THE SHOULDERS",
+              "critical": true
+            },
+            {
+              "text": "REASSESS CIRCULATION, MOVEMENT AND SENSATION IN ALL FOUR LIMBS and say the result",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies, and spinal motion restriction practice varies widely between systems. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use, and against your local protocol. No medication doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-03",
+      "title": "Emergency childbirth",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-01-04",
+        "EMT-07-02-01",
+        "EMT-07-02-02"
+      ],
+      "key_points": [
+        "Take body substance isolation precautions including eye protection, gown and mask where available",
+        "Determine whether delivery is imminent — crowning is the answer, not the history",
+        "If delivery is imminent, you deliver where you are rather than attempting transport",
+        "Prepare the obstetric kit and create a clean area before the head arrives",
+        "Support the head as it delivers, applying gentle counter-pressure rather than pulling",
+        "Check for a cord around the neck and manage it as your protocol directs",
+        "Suction as your protocol directs, then deliver the shoulders one at a time",
+        "The baby is slippery — support it with both hands and keep it at the level your protocol specifies",
+        "Dry, warm and stimulate the newborn, and note the time of birth",
+        "Manage the third stage and the mother: place the placenta in a bag, watch for bleeding, and transport both"
+      ],
+      "misconceptions": [
+        "Attempting to transport a crowning patient",
+        "Pulling on the baby's head rather than supporting it",
+        "Forgetting to note the time of birth",
+        "Focusing on the baby and neglecting the mother"
+      ],
+      "exam_favorites": [
+        "Crowning decides it",
+        "Support, do not pull",
+        "Two patients now"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Body substance isolation, and take it seriously: eye protection, gown and mask where available. This is the messiest thing you will do.\n\nThe first decision is whether delivery is imminent, and the answer comes from looking rather than from the history. Crowning — the head visible at the opening — means delivery is happening. Contractions close together, an urge to push, and a feeling that the baby is coming all support it, but crowning settles it.\n\nIf delivery is imminent, you deliver where you are. Driving with a crowning patient means delivering in a moving vehicle with less room, less light and fewer hands, and it is a worse version of the same event.\n\nPrepare before the head arrives. Open the obstetric kit, create a clean area, position the mother as your protocol directs, and get your gloves on properly.\n\nSupport the head as it delivers, with gentle counter-pressure so it does not come out explosively. Support is the word — you are not pulling and you are not delivering the baby, you are controlling the speed of something that is happening on its own.\n\nCheck for the cord around the neck and manage it as your protocol directs.\n\nSuction as your protocol directs — practice has changed here and varies, so follow your own sheet rather than what you have seen on television.\n\nThen deliver the shoulders one at a time, guiding gently as your programme teaches.\n\nAnd be ready for this: the baby is extremely slippery. Both hands, a firm grip, and keep it at the level your protocol specifies. Babies have been dropped, and it is entirely avoidable by expecting it.\n\nDry, warm and stimulate the newborn — which, as Module 07 covers, is almost the entire resuscitation for most babies. Note the time of birth and say it out loud; it is a scored step and it is genuinely needed.\n\nThen remember you now have two patients, and the one who is easy to forget is the mother. Manage the third stage: the placenta delivers on its own, goes into a bag and travels with you. Watch for bleeding, massage the uterus as your protocol directs, keep her warm, and transport both.",
+          "standard": "Emergency delivery requires body substance isolation including eye protection, gown and mask where available. The initial determination is imminence of delivery, established by examination rather than history: crowning constitutes the definitive finding, with closely spaced contractions, urge to push and maternal sensation of imminent delivery being supportive. Where delivery is imminent, delivery occurs at the present location rather than during transport, as transport produces the same event under conditions of reduced space, illumination and personnel. Preparation precedes delivery of the head and comprises opening the obstetric kit, establishing a clean field, maternal positioning per protocol and gloving. The head is supported during delivery with gentle counter-pressure to control expulsion velocity; the provider controls rate rather than effecting delivery, and traction is not applied. The nuchal cord is assessed for and managed per protocol. Suction is performed per protocol, practice having changed and varying between systems. Shoulders are delivered sequentially with gentle guidance per programme technique. The neonate is markedly slippery and requires bimanual support with maintenance at the protocol-specified level; neonatal drops occur and are preventable by anticipation. The neonate is dried, warmed and stimulated, constituting the majority of neonatal resuscitation as described in Module 07, and the time of birth noted and verbalised as a scored and clinically required step. Two patients now exist, the mother being the more readily neglected. Third stage management comprises spontaneous placental delivery with placental retention in a bag for transport, surveillance for haemorrhage, uterine massage per protocol, maintenance of maternal normothermia, and transport of both patients."
+        },
+        "eli_new": {
+          "analogy": "You are not delivering the baby. You are controlling the speed of something that is happening on its own.",
+          "body": "Crowning settles it. The history is supporting evidence; the head at the opening is the answer, and it means you deliver where you are."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk through an emergency delivery.",
+          "must_hit": [
+            {
+              "point": "BSI including eye protection, gown and mask",
+              "accept": [
+                "body substance",
+                "eye protection",
+                "gown",
+                "mask",
+                "bsi"
+              ]
+            },
+            {
+              "point": "Crowning decides that delivery is imminent",
+              "accept": [
+                "crown",
+                "imminent",
+                "looking",
+                "head",
+                "visible"
+              ]
+            },
+            {
+              "point": "Deliver where you are rather than transporting",
+              "accept": [
+                "deliver",
+                "where you are",
+                "not transport",
+                "moving",
+                "worse"
+              ]
+            },
+            {
+              "point": "Prepare the kit and a clean area first",
+              "accept": [
+                "prepare",
+                "kit",
+                "clean",
+                "position",
+                "before"
+              ]
+            },
+            {
+              "point": "Support the head with gentle counter-pressure, do not pull",
+              "accept": [
+                "support",
+                "counter-pressure",
+                "gentle",
+                "not pull",
+                "speed"
+              ]
+            },
+            {
+              "point": "Check for a cord around the neck",
+              "accept": [
+                "cord",
+                "neck",
+                "nuchal",
+                "check",
+                "protocol"
+              ]
+            },
+            {
+              "point": "The baby is slippery — both hands",
+              "accept": [
+                "slippery",
+                "both hands",
+                "grip",
+                "drop",
+                "level"
+              ]
+            },
+            {
+              "point": "Dry, warm, stimulate, note the time; then look after the mother",
+              "accept": [
+                "dry",
+                "warm",
+                "stimulate",
+                "time",
+                "mother",
+                "placenta",
+                "bleeding"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Two patients",
+          "dispatch": "Medic 3 — delivery completed, newborn crying, crew attending.",
+          "body": "Everybody was looking at the baby, which is entirely understandable and is what happens.\n\nSomebody deliberately turned round and looked at the mother instead.\n\nThat is the patient who gets forgotten on these calls, and she is the one who bleeds."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Emergency childbirth",
+          "steps": [
+            {
+              "text": "BODY SUBSTANCE ISOLATION: EYE PROTECTION, GOWN AND MASK where available — this is the messiest thing you will do",
+              "critical": true
+            },
+            {
+              "text": "DETERMINE WHETHER DELIVERY IS IMMINENT — CROWNING IS THE ANSWER, not the history",
+              "critical": true
+            },
+            {
+              "text": "IMMINENT? DELIVER WHERE YOU ARE — transporting means the same event with less room, light and hands",
+              "critical": true
+            },
+            {
+              "text": "PREPARE BEFORE THE HEAD ARRIVES: open the kit, make a clean area, position the mother",
+              "critical": true
+            },
+            {
+              "text": "SUPPORT THE HEAD with GENTLE COUNTER-PRESSURE — control the speed, DO NOT PULL",
+              "critical": true
+            },
+            {
+              "text": "CHECK FOR A CORD AROUND THE NECK and manage it as protocol directs",
+              "critical": true
+            },
+            {
+              "text": "SUCTION AS YOUR PROTOCOL DIRECTS — practice has changed and varies",
+              "critical": false
+            },
+            {
+              "text": "DELIVER THE SHOULDERS ONE AT A TIME, guiding gently",
+              "critical": true
+            },
+            {
+              "text": "THE BABY IS EXTREMELY SLIPPERY — BOTH HANDS, firm grip, at the level your protocol specifies",
+              "critical": true
+            },
+            {
+              "text": "DRY, WARM AND STIMULATE THE NEWBORN — almost the entire resuscitation for most babies",
+              "critical": true
+            },
+            {
+              "text": "NOTE AND SAY THE TIME OF BIRTH",
+              "critical": true
+            },
+            {
+              "text": "YOU NOW HAVE TWO PATIENTS — AND THE MOTHER IS THE ONE WHO GETS FORGOTTEN",
+              "critical": true
+            },
+            {
+              "text": "THIRD STAGE: placenta delivers on its own, goes IN A BAG and travels with you",
+              "critical": true
+            },
+            {
+              "text": "WATCH FOR BLEEDING, massage the uterus per protocol, KEEP HER WARM, TRANSPORT BOTH",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies, and spinal motion restriction practice varies widely between systems. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use, and against your local protocol. No medication doses appear. Suction practice at delivery has changed and varies by system — follow your own protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-04",
+      "title": "Assisting with prescribed medication",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-09-01-05",
+        "EMT-09-03-01",
+        "EMT-09-03-02"
+      ],
+      "key_points": [
+        "Confirm the indication, and say that you have",
+        "Check the six rights out loud: patient, medication, dose, route, time and documentation",
+        "Confirm the medication is prescribed to this patient and is in date",
+        "Ask about allergies before giving anything, every time",
+        "Confirm the contraindications do not apply, and say which ones you checked",
+        "Contact medical direction where your protocol requires it, and repeat the order back",
+        "Take any measurement the medication requires before giving it, such as a blood pressure",
+        "Have the patient self-administer where they are able to",
+        "Reassess afterwards on a timescale that matches the drug, and say what you found",
+        "Document the medication, dose, route, time, who gave it and the effect"
+      ],
+      "misconceptions": [
+        "Checking the rights silently",
+        "Failing to ask about allergies on a repeat administration",
+        "Skipping the pre-administration measurement",
+        "Documenting the administration but not the effect"
+      ],
+      "exam_favorites": [
+        "Six rights out loud",
+        "Check before measurements",
+        "Document the effect"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This station tests process rather than pharmacology, and almost everything on it has to be audible.\n\nConfirm the indication, and say it. \"This patient has chest pain of suspected cardiac origin, the indication for aspirin is met.\" Stating the indication is what turns an action into a clinical decision.\n\nRun the six rights out loud: right patient, right medication, right dose, right route, right time, right documentation. Out loud is the point — silent checking feels identical to checking and is measurably worse, and on a test it is invisible.\n\nConfirm the medication is prescribed to this patient and is in date. Read the label and say the name on it.\n\nAsk about allergies. Every time, including for a drug you have given this patient already today. It takes four seconds.\n\nConfirm the contraindications do not apply, and say which ones you checked. Do not simply announce that there are no contraindications — name them. \"Systolic is above the threshold, no erectile dysfunction medication in the stated period, no head injury, and this is within the maximum number of doses.\" That is a check; \"no contraindications\" is an assertion.\n\nContact medical direction where your protocol requires it, and repeat the order back before acting on it.\n\nTake any measurement the medication requires before you give it. Nitroglycerin needs a blood pressure. Glucose usually needs a blood sugar where your protocol allows it. Taking it afterwards is not the same thing.\n\nHave the patient self-administer where they are able to, and help where they are not.\n\nThen reassess on a timescale that matches the drug, and say what you found. Did the thing the drug was meant to change actually change?\n\nAnd document all of it: the medication, the dose, the route, the time, who gave it, and the effect. The effect is the part people leave out, and it is the part the hospital most wants.",
+          "standard": "Assisted administration evaluation addresses process rather than pharmacological knowledge, with all components requiring verbalisation. The indication is confirmed and stated, converting the action into an articulated clinical decision. The six rights are verified aloud: patient, medication, dose, route, time and documentation; verbalisation is essential as silent verification is subjectively equivalent, measurably inferior and unassessable. Prescription to the present patient and validity of expiry are confirmed with label reading and verbalisation of the name. Allergy enquiry precedes every administration including repeat administration to the same patient. Contraindications are individually verified and named rather than collectively negated; enumeration constitutes verification whereas a global negative assertion does not. Medical direction is contacted where protocol requires, with order repetition prior to action. Required pre-administration measurements are obtained beforehand, including blood pressure prior to nitroglycerin and blood glucose prior to oral glucose where protocol permits; subsequent measurement is not equivalent. Self-administration by the patient occurs where capability permits, with assistance otherwise. Reassessment follows on a timescale matching the agent, addressing whether the intended parameter changed, with verbalisation of findings. Documentation comprises agent, dose, route, time, administering provider and effect, the last being commonly omitted and of greatest interest to receiving clinicians."
+        },
+        "eli_new": {
+          "analogy": "'No contraindications' is an assertion. Naming each one you checked is a check.",
+          "body": "Say the six rights out loud. Silent checking feels exactly like checking, is measurably worse, and on a test it is completely invisible."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk through assisting a patient with a prescribed medication.",
+          "must_hit": [
+            {
+              "point": "Confirm and state the indication",
+              "accept": [
+                "indication",
+                "state",
+                "confirm",
+                "say",
+                "decision"
+              ]
+            },
+            {
+              "point": "Run the six rights out loud",
+              "accept": [
+                "six rights",
+                "patient",
+                "medication",
+                "dose",
+                "route",
+                "time",
+                "out loud"
+              ]
+            },
+            {
+              "point": "Confirm it is prescribed to this patient and in date",
+              "accept": [
+                "prescribed",
+                "this patient",
+                "date",
+                "label",
+                "name"
+              ]
+            },
+            {
+              "point": "Ask about allergies every time",
+              "accept": [
+                "allergy",
+                "every time",
+                "ask",
+                "before",
+                "repeat"
+              ]
+            },
+            {
+              "point": "Name the contraindications you checked",
+              "accept": [
+                "contraindication",
+                "name",
+                "each",
+                "checked",
+                "assert"
+              ]
+            },
+            {
+              "point": "Contact medical direction where required and repeat the order back",
+              "accept": [
+                "medical direction",
+                "repeat",
+                "back",
+                "order",
+                "required"
+              ]
+            },
+            {
+              "point": "Take pre-administration measurements before giving",
+              "accept": [
+                "blood pressure",
+                "blood sugar",
+                "before",
+                "measurement",
+                "after"
+              ]
+            },
+            {
+              "point": "Reassess and document including the effect",
+              "accept": [
+                "reassess",
+                "document",
+                "effect",
+                "time",
+                "who"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Name them",
+          "dispatch": "Skills testing — medication assistance station.",
+          "body": "He said there were no contraindications, which was true.\n\nThe examiner asked which ones he had checked, and there was a pause.\n\nNaming them is a check. Announcing the conclusion is not."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Assisting with prescribed medication",
+          "steps": [
+            {
+              "text": "CONFIRM AND STATE THE INDICATION — saying it turns an action into a clinical decision",
+              "critical": true
+            },
+            {
+              "text": "RUN THE SIX RIGHTS OUT LOUD: PATIENT · MEDICATION · DOSE · ROUTE · TIME · DOCUMENTATION",
+              "critical": true,
+              "note": "Silent checking feels identical to checking, is measurably worse, and on a test is invisible."
+            },
+            {
+              "text": "CONFIRM IT IS PRESCRIBED TO THIS PATIENT AND IN DATE — read the label and SAY THE NAME ON IT",
+              "critical": true
+            },
+            {
+              "text": "ASK ABOUT ALLERGIES — every time, including a drug you already gave today",
+              "critical": true
+            },
+            {
+              "text": "NAME EACH CONTRAINDICATION YOU CHECKED — 'no contraindications' is an assertion, not a check",
+              "critical": true
+            },
+            {
+              "text": "CONTACT MEDICAL DIRECTION where protocol requires, and REPEAT THE ORDER BACK",
+              "critical": true
+            },
+            {
+              "text": "TAKE ANY REQUIRED MEASUREMENT BEFORE GIVING IT — a blood pressure, a blood sugar. Afterwards is not the same thing",
+              "critical": true
+            },
+            {
+              "text": "HAVE THE PATIENT SELF-ADMINISTER WHERE THEY CAN",
+              "critical": true
+            },
+            {
+              "text": "REASSESS on a timescale that matches the drug — DID THE THING IT WAS MEANT TO CHANGE ACTUALLY CHANGE?",
+              "critical": true
+            },
+            {
+              "text": "DOCUMENT: medication · dose · route · time · who · AND THE EFFECT",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies, and spinal motion restriction practice varies widely between systems. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use, and against your local protocol. No medication doses appear. Confirm the medications you may assist with, and the required pre-administration checks, against your local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-05",
+      "title": "Lifting, moving and packaging",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-02-01",
+        "EMT-08-02-04",
+        "EMT-08-02-03"
+      ],
+      "key_points": [
+        "Plan the route and the move before touching the patient, and say the plan out loud",
+        "Decide how many people you need and ask before you start, not once you are committed",
+        "Choose the device that suits the patient, the route and the condition",
+        "Use correct body mechanics: legs, straight back, weight close, and never twist under load",
+        "One person calls the lift and everybody moves on that count",
+        "Position the patient according to their condition, not by default",
+        "Secure the patient to the device, and the device to the vehicle — both, every time",
+        "Strap the chest, hips and legs, because patients slide downwards whenever the device tilts",
+        "Keep the patient covered, and cover them again after each stage of the move",
+        "Reassess after moving, because moving changes patients"
+      ],
+      "misconceptions": [
+        "Starting the move before planning it",
+        "Securing the patient but not the device",
+        "Leaving the legs unstrapped",
+        "Forgetting to reassess after the move"
+      ],
+      "exam_favorites": [
+        "Plan out loud",
+        "Both sets of straps",
+        "Reassess after moving"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This station brings together everything from Module 08 and tests whether you actually do it.\n\nPlan the route and the move before you touch the patient, and say the plan out loud. Where are we going, which way, what is at the door, what happens at the stairs, who is where. On a real call this conversation takes fifteen seconds and prevents most of what goes wrong; on a test it is the difference between a planned move and an improvised one.\n\nDecide how many people you need and ask before you start. Once the lift is underway you are committed, and asking at that point is asking to be rescued.\n\nChoose the device that suits the patient, the route and the condition. Stair chair for stairs where the patient tolerates sitting. Scoop where you want minimal movement. Slide sheet for a lateral transfer. The device decides how hard the lift has to be.\n\nUse correct body mechanics, and say that you are: lift with the legs, back straight, weight close to the body, and never twist under load — move your feet instead.\n\nOne person calls the lift, and everybody moves on that count rather than on their own judgement.\n\nPosition the patient according to their condition. Breathing difficulty sits up. Reduced consciousness with adequate breathing goes into a position that protects the airway. Shock positioning follows your protocol. Default positions are not clinical decisions.\n\nSecure the patient to the device, and then the device to the vehicle. Both, every time. A patient beautifully strapped to an unlatched stretcher is not secured at all.\n\nStrap the chest, the hips and the legs. The legs get forgotten, and they matter because patients slide downwards whenever the device tilts — stairs, ramps, any incline.\n\nKeep the patient covered, and cover them again after each stage of the move, because each stage exposes them again.\n\nAnd reassess after moving. Moving changes patients: pain increases, positions shift, tubes pull, and people deteriorate during transfers more often than anyone expects.",
+          "standard": "This station integrates the moving and handling content of Module 08 and evaluates its application. The route and move are planned before patient contact with verbalisation of the plan, addressing destination, route, doorways, stairs and personnel positions; the process requires approximately fifteen seconds and prevents the majority of adverse events. Personnel requirements are determined and additional assistance requested before commencement, as requests during an executed lift constitute rescue requests. Device selection matches patient, route and condition: stair chair for stairways where upright positioning is tolerated, scoop where minimal movement is desired, slide sheet for lateral transfer; device selection determines lift difficulty. Correct body mechanics are employed and verbalised: lower limb lifting, straight back, load proximity, and avoidance of rotation under load with foot repositioning instead. A single individual initiates the lift with all personnel moving on that count rather than independent judgement. Patient positioning follows clinical condition: upright for respiratory compromise, airway-protective positioning for reduced consciousness with adequate ventilation, protocol-directed positioning in shock; default positioning does not constitute a clinical decision. The patient is secured to the device and the device to the vehicle, both invariably, as a secured patient on an unlatched stretcher is unsecured. Chest, pelvis and lower limbs are strapped; lower limb securing is commonly omitted and is required as patients migrate distally on device inclination. Patient covering is maintained and reinstated after each stage of movement, each stage producing re-exposure. Reassessment follows movement, as transfer produces increased pain, positional change, line displacement and clinical deterioration more frequently than anticipated."
+        },
+        "eli_new": {
+          "analogy": "Fifteen seconds of planning at the start prevents most of what goes wrong later, and there is never a moment when you have more time than at the start.",
+          "body": "Strap the legs. They get forgotten, and patients slide downwards every time the device tilts."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how a patient is lifted, moved and packaged safely.",
+          "must_hit": [
+            {
+              "point": "Plan the route and the move before touching the patient, out loud",
+              "accept": [
+                "plan",
+                "route",
+                "before",
+                "out loud",
+                "door",
+                "stairs"
+              ]
+            },
+            {
+              "point": "Ask for enough people before starting",
+              "accept": [
+                "how many",
+                "ask",
+                "before",
+                "committed",
+                "help"
+              ]
+            },
+            {
+              "point": "Choose the device to suit the patient, route and condition",
+              "accept": [
+                "device",
+                "stair chair",
+                "scoop",
+                "slide sheet",
+                "choose"
+              ]
+            },
+            {
+              "point": "Legs, straight back, weight close, never twist",
+              "accept": [
+                "legs",
+                "straight",
+                "close",
+                "twist",
+                "feet"
+              ]
+            },
+            {
+              "point": "One person calls the lift",
+              "accept": [
+                "one person",
+                "call",
+                "count",
+                "together",
+                "lift"
+              ]
+            },
+            {
+              "point": "Position by condition, not by default",
+              "accept": [
+                "position",
+                "condition",
+                "upright",
+                "airway",
+                "protocol"
+              ]
+            },
+            {
+              "point": "Secure the patient to the device and the device to the vehicle",
+              "accept": [
+                "both",
+                "device",
+                "vehicle",
+                "latch",
+                "secure"
+              ]
+            },
+            {
+              "point": "Strap the legs, keep them covered, and reassess after moving",
+              "accept": [
+                "legs",
+                "slide",
+                "cover",
+                "reassess",
+                "after"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Fifteen seconds",
+          "dispatch": "Skills testing — lifting and moving station.",
+          "body": "He spent about fifteen seconds saying the plan out loud before anybody touched anything.\n\nIt felt slow, and it was the fastest move of the afternoon.\n\nThere is never a moment when you have more time than at the start."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Lifting, moving and packaging",
+          "steps": [
+            {
+              "text": "PLAN THE ROUTE AND THE MOVE BEFORE TOUCHING THE PATIENT — AND SAY THE PLAN OUT LOUD",
+              "critical": true,
+              "note": "Fifteen seconds, and it prevents most of what goes wrong. There is never a moment when you have more time than at the start."
+            },
+            {
+              "text": "DECIDE HOW MANY PEOPLE YOU NEED AND ASK NOW — not once you are committed",
+              "critical": true
+            },
+            {
+              "text": "CHOOSE THE DEVICE to suit the PATIENT, the ROUTE and the CONDITION",
+              "critical": true
+            },
+            {
+              "text": "BODY MECHANICS, SAID OUT LOUD: LEGS · BACK STRAIGHT · WEIGHT CLOSE · NEVER TWIST UNDER LOAD",
+              "critical": true
+            },
+            {
+              "text": "ONE PERSON CALLS THE LIFT — everybody moves on THAT count",
+              "critical": true
+            },
+            {
+              "text": "POSITION BY CONDITION, NOT BY DEFAULT: breathing difficulty UP · reduced consciousness AIRWAY-PROTECTED · shock PER PROTOCOL",
+              "critical": true
+            },
+            {
+              "text": "SECURE THE PATIENT TO THE DEVICE",
+              "critical": true
+            },
+            {
+              "text": "SECURE THE DEVICE TO THE VEHICLE — BOTH, EVERY TIME. A patient on an unlatched stretcher is not secured",
+              "critical": true
+            },
+            {
+              "text": "STRAP CHEST, HIPS AND LEGS — THE LEGS GET FORGOTTEN, and patients slide downwards whenever the device tilts",
+              "critical": true
+            },
+            {
+              "text": "KEEP THEM COVERED, and COVER THEM AGAIN AFTER EACH STAGE",
+              "critical": true
+            },
+            {
+              "text": "REASSESS AFTER MOVING — moving changes patients more often than anyone expects",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "sequence": 2,
+        "recall": 2,
+        "application": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Skill sheets vary between programmes and testing bodies, and spinal motion restriction practice varies widely between systems. Confirm the exact step list, the critical criteria and the failure criteria against the sheet your own programme and testing body use, and against your local protocol. No medication doses appear. Shock positioning and securing requirements vary — confirm against your local protocol and your service's equipment."
+    }
+  ]
+}

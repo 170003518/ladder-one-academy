@@ -1,0 +1,2707 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-10",
+  "tier": "emt",
+  "questions": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-01-Q001",
+      "concept_id": "EMT-10-01-01",
+      "style": "sequence",
+      "stem": "What comes first in the medical assessment?",
+      "options": [
+        {
+          "text": "General impression",
+          "rationale": "That follows the size-up."
+        },
+        {
+          "text": "Scene size-up, stated out loud",
+          "rationale": "Correct — BSI, safety, nature, patients, resources."
+        },
+        {
+          "text": "Airway assessment",
+          "rationale": "Part of the primary assessment, which follows."
+        },
+        {
+          "text": "History taking",
+          "rationale": "Much later in the sequence."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-01-Q002",
+      "concept_id": "EMT-10-01-01",
+      "style": "sequence",
+      "stem": "You find a compromised airway during the primary assessment. What do you do?",
+      "options": [
+        {
+          "text": "Note it and complete the survey first",
+          "rationale": "Treat life threats as you find them."
+        },
+        {
+          "text": "Manage it there, then continue the survey",
+          "rationale": "Correct — manage it there, then continue the survey."
+        },
+        {
+          "text": "Move straight to transport",
+          "rationale": "Manage the airway first."
+        },
+        {
+          "text": "Take vital signs to confirm",
+          "rationale": "Act on the finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-01-Q003",
+      "concept_id": "EMT-10-01-01",
+      "style": "recall",
+      "stem": "How many sets of vital signs are required?",
+      "options": [
+        {
+          "text": "One complete set",
+          "rationale": "One set is a snapshot."
+        },
+        {
+          "text": "Two — a set and a repeat set",
+          "rationale": "Correct, and the second is commonly missed."
+        },
+        {
+          "text": "As many as time allows",
+          "rationale": "Two is the requirement."
+        },
+        {
+          "text": "None if the patient is stable",
+          "rationale": "Vital signs are always taken."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-01-Q004",
+      "concept_id": "EMT-10-01-01",
+      "style": "application",
+      "stem": "Why is silent performance the commonest cause of failure?",
+      "options": [
+        {
+          "text": "It suggests uncertainty",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "The examiner cannot score what they did not see or hear",
+          "rationale": "Correct — the examiner cannot score what they did not see or hear."
+        },
+        {
+          "text": "It is slower",
+          "rationale": "It is not."
+        },
+        {
+          "text": "It breaches the sheet's sequence",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-01-Q005",
+      "concept_id": "EMT-10-01-01",
+      "style": "recall",
+      "stem": "What does scene size-up include?",
+      "options": [
+        {
+          "text": "Body substance isolation, scene safety, nature, number of patients, resources",
+          "rationale": "Correct — body substance isolation, scene safety, nature, number of patients, resources."
+        },
+        {
+          "text": "Airway, breathing, circulation",
+          "rationale": "That is the primary assessment."
+        },
+        {
+          "text": "History and vital signs",
+          "rationale": "Later components."
+        },
+        {
+          "text": "Transport decision only",
+          "rationale": "One decision, not the size-up."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-01-Q006",
+      "concept_id": "EMT-10-01-01",
+      "style": "application",
+      "stem": "When is the transport decision made?",
+      "options": [
+        {
+          "text": "After the full secondary assessment",
+          "rationale": "Too late — the decision follows the primary assessment."
+        },
+        {
+          "text": "Once the primary assessment is complete",
+          "rationale": "Correct — and stated out loud."
+        },
+        {
+          "text": "On arrival at scene",
+          "rationale": "Before assessment."
+        },
+        {
+          "text": "After the second set of vital signs",
+          "rationale": "Later than required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-02-Q001",
+      "concept_id": "EMT-10-01-02",
+      "style": "sequence",
+      "stem": "When is major external bleeding controlled?",
+      "options": [
+        {
+          "text": "After the rapid trauma survey",
+          "rationale": "Immediately, during the primary assessment."
+        },
+        {
+          "text": "Immediately, during the primary assessment",
+          "rationale": "Correct — immediately, during the primary assessment."
+        },
+        {
+          "text": "After the transport decision",
+          "rationale": "Immediately."
+        },
+        {
+          "text": "Once vital signs are taken",
+          "rationale": "Immediately."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-02-Q002",
+      "concept_id": "EMT-10-01-02",
+      "style": "sequence",
+      "stem": "When should the transport decision be made in serious trauma?",
+      "options": [
+        {
+          "text": "After the rapid trauma survey and vital signs",
+          "rationale": "Too late in a seriously injured patient."
+        },
+        {
+          "text": "Early — the clock is the treatment",
+          "rationale": "Correct — early — the clock is the treatment."
+        },
+        {
+          "text": "After the history",
+          "rationale": "Too late — the decision comes before that."
+        },
+        {
+          "text": "On the way to hospital",
+          "rationale": "Far too late."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-02-Q003",
+      "concept_id": "EMT-10-01-02",
+      "style": "recall",
+      "stem": "What should be assessed in each limb?",
+      "options": [
+        {
+          "text": "Deformity only",
+          "rationale": "Not sufficient."
+        },
+        {
+          "text": "Circulation, movement and sensation",
+          "rationale": "Correct — circulation, movement and sensation."
+        },
+        {
+          "text": "Pulse only",
+          "rationale": "Not sufficient."
+        },
+        {
+          "text": "Range of motion",
+          "rationale": "Not the assessment described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-02-Q004",
+      "concept_id": "EMT-10-01-02",
+      "style": "application",
+      "stem": "Why cover the patient again after exposing them?",
+      "options": [
+        {
+          "text": "For dignity only",
+          "rationale": "Dignity matters, but the reason is clinical."
+        },
+        {
+          "text": "Trauma patients lose heat fast, and hypothermia worsens bleeding and outcomes",
+          "rationale": "Correct — trauma patients lose heat fast, and hypothermia worsens bleeding and outcomes."
+        },
+        {
+          "text": "To keep the scene tidy",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To prevent contamination",
+          "rationale": "Not the described reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-02-Q005",
+      "concept_id": "EMT-10-01-02",
+      "style": "recall",
+      "stem": "Is narrating a negative finding worth anything?",
+      "options": [
+        {
+          "text": "No, only positive findings count",
+          "rationale": "Negative findings are scoreable."
+        },
+        {
+          "text": "Yes — 'no deformity, no crepitus, no instability' is a finding",
+          "rationale": "Correct — yes — 'no deformity, no crepitus, no instability' is a finding."
+        },
+        {
+          "text": "Only if the examiner asks",
+          "rationale": "Say it regardless."
+        },
+        {
+          "text": "Only for the chest",
+          "rationale": "Applies throughout."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-02-Q006",
+      "concept_id": "EMT-10-01-02",
+      "style": "application",
+      "stem": "What drives your expectations throughout a trauma call?",
+      "options": [
+        {
+          "text": "The patient's age",
+          "rationale": "Not the driver described."
+        },
+        {
+          "text": "The mechanism of injury",
+          "rationale": "Correct — and it is stated during size-up."
+        },
+        {
+          "text": "The dispatch information alone",
+          "rationale": "Mechanism assessed on scene matters more."
+        },
+        {
+          "text": "The first set of vital signs",
+          "rationale": "Mechanism comes first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-03-Q001",
+      "concept_id": "EMT-10-01-03",
+      "style": "sequence",
+      "stem": "When is the reservoir bag filled?",
+      "options": [
+        {
+          "text": "After the mask is applied",
+          "rationale": "That is the classic error."
+        },
+        {
+          "text": "Before the mask is applied",
+          "rationale": "Correct — before the mask is applied."
+        },
+        {
+          "text": "It fills automatically once flow starts",
+          "rationale": "Occlude the valve and fill it deliberately."
+        },
+        {
+          "text": "It does not need filling",
+          "rationale": "It does need filling, deliberately, every time."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-03-Q002",
+      "concept_id": "EMT-10-01-03",
+      "style": "sequence",
+      "stem": "What is done immediately after opening the cylinder valve?",
+      "options": [
+        {
+          "text": "Apply the mask",
+          "rationale": "Not yet — several steps come first."
+        },
+        {
+          "text": "Check for leaks",
+          "rationale": "Correct — listen and look."
+        },
+        {
+          "text": "Set the flow rate",
+          "rationale": "After the tubing is attached."
+        },
+        {
+          "text": "Fill the reservoir",
+          "rationale": "After the tubing is attached."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-03-Q003",
+      "concept_id": "EMT-10-01-03",
+      "style": "recall",
+      "stem": "What does a collapsing reservoir bag mean?",
+      "options": [
+        {
+          "text": "The mask seal is poor",
+          "rationale": "Not what it indicates."
+        },
+        {
+          "text": "The flow rate is too low for this patient",
+          "rationale": "Correct — the flow rate is too low for this patient."
+        },
+        {
+          "text": "The cylinder is empty",
+          "rationale": "Possible, but the immediate meaning is inadequate flow."
+        },
+        {
+          "text": "The patient is not breathing",
+          "rationale": "It means the opposite."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-03-Q004",
+      "concept_id": "EMT-10-01-03",
+      "style": "application",
+      "stem": "Why check and state the cylinder pressure?",
+      "options": [
+        {
+          "text": "It is required for billing",
+          "rationale": "Not a reason."
+        },
+        {
+          "text": "It is a scored step, and on a real call it prevents running out mid-transport",
+          "rationale": "Correct — it is a scored step, and on a real call it prevents running out mid-transport."
+        },
+        {
+          "text": "It sets the flow rate",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It confirms the regulator fits",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-03-Q005",
+      "concept_id": "EMT-10-01-03",
+      "style": "recall",
+      "stem": "Why are the regulator pins aligned?",
+      "options": [
+        {
+          "text": "To make it easier to tighten",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "They must match the holes for the regulator to seat and seal correctly",
+          "rationale": "Correct — they must match the holes for the regulator to seat and seal correctly."
+        },
+        {
+          "text": "To identify the cylinder size",
+          "rationale": "Not their purpose."
+        },
+        {
+          "text": "To measure the flow",
+          "rationale": "Not their purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-03-Q006",
+      "concept_id": "EMT-10-01-03",
+      "style": "application",
+      "stem": "Why gather all equipment before starting?",
+      "options": [
+        {
+          "text": "It is a scored step on its own",
+          "rationale": "Not usually."
+        },
+        {
+          "text": "Assembling while searching for parts wastes time and looks disorganised",
+          "rationale": "Correct — assembling while searching for parts wastes time and looks disorganised."
+        },
+        {
+          "text": "The order of assembly changes otherwise",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It reduces contamination",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-04-Q001",
+      "concept_id": "EMT-10-01-04",
+      "style": "sequence",
+      "stem": "What comes before inserting an airway adjunct?",
+      "options": [
+        {
+          "text": "Suctioning the airway",
+          "rationale": "Not necessarily first."
+        },
+        {
+          "text": "Opening the airway manually",
+          "rationale": "Correct — an adjunct does not replace the manoeuvre."
+        },
+        {
+          "text": "Applying oxygen",
+          "rationale": "Not the immediate prerequisite."
+        },
+        {
+          "text": "Taking vital signs",
+          "rationale": "Not part of this sequence."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-04-Q002",
+      "concept_id": "EMT-10-01-04",
+      "style": "recall",
+      "stem": "When may an oropharyngeal airway be used?",
+      "options": [
+        {
+          "text": "In any unconscious patient",
+          "rationale": "Only where there is no gag reflex."
+        },
+        {
+          "text": "Only in a patient with no gag reflex",
+          "rationale": "Correct — only in a patient with no gag reflex."
+        },
+        {
+          "text": "In any patient who tolerates it",
+          "rationale": "The gag reflex rule governs."
+        },
+        {
+          "text": "Only with medical direction",
+          "rationale": "Not the governing rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-04-Q003",
+      "concept_id": "EMT-10-01-04",
+      "style": "sequence",
+      "stem": "The patient gags on the oral airway. What do you do?",
+      "options": [
+        {
+          "text": "Hold it in place until they settle",
+          "rationale": "Remove it immediately."
+        },
+        {
+          "text": "Remove it immediately",
+          "rationale": "Correct — remove it immediately."
+        },
+        {
+          "text": "Insert it further",
+          "rationale": "Never — gagging means it comes out."
+        },
+        {
+          "text": "Suction and reinsert",
+          "rationale": "Remove it first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-04-Q004",
+      "concept_id": "EMT-10-01-04",
+      "style": "recall",
+      "stem": "When is suction applied?",
+      "options": [
+        {
+          "text": "On the way in",
+          "rationale": "Wasteful, traumatic and removes oxygen."
+        },
+        {
+          "text": "On the way out",
+          "rationale": "Correct — in without suction, out with it."
+        },
+        {
+          "text": "Continuously throughout",
+          "rationale": "Not the technique."
+        },
+        {
+          "text": "Only if secretions are visible",
+          "rationale": "Suction as taught regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-04-Q005",
+      "concept_id": "EMT-10-01-04",
+      "style": "application",
+      "stem": "Why measure the suction catheter first?",
+      "options": [
+        {
+          "text": "To check it fits the tubing",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "So you know how far is far enough and do not go deeper",
+          "rationale": "Correct — so you know how far is far enough and do not go deeper."
+        },
+        {
+          "text": "To estimate how much can be removed",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To document the size used",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-04-Q006",
+      "concept_id": "EMT-10-01-04",
+      "style": "application",
+      "stem": "Why oxygenate between suction attempts?",
+      "options": [
+        {
+          "text": "To clear the catheter",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Suction removes oxygen along with the secretions",
+          "rationale": "Correct — suction removes oxygen along with the secretions."
+        },
+        {
+          "text": "To let the patient rest",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "To test the equipment",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-05-Q001",
+      "concept_id": "EMT-10-01-05",
+      "style": "recall",
+      "stem": "What happens if the mask does not seal?",
+      "options": [
+        {
+          "text": "Ventilation is less effective",
+          "rationale": "It is not less effective — it does not happen."
+        },
+        {
+          "text": "The patient is not ventilated at all — the air goes around the mask",
+          "rationale": "Correct — the patient is not ventilated at all — the air goes around the mask."
+        },
+        {
+          "text": "The oxygen concentration falls",
+          "rationale": "Not the main consequence."
+        },
+        {
+          "text": "The bag becomes harder to squeeze",
+          "rationale": "Not the consequence."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-05-Q002",
+      "concept_id": "EMT-10-01-05",
+      "style": "sequence",
+      "stem": "There is no chest rise. What do you do next?",
+      "options": [
+        {
+          "text": "Squeeze harder",
+          "rationale": "That inflates the stomach."
+        },
+        {
+          "text": "Stop and fix the cause — reposition, improve the seal, check for obstruction",
+          "rationale": "Correct — stop and fix the cause — reposition, improve the seal, check for obstruction."
+        },
+        {
+          "text": "Increase the ventilation rate",
+          "rationale": "Rate does not fix a seal."
+        },
+        {
+          "text": "Continue and reassess in a minute",
+          "rationale": "Ventilating without chest rise achieves nothing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-05-Q003",
+      "concept_id": "EMT-10-01-05",
+      "style": "sequence",
+      "stem": "Why squeeze slowly and smoothly?",
+      "options": [
+        {
+          "text": "It is less tiring",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Fast forceful squeezing pushes air into the stomach rather than the lungs",
+          "rationale": "Correct — fast forceful squeezing pushes air into the stomach rather than the lungs."
+        },
+        {
+          "text": "It delivers more oxygen",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It is required by the sheet only",
+          "rationale": "It is a genuine safety measure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-05-Q004",
+      "concept_id": "EMT-10-01-05",
+      "style": "application",
+      "stem": "Why use two-rescuer technique where possible?",
+      "options": [
+        {
+          "text": "It shares the workload",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "One person can hold the mask with both hands and concentrate entirely on the seal",
+          "rationale": "Correct — one person can hold the mask with both hands and concentrate entirely on the seal."
+        },
+        {
+          "text": "It allows a faster rate",
+          "rationale": "Rate is set by protocol."
+        },
+        {
+          "text": "It is required by protocol",
+          "rationale": "It is a effectiveness point, not a rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-05-Q005",
+      "concept_id": "EMT-10-01-05",
+      "style": "recall",
+      "stem": "How is ventilation effectiveness judged?",
+      "options": [
+        {
+          "text": "By how the bag feels",
+          "rationale": "The bag tells you little."
+        },
+        {
+          "text": "By visible chest rise",
+          "rationale": "Correct — by visible chest rise."
+        },
+        {
+          "text": "By how hard you are working",
+          "rationale": "Effort is not the measure."
+        },
+        {
+          "text": "By the oxygen flow rate",
+          "rationale": "Not the measure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-01-05-Q006",
+      "concept_id": "EMT-10-01-05",
+      "style": "application",
+      "stem": "Why does gastric distension matter?",
+      "options": [
+        {
+          "text": "It is uncomfortable for the patient",
+          "rationale": "There is a clinical consequence."
+        },
+        {
+          "text": "It pushes up on the diaphragm and makes vomiting much more likely",
+          "rationale": "Correct — it pushes up on the diaphragm and makes vomiting much more likely."
+        },
+        {
+          "text": "It reduces oxygen absorption",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It has no clinical effect",
+          "rationale": "It has a significant effect."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-01-Q001",
+      "concept_id": "EMT-10-02-01",
+      "style": "sequence",
+      "stem": "What happens immediately after a shock is delivered?",
+      "options": [
+        {
+          "text": "Check for a pulse",
+          "rationale": "That pause costs perfusion when it matters most."
+        },
+        {
+          "text": "Resume compressions immediately",
+          "rationale": "Correct — resume compressions immediately."
+        },
+        {
+          "text": "Reanalyse the rhythm",
+          "rationale": "Not immediately."
+        },
+        {
+          "text": "Check for breathing",
+          "rationale": "Resume compressions."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-01-Q002",
+      "concept_id": "EMT-10-02-01",
+      "style": "sequence",
+      "stem": "When is the defibrillator sent for?",
+      "options": [
+        {
+          "text": "After two minutes of compressions",
+          "rationale": "At the same time as compressions start."
+        },
+        {
+          "text": "At the same time compressions are started",
+          "rationale": "Correct — at the same time compressions are started."
+        },
+        {
+          "text": "After the first pulse check",
+          "rationale": "Too late — it goes at the same time as compressions start."
+        },
+        {
+          "text": "Once the rhythm is known",
+          "rationale": "You need the device to know the rhythm."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-01-Q003",
+      "concept_id": "EMT-10-02-01",
+      "style": "recall",
+      "stem": "Why do interruptions matter so much?",
+      "options": [
+        {
+          "text": "They waste time on the sheet",
+          "rationale": "The reason is physiological."
+        },
+        {
+          "text": "Perfusion pressure builds over several compressions and falls the instant you stop",
+          "rationale": "Correct — perfusion pressure builds over several compressions and falls the instant you stop."
+        },
+        {
+          "text": "They confuse the AED",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "They tire the rescuer",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-01-Q004",
+      "concept_id": "EMT-10-02-01",
+      "style": "application",
+      "stem": "What does saying clear while looking at the machine achieve?",
+      "options": [
+        {
+          "text": "It satisfies the requirement",
+          "rationale": "It announces an intention rather than clearing the patient."
+        },
+        {
+          "text": "Nothing useful — you must look at the patient and everyone around them",
+          "rationale": "Correct — nothing useful — you must look at the patient and everyone around them."
+        },
+        {
+          "text": "It warns the other rescuer adequately",
+          "rationale": "Looking is the confirmation."
+        },
+        {
+          "text": "It is the correct technique",
+          "rationale": "The looking is required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-01-Q005",
+      "concept_id": "EMT-10-02-01",
+      "style": "recall",
+      "stem": "Why must pads go on bare, dry skin?",
+      "options": [
+        {
+          "text": "For patient comfort",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Hair, sweat, water and patches interfere, and a pad that does not stick does not deliver",
+          "rationale": "Correct — hair, sweat, water and patches interfere, and a pad that does not stick does not deliver."
+        },
+        {
+          "text": "To read the pad markings",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To speed up analysis",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-01-Q006",
+      "concept_id": "EMT-10-02-01",
+      "style": "application",
+      "stem": "Why change compressors during a resuscitation?",
+      "options": [
+        {
+          "text": "To share the effort fairly",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "Compression quality falls with fatigue before the person notices",
+          "rationale": "Correct — compression quality falls with fatigue before the person notices."
+        },
+        {
+          "text": "To let each rescuer practise",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because the AED requires it",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-02-Q001",
+      "concept_id": "EMT-10-02-02",
+      "style": "sequence",
+      "stem": "Blood soaks through the dressing. What do you do?",
+      "options": [
+        {
+          "text": "Remove it and apply a fresh one",
+          "rationale": "The clot is in the dressing you would remove."
+        },
+        {
+          "text": "Add dressings on top and press harder",
+          "rationale": "Correct — add dressings on top and press harder."
+        },
+        {
+          "text": "Lift it to find the bleeding point",
+          "rationale": "Lifting restarts the bleeding."
+        },
+        {
+          "text": "Apply a tourniquet immediately",
+          "rationale": "Only where direct pressure fails."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-02-Q002",
+      "concept_id": "EMT-10-02-02",
+      "style": "sequence",
+      "stem": "Where is a tourniquet placed?",
+      "options": [
+        {
+          "text": "Directly over the wound",
+          "rationale": "Not the position."
+        },
+        {
+          "text": "Proximal to the wound, between it and the body",
+          "rationale": "Correct — proximal to the wound, between it and the body."
+        },
+        {
+          "text": "Distal to the wound",
+          "rationale": "That achieves nothing."
+        },
+        {
+          "text": "At the nearest joint",
+          "rationale": "Not the rule given."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-02-Q003",
+      "concept_id": "EMT-10-02-02",
+      "style": "recall",
+      "stem": "The patient says the tourniquet hurts. What does that mean?",
+      "options": [
+        {
+          "text": "It is too tight and should be loosened",
+          "rationale": "Pain is expected."
+        },
+        {
+          "text": "Nothing wrong — a tourniquet tight enough to work hurts",
+          "rationale": "Correct — nothing wrong — a tourniquet tight enough to work hurts."
+        },
+        {
+          "text": "It has been placed incorrectly",
+          "rationale": "Not indicated by pain alone."
+        },
+        {
+          "text": "It should be removed and replaced",
+          "rationale": "No — pain does not indicate a problem with placement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-02-Q004",
+      "concept_id": "EMT-10-02-02",
+      "style": "application",
+      "stem": "Why is a half-tight tourniquet worse than none?",
+      "options": [
+        {
+          "text": "It is uncomfortable",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It stops venous return while arteries keep filling the limb, so bleeding increases",
+          "rationale": "Correct — it stops venous return while arteries keep filling the limb, so bleeding increases."
+        },
+        {
+          "text": "It damages the skin",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "It delays proper treatment",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-02-Q005",
+      "concept_id": "EMT-10-02-02",
+      "style": "recall",
+      "stem": "Why keep a bleeding patient warm?",
+      "options": [
+        {
+          "text": "For comfort",
+          "rationale": "It is a treatment."
+        },
+        {
+          "text": "Cold blood clots badly, so a cold bleeding patient bleeds more",
+          "rationale": "Correct — cold blood clots badly, so a cold bleeding patient bleeds more."
+        },
+        {
+          "text": "To prevent shivering",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To maintain blood pressure directly",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-02-Q006",
+      "concept_id": "EMT-10-02-02",
+      "style": "application",
+      "stem": "Why must the tourniquet time be recorded and handed over?",
+      "options": [
+        {
+          "text": "For billing purposes",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "The receiving hospital needs to know how long the limb has been occluded",
+          "rationale": "Correct — the receiving hospital needs to know how long the limb has been occluded."
+        },
+        {
+          "text": "To measure crew performance",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is optional if transport is short",
+          "rationale": "It is recorded regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-03-Q001",
+      "concept_id": "EMT-10-02-03",
+      "style": "sequence",
+      "stem": "What must be done before applying the splint?",
+      "options": [
+        {
+          "text": "Pad the splint",
+          "rationale": "Done during application."
+        },
+        {
+          "text": "Assess circulation, movement and sensation distal to the injury",
+          "rationale": "Correct — assess circulation, movement and sensation distal to the injury."
+        },
+        {
+          "text": "Secure the straps loosely",
+          "rationale": "Not a pre-step."
+        },
+        {
+          "text": "Take a blood pressure",
+          "rationale": "Not the specific pre-step."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-03-Q002",
+      "concept_id": "EMT-10-02-03",
+      "style": "recall",
+      "stem": "What must the splint immobilise?",
+      "options": [
+        {
+          "text": "The fracture site only",
+          "rationale": "A bone moves through its joints."
+        },
+        {
+          "text": "The joint above and the joint below",
+          "rationale": "Correct — the joint above and the joint below."
+        },
+        {
+          "text": "The whole limb including the trunk",
+          "rationale": "More than required."
+        },
+        {
+          "text": "The joint below only",
+          "rationale": "Both joints are required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-03-Q003",
+      "concept_id": "EMT-10-02-03",
+      "style": "sequence",
+      "stem": "What happens immediately after the splint is secured?",
+      "options": [
+        {
+          "text": "Transport the patient",
+          "rationale": "Reassess first."
+        },
+        {
+          "text": "Reassess circulation, movement and sensation and say the result",
+          "rationale": "Correct — reassess circulation, movement and sensation and say the result."
+        },
+        {
+          "text": "Document the splint type",
+          "rationale": "Reassess first."
+        },
+        {
+          "text": "Elevate the limb",
+          "rationale": "Not the required step."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-03-Q004",
+      "concept_id": "EMT-10-02-03",
+      "style": "application",
+      "stem": "Distal circulation is lost after splinting. What do you do?",
+      "options": [
+        {
+          "text": "Transport quickly without changing anything",
+          "rationale": "The splint has failed."
+        },
+        {
+          "text": "Loosen the splint and reassess immediately",
+          "rationale": "Correct — loosen the splint and reassess immediately."
+        },
+        {
+          "text": "Remove the splint entirely",
+          "rationale": "Loosen and reassess first."
+        },
+        {
+          "text": "Elevate the limb and continue",
+          "rationale": "Not the correct response."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-03-Q005",
+      "concept_id": "EMT-10-02-03",
+      "style": "recall",
+      "stem": "Why pad the voids?",
+      "options": [
+        {
+          "text": "For patient comfort alone",
+          "rationale": "Comfort matters, but there is more."
+        },
+        {
+          "text": "Padding spreads support evenly instead of pressing at a few points",
+          "rationale": "Correct — padding spreads support evenly instead of pressing at a few points."
+        },
+        {
+          "text": "To hold the splint in place",
+          "rationale": "Straps do that."
+        },
+        {
+          "text": "To absorb blood",
+          "rationale": "Not the purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-03-Q006",
+      "concept_id": "EMT-10-02-03",
+      "style": "application",
+      "stem": "Why are two people preferred?",
+      "options": [
+        {
+          "text": "It is faster",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "One supports the limb above and below while the other applies the splint",
+          "rationale": "Correct — one supports the limb above and below while the other applies the splint."
+        },
+        {
+          "text": "It shares the responsibility",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "The sheet requires it",
+          "rationale": "Not always a requirement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-04-Q001",
+      "concept_id": "EMT-10-02-04",
+      "style": "recall",
+      "stem": "What is immobilised for a joint injury?",
+      "options": [
+        {
+          "text": "The joint above and the joint below",
+          "rationale": "That is the long bone rule."
+        },
+        {
+          "text": "The bone above and the bone below",
+          "rationale": "Correct — the reverse of long bone splinting."
+        },
+        {
+          "text": "The joint itself only",
+          "rationale": "Not sufficient."
+        },
+        {
+          "text": "The whole limb",
+          "rationale": "More than required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-04-Q002",
+      "concept_id": "EMT-10-02-04",
+      "style": "sequence",
+      "stem": "A joint is dislocated into an unnatural position. What do you do?",
+      "options": [
+        {
+          "text": "Straighten it gently before splinting",
+          "rationale": "Not an EMT procedure."
+        },
+        {
+          "text": "Splint it in the position found",
+          "rationale": "Correct — splint it in the position found."
+        },
+        {
+          "text": "Reduce it and then splint",
+          "rationale": "Never at this level."
+        },
+        {
+          "text": "Apply traction to realign it",
+          "rationale": "Not indicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-04-Q003",
+      "concept_id": "EMT-10-02-04",
+      "style": "application",
+      "stem": "Why not straighten a dislocated joint?",
+      "options": [
+        {
+          "text": "It takes too long",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It risks nerve and vessel damage, and the found position often preserves blood supply",
+          "rationale": "Correct — it risks nerve and vessel damage, and the found position often preserves blood supply."
+        },
+        {
+          "text": "It is uncomfortable",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "It makes splinting harder",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-04-Q004",
+      "concept_id": "EMT-10-02-04",
+      "style": "sequence",
+      "stem": "Where should the straps go?",
+      "options": [
+        {
+          "text": "Directly over the injured joint",
+          "rationale": "Pressure on the injury hurts and may worsen it."
+        },
+        {
+          "text": "Above and below the injured joint",
+          "rationale": "Correct — above and below the injured joint."
+        },
+        {
+          "text": "Wherever the splint allows",
+          "rationale": "Placement matters."
+        },
+        {
+          "text": "As far from the joint as possible",
+          "rationale": "Above and below is the rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-04-Q005",
+      "concept_id": "EMT-10-02-04",
+      "style": "application",
+      "stem": "A joint injury has no distal pulse. What does that mean?",
+      "options": [
+        {
+          "text": "It can wait for hospital assessment",
+          "rationale": "It is urgent."
+        },
+        {
+          "text": "It is urgent — say it, tell the hospital, and do not delay transport",
+          "rationale": "Correct — it is urgent — say it, tell the hospital, and do not delay transport."
+        },
+        {
+          "text": "The splint is too tight, always",
+          "rationale": "Possible, but the finding is urgent regardless."
+        },
+        {
+          "text": "The pulse check was inaccurate",
+          "rationale": "Do not assume that."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-04-Q006",
+      "concept_id": "EMT-10-02-04",
+      "style": "recall",
+      "stem": "Why pad generously in joint splinting?",
+      "options": [
+        {
+          "text": "Joints are more sensitive",
+          "rationale": "Not the reason given."
+        },
+        {
+          "text": "An awkward position leaves large voids, which cause movement and pressure injury",
+          "rationale": "Correct — an awkward position leaves large voids, which cause movement and pressure injury."
+        },
+        {
+          "text": "It holds the splint in place",
+          "rationale": "Straps do that."
+        },
+        {
+          "text": "It reduces swelling",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-05-Q001",
+      "concept_id": "EMT-10-02-05",
+      "style": "recall",
+      "stem": "What is a traction splint used for?",
+      "options": [
+        {
+          "text": "Any femur injury",
+          "rationale": "Only an isolated mid-shaft fracture."
+        },
+        {
+          "text": "A mid-shaft femur fracture with no joint or lower leg injury on that side",
+          "rationale": "Correct — a mid-shaft femur fracture with no joint or lower leg injury on that side."
+        },
+        {
+          "text": "A hip dislocation",
+          "rationale": "Contraindicated."
+        },
+        {
+          "text": "A tibia fracture",
+          "rationale": "Not the indication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-05-Q002",
+      "concept_id": "EMT-10-02-05",
+      "style": "recall",
+      "stem": "Why does traction help?",
+      "options": [
+        {
+          "text": "It reduces swelling",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It overcomes thigh muscle spasm, reducing pain, damage and internal bleeding",
+          "rationale": "Correct — it overcomes thigh muscle spasm, reducing pain, damage and internal bleeding."
+        },
+        {
+          "text": "It realigns the joint surfaces",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It restores circulation directly",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-05-Q003",
+      "concept_id": "EMT-10-02-05",
+      "style": "sequence",
+      "stem": "When may manual traction be released?",
+      "options": [
+        {
+          "text": "Once the splint is positioned",
+          "rationale": "Not until the device has taken over."
+        },
+        {
+          "text": "Once the mechanical device has taken over",
+          "rationale": "Correct — once the mechanical device has taken over."
+        },
+        {
+          "text": "As soon as the patient reports relief",
+          "rationale": "Not the criterion."
+        },
+        {
+          "text": "After measuring the splint",
+          "rationale": "Far too early."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-05-Q004",
+      "concept_id": "EMT-10-02-05",
+      "style": "sequence",
+      "stem": "Against which leg is the splint measured?",
+      "options": [
+        {
+          "text": "The injured leg",
+          "rationale": "That would require moving it."
+        },
+        {
+          "text": "The uninjured leg",
+          "rationale": "Correct — the uninjured leg."
+        },
+        {
+          "text": "Either leg",
+          "rationale": "Measurement is on the uninjured side."
+        },
+        {
+          "text": "The patient's height chart",
+          "rationale": "Not the method."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-05-Q005",
+      "concept_id": "EMT-10-02-05",
+      "style": "application",
+      "stem": "How much mechanical traction is applied?",
+      "options": [
+        {
+          "text": "The device's maximum",
+          "rationale": "Not the endpoint."
+        },
+        {
+          "text": "Until the pain and spasm ease",
+          "rationale": "Correct — the patient's response is the measure."
+        },
+        {
+          "text": "A fixed force specified by the manufacturer",
+          "rationale": "Not the described endpoint."
+        },
+        {
+          "text": "Until the leg is the same length as the other",
+          "rationale": "Not the criterion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-02-05-Q006",
+      "concept_id": "EMT-10-02-05",
+      "style": "application",
+      "stem": "What is the simplest way to remember the contraindications?",
+      "options": [
+        {
+          "text": "Do not use it on children",
+          "rationale": "Not the rule."
+        },
+        {
+          "text": "If you cannot safely pull against the ankle and foot, you cannot use it",
+          "rationale": "Correct — if you cannot safely pull against the ankle and foot, you cannot use it."
+        },
+        {
+          "text": "Do not use it with any bleeding",
+          "rationale": "Not the rule."
+        },
+        {
+          "text": "Do not use it in transport",
+          "rationale": "Not the rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-01-Q001",
+      "concept_id": "EMT-10-03-01",
+      "style": "sequence",
+      "stem": "What is secured first?",
+      "options": [
+        {
+          "text": "The head",
+          "rationale": "That makes the head the anchor."
+        },
+        {
+          "text": "The torso",
+          "rationale": "Correct — torso first, then head, always."
+        },
+        {
+          "text": "The legs",
+          "rationale": "Later in the sequence."
+        },
+        {
+          "text": "The arms",
+          "rationale": "Not part of the order described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-01-Q002",
+      "concept_id": "EMT-10-03-01",
+      "style": "sequence",
+      "stem": "When may manual stabilisation be released?",
+      "options": [
+        {
+          "text": "Once the collar is applied",
+          "rationale": "Not until fully secured."
+        },
+        {
+          "text": "Once the patient is fully secured to the device",
+          "rationale": "Correct — once the patient is fully secured to the device."
+        },
+        {
+          "text": "Once the torso straps are tightened",
+          "rationale": "Not until fully secured."
+        },
+        {
+          "text": "Once the device is positioned",
+          "rationale": "Far too early."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-01-Q003",
+      "concept_id": "EMT-10-03-01",
+      "style": "recall",
+      "stem": "Why is a wrong-sized collar worse than none?",
+      "options": [
+        {
+          "text": "It is uncomfortable",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Too big extends the neck and too small flexes it — it causes movement",
+          "rationale": "Correct — too big extends the neck and too small flexes it — it causes movement."
+        },
+        {
+          "text": "It obscures the airway",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "It cannot be secured",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-01-Q004",
+      "concept_id": "EMT-10-03-01",
+      "style": "application",
+      "stem": "Why does securing the head first cause a problem?",
+      "options": [
+        {
+          "text": "The straps are harder to reach",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "The head becomes the anchor, so torso adjustments pull the spine against it",
+          "rationale": "Correct — the head becomes the anchor, so torso adjustments pull the spine against it."
+        },
+        {
+          "text": "The collar loosens",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It takes longer",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-01-Q005",
+      "concept_id": "EMT-10-03-01",
+      "style": "recall",
+      "stem": "How many limbs are checked for circulation, movement and sensation?",
+      "options": [
+        {
+          "text": "The two closest to the injury",
+          "rationale": "All four limbs are checked, not a selection."
+        },
+        {
+          "text": "All four",
+          "rationale": "Correct, before and after."
+        },
+        {
+          "text": "Only the legs",
+          "rationale": "All four limbs, arms included."
+        },
+        {
+          "text": "Only if the patient reports symptoms",
+          "rationale": "Check regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-01-Q006",
+      "concept_id": "EMT-10-03-01",
+      "style": "application",
+      "stem": "Why recheck the straps after the device is in place?",
+      "options": [
+        {
+          "text": "To confirm the order was correct",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "They loosen as the device settles and clothing compresses",
+          "rationale": "Correct — they loosen as the device settles and clothing compresses."
+        },
+        {
+          "text": "To satisfy the sheet",
+          "rationale": "There is a real reason."
+        },
+        {
+          "text": "To allow the patient to breathe",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-02-Q001",
+      "concept_id": "EMT-10-03-02",
+      "style": "sequence",
+      "stem": "Who directs the move onto the device?",
+      "options": [
+        {
+          "text": "The most senior person present",
+          "rationale": "Not the rule."
+        },
+        {
+          "text": "The person holding the head",
+          "rationale": "Correct — the person holding the head."
+        },
+        {
+          "text": "The person at the hips",
+          "rationale": "Not the rule."
+        },
+        {
+          "text": "Whoever is ready first",
+          "rationale": "Not the rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-02-Q002",
+      "concept_id": "EMT-10-03-02",
+      "style": "sequence",
+      "stem": "What must happen before anything is strapped?",
+      "options": [
+        {
+          "text": "The collar is removed",
+          "rationale": "Never — the collar stays on."
+        },
+        {
+          "text": "The patient is centred on the device",
+          "rationale": "Correct — the patient is centred on the device."
+        },
+        {
+          "text": "Vital signs are taken",
+          "rationale": "Not the required step here."
+        },
+        {
+          "text": "The head is secured",
+          "rationale": "Head is secured last."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-02-Q003",
+      "concept_id": "EMT-10-03-02",
+      "style": "recall",
+      "stem": "In what order is a supine patient secured?",
+      "options": [
+        {
+          "text": "Head, torso, legs",
+          "rationale": "Head is last."
+        },
+        {
+          "text": "Torso, legs, head",
+          "rationale": "Correct — torso, legs, head."
+        },
+        {
+          "text": "Legs, head, torso",
+          "rationale": "Not the order."
+        },
+        {
+          "text": "Torso, head, legs",
+          "rationale": "Head is last."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-02-Q004",
+      "concept_id": "EMT-10-03-02",
+      "style": "application",
+      "stem": "Where does padding usually go in a child?",
+      "options": [
+        {
+          "text": "Under the head, as in an adult",
+          "rationale": "That worsens flexion in a child."
+        },
+        {
+          "text": "Under the shoulders, to offset the prominent occiput",
+          "rationale": "Correct — under the shoulders, to offset the prominent occiput."
+        },
+        {
+          "text": "Under the hips",
+          "rationale": "Not the requirement."
+        },
+        {
+          "text": "No padding is needed in children",
+          "rationale": "Padding is usually needed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-02-Q005",
+      "concept_id": "EMT-10-03-02",
+      "style": "application",
+      "stem": "What is the commonest failure during the move?",
+      "options": [
+        {
+          "text": "Moving too slowly",
+          "rationale": "Not the described failure."
+        },
+        {
+          "text": "The hips or legs arriving out of time with the shoulders, twisting the spine",
+          "rationale": "Correct — the hips or legs arriving out of time with the shoulders, twisting the spine."
+        },
+        {
+          "text": "Dropping the device",
+          "rationale": "Not the described failure."
+        },
+        {
+          "text": "Failing to count out loud",
+          "rationale": "A contributing factor, not the failure itself."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-02-Q006",
+      "concept_id": "EMT-10-03-02",
+      "style": "recall",
+      "stem": "Why centre the patient before securing?",
+      "options": [
+        {
+          "text": "It looks neater",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Off-centre cannot be corrected without undoing everything, and it gets left",
+          "rationale": "Correct — off-centre cannot be corrected without undoing everything, and it gets left."
+        },
+        {
+          "text": "The straps do not reach otherwise",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It speeds up the move",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-03-Q001",
+      "concept_id": "EMT-10-03-03",
+      "style": "recall",
+      "stem": "What tells you delivery is imminent?",
+      "options": [
+        {
+          "text": "The mother's report that the baby is coming",
+          "rationale": "Supporting evidence, not the answer."
+        },
+        {
+          "text": "Crowning — the head visible at the opening",
+          "rationale": "Correct — crowning — the head visible at the opening."
+        },
+        {
+          "text": "Contractions every five minutes",
+          "rationale": "Not the deciding finding."
+        },
+        {
+          "text": "The due date",
+          "rationale": "Not the deciding finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-03-Q002",
+      "concept_id": "EMT-10-03-03",
+      "style": "sequence",
+      "stem": "Delivery is imminent. What do you do?",
+      "options": [
+        {
+          "text": "Transport immediately",
+          "rationale": "That produces the same event with less room and light."
+        },
+        {
+          "text": "Deliver where you are",
+          "rationale": "Correct — deliver where you are."
+        },
+        {
+          "text": "Ask the mother to resist pushing",
+          "rationale": "Not appropriate."
+        },
+        {
+          "text": "Wait for a second crew",
+          "rationale": "Prepare and deliver."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-03-Q003",
+      "concept_id": "EMT-10-03-03",
+      "style": "sequence",
+      "stem": "How is the head managed as it delivers?",
+      "options": [
+        {
+          "text": "Pull gently to assist",
+          "rationale": "Never pull."
+        },
+        {
+          "text": "Support it with gentle counter-pressure to control the speed",
+          "rationale": "Correct — support it with gentle counter-pressure to control the speed."
+        },
+        {
+          "text": "Leave it entirely alone",
+          "rationale": "Support is required."
+        },
+        {
+          "text": "Rotate it to help the shoulders",
+          "rationale": "Not at this point."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-03-Q004",
+      "concept_id": "EMT-10-03-03",
+      "style": "application",
+      "stem": "Why is a firm two-handed grip on the newborn emphasised?",
+      "options": [
+        {
+          "text": "To stimulate breathing",
+          "rationale": "Drying does that."
+        },
+        {
+          "text": "Newborns are extremely slippery and have been dropped",
+          "rationale": "Correct — newborns are extremely slippery and have been dropped."
+        },
+        {
+          "text": "To keep the cord taut",
+          "rationale": "Never desirable."
+        },
+        {
+          "text": "To measure them",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-03-Q005",
+      "concept_id": "EMT-10-03-03",
+      "style": "application",
+      "stem": "Who is the patient most often forgotten after delivery?",
+      "options": [
+        {
+          "text": "The newborn",
+          "rationale": "Everyone looks at the newborn."
+        },
+        {
+          "text": "The mother",
+          "rationale": "Correct — and she is the one who bleeds."
+        },
+        {
+          "text": "The father",
+          "rationale": "Not a patient."
+        },
+        {
+          "text": "Neither — both get equal attention",
+          "rationale": "In practice attention goes to the baby."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-03-Q006",
+      "concept_id": "EMT-10-03-03",
+      "style": "recall",
+      "stem": "What happens to the placenta?",
+      "options": [
+        {
+          "text": "It is left at the scene",
+          "rationale": "It travels with you."
+        },
+        {
+          "text": "It goes in a bag and travels with the patient",
+          "rationale": "Correct — it goes in a bag and travels with the patient."
+        },
+        {
+          "text": "It is discarded as clinical waste on scene",
+          "rationale": "Not the practice."
+        },
+        {
+          "text": "It is weighed and recorded",
+          "rationale": "Not an EMT task."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-04-Q001",
+      "concept_id": "EMT-10-03-04",
+      "style": "sequence",
+      "stem": "What must happen before the medication is given?",
+      "options": [
+        {
+          "text": "Document the administration",
+          "rationale": "That follows."
+        },
+        {
+          "text": "Confirm and state the indication, run the six rights, and check contraindications",
+          "rationale": "Correct — confirm and state the indication, run the six rights, and check contraindications."
+        },
+        {
+          "text": "Reassess the patient",
+          "rationale": "That follows administration."
+        },
+        {
+          "text": "Contact the receiving hospital",
+          "rationale": "Not the required pre-step."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-04-Q002",
+      "concept_id": "EMT-10-03-04",
+      "style": "application",
+      "stem": "Why name each contraindication you checked?",
+      "options": [
+        {
+          "text": "It takes longer and shows diligence",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Naming them is a check; announcing 'no contraindications' is only an assertion",
+          "rationale": "Correct — naming them is a check; announcing 'no contraindications' is only an assertion."
+        },
+        {
+          "text": "The examiner requires the exact wording",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It helps the patient understand",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-04-Q003",
+      "concept_id": "EMT-10-03-04",
+      "style": "sequence",
+      "stem": "When is a required blood pressure taken?",
+      "options": [
+        {
+          "text": "After the medication is given",
+          "rationale": "Not the same thing."
+        },
+        {
+          "text": "Before the medication is given",
+          "rationale": "Correct — before the medication is given."
+        },
+        {
+          "text": "Only if the patient feels unwell",
+          "rationale": "Take it regardless."
+        },
+        {
+          "text": "At handover",
+          "rationale": "Far too late."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-04-Q004",
+      "concept_id": "EMT-10-03-04",
+      "style": "recall",
+      "stem": "How often are allergies asked about?",
+      "options": [
+        {
+          "text": "Once per patient",
+          "rationale": "Before every administration."
+        },
+        {
+          "text": "Before every administration, including repeats",
+          "rationale": "Correct — before every administration, including repeats."
+        },
+        {
+          "text": "Only for unfamiliar drugs",
+          "rationale": "Ask regardless."
+        },
+        {
+          "text": "Only if the patient is conscious",
+          "rationale": "Ask whoever can answer."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-04-Q005",
+      "concept_id": "EMT-10-03-04",
+      "style": "recall",
+      "stem": "Which part of documentation is most often omitted?",
+      "options": [
+        {
+          "text": "The route",
+          "rationale": "Usually recorded."
+        },
+        {
+          "text": "The effect",
+          "rationale": "Correct, and it is what the hospital most wants."
+        },
+        {
+          "text": "The time",
+          "rationale": "Usually recorded."
+        },
+        {
+          "text": "Who gave it",
+          "rationale": "Usually recorded."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-04-Q006",
+      "concept_id": "EMT-10-03-04",
+      "style": "application",
+      "stem": "Who takes the medication where possible?",
+      "options": [
+        {
+          "text": "The EMT, for accuracy",
+          "rationale": "The patient where able."
+        },
+        {
+          "text": "The patient themselves",
+          "rationale": "Correct — the patient themselves."
+        },
+        {
+          "text": "A family member",
+          "rationale": "Not appropriate."
+        },
+        {
+          "text": "Whoever is nearest",
+          "rationale": "Not how it is decided."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-05-Q001",
+      "concept_id": "EMT-10-03-05",
+      "style": "sequence",
+      "stem": "What happens before the patient is touched?",
+      "options": [
+        {
+          "text": "The device is positioned",
+          "rationale": "After the plan."
+        },
+        {
+          "text": "The route and move are planned and said out loud",
+          "rationale": "Correct — the route and move are planned and said out loud."
+        },
+        {
+          "text": "The straps are prepared",
+          "rationale": "After the plan."
+        },
+        {
+          "text": "Vital signs are repeated",
+          "rationale": "Not the required first step here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-05-Q002",
+      "concept_id": "EMT-10-03-05",
+      "style": "sequence",
+      "stem": "What must be secured?",
+      "options": [
+        {
+          "text": "The patient to the device",
+          "rationale": "Necessary but not sufficient."
+        },
+        {
+          "text": "The patient to the device and the device to the vehicle",
+          "rationale": "Correct — the patient to the device and the device to the vehicle."
+        },
+        {
+          "text": "The device to the vehicle",
+          "rationale": "Necessary but not sufficient."
+        },
+        {
+          "text": "Whichever the situation allows",
+          "rationale": "Both, every time."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-05-Q003",
+      "concept_id": "EMT-10-03-05",
+      "style": "recall",
+      "stem": "Which strap is most often forgotten?",
+      "options": [
+        {
+          "text": "The chest strap",
+          "rationale": "Usually applied."
+        },
+        {
+          "text": "The leg straps",
+          "rationale": "Correct — and patients slide downwards when the device tilts."
+        },
+        {
+          "text": "The shoulder straps",
+          "rationale": "Not the commonly forgotten one."
+        },
+        {
+          "text": "The head strap",
+          "rationale": "Not part of routine packaging."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-05-Q004",
+      "concept_id": "EMT-10-03-05",
+      "style": "application",
+      "stem": "How is the patient positioned?",
+      "options": [
+        {
+          "text": "Flat, as a default",
+          "rationale": "Default positions are not clinical decisions."
+        },
+        {
+          "text": "According to their condition",
+          "rationale": "Correct — according to their condition."
+        },
+        {
+          "text": "However the device is set up",
+          "rationale": "Not a clinical basis."
+        },
+        {
+          "text": "Whichever the patient prefers",
+          "rationale": "Preference is considered, condition governs."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-05-Q005",
+      "concept_id": "EMT-10-03-05",
+      "style": "application",
+      "stem": "Why reassess after moving?",
+      "options": [
+        {
+          "text": "To confirm the straps are tight",
+          "rationale": "One reason among several."
+        },
+        {
+          "text": "Moving changes patients — pain, position and condition all shift",
+          "rationale": "Correct — moving changes patients — pain, position and condition all shift."
+        },
+        {
+          "text": "It is a documentation requirement",
+          "rationale": "The reason is clinical."
+        },
+        {
+          "text": "To check the route was correct",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-10-03-05-Q006",
+      "concept_id": "EMT-10-03-05",
+      "style": "recall",
+      "stem": "When are additional people requested?",
+      "options": [
+        {
+          "text": "Once the lift proves difficult",
+          "rationale": "That is asking to be rescued."
+        },
+        {
+          "text": "Before the move starts",
+          "rationale": "Correct — before the move starts."
+        },
+        {
+          "text": "After the patient is on the device",
+          "rationale": "Too late — the lift is already done."
+        },
+        {
+          "text": "Only if the patient is heavy",
+          "rationale": "Judged on the whole move."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    }
+  ]
+}
