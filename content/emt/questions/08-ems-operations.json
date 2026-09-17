@@ -3242,6 +3242,546 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-01-Q001",
+      "concept_id": "EMT-08-06-01",
+      "style": "recall",
+      "stem": "What is a secondary device?",
+      "options": [
+        {
+          "text": "A backup detonator on the first device",
+          "rationale": "Not the meaning."
+        },
+        {
+          "text": "A device placed specifically to injure responders, where and when they will gather",
+          "rationale": "Correct — a device placed specifically to injure responders, where and when they will gather."
+        },
+        {
+          "text": "A device that fails to detonate",
+          "rationale": "Not the meaning."
+        },
+        {
+          "text": "A second explosion from the same source",
+          "rationale": "Not the meaning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-01-Q002",
+      "concept_id": "EMT-08-06-01",
+      "style": "recall",
+      "stem": "When may you enter the scene?",
+      "options": [
+        {
+          "text": "When it looks quiet",
+          "rationale": "Appearance is not a declaration."
+        },
+        {
+          "text": "When it is declared secure by the agency responsible for securing it",
+          "rationale": "Correct — when it is declared secure by the agency responsible for securing it."
+        },
+        {
+          "text": "When you can see a patient who needs help",
+          "rationale": "Visible casualties do not change the rule."
+        },
+        {
+          "text": "When police are on scene",
+          "rationale": "Presence is not the same as declared secure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-01-Q003",
+      "concept_id": "EMT-08-06-01",
+      "style": "application",
+      "stem": "Where should units stage at a suspected terrorist incident?",
+      "options": [
+        {
+          "text": "At the main entrance, for fastest access",
+          "rationale": "The obvious place is the exploited place."
+        },
+        {
+          "text": "Away, out of line of sight, and away from predictable gathering points",
+          "rationale": "Correct — away, out of line of sight, and away from predictable gathering points."
+        },
+        {
+          "text": "In the main car park",
+          "rationale": "A predictable gathering point."
+        },
+        {
+          "text": "Wherever there is clear visibility of the scene",
+          "rationale": "Line of sight cuts both ways."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-01-Q004",
+      "concept_id": "EMT-08-06-01",
+      "style": "application",
+      "stem": "You find an unattended package near the scene. What do you do?",
+      "options": [
+        {
+          "text": "Move it away from the casualties",
+          "rationale": "Never touch or move it."
+        },
+        {
+          "text": "Report it, keep people away, and do not investigate it",
+          "rationale": "Correct — report it, keep people away, and do not investigate it."
+        },
+        {
+          "text": "Open it carefully to assess the threat",
+          "rationale": "Never — you report it, you do not assess it."
+        },
+        {
+          "text": "Photograph it closely for the investigation",
+          "rationale": "Do not approach it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-01-Q005",
+      "concept_id": "EMT-08-06-01",
+      "style": "scenario",
+      "stem": "Scene preservation conflicts with reaching a patient. What wins?",
+      "options": [
+        {
+          "text": "Preservation — it is a crime scene",
+          "rationale": "Patient care takes precedence."
+        },
+        {
+          "text": "Patient care, with disclosure afterwards of what you disturbed",
+          "rationale": "Correct — patient care, with disclosure afterwards of what you disturbed."
+        },
+        {
+          "text": "Whichever the police direct",
+          "rationale": "Patient care is the clinical priority."
+        },
+        {
+          "text": "Neither — wait for a decision",
+          "rationale": "Waiting is not appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-01-Q006",
+      "concept_id": "EMT-08-06-01",
+      "style": "recall",
+      "stem": "What else is part of the response at these incidents?",
+      "options": [
+        {
+          "text": "Nothing beyond patient care and transport",
+          "rationale": "There is more."
+        },
+        {
+          "text": "Psychological support for the crews afterwards",
+          "rationale": "Correct — including those who felt fine at the time."
+        },
+        {
+          "text": "Media liaison by the attending crew",
+          "rationale": "Not the crew's role."
+        },
+        {
+          "text": "Individual evidence collection",
+          "rationale": "Not an EMS role."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-02-Q001",
+      "concept_id": "EMT-08-06-02",
+      "style": "recall",
+      "stem": "What does CBRNE stand for?",
+      "options": [
+        {
+          "text": "Chemical, Biological, Radiological, Nuclear, Explosive",
+          "rationale": "Correct — chemical, Biological, Radiological, Nuclear, Explosive."
+        },
+        {
+          "text": "Chemical, Blast, Radiation, Nerve, Environmental",
+          "rationale": "Not the categories."
+        },
+        {
+          "text": "Contamination, Biohazard, Radiation, Nuclear, Exposure",
+          "rationale": "Not the categories."
+        },
+        {
+          "text": "Chemical, Bacterial, Reactive, Nuclear, Electrical",
+          "rationale": "Not the categories."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-02-Q002",
+      "concept_id": "EMT-08-06-02",
+      "style": "recall",
+      "stem": "Which category is most commonly used?",
+      "options": [
+        {
+          "text": "Chemical",
+          "rationale": "Not the most common."
+        },
+        {
+          "text": "Explosive",
+          "rationale": "Correct — blast injury is what you are most likely to see."
+        },
+        {
+          "text": "Biological",
+          "rationale": "Rare by comparison."
+        },
+        {
+          "text": "Radiological",
+          "rationale": "Rare by comparison."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-02-Q003",
+      "concept_id": "EMT-08-06-02",
+      "style": "application",
+      "stem": "Several people have collapsed in a confined space. What do you assume?",
+      "options": [
+        {
+          "text": "A shared medical event",
+          "rationale": "Not the first assumption."
+        },
+        {
+          "text": "A chemical exposure until proved otherwise — do not go in",
+          "rationale": "Correct — a chemical exposure until proved otherwise — do not go in."
+        },
+        {
+          "text": "Oxygen depletion only",
+          "rationale": "One possibility among several hazards."
+        },
+        {
+          "text": "A structural problem",
+          "rationale": "Not the presentation described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-02-Q004",
+      "concept_id": "EMT-08-06-02",
+      "style": "application",
+      "stem": "Why might EMS be the first to notice a biological event?",
+      "options": [
+        {
+          "text": "Because EMS carries detection equipment",
+          "rationale": "It does not."
+        },
+        {
+          "text": "Because it presents as a pattern of illness across many calls rather than as a scene",
+          "rationale": "Correct — because it presents as a pattern of illness across many calls rather than as a scene."
+        },
+        {
+          "text": "Because EMS attends hospitals daily",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Because biological agents act quickly",
+          "rationale": "They act slowly."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-02-Q005",
+      "concept_id": "EMT-08-06-02",
+      "style": "recall",
+      "stem": "What reduces radiation exposure?",
+      "options": [
+        {
+          "text": "Time, distance and shielding",
+          "rationale": "Correct — and none require equipment."
+        },
+        {
+          "text": "Protective clothing alone",
+          "rationale": "Clothing does not shield most radiation."
+        },
+        {
+          "text": "Decontamination alone",
+          "rationale": "That addresses contamination, not exposure."
+        },
+        {
+          "text": "Oxygen administration",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-02-Q006",
+      "concept_id": "EMT-08-06-02",
+      "style": "scenario",
+      "stem": "A patient has been irradiated but is not contaminated. What does that mean for you?",
+      "options": [
+        {
+          "text": "They are dangerous to touch",
+          "rationale": "Radiation is not contagious."
+        },
+        {
+          "text": "They pose no hazard and can be treated normally",
+          "rationale": "Correct — they pose no hazard and can be treated normally."
+        },
+        {
+          "text": "They must be decontaminated first",
+          "rationale": "Only contaminated patients are."
+        },
+        {
+          "text": "They cannot be transported",
+          "rationale": "They can be transported normally."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-03-Q001",
+      "concept_id": "EMT-08-06-03",
+      "style": "recall",
+      "stem": "What distinguishes a disaster from a multiple casualty incident?",
+      "options": [
+        {
+          "text": "The number of patients",
+          "rationale": "Not the defining difference."
+        },
+        {
+          "text": "It overwhelms the area's resources for a prolonged period",
+          "rationale": "Correct — it overwhelms the area's resources for a prolonged period."
+        },
+        {
+          "text": "The involvement of multiple agencies",
+          "rationale": "Both may involve several agencies."
+        },
+        {
+          "text": "The presence of fatalities",
+          "rationale": "Not the distinction."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-03-Q002",
+      "concept_id": "EMT-08-06-03",
+      "style": "application",
+      "stem": "What follows from the fact that disasters last?",
+      "options": [
+        {
+          "text": "Nothing changes operationally",
+          "rationale": "A great deal changes."
+        },
+        {
+          "text": "Shifts, food, water, rest, relief and resupply become part of the plan",
+          "rationale": "Correct — shifts, food, water, rest, relief and resupply become part of the plan."
+        },
+        {
+          "text": "More ambulances are needed",
+          "rationale": "True but not the key consequence."
+        },
+        {
+          "text": "Triage becomes unnecessary",
+          "rationale": "Triage remains essential."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-03-Q003",
+      "concept_id": "EMT-08-06-03",
+      "style": "recall",
+      "stem": "Which normal systems may fail in a disaster?",
+      "options": [
+        {
+          "text": "Communications only",
+          "rationale": "More than communications."
+        },
+        {
+          "text": "Communications, power, water, roads and the hospitals themselves",
+          "rationale": "Correct — communications, power, water, roads and the hospitals themselves."
+        },
+        {
+          "text": "Dispatch systems only",
+          "rationale": "Too narrow."
+        },
+        {
+          "text": "None — infrastructure is protected",
+          "rationale": "Not a safe assumption."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-03-Q004",
+      "concept_id": "EMT-08-06-03",
+      "style": "application",
+      "stem": "Why is your family's preparedness part of your readiness?",
+      "options": [
+        {
+          "text": "It is a personal matter unrelated to work",
+          "rationale": "It has direct operational consequences."
+        },
+        {
+          "text": "Without a plan you will be distracted and may face a conflict between them and the response",
+          "rationale": "Correct — without a plan you will be distracted and may face a conflict between them and the response."
+        },
+        {
+          "text": "Employers require it",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It shortens your deployment",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-03-Q005",
+      "concept_id": "EMT-08-06-03",
+      "style": "scenario",
+      "stem": "What is the commonest individual failure in a long response?",
+      "options": [
+        {
+          "text": "Refusing assignments",
+          "rationale": "Not the common failure."
+        },
+        {
+          "text": "Working flat out early and being useless for days afterwards",
+          "rationale": "Correct — working flat out early and being useless for days afterwards."
+        },
+        {
+          "text": "Over-triaging patients",
+          "rationale": "Not the common failure."
+        },
+        {
+          "text": "Failing to document",
+          "rationale": "Not the common failure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-03-Q006",
+      "concept_id": "EMT-08-06-03",
+      "style": "recall",
+      "stem": "When can psychological impact appear?",
+      "options": [
+        {
+          "text": "Only during the incident",
+          "rationale": "It frequently appears later."
+        },
+        {
+          "text": "Days or weeks later, and often not as an obvious reaction",
+          "rationale": "Correct — days or weeks later, and often not as an obvious reaction."
+        },
+        {
+          "text": "Only in inexperienced providers",
+          "rationale": "It affects experienced people equally."
+        },
+        {
+          "text": "Only after repeated exposure",
+          "rationale": "A single event can do it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

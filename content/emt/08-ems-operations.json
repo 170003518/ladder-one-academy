@@ -61,6 +61,15 @@
         "EMT-08-05-02",
         "EMT-08-05-03"
       ]
+    },
+    {
+      "id": "EMT-08-06",
+      "title": "Terrorism and disaster response",
+      "concepts": [
+        "EMT-08-06-01",
+        "EMT-08-06-02",
+        "EMT-08-06-03"
+      ]
     }
   ],
   "concepts": [
@@ -3414,6 +3423,483 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm decontamination sequence, water use and treatment of specific exposures against your local protocol, medical direction and the current Emergency Response Guidebook. No medication names, antidotes or doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-01",
+      "title": "Responding to a violent or terrorist incident",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-06-02",
+        "EMT-08-04-01",
+        "EMT-01-02-01"
+      ],
+      "key_points": [
+        "Your safety comes first, and at these incidents it is not a formality — responders are deliberately targeted",
+        "Scene indicators: the type of event, the target, unusual devices, multiple casualties with blast or penetrating injury",
+        "Secondary devices are placed specifically to injure responders, and they are placed where responders will gather",
+        "Do not enter until the scene is declared secure by the agency responsible for securing it",
+        "Stage away, out of line of sight, and away from the obvious approach and gathering points",
+        "Avoid predictable gathering places: the obvious entrance, the car park, the place with a clear view",
+        "Do not touch or move anything unusual, and report it rather than investigating it",
+        "You are part of a unified response, and you work within the plan rather than beside it",
+        "Preserve the scene where you can, but patient care comes first when they conflict",
+        "Everyone at these incidents carries a psychological load, including you — support afterwards is part of the response"
+      ],
+      "misconceptions": [
+        "Entering before the scene is declared secure",
+        "Staging at the obvious gathering point",
+        "Investigating an unusual object rather than reporting it",
+        "Assuming the incident is over because the first event has ended"
+      ],
+      "exam_favorites": [
+        "Secondary devices",
+        "Stage unpredictably",
+        "Wait for secure"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Your safety comes first at every call, and at these incidents that is not a formality. Responders are deliberately targeted at violent and terrorist incidents, which makes this one of the few situations where the danger is aimed at you specifically rather than incidental to the scene.\n\nRecognition first. What suggests this is not an ordinary call? The type of event — an explosion, a shooting, a deliberate vehicle attack. The target — a symbolic building, a crowded public place, a date or event with significance. Unusual devices or packages. Multiple casualties with blast injuries or penetrating trauma in a place with no reason to produce them. And sometimes the simplest indicator: a scene that does not make sense as an accident.\n\nThen the thing that governs everything you do: secondary devices. A secondary device is placed specifically to injure responders. It is placed where responders will gather, timed for when they will have arrived, and it is a well-established tactic rather than a theoretical concern. Which means the ordinary instinct to converge, park close and gather near the incident is exactly the behaviour being exploited.\n\nSo do not enter until the scene is declared secure by the agency responsible for securing it. Not until it looks quiet, not until someone shouts that it is fine, and not until you can see a patient who needs you. Declared secure, by the people whose job that is. Waiting is intensely difficult when there are visible casualties, and it is still the instruction.\n\nStage away. Out of line of sight of the incident where possible, at a distance, and — this is the part people miss — away from the predictable places. The obvious entrance. The main car park. The spot with a clear view of the building. The natural gathering point where everybody would instinctively assemble. If it is the obvious place for responders to collect, assume somebody else has also worked that out.\n\nDo not touch or move anything unusual. An unattended bag, an out-of-place package, a device — you report it, you keep people away from it, and you do not investigate it. Curiosity is the mechanism by which this goes wrong, and it is rarely experienced as curiosity at the time; it is experienced as being helpful.\n\nYou are part of a unified response. Police, fire, EMS and often federal or national agencies work under a shared command, and your job is to work within that plan rather than alongside it. This is the incident type where freelancing has the worst consequences.\n\nPreserve the scene where you can — this is a crime scene and what is on the ground is evidence. Do not move things that do not need moving, note what you did move and why, and keep your route in and out consistent. But be clear about the priority: when scene preservation and patient care conflict, patient care wins. Say what you disturbed afterwards rather than leaving somebody untreated.\n\nAnd be honest about the last item. Everybody at these incidents carries a psychological load, including experienced people, including you, and including people who felt fine at the time. Support afterwards is part of the response rather than an optional extra, and it is worth knowing what your service provides before the day you need it.",
+          "standard": "Provider safety takes precedence at violent and terrorist incidents, where responders constitute deliberate targets rather than incidental exposures. Recognition indicators comprise event type including explosion, shooting and deliberate vehicle attack; target characteristics including symbolic premises, crowded public locations and significant dates; presence of unusual devices or packages; multiple casualties with blast or penetrating injury inconsistent with the setting; and general incongruence with accidental causation. Secondary devices are positioned to injure responders, sited at anticipated responder assembly locations and timed for responder arrival, constituting established tactic; instinctive convergence, close parking and assembly near the incident exploit this. Entry is prohibited pending declaration of scene security by the agency responsible, notwithstanding visible casualties. Staging occurs at distance, outside line of sight where practicable, and specifically away from predictable locations including principal entrances, main parking areas, positions affording clear views and natural assembly points. Unusual objects are not touched, moved or investigated; they are reported and cordoned. Response occurs under unified command incorporating police, fire, EMS and national agencies, with individual providers working within rather than alongside the plan; freelancing carries maximal consequence at these incidents. Scene preservation is maintained where feasible, as the location constitutes a crime scene, with minimal disturbance, documentation of items moved and consistent routing; where preservation and patient care conflict, patient care takes precedence with subsequent disclosure of disturbance. Psychological impact affects all attending personnel including experienced providers and those asymptomatic at the time; post-incident support constitutes a component of the response."
+        },
+        "eli_new": {
+          "analogy": "If it is the obvious place for responders to gather, assume somebody else has worked that out too.",
+          "body": "Waiting for a scene to be declared secure while you can see casualties is the hardest instruction in this job, and it is still the instruction."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you respond safely to a violent or terrorist incident.",
+          "must_hit": [
+            {
+              "point": "Responders are deliberately targeted at these incidents",
+              "accept": [
+                "target",
+                "deliberate",
+                "responder",
+                "aimed",
+                "safety"
+              ]
+            },
+            {
+              "point": "Recognition: event type, target, devices, blast or penetrating injuries",
+              "accept": [
+                "explosion",
+                "shooting",
+                "target",
+                "device",
+                "blast",
+                "penetrating"
+              ]
+            },
+            {
+              "point": "Secondary devices are placed to injure responders",
+              "accept": [
+                "secondary",
+                "device",
+                "responder",
+                "gather",
+                "tactic"
+              ]
+            },
+            {
+              "point": "Do not enter until the scene is declared secure",
+              "accept": [
+                "not enter",
+                "secure",
+                "declared",
+                "wait",
+                "agency"
+              ]
+            },
+            {
+              "point": "Stage away and out of predictable gathering places",
+              "accept": [
+                "stage",
+                "away",
+                "predictable",
+                "obvious",
+                "line of sight",
+                "car park"
+              ]
+            },
+            {
+              "point": "Do not touch or investigate unusual objects",
+              "accept": [
+                "not touch",
+                "report",
+                "investigate",
+                "package",
+                "unattended"
+              ]
+            },
+            {
+              "point": "Work within the unified plan rather than beside it",
+              "accept": [
+                "unified",
+                "command",
+                "plan",
+                "freelanc",
+                "within"
+              ]
+            },
+            {
+              "point": "Preserve the scene, but patient care wins when they conflict",
+              "accept": [
+                "preserve",
+                "crime scene",
+                "evidence",
+                "patient care",
+                "conflict"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Not there",
+          "dispatch": "Staging — multiple units assembling, incident type under assessment.",
+          "body": "The natural place to stage was the front car park, which is where the first three units had gone.\n\nThe officer moved everybody two streets back and around a corner, and somebody complained about the walk.\n\nHe said the same thing he always said, which was that if it is the obvious place, somebody else has thought of it."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm response procedures for violent and terrorist incidents against your local protocol and your service's plan, which govern scene entry, staging distances and inter-agency arrangements."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-02",
+      "title": "Weapons of mass destruction",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-06-01"
+      ],
+      "related": [
+        "EMT-08-06-01",
+        "EMT-08-05-01",
+        "EMT-08-05-03"
+      ],
+      "key_points": [
+        "The recognised categories are chemical, biological, radiological, nuclear and explosive",
+        "Explosive is by far the most commonly used, and blast injury is what you are most likely to see",
+        "Chemical agents act quickly, and multiple casualties appearing at once in one place is the pattern",
+        "Nerve agents produce a recognisable pattern of excessive secretions from every orifice at once",
+        "Biological agents act slowly, so the presentation is an unusual cluster of illness rather than a scene",
+        "Because biological events present as illness, EMS may be the first to notice the pattern",
+        "Radiological devices combine an explosion with radioactive material, contaminating an area",
+        "Time, distance and shielding reduce radiation exposure, and none of them are complicated",
+        "Radiation is not contagious — contaminated patients are decontaminated, and irradiated patients are not a hazard",
+        "The response principles are the same as any hazmat: recognise, retreat, isolate, notify, and do not become a casualty"
+      ],
+      "misconceptions": [
+        "Assuming radiation exposure makes a patient dangerous to touch",
+        "Missing a biological event because it presents as illness",
+        "Approaching a chemical scene because patients are visible",
+        "Forgetting that blast is the commonest weapon by far"
+      ],
+      "exam_favorites": [
+        "CBRNE",
+        "Time, distance, shielding",
+        "Biological presents as illness"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The recognised categories of weapon of mass destruction are chemical, biological, radiological, nuclear and explosive — grouped as CBRNE, which is worth memorising as a list because it organises everything else.\n\nStart with the honest proportion: explosive is by far the most commonly used, and blast injury is overwhelmingly what you are most likely to encounter. The exotic categories get the attention and the explosive category gets the casualties.\n\nChemical agents act quickly, and speed is the signature. The pattern is many casualties appearing at once, in one location, with similar symptoms — which is the same recognition trigger as any hazmat incident, and it is the thing that should stop you at the door. People collapsing in a confined space is a chemical presentation until proved otherwise, and going in to help them is how the casualty count rises.\n\nAmong chemical agents, the nerve agent pattern is worth recognising because it is distinctive: excessive secretions from essentially every orifice at once, along with pinpoint pupils, difficulty breathing, muscle twitching and seizures. Wet everywhere, all at the same time, in several people at once. Treatment is beyond EMT scope and involves antidotes given by others under protocol; your part is recognition, protection and getting help.\n\nBiological agents are different in one crucial way: they act slowly. There is no scene. Nobody is going to call you to an anthrax release. Instead, people become ill over hours or days, spread across a city, presenting to different hospitals and different crews.\n\nWhich produces a genuinely important consequence: EMS may be the first to notice. Not by identifying an agent, but by noticing a pattern — unusual numbers of similar presentations, an illness that does not fit the season, several patients from the same event or building, a cluster that feels wrong. If something about the pattern of your calls seems unusual, say so. That observation, passed up, is how these events get identified.\n\nRadiological devices combine conventional explosive with radioactive material, spreading contamination over an area. The injuries at the scene come from the blast; the contamination is the longer-term problem and is handled like any other hazmat contamination.\n\nFor radiation exposure, three simple things reduce it, and they are worth knowing because none of them require equipment. Time — less time near the source means less exposure. Distance — moving away reduces exposure sharply. Shielding — put mass between you and the source, even a vehicle or a wall.\n\nAnd clear up the misconception that causes the most harm here: radiation is not contagious. A patient who has been irradiated but is not contaminated poses no hazard to you at all, and can be treated normally. A patient with radioactive material on them is contaminated and is decontaminated exactly like any other contaminated patient — clothing off, wash down, before the ambulance. People have been left untreated because of a fear that was not physically justified, and knowing the difference prevents that.\n\nThe response principles across all of these are the same as any hazardous materials incident: recognise, retreat, isolate, notify, and do not become a casualty.",
+          "standard": "Weapons of mass destruction are categorised as chemical, biological, radiological, nuclear and explosive, abbreviated CBRNE. Explosive devices constitute the predominant modality by frequency, with blast injury the most likely presentation encountered. Chemical agents produce rapid onset, with the characteristic pattern comprising multiple simultaneous casualties at a single location with similar symptomatology; this pattern warrants withholding of entry, as collapse of multiple persons within a confined space indicates chemical exposure pending exclusion and entry increases casualty numbers. Nerve agent exposure produces a distinctive presentation of excessive secretions from multiple orifices simultaneously with miosis, respiratory difficulty, fasciculation and seizure; definitive management including antidote administration exceeds EMT scope, with the provider role comprising recognition, protection and escalation. Biological agents produce delayed onset without a defined scene, with illness developing over hours to days across dispersed locations and presenting to multiple facilities and crews. Consequently EMS may provide first recognition, through identification of epidemiological pattern rather than agent identification: unusual volumes of similar presentations, seasonally atypical illness, multiple patients from a common location or event, or anomalous clustering; such observations should be escalated. Radiological dispersal devices combine conventional explosive with radioactive material, producing blast injury with area contamination managed as conventional hazmat contamination. Radiation exposure is reduced by time, distance and shielding, none requiring equipment. Radiation exposure is not transmissible: irradiated but uncontaminated patients present no hazard and receive normal care; contaminated patients undergo standard decontamination comprising clothing removal and irrigation prior to transport. Misunderstanding of this distinction has produced withheld treatment. Response principles across all categories comprise recognition, withdrawal, isolation, notification and avoidance of provider casualty."
+        },
+        "eli_new": {
+          "analogy": "Explosive gets the casualties and the exotic categories get the attention. Blast injury is overwhelmingly what you will actually see.",
+          "body": "Radiation is not contagious. Somebody irradiated but not contaminated is completely safe to treat, and people have been left untreated because of a fear that was not physically justified."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the WMD categories and explain how each presents to EMS.",
+          "must_hit": [
+            {
+              "point": "Chemical, biological, radiological, nuclear, explosive",
+              "accept": [
+                "chemical",
+                "biological",
+                "radiolog",
+                "nuclear",
+                "explosive",
+                "cbrne"
+              ]
+            },
+            {
+              "point": "Explosive is by far the most commonly used",
+              "accept": [
+                "explosive",
+                "most",
+                "common",
+                "blast",
+                "frequent"
+              ]
+            },
+            {
+              "point": "Chemical agents act fast — many casualties at once in one place",
+              "accept": [
+                "fast",
+                "quick",
+                "multiple",
+                "once",
+                "same place",
+                "chemical"
+              ]
+            },
+            {
+              "point": "Nerve agents produce excessive secretions from everywhere at once",
+              "accept": [
+                "nerve",
+                "secretion",
+                "pinpoint",
+                "twitch",
+                "seizure",
+                "wet"
+              ]
+            },
+            {
+              "point": "Biological agents act slowly and there is no scene",
+              "accept": [
+                "slow",
+                "days",
+                "no scene",
+                "hours",
+                "biolog"
+              ]
+            },
+            {
+              "point": "EMS may notice a biological event as a pattern of illness",
+              "accept": [
+                "pattern",
+                "notice",
+                "cluster",
+                "unusual",
+                "first",
+                "report"
+              ]
+            },
+            {
+              "point": "Time, distance and shielding reduce radiation exposure",
+              "accept": [
+                "time",
+                "distance",
+                "shielding",
+                "reduce",
+                "exposure"
+              ]
+            },
+            {
+              "point": "Radiation is not contagious — contamination is the issue, not irradiation",
+              "accept": [
+                "not contagious",
+                "irradiat",
+                "contaminat",
+                "safe",
+                "decontaminat"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Something is off",
+          "dispatch": "Medic 3 — fourth similar call this shift, same presentation.",
+          "body": "Nobody could point to anything wrong with any individual patient. They were all plausible calls.\n\nSomebody said out loud at handover that this was the fourth one, and that the season was wrong for it.\n\nThat sentence, and not any clinical finding, was what started the investigation."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm WMD categories, agent presentations and radiation guidance against the current text and your local protocol. No antidote names or doses appear; nerve agent treatment is outside EMT scope in most systems."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-06-03",
+      "title": "Disaster response and looking after yourself",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-06-01"
+      ],
+      "related": [
+        "EMT-08-06-01",
+        "EMT-08-04-02",
+        "EMT-01-01-02"
+      ],
+      "key_points": [
+        "A disaster overwhelms the resources of the area for a prolonged period, unlike a single incident",
+        "Disasters last, which changes everything: shifts, food, water, rest, relief and fuel all become part of the plan",
+        "Normal systems fail: communications, power, water, roads and the hospitals themselves may be affected",
+        "Expect to work differently — austere conditions, unfamiliar partners and improvised arrangements",
+        "Your family's preparedness is part of your own readiness, because you cannot work while worrying about them",
+        "Pace yourself, because a disaster is not a sprint and exhausted responders make errors and get hurt",
+        "Eat, drink, rest and hand over — these are operational requirements rather than luxuries",
+        "The psychological impact is real, it affects experienced people, and it can appear days or weeks later",
+        "Know what support your service offers before you need it, and use it without treating it as weakness",
+        "Watch your colleagues as well as yourself, because people are worse at seeing it in themselves"
+      ],
+      "misconceptions": [
+        "Treating a disaster like a long single incident",
+        "Skipping food, water and rest to keep working",
+        "Assuming psychological impact only affects the inexperienced",
+        "Waiting until you are struggling before finding out what support exists"
+      ],
+      "exam_favorites": [
+        "Disasters last",
+        "Rest is operational",
+        "Impact can come later"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A disaster is not just a large incident. The defining difference is that it overwhelms the resources of the area for a prolonged period, and prolonged is the word that changes everything.\n\nA multiple casualty incident is finite. You surge, you manage it, and within hours it is over and the system returns to normal. A disaster does not do that. It goes on for days or weeks, and the response has to be built to last: shifts and reliefs, food and water, sleeping arrangements, fuel and resupply, and a plan for what happens when the people who responded first can no longer stand up.\n\nNormal systems fail, which is the second thing that distinguishes a disaster. Communications may be down or overloaded. Power may be out. Water may be unsafe. Roads may be impassable, which affects both your response and your resupply. And the hospitals — the places you take people — may themselves be damaged, evacuated or overwhelmed. The assumptions your daily practice rests on stop holding, and part of preparing is noticing how many of them there are.\n\nSo expect to work differently. Austere conditions, unfamiliar equipment, partners from services you have never met, improvised arrangements, and decisions made with less information than you would like. Flexibility is the operational skill, and people who need things to be normal struggle badly.\n\nYour own family's preparedness is a genuine part of your professional readiness, and it is worth saying plainly. If your household has no plan, no supplies and no way to contact you, you will spend the disaster worrying about them, and you may have to choose between them and the response. Responders with prepared families work better, and that is not a sentimental observation.\n\nPace yourself. This is the most common individual failure in a long response. People work flat out for the first sixteen hours because that is what the job feels like it demands, and then they are useless for the next three days. Exhausted responders make errors, miss things, and get injured. Slowing down when you could go faster is a skill and it takes discipline.\n\nEat, drink, rest and hand over. These are operational requirements, not luxuries, and treating them as optional is a way of degrading the response while feeling virtuous about it.\n\nThen the psychological side, which deserves the same seriousness as the physical.\n\nThe impact is real, it affects experienced people as much as new ones, and it does not always arrive at the time. It can surface days or weeks later, long after the event, and it does not announce itself as a reaction to the disaster — it shows up as sleep that does not work, irritability, intrusive images, avoidance, drinking more, or feeling flat.\n\nKnow what support your service offers before you need it. Find out now what exists, who to call and how it works, because the moment you need that information is the moment you are least able to go looking for it. And use it. Using support is not a weakness and is not a career problem in any service worth working for.\n\nAnd watch your colleagues as well as yourself, because people are consistently worse at seeing this in themselves than in others. The person who says they are fine while clearly not sleeping is not lying to you — they usually believe it. Noticing, and saying something, is part of the job.",
+          "standard": "A disaster is distinguished from a single incident by prolonged overwhelming of regional resources. Whereas a multiple casualty incident is finite and permits system recovery within hours, disaster response extends over days to weeks and requires sustained operational planning comprising shift rotation and relief, nutrition and hydration, rest provision, fuel and resupply, and succession for initial responders. Infrastructure failure characterises disasters: communications may be disrupted or saturated; power, water and road networks may be compromised, affecting both response and resupply; and receiving facilities may be damaged, evacuated or overwhelmed, invalidating routine operational assumptions. Providers should anticipate austere conditions, unfamiliar equipment, personnel from unfamiliar services, improvised arrangements and decision-making under information deficit, with flexibility constituting the principal operational competency. Household preparedness of responders forms part of professional readiness, as absent domestic planning, supplies and communication arrangements produce divided attention and potential conflict between family and response obligations. Self-pacing constitutes the commonest individual failure, with initial maximal exertion producing subsequent multi-day incapacity; fatigue produces error, omission and injury. Nutrition, hydration, rest and handover constitute operational requirements rather than discretionary activities. Psychological impact affects experienced and inexperienced personnel and may present with delayed onset of days to weeks, manifesting as sleep disturbance, irritability, intrusive imagery, avoidance, increased alcohol use or affective flattening rather than as recognised reaction. Providers should establish available support provision, contacts and process in advance, as information-seeking capacity is diminished at the point of need. Peer observation is indicated, as self-recognition is consistently less reliable than observation by others."
+        },
+        "eli_new": {
+          "analogy": "An MCI is a sprint that finishes. A disaster is not, and the people who run the first sixteen hours flat out are useless for the next three days.",
+          "body": "Find out what support exists before you need it. The moment you need that information is the moment you are least able to go looking for it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what makes a disaster different and how you look after yourself during one.",
+          "must_hit": [
+            {
+              "point": "A disaster overwhelms resources for a prolonged period",
+              "accept": [
+                "overwhelm",
+                "prolong",
+                "days",
+                "weeks",
+                "resources"
+              ]
+            },
+            {
+              "point": "Because it lasts, shifts, food, water, rest and resupply become part of the plan",
+              "accept": [
+                "shift",
+                "relief",
+                "food",
+                "water",
+                "rest",
+                "resupply",
+                "fuel"
+              ]
+            },
+            {
+              "point": "Normal systems fail, including the hospitals",
+              "accept": [
+                "communicat",
+                "power",
+                "water",
+                "road",
+                "hospital",
+                "fail"
+              ]
+            },
+            {
+              "point": "Expect austere conditions and unfamiliar arrangements",
+              "accept": [
+                "austere",
+                "unfamiliar",
+                "improvis",
+                "flexib",
+                "different"
+              ]
+            },
+            {
+              "point": "Your family's preparedness is part of your readiness",
+              "accept": [
+                "family",
+                "household",
+                "prepared",
+                "plan",
+                "worry"
+              ]
+            },
+            {
+              "point": "Pace yourself — exhausted responders make errors",
+              "accept": [
+                "pace",
+                "exhaust",
+                "fatigue",
+                "error",
+                "slow"
+              ]
+            },
+            {
+              "point": "Psychological impact is real and can appear days or weeks later",
+              "accept": [
+                "psycholog",
+                "later",
+                "weeks",
+                "sleep",
+                "irritab",
+                "impact"
+              ]
+            },
+            {
+              "point": "Know the support available in advance and watch your colleagues",
+              "accept": [
+                "support",
+                "before",
+                "colleague",
+                "watch",
+                "notice",
+                "weakness"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Day four",
+          "dispatch": "Operations — extended deployment, fourth day of response.",
+          "body": "The people who had paced themselves from the start were still working properly on day four.\n\nThe ones who had gone flat out for the first sixteen hours had been sent to rest on day two and were not much use after that.\n\nNobody had said anything at the time, because at hour six it looks like commitment."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm disaster response planning and the support services available against your own service's plan and employee support provision, which vary by organisation."
     }
   ]
 }
