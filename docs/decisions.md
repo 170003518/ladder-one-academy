@@ -133,3 +133,11 @@
   - **Single-sided**: nothing is turned over — you print every sheet one side up, cut fronts and backs, and pair them by position. Mirroring here would put every back behind the *wrong* front, so backs are **not** mirrored in this mode.
   This was the ambiguous part of the brief ("alternates front and back sheets" describes both modes); the mirroring rule is the reading that actually produces correctly-assembled cards.
 - Verified: a 12-card selection produces exactly **3 front sheets and 3 back sheets**, 4 cards each, in front/back alternation. In duplex, front columns 48/384/48/384 against back columns 384/48/384/48 with rows matching — every back mirrored onto its front. In single-sided, front and back columns are identical.
+
+## 2026-09-16 — Content: EMT-02-02 Opening and maintaining the airway
+
+- 7 concepts, 27 questions, 13 cards. Everything `verify: true` with notes naming what to confirm against AAOS Emergency Care 12e.
+- **Numbers deliberately omitted where I was not confident of the standard textbook value.** Suction time limits (adult / child / infant maximum seconds) are *not* stated anywhere in this lesson — texts and editions differ, so the concept teaches the principle ("limited passes, reoxygenate between them") and the `verify_notes` on both the concept and the skill card say the exact seconds must be filled in from the source. Same for the number of infant back slaps and chest thrusts, which is described as "alternating" rather than given a count.
+- Skill concepts (OPA, NPA, suction, FBAO) each got a skill card with critical steps flagged and at least one `sequence` question, per the brief. BVM belongs to EMT-02-04 and is handled there.
+- Do It activities use only shapes that have renderers: `sort_into_buckets` for maneuver choice, OPA appropriateness and suction tip selection; `select_device` match for OPA/NPA/neither and for FBAO action by patient.
+- EMT-02-02-07 carries three card types (concept, algorithm, skill) because the choking decision is both a tree and a psychomotor skill.

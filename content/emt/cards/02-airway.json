@@ -230,16 +230,16 @@
     },
     {
       "schema_version": "1.0.0",
-      "id": "EMT-02-02-01-C03",
+      "id": "EMT-02-02-01-C01",
       "concept_id": "EMT-02-02-01",
       "type": "concept",
       "front": {
         "title": "Head-tilt/chin-lift",
-        "summary": "The default manual airway maneuver."
+        "summary": "The default way to open an airway when the spine is not a concern"
       },
       "back": {
-        "body": "In an unresponsive patient the tongue is the most likely obstruction. This maneuver moves the jaw, and the tongue with it, off the back of the throat. It is the first choice when nothing about the mechanism raises a spinal concern.",
-        "why_it_matters": "Its one contraindication is the entire reason the other maneuver exists."
+        "body": "Hand on the forehead, tilt back · Fingertips lift the BONY chin · Never press the soft tissue under the jaw · The tongue is attached to the jaw, so moving the jaw moves the tongue · Not used when the mechanism suggests spinal injury",
+        "why_it_matters": "The tongue is the most common airway obstruction in an unresponsive patient, and this fixes it with no equipment."
       },
       "high_yield": false,
       "number": 10,
@@ -251,20 +251,20 @@
         "module_name": "Airway"
       },
       "verify": true,
-      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-01. Check every figure on this card against the source before it is printed or drilled."
     },
     {
       "schema_version": "1.0.0",
-      "id": "EMT-02-02-02-C04",
+      "id": "EMT-02-02-02-C02",
       "concept_id": "EMT-02-02-02",
-      "type": "compare",
+      "type": "concept",
       "front": {
-        "title": "Head-tilt/chin-lift vs. jaw-thrust",
-        "summary": "Which maneuver, and why."
+        "title": "Jaw-thrust",
+        "summary": "Open the airway without moving the neck"
       },
       "back": {
-        "body": "Both open the airway. Head-tilt/chin-lift is the default when nothing about the mechanism suggests a spinal injury. Jaw-thrust is for when it does — it gets the jaw forward without the head movement the default requires.",
-        "why_it_matters": "Pick the maneuver that matches how the patient got hurt."
+        "body": "Kneel at the head · Fingers behind both angles of the jaw · Push the jaw forward, head stays neutral · Tiring, and usually needs a second rescuer to bag · If it will not open the airway, an open airway still wins",
+        "why_it_matters": "The maneuver is chosen by the mechanism of injury, not by how the patient looks."
       },
       "high_yield": false,
       "number": 11,
@@ -276,7 +276,282 @@
         "module_name": "Airway"
       },
       "verify": true,
-      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-02-C03",
+      "concept_id": "EMT-02-02-02",
+      "type": "compare",
+      "front": {
+        "title": "Head-tilt/chin-lift vs. jaw-thrust",
+        "summary": "Same goal, two routes"
+      },
+      "back": {
+        "body": "Both bring the jaw forward so the tongue clears the back of the throat. The chin-lift tilts the head to do it; the jaw-thrust pushes from behind the angles of the jaw and leaves the head where it is. The mechanism of injury decides which you use.",
+        "why_it_matters": "This pairing is a mechanism question dressed up as an airway question."
+      },
+      "high_yield": false,
+      "number": 12,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-03-C04",
+      "concept_id": "EMT-02-02-03",
+      "type": "concept",
+      "front": {
+        "title": "Recovery position",
+        "summary": "For the unresponsive patient who is breathing fine"
+      },
+      "back": {
+        "body": "Unresponsive + breathing adequately + no suspected spinal injury · Roll as a unit, head supported, mouth lowest · Lets vomit and secretions drain out instead of down · Not for trauma mechanisms · Not a substitute for reassessment",
+        "why_it_matters": "Position buys drainage, not safety — you still stay at the head with suction ready."
+      },
+      "high_yield": false,
+      "number": 13,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-04-C05",
+      "concept_id": "EMT-02-02-04",
+      "type": "concept",
+      "front": {
+        "title": "Oropharyngeal airway",
+        "summary": "Holds the tongue so your hands are free"
+      },
+      "back": {
+        "body": "Corner of the mouth to the earlobe or angle of the jaw · NO gag reflex, ever · Adult: tip toward the roof of the mouth, rotate 180 degrees · Child: tongue depressor, insert right side up, do not rotate · Too long presses the epiglottis; too short leaves the tongue in the way",
+        "why_it_matters": "The gag reflex question and the sizing landmarks are both guaranteed exam material."
+      },
+      "high_yield": true,
+      "number": 14,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-04-C06",
+      "concept_id": "EMT-02-02-04",
+      "type": "skill",
+      "front": {
+        "title": "Inserting an OPA",
+        "summary": "Critical steps and the common fails"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: confirm no gag reflex, measure against the patient, confirm the flange sits at the lips, keep the head positioned afterwards.",
+        "why_it_matters": "Sizing by eye and missing a gag reflex are the two things that fail this station."
+      },
+      "high_yield": false,
+      "number": 15,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-05-C07",
+      "concept_id": "EMT-02-02-05",
+      "type": "concept",
+      "front": {
+        "title": "Nasopharyngeal airway",
+        "summary": "The adjunct a gagging patient will accept"
+      },
+      "back": {
+        "body": "Tip of the nose to the earlobe · Water-soluble lubricant only · Bevel toward the septum · Advance STRAIGHT BACK along the nasal floor, not up · Avoid with significant head or mid-face trauma · Does not protect against vomit",
+        "why_it_matters": "Aiming the tube upward is the single most common insertion error."
+      },
+      "high_yield": true,
+      "number": 16,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-05-C08",
+      "concept_id": "EMT-02-02-05",
+      "type": "skill",
+      "front": {
+        "title": "Inserting an NPA",
+        "summary": "Critical steps and the common fails"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: rule out head and mid-face trauma, measure against the patient, use water-soluble lubricant, advance posteriorly rather than superiorly.",
+        "why_it_matters": "The trauma contraindication and the direction of advance are what examiners watch for."
+      },
+      "high_yield": false,
+      "number": 17,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-06-C09",
+      "concept_id": "EMT-02-02-06",
+      "type": "concept",
+      "front": {
+        "title": "Suctioning",
+        "summary": "In quiet, out sucking"
+      },
+      "back": {
+        "body": "Rigid tonsil tip for the mouth and thick material · Soft catheter for nose, stoma or through an adjunct · Measure corner of mouth to earlobe · Insert with suction OFF · Apply suction only while withdrawing · Limited passes, reoxygenate between them · Vomiting outranks everything else",
+        "why_it_matters": "Suctioning on the way in is a critical fail, and bagging through vomit drives it into the lungs."
+      },
+      "high_yield": true,
+      "number": 18,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-06-C10",
+      "concept_id": "EMT-02-02-06",
+      "type": "skill",
+      "front": {
+        "title": "Suctioning the upper airway",
+        "summary": "Critical steps and the common fails"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: eye protection, confirm suction at the tip, measure the depth, insert with suction off, suction only on withdrawal, reoxygenate between passes.",
+        "why_it_matters": "Exact maximum suction times were deliberately left blank — confirm them against the current text."
+      },
+      "high_yield": false,
+      "number": 19,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-07-C11",
+      "concept_id": "EMT-02-02-07",
+      "type": "concept",
+      "front": {
+        "title": "Choking: mild vs. severe",
+        "summary": "The first decision is how bad it is"
+      },
+      "back": {
+        "body": "Forceful cough, air moving = MILD: encourage the cough, do not interfere · Cannot speak, cough or move air = SEVERE: act now · Over one year: abdominal thrusts · Under one year: back slaps and chest thrusts · Late pregnancy or too large to encircle: chest thrusts · Unresponsive: CPR, look before breaths, no blind sweeps",
+        "why_it_matters": "Interrupting a working cough can turn a partial obstruction into a complete one."
+      },
+      "high_yield": true,
+      "number": 20,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-07-C12",
+      "concept_id": "EMT-02-02-07",
+      "type": "algorithm",
+      "front": {
+        "title": "Choking decision tree",
+        "summary": "Air moving? Responsive? Under one?"
+      },
+      "back": {
+        "body": "Moving air and coughing forcefully → encourage the cough. Not moving air → responsive? If yes, under one year gets back slaps and chest thrusts, over one gets abdominal thrusts. If no, start CPR and check the mouth before each set of breaths.",
+        "why_it_matters": "Three questions in order get you to the right action every time."
+      },
+      "high_yield": false,
+      "number": 21,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-07-C13",
+      "concept_id": "EMT-02-02-07",
+      "type": "skill",
+      "front": {
+        "title": "Abdominal thrusts, responsive adult",
+        "summary": "Critical steps and the common fails"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: confirm the obstruction is severe, fist above the navel and below the xiphoid, inward and upward thrusts, switch to CPR the moment they go unresponsive.",
+        "why_it_matters": "Landmark errors and continuing thrusts after the patient collapses are the two fails."
+      },
+      "high_yield": false,
+      "number": 22,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-02-07. Check every figure on this card against the source before it is printed or drilled."
     },
     {
       "schema_version": "1.0.0",
@@ -292,7 +567,7 @@
         "why_it_matters": "The duration calculation and the 200 psi rule are guaranteed exam material and real-world safety."
       },
       "high_yield": true,
-      "number": 12,
+      "number": 23,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -317,7 +592,7 @@
         "why_it_matters": "A sheared valve turns a cylinder into a projectile; a greased fitting can ignite."
       },
       "high_yield": false,
-      "number": 13,
+      "number": 24,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -342,7 +617,7 @@
         "why_it_matters": "Device selection is the single most-tested airway decision at the EMT level."
       },
       "high_yield": true,
-      "number": 14,
+      "number": 25,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -367,7 +642,7 @@
         "why_it_matters": "The most common device you'll use, and the one most often used wrong by cranking the flow."
       },
       "high_yield": false,
-      "number": 15,
+      "number": 26,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -392,7 +667,7 @@
         "why_it_matters": "Skipping the reservoir fill or missing inadequate breathing are the two classic errors."
       },
       "high_yield": true,
-      "number": 16,
+      "number": 27,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -417,7 +692,7 @@
         "why_it_matters": "The device-selection question between NRB and BVM is on every EMT exam."
       },
       "high_yield": true,
-      "number": 17,
+      "number": 28,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -442,7 +717,7 @@
         "why_it_matters": "The exam asks which device gives a precise concentration and what makes a partial rebreather different."
       },
       "high_yield": false,
-      "number": 18,
+      "number": 29,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -467,7 +742,7 @@
         "why_it_matters": "A 99% reading on a fire victim is a trap question and a real-world killer."
       },
       "high_yield": true,
-      "number": 19,
+      "number": 30,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -492,7 +767,7 @@
         "why_it_matters": "The 94% line is where the oxygen decision starts."
       },
       "high_yield": true,
-      "number": 20,
+      "number": 31,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -517,7 +792,7 @@
         "why_it_matters": "Routine 15 L/min for everyone is gone; the exam tests whether you know why and who still gets it."
       },
       "high_yield": true,
-      "number": 21,
+      "number": 32,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -542,7 +817,7 @@
         "why_it_matters": "Reflex 15 L/min for everyone is old practice, and the exam tests whether you know why."
       },
       "high_yield": true,
-      "number": 22,
+      "number": 33,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",

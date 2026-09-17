@@ -30,7 +30,12 @@
       "title": "Opening and maintaining the airway",
       "concepts": [
         "EMT-02-02-01",
-        "EMT-02-02-02"
+        "EMT-02-02-02",
+        "EMT-02-02-03",
+        "EMT-02-02-04",
+        "EMT-02-02-05",
+        "EMT-02-02-06",
+        "EMT-02-02-07"
       ]
     },
     {
@@ -891,18 +896,139 @@
       "title": "Head-tilt/chin-lift",
       "domain": "AIR",
       "difficulty": 1,
+      "prereqs": [],
+      "related": [
+        "EMT-02-02-02",
+        "EMT-02-02-04",
+        "EMT-02-01-05"
+      ],
       "key_points": [
-        "This is the default manual airway maneuver when there is no reason to suspect a spinal injury",
-        "It has a specific contraindication, which is the whole reason the other maneuver exists",
-        "The exam pairs it with jaw-thrust to test whether you pick the maneuver that matches the mechanism"
+        "The default manual airway maneuver when nothing about the mechanism suggests a spinal injury",
+        "In an unresponsive patient the tongue is the most common cause of airway obstruction",
+        "One hand on the forehead tilts the head back; the fingers of the other hand lift the bony part of the chin",
+        "Lift the chin with fingertips on bone, not on the soft tissue under the jaw",
+        "Contraindicated when the mechanism raises suspicion of spinal injury; use the jaw-thrust instead"
+      ],
+      "misconceptions": [
+        "Pressing on the soft tissue under the chin, which pushes the tongue back into the airway",
+        "Using it on a trauma patient whose mechanism suggests a spinal injury",
+        "Believing the tilt itself opens the airway; it is the jaw and tongue moving forward that does"
+      ],
+      "exam_favorites": [
+        "When head-tilt/chin-lift is contraindicated",
+        "What actually obstructs the airway in an unresponsive patient",
+        "Choosing between head-tilt/chin-lift and jaw-thrust from the mechanism"
       ],
       "modes": {
         "read": {
-          "plain": "When someone is unresponsive, the tongue is the thing most likely to be blocking the airway. This maneuver moves the jaw, and with it the tongue, off the back of the throat. It is the first thing you do on a patient whose mechanism does not make you worry about the spine."
+          "plain": "When somebody is unresponsive, the muscles that normally hold the tongue forward go slack. The tongue falls back against the throat and blocks the airway. It is the single most common cause of a blocked airway in an unconscious patient, and it is the easiest one to fix.\n\nPut one hand flat on the forehead and tilt the head back. With the fingertips of your other hand, lift the bony part of the chin upward. Keep your fingers on bone. If you press into the soft tissue under the jaw you will push the tongue backward and make things worse.\n\nWhat you are really doing is moving the jaw forward. The tongue is anchored to the jaw, so when the jaw comes forward the tongue comes with it and lifts off the back of the throat. The tilt just helps line everything up.\n\nUse this one whenever there is no reason to worry about the spine. If the patient fell, was in a crash, was struck, or you simply do not know what happened, use the jaw-thrust instead.",
+          "standard": "The head-tilt/chin-lift is the standard manual maneuver for opening the airway of an unresponsive patient in whom spinal injury is not suspected. The operator places one hand on the patient's forehead and applies gentle posterior pressure while the fingertips of the opposite hand lift the mandible at the bony prominence of the chin. Displacement of the mandible anteriorly carries the tongue, which is attached to it, away from the posterior pharyngeal wall. Pressure on the submandibular soft tissue must be avoided, as it can displace the tongue posteriorly and worsen obstruction. The maneuver is contraindicated where the mechanism of injury suggests cervical spine involvement; in those patients the modified jaw-thrust is used."
+        },
+        "eli_new": {
+          "analogy": "The tongue is a door on a hinge, and the hinge is the jaw. Move the jaw forward and the door swings open.",
+          "body": "Nobody swallows their tongue. What actually happens is simpler: the tongue is a muscle attached to the jaw, and when somebody goes unconscious everything relaxes. The tongue sags backward and rests against the back of the throat like a flap over a drain. Lift the jaw and you lift the tongue with it, because they are connected. That is all this maneuver is."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain to a brand-new EMT what actually blocks the airway in an unresponsive patient, and how you open it when there is no reason to suspect a spinal injury.",
+          "must_hit": [
+            {
+              "point": "The tongue is the obstruction",
+              "accept": [
+                "tongue"
+              ]
+            },
+            {
+              "point": "Hand on the forehead, fingers lifting the bony chin",
+              "accept": [
+                "forehead",
+                "chin lift",
+                "bony",
+                "chin"
+              ]
+            },
+            {
+              "point": "Avoid pressing the soft tissue under the jaw",
+              "accept": [
+                "soft tissue",
+                "under the jaw",
+                "submandibular",
+                "press"
+              ]
+            },
+            {
+              "point": "Not used when spinal injury is suspected",
+              "accept": [
+                "spinal",
+                "spine",
+                "c-spine",
+                "trauma",
+                "jaw-thrust",
+                "jaw thrust"
+              ]
+            }
+          ],
+          "model_answer": "In an unresponsive patient the tongue relaxes back against the throat and blocks the airway. Put one hand on the forehead and tilt the head back, then lift the bony part of the chin with the fingertips of your other hand. Keep off the soft tissue under the jaw, because pressing there pushes the tongue backward. Because the tongue is attached to the jaw, moving the jaw forward pulls the tongue clear. Use this only when the mechanism gives you no reason to suspect a spinal injury; if it does, use the jaw-thrust."
+        },
+        "story": {
+          "title": "The snoring man",
+          "dispatch": "Rescue 2, unresponsive male, possible overdose, apartment building.",
+          "body": "He is on the bathroom floor, breathing but snoring loudly with every breath. Nothing in the scene suggests a fall or a blow to the head. Your partner kneels at his head, puts a hand on his forehead, lifts the bony chin, and the snoring stops mid-breath. The chest still rises, but now it is quiet.\n\nThat sound was air forcing its way past a tongue lying against the back of his throat. Nothing was in his mouth. Nothing was swallowed. The fix took two seconds and no equipment."
+        },
+        "do": {
+          "activity": "which_maneuver",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each patient: head-tilt/chin-lift, or jaw-thrust?",
+          "config": {
+            "buckets": [
+              "Head-tilt/chin-lift",
+              "Jaw-thrust"
+            ],
+            "items": [
+              {
+                "text": "Unresponsive after a suspected opioid overdose, found in bed",
+                "bucket": 0
+              },
+              {
+                "text": "Unresponsive at the bottom of a staircase",
+                "bucket": 1
+              },
+              {
+                "text": "Unresponsive diabetic found slumped in a chair, no fall reported",
+                "bucket": 0
+              },
+              {
+                "text": "Unresponsive driver, car into a tree",
+                "bucket": 1
+              },
+              {
+                "text": "Unresponsive after a witnessed seizure in bed, no trauma",
+                "bucket": 0
+              },
+              {
+                "text": "Unresponsive, found face down in a parking lot, cause unknown",
+                "bucket": 1
+              }
+            ]
+          }
         }
       },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
       "verify": true,
-      "verify_notes": "Stub. The step-by-step technique, hand placement, and the exact contraindication wording are unwritten, and no skill-sheet steps have been entered. Fill from AAOS Emergency Care and cross-check against the NREMT airway skill sheet before this feeds a Skill card."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the hand placement wording, the exact contraindication phrasing, and whether the text still teaches head-tilt/chin-lift as first-line for all non-trauma unresponsive patients."
     },
     {
       "schema_version": "1.0.0",
@@ -910,18 +1036,1083 @@
       "title": "Jaw-thrust: when and why",
       "domain": "AIR",
       "difficulty": 2,
+      "prereqs": [
+        "EMT-02-02-01"
+      ],
+      "related": [
+        "EMT-02-02-01",
+        "EMT-02-04-01"
+      ],
       "key_points": [
-        "This is the maneuver you use when the mechanism makes a spinal injury plausible",
-        "It opens the airway without the movement that the default maneuver requires",
-        "Choosing between this and head-tilt/chin-lift is driven entirely by the mechanism of injury"
+        "The airway maneuver for a patient in whom spinal injury is suspected",
+        "Opens the airway by moving the mandible forward without tilting the head",
+        "Performed from the head of the patient, fingers behind the angles of the jaw, pushing the jaw forward",
+        "Harder to hold and more tiring than a head-tilt/chin-lift, and usually needs a second rescuer for the BVM",
+        "An open airway takes priority: if the jaw-thrust does not open it, the airway still has to be opened"
+      ],
+      "misconceptions": [
+        "Tilting the head 'just a little' while doing it, which defeats the purpose",
+        "Choosing the maneuver from how the patient looks rather than from the mechanism of injury",
+        "Abandoning airway management because the jaw-thrust is awkward"
+      ],
+      "exam_favorites": [
+        "The mechanism decides the maneuver",
+        "That the jaw-thrust avoids head movement",
+        "That an open airway outranks a perfectly neutral spine"
       ],
       "modes": {
         "read": {
-          "plain": "Sometimes you need the airway open but the way the patient got hurt means you do not want to move their neck. This maneuver gets the jaw forward while leaving the head where it is. Deciding between this and the default one is a mechanism question, not an airway question."
+          "plain": "Sometimes you need the airway open but you do not want to move the neck. Somebody fell, or was hit, or you simply do not know what happened. The jaw-thrust gets the job done without tilting the head.\n\nKneel at the top of the patient's head, facing down their body. Put your fingers behind the angles of the jaw, on both sides, just below the ears. Push the jaw forward, toward the ceiling. Your thumbs can rest on the cheekbones or open the mouth slightly. The head stays exactly where it is.\n\nIt is the same idea as the chin-lift: bring the jaw forward and the tongue comes with it. You are just getting there without moving the neck.\n\nBe honest about the trade-off. The jaw-thrust is tiring, it is awkward, and it ties up your hands, so somebody else usually has to squeeze the bag. And if you truly cannot open the airway any other way, an open airway wins. A patient with a perfect spine and no air is still dead.",
+          "standard": "The modified jaw-thrust is the manual airway maneuver indicated when cervical spine injury is suspected. The rescuer positions at the patient's head, places the fingers behind the angles of the mandible bilaterally, and displaces the mandible anteriorly without extending the cervical spine. The thumbs may be used to retract the lower lip and open the mouth. Anterior displacement of the mandible carries the tongue off the posterior pharynx, achieving the same result as the chin-lift without cervical movement. The maneuver is more fatiguing than the head-tilt/chin-lift and generally occupies one rescuer entirely, requiring a second provider for bag-valve-mask ventilation. Airway patency remains the overriding priority."
+        },
+        "eli_new": {
+          "analogy": "Same door, same hinge. You are opening it from the other side of the room so you do not have to move the wall.",
+          "body": "Think of the head-tilt/chin-lift and the jaw-thrust as two ways to do the same thing: pull the jaw forward so the tongue comes off the back of the throat. One does it by tilting, one does it by pushing from behind the jaw. When you cannot afford to tilt, you push instead."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Tell a new partner when they should use a jaw-thrust instead of a head-tilt/chin-lift, and how they do it.",
+          "must_hit": [
+            {
+              "point": "Used when spinal injury is suspected",
+              "accept": [
+                "spinal",
+                "spine",
+                "c-spine",
+                "trauma",
+                "mechanism"
+              ]
+            },
+            {
+              "point": "Fingers behind the angles of the jaw, pushing it forward",
+              "accept": [
+                "angle of the jaw",
+                "angles",
+                "behind the jaw",
+                "forward",
+                "mandible"
+              ]
+            },
+            {
+              "point": "The head is not tilted",
+              "accept": [
+                "without tilting",
+                "no tilt",
+                "neutral",
+                "does not move the head",
+                "head stays"
+              ]
+            }
+          ],
+          "model_answer": "Use it whenever the mechanism makes a spinal injury plausible: a fall, a crash, a blow, or an unknown cause. Kneel at the top of the head, put your fingers behind the angles of the jaw on both sides, and push the jaw forward toward the ceiling without tilting the head. The tongue is attached to the jaw, so bringing the jaw forward lifts the tongue off the back of the throat. It is tiring and it uses both your hands, so somebody else works the bag."
+        },
+        "story": {
+          "title": "Down the stairs",
+          "dispatch": "Rescue 2, Engine 4 — fall from height, basement stairs, patient not moving.",
+          "body": "He is at the foot of the stairs, unresponsive, breathing shallowly. Your partner holds the head still while you kneel above it. Fingers behind the angles of the jaw, push forward. The breathing gets quieter and deeper.\n\nYou hold that for eleven minutes, which is a long time when your forearms are burning, while your partner bags and the medic sets up. You do not tilt. You do not adjust. You just hold the jaw where the air moves."
         }
       },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Use when",
+              "left": "No suspicion of spinal injury",
+              "right": "Spinal injury suspected"
+            },
+            {
+              "feature": "Head position",
+              "left": "Tilted back",
+              "right": "Stays neutral"
+            },
+            {
+              "feature": "Hands",
+              "left": "Forehead and bony chin",
+              "right": "Behind both angles of the jaw"
+            },
+            {
+              "feature": "Rescuers",
+              "left": "One can manage airway and bag",
+              "right": "Usually needs two"
+            },
+            {
+              "feature": "Effort",
+              "left": "Easy to hold",
+              "right": "Tiring"
+            }
+          ],
+          "left_label": "Head-tilt/chin-lift",
+          "right_label": "Jaw-thrust"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
       "verify": true,
-      "verify_notes": "Stub. Technique, hand placement, the mechanisms that trigger it, and how it interacts with current spinal motion restriction guidance are all unwritten. Spinal guidance has changed in recent years, so confirm against current standards rather than an older text."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the hand and finger placement wording and whether the current text still frames airway patency as overriding spinal precautions when the jaw-thrust fails."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-03",
+      "title": "Recovery position",
+      "domain": "AIR",
+      "difficulty": 1,
+      "prereqs": [
+        "EMT-02-02-01"
+      ],
+      "related": [
+        "EMT-02-02-06",
+        "EMT-02-01-05"
+      ],
+      "key_points": [
+        "For an unresponsive patient who is breathing adequately and has no suspected spinal injury",
+        "Lateral recumbent position lets fluid drain out of the mouth rather than into the airway",
+        "Not used when the mechanism suggests spinal injury, or when the patient needs ventilation",
+        "The patient still needs continuous monitoring; the position is not a substitute for reassessment"
+      ],
+      "misconceptions": [
+        "Placing a trauma patient in the recovery position",
+        "Using it as a reason to stop watching the airway",
+        "Using it on a patient who is not breathing adequately"
+      ],
+      "exam_favorites": [
+        "Which patient gets the recovery position",
+        "Why lateral, not supine",
+        "That it does not replace reassessment"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Somebody who is unconscious but breathing fine has one main enemy: their own stomach contents. Lying on their back, anything that comes up goes straight down. Rolled onto their side, it runs out of the mouth and onto the floor, which is exactly where you want it.\n\nRoll the patient as a unit onto their side, so the head, shoulders and hips move together. The mouth ends up as the lowest point of the face. Support the head so the airway stays in line.\n\nTwo rules limit it. If the mechanism suggests a spinal injury, do not roll them for position alone. And if the patient is not breathing adequately, position is not the problem you are solving; they need ventilation.\n\nThe position buys you drainage, not safety. Stay at the head and keep reassessing.",
+          "standard": "The recovery position is a lateral recumbent position used for the unresponsive patient with adequate spontaneous ventilation and no suspected spinal injury. Placing the patient laterally allows secretions, blood and vomit to drain from the mouth by gravity rather than pooling in the posterior pharynx, reducing aspiration risk. The patient is rolled as a unit to maintain spinal alignment, with the head supported so that the airway remains patent and the mouth dependent. The position is contraindicated where spinal injury is suspected and is not a substitute for ventilation in a patient with inadequate breathing. Continuous airway monitoring and reassessment are required regardless of position."
+        },
+        "eli_new": {
+          "analogy": "Tip the cup so it drains onto the floor instead of filling up.",
+          "body": "Your patient is a cup with liquid in it. Face up, anything that comes up sits in the cup and eventually goes down the wrong pipe. Turn the cup on its side and the same liquid runs out harmlessly. That is the whole idea."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain which unresponsive patients get put in the recovery position and which do not, and why the position helps.",
+          "must_hit": [
+            {
+              "point": "Unresponsive but breathing adequately",
+              "accept": [
+                "breathing adequately",
+                "breathing well",
+                "adequate"
+              ]
+            },
+            {
+              "point": "No suspected spinal injury",
+              "accept": [
+                "spinal",
+                "spine",
+                "trauma",
+                "no suspected"
+              ]
+            },
+            {
+              "point": "Lets fluid drain out of the mouth",
+              "accept": [
+                "drain",
+                "fluid",
+                "vomit",
+                "secretions",
+                "aspiration"
+              ]
+            }
+          ],
+          "model_answer": "An unresponsive patient who is breathing adequately and has no mechanism suggesting spinal injury goes on their side. Rolled as a unit, with the mouth as the lowest point, anything that comes up drains out instead of down. A patient whose mechanism suggests a spinal injury does not get rolled for position alone, and a patient who is not breathing adequately needs ventilation rather than repositioning. Either way you stay at the head and keep reassessing."
+        },
+        "story": {
+          "title": "After the seizure",
+          "dispatch": "Rescue 2 — 24-year-old female, seizure, now postictal, private residence.",
+          "body": "The seizure stopped before you arrived. She is unresponsive but breathing deeply and evenly, and there is saliva pooling at the corner of her mouth. Her mother says she slid off the sofa onto the carpet, nothing else.\n\nYou roll her onto her side as a unit and support her head. Within a few seconds a thin string of saliva runs out onto the towel you put down instead of sitting at the back of her throat. You stay at her head with the suction ready and watch her breathe."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the current text's description of the roll and head support, and whether it names a preferred side."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-04",
+      "title": "Oropharyngeal airway: sizing, insertion, contraindication",
+      "domain": "AIR",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-02-01"
+      ],
+      "related": [
+        "EMT-02-02-05",
+        "EMT-02-04-01"
+      ],
+      "key_points": [
+        "Holds the tongue off the back of the throat in a patient with no gag reflex",
+        "Sized from the corner of the mouth to the earlobe, or to the angle of the jaw",
+        "Contraindicated in any patient with an intact gag reflex",
+        "In an adult, inserted with the tip toward the roof of the mouth and rotated 180 degrees as it passes the soft palate",
+        "In a child, inserted right side up with a tongue depressor rather than rotated",
+        "Too long presses on the epiglottis; too short leaves the tongue obstructing",
+        "An airway adjunct does not replace a manual maneuver; keep the head positioned"
+      ],
+      "misconceptions": [
+        "Inserting an OPA in a patient who still has a gag reflex",
+        "Using the rotation technique in a small child",
+        "Believing the adjunct means the manual maneuver can be released",
+        "Guessing the size instead of measuring against the patient's face"
+      ],
+      "exam_favorites": [
+        "The measurement landmarks",
+        "The gag reflex contraindication",
+        "The 180-degree rotation in adults and why children differ",
+        "What happens if it is too long or too short"
+      ],
+      "modes": {
+        "read": {
+          "plain": "An oropharyngeal airway is a curved piece of plastic that sits over the tongue and holds it off the back of the throat. It does mechanically what your chin-lift does with your hands, so you can let go and do something else.\n\nIt only works in a patient who is deeply unconscious. If there is any gag reflex, the OPA will trigger vomiting, and now you have a bigger problem than the one you started with. No gag, no problem; any gag, use something else.\n\nSize it against the patient's own face: hold it from the corner of the mouth to the earlobe, or to the angle of the jaw. Too long and the tip presses the epiglottis down over the opening. Too short and the tongue is still in the way.\n\nIn an adult, open the mouth, put the tip in pointing at the roof of the mouth, slide it in, and rotate it 180 degrees as it passes the soft palate so it settles into position. In a child, do not rotate it. Hold the tongue down with a tongue depressor and slide it in the right way up, because a child's palate is easily damaged.\n\nOne last thing. The adjunct holds the tongue, not the head. Keep the head positioned.",
+          "standard": "The oropharyngeal airway (OPA) is a rigid curved adjunct that maintains patency by holding the tongue away from the posterior pharyngeal wall. It is indicated only in patients without a gag reflex, and an intact gag reflex is an absolute contraindication owing to the risk of vomiting and aspiration. Sizing is performed against the patient by measuring from the corner of the mouth to the earlobe or to the angle of the mandible. An oversized device may displace the epiglottis and occlude the glottic opening; an undersized device fails to control the tongue. In adults the device is conventionally introduced with the tip directed toward the hard palate and rotated 180 degrees as it passes the soft palate. In pediatric patients rotation is avoided because of the risk of soft-tissue and palatal trauma; the tongue is displaced with a tongue blade and the device inserted in its anatomic orientation. Insertion of an adjunct does not obviate the need for continued manual airway positioning."
+        },
+        "eli_new": {
+          "analogy": "It is a shoehorn for the tongue: it holds the thing that keeps collapsing out of the way so your hands are free.",
+          "body": "Your chin-lift works, but you cannot hold it forever and you have other jobs. The OPA is a piece of plastic shaped to do the holding for you. The catch is that it sits deep enough to make an awake person gag and vomit, so it is only for patients who are far enough under that they do not react at all."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk a new EMT through sizing and inserting an oropharyngeal airway in an adult, and tell them the one patient who must never get one.",
+          "must_hit": [
+            {
+              "point": "Measure corner of the mouth to the earlobe or angle of the jaw",
+              "accept": [
+                "corner of the mouth",
+                "earlobe",
+                "angle of the jaw",
+                "measure"
+              ]
+            },
+            {
+              "point": "Never with an intact gag reflex",
+              "accept": [
+                "gag"
+              ]
+            },
+            {
+              "point": "Insert toward the roof of the mouth and rotate 180 degrees",
+              "accept": [
+                "rotate",
+                "180",
+                "roof of the mouth",
+                "upside down",
+                "palate"
+              ]
+            },
+            {
+              "point": "Children are not rotated; use a tongue depressor",
+              "accept": [
+                "tongue depressor",
+                "tongue blade",
+                "child",
+                "pediatric",
+                "right side up"
+              ]
+            }
+          ],
+          "model_answer": "Measure it against the patient's own face, from the corner of the mouth to the earlobe or the angle of the jaw. Check for a gag reflex first: if there is any gag at all, an OPA is out. In an adult, open the mouth, insert the tip pointing up at the roof of the mouth, slide it in and rotate it 180 degrees as it passes the soft palate so it seats over the tongue. In a child you do not rotate it; you hold the tongue down with a tongue depressor and slide it in the right way up. Too long presses on the epiglottis, too short leaves the tongue in the way, and either way you still keep the head positioned."
+        },
+        "story": {
+          "title": "Measured against the wrong face",
+          "dispatch": "Rescue 2 — unresponsive male, found by coworkers, warehouse floor.",
+          "body": "He is deeply unconscious and has no gag at all. Your partner pulls an OPA off the tray by eye, and it is obviously the one from the top of the box rather than the one that fits this man.\n\nYou hold it against his cheek: corner of the mouth to the earlobe. It is two sizes too long. You swap it, insert the right one with a rotation, and the breathing you are supporting gets easier straight away. The wrong one would have pushed the epiglottis down over the very opening you were trying to protect."
+        },
+        "do": {
+          "activity": "opa_appropriate",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each patient: is an oropharyngeal airway appropriate right now?",
+          "config": {
+            "buckets": [
+              "OPA appropriate",
+              "OPA not appropriate"
+            ],
+            "items": [
+              {
+                "text": "Unresponsive, no gag reflex, being ventilated",
+                "bucket": 0
+              },
+              {
+                "text": "Drowsy but pushes your hand away and gags on the suction tip",
+                "bucket": 1
+              },
+              {
+                "text": "Deeply unconscious overdose, no response to anything",
+                "bucket": 0
+              },
+              {
+                "text": "Awake, confused, answering questions",
+                "bucket": 1
+              },
+              {
+                "text": "Unresponsive cardiac arrest patient",
+                "bucket": 0
+              },
+              {
+                "text": "Postictal, moaning, turns away when you touch their mouth",
+                "bucket": 1
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Airway adjunct insertion — oropharyngeal airway",
+          "steps": [
+            {
+              "text": "Take standard precautions",
+              "critical": false
+            },
+            {
+              "text": "Confirm the patient has no gag reflex",
+              "critical": true,
+              "note": "An intact gag reflex rules the OPA out entirely."
+            },
+            {
+              "text": "Measure from the corner of the mouth to the earlobe or angle of the jaw",
+              "critical": true,
+              "note": "Sizing by eye is the most common fail point."
+            },
+            {
+              "text": "Open the mouth",
+              "critical": false
+            },
+            {
+              "text": "Insert with the tip toward the roof of the mouth",
+              "critical": false
+            },
+            {
+              "text": "Rotate 180 degrees as it passes the soft palate (adult)",
+              "critical": false,
+              "note": "In a child, do not rotate; use a tongue depressor and insert right side up."
+            },
+            {
+              "text": "Confirm the flange rests against the lips and the airway is patent",
+              "critical": true
+            },
+            {
+              "text": "Keep the head positioned and reassess",
+              "critical": true,
+              "note": "The adjunct holds the tongue, not the head."
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sizing landmarks the current text teaches (earlobe versus angle of the jaw), the exact pediatric insertion description, and whether the 180-degree rotation is still the taught adult technique."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-05",
+      "title": "Nasopharyngeal airway: sizing, insertion, contraindication",
+      "domain": "AIR",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-02-04"
+      ],
+      "related": [
+        "EMT-02-02-04",
+        "EMT-02-02-06"
+      ],
+      "key_points": [
+        "Tolerated by patients who still have a gag reflex, which is its whole advantage over the OPA",
+        "Sized for length from the tip of the nose to the earlobe",
+        "Lubricated with a water-soluble lubricant before insertion",
+        "Inserted with the bevel toward the septum, straight back along the floor of the nasal cavity, not upward",
+        "Avoided where there is significant head or facial trauma suggesting a basilar skull fracture",
+        "Does not protect against vomiting or aspiration"
+      ],
+      "misconceptions": [
+        "Aiming the tip upward toward the bridge of the nose instead of straight back",
+        "Using it in a patient with significant head or mid-face trauma",
+        "Using a petroleum-based lubricant",
+        "Believing it protects the airway from vomit"
+      ],
+      "exam_favorites": [
+        "Sizing from the nose to the earlobe",
+        "That it can be used with a gag reflex present",
+        "The head and facial trauma contraindication",
+        "Bevel toward the septum, straight back"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The nasopharyngeal airway is a soft rubber tube that goes in through the nose and sits behind the tongue. Its advantage over the OPA is simple: most patients tolerate it even with a gag reflex, so you can use it on somebody who is not deeply unconscious.\n\nSize the length against the patient, from the tip of the nose to the earlobe. Lubricate it with a water-soluble lubricant, never petroleum.\n\nNow the part people get wrong. The floor of the nasal cavity runs straight back, not up. Point the tip straight toward the back of the head, with the bevel facing the septum, and advance gently. If you aim it up toward the bridge of the nose it will not go, and you will make it bleed.\n\nThere is one situation to avoid. If the face or head is badly injured and you are worried about a skull fracture, do not put a tube into the nose.\n\nAnd be clear about what it does not do. It holds the tongue off the throat. It does not keep vomit out of the lungs. Suction stays within reach.",
+          "standard": "The nasopharyngeal airway (NPA) is a soft, uncuffed adjunct inserted through the nares into the posterior pharynx. Unlike the oropharyngeal airway it is generally tolerated in patients with an intact gag reflex, making it suitable for the obtunded patient who will not accept an OPA. Length is estimated externally by measuring from the tip of the nose to the earlobe. The device is lubricated with a water-soluble lubricant and advanced posteriorly along the floor of the nasal cavity with the bevel oriented toward the nasal septum; the nasal floor runs directly posteriorly, and superior angulation causes trauma and failure of passage. The NPA is avoided in the presence of significant head or mid-facial trauma where basilar skull fracture is suspected. The adjunct maintains patency but confers no protection against regurgitation or aspiration, and suction must remain immediately available."
+        },
+        "eli_new": {
+          "analogy": "The nose is a hallway, not a staircase. Walk straight down it; do not try to climb.",
+          "body": "Everyone's instinct is to aim a tube up into the nose, because that is the direction the nose points on the outside. Inside, the passage runs flat, straight toward the back of the skull. Aim straight back and it slides. Aim up and you hit bone and cause a nosebleed."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain when you would choose a nasopharyngeal airway over an oropharyngeal one, how you size and insert it, and when you would not use it at all.",
+          "must_hit": [
+            {
+              "point": "Tolerated with a gag reflex present",
+              "accept": [
+                "gag"
+              ]
+            },
+            {
+              "point": "Sized from the tip of the nose to the earlobe",
+              "accept": [
+                "nose to the earlobe",
+                "tip of the nose",
+                "earlobe",
+                "measure"
+              ]
+            },
+            {
+              "point": "Lubricate and insert straight back, bevel toward the septum",
+              "accept": [
+                "lubricat",
+                "bevel",
+                "septum",
+                "straight back",
+                "floor"
+              ]
+            },
+            {
+              "point": "Avoided with significant head or facial trauma",
+              "accept": [
+                "head trauma",
+                "facial",
+                "skull",
+                "basilar",
+                "face"
+              ]
+            }
+          ],
+          "model_answer": "Choose the NPA when the patient needs an adjunct but still has a gag reflex, which rules out an OPA. Measure from the tip of the nose to the earlobe for length, lubricate it with a water-soluble lubricant, and insert it with the bevel toward the septum, advancing straight back along the floor of the nose rather than up toward the bridge. Avoid it where significant head or mid-face trauma makes a skull fracture plausible. Remember it holds the tongue forward but does nothing to stop vomit, so keep suction to hand."
+        },
+        "story": {
+          "title": "Straight back, not up",
+          "dispatch": "Rescue 2 — 58-year-old male, decreased level of consciousness, assisted living.",
+          "body": "He is snoring, will not stay awake, and gags hard when your partner even approaches his mouth with a suction tip. An OPA is out.\n\nYou size an NPA against his face, nose to earlobe, lubricate it, and start it straight back along the floor of the nostril with the bevel turned toward the septum. It passes without a fight. The snoring stops. He does not gag once.\n\nThe new EMT riding with you had it angled upward on the first attempt and could not understand why it would not go."
+        },
+        "do": {
+          "activity": "opa_npa_or_neither",
+          "type": "select_device",
+          "prompt": "Pick the adjunct for each patient.",
+          "config": {
+            "devices": [
+              "Oropharyngeal airway",
+              "Nasopharyngeal airway",
+              "Neither"
+            ],
+            "patients": [
+              {
+                "text": "Unresponsive, no gag reflex, no facial injury",
+                "correct": 0,
+                "why": "Deeply unconscious with no gag: the OPA is the better tongue control."
+              },
+              {
+                "text": "Obtunded, snoring, gags on anything near the mouth, no head injury",
+                "correct": 1,
+                "why": "A gag reflex rules out the OPA; the NPA is usually tolerated."
+              },
+              {
+                "text": "Awake, alert, talking to you in full sentences",
+                "correct": 2,
+                "why": "A patient maintaining their own airway needs no adjunct at all."
+              },
+              {
+                "text": "Unresponsive with severe mid-face trauma and blood from the nose",
+                "correct": 0,
+                "why": "Facial trauma with possible skull fracture rules out the nasal route; if there is no gag, the OPA is the option."
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Airway adjunct insertion — nasopharyngeal airway",
+          "steps": [
+            {
+              "text": "Take standard precautions",
+              "critical": false
+            },
+            {
+              "text": "Rule out significant head or mid-face trauma suggesting a skull fracture",
+              "critical": true,
+              "note": "This is the contraindication examiners look for."
+            },
+            {
+              "text": "Measure from the tip of the nose to the earlobe",
+              "critical": true
+            },
+            {
+              "text": "Lubricate with a water-soluble lubricant",
+              "critical": true,
+              "note": "Petroleum-based lubricant is wrong."
+            },
+            {
+              "text": "Insert with the bevel toward the septum",
+              "critical": false
+            },
+            {
+              "text": "Advance straight back along the floor of the nasal cavity, not upward",
+              "critical": true,
+              "note": "Angling upward is the classic fail."
+            },
+            {
+              "text": "Confirm the flange rests at the nostril and the airway is patent",
+              "critical": true
+            },
+            {
+              "text": "Keep suction immediately available",
+              "critical": false,
+              "note": "The NPA does not protect against aspiration."
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sizing landmark, the lubricant type, the bevel orientation wording, the preferred nostril if the current text specifies one, and the exact phrasing of the head and facial trauma contraindication."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-06",
+      "title": "Suctioning: devices, time limits, technique",
+      "domain": "AIR",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-02-04"
+      ],
+      "related": [
+        "EMT-02-02-03",
+        "EMT-02-04-01"
+      ],
+      "key_points": [
+        "Clears blood, vomit and secretions that a manual maneuver or adjunct cannot move",
+        "Rigid tip for thick material in the mouth; soft flexible catheter for the nose, a stoma, or through an adjunct",
+        "Measure insertion depth as you would an OPA, from the corner of the mouth to the earlobe",
+        "Insert without suction applied; apply suction only as you withdraw",
+        "Suctioning removes air as well as fluid, so it is time-limited and the patient is reoxygenated afterwards",
+        "If the patient vomits, roll them and clear the airway before anything else"
+      ],
+      "misconceptions": [
+        "Applying suction on the way in, which damages tissue and wastes time",
+        "Suctioning for as long as it takes rather than in limited passes",
+        "Inserting past the measured depth",
+        "Continuing to ventilate without clearing the airway first"
+      ],
+      "exam_favorites": [
+        "Suction on withdrawal only",
+        "Rigid versus soft catheter selection",
+        "Measuring the depth",
+        "That suctioning removes oxygen and is therefore time-limited"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Positioning fixes a tongue. It does nothing about blood, vomit or secretions. For those you need suction.\n\nThere are two tips. The rigid one, sometimes called a tonsil tip or Yankauer, is for the mouth, and it is the one for thick material. The soft flexible catheter is for the nose, a stoma, or for going through an airway adjunct; it is narrow and clogs on anything chunky.\n\nMeasure before you insert, the same way you size an OPA: corner of the mouth to the earlobe. That is as deep as the tip goes.\n\nHere is the part that matters most. Put the tip in with the suction off. Only turn it on as you pull back out, sweeping as you go. Suction on the way in grabs the tissue you are sliding past and does no good at all.\n\nAnd remember what you are removing. Suction takes out air along with the fluid, so you cannot just keep going. Work in limited passes, then put oxygen or ventilation back on, then go again if you need to.\n\nIf the patient vomits, everything stops. Roll them, clear it out, and only then go back to what you were doing.",
+          "standard": "Suctioning removes liquid and semi-solid material from the airway that positioning and adjuncts cannot clear. Rigid pharyngeal (tonsil-tip) catheters are used for the oropharynx and for thick material; soft flexible catheters are used for the nasopharynx, tracheostomy stomas, and passage through an airway adjunct. Insertion depth is estimated externally using the same landmarks as OPA sizing, from the corner of the mouth to the earlobe, and the catheter should not be advanced beyond the measured depth. Suction is applied only during withdrawal, using a sweeping motion; applying suction during insertion causes mucosal trauma without clearing material. Because suctioning evacuates oxygen along with secretions, it is performed in limited passes with reoxygenation or ventilation between attempts. Active vomiting takes precedence over all other airway interventions: the patient is positioned to allow drainage and the airway cleared before ventilation resumes."
+        },
+        "eli_new": {
+          "analogy": "A straw in a milkshake. You push the straw in quietly, and you only start sucking on the way back out.",
+          "body": "Nobody suctions on the way in, and there is a reason. Going in, the tip is sliding past soft tissue. If the vacuum is already on, it grabs that tissue, hurts the patient, and clears nothing, because the mess you want is behind it. Go in quiet, come out sucking."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain to a new EMT which suction tip to grab, how far to put it in, and the one rule about when the suction is actually switched on.",
+          "must_hit": [
+            {
+              "point": "Rigid tip for the mouth and thick material, soft catheter for nose, stoma or adjunct",
+              "accept": [
+                "rigid",
+                "yankauer",
+                "tonsil",
+                "soft",
+                "french",
+                "flexible"
+              ]
+            },
+            {
+              "point": "Measure corner of the mouth to the earlobe",
+              "accept": [
+                "corner of the mouth",
+                "earlobe",
+                "measure"
+              ]
+            },
+            {
+              "point": "Suction only on the way out",
+              "accept": [
+                "on the way out",
+                "withdraw",
+                "not on the way in",
+                "coming out",
+                "withdrawal"
+              ]
+            },
+            {
+              "point": "Limited passes, because suction removes oxygen too",
+              "accept": [
+                "oxygen",
+                "limited",
+                "reoxygenate",
+                "time",
+                "seconds",
+                "pass"
+              ]
+            }
+          ],
+          "model_answer": "Use the rigid tonsil tip in the mouth, especially for thick material, and the soft flexible catheter for the nose, a stoma, or through an adjunct. Measure the depth against the face just like an OPA, corner of the mouth to the earlobe, and do not go past it. Put the tip in with the suction off and only switch it on as you withdraw, sweeping as you come out. Keep each pass short, because you are pulling out oxygen along with the fluid, and reoxygenate or ventilate between passes. If the patient is actively vomiting, roll them and clear it before anything else."
+        },
+        "story": {
+          "title": "The sound before the vomit",
+          "dispatch": "Rescue 2 — unresponsive female, possible stroke, found by husband.",
+          "body": "You are two breaths into bagging her when you hear it: a wet, gurgling catch at the back of the throat. Your partner already has the rigid tip in hand, measured against her cheek.\n\nYou stop bagging. Roll her. In with the suction off, on as it comes out, one sweep. Then back onto her back, reposition, and ventilate again. A few seconds later the same sound starts, and you do it again.\n\nBagging through that gurgle would have pushed all of it down into her lungs."
+        },
+        "do": {
+          "activity": "which_suction_tip",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each situation: rigid tonsil tip, or soft flexible catheter?",
+          "config": {
+            "buckets": [
+              "Rigid tip",
+              "Soft catheter"
+            ],
+            "items": [
+              {
+                "text": "Thick vomit pooled in the mouth",
+                "bucket": 0
+              },
+              {
+                "text": "Secretions in the nose of a semi-conscious patient",
+                "bucket": 1
+              },
+              {
+                "text": "Blood and clots in the oropharynx after facial trauma",
+                "bucket": 0
+              },
+              {
+                "text": "Clearing through a tracheostomy stoma",
+                "bucket": 1
+              },
+              {
+                "text": "Frothy sputum visible at the lips",
+                "bucket": 0
+              },
+              {
+                "text": "Suctioning through a nasopharyngeal airway",
+                "bucket": 1
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Suctioning the upper airway",
+          "steps": [
+            {
+              "text": "Take standard precautions, including eye protection",
+              "critical": true,
+              "note": "Suctioning splashes."
+            },
+            {
+              "text": "Turn the unit on and confirm suction at the tip",
+              "critical": true
+            },
+            {
+              "text": "Select the rigid tip for the mouth, soft catheter for nose, stoma or adjunct",
+              "critical": false
+            },
+            {
+              "text": "Measure from the corner of the mouth to the earlobe",
+              "critical": true
+            },
+            {
+              "text": "Insert to the measured depth with suction OFF",
+              "critical": true,
+              "note": "Suctioning on insertion is the classic critical fail."
+            },
+            {
+              "text": "Apply suction only while withdrawing, sweeping as you come out",
+              "critical": true
+            },
+            {
+              "text": "Keep the pass short and reoxygenate or ventilate between passes",
+              "critical": true,
+              "note": "Exact time limits: confirm against the current text."
+            },
+            {
+              "text": "Repeat as needed and reassess the airway",
+              "critical": false
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the exact maximum suction times the current text gives for adult, child and infant — these differ between texts and editions and have deliberately been left out here. Also confirm the catheter naming and the measurement landmark."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-07",
+      "title": "Foreign body airway obstruction management by age",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-02-01"
+      ],
+      "related": [
+        "EMT-02-02-06",
+        "EMT-02-04-01"
+      ],
+      "key_points": [
+        "A mild obstruction with good air exchange is left alone to cough; interfering can make it complete",
+        "A severe obstruction cannot speak, cough effectively, or move air, and needs immediate intervention",
+        "A responsive adult or child over one year gets abdominal thrusts",
+        "A responsive infant under one year gets alternating back slaps and chest thrusts, not abdominal thrusts",
+        "Chest thrusts replace abdominal thrusts in late pregnancy or a patient too large to encircle",
+        "When the patient becomes unresponsive, begin CPR and look in the mouth each time you open the airway",
+        "Remove an object only if you can see it; blind finger sweeps are not performed"
+      ],
+      "misconceptions": [
+        "Intervening on a patient who is still coughing forcefully",
+        "Using abdominal thrusts on an infant",
+        "Performing a blind finger sweep",
+        "Stopping compressions to keep trying thrusts after the patient goes unresponsive"
+      ],
+      "exam_favorites": [
+        "Mild versus severe and what each gets",
+        "The age cut-off at one year",
+        "Chest thrusts in pregnancy or obesity",
+        "No blind finger sweeps",
+        "What changes the moment the patient becomes unresponsive"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The first decision is not what to do; it is how bad it is. A patient who is coughing hard, wheezing between coughs and moving air has a mild obstruction, and the best thing you can do is stand there and encourage them. Their cough generates more pressure than your hands will.\n\nA severe obstruction looks different. No sound, or a thin high-pitched squeak. Cannot speak. Cannot cough. Maybe clutching the throat. That patient needs you now.\n\nFor a responsive adult or a child over one year, abdominal thrusts. Stand behind, fist above the navel and below the ribs, and thrust inward and upward, repeating until it clears or they go unresponsive.\n\nAn infant under one year is different. Support the head and jaw, face down along your forearm, and deliver back slaps between the shoulder blades, then turn them over and give chest thrusts. Alternate. No abdominal thrusts in an infant.\n\nIf the patient is in late pregnancy or you simply cannot get your arms around them, move your hands to the chest and thrust there instead.\n\nThe moment they go unresponsive, everything changes. Lower them to the floor and start CPR. Every time you open the airway to give breaths, look in the mouth first. If you see the object, take it out. If you do not see it, do not go fishing.",
+          "standard": "Foreign body airway obstruction is classified by the adequacy of air exchange. Mild obstruction, characterized by forceful coughing and audible air movement, is managed by encouraging the patient to continue coughing; intervention risks converting a partial obstruction to a complete one. Severe obstruction is recognized by the inability to speak, cough effectively, or move air, and may be accompanied by high-pitched stridor or the universal choking sign. In the responsive adult or child older than one year, abdominal thrusts are delivered above the umbilicus and below the xiphoid process, directed inward and upward, and repeated until the obstruction is relieved or the patient becomes unresponsive. In the infant under one year, abdominal thrusts are not used; management consists of alternating back slaps delivered between the scapulae with the infant supported prone and head-dependent, and chest thrusts delivered supine. Chest thrusts substitute for abdominal thrusts in late pregnancy or where the rescuer cannot encircle the abdomen. When the patient becomes unresponsive, chest compressions are initiated; the mouth is inspected each time the airway is opened for ventilation and a visualized object removed. Blind finger sweeps are not performed."
+        },
+        "eli_new": {
+          "analogy": "A cough is a bigger, better-aimed thrust than anything you can do with your hands. Do not interrupt a working cough.",
+          "body": "Two questions, in order. Can they move air? If yes, leave them alone and let them cough. If no, you act. Then: how old are they? Over one, thrusts to the belly. Under one, slaps to the back and thrusts to the chest. That is the whole algorithm."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you decide whether to intervene in a choking patient at all, and how what you do changes with the patient's age.",
+          "must_hit": [
+            {
+              "point": "Mild obstruction with a forceful cough is left to cough",
+              "accept": [
+                "cough",
+                "mild",
+                "encourage",
+                "leave"
+              ]
+            },
+            {
+              "point": "Severe means cannot speak, cough or move air",
+              "accept": [
+                "cannot speak",
+                "cannot cough",
+                "no air",
+                "severe",
+                "silent"
+              ]
+            },
+            {
+              "point": "Abdominal thrusts for adults and children over one",
+              "accept": [
+                "abdominal thrust",
+                "heimlich",
+                "above the navel",
+                "over one"
+              ]
+            },
+            {
+              "point": "Infants under one get back slaps and chest thrusts",
+              "accept": [
+                "back slap",
+                "chest thrust",
+                "infant",
+                "under one"
+              ]
+            },
+            {
+              "point": "Unresponsive means start CPR and look before breaths, no blind sweeps",
+              "accept": [
+                "cpr",
+                "compressions",
+                "look in the mouth",
+                "blind",
+                "finger sweep",
+                "unresponsive"
+              ]
+            }
+          ],
+          "model_answer": "First decide how bad it is. If they are coughing forcefully and moving air, that is a mild obstruction and your job is to encourage the cough and stay ready. If they cannot speak, cannot cough and are not moving air, that is severe and you act immediately. For a responsive adult or a child over one, abdominal thrusts above the navel and below the ribs, inward and upward, until it clears or they go out. For an infant under one, no abdominal thrusts: support them face down along your forearm for back slaps between the shoulder blades, then turn them for chest thrusts, and alternate. Use chest thrusts instead on a patient in late pregnancy or one you cannot get your arms around. If they become unresponsive, lower them down and start CPR, and each time you open the airway to ventilate, look in the mouth and remove anything you can actually see. Never sweep blindly."
+        },
+        "story": {
+          "title": "The quiet table",
+          "dispatch": "Rescue 2 — choking, restaurant, bystander CPR in progress.",
+          "body": "The room is loud but the table you are walking toward is silent. A man is standing with both hands at his throat and a waiter behind him is delivering thrusts. He is not making any sound at all.\n\nOn the fourth thrust after you arrive, something gives and he takes a huge ragged breath. Within a minute he is talking, embarrassed, insisting he is fine.\n\nWhat stays with you is the silence. Everyone expects choking to be noisy. The dangerous ones are not."
+        },
+        "do": {
+          "activity": "fbao_by_patient",
+          "type": "select_device",
+          "prompt": "Pick the right action for each choking patient.",
+          "config": {
+            "devices": [
+              "Encourage coughing",
+              "Abdominal thrusts",
+              "Back slaps and chest thrusts",
+              "Start CPR"
+            ],
+            "patients": [
+              {
+                "text": "Adult coughing forcefully, wheezing between coughs, able to gasp a few words",
+                "correct": 0,
+                "why": "Air is moving. A forceful cough beats anything you can do; do not interrupt it."
+              },
+              {
+                "text": "Adult clutching the throat, silent, cannot speak or cough",
+                "correct": 1,
+                "why": "Severe obstruction in a responsive adult: abdominal thrusts."
+              },
+              {
+                "text": "Seven-month-old, silent, cyanotic, no air movement",
+                "correct": 2,
+                "why": "Under one year: back slaps and chest thrusts, never abdominal thrusts."
+              },
+              {
+                "text": "Adult who was choking and has just gone limp and unresponsive",
+                "correct": 3,
+                "why": "Unresponsive changes the plan: lower them down and start compressions, checking the mouth before each set of breaths."
+              },
+              {
+                "text": "Woman in late pregnancy, silent, cannot cough",
+                "correct": 1,
+                "why": "Still thrusts, but delivered to the chest rather than the abdomen — the intervention is thrusts, the location changes."
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "algorithm",
+        "skill"
+      ],
+      "card_data": {
+        "algorithm": {
+          "start": "air",
+          "nodes": [
+            {
+              "id": "air",
+              "text": "Moving air? Coughing forcefully?",
+              "kind": "decision"
+            },
+            {
+              "id": "encourage",
+              "text": "Encourage the cough; stay with them",
+              "kind": "end"
+            },
+            {
+              "id": "responsive",
+              "text": "Responsive?",
+              "kind": "decision"
+            },
+            {
+              "id": "age",
+              "text": "Under one year?",
+              "kind": "decision"
+            },
+            {
+              "id": "infant",
+              "text": "Back slaps, then chest thrusts; alternate",
+              "kind": "action"
+            },
+            {
+              "id": "adult",
+              "text": "Abdominal thrusts (chest thrusts if pregnant or too large to encircle)",
+              "kind": "action"
+            },
+            {
+              "id": "cpr",
+              "text": "Start CPR; look in the mouth before each set of breaths; no blind sweeps",
+              "kind": "end"
+            }
+          ],
+          "branches": [
+            {
+              "from": "air",
+              "to": "encourage",
+              "condition": "Yes — mild"
+            },
+            {
+              "from": "air",
+              "to": "responsive",
+              "condition": "No — severe"
+            },
+            {
+              "from": "responsive",
+              "to": "age",
+              "condition": "Yes"
+            },
+            {
+              "from": "responsive",
+              "to": "cpr",
+              "condition": "No"
+            },
+            {
+              "from": "age",
+              "to": "infant",
+              "condition": "Yes"
+            },
+            {
+              "from": "age",
+              "to": "adult",
+              "condition": "No"
+            },
+            {
+              "from": "infant",
+              "to": "cpr",
+              "condition": "Becomes unresponsive"
+            },
+            {
+              "from": "adult",
+              "to": "cpr",
+              "condition": "Becomes unresponsive"
+            }
+          ]
+        },
+        "skill": {
+          "sheet": "Foreign body airway obstruction — responsive adult",
+          "steps": [
+            {
+              "text": "Confirm severe obstruction: cannot speak, cough or move air",
+              "critical": true,
+              "note": "A forceful cough is left alone."
+            },
+            {
+              "text": "Tell them you are going to help and position behind them",
+              "critical": false
+            },
+            {
+              "text": "Place a fist above the navel and below the xiphoid process",
+              "critical": true,
+              "note": "Too high risks the xiphoid; too low is ineffective."
+            },
+            {
+              "text": "Deliver inward and upward thrusts",
+              "critical": true
+            },
+            {
+              "text": "Repeat until the obstruction clears or the patient becomes unresponsive",
+              "critical": true
+            },
+            {
+              "text": "If unresponsive, lower them to the floor and begin CPR",
+              "critical": true,
+              "note": "Compressions replace thrusts."
+            },
+            {
+              "text": "Look in the mouth before each set of ventilations and remove only a visible object",
+              "critical": true,
+              "note": "No blind finger sweeps."
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the landmark wording for abdominal thrusts, the number of back slaps and chest thrusts the current text teaches for infants, and the exact age cut-off and unresponsive-patient sequence against the current AHA guidelines the text is aligned to."
     },
     {
       "schema_version": "1.0.0",

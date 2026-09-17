@@ -584,180 +584,810 @@
       "id": "EMT-02-02-01-Q001",
       "concept_id": "EMT-02-02-01",
       "style": "recall",
-      "stem": "In an unresponsive patient, which structure is most likely to be obstructing the airway?",
+      "stem": "In an unresponsive patient, what most commonly obstructs the airway?",
       "options": [
         {
-          "text": "The tongue",
-          "rationale": "Correct. In an unresponsive patient the tongue is the structure most likely to be against the back of the throat."
+          "text": "The tongue falling back against the posterior pharynx",
+          "rationale": "Correct. Relaxed muscles let the tongue, which is attached to the jaw, fall against the back of the throat."
         },
         {
-          "text": "The teeth",
-          "rationale": "Teeth can be a foreign-body concern but are not the usual cause of obstruction in an unresponsive patient."
+          "text": "Swelling of the epiglottis",
+          "rationale": "Epiglottic swelling is a specific illness, not the routine cause of obstruction in unresponsiveness."
         },
         {
-          "text": "The diaphragm",
-          "rationale": "The diaphragm is a muscle of ventilation, not a structure that obstructs the upper airway."
+          "text": "A foreign body lodged in the trachea",
+          "rationale": "Possible, but not the common cause in a patient who simply became unresponsive."
         },
         {
-          "text": "The tracheal rings",
-          "rationale": "Tracheal cartilage holds the airway open rather than blocking it."
+          "text": "Collapse of the tracheal rings",
+          "rationale": "Tracheal cartilage holds the airway open; it does not collapse in this way."
         }
       ],
       "correct_index": 0,
       "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-02-01-Q002",
       "concept_id": "EMT-02-02-01",
       "style": "recall",
-      "stem": "Head-tilt/chin-lift is the default manual airway maneuver when:",
+      "stem": "When performing a head-tilt/chin-lift, where should the fingers lifting the chin be placed?",
       "options": [
         {
-          "text": "There is no reason to suspect a spinal injury",
-          "rationale": "Correct. It is the first choice when the mechanism does not raise spinal concern."
+          "text": "On the soft tissue under the jaw",
+          "rationale": "Pressing here pushes the tongue backward and can worsen the obstruction."
         },
         {
-          "text": "The mechanism strongly suggests a spinal injury",
-          "rationale": "That is the situation the other maneuver exists for."
+          "text": "On the bony part of the chin",
+          "rationale": "Correct. Lifting bone moves the mandible, and the tongue with it."
         },
         {
-          "text": "The patient is awake and talking",
-          "rationale": "A patient who is talking is maintaining their own airway."
+          "text": "On the lower lip",
+          "rationale": "The lip has no structural connection that would move the tongue."
         },
         {
-          "text": "The patient is already breathing normally",
-          "rationale": "A patient breathing normally on their own does not need the maneuver."
+          "text": "Across the throat over the larynx",
+          "rationale": "Pressure here compresses the airway rather than opening it."
         }
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-02-01-Q003",
       "concept_id": "EMT-02-02-01",
       "style": "application",
-      "stem": "Head-tilt/chin-lift and jaw-thrust are paired on exams in order to test whether you:",
+      "stem": "Which finding would make you choose a different airway maneuver than the head-tilt/chin-lift?",
       "options": [
         {
-          "text": "Pick the maneuver that matches the mechanism of injury",
-          "rationale": "Correct. The pairing is a mechanism question wearing an airway question's clothes."
+          "text": "The patient is snoring loudly",
+          "rationale": "Snoring suggests the tongue is obstructing, which is exactly what this maneuver fixes."
         },
         {
-          "text": "Can name the anatomy of the upper airway",
-          "rationale": "Naming anatomy is tested elsewhere, not by this pairing."
+          "text": "The patient was found at the bottom of a flight of stairs",
+          "rationale": "Correct. The mechanism raises suspicion of spinal injury, so the jaw-thrust is used instead."
         },
         {
-          "text": "Know an oxygen flow rate",
-          "rationale": "Flow rates belong to the oxygen delivery lesson."
+          "text": "The patient is breathing 10 times a minute",
+          "rationale": "Rate affects whether you ventilate, not which manual maneuver opens the airway."
         },
         {
-          "text": "Can size an airway adjunct correctly",
-          "rationale": "Adjunct sizing is a separate skill with its own questions."
+          "text": "The patient has a history of COPD",
+          "rationale": "Chronic lung disease does not change the manual maneuver."
         }
       ],
-      "correct_index": 0,
-      "difficulty": 1,
+      "correct_index": 1,
+      "difficulty": 2,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-01-Q004",
+      "concept_id": "EMT-02-02-01",
+      "style": "scenario",
+      "stem": "You find an unresponsive man in bed after a reported overdose. There is no sign of trauma and he is snoring with each breath. What is your first action?",
+      "options": [
+        {
+          "text": "Insert a nasopharyngeal airway",
+          "rationale": "An adjunct may follow, but the manual maneuver comes first and costs nothing."
+        },
+        {
+          "text": "Perform a head-tilt/chin-lift",
+          "rationale": "Correct. No trauma mechanism, obstruction that sounds like tongue: open it manually first."
+        },
+        {
+          "text": "Begin bag-valve-mask ventilation",
+          "rationale": "He is moving air; open the airway before deciding whether ventilation is needed."
+        },
+        {
+          "text": "Apply a jaw-thrust",
+          "rationale": "The jaw-thrust is for suspected spinal injury, which nothing here suggests."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-02-02-Q001",
       "concept_id": "EMT-02-02-02",
       "style": "recall",
-      "stem": "Jaw-thrust is chosen over head-tilt/chin-lift when:",
+      "stem": "What makes the jaw-thrust the preferred maneuver in some patients?",
       "options": [
         {
-          "text": "The mechanism makes a spinal injury plausible",
-          "rationale": "Correct. The mechanism, not the patient's presentation, drives this choice."
+          "text": "It opens the airway without extending the neck",
+          "rationale": "Correct. The mandible is displaced forward while the head stays neutral."
         },
         {
-          "text": "The patient is a child rather than an adult",
-          "rationale": "Age alone does not select the maneuver."
+          "text": "It is faster than a head-tilt/chin-lift",
+          "rationale": "It is generally slower and more tiring, not faster."
         },
         {
-          "text": "The patient is breathing rapidly",
-          "rationale": "Respiratory rate does not determine which manual maneuver you use."
+          "text": "It can be performed on an awake patient",
+          "rationale": "A patient maintaining their own airway does not need it."
         },
         {
-          "text": "No airway adjunct is available",
-          "rationale": "Adjunct availability is unrelated to the choice of manual maneuver."
+          "text": "It protects against vomiting",
+          "rationale": "No manual maneuver protects the airway from regurgitation."
         }
       ],
       "correct_index": 0,
-      "difficulty": 2,
+      "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-02-02-Q002",
       "concept_id": "EMT-02-02-02",
       "style": "recall",
-      "stem": "The advantage of the jaw-thrust is that it:",
+      "stem": "Where are the rescuer's fingers placed to perform a jaw-thrust?",
       "options": [
         {
-          "text": "Opens the airway without the head movement the default maneuver requires",
-          "rationale": "Correct. It gets the jaw forward while leaving the head where it is."
+          "text": "Under the chin, lifting upward",
+          "rationale": "That is the chin-lift, which requires head extension."
         },
         {
-          "text": "Is faster to perform than any other maneuver",
-          "rationale": "Speed is not the reason it is chosen."
+          "text": "Behind the angles of the mandible on both sides",
+          "rationale": "Correct. Pressure here displaces the whole jaw forward."
         },
         {
-          "text": "Requires no hands on the patient",
-          "rationale": "It is a hands-on maneuver by definition."
+          "text": "On the cheeks, pulling laterally",
+          "rationale": "Lateral traction on the cheeks does not move the mandible forward."
         },
         {
-          "text": "Works only on patients who are awake",
-          "rationale": "An awake patient maintaining their own airway does not need it."
+          "text": "Over the cricoid cartilage",
+          "rationale": "That is a different maneuver entirely and does not open the airway."
         }
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "difficulty": 2,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-02-02-Q003",
       "concept_id": "EMT-02-02-02",
       "style": "application",
-      "stem": "Choosing between head-tilt/chin-lift and jaw-thrust is driven entirely by:",
+      "stem": "You are holding a jaw-thrust on a trauma patient and cannot get the airway open. What takes priority?",
       "options": [
         {
-          "text": "The mechanism of injury",
-          "rationale": "Correct. This is a mechanism decision, not an airway-findings decision."
+          "text": "Maintaining strict spinal alignment even if the airway stays closed",
+          "rationale": "A protected spine with no airway is not a survivable outcome."
         },
         {
-          "text": "The patient's age",
-          "rationale": "Age changes technique details, not which of these two you select."
+          "text": "Opening the airway, accepting the head movement that requires",
+          "rationale": "Correct. An open airway is the overriding priority when the jaw-thrust fails."
         },
         {
-          "text": "The equipment on the stretcher",
-          "rationale": "Neither maneuver requires equipment."
+          "text": "Waiting for ALS to secure an advanced airway",
+          "rationale": "Waiting with a closed airway is not an option at any level."
         },
         {
-          "text": "The expected transport time",
-          "rationale": "Transport time has no bearing on opening the airway now."
+          "text": "Placing the patient in the recovery position",
+          "rationale": "Rolling a trauma patient for position alone is not indicated here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-03-Q001",
+      "concept_id": "EMT-02-02-03",
+      "style": "recall",
+      "stem": "Which patient is a candidate for the recovery position?",
+      "options": [
+        {
+          "text": "Unresponsive, breathing adequately, no suspected spinal injury",
+          "rationale": "Correct. That is exactly the patient the position is for."
+        },
+        {
+          "text": "Unresponsive after a motorcycle crash",
+          "rationale": "The mechanism suggests spinal injury; do not roll for position alone."
+        },
+        {
+          "text": "Awake and alert with chest pain",
+          "rationale": "A patient maintaining their own airway chooses their own position of comfort."
+        },
+        {
+          "text": "Apneic with no pulse",
+          "rationale": "That patient needs CPR, not repositioning."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-03-Q002",
+      "concept_id": "EMT-02-02-03",
+      "style": "application",
+      "stem": "What is the recovery position intended to achieve?",
+      "options": [
+        {
+          "text": "Improved chest expansion",
+          "rationale": "Lateral positioning is not primarily about mechanics of ventilation."
+        },
+        {
+          "text": "Drainage of fluid out of the mouth rather than into the airway",
+          "rationale": "Correct. Gravity carries secretions and vomit clear instead of into the pharynx."
+        },
+        {
+          "text": "Reduced intracranial pressure",
+          "rationale": "Not the purpose of this position."
+        },
+        {
+          "text": "Prevention of the tongue obstructing the airway permanently",
+          "rationale": "It helps, but drainage is the stated purpose and the tongue still needs monitoring."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-03-Q003",
+      "concept_id": "EMT-02-02-03",
+      "style": "scenario",
+      "stem": "A postictal patient is unresponsive but breathing deeply, with saliva pooling in her mouth. She slid from a sofa to a carpeted floor with no other trauma. What do you do?",
+      "options": [
+        {
+          "text": "Leave her supine and monitor",
+          "rationale": "Supine lets the saliva pool at the back of the throat."
+        },
+        {
+          "text": "Roll her as a unit into the recovery position and keep suction ready",
+          "rationale": "Correct. Adequate breathing, no concerning mechanism, and fluid to drain."
+        },
+        {
+          "text": "Insert an oropharyngeal airway immediately",
+          "rationale": "She may well gag; and the immediate problem is drainage."
+        },
+        {
+          "text": "Begin bag-valve-mask ventilation",
+          "rationale": "She is breathing deeply and evenly; ventilation is not indicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-04-Q001",
+      "concept_id": "EMT-02-02-04",
+      "style": "recall",
+      "stem": "How is an oropharyngeal airway sized?",
+      "options": [
+        {
+          "text": "From the corner of the mouth to the earlobe or angle of the jaw",
+          "rationale": "Correct. It is measured against the individual patient's face."
+        },
+        {
+          "text": "From the tip of the nose to the earlobe",
+          "rationale": "That is the nasopharyngeal airway measurement."
+        },
+        {
+          "text": "By the patient's height",
+          "rationale": "Height does not determine adjunct size."
+        },
+        {
+          "text": "By choosing the middle size in the kit",
+          "rationale": "Guessing the size is the error the measurement exists to prevent."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-04-Q002",
+      "concept_id": "EMT-02-02-04",
+      "style": "recall",
+      "stem": "What is the absolute contraindication to an oropharyngeal airway?",
+      "options": [
+        {
+          "text": "A suspected basilar skull fracture",
+          "rationale": "That contraindication belongs to the nasal route."
+        },
+        {
+          "text": "An intact gag reflex",
+          "rationale": "Correct. It will provoke vomiting and risk aspiration."
+        },
+        {
+          "text": "A respiratory rate below 10",
+          "rationale": "Rate determines whether you ventilate, not whether an OPA is allowed."
+        },
+        {
+          "text": "Facial hair preventing a mask seal",
+          "rationale": "That affects mask sealing, not adjunct insertion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-04-Q003",
+      "concept_id": "EMT-02-02-04",
+      "style": "application",
+      "stem": "An oropharyngeal airway that is too long is dangerous because it may:",
+      "options": [
+        {
+          "text": "Push the epiglottis down over the airway opening",
+          "rationale": "Correct. An oversized device can occlude the very opening it is meant to protect."
+        },
+        {
+          "text": "Fall out of the mouth",
+          "rationale": "Length does not cause it to fall out."
+        },
+        {
+          "text": "Enter the trachea directly",
+          "rationale": "It is not designed to and does not pass the glottis."
+        },
+        {
+          "text": "Prevent a mask seal",
+          "rationale": "Seal problems are not the specific danger of an oversized OPA."
         }
       ],
       "correct_index": 0,
       "difficulty": 2,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-04-Q004",
+      "concept_id": "EMT-02-02-04",
+      "style": "sequence",
+      "stem": "Put the steps of adult oropharyngeal airway insertion in order: 1) rotate 180 degrees as it passes the soft palate, 2) confirm there is no gag reflex, 3) measure against the patient's face, 4) insert with the tip toward the roof of the mouth.",
+      "options": [
+        {
+          "text": "2, 3, 4, 1",
+          "rationale": "Correct. Rule out the gag reflex, size it, insert inverted, then rotate into position."
+        },
+        {
+          "text": "3, 2, 4, 1",
+          "rationale": "Sizing before checking the gag reflex wastes time on a patient who cannot receive one."
+        },
+        {
+          "text": "2, 3, 1, 4",
+          "rationale": "The device cannot be rotated before it is inserted."
+        },
+        {
+          "text": "4, 1, 3, 2",
+          "rationale": "Inserting before sizing or checking the gag is the wrong order entirely."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-05-Q001",
+      "concept_id": "EMT-02-02-05",
+      "style": "recall",
+      "stem": "How is a nasopharyngeal airway sized for length?",
+      "options": [
+        {
+          "text": "From the corner of the mouth to the earlobe",
+          "rationale": "That is the oropharyngeal airway measurement."
+        },
+        {
+          "text": "From the tip of the nose to the earlobe",
+          "rationale": "Correct. Measured externally against the patient."
+        },
+        {
+          "text": "From the nostril to the sternal notch",
+          "rationale": "Far too long; that landmark is not used."
+        },
+        {
+          "text": "By the diameter of the patient's thumb",
+          "rationale": "Thumb diameter is not the taught length landmark."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-05-Q002",
+      "concept_id": "EMT-02-02-05",
+      "style": "recall",
+      "stem": "A nasopharyngeal airway should be advanced:",
+      "options": [
+        {
+          "text": "Upward toward the bridge of the nose",
+          "rationale": "The nasal floor runs posteriorly; angling up causes trauma and will not pass."
+        },
+        {
+          "text": "Straight back along the floor of the nasal cavity",
+          "rationale": "Correct. The passage runs directly toward the back of the head."
+        },
+        {
+          "text": "With a twisting motion to widen the passage",
+          "rationale": "Twisting is not the taught technique and increases trauma."
+        },
+        {
+          "text": "Only after the patient has been suctioned",
+          "rationale": "Suctioning may be needed but is not a prerequisite for insertion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-05-Q003",
+      "concept_id": "EMT-02-02-05",
+      "style": "application",
+      "stem": "Which patient would make you avoid a nasopharyngeal airway?",
+      "options": [
+        {
+          "text": "A patient with an intact gag reflex",
+          "rationale": "A gag reflex is the reason to choose an NPA, not to avoid it."
+        },
+        {
+          "text": "A patient with significant mid-face trauma and blood from the nose",
+          "rationale": "Correct. Possible skull fracture makes the nasal route the wrong choice."
+        },
+        {
+          "text": "An unresponsive patient with no trauma",
+          "rationale": "This is a reasonable candidate."
+        },
+        {
+          "text": "A patient who is snoring",
+          "rationale": "Snoring is an indication for an adjunct, not a contraindication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-05-Q004",
+      "concept_id": "EMT-02-02-05",
+      "style": "sequence",
+      "stem": "Put nasopharyngeal airway insertion in order: 1) advance straight back along the nasal floor, 2) lubricate with a water-soluble lubricant, 3) rule out significant head or facial trauma, 4) measure from the tip of the nose to the earlobe.",
+      "options": [
+        {
+          "text": "3, 4, 2, 1",
+          "rationale": "Correct. Rule out the contraindication, size it, lubricate, then advance posteriorly."
+        },
+        {
+          "text": "4, 3, 2, 1",
+          "rationale": "Sizing before ruling out the contraindication wastes a step on a patient who should not receive one."
+        },
+        {
+          "text": "3, 2, 4, 1",
+          "rationale": "Lubricating before sizing risks handling and contaminating the wrong device."
+        },
+        {
+          "text": "2, 4, 3, 1",
+          "rationale": "Lubricating first, before any assessment, reverses the whole sequence."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-06-Q001",
+      "concept_id": "EMT-02-02-06",
+      "style": "recall",
+      "stem": "When is suction applied during a suctioning pass?",
+      "options": [
+        {
+          "text": "On insertion only",
+          "rationale": "Suction on the way in grabs tissue and clears nothing useful."
+        },
+        {
+          "text": "On withdrawal only",
+          "rationale": "Correct. In with the suction off, on as you sweep out."
+        },
+        {
+          "text": "Continuously throughout",
+          "rationale": "Continuous suction on insertion causes mucosal trauma."
+        },
+        {
+          "text": "Only once the catheter reaches the trachea",
+          "rationale": "EMT-level upper airway suctioning does not target the trachea."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-06-Q002",
+      "concept_id": "EMT-02-02-06",
+      "style": "recall",
+      "stem": "Which device is chosen for thick vomit in the mouth?",
+      "options": [
+        {
+          "text": "A soft flexible catheter",
+          "rationale": "Soft catheters are narrow and clog on thick material."
+        },
+        {
+          "text": "A rigid tonsil-tip catheter",
+          "rationale": "Correct. The rigid tip handles thick material in the oropharynx."
+        },
+        {
+          "text": "A nasal cannula",
+          "rationale": "A cannula delivers oxygen; it does not suction."
+        },
+        {
+          "text": "A bag-valve-mask",
+          "rationale": "Bagging through vomit drives it into the lungs."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-06-Q003",
+      "concept_id": "EMT-02-02-06",
+      "style": "application",
+      "stem": "Why is suctioning limited rather than continued until the airway is completely clear?",
+      "options": [
+        {
+          "text": "The catheter overheats",
+          "rationale": "Equipment temperature is not the concern."
+        },
+        {
+          "text": "Suctioning removes oxygen along with secretions",
+          "rationale": "Correct. It is time-limited so the patient can be reoxygenated between passes."
+        },
+        {
+          "text": "The suction unit loses pressure",
+          "rationale": "Loss of vacuum is a device fault, not the reason for limiting passes."
+        },
+        {
+          "text": "It is uncomfortable for the patient",
+          "rationale": "Comfort is real but is not the physiological reason for limiting it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-06-Q004",
+      "concept_id": "EMT-02-02-06",
+      "style": "sequence",
+      "stem": "You are ventilating a patient who begins to vomit. Put your actions in order: 1) resume ventilation, 2) suction the airway, 3) stop ventilating, 4) roll the patient to let it drain.",
+      "options": [
+        {
+          "text": "3, 4, 2, 1",
+          "rationale": "Correct. Stop bagging, roll to drain, clear it, then go back to ventilating."
+        },
+        {
+          "text": "2, 3, 4, 1",
+          "rationale": "Suctioning before stopping ventilation means you are still driving vomit downward."
+        },
+        {
+          "text": "3, 2, 4, 1",
+          "rationale": "Suctioning before rolling fights gravity instead of using it."
+        },
+        {
+          "text": "4, 1, 2, 3",
+          "rationale": "Resuming ventilation before the airway is clear is the error this sequence tests."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-07-Q001",
+      "concept_id": "EMT-02-02-07",
+      "style": "recall",
+      "stem": "A choking adult is coughing forcefully and can gasp a few words. What is the correct action?",
+      "options": [
+        {
+          "text": "Deliver abdominal thrusts immediately",
+          "rationale": "Intervening on a mild obstruction can convert it to a complete one."
+        },
+        {
+          "text": "Encourage them to keep coughing and stay with them",
+          "rationale": "Correct. A forceful cough moves more air than any thrust you can deliver."
+        },
+        {
+          "text": "Perform a blind finger sweep",
+          "rationale": "Blind sweeps are not performed at all."
+        },
+        {
+          "text": "Begin back slaps",
+          "rationale": "Back slaps are part of infant management, not the response to a mild adult obstruction."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-07-Q002",
+      "concept_id": "EMT-02-02-07",
+      "style": "recall",
+      "stem": "How does management of a severe foreign body obstruction differ in an infant under one year?",
+      "options": [
+        {
+          "text": "Abdominal thrusts are delivered more gently",
+          "rationale": "Abdominal thrusts are not used in infants at all."
+        },
+        {
+          "text": "Back slaps and chest thrusts are used instead of abdominal thrusts",
+          "rationale": "Correct. The infant sequence alternates back slaps and chest thrusts."
+        },
+        {
+          "text": "Only back slaps are used",
+          "rationale": "Chest thrusts are part of the sequence as well."
+        },
+        {
+          "text": "Nothing is done until they become unresponsive",
+          "rationale": "A severe obstruction is treated immediately at any age."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-07-Q003",
+      "concept_id": "EMT-02-02-07",
+      "style": "application",
+      "stem": "A choking patient in late pregnancy cannot speak or cough. What do you do?",
+      "options": [
+        {
+          "text": "Abdominal thrusts as normal",
+          "rationale": "The gravid abdomen makes abdominal thrusts inappropriate."
+        },
+        {
+          "text": "Chest thrusts instead of abdominal thrusts",
+          "rationale": "Correct. The intervention is still thrusts; the location moves to the chest."
+        },
+        {
+          "text": "Back slaps only",
+          "rationale": "Back slaps alone are not the adult sequence."
+        },
+        {
+          "text": "Wait for her to become unresponsive",
+          "rationale": "Waiting on a severe obstruction is never correct."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-07-Q004",
+      "concept_id": "EMT-02-02-07",
+      "style": "scenario",
+      "stem": "A choking adult you have been treating suddenly goes limp and unresponsive. What happens next?",
+      "options": [
+        {
+          "text": "Continue abdominal thrusts on the floor",
+          "rationale": "Thrusts are replaced by compressions once the patient is unresponsive."
+        },
+        {
+          "text": "Lower them down, begin CPR, and look in the mouth before each set of breaths",
+          "rationale": "Correct. Compressions generate pressure, and you remove only what you can see."
+        },
+        {
+          "text": "Perform a blind finger sweep, then ventilate",
+          "rationale": "Blind finger sweeps are not performed."
+        },
+        {
+          "text": "Insert an oropharyngeal airway and ventilate",
+          "rationale": "An adjunct does not move a foreign body out of the way."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-07-Q005",
+      "concept_id": "EMT-02-02-07",
+      "style": "sequence",
+      "stem": "Put the management of a responsive adult with a severe foreign body obstruction in order: 1) deliver inward and upward thrusts, 2) begin CPR, 3) confirm they cannot speak, cough or move air, 4) position behind them with a fist above the navel.",
+      "options": [
+        {
+          "text": "3, 4, 1, 2",
+          "rationale": "Correct. Confirm it is severe, get into position, thrust, and move to CPR only if they become unresponsive."
+        },
+        {
+          "text": "4, 3, 1, 2",
+          "rationale": "Getting into position before confirming the obstruction is severe risks intervening on a patient who is coughing effectively."
+        },
+        {
+          "text": "3, 1, 4, 2",
+          "rationale": "You cannot deliver thrusts before taking up position behind the patient."
+        },
+        {
+          "text": "3, 4, 2, 1",
+          "rationale": "CPR replaces thrusts only after the patient becomes unresponsive, not before."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
