@@ -2732,6 +2732,186 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-01-Q001",
+      "concept_id": "EMT-03-06-01",
+      "style": "recall",
+      "stem": "What are the three components of a reassessment?",
+      "options": [
+        {
+          "text": "Repeat the primary assessment, retake vital signs, recheck interventions",
+          "rationale": "Correct — the third is the one most often skipped."
+        },
+        {
+          "text": "Repeat the history, recheck allergies, recheck medications",
+          "rationale": "These belong to the history, not the reassessment loop."
+        },
+        {
+          "text": "Recheck the scene, recount patients, recheck resources",
+          "rationale": "These belong to the size-up."
+        },
+        {
+          "text": "Take a blood glucose, a temperature and a pulse oximetry reading",
+          "rationale": "These are individual measurements, not the reassessment structure."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-01-Q002",
+      "concept_id": "EMT-03-06-01",
+      "style": "recall",
+      "stem": "What is a commonly taught reassessment interval for an unstable patient?",
+      "options": [
+        {
+          "text": "Every 5 minutes",
+          "rationale": "Correct — with 15 minutes commonly taught for stable patients."
+        },
+        {
+          "text": "Every 15 minutes",
+          "rationale": "That is the interval commonly taught for stable patients."
+        },
+        {
+          "text": "Every 30 minutes",
+          "rationale": "Too infrequent for an unstable patient."
+        },
+        {
+          "text": "Once before handover",
+          "rationale": "A single reassessment cannot produce a trend."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-01-Q003",
+      "concept_id": "EMT-03-06-01",
+      "style": "application",
+      "stem": "Your patient's condition changes two minutes after the last reassessment. What do you do?",
+      "options": [
+        {
+          "text": "Wait until the interval is due",
+          "rationale": "A change is the trigger, not the clock."
+        },
+        {
+          "text": "Reassess immediately",
+          "rationale": "Correct — any change restarts the clock."
+        },
+        {
+          "text": "Record the change and reassess at the next scheduled point",
+          "rationale": "Deferring a reassessment after a change wastes the warning."
+        },
+        {
+          "text": "Reassess only the vital signs",
+          "rationale": "The full reassessment is indicated after a change."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-02-Q001",
+      "concept_id": "EMT-03-06-02",
+      "style": "application",
+      "stem": "Which findings typically change before blood pressure in a deteriorating patient?",
+      "options": [
+        {
+          "text": "Mental status, skin and pulse quality",
+          "rationale": "Correct — blood pressure is defended longest and moves last."
+        },
+        {
+          "text": "Blood pressure changes first in most patients",
+          "rationale": "Blood pressure is characteristically a late change."
+        },
+        {
+          "text": "Pupil size and temperature",
+          "rationale": "These are less reliable early indicators of deterioration."
+        },
+        {
+          "text": "Oxygen saturation alone",
+          "rationale": "Saturation may remain normal while the patient deteriorates."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-02-Q002",
+      "concept_id": "EMT-03-06-02",
+      "style": "application",
+      "stem": "A patient's heart rate falls from 130 to 100. How should you interpret it?",
+      "options": [
+        {
+          "text": "As improvement, always",
+          "rationale": "It may be improvement or the end of compensation."
+        },
+        {
+          "text": "Alongside the other findings, because it can be improvement or exhaustion",
+          "rationale": "Correct — warmer skin and more alertness mean one thing, greyer and quieter means another."
+        },
+        {
+          "text": "As deterioration, always",
+          "rationale": "It is not automatically deterioration either."
+        },
+        {
+          "text": "As an artefact of the monitor",
+          "rationale": "A real change should not be dismissed as artefact."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-02-Q003",
+      "concept_id": "EMT-03-06-02",
+      "style": "scenario",
+      "stem": "A previously combative trauma patient becomes quiet and cooperative, with greyer skin and a thinner pulse. What is happening?",
+      "options": [
+        {
+          "text": "He has calmed down and is improving",
+          "rationale": "The accompanying findings contradict that reading."
+        },
+        {
+          "text": "He is deteriorating — agitation costs energy he no longer has",
+          "rationale": "Correct, and this is the classic quiet-patient trap."
+        },
+        {
+          "text": "He is asleep",
+          "rationale": "Deterioration is not sleep."
+        },
+        {
+          "text": "The pain medication has taken effect",
+          "rationale": "No analgesia has been given, and the skin change is unexplained by it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

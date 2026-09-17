@@ -952,6 +952,56 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-08. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-01-C01",
+      "concept_id": "EMT-03-06-01",
+      "type": "concept",
+      "front": {
+        "title": "Reassessment",
+        "summary": "The loop you run for the rest of the call"
+      },
+      "back": {
+        "body": "Three parts: repeat the PRIMARY assessment · retake VITAL SIGNS · recheck every INTERVENTION · Commonly every 5 min unstable, 15 min stable — a floor, not a schedule · ANY change restarts the clock · The skipped part is interventions: oxygen tubing, splint tension, bleeding under a dressing · WRITE THE TIME or you have no trend",
+        "why_it_matters": "A vital sign without a time is a snapshot. Two with times are a trend."
+      },
+      "high_yield": true,
+      "number": 39,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-06-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-02-C02",
+      "concept_id": "EMT-03-06-02",
+      "type": "concept",
+      "front": {
+        "title": "Trending",
+        "summary": "Direction beats value"
+      },
+      "back": {
+        "body": "Read level of consciousness, pulse rate AND quality, respiratory rate and effort, skin, and blood pressure TOGETHER · Mental status, skin and pulse quality change EARLY; blood pressure changes LATE · A falling heart rate can be improvement OR exhaustion — the rest of the picture decides · A patient who goes quiet after being agitated may be deteriorating, not settling · Hand over the DIRECTION with times",
+        "why_it_matters": "Agitation costs energy. Losing it is not automatically good news."
+      },
+      "high_yield": true,
+      "number": 40,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-06-02. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

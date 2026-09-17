@@ -73,6 +73,14 @@
         "EMT-03-05-07",
         "EMT-03-05-08"
       ]
+    },
+    {
+      "id": "EMT-03-06",
+      "title": "Reassessment",
+      "concepts": [
+        "EMT-03-06-01",
+        "EMT-03-06-02"
+      ]
     }
   ],
   "concepts": [
@@ -3692,6 +3700,290 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-01",
+      "title": "Reassessment intervals",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-06-02",
+        "EMT-03-02-06"
+      ],
+      "key_points": [
+        "Reassessment repeats the primary assessment, rechecks vital signs, and rechecks any intervention you performed",
+        "A commonly taught interval is every 5 minutes for an unstable patient and every 15 minutes for a stable one",
+        "Any change in condition restarts the clock and triggers an immediate reassessment",
+        "Every intervention you performed is rechecked: oxygen still flowing, splint still in place, bleeding still controlled",
+        "One set of vital signs is a snapshot; reassessment is what turns it into information",
+        "If you did not write the time, you do not have a trend"
+      ],
+      "misconceptions": [
+        "Taking one set of vitals and treating it as the assessment",
+        "Reassessing on a schedule while ignoring a change in the patient",
+        "Forgetting to recheck interventions, especially ones applied early"
+      ],
+      "exam_favorites": [
+        "The two intervals",
+        "That interventions are rechecked",
+        "That change restarts the clock"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Assessment is not something you finish. Reassessment is the loop you run for the rest of the call, and it has three parts: repeat the primary assessment, take another set of vital signs, and recheck everything you did.\n\nHow often depends on how sick they are. A commonly taught pattern is every five minutes for an unstable patient and every fifteen for a stable one. Confirm the intervals your text gives, because services vary.\n\nThose numbers are a floor, not a schedule. Any change in the patient triggers an immediate reassessment regardless of when the last one was. If something looks different, that is the trigger, not the clock.\n\nThe part most often skipped is rechecking interventions. Oxygen tubing gets caught under a stretcher rail. A splint that was snug becomes loose when the swelling changes, or too tight when it increases. Bleeding that was controlled starts again under a dressing nobody has looked at since. If you did something, it needs looking at again.\n\nAnd write the time next to every set. A vital sign without a time is a snapshot. Two with times are a trend, and the trend is what the receiving clinician actually wants.",
+          "standard": "Reassessment comprises repetition of the primary assessment, acquisition of a further set of vital signs, and re-evaluation of all interventions performed. Commonly taught intervals are five minutes for unstable patients and fifteen minutes for stable patients, though specific intervals vary between texts and services. These represent minimum frequencies rather than fixed schedules; any change in patient condition mandates immediate reassessment irrespective of elapsed time. Re-evaluation of interventions is frequently omitted and includes confirmation of oxygen delivery, splint position and neurovascular status distal to it, and continued hemorrhage control. Documentation of the time accompanying each set of observations is required, as serial values without timing cannot establish a trend."
+        },
+        "eli_new": {
+          "analogy": "One reading is a photograph. Two readings with times on them are a film.",
+          "body": "Vital signs get treated as a task to complete rather than a measurement to repeat. A blood pressure on its own is nearly meaningless; the same blood pressure taken twelve minutes apart, with both times written down, can tell you the whole story of the call."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what reassessment involves, how often you do it, and what people most often forget.",
+          "must_hit": [
+            {
+              "point": "Repeat primary assessment, vitals, and recheck interventions",
+              "accept": [
+                "primary",
+                "vital",
+                "intervention",
+                "recheck",
+                "repeat"
+              ]
+            },
+            {
+              "point": "About every 5 minutes unstable, 15 stable",
+              "accept": [
+                "5",
+                "15",
+                "five",
+                "fifteen",
+                "minute"
+              ]
+            },
+            {
+              "point": "Any change triggers immediate reassessment",
+              "accept": [
+                "change",
+                "immediate",
+                "restart",
+                "straight away",
+                "regardless"
+              ]
+            },
+            {
+              "point": "Rechecking interventions is the commonly skipped part",
+              "accept": [
+                "oxygen",
+                "splint",
+                "dressing",
+                "bleed",
+                "tubing",
+                "forgotten",
+                "skipped"
+              ]
+            },
+            {
+              "point": "Record the time with every set",
+              "accept": [
+                "time",
+                "trend",
+                "document",
+                "record"
+              ]
+            }
+          ],
+          "model_answer": "Reassessment is three things: repeat the primary assessment, take another set of vital signs, and recheck everything you did. Commonly taught intervals are every five minutes if unstable and every fifteen if stable, though services vary — confirm yours. Those are minimums, not a schedule: any change in the patient triggers an immediate reassessment regardless of the clock. The part most often skipped is rechecking interventions — oxygen tubing caught under a rail, a splint that has loosened or tightened, bleeding restarting under a dressing nobody has looked at. And write the time next to every set, because a vital sign without a time is a snapshot and two with times are a trend."
+        },
+        "story": {
+          "title": "Under the rail",
+          "dispatch": "Rescue 4 — 66-year-old male, difficulty breathing, transport in progress.",
+          "body": "He had been on oxygen for eleven minutes and was getting quietly worse, and nobody could work out why.\n\nOn the second reassessment your partner followed the tubing with her hand instead of just looking at the mask.\n\nIt was pinched flat under the stretcher rail, somewhere between the front door and the ambulance. The mask had been on his face the entire time and delivering nothing."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the reassessment intervals the current text gives for stable and unstable patients."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-02",
+      "title": "Trending and recognising deterioration",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-06-01"
+      ],
+      "related": [
+        "EMT-03-02-02",
+        "EMT-03-05-05"
+      ],
+      "key_points": [
+        "A trend is the direction a set of findings is moving, and it beats any single value",
+        "Watch level of consciousness, pulse rate and quality, respiratory rate and effort, skin, and blood pressure together",
+        "Deterioration usually shows in mental status, skin and pulse quality before it shows in blood pressure",
+        "A falling pulse rate in a patient who was tachycardic can mean improvement or can mean exhaustion — read it alongside everything else",
+        "A patient who becomes quiet and cooperative after being agitated may be deteriorating, not settling",
+        "Report trends rather than single numbers when you hand over"
+      ],
+      "misconceptions": [
+        "Reporting the most recent set of vitals without the earlier ones",
+        "Reading a falling heart rate as automatically reassuring",
+        "Mistaking a quietening patient for a calming patient"
+      ],
+      "exam_favorites": [
+        "That trends beat single values",
+        "What changes before blood pressure",
+        "The quiet patient trap"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A single set of vital signs tells you where a patient is. A series tells you where they are going, and where they are going is nearly always the more important question.\n\nWhat you are watching is a group, not one line: level of consciousness, pulse rate and quality, respiratory rate and effort, skin, and blood pressure. Read them together, because individually they mislead.\n\nThe order things move in is worth knowing. Mental status, skin and pulse quality change early. Blood pressure changes late, because the body defends it hardest. A patient whose skin has gone cool and whose pulse is thinner than it was is deteriorating even with an unchanged blood pressure.\n\nTwo traps. A heart rate that was 130 and is now 100 may mean the patient is improving. It may also mean they are running out of the ability to compensate. Which of those it is depends entirely on everything else — if the skin is warmer and they are more alert, it is improvement; if they are greyer and quieter, it is not.\n\nThe second trap is the quiet patient. Somebody who was agitated and is now peaceful and cooperative has sometimes calmed down, and has sometimes stopped having enough oxygen reaching their brain to be agitated. Agitation costs energy. Losing it is not always good news.\n\nWhen you hand over, hand over the direction. Not the last blood pressure — the three of them, with times, and which way they are going.",
+          "standard": "Trend analysis of serial observations provides information unavailable from any single measurement. Parameters are interpreted collectively and comprise level of consciousness, pulse rate and quality, respiratory rate and work of breathing, cutaneous findings and blood pressure. Deterioration characteristically manifests first in mental status, skin findings and pulse quality, with blood pressure changing late owing to compensatory maintenance. A declining heart rate in a previously tachycardic patient may indicate either improvement or decompensation, and is interpretable only alongside concurrent findings. Reduction in agitation may reflect clinical improvement or deteriorating cerebral perfusion, and a newly settled patient warrants re-evaluation rather than reassurance. Handover should communicate trend and timing rather than isolated terminal values."
+        },
+        "eli_new": {
+          "analogy": "The last number is where they are. The three numbers together are where they are going.",
+          "body": "The instinct at handover is to give the most recent set because it is the most current. What the receiving clinician actually wants is the shape — what it was when you arrived, what it is now, and how long that took."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why trends matter more than single values and describe the two traps in reading them.",
+          "must_hit": [
+            {
+              "point": "A series shows direction; a single set shows position",
+              "accept": [
+                "trend",
+                "direction",
+                "series",
+                "single",
+                "where they are going"
+              ]
+            },
+            {
+              "point": "Mental status, skin and pulse quality change before blood pressure",
+              "accept": [
+                "mental",
+                "skin",
+                "pulse quality",
+                "before",
+                "late",
+                "blood pressure"
+              ]
+            },
+            {
+              "point": "A falling heart rate can be improvement or exhaustion",
+              "accept": [
+                "falling",
+                "heart rate",
+                "improv",
+                "exhaust",
+                "decompensat",
+                "depends"
+              ]
+            },
+            {
+              "point": "A quietening patient may be deteriorating, not settling",
+              "accept": [
+                "quiet",
+                "agitat",
+                "settl",
+                "calm",
+                "not good"
+              ]
+            },
+            {
+              "point": "Hand over the trend with times",
+              "accept": [
+                "handover",
+                "hand over",
+                "times",
+                "report",
+                "trend"
+              ]
+            }
+          ],
+          "model_answer": "One set tells you where the patient is; a series tells you where they are going, which is usually the more important question. Watch level of consciousness, pulse rate and quality, respiratory rate and effort, skin and blood pressure together, because singly they mislead. Mental status, skin and pulse quality move early; blood pressure moves late because the body defends it hardest. Two traps: a heart rate falling from 130 to 100 can be improvement or the end of compensation, and only the rest of the picture tells you which; and a patient who was agitated and is now peaceful may have calmed down or may no longer have enough oxygen reaching the brain to be agitated. At handover, give the direction with times, not just the most recent numbers."
+        },
+        "story": {
+          "title": "He got easier to manage",
+          "dispatch": "Rescue 4 — 34-year-old male, motorcycle collision, initially combative.",
+          "body": "He fought everybody for the first six minutes. By the time you reached the ambulance he was quiet, cooperative and apologising.\n\nThe student wrote that he had calmed down.\n\nHis skin was worse than it had been, his pulse was thinner, and he was no longer arguing because he no longer had the reserve to argue. He was not calmer. He was further along."
+        },
+        "do": {
+          "activity": "trend_direction",
+          "type": "sort_into_buckets",
+          "prompt": "Second set of observations compared with the first. Sort each change.",
+          "config": {
+            "buckets": [
+              "Getting worse",
+              "Getting better"
+            ],
+            "items": [
+              {
+                "text": "Was alert; now responds only to voice",
+                "bucket": 0
+              },
+              {
+                "text": "Skin was grey and cool; now pink and warm",
+                "bucket": 1
+              },
+              {
+                "text": "Pulse was strong at 96; now thready at 124",
+                "bucket": 0
+              },
+              {
+                "text": "Was agitated and fighting; now quiet, with greyer skin",
+                "bucket": 0
+              },
+              {
+                "text": "Was using accessory muscles; now breathing easily",
+                "bucket": 1
+              },
+              {
+                "text": "Blood pressure unchanged, but skin now cool and clammy",
+                "bucket": 0
+              },
+              {
+                "text": "Was speaking two words at a time; now full sentences",
+                "bucket": 1
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the reassessment intervals the current text gives for stable and unstable patients."
     }
   ]
 }
