@@ -3242,6 +3242,1056 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-01-Q001",
+      "concept_id": "EMT-01-04-01",
+      "style": "recall",
+      "stem": "What does simplex mean?",
+      "options": [
+        {
+          "text": "Two frequencies allowing simultaneous speech",
+          "rationale": "That describes duplex."
+        },
+        {
+          "text": "One frequency, so only one person can speak at a time",
+          "rationale": "Correct — one frequency, so only one person can speak at a time."
+        },
+        {
+          "text": "A system that automatically repeats messages",
+          "rationale": "That describes a repeater."
+        },
+        {
+          "text": "A digital encryption method",
+          "rationale": "Not what the term means."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-01-Q002",
+      "concept_id": "EMT-01-04-01",
+      "style": "recall",
+      "stem": "What does a repeater do?",
+      "options": [
+        {
+          "text": "Repeats your message back to confirm receipt",
+          "rationale": "Not its function."
+        },
+        {
+          "text": "Receives a weak signal and rebroadcasts it at higher power",
+          "rationale": "Correct — it is how a handheld reaches a distant control room."
+        },
+        {
+          "text": "Records all transmissions",
+          "rationale": "Recording is separate."
+        },
+        {
+          "text": "Converts speech to text",
+          "rationale": "Not its function."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-01-Q003",
+      "concept_id": "EMT-01-04-01",
+      "style": "application",
+      "stem": "Why should you pause after pressing transmit?",
+      "options": [
+        {
+          "text": "To let others finish speaking",
+          "rationale": "Courteous, but not the technical reason."
+        },
+        {
+          "text": "Because the channel takes a moment to open and the first fraction is lost",
+          "rationale": "Correct — because the channel takes a moment to open and the first fraction is lost."
+        },
+        {
+          "text": "To reduce battery drain",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To allow the repeater to record",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-01-Q004",
+      "concept_id": "EMT-01-04-01",
+      "style": "recall",
+      "stem": "Why do many systems prefer plain language to codes?",
+      "options": [
+        {
+          "text": "Codes are harder to remember",
+          "rationale": "Memorability is not the main issue."
+        },
+        {
+          "text": "A code can mean different things in different agencies, which matters on mutual aid",
+          "rationale": "Correct — a code can mean different things in different agencies, which matters on mutual aid."
+        },
+        {
+          "text": "Plain language transmits faster",
+          "rationale": "Not the rationale."
+        },
+        {
+          "text": "Codes are not permitted by law",
+          "rationale": "Not generally true."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-01-Q005",
+      "concept_id": "EMT-01-04-01",
+      "style": "scenario",
+      "stem": "What should you assume about anything you say on the radio?",
+      "options": [
+        {
+          "text": "That only the intended recipient hears it",
+          "rationale": "Scanners exist and recordings are kept."
+        },
+        {
+          "text": "That it is public and recorded",
+          "rationale": "Correct — and never use a patient's name."
+        },
+        {
+          "text": "That it is encrypted by default",
+          "rationale": "Not a safe assumption."
+        },
+        {
+          "text": "That it is deleted after the call",
+          "rationale": "Recordings are retained."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-02-Q001",
+      "concept_id": "EMT-01-04-02",
+      "style": "recall",
+      "stem": "What is the purpose of a radio report?",
+      "options": [
+        {
+          "text": "To provide a full clinical handover",
+          "rationale": "Handover happens in person."
+        },
+        {
+          "text": "To let the hospital prepare before you arrive",
+          "rationale": "Correct — to let the hospital prepare before you arrive."
+        },
+        {
+          "text": "To document the call",
+          "rationale": "Documentation is the written report."
+        },
+        {
+          "text": "To request permission to transport",
+          "rationale": "Not its function."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-02-Q002",
+      "concept_id": "EMT-01-04-02",
+      "style": "application",
+      "stem": "What principle orders the content of a radio report?",
+      "options": [
+        {
+          "text": "Chronological order of the call",
+          "rationale": "Chronology buries the critical detail."
+        },
+        {
+          "text": "Lead with what changes their actions",
+          "rationale": "Correct — lead with what changes their actions."
+        },
+        {
+          "text": "Alphabetical by system",
+          "rationale": "Not a usable principle."
+        },
+        {
+          "text": "Vital signs first, always",
+          "rationale": "Vitals matter but are not always the lead."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-02-Q003",
+      "concept_id": "EMT-01-04-02",
+      "style": "recall",
+      "stem": "Why do trigger words matter?",
+      "options": [
+        {
+          "text": "They sound more professional",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "They activate a pathway that mobilises people and resources before you arrive",
+          "rationale": "Correct — they activate a pathway that mobilises people and resources before you arrive."
+        },
+        {
+          "text": "They are required for billing",
+          "rationale": "Never a clinical rationale."
+        },
+        {
+          "text": "They shorten the report",
+          "rationale": "Length is not the point."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-02-Q004",
+      "concept_id": "EMT-01-04-02",
+      "style": "application",
+      "stem": "You suspect sepsis but are not certain. Should you say the word?",
+      "options": [
+        {
+          "text": "No — wait until it is confirmed",
+          "rationale": "A late alert costs a patient; a stood-down one costs the hospital almost nothing."
+        },
+        {
+          "text": "Yes — the asymmetry favours saying it",
+          "rationale": "Correct — yes — the asymmetry favours saying it."
+        },
+        {
+          "text": "Only if the temperature is raised",
+          "rationale": "A low temperature is equally concerning."
+        },
+        {
+          "text": "Only with medical direction approval",
+          "rationale": "Alerting does not generally require it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-02-Q005",
+      "concept_id": "EMT-01-04-02",
+      "style": "recall",
+      "stem": "What should be left out of a radio report?",
+      "options": [
+        {
+          "text": "Vital signs",
+          "rationale": "Vitals belong in it."
+        },
+        {
+          "text": "Patient names, editorial comment and diagnosis beyond your scope",
+          "rationale": "Correct — patient names, editorial comment and diagnosis beyond your scope."
+        },
+        {
+          "text": "Estimated time of arrival",
+          "rationale": "The ETA belongs in it."
+        },
+        {
+          "text": "Treatment given",
+          "rationale": "Treatment belongs in it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-02-Q006",
+      "concept_id": "EMT-01-04-02",
+      "style": "scenario",
+      "stem": "What should you do at the end of a radio report?",
+      "options": [
+        {
+          "text": "Hang up immediately to save air time",
+          "rationale": "Confirmation matters more than seconds."
+        },
+        {
+          "text": "Confirm receipt and understanding, and note who you spoke to",
+          "rationale": "Correct — confirm receipt and understanding, and note who you spoke to."
+        },
+        {
+          "text": "Repeat the whole report",
+          "rationale": "Repetition is not required."
+        },
+        {
+          "text": "Ask them to call you back",
+          "rationale": "Not the process."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-03-Q001",
+      "concept_id": "EMT-01-04-03",
+      "style": "recall",
+      "stem": "What does SBAR stand for?",
+      "options": [
+        {
+          "text": "Scene, Background, Airway, Report",
+          "rationale": "Not the SBAR components."
+        },
+        {
+          "text": "Situation, Background, Assessment, Recommendation",
+          "rationale": "Correct — situation, Background, Assessment, Recommendation."
+        },
+        {
+          "text": "Signs, Breathing, Assessment, Response",
+          "rationale": "Not the SBAR components."
+        },
+        {
+          "text": "Summary, Basics, Actions, Results",
+          "rationale": "Not the SBAR components."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-03-Q002",
+      "concept_id": "EMT-01-04-03",
+      "style": "recall",
+      "stem": "What does MIST stand for?",
+      "options": [
+        {
+          "text": "Mechanism, Injuries, Signs, Treatment",
+          "rationale": "Correct — commonly used in trauma."
+        },
+        {
+          "text": "Medical, Injury, Status, Transport",
+          "rationale": "Not the MIST components."
+        },
+        {
+          "text": "Movement, Impact, Speed, Time",
+          "rationale": "Not the MIST components."
+        },
+        {
+          "text": "Monitoring, Intervention, Stabilisation, Transfer",
+          "rationale": "Not the MIST components."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-03-Q003",
+      "concept_id": "EMT-01-04-03",
+      "style": "application",
+      "stem": "What information can the receiving team get ONLY from you?",
+      "options": [
+        {
+          "text": "The vital signs",
+          "rationale": "They will get those from their own monitor."
+        },
+        {
+          "text": "The scene — where and how you found the patient, and what was around them",
+          "rationale": "Correct. Nobody at hospital will ever see that house."
+        },
+        {
+          "text": "The patient's injuries",
+          "rationale": "They will find those on examination."
+        },
+        {
+          "text": "The patient's identity",
+          "rationale": "Usually available from records or the patient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-03-Q004",
+      "concept_id": "EMT-01-04-03",
+      "style": "application",
+      "stem": "Why report the trend rather than only the current value?",
+      "options": [
+        {
+          "text": "It takes less time",
+          "rationale": "It takes slightly longer and is worth it."
+        },
+        {
+          "text": "Change carries more diagnostic weight, and only you have it",
+          "rationale": "Correct — 140 falling to 96 says more than 96."
+        },
+        {
+          "text": "Protocol requires two readings",
+          "rationale": "Not the rationale."
+        },
+        {
+          "text": "Current values are unreliable",
+          "rationale": "Current values are reliable; they are just incomplete."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-03-Q005",
+      "concept_id": "EMT-01-04-03",
+      "style": "recall",
+      "stem": "When is handover complete?",
+      "options": [
+        {
+          "text": "When you finish speaking",
+          "rationale": "Speaking is not transferring."
+        },
+        {
+          "text": "When a receiving clinician has accepted the patient",
+          "rationale": "Correct — and you should know their name."
+        },
+        {
+          "text": "When the patient is off your stretcher",
+          "rationale": "Physical transfer is not clinical transfer."
+        },
+        {
+          "text": "When the paperwork is filed",
+          "rationale": "Paperwork follows the transfer."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-03-Q006",
+      "concept_id": "EMT-01-04-03",
+      "style": "scenario",
+      "stem": "A nurse is typing while you begin handing over. What should you do?",
+      "options": [
+        {
+          "text": "Continue — they can listen and type",
+          "rationale": "Handing over to the back of a head is not handing over."
+        },
+        {
+          "text": "Establish their attention first and confirm they are ready",
+          "rationale": "Correct — four seconds well spent."
+        },
+        {
+          "text": "Hand over to whoever else is nearby",
+          "rationale": "Fragments to several people leave nobody with the picture."
+        },
+        {
+          "text": "Leave the written report and go",
+          "rationale": "That is not a handover at all."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-04-Q001",
+      "concept_id": "EMT-01-04-04",
+      "style": "recall",
+      "stem": "Why ask open questions before closed ones?",
+      "options": [
+        {
+          "text": "They are quicker to answer",
+          "rationale": "They take longer individually and yield more."
+        },
+        {
+          "text": "They produce more information; closed questions pin down detail afterwards",
+          "rationale": "Correct — they produce more information; closed questions pin down detail afterwards."
+        },
+        {
+          "text": "Patients prefer them",
+          "rationale": "Preference is not the clinical reason."
+        },
+        {
+          "text": "They are easier to document",
+          "rationale": "Not the rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-04-Q002",
+      "concept_id": "EMT-01-04-04",
+      "style": "application",
+      "stem": "What is the value of allowing silence?",
+      "options": [
+        {
+          "text": "It gives you time to think",
+          "rationale": "A side benefit, not the purpose."
+        },
+        {
+          "text": "People fill silences themselves, often with the thing they were working up to",
+          "rationale": "Correct — people fill silences themselves, often with the thing they were working up to."
+        },
+        {
+          "text": "It shortens the encounter",
+          "rationale": "It may lengthen it, and is still worth it."
+        },
+        {
+          "text": "It demonstrates patience to the family",
+          "rationale": "Not the clinical reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-04-Q003",
+      "concept_id": "EMT-01-04-04",
+      "style": "recall",
+      "stem": "How should you speak to a patient with hearing impairment?",
+      "options": [
+        {
+          "text": "Loudly, so they can hear you",
+          "rationale": "Shouting distorts your mouth and makes lip-reading harder."
+        },
+        {
+          "text": "Normally, facing them, with your face visible and lit",
+          "rationale": "Correct — and write things down."
+        },
+        {
+          "text": "Through a family member only",
+          "rationale": "Not the first approach."
+        },
+        {
+          "text": "Slowly and in exaggerated syllables",
+          "rationale": "Exaggeration also distorts lip-reading."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-04-Q004",
+      "concept_id": "EMT-01-04-04",
+      "style": "application",
+      "stem": "Should a child interpret for a parent?",
+      "options": [
+        {
+          "text": "Yes, if no one else is available",
+          "rationale": "Children mistranslate and are placed in an impossible position."
+        },
+        {
+          "text": "No — use a professional interpreter service where available",
+          "rationale": "Correct, and the patient may withhold the true answer."
+        },
+        {
+          "text": "Yes, for clinical detail only",
+          "rationale": "Clinical detail is the worst case for it."
+        },
+        {
+          "text": "Yes, if the child is over 12",
+          "rationale": "Age does not resolve the problem."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-04-Q005",
+      "concept_id": "EMT-01-04-04",
+      "style": "recall",
+      "stem": "What should you do before touching a patient with visual impairment?",
+      "options": [
+        {
+          "text": "Nothing — proceed as normal",
+          "rationale": "Being touched unseen and unannounced is frightening."
+        },
+        {
+          "text": "Say what you are about to do, every time",
+          "rationale": "Correct — say what you are about to do, every time."
+        },
+        {
+          "text": "Ask a relative to do it instead",
+          "rationale": "Not necessary or appropriate."
+        },
+        {
+          "text": "Touch lightly first as a warning",
+          "rationale": "An unannounced touch is the problem."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-04-Q006",
+      "concept_id": "EMT-01-04-04",
+      "style": "scenario",
+      "stem": "A patient has a cognitive difference and a carer is present. What is the best approach?",
+      "options": [
+        {
+          "text": "Talk to the carer and let them relay everything",
+          "rationale": "Talking about somebody in front of them is a common failure."
+        },
+        {
+          "text": "Ask the carer what works, and talk TO the patient",
+          "rationale": "Correct — ask the carer what works, and talk TO the patient."
+        },
+        {
+          "text": "Talk only to the patient and exclude the carer",
+          "rationale": "The carer holds useful information."
+        },
+        {
+          "text": "Avoid conversation and proceed with assessment",
+          "rationale": "Communication is part of the assessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-05-Q001",
+      "concept_id": "EMT-01-04-05",
+      "style": "recall",
+      "stem": "What three jobs does a patient care report do?",
+      "options": [
+        {
+          "text": "Billing, scheduling and audit",
+          "rationale": "Billing is not among the clinical purposes described."
+        },
+        {
+          "text": "Clinical continuity, legal record and data source",
+          "rationale": "Correct — clinical continuity, legal record and data source."
+        },
+        {
+          "text": "Training, discipline and research",
+          "rationale": "Not the three described."
+        },
+        {
+          "text": "Handover, dispatch and transport record",
+          "rationale": "Not the three described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-05-Q002",
+      "concept_id": "EMT-01-04-05",
+      "style": "application",
+      "stem": "Why do times matter so much in a report?",
+      "options": [
+        {
+          "text": "They demonstrate efficiency",
+          "rationale": "Efficiency is not the clinical purpose."
+        },
+        {
+          "text": "They turn separate observations into a trend",
+          "rationale": "Correct — and the trend is often the important thing."
+        },
+        {
+          "text": "They are required for billing",
+          "rationale": "Not the clinical rationale."
+        },
+        {
+          "text": "They prove the crew was present",
+          "rationale": "Not the purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-05-Q003",
+      "concept_id": "EMT-01-04-05",
+      "style": "application",
+      "stem": "Which is the better record?",
+      "options": [
+        {
+          "text": "Patient was aggressive",
+          "rationale": "That is your interpretation."
+        },
+        {
+          "text": "Patient shouted, swore and pushed the trolley away",
+          "rationale": "Correct — objective, and it lets a reader form their own view."
+        },
+        {
+          "text": "Patient was difficult throughout",
+          "rationale": "A characterisation, not an observation."
+        },
+        {
+          "text": "Patient had a poor attitude",
+          "rationale": "A judgement rather than a finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-05-Q004",
+      "concept_id": "EMT-01-04-05",
+      "style": "recall",
+      "stem": "Why record pertinent negatives?",
+      "options": [
+        {
+          "text": "To lengthen the report",
+          "rationale": "Length is not the purpose."
+        },
+        {
+          "text": "Because documented absence of a sought finding evidences that you looked",
+          "rationale": "Correct — omission looks identical to not checking."
+        },
+        {
+          "text": "Because protocol requires a minimum word count",
+          "rationale": "Never a requirement."
+        },
+        {
+          "text": "To demonstrate thoroughness to management",
+          "rationale": "Not the clinical reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-05-Q005",
+      "concept_id": "EMT-01-04-05",
+      "style": "recall",
+      "stem": "What is the practical assumption about undocumented care?",
+      "options": [
+        {
+          "text": "That it happened but was not written",
+          "rationale": "Not how retrospective reconstruction works."
+        },
+        {
+          "text": "That it did not happen",
+          "rationale": "Correct, in practice."
+        },
+        {
+          "text": "That it was delegated",
+          "rationale": "Not the assumption."
+        },
+        {
+          "text": "That it was not necessary",
+          "rationale": "Not the assumption."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-05-Q006",
+      "concept_id": "EMT-01-04-05",
+      "style": "scenario",
+      "stem": "What standard should you write to?",
+      "options": [
+        {
+          "text": "Your crewmate understanding it",
+          "rationale": "They were there and need no report."
+        },
+        {
+          "text": "A stranger reading it in three years with no other source",
+          "rationale": "Correct — that is the actual reader."
+        },
+        {
+          "text": "The receiving nurse only",
+          "rationale": "They get a verbal handover as well."
+        },
+        {
+          "text": "Whatever fits on one page",
+          "rationale": "Length is not the standard."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-06-Q001",
+      "concept_id": "EMT-01-04-06",
+      "style": "recall",
+      "stem": "How is an error on a paper record corrected?",
+      "options": [
+        {
+          "text": "Scribbled out and rewritten",
+          "rationale": "Obliteration looks like concealment."
+        },
+        {
+          "text": "A single line through, leaving it readable, with correction, initials and date",
+          "rationale": "Correct — a single line through, leaving it readable, with correction, initials and date."
+        },
+        {
+          "text": "Covered with correction fluid",
+          "rationale": "Never acceptable."
+        },
+        {
+          "text": "Erased and overwritten",
+          "rationale": "Never acceptable."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-06-Q002",
+      "concept_id": "EMT-01-04-06",
+      "style": "recall",
+      "stem": "Why must the original entry remain readable?",
+      "options": [
+        {
+          "text": "To save time rewriting",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because an unreadable correction looks like concealment, whatever your intent",
+          "rationale": "Correct — because an unreadable correction looks like concealment, whatever your intent."
+        },
+        {
+          "text": "Because paper cannot be erased cleanly",
+          "rationale": "Not the rationale."
+        },
+        {
+          "text": "Because protocol requires a minimum legibility standard",
+          "rationale": "Not the reason given."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-06-Q003",
+      "concept_id": "EMT-01-04-06",
+      "style": "application",
+      "stem": "What must a late entry include?",
+      "options": [
+        {
+          "text": "Only the time of the event",
+          "rationale": "Both times are needed."
+        },
+        {
+          "text": "A clear late entry label and BOTH times — the event and the entry",
+          "rationale": "Correct — a clear late entry label and BOTH times — the event and the entry."
+        },
+        {
+          "text": "Only the time it was written",
+          "rationale": "Both times are needed."
+        },
+        {
+          "text": "A supervisor's signature",
+          "rationale": "Not generally required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-06-Q004",
+      "concept_id": "EMT-01-04-06",
+      "style": "recall",
+      "stem": "What counts as falsification?",
+      "options": [
+        {
+          "text": "Any spelling mistake",
+          "rationale": "Errors are not falsification."
+        },
+        {
+          "text": "Recording what did not happen, omitting what did, or altering meaning",
+          "rationale": "Correct, along with back-dating and recording unperformed observations."
+        },
+        {
+          "text": "Writing the report after the call",
+          "rationale": "Normal practice, and acceptable if labelled where late."
+        },
+        {
+          "text": "Using abbreviations",
+          "rationale": "Not falsification."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-06-Q005",
+      "concept_id": "EMT-01-04-06",
+      "style": "application",
+      "stem": "You learn the patient died and want to add detail clarifying your reasoning. What should you do?",
+      "options": [
+        {
+          "text": "Add it — a clearer record is better",
+          "rationale": "This is the most dangerous instinct in documentation."
+        },
+        {
+          "text": "Not alter it — systems log the edit, and it converts a defensible error into an integrity problem",
+          "rationale": "Correct — not alter it — systems log the edit, and it converts a defensible error into an integrity problem."
+        },
+        {
+          "text": "Rewrite the whole report accurately",
+          "rationale": "Rewriting after an outcome is worse, not better."
+        },
+        {
+          "text": "Ask a colleague to add it under their login",
+          "rationale": "Amending under another login is prohibited."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-06-Q006",
+      "concept_id": "EMT-01-04-06",
+      "style": "sequence",
+      "stem": "You realise afterwards that a report is genuinely wrong. What do you do?",
+      "options": [
+        {
+          "text": "Leave it — altering it looks worse",
+          "rationale": "Honest correction is the right answer."
+        },
+        {
+          "text": "Correct it properly, label it, and tell somebody",
+          "rationale": "Correct — an open correction is defensible."
+        },
+        {
+          "text": "Delete the report and write a new one",
+          "rationale": "Deletion is falsification."
+        },
+        {
+          "text": "Correct it quietly without telling anyone",
+          "rationale": "Disclosure is part of what makes it defensible."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

@@ -51,6 +51,18 @@
         "EMT-01-03-07",
         "EMT-01-03-08"
       ]
+    },
+    {
+      "id": "EMT-01-04",
+      "title": "Communications and documentation",
+      "concepts": [
+        "EMT-01-04-01",
+        "EMT-01-04-02",
+        "EMT-01-04-03",
+        "EMT-01-04-04",
+        "EMT-01-04-05",
+        "EMT-01-04-06"
+      ]
     }
   ],
   "concepts": [
@@ -2836,6 +2848,963 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm YOUR jurisdiction's Good Samaritan provisions, whether they extend to on-duty providers, and whether an off-duty duty to act exists — all three vary substantially and none is stated definitively here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-01",
+      "title": "Radio systems and etiquette",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-01-04-02",
+        "EMT-08-04-01"
+      ],
+      "key_points": [
+        "Simplex radios transmit and receive on one frequency, so only one person can speak at a time",
+        "Duplex systems use two frequencies and allow both parties to speak at once, like a telephone",
+        "A repeater receives a weak signal and rebroadcasts it at higher power, which is how portable radios reach far away",
+        "Press the transmit button, pause briefly, then speak — the first half-second of speech is routinely cut off",
+        "Speak across the microphone rather than into it, at a normal pace and volume, and keep it a consistent distance away",
+        "Be brief, be clear, and think about what you are going to say before you press the button",
+        "Use plain language: many systems have moved away from codes because they are inconsistent between agencies",
+        "Never use a patient's name on the radio, and never say anything you would not want broadcast — because it is",
+        "Acknowledge that you received a message, and ask for a repeat rather than guessing"
+      ],
+      "misconceptions": [
+        "Speaking immediately on pressing transmit",
+        "Shouting into a radio when the signal is poor",
+        "Using agency-specific codes with an agency that does not share them",
+        "Saying a patient's name over the air"
+      ],
+      "exam_favorites": [
+        "Simplex versus duplex",
+        "Why the first half-second is lost",
+        "Plain language over codes"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A few pieces of vocabulary, then the part that actually matters.\n\nSimplex means one frequency: transmit and receive on the same channel, so only one person can speak at a time. Push to talk, release to listen. Most portable radio traffic works this way, which is why talking over each other loses both messages.\n\nDuplex uses two frequencies, so both parties can speak and hear at once, like a telephone. Some hospital notification systems work this way.\n\nA repeater sits somewhere high, receives a weak signal from a handheld radio, and rebroadcasts it at much higher power. It is why a small radio in a basement can reach a control room forty miles away — and why, when you are out of repeater range, that same radio suddenly cannot reach anybody.\n\nNow the practical habits, which matter more than the theory.\n\nPress the button, pause for about half a second, then speak. Radios take a moment to open the channel, and the first fraction of what you say is routinely lost. Everybody who has ever said 'Medic 4' and heard 'say again' knows this without knowing why.\n\nHold the microphone a consistent distance away and speak across it rather than directly into it, which reduces popping. Normal pace, normal volume. Shouting into a radio when the signal is poor makes you less intelligible, not more — the problem is the signal, not your volume.\n\nThink before you press. The most common radio failure is not technical; it is somebody transmitting while still working out what they want to say. Compose it first, then key up.\n\nUse plain language. Many systems have moved away from numeric codes, because a code that means one thing in your agency means something else in the one next door, and mutual aid incidents are exactly where that matters. Say what you mean.\n\nAnd two things never to do. Do not use a patient's name over the air. And do not say anything you would not want broadcast — because it is being broadcast, and scanners exist, and recordings are kept.\n\nFinally, acknowledge what you receive so the other party knows it arrived, and ask for a repeat rather than guessing. Guessing at a half-heard address costs far more time than asking.",
+          "standard": "Simplex radio systems transmit and receive on a single frequency, permitting unidirectional communication at any moment. Duplex systems employ paired frequencies enabling simultaneous bidirectional communication. Repeaters receive low-power transmissions and rebroadcast at higher power from elevated positions, extending portable radio range; coverage ceases beyond repeater range. Operational technique requires a brief pause following key activation before speech, as initial transmission is routinely truncated during channel establishment. The microphone is held at consistent distance with speech directed across rather than into it, at normal rate and volume; increased volume does not improve intelligibility where signal quality is the limiting factor. Message composition precedes transmission. Plain language is preferred to numeric codes, which vary between agencies and create ambiguity during mutual aid operations. Patient identifiers are not transmitted. All transmissions are presumed public and recorded. Receipt is acknowledged and clarification requested rather than assumed."
+        },
+        "eli_new": {
+          "analogy": "A radio is a corridor one person can walk down at a time. Two people setting off at once means nobody gets through.",
+          "body": "Press, wait half a second, then talk. That one habit fixes most of the 'say again' traffic you will ever hear, and almost nobody is taught why it happens."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain simplex, duplex and repeaters, and the habits of good radio use.",
+          "must_hit": [
+            {
+              "point": "Simplex is one frequency — one person at a time",
+              "accept": [
+                "simplex",
+                "one frequency",
+                "one person",
+                "push to talk"
+              ]
+            },
+            {
+              "point": "Duplex uses two frequencies and allows both to speak at once",
+              "accept": [
+                "duplex",
+                "two",
+                "both",
+                "simultan",
+                "telephone"
+              ]
+            },
+            {
+              "point": "A repeater rebroadcasts a weak signal at higher power",
+              "accept": [
+                "repeat",
+                "rebroadcast",
+                "power",
+                "range",
+                "extend"
+              ]
+            },
+            {
+              "point": "Pause after pressing transmit before speaking",
+              "accept": [
+                "pause",
+                "wait",
+                "press",
+                "first",
+                "cut off"
+              ]
+            },
+            {
+              "point": "Think before you key up; be brief and clear",
+              "accept": [
+                "think",
+                "compose",
+                "brief",
+                "clear",
+                "before"
+              ]
+            },
+            {
+              "point": "Plain language rather than codes",
+              "accept": [
+                "plain",
+                "language",
+                "code",
+                "agency",
+                "mutual aid"
+              ]
+            },
+            {
+              "point": "No patient names, and assume everything is public",
+              "accept": [
+                "name",
+                "public",
+                "broadcast",
+                "scanner",
+                "record"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Say again",
+          "dispatch": "Control — four transmissions, three of them repeated.",
+          "body": "Every one began with a unit number that nobody heard, because the speaking started at the same instant as the button.\n\nThe fourth crew pressed, counted one, and then spoke.\n\nControl got it first time, which is roughly thirty seconds saved across four messages and considerably more across a shift."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm radio terminology and your own service's radio procedure, including whether codes or plain language are used, against the current text and local policy."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-02",
+      "title": "The radio report and hospital notification",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-04-01",
+        "EMT-01-04-03",
+        "EMT-05-09-03"
+      ],
+      "key_points": [
+        "The radio report tells the hospital what is coming so they can prepare, and it is not a full handover",
+        "Keep it short: unit, level of care, age and sex, chief complaint, brief history, vital signs, treatment given, and estimated arrival",
+        "Lead with what changes what they do — a critical patient, a stroke alert, a trauma activation, a cardiac arrest",
+        "Say the trigger word if there is one: sepsis, stroke, STEMI, major trauma — those words mobilise a team",
+        "Give an honest estimated time of arrival, and update it if it changes substantially",
+        "Do not editorialise, speculate on diagnosis beyond your scope, or use a patient's name",
+        "Ask for what you need: a resuscitation room, a paramedic intercept, a specific specialty",
+        "Confirm the hospital received and understood, and note the name of who you spoke to"
+      ],
+      "misconceptions": [
+        "Giving a full narrative on the radio",
+        "Burying the critical detail at the end",
+        "Not using the trigger word because it feels dramatic",
+        "Giving an unrealistic arrival time"
+      ],
+      "exam_favorites": [
+        "What a radio report contains",
+        "Leading with what changes their actions",
+        "Trigger words"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The radio report is not a handover. It is a heads-up, and its only job is to let the hospital prepare before you get there.\n\nThat purpose decides its shape. Everything in it should be something that changes what they do in the next few minutes. Everything else waits until you are standing in front of them.\n\nA workable order: who you are and what level of care. Age and sex. The chief complaint. A brief relevant history. Vital signs. What you have done. Estimated time of arrival. Anything you need on arrival.\n\nBut the order matters less than one principle: lead with what changes their actions. If this is a critical patient, say so in the first sentence. A hospital that discovers on sentence six that you are bringing a cardiac arrest has lost five sentences of preparation.\n\nWhich brings us to trigger words, and these are worth taking seriously. Sepsis. Stroke. STEMI. Major trauma. Cardiac arrest. In most systems those words activate a specific pathway — a team is pulled together, a scanner is cleared, a theatre is warned. Saying 'query sepsis' does something that 'unwell elderly patient' does not, and the difference is measured in people already waiting when your doors open.\n\nSay the word if it applies. It can feel dramatic, particularly when you are not certain. That hesitancy costs patients time, and a stood-down alert costs a hospital almost nothing.\n\nGive an honest arrival time. Guessing short to sound efficient means a team standing waiting; guessing long means they are not ready. And update it if it changes significantly.\n\nA few things to leave out. Do not editorialise — the radio is not the place for your view of the family or the scene. Do not offer a diagnosis beyond your scope; describe findings and let them interpret. And no names.\n\nAsk for what you need. A resuscitation room. A paramedic intercept en route. A specific specialty team standing by. They cannot arrange what you did not ask for.\n\nAnd confirm it landed — that they received it and understood it, and who you spoke to. A report nobody acted on is the same as a report nobody made.",
+          "standard": "The prearrival radio report provides advance notification to enable facility preparation and does not constitute formal handover. Content comprises unit identification and level of care, patient age and sex, chief complaint, pertinent history, vital signs, interventions performed, estimated time of arrival and specific requirements on arrival. Information is prioritised by its effect on receiving facility action, with critical status communicated in the opening sentence. Institutional trigger terminology — sepsis, stroke, ST-elevation myocardial infarction, major trauma, cardiac arrest — activates predetermined pathways mobilising personnel and resources, and should be used where criteria are met despite diagnostic uncertainty; deactivation of an alert carries minimal institutional cost relative to delayed activation. Estimated arrival times are stated accurately and updated on material change. Editorial comment, diagnostic speculation beyond scope and patient identifiers are excluded. Specific resource requests are made explicitly. Receipt and comprehension are confirmed with documentation of the recipient."
+        },
+        "eli_new": {
+          "analogy": "A radio report is a telegram, not a letter. Everything in it should earn its place by changing what somebody does before you arrive.",
+          "body": "Say the trigger word. It feels dramatic when you are not certain, and a stood-down alert costs a hospital almost nothing while a late one costs a patient a great deal."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe what a radio report contains and what principle orders it.",
+          "must_hit": [
+            {
+              "point": "It is advance notification so the hospital can prepare, not a handover",
+              "accept": [
+                "notification",
+                "prepare",
+                "not handover",
+                "heads-up",
+                "advance"
+              ]
+            },
+            {
+              "point": "Unit and level, age and sex, complaint, history, vitals, treatment, ETA",
+              "accept": [
+                "unit",
+                "age",
+                "complaint",
+                "history",
+                "vital",
+                "treatment",
+                "eta"
+              ]
+            },
+            {
+              "point": "Lead with what changes their actions",
+              "accept": [
+                "lead",
+                "first",
+                "critical",
+                "changes",
+                "actions"
+              ]
+            },
+            {
+              "point": "Use trigger words: sepsis, stroke, STEMI, major trauma",
+              "accept": [
+                "sepsis",
+                "stroke",
+                "stemi",
+                "trauma",
+                "trigger",
+                "alert"
+              ]
+            },
+            {
+              "point": "Give an honest ETA and update it",
+              "accept": [
+                "eta",
+                "honest",
+                "accurate",
+                "update",
+                "time"
+              ]
+            },
+            {
+              "point": "No names, no editorialising, no diagnosis beyond scope",
+              "accept": [
+                "name",
+                "editorial",
+                "diagnos",
+                "scope",
+                "describe"
+              ]
+            },
+            {
+              "point": "Ask for what you need and confirm it was received",
+              "accept": [
+                "ask",
+                "need",
+                "resus",
+                "confirm",
+                "received",
+                "who"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Sentence six",
+          "dispatch": "Hospital feedback — pre-alert for a cardiac arrest.",
+          "body": "The report was thorough and well organised and gave the history in careful order.\n\nThe word arrest appeared about forty seconds in.\n\nThe team that would have been assembled in those forty seconds was instead assembled afterwards, which is the same team arriving later."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm your service's radio report format and your region's alert trigger criteria against the current text and local policy, as both vary."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-03",
+      "title": "Verbal handover at the bedside",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-04-02",
+        "EMT-01-03-04",
+        "EMT-03-06-01"
+      ],
+      "key_points": [
+        "Handover is the moment care transfers, and most information lost in a patient's journey is lost here",
+        "Use a structure so nothing is dropped — SBAR and MIST are two common ones and your service may specify",
+        "SBAR: Situation, Background, Assessment, Recommendation",
+        "MIST: Mechanism, Injuries, Signs, Treatment — commonly used for trauma",
+        "Get the receiving clinician's attention first and make sure they are actually listening before you start",
+        "Give it once, to the person taking over, rather than in fragments to whoever is passing",
+        "Include what you found that they cannot see: the scene, the position you found them in, what the family said, what the house looked like",
+        "Say what has changed during your care, not only the current state",
+        "Handover is not complete until somebody has accepted the patient, and you should know their name"
+      ],
+      "misconceptions": [
+        "Starting a handover before the receiving clinician is listening",
+        "Giving fragments to several different people",
+        "Reporting only current observations and omitting the trend",
+        "Leaving before anybody has accepted the patient"
+      ],
+      "exam_favorites": [
+        "SBAR and MIST",
+        "The information only you have",
+        "When handover is complete"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Handover is the point at which care transfers from you to somebody else, and more information is lost at handovers than anywhere else in a patient's journey through the system. Not in assessment, not in treatment — in the transfer.\n\nSo use a structure. It stops you dropping things when you are tired or when the department is loud.\n\nSBAR is one: Situation — who this is and what is wrong now. Background — the relevant history. Assessment — what you found, including vital signs. Recommendation — what you think they need.\n\nMIST is another, used commonly for trauma: Mechanism — what happened. Injuries — what you found. Signs — vital signs and their trend. Treatment — what you did and how they responded.\n\nYour service may specify one; if it does, use it, because a structure everybody shares is worth more than a better structure only you use.\n\nBefore any of it: get the receiving clinician's attention and check they are actually listening. Handing over to somebody typing, or to the back of a head, is not handing over. A short 'are you ready for this one?' and waiting for an answer is worth the four seconds.\n\nGive it once, to the person taking over. Not in fragments to whoever passes — that produces four people with a quarter each and nobody with the whole picture.\n\nAnd here is the part with the most value in it: include what you found that they cannot see. They will get the vital signs from the monitor and the injuries from examining. What they can never get is the scene. That she was found on the floor and had been there since yesterday. That there were eleven empty packets by the chair. That the house was freezing. That her son said she has not been herself for a week. That is information that exists nowhere except in your head, and once you leave, it is gone.\n\nSay what has changed, not just what is. 'Blood pressure is 96' is a number. 'Blood pressure was 140 on scene and is 96 now' is a diagnosis in progress. The trend is frequently more useful than the value, and only you have it.\n\nAnd handover is not complete until somebody has accepted the patient. Not when you finished talking — when somebody took responsibility. Know their name, and write it down.",
+          "standard": "Handover constitutes the transfer of clinical responsibility and represents the point of greatest information loss in the patient pathway. Structured formats reduce omission: SBAR comprises Situation, Background, Assessment and Recommendation; MIST comprises Mechanism, Injuries, Signs and Treatment and is commonly applied in trauma. Where service policy specifies a format, shared structure confers greater benefit than individual preference. Handover requires the receiving clinician's attention to be established and confirmed prior to commencement; delivery to an inattentive recipient does not constitute transfer. Handover is delivered once to the accepting clinician rather than in fragments to multiple recipients. Content should include information unavailable to the receiving facility: scene findings, patient position and duration, environmental conditions, medication packaging, and collateral history. Trends are reported alongside current values, as change carries greater diagnostic weight and is uniquely available to the transporting crew. Transfer is complete only on acceptance by a receiving clinician, whose identity should be recorded."
+        },
+        "eli_new": {
+          "analogy": "The monitor gives them the numbers and the examination gives them the injuries. The only thing they cannot get without you is the room you found the patient in.",
+          "body": "The most valuable ninety seconds of a handover is the part nobody asks for: what the scene looked like. Nobody at the hospital will ever see that house, and once you drive away, everything you noticed in it disappears unless you said it out loud."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why handover matters, name a structure, and say what only you can contribute.",
+          "must_hit": [
+            {
+              "point": "Most information loss in a patient's journey happens at handover",
+              "accept": [
+                "loss",
+                "handover",
+                "transfer",
+                "information",
+                "journey"
+              ]
+            },
+            {
+              "point": "SBAR: Situation, Background, Assessment, Recommendation",
+              "accept": [
+                "sbar",
+                "situation",
+                "background",
+                "assessment",
+                "recommendation"
+              ]
+            },
+            {
+              "point": "MIST: Mechanism, Injuries, Signs, Treatment",
+              "accept": [
+                "mist",
+                "mechanism",
+                "injur",
+                "signs",
+                "treatment"
+              ]
+            },
+            {
+              "point": "Establish the recipient's attention before starting",
+              "accept": [
+                "attention",
+                "listening",
+                "ready",
+                "before",
+                "establish"
+              ]
+            },
+            {
+              "point": "Give it once, to the person taking over",
+              "accept": [
+                "once",
+                "one person",
+                "taking over",
+                "fragment"
+              ]
+            },
+            {
+              "point": "Include the scene and collateral history — what they cannot get without you",
+              "accept": [
+                "scene",
+                "house",
+                "floor",
+                "family",
+                "said",
+                "cannot"
+              ]
+            },
+            {
+              "point": "Report trends, not just current values",
+              "accept": [
+                "trend",
+                "change",
+                "was",
+                "now",
+                "not just"
+              ]
+            },
+            {
+              "point": "Handover is complete only on acceptance — know the name",
+              "accept": [
+                "accept",
+                "complete",
+                "name",
+                "responsib",
+                "record"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Since yesterday",
+          "dispatch": "Handover — elderly female, found on the floor at home.",
+          "body": "The vital signs were all handed over accurately and the injuries were described precisely, and it was a good clean handover.\n\nNobody said she had been on that floor since the previous afternoon, or that the heating had been off.\n\nThe monitor could tell them everything except the only thing that mattered about the last eighteen hours."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "SBAR / MIST",
+          "expansion": [
+            "S — SITUATION: who this is and what is wrong right now",
+            "B — BACKGROUND: the history that matters to this problem",
+            "A — ASSESSMENT: what you found, including vital signs and their trend",
+            "R — RECOMMENDATION: what you think they need",
+            "M — MECHANISM: what happened (trauma)",
+            "I — INJURIES: what you found",
+            "S — SIGNS: vital signs AND the trend",
+            "T — TREATMENT: what you did and how they responded",
+            "AND THE PART NO STRUCTURE PROMPTS: the scene. What you saw that nobody at hospital ever will."
+          ],
+          "memory_image": "Two structures, one job: stop things being dropped when you are tired and the department is loud. Use whichever your service specifies."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm your service's specified handover format against local policy; SBAR and MIST are common examples rather than universal standards."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-04",
+      "title": "Therapeutic communication and special communication needs",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-04-03",
+        "EMT-07-04-05",
+        "EMT-07-05-01"
+      ],
+      "key_points": [
+        "How you communicate changes what the patient tells you, and therefore what you find",
+        "Get to their eye level, use their name, introduce yourself, and say what you are going to do",
+        "Ask open questions first and narrow down, rather than starting with a list of yes or no questions",
+        "Allow silence — people fill it, and what they fill it with is often the important part",
+        "Do not interrupt early: patients who are allowed to finish give more useful histories",
+        "For hearing impairment: face them, make sure your face is visible and lit, speak normally rather than shouting, and write things down",
+        "For visual impairment: say who you are and who else is there, describe what is about to happen, and say when you are touching them",
+        "For limited English: use a professional interpreter service where available, and avoid using family members for clinical detail where possible",
+        "For cognitive or developmental difference: ask the person who knows them what normally works, and follow it"
+      ],
+      "misconceptions": [
+        "Shouting at a patient with hearing loss",
+        "Talking about a patient in front of them as though they are not there",
+        "Using a child as an interpreter for a parent",
+        "Standing over a patient while asking them to trust you"
+      ],
+      "exam_favorites": [
+        "Open questions before closed",
+        "Allowing silence",
+        "Communicating with sensory impairment"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Communication is not a soft skill sitting beside the clinical work. It is the instrument you use to gather the history, and the history is most of the diagnosis. How you talk changes what you are told, which changes what you find.\n\nStart with position. Get down to their eye level. A person standing over you is an authority figure; a person sitting at your level is somebody you talk to. Kneeling beside an armchair rather than looming over it changes the conversation measurably.\n\nSay who you are and what you do. Use their name, and use the name they want — ask, rather than defaulting to a first name with an eighty-year-old. And say what you are going to do before you do it, every time.\n\nAsk open questions first. 'Tell me what happened' produces more than 'did it start suddenly?' Start wide, then narrow. Closed questions are for pinning down detail once you know roughly where you are.\n\nThen allow silence. This is the hardest one, because silence is uncomfortable and the instinct is to fill it with another question. People fill silences themselves, and what they fill them with is often the thing they were working up to. Count to three before you speak again.\n\nAnd do not interrupt. Patients who are allowed to finish give better histories, and they take less time overall than patients who are steered from the first sentence.\n\nSome specific situations.\n\nHearing impairment: face them, make sure your face is visible and lit, and speak normally rather than shouting — shouting distorts your mouth and makes lip-reading harder. Reduce background noise if you can. Write things down. Ask what works for them, because they know.\n\nVisual impairment: say who you are as you arrive and who else is in the room. Describe what is about to happen. Say when you are about to touch them, every time, because being touched without warning when you cannot see it coming is frightening.\n\nLimited English: use a professional interpreter service where one is available. Avoid relying on family for clinical detail where you can, and particularly avoid using children — they mistranslate, they are put in an impossible position, and the patient may not say the true thing in front of them.\n\nCognitive or developmental difference: the person who knows them usually knows what works. Ask. And talk to the patient, not only about them — talking about somebody in front of them as though they are not there is one of the most common and least noticed failures in this job.",
+          "standard": "Communication technique determines the quality of history obtained and consequently the accuracy of assessment. Positioning at patient eye level alters the interaction from authority-based to collaborative. Providers introduce themselves, establish the patient's preferred form of address, and describe interventions before performing them. Open questioning precedes closed questioning, producing greater volume of relevant information; closed questions serve to clarify detail subsequently. Tolerance of silence permits patient elaboration, frequently yielding significant information. Premature interruption reduces history quality without reducing total encounter duration. Hearing impairment requires facial visibility and illumination, normal speech volume as shouting distorts articulation and impedes lip-reading, background noise reduction and written communication. Visual impairment requires verbal identification of providers present, description of intended actions and announcement prior to physical contact. Limited English proficiency requires professional interpretation where available; family interpretation is avoided for clinical content, and paediatric interpretation is specifically inappropriate. Cognitive and developmental difference requires consultation with familiar carers regarding effective approach, with communication directed to the patient rather than exclusively about them."
+        },
+        "eli_new": {
+          "analogy": "The history is most of the diagnosis, and how you ask is the instrument you gather it with. A blunt instrument gathers less.",
+          "body": "Count to three before filling a silence. It feels much longer than it is, and the thing people say after that pause is very often the thing they had been deciding whether to tell you."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the techniques that improve history-taking and how you adapt for sensory impairment.",
+          "must_hit": [
+            {
+              "point": "Get to eye level, introduce yourself, use their preferred name",
+              "accept": [
+                "eye level",
+                "introduce",
+                "name",
+                "kneel",
+                "down"
+              ]
+            },
+            {
+              "point": "Open questions first, then narrow to closed",
+              "accept": [
+                "open",
+                "closed",
+                "narrow",
+                "tell me",
+                "first"
+              ]
+            },
+            {
+              "point": "Allow silence and do not interrupt",
+              "accept": [
+                "silence",
+                "interrupt",
+                "pause",
+                "finish",
+                "wait"
+              ]
+            },
+            {
+              "point": "Hearing impairment: face them, normal volume not shouting, write things down",
+              "accept": [
+                "face",
+                "shout",
+                "normal",
+                "write",
+                "lip",
+                "noise"
+              ]
+            },
+            {
+              "point": "Visual impairment: say who is there, describe actions, warn before touching",
+              "accept": [
+                "who",
+                "describe",
+                "touch",
+                "warn",
+                "announce"
+              ]
+            },
+            {
+              "point": "Limited English: professional interpreter, not children",
+              "accept": [
+                "interpret",
+                "english",
+                "family",
+                "child",
+                "professional"
+              ]
+            },
+            {
+              "point": "Cognitive difference: ask the person who knows them, and talk TO the patient",
+              "accept": [
+                "carer",
+                "knows",
+                "ask",
+                "to the patient",
+                "not about"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Three seconds",
+          "dispatch": "Medic 7 — 66-year-old female, vague abdominal discomfort, two days.",
+          "body": "She gave a short answer and stopped, and the student had the next question ready and did not ask it.\n\nAfter about three seconds she said 'and I've been passing black stools since Tuesday', which she had not mentioned to anybody.\n\nThat sentence was the whole call, and it existed in a silence somebody nearly filled."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm communication guidance and your service's access to professional interpretation against the current text and local policy."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-05",
+      "title": "The patient care report and its legal weight",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-04",
+        "EMT-01-03-03",
+        "EMT-01-04-06"
+      ],
+      "key_points": [
+        "The patient care report is a clinical document, a legal document and a data source, all at once",
+        "It continues care: the next clinician reads it, sometimes days later, to understand what happened before them",
+        "It is the record that will be read if anything is ever questioned, and it may be read years afterwards",
+        "Record what you observed and what you did, with times — times are what turn observations into a trend",
+        "Write objectively: what you saw, heard, measured and were told, rather than your opinion about it",
+        "Quote the patient where their words matter, in quotation marks",
+        "If it is not written down, the practical assumption afterwards is that it did not happen",
+        "Record negatives that matter: the absence of a finding you specifically looked for is a finding",
+        "Write it as though a stranger will read it in three years and will have no other source — because that is what happens"
+      ],
+      "misconceptions": [
+        "Recording conclusions instead of observations",
+        "Omitting times",
+        "Leaving out things you checked and found normal",
+        "Writing it late from memory"
+      ],
+      "exam_favorites": [
+        "The three jobs a report does",
+        "Objective recording versus opinion",
+        "Pertinent negatives"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A patient care report does three jobs at once, and each one shapes how you write it.\n\nIt is a clinical document. The next clinician reads it to understand what happened before they arrived — sometimes immediately, sometimes days later when the patient deteriorates and somebody goes back to see what they were like at the start.\n\nIt is a legal document. If anything is ever questioned, this is the record. It may be read years later by people who were not there, and it will be the only account of what you found and why you did what you did.\n\nAnd it is data. Aggregated across thousands of calls it is what quality improvement runs on, and vague reports make that process blind.\n\nWhat goes in it: what you observed, and what you did, with times.\n\nTimes deserve emphasis. A blood pressure is a number. A blood pressure with a time beside it, next to another one twenty minutes later, is a trend, and the trend is frequently the clinically important thing. Times are what turn a list of observations into a story.\n\nWrite objectively. Record what you saw, heard, measured and were told. Not what you concluded about it. 'Patient was aggressive' is your interpretation; 'patient shouted, swore, and pushed the trolley away' is what happened, and it lets somebody else form their own view. The second is more useful and far more defensible.\n\nQuote the patient where their words matter. 'I can't breathe' in quotation marks is stronger evidence than 'complained of breathlessness', and in a refusal it may be the most important line in the document.\n\nThe practical rule everybody quotes: if it is not written down, the assumption afterwards is that it did not happen. That is not quite fair — plenty of things happen and go unrecorded — but it is how it works in practice when somebody is reconstructing a call from paper.\n\nWhich is why pertinent negatives matter. If you specifically looked for something and it was not there, write that down. 'No chest pain' and 'abdomen soft and non-tender' are findings, because they record that you looked. A report that omits them looks identical to a report written by somebody who never checked.\n\nAnd write it as though a stranger will read it in three years with no other source. Not your crewmate, who was there. A stranger, later, who has nothing else. That standard produces a report that does all three jobs.",
+          "standard": "The patient care report functions simultaneously as a clinical document informing continuing care, a legal record subject to subsequent scrutiny, and a data source for quality improvement. Clinical continuity requires that subsequent providers can reconstruct the prehospital course, potentially at temporal remove. Legal function requires that the record support the reasoning behind decisions to readers without direct knowledge, potentially years later. Content comprises observations and interventions with associated times; temporal annotation converts discrete observations into trends, which frequently carry greater clinical significance than isolated values. Documentation is objective, recording observed, measured and reported information rather than interpretive conclusion; behavioural description is preferred to characterisation. Patient statements of significance are recorded verbatim within quotation marks, particularly in refusal documentation. Undocumented care is presumptively treated as not performed during retrospective reconstruction. Pertinent negatives are recorded, as documented absence of a specifically sought finding evidences examination; omission is indistinguishable from failure to assess. The standard for composition is comprehensibility to an unfamiliar reader at significant temporal remove without supplementary sources."
+        },
+        "eli_new": {
+          "analogy": "Write it for a stranger reading it in three years with nothing else to go on. That is not a worst case. That is the actual reader.",
+          "body": "Pertinent negatives are the bit people skip. Writing 'abdomen soft and non-tender' takes four seconds and records that you looked. A report without it is indistinguishable from one written by somebody who never examined the abdomen at all."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the three jobs a patient care report does and how it should be written.",
+          "must_hit": [
+            {
+              "point": "Clinical document, legal document and data source",
+              "accept": [
+                "clinical",
+                "legal",
+                "data",
+                "three",
+                "quality"
+              ]
+            },
+            {
+              "point": "The next clinician reads it to understand what happened before them",
+              "accept": [
+                "next",
+                "clinician",
+                "continu",
+                "before",
+                "read"
+              ]
+            },
+            {
+              "point": "Record observations and actions with times",
+              "accept": [
+                "time",
+                "observ",
+                "action",
+                "record",
+                "when"
+              ]
+            },
+            {
+              "point": "Times turn observations into a trend",
+              "accept": [
+                "trend",
+                "time",
+                "change",
+                "compare",
+                "story"
+              ]
+            },
+            {
+              "point": "Write objectively — what you saw, not what you concluded",
+              "accept": [
+                "objective",
+                "observ",
+                "conclu",
+                "opinion",
+                "interpret"
+              ]
+            },
+            {
+              "point": "Quote the patient where their words matter",
+              "accept": [
+                "quote",
+                "words",
+                "verbatim",
+                "own words"
+              ]
+            },
+            {
+              "point": "Record pertinent negatives — absence of a sought finding is a finding",
+              "accept": [
+                "negative",
+                "absence",
+                "looked",
+                "no chest pain",
+                "soft"
+              ]
+            },
+            {
+              "point": "If it is not written down, it is assumed not to have happened",
+              "accept": [
+                "not written",
+                "did not happen",
+                "assume",
+                "document"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Nobody could tell",
+          "dispatch": "Records review — abdominal pain call, three years earlier.",
+          "body": "The crew had examined the abdomen carefully. Both of them remembered doing it, and neither could prove it.\n\nThe report recorded the vital signs and the transport and said nothing about the abdomen at all.\n\nOn paper, a careful examination that found nothing looks exactly like no examination."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm patient care report requirements and retention periods against the current text and your service's documentation policy."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-04-06",
+      "title": "Documentation errors, corrections and falsification",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-04-05",
+        "EMT-01-01-04",
+        "EMT-01-03-05"
+      ],
+      "key_points": [
+        "Errors in records are normal and expected; how they are corrected is what matters",
+        "On paper, draw a single line through the error so it remains readable, write the correction, and initial and date it",
+        "Never obliterate, scribble out, erase or use correction fluid — a record that cannot be read looks like concealment",
+        "On electronic records, use the system's amendment function, which keeps the original and records who changed what and when",
+        "Late entries are acceptable and should be labelled as such, with the time of the entry as well as the time of the event",
+        "Falsification means recording something that did not happen, omitting something that did, or altering a record to change its meaning",
+        "Falsification is a career-ending and potentially criminal act, and it is treated far more seriously than the error being hidden",
+        "The instinct to tidy a record after a bad outcome is the single most dangerous instinct in documentation",
+        "If you realise a report is wrong, correct it properly and tell somebody — an honest correction is defensible"
+      ],
+      "misconceptions": [
+        "Using correction fluid or scribbling out an error",
+        "Rewriting a report after an outcome becomes known",
+        "Adding to a record without labelling it as a late entry",
+        "Omitting something that happened because it looks bad"
+      ],
+      "exam_favorites": [
+        "The single-line correction method",
+        "Why obliteration looks like concealment",
+        "What counts as falsification"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Everybody makes errors in records. The error is not the problem. How it is corrected is the entire subject.\n\nOn paper, the method is specific. Draw one single line through the mistake, so that what was originally written is still readable. Write the correction beside or above it. Initial it and date it.\n\nThe reason the original must stay readable is important: a correction you can still read is transparent, and a correction you cannot read looks like concealment. Never scribble something out into a black block. Never use correction fluid. Never erase. Those three actions turn an ordinary mistake into something that looks like hiding — and the appearance is what causes the problem, regardless of what you actually intended.\n\nOn electronic records, use the system's amendment function. It exists precisely for this: it preserves the original, records the change, and logs who made it and when. Do not work around it, and do not ask somebody else to amend under their login.\n\nLate entries are legitimate. Sometimes you remember something afterwards, or information arrives later. Add it, label it clearly as a late entry, and record both times — when the thing happened, and when you wrote it. A labelled late entry is unremarkable. An unlabelled one that appears to have been written contemporaneously is a serious problem.\n\nFalsification is different in kind, not degree. It means recording something that did not happen. Omitting something that did. Altering a record so that it means something other than the truth. Back-dating. Recording observations you did not take.\n\nIt is a career-ending act, it can be criminal, and here is the thing worth understanding: it is treated far more seriously than whatever was being hidden. A missed observation is a clinical error, and clinical errors are survivable, reportable and learnable. A falsified record is dishonesty, and dishonesty is not survivable in a clinical profession.\n\nWhich brings us to the most dangerous instinct in documentation: the urge to tidy a record once you learn the outcome was bad. It feels like clarifying. It feels like making sure the record properly reflects what you really did. It is not, and electronic systems log it, and it converts a defensible clinical situation into an indefensible one.\n\nIf you realise a report is wrong — even badly wrong, even in a way that reflects poorly — correct it properly, label it, and tell somebody. An honest correction, made openly, is defensible. Almost nothing else is.",
+          "standard": "Documentation errors are anticipated; correction methodology determines acceptability. Paper records are corrected by a single strike-through preserving legibility of the original entry, with the correction, initials and date appended. Obliteration, erasure and correction fluid are contraindicated, as illegibility of the original creates an appearance of concealment irrespective of intent. Electronic records are amended through system amendment functions, which preserve original content and record the identity, nature and timing of modification; circumvention and amendment under another user's credentials are prohibited. Late entries are legitimate, requiring explicit labelling with both the time of the event and the time of entry; unlabelled retrospective entry constitutes a serious deficiency. Falsification comprises recording events that did not occur, omitting events that did, altering records to change meaning, back-dating, and recording unperformed observations. Falsification carries career and potential criminal consequence and is regarded more seriously than the underlying matter concealed, as clinical error is remediable while dishonesty is not. Retrospective record modification following adverse outcome constitutes the principal documentation hazard and is logged by electronic systems. Errors identified subsequently are corrected by the prescribed method with disclosure."
+        },
+        "eli_new": {
+          "analogy": "A single line through a mistake is a correction anybody can read. A black block is a correction nobody can read, and the difference between those two is the difference between a mistake and a cover-up.",
+          "body": "The dangerous moment is learning that the patient did badly and feeling the urge to make the record clearer. That urge is not about clarity. Electronic systems log every keystroke, and it turns a survivable clinical error into an unsurvivable integrity problem."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe how a documentation error is corrected, and explain what falsification is.",
+          "must_hit": [
+            {
+              "point": "Errors are normal; how they are corrected is what matters",
+              "accept": [
+                "normal",
+                "error",
+                "correct",
+                "how",
+                "expected"
+              ]
+            },
+            {
+              "point": "Paper: one line through, still readable, correction, initial and date",
+              "accept": [
+                "single line",
+                "strike",
+                "readable",
+                "initial",
+                "date"
+              ]
+            },
+            {
+              "point": "Never obliterate, erase or use correction fluid",
+              "accept": [
+                "obliterate",
+                "scribble",
+                "erase",
+                "correction fluid",
+                "never"
+              ]
+            },
+            {
+              "point": "Electronic: use the amendment function, which logs who and when",
+              "accept": [
+                "amend",
+                "electronic",
+                "log",
+                "preserve",
+                "function"
+              ]
+            },
+            {
+              "point": "Late entries are legitimate if labelled with both times",
+              "accept": [
+                "late entry",
+                "label",
+                "both times",
+                "when written"
+              ]
+            },
+            {
+              "point": "Falsification is recording what did not happen, omitting what did, or altering meaning",
+              "accept": [
+                "falsif",
+                "did not happen",
+                "omit",
+                "alter",
+                "back-date"
+              ]
+            },
+            {
+              "point": "It is treated more seriously than the error being hidden",
+              "accept": [
+                "more serious",
+                "career",
+                "dishonest",
+                "criminal",
+                "than"
+              ]
+            },
+            {
+              "point": "Correcting a record after a bad outcome is the most dangerous instinct",
+              "accept": [
+                "outcome",
+                "after",
+                "tidy",
+                "clarif",
+                "instinct",
+                "dangerous"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Making it clearer",
+          "dispatch": "Investigation — electronic record amended fourteen hours after a call.",
+          "body": "The original report was adequate. Not beautiful, but adequate, and it recorded a defensible clinical decision.\n\nWhen he heard the patient had died, he went back in and added detail to make his reasoning clearer, which felt like the responsible thing to do.\n\nThe system logged the time of every keystroke. The clinical decision had been defensible. The edit was not."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Correcting a documentation error",
+          "steps": [
+            {
+              "text": "PAPER: draw ONE single line through the error so the original stays READABLE",
+              "critical": true,
+              "note": "A correction you can read is transparent. One you cannot read looks like concealment, whatever you intended."
+            },
+            {
+              "text": "Write the correction beside or above it",
+              "critical": true
+            },
+            {
+              "text": "INITIAL AND DATE the correction",
+              "critical": true
+            },
+            {
+              "text": "NEVER obliterate, scribble out, erase or use correction fluid",
+              "critical": true
+            },
+            {
+              "text": "ELECTRONIC: use the system's amendment function",
+              "critical": true,
+              "note": "It preserves the original and logs who changed what and when. Do not work around it."
+            },
+            {
+              "text": "NEVER amend under another person's login",
+              "critical": true
+            },
+            {
+              "text": "LATE ENTRY: label it clearly as a late entry",
+              "critical": true
+            },
+            {
+              "text": "Record BOTH times — when the event happened and when you wrote it",
+              "critical": true
+            },
+            {
+              "text": "If you realise a report is wrong, correct it PROPERLY and TELL SOMEBODY",
+              "critical": true,
+              "note": "An honest correction made openly is defensible. Almost nothing else is."
+            },
+            {
+              "text": "NEVER alter a record because the outcome turned out badly",
+              "critical": true,
+              "note": "The single most dangerous instinct in documentation. Systems log it, and it converts a survivable clinical error into an unsurvivable integrity problem."
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm correction procedures and your service's documentation and amendment policy against the current text and local policy."
     }
   ]
 }
