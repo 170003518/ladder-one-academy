@@ -191,7 +191,7 @@ async function route() {
       if (lesson) break;
     }
     const seed = parts[2] ? Number(decodeURIComponent(parts[2])) : newSeed();
-    const sheet = (mod && lesson) ? buildWorksheet(mod, lesson, seed) : { items: [], diagrams: [], seed };
+    const sheet = (mod && lesson) ? await buildWorksheet(mod, lesson, seed) : { items: [], diagrams: [], seed };
     ctx = { kind: 'worksheet', module: mod, lesson, sheet };
     app.el.innerHTML = shell(renderWorksheetView(mod, lesson, sheet));
     return done();
@@ -344,7 +344,7 @@ function say(message, isError) {
 function wire() {
   /* Everything inside <main> is re-rendered constantly, so all of it is
      delegated from the container rather than bound to elements. */
-  app.el.addEventListener('click', ev => {
+  app.el.addEventListener('click', async ev => {
     const t = ev.target.closest('[data-depth], #mark-viewed, #quiz-start, [data-answer], [data-confidence], #quiz-again, '
       + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print, '
       + '[data-do-pick], #do-reset, #hear-play, #hear-stop, #teach-submit, #teach-again, '
@@ -397,7 +397,7 @@ function wire() {
     /* --- Worksheet --- */
     if (t.id === 'ws-new') {
       const seed = newSeed();
-      ctx.sheet = buildWorksheet(ctx.module, ctx.lesson, seed);
+      ctx.sheet = await buildWorksheet(ctx.module, ctx.lesson, seed);
       // The seed goes in the hash so a printed sheet can be regenerated exactly.
       history.replaceState(null, '', `#/worksheet/${encodeURIComponent(ctx.lesson.id)}/${seed}`);
       return refresh();

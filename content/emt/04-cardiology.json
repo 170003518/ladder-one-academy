@@ -185,7 +185,57 @@
           "caption": "Follow one drop all the way round and heart failure stops being a list to memorise.",
           "source": "original",
           "license": "L1A original, drawn for this project",
-          "print_safe": true
+          "print_safe": true,
+          "labels": [
+            {
+              "id": "right_atrium",
+              "text": "Right atrium",
+              "x": 38.5,
+              "y": 28.2
+            },
+            {
+              "id": "right_ventricle",
+              "text": "Right ventricle",
+              "x": 38.5,
+              "y": 60.5
+            },
+            {
+              "id": "left_atrium",
+              "text": "Left atrium",
+              "x": 62.8,
+              "y": 28.2
+            },
+            {
+              "id": "left_ventricle",
+              "text": "Left ventricle",
+              "x": 62.8,
+              "y": 60.5
+            },
+            {
+              "id": "lungs",
+              "text": "Lungs",
+              "x": 15.4,
+              "y": 58.1
+            },
+            {
+              "id": "right_av_valve",
+              "text": "Valve between right atrium and ventricle",
+              "x": 36.2,
+              "y": 38.9
+            },
+            {
+              "id": "left_av_valve",
+              "text": "Valve between left atrium and ventricle",
+              "x": 60.5,
+              "y": 38.9
+            },
+            {
+              "id": "lv_wall",
+              "text": "Thickened left ventricular wall",
+              "x": 71.7,
+              "y": 60.5
+            }
+          ]
         }
       ]
     },

@@ -97,7 +97,41 @@ export function blankItem(text, rnd) {
 
 /* --- Building ------------------------------------------------------------- */
 
-export function buildWorksheet(mod, lesson, seed, perConcept = 3) {
+/**
+ * Confine an inlined figure's own <style> block to that figure. CSS inside an
+ * inlined SVG is document-global, and the diagrams use short generic class
+ * names (.sub, .hd, .flow) that would otherwise restyle the page around them.
+ */
+function scopeSvgStyles(svg) {
+  return svg.replace(/(<style[^>]*>)([\s\S]*?)(<\/style>)/gi, (_m, open, css, close) =>
+    open + css.replace(/(^|\})([^{}@]+)(\{)/g, (_r, before, sel, brace) =>
+      before + sel.split(',').map(one => {
+        const t = one.trim();
+        return t ? `.ws-diagram--labelled ${t}` : one;
+      }).join(', ') + brace) + close);
+}
+
+/**
+ * Fetch a diagram's source so it can be inlined. A labelled worksheet has to
+ * inline the SVG rather than use <img>, because the figures print their own
+ * labels and an <img> is opaque to the page's CSS — the answers would be
+ * sitting on the sheet. Inlined, every <text> in the figure is hidden and the
+ * only writing left is the worksheet's own numbers.
+ */
+async function inlineSvg(src) {
+  try {
+    const res = await fetch(src, { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`${res.status}`);
+    const txt = await res.text();
+    const i = txt.indexOf('<svg');
+    return i >= 0 ? scopeSvgStyles(txt.slice(i)) : null;
+  } catch (err) {
+    console.warn('[l1a] could not inline diagram', src, err);
+    return null;
+  }
+}
+
+export async function buildWorksheet(mod, lesson, seed, perConcept = 3) {
   const rnd = mulberry32(seed);
   const byId = Object.fromEntries(mod.concepts.map(c => [c.id, c]));
   const items = [];
@@ -112,6 +146,16 @@ export function buildWorksheet(mod, lesson, seed, perConcept = 3) {
       if (item) items.push({ ...item, conceptId: id, conceptTitle: c.title });
     }
     for (const m of (c.media || [])) diagrams.push({ ...m, conceptId: id, conceptTitle: c.title });
+  }
+
+  /* A figure with labels becomes a real label-the-diagram exercise: the pointers
+     are numbered in a shuffled order so two versions of the same sheet do not
+     have the same answer running down the page. */
+  for (const d of diagrams) {
+    if (d.labels && d.labels.length) {
+      d.points = shuffled(d.labels, rnd).map((l, i) => ({ ...l, n: i + 1 }));
+      d.svg = await inlineSvg(d.src);
+    }
   }
 
   return { items: shuffled(items, rnd), diagrams, seed };
@@ -165,16 +209,25 @@ export function renderWorksheet(mod, lesson, sheet) {
 
   diagrams.forEach(d => {
     n++;
+    const labelled = d.points && d.points.length && d.svg;
     out += `
     <div class="l1a-page tier-emt worksheet">
       <div class="l1a-bar"></div>
       ${head(mod, lesson, 'Label the diagram', esc(d.conceptTitle))}
       <div class="l1a-page__fields"><span>Name</span><span>Date</span></div>
-      <p class="ws-instr">Name each labelled structure or box shown. Write your answers in the numbered lines.</p>
-      <div class="ws-diagram"><img src="${esc(d.src)}" alt="${esc(d.alt)}"></div>
-      <ol class="ws-lines">
-        ${Array.from({ length: 8 }, () => '<li></li>').join('')}
-      </ol>
+      <p class="ws-instr">${labelled
+        ? 'Write the name of each numbered structure in the matching line below.'
+        : 'Name each labelled structure or box shown. Write your answers in the numbered lines.'}</p>
+      ${labelled
+        ? `<div class="ws-diagram ws-diagram--labelled" role="img" aria-label="${esc(d.alt)}">
+             ${d.svg}
+             ${d.points.map(pt => `<span class="ws-pin" style="left:${pt.x}%;top:${pt.y}%">${pt.n}</span>`).join('')}
+           </div>
+           <ol class="ws-lines ws-lines--numbered">
+             ${d.points.map(pt => `<li></li>`).join('')}
+           </ol>`
+        : `<div class="ws-diagram"><img src="${esc(d.src)}" alt="${esc(d.alt)}"></div>
+           <ol class="ws-lines">${Array.from({ length: 8 }, () => '<li></li>').join('')}</ol>`}
       ${footer(mod, lesson, n, total, seed)}
     </div>`;
   });
@@ -187,8 +240,14 @@ export function renderWorksheet(mod, lesson, sheet) {
     <ol class="ws-key">
       ${items.map(it => `<li><b>${esc(it.answer)}</b> <em>${esc(it.conceptTitle)}</em></li>`).join('')}
     </ol>
-    ${diagrams.length ? `<p class="ws-instr"><b>Label-the-diagram pages:</b> answers are the structures named in
-      each diagram itself. ${diagrams.map(d => esc(d.caption || d.conceptTitle)).join(' ')}</p>` : ''}
+    ${diagrams.map(d => d.points && d.points.length
+      ? `<h2 class="ws-keyh">Label the diagram — ${esc(d.conceptTitle)}</h2>
+         <ol class="ws-key ws-key--diagram">
+           ${d.points.slice().sort((a, b) => a.n - b.n).map(pt =>
+             `<li value="${pt.n}"><b>${esc(pt.text)}</b></li>`).join('')}
+         </ol>`
+      : `<p class="ws-instr"><b>Label the diagram — ${esc(d.conceptTitle)}:</b> answers are the structures named
+         in the diagram itself. ${esc(d.caption || '')}</p>`).join('')}
     ${footer(mod, lesson, n, total, seed)}
   </div>`;
 

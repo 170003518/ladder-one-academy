@@ -454,6 +454,41 @@
             "description": "Whether it still reads in black and white on a printed card or worksheet.",
             "type": "boolean",
             "default": true
+          },
+          "labels": {
+            "description": "Optional. The structures this figure labels, each with a position so a generated worksheet can place a numbered pointer on the image instead of only asking for a list. Positions are percentages of the rendered image, measured from its top-left corner, so they survive any scaling — a figure used at 3in on a card and 6in on a worksheet needs no second set of coordinates. Point at the structure, not at the printed label: the worksheet hides the original labels and puts its own number there. Omit the array entirely for a figure with nothing to label, such as a flowchart whose boxes are the content.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "text", "x", "y"],
+              "properties": {
+                "id": {
+                  "description": "Stable key for this label within the figure, lowercase snake_case. Worksheet answer keys reference it, so renaming one changes what a previously printed sheet means - prefer adding a new label to renaming an old one.",
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+                },
+                "text": {
+                  "description": "The answer: what the learner should write for this pointer.",
+                  "type": "string",
+                  "minLength": 2,
+                  "maxLength": 80
+                },
+                "x": {
+                  "description": "Horizontal position as a percentage of image width, 0 at the left edge.",
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                },
+                "y": {
+                  "description": "Vertical position as a percentage of image height, 0 at the top edge.",
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                }
+              }
+            }
           }
         }
       }

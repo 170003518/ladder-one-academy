@@ -550,7 +550,27 @@
   .worksheet .ws-instr { font-size: 9.5pt; color: var(--ink-muted); margin: 0.1in 0 0.16in; }
   .worksheet .ws-diagram { text-align: center; margin-bottom: 0.16in; }
   .worksheet .ws-diagram img { max-width: 100%; max-height: 4.6in; }
+  /* Labelled figure: the SVG is inlined so its own printed labels can be hidden —
+     an <img> is opaque to this stylesheet and would hand over the answers. */
+  .worksheet .ws-diagram--labelled { position: relative; display: inline-block; line-height: 0; }
+  .worksheet .ws-diagram--labelled svg { display: block; width: auto; height: auto; max-width: 100%; max-height: 4.6in; }
+  /* The figure's own labels, and the leader lines that would otherwise point
+     from a structure out to a blank space where its label used to be. */
+  .worksheet .ws-diagram--labelled svg text,
+  .worksheet .ws-diagram--labelled svg .lead { display: none; }
+  .worksheet .ws-pin {
+    position: absolute; transform: translate(-50%, -50%);
+    min-width: 0.19in; height: 0.19in; padding: 0 0.02in; box-sizing: border-box;
+    border: 1pt solid var(--navy); border-radius: 50%; background: #fff;
+    font-family: var(--font-mono, monospace); font-size: 8pt; font-weight: 700;
+    line-height: calc(0.19in - 2pt); text-align: center; color: var(--navy);
+  }
   .worksheet .ws-lines { margin: 0; padding-left: 0.3in; columns: 2; column-gap: 0.4in; }
+  .worksheet .ws-lines--numbered { list-style: decimal; }
+  .worksheet .ws-lines--numbered li::marker { font-family: var(--font-mono, monospace); font-weight: 700; }
+  .worksheet .ws-keyh { font-family: var(--font-heading, inherit); font-size: 10.5pt; text-transform: uppercase;
+    letter-spacing: 0.04em; margin: 0.18in 0 0.08in; }
+  .worksheet .ws-key--diagram { list-style: decimal; }
   .worksheet .ws-lines li { border-bottom: 0.75pt solid var(--rule); height: 0.32in; margin-bottom: 0.12in; break-inside: avoid; }
   .worksheet .ws-key { margin: 0; padding-left: 0.3in; columns: 2; column-gap: 0.4in; font-size: 9.5pt; }
   .worksheet .ws-key li { margin-bottom: 0.08in; break-inside: avoid; }

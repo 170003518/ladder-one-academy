@@ -250,3 +250,23 @@ Values supplied by AJ and filled into the concepts, cards and questions that had
 - **Coverage sits beside the score and is never folded into it.** Three of eleven modules can produce a high score from the three; presenting that as readiness for the whole exam would be a lie. The screen states the coverage explicitly and the "ready" state additionally requires every module in the tier to be built.
 - **The domain heat map resolves domains through the loaded modules**, because `question_history` stores `concept_id` rather than `domain`. That means a domain appears only once its module is built, which the screen says.
 - The Focus List ranks concepts by miss rate, counting **a right answer tagged "guessed" as a miss** — it looks identical to knowledge in a score and is not. That is the whole reason confidence is captured.
+
+## Diagram labels on worksheets
+
+`media[].labels` carries an optional list of `{id, text, x, y}` where `x`/`y` are
+percentages of the rendered figure. When a figure has them, the label-the-diagram
+worksheet page inlines the SVG rather than using `<img>`, hides every `<text>` and
+every `.lead` leader line inside it, and drops its own numbered pointer at each
+coordinate — one write-on line per label, and the answer key lists them by number.
+The pointer order is reshuffled per seed, so two versions of the same sheet do not
+have the same answers running down the page.
+
+Inlining is what makes the exercise possible: the diagrams print their own labels,
+and an `<img>` is opaque to the page stylesheet, so the answers would be sitting on
+the sheet. Because an inlined SVG's `<style>` is document-global and the figures use
+short generic class names (`.sub`, `.hd`, `.flow`), each rule is rewritten at inline
+time to sit under `.ws-diagram--labelled`.
+
+Figures without `labels` keep the previous page: the image as authored, a generic
+instruction, and eight blank lines. A flowchart whose boxes *are* the content has
+nothing to label and should not get the array.
