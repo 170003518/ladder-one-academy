@@ -52,6 +52,19 @@
         "EMT-05-04-02",
         "EMT-05-04-03"
       ]
+    },
+    {
+      "id": "EMT-05-05",
+      "title": "Toxicology",
+      "concepts": [
+        "EMT-05-05-01",
+        "EMT-05-05-02",
+        "EMT-05-05-03",
+        "EMT-05-05-04",
+        "EMT-05-05-05",
+        "EMT-05-05-06",
+        "EMT-05-05-07"
+      ]
     }
   ],
   "concepts": [
@@ -2314,6 +2327,1178 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the common allergen list and the biphasic reaction timeframe against the current text and current anaphylaxis guidelines. No specific observation period is stated, as that is an institutional decision that varies."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-01",
+      "title": "Routes of exposure",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-05-02",
+        "EMT-05-05-04",
+        "EMT-05-05-05"
+      ],
+      "key_points": [
+        "There are four routes: ingestion, inhalation, injection and absorption through skin or mucous membrane",
+        "The route decides how fast the poison acts and what you must do to stop the exposure continuing",
+        "Ingestion is slowest; inhalation and injection are fastest",
+        "Absorption keeps working until the substance is off the patient, so decontamination is treatment, not tidying up",
+        "An inhalation scene is a scene that can poison you too — do not enter without the training and equipment",
+        "Your first act in any exposure is stopping further exposure, and the second is protecting yourself while you do it",
+        "The five things to establish are what, how much, when, by what route, and what has been done already"
+      ],
+      "misconceptions": [
+        "Entering an enclosed space to reach a collapsed patient without air monitoring or breathing apparatus",
+        "Handling a contaminated patient without gloves and eye protection",
+        "Treating decontamination as an afterthought",
+        "Assuming a well-looking patient after ingestion will stay well"
+      ],
+      "exam_favorites": [
+        "The four routes and their relative speed",
+        "Why absorption exposures continue until decontamination",
+        "The five history questions"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Poisons get in four ways: swallowed, breathed in, injected, or absorbed through skin and mucous membranes. That sounds like trivia. It is not — the route decides how fast it acts, and it decides what you have to do first.\n\nSwallowed is the slowest, because the substance has to be absorbed from the gut. That delay is why a patient who took something twenty minutes ago can look completely well and still be in serious trouble. Do not be reassured by a well-looking patient early after an ingestion.\n\nInhaled and injected are the fast ones. Inhaled substances cross into the blood at the lungs almost immediately. Injected ones are already there.\n\nAbsorption is the one with a particular trap. If the substance is still on the skin, the exposure is still happening. Every minute it stays on is more dose. Which makes removing clothing and washing the patient an actual treatment with an actual clock on it, not housekeeping to be done once the important things are finished.\n\nNow the part that matters most to you personally. An inhalation scene is a scene that can take you as well. A patient collapsed in a grain silo, a chemical store, a plant room, an enclosed space of any kind — whatever dropped them is still there, and it does not care that you have a uniform on. Do not enter. That is not caution, it is arithmetic: rescuers who go in become patients, and now nobody is being helped.\n\nSo: stop the exposure, and protect yourself while doing it. Those are the first two actions in every poisoning, in that order.\n\nThen five questions, and get them in the order you can. What was it? How much? When? By what route? And what has anybody already done about it — has someone made them vomit, given them milk, tried something they read online?\n\nAnd take the container. Always take the container.",
+          "standard": "Toxic exposure occurs by four routes: ingestion, inhalation, injection and dermal or mucous membrane absorption. Route determines onset kinetics and the requisite initial intervention. Ingestion produces the slowest onset owing to gastrointestinal absorption, and early well-appearance does not exclude significant ingestion. Inhalation and injection produce the most rapid onset, the former by pulmonary absorption and the latter by direct parenteral delivery. Dermal absorption continues while the agent remains in contact, rendering decontamination a time-critical therapeutic intervention rather than an ancillary task. Inhalational exposure scenes present a hazard to responders; entry without appropriate atmospheric monitoring, respiratory protection and training is contraindicated, as rescuer incapacitation converts a single-patient incident into a multiple-casualty one. Initial priorities are cessation of exposure and responder protection. History should establish the agent, quantity, elapsed time, route and any interventions already undertaken. Containers should accompany the patient."
+        },
+        "eli_new": {
+          "analogy": "The route is the tap. You can treat the flooding all you like, but until somebody turns the tap off you are just mopping.",
+          "body": "One rule that has killed more rescuers than any other: if a patient is collapsed in an enclosed space and you do not know why, the reason is probably still in there. It is not cowardice to stay out. It is the only way anybody gets helped."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the four routes of exposure and explain what you do first in any poisoning.",
+          "must_hit": [
+            {
+              "point": "Ingestion, inhalation, injection, absorption",
+              "accept": [
+                "ingest",
+                "swallow",
+                "inhal",
+                "breath",
+                "inject",
+                "absorb",
+                "skin"
+              ]
+            },
+            {
+              "point": "Ingestion is slowest; inhalation and injection are fastest",
+              "accept": [
+                "slow",
+                "fast",
+                "ingest",
+                "inhal",
+                "inject"
+              ]
+            },
+            {
+              "point": "Absorption continues until decontamination, so it is treatment",
+              "accept": [
+                "decontaminat",
+                "wash",
+                "remove",
+                "clothing",
+                "continue"
+              ]
+            },
+            {
+              "point": "Do not enter an inhalation scene without training and equipment",
+              "accept": [
+                "enter",
+                "enclosed",
+                "scene",
+                "equipment",
+                "breathing apparatus",
+                "safety"
+              ]
+            },
+            {
+              "point": "Stop the exposure and protect yourself first",
+              "accept": [
+                "stop",
+                "exposure",
+                "protect",
+                "yourself",
+                "ppe"
+              ]
+            },
+            {
+              "point": "Establish what, how much, when, by what route, and what was already done",
+              "accept": [
+                "what",
+                "how much",
+                "when",
+                "route",
+                "already",
+                "container"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Two down",
+          "dispatch": "Engine 4 — worker collapsed in a basement plant room, one colleague already gone in.",
+          "body": "By the time the engine arrived there were two people down instead of one, and the second was the colleague who had gone in to help.\n\nNobody knew what was in the air. The atmosphere was never tested until the hazardous materials team arrived, forty minutes later.\n\nThe second patient did everything anybody would instinctively do. That is precisely why the rule has to be a rule and not a judgement call."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the route classification and relative onset descriptions against the current text. No specific agents or antidotes are named here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-02",
+      "title": "Opioids and naloxone",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-02-06",
+        "EMT-05-05-01",
+        "EMT-02-04-01"
+      ],
+      "key_points": [
+        "The opioid picture is a triad: reduced level of consciousness, slow or absent breathing, and pinpoint pupils",
+        "The thing that kills in opioid overdose is the breathing, not the drug itself",
+        "Which means ventilation comes first — a bag-valve mask before anything else",
+        "Naloxone reverses opioid effects by displacing the opioid from its receptors",
+        "Routes for EMT-level naloxone are typically intranasal or auto-injector, per protocol",
+        "Naloxone can wear off before the opioid does, so the patient can go back into respiratory depression",
+        "That is why every naloxone patient is transported, however awake they seem afterwards",
+        "Reversal can be abrupt and the patient may wake confused, frightened, or combative — plan for it",
+        "Synthetic opioids may need repeated doses per protocol, and ventilation remains the priority throughout"
+      ],
+      "misconceptions": [
+        "Giving naloxone before ventilating a patient who is not breathing",
+        "Treating the goal as a fully awake patient rather than an adequately breathing one",
+        "Letting a patient refuse transport after naloxone because they feel fine",
+        "Not anticipating an agitated patient on waking"
+      ],
+      "exam_favorites": [
+        "The opioid triad",
+        "Why ventilation comes before naloxone",
+        "Why naloxone patients are always transported",
+        "The re-sedation risk"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The opioid overdose has a picture so consistent it is worth memorising as one item. Reduced level of consciousness. Slow or stopped breathing. Pinpoint pupils. Three findings, one diagnosis.\n\nNow the most important sentence in this concept: what kills an opioid overdose patient is the breathing. Not the drug. The drug switches off the drive to breathe, and the patient dies of hypoxia while the opioid sits there doing nothing else particularly harmful.\n\nThat single fact sets your priority, and it is not the one people reach for. Ventilate first. Bag-valve mask, good seal, adequate rate, chest rising. You can fix the lethal problem with a piece of equipment you already have in your hand, before any drug comes out of any bag.\n\nNaloxone reverses it by knocking the opioid off its receptors. It works, and it can be spectacular. At EMT level it is typically intranasal or by auto-injector, depending on your protocol.\n\nBut it has a property you have to plan around: it can wear off before the opioid does. The opioid is still in the body. When the naloxone fades, the patient can slide straight back into respiratory depression, and if that happens somewhere without a bag-valve mask, they die on the second round.\n\nThat is why every patient who receives naloxone is transported. Every one. Including — especially — the person who sat up, feels fine, is embarrassed and wants you to leave. Feeling fine is a snapshot, and the drug is still in them.\n\nOne more practical thing. Reversal can be abrupt and unpleasant. A patient who has just been pulled out of an opioid effect can wake confused, frightened, unwell, sometimes angry, and occasionally swinging. That is not bad character; it is a physiological reaction to having something stripped off their receptors in seconds. Position yourself accordingly and treat them gently.\n\nAnd with the stronger synthetic opioids, one dose may not hold. Repeat per protocol — and keep ventilating. Ventilation is the treatment throughout.",
+          "standard": "Opioid toxidrome comprises the triad of central nervous system depression, respiratory depression or apnoea, and miosis. Mortality derives from respiratory failure and consequent hypoxia rather than direct toxicity; ventilatory support therefore constitutes the primary intervention and precedes pharmacological reversal. Naloxone is a competitive opioid receptor antagonist, displacing agonist from receptor sites. EMT-level administration is typically intranasal or by auto-injector per protocol. Naloxone half-life may be shorter than that of the ingested opioid, permitting recurrence of respiratory depression following initial reversal; consequently all patients receiving naloxone require transport irrespective of apparent recovery. Abrupt reversal may produce agitation, distress or combativeness, and withdrawal phenomena. High-potency synthetic opioids may require repeat administration per protocol, with ventilatory support maintained throughout."
+        },
+        "eli_new": {
+          "analogy": "Naloxone knocks the opioid off the receptor like someone taking your seat. The problem is that naloxone gets up before the opioid has left the building.",
+          "body": "The instinct is to reach for the naloxone, because it is the dramatic intervention. Resist it for thirty seconds. A patient who is not breathing needs air, and you have air in your hands right now. Bag first, then reverse."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the opioid triad, explain what actually kills the patient, and say why naloxone patients are always transported.",
+          "must_hit": [
+            {
+              "point": "Reduced consciousness, slow or absent breathing, pinpoint pupils",
+              "accept": [
+                "conscious",
+                "breath",
+                "respirat",
+                "pinpoint",
+                "pupil",
+                "miosis"
+              ]
+            },
+            {
+              "point": "The breathing kills the patient, not the drug directly",
+              "accept": [
+                "breathing",
+                "respiratory",
+                "hypox",
+                "oxygen",
+                "kills"
+              ]
+            },
+            {
+              "point": "Ventilate first with a bag-valve mask",
+              "accept": [
+                "ventilat",
+                "bvm",
+                "bag",
+                "first",
+                "airway"
+              ]
+            },
+            {
+              "point": "Naloxone displaces the opioid from its receptors",
+              "accept": [
+                "naloxone",
+                "displac",
+                "receptor",
+                "revers",
+                "antagonist"
+              ]
+            },
+            {
+              "point": "Naloxone can wear off before the opioid does",
+              "accept": [
+                "wear off",
+                "shorter",
+                "return",
+                "again",
+                "re-sedat"
+              ]
+            },
+            {
+              "point": "Every naloxone patient is transported",
+              "accept": [
+                "transport",
+                "hospital",
+                "every",
+                "always"
+              ]
+            },
+            {
+              "point": "Waking can be abrupt, frightened or combative",
+              "accept": [
+                "agitat",
+                "combat",
+                "confus",
+                "frightened",
+                "withdraw"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Bag first",
+          "dispatch": "Medic 7 — unresponsive male in a car park, bystanders performing no care.",
+          "body": "Pinpoint pupils, about four agonal breaths a minute, and a partner already reaching into the bag for the naloxone.\n\nThe senior medic said leave it and handed over the bag-valve mask, and they ventilated him for two minutes before anything else happened. His colour came back before the naloxone was out of its packet.\n\nThe drug reverses the opioid. The mask was what was keeping him alive while it got there."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug",
+        "skill"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "Naloxone",
+          "class": "Opioid antagonist",
+          "indications": [
+            "Suspected opioid overdose with respiratory depression",
+            "Unresponsive patient with the opioid triad, per protocol"
+          ],
+          "contraindications": [
+            "Known hypersensitivity",
+            "Note: naloxone is not a substitute for ventilation and never precedes it"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify",
+          "route": "Intranasal or auto-injector at EMT level, per protocol",
+          "onset": "per protocol / verify",
+          "side_effects": [
+            "Abrupt withdrawal",
+            "Agitation or combativeness on waking",
+            "Nausea and vomiting",
+            "Return of respiratory depression as it wears off"
+          ],
+          "scope": "EMT administers per protocol; routes available vary by service"
+        },
+        "skill": {
+          "sheet": "Suspected opioid overdose",
+          "steps": [
+            {
+              "text": "Scene safety, including a deliberate look for uncapped needles",
+              "critical": true
+            },
+            {
+              "text": "Recognise the triad: reduced consciousness, slow or absent breathing, pinpoint pupils",
+              "critical": true
+            },
+            {
+              "text": "OPEN THE AIRWAY AND VENTILATE with a bag-valve mask",
+              "critical": true,
+              "note": "This is the intervention that keeps them alive. It comes before the drug."
+            },
+            {
+              "text": "Confirm adequate chest rise and a good mask seal",
+              "critical": true
+            },
+            {
+              "text": "Administer naloxone per protocol by the route your service carries",
+              "critical": true
+            },
+            {
+              "text": "CONTINUE VENTILATING — do not stop because the drug has been given",
+              "critical": true
+            },
+            {
+              "text": "Anticipate abrupt waking: confusion, distress, occasionally combativeness",
+              "critical": false,
+              "note": "Position yourself accordingly. This is physiology, not character."
+            },
+            {
+              "text": "Repeat per protocol if breathing remains inadequate",
+              "critical": false
+            },
+            {
+              "text": "TRANSPORT EVERY PATIENT — naloxone can wear off before the opioid does",
+              "critical": true
+            },
+            {
+              "text": "Monitor continuously for return of respiratory depression",
+              "critical": true
+            },
+            {
+              "text": "Document times, doses, route and response",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the opioid toxidrome, naloxone routes available at EMT level and repeat dosing guidance against the current text and local protocol. No naloxone dose or concentration is stated; those are protocol- and device-specific."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-03",
+      "title": "Stimulants, sedatives and alcohol",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-02-06",
+        "EMT-05-08-03",
+        "EMT-05-05-07"
+      ],
+      "key_points": [
+        "Stimulants speed everything up: fast pulse, high blood pressure, dilated pupils, hot dry or sweating skin, agitation, paranoia",
+        "The dangers of stimulant toxicity are hyperthermia, seizures, and cardiac events in people too young to expect them",
+        "Sedatives slow everything down: drowsiness, slurred speech, poor coordination, slow shallow breathing, reduced consciousness",
+        "Sedatives combined with alcohol are far more dangerous than either alone, because both depress breathing",
+        "Acute alcohol intoxication is a sedative overdose and is treated as one, not as a behaviour problem",
+        "Alcohol withdrawal can be more dangerous than intoxication, producing tremor, agitation, hallucinations and seizures",
+        "Every intoxicated patient gets a blood glucose, and every one is assessed for injury and for another cause",
+        "Restraint is a last resort with real risks, and positional asphyxia is the danger to know about"
+      ],
+      "misconceptions": [
+        "Treating an intoxicated patient as a behavioural problem rather than a poisoned one",
+        "Missing hypoglycemia or a head injury under an alcohol smell",
+        "Underestimating withdrawal because the patient is not currently drinking",
+        "Restraining a patient face down"
+      ],
+      "exam_favorites": [
+        "The stimulant picture and its three dangers",
+        "Why sedatives plus alcohol is the lethal combination",
+        "Withdrawal being more dangerous than intoxication",
+        "Positional asphyxia"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Three groups, and the first two are opposites.\n\nStimulants speed the body up. Fast pulse, high blood pressure, big pupils, skin that is hot and either dry or pouring with sweat, and a patient who is agitated, talkative, sometimes frankly paranoid. Three things kill them: overheating, seizures, and cardiac events in people far too young for cardiac events. Take a temperature if you can — hyperthermia in stimulant toxicity is a genuine emergency and it gets overlooked because everybody is focused on the behaviour.\n\nSedatives do the opposite. Drowsy, slurred, uncoordinated, breathing slowly and shallowly, sliding down the levels of consciousness. Same principle as opioids: the problem is the breathing, and the airway is your job.\n\nWhere sedatives become lethal is in combination with alcohol. Both depress breathing, and together they do it far more than either alone. A quantity of either that would have been survivable becomes fatal in combination. When you take the history, specifically ask what else — and specifically ask about alcohol, which people do not volunteer as a drug.\n\nWhich brings us to alcohol itself. Acute intoxication is a sedative overdose. Treat it as poisoning, because it is. A heavily intoxicated patient can lose their airway, aspirate, and die, and the fact that it is a familiar and socially ordinary poison does not change the physiology.\n\nWithdrawal deserves its own attention, because it surprises people: it can be more dangerous than being drunk. A dependent drinker who stops — sometimes simply because they were admitted somewhere and could not get any — can develop tremor, sweating, agitation, hallucinations and seizures. Severe withdrawal has a real mortality rate.\n\nTwo habits for every intoxicated patient. Check a glucose. And look for an injury and for another explanation, because intoxicated people fall, get hit, and get ill just like everybody else — and the smell of drink is the most effective camouflage there is.\n\nFinally, restraint. Sometimes necessary, never casual. The specific danger is positional asphyxia: a patient restrained face down, or folded forward, who cannot expand their chest. Never restrain anybody prone. Keep them where you can see their face and their breathing, and never stop monitoring them because they are restrained.",
+          "standard": "Stimulant toxicity produces tachycardia, hypertension, mydriasis, hyperthermia with variable diaphoresis, agitation and paranoid ideation; principal mortality derives from hyperthermia, seizure and cardiac events in otherwise young patients. Sedative-hypnotic toxicity produces somnolence, dysarthria, ataxia, hypoventilation and progressive obtundation, with airway compromise as the primary threat. Concurrent sedative and ethanol ingestion produces additive respiratory depression substantially exceeding either agent alone. Acute ethanol intoxication constitutes sedative overdose and is managed as toxicological rather than behavioural presentation. Ethanol withdrawal may exceed intoxication in severity, producing tremor, diaphoresis, agitation, hallucinosis and seizures, with appreciable mortality in severe cases. Blood glucose measurement and assessment for traumatic injury and alternative pathology are indicated in every intoxicated presentation. Physical restraint carries significant risk; prone restraint is contraindicated owing to positional asphyxia, and restrained patients require continuous monitoring."
+        },
+        "eli_new": {
+          "analogy": "Stimulants turn the engine up until something breaks. Sedatives turn it down until it stops. Alcohol is a sedative that nobody counts as one.",
+          "body": "Two things get missed constantly. The first is a temperature on an agitated stimulant patient — everyone watches the behaviour and nobody notices they are cooking. The second is that alcohol is a drug, so when you ask what they took and they say 'nothing, just drink', that is an answer that changes your management."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Contrast the stimulant and sedative pictures, explain why sedatives and alcohol together are dangerous, and describe restraint risks.",
+          "must_hit": [
+            {
+              "point": "Stimulants: fast pulse, high pressure, dilated pupils, hot skin, agitation, paranoia",
+              "accept": [
+                "fast",
+                "tachy",
+                "pressure",
+                "dilat",
+                "hot",
+                "agitat",
+                "paranoi"
+              ]
+            },
+            {
+              "point": "Stimulant dangers are hyperthermia, seizures and cardiac events",
+              "accept": [
+                "hypertherm",
+                "temperature",
+                "seizure",
+                "cardiac",
+                "heat"
+              ]
+            },
+            {
+              "point": "Sedatives: drowsy, slurred, uncoordinated, slow shallow breathing",
+              "accept": [
+                "drowsy",
+                "slur",
+                "coordinat",
+                "slow",
+                "shallow",
+                "breath"
+              ]
+            },
+            {
+              "point": "Sedatives plus alcohol depress breathing far more than either alone",
+              "accept": [
+                "alcohol",
+                "combin",
+                "together",
+                "additive",
+                "respiratory"
+              ]
+            },
+            {
+              "point": "Withdrawal can be more dangerous than intoxication",
+              "accept": [
+                "withdraw",
+                "tremor",
+                "halluc",
+                "seizure",
+                "dangerous"
+              ]
+            },
+            {
+              "point": "Glucose and injury assessment on every intoxicated patient",
+              "accept": [
+                "glucose",
+                "sugar",
+                "injury",
+                "head",
+                "another"
+              ]
+            },
+            {
+              "point": "Never restrain prone; positional asphyxia",
+              "accept": [
+                "prone",
+                "face down",
+                "positional",
+                "asphyxia",
+                "monitor"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Just drink",
+          "dispatch": "Medic 9 — 24-year-old male, unresponsive at a house party.",
+          "body": "His friends were insistent that he had only been drinking, and they were being honest as far as they understood the question.\n\nWhen the crew asked specifically about tablets, one of them remembered he had taken something to help him sleep earlier in the evening because he had been anxious about the party.\n\nEither one alone he would probably have slept off. The two together were why he was not breathing properly."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the stimulant and sedative toxidrome descriptions and the withdrawal features against the current text. No substance names, quantities or doses are stated. Positional asphyxia guidance should be checked against local restraint policy."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-04",
+      "title": "Carbon monoxide and cyanide",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-05-01",
+        "EMT-02-03-01",
+        "EMT-06-04-04"
+      ],
+      "key_points": [
+        "Carbon monoxide binds to haemoglobin far more readily than oxygen does, so the blood stops carrying oxygen even though the lungs work perfectly",
+        "A pulse oximeter cannot tell carbon monoxide apart from oxygen, so a normal reading means nothing in a suspected exposure",
+        "The classic story is headache, nausea, dizziness and confusion in more than one person in the same building, often worse at home and better when out",
+        "The cherry-red skin described in textbooks is a late and unreliable finding — do not wait for it",
+        "Treatment is removal from the source and high-flow oxygen by non-rebreather",
+        "Cyanide interferes with the cells' ability to use oxygen at all, so the blood is loaded with oxygen the cells cannot touch",
+        "Cyanide is a genuine risk in enclosed-space fires because it comes off burning synthetic materials",
+        "A fire victim with soot, an altered mental status and a poor response to oxygen may have both poisonings at once",
+        "Any scene producing these gases can poison the crew, and the same rules about entry apply"
+      ],
+      "misconceptions": [
+        "Trusting a normal pulse oximeter reading in a suspected carbon monoxide exposure",
+        "Waiting for cherry-red skin before suspecting it",
+        "Treating only the burns in a fire victim and overlooking the inhaled poisons",
+        "Sending a patient back into the building that poisoned them"
+      ],
+      "exam_favorites": [
+        "Why pulse oximetry is useless in carbon monoxide exposure",
+        "Multiple people in the same building",
+        "Cyanide from enclosed-space fires",
+        "High-flow oxygen as the treatment"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two poisons that both attack oxygen, at different points in the chain.\n\nCarbon monoxide attacks transport. It binds to haemoglobin far more readily than oxygen does — by a wide margin — so it occupies the seats oxygen needs. The lungs work perfectly, the chest rises, the patient breathes, and none of it arrives. They suffocate with air going in and out.\n\nNow the piece of equipment that will lie to you. A standard pulse oximeter cannot distinguish haemoglobin carrying carbon monoxide from haemoglobin carrying oxygen. It reads them the same. So a carbon monoxide patient can show you 99 percent while being profoundly poisoned. Normal saturation in a suspected exposure is not reassurance; it is a meaningless number, and if you treat it as reassurance it will cost you the diagnosis.\n\nWhat should make you suspect it is the story. Headache, nausea, dizziness, confusion, flu-like without a fever. And especially: more than one person in the same building feeling the same way. Or symptoms that improve when the patient leaves home and come back when they return. That pattern is a boiler or a heater, and it is the single most useful thing you can elicit. Ask about the pets, too.\n\nForget the cherry-red skin. It appears late, appears inconsistently, and waiting for it means waiting too long.\n\nTreatment is simple and it works: get them out, and high-flow oxygen by non-rebreather. Filling the blood with oxygen at high concentration drives the carbon monoxide off faster.\n\nCyanide is the other one, and it attacks the last step. It stops cells using oxygen at all. So the blood may be saturated, the transport working, and the cells still suffocating in the middle of plenty.\n\nWhere you will meet it is enclosed-space fires. Burning synthetic materials — furniture, foam, plastics, carpets — release it. A fire victim who is sooty, confused, and not improving the way you would expect on oxygen may have both poisonings running together. They frequently do.\n\nAnd the obvious point that still needs saying: whatever is producing these gases will do the same to you. Same rule as every inhalation scene. Do not go in.",
+          "standard": "Carbon monoxide binds haemoglobin with affinity far exceeding that of oxygen, producing functional anaemia despite normal pulmonary function and normal arterial oxygen tension. Conventional pulse oximetry cannot differentiate carboxyhaemoglobin from oxyhaemoglobin and yields falsely reassuring saturations; normal readings therefore carry no exclusionary value. Presentation comprises headache, nausea, dizziness, confusion and influenza-like symptoms without fever; simultaneous symptoms in multiple building occupants, or symptom improvement away from the premises, is highly suggestive. Cherry-red discolouration is a late and unreliable sign. Management comprises removal from source and high-concentration oxygen by non-rebreather mask, accelerating carboxyhaemoglobin dissociation. Cyanide inhibits cellular oxidative metabolism, producing cellular hypoxia despite adequate oxygen delivery, and is generated by combustion of synthetic materials in enclosed-space fires. Concurrent carbon monoxide and cyanide toxicity is common in fire victims presenting with soot, altered mental status and inadequate response to oxygen. Scene entry restrictions applicable to all inhalational exposures apply."
+        },
+        "eli_new": {
+          "analogy": "Carbon monoxide takes the seats on the bus so oxygen cannot board. Cyanide lets the bus arrive full and then locks the doors of the building.",
+          "body": "The single fact to carry out of this concept: the pulse oximeter is useless here. It will show you a normal number on a patient who is being poisoned, and a crew that trusts the number goes home having missed it. Suspect it from the story, not from the machine."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how carbon monoxide poisons, why a pulse oximeter is unhelpful, and what the treatment is.",
+          "must_hit": [
+            {
+              "point": "It binds haemoglobin far more readily than oxygen",
+              "accept": [
+                "haemoglobin",
+                "hemoglobin",
+                "bind",
+                "affinity",
+                "oxygen"
+              ]
+            },
+            {
+              "point": "The lungs work but oxygen is not carried",
+              "accept": [
+                "lung",
+                "carry",
+                "transport",
+                "deliver"
+              ]
+            },
+            {
+              "point": "A pulse oximeter cannot tell the difference, so a normal reading means nothing",
+              "accept": [
+                "oximet",
+                "saturation",
+                "normal",
+                "reading",
+                "false"
+              ]
+            },
+            {
+              "point": "Multiple people in a building, or better away from home",
+              "accept": [
+                "multiple",
+                "building",
+                "household",
+                "home",
+                "away",
+                "pet"
+              ]
+            },
+            {
+              "point": "Treatment is removal from source and high-flow oxygen",
+              "accept": [
+                "remove",
+                "out",
+                "high-flow",
+                "non-rebreather",
+                "oxygen"
+              ]
+            },
+            {
+              "point": "Cyanide stops cells using oxygen, and comes from enclosed-space fires",
+              "accept": [
+                "cyanide",
+                "cell",
+                "use",
+                "fire",
+                "synthetic",
+                "enclosed"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Ninety-nine percent",
+          "dispatch": "Medic 1 — family of four, headache and nausea, no fever.",
+          "body": "All four of them had a headache. The mother said it had been going on for days and was better when they went to her sister's.\n\nEvery one of them read between 98 and 100 percent on the pulse oximeter, and the newer crew member said so out loud as if it settled something.\n\nIt settled nothing. The oximeter cannot tell the two apart, and four people with headaches in one house is the actual finding."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Pulse oximeter reading in carbon monoxide exposure",
+            "value": "unreliable",
+            "note": "A standard oximeter cannot tell carboxyhaemoglobin from oxyhaemoglobin. A normal number excludes nothing."
+          },
+          {
+            "label": "Oxygen for suspected carbon monoxide",
+            "value": "high-flow, non-rebreather",
+            "note": "After removal from the source. Concentration and duration per protocol."
+          },
+          {
+            "label": "Cherry-red skin",
+            "value": "late and unreliable",
+            "note": "Do not wait for it. Suspect from the story instead."
+          },
+          {
+            "label": "Suspicion trigger",
+            "value": "more than one person affected",
+            "note": "Same building, same symptoms — or symptoms that improve away from home. Ask about pets."
+          },
+          {
+            "label": "Carbon monoxide binding affinity relative to oxygen",
+            "value": "far greater — verify the figure",
+            "note": "Sources commonly quote a specific multiple. The figure is deliberately not stated here; confirm it from your text."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the relative binding affinity of carbon monoxide, the reliability of the cherry-red sign, and the oxygen treatment description against the current text and current guidelines. No specific carboxyhaemoglobin percentages or hyperbaric criteria are stated; those are institutional decisions. Cyanide antidotes are outside EMT scope and are not named."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-05",
+      "title": "Organophosphates and SLUDGEM",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-05-01",
+        "EMT-05-05-07",
+        "EMT-02-02-01"
+      ],
+      "key_points": [
+        "Organophosphates are found in agricultural and domestic pesticides and in nerve agents",
+        "They cause a flood of secretions from everywhere at once — the body wet on every surface",
+        "SLUDGEM captures it: Salivation, Lacrimation, Urination, Defecation, Gastric upset, Emesis, Miosis",
+        "DUMBELS is the same picture by another list: Diarrhoea, Urination, Miosis, Bronchorrhoea and Bronchospasm, Emesis, Lacrimation, Salivation",
+        "What kills is the airway drowning in its own secretions, so suction and ventilation are the core treatment",
+        "Bronchorrhoea — the lungs filling with fluid the body is producing — is the specific lethal feature",
+        "The patient is contaminated and will contaminate you: gloves, gown, eye protection, and decontaminate before loading",
+        "Remove clothing, which holds the agent, and bag it",
+        "Antidotes exist but are outside EMT scope in most systems — know your protocol"
+      ],
+      "misconceptions": [
+        "Loading a contaminated patient into the ambulance without decontaminating first",
+        "Focusing on the pinpoint pupils and missing the airway filling up",
+        "Treating the vomiting rather than the breathing",
+        "Handling contaminated clothing without protection"
+      ],
+      "exam_favorites": [
+        "What SLUDGEM stands for",
+        "Bronchorrhoea as the lethal feature",
+        "Decontamination before transport",
+        "The overlap with nerve agents"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Organophosphates are in pesticides — agricultural and domestic — and they are the chemistry behind nerve agents. Same mechanism, very different concentrations.\n\nWhat they do is switch on secretion everywhere at once. Every gland and every wet surface goes into overdrive, and the patient is soaked from every direction simultaneously.\n\nSLUDGEM is how it is remembered. Salivation — drooling, foaming. Lacrimation — streaming eyes. Urination. Defecation. Gastric upset — cramping. Emesis — vomiting. Miosis — pinpoint pupils.\n\nDUMBELS is the same picture organised differently, and it earns its place because it names the thing that kills: Diarrhoea, Urination, Miosis, Bronchorrhoea and Bronchospasm, Emesis, Lacrimation, Salivation.\n\nThat B is the one to hold onto. Bronchorrhoea means the airways filling up with secretions the body itself is producing. The patient drowns from the inside, in fluid that keeps coming however much you remove. That is the lethal feature, and it means the treatment is airway, suction, and ventilation — relentlessly. Suction, ventilate, suction again. It is exhausting and it is the job.\n\nDo not get distracted by the dramatic bits. The pinpoint pupils are a useful clue and do not threaten anybody. The vomiting and the diarrhoea are unpleasant and not the emergency. The lungs are the emergency.\n\nNow protect yourself, because this patient is a hazard to you. The agent is on their skin and soaked into their clothing, and it absorbs through skin — yours as readily as theirs. Gloves, gown, eye protection at minimum. Get the clothing off, because clothing holds the agent and keeps dosing them. Bag it. And decontaminate before the patient goes in the ambulance, not after — a contaminated patient in a sealed metal box with you in it is a second casualty waiting to happen.\n\nThere are antidotes, and in most systems giving them is not an EMT function. Some services carry auto-injectors for responder self-protection. Know what your service carries and what your protocol permits before the day you need it.",
+          "standard": "Organophosphate compounds occur in agricultural and domestic pesticides and constitute the chemical basis of nerve agents, producing cholinergic crisis through acetylcholinesterase inhibition. The resulting cholinergic excess produces generalised secretory overactivity, mnemonically captured as SLUDGEM: salivation, lacrimation, urination, defecation, gastric upset, emesis and miosis. The alternative DUMBELS formulation — diarrhoea, urination, miosis, bronchorrhoea and bronchospasm, emesis, lacrimation, salivation — explicitly identifies bronchorrhoea, the principal cause of mortality. Copious airway secretion with bronchospasm produces death by airway flooding; management therefore centres on aggressive suctioning and ventilatory support. The patient constitutes a contamination hazard through dermal absorption; personal protective equipment comprising gloves, gown and eye protection is required, clothing must be removed and contained as it retains agent, and decontamination must precede transport. Antidotal therapy exists but generally falls outside EMT scope; providers must establish local protocol and service holdings."
+        },
+        "eli_new": {
+          "analogy": "Every tap in the house turns on at once. The one that matters is the one running into the lungs.",
+          "body": "SLUDGEM is the famous mnemonic and DUMBELS is the useful one, because DUMBELS has the B in it. Bronchorrhoea is what kills these patients, and a mnemonic that leaves it out lets you concentrate on the pupils while the patient drowns."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Expand SLUDGEM, name the feature that actually kills, and describe how you protect yourself.",
+          "must_hit": [
+            {
+              "point": "Salivation, Lacrimation, Urination, Defecation, Gastric upset, Emesis, Miosis",
+              "accept": [
+                "saliv",
+                "lacrim",
+                "urinat",
+                "defecat",
+                "gastric",
+                "emesis",
+                "miosis"
+              ]
+            },
+            {
+              "point": "Secretions from everywhere at once",
+              "accept": [
+                "secret",
+                "wet",
+                "fluid",
+                "everywhere"
+              ]
+            },
+            {
+              "point": "Bronchorrhoea — the lungs filling with secretions — is what kills",
+              "accept": [
+                "bronchorrhoea",
+                "bronchorrhea",
+                "lung",
+                "drown",
+                "secretion",
+                "kill"
+              ]
+            },
+            {
+              "point": "Treatment is suction and ventilation, relentlessly",
+              "accept": [
+                "suction",
+                "ventilat",
+                "airway",
+                "bvm"
+              ]
+            },
+            {
+              "point": "The patient contaminates you; gloves, gown, eye protection",
+              "accept": [
+                "glove",
+                "gown",
+                "eye",
+                "ppe",
+                "protect",
+                "contaminat"
+              ]
+            },
+            {
+              "point": "Remove and bag clothing, decontaminate before transport",
+              "accept": [
+                "clothing",
+                "remove",
+                "bag",
+                "decontaminat",
+                "before"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The pupils",
+          "dispatch": "Engine 11 — farm worker collapsed near a sprayer, vomiting and unresponsive.",
+          "body": "The student called out the pinpoint pupils straight away, pleased to have spotted the finding from the textbook.\n\nThe officer was already suctioning, and kept suctioning, and did almost nothing else for four minutes.\n\nThe pupils were a clue. The fluid coming up the tube was the emergency."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "SLUDGEM",
+          "expansion": [
+            "S — Salivation: drooling, foaming",
+            "L — Lacrimation: streaming eyes",
+            "U — Urination",
+            "D — Defecation",
+            "G — Gastric upset: cramping",
+            "E — Emesis: vomiting",
+            "M — Miosis: pinpoint pupils",
+            "Also DUMBELS — Diarrhoea, Urination, Miosis, BRONCHORRHOEA and Bronchospasm, Emesis, Lacrimation, Salivation. The B is the one that kills."
+          ],
+          "memory_image": "Every tap in the house on at once. SLUDGEM lists the taps; DUMBELS names the one running into the lungs."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the SLUDGEM and DUMBELS expansions and the decontamination sequence against the current text and local hazardous materials policy. Antidote names and doses are deliberately omitted as they are outside EMT scope in most systems."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-06",
+      "title": "Poison control and activated charcoal",
+      "domain": "MED",
+      "difficulty": 3,
+      "prereqs": [],
+      "related": [
+        "EMT-05-05-01",
+        "EMT-05-06-01"
+      ],
+      "key_points": [
+        "Poison control centres give specific, current advice and should be contacted early, per protocol",
+        "Have the container, the substance name, the quantity, the time and the patient's weight ready before you call",
+        "Activated charcoal binds some swallowed substances in the gut so they are not absorbed",
+        "It is far less used than it once was, and where it is used at all it is time-limited and protocol-driven",
+        "It does not bind everything — alcohols, acids, alkalis, iron and lithium among others are not adsorbed",
+        "It is contraindicated where the airway is not protected, where the substance is a corrosive or a hydrocarbon, and where the patient cannot swallow",
+        "Inducing vomiting is not done, and syrup of ipecac is no longer used",
+        "Giving anything by mouth to a patient who may deteriorate creates an aspiration risk that has to be weighed"
+      ],
+      "misconceptions": [
+        "Inducing vomiting, or letting a family member who already has continue",
+        "Giving activated charcoal to a drowsy patient",
+        "Assuming charcoal works on every ingestion",
+        "Delaying transport to make a phone call that could be made en route"
+      ],
+      "exam_favorites": [
+        "What information poison control needs",
+        "What charcoal does not bind",
+        "The airway contraindication",
+        "Why vomiting is not induced"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Poison control centres are a genuine resource and an underused one. They hold current, specific information about substances you will never have heard of, and they will tell you what matters about the one in front of you. Contact them early, per your protocol, and if you can do it while moving, do it while moving.\n\nBefore you call, have your answers ready: the container itself if you have it, the name of the substance, roughly how much, what time, and the patient's weight. Those five things let them give you a real answer instead of a generic one.\n\nActivated charcoal is the other half of this concept, and the honest summary is that it is used far less than it once was. The idea is sound — it binds certain substances in the gut so they are never absorbed — but the window is short, the benefit is narrower than was once believed, and the risk is real. Where it is still used it is tightly protocol-driven and time-limited.\n\nTwo things about it you must know.\n\nIt does not bind everything. Alcohols, acids, alkalis, iron, lithium — charcoal does nothing for these. Giving it for a substance it cannot bind achieves nothing and still carries every one of the risks.\n\nAnd the contraindications are mostly about the airway. It is not given to a patient who cannot protect their own airway, cannot swallow, or is likely to deteriorate. It is not given for corrosives — acids and alkalis — because it does not help and it obscures the view when somebody needs to look at the damage. And it is not given for hydrocarbons, where vomiting it back up into the lungs is far worse than the original ingestion.\n\nThat aspiration risk is the whole of it. Charcoal in the lungs is a serious injury in itself. So the question before giving anything by mouth to a poisoned patient is: could this patient's consciousness drop in the next twenty minutes? If the answer is maybe, do not put anything in their mouth.\n\nLastly: do not make anybody vomit. Not with your finger, not with salt water, not with anything. Syrup of ipecac has been off the table for years. If a family member has already done it, note what came up, and stop them doing it again.",
+          "standard": "Poison control centres provide substance-specific, current guidance and should be contacted early per protocol, ideally without delaying transport. Information required comprises the agent, quantity, elapsed time, patient weight and the container where available. Activated charcoal adsorbs certain ingested compounds within the gastrointestinal tract, preventing systemic absorption; contemporary use is substantially reduced, time-limited and protocol-governed. Charcoal does not adsorb alcohols, acids, alkalis, iron or lithium among other agents. Contraindications comprise unprotected airway, inability to swallow, anticipated deterioration in consciousness, corrosive ingestion — where it provides no benefit and obscures endoscopic assessment — and hydrocarbon ingestion, where aspiration risk exceeds ingestion risk. Pulmonary aspiration of charcoal constitutes a significant injury. Induced emesis is not performed and syrup of ipecac is obsolete."
+        },
+        "eli_new": {
+          "analogy": "Charcoal is a sponge you send down after the spill. It only works on some spills, only if it gets there quickly, and only if the patient can be trusted to keep it down.",
+          "body": "The test question before giving anything by mouth to a poisoned patient is one sentence: could this person's consciousness drop in the next twenty minutes? If maybe, nothing goes in the mouth. Charcoal in the lungs is its own serious injury."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what poison control needs from you and the main contraindications to activated charcoal.",
+          "must_hit": [
+            {
+              "point": "Contact poison control early, per protocol, without delaying transport",
+              "accept": [
+                "poison control",
+                "early",
+                "protocol",
+                "call",
+                "transport"
+              ]
+            },
+            {
+              "point": "Have the substance, quantity, time, weight and container ready",
+              "accept": [
+                "substance",
+                "quantity",
+                "time",
+                "weight",
+                "container"
+              ]
+            },
+            {
+              "point": "Charcoal binds some swallowed substances so they are not absorbed",
+              "accept": [
+                "bind",
+                "adsorb",
+                "gut",
+                "absorb"
+              ]
+            },
+            {
+              "point": "It does not bind alcohols, acids, alkalis, iron or lithium",
+              "accept": [
+                "alcohol",
+                "acid",
+                "alkali",
+                "iron",
+                "lithium",
+                "not bind"
+              ]
+            },
+            {
+              "point": "Contraindicated with an unprotected airway, corrosives and hydrocarbons",
+              "accept": [
+                "airway",
+                "protect",
+                "corrosive",
+                "hydrocarbon",
+                "swallow"
+              ]
+            },
+            {
+              "point": "Vomiting is not induced and ipecac is obsolete",
+              "accept": [
+                "vomit",
+                "induc",
+                "ipecac",
+                "never"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She'd already made him sick",
+          "dispatch": "Medic 6 — 4-year-old, swallowed something from under the sink.",
+          "body": "His mother had put her fingers down his throat within a minute of finding him, because that is what she had been told to do years ago.\n\nWhat came back up was a drain cleaner, and it burned on the way back up exactly as it had burned on the way down.\n\nThe crew noted what came up, stopped her from doing it again, and did not make it worse."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "Activated charcoal",
+          "class": "Adsorbent",
+          "indications": [
+            "Certain recent oral ingestions, per protocol and usually after poison control or medical direction advice"
+          ],
+          "contraindications": [
+            "Unable to protect the airway",
+            "Unable to swallow",
+            "Reduced or falling level of consciousness",
+            "Corrosive ingestion — acids and alkalis",
+            "Hydrocarbon ingestion",
+            "Substances charcoal does not bind: alcohols, acids, alkalis, iron, lithium"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify",
+          "route": "Oral",
+          "onset": "per protocol / verify",
+          "side_effects": [
+            "Vomiting",
+            "Aspiration — charcoal in the lungs is a serious injury",
+            "Black stools"
+          ],
+          "scope": "EMT administers per protocol where carried; use is far less common than it once was"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the activated charcoal indications, contraindications and the list of substances it does not bind against the current text and local protocol; charcoal practice varies considerably between services. No charcoal dose is stated."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-07",
+      "title": "Toxidromes overview",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-05-02",
+        "EMT-05-05-05"
+      ],
+      "related": [
+        "EMT-05-05-02",
+        "EMT-05-05-03",
+        "EMT-05-05-05"
+      ],
+      "key_points": [
+        "A toxidrome is a pattern of findings that points at a class of substance when nobody can tell you what was taken",
+        "The four you should recognise are opioid, cholinergic, anticholinergic and sympathomimetic",
+        "Opioid: reduced consciousness, slow breathing, pinpoint pupils",
+        "Cholinergic: wet everywhere — SLUDGEM — with pinpoint pupils and secretions in the airway",
+        "Anticholinergic: the opposite — hot, dry, flushed, dilated pupils, agitated, retaining urine",
+        "Sympathomimetic: fast, hot, dilated pupils, high blood pressure, agitated — but sweating, which is what separates it from anticholinergic",
+        "Sweating is the discriminator between sympathomimetic and anticholinergic; pupils separate opioid from cholinergic",
+        "Mixed ingestions blur the patterns, so a toxidrome supports your thinking rather than closing it down",
+        "Vital signs including temperature and pupils are the assessment, and they are what make a toxidrome visible"
+      ],
+      "misconceptions": [
+        "Forcing a patient into one toxidrome when they have taken several things",
+        "Confusing sympathomimetic and anticholinergic because both are hot and agitated",
+        "Not taking a temperature and losing half the pattern",
+        "Treating the label instead of the airway and the vital signs"
+      ],
+      "exam_favorites": [
+        "The four toxidromes",
+        "Sweating as the anticholinergic-versus-sympathomimetic discriminator",
+        "Pupils in opioid versus cholinergic",
+        "Why mixed ingestions blur patterns"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A toxidrome is a recognisable pattern of findings that tells you what class of substance you are dealing with when nobody in the room can or will tell you what was taken. Which is often.\n\nThere are four worth knowing properly.\n\nOpioid. Reduced consciousness, slow or absent breathing, pinpoint pupils. Quiet and still. You know this one already.\n\nCholinergic — organophosphates and the like. Also pinpoint pupils, but the patient is wet from every orifice and surface, with secretions in the airway. SLUDGEM.\n\nAnticholinergic. The exact mirror image of cholinergic. Dry as a bone, hot, red in the face, pupils wide open, agitated or hallucinating, and unable to pass urine. The old teaching rhyme captures it: hot as a hare, dry as a bone, red as a beet, blind as a bat, mad as a hatter.\n\nSympathomimetic — stimulants. Fast pulse, high blood pressure, dilated pupils, hot, agitated, sometimes paranoid.\n\nNow the two discriminations that actually earn you something.\n\nAnticholinergic and sympathomimetic look almost identical at the bedside. Both are hot, both have big pupils, both are agitated, both have fast pulses. The separator is sweat. The sympathomimetic patient is drenched. The anticholinergic patient is bone dry — they cannot sweat, which is a large part of why they overheat. Put a hand on the skin. That is the test.\n\nOpioid and cholinergic both give you pinpoint pupils. The separator is everything else: the opioid patient is dry and still, the cholinergic patient is soaked and producing fluid from everywhere.\n\nTwo cautions. First, mixed ingestions are extremely common, and someone who has taken three things will not present as any clean pattern. A toxidrome is a hypothesis, not an answer. If the patient does not fit, the patient is right and the pattern is wrong.\n\nSecond, and more important: treat the patient, not the label. Naming the toxidrome changes almost nothing you do at EMT level. Airway, breathing, circulation, temperature, glucose and transport is the treatment whatever the pattern turns out to be. The value of recognising it is what you can hand over — 'this looks anticholinergic to me' is a genuinely useful sentence at the door.\n\nWhich is also why the vital signs matter so much here. A toxidrome is made of vital signs. Skip the temperature and you have lost a quarter of the picture.",
+          "standard": "A toxidrome denotes a constellation of clinical findings suggesting a substance class where the ingested agent is unknown. Four principal patterns are recognised. Opioid toxidrome: central nervous system depression, respiratory depression, miosis. Cholinergic toxidrome: miosis with generalised secretory excess and bronchorrhoea, per SLUDGEM. Anticholinergic toxidrome: hyperthermia, anhidrosis, cutaneous flushing, mydriasis, agitation or delirium, and urinary retention. Sympathomimetic toxidrome: tachycardia, hypertension, mydriasis, hyperthermia, agitation with diaphoresis. Diaphoresis distinguishes sympathomimetic from anticholinergic presentations, which are otherwise closely similar; associated secretory findings distinguish cholinergic from opioid miosis. Polypharmacy ingestion is common and produces blurred or atypical patterns; toxidrome recognition informs but does not conclude assessment. Prehospital management at EMT level is determined by airway, breathing, circulation, temperature and glucose rather than by toxidrome identification; recognition primarily serves handover communication. Complete vital signs, including temperature and pupillary assessment, constitute the substance of toxidrome recognition."
+        },
+        "eli_new": {
+          "analogy": "Four patterns, and the whole trick is a hand on the skin. Wet and fast is a stimulant. Dry and fast is an anticholinergic. Wet and slow with tiny pupils is cholinergic. Dry and slow with tiny pupils is an opioid.",
+          "body": "Do not spend energy naming the toxidrome and then forget to manage the patient. At your level the treatment is the same for all four: airway, breathing, circulation, temperature, glucose, transport. Recognising the pattern is for the handover, and that is still worth doing."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the four toxidromes and explain the findings that separate the ones that look alike.",
+          "must_hit": [
+            {
+              "point": "Opioid: reduced consciousness, slow breathing, pinpoint pupils",
+              "accept": [
+                "opioid",
+                "pinpoint",
+                "slow",
+                "conscious",
+                "respirat"
+              ]
+            },
+            {
+              "point": "Cholinergic: wet everywhere with pinpoint pupils and airway secretions",
+              "accept": [
+                "cholinergic",
+                "wet",
+                "secret",
+                "sludgem",
+                "pinpoint"
+              ]
+            },
+            {
+              "point": "Anticholinergic: hot, dry, flushed, dilated pupils, agitated",
+              "accept": [
+                "anticholinergic",
+                "dry",
+                "hot",
+                "flush",
+                "dilat",
+                "agitat"
+              ]
+            },
+            {
+              "point": "Sympathomimetic: fast, hot, dilated pupils, agitated, sweating",
+              "accept": [
+                "sympathomimetic",
+                "stimulant",
+                "fast",
+                "sweat",
+                "dilat"
+              ]
+            },
+            {
+              "point": "Sweating separates sympathomimetic from anticholinergic",
+              "accept": [
+                "sweat",
+                "diaphor",
+                "dry",
+                "separat",
+                "discriminat"
+              ]
+            },
+            {
+              "point": "Mixed ingestions blur the patterns; treat the patient not the label",
+              "accept": [
+                "mixed",
+                "multiple",
+                "blur",
+                "treat",
+                "label",
+                "airway"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "A hand on the arm",
+          "dispatch": "Medic 8 — male in his thirties, agitated and confused in a shopping centre.",
+          "body": "Fast pulse, wide pupils, hot to look at, shouting at people who were not there. The crew had him down as a stimulant and were planning accordingly.\n\nThe paramedic put the back of her hand on his forearm and said one word: dry.\n\nStimulant patients are soaked. This one could not sweat at all, which was also why he was so hot."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Anticholinergic",
+          "right_label": "Sympathomimetic",
+          "rows": [
+            {
+              "feature": "Skin moisture",
+              "left": "BONE DRY — cannot sweat",
+              "right": "DRENCHED in sweat"
+            },
+            {
+              "feature": "Temperature",
+              "left": "Hot, partly because they cannot sweat",
+              "right": "Hot"
+            },
+            {
+              "feature": "Skin colour",
+              "left": "Flushed, red",
+              "right": "Pale or flushed"
+            },
+            {
+              "feature": "Pupils",
+              "left": "Dilated",
+              "right": "Dilated"
+            },
+            {
+              "feature": "Pulse",
+              "left": "Fast",
+              "right": "Fast"
+            },
+            {
+              "feature": "Blood pressure",
+              "left": "Raised",
+              "right": "Raised"
+            },
+            {
+              "feature": "Mental status",
+              "left": "Agitated, hallucinating, classically picking at things",
+              "right": "Agitated, talkative, sometimes paranoid"
+            },
+            {
+              "feature": "Bladder",
+              "left": "Retaining urine",
+              "right": "No characteristic finding"
+            },
+            {
+              "feature": "The discriminator",
+              "left": "Put a hand on the skin: DRY",
+              "right": "Put a hand on the skin: WET"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the four toxidrome descriptions and the discriminating findings against the current text. No substances are named beyond their classes."
     }
   ]
 }

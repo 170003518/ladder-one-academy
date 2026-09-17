@@ -2312,6 +2312,1206 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-01-Q001",
+      "concept_id": "EMT-05-05-01",
+      "style": "recall",
+      "stem": "Which route of exposure produces the slowest onset?",
+      "options": [
+        {
+          "text": "Inhalation",
+          "rationale": "Inhaled substances cross at the lungs almost immediately."
+        },
+        {
+          "text": "Ingestion",
+          "rationale": "Correct. The substance must be absorbed from the gut, which takes time."
+        },
+        {
+          "text": "Injection",
+          "rationale": "Injected substances are already in the bloodstream."
+        },
+        {
+          "text": "Absorption through mucous membranes",
+          "rationale": "Faster than ingestion through the gut."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-01-Q002",
+      "concept_id": "EMT-05-05-01",
+      "style": "application",
+      "stem": "A worker is collapsed in a basement plant room and the cause is unknown. What is the correct action?",
+      "options": [
+        {
+          "text": "Enter quickly, drag the patient out and treat in fresh air",
+          "rationale": "Whatever dropped them is still in there and will drop you too."
+        },
+        {
+          "text": "Do not enter; whatever caused the collapse is still present and requires trained responders with equipment",
+          "rationale": "Correct. Rescuers who enter become patients and nobody gets helped."
+        },
+        {
+          "text": "Enter while holding your breath",
+          "rationale": "Holding your breath protects against nothing and fails quickly."
+        },
+        {
+          "text": "Enter with a surgical mask in place",
+          "rationale": "A surgical mask offers no protection against an unknown atmosphere."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-01-Q003",
+      "concept_id": "EMT-05-05-01",
+      "style": "application",
+      "stem": "Why is decontamination considered a treatment in a dermal exposure?",
+      "options": [
+        {
+          "text": "Because it makes the patient more comfortable",
+          "rationale": "Comfort is a side benefit, not the reason."
+        },
+        {
+          "text": "Because the exposure continues while the substance remains on the patient",
+          "rationale": "Correct. Every minute it stays on is more dose absorbed."
+        },
+        {
+          "text": "Because it protects the ambulance interior",
+          "rationale": "That matters, but it is not the clinical reason."
+        },
+        {
+          "text": "Because hospitals will not accept a contaminated patient",
+          "rationale": "Not the clinical rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-01-Q004",
+      "concept_id": "EMT-05-05-01",
+      "style": "recall",
+      "stem": "A patient who swallowed a substance twenty minutes ago looks completely well. How should this be interpreted?",
+      "options": [
+        {
+          "text": "The dose was harmless",
+          "rationale": "Early well-appearance after ingestion says nothing about the dose."
+        },
+        {
+          "text": "Ingested substances act slowly, so appearance now does not predict the outcome",
+          "rationale": "Correct. This delay is exactly what catches people out."
+        },
+        {
+          "text": "The patient is exaggerating the ingestion",
+          "rationale": "Not a safe assumption."
+        },
+        {
+          "text": "No further monitoring is needed",
+          "rationale": "Continuous monitoring is exactly what is needed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-01-Q005",
+      "concept_id": "EMT-05-05-01",
+      "style": "scenario",
+      "stem": "What should you establish about any poisoning?",
+      "options": [
+        {
+          "text": "Only what was taken",
+          "rationale": "Quantity, timing and route matter just as much."
+        },
+        {
+          "text": "What, how much, when, by what route, and what has already been done",
+          "rationale": "Correct. Those five answers shape everything downstream."
+        },
+        {
+          "text": "Only the patient's psychiatric history",
+          "rationale": "Relevant context sometimes, but not the toxicological history."
+        },
+        {
+          "text": "Only whether the patient wants to go to hospital",
+          "rationale": "The history comes first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-02-Q001",
+      "concept_id": "EMT-05-05-02",
+      "style": "recall",
+      "stem": "What are the three findings of the opioid triad?",
+      "options": [
+        {
+          "text": "Fever, fast pulse, dilated pupils",
+          "rationale": "That is closer to a stimulant picture."
+        },
+        {
+          "text": "Reduced consciousness, slow or absent breathing, pinpoint pupils",
+          "rationale": "Correct. Three findings, one diagnosis."
+        },
+        {
+          "text": "Seizure, sweating, hypertension",
+          "rationale": "None of these form the opioid triad."
+        },
+        {
+          "text": "Wheeze, hives, hypotension",
+          "rationale": "That describes anaphylaxis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-02-Q002",
+      "concept_id": "EMT-05-05-02",
+      "style": "recall",
+      "stem": "What actually kills a patient in opioid overdose?",
+      "options": [
+        {
+          "text": "Direct toxicity to the heart",
+          "rationale": "The opioid itself is not directly cardiotoxic in this way."
+        },
+        {
+          "text": "Respiratory failure and the resulting hypoxia",
+          "rationale": "Correct. The drug switches off the drive to breathe."
+        },
+        {
+          "text": "Kidney failure from the drug",
+          "rationale": "Not the mechanism of death in acute overdose."
+        },
+        {
+          "text": "Seizures caused by the opioid",
+          "rationale": "Seizures are not the typical cause of death here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-02-Q003",
+      "concept_id": "EMT-05-05-02",
+      "style": "sequence",
+      "stem": "A patient has pinpoint pupils and four agonal breaths a minute. What comes first?",
+      "options": [
+        {
+          "text": "Administer naloxone immediately",
+          "rationale": "The lethal problem is the breathing, and you can fix that now."
+        },
+        {
+          "text": "Open the airway and ventilate with a bag-valve mask",
+          "rationale": "Correct. Ventilation keeps them alive while the drug gets there."
+        },
+        {
+          "text": "Check a blood glucose",
+          "rationale": "Important, but not before ventilating an apnoeic patient."
+        },
+        {
+          "text": "Place the patient in the recovery position and observe",
+          "rationale": "Observation does not ventilate an apnoeic patient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-02-Q004",
+      "concept_id": "EMT-05-05-02",
+      "style": "application",
+      "stem": "After naloxone a patient is alert and refuses transport. What is the concern?",
+      "options": [
+        {
+          "text": "None; the reversal is permanent",
+          "rationale": "Naloxone can wear off before the opioid does."
+        },
+        {
+          "text": "Naloxone may wear off before the opioid, and respiratory depression can return",
+          "rationale": "Correct. This is why every naloxone patient is transported."
+        },
+        {
+          "text": "The patient will be in withdrawal for days",
+          "rationale": "Withdrawal is unpleasant but is not the transport rationale."
+        },
+        {
+          "text": "Naloxone causes delayed cardiac effects",
+          "rationale": "Not the recognised concern here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-02-Q005",
+      "concept_id": "EMT-05-05-02",
+      "style": "application",
+      "stem": "A patient wakes abruptly after naloxone, frightened and combative. How should this be understood?",
+      "options": [
+        {
+          "text": "As deliberately aggressive behaviour requiring restraint first",
+          "rationale": "It is a physiological reaction, not a character judgement."
+        },
+        {
+          "text": "As a physiological response to abrupt reversal, to be anticipated and managed calmly",
+          "rationale": "Correct. Plan for it and position yourself accordingly."
+        },
+        {
+          "text": "As evidence the diagnosis was wrong",
+          "rationale": "Abrupt waking supports the diagnosis rather than undermining it."
+        },
+        {
+          "text": "As a sign of a second drug on board",
+          "rationale": "Possible, but abrupt reversal alone explains it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-02-Q006",
+      "concept_id": "EMT-05-05-02",
+      "style": "recall",
+      "stem": "How does naloxone work?",
+      "options": [
+        {
+          "text": "It metabolises the opioid in the bloodstream",
+          "rationale": "It does not break the opioid down."
+        },
+        {
+          "text": "It displaces the opioid from its receptors",
+          "rationale": "Correct. It competes for the receptor sites."
+        },
+        {
+          "text": "It stimulates the respiratory centre directly",
+          "rationale": "Its action is at the opioid receptors, not a direct stimulant effect."
+        },
+        {
+          "text": "It increases the rate of opioid excretion",
+          "rationale": "Excretion is not how it acts."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-03-Q001",
+      "concept_id": "EMT-05-05-03",
+      "style": "recall",
+      "stem": "Which findings suggest stimulant toxicity?",
+      "options": [
+        {
+          "text": "Slow pulse, pinpoint pupils, slow breathing",
+          "rationale": "That is the opioid picture."
+        },
+        {
+          "text": "Fast pulse, high blood pressure, dilated pupils, agitation",
+          "rationale": "Correct. Everything is running fast and hot."
+        },
+        {
+          "text": "Low temperature, drowsiness, slurred speech",
+          "rationale": "That is a sedative picture."
+        },
+        {
+          "text": "Wheeze, hives and hypotension",
+          "rationale": "That describes anaphylaxis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-03-Q002",
+      "concept_id": "EMT-05-05-03",
+      "style": "recall",
+      "stem": "What are the principal dangers of stimulant toxicity?",
+      "options": [
+        {
+          "text": "Low blood sugar and dehydration",
+          "rationale": "Not the recognised principal dangers here."
+        },
+        {
+          "text": "Hyperthermia, seizures and cardiac events",
+          "rationale": "Correct. Overheating in particular gets overlooked."
+        },
+        {
+          "text": "Airway obstruction from swelling",
+          "rationale": "Not characteristic of stimulant toxicity."
+        },
+        {
+          "text": "Kidney failure within the hour",
+          "rationale": "Not the acute prehospital concern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-03-Q003",
+      "concept_id": "EMT-05-05-03",
+      "style": "application",
+      "stem": "Why is a sedative taken with alcohol more dangerous than either alone?",
+      "options": [
+        {
+          "text": "Alcohol prevents the sedative being absorbed",
+          "rationale": "It does not prevent absorption."
+        },
+        {
+          "text": "Both depress breathing, and the combined effect exceeds either alone",
+          "rationale": "Correct. Survivable amounts of each become lethal together."
+        },
+        {
+          "text": "Alcohol makes the patient more alert, masking the sedative",
+          "rationale": "Alcohol is itself a depressant."
+        },
+        {
+          "text": "The combination causes an allergic reaction",
+          "rationale": "Not the mechanism at work."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-03-Q004",
+      "concept_id": "EMT-05-05-03",
+      "style": "application",
+      "stem": "How should acute alcohol intoxication be regarded?",
+      "options": [
+        {
+          "text": "As a behavioural problem for police to manage",
+          "rationale": "It is a poisoning and is managed clinically."
+        },
+        {
+          "text": "As a sedative overdose, managed as poisoning",
+          "rationale": "Correct. Familiarity does not change the physiology."
+        },
+        {
+          "text": "As a condition requiring no assessment",
+          "rationale": "Every intoxicated patient is assessed."
+        },
+        {
+          "text": "As always less serious than other overdoses",
+          "rationale": "Heavy intoxication can be fatal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-03-Q005",
+      "concept_id": "EMT-05-05-03",
+      "style": "recall",
+      "stem": "What is the specific danger of restraining a patient face down?",
+      "options": [
+        {
+          "text": "Pressure sores develop rapidly",
+          "rationale": "Not the acute lethal risk."
+        },
+        {
+          "text": "Positional asphyxia — the patient cannot expand their chest",
+          "rationale": "Correct. Prone restraint is contraindicated for this reason."
+        },
+        {
+          "text": "The patient cannot be assessed for pupils",
+          "rationale": "A limitation, but not the lethal danger."
+        },
+        {
+          "text": "It increases the risk of vomiting only",
+          "rationale": "Aspiration matters, but asphyxia is the named risk."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-03-Q006",
+      "concept_id": "EMT-05-05-03",
+      "style": "scenario",
+      "stem": "A dependent drinker stopped drinking two days ago and now has tremor, sweating and hallucinations. How serious is this?",
+      "options": [
+        {
+          "text": "Less serious than being intoxicated",
+          "rationale": "Withdrawal can be more dangerous than intoxication."
+        },
+        {
+          "text": "Potentially more dangerous than intoxication, with a risk of seizures",
+          "rationale": "Correct. Severe withdrawal carries a real mortality rate."
+        },
+        {
+          "text": "Not a medical problem",
+          "rationale": "It is very much a medical problem."
+        },
+        {
+          "text": "Only a psychiatric concern",
+          "rationale": "The seizure risk makes it a physical emergency."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-04-Q001",
+      "concept_id": "EMT-05-05-04",
+      "style": "recall",
+      "stem": "Why is a pulse oximeter unhelpful in suspected carbon monoxide poisoning?",
+      "options": [
+        {
+          "text": "It cannot read through soot on the finger",
+          "rationale": "Soot is a practical nuisance, not the reason."
+        },
+        {
+          "text": "It cannot distinguish haemoglobin carrying carbon monoxide from haemoglobin carrying oxygen",
+          "rationale": "Correct. It will read a poisoned patient as normal."
+        },
+        {
+          "text": "It reads falsely low in these patients",
+          "rationale": "It reads falsely high, or rather falsely normal."
+        },
+        {
+          "text": "It only works on patients who are breathing spontaneously",
+          "rationale": "Not the issue here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-04-Q002",
+      "concept_id": "EMT-05-05-04",
+      "style": "application",
+      "stem": "Four people in one house have headaches and nausea with no fever. What should you suspect?",
+      "options": [
+        {
+          "text": "A viral illness spreading through the family",
+          "rationale": "Possible, but the absence of fever and the shared location point elsewhere."
+        },
+        {
+          "text": "Carbon monoxide exposure",
+          "rationale": "Correct. Multiple people in one building is the classic finding."
+        },
+        {
+          "text": "Food poisoning",
+          "rationale": "Would not typically produce this pattern without gastrointestinal symptoms."
+        },
+        {
+          "text": "Mass anxiety",
+          "rationale": "Not a diagnosis to reach for with a physical explanation available."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-04-Q003",
+      "concept_id": "EMT-05-05-04",
+      "style": "recall",
+      "stem": "What is the treatment for carbon monoxide exposure at EMT level?",
+      "options": [
+        {
+          "text": "Nasal cannula at low flow",
+          "rationale": "Low-flow oxygen is inadequate here."
+        },
+        {
+          "text": "Removal from the source and high-flow oxygen by non-rebreather",
+          "rationale": "Correct. High concentration drives the carbon monoxide off faster."
+        },
+        {
+          "text": "Oral fluids and rest",
+          "rationale": "Does not address the poisoning."
+        },
+        {
+          "text": "Withholding oxygen until saturations fall",
+          "rationale": "Saturations will not fall, which is the whole problem."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-04-Q004",
+      "concept_id": "EMT-05-05-04",
+      "style": "recall",
+      "stem": "How does cyanide differ from carbon monoxide in its mechanism?",
+      "options": [
+        {
+          "text": "Cyanide also binds haemoglobin, only faster",
+          "rationale": "It acts at the cellular level, not on haemoglobin transport."
+        },
+        {
+          "text": "Cyanide stops cells using oxygen, so delivery is intact but the cells cannot use it",
+          "rationale": "Correct. It attacks the last step rather than transport."
+        },
+        {
+          "text": "Cyanide causes airway swelling",
+          "rationale": "Not its mechanism of toxicity."
+        },
+        {
+          "text": "Cyanide has no effect on oxygen use",
+          "rationale": "It specifically blocks cellular oxygen use."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-04-Q005",
+      "concept_id": "EMT-05-05-04",
+      "style": "application",
+      "stem": "A fire victim is sooty, confused, and not improving as expected on high-flow oxygen. What should you consider?",
+      "options": [
+        {
+          "text": "That the oxygen equipment has failed",
+          "rationale": "Possible but check the patient's physiology as well."
+        },
+        {
+          "text": "Concurrent carbon monoxide and cyanide toxicity from the fire",
+          "rationale": "Correct. Both poisonings frequently run together in enclosed-space fires."
+        },
+        {
+          "text": "That the patient is exaggerating symptoms",
+          "rationale": "Not a reasonable interpretation."
+        },
+        {
+          "text": "That confusion is purely from pain",
+          "rationale": "Pain does not explain a poor response to oxygen."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-04-Q006",
+      "concept_id": "EMT-05-05-04",
+      "style": "scenario",
+      "stem": "How reliable is cherry-red skin as a sign of carbon monoxide poisoning?",
+      "options": [
+        {
+          "text": "Highly reliable and usually early",
+          "rationale": "It is neither reliable nor early."
+        },
+        {
+          "text": "Late and unreliable — it should not be waited for",
+          "rationale": "Correct. Suspicion comes from the story, not the skin."
+        },
+        {
+          "text": "Present in every case",
+          "rationale": "It is frequently absent."
+        },
+        {
+          "text": "A sign of cyanide rather than carbon monoxide",
+          "rationale": "It is described in carbon monoxide, but unreliably."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-05-Q001",
+      "concept_id": "EMT-05-05-05",
+      "style": "recall",
+      "stem": "What does the M in SLUDGEM stand for?",
+      "options": [
+        {
+          "text": "Mydriasis — dilated pupils",
+          "rationale": "Organophosphates cause constricted pupils, not dilated."
+        },
+        {
+          "text": "Miosis — pinpoint pupils",
+          "rationale": "Correct. Pinpoint pupils are part of the cholinergic picture."
+        },
+        {
+          "text": "Muscle rigidity",
+          "rationale": "Not what the letter denotes."
+        },
+        {
+          "text": "Myalgia",
+          "rationale": "Not what the letter denotes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-05-Q002",
+      "concept_id": "EMT-05-05-05",
+      "style": "recall",
+      "stem": "Which feature of organophosphate poisoning is the usual cause of death?",
+      "options": [
+        {
+          "text": "Vomiting and dehydration",
+          "rationale": "Unpleasant but not the lethal feature."
+        },
+        {
+          "text": "Bronchorrhoea — the airways filling with secretions",
+          "rationale": "Correct. The patient drowns in fluid their own body is producing."
+        },
+        {
+          "text": "Pinpoint pupils",
+          "rationale": "A clue that harms nobody."
+        },
+        {
+          "text": "Urinary incontinence",
+          "rationale": "Not a cause of death."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-05-Q003",
+      "concept_id": "EMT-05-05-05",
+      "style": "application",
+      "stem": "What is the core treatment for an organophosphate patient at EMT level?",
+      "options": [
+        {
+          "text": "Oral fluids to replace losses",
+          "rationale": "Does not address the airway, which is the threat."
+        },
+        {
+          "text": "Aggressive suctioning and ventilation",
+          "rationale": "Correct. Suction, ventilate, suction again — relentlessly."
+        },
+        {
+          "text": "Cooling measures for hyperthermia",
+          "rationale": "Not the characteristic threat here."
+        },
+        {
+          "text": "Restraint and sedation",
+          "rationale": "Neither is the priority nor within EMT scope here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-05-Q004",
+      "concept_id": "EMT-05-05-05",
+      "style": "application",
+      "stem": "When should a contaminated organophosphate patient be decontaminated?",
+      "options": [
+        {
+          "text": "After arrival at hospital",
+          "rationale": "That contaminates the ambulance and the crew en route."
+        },
+        {
+          "text": "Before transport",
+          "rationale": "Correct. A contaminated patient in a sealed vehicle makes a second casualty."
+        },
+        {
+          "text": "Only if the crew develops symptoms",
+          "rationale": "By then the exposure has already happened."
+        },
+        {
+          "text": "Decontamination is unnecessary if gloves are worn",
+          "rationale": "Gloves alone are not decontamination."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-05-Q005",
+      "concept_id": "EMT-05-05-05",
+      "style": "recall",
+      "stem": "Why is clothing removed from an organophosphate patient?",
+      "options": [
+        {
+          "text": "To allow a full physical examination",
+          "rationale": "A reason to expose, but not the toxicological reason."
+        },
+        {
+          "text": "Because clothing retains the agent and keeps dosing the patient",
+          "rationale": "Correct. It continues the exposure until it is removed and bagged."
+        },
+        {
+          "text": "To prevent hypothermia",
+          "rationale": "Removing clothing works against that, not for it."
+        },
+        {
+          "text": "To preserve evidence",
+          "rationale": "Not the clinical rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-05-Q006",
+      "concept_id": "EMT-05-05-05",
+      "style": "scenario",
+      "stem": "Where might an EMT encounter organophosphates?",
+      "options": [
+        {
+          "text": "Only in military nerve agent incidents",
+          "rationale": "They are common in civilian pesticides too."
+        },
+        {
+          "text": "Agricultural and domestic pesticides, as well as nerve agents",
+          "rationale": "Correct. Same chemistry, very different concentrations."
+        },
+        {
+          "text": "Only in industrial chemical plants",
+          "rationale": "Far more widely distributed than that."
+        },
+        {
+          "text": "Only in household cleaning products",
+          "rationale": "Cleaning products are a different hazard group."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-06-Q001",
+      "concept_id": "EMT-05-05-06",
+      "style": "recall",
+      "stem": "Which of these does activated charcoal NOT bind?",
+      "options": [
+        {
+          "text": "Most tablet medications",
+          "rationale": "Charcoal binds many common medications."
+        },
+        {
+          "text": "Alcohols, acids, alkalis, iron and lithium",
+          "rationale": "Correct. Giving it for these achieves nothing and retains every risk."
+        },
+        {
+          "text": "Nothing; it binds all ingested substances",
+          "rationale": "It binds a specific range, not everything."
+        },
+        {
+          "text": "Only substances taken more than six hours ago",
+          "rationale": "Charcoal is more useful early, not late."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-06-Q002",
+      "concept_id": "EMT-05-05-06",
+      "style": "application",
+      "stem": "A poisoned patient is becoming drowsy. Should activated charcoal be given?",
+      "options": [
+        {
+          "text": "Yes, before they deteriorate further",
+          "rationale": "A falling level of consciousness is exactly the contraindication."
+        },
+        {
+          "text": "No — a falling level of consciousness means the airway cannot be relied on",
+          "rationale": "Correct. Charcoal in the lungs is a serious injury in itself."
+        },
+        {
+          "text": "Yes, if given with water to help it down",
+          "rationale": "Water does not resolve the aspiration risk."
+        },
+        {
+          "text": "Yes, if the patient is sitting upright",
+          "rationale": "Position does not make an unprotected airway safe."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-06-Q003",
+      "concept_id": "EMT-05-05-06",
+      "style": "recall",
+      "stem": "What is the current guidance on inducing vomiting in poisoning?",
+      "options": [
+        {
+          "text": "Induce vomiting within the first ten minutes",
+          "rationale": "Induced emesis is not performed."
+        },
+        {
+          "text": "Do not induce vomiting; syrup of ipecac is obsolete",
+          "rationale": "Correct. It is not done by any method."
+        },
+        {
+          "text": "Induce vomiting only for corrosives",
+          "rationale": "Corrosives are the worst case for bringing it back up."
+        },
+        {
+          "text": "Induce vomiting only in children",
+          "rationale": "Not done in any age group."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-06-Q004",
+      "concept_id": "EMT-05-05-06",
+      "style": "application",
+      "stem": "What information should you have ready before contacting poison control?",
+      "options": [
+        {
+          "text": "Only the patient's name and age",
+          "rationale": "Not enough for substance-specific advice."
+        },
+        {
+          "text": "The substance, quantity, time, patient weight, and the container if available",
+          "rationale": "Correct. Those five answers get a real answer instead of a generic one."
+        },
+        {
+          "text": "The patient's insurance details",
+          "rationale": "Not a clinical consideration."
+        },
+        {
+          "text": "Only the dispatch information",
+          "rationale": "Dispatch information is frequently incomplete or wrong."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-06-Q005",
+      "concept_id": "EMT-05-05-06",
+      "style": "scenario",
+      "stem": "Why is activated charcoal contraindicated in hydrocarbon ingestion?",
+      "options": [
+        {
+          "text": "Because it neutralises the hydrocarbon dangerously",
+          "rationale": "It does not neutralise it."
+        },
+        {
+          "text": "Because vomiting it back into the lungs is worse than the original ingestion",
+          "rationale": "Correct. The aspiration risk exceeds the ingestion risk."
+        },
+        {
+          "text": "Because it causes a chemical reaction in the stomach",
+          "rationale": "Not the stated reason."
+        },
+        {
+          "text": "Because hydrocarbons are absorbed too quickly for it to matter",
+          "rationale": "Absorption speed is not the reason given."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-07-Q001",
+      "concept_id": "EMT-05-05-07",
+      "style": "recall",
+      "stem": "What single finding best separates a sympathomimetic from an anticholinergic patient?",
+      "options": [
+        {
+          "text": "Pupil size",
+          "rationale": "Both have dilated pupils."
+        },
+        {
+          "text": "Whether the skin is sweating or bone dry",
+          "rationale": "Correct. The sympathomimetic patient is drenched; the anticholinergic cannot sweat."
+        },
+        {
+          "text": "Heart rate",
+          "rationale": "Both are tachycardic."
+        },
+        {
+          "text": "Level of agitation",
+          "rationale": "Both are agitated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-07-Q002",
+      "concept_id": "EMT-05-05-07",
+      "style": "recall",
+      "stem": "Which two toxidromes both feature pinpoint pupils?",
+      "options": [
+        {
+          "text": "Anticholinergic and sympathomimetic",
+          "rationale": "Both of those produce dilated pupils."
+        },
+        {
+          "text": "Opioid and cholinergic",
+          "rationale": "Correct. Secretions and stillness separate them."
+        },
+        {
+          "text": "Opioid and sympathomimetic",
+          "rationale": "Sympathomimetic pupils are dilated."
+        },
+        {
+          "text": "Cholinergic and anticholinergic",
+          "rationale": "Anticholinergic pupils are dilated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-07-Q003",
+      "concept_id": "EMT-05-05-07",
+      "style": "application",
+      "stem": "An agitated patient is hot, has wide pupils, a fast pulse, and completely dry skin. Which toxidrome?",
+      "options": [
+        {
+          "text": "Sympathomimetic",
+          "rationale": "A stimulant patient would be sweating heavily."
+        },
+        {
+          "text": "Anticholinergic",
+          "rationale": "Correct. The dry skin is the discriminating finding."
+        },
+        {
+          "text": "Opioid",
+          "rationale": "Opioid patients are quiet with pinpoint pupils."
+        },
+        {
+          "text": "Cholinergic",
+          "rationale": "Cholinergic patients are wet from everywhere."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-07-Q004",
+      "concept_id": "EMT-05-05-07",
+      "style": "application",
+      "stem": "A patient has taken several different substances and fits no clean pattern. How should you proceed?",
+      "options": [
+        {
+          "text": "Choose the closest toxidrome and treat accordingly",
+          "rationale": "Forcing a patient into a pattern is how findings get ignored."
+        },
+        {
+          "text": "Treat airway, breathing, circulation, temperature and glucose, and report what you see",
+          "rationale": "Correct. The patient is right and the pattern is wrong."
+        },
+        {
+          "text": "Withhold all treatment until the substance is identified",
+          "rationale": "Treatment does not wait on identification."
+        },
+        {
+          "text": "Assume it is an opioid overdose by default",
+          "rationale": "Not a safe default."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-07-Q005",
+      "concept_id": "EMT-05-05-07",
+      "style": "recall",
+      "stem": "Why does temperature matter so much in toxidrome recognition?",
+      "options": [
+        {
+          "text": "Because fever indicates infection rather than poisoning",
+          "rationale": "Hyperthermia in toxicology is not about infection."
+        },
+        {
+          "text": "Because it is part of the pattern, and skipping it loses a quarter of the picture",
+          "rationale": "Correct. A toxidrome is built from vital signs."
+        },
+        {
+          "text": "Because it determines the transport destination",
+          "rationale": "Not what temperature determines here."
+        },
+        {
+          "text": "Because it is the only reliable toxidrome finding",
+          "rationale": "It is one of several, not the only one."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-05-07-Q006",
+      "concept_id": "EMT-05-05-07",
+      "style": "scenario",
+      "stem": "How does recognising a toxidrome change EMT-level management?",
+      "options": [
+        {
+          "text": "It determines which antidote to give",
+          "rationale": "Antidotes are largely outside EMT scope."
+        },
+        {
+          "text": "It changes little clinically, but makes the handover far more useful",
+          "rationale": "Correct. The treatment is the same; the communication is better."
+        },
+        {
+          "text": "It replaces the need for vital signs",
+          "rationale": "Vital signs are what the toxidrome is made of."
+        },
+        {
+          "text": "It determines whether the patient is transported",
+          "rationale": "All of these patients are transported."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
