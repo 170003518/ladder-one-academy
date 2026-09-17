@@ -37,6 +37,20 @@
         "EMT-01-02-05",
         "EMT-01-02-06"
       ]
+    },
+    {
+      "id": "EMT-01-03",
+      "title": "Medical, legal and ethical issues",
+      "concepts": [
+        "EMT-01-03-01",
+        "EMT-01-03-02",
+        "EMT-01-03-03",
+        "EMT-01-03-04",
+        "EMT-01-03-05",
+        "EMT-01-03-06",
+        "EMT-01-03-07",
+        "EMT-01-03-08"
+      ]
     }
   ],
   "concepts": [
@@ -1607,6 +1621,1221 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fatigue and shift work guidance against the current text and your service's fatigue management policy, which varies."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-01",
+      "title": "Scope of practice and standard of care",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-02",
+        "EMT-01-03-04",
+        "EMT-01-01-01"
+      ],
+      "key_points": [
+        "Scope of practice is what you are permitted to do; standard of care is how well you must do it",
+        "Scope is set by the state and narrowed by your medical director and your service's protocols",
+        "Acting outside your scope is a legal problem even when the outcome is good",
+        "Standard of care is what a reasonable, prudent EMT with similar training would do in similar circumstances",
+        "It is not perfection and it is not hindsight — it is judged on what was reasonable with what you knew at the time",
+        "Protocols, guidelines and accepted practice all inform what the standard is",
+        "Doing less than your scope allows can breach the standard of care just as doing more breaches scope",
+        "Ethics asks what you should do; law asks what you may do, and the two usually agree but not always"
+      ],
+      "misconceptions": [
+        "Believing a good outcome excuses acting outside scope",
+        "Thinking standard of care means perfection",
+        "Assuming standard of care is judged with hindsight",
+        "Treating protocol as the only thing that defines the standard"
+      ],
+      "exam_favorites": [
+        "Scope versus standard",
+        "The reasonable prudent EMT test",
+        "Doing less can also breach the standard"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two phrases that sound similar and mean different things.\n\nScope of practice is what you are permitted to do. It is set by your state, and then narrowed — by your medical director, and by your service's protocols. A skill can be in the national EMT description, absent from your state's, and that settles it. Scope is a permission list.\n\nStandard of care is how well you must do the things you are permitted to do. It is a quality bar, not a permission list.\n\nThe standard is usually described as what a reasonable, prudent EMT with similar training would have done in similar circumstances. Three parts of that are worth noticing.\n\nReasonable and prudent, not perfect. The standard does not require you to be the best EMT who ever lived, or to get everything right. It requires you to act as a competent, careful person in your position would have acted.\n\nSimilar training. You are measured against EMTs, not paramedics or physicians. Not knowing something outside your training is not a breach.\n\nSimilar circumstances, judged on what you knew at the time. This is the part people worry about most and it is the part that protects them. The standard is not applied with hindsight. The question is whether your decision was reasonable given the information available then — not whether it turned out to be right.\n\nWhat defines the standard, in practice: your protocols, national guidelines, accepted practice, and what your training taught you.\n\nNow two things that are less obvious.\n\nActing outside your scope is a problem even when it works. If you do something you are not permitted to do and the patient does beautifully, you have still acted outside your scope. A good outcome is not a defence, and the reasoning is straightforward — the permission is not granted case by case based on results.\n\nAnd doing less than your scope allows can breach the standard of care just as doing more breaches scope. Failing to do something you were trained and permitted to do, and that a reasonable EMT would have done, is a breach. This surprises people, because the instinct is that under-treating is the safe direction. It is not.\n\nFinally, ethics and law. Law asks what you may do; ethics asks what you should. They overlap almost always. Where they diverge — a patient refusing care you are certain they need, honouring a directive you personally disagree with — you need both frameworks, and noticing that they have come apart is the skill.",
+          "standard": "Scope of practice denotes the range of interventions a provider is authorised to perform, established by state licensure and narrowed by medical direction and service protocol. Standard of care denotes the quality with which authorised interventions must be performed, defined as the conduct of a reasonable and prudent provider of similar training in similar circumstances. The standard requires competence rather than perfection, comparison against equivalently trained providers rather than higher levels, and evaluation on information available at the time rather than retrospective knowledge. The standard is informed by protocols, national guidelines, accepted practice and training content. Practice exceeding scope constitutes a legal breach irrespective of clinical outcome, as authorisation is not conferred retrospectively by results. Failure to perform an intervention within scope that a reasonable provider would have performed constitutes a breach of the standard of care; under-treatment is not inherently protective. Legal frameworks address permissibility while ethical frameworks address obligation; divergence occurs and recognition of divergence is required."
+        },
+        "eli_new": {
+          "analogy": "Scope is the list of tools you are allowed to pick up. Standard of care is how well you have to use the ones you picked.",
+          "body": "The thing that surprises people: doing less than you were allowed to can also be a breach. The instinct is that under-treating is the cautious direction and over-treating is the risky one. Both are breaches, just of different rules."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Distinguish scope of practice from standard of care, and state the test the standard uses.",
+          "must_hit": [
+            {
+              "point": "Scope is what you may do; standard is how well you must do it",
+              "accept": [
+                "scope",
+                "permit",
+                "standard",
+                "how well",
+                "quality"
+              ]
+            },
+            {
+              "point": "Scope is set by the state and narrowed by medical direction and protocol",
+              "accept": [
+                "state",
+                "medical director",
+                "protocol",
+                "narrow"
+              ]
+            },
+            {
+              "point": "The test is a reasonable, prudent EMT of similar training in similar circumstances",
+              "accept": [
+                "reasonable",
+                "prudent",
+                "similar",
+                "training",
+                "circumstance"
+              ]
+            },
+            {
+              "point": "Not perfection, and not judged with hindsight",
+              "accept": [
+                "perfect",
+                "hindsight",
+                "at the time",
+                "information"
+              ]
+            },
+            {
+              "point": "A good outcome does not excuse acting outside scope",
+              "accept": [
+                "outcome",
+                "good",
+                "excuse",
+                "defence",
+                "result"
+              ]
+            },
+            {
+              "point": "Doing less than scope allows can also breach the standard",
+              "accept": [
+                "less",
+                "fail",
+                "omit",
+                "under",
+                "breach"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It worked, though",
+          "dispatch": "Review — intervention performed outside scope, patient did well.",
+          "body": "The patient improved immediately and everybody on scene could see it, which made the conversation afterwards feel unfair.\n\nThe permission to do it had never been granted, and it does not get granted retrospectively because the patient did well.\n\nA good outcome is an outcome. It is not authority."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the definitions of scope and standard of care against the current text and your own state's scope of practice document, which governs."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-02",
+      "title": "Consent: expressed, implied, minors and involuntary",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-03-03",
+        "EMT-05-08-04",
+        "EMT-07-03-02"
+      ],
+      "key_points": [
+        "Consent is required before touching or treating any patient, and it must be informed to be valid",
+        "Informed means the patient understands what you propose, why, the risks, and what happens if they decline",
+        "EXPRESSED consent is given directly — spoken, written, or by a clear gesture such as holding out an arm",
+        "IMPLIED consent covers a patient who cannot consent and is in an emergency: the law assumes a reasonable person would want care",
+        "Implied consent applies to the unconscious, and to those without capacity, and only for what the emergency requires",
+        "MINORS generally need a parent or guardian to consent, with exceptions for emancipated minors and for emergencies",
+        "For a minor in a genuine emergency with no guardian reachable, implied consent applies — you do not wait",
+        "INVOLUNTARY consent covers patients treated or transported under legal authority, which requires law enforcement or a designated official",
+        "Consent for one thing is not consent for everything; tell the patient what you are about to do as you go"
+      ],
+      "misconceptions": [
+        "Assuming a nodding patient has given informed consent",
+        "Waiting for a guardian while a child deteriorates",
+        "Treating a capacitous adult under implied consent because they seem unwise",
+        "Assuming consent to assessment means consent to transport"
+      ],
+      "exam_favorites": [
+        "The four types of consent",
+        "What makes consent informed",
+        "Minors in an emergency"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Before you touch anybody, you need their consent — and for it to count, it has to be informed.\n\nInformed means they understand four things: what you are proposing, why you want to do it, what the risks are, and what is likely to happen if they say no. A patient who nods at you has not necessarily done any of that. Explaining properly takes about twenty seconds and it is what turns a nod into consent.\n\nThere are four types worth knowing.\n\nExpressed consent is given directly. Spoken — 'yes, go ahead.' Written, occasionally. Or by unmistakable gesture: holding out an arm for a blood pressure cuff is expressed consent. This is what you have for almost every patient.\n\nImplied consent covers the patient who cannot consent and is in an emergency. Unconscious, or without the capacity to decide. The law assumes that a reasonable person in that situation would want care, so you act in their best interests. It covers what the emergency requires — not everything you might like to do.\n\nMinors generally need a parent or guardian to consent. There are exceptions: emancipated minors, who are legally treated as adults, and in many jurisdictions minors who are married, in the armed forces, or seeking care for certain specific things. Know your state's rules.\n\nAnd here is the part that matters at three in the morning: for a minor in a genuine emergency with no guardian reachable, implied consent applies. You do not wait. You do not stand there while a child deteriorates because nobody has answered the phone. Treat, document what you did to reach a guardian, and keep trying.\n\nInvoluntary consent is the fourth, and it is the one that needs somebody else's authority. It covers patients treated or transported against their wishes under a legal framework — typically because they are a danger to themselves or others. That framework differs by jurisdiction and it almost never lets an EMT act alone: it needs law enforcement, a physician, or another designated official depending on your system.\n\nOne last thing that gets forgotten. Consent for one thing is not consent for everything. A patient agreeing to be assessed has not agreed to be transported. Someone who let you take a blood pressure has not agreed to a needle. Keep telling them what you are about to do as you go — it is both good practice and how consent actually stays valid through a call.",
+          "standard": "Valid consent is required prior to assessment or treatment and must be informed, requiring patient comprehension of the proposed intervention, its rationale, associated risks and the consequences of refusal. Expressed consent is communicated directly by speech, writing or unambiguous gesture. Implied consent applies where a patient lacks capacity to consent and an emergency exists, on the legal presumption that a reasonable person would accept necessary care; it extends only to interventions the emergency requires. Minors ordinarily require parental or guardian consent, with exceptions for emancipated minors and jurisdiction-specific categories including married minors, military service members and care for specified conditions. Where a genuine emergency exists and no guardian is reachable, implied consent applies to minors and treatment proceeds without delay, with attempts at contact documented. Involuntary consent applies to patients treated or transported under statutory authority, typically for danger to self or others, and generally requires law enforcement, physician or designated official involvement rather than independent EMT action. Consent is intervention-specific; consent to assessment does not extend to transport, and ongoing explanation maintains validity."
+        },
+        "eli_new": {
+          "analogy": "Consent is not a signature at the start. It is a running conversation that has to keep up with what your hands are doing.",
+          "body": "The one to be absolutely clear about: a child in a real emergency with no parent reachable gets treated. You do not stand and wait. Implied consent covers it, you document what you did to reach somebody, and you keep trying while you work."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the four types of consent and explain what makes consent informed.",
+          "must_hit": [
+            {
+              "point": "Informed means understanding the proposal, the reason, the risks and the consequences of refusing",
+              "accept": [
+                "inform",
+                "understand",
+                "risk",
+                "refus",
+                "explain",
+                "consequence"
+              ]
+            },
+            {
+              "point": "Expressed consent is given directly by word or clear gesture",
+              "accept": [
+                "express",
+                "spoken",
+                "direct",
+                "gesture",
+                "verbal"
+              ]
+            },
+            {
+              "point": "Implied consent covers a patient who cannot consent in an emergency",
+              "accept": [
+                "implied",
+                "unconscious",
+                "cannot",
+                "emergency",
+                "reasonable person"
+              ]
+            },
+            {
+              "point": "Minors need a parent or guardian, with exceptions including emancipated minors",
+              "accept": [
+                "minor",
+                "parent",
+                "guardian",
+                "emancipat",
+                "exception"
+              ]
+            },
+            {
+              "point": "A minor in a genuine emergency with no guardian reachable is treated under implied consent",
+              "accept": [
+                "minor",
+                "emergency",
+                "implied",
+                "do not wait",
+                "treat"
+              ]
+            },
+            {
+              "point": "Involuntary consent needs legal authority, not an EMT alone",
+              "accept": [
+                "involuntary",
+                "legal",
+                "law enforcement",
+                "official",
+                "authority",
+                "alone"
+              ]
+            },
+            {
+              "point": "Consent for one thing is not consent for everything",
+              "accept": [
+                "one thing",
+                "everything",
+                "transport",
+                "assessment",
+                "specific"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Nobody answered",
+          "dispatch": "Medic 2 — 9-year-old, severe allergic reaction at a sports club, no parent present.",
+          "body": "The coach had a phone number and it rang out twice, and somebody asked whether they were allowed to treat her.\n\nThey treated her, and kept ringing, and documented every attempt.\n\nImplied consent exists precisely so that nobody stands over a deteriorating child waiting for a phone to be answered."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "E-I-M-I",
+          "expansion": [
+            "E — EXPRESSED: given directly. Spoken, written, or an unmistakable gesture like holding out an arm. What you have for almost every patient.",
+            "I — IMPLIED: the patient cannot consent AND there is an emergency. The law assumes a reasonable person would want care. Covers only what the emergency requires.",
+            "M — MINORS: parent or guardian consents, with exceptions. REAL EMERGENCY, NO GUARDIAN REACHABLE? IMPLIED CONSENT APPLIES — do not wait.",
+            "I — INVOLUNTARY: treatment or transport under legal authority for danger to self or others. Needs police or a designated official — rarely an EMT alone.",
+            "Informed means they understand: WHAT you propose, WHY, the RISKS, and what happens IF THEY DECLINE."
+          ],
+          "memory_image": "A peg for a four-item list rather than a traditional mnemonic: Expressed, Implied, Minors, Involuntary. The two I's sit at either end and are opposites — one assumes the patient would say yes, the other overrides them saying no."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the categories of consent, the exceptions applying to minors and the involuntary transport framework against the current text and your own jurisdiction's law, which governs and varies substantially."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-03",
+      "title": "Refusal of care and documentation",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-03-02",
+        "EMT-05-08-04",
+        "EMT-05-03-02"
+      ],
+      "key_points": [
+        "A competent adult may refuse care, including care that will save their life, and that right is real",
+        "Before accepting a refusal, establish capacity: can they understand, retain, weigh and communicate a decision about this",
+        "Check for anything that impairs capacity: low blood sugar, hypoxia, head injury, intoxication, infection",
+        "A refusal from somebody without capacity is not a valid refusal",
+        "The refusal must be informed — they must understand what may happen if they decline, in plain words",
+        "Try to persuade, more than once, and involve family or medical direction where it may help",
+        "Document the capacity assessment, what you told them, what they said in their own words, and who witnessed it",
+        "Leave the door open: tell them explicitly to call again if anything changes, and mean it",
+        "Refusal is the highest-risk thing an EMT does routinely, and the documentation is the whole defence"
+      ],
+      "misconceptions": [
+        "Accepting a refusal without assessing capacity",
+        "Not checking a glucose before accepting a refusal",
+        "Recording 'patient refused' and nothing else",
+        "Leaving without telling the patient to call back if things change"
+      ],
+      "exam_favorites": [
+        "Capacity before refusal",
+        "Why a refusal must be informed",
+        "What the documentation must contain"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A competent adult may refuse care. All of it. Including care that would save their life, and including when everybody present thinks they are wrong. That right is real and it does not depend on you agreeing with the decision.\n\nBut every word of that sentence rests on the word competent, and that is where your work is.\n\nBefore you accept a refusal, establish capacity. Can this person understand what you are telling them? Retain it long enough to use it? Weigh it up against the alternatives? And communicate a decision? All four, about this specific decision, now.\n\nAnd critically: look for anything that is impairing it. A blood glucose. An oxygen saturation. A head injury from the fall they are refusing to be assessed for. Intoxication. An infection in an older person. Any of those can take capacity away, and a refusal from somebody without capacity is not a valid refusal at all.\n\nThis is why the glucose meter comes out before the refusal form. A hypoglycaemic patient refusing transport is not making a decision; they are exhibiting a symptom.\n\nThe refusal also has to be informed, and informed means plain words. Not 'you may suffer adverse consequences.' Say what could actually happen: that they could bleed inside their head and not wake up, that the chest pain could be a heart attack and they could die at home tonight. It feels blunt. It is what informed means, and a refusal based on a gentle euphemism is not informed.\n\nTry to persuade. More than once, and differently the second time. Involve family if the patient is willing. Call medical direction — many services require it, and a physician on the phone sometimes changes a mind that a crew could not.\n\nThen document, because this is the part that matters most. Your capacity assessment and what you based it on. The vital signs, including the glucose. Exactly what you told them about the risks. What they said back, in their own words, in quotation marks. Who was present. Who witnessed the refusal. What you advised them to do if things change.\n\nAnd leave the door open, out loud. 'If anything changes at all, or you change your mind, call us straight back — we will come, and nobody will mind.' Say it, mean it, and write down that you said it. People who have refused once are often embarrassed to call again, and that sentence is sometimes what brings them back.\n\nRefusals are the highest-risk thing an EMT does routinely. Not the cardiac arrests — those are clear. It is the patient who looked fine, refused, and deteriorated after you left. The documentation is the entire defence, and more importantly, the process behind it is what stops it happening.",
+          "standard": "Adults with decision-making capacity may decline care, including life-sustaining intervention, irrespective of provider or family disagreement. Capacity assessment precedes acceptance of refusal and requires that the patient understand relevant information, retain it, weigh it against alternatives and communicate a decision regarding the specific matter at hand. Assessment includes identification of capacity-impairing conditions: hypoglycaemia, hypoxia, traumatic brain injury, intoxication and infection. Refusal by a patient lacking capacity is invalid. Blood glucose and oxygen saturation measurement precede acceptance of refusal. Informed refusal requires explanation of consequences in plain language with specific reference to realistic outcomes rather than euphemism. Persuasion should be attempted repeatedly and by varied approach, with involvement of family and medical direction where appropriate; many services mandate physician consultation. Documentation records the capacity assessment and its basis, vital signs including glucose, information provided, patient statements verbatim, persons present, witnesses, and advice given regarding re-contact. Patients are explicitly advised to re-contact services if circumstances change or they reconsider. Refusals constitute the highest-frequency high-risk encounter in prehospital practice."
+        },
+        "eli_new": {
+          "analogy": "A refusal is a decision, and a decision needs a decider. Your job before accepting one is establishing that there is somebody in there capable of making it.",
+          "body": "The glucose meter comes out before the refusal form. A patient with a sugar of 2.5 refusing transport is not making a decision — they are showing you a symptom, and accepting it as a refusal is accepting a symptom as a choice."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what you must establish before accepting a refusal, and what the documentation must contain.",
+          "must_hit": [
+            {
+              "point": "A competent adult may refuse, including life-saving care",
+              "accept": [
+                "competent",
+                "refuse",
+                "right",
+                "life",
+                "even"
+              ]
+            },
+            {
+              "point": "Establish capacity: understand, retain, weigh, communicate",
+              "accept": [
+                "capacity",
+                "understand",
+                "retain",
+                "weigh",
+                "communicate"
+              ]
+            },
+            {
+              "point": "Check for impairing causes: glucose, oxygen, head injury, intoxication, infection",
+              "accept": [
+                "glucose",
+                "sugar",
+                "oxygen",
+                "head",
+                "intoxicat",
+                "infection"
+              ]
+            },
+            {
+              "point": "A refusal without capacity is not a valid refusal",
+              "accept": [
+                "not valid",
+                "invalid",
+                "without capacity",
+                "no capacity"
+              ]
+            },
+            {
+              "point": "Informed means plain words about what could actually happen",
+              "accept": [
+                "inform",
+                "plain",
+                "blunt",
+                "risk",
+                "actually happen",
+                "die"
+              ]
+            },
+            {
+              "point": "Try to persuade, involve family and medical direction",
+              "accept": [
+                "persuade",
+                "family",
+                "medical direction",
+                "again",
+                "physician"
+              ]
+            },
+            {
+              "point": "Document capacity, what you said, their words, witnesses, and the advice to call back",
+              "accept": [
+                "document",
+                "witness",
+                "own words",
+                "quote",
+                "call back",
+                "advice"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Two point five",
+          "dispatch": "Medic 6 — 60-year-old male, fall, refusing assessment and transport.",
+          "body": "He was talking, he was adamant, and he wanted everybody out of his house. The refusal form was already out.\n\nSomebody checked a glucose first, because that is the habit, and it was 2.5.\n\nTwenty minutes later he consented to everything and could not remember refusing anything. The refusal had never been a decision."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Accepting a refusal",
+          "steps": [
+            {
+              "text": "Complete as much assessment as the patient will allow",
+              "critical": true
+            },
+            {
+              "text": "CHECK A BLOOD GLUCOSE AND AN OXYGEN SATURATION",
+              "critical": true,
+              "note": "Before the refusal form. A hypoglycaemic patient refusing is showing a symptom, not making a decision."
+            },
+            {
+              "text": "Take a full set of vital signs and record them",
+              "critical": true
+            },
+            {
+              "text": "Look for capacity-impairing causes: head injury, intoxication, infection, hypoxia",
+              "critical": true
+            },
+            {
+              "text": "ASSESS CAPACITY: can they UNDERSTAND, RETAIN, WEIGH and COMMUNICATE a decision about THIS?",
+              "critical": true
+            },
+            {
+              "text": "Explain the risks IN PLAIN WORDS — say what could actually happen",
+              "critical": true,
+              "note": "Not 'adverse consequences'. A refusal based on a euphemism is not informed."
+            },
+            {
+              "text": "Try to persuade, more than once, and differently the second time",
+              "critical": false
+            },
+            {
+              "text": "Involve family if the patient is willing",
+              "critical": false
+            },
+            {
+              "text": "Contact medical direction where protocol requires it",
+              "critical": true
+            },
+            {
+              "text": "TELL THEM OUT LOUD to call back if anything changes or they change their mind — and mean it",
+              "critical": true
+            },
+            {
+              "text": "Obtain the refusal signature and a witness signature where your service requires",
+              "critical": true
+            },
+            {
+              "text": "DOCUMENT: capacity assessment and its basis, vitals including glucose, what you told them, THEIR WORDS IN QUOTES, who was present, who witnessed, and the advice to re-contact",
+              "critical": true,
+              "note": "This is the entire defence, and the process behind it is what stops it being needed."
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the capacity criteria and your service's refusal process, including any requirement to contact medical direction, against the current text and local policy, which governs."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-04",
+      "title": "Negligence: the four elements, and abandonment",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-03-01",
+        "EMT-01-04-03",
+        "EMT-01-03-08"
+      ],
+      "key_points": [
+        "Negligence requires ALL FOUR elements to be present — if any one is missing, there is no negligence",
+        "DUTY: you had an obligation to act, which on duty and dispatched to a patient you do",
+        "BREACH (dereliction): you failed to meet the standard of care — by doing something wrong or by failing to do something",
+        "CAUSATION: the breach actually caused harm, directly rather than coincidentally",
+        "DAMAGES: real harm resulted — physical, psychological or financial",
+        "Causation is where many claims fail: a mistake that harmed nobody is a mistake, not negligence",
+        "Abandonment is ending care without the patient's consent and without handing over to someone of equal or higher training",
+        "Abandonment can happen at the hospital as easily as on scene — leaving a patient on a corridor trolley without handing over is abandonment",
+        "Once you start care you have accepted a duty, and it continues until it is properly transferred"
+      ],
+      "misconceptions": [
+        "Believing a single error automatically means negligence",
+        "Thinking abandonment only happens on scene",
+        "Handing over to a receptionist or a porter",
+        "Leaving a patient in a waiting area without a handover to clinical staff"
+      ],
+      "exam_favorites": [
+        "The four elements and that all four are required",
+        "Why causation defeats many claims",
+        "What abandonment actually is"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Negligence is a legal finding, and it has four elements. All four have to be present. If any single one is missing, there is no negligence — which is worth holding onto, because the word gets used loosely and frightens people more than it should.\n\nDuty. You had an obligation to act. On duty and dispatched to a patient, you do. Off duty in another state at a road crash, the position is different and depends on your jurisdiction.\n\nBreach — sometimes called dereliction. You failed to meet the standard of care. That can be doing something wrong, or failing to do something a reasonable EMT would have done. Both directions count.\n\nCausation. The breach actually caused the harm. Directly — not coincidentally, not 'happened on the same call as'.\n\nDamages. Real harm resulted: physical, psychological or financial.\n\nCausation is where a great many claims fail, and understanding why is genuinely reassuring. A mistake that harmed nobody is a mistake. It is worth reporting, worth learning from, and it is not negligence, because the third and fourth elements are missing. Equally, a patient who did badly after a call where everything was done correctly has damages but no breach.\n\nThe four elements are conventionally taught as the four Ds: Duty, Dereliction, Direct cause, Damages.\n\nAbandonment is separate and specific. It is ending care without the patient's consent and without transferring them to somebody of equal or higher training.\n\nTwo things about it surprise people.\n\nFirst, it can happen at the hospital just as easily as on scene — and more often does. You wheel a patient into a busy department, there is nowhere to put them, nobody is free, you are being called for another job, and you leave them on a trolley in a corridor without handing over to a nurse. That is abandonment. The building is full of clinicians, and none of them has accepted this patient from you. Handing over to a receptionist or a porter is not a handover.\n\nSecond, once you begin care you have accepted a duty, and it continues until it is properly transferred. You cannot start and then decide this patient was not really yours.\n\nThe practical version: find a person of equal or greater training, tell them about the patient, make sure they have accepted, and write down who and when.",
+          "standard": "Negligence requires the concurrent presence of four elements; absence of any one negates the finding. Duty denotes an obligation to act, present when on duty and dispatched; off-duty obligation varies by jurisdiction. Breach, or dereliction, denotes failure to meet the standard of care, by commission or omission. Causation requires that the breach directly produced the harm rather than being temporally coincident. Damages require actual harm, physical, psychological or financial. Causation and damages are frequently absent: error without resultant harm does not constitute negligence, and adverse outcome following appropriate care establishes damages without breach. The elements are conventionally taught as the four Ds: Duty, Dereliction, Direct cause, Damages. Abandonment denotes termination of care without patient consent and without transfer to a provider of equal or greater training. It occurs in hospital settings as readily as prehospital, including leaving patients in corridors or waiting areas without clinical handover; transfer to non-clinical staff does not constitute handover. Duty commences with initiation of care and persists until formal transfer, which should be documented with recipient identity and time."
+        },
+        "eli_new": {
+          "analogy": "Negligence is a four-legged stool. Remove any leg and it is not a stool any more — it is just some wood.",
+          "body": "The one that catches crews out is abandonment at hospital. A full department, nowhere to put the patient, another job waiting, and you leave them on a trolley in a corridor. The building is full of clinicians and not one of them has accepted this patient from you. Find a nurse, hand over, get a name."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the four elements of negligence and explain what abandonment is.",
+          "must_hit": [
+            {
+              "point": "Duty, breach or dereliction, causation or direct cause, damages",
+              "accept": [
+                "duty",
+                "breach",
+                "derelict",
+                "caus",
+                "damage"
+              ]
+            },
+            {
+              "point": "All four must be present or there is no negligence",
+              "accept": [
+                "all four",
+                "every",
+                "missing",
+                "absent",
+                "no negligence"
+              ]
+            },
+            {
+              "point": "Duty means an obligation to act, present when on duty and dispatched",
+              "accept": [
+                "duty",
+                "obligation",
+                "dispatch",
+                "on duty"
+              ]
+            },
+            {
+              "point": "Breach can be doing something wrong or failing to do something",
+              "accept": [
+                "breach",
+                "wrong",
+                "fail",
+                "omission",
+                "both"
+              ]
+            },
+            {
+              "point": "Causation is where many claims fail — a mistake that harmed nobody is not negligence",
+              "accept": [
+                "causation",
+                "fail",
+                "harm",
+                "mistake",
+                "nobody",
+                "direct"
+              ]
+            },
+            {
+              "point": "Abandonment is ending care without consent and without handing over to equal or higher training",
+              "accept": [
+                "abandon",
+                "consent",
+                "hand over",
+                "equal",
+                "higher",
+                "transfer"
+              ]
+            },
+            {
+              "point": "It happens at hospital too — a corridor trolley with no handover is abandonment",
+              "accept": [
+                "hospital",
+                "corridor",
+                "trolley",
+                "waiting",
+                "handover",
+                "nurse"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "On the corridor",
+          "dispatch": "Complaint review — patient left in a hospital corridor, no handover recorded.",
+          "body": "The department was full, there was genuinely nowhere to put her, and the crew had another call holding.\n\nThey left her on a trolley in a corridor in a building full of doctors and nurses.\n\nNot one of whom had accepted her from them, which is what makes it abandonment rather than a busy shift."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "The four Ds",
+          "expansion": [
+            "D — DUTY: you had an obligation to act. On duty and dispatched, you do. Off duty depends on your jurisdiction.",
+            "D — DERELICTION: you breached the standard of care — by doing something wrong, OR by failing to do something a reasonable EMT would have done.",
+            "D — DIRECT CAUSE: the breach actually caused the harm. Directly, not coincidentally. This is where many claims fail.",
+            "D — DAMAGES: real harm resulted — physical, psychological or financial.",
+            "ALL FOUR OR NONE. A mistake that harmed nobody has no cause and no damages; a bad outcome after correct care has damages but no breach."
+          ],
+          "memory_image": "A four-legged stool. Take away any leg and it stops being a stool — it is just some wood on the floor."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the four elements of negligence and the definition of abandonment against the current text and your jurisdiction's law."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-05",
+      "title": "Confidentiality and health information privacy",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-03",
+        "EMT-01-03-07",
+        "EMT-01-04-05"
+      ],
+      "key_points": [
+        "Patient information is confidential and may only be shared where there is a legitimate need to know",
+        "Legitimate sharing includes clinical handover, your own documentation, quality improvement, and legally required reporting",
+        "Family and friends are not automatically entitled to information, even when they are helping and mean well",
+        "The commonest real breaches are casual: discussing a call in a corridor, a public place, or on social media",
+        "Never post about a call, anywhere, even without a name — details identify people far more easily than posters expect",
+        "Photographs of patients, scenes or injuries on a personal phone are a breach",
+        "Leaving a report visible on a screen or a clipboard is a breach of the same kind as talking about it",
+        "Breaches carry disciplinary, professional and legal consequences, and this is one of the commonest ways EMS careers end"
+      ],
+      "misconceptions": [
+        "Telling a relative details because they seem entitled",
+        "Discussing a call in a hospital lift or a public corridor",
+        "Posting a 'no names' account on social media",
+        "Photographing an interesting injury"
+      ],
+      "exam_favorites": [
+        "Who counts as a need to know",
+        "Social media and de-identification",
+        "Where breaches actually happen"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Everything you learn about a patient is confidential. Their condition, their history, their address, the state of their house, who was there, what they said. All of it.\n\nYou may share it where there is a legitimate need to know. That covers clinical handover to the people taking over care, your own documentation, quality improvement review, and reporting that the law requires — safeguarding, certain communicable diseases, some injuries.\n\nIt does not automatically cover family and friends. This feels harsh, because the daughter asking what is wrong with her mother is worried and helpful and standing right there. But she is not automatically entitled to clinical information, and the decision is generally the patient's rather than yours. Where the patient can express a preference, ask them.\n\nNow the part worth being blunt about: the breaches that actually happen are not dramatic. Almost nobody sells records. What happens is ordinary and careless.\n\nDiscussing a call in a hospital corridor, in a lift, in a queue, in a canteen. You are talking to a colleague about clinical detail and the person behind you knows the patient. Hospitals and towns are much smaller than they feel.\n\nSocial media, which is where careers end. A post about an interesting call, no name used, perhaps no location. It is not enough. A date, a rough age, a mechanism and a town identify a person to anybody who knows them, and it takes one relative recognising the story. The rule is simple: do not post about calls. Not with names removed, not in a private group, not years later.\n\nPhotographs on a personal phone are a breach whether or not you show anybody. An interesting injury, an unusual scene, a striking ECG — if it is on your phone it should not be. Where clinical images are genuinely needed there is a service process for it; use that.\n\nAnd screens and paperwork. A report left visible on a monitor, a clipboard on a counter, a handover sheet in a bin rather than confidential waste. Same category of breach as talking about it, and easier to do without noticing.\n\nConsequences are real: disciplinary, professional registration, and legal. This is genuinely one of the commonest ways EMS careers end — not through a clinical error on a difficult call, but through a post, a photograph, or a conversation in the wrong place.",
+          "standard": "Patient information is confidential and disclosed only where a legitimate need to know exists, comprising clinical handover, documentation, quality improvement activity and legally mandated reporting including safeguarding, notifiable disease and specified injury categories. Family members and associates hold no automatic entitlement to clinical information; disclosure decisions generally rest with the patient where capacity permits and preference should be elicited. The predominant source of actual breach is inadvertent rather than deliberate: clinical discussion in public areas, corridors, lifts and communal spaces, where third-party recognition of the patient is more probable than providers assume. Social media disclosure constitutes breach irrespective of name omission, as date, approximate age, mechanism and location permit identification. Photography of patients, scenes or injuries on personal devices constitutes breach irrespective of onward disclosure; clinical imaging requirements are addressed through service process. Unattended visible documentation, whether electronic or paper, constitutes breach of equivalent category. Consequences include disciplinary action, professional registration sanction and legal liability; confidentiality breach is among the most frequent causes of EMS career termination."
+        },
+        "eli_new": {
+          "analogy": "De-identifying a story is much harder than it feels. A date, an age and a mechanism is a name to anybody who already knows the person.",
+          "body": "The one that ends careers is social media. Not the obvious version with a name on it — the careful version, with the name removed, posted because the call was remarkable. It takes one relative recognising the details, and they do."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain who has a legitimate need to know, and where breaches actually happen.",
+          "must_hit": [
+            {
+              "point": "All patient information is confidential",
+              "accept": [
+                "confidential",
+                "all",
+                "information",
+                "private"
+              ]
+            },
+            {
+              "point": "Legitimate sharing: handover, documentation, quality improvement, required reporting",
+              "accept": [
+                "handover",
+                "document",
+                "quality",
+                "report",
+                "legal",
+                "safeguard"
+              ]
+            },
+            {
+              "point": "Family are not automatically entitled; the decision is generally the patient's",
+              "accept": [
+                "family",
+                "relative",
+                "not automatic",
+                "patient",
+                "ask"
+              ]
+            },
+            {
+              "point": "Most breaches are casual conversation in public places",
+              "accept": [
+                "corridor",
+                "lift",
+                "public",
+                "conversation",
+                "canteen",
+                "overheard"
+              ]
+            },
+            {
+              "point": "Never post about a call, even de-identified",
+              "accept": [
+                "social media",
+                "post",
+                "de-identif",
+                "no name",
+                "never"
+              ]
+            },
+            {
+              "point": "Photographs on a personal phone are a breach",
+              "accept": [
+                "photo",
+                "phone",
+                "image",
+                "picture",
+                "breach"
+              ]
+            },
+            {
+              "point": "Visible screens and paperwork are the same category of breach",
+              "accept": [
+                "screen",
+                "paperwork",
+                "clipboard",
+                "visible",
+                "waste"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "No name on it",
+          "dispatch": "Investigation — social media post, no patient name used.",
+          "body": "It was a good post. Respectful, reflective, genuinely moving, and carefully written with no name and no address.\n\nIt had the date, the approximate age, the mechanism and the town.\n\nHis sister recognised it within about four hours."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm confidentiality requirements and permitted disclosures against the current text and your own jurisdiction's health information privacy law and your service's social media policy."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-06",
+      "title": "Advance directives, DNR and POLST",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-03-02",
+        "EMT-07-05-04",
+        "EMT-04-03-01"
+      ],
+      "key_points": [
+        "An advance directive records what a patient wants if they cannot speak for themselves",
+        "A DNR order says do not attempt resuscitation if the heart or breathing stops — it does not say do not treat",
+        "This is the single most important point: a DNR patient still gets pain relief, oxygen, positioning, comfort and dignity",
+        "A POLST or similar physician order form is more detailed, covering several interventions rather than resuscitation alone",
+        "The document has to be valid and available — requirements differ by jurisdiction and your protocol will specify what counts",
+        "If there is genuine doubt about validity, or the document cannot be found, begin resuscitation — you can stop, and you cannot undo not starting",
+        "Family distress does not override a valid directive, and family insistence does not create one",
+        "Where family conflict arises, contact medical direction rather than deciding alone",
+        "Document what you saw, who was present, and what you did"
+      ],
+      "misconceptions": [
+        "Treating a DNR as do not treat",
+        "Withholding pain relief or oxygen from a DNR patient",
+        "Not starting resuscitation when the document cannot be found",
+        "Stopping because a relative says there is a DNR somewhere"
+      ],
+      "exam_favorites": [
+        "DNR is not do not treat",
+        "What to do when the document is missing or unclear",
+        "Family conflict"
+      ],
+      "modes": {
+        "read": {
+          "plain": "An advance directive is a patient speaking in advance about what they want if they reach a point where they cannot say.\n\nA do-not-resuscitate order is one kind. It says that if the heart stops or breathing stops, no attempt at resuscitation should be made.\n\nAnd here is the point that matters more than anything else in this concept, because it gets misunderstood constantly: a DNR is not do not treat.\n\nA patient with a valid DNR still gets everything else. Pain relief within your scope. Oxygen if they are short of breath. Suction. Positioning. Warmth. Being talked to. Being transported if that is what they need. Having their family supported. A DNR speaks to one specific moment — cardiac or respiratory arrest — and says nothing whatsoever about the care before it.\n\nPatients with DNR orders have been left uncomfortable and under-treated by crews who read those three letters and stopped thinking. That is a failure of care, not a respecting of wishes.\n\nA POLST — or whatever equivalent your jurisdiction uses — goes further. It is a physician's order covering several decisions: resuscitation, yes, but also intubation, hospitalisation, antibiotics, artificial feeding. It is usually more useful to you than a DNR alone because it says more.\n\nFor any of it to apply, the document has to be valid and it has to be available. What counts as valid differs by jurisdiction — original versus copy, specific forms, bracelets, registry entries, signatures and dates. Your protocol will specify. Learn it before you are kneeling on a bedroom floor at four in the morning trying to read a form.\n\nAnd the rule for when it is not clear: if there is genuine doubt about validity, or the document cannot be found, begin resuscitation. The reasoning is asymmetric. You can stop once a valid document appears. You cannot undo not starting. Somebody saying there is a DNR somewhere in the house is not a document.\n\nFamily distress does not override a valid directive. A daughter saying 'do something' in the moment does not cancel her father's written wishes, and this is one of the harder things you will do. Equally, family insistence does not create a directive where there is no document.\n\nWhen family conflict arises — and it does — contact medical direction rather than deciding alone. That is what it is for.\n\nAnd document: what document you saw, whether it appeared valid, who was present, what they said, and what you did.",
+          "standard": "Advance directives record patient preferences for circumstances in which they cannot communicate. Do-not-resuscitate orders direct that resuscitation not be attempted following cardiac or respiratory arrest; they do not restrict other treatment. Patients with valid DNR orders receive analgesia within scope, oxygen, suction, positioning, warming, communication, transport as indicated and family support; under-treatment of DNR patients constitutes a failure of care rather than respect for expressed wishes. POLST and equivalent physician order forms address multiple interventions including resuscitation, intubation, hospitalisation, antimicrobial therapy and artificial nutrition, providing greater operational guidance. Application requires document validity and availability; validity criteria including original versus copy, prescribed forms, identification bracelets and registry entries vary by jurisdiction and are specified by protocol. Where validity is genuinely doubtful or documentation is unavailable, resuscitation is commenced, as cessation remains possible following document production whereas non-initiation is irreversible; verbal report of an existing directive does not constitute documentation. Family distress does not invalidate a valid directive and family assertion does not create one. Familial conflict warrants medical direction consultation. Documentation records the document observed, apparent validity, persons present, statements made and actions taken."
+        },
+        "eli_new": {
+          "analogy": "A DNR is a note about one moment — the moment the heart stops. It says nothing about the hours before it, and those hours are still yours to make bearable.",
+          "body": "If you take one thing: a DNR patient gets pain relief, oxygen, comfort and dignity. Those three letters mean do not attempt resuscitation. They have never meant do not care for this person, and reading them that way is how patients get left uncomfortable by well-meaning crews."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what a DNR does and does not cover, and what you do when the document cannot be found.",
+          "must_hit": [
+            {
+              "point": "A DNR means no resuscitation attempt if the heart or breathing stops",
+              "accept": [
+                "resuscitat",
+                "arrest",
+                "heart",
+                "breathing",
+                "stop"
+              ]
+            },
+            {
+              "point": "A DNR is NOT do not treat — comfort, pain relief, oxygen and dignity continue",
+              "accept": [
+                "not do not treat",
+                "comfort",
+                "pain",
+                "oxygen",
+                "dignity",
+                "still"
+              ]
+            },
+            {
+              "point": "POLST covers several interventions, not resuscitation alone",
+              "accept": [
+                "polst",
+                "physician order",
+                "several",
+                "intubation",
+                "hospital"
+              ]
+            },
+            {
+              "point": "Validity requirements differ by jurisdiction and are set by protocol",
+              "accept": [
+                "valid",
+                "jurisdiction",
+                "protocol",
+                "original",
+                "form"
+              ]
+            },
+            {
+              "point": "If in doubt or the document is missing, begin resuscitation",
+              "accept": [
+                "doubt",
+                "missing",
+                "begin",
+                "start",
+                "resuscitat"
+              ]
+            },
+            {
+              "point": "You can stop, but you cannot undo not starting",
+              "accept": [
+                "stop",
+                "undo",
+                "reversib",
+                "asymmetr",
+                "cannot"
+              ]
+            },
+            {
+              "point": "Family distress does not override a valid directive; contact medical direction in conflict",
+              "accept": [
+                "family",
+                "override",
+                "valid",
+                "medical direction",
+                "conflict"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Three letters",
+          "dispatch": "Medic 1 — hospice patient at home, severe pain, valid DNR in place.",
+          "body": "The crew arrived, saw the DNR on the fridge, and became noticeably more hesitant about everything.\n\nShe was in a great deal of pain and needed positioning, oxygen and somebody to sit with her husband.\n\nThe form said do not attempt resuscitation. It had never said anything about the four hours in front of them."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm what constitutes a valid advance directive or DNR in YOUR jurisdiction and what your protocol requires, as validity criteria vary substantially. No jurisdiction-specific forms or validity rules are stated here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-07",
+      "title": "Mandatory reporting and crime scene preservation",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-03-05",
+        "EMT-05-10-02",
+        "EMT-07-03-07"
+      ],
+      "key_points": [
+        "Some things must be reported by law regardless of the patient's wishes, and the categories vary by jurisdiction",
+        "Commonly mandated: suspected child abuse or neglect, suspected elder or vulnerable adult abuse, certain injuries such as gunshot and stab wounds, and specified communicable diseases",
+        "Mandatory reporting requires suspicion, not proof — you are not investigating and you do not need to be sure",
+        "Report through the route your service specifies, and document that you did",
+        "At a crime scene, patient care comes first — nothing about evidence outweighs a living patient",
+        "Disturb as little as possible while doing what the patient needs: take one route in and out, and touch only what you must",
+        "Do not cut through clothing holes made by a bullet or blade; cut around them",
+        "Keep removed clothing, place it in paper rather than plastic where policy directs, and hand it to police",
+        "Record what you moved, what you touched and why, and tell the investigating officer"
+      ],
+      "misconceptions": [
+        "Waiting for proof before reporting a suspicion",
+        "Delaying care to preserve a scene",
+        "Cutting through a bullet hole in clothing",
+        "Putting bloodstained clothing into a plastic bag"
+      ],
+      "exam_favorites": [
+        "Suspicion rather than proof",
+        "Patient care before evidence",
+        "Cutting around defects, not through them"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Some things you must report by law, whatever the patient wants and whatever you would prefer. What falls in that category depends on where you work, so learn your list — but the common ones are consistent.\n\nSuspected child abuse or neglect. Suspected abuse of an elder or vulnerable adult. Certain injuries — gunshot wounds, stab wounds, and in some places burns or injuries from particular causes. Specified communicable diseases. Some jurisdictions add animal bites, or suspected drug-endangered children, or others.\n\nThe key word is suspicion. You do not need proof, you do not need to be sure, and you are absolutely not investigating. Your obligation is to report what you observed and what concerned you. Somebody else determines what it means. Waiting until you are certain is how things go unreported for years, and being wrong about a suspicion has no consequence for you — the system exists to sort that out.\n\nReport through your service's route and document that you did it, including who you reported to and when.\n\nCrime scenes are the other half of this. And the first principle is the one that outranks everything: patient care comes first. No piece of evidence is worth more than a living patient, and nobody has ever been criticised for disturbing a scene in order to treat somebody. If you have to move furniture, walk through something, or cut across a room to reach a patient, do it.\n\nWithin that, disturb as little as you can manage.\n\nTake one route in and use the same route out. Touch only what you need to. Do not tidy, do not pick things up to look at them, and do not let bystanders or family move things if you can help it.\n\nOne specific thing that catches people: do not cut through a hole in clothing made by a bullet or a blade. That hole is evidence — its shape and its edges tell an examiner things. Cut around it. It takes no longer.\n\nKeep the clothing you remove. Bag it, using paper rather than plastic where your policy says so — plastic traps moisture and degrades biological evidence — and hand it to police rather than leaving it in a corner or a hospital bin.\n\nAnd tell the investigating officer what you did. What you moved, what you touched, what you cut, where you walked, who else was there when you arrived. They are not going to be annoyed that you disturbed things to treat somebody. They will be considerably more annoyed if nobody tells them what was moved and they spend two days working it out.",
+          "standard": "Statutory reporting obligations exist irrespective of patient preference, with mandated categories varying by jurisdiction. Commonly mandated categories include suspected child abuse and neglect, suspected elder and vulnerable adult abuse, specified injuries including gunshot and stab wounds, and notifiable communicable diseases. The threshold is reasonable suspicion rather than proof; providers are not investigators and are not required to establish certainty. Reporting follows service-specified process with documentation of the report, recipient and time. At crime scenes, patient care takes absolute precedence over evidence preservation. Scene disturbance is minimised within that constraint: a single route of entry and egress, minimal contact, avoidance of tidying or repositioning, and discouragement of bystander interference. Clothing defects produced by projectiles or blades are not incised through, as defect morphology carries forensic value; cutting is performed around such defects. Removed clothing is retained, packaged in paper rather than plastic where policy directs owing to moisture retention and biological degradation, and transferred to law enforcement. Providers report to investigating officers what was moved, contacted, incised, the route taken and persons present on arrival."
+        },
+        "eli_new": {
+          "analogy": "You are not preserving a scene. You are treating a patient in a room that happens to matter to somebody else, and then telling them what you had to change.",
+          "body": "Two practical things that cost nothing. Cut around the hole in the shirt rather than through it. And tell the officer what you moved — they will not mind that you moved it, and they will mind a great deal if nobody says."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the threshold for mandatory reporting and how you behave at a crime scene.",
+          "must_hit": [
+            {
+              "point": "Some categories must be reported by law regardless of patient wishes",
+              "accept": [
+                "law",
+                "mandat",
+                "regardless",
+                "must",
+                "wishes"
+              ]
+            },
+            {
+              "point": "Commonly: child abuse, elder abuse, gunshot and stab wounds, certain diseases",
+              "accept": [
+                "child",
+                "elder",
+                "vulnerable",
+                "gunshot",
+                "stab",
+                "disease"
+              ]
+            },
+            {
+              "point": "The threshold is suspicion, not proof — you are not investigating",
+              "accept": [
+                "suspicion",
+                "proof",
+                "sure",
+                "investigat",
+                "certain"
+              ]
+            },
+            {
+              "point": "Patient care comes before evidence",
+              "accept": [
+                "patient",
+                "first",
+                "evidence",
+                "care",
+                "outweigh"
+              ]
+            },
+            {
+              "point": "One route in and out, touch only what you must",
+              "accept": [
+                "route",
+                "one",
+                "touch",
+                "minimal",
+                "disturb"
+              ]
+            },
+            {
+              "point": "Cut around clothing defects, not through them",
+              "accept": [
+                "cut",
+                "around",
+                "hole",
+                "through",
+                "defect",
+                "clothing"
+              ]
+            },
+            {
+              "point": "Keep clothing, paper not plastic, give it to police, and tell them what you moved",
+              "accept": [
+                "clothing",
+                "paper",
+                "plastic",
+                "police",
+                "moved",
+                "tell"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Round the hole",
+          "dispatch": "Medic 5 — penetrating chest wound, police on scene.",
+          "body": "Exposing the chest took four seconds and the shears went round the defect in the shirt rather than through it, which took no longer.\n\nAt the end, the EMT told the officer which door they had used, what they had moved, and that the shirt was in a paper bag.\n\nHe said it was the most useful thing anybody had said to him all night."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm YOUR jurisdiction's mandatory reporting categories and your service's crime scene policy — both vary substantially and neither is fully stated here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-08",
+      "title": "Good Samaritan laws and immunity",
+      "domain": "OPS",
+      "difficulty": 3,
+      "prereqs": [],
+      "related": [
+        "EMT-01-03-04",
+        "EMT-01-03-01"
+      ],
+      "key_points": [
+        "Good Samaritan laws are intended to protect people who help voluntarily, in good faith, without expectation of payment",
+        "They generally require that you acted in good faith, within your training, and without gross negligence or wilful misconduct",
+        "They do not protect you from acting recklessly, and they do not protect acts far outside your training",
+        "Whether they apply to on-duty providers varies by jurisdiction — in many places they do not, because you already have a duty to act",
+        "Off duty, whether you have a duty to act at all also varies: some jurisdictions impose one on licensed providers, most do not",
+        "Once you begin helping, you have generally assumed a duty and cannot simply walk away",
+        "Immunity provisions and their limits differ substantially between states, and general descriptions are not a substitute for knowing yours",
+        "Acting within your training, doing what a reasonable person at your level would do, and not abandoning is the practical protection"
+      ],
+      "misconceptions": [
+        "Assuming Good Samaritan protection covers on-duty work",
+        "Believing it protects any action taken with good intentions",
+        "Starting to help and then leaving when it becomes inconvenient",
+        "Assuming there is always a duty to act off duty"
+      ],
+      "exam_favorites": [
+        "What Good Samaritan protection requires",
+        "Whether it applies on duty",
+        "Assuming a duty by starting"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Good Samaritan laws exist to remove a disincentive. Without them, somebody who stopped to help at a road crash might reasonably fear being sued for it, and the result would be fewer people stopping. So the law offers protection.\n\nThe protection generally requires three things. You acted in good faith — genuinely trying to help. You acted without expectation of payment. And you acted within your training and without gross negligence or wilful misconduct.\n\nThat last clause is the one that matters. Good Samaritan protection does not cover recklessness. It does not cover doing something wildly outside your training because it seemed like a good idea. It covers a reasonable person, acting reasonably, who got something wrong — which is the situation it was written for.\n\nNow two questions where the honest answer is that it depends on where you are.\n\nDoes it apply to you on duty? In many jurisdictions, no. The reasoning is that Good Samaritan protection exists for volunteers, and on duty you already have a duty to act and are covered by other arrangements — your service's insurance, your medical director. So do not think of it as a general shield over your working life. It is not.\n\nDo you have a duty to act off duty? Also varies. Some jurisdictions impose a duty on licensed providers even off duty. Most do not, leaving it an ethical question rather than a legal one. Know which yours is, because it genuinely changes what you are obliged to do when you drive past something.\n\nOne thing is consistent almost everywhere, and it is the important one: once you begin helping, you have generally assumed a duty. You cannot start, decide it is more than you expected, and walk away. That is abandonment in most frameworks, and it applies to the off-duty roadside just as it does on shift.\n\nSo the practical position: the specifics differ substantially between states, and a general description like this one is not a substitute for knowing yours. What protects you in practice is acting within your training, doing what a reasonable person at your level would do in the circumstances, and not leaving somebody you have started helping.",
+          "standard": "Good Samaritan statutes provide liability protection for voluntary assistance rendered in good faith without expectation of remuneration, generally conditional on action within the provider's training and absence of gross negligence or wilful misconduct. Protection does not extend to reckless conduct or intervention substantially exceeding training. Applicability to on-duty providers varies by jurisdiction and is frequently excluded, as on-duty personnel bear an existing duty to act and are covered by employer indemnity and medical direction arrangements. Off-duty duty to act likewise varies: certain jurisdictions impose a duty on licensed providers, while most treat the matter as ethical rather than statutory. Initiation of assistance generally establishes an assumed duty precluding subsequent withdrawal, constituting abandonment in most frameworks and applying equally to off-duty circumstances. Statutory provisions and their limitations differ substantially between jurisdictions; general descriptions do not substitute for knowledge of applicable local law. Practical protection derives from acting within training, conformity to reasonable conduct at the provider's level, and non-abandonment."
+        },
+        "eli_new": {
+          "analogy": "Good Samaritan law is a shield for the person who stopped, not a licence for the person who improvised.",
+          "body": "The most consistent and most practical part: once you start helping, you have taken it on. You cannot begin at a roadside, realise it is worse than you thought, and get back in your car. That applies off duty just as much as on shift."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what Good Samaritan protection requires, and what happens once you start helping.",
+          "must_hit": [
+            {
+              "point": "It protects voluntary help given in good faith without expectation of payment",
+              "accept": [
+                "good faith",
+                "volunt",
+                "payment",
+                "help",
+                "protect"
+              ]
+            },
+            {
+              "point": "It requires acting within training and without gross negligence",
+              "accept": [
+                "training",
+                "gross",
+                "negligence",
+                "reckless",
+                "misconduct"
+              ]
+            },
+            {
+              "point": "It does not protect reckless acts or acts far outside training",
+              "accept": [
+                "reckless",
+                "outside",
+                "not protect",
+                "beyond"
+              ]
+            },
+            {
+              "point": "Whether it applies on duty varies and frequently does not",
+              "accept": [
+                "on duty",
+                "vary",
+                "not apply",
+                "duty to act",
+                "employer"
+              ]
+            },
+            {
+              "point": "Whether there is a duty to act off duty varies by jurisdiction",
+              "accept": [
+                "off duty",
+                "duty",
+                "vary",
+                "jurisdiction",
+                "ethical"
+              ]
+            },
+            {
+              "point": "Once you begin helping you generally assume a duty and cannot walk away",
+              "accept": [
+                "begin",
+                "start",
+                "assume",
+                "duty",
+                "walk away",
+                "abandon"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Back in the car",
+          "dispatch": "Off duty — roadside collision, one EMT stopped, then left before help arrived.",
+          "body": "He stopped because he was the only one there, started a primary assessment, and found it was considerably worse than it had looked from the road.\n\nHe went back to his car and drove on, and an ambulance arrived eleven minutes later.\n\nNot stopping at all would have been a question about duty. Starting and then leaving is a different question entirely."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm YOUR jurisdiction's Good Samaritan provisions, whether they extend to on-duty providers, and whether an off-duty duty to act exists — all three vary substantially and none is stated definitively here."
     }
   ]
 }

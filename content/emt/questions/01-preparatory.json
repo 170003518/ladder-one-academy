@@ -1832,6 +1832,1416 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-01-Q001",
+      "concept_id": "EMT-01-03-01",
+      "style": "recall",
+      "stem": "What is the difference between scope of practice and standard of care?",
+      "options": [
+        {
+          "text": "They are two terms for the same thing",
+          "rationale": "They mean different things."
+        },
+        {
+          "text": "Scope is what you may do; standard is how well you must do it",
+          "rationale": "Correct — scope is what you may do; standard is how well you must do it."
+        },
+        {
+          "text": "Scope is set nationally; standard is set locally",
+          "rationale": "Scope is set by the state."
+        },
+        {
+          "text": "Standard applies only to paramedics",
+          "rationale": "It applies at every level."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-01-Q002",
+      "concept_id": "EMT-01-03-01",
+      "style": "recall",
+      "stem": "What test defines the standard of care?",
+      "options": [
+        {
+          "text": "What the best EMT in the service would have done",
+          "rationale": "The standard is not excellence."
+        },
+        {
+          "text": "What a reasonable, prudent EMT of similar training would do in similar circumstances",
+          "rationale": "Correct — what a reasonable, prudent EMT of similar training would do in similar circumstances."
+        },
+        {
+          "text": "What a physician would have done",
+          "rationale": "You are measured against EMTs."
+        },
+        {
+          "text": "What produced the best outcome",
+          "rationale": "Outcome does not define the standard."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-01-Q003",
+      "concept_id": "EMT-01-03-01",
+      "style": "application",
+      "stem": "Is the standard of care judged with hindsight?",
+      "options": [
+        {
+          "text": "Yes, on what is known afterwards",
+          "rationale": "It is judged on information available at the time."
+        },
+        {
+          "text": "No — on whether the decision was reasonable given what you knew then",
+          "rationale": "Correct, and that is the part that protects you."
+        },
+        {
+          "text": "Only in court",
+          "rationale": "The principle applies generally."
+        },
+        {
+          "text": "Only for serious outcomes",
+          "rationale": "The test does not change with outcome severity."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-01-Q004",
+      "concept_id": "EMT-01-03-01",
+      "style": "application",
+      "stem": "You act outside your scope and the patient does very well. What is the position?",
+      "options": [
+        {
+          "text": "No issue — the outcome justifies it",
+          "rationale": "Authority is not granted retrospectively by results."
+        },
+        {
+          "text": "Still a breach of scope — a good outcome is not authority",
+          "rationale": "Correct — still a breach of scope — a good outcome is not authority."
+        },
+        {
+          "text": "Acceptable if documented",
+          "rationale": "Documentation does not confer scope."
+        },
+        {
+          "text": "Acceptable if medical direction agrees afterwards",
+          "rationale": "Retrospective agreement does not grant prior authority."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-01-Q005",
+      "concept_id": "EMT-01-03-01",
+      "style": "recall",
+      "stem": "Can doing less than your scope allows breach the standard of care?",
+      "options": [
+        {
+          "text": "No — under-treating is always the safe direction",
+          "rationale": "This is the common and incorrect assumption."
+        },
+        {
+          "text": "Yes — failing to do what a reasonable EMT would have done is a breach",
+          "rationale": "Correct — yes — failing to do what a reasonable EMT would have done is a breach."
+        },
+        {
+          "text": "Only if the patient complains",
+          "rationale": "Complaint does not define breach."
+        },
+        {
+          "text": "Only for paramedics",
+          "rationale": "It applies at every level."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-01-Q006",
+      "concept_id": "EMT-01-03-01",
+      "style": "scenario",
+      "stem": "Who narrows your scope of practice below the state description?",
+      "options": [
+        {
+          "text": "The patient",
+          "rationale": "Patients do not set scope."
+        },
+        {
+          "text": "Your medical director and your service's protocols",
+          "rationale": "Correct — your medical director and your service's protocols."
+        },
+        {
+          "text": "The receiving hospital",
+          "rationale": "Hospitals do not set field scope."
+        },
+        {
+          "text": "Your crewmate",
+          "rationale": "Not a source of authority."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-02-Q001",
+      "concept_id": "EMT-01-03-02",
+      "style": "recall",
+      "stem": "What is expressed consent?",
+      "options": [
+        {
+          "text": "Consent assumed because the patient did not object",
+          "rationale": "Absence of objection is not expressed consent."
+        },
+        {
+          "text": "Consent given directly by word, writing or unmistakable gesture",
+          "rationale": "Correct — holding out an arm counts."
+        },
+        {
+          "text": "Consent given by a relative",
+          "rationale": "A relative cannot consent for a capacitous adult."
+        },
+        {
+          "text": "Consent recorded after the fact",
+          "rationale": "Consent precedes the intervention."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-02-Q002",
+      "concept_id": "EMT-01-03-02",
+      "style": "recall",
+      "stem": "When does implied consent apply?",
+      "options": [
+        {
+          "text": "Whenever the patient seems to be making an unwise decision",
+          "rationale": "Unwise decisions by capacitous adults are theirs to make."
+        },
+        {
+          "text": "When the patient cannot consent and an emergency exists",
+          "rationale": "Correct, and only for what the emergency requires."
+        },
+        {
+          "text": "Whenever a relative agrees",
+          "rationale": "Relatives do not create implied consent."
+        },
+        {
+          "text": "Whenever transport is needed",
+          "rationale": "Need does not create consent."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-02-Q003",
+      "concept_id": "EMT-01-03-02",
+      "style": "application",
+      "stem": "A 9-year-old has a severe allergic reaction, no guardian is present and the phone rings out. What do you do?",
+      "options": [
+        {
+          "text": "Wait until a guardian is reached",
+          "rationale": "Nobody stands over a deteriorating child waiting for a phone."
+        },
+        {
+          "text": "Treat under implied consent, documenting attempts to reach a guardian",
+          "rationale": "Correct — treat under implied consent, documenting attempts to reach a guardian."
+        },
+        {
+          "text": "Transport without treating",
+          "rationale": "Treatment is what the emergency requires."
+        },
+        {
+          "text": "Ask the coach to consent",
+          "rationale": "A coach is not a guardian."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-02-Q004",
+      "concept_id": "EMT-01-03-02",
+      "style": "recall",
+      "stem": "What makes consent informed?",
+      "options": [
+        {
+          "text": "The patient signing a form",
+          "rationale": "A signature is not comprehension."
+        },
+        {
+          "text": "Understanding the proposal, the reason, the risks and what happens if they decline",
+          "rationale": "Correct — understanding the proposal, the reason, the risks and what happens if they decline."
+        },
+        {
+          "text": "The patient nodding",
+          "rationale": "A nod is not necessarily informed."
+        },
+        {
+          "text": "A witness being present",
+          "rationale": "Witnesses do not make consent informed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-02-Q005",
+      "concept_id": "EMT-01-03-02",
+      "style": "application",
+      "stem": "A patient consented to assessment. Does that cover transport?",
+      "options": [
+        {
+          "text": "Yes, consent covers the whole encounter",
+          "rationale": "Consent is intervention-specific."
+        },
+        {
+          "text": "No — consent for one thing is not consent for everything",
+          "rationale": "Correct. Keep explaining as you go."
+        },
+        {
+          "text": "Yes, if they did not object to being moved",
+          "rationale": "Absence of objection is not consent."
+        },
+        {
+          "text": "Only if documented at the start",
+          "rationale": "Documentation does not extend scope of consent."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-02-Q006",
+      "concept_id": "EMT-01-03-02",
+      "style": "scenario",
+      "stem": "Who can invoke involuntary transport?",
+      "options": [
+        {
+          "text": "The EMT, on clinical judgement alone",
+          "rationale": "It almost never permits independent EMT action."
+        },
+        {
+          "text": "Law enforcement, a physician or a designated official, depending on jurisdiction",
+          "rationale": "Correct — law enforcement, a physician or a designated official, depending on jurisdiction."
+        },
+        {
+          "text": "The patient's family",
+          "rationale": "Family cannot authorise it."
+        },
+        {
+          "text": "The receiving hospital by phone",
+          "rationale": "Not the general mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-03-Q001",
+      "concept_id": "EMT-01-03-03",
+      "style": "recall",
+      "stem": "What must be established before accepting a refusal?",
+      "options": [
+        {
+          "text": "That a witness is available",
+          "rationale": "A witness is required but is not the first question."
+        },
+        {
+          "text": "That the patient has capacity for this decision",
+          "rationale": "Correct — understand, retain, weigh, communicate."
+        },
+        {
+          "text": "That the patient has a regular doctor",
+          "rationale": "Not relevant to validity."
+        },
+        {
+          "text": "That the patient is over 25",
+          "rationale": "Age alone does not establish capacity."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-03-Q002",
+      "concept_id": "EMT-01-03-03",
+      "style": "sequence",
+      "stem": "What should be checked before the refusal form comes out?",
+      "options": [
+        {
+          "text": "The patient's insurance status",
+          "rationale": "Never a clinical consideration."
+        },
+        {
+          "text": "A blood glucose and an oxygen saturation",
+          "rationale": "Correct — both can remove capacity."
+        },
+        {
+          "text": "Whether the ambulance is needed elsewhere",
+          "rationale": "Irrelevant to the patient's decision."
+        },
+        {
+          "text": "The patient's next of kin details",
+          "rationale": "Useful but not the capacity check."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-03-Q003",
+      "concept_id": "EMT-01-03-03",
+      "style": "application",
+      "stem": "A patient refusing transport has a blood glucose of 2.5. Is the refusal valid?",
+      "options": [
+        {
+          "text": "Yes, they are talking and adamant",
+          "rationale": "Talking and adamant is not the same as having capacity."
+        },
+        {
+          "text": "No — hypoglycemia impairs capacity, so it is not a valid refusal",
+          "rationale": "Correct. They are showing a symptom, not making a decision."
+        },
+        {
+          "text": "Yes, if they sign the form",
+          "rationale": "A signature does not create capacity."
+        },
+        {
+          "text": "Yes, if a witness signs too",
+          "rationale": "Witnesses do not create capacity."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-03-Q004",
+      "concept_id": "EMT-01-03-03",
+      "style": "recall",
+      "stem": "What does informed refusal require you to say?",
+      "options": [
+        {
+          "text": "That there may be adverse consequences",
+          "rationale": "A euphemism does not inform anybody."
+        },
+        {
+          "text": "In plain words what could actually happen, including death where that is realistic",
+          "rationale": "Correct. It feels blunt, and that is what informed means."
+        },
+        {
+          "text": "Nothing, provided they sign",
+          "rationale": "A signature is not information."
+        },
+        {
+          "text": "Only the name of the condition you suspect",
+          "rationale": "Naming a condition does not convey the risk."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-03-Q005",
+      "concept_id": "EMT-01-03-03",
+      "style": "application",
+      "stem": "What should you say before leaving a patient who has refused?",
+      "options": [
+        {
+          "text": "Nothing further — the decision is made",
+          "rationale": "People who refused once are often embarrassed to call again."
+        },
+        {
+          "text": "To call straight back if anything changes or they change their mind",
+          "rationale": "Correct — say it, mean it, and document that you said it."
+        },
+        {
+          "text": "That they cannot call again today",
+          "rationale": "Never true or appropriate."
+        },
+        {
+          "text": "That they should attend hospital themselves within a week",
+          "rationale": "Not adequate advice for an acute concern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-03-Q006",
+      "concept_id": "EMT-01-03-03",
+      "style": "sequence",
+      "stem": "What must the documentation contain?",
+      "options": [
+        {
+          "text": "The word 'refused' and a signature",
+          "rationale": "This is the commonest and weakest refusal record."
+        },
+        {
+          "text": "Capacity assessment and basis, vitals including glucose, what you told them, their words quoted, witnesses, and the advice to call back",
+          "rationale": "Correct — capacity assessment and basis, vitals including glucose, what you told them, their words quoted, witnesses, and the advice to call back."
+        },
+        {
+          "text": "Only the vital signs",
+          "rationale": "Vitals alone do not record the decision."
+        },
+        {
+          "text": "Only the time of departure",
+          "rationale": "Not a record of anything clinical."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-04-Q001",
+      "concept_id": "EMT-01-03-04",
+      "style": "recall",
+      "stem": "How many elements of negligence must be present?",
+      "options": [
+        {
+          "text": "Any two of the four",
+          "rationale": "All four are required."
+        },
+        {
+          "text": "All four",
+          "rationale": "Correct — remove any one and there is no negligence."
+        },
+        {
+          "text": "Three of the four",
+          "rationale": "All four are required."
+        },
+        {
+          "text": "Only duty and damages",
+          "rationale": "Breach and causation are also required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-04-Q002",
+      "concept_id": "EMT-01-03-04",
+      "style": "recall",
+      "stem": "What are the four Ds of negligence?",
+      "options": [
+        {
+          "text": "Duty, Diagnosis, Delay, Damages",
+          "rationale": "Diagnosis and delay are not elements."
+        },
+        {
+          "text": "Duty, Dereliction, Direct cause, Damages",
+          "rationale": "Correct — duty, Dereliction, Direct cause, Damages."
+        },
+        {
+          "text": "Documentation, Duty, Delay, Disclosure",
+          "rationale": "None of these except duty are elements."
+        },
+        {
+          "text": "Duty, Danger, Damages, Defence",
+          "rationale": "Danger and defence are not elements."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-04-Q003",
+      "concept_id": "EMT-01-03-04",
+      "style": "application",
+      "stem": "An EMT makes an error but the patient suffers no harm. Is this negligence?",
+      "options": [
+        {
+          "text": "Yes, an error is enough",
+          "rationale": "Causation and damages are both missing."
+        },
+        {
+          "text": "No — without causation and damages there is no negligence",
+          "rationale": "Correct. It is a mistake worth reporting and learning from."
+        },
+        {
+          "text": "Yes, if it was documented",
+          "rationale": "Documentation does not create negligence."
+        },
+        {
+          "text": "Only if the patient complains",
+          "rationale": "Complaint does not establish the elements."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-04-Q004",
+      "concept_id": "EMT-01-03-04",
+      "style": "recall",
+      "stem": "What is abandonment?",
+      "options": [
+        {
+          "text": "Refusing to transport a patient who asked",
+          "rationale": "Refusal to transport is a different issue."
+        },
+        {
+          "text": "Ending care without consent and without transferring to equal or higher training",
+          "rationale": "Correct — ending care without consent and without transferring to equal or higher training."
+        },
+        {
+          "text": "Leaving the scene before police arrive",
+          "rationale": "Not what the term means."
+        },
+        {
+          "text": "Handing over to another EMT",
+          "rationale": "That is a proper transfer."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-04-Q005",
+      "concept_id": "EMT-01-03-04",
+      "style": "application",
+      "stem": "A crew leaves a patient on a corridor trolley in a busy department without handing over. What is this?",
+      "options": [
+        {
+          "text": "Acceptable, since the building is full of clinicians",
+          "rationale": "Not one of them has accepted the patient from you."
+        },
+        {
+          "text": "Abandonment",
+          "rationale": "Correct — find a nurse, hand over, get a name and a time."
+        },
+        {
+          "text": "A reportable delay only",
+          "rationale": "It is more than a delay."
+        },
+        {
+          "text": "Acceptable if the department was told by radio",
+          "rationale": "A pre-alert is not a handover."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-04-Q006",
+      "concept_id": "EMT-01-03-04",
+      "style": "scenario",
+      "stem": "When does your duty to a patient begin?",
+      "options": [
+        {
+          "text": "On arrival at hospital",
+          "rationale": "Duty begins long before that."
+        },
+        {
+          "text": "Once you begin care — and it continues until properly transferred",
+          "rationale": "Correct — once you begin care — and it continues until properly transferred."
+        },
+        {
+          "text": "When the patient signs a consent form",
+          "rationale": "Duty is not created by signature."
+        },
+        {
+          "text": "Only if you transport them",
+          "rationale": "Duty exists whether or not you transport."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-05-Q001",
+      "concept_id": "EMT-01-03-05",
+      "style": "recall",
+      "stem": "Who has a legitimate need to know patient information?",
+      "options": [
+        {
+          "text": "Anyone who asks on scene",
+          "rationale": "Presence on scene confers no entitlement to clinical information."
+        },
+        {
+          "text": "Those taking over clinical care, plus documentation, QI and legally required reporting",
+          "rationale": "Correct — those taking over clinical care, plus documentation, QI and legally required reporting."
+        },
+        {
+          "text": "Any family member present",
+          "rationale": "Family have no automatic entitlement."
+        },
+        {
+          "text": "Any healthcare worker in the building",
+          "rationale": "Need to know is specific to involvement in care."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-05-Q002",
+      "concept_id": "EMT-01-03-05",
+      "style": "application",
+      "stem": "A worried daughter asks what is wrong with her mother, who has capacity. What governs?",
+      "options": [
+        {
+          "text": "She is family, so she is entitled",
+          "rationale": "Family entitlement is not automatic."
+        },
+        {
+          "text": "The patient's preference — ask the patient",
+          "rationale": "Correct — the patient's preference — ask the patient."
+        },
+        {
+          "text": "Your judgement about what she should know",
+          "rationale": "Generally the patient's decision, not yours."
+        },
+        {
+          "text": "Whatever the receiving hospital advises",
+          "rationale": "Not their decision either."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-05-Q003",
+      "concept_id": "EMT-01-03-05",
+      "style": "recall",
+      "stem": "Is a social media post about a call acceptable if no name is used?",
+      "options": [
+        {
+          "text": "Yes, removing the name de-identifies it",
+          "rationale": "Date, age, mechanism and town identify a person."
+        },
+        {
+          "text": "No — details identify people far more easily than posters expect",
+          "rationale": "Correct. Do not post about calls at all."
+        },
+        {
+          "text": "Yes, in a private group",
+          "rationale": "Private groups are not private."
+        },
+        {
+          "text": "Yes, after a year has passed",
+          "rationale": "Time does not de-identify it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-05-Q004",
+      "concept_id": "EMT-01-03-05",
+      "style": "application",
+      "stem": "Where do most real confidentiality breaches occur?",
+      "options": [
+        {
+          "text": "Through deliberate sale of records",
+          "rationale": "Almost nobody does this."
+        },
+        {
+          "text": "In ordinary careless conversation in corridors, lifts and public areas",
+          "rationale": "Correct, along with social media."
+        },
+        {
+          "text": "Through hospital computer systems",
+          "rationale": "Not the commonest EMS source."
+        },
+        {
+          "text": "During formal handover",
+          "rationale": "Handover is legitimate disclosure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-05-Q005",
+      "concept_id": "EMT-01-03-05",
+      "style": "recall",
+      "stem": "Is a photograph of an interesting injury on your personal phone a breach?",
+      "options": [
+        {
+          "text": "No, provided you do not show anyone",
+          "rationale": "It is a breach whether or not it is shared."
+        },
+        {
+          "text": "Yes — it should not be on a personal device at all",
+          "rationale": "Correct. Use the service process where clinical imaging is genuinely needed."
+        },
+        {
+          "text": "No, if the face is not visible",
+          "rationale": "Identification is not only by face."
+        },
+        {
+          "text": "Only if the patient objects",
+          "rationale": "The breach does not depend on objection."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-05-Q006",
+      "concept_id": "EMT-01-03-05",
+      "style": "scenario",
+      "stem": "A patient report is left visible on a screen. How does this compare with discussing the case aloud?",
+      "options": [
+        {
+          "text": "Far less serious",
+          "rationale": "It is the same category of breach."
+        },
+        {
+          "text": "The same category of breach",
+          "rationale": "Correct, and easier to do without noticing."
+        },
+        {
+          "text": "Not a breach at all",
+          "rationale": "It is a breach."
+        },
+        {
+          "text": "A breach only if someone reads it",
+          "rationale": "Exposure is the breach."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-06-Q001",
+      "concept_id": "EMT-01-03-06",
+      "style": "recall",
+      "stem": "What does a DNR order direct?",
+      "options": [
+        {
+          "text": "That no treatment of any kind be given",
+          "rationale": "A DNR is not do not treat."
+        },
+        {
+          "text": "That resuscitation not be attempted if the heart or breathing stops",
+          "rationale": "Correct — and nothing about the care before that."
+        },
+        {
+          "text": "That the patient not be transported",
+          "rationale": "Transport is not restricted by a DNR."
+        },
+        {
+          "text": "That pain relief be withheld",
+          "rationale": "Comfort care continues."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-06-Q002",
+      "concept_id": "EMT-01-03-06",
+      "style": "application",
+      "stem": "A patient with a valid DNR is in severe pain and short of breath. What do you provide?",
+      "options": [
+        {
+          "text": "Nothing, to respect their wishes",
+          "rationale": "This is a failure of care, not respect."
+        },
+        {
+          "text": "Pain relief within scope, oxygen, positioning, comfort and support",
+          "rationale": "Correct. A DNR speaks only to arrest."
+        },
+        {
+          "text": "Only transport",
+          "rationale": "They need active comfort care."
+        },
+        {
+          "text": "Only observation",
+          "rationale": "Observation is not treatment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-06-Q003",
+      "concept_id": "EMT-01-03-06",
+      "style": "application",
+      "stem": "A relative says there is a DNR somewhere but it cannot be found, and the patient is in arrest. What do you do?",
+      "options": [
+        {
+          "text": "Withhold resuscitation on the family's word",
+          "rationale": "A verbal report is not a document."
+        },
+        {
+          "text": "Begin resuscitation — you can stop, but you cannot undo not starting",
+          "rationale": "Correct — begin resuscitation — you can stop, but you cannot undo not starting."
+        },
+        {
+          "text": "Wait while the family search",
+          "rationale": "Waiting is not a neutral option in arrest."
+        },
+        {
+          "text": "Contact the family doctor first",
+          "rationale": "Resuscitation starts while others make calls."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-06-Q004",
+      "concept_id": "EMT-01-03-06",
+      "style": "recall",
+      "stem": "How does a POLST differ from a DNR?",
+      "options": [
+        {
+          "text": "It is less detailed",
+          "rationale": "It is more detailed."
+        },
+        {
+          "text": "It covers several interventions, not resuscitation alone",
+          "rationale": "Correct — intubation, hospitalisation, antibiotics, feeding."
+        },
+        {
+          "text": "It is written by the family",
+          "rationale": "It is a physician's order."
+        },
+        {
+          "text": "It expires after one call",
+          "rationale": "Not how these documents work."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-06-Q005",
+      "concept_id": "EMT-01-03-06",
+      "style": "application",
+      "stem": "A daughter demands resuscitation despite her father's valid DNR. What is the position?",
+      "options": [
+        {
+          "text": "Family insistence overrides the directive",
+          "rationale": "It does not."
+        },
+        {
+          "text": "A valid directive stands; contact medical direction if conflict persists",
+          "rationale": "Correct — a valid directive stands; contact medical direction if conflict persists."
+        },
+        {
+          "text": "Resuscitate to avoid a complaint",
+          "rationale": "Not a clinical or legal basis."
+        },
+        {
+          "text": "Ask the daughter to sign a form reversing it",
+          "rationale": "She cannot reverse it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-06-Q006",
+      "concept_id": "EMT-01-03-06",
+      "style": "scenario",
+      "stem": "Where are DNR validity requirements defined?",
+      "options": [
+        {
+          "text": "Nationally, identically everywhere",
+          "rationale": "They vary substantially by jurisdiction."
+        },
+        {
+          "text": "By your jurisdiction and your protocol",
+          "rationale": "Correct — learn yours before you need it."
+        },
+        {
+          "text": "By the patient's family",
+          "rationale": "Families do not define validity."
+        },
+        {
+          "text": "By the receiving hospital",
+          "rationale": "Not their determination."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-07-Q001",
+      "concept_id": "EMT-01-03-07",
+      "style": "recall",
+      "stem": "What is the threshold for mandatory reporting?",
+      "options": [
+        {
+          "text": "Proof that abuse occurred",
+          "rationale": "You are not investigating and do not need certainty."
+        },
+        {
+          "text": "Reasonable suspicion",
+          "rationale": "Correct. Somebody else determines what it means."
+        },
+        {
+          "text": "A confession from the patient",
+          "rationale": "Never required."
+        },
+        {
+          "text": "Agreement from a supervisor",
+          "rationale": "Not the threshold."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-07-Q002",
+      "concept_id": "EMT-01-03-07",
+      "style": "recall",
+      "stem": "Which is commonly a mandatory reporting category?",
+      "options": [
+        {
+          "text": "Any injury requiring transport",
+          "rationale": "Far too broad."
+        },
+        {
+          "text": "Suspected child abuse or neglect",
+          "rationale": "Correct, along with elder abuse, gunshot and stab wounds, and notifiable diseases."
+        },
+        {
+          "text": "Any patient refusing care",
+          "rationale": "Refusal is not a reporting category."
+        },
+        {
+          "text": "Any patient over 80",
+          "rationale": "Age alone is not a category."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-07-Q003",
+      "concept_id": "EMT-01-03-07",
+      "style": "application",
+      "stem": "What takes precedence at a crime scene?",
+      "options": [
+        {
+          "text": "Preserving evidence",
+          "rationale": "No evidence outweighs a living patient."
+        },
+        {
+          "text": "Patient care",
+          "rationale": "Correct — disturb what you must, then say what you disturbed."
+        },
+        {
+          "text": "Waiting for scene examiners",
+          "rationale": "Care does not wait."
+        },
+        {
+          "text": "Photographing the scene",
+          "rationale": "Never an EMT function."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-07-Q004",
+      "concept_id": "EMT-01-03-07",
+      "style": "application",
+      "stem": "How should clothing with a bullet hole be cut?",
+      "options": [
+        {
+          "text": "Straight through the hole for speed",
+          "rationale": "The defect's shape and edges carry forensic value."
+        },
+        {
+          "text": "Around the defect, not through it",
+          "rationale": "Correct, and it takes no longer."
+        },
+        {
+          "text": "The clothing should not be cut at all",
+          "rationale": "Exposure may be necessary for care."
+        },
+        {
+          "text": "Along the seams only",
+          "rationale": "Not the governing principle."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-07-Q005",
+      "concept_id": "EMT-01-03-07",
+      "style": "recall",
+      "stem": "How should removed clothing be bagged?",
+      "options": [
+        {
+          "text": "Sealed plastic",
+          "rationale": "Plastic traps moisture and degrades biological evidence."
+        },
+        {
+          "text": "Paper, where policy directs, and handed to police",
+          "rationale": "Correct — paper, where policy directs, and handed to police."
+        },
+        {
+          "text": "Left with the patient's property at hospital",
+          "rationale": "It should go to police."
+        },
+        {
+          "text": "Disposed of as clinical waste",
+          "rationale": "Never appropriate at a crime scene."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-07-Q006",
+      "concept_id": "EMT-01-03-07",
+      "style": "scenario",
+      "stem": "What should you tell the investigating officer?",
+      "options": [
+        {
+          "text": "Nothing, to avoid influencing the investigation",
+          "rationale": "They need to know what changed."
+        },
+        {
+          "text": "What you moved, touched and cut, your route, and who was present on arrival",
+          "rationale": "Correct — what you moved, touched and cut, your route, and who was present on arrival."
+        },
+        {
+          "text": "Only the patient's clinical condition",
+          "rationale": "Useful, but not what they need about the scene."
+        },
+        {
+          "text": "Only your name and unit number",
+          "rationale": "Insufficient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-08-Q001",
+      "concept_id": "EMT-01-03-08",
+      "style": "recall",
+      "stem": "What does Good Samaritan protection generally require?",
+      "options": [
+        {
+          "text": "A formal qualification in first aid",
+          "rationale": "Qualification is not the requirement."
+        },
+        {
+          "text": "Good faith, no expectation of payment, action within training, and no gross negligence",
+          "rationale": "Correct — good faith, no expectation of payment, action within training, and no gross negligence."
+        },
+        {
+          "text": "That the patient survives",
+          "rationale": "Outcome is not a condition."
+        },
+        {
+          "text": "Written consent from the patient",
+          "rationale": "Not a requirement of these statutes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-08-Q002",
+      "concept_id": "EMT-01-03-08",
+      "style": "recall",
+      "stem": "Does Good Samaritan protection apply to on-duty EMTs?",
+      "options": [
+        {
+          "text": "Yes, universally",
+          "rationale": "Applicability varies and is frequently excluded on duty."
+        },
+        {
+          "text": "It varies by jurisdiction and frequently does not",
+          "rationale": "Correct — on duty you already have a duty and other coverage."
+        },
+        {
+          "text": "Only for volunteers in rural services",
+          "rationale": "Not the distinction drawn."
+        },
+        {
+          "text": "Only during declared emergencies",
+          "rationale": "Not the distinction drawn."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-08-Q003",
+      "concept_id": "EMT-01-03-08",
+      "style": "application",
+      "stem": "You stop off duty, begin helping, and find it is worse than expected. Can you leave?",
+      "options": [
+        {
+          "text": "Yes, you were under no obligation to stop",
+          "rationale": "Starting changes the position."
+        },
+        {
+          "text": "Generally no — beginning assistance assumes a duty",
+          "rationale": "Correct. That is abandonment in most frameworks."
+        },
+        {
+          "text": "Yes, if you call for an ambulance first",
+          "rationale": "Calling does not discharge an assumed duty."
+        },
+        {
+          "text": "Only if nobody saw you stop",
+          "rationale": "Not a legal consideration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-08-Q004",
+      "concept_id": "EMT-01-03-08",
+      "style": "recall",
+      "stem": "What does Good Samaritan protection not cover?",
+      "options": [
+        {
+          "text": "Honest mistakes made while helping",
+          "rationale": "Those are what it was written for."
+        },
+        {
+          "text": "Gross negligence, recklessness, and acts far outside your training",
+          "rationale": "Correct — gross negligence, recklessness, and acts far outside your training."
+        },
+        {
+          "text": "Any action taken without payment",
+          "rationale": "Payment status is a condition, not an exclusion."
+        },
+        {
+          "text": "Assistance given to strangers",
+          "rationale": "Strangers are exactly who it covers."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-03-08-Q005",
+      "concept_id": "EMT-01-03-08",
+      "style": "scenario",
+      "stem": "Is there a duty to act off duty?",
+      "options": [
+        {
+          "text": "Yes, always, for licensed providers",
+          "rationale": "Some jurisdictions impose one; most do not."
+        },
+        {
+          "text": "It varies by jurisdiction — some impose one, most do not",
+          "rationale": "Correct — it varies by jurisdiction — some impose one, most do not."
+        },
+        {
+          "text": "No, never",
+          "rationale": "Some jurisdictions do impose a duty."
+        },
+        {
+          "text": "Only if in uniform",
+          "rationale": "Uniform is not the determinant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
