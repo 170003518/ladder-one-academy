@@ -902,6 +902,231 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-05-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-01-C01",
+      "concept_id": "EMT-01-06-01",
+      "type": "concept",
+      "front": {
+        "title": "The skeletal system",
+        "summary": "Living tissue, not scaffolding"
+      },
+      "back": {
+        "body": "FIVE JOBS: shape · PROTECTION (skull/brain, ribs/heart and lungs, vertebrae/cord) · movement levers · MINERAL STORE (calcium) · MARROW MAKES BLOOD CELLS — so BONE IS LIVING TISSUE WITH A BLOOD SUPPLY, which is why it bleeds · AXIAL = skull, spine, ribcage · APPENDICULAR = limbs + girdles · SPINE: CERVICAL 7 · THORACIC 12 · LUMBAR 5 · sacrum · coccyx · LOWER RIBS OVERLIE LIVER (right) AND SPLEEN (left) · THE PELVIS IS A RING — it cannot break in one place · LONG BONES have a rich supply — A FEMUR FRACTURE IS A BLEEDING PROBLEM · LIGAMENTS bone to bone, TENDONS muscle to bone · CHILDREN: flexible bone, GROWTH PLATES are weak points · OLDER: brittle — a fall from standing fractures hips",
+        "why_it_matters": "The same trip at twenty produces a bruise. Bone density makes those two events different injuries."
+      },
+      "high_yield": false,
+      "number": 37,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-06-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-02-C02",
+      "concept_id": "EMT-01-06-02",
+      "type": "concept",
+      "front": {
+        "title": "The muscular system",
+        "summary": "Muscles only pull"
+      },
+      "back": {
+        "body": "THREE TYPES · SKELETAL: VOLUNTARY, attached by TENDONS, moves you on command · SMOOTH: INVOLUNTARY, lines HOLLOW organs — VESSELS · bowel · AIRWAYS · bladder · uterus · VASCULAR SMOOTH MUSCLE SETS YOUR BLOOD PRESSURE by constricting and relaxing (which is exactly what neurogenic shock takes away) and BRONCHIAL smooth muscle is what constricts in asthma · CARDIAC: involuntary, heart only, GENERATES ITS OWN IMPULSE · CONTRACTION MAKES HEAT — why shivering warms, and why a hypothermic patient who STOPS shivering has lost their heat source · Muscles work in OPPOSING PAIRS and only ever PULL · No oxygen → anaerobic → ACID · VIOLENT CONTRACTION CAN FRACTURE BONE AND DISLOCATE JOINTS WITH NO IMPACT",
+        "why_it_matters": "His own muscles dislocated the shoulder during the seizure. Nothing struck him at all."
+      },
+      "high_yield": false,
+      "number": 38,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-06-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-03-C03",
+      "concept_id": "EMT-01-06-03",
+      "type": "concept",
+      "front": {
+        "title": "Respiratory structures and mechanics",
+        "summary": "Only alveoli exchange gas"
+      },
+      "back": {
+        "body": "UPPER AIRWAY warms, humidifies and filters, ending at the LARYNX · LOWER AIRWAY: trachea → carina → mainstem bronchi → bronchioles → ALVEOLI · ONLY THE ALVEOLI EXCHANGE GAS — everything above is plumbing · INSPIRATION IS ACTIVE: diaphragm flattens, ribs rise, chest ENLARGES, pressure DROPS, air flows IN — you do not suck air in, you make a space and the atmosphere fills it · NORMAL EXPIRATION IS PASSIVE (elastic recoil) — visible effort breathing OUT means something is wrong · VENTILATION (moving air) ≠ RESPIRATION (exchange) ≠ OXYGENATION (oxygen into blood) — they fail separately · DEAD SPACE never reaches alveoli → FAST SHALLOW BREATHING VENTILATES BADLY, so NEVER JUDGE BY RATE ALONE · The drive to breathe is RISING CO2",
+        "why_it_matters": "Rate times depth is what matters, and one of those two numbers was almost zero."
+      },
+      "high_yield": true,
+      "number": 39,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-06-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-04-C04",
+      "concept_id": "EMT-01-06-04",
+      "type": "concept",
+      "front": {
+        "title": "The circulatory system",
+        "summary": "A pump, a container and a fluid"
+      },
+      "back": {
+        "body": "THREE COMPONENTS: PUMP (heart) · CONTAINER (vessels) · FLUID (blood) — and EVERY KIND OF SHOCK IS ONE OF THEM FAILING: pump = CARDIOGENIC · fluid lost = HYPOVOLAEMIC · container too big = DISTRIBUTIVE · flow blocked = OBSTRUCTIVE · RIGHT SIDE → LUNGS · LEFT SIDE → BODY (thicker wall, more resistance) · ARTERIES carry AWAY from the heart — not necessarily oxygenated; the PULMONARY ARTERY carries oxygen-poor blood · VEINS carry back, thin-walled, low-pressure, HOLD MOST OF THE VOLUME · CAPILLARIES are where the point happens · PERFUSION = blood ACTUALLY REACHING TISSUE AND DELIVERING OXYGEN · BLOOD PRESSURE IS NOT PERFUSION — a clamped-down patient holds a normal number with nothing reaching the tissues",
+        "why_it_matters": "He was holding that pressure by squeezing every vessel he had."
+      },
+      "high_yield": true,
+      "number": 40,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-06-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-05-C05",
+      "concept_id": "EMT-01-06-05",
+      "type": "concept",
+      "front": {
+        "title": "The nervous system",
+        "summary": "The brain has no reserve"
+      },
+      "back": {
+        "body": "CENTRAL = brain + spinal cord · PERIPHERAL = everything else, splitting into VOLUNTARY (skeletal muscle) and AUTONOMIC (everything automatic) · SYMPATHETIC prepares for action: FAST HEART · DILATED PUPILS · SWEATING · VESSELS CLAMPED · airways open · glucose released · PARASYMPATHETIC conserves: slow heart, small pupils, digestion working · SHOCK AND FEAR SWITCH ON THE SAME SYSTEM, which is why you can never dismiss a pale sweating tachycardic patient as 'just anxious' · BRAINSTEM runs BREATHING, HEART RATE and CONSCIOUSNESS — no backup · NERVE CELLS CANNOT STORE OXYGEN OR GLUCOSE, so THE BRAIN FAILS FIRST — which is why altered mental status warns of almost anything · CORD INJURY removes the sympathetic signal keeping vessels tight → NEUROGENIC SHOCK",
+        "why_it_matters": "One of those two explanations can be safely wrong. The other cannot."
+      },
+      "high_yield": true,
+      "number": 41,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-06-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-05-C06",
+      "concept_id": "EMT-01-06-05",
+      "type": "compare",
+      "front": {
+        "title": "Sympathetic vs parasympathetic",
+        "summary": "Accelerator and brake"
+      },
+      "back": {
+        "body": "See the comparison rows. SYMPATHETIC is the accelerator: fast, dilated, pale, sweating, clamped down, airways open. PARASYMPATHETIC is the brake: slow, constricted, digesting. THE CLINICAL POINT: shock produces the left column, and so does fear — which is exactly why the left column can never be dismissed as anxiety.",
+        "why_it_matters": "Every sympathetic finding in shock is also a finding in being frightened."
+      },
+      "high_yield": true,
+      "number": 42,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-06-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-06-C07",
+      "concept_id": "EMT-01-06-06",
+      "type": "concept",
+      "front": {
+        "title": "The skin",
+        "summary": "A perfusion monitor you already own"
+      },
+      "back": {
+        "body": "LARGEST ORGAN, and it does three jobs · BARRIER: keeps organisms OUT and fluid IN — which is why big burns cause INFECTION and DEHYDRATION · THERMOSTAT: skin vessels open to dump heat, close to conserve; sweat cools by evaporation · SENSE ORGAN · LAYERS: EPIDERMIS (surface) · DERMIS (nerves, vessels, glands — why partial thickness burns hurt so much) · SUBCUTANEOUS fat · COLOUR, TEMPERATURE AND MOISTURE ARE A DIRECT READOUT OF PERFUSION — the skin is the FIRST place the body borrows blood from · PALE, COOL, CLAMMY = clamped down, protecting the core · FLUSHED, WARM, DRY = dilated (heat stroke, distributive shock) · CYANOSIS is LATE — lips and nail beds first · SKIN CHANGES BEFORE BLOOD PRESSURE DOES",
+        "why_it_matters": "The numbers changed forty minutes later. The hand had known first."
+      },
+      "high_yield": true,
+      "number": 43,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-06-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-07-C08",
+      "concept_id": "EMT-01-06-07",
+      "type": "concept",
+      "front": {
+        "title": "Digestive, urinary, reproductive",
+        "summary": "Solid bleeds, hollow leaks"
+      },
+      "back": {
+        "body": "DIGESTIVE TRACT: mouth → anus, with LIVER and PANCREAS feeding in · THE LIVER: right upper quadrant · HIGHLY VASCULAR, bleeds severely · AND IT MAKES THE CLOTTING FACTORS — which is why LIVER DISEASE CAUSES BLEEDING THAT WILL NOT STOP · SPLEEN: left upper quadrant, bleeds heavily — left lower rib fractures raise the question · SOLID ORGANS BLEED (today) · HOLLOW ORGANS LEAK → peritonitis over HOURS (tomorrow) · KIDNEYS: filter, fluid balance, ELECTROLYTES (hence overload and potassium in failure) — and they sit RETROPERITONEALLY with the AORTA, so BLEEDING THERE IS COMPLETELY CONCEALED and the front of the abdomen tells you NOTHING · BLADDER is pelvic — injured when the ring breaks · THE PREGNANT UTERUS RISES OUT OF THE PELVIS and loses its protection",
+        "why_it_matters": "A thorough examination of the front tells you nothing about the space behind it."
+      },
+      "high_yield": true,
+      "number": 44,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-06-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-08-C09",
+      "concept_id": "EMT-01-06-08",
+      "type": "concept",
+      "front": {
+        "title": "Endocrine, lymphatic, immune",
+        "summary": "A tannoy, not a phone call"
+      },
+      "back": {
+        "body": "ENDOCRINE = hormones into the BLOOD → SLOW, WIDESPREAD, LASTING · nerves are a phone call to one person; hormones are an announcement over the tannoy · PANCREAS → INSULIN, which lets glucose INTO cells — behind every diabetic emergency · ADRENALS (on the kidneys) → stress hormones and natural steroids — LONG-TERM STEROID USE SUPPRESSES THEIR OWN PRODUCTION, so under stress THERE IS NOTHING TO PRODUCE: that is ADRENAL CRISIS, and the MEDICATION LIST IS THE DIAGNOSIS · THYROID sets the metabolic PACE — crises run hot or cold · LYMPHATIC returns fluid leaked into tissue, filtering through NODES (which swell near infection); the SPLEEN is part of it · IMMUNE: white cells, antibodies, and INFLAMMATION AS A DEFENCE · ALLERGY IS AN OVER-RESPONSE TO SOMETHING HARMLESS",
+        "why_it_matters": "Her glands had stopped producing years ago. When she needed more, there was nothing to make it."
+      },
+      "high_yield": true,
+      "number": 45,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-06-08. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

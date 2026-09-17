@@ -73,6 +73,20 @@
         "EMT-01-05-03",
         "EMT-01-05-04"
       ]
+    },
+    {
+      "id": "EMT-01-06",
+      "title": "Anatomy and physiology",
+      "concepts": [
+        "EMT-01-06-01",
+        "EMT-01-06-02",
+        "EMT-01-06-03",
+        "EMT-01-06-04",
+        "EMT-01-06-05",
+        "EMT-01-06-06",
+        "EMT-01-06-07",
+        "EMT-01-06-08"
+      ]
     }
   ],
   "concepts": [
@@ -4433,6 +4447,1262 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm YOUR organisation's approved abbreviation list and do-not-use list — both vary between services and neither is reproduced here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-01",
+      "title": "The skeletal system",
+      "domain": "MED",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-06-05-01",
+        "EMT-06-05-04",
+        "EMT-01-08-04"
+      ],
+      "key_points": [
+        "The skeleton gives shape, protects organs, allows movement, stores minerals and makes blood cells in the marrow",
+        "The axial skeleton is the skull, spine and ribcage; the appendicular skeleton is the limbs and the girdles that attach them",
+        "The spine has five regions: cervical seven, thoracic twelve, lumbar five, then the sacrum and the coccyx",
+        "The ribcage protects the heart and lungs; the lower ribs overlie the liver on the right and the spleen on the left",
+        "The pelvis is a ring, which is why it cannot break in only one place",
+        "Long bones have a marrow cavity and a rich blood supply, which is why a femur fracture bleeds significantly",
+        "Joints are where bones meet, held by ligaments; tendons attach muscle to bone",
+        "Bone in children is more flexible and their growth plates are a point of weakness",
+        "Bone in older people is more brittle, which is why a fall from standing height fractures hips"
+      ],
+      "misconceptions": [
+        "Thinking bones are inert structure rather than living tissue with a blood supply",
+        "Forgetting that a femur fracture is a bleeding problem",
+        "Assuming the same force produces the same fracture at every age"
+      ],
+      "exam_favorites": [
+        "Axial versus appendicular",
+        "The five spinal regions and their counts",
+        "Why long bone fractures bleed"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The skeleton does five jobs, and only the first is obvious. It gives the body shape. It protects organs — skull around brain, ribs around heart and lungs, vertebrae around spinal cord. It provides the levers muscles pull on to produce movement. It stores minerals, principally calcium. And inside the larger bones, marrow makes blood cells.\n\nThat last point is worth holding onto, because it establishes something people forget: bone is living tissue with a blood supply, not inert scaffolding. Which is why it bleeds when it breaks.\n\nThe skeleton divides in two. The axial skeleton is the central core — skull, spine, ribcage. The appendicular skeleton is the limbs plus the girdles attaching them: the shoulder girdle and the pelvic girdle.\n\nThe spine has five regions and the counts are worth knowing. Cervical, seven vertebrae, in the neck. Thoracic, twelve, each with a pair of ribs. Lumbar, five, in the lower back and the largest of them. Then the sacrum, fused, forming the back of the pelvis. Then the coccyx at the end.\n\nThe ribcage protects the heart and lungs, and the detail that matters clinically is at the bottom: the lower ribs overlie the liver on the right and the spleen on the left. Lower rib fractures therefore raise concern about those organs, not just the bones.\n\nThe pelvis is a ring. That single fact explains why a pelvic fracture is never in one place — a ring either holds or gives way in two places — and why pelvic fractures bleed as they do.\n\nLong bones — femur, tibia, humerus — have a central marrow cavity and a rich blood supply. This is why a femur fracture is a circulation problem as well as a bone problem: a substantial volume can be lost into a thigh.\n\nJoints are where bones meet. Ligaments hold bone to bone across them. Tendons attach muscle to bone. Sprains involve ligaments; strains involve muscles or tendons.\n\nAnd age changes everything about how bone behaves. Children's bones are more flexible and bend before they break, and they have growth plates — areas of developing cartilage near the ends — which are weaker than the surrounding bone and a common fracture site. Older people's bones are more brittle and less dense, which is why a fall from standing height, which does nothing to a twenty-year-old, fractures hips routinely at eighty.",
+          "standard": "The skeletal system provides structural support, visceral protection, articulation for movement, mineral storage principally of calcium, and haematopoiesis within marrow. Bone constitutes vascularised living tissue rather than inert structure. The axial skeleton comprises skull, vertebral column and thoracic cage; the appendicular skeleton comprises limbs with pectoral and pelvic girdles. The vertebral column comprises cervical (seven), thoracic (twelve, each articulating with rib pairs), lumbar (five), sacral (fused) and coccygeal regions. The thoracic cage protects cardiopulmonary structures; lower ribs overlie the liver on the right and spleen on the left, rendering lower rib fracture significant for solid organ injury. The pelvis forms an osseous ring, precluding single-point disruption and accounting for haemorrhage patterns. Long bones contain medullary cavities with substantial vascularity; femoral fracture constitutes a circulatory as well as skeletal injury. Joints are stabilised by ligaments connecting bone to bone; tendons attach muscle to bone. Paediatric bone demonstrates greater flexibility with physeal growth plates constituting points of relative weakness. Geriatric bone demonstrates reduced density and increased brittleness, accounting for fracture following ground-level falls."
+        },
+        "eli_new": {
+          "analogy": "Bone is not scaffolding. It is living tissue with a blood supply, which is why breaking a femur is a bleeding problem and not just an orthopaedic one.",
+          "body": "The two facts from this concept that change what you do: a femur fracture bleeds, and the pelvis is a ring that cannot break once. Everything else here is background; those two are decisions."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the skeleton's functions, its two divisions, and the spinal regions.",
+          "must_hit": [
+            {
+              "point": "Shape, protection, movement, mineral storage, blood cell production",
+              "accept": [
+                "shape",
+                "protect",
+                "movement",
+                "mineral",
+                "calcium",
+                "marrow",
+                "blood cell"
+              ]
+            },
+            {
+              "point": "Axial is skull, spine and ribcage; appendicular is limbs and girdles",
+              "accept": [
+                "axial",
+                "appendicular",
+                "skull",
+                "spine",
+                "limb",
+                "girdle"
+              ]
+            },
+            {
+              "point": "Cervical 7, thoracic 12, lumbar 5, sacrum, coccyx",
+              "accept": [
+                "cervical",
+                "thoracic",
+                "lumbar",
+                "sacrum",
+                "coccyx",
+                "seven",
+                "twelve"
+              ]
+            },
+            {
+              "point": "Lower ribs overlie liver and spleen",
+              "accept": [
+                "lower rib",
+                "liver",
+                "spleen",
+                "overlie"
+              ]
+            },
+            {
+              "point": "The pelvis is a ring and cannot break in one place",
+              "accept": [
+                "pelvis",
+                "ring",
+                "one place",
+                "two"
+              ]
+            },
+            {
+              "point": "Long bones bleed significantly when fractured",
+              "accept": [
+                "long bone",
+                "femur",
+                "bleed",
+                "marrow",
+                "blood supply"
+              ]
+            },
+            {
+              "point": "Children's bones bend and have growth plates; older bones are brittle",
+              "accept": [
+                "child",
+                "flexible",
+                "growth plate",
+                "older",
+                "brittle",
+                "standing"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Off a kerb",
+          "dispatch": "Medic 3 — 84-year-old female, tripped off a kerb, unable to weight bear.",
+          "body": "It was a trip. Not a fall from anywhere, not a mechanism anybody would write down.\n\nHer hip was fractured.\n\nThe same trip at twenty produces a bruise. Bone density is what makes those two events different injuries."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the skeletal descriptions and vertebral counts against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-02",
+      "title": "The muscular system",
+      "domain": "MED",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-01-06-01",
+        "EMT-06-03-01",
+        "EMT-06-06-07"
+      ],
+      "key_points": [
+        "Three types of muscle: skeletal, smooth and cardiac",
+        "Skeletal muscle is voluntary, attached to bone by tendons, and moves the body on command",
+        "Smooth muscle is involuntary and lines hollow organs — blood vessels, bowel, airways, bladder",
+        "Cardiac muscle is involuntary, found only in the heart, and generates its own electrical impulse",
+        "Muscle contraction produces heat, which is why shivering warms the body and why exertion raises temperature",
+        "Muscles work in opposing pairs: one contracts while its opposite relaxes",
+        "Muscle needs oxygen to work efficiently; without it, it works anaerobically and produces acid",
+        "Prolonged compression kills muscle, and the products released when circulation returns cause the crush injury problem",
+        "Violent muscle contraction can fracture bone and dislocate joints without any external impact"
+      ],
+      "misconceptions": [
+        "Assuming all muscle is under conscious control",
+        "Forgetting that smooth muscle in vessels controls blood pressure",
+        "Overlooking that muscle damage causes systemic problems, not just local ones"
+      ],
+      "exam_favorites": [
+        "The three muscle types",
+        "Where smooth muscle is found",
+        "Why shivering produces heat"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Three types of muscle, and the differences between them explain a surprising amount of physiology.\n\nSkeletal muscle is voluntary. It attaches to bone by tendons, and it moves you when you decide to move. It is what people picture when they hear the word muscle.\n\nSmooth muscle is involuntary and lines hollow structures: blood vessels, the bowel, the airways, the bladder, the uterus. You have no conscious control over it at all, and it is doing an enormous amount of work you never think about. The smooth muscle in your blood vessels is what sets your blood pressure by constricting and relaxing — which is why neurogenic shock, where the nerves controlling it are cut, drops the pressure without losing any blood. The smooth muscle in the airways is what constricts in asthma.\n\nCardiac muscle is involuntary, exists only in the heart, and has a property nothing else has: it generates its own electrical impulse. A heart will beat without any nerve telling it to.\n\nA few operational points.\n\nMuscle contraction produces heat as a by-product. That is why shivering warms you — it is contraction purely for the heat — and why exertion raises body temperature. It is also why a hypothermic patient who has stopped shivering has lost their main heat-generating mechanism.\n\nMuscles work in opposing pairs. One contracts while its opposite relaxes; to move back, they swap. Nothing pushes — muscles only pull.\n\nMuscle needs oxygen. With enough of it, it works efficiently. Without it, it switches to working anaerobically, which produces far less energy and generates acid as waste. That is the mechanism behind the muscle pain of extreme exertion, and it is part of what happens to every tissue in shock.\n\nProlonged compression kills muscle, and the products released when circulation is restored cause the crush injury problem — the potassium and breakdown products that arrive all at once when the weight comes off.\n\nAnd a fact that surprises people: violent muscle contraction can fracture bones and dislocate joints with no external impact at all. A seizure can dislocate a shoulder; an electrical injury can fracture vertebrae. The muscles are strong enough to break the bones they are attached to.",
+          "standard": "Three muscle types exist. Skeletal muscle is voluntary, attached to bone via tendons, producing movement under conscious control. Smooth muscle is involuntary, lining hollow viscera including vasculature, gastrointestinal tract, airways, bladder and uterus; vascular smooth muscle tone determines systemic vascular resistance and therefore blood pressure, and bronchial smooth muscle constriction produces the airflow obstruction of asthma. Cardiac muscle is involuntary, confined to the myocardium, and possesses automaticity, generating intrinsic electrical impulses independent of neural input. Muscular contraction generates heat as a metabolic by-product, accounting for shivering thermogenesis and exertional temperature elevation; cessation of shivering in hypothermia represents loss of the principal endogenous heat source. Muscles act in antagonistic pairs, generating force only in contraction. Aerobic metabolism predominates with adequate oxygen delivery; anaerobic metabolism produces reduced energy yield with lactic acid accumulation. Prolonged compression produces rhabdomyolysis with systemic release of potassium and myoglobin on reperfusion. Tetanic contraction may produce fracture and dislocation without external force."
+        },
+        "eli_new": {
+          "analogy": "Muscles only pull. Everything you can do in both directions, you do with two muscles taking turns.",
+          "body": "Smooth muscle is the one worth thinking about, because you never notice it and it sets your blood pressure. The vessels are lined with muscle that squeezes or relaxes, and that is what neurogenic shock takes away."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the three muscle types and explain where smooth muscle matters.",
+          "must_hit": [
+            {
+              "point": "Skeletal, smooth and cardiac",
+              "accept": [
+                "skeletal",
+                "smooth",
+                "cardiac",
+                "three"
+              ]
+            },
+            {
+              "point": "Skeletal is voluntary and attached by tendons",
+              "accept": [
+                "voluntary",
+                "tendon",
+                "bone",
+                "conscious"
+              ]
+            },
+            {
+              "point": "Smooth is involuntary and lines hollow organs including vessels and airways",
+              "accept": [
+                "smooth",
+                "involuntary",
+                "vessel",
+                "bowel",
+                "airway",
+                "bladder"
+              ]
+            },
+            {
+              "point": "Vascular smooth muscle sets blood pressure",
+              "accept": [
+                "pressure",
+                "constrict",
+                "vessel",
+                "tone",
+                "relax"
+              ]
+            },
+            {
+              "point": "Cardiac muscle generates its own impulse",
+              "accept": [
+                "cardiac",
+                "own",
+                "impulse",
+                "automatic",
+                "electrical"
+              ]
+            },
+            {
+              "point": "Contraction produces heat, which is why shivering warms",
+              "accept": [
+                "heat",
+                "shiver",
+                "warm",
+                "contraction",
+                "temperature"
+              ]
+            },
+            {
+              "point": "Violent contraction can fracture bone without impact",
+              "accept": [
+                "fracture",
+                "dislocat",
+                "contraction",
+                "without",
+                "seizure",
+                "electrical"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "No impact",
+          "dispatch": "Medic 5 — patient after a seizure, shoulder obviously deformed.",
+          "body": "Nothing had struck him and he had not fallen onto it, and the crew were briefly puzzled about the mechanism.\n\nHis own muscles had done it during the seizure.\n\nMuscle is strong enough to dislocate the joints it moves and fracture the bones it pulls on."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the muscle type descriptions and their properties against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-03",
+      "title": "The respiratory system: structures and mechanics",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-01-01",
+        "EMT-02-01-04",
+        "EMT-01-07-04"
+      ],
+      "key_points": [
+        "The upper airway warms, humidifies and filters air; it ends at the larynx",
+        "The lower airway runs from the trachea down through the bronchi and bronchioles to the alveoli",
+        "Only the alveoli exchange gas — everything above them is plumbing",
+        "Inspiration is active: the diaphragm flattens and the ribs rise, enlarging the chest and dropping the pressure inside so air flows in",
+        "Normal expiration is passive: the muscles relax and elastic recoil pushes air out",
+        "Ventilation is moving air; respiration is exchanging gas; oxygenation is getting oxygen into the blood — they are three different things and can fail separately",
+        "Tidal volume is the air in one normal breath; dead space is the part that never reaches alveoli",
+        "Shallow fast breathing may move plenty of air per minute and still ventilate badly, because more of each breath is dead space",
+        "The drive to breathe normally comes from rising carbon dioxide, not from falling oxygen"
+      ],
+      "misconceptions": [
+        "Judging breathing adequacy by rate alone",
+        "Assuming fast breathing means good ventilation",
+        "Confusing ventilation with oxygenation",
+        "Thinking expiration is normally an active effort"
+      ],
+      "exam_favorites": [
+        "Only alveoli exchange gas",
+        "Ventilation versus respiration versus oxygenation",
+        "Why shallow fast breathing ventilates poorly"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Air comes in through the nose and mouth, where the upper airway warms it, adds moisture, and filters out particles. The upper airway ends at the larynx.\n\nBelow that, the lower airway: the trachea, which divides at the carina into two mainstem bronchi, which branch into smaller and smaller bronchi and then bronchioles, ending in the alveoli.\n\nThe alveoli are where all the gas exchange happens. Every structure above them is plumbing — necessary plumbing, but it does no exchanging. Millions of tiny sacs, each wrapped in capillaries, with a barrier thin enough for oxygen and carbon dioxide to cross.\n\nNow the mechanics, which matter because they explain what you are doing when you ventilate somebody.\n\nInspiration is active. The diaphragm contracts and flattens downwards, the ribs swing up and out, and the chest cavity gets bigger. A bigger container at the same amount of air means lower pressure inside, so air flows in from outside. You do not suck air in; you make a space and the atmosphere fills it.\n\nNormal expiration is passive. The muscles relax, the chest recoils elastically, the volume decreases, pressure rises, and air flows out. No effort required — which is why a patient who is visibly working to breathe out is telling you something is wrong.\n\nThree words that get used interchangeably and should not be.\n\nVentilation is moving air in and out. Respiration is the exchange of gases at the alveoli. Oxygenation is getting oxygen into the blood. They can fail separately: a patient can ventilate beautifully and not oxygenate, which is what fluid in the alveoli does.\n\nTidal volume is the amount in one normal breath. Dead space is the portion of every breath that fills the plumbing and never reaches an alveolus — the trachea and bronchi.\n\nAnd that gives you one of the most useful facts in airway management. Fast shallow breathing can move a large volume per minute and still ventilate badly, because with each small breath a greater proportion is dead space. Take twice as many breaths of half the size and you have moved the same total volume, with far less of it reaching alveoli. Which is why breathing is assessed on depth and effort, not on rate alone.\n\nFinally: the normal drive to breathe comes from rising carbon dioxide, not falling oxygen. Carbon dioxide is the signal the body watches.",
+          "standard": "The upper airway warms, humidifies and filters inspired air, terminating at the larynx. The lower airway comprises trachea, bifurcating at the carina into mainstem bronchi, with progressive division into bronchi, bronchioles and alveoli. Gas exchange occurs exclusively at the alveolar-capillary interface; proximal structures constitute conducting airway. Inspiration is an active process: diaphragmatic contraction with descent and elevation of the ribs increases thoracic volume, reducing intrathoracic pressure below atmospheric and producing airflow. Normal expiration is passive, resulting from elastic recoil; active expiratory effort indicates pathology. Ventilation denotes air movement, respiration denotes alveolar gas exchange, and oxygenation denotes arterial oxygen loading; these may fail independently, as in alveolar flooding with preserved ventilation. Tidal volume denotes the volume of a single normal breath; anatomical dead space denotes the conducting airway volume not participating in exchange. Rapid shallow ventilation may produce adequate minute volume with inadequate alveolar ventilation, as dead space constitutes a greater proportion of each smaller breath; adequacy is therefore assessed by depth and effort rather than rate alone. Normal respiratory drive derives from rising arterial carbon dioxide rather than falling oxygen."
+        },
+        "eli_new": {
+          "analogy": "You do not suck air in. You make a bigger space and the atmosphere fills it, because there is more pressure outside than in.",
+          "body": "The dead space point is the one that changes assessment. A patient breathing at 40 with tiny breaths may be moving plenty of air per minute and almost none of it reaching alveoli. Never judge breathing by rate alone."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain where gas exchange happens, how inspiration works, and why rate alone is misleading.",
+          "must_hit": [
+            {
+              "point": "The upper airway warms, humidifies and filters, ending at the larynx",
+              "accept": [
+                "upper",
+                "warm",
+                "humid",
+                "filter",
+                "larynx"
+              ]
+            },
+            {
+              "point": "Only the alveoli exchange gas",
+              "accept": [
+                "alveoli",
+                "only",
+                "exchange",
+                "plumbing",
+                "conducting"
+              ]
+            },
+            {
+              "point": "Inspiration is active: the diaphragm flattens and the chest enlarges, dropping pressure",
+              "accept": [
+                "active",
+                "diaphragm",
+                "enlarge",
+                "pressure",
+                "flow in"
+              ]
+            },
+            {
+              "point": "Normal expiration is passive elastic recoil",
+              "accept": [
+                "passive",
+                "recoil",
+                "relax",
+                "expiration",
+                "effort"
+              ]
+            },
+            {
+              "point": "Ventilation, respiration and oxygenation are three different things",
+              "accept": [
+                "ventilation",
+                "respiration",
+                "oxygenation",
+                "different",
+                "separate"
+              ]
+            },
+            {
+              "point": "Dead space is the part of each breath that never reaches alveoli",
+              "accept": [
+                "dead space",
+                "never",
+                "reach",
+                "trachea",
+                "conducting"
+              ]
+            },
+            {
+              "point": "Shallow fast breathing ventilates badly because more of each breath is dead space",
+              "accept": [
+                "shallow",
+                "fast",
+                "dead space",
+                "proportion",
+                "rate alone"
+              ]
+            },
+            {
+              "point": "The normal drive to breathe comes from rising carbon dioxide",
+              "accept": [
+                "carbon dioxide",
+                "co2",
+                "drive",
+                "rising",
+                "signal"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Forty a minute",
+          "dispatch": "Medic 2 — respiratory distress, rate documented as 40.",
+          "body": "The number looked like a patient who was moving a great deal of air, and the first crew recorded it and moved on.\n\nThe breaths were tiny. Most of each one never got past the trachea.\n\nRate multiplied by depth is what matters, and one of those two numbers was almost zero."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the respiratory structures, mechanics and drive descriptions against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-04",
+      "title": "The circulatory system",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-04-01-01",
+        "EMT-04-04-01",
+        "EMT-06-02-05"
+      ],
+      "key_points": [
+        "Three components: a pump, a container and a fluid — the heart, the vessels and the blood",
+        "Shock is a failure of any one of the three, which is why shock has several types",
+        "The right side of the heart sends blood to the lungs; the left side sends it to the body",
+        "Arteries carry blood away from the heart, veins carry it back, capillaries are where exchange happens",
+        "Arteries are thick-walled and high-pressure; veins are thin-walled, low-pressure and hold most of the blood volume",
+        "Blood is red cells carrying oxygen, white cells fighting infection, platelets and clotting factors, and plasma",
+        "Perfusion is blood actually reaching tissue and delivering oxygen — it is the point of the whole system",
+        "Blood pressure is the pressure in the arteries, and it depends on how much fluid there is and how tight the container is",
+        "A normal blood pressure does not prove adequate perfusion, which is why compensated shock exists"
+      ],
+      "misconceptions": [
+        "Equating blood pressure with perfusion",
+        "Forgetting that veins hold most of the blood volume",
+        "Thinking arteries always carry oxygenated blood — the pulmonary artery does not"
+      ],
+      "exam_favorites": [
+        "Pump, container, fluid",
+        "Perfusion versus blood pressure",
+        "Which side of the heart goes where"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Think of the circulatory system as three things: a pump, a container and a fluid. The heart, the vessels, and the blood.\n\nThat framing is worth more than it looks, because it tells you why there are several kinds of shock. Shock is a failure of the system, and the system has three parts, so it can fail in three ways. The pump fails — cardiogenic. The fluid is lost — hypovolaemic. The container gets too big — distributive, which includes neurogenic, septic and anaphylactic. Plus obstructive, where something mechanically blocks the flow.\n\nThe heart is two pumps side by side. The right side receives oxygen-poor blood from the body and sends it to the lungs. The left side receives oxygen-rich blood from the lungs and sends it out to the body. The left side works against far more resistance, which is why its wall is thicker.\n\nThe vessels. Arteries carry blood away from the heart — note away, not oxygenated, because the pulmonary artery carries oxygen-poor blood to the lungs. They are thick-walled and muscular because they carry high pressure.\n\nVeins carry blood back to the heart. Thin-walled, low-pressure, and they hold the majority of the blood volume at any moment. They are the reservoir.\n\nCapillaries are where the point of the whole system happens: vessels one cell thick, where oxygen leaves the blood and enters tissue and carbon dioxide comes back the other way.\n\nBlood itself: red cells carrying oxygen on haemoglobin, white cells fighting infection, platelets and clotting factors stopping leaks, and plasma, the fluid they all travel in.\n\nNow the word that matters most: perfusion. Perfusion is blood actually arriving at tissue and delivering oxygen. Not blood being pumped. Not a pressure reading. Blood arriving where it is needed and unloading what it carries.\n\nAnd blood pressure is not perfusion. Blood pressure is the pressure inside the arteries, which depends on how much fluid is in the container and how tight the container is being held. A patient can maintain a normal blood pressure by clamping their vessels down hard while their tissues are not being perfused at all — that is compensated shock, and it is why reading the blood pressure and stopping there misses the patients you most need to find.",
+          "standard": "The circulatory system comprises three functional components: the cardiac pump, the vascular container and the circulating volume. Shock represents failure of any component, accounting for its classification: cardiogenic (pump failure), hypovolaemic (volume loss), distributive (container enlargement, including neurogenic, septic and anaphylactic) and obstructive (mechanical flow impedance). The heart functions as paired pumps: the right receives systemic venous return and perfuses the pulmonary circulation; the left receives pulmonary venous return and perfuses the systemic circulation against greater resistance, accounting for left ventricular hypertrophy relative to the right. Arteries convey blood away from the heart, not necessarily oxygenated, as demonstrated by the pulmonary artery; they are thick-walled and muscular, accommodating high pressure. Veins convey blood toward the heart, are thin-walled and low-pressure, and contain the majority of circulating volume, functioning as a reservoir. Capillaries permit gas and solute exchange across a single-cell endothelium. Blood comprises erythrocytes transporting oxygen via haemoglobin, leucocytes providing immune function, platelets and coagulation factors, and plasma. Perfusion denotes delivery of oxygenated blood to tissue. Blood pressure reflects intra-arterial pressure determined by volume and vascular tone, and does not establish adequate perfusion; compensatory vasoconstriction maintains pressure despite inadequate tissue perfusion, constituting compensated shock."
+        },
+        "eli_new": {
+          "analogy": "A pump, a container and a fluid. Every kind of shock is one of those three failing, which is why there is more than one kind.",
+          "body": "Blood pressure is not perfusion. A patient can hold a normal pressure by squeezing their vessels shut while their tissues get nothing, and those are exactly the patients you need to find before the number changes."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the three components of the circulatory system and explain why blood pressure is not perfusion.",
+          "must_hit": [
+            {
+              "point": "A pump, a container and a fluid — heart, vessels, blood",
+              "accept": [
+                "pump",
+                "container",
+                "fluid",
+                "heart",
+                "vessel",
+                "blood"
+              ]
+            },
+            {
+              "point": "Shock is failure of one of the three, which is why there are several types",
+              "accept": [
+                "shock",
+                "fail",
+                "three",
+                "types",
+                "cardiogenic",
+                "hypovol",
+                "distributive"
+              ]
+            },
+            {
+              "point": "Right side to the lungs, left side to the body",
+              "accept": [
+                "right",
+                "lung",
+                "left",
+                "body",
+                "side"
+              ]
+            },
+            {
+              "point": "Arteries carry away from the heart, veins carry back, capillaries exchange",
+              "accept": [
+                "artery",
+                "away",
+                "vein",
+                "back",
+                "capillar",
+                "exchange"
+              ]
+            },
+            {
+              "point": "Veins are low-pressure and hold most of the volume",
+              "accept": [
+                "vein",
+                "low",
+                "reservoir",
+                "most",
+                "volume"
+              ]
+            },
+            {
+              "point": "Perfusion is blood actually reaching tissue and delivering oxygen",
+              "accept": [
+                "perfusion",
+                "reach",
+                "tissue",
+                "deliver",
+                "arriv"
+              ]
+            },
+            {
+              "point": "A normal blood pressure does not prove adequate perfusion",
+              "accept": [
+                "pressure",
+                "not",
+                "perfusion",
+                "compensat",
+                "normal"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "One twenty over eighty",
+          "dispatch": "Medic 7 — trauma patient, blood pressure recorded and reported as normal.",
+          "body": "The number was 120 over 80 and somebody said it out loud as though it settled the question.\n\nHis pulse was 128, his hands were cold and wet, and his capillary refill was four seconds.\n\nHe was holding that pressure by squeezing every vessel he had, and the pressure was the last thing that was going to change."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the circulatory descriptions and the relationship between blood pressure and perfusion against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-05",
+      "title": "The nervous system",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-06-07",
+        "EMT-05-02-06",
+        "EMT-04-04-01"
+      ],
+      "key_points": [
+        "The central nervous system is the brain and spinal cord; the peripheral nervous system is everything else",
+        "The peripheral system divides into voluntary control of skeletal muscle and the autonomic system, which runs everything automatic",
+        "The autonomic system has two halves: sympathetic, which prepares for action, and parasympathetic, which conserves",
+        "Sympathetic effects are the fight-or-flight picture: fast heart, dilated pupils, sweating, vessels clamped down, airways open",
+        "Parasympathetic effects are the opposite: slow heart, small pupils, digestion working",
+        "Shock and fear both produce sympathetic effects, which is why the two can look alike",
+        "The brainstem controls breathing, heart rate and consciousness, and damage there is catastrophic",
+        "Nerve cells need constant oxygen and glucose and cannot store either, which is why the brain fails first when either runs out",
+        "A spinal cord injury interrupts the messages below it, including the sympathetic control of blood vessels"
+      ],
+      "misconceptions": [
+        "Confusing sympathetic findings in shock with anxiety",
+        "Forgetting that a cord injury removes vessel control",
+        "Assuming brain tissue can tolerate interruption the way muscle can"
+      ],
+      "exam_favorites": [
+        "Sympathetic versus parasympathetic",
+        "Why the brain fails first",
+        "Brainstem functions"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The nervous system divides first into two: the central nervous system — the brain and the spinal cord — and the peripheral nervous system, which is every nerve outside those.\n\nThe peripheral system divides again. There is the part that lets you move on purpose, controlling skeletal muscle. And there is the autonomic system, which runs everything you never think about: heart rate, breathing pattern, blood vessel tone, digestion, sweating, pupil size.\n\nThe autonomic system has two halves that pull in opposite directions.\n\nSympathetic prepares the body for action. The fight-or-flight picture: heart faster and harder, pupils dilated, sweating, blood vessels in the skin and gut clamped down to push blood to the muscles and brain, airways opened up, glucose released.\n\nParasympathetic conserves. Heart slower, pupils small, digestion working, the body running quietly.\n\nHere is why this matters clinically. Every one of those sympathetic effects is what you see in shock — fast pulse, pale cool clammy skin, dilated pupils, anxiety. Which is exactly the same picture produced by being frightened. That overlap is why a patient who is pale, sweating and tachycardic cannot be dismissed as anxious, and why it is dangerous to try.\n\nThe brain has regions with different jobs. The cerebrum handles thought, sensation and voluntary movement. The cerebellum handles coordination and balance. And the brainstem controls the automatic essentials — breathing, heart rate, and consciousness itself. Damage to the brainstem is catastrophic in a way that damage elsewhere may not be, because those functions have no backup.\n\nNow the fact that explains most neurological emergencies: nerve cells need a constant supply of oxygen and glucose, and they can store neither. Muscle can hold a reserve and work anaerobically for a while. Brain cannot. Which is why the brain is the first thing to fail when oxygen drops or blood sugar falls, and why altered mental status is such a reliable early warning of almost anything systemic.\n\nAnd the spinal cord carries every message between brain and body. An injury interrupts everything below it — movement, sensation, and the sympathetic signals that keep blood vessels partly constricted. That last one is what produces neurogenic shock: the container relaxes because the instructions to stay tight no longer arrive.",
+          "standard": "The nervous system comprises the central nervous system — brain and spinal cord — and the peripheral nervous system. The peripheral system divides into somatic control of skeletal muscle and the autonomic nervous system governing involuntary function including cardiac rate, respiratory pattern, vascular tone, digestion, sudomotor activity and pupillary response. The autonomic system comprises opposing sympathetic and parasympathetic divisions. Sympathetic activation produces tachycardia, increased contractility, mydriasis, diaphoresis, cutaneous and splanchnic vasoconstriction, bronchodilation and glycogenolysis. Parasympathetic activation produces bradycardia, miosis and gastrointestinal activity. Sympathetic findings are common to both shock and anxiety states, precluding attribution of tachycardia with pallor and diaphoresis to anxiety. Cerebral regions subserve distinct functions: the cerebrum governs cognition, sensation and voluntary movement; the cerebellum coordination and balance; the brainstem respiration, cardiac rate and consciousness, rendering brainstem injury disproportionately catastrophic. Neurones require continuous oxygen and glucose delivery without storage capacity, accounting for cerebral vulnerability and the reliability of altered mental status as an early systemic indicator. Spinal cord injury interrupts transmission distal to the lesion including sympathetic vasomotor outflow, producing the vasodilation of neurogenic shock."
+        },
+        "eli_new": {
+          "analogy": "The sympathetic system is the accelerator and the parasympathetic is the brake. Shock stands on the accelerator, which is exactly what fear does too.",
+          "body": "Nerve cells cannot store oxygen or glucose. That one fact explains why the brain fails first in hypoxia, in hypoglycaemia and in shock, and why a change in how somebody is thinking is such an early warning of almost anything."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the divisions of the nervous system and explain why the brain fails first.",
+          "must_hit": [
+            {
+              "point": "Central is brain and spinal cord; peripheral is everything else",
+              "accept": [
+                "central",
+                "brain",
+                "cord",
+                "peripheral",
+                "outside"
+              ]
+            },
+            {
+              "point": "The autonomic system runs involuntary function",
+              "accept": [
+                "autonomic",
+                "involuntary",
+                "automatic",
+                "heart",
+                "digestion"
+              ]
+            },
+            {
+              "point": "Sympathetic prepares for action; parasympathetic conserves",
+              "accept": [
+                "sympathetic",
+                "fight",
+                "flight",
+                "parasympathetic",
+                "conserve",
+                "rest"
+              ]
+            },
+            {
+              "point": "Sympathetic effects are fast heart, dilated pupils, sweating, clamped vessels",
+              "accept": [
+                "fast",
+                "dilated",
+                "sweat",
+                "clamp",
+                "vasoconstrict",
+                "pale"
+              ]
+            },
+            {
+              "point": "Shock and fear produce the same sympathetic picture",
+              "accept": [
+                "shock",
+                "fear",
+                "anxiety",
+                "same",
+                "alike",
+                "dismiss"
+              ]
+            },
+            {
+              "point": "The brainstem controls breathing, heart rate and consciousness",
+              "accept": [
+                "brainstem",
+                "breathing",
+                "heart rate",
+                "conscious"
+              ]
+            },
+            {
+              "point": "Nerve cells cannot store oxygen or glucose, so the brain fails first",
+              "accept": [
+                "store",
+                "oxygen",
+                "glucose",
+                "first",
+                "fail",
+                "brain"
+              ]
+            },
+            {
+              "point": "Cord injury removes sympathetic vessel control, producing neurogenic shock",
+              "accept": [
+                "cord",
+                "sympathetic",
+                "vessel",
+                "neurogenic",
+                "dilat"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Just anxious",
+          "dispatch": "Medic 8 — young adult, pale, sweating, pulse 124, told they were having a panic attack.",
+          "body": "Everything about the presentation fitted anxiety, because fear switches on exactly the same system.\n\nThe same system is switched on by losing blood.\n\nOne of those two explanations can be safely wrong. The other cannot."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Sympathetic",
+          "right_label": "Parasympathetic",
+          "rows": [
+            {
+              "feature": "Purpose",
+              "left": "Prepare for action — fight or flight",
+              "right": "Conserve and restore — rest and digest"
+            },
+            {
+              "feature": "Heart rate",
+              "left": "FASTER and harder",
+              "right": "Slower"
+            },
+            {
+              "feature": "Pupils",
+              "left": "DILATED",
+              "right": "Constricted"
+            },
+            {
+              "feature": "Skin",
+              "left": "Pale and sweating — vessels clamped down",
+              "right": "Normal colour, dry"
+            },
+            {
+              "feature": "Airways",
+              "left": "Dilated — more air in",
+              "right": "Constricted"
+            },
+            {
+              "feature": "Digestion",
+              "left": "Shut down",
+              "right": "Working"
+            },
+            {
+              "feature": "Blood glucose",
+              "left": "Released into the blood",
+              "right": "Stored"
+            },
+            {
+              "feature": "What produces it clinically",
+              "left": "SHOCK — and also FEAR, which is why they look alike",
+              "right": "Rest, and some drug effects and reflexes"
+            },
+            {
+              "feature": "The trap",
+              "left": "Never dismiss this picture as anxiety",
+              "right": "Unexpected bradycardia in trauma may be neurogenic"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm nervous system divisions and autonomic effects against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-06",
+      "title": "The integumentary system",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-04-01",
+        "EMT-04-04-06",
+        "EMT-06-02-05"
+      ],
+      "key_points": [
+        "The skin is the largest organ and does more than cover: it is a barrier, a thermostat and a sense organ",
+        "As a barrier it keeps organisms out and fluid in — which is why burns cause infection and dehydration",
+        "As a thermostat it controls heat loss by opening or closing skin vessels and by sweating",
+        "Three layers: epidermis on the surface, dermis beneath it holding nerves, vessels and glands, and subcutaneous fat below that",
+        "Skin colour, temperature and moisture are a direct readout of perfusion, which is why they are assessed on every patient",
+        "Pale, cool, clammy skin means vessels are clamped down — the body prioritising the core",
+        "Flushed, warm, dry skin points the other way: vessels dilated, as in heat stroke or some distributive shock",
+        "Cyanosis is a blue discolouration meaning poor oxygenation, seen first around the lips and in the nail beds",
+        "Skin findings change early, before blood pressure does, which makes them one of the most useful things you can assess"
+      ],
+      "misconceptions": [
+        "Treating skin assessment as cosmetic rather than a perfusion measurement",
+        "Relying on cyanosis as an early sign of hypoxia",
+        "Forgetting that burns cause fluid loss as well as damage"
+      ],
+      "exam_favorites": [
+        "The three functions of skin",
+        "Skin as a perfusion readout",
+        "Why skin changes precede blood pressure changes"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The skin is the largest organ in the body, and it is easy to think of it as packaging. It is not — it does three substantial jobs.\n\nIt is a barrier. It keeps organisms out and fluid in. That is why a large burn causes two problems that have nothing to do with the burn itself: infection, because the barrier is gone, and dehydration, because fluid escapes through the damaged area.\n\nIt is a thermostat. The vessels in the skin open to release heat and close to conserve it, and sweat glands cool by evaporation. That is why a hot patient goes flushed — vessels opened wide to dump heat — and why a cold or shocked patient goes pale, with those vessels shut down.\n\nAnd it is a sense organ: touch, pressure, temperature, pain.\n\nThree layers. The epidermis on the surface, thin and constantly renewing. The dermis underneath, which holds the nerve endings, the blood vessels, the sweat glands and the hair follicles — this is why partial thickness burns into the dermis hurt so much. And below that, subcutaneous fat, which insulates and cushions.\n\nNow the part that makes this concept clinically useful every single shift.\n\nSkin colour, temperature and moisture are a direct readout of perfusion. Not an approximation — a direct readout, because the skin is where the body takes blood away from first when it needs to protect the core.\n\nPale, cool and clammy means the vessels are clamped down. The body has decided the skin is expendable and is sending its blood to the brain and the heart. That is compensation, and it is visible on the back of a hand.\n\nFlushed, warm and dry points the other way: vessels dilated. Heat stroke. Some kinds of distributive shock, where the container has opened up.\n\nCyanosis is blue discolouration from poorly oxygenated blood, seen first around the lips and in the nail beds. Worth knowing, and worth knowing it is a late sign — by the time somebody is visibly blue, a great deal has already gone wrong.\n\nAnd here is why any of this matters: skin findings change early, before blood pressure does. A hand that is cold and damp on a patient whose numbers are all normal is one of the most useful findings you will ever get, and it costs nothing but touching them.",
+          "standard": "The integumentary system constitutes the largest organ and performs barrier, thermoregulatory and sensory functions. Barrier function excludes pathogens and retains fluid; extensive burns therefore produce infection risk and fluid loss independent of the thermal injury. Thermoregulation operates through cutaneous vasodilation and vasoconstriction and through evaporative cooling by sweating. Sensory function encompasses touch, pressure, temperature and pain. Three layers exist: epidermis, continuously regenerating surface; dermis, containing nerve endings, vasculature, sweat glands and hair follicles, accounting for the severity of partial thickness burn pain; and subcutaneous adipose tissue providing insulation and cushioning. Cutaneous colour, temperature and moisture provide direct indication of peripheral perfusion, as cutaneous circulation is preferentially sacrificed to preserve central perfusion. Pallor with cool, clammy skin indicates vasoconstriction and compensation. Flushed, warm, dry skin indicates vasodilation, as in heat illness and distributive shock states. Cyanosis indicates inadequate oxygenation, appearing first perioral and in nail beds, and constitutes a late finding. Cutaneous findings alter before blood pressure changes, providing early indication at no cost beyond physical examination."
+        },
+        "eli_new": {
+          "analogy": "The skin is the first place the body borrows blood from. Which makes the back of a hand a perfusion monitor you already own.",
+          "body": "Touch the patient. A cold damp hand on somebody whose numbers are all normal is one of the most useful findings in this job, it arrives before the blood pressure changes, and it costs nothing."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the functions of skin and explain what skin findings tell you about perfusion.",
+          "must_hit": [
+            {
+              "point": "Barrier, thermostat and sense organ",
+              "accept": [
+                "barrier",
+                "thermostat",
+                "temperature",
+                "sense",
+                "sensation"
+              ]
+            },
+            {
+              "point": "Barrier failure in burns causes infection and fluid loss",
+              "accept": [
+                "burn",
+                "infection",
+                "fluid",
+                "dehydrat",
+                "barrier"
+              ]
+            },
+            {
+              "point": "Three layers: epidermis, dermis, subcutaneous",
+              "accept": [
+                "epidermis",
+                "dermis",
+                "subcutaneous",
+                "layer"
+              ]
+            },
+            {
+              "point": "Colour, temperature and moisture are a direct readout of perfusion",
+              "accept": [
+                "colour",
+                "color",
+                "temperature",
+                "moisture",
+                "perfusion",
+                "readout"
+              ]
+            },
+            {
+              "point": "Pale cool clammy means vessels clamped down to protect the core",
+              "accept": [
+                "pale",
+                "cool",
+                "clammy",
+                "clamp",
+                "core",
+                "compensat"
+              ]
+            },
+            {
+              "point": "Flushed warm dry means vessels dilated",
+              "accept": [
+                "flush",
+                "warm",
+                "dry",
+                "dilat",
+                "heat"
+              ]
+            },
+            {
+              "point": "Cyanosis is a late sign seen first at lips and nail beds",
+              "accept": [
+                "cyanosis",
+                "blue",
+                "late",
+                "lip",
+                "nail"
+              ]
+            },
+            {
+              "point": "Skin changes before blood pressure does",
+              "accept": [
+                "before",
+                "early",
+                "pressure",
+                "change",
+                "precede"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The back of a hand",
+          "dispatch": "Medic 1 — patient with entirely normal vital signs after a fall.",
+          "body": "Everything on the chart was within range and the student was ready to move on.\n\nThe officer took hold of his hand for two seconds. It was cold and damp.\n\nThe numbers changed forty minutes later. The hand had known first."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm skin structure and the relationship between skin findings and perfusion against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-07",
+      "title": "Digestive, urinary and reproductive systems",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-06-05",
+        "EMT-06-07-05",
+        "EMT-05-07-02"
+      ],
+      "key_points": [
+        "The digestive tract runs mouth to anus, breaking food down and absorbing it, with the liver and pancreas feeding into it",
+        "The liver sits in the right upper quadrant, is highly vascular, and makes the clotting factors — which is why liver disease causes bleeding that will not stop",
+        "The spleen sits in the left upper quadrant and bleeds heavily when injured",
+        "Hollow digestive organs leak when injured and cause peritonitis over hours; solid organs bleed",
+        "The kidneys filter blood, control fluid balance and regulate electrolytes, and sit behind the abdominal cavity in the retroperitoneum",
+        "Because the kidneys are retroperitoneal, bleeding around them is concealed and produces no findings at the front of the abdomen",
+        "The bladder sits in the pelvis and can be injured by a pelvic fracture",
+        "The female reproductive organs sit in the pelvis; the uterus in pregnancy rises out of the pelvis and changes what is vulnerable",
+        "Any woman of childbearing age with abdominal pain is potentially pregnant until that is excluded"
+      ],
+      "misconceptions": [
+        "Assuming the liver only matters for digestion",
+        "Expecting anterior abdominal findings in retroperitoneal bleeding",
+        "Forgetting that a pelvic fracture can injure the bladder",
+        "Excluding pregnancy on the patient's say-so"
+      ],
+      "exam_favorites": [
+        "Why liver disease causes bleeding",
+        "Retroperitoneal organs and concealed bleeding",
+        "Solid organs bleed, hollow organs leak"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Three systems, grouped because at EMT level what matters about them is mostly where they are and what happens when they are injured.\n\nThe digestive tract is a tube running from mouth to anus: oesophagus, stomach, small intestine, large intestine. Food is broken down and absorbed along the way. Two organs feed into it — the liver and the pancreas — without being part of the tube.\n\nThe liver deserves more attention than its digestive role suggests. It sits in the right upper quadrant, under the lower ribs. It is large, dense and extremely vascular, so it bleeds severely when injured. And it makes the clotting factors. That second fact is why liver disease causes bleeding that will not stop: the organ that makes the things that stop bleeding is the one that is damaged, which is exactly the problem in oesophageal varices.\n\nThe spleen sits in the left upper quadrant, also under the lower ribs, and is notorious for bleeding heavily when injured. Left lower rib fractures should always raise the question.\n\nThe general rule for abdominal injury: solid organs — liver, spleen, kidneys — bleed. Hollow organs — stomach, bowel, bladder — leak, spilling contents into a cavity meant to be sterile and causing peritonitis over hours rather than minutes.\n\nThe urinary system: two kidneys, two ureters, a bladder and a urethra. The kidneys filter the blood, control fluid balance and regulate electrolytes — which is why kidney failure causes fluid overload and dangerous potassium levels.\n\nThe important anatomical point is where they sit: behind the abdominal cavity, in the retroperitoneal space. That means bleeding around a kidney, or from the aorta which also runs back there, is completely concealed. You can examine the front of the abdomen thoroughly and find nothing at all.\n\nThe bladder sits in the pelvis, protected by the pelvic ring — and therefore injured when that ring breaks.\n\nThe reproductive organs. In women, the ovaries, fallopian tubes, uterus and vagina sit in the pelvis. In pregnancy the uterus grows out of the pelvis and up into the abdomen, which changes what is exposed and what is vulnerable — by later pregnancy it is the largest structure in the abdomen and no longer protected by the pelvic ring at all.\n\nAnd the rule that follows from all of it: any woman of childbearing age with abdominal pain is potentially pregnant until that has been properly excluded.",
+          "standard": "The gastrointestinal tract extends from the oral cavity to the anus, comprising oesophagus, stomach, small intestine and large intestine, with hepatic and pancreatic contributions. The liver occupies the right upper quadrant beneath the lower ribs, is highly vascular with severe haemorrhage on injury, and synthesises coagulation factors; hepatic disease consequently produces coagulopathy, the mechanism underlying uncontrolled variceal haemorrhage. The spleen occupies the left upper quadrant with substantial haemorrhagic potential, raising concern with left lower rib fracture. Solid organs haemorrhage on injury; hollow organs perforate with peritoneal contamination producing peritonitis over hours. The urinary system comprises paired kidneys and ureters, bladder and urethra, performing filtration, fluid balance and electrolyte regulation; renal failure produces volume overload and hyperkalaemia. Kidneys occupy the retroperitoneal space posterior to the peritoneal cavity, alongside the aorta, rendering haemorrhage concealed with absent anterior abdominal findings. The bladder occupies the pelvis and is vulnerable to pelvic ring disruption. Female reproductive organs occupy the pelvis; the gravid uterus ascends into the abdomen during pregnancy, becoming the largest abdominal structure and losing pelvic ring protection. Women of childbearing age with abdominal pain are regarded as potentially pregnant pending exclusion."
+        },
+        "eli_new": {
+          "analogy": "Solid organs bleed and hollow organs leak. The bleeding hurts you today; the leaking hurts you tomorrow.",
+          "body": "The liver makes the clotting factors. That is why liver disease produces bleeding that will not stop — the organ that manufactures the repair kit is the broken one."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what the liver does besides digestion, and why retroperitoneal bleeding is concealed.",
+          "must_hit": [
+            {
+              "point": "The liver is right upper quadrant, highly vascular, and makes clotting factors",
+              "accept": [
+                "liver",
+                "right upper",
+                "vascular",
+                "clotting",
+                "factor"
+              ]
+            },
+            {
+              "point": "Liver disease therefore causes bleeding that will not stop",
+              "accept": [
+                "liver disease",
+                "bleed",
+                "stop",
+                "varices",
+                "coagul"
+              ]
+            },
+            {
+              "point": "The spleen is left upper quadrant and bleeds heavily",
+              "accept": [
+                "spleen",
+                "left upper",
+                "bleed",
+                "heavy"
+              ]
+            },
+            {
+              "point": "Solid organs bleed; hollow organs leak and cause peritonitis over hours",
+              "accept": [
+                "solid",
+                "bleed",
+                "hollow",
+                "leak",
+                "peritonitis",
+                "hours"
+              ]
+            },
+            {
+              "point": "Kidneys filter blood, control fluid and regulate electrolytes",
+              "accept": [
+                "kidney",
+                "filter",
+                "fluid",
+                "electrolyte",
+                "potassium"
+              ]
+            },
+            {
+              "point": "Kidneys and aorta are retroperitoneal, so bleeding there is concealed",
+              "accept": [
+                "retroperiton",
+                "conceal",
+                "behind",
+                "aorta",
+                "no findings"
+              ]
+            },
+            {
+              "point": "The bladder is pelvic and injured by pelvic fractures",
+              "accept": [
+                "bladder",
+                "pelvic",
+                "fracture",
+                "ring"
+              ]
+            },
+            {
+              "point": "The pregnant uterus rises out of the pelvis and loses its protection",
+              "accept": [
+                "uterus",
+                "pregnan",
+                "rises",
+                "pelvis",
+                "protect",
+                "largest"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Nothing at the front",
+          "dispatch": "Medic 6 — fall from height, back pain, abdomen soft and non-tender.",
+          "body": "The abdomen was examined carefully, twice, and found soft and entirely unremarkable both times.\n\nHe was bleeding retroperitoneally, behind everything anybody was palpating.\n\nA thorough examination of the front of the abdomen tells you nothing at all about the space behind it."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the organ positions and the descriptions of solid versus hollow organ injury against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-08",
+      "title": "Endocrine, lymphatic and immune systems",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-03-01",
+        "EMT-05-03-04",
+        "EMT-05-04-01"
+      ],
+      "key_points": [
+        "The endocrine system works by releasing hormones into the blood, which act slowly and widely",
+        "The nervous system sends fast targeted messages; the endocrine system sends slow broadcast ones",
+        "The pancreas produces insulin, which lets glucose into cells — the mechanism behind every diabetic emergency",
+        "The adrenal glands produce the stress hormones including adrenaline, which is why a patient on long-term steroids cannot respond to stress",
+        "The thyroid sets metabolic pace, and thyroid crises run either too fast and hot or too slow and cold",
+        "The lymphatic system drains excess fluid from tissue and returns it to the bloodstream, and filters it through lymph nodes on the way",
+        "The spleen is part of this system as well as being a solid organ that bleeds",
+        "The immune system fights infection: white cells, antibodies, and inflammation as a defensive response",
+        "An allergic reaction is the immune system responding violently to something harmless, which is the mechanism behind anaphylaxis"
+      ],
+      "misconceptions": [
+        "Expecting hormone effects to be fast",
+        "Forgetting that long-term steroid use blunts the stress response",
+        "Thinking inflammation is always harmful rather than a defence",
+        "Treating allergy as weakness rather than an over-response"
+      ],
+      "exam_favorites": [
+        "Nervous versus endocrine signalling",
+        "Insulin's role",
+        "Why steroid-dependent patients cannot handle stress"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Three systems that share a theme: they work slowly, broadly, and chemically rather than by direct wiring.\n\nThe endocrine system works by releasing hormones into the bloodstream. Compare it with the nervous system: nerves send fast, targeted messages down a wire to one destination. Hormones are released into the blood and reach everything, acting slowly and lasting longer. Fast and specific versus slow and broadcast.\n\nThe glands worth knowing:\n\nThe pancreas produces insulin, which lets glucose move from the blood into cells. That single function is behind every diabetic emergency you will attend — too little insulin and glucose piles up outside starving cells; too much relative to intake and blood glucose falls and the brain starves.\n\nThe adrenal glands sit on top of the kidneys and produce the stress hormones, including adrenaline and the natural steroids. This is why a patient who has taken steroids long term cannot mount a normal response to stress: their own glands have stopped producing, and when illness or injury demands more, there is none. That is adrenal crisis.\n\nThe thyroid sets the body's metabolic pace. Too much and everything runs fast and hot; too little and everything runs slow and cold. The crises look like opposite patients.\n\nThe pituitary sits under the brain and directs several other glands.\n\nThe lymphatic system does a job most people never consider. Fluid constantly leaks out of capillaries into tissue, and if nothing collected it, you would swell. The lymphatic vessels collect that excess fluid and return it to the bloodstream, filtering it through lymph nodes on the way — which is why nodes swell when there is infection nearby. The spleen is part of this system too, as well as being the solid organ that bleeds.\n\nThe immune system defends against infection. White cells, antibodies that recognise things met before, and inflammation — which is a defence rather than a malfunction: increased blood flow, warmth, swelling and pain, all of it bringing defences to a site and limiting damage.\n\nAnd the failure mode that matters most to you: an allergic reaction is the immune system responding violently to something harmless. Not weakness — over-response. Anaphylaxis is that over-response gone body-wide.",
+          "standard": "The endocrine system signals through hormone release into the circulation, producing slow, widespread and sustained effects, in contrast to rapid, targeted neural transmission. The pancreas secretes insulin, mediating cellular glucose uptake, the mechanism underlying diabetic emergencies: insufficient insulin activity produces hyperglycaemia with intracellular deprivation, while excess relative to intake produces hypoglycaemia with cerebral substrate deprivation. The adrenal glands, superior to the kidneys, secrete catecholamines and corticosteroids; chronic exogenous steroid administration suppresses endogenous production, precluding the physiological stress response and producing adrenal crisis under illness or injury. The thyroid determines metabolic rate, with crises presenting as hypermetabolic or hypometabolic states. The pituitary directs multiple downstream glands. The lymphatic system collects interstitial fluid escaping the capillary bed and returns it to the circulation, filtering through lymph nodes, which enlarge in response to regional infection; the spleen forms part of this system. The immune system provides defence through leucocytes, antibody-mediated recognition and inflammation, the latter constituting a protective response comprising increased perfusion, warmth, swelling and pain. Allergic reaction represents disproportionate immune response to innocuous antigen, with anaphylaxis representing systemic manifestation of that response."
+        },
+        "eli_new": {
+          "analogy": "Nerves are a phone call to one person. Hormones are an announcement over the tannoy: slower, heard everywhere, and it lasts.",
+          "body": "The steroid one is the clinically useful fact. A patient on long-term steroids has glands that have stopped producing their own, so when they get ill and need more, there is none — and that is why the medication list is the diagnosis in adrenal crisis."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Contrast nervous and endocrine signalling, and explain why long-term steroid use matters.",
+          "must_hit": [
+            {
+              "point": "Hormones travel in the blood and act slowly and widely",
+              "accept": [
+                "hormone",
+                "blood",
+                "slow",
+                "wide",
+                "broadcast"
+              ]
+            },
+            {
+              "point": "Nerves are fast and targeted; hormones are slow and broadcast",
+              "accept": [
+                "nerve",
+                "fast",
+                "target",
+                "slow",
+                "contrast"
+              ]
+            },
+            {
+              "point": "The pancreas makes insulin, which lets glucose into cells",
+              "accept": [
+                "pancreas",
+                "insulin",
+                "glucose",
+                "cell",
+                "diabet"
+              ]
+            },
+            {
+              "point": "The adrenals make stress hormones including adrenaline and steroids",
+              "accept": [
+                "adrenal",
+                "stress",
+                "adrenaline",
+                "steroid",
+                "kidney"
+              ]
+            },
+            {
+              "point": "Long-term steroids suppress natural production, so stress cannot be met",
+              "accept": [
+                "long-term",
+                "steroid",
+                "suppress",
+                "stress",
+                "crisis",
+                "none"
+              ]
+            },
+            {
+              "point": "The thyroid sets metabolic pace",
+              "accept": [
+                "thyroid",
+                "metabolic",
+                "pace",
+                "fast",
+                "slow"
+              ]
+            },
+            {
+              "point": "The lymphatic system returns tissue fluid and filters it through nodes",
+              "accept": [
+                "lymph",
+                "fluid",
+                "return",
+                "node",
+                "filter",
+                "swell"
+              ]
+            },
+            {
+              "point": "Allergy is an over-response to something harmless; anaphylaxis is it gone body-wide",
+              "accept": [
+                "allerg",
+                "over",
+                "harmless",
+                "anaphylaxis",
+                "body-wide",
+                "systemic"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "On the list",
+          "dispatch": "Medic 3 — unwell patient, low blood pressure, no obvious cause found.",
+          "body": "Everything had been examined and nothing explained the pressure, and the crew were running out of ideas.\n\nThe medication list had a long-term steroid on it, and she had run out four days earlier.\n\nHer own adrenal glands had stopped producing years ago. When she needed more, there was nothing to produce it."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm endocrine, lymphatic and immune descriptions against the current text. No medication names or doses are stated."
     }
   ]
 }

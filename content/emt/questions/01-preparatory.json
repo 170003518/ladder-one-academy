@@ -4952,6 +4952,1386 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-01-Q001",
+      "concept_id": "EMT-01-06-01",
+      "style": "recall",
+      "stem": "How many cervical vertebrae are there?",
+      "options": [
+        {
+          "text": "Five",
+          "rationale": "Five is the lumbar count."
+        },
+        {
+          "text": "Seven",
+          "rationale": "Correct — seven."
+        },
+        {
+          "text": "Twelve",
+          "rationale": "Twelve is the thoracic count."
+        },
+        {
+          "text": "Nine",
+          "rationale": "Not a spinal region count."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-01-Q002",
+      "concept_id": "EMT-01-06-01",
+      "style": "recall",
+      "stem": "Which structures make up the axial skeleton?",
+      "options": [
+        {
+          "text": "The limbs and their girdles",
+          "rationale": "That is the appendicular skeleton."
+        },
+        {
+          "text": "Skull, spine and ribcage",
+          "rationale": "Correct — skull, spine and ribcage."
+        },
+        {
+          "text": "Only the spine",
+          "rationale": "The axial skeleton includes more."
+        },
+        {
+          "text": "The pelvis and legs",
+          "rationale": "Those are appendicular."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-01-Q003",
+      "concept_id": "EMT-01-06-01",
+      "style": "application",
+      "stem": "Why is a femur fracture also a circulation problem?",
+      "options": [
+        {
+          "text": "Because the patient cannot walk",
+          "rationale": "Immobility is not a circulatory issue."
+        },
+        {
+          "text": "Long bones have a rich blood supply and a substantial volume can be lost into the thigh",
+          "rationale": "Correct — long bones have a rich blood supply and a substantial volume can be lost into the thigh."
+        },
+        {
+          "text": "Because it always involves an artery",
+          "rationale": "Direct arterial injury is not required."
+        },
+        {
+          "text": "Because it causes cardiac strain",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-01-Q004",
+      "concept_id": "EMT-01-06-01",
+      "style": "recall",
+      "stem": "What do lower rib fractures raise concern about?",
+      "options": [
+        {
+          "text": "The heart",
+          "rationale": "The heart sits higher and more centrally."
+        },
+        {
+          "text": "The liver on the right and the spleen on the left",
+          "rationale": "Correct — the liver on the right and the spleen on the left."
+        },
+        {
+          "text": "The kidneys only",
+          "rationale": "Liver and spleen are the primary concern."
+        },
+        {
+          "text": "Nothing beyond the ribs themselves",
+          "rationale": "The organs beneath are the concern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-01-Q005",
+      "concept_id": "EMT-01-06-01",
+      "style": "scenario",
+      "stem": "Why does a trip off a kerb fracture a hip at 84 but not at 24?",
+      "options": [
+        {
+          "text": "Older people fall harder",
+          "rationale": "The mechanism is the same."
+        },
+        {
+          "text": "Bone density falls and bone becomes more brittle with age",
+          "rationale": "Correct — bone density falls and bone becomes more brittle with age."
+        },
+        {
+          "text": "Older bones have no blood supply",
+          "rationale": "Bone remains vascularised living tissue at every age."
+        },
+        {
+          "text": "Younger people have thicker skin",
+          "rationale": "Not relevant to fracture."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-02-Q001",
+      "concept_id": "EMT-01-06-02",
+      "style": "recall",
+      "stem": "Which muscle type is found only in the heart and generates its own impulse?",
+      "options": [
+        {
+          "text": "Skeletal",
+          "rationale": "Skeletal muscle requires neural stimulation."
+        },
+        {
+          "text": "Cardiac",
+          "rationale": "Correct — a heart beats without being told to."
+        },
+        {
+          "text": "Smooth",
+          "rationale": "Smooth muscle lines hollow organs."
+        },
+        {
+          "text": "Voluntary",
+          "rationale": "Voluntary describes skeletal muscle."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-02-Q002",
+      "concept_id": "EMT-01-06-02",
+      "style": "recall",
+      "stem": "Where is smooth muscle found?",
+      "options": [
+        {
+          "text": "Attached to bone by tendons",
+          "rationale": "That is skeletal muscle."
+        },
+        {
+          "text": "Lining hollow organs — vessels, bowel, airways, bladder",
+          "rationale": "Correct — lining hollow organs — vessels, bowel, airways, bladder."
+        },
+        {
+          "text": "Only in the heart",
+          "rationale": "That is cardiac muscle."
+        },
+        {
+          "text": "Only in the diaphragm",
+          "rationale": "The diaphragm is skeletal muscle."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-02-Q003",
+      "concept_id": "EMT-01-06-02",
+      "style": "application",
+      "stem": "Why does shivering warm the body?",
+      "options": [
+        {
+          "text": "It increases blood flow to the skin",
+          "rationale": "That would lose heat."
+        },
+        {
+          "text": "Muscle contraction produces heat as a by-product",
+          "rationale": "Correct — contraction purely for the heat."
+        },
+        {
+          "text": "It reduces sweating",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It raises the metabolic rate of fat",
+          "rationale": "Not the described mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-02-Q004",
+      "concept_id": "EMT-01-06-02",
+      "style": "application",
+      "stem": "What does vascular smooth muscle determine?",
+      "options": [
+        {
+          "text": "Heart rate",
+          "rationale": "Rate is cardiac, not vascular smooth muscle."
+        },
+        {
+          "text": "Blood pressure, through constriction and relaxation",
+          "rationale": "Correct — and losing that control is neurogenic shock."
+        },
+        {
+          "text": "Respiratory rate",
+          "rationale": "Not controlled by vascular smooth muscle."
+        },
+        {
+          "text": "Blood oxygen content",
+          "rationale": "Not its function."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-02-Q005",
+      "concept_id": "EMT-01-06-02",
+      "style": "scenario",
+      "stem": "A patient dislocates a shoulder during a seizure with no impact. How?",
+      "options": [
+        {
+          "text": "They must have fallen on it unobserved",
+          "rationale": "Muscle alone can do it."
+        },
+        {
+          "text": "Violent muscle contraction can dislocate joints and fracture bones",
+          "rationale": "Correct — violent muscle contraction can dislocate joints and fracture bones."
+        },
+        {
+          "text": "Seizures weaken the joint capsule",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It is not possible without impact",
+          "rationale": "It is well recognised."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-03-Q001",
+      "concept_id": "EMT-01-06-03",
+      "style": "recall",
+      "stem": "Where does gas exchange occur?",
+      "options": [
+        {
+          "text": "Throughout the bronchi",
+          "rationale": "The bronchi are conducting airway only."
+        },
+        {
+          "text": "Only at the alveoli",
+          "rationale": "Correct — everything above them is plumbing."
+        },
+        {
+          "text": "In the trachea",
+          "rationale": "The trachea is dead space."
+        },
+        {
+          "text": "At the larynx",
+          "rationale": "The larynx is the upper airway boundary."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-03-Q002",
+      "concept_id": "EMT-01-06-03",
+      "style": "recall",
+      "stem": "How does inspiration work?",
+      "options": [
+        {
+          "text": "Muscles push air into the chest",
+          "rationale": "Nothing pushes air in."
+        },
+        {
+          "text": "The chest enlarges, pressure inside drops, and air flows in",
+          "rationale": "Correct — you make a space and the atmosphere fills it."
+        },
+        {
+          "text": "The lungs actively suck air down",
+          "rationale": "Lungs do not generate suction themselves."
+        },
+        {
+          "text": "Elastic recoil draws air in",
+          "rationale": "Recoil drives expiration, not inspiration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-03-Q003",
+      "concept_id": "EMT-01-06-03",
+      "style": "recall",
+      "stem": "Is normal expiration active or passive?",
+      "options": [
+        {
+          "text": "Active, requiring muscular effort",
+          "rationale": "Visible expiratory effort indicates a problem."
+        },
+        {
+          "text": "Passive, from elastic recoil",
+          "rationale": "Correct — passive, from elastic recoil."
+        },
+        {
+          "text": "Active in adults, passive in children",
+          "rationale": "No such distinction."
+        },
+        {
+          "text": "It varies with position",
+          "rationale": "Position does not change this."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-03-Q004",
+      "concept_id": "EMT-01-06-03",
+      "style": "application",
+      "stem": "Why can a respiratory rate of 40 represent poor ventilation?",
+      "options": [
+        {
+          "text": "Fast rates always mean good air movement",
+          "rationale": "Rate alone says nothing about depth."
+        },
+        {
+          "text": "With small breaths, more of each breath is dead space and less reaches alveoli",
+          "rationale": "Correct — with small breaths, more of each breath is dead space and less reaches alveoli."
+        },
+        {
+          "text": "The patient tires, which is the only problem",
+          "rationale": "Fatigue matters but is not the ventilation mechanism."
+        },
+        {
+          "text": "It cannot — 40 is a high minute volume",
+          "rationale": "Minute volume is not alveolar ventilation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-03-Q005",
+      "concept_id": "EMT-01-06-03",
+      "style": "application",
+      "stem": "What normally drives the urge to breathe?",
+      "options": [
+        {
+          "text": "Falling oxygen",
+          "rationale": "Oxygen is not the primary signal."
+        },
+        {
+          "text": "Rising carbon dioxide",
+          "rationale": "Correct — rising carbon dioxide."
+        },
+        {
+          "text": "Rising blood pressure",
+          "rationale": "Not a respiratory drive."
+        },
+        {
+          "text": "Muscle fatigue",
+          "rationale": "Not a respiratory drive."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-03-Q006",
+      "concept_id": "EMT-01-06-03",
+      "style": "scenario",
+      "stem": "A patient ventilates well but does not oxygenate. Is that possible?",
+      "options": [
+        {
+          "text": "No — they are the same thing",
+          "rationale": "They are different and can fail separately."
+        },
+        {
+          "text": "Yes — air moves but exchange fails, as when alveoli fill with fluid",
+          "rationale": "Correct — yes — air moves but exchange fails, as when alveoli fill with fluid."
+        },
+        {
+          "text": "Only in children",
+          "rationale": "Not age-specific."
+        },
+        {
+          "text": "Only with an airway obstruction",
+          "rationale": "Obstruction affects ventilation, not exchange."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-04-Q001",
+      "concept_id": "EMT-01-06-04",
+      "style": "recall",
+      "stem": "What are the three components of the circulatory system?",
+      "options": [
+        {
+          "text": "Arteries, veins and capillaries",
+          "rationale": "Those are all part of the container."
+        },
+        {
+          "text": "A pump, a container and a fluid",
+          "rationale": "Correct — heart, vessels and blood."
+        },
+        {
+          "text": "Red cells, white cells and platelets",
+          "rationale": "Those are components of the fluid."
+        },
+        {
+          "text": "Heart, lungs and kidneys",
+          "rationale": "The lungs and kidneys are other systems."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-04-Q002",
+      "concept_id": "EMT-01-06-04",
+      "style": "recall",
+      "stem": "Do arteries always carry oxygenated blood?",
+      "options": [
+        {
+          "text": "Yes, by definition",
+          "rationale": "The pulmonary artery carries oxygen-poor blood."
+        },
+        {
+          "text": "No — arteries carry blood AWAY from the heart, oxygenated or not",
+          "rationale": "Correct — no — arteries carry blood AWAY from the heart, oxygenated or not."
+        },
+        {
+          "text": "Only in adults",
+          "rationale": "Not an age distinction."
+        },
+        {
+          "text": "Only on the left side",
+          "rationale": "The definition is about direction, not side."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-04-Q003",
+      "concept_id": "EMT-01-06-04",
+      "style": "recall",
+      "stem": "Which vessels hold most of the blood volume?",
+      "options": [
+        {
+          "text": "Arteries",
+          "rationale": "Arteries are high-pressure and hold less."
+        },
+        {
+          "text": "Veins",
+          "rationale": "Correct — they are the low-pressure reservoir."
+        },
+        {
+          "text": "Capillaries",
+          "rationale": "Capillaries hold a small fraction."
+        },
+        {
+          "text": "The heart chambers",
+          "rationale": "The chambers hold relatively little at any moment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-04-Q004",
+      "concept_id": "EMT-01-06-04",
+      "style": "application",
+      "stem": "Does a normal blood pressure prove adequate perfusion?",
+      "options": [
+        {
+          "text": "Yes, that is what it measures",
+          "rationale": "Pressure and perfusion are different things."
+        },
+        {
+          "text": "No — compensation can hold pressure while tissues are not perfused",
+          "rationale": "Correct, and those are the patients to find."
+        },
+        {
+          "text": "Only if the pulse is also normal",
+          "rationale": "A normal pressure with a fast pulse is compensation."
+        },
+        {
+          "text": "Only in adults",
+          "rationale": "The principle applies at all ages."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-04-Q005",
+      "concept_id": "EMT-01-06-04",
+      "style": "application",
+      "stem": "Why are there several types of shock?",
+      "options": [
+        {
+          "text": "Because there are several causes of bleeding",
+          "rationale": "Bleeding is only one type."
+        },
+        {
+          "text": "Because the system has three components and each can fail",
+          "rationale": "Correct — plus obstructive, where flow is blocked."
+        },
+        {
+          "text": "Because shock is graded by severity",
+          "rationale": "Severity is a different axis."
+        },
+        {
+          "text": "Because different ages respond differently",
+          "rationale": "Age affects presentation, not classification."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-04-Q006",
+      "concept_id": "EMT-01-06-04",
+      "style": "scenario",
+      "stem": "Which side of the heart sends blood to the lungs?",
+      "options": [
+        {
+          "text": "The left",
+          "rationale": "The left sends blood to the body."
+        },
+        {
+          "text": "The right",
+          "rationale": "Correct — the right."
+        },
+        {
+          "text": "Both equally",
+          "rationale": "They have separate destinations."
+        },
+        {
+          "text": "Neither — the lungs receive blood from the aorta",
+          "rationale": "The pulmonary artery supplies the lungs."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-05-Q001",
+      "concept_id": "EMT-01-06-05",
+      "style": "recall",
+      "stem": "What makes up the central nervous system?",
+      "options": [
+        {
+          "text": "All the nerves in the body",
+          "rationale": "That includes the peripheral system."
+        },
+        {
+          "text": "The brain and spinal cord",
+          "rationale": "Correct — the brain and spinal cord."
+        },
+        {
+          "text": "The brain only",
+          "rationale": "The cord is included."
+        },
+        {
+          "text": "The autonomic nerves",
+          "rationale": "Those are peripheral."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-05-Q002",
+      "concept_id": "EMT-01-06-05",
+      "style": "recall",
+      "stem": "Which effects are sympathetic?",
+      "options": [
+        {
+          "text": "Slow heart, small pupils, digestion working",
+          "rationale": "Those are parasympathetic."
+        },
+        {
+          "text": "Fast heart, dilated pupils, sweating, clamped vessels",
+          "rationale": "Correct — the fight-or-flight picture."
+        },
+        {
+          "text": "Reduced respiratory rate",
+          "rationale": "Not a sympathetic effect."
+        },
+        {
+          "text": "Increased urine production",
+          "rationale": "Not a sympathetic effect."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-05-Q003",
+      "concept_id": "EMT-01-06-05",
+      "style": "application",
+      "stem": "A patient is pale, sweating and tachycardic. Can this be dismissed as anxiety?",
+      "options": [
+        {
+          "text": "Yes, if they seem frightened",
+          "rationale": "Fear and shock switch on the same system."
+        },
+        {
+          "text": "No — shock produces exactly the same sympathetic picture",
+          "rationale": "Correct. One explanation can be safely wrong; the other cannot."
+        },
+        {
+          "text": "Yes, if they are young",
+          "rationale": "Age does not resolve the ambiguity."
+        },
+        {
+          "text": "Yes, if the blood pressure is normal",
+          "rationale": "Compensated shock holds a normal pressure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-05-Q004",
+      "concept_id": "EMT-01-06-05",
+      "style": "recall",
+      "stem": "Why does the brain fail first when oxygen or glucose drops?",
+      "options": [
+        {
+          "text": "It uses less than other organs",
+          "rationale": "It uses a great deal."
+        },
+        {
+          "text": "Nerve cells cannot store oxygen or glucose",
+          "rationale": "Correct — unlike muscle, there is no reserve."
+        },
+        {
+          "text": "It has the poorest blood supply",
+          "rationale": "Its supply is rich."
+        },
+        {
+          "text": "It is furthest from the heart",
+          "rationale": "Distance is not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-05-Q005",
+      "concept_id": "EMT-01-06-05",
+      "style": "recall",
+      "stem": "What does the brainstem control?",
+      "options": [
+        {
+          "text": "Coordination and balance",
+          "rationale": "That is the cerebellum."
+        },
+        {
+          "text": "Breathing, heart rate and consciousness",
+          "rationale": "Correct — which is why damage there is catastrophic."
+        },
+        {
+          "text": "Thought and voluntary movement",
+          "rationale": "That is the cerebrum."
+        },
+        {
+          "text": "Vision only",
+          "rationale": "Not the brainstem's role as described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-05-Q006",
+      "concept_id": "EMT-01-06-05",
+      "style": "scenario",
+      "stem": "How does a spinal cord injury produce neurogenic shock?",
+      "options": [
+        {
+          "text": "By causing bleeding into the cord",
+          "rationale": "Bleeding is not the mechanism."
+        },
+        {
+          "text": "By interrupting sympathetic signals that keep vessels constricted",
+          "rationale": "Correct — the container relaxes."
+        },
+        {
+          "text": "By stopping the heart directly",
+          "rationale": "The heart is affected indirectly."
+        },
+        {
+          "text": "By reducing blood volume",
+          "rationale": "No volume is lost."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-06-Q001",
+      "concept_id": "EMT-01-06-06",
+      "style": "recall",
+      "stem": "What are the three functions of skin?",
+      "options": [
+        {
+          "text": "Movement, protection and storage",
+          "rationale": "Movement is not a skin function."
+        },
+        {
+          "text": "Barrier, thermostat and sense organ",
+          "rationale": "Correct — barrier, thermostat and sense organ."
+        },
+        {
+          "text": "Filtration, absorption and secretion",
+          "rationale": "Not the three described."
+        },
+        {
+          "text": "Insulation only",
+          "rationale": "Skin does considerably more."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-06-Q002",
+      "concept_id": "EMT-01-06-06",
+      "style": "recall",
+      "stem": "Why do large burns cause dehydration?",
+      "options": [
+        {
+          "text": "Because patients stop drinking",
+          "rationale": "Reduced intake is not the mechanism."
+        },
+        {
+          "text": "Because the barrier that retains fluid is damaged",
+          "rationale": "Correct, along with the infection risk from the same loss."
+        },
+        {
+          "text": "Because the kidneys fail immediately",
+          "rationale": "Not the primary mechanism."
+        },
+        {
+          "text": "Because of blood loss",
+          "rationale": "Burns do not usually bleed heavily."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-06-Q003",
+      "concept_id": "EMT-01-06-06",
+      "style": "application",
+      "stem": "What does pale, cool, clammy skin indicate?",
+      "options": [
+        {
+          "text": "Vessels dilated to release heat",
+          "rationale": "That produces flushed warm skin."
+        },
+        {
+          "text": "Vessels clamped down, sending blood to the core",
+          "rationale": "Correct — visible compensation."
+        },
+        {
+          "text": "Normal perfusion",
+          "rationale": "It is a perfusion abnormality."
+        },
+        {
+          "text": "Fever",
+          "rationale": "Fever typically produces different findings."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-06-Q004",
+      "concept_id": "EMT-01-06-06",
+      "style": "recall",
+      "stem": "How useful is cyanosis as an early sign?",
+      "options": [
+        {
+          "text": "It is the earliest sign of hypoxia",
+          "rationale": "It is a late sign."
+        },
+        {
+          "text": "It is late — a great deal has gone wrong by the time it is visible",
+          "rationale": "Correct, seen first at lips and nail beds."
+        },
+        {
+          "text": "It appears before any change in skin temperature",
+          "rationale": "Temperature changes earlier."
+        },
+        {
+          "text": "It is unreliable in all patients",
+          "rationale": "It is reliable but late."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-06-Q005",
+      "concept_id": "EMT-01-06-06",
+      "style": "application",
+      "stem": "Why are skin findings so valuable?",
+      "options": [
+        {
+          "text": "They are easy to document",
+          "rationale": "Documentation ease is not the reason."
+        },
+        {
+          "text": "They change before blood pressure does, and cost nothing to assess",
+          "rationale": "Correct — they change before blood pressure does, and cost nothing to assess."
+        },
+        {
+          "text": "They correlate with temperature only",
+          "rationale": "They indicate perfusion."
+        },
+        {
+          "text": "They are the only reliable sign in trauma",
+          "rationale": "Not the only one, but an early one."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-06-Q006",
+      "concept_id": "EMT-01-06-06",
+      "style": "scenario",
+      "stem": "Which layer holds the nerve endings and blood vessels?",
+      "options": [
+        {
+          "text": "The epidermis",
+          "rationale": "The epidermis is the surface layer."
+        },
+        {
+          "text": "The dermis",
+          "rationale": "Correct — which is why partial thickness burns hurt so much."
+        },
+        {
+          "text": "The subcutaneous layer",
+          "rationale": "That is fat providing insulation and cushioning."
+        },
+        {
+          "text": "None — skin has no blood supply",
+          "rationale": "Skin is richly supplied."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-07-Q001",
+      "concept_id": "EMT-01-06-07",
+      "style": "recall",
+      "stem": "Why does liver disease cause bleeding that will not stop?",
+      "options": [
+        {
+          "text": "The liver filters the blood",
+          "rationale": "Filtering is not the relevant function."
+        },
+        {
+          "text": "The liver makes the clotting factors",
+          "rationale": "Correct — the organ that makes the repair kit is the damaged one."
+        },
+        {
+          "text": "The liver stores platelets",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "The liver controls blood pressure",
+          "rationale": "Not its role."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-07-Q002",
+      "concept_id": "EMT-01-06-07",
+      "style": "recall",
+      "stem": "What is the general rule about abdominal organ injury?",
+      "options": [
+        {
+          "text": "Solid organs leak and hollow organs bleed",
+          "rationale": "That is reversed."
+        },
+        {
+          "text": "Solid organs bleed and hollow organs leak",
+          "rationale": "Correct — and leaking causes peritonitis over hours."
+        },
+        {
+          "text": "Both bleed identically",
+          "rationale": "They fail differently."
+        },
+        {
+          "text": "Neither causes significant problems",
+          "rationale": "Both are significant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-07-Q003",
+      "concept_id": "EMT-01-06-07",
+      "style": "application",
+      "stem": "Why can retroperitoneal bleeding produce a normal abdominal examination?",
+      "options": [
+        {
+          "text": "Because it is always minor",
+          "rationale": "It can be substantial."
+        },
+        {
+          "text": "Because the space sits behind the abdominal cavity being examined",
+          "rationale": "Correct — the kidneys and the aorta are back there."
+        },
+        {
+          "text": "Because it clots quickly",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because it drains into the bowel",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-07-Q004",
+      "concept_id": "EMT-01-06-07",
+      "style": "recall",
+      "stem": "Which quadrant holds the spleen?",
+      "options": [
+        {
+          "text": "Right upper",
+          "rationale": "That holds the liver and gallbladder."
+        },
+        {
+          "text": "Left upper",
+          "rationale": "Correct — and left lower rib fractures should raise the question."
+        },
+        {
+          "text": "Right lower",
+          "rationale": "That holds the appendix."
+        },
+        {
+          "text": "Left lower",
+          "rationale": "That holds the descending and sigmoid colon."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-07-Q005",
+      "concept_id": "EMT-01-06-07",
+      "style": "application",
+      "stem": "How does pregnancy change abdominal vulnerability?",
+      "options": [
+        {
+          "text": "It does not change anything anatomically",
+          "rationale": "It changes it substantially."
+        },
+        {
+          "text": "The uterus rises out of the pelvis and loses the pelvic ring's protection",
+          "rationale": "Correct — becoming the largest abdominal structure."
+        },
+        {
+          "text": "The organs shift to the left",
+          "rationale": "Not the described change."
+        },
+        {
+          "text": "The abdomen becomes more rigid and protective",
+          "rationale": "Not the case."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-07-Q006",
+      "concept_id": "EMT-01-06-07",
+      "style": "scenario",
+      "stem": "What do the kidneys regulate besides filtering waste?",
+      "options": [
+        {
+          "text": "Blood oxygen content",
+          "rationale": "Not a renal function."
+        },
+        {
+          "text": "Fluid balance and electrolytes",
+          "rationale": "Correct — which is why failure causes overload and high potassium."
+        },
+        {
+          "text": "Body temperature",
+          "rationale": "Not a renal function."
+        },
+        {
+          "text": "Clotting",
+          "rationale": "That is the liver."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-08-Q001",
+      "concept_id": "EMT-01-06-08",
+      "style": "recall",
+      "stem": "How does endocrine signalling differ from nervous signalling?",
+      "options": [
+        {
+          "text": "It is faster and more targeted",
+          "rationale": "That describes the nervous system."
+        },
+        {
+          "text": "It is slower and broadcast widely through the blood",
+          "rationale": "Correct — it is slower and broadcast widely through the blood."
+        },
+        {
+          "text": "It uses electrical impulses along nerves",
+          "rationale": "That is neural transmission."
+        },
+        {
+          "text": "It acts only on one organ at a time",
+          "rationale": "Hormones reach everything."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-08-Q002",
+      "concept_id": "EMT-01-06-08",
+      "style": "recall",
+      "stem": "What does insulin do?",
+      "options": [
+        {
+          "text": "Raises blood glucose",
+          "rationale": "It lowers it by moving glucose into cells."
+        },
+        {
+          "text": "Lets glucose move from the blood into cells",
+          "rationale": "Correct — the mechanism behind every diabetic emergency."
+        },
+        {
+          "text": "Breaks down fat for energy",
+          "rationale": "Not its function."
+        },
+        {
+          "text": "Stimulates the adrenal glands",
+          "rationale": "Not its function."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-08-Q003",
+      "concept_id": "EMT-01-06-08",
+      "style": "application",
+      "stem": "Why can a patient on long-term steroids not handle physiological stress?",
+      "options": [
+        {
+          "text": "The steroids block the stress response directly",
+          "rationale": "The mechanism is suppression of their own production."
+        },
+        {
+          "text": "Their own adrenal glands have stopped producing, so there is no reserve",
+          "rationale": "Correct — this is adrenal crisis."
+        },
+        {
+          "text": "Steroids cause low blood pressure by themselves",
+          "rationale": "Not the mechanism described."
+        },
+        {
+          "text": "They become allergic to their own hormones",
+          "rationale": "Not a recognised mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-08-Q004",
+      "concept_id": "EMT-01-06-08",
+      "style": "recall",
+      "stem": "What does the lymphatic system do?",
+      "options": [
+        {
+          "text": "Pumps blood around the body",
+          "rationale": "That is the circulatory system."
+        },
+        {
+          "text": "Collects fluid that leaks into tissue and returns it, filtering through nodes",
+          "rationale": "Correct — which is why nodes swell near infection."
+        },
+        {
+          "text": "Produces insulin",
+          "rationale": "That is the pancreas."
+        },
+        {
+          "text": "Controls body temperature",
+          "rationale": "That is largely the skin."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-08-Q005",
+      "concept_id": "EMT-01-06-08",
+      "style": "application",
+      "stem": "What is an allergic reaction?",
+      "options": [
+        {
+          "text": "A weak immune system failing to respond",
+          "rationale": "It is an over-response, not a failure."
+        },
+        {
+          "text": "The immune system responding violently to something harmless",
+          "rationale": "Correct — anaphylaxis is it gone body-wide."
+        },
+        {
+          "text": "An infection of the immune system",
+          "rationale": "Not what allergy is."
+        },
+        {
+          "text": "A hormone imbalance",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-06-08-Q006",
+      "concept_id": "EMT-01-06-08",
+      "style": "scenario",
+      "stem": "Is inflammation a malfunction?",
+      "options": [
+        {
+          "text": "Yes, it is always harmful",
+          "rationale": "It is a defensive response."
+        },
+        {
+          "text": "No — it is a defence bringing blood and defences to a site",
+          "rationale": "Correct, though it can cause harm when excessive."
+        },
+        {
+          "text": "Only in allergy",
+          "rationale": "Inflammation occurs in many contexts."
+        },
+        {
+          "text": "Only in infection",
+          "rationale": "It occurs in injury too."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
