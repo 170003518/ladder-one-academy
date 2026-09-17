@@ -33,7 +33,8 @@ import { buildIndex, renderLibrary, KINDS } from './library.js';
    a bank dwarfs its module and is only needed when a check starts. */
 const MODULE_FILES = {
   emt:   ['content/emt/01-preparatory.json', 'content/emt/02-airway.json', 'content/emt/03-assessment.json', 'content/emt/04-cardiology.json',
-          'content/emt/05-medical.json', 'content/emt/06-trauma.json'],
+          'content/emt/05-medical.json', 'content/emt/06-trauma.json',
+          'content/emt/07-special-populations.json'],
   fire:  [],
   medic: []
 };
@@ -43,7 +44,8 @@ const QUESTION_FILES = {
   'EMT-03': 'content/emt/questions/03-assessment.json',
   'EMT-04': 'content/emt/questions/04-cardiology.json',
   'EMT-05': 'content/emt/questions/05-medical.json',
-  'EMT-06': 'content/emt/questions/06-trauma.json'
+  'EMT-06': 'content/emt/questions/06-trauma.json',
+  'EMT-07': 'content/emt/questions/07-special-populations.json'
 };
 const CARD_FILES = {
   'EMT-01': 'content/emt/cards/01-preparatory.json',
@@ -51,7 +53,8 @@ const CARD_FILES = {
   'EMT-03': 'content/emt/cards/03-assessment.json',
   'EMT-04': 'content/emt/cards/04-cardiology.json',
   'EMT-05': 'content/emt/cards/05-medical.json',
-  'EMT-06': 'content/emt/cards/06-trauma.json'
+  'EMT-06': 'content/emt/cards/06-trauma.json',
+  'EMT-07': 'content/emt/cards/07-special-populations.json'
 };
 
 const app = {

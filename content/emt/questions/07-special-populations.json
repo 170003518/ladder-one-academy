@@ -1,0 +1,1087 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-07",
+  "tier": "emt",
+  "questions": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-01-Q001",
+      "concept_id": "EMT-07-01-01",
+      "style": "recall",
+      "stem": "Why can a pregnant patient lose a lot of blood before her vital signs change?",
+      "options": [
+        {
+          "text": "Her heart is stronger",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Circulating blood volume increases substantially in pregnancy",
+          "rationale": "Correct — circulating blood volume increases substantially in pregnancy."
+        },
+        {
+          "text": "Pain perception is reduced",
+          "rationale": "Not relevant to vital signs."
+        },
+        {
+          "text": "Her blood clots faster",
+          "rationale": "Not the described mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-01-Q002",
+      "concept_id": "EMT-07-01-01",
+      "style": "application",
+      "stem": "A 32-week pregnant patient's pressure drifts down while supine with trivial injuries. Why?",
+      "options": [
+        {
+          "text": "Undetected internal bleeding only",
+          "rationale": "There is a positional explanation to exclude first."
+        },
+        {
+          "text": "The uterus is compressing the vein returning blood to the heart",
+          "rationale": "Correct — tilt her left."
+        },
+        {
+          "text": "Anxiety about the collision",
+          "rationale": "Not a physiological cause of this."
+        },
+        {
+          "text": "The collar is too tight",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-01-Q003",
+      "concept_id": "EMT-07-01-01",
+      "style": "recall",
+      "stem": "What happens to uterine blood flow when the mother loses volume?",
+      "options": [
+        {
+          "text": "It is protected above all else",
+          "rationale": "The uterus is not in the protected category."
+        },
+        {
+          "text": "It is diverted away before maternal signs appear",
+          "rationale": "Correct — the baby suffers first."
+        },
+        {
+          "text": "It increases to protect the baby",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It is unaffected",
+          "rationale": "It is affected early."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-01-Q004",
+      "concept_id": "EMT-07-01-01",
+      "style": "recall",
+      "stem": "Why is aspiration risk higher in pregnancy?",
+      "options": [
+        {
+          "text": "The airway is narrower",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "Slower stomach emptying and a relaxed sphincter",
+          "rationale": "Correct — slower stomach emptying and a relaxed sphincter."
+        },
+        {
+          "text": "Increased saliva production",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Reduced cough reflex",
+          "rationale": "Not the described change."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-01-Q005",
+      "concept_id": "EMT-07-01-01",
+      "style": "application",
+      "stem": "Why does a pregnant patient become breathless sooner?",
+      "options": [
+        {
+          "text": "Her blood carries less oxygen",
+          "rationale": "Oxygen carriage is not reduced."
+        },
+        {
+          "text": "The uterus pushes the diaphragm up and reduces lung capacity",
+          "rationale": "Correct — the uterus pushes the diaphragm up and reduces lung capacity."
+        },
+        {
+          "text": "She has fewer alveoli",
+          "rationale": "Alveolar number is unchanged."
+        },
+        {
+          "text": "Her airways narrow",
+          "rationale": "Not the described change."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-01-Q006",
+      "concept_id": "EMT-07-01-01",
+      "style": "scenario",
+      "stem": "What fetal treatment is available to an EMT?",
+      "options": [
+        {
+          "text": "Direct fetal monitoring",
+          "rationale": "Not available prehospitally."
+        },
+        {
+          "text": "Treating the mother — that is the only one",
+          "rationale": "Correct — treating the mother — that is the only one."
+        },
+        {
+          "text": "Positioning the fetus",
+          "rationale": "Not possible or appropriate."
+        },
+        {
+          "text": "Administering medication to the fetus",
+          "rationale": "Not within scope."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-02-Q001",
+      "concept_id": "EMT-07-01-02",
+      "style": "recall",
+      "stem": "Which findings suggest pre-eclampsia?",
+      "options": [
+        {
+          "text": "Fever and productive cough",
+          "rationale": "Not features of pre-eclampsia."
+        },
+        {
+          "text": "Headache, visual disturbance, upper abdominal pain, swelling and rising blood pressure",
+          "rationale": "Correct — headache, visual disturbance, upper abdominal pain, swelling and rising blood pressure."
+        },
+        {
+          "text": "Painless bleeding only",
+          "rationale": "That suggests placenta previa."
+        },
+        {
+          "text": "Low blood pressure with a fast pulse",
+          "rationale": "Pre-eclampsia involves raised pressure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-02-Q002",
+      "concept_id": "EMT-07-01-02",
+      "style": "application",
+      "stem": "How should the environment be managed during an eclamptic seizure?",
+      "options": [
+        {
+          "text": "Bright lights for better visibility",
+          "rationale": "Light can provoke further seizures."
+        },
+        {
+          "text": "Quiet and dim, with minimal handling",
+          "rationale": "Correct — a dark quiet ambulance is treatment here."
+        },
+        {
+          "text": "Loud verbal stimulation to rouse her",
+          "rationale": "Stimulation is what you are avoiding."
+        },
+        {
+          "text": "No particular change",
+          "rationale": "Environment directly affects further seizures."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-02-Q003",
+      "concept_id": "EMT-07-01-02",
+      "style": "recall",
+      "stem": "What distinguishes placenta previa from abruption?",
+      "options": [
+        {
+          "text": "Previa is painful; abruption is painless",
+          "rationale": "That is reversed."
+        },
+        {
+          "text": "Previa is painless with visible bleeding; abruption is painful and may be concealed",
+          "rationale": "Correct — previa is painless with visible bleeding; abruption is painful and may be concealed."
+        },
+        {
+          "text": "Both are painless",
+          "rationale": "Abruption typically hurts."
+        },
+        {
+          "text": "Both always show heavy visible bleeding",
+          "rationale": "Abruption bleeding may be concealed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-02-Q004",
+      "concept_id": "EMT-07-01-02",
+      "style": "application",
+      "stem": "May you perform a vaginal examination on a bleeding pregnant patient?",
+      "options": [
+        {
+          "text": "Yes, to estimate the bleeding source",
+          "rationale": "It can provoke catastrophic haemorrhage in previa."
+        },
+        {
+          "text": "No — never",
+          "rationale": "Correct, and no obtainable information would justify it."
+        },
+        {
+          "text": "Yes, if bleeding is heavy",
+          "rationale": "Heavy bleeding makes it more dangerous, not less."
+        },
+        {
+          "text": "Only with medical direction approval",
+          "rationale": "It remains outside scope regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-02-Q005",
+      "concept_id": "EMT-07-01-02",
+      "style": "application",
+      "stem": "A pregnant patient has shock out of proportion to visible bleeding. What does this suggest?",
+      "options": [
+        {
+          "text": "Placenta previa",
+          "rationale": "Previa bleeding is typically visible."
+        },
+        {
+          "text": "Placental abruption with concealed bleeding",
+          "rationale": "Correct — characteristic of abruption."
+        },
+        {
+          "text": "Normal pregnancy physiology",
+          "rationale": "Shock is never normal physiology."
+        },
+        {
+          "text": "Anxiety",
+          "rationale": "Not a physiological explanation for shock."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-02-Q006",
+      "concept_id": "EMT-07-01-02",
+      "style": "scenario",
+      "stem": "What is eclampsia?",
+      "options": [
+        {
+          "text": "Bleeding from a low-lying placenta",
+          "rationale": "That is placenta previa."
+        },
+        {
+          "text": "Pre-eclampsia that has progressed to seizures",
+          "rationale": "Correct — immediately life-threatening for both."
+        },
+        {
+          "text": "Separation of the placenta",
+          "rationale": "That is abruption."
+        },
+        {
+          "text": "Normal late pregnancy hypertension",
+          "rationale": "Pre-eclampsia is not normal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-03-Q001",
+      "concept_id": "EMT-07-01-03",
+      "style": "recall",
+      "stem": "What happens in the first stage of labour?",
+      "options": [
+        {
+          "text": "The baby is delivered",
+          "rationale": "That is the second stage."
+        },
+        {
+          "text": "Contractions dilate the cervix",
+          "rationale": "Correct — and it is by far the longest stage."
+        },
+        {
+          "text": "The placenta is delivered",
+          "rationale": "That is the third stage."
+        },
+        {
+          "text": "The waters break",
+          "rationale": "That may happen at various points."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-03-Q002",
+      "concept_id": "EMT-07-01-03",
+      "style": "application",
+      "stem": "You observe crowning. What does this mean?",
+      "options": [
+        {
+          "text": "Delivery is approaching — transport quickly",
+          "rationale": "Crowning is delivery happening, not approaching."
+        },
+        {
+          "text": "You are delivering where you are",
+          "rationale": "Correct — you are delivering where you are."
+        },
+        {
+          "text": "There is time for a short transport",
+          "rationale": "There is not."
+        },
+        {
+          "text": "The second stage has not started",
+          "rationale": "Crowning is second stage."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-03-Q003",
+      "concept_id": "EMT-07-01-03",
+      "style": "recall",
+      "stem": "Which is a sign of imminent delivery?",
+      "options": [
+        {
+          "text": "Contractions twenty minutes apart",
+          "rationale": "Too far apart to indicate imminence."
+        },
+        {
+          "text": "An urge to push or bear down",
+          "rationale": "Correct — physiological, not a preference."
+        },
+        {
+          "text": "Backache alone",
+          "rationale": "Non-specific."
+        },
+        {
+          "text": "Nausea",
+          "rationale": "Non-specific."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-03-Q004",
+      "concept_id": "EMT-07-01-03",
+      "style": "application",
+      "stem": "Why ask how many babies she has had before?",
+      "options": [
+        {
+          "text": "For the patient record only",
+          "rationale": "It changes your decision."
+        },
+        {
+          "text": "Second and later deliveries are usually considerably faster",
+          "rationale": "Correct — first-baby timelines do not apply."
+        },
+        {
+          "text": "To assess her pain tolerance",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To determine her age",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-03-Q005",
+      "concept_id": "EMT-07-01-03",
+      "style": "recall",
+      "stem": "What should you ask about contractions?",
+      "options": [
+        {
+          "text": "Only how painful they are",
+          "rationale": "Pain is subjective and varies enormously."
+        },
+        {
+          "text": "How long each lasts and how far apart they are",
+          "rationale": "Correct — objective and informative."
+        },
+        {
+          "text": "Whether she has had pain relief",
+          "rationale": "Useful context but not the key question."
+        },
+        {
+          "text": "What position she finds most comfortable",
+          "rationale": "Not the assessment question."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-03-Q006",
+      "concept_id": "EMT-07-01-03",
+      "style": "scenario",
+      "stem": "If you decide to deliver on scene, when should you prepare?",
+      "options": [
+        {
+          "text": "Once delivery begins",
+          "rationale": "Far too late."
+        },
+        {
+          "text": "Early — it is easier to stand down than to catch up",
+          "rationale": "Correct — early — it is easier to stand down than to catch up."
+        },
+        {
+          "text": "Only if crowning is visible",
+          "rationale": "Crowning means you are already behind."
+        },
+        {
+          "text": "After calling medical direction",
+          "rationale": "Preparation does not wait on a call."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-04-Q001",
+      "concept_id": "EMT-07-01-04",
+      "style": "recall",
+      "stem": "What is your role during a normal delivery?",
+      "options": [
+        {
+          "text": "To pull the baby out steadily",
+          "rationale": "You never pull."
+        },
+        {
+          "text": "To guide, support and control the speed",
+          "rationale": "Correct — the mother delivers the baby."
+        },
+        {
+          "text": "To rotate the baby into position",
+          "rationale": "You do not steer."
+        },
+        {
+          "text": "To hold the head back until hospital",
+          "rationale": "Never appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-04-Q002",
+      "concept_id": "EMT-07-01-04",
+      "style": "sequence",
+      "stem": "What must you check as soon as the head is delivered?",
+      "options": [
+        {
+          "text": "The baby's heart rate",
+          "rationale": "That comes after delivery."
+        },
+        {
+          "text": "For a cord around the neck",
+          "rationale": "Correct — common, usually loose, and slipped over the head."
+        },
+        {
+          "text": "The mother's blood pressure",
+          "rationale": "Not at that moment."
+        },
+        {
+          "text": "The time of birth",
+          "rationale": "Recorded after the body delivers."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-04-Q003",
+      "concept_id": "EMT-07-01-04",
+      "style": "sequence",
+      "stem": "How are the shoulders delivered?",
+      "options": [
+        {
+          "text": "Both at once with steady traction",
+          "rationale": "Traction is never applied."
+        },
+        {
+          "text": "Guide gently down for the upper shoulder, then gently up for the lower",
+          "rationale": "Correct — guide gently down for the upper shoulder, then gently up for the lower."
+        },
+        {
+          "text": "Guide up first, then down",
+          "rationale": "The sequence is down then up."
+        },
+        {
+          "text": "They deliver without any guidance",
+          "rationale": "Gentle guidance is provided."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-04-Q004",
+      "concept_id": "EMT-07-01-04",
+      "style": "application",
+      "stem": "What should you expect immediately after the shoulders deliver?",
+      "options": [
+        {
+          "text": "A slow controlled delivery of the body",
+          "rationale": "The body comes very fast."
+        },
+        {
+          "text": "The body coming fast and extremely slippery",
+          "rationale": "Correct — firm grip and a towel already in hand."
+        },
+        {
+          "text": "A pause of a minute or two",
+          "rationale": "There is no such pause."
+        },
+        {
+          "text": "The placenta delivering simultaneously",
+          "rationale": "The placenta follows later."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-04-Q005",
+      "concept_id": "EMT-07-01-04",
+      "style": "application",
+      "stem": "Should you pull the cord to deliver the placenta?",
+      "options": [
+        {
+          "text": "Yes, gently, to speed it up",
+          "rationale": "Pulling can tear the cord or invert the uterus."
+        },
+        {
+          "text": "No — it can invert the uterus, which is catastrophic",
+          "rationale": "Correct. It delivers itself."
+        },
+        {
+          "text": "Yes, if it has not come within a minute",
+          "rationale": "Never, at any interval."
+        },
+        {
+          "text": "Only if the mother is bleeding",
+          "rationale": "Bleeding makes it more dangerous, not less."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-04-Q006",
+      "concept_id": "EMT-07-01-04",
+      "style": "recall",
+      "stem": "What is done for a tight nuchal cord that cannot be freed?",
+      "options": [
+        {
+          "text": "Deliver through it as quickly as possible",
+          "rationale": "Delivery through a tight cord risks the baby."
+        },
+        {
+          "text": "Clamp in two places, cut between them, and deliver immediately",
+          "rationale": "Correct, where protocol permits."
+        },
+        {
+          "text": "Wait for it to loosen with the next contraction",
+          "rationale": "It will not loosen."
+        },
+        {
+          "text": "Push the head back in",
+          "rationale": "Never appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-05-Q001",
+      "concept_id": "EMT-07-01-05",
+      "style": "recall",
+      "stem": "What is the problem in a prolapsed cord?",
+      "options": [
+        {
+          "text": "The cord is torn",
+          "rationale": "It is compressed, not torn."
+        },
+        {
+          "text": "The presenting part compresses the cord, cutting off the baby's oxygen",
+          "rationale": "Correct — the presenting part compresses the cord, cutting off the baby's oxygen."
+        },
+        {
+          "text": "The cord is too short",
+          "rationale": "Length is not the issue."
+        },
+        {
+          "text": "The cord is infected",
+          "rationale": "Not the acute problem."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-05-Q002",
+      "concept_id": "EMT-07-01-05",
+      "style": "sequence",
+      "stem": "What do you do with your hand in a prolapsed cord?",
+      "options": [
+        {
+          "text": "Push the cord back inside",
+          "rationale": "Never — reduction is contraindicated."
+        },
+        {
+          "text": "Lift the presenting part off the cord and hold it there",
+          "rationale": "Correct — your hand is the treatment."
+        },
+        {
+          "text": "Hold the cord still",
+          "rationale": "The cord is not what you hold."
+        },
+        {
+          "text": "Nothing — hands are not used",
+          "rationale": "The hand is the intervention."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-05-Q003",
+      "concept_id": "EMT-07-01-05",
+      "style": "application",
+      "stem": "When may you let go in a prolapsed cord?",
+      "options": [
+        {
+          "text": "Once the mother is loaded",
+          "rationale": "Not at any point during transport."
+        },
+        {
+          "text": "When hospital staff take over",
+          "rationale": "Correct — through the carry, the drive and the handover."
+        },
+        {
+          "text": "Once the cord pulsation returns",
+          "rationale": "Not the criterion."
+        },
+        {
+          "text": "After five minutes of elevation",
+          "rationale": "There is no time limit."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-05-Q004",
+      "concept_id": "EMT-07-01-05",
+      "style": "recall",
+      "stem": "What do you do if a breech body delivers but the head does not?",
+      "options": [
+        {
+          "text": "Pull steadily on the body",
+          "rationale": "Traction can trap the head and cause injury."
+        },
+        {
+          "text": "Form a V with two fingers beside the baby's face to create an airway, and transport",
+          "rationale": "Correct — form a V with two fingers beside the baby's face to create an airway, and transport."
+        },
+        {
+          "text": "Push the body back in",
+          "rationale": "Never appropriate."
+        },
+        {
+          "text": "Wait for the next contraction and reassess",
+          "rationale": "The baby cannot breathe while you wait."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-05-Q005",
+      "concept_id": "EMT-07-01-05",
+      "style": "application",
+      "stem": "How is a breech baby handled during delivery?",
+      "options": [
+        {
+          "text": "Pull gently to assist",
+          "rationale": "Never pull on a breech baby."
+        },
+        {
+          "text": "Support what delivers and let it come",
+          "rationale": "Correct — support what delivers and let it come."
+        },
+        {
+          "text": "Rotate the baby to a head-first position",
+          "rationale": "Not possible or appropriate."
+        },
+        {
+          "text": "Hold the delivery back until hospital",
+          "rationale": "Not appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-05-Q006",
+      "concept_id": "EMT-07-01-05",
+      "style": "scenario",
+      "stem": "What is common to all abnormal deliveries?",
+      "options": [
+        {
+          "text": "They can be managed fully on scene",
+          "rationale": "They need an operating theatre."
+        },
+        {
+          "text": "Rapid transport with a pre-alert",
+          "rationale": "Correct — rapid transport with a pre-alert."
+        },
+        {
+          "text": "Waiting for the placenta first",
+          "rationale": "Never in these situations."
+        },
+        {
+          "text": "Delaying until a paramedic arrives",
+          "rationale": "Transport does not wait."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-06-Q001",
+      "concept_id": "EMT-07-01-06",
+      "style": "recall",
+      "stem": "What is the commonest cause of postpartum haemorrhage?",
+      "options": [
+        {
+          "text": "A tear in the birth canal",
+          "rationale": "Tears occur but are not the commonest cause."
+        },
+        {
+          "text": "A uterus that has not contracted down",
+          "rationale": "Correct — the vessels at the placental site stay open."
+        },
+        {
+          "text": "A clotting disorder",
+          "rationale": "Uncommon relative to atony."
+        },
+        {
+          "text": "Retained placenta alone",
+          "rationale": "A cause, but not the commonest."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-06-Q002",
+      "concept_id": "EMT-07-01-06",
+      "style": "recall",
+      "stem": "How does a uterus that has not contracted feel?",
+      "options": [
+        {
+          "text": "Firm, like a grapefruit",
+          "rationale": "That is a contracted uterus."
+        },
+        {
+          "text": "Soft and boggy",
+          "rationale": "Correct — that is the finding that prompts massage."
+        },
+        {
+          "text": "Impossible to palpate",
+          "rationale": "The fundus is palpable after delivery."
+        },
+        {
+          "text": "Sharp-edged and rigid",
+          "rationale": "Not the described finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-06-Q003",
+      "concept_id": "EMT-07-01-06",
+      "style": "application",
+      "stem": "What is the first-line treatment for postpartum haemorrhage from uterine atony?",
+      "options": [
+        {
+          "text": "Packing the vagina",
+          "rationale": "Never — vaginal packing is contraindicated."
+        },
+        {
+          "text": "Firm circular uterine massage of the fundus",
+          "rationale": "Correct — effective, and needs no equipment."
+        },
+        {
+          "text": "Elevating the legs only",
+          "rationale": "Positioning alone does not stop the bleeding."
+        },
+        {
+          "text": "Waiting for the placenta to deliver",
+          "rationale": "Waiting while she bleeds is not treatment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-06-Q004",
+      "concept_id": "EMT-07-01-06",
+      "style": "application",
+      "stem": "Why is blood loss after delivery routinely underestimated?",
+      "options": [
+        {
+          "text": "Because bleeding is usually minor",
+          "rationale": "It can be very large."
+        },
+        {
+          "text": "It spreads across bedding and mixes with fluid, and pregnancy hypervolaemia delays signs",
+          "rationale": "Correct — it spreads across bedding and mixes with fluid, and pregnancy hypervolaemia delays signs."
+        },
+        {
+          "text": "Because the mother cannot report it",
+          "rationale": "Her reporting is not the issue."
+        },
+        {
+          "text": "Because it stops quickly",
+          "rationale": "It may not stop at all."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-06-Q005",
+      "concept_id": "EMT-07-01-06",
+      "style": "recall",
+      "stem": "How does breastfeeding help?",
+      "options": [
+        {
+          "text": "It distracts the mother from pain",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Suckling stimulates the uterus to contract",
+          "rationale": "Correct, and it is free."
+        },
+        {
+          "text": "It replaces lost fluid",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It has no effect on bleeding",
+          "rationale": "It has a real effect."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-06-Q006",
+      "concept_id": "EMT-07-01-06",
+      "style": "scenario",
+      "stem": "The placenta has not delivered and the mother is bleeding. What do you do?",
+      "options": [
+        {
+          "text": "Wait on scene for it to deliver",
+          "rationale": "Waiting while she bleeds is not an option."
+        },
+        {
+          "text": "Transport with her, massaging the uterus, and do not wait",
+          "rationale": "Correct — transport with her, massaging the uterus, and do not wait."
+        },
+        {
+          "text": "Pull the cord to deliver it",
+          "rationale": "Never — it can invert the uterus."
+        },
+        {
+          "text": "Pack the vagina to slow the bleeding",
+          "rationale": "Packing is contraindicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    }
+  ]
+}

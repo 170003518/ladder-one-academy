@@ -1,0 +1,1145 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-07",
+  "tier": "emt",
+  "number": 7,
+  "title": "Special Populations",
+  "short_title": "Special Pops",
+  "domain_weighting": {
+    "MED": 100
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [
+    {
+      "id": "EMT-07-01",
+      "title": "Obstetrics",
+      "concepts": [
+        "EMT-07-01-01",
+        "EMT-07-01-02",
+        "EMT-07-01-03",
+        "EMT-07-01-04",
+        "EMT-07-01-05",
+        "EMT-07-01-06"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-01",
+      "title": "Anatomy and physiology of pregnancy",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-08-04",
+        "EMT-07-01-02",
+        "EMT-07-01-06"
+      ],
+      "key_points": [
+        "Blood volume increases substantially in pregnancy, so a large loss can occur before vital signs change",
+        "The heart rate is normally somewhat higher and the blood pressure somewhat lower than before pregnancy",
+        "Blood is diverted away from the uterus before the mother shows any sign of shock, so the baby suffers first",
+        "From roughly mid-pregnancy, lying flat lets the uterus compress the vein returning blood to the heart and drops the pressure",
+        "The fix is a left tilt or manual displacement of the uterus to the left, and it takes seconds",
+        "The diaphragm is pushed up by the growing uterus, reducing lung capacity and making the patient breathless sooner",
+        "The stomach empties more slowly and the sphincter relaxes, so vomiting and aspiration risk are higher",
+        "The uterus grows out of the pelvis and becomes the largest, least protected structure in the abdomen",
+        "Treating the mother is the only fetal treatment available to you"
+      ],
+      "misconceptions": [
+        "Reading normal maternal vital signs as reassurance about the pregnancy",
+        "Leaving a pregnant patient flat after mid-pregnancy",
+        "Forgetting the raised aspiration risk",
+        "Treating the fetus rather than the mother"
+      ],
+      "exam_favorites": [
+        "Why normal maternal vitals mislead",
+        "The left tilt",
+        "Why aspiration risk rises"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Pregnancy changes almost every system, and several of those changes work against you in an emergency.\n\nBlood volume increases substantially. That is protective for delivery, and it means a pregnant patient can lose a large amount of blood before her pulse and pressure change in any way you would notice.\n\nHer baseline is different too: heart rate normally a little higher, blood pressure normally a little lower. So the numbers you are comparing against are not the ones you would use for a non-pregnant patient of the same age.\n\nThen the consequence that matters most. When volume falls, the body protects the mother's core circulation first, and the uterus is not in that protected category. Blood is diverted away from the placenta before the mother shows any sign of shock at all. By the time maternal vital signs change, the baby has been under-perfused for some time.\n\nWhich is why a normal maternal blood pressure is not reassurance about the pregnancy. It is reassurance about the mother, briefly, and nothing more.\n\nPositioning. From roughly the middle of pregnancy onward, the uterus is heavy enough that lying flat on the back compresses the large vein carrying blood from the lower body back to the heart. Less returns, so less is pumped out, and the blood pressure falls — entirely from position, with no blood lost at all.\n\nThe fix takes seconds: tilt her to the left, or have somebody push the uterus manually to the left. If she needs spinal precautions, tilt the whole board or scoop rather than turning her on it.\n\nBreathing changes too. The growing uterus pushes the diaphragm upward, so lung capacity falls and she becomes breathless sooner and tires faster. She is also breathing somewhat more deeply at baseline.\n\nThe gut slows: the stomach empties more slowly and the sphincter at its top relaxes. Both mean a higher risk of vomiting and of aspirating, which matters for every unconscious or sedated pregnant patient and for anybody you are ventilating.\n\nAnd anatomically the uterus rises out of the pelvis as pregnancy progresses. It stops being a protected pelvic organ and becomes the largest and least protected structure in the abdomen — which changes what abdominal trauma means entirely.\n\nRunning through all of it: treating the mother is the only fetal treatment available to you.",
+          "standard": "Pregnancy produces substantial physiological adaptation. Circulating volume increases considerably, permitting significant haemorrhage prior to alteration in maternal vital signs. Baseline heart rate is modestly elevated and blood pressure modestly reduced relative to the non-pregnant state, altering reference values. Compensatory mechanisms preferentially preserve maternal central circulation, diverting uteroplacental flow prior to maternal decompensation; normal maternal parameters therefore provide no assurance regarding fetal perfusion. From approximately mid-gestation, supine positioning permits gravid uterine compression of the inferior vena cava, reducing venous return and cardiac output with resultant hypotension independent of volume loss; management comprises left lateral tilt or manual leftward uterine displacement, with whole-device tilting where spinal precautions are required. Diaphragmatic elevation reduces functional residual capacity, producing earlier dyspnoea and reduced respiratory reserve, with increased baseline tidal volume. Delayed gastric emptying with reduced lower oesophageal sphincter tone increases regurgitation and aspiration risk, relevant to unconscious patients and during assisted ventilation. Progressive uterine ascent from the pelvis renders it the largest and least protected intra-abdominal structure. Maternal resuscitation constitutes the only available fetal intervention."
+        },
+        "eli_new": {
+          "analogy": "Everything about her numbers has shifted, and the baby is the first thing her body stops protecting. The mother looks fine for longer than the pregnancy does.",
+          "body": "Tilt her left. It costs seconds, it needs no equipment, and a pregnant patient left flat can develop a low blood pressure that has nothing to do with her injuries and everything to do with how she was left lying."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the physiological changes of pregnancy that affect your assessment.",
+          "must_hit": [
+            {
+              "point": "Blood volume rises, so large losses occur before vital signs change",
+              "accept": [
+                "volume",
+                "increase",
+                "loss",
+                "vital",
+                "before",
+                "mask"
+              ]
+            },
+            {
+              "point": "Baseline heart rate is higher and blood pressure lower",
+              "accept": [
+                "heart rate",
+                "higher",
+                "pressure",
+                "lower",
+                "baseline"
+              ]
+            },
+            {
+              "point": "Blood is diverted from the uterus before maternal signs appear",
+              "accept": [
+                "divert",
+                "uterus",
+                "placenta",
+                "before",
+                "maternal"
+              ]
+            },
+            {
+              "point": "Lying flat compresses the vein returning blood to the heart",
+              "accept": [
+                "flat",
+                "supine",
+                "compress",
+                "vein",
+                "vena cava",
+                "return"
+              ]
+            },
+            {
+              "point": "Tilt left or displace the uterus to the left",
+              "accept": [
+                "tilt",
+                "left",
+                "displace",
+                "manual",
+                "wedge"
+              ]
+            },
+            {
+              "point": "The diaphragm is pushed up, reducing lung capacity",
+              "accept": [
+                "diaphragm",
+                "up",
+                "lung",
+                "capacity",
+                "breathless"
+              ]
+            },
+            {
+              "point": "Slower stomach emptying means higher aspiration risk",
+              "accept": [
+                "stomach",
+                "empty",
+                "aspirat",
+                "vomit",
+                "sphincter"
+              ]
+            },
+            {
+              "point": "The uterus rises out of the pelvis and loses protection",
+              "accept": [
+                "uterus",
+                "rises",
+                "pelvis",
+                "protect",
+                "largest"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Nothing to do with the crash",
+          "dispatch": "Medic 4 — 32 weeks pregnant, minor collision, secured supine for transport.",
+          "body": "Her injuries were trivial and her blood pressure drifted downward over the first ten minutes for no reason anybody could find.\n\nThere was no reason, in her injuries.\n\nThey wedged the board and it came back up before the next set of observations."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the physiological changes of pregnancy and the gestation at which positioning becomes important against the current text; sources give slightly different gestational thresholds."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-02",
+      "title": "Complications of pregnancy",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-01-01",
+        "EMT-07-01-06",
+        "EMT-05-02-03"
+      ],
+      "key_points": [
+        "Pre-eclampsia is a condition of pregnancy with high blood pressure and organ involvement, typically in the second half",
+        "Its warning signs are headache, visual disturbance, upper abdominal pain, swelling and a rising blood pressure",
+        "Eclampsia is pre-eclampsia that has progressed to seizures, and it is a life-threatening emergency for both",
+        "For an eclamptic seizure: protect the airway, give oxygen, keep her on her left side, keep the environment quiet and dim, and transport urgently",
+        "Stimulation can provoke further seizures, so minimise light, noise and handling",
+        "Placenta previa is a placenta lying over the cervix: painless bright red bleeding, typically later in pregnancy",
+        "Placental abruption is the placenta separating from the uterine wall: usually painful, with a tense abdomen, and the bleeding may be concealed",
+        "Never perform a vaginal examination in a pregnant patient with bleeding — it can provoke catastrophic haemorrhage",
+        "Any bleeding in pregnancy is significant, and concealed bleeding means visible loss tells you nothing"
+      ],
+      "misconceptions": [
+        "Performing a vaginal examination on a bleeding pregnant patient",
+        "Estimating blood loss from what is visible in abruption",
+        "Stimulating an eclamptic patient with bright light and noise",
+        "Dismissing headache and visual disturbance in late pregnancy"
+      ],
+      "exam_favorites": [
+        "Pre-eclampsia warning signs",
+        "Previa versus abruption",
+        "Never examine vaginally"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Several complications matter enough that you need to recognise them, and two of them behave in opposite ways.\n\nPre-eclampsia is a condition specific to pregnancy, usually in the second half, involving raised blood pressure together with organ involvement. What you see are the warning signs: headache, often severe and not relieved by the usual things. Visual disturbance — blurring, flashing lights, spots. Pain in the upper abdomen, classically under the right ribs. Swelling, particularly of the face and hands. And a blood pressure that is rising, which in a pregnant woman whose baseline is normally low is a meaningful change.\n\nThose symptoms in a woman in the second half of pregnancy are not a headache. They are a warning, and they are worth taking to hospital.\n\nEclampsia is what pre-eclampsia becomes when it progresses to seizures. It is immediately life-threatening for the mother and the baby.\n\nManaging an eclamptic seizure: protect the airway, give oxygen, position her on her left side, and get moving. And do one thing that feels counterintuitive — make the environment quiet and dim. Light, noise and handling can provoke further seizures, so turn things down, speak quietly, and handle her as little as you can. A calm dark ambulance is treatment here.\n\nThen the two bleeding problems, which are easiest to hold as a contrasting pair.\n\nPlacenta previa is a placenta sitting over the cervix. As the cervix begins to change late in pregnancy, it bleeds — and the bleeding is typically bright red and, importantly, painless. She is not in pain and she is bleeding.\n\nPlacental abruption is the placenta separating from the wall of the uterus. This one usually hurts: abdominal pain, often constant, with a tense or rigid uterus. And the crucial difference — the bleeding may be concealed behind the placenta, so there may be little or nothing visible while she bleeds substantially.\n\nSo: previa is painless bleeding you can see; abruption is painful bleeding you may not.\n\nAnd one absolute rule that covers both: never perform a vaginal examination on a pregnant patient who is bleeding. In placenta previa it can provoke catastrophic haemorrhage. There is no information you could obtain that would justify it, it is outside your scope, and it is one of the few genuinely irreversible mistakes available in this situation.\n\nTreat any bleeding in pregnancy as significant, and remember that in abruption what you can see tells you nothing about what has been lost.",
+          "standard": "Pre-eclampsia is a pregnancy-specific disorder characterised by hypertension with organ involvement, typically manifesting in the second half of gestation. Warning features comprise headache, visual disturbance, right upper quadrant or epigastric pain, oedema particularly of the face and hands, and rising blood pressure, significant against the normally reduced baseline of pregnancy. Eclampsia denotes progression to seizure activity and constitutes an immediate threat to mother and fetus. Management comprises airway protection, oxygen administration, left lateral positioning, minimisation of environmental stimulation as light, noise and handling may precipitate further seizures, and expedited transport. Placenta praevia denotes placental implantation over the cervical os, producing characteristically painless bright red haemorrhage, typically in later pregnancy. Placental abruption denotes premature separation of the placenta from the uterine wall, typically producing abdominal pain with uterine tenderness or rigidity; haemorrhage may be concealed retroplacentally, so visible loss does not reflect actual loss. Vaginal examination is absolutely contraindicated in the bleeding pregnant patient, as it may precipitate catastrophic haemorrhage in praevia; it lies outside scope and yields no information justifying the risk. All bleeding in pregnancy is regarded as significant."
+        },
+        "eli_new": {
+          "analogy": "Previa is painless bleeding you can see. Abruption is painful bleeding you may not. That pair is most of what you need.",
+          "body": "A dark, quiet ambulance is treatment in eclampsia. It feels like doing nothing, and light, noise and handling genuinely provoke further seizures — so turning the lights down is an intervention."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the pre-eclampsia warning signs and contrast previa with abruption.",
+          "must_hit": [
+            {
+              "point": "Pre-eclampsia: raised blood pressure with organ involvement in the second half of pregnancy",
+              "accept": [
+                "pre-eclampsia",
+                "preeclampsia",
+                "pressure",
+                "second half",
+                "organ"
+              ]
+            },
+            {
+              "point": "Warning signs: headache, visual disturbance, upper abdominal pain, swelling",
+              "accept": [
+                "headache",
+                "visual",
+                "vision",
+                "abdominal",
+                "swelling",
+                "oedema"
+              ]
+            },
+            {
+              "point": "Eclampsia is progression to seizures and is life-threatening",
+              "accept": [
+                "eclampsia",
+                "seizure",
+                "life",
+                "threat",
+                "progress"
+              ]
+            },
+            {
+              "point": "Manage with airway, oxygen, left side, and a quiet dim environment",
+              "accept": [
+                "airway",
+                "oxygen",
+                "left",
+                "quiet",
+                "dim",
+                "stimul"
+              ]
+            },
+            {
+              "point": "Previa is painless bright red bleeding",
+              "accept": [
+                "previa",
+                "painless",
+                "bright",
+                "cervix",
+                "visible"
+              ]
+            },
+            {
+              "point": "Abruption is painful with a tense abdomen and may be concealed",
+              "accept": [
+                "abruption",
+                "pain",
+                "tense",
+                "rigid",
+                "conceal",
+                "hidden"
+              ]
+            },
+            {
+              "point": "Never perform a vaginal examination in a bleeding pregnant patient",
+              "accept": [
+                "never",
+                "vaginal",
+                "examination",
+                "previa",
+                "catastrophic"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Turn the lights off",
+          "dispatch": "Medic 8 — 34 weeks pregnant, seizure witnessed, second seizure en route.",
+          "body": "The first seizure had stopped before they arrived. The ambulance was bright, the monitor was beeping, and somebody was talking loudly on the radio.\n\nThe second one started about ninety seconds after they loaded her.\n\nThey dimmed everything, silenced what they could, handled her minimally, and drove smoothly. There was not a third."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Placenta previa",
+          "right_label": "Placental abruption",
+          "rows": [
+            {
+              "feature": "What it is",
+              "left": "Placenta lying OVER the cervix",
+              "right": "Placenta SEPARATING from the uterine wall"
+            },
+            {
+              "feature": "Pain",
+              "left": "PAINLESS",
+              "right": "PAINFUL — often constant"
+            },
+            {
+              "feature": "Abdomen",
+              "left": "Soft",
+              "right": "TENSE or rigid uterus"
+            },
+            {
+              "feature": "Bleeding",
+              "left": "Bright red and VISIBLE",
+              "right": "May be CONCEALED behind the placenta"
+            },
+            {
+              "feature": "What visible loss tells you",
+              "left": "Roughly what is being lost",
+              "right": "NOTHING — she may be bleeding heavily with little showing"
+            },
+            {
+              "feature": "Typical timing",
+              "left": "Later pregnancy, as the cervix changes",
+              "right": "Any time — and can follow relatively minor trauma"
+            },
+            {
+              "feature": "Shock out of proportion to visible loss",
+              "left": "Unusual",
+              "right": "CHARACTERISTIC"
+            },
+            {
+              "feature": "Vaginal examination",
+              "left": "ABSOLUTELY NOT — can cause catastrophic haemorrhage",
+              "right": "ABSOLUTELY NOT"
+            },
+            {
+              "feature": "Your management",
+              "left": "Left tilt, oxygen, shock care, rapid transport, pre-alert",
+              "right": "Left tilt, oxygen, shock care, rapid transport, pre-alert"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the pre-eclampsia warning signs, the distinction between praevia and abruption, and eclampsia management against the current text and local protocol. No medication names or doses are stated; eclampsia treatment is outside EMT scope."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-03",
+      "title": "Stages of labour and signs of imminent delivery",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-01-04",
+        "EMT-07-01-05",
+        "EMT-07-02-01"
+      ],
+      "key_points": [
+        "Labour has three stages: the first is contractions dilating the cervix, the second is delivery of the baby, the third is delivery of the placenta",
+        "The first stage is the longest by far, and usually the one you are transporting during",
+        "The decision you actually make is whether to transport or to deliver where you are",
+        "Signs of imminent delivery: crowning, contractions close together and strong, an urge to push or to bear down, and a feeling of needing to open the bowels",
+        "Crowning — the baby's head visible at the opening — means you are delivering here, not transporting",
+        "Ask how many previous deliveries she has had: second and later babies usually come faster",
+        "Ask what the contractions are doing — how long they last and how far apart — rather than only how painful they are",
+        "An urge to push is a physiological sign, not a preference, and it means the second stage",
+        "If you decide to deliver, prepare early: it is much easier to stand down than to catch up"
+      ],
+      "misconceptions": [
+        "Attempting to transport a crowning patient",
+        "Assuming a first-time mother's timeline applies to a fourth baby",
+        "Asking only about pain rather than contraction timing",
+        "Preparing too late"
+      ],
+      "exam_favorites": [
+        "The three stages",
+        "Signs of imminent delivery",
+        "Crowning means deliver here"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Labour comes in three stages.\n\nThe first stage is contractions doing the work of opening the cervix. It is by far the longest, often many hours, and it is the stage you are usually transporting during.\n\nThe second stage is the delivery of the baby itself — from full dilation to the baby being born.\n\nThe third stage is the delivery of the placenta, usually within a reasonably short period after the baby.\n\nBut the stages are background. The decision you actually make on scene is one question: do I transport this patient, or do I deliver here?\n\nThe signs that say deliver here:\n\nCrowning. The baby's head is visible at the vaginal opening. This is not a warning that delivery is approaching — it is delivery happening. If you see crowning, you are delivering where you are.\n\nContractions close together and strong. Two to three minutes apart, lasting a substantial part of each cycle.\n\nAn urge to push or bear down. This is physiological rather than a preference — it happens in the second stage whether she wants it to or not. A woman saying she needs to push is telling you where she is in labour.\n\nA feeling of needing to open her bowels. Same mechanism: pressure from the baby's head. Women frequently report this, and it is a reliable sign that is easily dismissed as embarrassment.\n\nTwo questions to ask.\n\nHow many babies has she had before? Second and subsequent deliveries are usually considerably faster than a first. A woman on her fourth who says it is coming is almost certainly right, and the timeline you have from a first-time mother does not apply.\n\nWhat are the contractions doing? Not how painful — how long each one lasts, and how far apart they are. Pain is subjective and varies enormously. Timing is objective and tells you where she is.\n\nAnd a practical point that matters more than it sounds: if you decide to deliver, prepare early. Get the kit open, get things warm, get somebody positioned. It takes two minutes and it is far easier to stand down a prepared crew than to catch up with a delivery you were not ready for.",
+          "standard": "Labour comprises three stages: the first, cervical dilatation driven by uterine contraction, constituting the longest interval and typically encompassing transport; the second, delivery of the fetus from full dilatation; and the third, delivery of the placenta, usually within a short interval following birth. The operational determination is transport versus on-scene delivery. Indicators of imminent delivery comprise crowning, which represents delivery in progress rather than an approaching event; contractions of short interval and prolonged duration; an urge to bear down, a physiological second-stage phenomenon independent of patient preference; and a sensation of imminent defecation resulting from fetal head pressure, a reliable indicator frequently under-reported. History should establish parity, as second and subsequent deliveries typically progress more rapidly, and contraction frequency and duration in preference to subjective pain assessment. Where delivery on scene is anticipated, preparation should commence early, as standing down a prepared crew is preferable to commencing preparation during delivery."
+        },
+        "eli_new": {
+          "analogy": "Crowning is not a warning that delivery is coming. It is delivery, happening, while you are deciding.",
+          "body": "Ask how many babies she has had. A woman on her fourth telling you it is coming now is working from considerably better data than you are, and first-baby timelines do not apply to her at all."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the three stages of labour and the signs that mean you deliver where you are.",
+          "must_hit": [
+            {
+              "point": "First stage is contractions dilating the cervix and is longest",
+              "accept": [
+                "first",
+                "contraction",
+                "dilat",
+                "cervix",
+                "longest"
+              ]
+            },
+            {
+              "point": "Second stage is delivery of the baby; third is the placenta",
+              "accept": [
+                "second",
+                "delivery",
+                "baby",
+                "third",
+                "placenta"
+              ]
+            },
+            {
+              "point": "The real decision is transport or deliver here",
+              "accept": [
+                "transport",
+                "deliver",
+                "decision",
+                "here",
+                "scene"
+              ]
+            },
+            {
+              "point": "Crowning means delivering here",
+              "accept": [
+                "crowning",
+                "head",
+                "visible",
+                "deliver",
+                "here"
+              ]
+            },
+            {
+              "point": "Contractions close together and strong",
+              "accept": [
+                "close",
+                "strong",
+                "two",
+                "three",
+                "minutes",
+                "apart"
+              ]
+            },
+            {
+              "point": "An urge to push is physiological, not a preference",
+              "accept": [
+                "urge",
+                "push",
+                "bear down",
+                "physiolog",
+                "preference"
+              ]
+            },
+            {
+              "point": "Ask about previous deliveries — later babies come faster",
+              "accept": [
+                "previous",
+                "how many",
+                "parity",
+                "faster",
+                "second"
+              ]
+            },
+            {
+              "point": "Prepare early — easier to stand down than catch up",
+              "accept": [
+                "prepare",
+                "early",
+                "stand down",
+                "catch up",
+                "ready"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Her fourth",
+          "dispatch": "Medic 3 — in labour, contractions two minutes apart, hospital 25 minutes away.",
+          "body": "She said calmly, between contractions, that this one was coming now and that she had done this three times before.\n\nThe crew started for the hospital because 25 minutes did not sound like very long.\n\nThey delivered in a lay-by eleven minutes later. She had been working from considerably better information than they were."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the stages of labour and the signs of imminent delivery against the current text and local protocol on transport versus on-scene delivery decisions."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-04",
+      "title": "Normal delivery",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-01-03"
+      ],
+      "related": [
+        "EMT-07-01-03",
+        "EMT-07-01-05",
+        "EMT-07-02-01"
+      ],
+      "key_points": [
+        "Your role is to guide and support the delivery, not to pull — the mother delivers the baby",
+        "Support the head as it emerges and allow it to deliver slowly, controlling the speed rather than the direction",
+        "Check for a cord around the neck as soon as the head is out: if it is loose, slip it over the head",
+        "If the cord is tight around the neck and cannot be freed, it must be clamped in two places and cut between them",
+        "After the head delivers it usually turns to one side on its own — let it",
+        "Guide the upper shoulder down and then the lower shoulder up; the rest of the body follows quickly and slipperily",
+        "Newborns are extremely slippery — have a firm grip and a towel ready",
+        "Dry the baby vigorously, keep it warm, and note the time of birth",
+        "Do not pull on the cord to deliver the placenta; it delivers itself, and you transport whether or not it has"
+      ],
+      "misconceptions": [
+        "Pulling on the head or the shoulders",
+        "Pulling on the cord to deliver the placenta",
+        "Letting the head deliver explosively fast",
+        "Failing to have a towel and a firm grip ready"
+      ],
+      "exam_favorites": [
+        "Guide, do not pull",
+        "Checking for a cord around the neck",
+        "Shoulder delivery sequence"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The first thing to understand is that the mother delivers the baby. You guide, you support, you control the speed, and you catch. You do not pull.\n\nAs the head emerges, support it with a flat hand and let it come slowly. The reason for slowing it is that a controlled delivery of the head reduces tearing and gives the baby a gentler transition; the reason for not pushing sideways is that you are not steering, only restraining.\n\nAs soon as the head is out, run a finger around the baby's neck to feel for the cord. A cord around the neck is common and usually loose. If it is loose, slip it gently over the head and carry on.\n\nIf it is tight around the neck and you cannot free it, it has to be clamped in two places and cut between them, and then the delivery continues immediately. That is a genuine emergency step within your scope where your protocol allows it — know beforehand whether it does, and where your clamps are.\n\nAfter the head delivers, it usually rotates to one side by itself. That is normal; let it happen rather than holding it straight.\n\nThen the shoulders, and there is a sequence. Guide the head gently downwards to deliver the upper shoulder, then gently upwards to deliver the lower one. Gently is the operative word both times — this is guidance, not traction.\n\nOnce the shoulders are out, the rest of the body follows very quickly and very slipperily. Newborns are genuinely difficult to hold. Have a firm grip, support the head and body, and have a towel ready — crews drop babies, and it is entirely preventable by expecting it.\n\nThen: dry the baby vigorously, which also stimulates breathing. Keep it warm — newborns lose heat frighteningly fast, especially wet. Cover the head, which is a large proportion of their surface area. Note the time of birth.\n\nThe placenta delivers itself, usually within a reasonably short period. Do not pull on the cord to hurry it. Pulling can tear the cord or, far worse, invert the uterus, which is a catastrophic emergency.\n\nAnd you do not wait for the placenta. If it has not delivered, transport with the baby and the mother together; if it has, take it with you so it can be examined.",
+          "standard": "The provider guides and supports delivery rather than applying traction; expulsion is maternal. The emerging head is supported with a flat hand, controlling speed of delivery to reduce perineal trauma and permit gradual transition; lateral force is not applied. Following head delivery, the neck is palpated for a nuchal cord, a common finding usually loose and amenable to reduction over the head. A tight nuchal cord that cannot be reduced requires double clamping and division between clamps, with immediate continuation of delivery; providers must establish whether protocol permits this and the location of equipment in advance. External rotation of the head occurs spontaneously and is permitted. Shoulder delivery proceeds by gentle downward guidance to deliver the anterior shoulder followed by gentle upward guidance for the posterior shoulder, with guidance rather than traction throughout. Body delivery follows rapidly with substantial slipperiness; secure grip with head and body support and prepared towel are required. The neonate is dried vigorously, which additionally provides tactile stimulation, kept warm with head covering owing to proportionally large surface area, and the time of birth recorded. Placental delivery occurs spontaneously; cord traction is contraindicated owing to risk of cord avulsion and uterine inversion. Transport does not await placental delivery."
+        },
+        "eli_new": {
+          "analogy": "You are not delivering the baby. You are controlling how fast it arrives and making sure you do not drop it.",
+          "body": "Newborns are far slipperier than anybody expects. Have a towel in your hands and expect it, because the alternative is a dropped baby on a bathroom floor and it is completely preventable."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the sequence of a normal delivery and what you must never do.",
+          "must_hit": [
+            {
+              "point": "The mother delivers; you guide, support and control speed",
+              "accept": [
+                "guide",
+                "support",
+                "control",
+                "not pull",
+                "mother"
+              ]
+            },
+            {
+              "point": "Support the head and let it deliver slowly",
+              "accept": [
+                "head",
+                "support",
+                "slow",
+                "control",
+                "speed"
+              ]
+            },
+            {
+              "point": "Check for a cord around the neck and slip it over if loose",
+              "accept": [
+                "cord",
+                "neck",
+                "nuchal",
+                "slip",
+                "loose"
+              ]
+            },
+            {
+              "point": "A tight cord that cannot be freed is clamped twice and cut between",
+              "accept": [
+                "tight",
+                "clamp",
+                "cut",
+                "two",
+                "between"
+              ]
+            },
+            {
+              "point": "Guide the upper shoulder down then the lower shoulder up",
+              "accept": [
+                "shoulder",
+                "down",
+                "up",
+                "upper",
+                "lower",
+                "guide"
+              ]
+            },
+            {
+              "point": "The body follows fast and slippery — firm grip and a towel",
+              "accept": [
+                "slippery",
+                "grip",
+                "towel",
+                "fast",
+                "drop"
+              ]
+            },
+            {
+              "point": "Dry vigorously, keep warm, cover the head, note the time",
+              "accept": [
+                "dry",
+                "warm",
+                "head",
+                "cover",
+                "time",
+                "birth"
+              ]
+            },
+            {
+              "point": "Never pull the cord to deliver the placenta — it can invert the uterus",
+              "accept": [
+                "pull",
+                "cord",
+                "placenta",
+                "invert",
+                "uterus",
+                "never"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Have the towel ready",
+          "dispatch": "Medic 6 — delivery on a bathroom floor, first for both crew.",
+          "body": "The head delivered beautifully, slowly and under control, and both of them relaxed slightly.\n\nThe body came out in about a second and a half, and the newer of the two nearly lost hold of him entirely.\n\nNobody tells you quite how slippery they are. The towel should already be in your hands before the shoulders come."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Normal delivery",
+          "steps": [
+            {
+              "text": "Recognise imminent delivery and decide to deliver here — crowning means here",
+              "critical": true
+            },
+            {
+              "text": "PREPARE EARLY: open the kit, get towels and blankets, warm the environment, position help",
+              "critical": true,
+              "note": "Easier to stand down a prepared crew than to catch up with a delivery."
+            },
+            {
+              "text": "Gloves, gown and eye protection — this is a high-splash procedure",
+              "critical": true
+            },
+            {
+              "text": "Position the mother and support her; explain what is happening as you go",
+              "critical": false
+            },
+            {
+              "text": "SUPPORT THE HEAD with a flat hand and let it deliver SLOWLY",
+              "critical": true,
+              "note": "You control the speed, not the direction. Do not push sideways and do not pull."
+            },
+            {
+              "text": "AS SOON AS THE HEAD IS OUT, feel around the neck for the cord",
+              "critical": true
+            },
+            {
+              "text": "Loose cord: slip it gently over the head and continue",
+              "critical": true
+            },
+            {
+              "text": "TIGHT cord that cannot be freed: CLAMP IN TWO PLACES, CUT BETWEEN, and deliver immediately",
+              "critical": true,
+              "note": "Know before the call whether your protocol permits this and where your clamps are."
+            },
+            {
+              "text": "Allow the head to rotate to one side on its own",
+              "critical": false
+            },
+            {
+              "text": "Guide the head GENTLY DOWN to deliver the upper shoulder",
+              "critical": true
+            },
+            {
+              "text": "Then guide GENTLY UP to deliver the lower shoulder",
+              "critical": true
+            },
+            {
+              "text": "EXPECT THE BODY TO COME FAST AND VERY SLIPPERY — firm grip, towel ready, support head and body",
+              "critical": true
+            },
+            {
+              "text": "DRY THE BABY VIGOROUSLY — it warms and it stimulates breathing",
+              "critical": true
+            },
+            {
+              "text": "KEEP IT WARM and COVER THE HEAD",
+              "critical": true
+            },
+            {
+              "text": "NOTE THE TIME OF BIRTH",
+              "critical": true
+            },
+            {
+              "text": "Do NOT pull on the cord to deliver the placenta — it can invert the uterus",
+              "critical": true
+            },
+            {
+              "text": "Transport both together; take the placenta if it delivers, and do not wait for it if it does not",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the delivery sequence and whether cord clamping and cutting for a tight nuchal cord is within your scope, against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-05",
+      "title": "Abnormal deliveries",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-01-04"
+      ],
+      "related": [
+        "EMT-07-01-04",
+        "EMT-07-02-02"
+      ],
+      "key_points": [
+        "A prolapsed cord is the cord presenting before the baby, and it is the one true obstetric emergency you can act on",
+        "The cord gets compressed by the baby's head, cutting off its oxygen supply, so the treatment is relieving that pressure",
+        "Put the mother head-down with hips elevated, insert a gloved hand and lift the presenting part off the cord, and do not let go",
+        "Do not push the cord back in, and keep it warm and moist",
+        "A breech delivery presents buttocks or feet first; support what delivers and never pull",
+        "In breech, if the head does not deliver, form a V with two fingers to create an airway space beside the baby's face and transport immediately",
+        "A nuchal cord around the neck is common: slip it over if loose, clamp and cut if tight and unfreeable",
+        "Shoulder dystocia is the head delivering and the shoulders failing to follow; position changes are attempted per protocol and it is a time-critical emergency",
+        "Every abnormal delivery is a rapid transport with a pre-alert, because what they need is not available in an ambulance"
+      ],
+      "misconceptions": [
+        "Pushing a prolapsed cord back inside",
+        "Letting go of the presenting part once pressure is relieved",
+        "Pulling on a breech baby",
+        "Delaying transport in any abnormal delivery"
+      ],
+      "exam_favorites": [
+        "Prolapsed cord management",
+        "Breech and the V manoeuvre",
+        "Never pull"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Four situations where delivery does not go normally. In every one of them, the answer includes rapid transport with a pre-alert — because what these patients need is an operating theatre.\n\nA prolapsed cord is the cord coming down ahead of the baby. It is the one obstetric emergency where what you do with your hands genuinely changes the outcome, so it is worth knowing properly.\n\nThe problem is compression. The baby's head presses the cord against the pelvis, and the cord is the baby's entire oxygen supply. Relieving that compression is the treatment.\n\nSo: put the mother head-down with her hips elevated, using gravity to move the baby off the cord. Then insert a gloved hand and physically lift the presenting part off the cord, and keep it there. You do not let go — not to do anything else, not to help move her, not until somebody at the hospital takes over. That hand stays in place through the entire transport, and it is the treatment.\n\nDo not push the cord back inside. Keep it warm and moist with a saline-moistened dressing, and give the mother high-flow oxygen.\n\nA breech delivery presents buttocks or feet first. Support what delivers as it delivers, and never pull — pulling on a breech baby can trap the head and cause serious injury. Let it come.\n\nIf the body delivers and the head does not follow, there is one thing to do: put two fingers into the vagina alongside the baby's face, forming a V to push the vaginal wall away from the nose and mouth and create a space to breathe. Hold that, and transport immediately. The baby can be oxygenated through that gap while you drive.\n\nA nuchal cord — around the neck — is common and usually loose: slip it over the head. If it is tight and cannot be freed, clamp twice and cut between, then deliver immediately.\n\nShoulder dystocia is the head delivering and the shoulders not following, with the head often pulling back against the perineum. It is genuinely time-critical, because the cord is compressed and the baby cannot breathe. Position changes are attempted per protocol — typically bringing the mother's knees sharply up toward her chest, and repositioning her. Do not pull on the head.\n\nThrough all four: rapid transport, a pre-alert that says what you have, and hands doing whatever keeps the baby oxygenated while you travel.",
+          "standard": "Abnormal presentations require expedited transport with prearrival notification, as definitive management requires operative capability. Umbilical cord prolapse denotes cord presentation preceding the fetus, producing cord compression against the pelvis by the presenting part with consequent cessation of fetal oxygenation; it represents the obstetric emergency most amenable to prehospital intervention. Management comprises Trendelenburg or knee-chest positioning to reduce compression, insertion of a gloved hand to elevate the presenting part from the cord, and maintenance of that elevation continuously until relieved by receiving staff. Cord reduction is contraindicated; the cord is kept warm and moist with saline-moistened dressing, and maternal high-concentration oxygen administered. Breech presentation delivers buttocks or lower limbs first; delivered parts are supported without traction, as traction risks head entrapment and injury. Where the body delivers without the head, two fingers are inserted alongside the fetal face forming a V to displace vaginal tissue from the nose and mouth, creating an airway, maintained during immediate transport. Nuchal cord is managed by reduction over the head where loose, or double clamping and division where tight and irreducible. Shoulder dystocia denotes failure of shoulder delivery following head delivery with head retraction; it is time-critical owing to cord compression, managed by positional manoeuvres per protocol including sharp knee-to-chest flexion, without traction on the head."
+        },
+        "eli_new": {
+          "analogy": "In a prolapsed cord your hand is the treatment. It goes in, it lifts, and it does not come out again until somebody at the hospital takes over.",
+          "body": "The prolapsed cord one is worth rehearsing in your head, because it is the obstetric emergency where your hands make the difference. Head down, hips up, gloved hand in, lift the head off the cord, and do not let go for anything."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the management of a prolapsed cord and of a breech with a trapped head.",
+          "must_hit": [
+            {
+              "point": "A prolapsed cord is compressed by the presenting part, cutting off oxygen",
+              "accept": [
+                "prolapse",
+                "compress",
+                "cord",
+                "oxygen",
+                "head",
+                "press"
+              ]
+            },
+            {
+              "point": "Head down with hips elevated",
+              "accept": [
+                "head down",
+                "hips",
+                "elevate",
+                "trendelenburg",
+                "knee-chest"
+              ]
+            },
+            {
+              "point": "Insert a gloved hand and lift the presenting part off the cord",
+              "accept": [
+                "gloved",
+                "hand",
+                "lift",
+                "off",
+                "presenting",
+                "elevate"
+              ]
+            },
+            {
+              "point": "Do not let go until hospital staff take over",
+              "accept": [
+                "not let go",
+                "maintain",
+                "until",
+                "hospital",
+                "hold"
+              ]
+            },
+            {
+              "point": "Do not push the cord back in; keep it warm and moist",
+              "accept": [
+                "push back",
+                "reduce",
+                "warm",
+                "moist",
+                "saline"
+              ]
+            },
+            {
+              "point": "In breech, support what delivers and never pull",
+              "accept": [
+                "breech",
+                "support",
+                "never pull",
+                "traction",
+                "let it"
+              ]
+            },
+            {
+              "point": "If the head does not deliver, make a V beside the face to create an airway",
+              "accept": [
+                "two fingers",
+                "face",
+                "airway",
+                "space",
+                "nose",
+                "wedge"
+              ]
+            },
+            {
+              "point": "All abnormal deliveries are rapid transport with a pre-alert",
+              "accept": [
+                "transport",
+                "rapid",
+                "pre-alert",
+                "notify",
+                "theatre"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She did not let go",
+          "dispatch": "Medic 2 — cord prolapse, 22 minute transport.",
+          "body": "She put her hand in on a bathroom floor and lifted the head off the cord, and then stayed exactly where she was.\n\nThrough the carry down the stairs, through the loading, through twenty-two minutes of driving, and into the resuscitation room.\n\nThe midwife took over with her hand already in place. That hand had been the baby's entire oxygen supply for half an hour."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Prolapsed cord",
+          "steps": [
+            {
+              "text": "Recognise it: cord visible or palpable at the vaginal opening before the baby",
+              "critical": true
+            },
+            {
+              "text": "This is a TRUE EMERGENCY — start moving toward transport immediately and PRE-ALERT",
+              "critical": true
+            },
+            {
+              "text": "Position the mother HEAD DOWN WITH HIPS ELEVATED",
+              "critical": true,
+              "note": "Gravity moves the presenting part off the cord. Knee-chest is an alternative per protocol."
+            },
+            {
+              "text": "Put on a glove and INSERT A HAND, lifting the presenting part OFF the cord",
+              "critical": true,
+              "note": "Your hand is the treatment. The cord is the baby's entire oxygen supply."
+            },
+            {
+              "text": "DO NOT LET GO — not to move her, not to do anything else",
+              "critical": true,
+              "note": "That hand stays in place through the carry, the loading and the whole transport, until hospital staff take over."
+            },
+            {
+              "text": "Do NOT push the cord back inside",
+              "critical": true
+            },
+            {
+              "text": "Keep the cord warm and moist with a saline-moistened dressing",
+              "critical": true
+            },
+            {
+              "text": "High-flow oxygen to the mother",
+              "critical": true
+            },
+            {
+              "text": "Keep her warm and handle her as little as possible otherwise",
+              "critical": false
+            },
+            {
+              "text": "Transport rapidly and tell the receiving unit you have a cord prolapse and a hand in place",
+              "critical": true
+            },
+            {
+              "text": "Hand over WITH YOUR HAND STILL THERE, directly to the person taking over",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the management of cord prolapse, breech delivery and shoulder dystocia against the current text and local protocol, as permitted manoeuvres vary."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-01-06",
+      "title": "Postpartum haemorrhage",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-01-04"
+      ],
+      "related": [
+        "EMT-07-01-04",
+        "EMT-06-02-05",
+        "EMT-05-10-01"
+      ],
+      "key_points": [
+        "Postpartum haemorrhage is excessive bleeding after delivery and is a leading cause of maternal death",
+        "The commonest cause by far is a uterus that has not contracted down after delivering",
+        "A contracted uterus feels firm; a uterus that has not contracted feels soft and boggy",
+        "Uterine massage is the first-line treatment and it works: firm circular massage of the fundus through the abdomen",
+        "Encourage the baby to feed at the breast if the mother is willing, because it stimulates the uterus to contract",
+        "Blood loss after delivery is routinely underestimated, and the increased blood volume of pregnancy masks it until late",
+        "Never pack the vagina; external pads only, counted",
+        "Treat it as shock: position, keep warm, oxygen as indicated, nothing by mouth, rapid transport with a pre-alert",
+        "A retained placenta is transported with the patient rather than waited for"
+      ],
+      "misconceptions": [
+        "Not massaging the uterus because it feels invasive",
+        "Underestimating the loss because the mother still looks well",
+        "Packing the vagina",
+        "Waiting on scene for the placenta while she bleeds"
+      ],
+      "exam_favorites": [
+        "A soft boggy uterus",
+        "Uterine massage as first-line",
+        "Why the loss is underestimated"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Postpartum haemorrhage is excessive bleeding after delivery, and it remains one of the leading causes of maternal death worldwide. It can be sudden and it can be very large.\n\nThe commonest cause, by a considerable margin, is a uterus that has not contracted down after delivering. Understanding why explains the treatment. During pregnancy the uterus receives an enormous blood supply. After the placenta separates, the site where it was attached is a large raw area full of open vessels. The way those vessels close is mechanical: the uterus contracts down hard and squeezes them shut.\n\nIf it does not contract, they stay open.\n\nSo the assessment is a hand on the abdomen, feeling the fundus — the top of the uterus, just below or around the navel after delivery. A contracted uterus feels firm, like a grapefruit. A uterus that has not contracted feels soft and boggy, and that is your finding.\n\nAnd the treatment follows directly: uterine massage. Firm, circular massage of the fundus through the abdominal wall. It is not gentle, and it works — the uterus contracts under your hand and the bleeding slows. This is one of the genuinely effective things an EMT can do with nothing but a hand, and it gets skipped because it feels invasive to do to somebody who has just given birth. Explain it and do it.\n\nIf the mother is willing, encourage the baby to feed at the breast. Suckling releases hormones that make the uterus contract, and it is free.\n\nNow the reason this is dangerous. Blood loss after delivery is routinely underestimated — it is spread across bedding and towels and it is mixed with fluid. And the increased blood volume of pregnancy means she compensates for a long time, so she can look well while losing a great deal, and then deteriorate quickly.\n\nSo do not read her appearance as reassurance. Count what you can — pads, towels — and read her pulse and skin rather than the volume you can see.\n\nNever pack the vagina. External pads only, counted and taken with you.\n\nAnd manage her as a shocked patient: position her, keep her warm, oxygen as indicated, nothing by mouth because she may go to theatre, and rapid transport with a pre-alert. If the placenta has not delivered, take it and her together and do not wait on scene for it.",
+          "standard": "Postpartum haemorrhage denotes excessive blood loss following delivery and remains a leading cause of maternal mortality. Uterine atony constitutes the predominant aetiology: following placental separation the implantation site presents an extensive vascular surface, haemostasis depending on mechanical compression by uterine contraction. Assessment comprises abdominal palpation of the fundus, located at or below the umbilicus following delivery; a contracted uterus is firm while an atonic uterus is soft and boggy. Fundal massage constitutes first-line management, applied firmly in a circular motion through the abdominal wall, producing uterine contraction and reduced haemorrhage; it represents an effective intervention requiring no equipment and is frequently omitted owing to perceived invasiveness. Breastfeeding, where the mother is willing, stimulates endogenous oxytocin release promoting uterine contraction. Blood loss is routinely underestimated owing to dispersal across bedding and admixture with amniotic fluid, and the hypervolaemia of pregnancy delays haemodynamic manifestation, producing well-appearing patients who subsequently deteriorate rapidly; assessment relies on pulse and cutaneous findings rather than visible volume. Vaginal packing is contraindicated; external pads are used and counted. Management follows shock principles: positioning, normothermia, oxygen as indicated, nil by mouth and expedited transport with prearrival notification. Retained placenta accompanies the patient rather than delaying transport."
+        },
+        "eli_new": {
+          "analogy": "After the placenta comes away, the inside of the uterus is a large raw surface full of open vessels. The only thing that closes them is the uterus squeezing, and your hand is what makes it squeeze.",
+          "body": "Uterine massage gets skipped because it feels like a strange thing to do to somebody who has just given birth. It is one of the most effective things you can do with nothing but a hand, and a soft boggy uterus is the finding that tells you to."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the commonest cause of postpartum haemorrhage and its first-line treatment.",
+          "must_hit": [
+            {
+              "point": "The commonest cause is a uterus that has not contracted",
+              "accept": [
+                "uterus",
+                "contract",
+                "atony",
+                "soft",
+                "commonest"
+              ]
+            },
+            {
+              "point": "Contraction is what closes the vessels at the placental site",
+              "accept": [
+                "vessel",
+                "close",
+                "squeeze",
+                "placental site",
+                "mechanical"
+              ]
+            },
+            {
+              "point": "A contracted uterus feels firm; an atonic one feels soft and boggy",
+              "accept": [
+                "firm",
+                "soft",
+                "boggy",
+                "fundus",
+                "feel"
+              ]
+            },
+            {
+              "point": "Uterine massage is first-line and works",
+              "accept": [
+                "massage",
+                "fundus",
+                "circular",
+                "firm",
+                "first-line"
+              ]
+            },
+            {
+              "point": "Breastfeeding stimulates the uterus to contract",
+              "accept": [
+                "breast",
+                "feed",
+                "suckl",
+                "contract",
+                "stimulate"
+              ]
+            },
+            {
+              "point": "Loss is routinely underestimated and she compensates for a long time",
+              "accept": [
+                "underestimat",
+                "compensat",
+                "look well",
+                "volume",
+                "spread"
+              ]
+            },
+            {
+              "point": "Never pack the vagina — external pads only, counted",
+              "accept": [
+                "pack",
+                "never",
+                "pad",
+                "external",
+                "count"
+              ]
+            },
+            {
+              "point": "Treat as shock and transport rapidly with a pre-alert",
+              "accept": [
+                "shock",
+                "warm",
+                "transport",
+                "pre-alert",
+                "nothing by mouth"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Soft and boggy",
+          "dispatch": "Medic 5 — delivery completed, mother bleeding steadily.",
+          "body": "She looked entirely well and was talking about the baby, and there was a great deal of blood on the bedding that nobody had really added up.\n\nThe fundus was soft. The EMT explained what she was about to do, put a hand on it and massaged firmly, and it firmed up under her hand.\n\nThe bleeding slowed within about a minute. It is the most effective thing in this concept and it needs no equipment at all."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the management of postpartum haemorrhage against the current text and local protocol. No medication names or doses are stated; uterotonic drugs are outside EMT scope."
+    }
+  ]
+}
