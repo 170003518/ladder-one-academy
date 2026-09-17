@@ -7232,6 +7232,726 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-01-Q001",
+      "concept_id": "EMT-01-08-01",
+      "style": "recall",
+      "stem": "What does bradycardia in an infant usually mean?",
+      "options": [
+        {
+          "text": "A normal variant during sleep",
+          "rationale": "In an unwell infant it is not dismissed as normal."
+        },
+        {
+          "text": "Hypoxia — the infant has run out of the ability to compensate by going faster",
+          "rationale": "Correct, and the response is oxygen and ventilation."
+        },
+        {
+          "text": "A cardiac conduction problem",
+          "rationale": "Uncommon compared with hypoxia."
+        },
+        {
+          "text": "Dehydration",
+          "rationale": "Dehydration typically produces tachycardia."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-01-Q002",
+      "concept_id": "EMT-01-08-01",
+      "style": "recall",
+      "stem": "Why does a blocked nose matter so much in an infant?",
+      "options": [
+        {
+          "text": "It causes feeding problems only",
+          "rationale": "The airway consequence is the concern."
+        },
+        {
+          "text": "Infants breathe mainly through the nose",
+          "rationale": "Correct — suctioning can be a substantial intervention."
+        },
+        {
+          "text": "It indicates infection",
+          "rationale": "Not the reason it matters acutely."
+        },
+        {
+          "text": "It does not — they switch to mouth breathing readily",
+          "rationale": "They do not switch readily."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-01-Q003",
+      "concept_id": "EMT-01-08-01",
+      "style": "application",
+      "stem": "Why does minor airway swelling affect an infant so much more than an adult?",
+      "options": [
+        {
+          "text": "Infants have weaker respiratory muscles",
+          "rationale": "Muscle strength is not the mechanism."
+        },
+        {
+          "text": "Resistance rises sharply as a narrow tube narrows further",
+          "rationale": "Correct — resistance rises sharply as a narrow tube narrows further."
+        },
+        {
+          "text": "Infants produce more secretions",
+          "rationale": "Not the mechanism described."
+        },
+        {
+          "text": "Their airways are more sensitive to irritation",
+          "rationale": "Not the mechanical reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-01-Q004",
+      "concept_id": "EMT-01-08-01",
+      "style": "application",
+      "stem": "Why does a distended stomach impair an infant's breathing?",
+      "options": [
+        {
+          "text": "It causes vomiting",
+          "rationale": "Vomiting is a separate risk."
+        },
+        {
+          "text": "The diaphragm does most of the work and distension pushes up on it",
+          "rationale": "Correct — including distension from over-vigorous ventilation."
+        },
+        {
+          "text": "It compresses the heart",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "It causes pain that limits breathing",
+          "rationale": "Not the primary mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-01-Q005",
+      "concept_id": "EMT-01-08-01",
+      "style": "recall",
+      "stem": "Why do infants lose heat so quickly?",
+      "options": [
+        {
+          "text": "They have higher metabolic rates",
+          "rationale": "Metabolism is not the main factor here."
+        },
+        {
+          "text": "Large surface area relative to volume and little insulating fat",
+          "rationale": "Correct — and faster still when wet."
+        },
+        {
+          "text": "They cannot shiver at all",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "They have thinner blood",
+          "rationale": "Not a real mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-01-Q006",
+      "concept_id": "EMT-01-08-01",
+      "style": "scenario",
+      "stem": "Where are normal vital sign ranges by age held in this course?",
+      "options": [
+        {
+          "text": "Repeated in each lesson that needs them",
+          "rationale": "They are deliberately held in one place."
+        },
+        {
+          "text": "In the numbers card on EMT-03-05-01",
+          "rationale": "Correct — so there is a single set to correct."
+        },
+        {
+          "text": "Only in the exam prep module",
+          "rationale": "Not where they live."
+        },
+        {
+          "text": "They are not recorded anywhere",
+          "rationale": "They are recorded once."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-02-Q001",
+      "concept_id": "EMT-01-08-02",
+      "style": "recall",
+      "stem": "Why does this age group dominate poisoning and burns?",
+      "options": [
+        {
+          "text": "Their organs are more sensitive",
+          "rationale": "Sensitivity is not the reason for frequency."
+        },
+        {
+          "text": "They are mobile and curious with no sense of danger",
+          "rationale": "Correct — they are mobile and curious with no sense of danger."
+        },
+        {
+          "text": "They are left alone more often",
+          "rationale": "Not the described reason."
+        },
+        {
+          "text": "They cannot communicate discomfort",
+          "rationale": "That affects recognition, not frequency."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-02-Q002",
+      "concept_id": "EMT-01-08-02",
+      "style": "application",
+      "stem": "Where should a small child be assessed where possible?",
+      "options": [
+        {
+          "text": "On the stretcher, for a proper examination",
+          "rationale": "A child on a stretcher fights what a child on a lap allows."
+        },
+        {
+          "text": "On the parent's lap",
+          "rationale": "Correct — separation is frequently more frightening than the complaint."
+        },
+        {
+          "text": "Standing, to assess gait",
+          "rationale": "Not the general approach."
+        },
+        {
+          "text": "Away from the parent to get an honest history",
+          "rationale": "Inappropriate at this age."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-02-Q003",
+      "concept_id": "EMT-01-08-02",
+      "style": "recall",
+      "stem": "In what order should a small child be assessed?",
+      "options": [
+        {
+          "text": "Head first, as with adults",
+          "rationale": "Starting at the head is threatening."
+        },
+        {
+          "text": "From the toes upward, leaving the head until last",
+          "rationale": "Correct — from the toes upward, leaving the head until last."
+        },
+        {
+          "text": "Chest first, then extremities",
+          "rationale": "Not the recommended sequence."
+        },
+        {
+          "text": "Order makes no difference",
+          "rationale": "It makes a substantial difference to cooperation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-02-Q004",
+      "concept_id": "EMT-01-08-02",
+      "style": "application",
+      "stem": "Should you tell a child something will not hurt when it will?",
+      "options": [
+        {
+          "text": "Yes, to reduce anxiety beforehand",
+          "rationale": "It destroys trust for everybody who follows you."
+        },
+        {
+          "text": "No — say it will hurt a bit and be quick",
+          "rationale": "Correct — no — say it will hurt a bit and be quick."
+        },
+        {
+          "text": "Yes, if the parent agrees",
+          "rationale": "Parental agreement does not change the consequence."
+        },
+        {
+          "text": "Only for very young children",
+          "rationale": "The principle applies at every age."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-02-Q005",
+      "concept_id": "EMT-01-08-02",
+      "style": "application",
+      "stem": "Which is the better question?",
+      "options": [
+        {
+          "text": "Can I look at your arm?",
+          "rationale": "It invites a no you cannot accept."
+        },
+        {
+          "text": "Which arm shall I look at first?",
+          "rationale": "Correct — a real choice with the outcome not in question."
+        },
+        {
+          "text": "Do you want me to examine you?",
+          "rationale": "Invites refusal of something necessary."
+        },
+        {
+          "text": "Shall I leave you alone?",
+          "rationale": "Not a genuine option."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-02-Q006",
+      "concept_id": "EMT-01-08-02",
+      "style": "scenario",
+      "stem": "A frightened four-year-old behaves like a two-year-old. What does this mean?",
+      "options": [
+        {
+          "text": "A developmental problem requiring referral",
+          "rationale": "Regression under stress is normal."
+        },
+        {
+          "text": "Normal regression under stress — not a clinical finding",
+          "rationale": "Correct — normal regression under stress — not a clinical finding."
+        },
+        {
+          "text": "A head injury",
+          "rationale": "Not indicated by regression alone."
+        },
+        {
+          "text": "That the parent is unreliable",
+          "rationale": "No such inference."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-03-Q001",
+      "concept_id": "EMT-01-08-03",
+      "style": "recall",
+      "stem": "How should a school-age child's history be taken?",
+      "options": [
+        {
+          "text": "Entirely from the parent",
+          "rationale": "It wastes the best source in the room."
+        },
+        {
+          "text": "Directly from the child, with the parent supplementing",
+          "rationale": "Correct — they can locate pain and describe events accurately."
+        },
+        {
+          "text": "Only from the child, excluding the parent",
+          "rationale": "The parent adds useful information too."
+        },
+        {
+          "text": "From neither — rely on examination",
+          "rationale": "History matters at every age."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-03-Q002",
+      "concept_id": "EMT-01-08-03",
+      "style": "recall",
+      "stem": "What specific fears do school-age children have that younger children do not?",
+      "options": [
+        {
+          "text": "Fear of strangers",
+          "rationale": "Common at younger ages too."
+        },
+        {
+          "text": "Disfigurement, disability and death — because they understand permanence",
+          "rationale": "Correct, and those fears can be answered honestly."
+        },
+        {
+          "text": "Fear of the dark",
+          "rationale": "Not developmentally specific here."
+        },
+        {
+          "text": "Fear of loud noises",
+          "rationale": "Not the described concern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-03-Q003",
+      "concept_id": "EMT-01-08-03",
+      "style": "application",
+      "stem": "Why might an adolescent give different accounts to different audiences?",
+      "options": [
+        {
+          "text": "They are being deliberately deceptive",
+          "rationale": "Usually not deception so much as audience."
+        },
+        {
+          "text": "There are people present they cannot say certain things in front of",
+          "rationale": "Correct — which is why privacy matters."
+        },
+        {
+          "text": "They cannot remember accurately",
+          "rationale": "Memory is not the issue."
+        },
+        {
+          "text": "They are intoxicated",
+          "rationale": "Not a general explanation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-03-Q004",
+      "concept_id": "EMT-01-08-03",
+      "style": "application",
+      "stem": "How should you ask an adolescent about drug use?",
+      "options": [
+        {
+          "text": "Indirectly, to avoid embarrassment",
+          "rationale": "Hinting yields nothing."
+        },
+        {
+          "text": "Directly and without judgement, in private",
+          "rationale": "Correct — any disapproval ends the conversation."
+        },
+        {
+          "text": "Through the parent",
+          "rationale": "They will not disclose that way."
+        },
+        {
+          "text": "Not at all — it is not your business",
+          "rationale": "It is clinically relevant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-03-Q005",
+      "concept_id": "EMT-01-08-03",
+      "style": "recall",
+      "stem": "What should you say about confidentiality to an adolescent?",
+      "options": [
+        {
+          "text": "That nothing will be repeated",
+          "rationale": "A promise you cannot keep."
+        },
+        {
+          "text": "Honestly what you will pass on and why",
+          "rationale": "Correct — honestly what you will pass on and why."
+        },
+        {
+          "text": "Nothing — avoid raising it",
+          "rationale": "Avoiding it leaves them assuming something untrue."
+        },
+        {
+          "text": "That everything must be told to their parents",
+          "rationale": "Not accurate either."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-03-Q006",
+      "concept_id": "EMT-01-08-03",
+      "style": "scenario",
+      "stem": "Why does risk-taking peak in adolescence?",
+      "options": [
+        {
+          "text": "They are physically weaker",
+          "rationale": "They are physically near-adult."
+        },
+        {
+          "text": "Physical maturity arrives before judgement and impulse control do",
+          "rationale": "Correct, and peer presence amplifies it."
+        },
+        {
+          "text": "They have less supervision",
+          "rationale": "A factor, but not the developmental reason."
+        },
+        {
+          "text": "They are less aware of consequences entirely",
+          "rationale": "They are aware; the appraisal is incomplete."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-04-Q001",
+      "concept_id": "EMT-01-08-04",
+      "style": "recall",
+      "stem": "What does ageing principally do to physiology?",
+      "options": [
+        {
+          "text": "Causes systems to fail at rest",
+          "rationale": "Baseline function usually appears preserved."
+        },
+        {
+          "text": "Reduces reserve — the capacity to compensate under stress",
+          "rationale": "Correct — reduces reserve — the capacity to compensate under stress."
+        },
+        {
+          "text": "Slows every process equally",
+          "rationale": "Not the described pattern."
+        },
+        {
+          "text": "Makes presentations more obvious",
+          "rationale": "It makes them less obvious."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-04-Q002",
+      "concept_id": "EMT-01-08-04",
+      "style": "application",
+      "stem": "An 82-year-old on a beta blocker has a pulse of 70 after a fall. How informative is that?",
+      "options": [
+        {
+          "text": "Very — it indicates stability",
+          "rationale": "The medication prevents the response you are looking for."
+        },
+        {
+          "text": "Almost uninformative — the medication blunts the expected response",
+          "rationale": "Correct — almost uninformative — the medication blunts the expected response."
+        },
+        {
+          "text": "It indicates bradycardia",
+          "rationale": "70 is not bradycardic."
+        },
+        {
+          "text": "It rules out bleeding",
+          "rationale": "It rules out nothing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-04-Q003",
+      "concept_id": "EMT-01-08-04",
+      "style": "recall",
+      "stem": "Why is a fall from standing significant in an older patient?",
+      "options": [
+        {
+          "text": "Because they fall more often",
+          "rationale": "Frequency is not the reason it is significant."
+        },
+        {
+          "text": "Reduced bone density means low-energy mechanisms cause fractures",
+          "rationale": "Correct — reduced bone density means low-energy mechanisms cause fractures."
+        },
+        {
+          "text": "Because they cannot get up afterwards",
+          "rationale": "A consequence, not the reason."
+        },
+        {
+          "text": "It is not significant",
+          "rationale": "It is one of the most common serious mechanisms."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-04-Q004",
+      "concept_id": "EMT-01-08-04",
+      "style": "application",
+      "stem": "How may a myocardial infarction present in an older patient?",
+      "options": [
+        {
+          "text": "Always with severe chest pain",
+          "rationale": "Altered pain perception means it may be absent."
+        },
+        {
+          "text": "Without chest pain at all",
+          "rationale": "Correct — presentations blunt with age."
+        },
+        {
+          "text": "Only with collapse",
+          "rationale": "Not the only atypical presentation."
+        },
+        {
+          "text": "Identically to a young patient",
+          "rationale": "Frequently not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-04-Q005",
+      "concept_id": "EMT-01-08-04",
+      "style": "recall",
+      "stem": "Why does skin matter in older patients?",
+      "options": [
+        {
+          "text": "It heals faster",
+          "rationale": "It heals more slowly."
+        },
+        {
+          "text": "It is thin and fragile and tears from ordinary handling",
+          "rationale": "Correct — transfers and tape cause real injury."
+        },
+        {
+          "text": "It is more resistant to injury",
+          "rationale": "The opposite."
+        },
+        {
+          "text": "It has no clinical significance",
+          "rationale": "It affects handling directly."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-04-Q006",
+      "concept_id": "EMT-01-08-04",
+      "style": "scenario",
+      "stem": "How should individual findings be weighted in an older patient?",
+      "options": [
+        {
+          "text": "Less, because baselines are abnormal anyway",
+          "rationale": "Baselines are usually not abnormal."
+        },
+        {
+          "text": "More — there is less reserve behind any given finding",
+          "rationale": "Correct — more — there is less reserve behind any given finding."
+        },
+        {
+          "text": "The same as in anyone else",
+          "rationale": "Reduced reserve changes the significance."
+        },
+        {
+          "text": "Only vital signs should be weighted",
+          "rationale": "All findings carry more weight."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

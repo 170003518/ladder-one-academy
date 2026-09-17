@@ -98,6 +98,16 @@
         "EMT-01-07-04",
         "EMT-01-07-05"
       ]
+    },
+    {
+      "id": "EMT-01-08",
+      "title": "Lifespan development",
+      "concepts": [
+        "EMT-01-08-01",
+        "EMT-01-08-02",
+        "EMT-01-08-03",
+        "EMT-01-08-04"
+      ]
     }
   ],
   "concepts": [
@@ -6608,6 +6618,680 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the acid-base categories and compensation descriptions against the current text. No blood gas values or pH thresholds are stated, as these are not field measurements."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-01",
+      "title": "Neonate and infant",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-05-01",
+        "EMT-07-02-01",
+        "EMT-07-03-03"
+      ],
+      "key_points": [
+        "A neonate is a newborn in roughly the first month; infancy covers roughly the first year",
+        "Everything about an infant is proportionally different: a large head, a short neck, a large tongue, and a narrow airway",
+        "Infants breathe mainly through the nose, so a blocked nose is a genuine airway problem",
+        "The airway is narrower at every point, so a small amount of swelling causes a large obstruction",
+        "The chest wall is soft and the diaphragm does most of the work, which is why abdominal distension impairs breathing",
+        "Infants cannot increase the force of each heartbeat much, so they raise output by raising rate — and a slow heart rate in an infant is an emergency",
+        "They have a large surface area relative to volume and lose heat very fast, especially when wet",
+        "Their blood volume is small, so a loss that would be trivial in an adult is significant",
+        "Normal vital sign ranges by age are held in one place: the numbers card on EMT-03-05-01"
+      ],
+      "misconceptions": [
+        "Underestimating how much a blocked nose matters in an infant",
+        "Assuming bradycardia in an infant is benign",
+        "Letting a wet infant get cold during assessment",
+        "Treating small blood losses as insignificant"
+      ],
+      "exam_favorites": [
+        "Why infants are obligate nose breathers",
+        "Bradycardia in an infant",
+        "Heat loss in infants"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A neonate is a newborn, roughly the first month. Infancy runs to roughly a year. Everything about them differs from an adult in ways that matter clinically, and almost all of it comes back to proportion.\n\nThe head is large relative to the body, and the back of it is prominent, so an infant lying flat has their neck flexed and their airway partly closed by their own head. A small pad under the shoulders corrects it.\n\nThe neck is short, the tongue is large relative to the mouth, and the airway is narrower at every point. That last one has an important consequence: because resistance rises sharply as a tube narrows, a small amount of swelling in an infant airway causes a disproportionately large obstruction. The same millimetre of oedema that an adult barely notices can critically narrow an infant's airway.\n\nInfants breathe mainly through the nose. So a nose blocked with secretions is a genuine airway problem, not a minor inconvenience, and suctioning a blocked nose can be a substantial intervention.\n\nThe chest wall is soft and cartilaginous, and the diaphragm does most of the work of breathing. Which means anything pushing up on the diaphragm — a distended stomach, particularly one inflated by over-enthusiastic ventilation — directly impairs breathing.\n\nNow the point that changes what you do in an emergency. An infant heart cannot increase the force of each beat very much; the muscle simply is not developed for it. So the only way an infant can increase cardiac output is by beating faster.\n\nWhich means a slow heart rate in an infant is an emergency, and it is usually caused by hypoxia. Adult bradycardia has many causes and is often benign. Infant bradycardia means a baby who is running out of oxygen, and the response is to fix the oxygen and the ventilation.\n\nInfants have a large surface area relative to their volume and very little insulating fat, so they lose heat extremely fast, especially when wet. A newborn dries and gets covered before anything else non-urgent happens, and an infant exposed for assessment gets covered again quickly.\n\nAnd their total blood volume is small. A quantity of blood that would be unremarkable in an adult is a significant proportion of an infant's circulating volume.\n\nOne note on figures: normal vital sign ranges by age are not repeated here. They live in one place — the numbers card attached to EMT-03-05-01 — so that there is a single set to correct rather than several drifting apart.",
+          "standard": "The neonatal period encompasses approximately the first month, with infancy extending to approximately one year. Anatomical proportions differ substantially from adults. The occiput is prominent relative to body size, producing cervical flexion and airway compromise in the supine position, corrected by shoulder padding. The neck is short, the tongue proportionally large, and the airway of smaller calibre throughout; as resistance increases disproportionately with luminal narrowing, minor mucosal oedema produces substantial obstruction. Infants are preferential nasal breathers, rendering nasal obstruction a significant airway problem amenable to suction. The thoracic cage is compliant with diaphragmatic predominance in ventilation, so gastric distension, including that produced by excessive ventilation pressure, directly impairs respiration. Myocardial contractile reserve is limited, restricting cardiac output augmentation to rate increase; consequently bradycardia in infants indicates decompensation, most commonly hypoxic in origin, and is managed by correcting oxygenation and ventilation. High surface area to volume ratio with minimal subcutaneous insulation produces rapid heat loss, accelerated by moisture. Total blood volume is small, rendering modest absolute losses proportionally significant. Age-related vital sign ranges are maintained in a single location, the numbers card associated with EMT-03-05-01."
+        },
+        "eli_new": {
+          "analogy": "An infant airway is a narrow tube, and narrowing a narrow tube costs far more than narrowing a wide one. The same swelling an adult shrugs off can close a baby's airway.",
+          "body": "Bradycardia in an infant is the one to carry. An adult with a slow heart might have any number of things. A baby with a slow heart is usually running out of oxygen, and the treatment is oxygen and ventilation rather than anything cleverer."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe how an infant differs anatomically and explain what bradycardia means in one.",
+          "must_hit": [
+            {
+              "point": "Large head, short neck, large tongue, narrow airway throughout",
+              "accept": [
+                "head",
+                "neck",
+                "tongue",
+                "narrow",
+                "airway",
+                "proportion"
+              ]
+            },
+            {
+              "point": "A prominent occiput flexes the neck when supine; pad the shoulders",
+              "accept": [
+                "occiput",
+                "flex",
+                "supine",
+                "pad",
+                "shoulder"
+              ]
+            },
+            {
+              "point": "Infants breathe mainly through the nose, so a blocked nose matters",
+              "accept": [
+                "nose",
+                "nasal",
+                "block",
+                "suction",
+                "breath"
+              ]
+            },
+            {
+              "point": "Small swelling causes large obstruction in a narrow airway",
+              "accept": [
+                "swelling",
+                "obstruction",
+                "narrow",
+                "resistance",
+                "dispropor"
+              ]
+            },
+            {
+              "point": "The diaphragm does most of the work, so gastric distension impairs breathing",
+              "accept": [
+                "diaphragm",
+                "distension",
+                "stomach",
+                "gastric",
+                "impair"
+              ]
+            },
+            {
+              "point": "Infants raise output by rate, so bradycardia is an emergency, usually hypoxic",
+              "accept": [
+                "rate",
+                "bradycard",
+                "slow",
+                "emergency",
+                "hypox",
+                "oxygen"
+              ]
+            },
+            {
+              "point": "They lose heat very fast, especially when wet",
+              "accept": [
+                "heat",
+                "cold",
+                "wet",
+                "surface area",
+                "dry",
+                "cover"
+              ]
+            },
+            {
+              "point": "Small blood volume makes modest losses significant",
+              "accept": [
+                "volume",
+                "small",
+                "loss",
+                "significant",
+                "proportion"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Ninety and falling",
+          "dispatch": "Medic 2 — 4-month-old, unwell, heart rate 90.",
+          "body": "Ninety would be an unremarkable number in an adult and it looked almost reassuring written down.\n\nIn a four-month-old it meant a baby who had been compensating by going fast, had run out of the ability to, and was slowing.\n\nThey went to the airway and the ventilation, because in an infant that number is nearly always about oxygen."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm infant anatomical and physiological descriptions against the current text. Normal vital sign ranges by age are NOT restated in this lesson. They are held once, in the numbers card on EMT-03-05-01, deliberately so there is a single place to correct them. Confirm those figures against AAOS Emergency Care 12e; the intermediate paediatric bands there are deliberately blank because sources differ."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-02",
+      "title": "Toddler and preschool",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-08-01",
+        "EMT-07-03-02",
+        "EMT-05-05-01"
+      ],
+      "key_points": [
+        "Toddler covers roughly one to three years; preschool roughly three to five",
+        "They are mobile, curious and have no sense of danger, which is why this age dominates poisoning, burns and falls",
+        "Airway and breathing differences from infancy persist but lessen as they grow",
+        "They understand far more than they can say, and they read tone and body language accurately",
+        "Separation from a caregiver is frightening, so assess on the parent's lap wherever possible",
+        "Assess from the feet upward rather than starting at the head, which is less threatening",
+        "Give simple honest information: saying something will not hurt when it will destroys trust for everybody who comes after you",
+        "Offer limited real choices rather than open questions — which arm, not whether",
+        "Regression under stress is normal: a four-year-old may behave like a two-year-old and that is not a finding"
+      ],
+      "misconceptions": [
+        "Separating a small child from a parent unnecessarily",
+        "Starting an assessment at the head",
+        "Telling a child something will not hurt when it will",
+        "Asking a yes-or-no question about something that is going to happen anyway"
+      ],
+      "exam_favorites": [
+        "Why this age has most poisonings",
+        "Assess on the lap, toes to head",
+        "Honest simple information"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Toddlers are roughly one to three. Preschool children roughly three to five. The clinical differences from infancy soften gradually across this span; the behavioural differences are the ones that change how you work.\n\nThe first thing to understand about this age is that they are mobile, intensely curious, and have essentially no sense of danger. They put things in their mouths, they climb, they pull things down on themselves, and they follow what interests them without any assessment of risk. Which is why this age group dominates poisoning, scalds, burns and falls. If the call is a swallowed something, this is usually the age.\n\nThe airway and breathing differences from infancy persist but lessen. The head is still relatively large, the airway still narrower, and they still tire faster than an adult.\n\nNow the behavioural half, which matters more than people expect.\n\nThey understand a great deal more than they can say. A three-year-old who cannot explain what hurts can understand almost everything you say to them, and they read tone and body language extremely accurately. If you are anxious, they know.\n\nSeparation from a caregiver is genuinely frightening at this age — more frightening, often, than whatever brought you there. So assess on the parent's lap wherever you possibly can. A child on a parent's knee will let you do things a child on a stretcher will fight.\n\nAssess from the toes upward rather than starting at the head. Hands and feet first, working up, leaving the face and head until last. Starting at the head is what a predator would do, and small children respond accordingly.\n\nBe honest, simply. If something is going to hurt, say that it will hurt a bit and that it will be quick. Telling a child something will not hurt when it will is the fastest way to lose their trust, and you lose it for every single person who deals with them afterwards — in the ambulance, in the department, at every appointment for years.\n\nOffer real but limited choices. Not 'can I look at your arm?' — which invites a no you cannot accept — but 'which arm shall I look at first?' The choice is genuine, the outcome is not in question, and it gives back a small amount of control to somebody who has none.\n\nAnd expect regression. A frightened four-year-old may behave like a two-year-old: wanting to be carried, losing words, thumb in mouth. That is a normal stress response, not a clinical finding, and it does not mean anything is neurologically wrong.",
+          "standard": "The toddler period spans approximately one to three years and the preschool period three to five. Mobility combined with curiosity and absent hazard perception renders this the predominant age group for poisoning, scald and thermal injury, and falls. Airway and respiratory differences from infancy persist with diminishing magnitude, including relatively large head, narrower airway calibre and reduced respiratory reserve. Receptive language substantially exceeds expressive language, and non-verbal cues including provider affect are accurately perceived. Separation from caregivers constitutes a significant stressor, frequently exceeding that of the presenting complaint; assessment on the caregiver's lap improves cooperation. Toe-to-head assessment sequence is preferred to cephalocaudal, deferring facial and cranial examination. Honest simple explanation is required; misrepresenting painful procedures as painless destroys trust with implications for subsequent providers across future healthcare encounters. Limited genuine choices are offered in preference to open questions permitting refusal of necessary intervention. Behavioural regression under stress is an expected response rather than a clinical finding."
+        },
+        "eli_new": {
+          "analogy": "Starting an examination at the head is what a predator does. Small children respond to that exactly as you would expect, and starting at the toes costs nothing.",
+          "body": "Never tell a child something will not hurt when it will. You do not just lose their trust for your call — you lose it for the nurse, the doctor, and everybody who has to do anything to that child for years afterwards."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why this age dominates certain injuries and how you approach assessing them.",
+          "must_hit": [
+            {
+              "point": "Mobile and curious with no sense of danger",
+              "accept": [
+                "mobile",
+                "curious",
+                "danger",
+                "climb",
+                "mouth"
+              ]
+            },
+            {
+              "point": "This age dominates poisoning, burns and falls",
+              "accept": [
+                "poison",
+                "burn",
+                "scald",
+                "fall",
+                "swallow"
+              ]
+            },
+            {
+              "point": "They understand more than they can say and read tone accurately",
+              "accept": [
+                "understand",
+                "say",
+                "tone",
+                "body language",
+                "read"
+              ]
+            },
+            {
+              "point": "Separation is frightening — assess on the parent's lap",
+              "accept": [
+                "separat",
+                "lap",
+                "parent",
+                "carer",
+                "frighten"
+              ]
+            },
+            {
+              "point": "Assess from the toes upward, leaving the head until last",
+              "accept": [
+                "toes",
+                "upward",
+                "feet",
+                "head last",
+                "toe-to-head"
+              ]
+            },
+            {
+              "point": "Be honest — never say something will not hurt when it will",
+              "accept": [
+                "honest",
+                "hurt",
+                "trust",
+                "lie",
+                "never"
+              ]
+            },
+            {
+              "point": "Offer limited real choices rather than yes-or-no questions",
+              "accept": [
+                "choice",
+                "which",
+                "limited",
+                "yes",
+                "no",
+                "control"
+              ]
+            },
+            {
+              "point": "Regression under stress is normal and not a finding",
+              "accept": [
+                "regress",
+                "normal",
+                "stress",
+                "younger",
+                "not a finding"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It won't hurt",
+          "dispatch": "Paediatric department feedback — four-year-old, repeat attender.",
+          "body": "Somebody had told her once that something would not hurt, and it had.\n\nTwo years later she fought everybody who came near her with anything at all, including people who were telling her the truth.\n\nThat trust was not lost for one procedure. It was lost for everybody who came afterwards."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm developmental age bands and approach guidance against the current text; band definitions vary slightly between sources."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-03",
+      "title": "School age and adolescent",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-08-02",
+        "EMT-01-03-05",
+        "EMT-05-08-02"
+      ],
+      "key_points": [
+        "School age runs roughly six to twelve; adolescence roughly thirteen to eighteen",
+        "School-age children can give a useful history and should be asked directly rather than only through a parent",
+        "They understand permanence and consequence, so they worry about disfigurement, disability and death",
+        "Modesty matters from school age onward — expose only what you must and cover them again promptly",
+        "Adolescents are physically close to adults and emotionally still developing, and the gap between those two misleads people",
+        "Risk-taking peaks in adolescence, and peer presence increases it",
+        "Adolescents may not speak honestly in front of parents or friends, so find a private moment where you can",
+        "Ask directly and without judgement about drugs, alcohol, pregnancy and self-harm, and explain confidentiality honestly",
+        "Never promise confidentiality you cannot keep — say what you must pass on and why"
+      ],
+      "misconceptions": [
+        "Talking only to the parent of a school-age child",
+        "Exposing an adolescent more than necessary or for longer",
+        "Asking about drugs or pregnancy in front of family",
+        "Promising a teenager that nothing will be passed on"
+      ],
+      "exam_favorites": [
+        "Asking school-age children directly",
+        "Modesty from school age onward",
+        "Finding privacy with an adolescent"
+      ],
+      "modes": {
+        "read": {
+          "plain": "School age runs roughly six to twelve, adolescence roughly thirteen to eighteen. The physiology is converging on adult by this point; the psychology is what shapes your approach.\n\nSchool-age children can give a genuinely useful history. They can locate pain, describe what happened, and answer questions accurately. So ask them directly, rather than talking over their heads to a parent — which is both discourteous and wastes the best source of information in the room.\n\nThey also understand permanence, which younger children do not. A six-year-old knows that death is forever and that some injuries do not get better. So they worry about specific things: whether they will be able to walk, whether their face will be scarred, whether they are going to die. Those fears are concrete and they can be answered honestly and simply, and answering them is worth doing.\n\nModesty begins to matter from school age and matters enormously from adolescence. Expose only what you need to expose, do it efficiently, and cover them again straight away. An adolescent left uncovered on a stretcher in front of strangers will remember that, and it will affect how they engage with healthcare afterwards.\n\nAdolescents are the group people misjudge most. Physically they are close to adults — sometimes larger than you — and it is easy to respond to that and forget that emotionally they are still developing. Judgement, impulse control and assessment of consequence are not finished, which is exactly why risk-taking peaks in this period and why peer presence increases it substantially. Adolescents do things in groups they would never do alone.\n\nThey may not tell you the truth in front of their parents, and they may not tell you the truth in front of their friends — for different reasons. So find a private moment if you can. In the back of the ambulance, alone, is often the first honest conversation of the call.\n\nAsk directly and without judgement about drugs, alcohol, pregnancy and self-harm. Directly, because hinting gets nothing. Without judgement, because any hint of disapproval ends the conversation immediately and permanently.\n\nAnd be honest about confidentiality. Explain what you will pass on and why — typically clinical information to the people treating them, and anything raising a safeguarding concern. Never promise that nothing will be repeated. It is a promise you cannot keep, and breaking it does more damage than never making it, both to that young person and to their willingness to tell the next professional anything at all.",
+          "standard": "School age spans approximately six to twelve years and adolescence thirteen to eighteen. Physiological parameters approach adult values across this period. School-age children provide reliable history including pain localisation and event description, and should be interviewed directly rather than exclusively through caregivers. Comprehension of permanence produces specific concerns regarding disability, disfigurement and mortality, which warrant direct honest response. Modesty considerations commence at school age and assume substantial importance in adolescence; exposure is minimised in extent and duration with prompt recovering. Adolescents demonstrate physical maturity preceding completion of cognitive and emotional development, particularly in judgement, impulse regulation and consequence appraisal, accounting for peak risk-taking behaviour and its amplification by peer presence. Disclosure may be inhibited by the presence of caregivers or peers through differing mechanisms; private interview is sought where practicable. Direct non-judgemental enquiry regarding substance use, alcohol, pregnancy and self-harm is indicated, as indirect questioning yields limited disclosure and perceived disapproval terminates disclosure. Confidentiality is explained accurately, specifying information that will be transmitted and the rationale; undertakings that cannot be honoured damage both the immediate therapeutic relationship and subsequent engagement with healthcare."
+        },
+        "eli_new": {
+          "analogy": "An adolescent may be taller than you and is not finished. The body arrives years before the judgement does, and responding to the body is the commonest mistake.",
+          "body": "The back of the ambulance, alone, is often where you get the first true answer of the call. Not because they were lying before — because there were people in the room they could not say it in front of."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to approach a school-age child and an adolescent, and how to handle confidentiality.",
+          "must_hit": [
+            {
+              "point": "School-age children can give useful history — ask them directly",
+              "accept": [
+                "directly",
+                "ask",
+                "history",
+                "child",
+                "parent"
+              ]
+            },
+            {
+              "point": "They understand permanence and worry about disability and death",
+              "accept": [
+                "permanence",
+                "death",
+                "scar",
+                "disabil",
+                "worry",
+                "forever"
+              ]
+            },
+            {
+              "point": "Modesty matters from school age and greatly in adolescence",
+              "accept": [
+                "modesty",
+                "expose",
+                "cover",
+                "privacy",
+                "dignity"
+              ]
+            },
+            {
+              "point": "Adolescents are physically mature before they are emotionally mature",
+              "accept": [
+                "physical",
+                "emotional",
+                "judgement",
+                "impulse",
+                "develop"
+              ]
+            },
+            {
+              "point": "Risk-taking peaks and peer presence increases it",
+              "accept": [
+                "risk",
+                "peak",
+                "peer",
+                "group",
+                "friends"
+              ]
+            },
+            {
+              "point": "They may not speak honestly in front of parents or peers — find privacy",
+              "accept": [
+                "private",
+                "alone",
+                "parent",
+                "peer",
+                "honest",
+                "ambulance"
+              ]
+            },
+            {
+              "point": "Ask directly and without judgement about drugs, alcohol, pregnancy, self-harm",
+              "accept": [
+                "drug",
+                "alcohol",
+                "pregnan",
+                "self-harm",
+                "judge",
+                "direct"
+              ]
+            },
+            {
+              "point": "Never promise confidentiality you cannot keep",
+              "accept": [
+                "promise",
+                "confidential",
+                "cannot keep",
+                "explain",
+                "pass on"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "In the back",
+          "dispatch": "Medic 6 — 16-year-old, collapse at a party, friends and then a parent present.",
+          "body": "She gave one account with her friends around her and a slightly different one with her mother in the room.\n\nIn the back of the ambulance, with the door shut and nobody else there, she gave a third one.\n\nNone of them had been lies exactly. There had simply been people in the room she could not say it in front of."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm developmental descriptions and confidentiality guidance against the current text and your jurisdiction's rules on adolescent confidentiality, which vary."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-08-04",
+      "title": "Adulthood and geriatric physiology",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-04-01",
+        "EMT-06-01-02",
+        "EMT-04-02-02"
+      ],
+      "key_points": [
+        "Early adulthood is the physiological peak; from middle adulthood onward reserve declines gradually",
+        "Ageing reduces reserve in every system, which means less capacity to compensate rather than obvious baseline dysfunction",
+        "The heart becomes less able to raise its rate, so an older patient may not mount the tachycardia you expect in shock",
+        "Beta blockers and other medications can blunt the same response, so a normal pulse can be profoundly misleading",
+        "Lungs become less elastic and the chest wall stiffer, so respiratory reserve falls",
+        "Kidneys clear medication more slowly, which changes how drugs accumulate",
+        "Skin becomes thin and fragile, and tears with forces that would not mark a younger patient",
+        "Bones lose density, so low-energy falls cause fractures — a fall from standing is a real mechanism",
+        "Pain perception and temperature regulation both change, so presentations are blunted and atypical"
+      ],
+      "misconceptions": [
+        "Expecting tachycardia in every shocked patient",
+        "Being reassured by a normal heart rate in an older patient on beta blockers",
+        "Treating a fall from standing as a trivial mechanism",
+        "Expecting classic presentations in older patients"
+      ],
+      "exam_favorites": [
+        "Reduced reserve rather than baseline dysfunction",
+        "Why tachycardia may be absent",
+        "Fall from standing as a real mechanism"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Early adulthood is roughly the physiological peak. From middle adulthood onward, reserve declines — gradually, in every system, and largely invisibly.\n\nThat word reserve is the key to this whole concept. Ageing does not usually mean an older patient's systems fail at rest. It means they have less spare capacity to call on when something goes wrong. At rest they look fine. Under stress they cannot compensate the way a younger person can, and they decompensate sooner and faster.\n\nThe cardiovascular consequence is the one that catches people out most. An older heart becomes less able to increase its rate. So an older patient in shock may not produce the tachycardia you are expecting, and a pulse that would reassure you in a thirty-year-old means much less at eighty.\n\nAnd it gets more misleading: beta blockers, and several other common medications, blunt the same response deliberately. So a patient on a beta blocker may maintain a normal heart rate while bleeding significantly. A normal pulse in an older patient on cardiac medication is one of the least informative findings you can collect, and it is routinely read as reassurance.\n\nThe lungs become less elastic and the chest wall stiffer, so respiratory reserve falls too. Less ability to increase work of breathing, and faster exhaustion when they have to.\n\nThe kidneys clear medications more slowly, so drugs accumulate. This matters for you mainly as context — an older patient on several medications may be experiencing effects from accumulation rather than from anything new.\n\nSkin becomes thin and fragile. Forces that would not mark a young adult tear an older patient's skin, and those tears are slow to heal and easily infected. Handling matters more than people realise: sliding rather than lifting, careless tape removal, and a rough transfer all cause real injury.\n\nBones lose density. Which is why a fall from standing height — which is nothing in a young adult — fractures hips, wrists and pelvises routinely in older people. It barely registers as a mechanism if you are thinking in road speeds, and it is one of the most common serious mechanisms you will attend.\n\nAnd presentations blunt. Pain perception changes, so a myocardial infarction may present without chest pain. Temperature regulation changes, so serious infection may occur without a fever. The classic presentations you learn are drawn from younger patients, and older patients frequently do not read them.\n\nWhich gives the organising principle: in an older patient, expect less compensation, expect fewer classic findings, and give the same finding more weight than you would in somebody young.",
+          "standard": "Early adulthood represents peak physiological function, with progressive decline in reserve capacity from middle adulthood. Ageing predominantly reduces compensatory reserve rather than producing resting dysfunction; baseline function appears preserved while capacity to respond to physiological stress is diminished, producing earlier and more rapid decompensation. Cardiovascular ageing reduces chronotropic response, so expected tachycardia may be absent in shock; beta blockade and other rate-limiting medications produce equivalent blunting, rendering normal heart rate substantially uninformative in geriatric patients receiving cardiac medication. Reduced pulmonary elasticity and increased chest wall rigidity diminish respiratory reserve with earlier fatigue. Reduced renal clearance produces medication accumulation. Cutaneous thinning and fragility result in skin tearing from forces producing no injury in younger patients, with delayed healing and infection risk; handling technique, transfer method and adhesive removal are consequential. Reduced bone density produces fracture from low-energy mechanisms, rendering ground-level falls a significant mechanism. Altered nociception and thermoregulation produce atypical presentation, including myocardial infarction without chest pain and serious infection without pyrexia. Assessment therefore anticipates reduced compensation, fewer classical findings, and assigns greater significance to individual findings."
+        },
+        "eli_new": {
+          "analogy": "Ageing does not break the systems. It removes the spare capacity, so everything looks fine until the moment something is asked of it.",
+          "body": "A normal heart rate in an older patient on a beta blocker tells you almost nothing. The medication is deliberately preventing the exact response you are looking for, and plenty of patients have bled significantly with a pulse of 70."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what ageing does to reserve and why a normal pulse can mislead in an older patient.",
+          "must_hit": [
+            {
+              "point": "Ageing reduces reserve rather than causing obvious resting dysfunction",
+              "accept": [
+                "reserve",
+                "spare",
+                "capacity",
+                "rest",
+                "compensat"
+              ]
+            },
+            {
+              "point": "An older heart is less able to raise its rate, so tachycardia may be absent",
+              "accept": [
+                "rate",
+                "tachycard",
+                "absent",
+                "raise",
+                "chronotrop"
+              ]
+            },
+            {
+              "point": "Beta blockers blunt the same response",
+              "accept": [
+                "beta blocker",
+                "medication",
+                "blunt",
+                "mask",
+                "normal pulse"
+              ]
+            },
+            {
+              "point": "Respiratory reserve falls as lungs and chest wall stiffen",
+              "accept": [
+                "lung",
+                "elastic",
+                "chest wall",
+                "reserve",
+                "respiratory"
+              ]
+            },
+            {
+              "point": "Kidneys clear medications more slowly, so drugs accumulate",
+              "accept": [
+                "kidney",
+                "clear",
+                "slow",
+                "accumulat",
+                "drug"
+              ]
+            },
+            {
+              "point": "Skin is thin and fragile and tears easily",
+              "accept": [
+                "skin",
+                "thin",
+                "fragile",
+                "tear",
+                "handling"
+              ]
+            },
+            {
+              "point": "Bones lose density, so a fall from standing is a real mechanism",
+              "accept": [
+                "bone",
+                "density",
+                "standing",
+                "fall",
+                "fracture",
+                "mechanism"
+              ]
+            },
+            {
+              "point": "Presentations blunt — infarction without chest pain, infection without fever",
+              "accept": [
+                "atypical",
+                "chest pain",
+                "fever",
+                "blunt",
+                "classic"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Pulse of seventy",
+          "dispatch": "Medic 1 — 82-year-old, fall at home, on a beta blocker.",
+          "body": "Her pulse was 70 and somebody wrote it down and moved on, because 70 is what a pulse is supposed to be.\n\nHer skin was cool, her capillary refill was slow, and she was bleeding into her pelvis.\n\nThe medication she took every morning was specifically preventing the one sign everybody was looking for."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Young adult in shock",
+          "right_label": "Older adult in shock",
+          "rows": [
+            {
+              "feature": "Heart rate",
+              "left": "Rises early and reliably",
+              "right": "MAY NOT RISE — reduced capacity, and beta blockers blunt it further"
+            },
+            {
+              "feature": "What a normal pulse means",
+              "left": "Reasonably reassuring",
+              "right": "ALMOST UNINFORMATIVE — especially on cardiac medication"
+            },
+            {
+              "feature": "Compensation",
+              "left": "Substantial reserve, holds for a while",
+              "right": "Little reserve — decompensates sooner and faster"
+            },
+            {
+              "feature": "Respiratory reserve",
+              "left": "Can increase work considerably",
+              "right": "Stiffer chest, less elastic lungs, tires sooner"
+            },
+            {
+              "feature": "Mechanism needed to injure",
+              "left": "Significant energy",
+              "right": "A FALL FROM STANDING is a real mechanism"
+            },
+            {
+              "feature": "Skin",
+              "left": "Tolerates handling",
+              "right": "Thin and fragile — tears from ordinary transfers and tape"
+            },
+            {
+              "feature": "Presentation",
+              "left": "Usually classical",
+              "right": "Frequently ATYPICAL — infarction without chest pain, sepsis without fever"
+            },
+            {
+              "feature": "Medication effects",
+              "left": "Few",
+              "right": "Polypharmacy, slower clearance, accumulation"
+            },
+            {
+              "feature": "How to read a finding",
+              "left": "At face value",
+              "right": "GIVE IT MORE WEIGHT — there is less reserve behind it"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the physiological changes of ageing against the current text. No medication names beyond the drug class are stated and no doses appear."
     }
   ]
 }
