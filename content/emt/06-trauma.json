@@ -1144,7 +1144,19 @@
         "sequence": 2
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm tourniquet indications, application technique and the guidance on field release against the current text and local protocol. Manufacturer instructions for the specific device carried also govern. No maximum application times are stated here; those vary between sources and are a hospital decision."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm tourniquet indications, application technique and the guidance on field release against the current text and local protocol. Manufacturer instructions for the specific device carried also govern. No maximum application times are stated here; those vary between sources and are a hospital decision.",
+      "media": [
+        {
+          "id": "tourniquet_placement",
+          "src": "media/emt/06/tourniquet_placement.svg",
+          "kind": "diagram",
+          "alt": "Four panels on tourniquet placement. Panel 1, arm, CORRECT: tourniquet high on the upper arm over the single bone of the humerus, well above a forearm wound. Panel 2, arm, WRONG: tourniquet across the elbow joint, which cannot compress effectively. Panel 3, leg: tourniquet high on the thigh over the single femur, with a second tourniquet drawn just above the first, to add if one does not control the bleeding. Panel 4, the endpoint: tighten until BOTH the bleeding stops AND the pulse below the tourniquet is gone; it will hurt, and that is not a reason to loosen it. A warning box states that a tourniquet tight enough for veins but not arteries makes bleeding worse, because blood keeps arriving through the deeper arteries and cannot leave through the compressed surface veins, so increased bleeding after application means tighten further, not remove. Notes: write the time of application on the device or the patient; never cover it; do not release it in the field.",
+          "caption": "High and tight over a single bone, never over a joint, and tightened until the pulse below it is gone.",
+          "source": "original",
+          "license": "original work for L1A",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -2673,7 +2685,19 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the burn depth descriptions and the exclusion of superficial burns from extent calculations against the current text."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the burn depth descriptions and the exclusion of superficial burns from extent calculations against the current text.",
+      "media": [
+        {
+          "id": "burn_depth",
+          "src": "media/emt/06/burn_depth_cross_section.svg",
+          "kind": "diagram",
+          "alt": "Cross-section through skin, three layers top to bottom: epidermis as a thin band, dermis as a thicker band containing nerve endings and blood vessels, and subcutaneous tissue. Three burns cut to different depths. SUPERFICIAL stops within the epidermis: red, dry, painful, no blisters, e.g. sunburn, NOT counted in extent. PARTIAL THICKNESS extends into the dermis: blisters, moist, mottled, intensely painful because nerve endings are damaged but still working; counted. FULL THICKNESS extends through all layers: white, waxy, leathery or charred, dry, painless because nerve endings are destroyed; counted. An arrow left to right reads increasing depth, with a counter-arrow above reading increasing pain, showing that the worst burns hurt least. Notes: a full thickness burn is almost always ringed by partial thickness burn, which is where the pain comes from; a circumferential full thickness burn constricts as the tissue beneath swells.",
+          "caption": "Depth increases left to right and pain decreases with it. The burn that does not hurt is the one that needs a surgeon.",
+          "source": "original",
+          "license": "original work for L1A",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -2898,7 +2922,87 @@
         "calculation": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Adult and infant rule of nines figures are standard curriculum values and must still be confirmed against AAOS Emergency Care 12e. The intermediate paediatric values between infant and adult are DELIBERATELY NOT STATED because they vary between sources and editions; Lund-Browder charts are used at hospital for those ages. Sources also differ on whether the palm method's one percent includes the fingers — confirm which your text uses."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Adult and infant rule of nines figures are standard curriculum values and must still be confirmed against AAOS Emergency Care 12e. The intermediate paediatric values between infant and adult are DELIBERATELY NOT STATED because they vary between sources and editions; Lund-Browder charts are used at hospital for those ages. Sources also differ on whether the palm method's one percent includes the fingers — confirm which your text uses.",
+      "media": [
+        {
+          "id": "rule_of_nines",
+          "src": "media/emt/06/rule_of_nines.svg",
+          "kind": "diagram",
+          "alt": "Two body outlines side by side, front view, showing the percentage of total body surface area for each region. The adult figure on the left: head and neck 9 percent, each arm 9 percent, front of trunk 18 percent, back of trunk 18 percent, each leg 18 percent, genitalia 1 percent, totalling 100 percent. The infant figure on the right is drawn with a proportionally much larger head and shorter legs: head 18 percent, each arm 9 percent, front of trunk 18 percent, back of trunk 18 percent, each leg 14 percent. A note between them states that the head is where the two differ, and that it differs by double. A second note states that the intermediate ages between infant and adult have no simple rule, that values vary between sources, and that a Lund-Browder chart is used at hospital for those ages. A third note states that the patient's own palm is approximately one percent, used for scattered or irregular burns, and that superficial burns are not counted in the total.",
+          "caption": "The head is where adult and infant part company, and it parts by double. The ages in between have no clean rule.",
+          "source": "original",
+          "license": "original work for L1A",
+          "print_safe": true,
+          "labels": [
+            {
+              "id": "adult_head",
+              "text": "Adult head and neck — 9%",
+              "x": 21.0,
+              "y": 23.6
+            },
+            {
+              "id": "adult_arm",
+              "text": "Adult arm, each — 9%",
+              "x": 14.9,
+              "y": 38.6
+            },
+            {
+              "id": "adult_front_trunk",
+              "text": "Adult front of trunk — 18%",
+              "x": 21.0,
+              "y": 33.6
+            },
+            {
+              "id": "adult_back_trunk",
+              "text": "Adult back of trunk — 18%",
+              "x": 21.0,
+              "y": 43.6
+            },
+            {
+              "id": "adult_leg",
+              "text": "Adult leg, each — 18%",
+              "x": 19.0,
+              "y": 60.5
+            },
+            {
+              "id": "adult_genitalia",
+              "text": "Adult genitalia — 1%",
+              "x": 21.0,
+              "y": 50.7
+            },
+            {
+              "id": "infant_head",
+              "text": "Infant head — 18%, double the adult",
+              "x": 73.9,
+              "y": 25.0
+            },
+            {
+              "id": "infant_arm",
+              "text": "Infant arm, each — 9%",
+              "x": 68.2,
+              "y": 40.7
+            },
+            {
+              "id": "infant_front_trunk",
+              "text": "Infant front of trunk — 18%",
+              "x": 73.9,
+              "y": 37.0
+            },
+            {
+              "id": "infant_back_trunk",
+              "text": "Infant back of trunk — 18%",
+              "x": 73.9,
+              "y": 45.9
+            },
+            {
+              "id": "infant_leg",
+              "text": "Infant leg, each — 14%",
+              "x": 72.1,
+              "y": 59.3
+            }
+          ]
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -5661,7 +5765,19 @@
         "sequence": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the selective spinal motion restriction criteria against YOUR OWN service's protocol, which governs and varies substantially between systems. The criteria listed here are the categories commonly assessed, not a decision rule."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the selective spinal motion restriction criteria against YOUR OWN service's protocol, which governs and varies substantially between systems. The criteria listed here are the categories commonly assessed, not a decision rule.",
+      "media": [
+        {
+          "id": "smr_decision_flow",
+          "src": "media/emt/06/smr_decision_flow.svg",
+          "kind": "flowchart",
+          "alt": "Decision flowchart for selective spinal motion restriction. It starts with manual in-line stabilisation, applied first and maintained throughout. Four decision diamonds follow: 1, altered mental status or intoxicated? 2, any neurological deficit such as weakness or numbness? 3, MIDLINE spinal tenderness, meaning over the spine itself and not the muscle beside it? 4, any distracting injury? A YES at any diamond leads to RESTRICT PER PROTOCOL: sized cervical collar, scoop transfer rather than log roll, padded stretcher, minimal handling, smooth transport, with the goal stated as minimising movement rather than rigid immobilisation. NO at all four leads to restriction generally not indicated per protocol, documenting each criterion assessed. A footer states that mechanism is deliberately not one of the boxes, that the backboard is an extrication device, and to use your own protocol's criteria.",
+          "caption": "Mechanism is deliberately not one of the boxes. That is the whole change from previous practice.",
+          "source": "original",
+          "license": "original work for L1A",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",

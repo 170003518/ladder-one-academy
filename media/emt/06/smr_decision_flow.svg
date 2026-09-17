@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 700" width="760" height="700" role="img" aria-labelledby="t d">
+  <title id="t">Spinal motion restriction decision flow</title>
+  <desc id="d">Decision flowchart for selective spinal motion restriction. It starts with manual in-line stabilisation, applied first and maintained throughout. Four decision diamonds follow: 1, altered mental status or intoxicated? 2, any neurological deficit such as weakness or numbness? 3, MIDLINE spinal tenderness, meaning over the spine itself and not the muscle beside it? 4, any distracting injury? A YES at any diamond leads to RESTRICT PER PROTOCOL: sized cervical collar, scoop transfer rather than log roll, padded stretcher, minimal handling, smooth transport, with the goal stated as minimising movement rather than rigid immobilisation. NO at all four leads to restriction generally not indicated per protocol, documenting each criterion assessed. A footer states that mechanism is deliberately not one of the boxes, that the backboard is an extrication device, and to use your own protocol's criteria.</desc>
+  <style>
+    .box{fill:#F5F7FA;stroke:#0F1F3D;stroke-width:2}
+    .act{fill:#0F1F3D;stroke:#0F1F3D;stroke-width:2}
+    .actw{fill:#FFF4EE;stroke:#F25C19;stroke-width:2}
+    .dia{fill:#FFFFFF;stroke:#2E7DFF;stroke-width:2}
+    .txt{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#0F1F3D}
+    .txtw{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#FFFFFF}
+    .sm{font-family:Inter,Arial,sans-serif;font-size:11px;fill:#8A94A6}
+    .smw{font-family:Inter,Arial,sans-serif;font-size:11px;fill:#D8DEE8}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:13px;letter-spacing:1px;fill:#0F1F3D}
+    .ttlw{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:13px;letter-spacing:1px;fill:#FFFFFF}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .cap{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .note{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#0F1F3D}
+    .arr{stroke:#0F1F3D;stroke-width:1.8;fill:none}
+    .yes{font-family:'IBM Plex Mono',Menlo,monospace;font-size:11px;font-weight:700;fill:#C0392B}
+    .no{font-family:'IBM Plex Mono',Menlo,monospace;font-size:11px;font-weight:700;fill:#1B7F4B}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0F1F3D"/></marker>
+  </defs>
+  <rect width="760" height="700" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="34">SPINAL MOTION RESTRICTION</text>
+  <text class="cap" x="28" y="54">Selective, not universal. The patient decides this, not the mechanism.</text>
+
+  <!-- start -->
+  <rect class="act" x="150" y="74" width="330" height="52" rx="6"/>
+  <text class="ttlw" x="166" y="96">MANUAL IN-LINE STABILISATION</text>
+  <text class="smw" x="166" y="114">Apply first. Maintain throughout. Costs nothing, harms nobody.</text>
+  <line class="arr" x1="315" y1="126" x2="315" y2="148" marker-end="url(#a)"/>
+
+  <!-- D1 -->
+  <polygon class="dia" points="315,152 500,196 315,240 130,196"/>
+  <text class="txt" x="212" y="192">Altered mental status,</text>
+  <text class="txt" x="248" y="210">or intoxicated?</text>
+  <text class="no" x="322" y="256">NO</text>
+  <line class="arr" x1="315" y1="240" x2="315" y2="266" marker-end="url(#a)"/>
+  <text class="yes" x="510" y="192">YES</text>
+  <line class="arr" x1="500" y1="196" x2="620" y2="196"/>
+  <line class="arr" x1="620" y1="196" x2="620" y2="474" marker-end="url(#a)"/>
+
+  <!-- D2 -->
+  <polygon class="dia" points="315,270 500,314 315,358 130,314"/>
+  <text class="txt" x="196" y="310">Any neurological deficit —</text>
+  <text class="txt" x="204" y="328">weakness, numbness?</text>
+  <text class="no" x="322" y="374">NO</text>
+  <line class="arr" x1="315" y1="358" x2="315" y2="384" marker-end="url(#a)"/>
+  <text class="yes" x="510" y="310">YES</text>
+  <line class="arr" x1="500" y1="314" x2="620" y2="314"/>
+
+  <!-- D3 -->
+  <polygon class="dia" points="315,388 500,432 315,476 130,432"/>
+  <text class="txt" x="216" y="418">MIDLINE spinal</text>
+  <text class="txt" x="236" y="436">tenderness?</text>
+  <text class="sm" x="176" y="452">over the spine, not the muscle beside it</text>
+  <text class="no" x="322" y="492">NO</text>
+  <line class="arr" x1="315" y1="476" x2="315" y2="502" marker-end="url(#a)"/>
+  <text class="yes" x="510" y="428">YES</text>
+  <line class="arr" x1="500" y1="432" x2="620" y2="432"/>
+
+  <!-- D4 -->
+  <polygon class="dia" points="315,506 500,550 315,594 130,550"/>
+  <text class="txt" x="232" y="546">Any distracting</text>
+  <text class="txt" x="256" y="564">injury?</text>
+  <text class="no" x="322" y="610">NO</text>
+  <line class="arr" x1="315" y1="594" x2="315" y2="616" marker-end="url(#a)"/>
+  <text class="yes" x="510" y="546">YES</text>
+  <line class="arr" x1="500" y1="550" x2="620" y2="550"/>
+  <line class="arr" x1="620" y1="550" x2="620" y2="474"/>
+
+  <!-- restrict -->
+  <rect class="actw" x="536" y="474" width="196" height="96" rx="6"/>
+  <text class="ttl" x="550" y="496">RESTRICT PER PROTOCOL</text>
+  <text class="sm" x="550" y="514">Sized collar · scoop, not log roll</text>
+  <text class="sm" x="550" y="530">Padded stretcher · minimal handling</text>
+  <text class="sm" x="550" y="546">Goal is MINIMISING MOVEMENT,</text>
+  <text class="sm" x="550" y="562">not rigid immobilisation</text>
+
+  <!-- no restrict -->
+  <rect class="box" x="130" y="616" width="370" height="52" rx="6"/>
+  <text class="ttl" x="146" y="638">RESTRICTION GENERALLY NOT INDICATED</text>
+  <text class="sm" x="146" y="656">Per protocol. Document each criterion you assessed.</text>
+
+  <text class="note" x="28" y="672">MECHANISM IS NOT ONE OF THE BOXES — that is the change from previous practice.</text>
+  <text class="note" x="28" y="690">The long backboard is an EXTRICATION device. Use YOUR OWN protocol's criteria.</text>
+</svg>

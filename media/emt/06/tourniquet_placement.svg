@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 540" width="820" height="540" role="img" aria-labelledby="t d">
+  <title id="t">Tourniquet placement</title>
+  <desc id="d">Four panels on tourniquet placement. Panel 1, arm, CORRECT: tourniquet high on the upper arm over the single bone of the humerus, well above a forearm wound. Panel 2, arm, WRONG: tourniquet across the elbow joint, which cannot compress effectively. Panel 3, leg: tourniquet high on the thigh over the single femur, with a second tourniquet drawn just above the first, to add if one does not control the bleeding. Panel 4, the endpoint: tighten until BOTH the bleeding stops AND the pulse below the tourniquet is gone; it will hurt, and that is not a reason to loosen it. A warning box states that a tourniquet tight enough for veins but not arteries makes bleeding worse, because blood keeps arriving through the deeper arteries and cannot leave through the compressed surface veins, so increased bleeding after application means tighten further, not remove. Notes: write the time of application on the device or the patient; never cover it; do not release it in the field.</desc>
+  <style>
+    .limb{stroke:#0F1F3D;stroke-width:2.5;fill:#F5F7FA}
+    .bone{stroke:#8A94A6;stroke-width:2;stroke-dasharray:5 3;fill:none}
+    .tq{fill:#0F1F3D}
+    .tqbad{fill:#C0392B}
+    .wound{fill:#C0392B}
+    .ok{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:15px;letter-spacing:1px;fill:#1B7F4B}
+    .bad{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:15px;letter-spacing:1px;fill:#C0392B}
+    .lbl{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#0F1F3D}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:15px;letter-spacing:1px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .cap{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .note{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#0F1F3D}
+    .warn{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#C0392B}
+    .lead{stroke:#8A94A6;stroke-width:1;fill:none}
+    .box{fill:#FFF4EE;stroke:#F25C19;stroke-width:1.5}
+  </style>
+  <rect width="820" height="540" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="34">TOURNIQUET PLACEMENT</text>
+  <text class="cap" x="28" y="54">High and tight, over a single bone, never over a joint — and tight enough that the pulse below it is gone.</text>
+
+  <!-- ===== panel 1: arm, correct ===== -->
+  <text class="ttl" x="40" y="90">ARM — CORRECT</text>
+  <rect class="limb" x="66" y="102" width="34" height="92" rx="14"/>
+  <rect class="limb" x="66" y="200" width="34" height="86" rx="14"/>
+  <line class="bone" x1="83" y1="110" x2="83" y2="188"/>
+  <line class="bone" x1="77" y1="208" x2="77" y2="278"/>
+  <line class="bone" x1="89" y1="208" x2="89" y2="278"/>
+  <text class="cap" x="106" y="152">one bone</text>
+  <text class="cap" x="106" y="248">two bones</text>
+  <rect class="tq" x="58" y="118" width="50" height="14" rx="3"/>
+  <circle class="wound" cx="83" cy="244" r="7"/>
+  <text class="ok" x="40" y="312">HIGH AND TIGHT</text>
+  <text class="lbl" x="40" y="332">Above the wound, over the</text>
+  <text class="lbl" x="40" y="348">single bone of the upper arm</text>
+
+  <!-- ===== panel 2: arm, wrong ===== -->
+  <text class="ttl" x="236" y="90">ARM — WRONG</text>
+  <rect class="limb" x="262" y="102" width="34" height="92" rx="14"/>
+  <rect class="limb" x="262" y="200" width="34" height="86" rx="14"/>
+  <rect class="tqbad" x="254" y="189" width="50" height="14" rx="3"/>
+  <circle class="wound" cx="279" cy="244" r="7"/>
+  <text class="bad" x="236" y="312">OVER A JOINT</text>
+  <text class="lbl" x="236" y="332">It cannot compress the vessel</text>
+  <text class="lbl" x="236" y="348">effectively. It will not work.</text>
+
+  <!-- ===== panel 3: leg, correct, second TQ ===== -->
+  <text class="ttl" x="432" y="90">LEG — AND A SECOND</text>
+  <rect class="limb" x="458" y="102" width="40" height="100" rx="16"/>
+  <rect class="limb" x="460" y="208" width="36" height="88" rx="14"/>
+  <line class="bone" x1="478" y1="110" x2="478" y2="196"/>
+  <rect class="tq" x="450" y="152" width="56" height="14" rx="3"/>
+  <rect class="tq" x="450" y="130" width="56" height="14" rx="3"/>
+  <circle class="wound" cx="478" cy="256" r="7"/>
+  <line class="lead" x1="510" y1="137" x2="538" y2="137"/>
+  <text class="cap" x="542" y="141">2nd</text>
+  <text class="ok" x="432" y="312">THIGH — SINGLE BONE</text>
+  <text class="lbl" x="432" y="332">Two bones may let the vessel</text>
+  <text class="lbl" x="432" y="348">between them escape</text>
+  <text class="lbl" x="432" y="370">A SECOND just above the first</text>
+  <text class="lbl" x="432" y="386">if one does not control it</text>
+
+  <!-- ===== panel 4: endpoint ===== -->
+  <text class="ttl" x="628" y="90">THE ENDPOINT</text>
+  <text class="lbl" x="628" y="118">Tighten until BOTH:</text>
+  <text class="lbl" x="628" y="146">1. The bleeding STOPS</text>
+  <text class="lbl" x="628" y="170">2. The pulse BELOW it</text>
+  <text class="lbl" x="646" y="186">is GONE</text>
+  <text class="cap" x="628" y="214">Not a number of turns.</text>
+  <text class="cap" x="628" y="230">Not until it looks tight.</text>
+  <text class="lbl" x="628" y="262">IT WILL HURT.</text>
+  <text class="cap" x="628" y="280">That is expected, and it is</text>
+  <text class="cap" x="628" y="296">not a reason to loosen it.</text>
+
+  <!-- ===== warning box ===== -->
+  <rect class="box" x="28" y="376" width="764" height="70" rx="6"/>
+  <text class="warn" x="44" y="400">TOO LOOSE IS WORSE THAN NONE. A tourniquet tight enough for veins but not arteries lets blood keep arriving</text>
+  <text class="warn" x="44" y="420">through the deeper arteries with no way out through the compressed surface veins — so the limb engorges and bleeds harder.</text>
+  <text class="warn" x="44" y="440">IF BLEEDING INCREASES AFTER YOU APPLY IT, TIGHTEN FURTHER. Do not remove it.</text>
+
+  <text class="note" x="28" y="478">WRITE THE TIME OF APPLICATION on the device or on the patient's skin.</text>
+  <text class="note" x="28" y="498">NEVER COVER IT — a tourniquet nobody can see is a tourniquet nobody manages.</text>
+  <text class="note" x="28" y="518">DO NOT RELEASE OR PERIODICALLY LOOSEN IT IN THE FIELD. Release is a hospital decision.</text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" width="820" height="560" role="img" aria-labelledby="t d">
+  <title id="t">Rule of nines: adult and infant</title>
+  <desc id="d">Two body outlines side by side, front view, showing the percentage of total body surface area for each region. The adult figure on the left: head and neck 9 percent, each arm 9 percent, front of trunk 18 percent, back of trunk 18 percent, each leg 18 percent, genitalia 1 percent, totalling 100 percent. The infant figure on the right is drawn with a proportionally much larger head and shorter legs: head 18 percent, each arm 9 percent, front of trunk 18 percent, back of trunk 18 percent, each leg 14 percent. A note between them states that the head is where the two differ, and that it differs by double. A second note states that the intermediate ages between infant and adult have no simple rule, that values vary between sources, and that a Lund-Browder chart is used at hospital for those ages. A third note states that the patient's own palm is approximately one percent, used for scattered or irregular burns, and that superficial burns are not counted in the total.</desc>
+  <style>
+    .body{stroke:#0F1F3D;stroke-width:2.5;fill:#F5F7FA}
+    .div{stroke:#8A94A6;stroke-width:1.2;stroke-dasharray:4 3}
+    .pct{font-family:'IBM Plex Mono',Menlo,monospace;font-size:15px;font-weight:700;fill:#0F1F3D}
+    .pcto{font-family:'IBM Plex Mono',Menlo,monospace;font-size:15px;font-weight:700;fill:#F25C19}
+    .lbl{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#0F1F3D}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:17px;letter-spacing:1px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .sub{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .note{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#0F1F3D}
+    .lead{stroke:#8A94A6;stroke-width:1;fill:none}
+  </style>
+  <rect width="820" height="560" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="34">RULE OF NINES</text>
+  <text class="sub" x="28" y="54">The head is where adult and infant part company, and it parts by double.</text>
+
+  <!-- ===================== ADULT ===================== -->
+  <text class="ttl" x="112" y="90">ADULT</text>
+  <!-- head -->
+  <circle class="body" cx="172" cy="132" r="26"/>
+  <!-- trunk -->
+  <rect class="body" x="140" y="160" width="64" height="112" rx="6"/>
+  <!-- arms -->
+  <rect class="body" x="110" y="164" width="24" height="104" rx="10"/>
+  <rect class="body" x="210" y="164" width="24" height="104" rx="10"/>
+  <!-- legs -->
+  <rect class="body" x="142" y="276" width="28" height="126" rx="10"/>
+  <rect class="body" x="174" y="276" width="28" height="126" rx="10"/>
+  <!-- trunk front/back divider -->
+  <line class="div" x1="140" y1="216" x2="204" y2="216"/>
+
+  <text class="pct" x="160" y="137">9%</text>
+  <text class="pct" x="107" y="216">9%</text>
+  <text class="pct" x="207" y="216">9%</text>
+  <text class="pct" x="157" y="196">18%</text>
+  <text class="pct" x="157" y="250">18%</text>
+  <text class="pct" x="144" y="344">18%</text>
+  <text class="pct" x="176" y="344">18%</text>
+  <text class="pcto" x="162" y="286">1%</text>
+
+  <line class="lead" x1="132" y1="196" x2="96" y2="188"/>
+  <text class="lbl" x="24" y="186">head + neck</text>
+  <line class="lead" x1="132" y1="252" x2="96" y2="262"/>
+  <text class="lbl" x="34" y="266">each arm</text>
+  <line class="lead" x1="212" y1="196" x2="252" y2="188"/>
+  <text class="lbl" x="256" y="186">front of trunk</text>
+  <line class="lead" x1="212" y1="250" x2="252" y2="244"/>
+  <text class="lbl" x="256" y="242">back of trunk</text>
+  <line class="lead" x1="212" y1="344" x2="252" y2="344"/>
+  <text class="lbl" x="256" y="348">each leg</text>
+  <line class="lead" x1="150" y1="286" x2="96" y2="306"/>
+  <text class="lbl" x="24" y="310">genitalia</text>
+  <text class="sub" x="112" y="424">9 + 18 + 36 + 36 + 1 = 100</text>
+
+  <!-- ===================== INFANT ===================== -->
+  <text class="ttl" x="546" y="90">INFANT</text>
+  <!-- head: proportionally much larger -->
+  <circle class="body" cx="606" cy="140" r="40"/>
+  <!-- trunk -->
+  <rect class="body" x="576" y="182" width="60" height="100" rx="6"/>
+  <!-- arms -->
+  <rect class="body" x="548" y="186" width="22" height="84" rx="9"/>
+  <rect class="body" x="642" y="186" width="22" height="84" rx="9"/>
+  <!-- legs: proportionally shorter -->
+  <rect class="body" x="578" y="286" width="26" height="92" rx="9"/>
+  <rect class="body" x="608" y="286" width="26" height="92" rx="9"/>
+  <line class="div" x1="576" y1="232" x2="636" y2="232"/>
+
+  <text class="pcto" x="589" y="146">18%</text>
+  <text class="pct" x="545" y="232">9%</text>
+  <text class="pct" x="639" y="232">9%</text>
+  <text class="pct" x="592" y="214">18%</text>
+  <text class="pct" x="592" y="268">18%</text>
+  <text class="pcto" x="578" y="336">14%</text>
+  <text class="pcto" x="610" y="336">14%</text>
+
+  <line class="lead" x1="568" y1="146" x2="528" y2="136"/>
+  <text class="lbl" x="440" y="134">head — DOUBLE the adult</text>
+  <line class="lead" x1="644" y1="336" x2="684" y2="336"/>
+  <text class="lbl" x="688" y="340">each leg — less</text>
+  <text class="sub" x="538" y="400">18 + 18 + 36 + 28 = 100</text>
+
+  <!-- ===================== NOTES ===================== -->
+  <line class="div" x1="28" y1="444" x2="792" y2="444"/>
+  <text class="note" x="28" y="468">AGES IN BETWEEN: there is no clean rule. Values vary between sources, so none is printed here.</text>
+  <text class="note" x="28" y="488">Estimate with palms, describe exactly what is burned, and let the hospital apply a Lund-Browder chart.</text>
+  <text class="note" x="28" y="514">PALM METHOD: the PATIENT'S own palm is about 1% — use theirs, not yours. For scattered or irregular burns.</text>
+  <text class="note" x="28" y="534">COUNT PARTIAL AND FULL THICKNESS ONLY. Superficial burns are excluded from the total.</text>
+</svg>

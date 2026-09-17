@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-labelledby="t d">
+  <title id="t">Burn depth: cross-section through skin</title>
+  <desc id="d">Cross-section through skin, three layers top to bottom: epidermis as a thin band, dermis as a thicker band containing nerve endings and blood vessels, and subcutaneous tissue. Three burns cut to different depths. SUPERFICIAL stops within the epidermis: red, dry, painful, no blisters, e.g. sunburn, NOT counted in extent. PARTIAL THICKNESS extends into the dermis: blisters, moist, mottled, intensely painful because nerve endings are damaged but still working; counted. FULL THICKNESS extends through all layers: white, waxy, leathery or charred, dry, painless because nerve endings are destroyed; counted. An arrow left to right reads increasing depth, with a counter-arrow above reading increasing pain, showing that the worst burns hurt least. Notes: a full thickness burn is almost always ringed by partial thickness burn, which is where the pain comes from; a circumferential full thickness burn constricts as the tissue beneath swells.</desc>
+  <style>
+    .epi{fill:#FFE3D2;stroke:#0F1F3D;stroke-width:1.5}
+    .der{fill:#FFD0D9;stroke:#0F1F3D;stroke-width:1.5}
+    .sub{fill:#F0E6D8;stroke:#0F1F3D;stroke-width:1.5}
+    .burn1{fill:#F25C19;opacity:0.55}
+    .burn2{fill:#D6452F;opacity:0.6}
+    .burn3{fill:#3A3A3A;opacity:0.75}
+    .nerve{stroke:#2E7DFF;stroke-width:1.6;fill:none}
+    .vess{stroke:#C0392B;stroke-width:1.6;fill:none}
+    .lyr{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#0F1F3D}
+    .lbl{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#0F1F3D}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:15px;letter-spacing:1px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .cap{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .note{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#0F1F3D}
+    .count{font-family:'IBM Plex Mono',Menlo,monospace;font-size:11px;font-weight:700;fill:#0F1F3D}
+    .lead{stroke:#8A94A6;stroke-width:1;fill:none}
+    .axis{stroke:#0F1F3D;stroke-width:1.8;fill:none}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0F1F3D"/></marker>
+  </defs>
+  <rect width="800" height="520" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="34">BURN DEPTH</text>
+  <text class="cap" x="28" y="54">The worst burns hurt least, because the nerves that would report it were destroyed by the thing that caused it.</text>
+
+  <!-- skin layers -->
+  <rect class="epi" x="150" y="96" width="600" height="30"/>
+  <rect class="der" x="150" y="126" width="600" height="92"/>
+  <rect class="sub" x="150" y="218" width="600" height="58"/>
+
+  <text class="lyr" x="28" y="116">EPIDERMIS</text>
+  <text class="lyr" x="28" y="176">DERMIS</text>
+  <text class="cap" x="28" y="194">nerve endings</text>
+  <text class="cap" x="28" y="210">and vessels</text>
+  <text class="lyr" x="28" y="252">SUBCUTANEOUS</text>
+
+  <!-- nerve endings and vessels in the dermis -->
+  <path class="nerve" d="M190 216 L190 150 M186 154 L190 146 L194 154"/>
+  <path class="nerve" d="M430 216 L430 150 M426 154 L430 146 L434 154"/>
+  <path class="nerve" d="M660 216 L660 150 M656 154 L660 146 L664 154"/>
+  <path class="vess" d="M210 200 q20 -18 40 0 q20 18 40 0"/>
+  <path class="vess" d="M450 200 q20 -18 40 0 q20 18 40 0"/>
+  <path class="vess" d="M600 200 q20 -18 40 0 q20 18 40 0"/>
+
+  <!-- ============ superficial ============ -->
+  <rect class="burn1" x="175" y="96" width="120" height="30"/>
+  <text class="ttl" x="175" y="312">SUPERFICIAL</text>
+  <text class="lbl" x="175" y="334">Epidermis only</text>
+  <text class="lbl" x="175" y="352">RED · DRY · painful</text>
+  <text class="lbl" x="175" y="370">NO BLISTERS</text>
+  <text class="cap" x="175" y="388">e.g. sunburn</text>
+  <text class="count" x="175" y="410">NOT COUNTED in extent</text>
+  <line class="lead" x1="235" y1="126" x2="235" y2="296"/>
+
+  <!-- ============ partial thickness ============ -->
+  <rect class="burn2" x="415" y="96" width="120" height="82"/>
+  <text class="ttl" x="415" y="312">PARTIAL THICKNESS</text>
+  <text class="lbl" x="415" y="334">Into the dermis</text>
+  <text class="lbl" x="415" y="352">BLISTERS · moist · mottled</text>
+  <text class="lbl" x="415" y="370">INTENSELY PAINFUL</text>
+  <text class="cap" x="415" y="388">nerves damaged but still working</text>
+  <text class="count" x="415" y="410">COUNTED in extent</text>
+  <line class="lead" x1="475" y1="178" x2="475" y2="296"/>
+
+  <!-- ============ full thickness ============ -->
+  <rect class="burn3" x="645" y="96" width="90" height="180"/>
+  <text class="ttl" x="600" y="312">FULL THICKNESS</text>
+  <text class="lbl" x="600" y="334">All layers</text>
+  <text class="lbl" x="600" y="352">WHITE · waxy · leathery · charred</text>
+  <text class="lbl" x="600" y="370">DRY · PAINLESS</text>
+  <text class="cap" x="600" y="388">nerve endings destroyed</text>
+  <text class="count" x="600" y="410">COUNTED in extent</text>
+  <line class="lead" x1="690" y1="276" x2="690" y2="296"/>
+
+  <!-- depth / pain arrows -->
+  <line class="axis" x1="175" y1="440" x2="735" y2="440" marker-end="url(#a)"/>
+  <text class="lbl" x="175" y="458">INCREASING DEPTH</text>
+  <line class="axis" x1="735" y1="428" x2="175" y2="428" marker-end="url(#a)"/>
+  <text class="lbl" x="625" y="420">INCREASING PAIN</text>
+
+  <text class="note" x="28" y="486">A full thickness burn is almost always RINGED by partial thickness burn — that ring is where the patient's pain comes from.</text>
+  <text class="note" x="28" y="506">A CIRCUMFERENTIAL full thickness burn constricts as the tissue beneath swells: check distal circulation, watch breathing on a chest.</text>
+</svg>
