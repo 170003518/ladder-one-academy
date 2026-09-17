@@ -150,3 +150,12 @@
 - Cricoid pressure is taught as historical and explicitly "no longer routinely recommended", because an EMT will still hear the term.
 - BVM is the skill concept in this lesson and got a skill card with critical steps plus a `sequence` question, per the brief.
 - Merging this lesson resolved three previously dangling `related` links from EMT-02-03 concepts that pointed forward to EMT-02-04-01.
+
+## 2026-09-16 — Content: EMT-02-05 Respiratory emergencies
+
+- 10 concepts, 37 questions, 14 cards. Module 02 now stands at **36 concepts, 134 questions, 59 cards** across five lessons.
+- **No medication names, doses or puff counts anywhere in this lesson.** EMT-02-05-10 teaches the MDI/spacer/nebulizer mechanics and the six rights, and says explicitly in `verify_notes` that the drug list and dosing are protocol-specific and were deliberately omitted. CLAUDE.md forbids inventing drug doses; this is that rule applied.
+- **No oxygen target saturation range is stated for COPD.** The concept says plainly that oxygen is not withheld from a hypoxic patient and leaves any target range to the source, because that figure has moved between editions.
+- Hyperventilation syndrome is taught as **a diagnosis of exclusion**, with the paper bag explicitly ruled out. This is the lesson's highest-risk teaching point and the story mode drives it with a post-caesarean patient dispatched as a panic attack.
+- Epiglottitis carries an explicit never-examine-the-airway rule, and the concept frames keeping the child calm as treatment rather than comfort.
+- **Seven rationales failed the schema's 10-character minimum** ("Correct.", "Never.", "It can.") and were rewritten as real explanations. The minimum is doing exactly what it exists for — a one-word rationale teaches nothing, and the schema caught every one.

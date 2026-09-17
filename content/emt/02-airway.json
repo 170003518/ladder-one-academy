@@ -63,6 +63,22 @@
         "EMT-02-04-07",
         "EMT-02-04-08"
       ]
+    },
+    {
+      "id": "EMT-02-05",
+      "title": "Respiratory emergencies",
+      "concepts": [
+        "EMT-02-05-01",
+        "EMT-02-05-02",
+        "EMT-02-05-03",
+        "EMT-02-05-04",
+        "EMT-02-05-05",
+        "EMT-02-05-06",
+        "EMT-02-05-07",
+        "EMT-02-05-08",
+        "EMT-02-05-09",
+        "EMT-02-05-10"
+      ]
     }
   ],
   "concepts": [
@@ -4086,6 +4102,1404 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the normal end-tidal range the current text gives, its description of waveform interpretation, and whether capnography is within EMT scope in your state and service."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-01",
+      "title": "Asthma",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-05-02",
+        "EMT-02-05-10",
+        "EMT-02-01-05"
+      ],
+      "key_points": [
+        "Three things happen at once: the airways spasm, they swell, and they fill with mucus",
+        "The trouble is getting air OUT, which is why wheezing is heard mostly on exhalation",
+        "Wheezing means air is still moving; a silent chest in a patient working hard is far worse",
+        "Accessory muscle use, tripod position and an inability to speak in full sentences mark a severe attack",
+        "Treatment at the EMT level is oxygen, calm, and assisting with the patient's own prescribed inhaler per protocol",
+        "Fatigue in a patient who has been fighting for a long time is an ominous sign"
+      ],
+      "misconceptions": [
+        "Taking a quiet chest as improvement",
+        "Treating wheezing as always mild",
+        "Rushing a frightened asthmatic, which worsens the attack",
+        "Assuming every wheeze is asthma"
+      ],
+      "exam_favorites": [
+        "Wheezing on exhalation and why",
+        "The silent chest",
+        "Speech in sentences as a severity marker"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Asthma is three problems at once in the small airways. The muscle around them squeezes down, the lining swells, and mucus fills what is left. The passage narrows from every direction.\n\nAir can still be pulled in, because inhaling pulls the airways open. Getting it back out is the problem, because exhaling squeezes them further shut. That is why an asthmatic wheezes mostly on the way out, and why they end up with air trapped in a chest that is already full.\n\nJudge severity by what they can do, not by how loud they are. Can they speak a full sentence? Are they using neck and shoulder muscles? Are they sitting bolt upright with their hands on their knees? And here is the one that catches people out: a chest that has gone quiet in a patient who is still clearly fighting is not improving. It means almost nothing is moving at all.\n\nYour treatment is oxygen, calm, and helping them use the inhaler they already have, within your protocol. Calm matters more than it sounds. Panic makes breathing faster and shallower, which is exactly wrong for a patient who cannot exhale.",
+          "standard": "Asthma is reversible lower-airway obstruction produced by bronchospasm, mucosal inflammation and mucus plugging occurring simultaneously. Because airway calibre increases during inspiration and decreases during expiration, obstruction is predominantly expiratory, producing expiratory wheezing and air trapping with progressive hyperinflation. Severity is assessed clinically: ability to speak in complete sentences, accessory muscle use, positioning, level of consciousness and fatigue. Audible wheezing indicates air movement; a markedly diminished or silent chest in a patient with increased work of breathing indicates severe obstruction with minimal airflow and is an ominous finding rather than an improvement. Prehospital EMT management comprises supplemental oxygen, minimising exertion and anxiety, and assisting with the patient's prescribed bronchodilator in accordance with protocol."
+        },
+        "eli_new": {
+          "analogy": "Breathing in opens the tube a little; breathing out squeezes it shut. That is why the air gets stuck on the way out.",
+          "body": "Everyone assumes trouble breathing means trouble getting air in. With asthma it is the opposite. Inhaling actually widens the little airways slightly, so air goes in. Exhaling narrows them, so air gets trapped. The patient ends up with a chest full of stale air and no room for a fresh breath."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain to a new EMT what is physically happening in an asthma attack, and how they should judge how bad it is.",
+          "must_hit": [
+            {
+              "point": "Bronchospasm, swelling and mucus together",
+              "accept": [
+                "spasm",
+                "constrict",
+                "swell",
+                "inflam",
+                "mucus"
+              ]
+            },
+            {
+              "point": "Trouble is getting air out, wheezing on exhalation",
+              "accept": [
+                "out",
+                "exhal",
+                "expir",
+                "trapped"
+              ]
+            },
+            {
+              "point": "A silent chest is worse, not better",
+              "accept": [
+                "silent",
+                "quiet",
+                "no wheez",
+                "diminish"
+              ]
+            },
+            {
+              "point": "Judge by speech, accessory muscles, position",
+              "accept": [
+                "sentence",
+                "speak",
+                "accessory",
+                "tripod",
+                "position"
+              ]
+            }
+          ],
+          "model_answer": "Three things happen at once in the small airways: the muscle around them spasms, the lining swells, and mucus fills the space. Getting air in is possible because inhaling widens them slightly, but getting it out is the problem, so you hear wheezing on the way out and air gets trapped. Judge severity by what the patient can do — can they finish a sentence, are they using neck and shoulder muscles, are they tripoding, are they exhausted. And do not be reassured by a quiet chest in a patient who is clearly still fighting: that means almost no air is moving. Your treatment is oxygen, keeping them calm, and assisting with their own prescribed inhaler per protocol."
+        },
+        "story": {
+          "title": "The quiet that was not calm",
+          "dispatch": "Rescue 2 — 19-year-old female, difficulty breathing, known asthmatic, college dormitory.",
+          "body": "She was wheezing loudly when the first crew arrived. Twenty minutes later, on the way to the truck, the wheezing had stopped.\n\nThe new EMT said she sounded better. The medic put a hand on her shoulder, looked at her neck muscles still straining and her eyes wide, and moved her straight to the front of the queue.\n\nShe had not improved. She had stopped moving enough air to make a sound."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the severity criteria the current text lists and its wording on the silent chest. No medication names or doses are stated here; assisting with a prescribed inhaler is protocol-dependent."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-02",
+      "title": "COPD: emphysema and chronic bronchitis",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-05-01",
+        "EMT-02-03-06",
+        "EMT-02-05-10"
+      ],
+      "key_points": [
+        "Chronic, irreversible lung disease, usually from long-term smoking",
+        "Emphysema destroys the alveolar walls, so there is less surface to exchange gas and the lungs lose their recoil",
+        "Chronic bronchitis is long-term inflammation and mucus production in the airways",
+        "Most patients have features of both rather than one cleanly",
+        "Barrel chest, pursed-lip breathing, home oxygen and a long smoking history are the recognisable picture",
+        "These patients live short of breath; what matters is how this compares with their normal",
+        "Do not withhold oxygen from a hypoxic COPD patient who needs it"
+      ],
+      "misconceptions": [
+        "Withholding oxygen from a hypoxic COPD patient out of a half-remembered rule",
+        "Comparing the patient to a healthy person rather than to their own baseline",
+        "Assuming every COPD patient is the same"
+      ],
+      "exam_favorites": [
+        "Emphysema versus chronic bronchitis",
+        "Baseline comparison",
+        "Oxygen is not withheld from a hypoxic patient"
+      ],
+      "modes": {
+        "read": {
+          "plain": "COPD is the long-term damage left behind by years of irritation, almost always smoking. It comes in two flavours that usually travel together.\n\nEmphysema is destruction. The walls between the tiny air sacs break down, so instead of many small sacs with a lot of surface area you get fewer large ones with much less. The lungs also lose their springiness, so exhaling stops being passive and becomes work. That is where pursed-lip breathing comes from — the patient is making back-pressure to hold their airways open as they exhale.\n\nChronic bronchitis is inflammation and mucus. The airways are permanently irritated, swollen, and producing far more mucus than they should, so the patient coughs and brings things up for months at a time, year after year.\n\nMost real patients are a mix. What you will actually see is a barrel-shaped chest, pursed lips, a long smoking history, home oxygen in the corner, and a person who is always a little short of breath.\n\nThat last part is the key to assessing them. The question is never 'is this patient short of breath' — they always are. It is 'how does today compare to their normal?' Ask them, or ask whoever lives with them.\n\nOne more thing. You may hear a rule about oxygen being dangerous in COPD. Do not let it stop you giving oxygen to a hypoxic patient in front of you. A hypoxic patient needs oxygen.",
+          "standard": "Chronic obstructive pulmonary disease encompasses emphysema and chronic bronchitis, most commonly resulting from long-term tobacco exposure. Emphysema is characterised by destruction of alveolar septa, producing reduced gas-exchange surface area and loss of elastic recoil, which converts expiration from a passive to an active process; pursed-lip breathing generates back-pressure that maintains small-airway patency during expiration. Chronic bronchitis is characterised by chronic airway inflammation and mucus hypersecretion with productive cough. Most patients demonstrate overlapping features. Clinical recognition includes barrel chest, pursed-lip breathing, tripod positioning, extensive smoking history and home oxygen use. Assessment is referenced to the patient's own baseline rather than to a healthy norm. Supplemental oxygen is not withheld from the hypoxic COPD patient."
+        },
+        "eli_new": {
+          "analogy": "Emphysema is the wall between rooms knocked out. Chronic bronchitis is the hallway full of furniture.",
+          "body": "Two different kinds of damage. One destroys the surfaces where gas exchange happens and leaves the lung floppy. The other clogs and narrows the tubes leading to them. Smoking does both, which is why most patients have a bit of each."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between emphysema and chronic bronchitis, and how you decide whether a COPD patient is having a bad day.",
+          "must_hit": [
+            {
+              "point": "Emphysema destroys alveolar walls and loses recoil",
+              "accept": [
+                "destroy",
+                "alveol",
+                "air sac",
+                "recoil",
+                "surface area"
+              ]
+            },
+            {
+              "point": "Chronic bronchitis is inflammation and mucus",
+              "accept": [
+                "mucus",
+                "inflam",
+                "bronchitis",
+                "cough"
+              ]
+            },
+            {
+              "point": "Assess against the patient's own baseline",
+              "accept": [
+                "baseline",
+                "normal for them",
+                "their normal",
+                "compare"
+              ]
+            },
+            {
+              "point": "Do not withhold oxygen from a hypoxic patient",
+              "accept": [
+                "oxygen",
+                "hypoxic",
+                "withhold",
+                "give oxygen"
+              ]
+            }
+          ],
+          "model_answer": "Emphysema is destruction: the walls between the air sacs break down, so there is less surface for gas exchange and the lung loses its springiness, which makes exhaling hard work and drives pursed-lip breathing. Chronic bronchitis is inflammation and mucus in the airways, with a long-standing productive cough. Most patients have both. Because they are always somewhat short of breath, the assessment question is how today compares with their own normal — ask them or their family. And do not withhold oxygen from a COPD patient who is hypoxic in front of you."
+        },
+        "story": {
+          "title": "Worse than her Tuesdays",
+          "dispatch": "Rescue 2 — 71-year-old female, difficulty breathing, home oxygen in use.",
+          "body": "She is on two litres at home and always has been. She is pursed-lip breathing, barrel-chested, and can manage about four words at a time.\n\nThe new EMT is not sure whether that is bad, because she has never seen her before. Her daughter answers it in one sentence: on a normal Tuesday she walks to the kitchen and back.\n\nToday she cannot get from the chair to the door. That is the finding."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Damage",
+              "left": "Alveolar walls destroyed",
+              "right": "Airways inflamed, mucus-filled"
+            },
+            {
+              "feature": "Main problem",
+              "left": "Lost surface area and lost recoil",
+              "right": "Obstruction by mucus and swelling"
+            },
+            {
+              "feature": "Cough",
+              "left": "Less prominent",
+              "right": "Chronic and productive"
+            },
+            {
+              "feature": "Classic look",
+              "left": "Barrel chest, pursed lips, thin",
+              "right": "Productive cough, often heavier build"
+            },
+            {
+              "feature": "In practice",
+              "left": "Most patients have both",
+              "right": "Most patients have both"
+            }
+          ],
+          "left_label": "Emphysema",
+          "right_label": "Chronic bronchitis"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the description of pursed-lip breathing and the current text's exact guidance on oxygen administration in COPD, including any target saturation range, which is deliberately not stated here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-03",
+      "title": "Pneumonia",
+      "domain": "AIR",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-02-05-04",
+        "EMT-02-05-09"
+      ],
+      "key_points": [
+        "An infection of the lung tissue itself, not just the airways",
+        "Fluid and pus fill the air sacs in the affected area, so that part of the lung stops exchanging gas",
+        "Fever, chills, a productive cough and chest discomfort that is worse on breathing in",
+        "Abnormal sounds are often localised to one area rather than heard throughout",
+        "Common and dangerous at the extremes of age, and in patients who are already unwell",
+        "EMT care is oxygen, position of comfort, and transport; the infection itself is treated in hospital"
+      ],
+      "misconceptions": [
+        "Expecting pneumonia to sound the same in both lungs",
+        "Dismissing it in an elderly patient who presents only with confusion and weakness",
+        "Confusing the crackles of pneumonia with those of pulmonary edema without considering the whole picture"
+      ],
+      "exam_favorites": [
+        "That findings are often one-sided",
+        "Fever distinguishing it from most other causes",
+        "Atypical presentation in the elderly"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Pneumonia is an infection in the lung tissue itself. The air sacs in the affected area fill with fluid and pus, and that region simply stops doing its job. The rest of the lung carries on.\n\nThat is why the findings are often lopsided. You may hear crackles or diminished sound over one area and something close to normal elsewhere, which is a useful clue.\n\nThe infection part shows itself as fever and chills, a cough that brings something up, and chest discomfort that gets worse when they breathe in. Put together with shortness of breath, that picture is fairly characteristic.\n\nBe careful at the extremes of age. An older patient with pneumonia may not have an impressive fever or cough at all. They may simply be confused, weak, off their food, and falling over. Pneumonia is a common reason an elderly patient is suddenly 'not themselves'.\n\nYour job is oxygen if they need it, a position they can breathe in, and transport. The antibiotics happen somewhere else.",
+          "standard": "Pneumonia is infection of the pulmonary parenchyma in which alveoli in the affected region fill with inflammatory exudate, producing localised impairment of gas exchange. Because involvement is typically regional rather than global, auscultatory findings are frequently unilateral or focal, with crackles or diminished breath sounds over the affected area. Characteristic features include fever, chills, productive cough, pleuritic chest discomfort and dyspnea. Presentation in elderly patients is frequently atypical, with altered mental status, generalised weakness, reduced oral intake or falls in the absence of prominent fever or cough; pneumonia is a common cause of acute functional decline in this group. Prehospital management is supportive: supplemental oxygen as indicated, position of comfort and transport."
+        },
+        "eli_new": {
+          "analogy": "One neighbourhood of the lung has flooded. The rest of the city is fine, which is why it sounds different in one place.",
+          "body": "Most breathing problems affect the whole lung at once — asthma narrows everything, heart failure floods everything. Pneumonia usually hits one region. If what you hear on one side is clearly different from the other, that asymmetry is telling you something."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what pneumonia does to the lung, what you would expect to find, and why an elderly patient might not look like the textbook.",
+          "must_hit": [
+            {
+              "point": "Infection filling air sacs in part of the lung",
+              "accept": [
+                "infect",
+                "fluid",
+                "pus",
+                "air sac",
+                "alveol"
+              ]
+            },
+            {
+              "point": "Fever, chills, productive cough",
+              "accept": [
+                "fever",
+                "chill",
+                "cough",
+                "sputum",
+                "productive"
+              ]
+            },
+            {
+              "point": "Findings often localised to one area",
+              "accept": [
+                "one side",
+                "local",
+                "unilateral",
+                "one area",
+                "focal"
+              ]
+            },
+            {
+              "point": "Elderly may present with confusion or weakness instead",
+              "accept": [
+                "confus",
+                "elderly",
+                "weak",
+                "altered",
+                "falls",
+                "not themselves"
+              ]
+            }
+          ],
+          "model_answer": "It is an infection of the lung tissue itself. Air sacs in the affected region fill with fluid and pus, so that part of the lung stops exchanging gas while the rest carries on — which is why findings are often localised to one area rather than heard everywhere. Expect fever and chills, a cough bringing something up, chest discomfort worse on inspiration, and shortness of breath. In an elderly patient the classic picture may be missing entirely: they may simply be confused, weak, not eating, or falling, and pneumonia is a common reason an older person is suddenly not themselves. EMT care is oxygen if needed, position of comfort, and transport."
+        },
+        "story": {
+          "title": "Not herself",
+          "dispatch": "Rescue 2 — 84-year-old female, general weakness, unable to get out of bed.",
+          "body": "No chest pain. No real complaint of shortness of breath. Her temperature is barely up and she has coughed twice since you arrived.\n\nWhat her son says is that on Thursday she was doing the crossword and today she does not know what day it is.\n\nIn the back of the truck you listen carefully and the right base sounds quite different from the left. The hospital finds pneumonia."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the auscultation findings and the atypical elderly presentation as the current text describes them."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-04",
+      "title": "Pulmonary edema and the respiratory face of heart failure",
+      "domain": "AIR",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-04-05"
+      ],
+      "related": [
+        "EMT-02-04-05",
+        "EMT-02-05-03",
+        "EMT-02-05-05"
+      ],
+      "key_points": [
+        "The left side of the heart fails to move blood forward, so pressure backs up into the lungs",
+        "Fluid is pushed out of the capillaries into the alveoli, and gas cannot cross fluid",
+        "Crackles, often starting at the bases, and in severe cases pink frothy sputum",
+        "Worse lying flat, so the patient sits up; they may report sleeping on several pillows",
+        "Look for the other signs of a failing heart: distended neck veins and swollen ankles",
+        "CPAP is the intervention that changes these patients, within protocol",
+        "This is a heart problem presenting as a breathing problem"
+      ],
+      "misconceptions": [
+        "Treating it as a lung disease and missing the cardiac cause",
+        "Laying the patient flat, which makes it acutely worse",
+        "Confusing the crackles of pulmonary edema with the wheeze of asthma without weighing history"
+      ],
+      "exam_favorites": [
+        "Why it is worse lying flat",
+        "Pink frothy sputum",
+        "CPAP as the intervention",
+        "Neck veins and ankle swelling as supporting signs"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This one is a heart problem wearing a lung problem's clothes.\n\nThe left side of the heart is meant to push blood out to the body. When it cannot keep up, blood stacks up behind it — into the lungs. Pressure in the lung capillaries rises until fluid is squeezed out of the vessels and into the air sacs themselves. Now the patient has water where air should be, and gas cannot cross water.\n\nYou hear it as crackles, usually starting at the bases and climbing as it worsens. In a severe case the patient coughs up pink, frothy sputum — that is fluid and air whipped together with a little blood in it.\n\nGravity matters here, which is why the history is so useful. Lying flat spreads the fluid across more of the lung, so these patients cannot lie down. Ask how many pillows they sleep on, or whether they have been sleeping in a chair. An answer like 'three pillows, and lately the recliner' is a story of worsening heart failure.\n\nLook for the rest of the picture too: neck veins standing out, ankles and lower legs swollen.\n\nAnd this is the patient where CPAP earns its place. The pressure holds the air sacs open and helps drive fluid back out of them. Within your protocol, it can turn one of these patients around in front of you.",
+          "standard": "Acute cardiogenic pulmonary edema results from left ventricular failure, in which inadequate forward output raises left atrial and pulmonary venous pressure until hydrostatic pressure forces fluid from the pulmonary capillaries into the alveolar space, impairing gas exchange. Auscultation reveals crackles, characteristically beginning at the bases and ascending with severity; severe cases produce pink frothy sputum. Symptoms are posture-dependent: recumbency redistributes fluid and worsens dyspnea, producing orthopnea and paroxysmal nocturnal dyspnea, and a history of increasing pillow use or sleeping upright is diagnostically valuable. Associated findings of right-sided congestion include jugular venous distention and dependent peripheral edema. Continuous positive airway pressure is the prehospital intervention of greatest benefit where protocol permits, maintaining alveolar patency and promoting movement of fluid out of the alveolar space."
+        },
+        "eli_new": {
+          "analogy": "The pump backed up and flooded the room upstairs. You cannot breathe through a flooded room.",
+          "body": "Think of the heart as a pump in a closed loop. If the pump on the way out of the lungs slows down, everything behind it backs up, and what is directly behind it is the lungs. The fluid in the air sacs did not come from outside. It was squeezed out of the blood vessels by pressure."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why a failing heart makes someone short of breath, what you would find, and why these patients will not lie down.",
+          "must_hit": [
+            {
+              "point": "Left heart fails so pressure backs up into the lungs",
+              "accept": [
+                "left",
+                "back up",
+                "backs up",
+                "pressure",
+                "heart fail"
+              ]
+            },
+            {
+              "point": "Fluid is pushed into the air sacs",
+              "accept": [
+                "fluid",
+                "alveol",
+                "air sac",
+                "edema",
+                "oedema"
+              ]
+            },
+            {
+              "point": "Crackles, and pink frothy sputum when severe",
+              "accept": [
+                "crackle",
+                "rales",
+                "pink",
+                "froth"
+              ]
+            },
+            {
+              "point": "Worse lying flat, sleeps on pillows or sitting up",
+              "accept": [
+                "flat",
+                "pillow",
+                "sitting up",
+                "upright",
+                "orthopn"
+              ]
+            },
+            {
+              "point": "CPAP is the intervention",
+              "accept": [
+                "cpap"
+              ]
+            }
+          ],
+          "model_answer": "The left side of the heart cannot move blood forward, so pressure backs up into the lungs until fluid is squeezed out of the capillaries into the air sacs. Gas cannot cross fluid, so the patient becomes hypoxic and short of breath. You hear crackles, typically starting at the bases, and in severe cases they cough up pink frothy sputum. Lying flat spreads that fluid across more lung, so they cannot lie down — ask how many pillows they sleep on or whether they have moved to a chair, because increasing pillows is a story of worsening failure. Look for distended neck veins and swollen ankles too. CPAP is the intervention that changes these patients, within protocol."
+        },
+        "story": {
+          "title": "Three pillows and then the chair",
+          "dispatch": "Rescue 2 — 79-year-old male, difficulty breathing, worse overnight.",
+          "body": "He is bolt upright on the edge of the bed. There is a wet, bubbling quality to his breathing you can hear from the doorway, and his ankles are swollen over the tops of his slippers.\n\nHis wife says he has been on three pillows for a month, and for the last four nights he has slept in the recliner downstairs.\n\nThe CPAP goes on in the bedroom. By the time you reach the ambulance he is speaking in whole sentences again."
+        },
+        "do": {
+          "activity": "wet_or_tight",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each finding: does it point toward pulmonary edema, or toward asthma or COPD?",
+          "config": {
+            "buckets": [
+              "Pulmonary edema",
+              "Asthma or COPD"
+            ],
+            "items": [
+              {
+                "text": "Crackles at both bases",
+                "bucket": 0
+              },
+              {
+                "text": "Widespread wheezing on exhalation",
+                "bucket": 1
+              },
+              {
+                "text": "Pink frothy sputum",
+                "bucket": 0
+              },
+              {
+                "text": "Swollen ankles and distended neck veins",
+                "bucket": 0
+              },
+              {
+                "text": "Long smoking history and a barrel chest",
+                "bucket": 1
+              },
+              {
+                "text": "Sleeps sitting up on three pillows",
+                "bucket": 0
+              },
+              {
+                "text": "Pursed-lip breathing and home oxygen",
+                "bucket": 1
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Crackles",
+            "value": "start at the bases",
+            "unit": "",
+            "note": "Climb higher as severity increases."
+          },
+          {
+            "label": "Severe sign",
+            "value": "pink frothy sputum",
+            "unit": "",
+            "note": "Fluid and air whipped together with blood."
+          },
+          {
+            "label": "Position",
+            "value": "cannot lie flat",
+            "unit": "",
+            "note": "Ask about pillows or sleeping in a chair."
+          },
+          {
+            "label": "Supporting signs",
+            "value": "JVD and pedal edema",
+            "unit": "",
+            "note": "Right-sided congestion."
+          },
+          {
+            "label": "Intervention",
+            "value": "CPAP",
+            "unit": "",
+            "note": "Per protocol; no pressure settings stated here."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the description of crackles and pink frothy sputum, the associated signs listed, and your local CPAP protocol for this presentation."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-05",
+      "title": "Pulmonary embolism",
+      "domain": "AIR",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-05-04",
+        "EMT-02-05-06"
+      ],
+      "key_points": [
+        "A clot travels to the lung and blocks blood flow to part of it",
+        "That part of the lung is still ventilated but has no blood flowing past it, so air goes in and out for nothing",
+        "Classically sudden: one moment fine, the next short of breath",
+        "Sharp chest pain that is worse on breathing in, and a fast heart rate",
+        "Lung sounds are often clear, which is what makes it sneaky",
+        "Risk factors matter enormously: recent surgery, immobility, long travel, a known clot in the leg, pregnancy, cancer",
+        "There is no EMT treatment beyond oxygen, position and rapid transport"
+      ],
+      "misconceptions": [
+        "Ruling it out because the lungs sound clear",
+        "Ignoring a swollen, painful calf in a breathless patient",
+        "Expecting gradual onset"
+      ],
+      "exam_favorites": [
+        "Sudden onset with clear lung sounds",
+        "Risk factor history",
+        "Pleuritic pain and tachycardia"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A pulmonary embolism is a plumbing problem, not an airway problem. A clot, usually formed in a leg vein, breaks loose, travels up through the heart, and jams in an artery in the lung.\n\nDownstream of that blockage, the lung is still being ventilated perfectly well. Air goes in and out. There is just no blood flowing past to pick the oxygen up. That part of the lung has been disconnected from the circulation.\n\nThe onset is the giveaway. Patients describe it as sudden — they were fine, and then they were not. They are short of breath, often with a sharp chest pain that stabs when they breathe in, and their heart is racing.\n\nHere is the trap. When you listen to the chest, it often sounds clear. There is no fluid, no spasm, no infection. A new EMT hears clear lungs and relaxes, which is exactly wrong.\n\nWhat saves you is the history. Ask what has happened recently. Surgery? A long flight or drive? Bed rest? A leg that has been swollen and sore? Pregnancy, or cancer treatment? Those answers, next to a sudden breathless patient with clear lungs, should worry you a great deal.\n\nThere is nothing an EMT can do about the clot. Oxygen, position of comfort, and go.",
+          "standard": "Pulmonary embolism results from occlusion of a pulmonary artery, most often by thrombus originating in the deep veins of the lower extremities. The obstructed segment remains ventilated but is not perfused, creating dead-space ventilation and impairing oxygenation. Presentation is characteristically abrupt, with dyspnea, pleuritic chest pain and tachycardia; auscultation is frequently unremarkable, and clear lung fields do not exclude the diagnosis. Risk assessment is central to recognition and includes recent surgery or immobilisation, prolonged travel, known deep vein thrombosis, malignancy, pregnancy and hormonal therapy. Prehospital management at the EMT level is limited to supplemental oxygen, position of comfort and expedited transport; definitive management is in hospital."
+        },
+        "eli_new": {
+          "analogy": "The hallway is open and the door is open, but the delivery truck cannot get down the street.",
+          "body": "Everything you have learned about breathing problems is about air not getting in. This one is about blood not getting there. The air arrives exactly as it should and finds nobody home to collect it, which is why the lungs can sound completely normal while the patient is in serious trouble."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what a pulmonary embolism actually is, why the lungs can sound clear, and what in the history would raise your suspicion.",
+          "must_hit": [
+            {
+              "point": "A clot blocks blood flow to part of the lung",
+              "accept": [
+                "clot",
+                "embol",
+                "block",
+                "blood flow"
+              ]
+            },
+            {
+              "point": "That lung is ventilated but not perfused",
+              "accept": [
+                "not perfused",
+                "no blood",
+                "ventilated",
+                "dead space",
+                "air goes in"
+              ]
+            },
+            {
+              "point": "Sudden onset, pleuritic pain, fast heart rate",
+              "accept": [
+                "sudden",
+                "abrupt",
+                "sharp",
+                "pleuritic",
+                "tachycard",
+                "fast heart"
+              ]
+            },
+            {
+              "point": "Lungs often sound clear",
+              "accept": [
+                "clear",
+                "normal lung",
+                "sound clear",
+                "unremarkable"
+              ]
+            },
+            {
+              "point": "Risk factors: surgery, immobility, travel, leg clot, pregnancy, cancer",
+              "accept": [
+                "surgery",
+                "immobil",
+                "travel",
+                "flight",
+                "dvt",
+                "leg",
+                "pregnan",
+                "cancer",
+                "bed rest"
+              ]
+            }
+          ],
+          "model_answer": "A clot, usually from a leg vein, travels to the lung and blocks an artery there. The lung beyond it is still being ventilated but has no blood flowing past, so the air goes in and out for nothing. It comes on suddenly — fine one minute, not the next — with shortness of breath, often a sharp pain that is worse on breathing in, and a fast heart rate. The trap is that the lungs frequently sound completely clear, so clear lungs must not reassure you. What raises suspicion is the history: recent surgery, immobility or bed rest, a long flight or drive, a swollen painful calf, pregnancy, or cancer. There is no EMT treatment for the clot — oxygen, position of comfort and rapid transport."
+        },
+        "story": {
+          "title": "Clear lungs, terrible patient",
+          "dispatch": "Rescue 2 — 46-year-old female, sudden shortness of breath, office building.",
+          "body": "She is pale, breathing fast, and says it started twenty minutes ago out of nowhere. Sharp pain on the right when she breathes in. Heart rate high.\n\nYou listen and the chest is clear. Genuinely clear, both sides. The new EMT visibly relaxes.\n\nThen you ask what she has been doing. She flew back from Australia four days ago, and her right calf has been sore and swollen since.\n\nYou stop relaxing."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the risk factor list and the typical presentation as the current text gives it; no scoring tools or decision rules are referenced here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-06",
+      "title": "Spontaneous pneumothorax",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-05-05",
+        "EMT-02-04-05"
+      ],
+      "key_points": [
+        "Air escapes from the lung into the space between the lung and the chest wall, and the lung collapses inward",
+        "Spontaneous means it happened without trauma",
+        "Classically a tall, thin, young person, often a smoker, sometimes during exertion",
+        "Sudden sharp chest pain on one side with shortness of breath",
+        "Breath sounds are reduced or absent on the affected side",
+        "Watch for it getting worse: rising distress, a falling blood pressure and a deviating trachea suggest a tension pneumothorax, which is an emergency"
+      ],
+      "misconceptions": [
+        "Expecting trauma to be involved",
+        "Missing a one-sided difference in breath sounds",
+        "Failing to recognise progression to tension"
+      ],
+      "exam_favorites": [
+        "One-sided decreased breath sounds",
+        "The classic patient description",
+        "Recognising progression to tension pneumothorax"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The lung does not float free in the chest. It is held expanded against the chest wall by a vacuum in the thin space between two membranes. Break that seal and the lung's own elasticity pulls it inward, away from the wall. It collapses.\n\nSpontaneous means nobody hit them. A weak spot on the lung surface gives way on its own, often in a tall, thin young person, often a smoker, sometimes during exertion or even at rest.\n\nThey will describe it as sudden: a sharp pain on one side of the chest and shortness of breath that started in an instant.\n\nThe finding to look for is asymmetry. Listen on both sides at the same level. If one side is noticeably quieter than the other, that means something.\n\nNow the part that matters most. Sometimes air keeps entering that space with each breath and cannot escape. Pressure builds, pushing on the lung, the heart and the great vessels. The patient becomes rapidly worse: severe distress, falling blood pressure, distended neck veins, and eventually a trachea pushed away from the affected side. That is a tension pneumothorax, and it needs decompression now. Recognise it, call for ALS, and move.",
+          "standard": "Pneumothorax is the presence of air within the pleural space, abolishing the negative pressure that maintains lung expansion and permitting collapse of the affected lung by elastic recoil. Primary spontaneous pneumothorax occurs without trauma, typically from rupture of a subpleural bleb, and classically affects tall, thin young adults, with smoking as a significant risk factor; onset may occur at rest or during exertion. Presentation comprises sudden unilateral pleuritic chest pain and dyspnea, with diminished or absent breath sounds over the affected hemithorax. Progression to tension pneumothorax occurs when air enters the pleural space without escape, producing progressive intrapleural pressure elevation with mediastinal shift, impaired venous return and hemodynamic collapse; signs include severe respiratory distress, hypotension, jugular venous distention and, as a late finding, tracheal deviation away from the affected side. Tension pneumothorax requires immediate decompression."
+        },
+        "eli_new": {
+          "analogy": "The lung is held open by suction, like a suction cup on glass. Let air in behind it and it peels off and shrinks.",
+          "body": "People assume a collapsed lung means something crushed it. It is the opposite. The lung is naturally elastic and wants to shrink; what keeps it open is the vacuum holding it against the chest wall. Break the vacuum and it does what it always wanted to do."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what a spontaneous pneumothorax is, who classically gets one, and what would tell you it is becoming a tension pneumothorax.",
+          "must_hit": [
+            {
+              "point": "Air in the space around the lung so it collapses",
+              "accept": [
+                "air",
+                "pleural",
+                "space",
+                "collapse"
+              ]
+            },
+            {
+              "point": "No trauma involved",
+              "accept": [
+                "spontaneous",
+                "no trauma",
+                "without trauma",
+                "on its own"
+              ]
+            },
+            {
+              "point": "Classically tall, thin, young, often a smoker",
+              "accept": [
+                "tall",
+                "thin",
+                "young",
+                "smok"
+              ]
+            },
+            {
+              "point": "Decreased breath sounds on one side",
+              "accept": [
+                "one side",
+                "decreased",
+                "absent",
+                "unilateral",
+                "diminish"
+              ]
+            },
+            {
+              "point": "Tension: worsening distress, falling BP, tracheal deviation",
+              "accept": [
+                "tension",
+                "blood pressure",
+                "hypotens",
+                "trachea",
+                "deviat",
+                "jvd",
+                "neck vein"
+              ]
+            }
+          ],
+          "model_answer": "Air gets into the space between the lung and the chest wall, the vacuum that holds the lung expanded is lost, and the lung's own elasticity pulls it inward so it collapses. Spontaneous means it happened without any trauma — classically a tall, thin young person, often a smoker. They describe sudden sharp pain on one side with shortness of breath. Listen at the same level on both sides: decreased or absent sounds on one side is your finding. If air keeps entering and cannot escape, pressure builds into a tension pneumothorax — rapidly worsening distress, falling blood pressure, distended neck veins, and as a late sign the trachea pushed away from the affected side. That needs decompression immediately, so call for ALS and move."
+        },
+        "story": {
+          "title": "Halfway through a set",
+          "dispatch": "Rescue 2 — 22-year-old male, chest pain and shortness of breath, gym.",
+          "body": "He is tall, thin, and was on the bench press when it happened. Sharp pain on the left, instantly, and he could not get a full breath.\n\nNo impact, no injury, nobody dropped anything on him. You listen: the right side sounds normal and the left is noticeably quieter.\n\nOn the way in you check it again every few minutes, watching his pressure and his neck veins, because the thing you are really watching for is it getting worse."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classic demographic and risk factors, and the ordering and reliability of tension pneumothorax signs, especially how late tracheal deviation appears."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-07",
+      "title": "Hyperventilation syndrome",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-05-05",
+        "EMT-02-01-05"
+      ],
+      "key_points": [
+        "Breathing faster and deeper than the body needs, driving carbon dioxide down",
+        "Low carbon dioxide causes tingling around the mouth and in the fingers, light-headedness, and spasm of the hands and feet",
+        "It is a diagnosis of exclusion and must never be the first thing you assume",
+        "Serious causes of fast breathing include pulmonary embolism, diabetic emergencies, sepsis, poisoning and hypoxia",
+        "Do not have the patient breathe into a paper bag",
+        "Coach the breathing rate down, give oxygen if there is any doubt, and transport"
+      ],
+      "misconceptions": [
+        "Diagnosing anxiety at the door and missing a pulmonary embolism or a diabetic emergency",
+        "Using a paper bag",
+        "Withholding oxygen because it is 'just anxiety'"
+      ],
+      "exam_favorites": [
+        "That it is a diagnosis of exclusion",
+        "No paper bag",
+        "The dangerous causes of rapid breathing"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A patient breathing far faster and deeper than their body requires blows off too much carbon dioxide. That change in blood chemistry produces a very specific and frightening set of symptoms: tingling around the lips and in the fingertips, light-headedness, a sense of not being able to get enough air, and in a bad episode, cramping spasm of the hands and feet.\n\nThose symptoms feel exactly like something catastrophic, which makes the patient breathe faster still.\n\nNow the warning, and it is the most important thing in this concept. Fast breathing is a symptom, not a diagnosis. A patient breathing fast may have a clot in their lung, may be in a diabetic crisis, may be septic, may be poisoned, may simply be hypoxic. All of those look like 'anxious and breathing fast' from the doorway.\n\nSo hyperventilation syndrome is what you are left with when the dangerous things have been considered and do not fit. It is never the first thing you decide.\n\nAnd do not use a paper bag. That practice is out, and it has killed people whose fast breathing was hypoxia.\n\nWhat works is your voice. Sit with them, get eye contact, and coach the rate down slowly. Give oxygen if there is any doubt at all, and transport.",
+          "standard": "Hyperventilation syndrome describes minute ventilation in excess of metabolic requirement, producing hypocapnia and respiratory alkalosis. Resulting symptoms include perioral and digital paresthesia, light-headedness, subjective air hunger and, in marked cases, carpopedal spasm; these symptoms are themselves anxiogenic and may perpetuate the cycle. Critically, the condition is a diagnosis of exclusion. Tachypnea is a nonspecific sign, and organic causes including pulmonary embolism, diabetic ketoacidosis, sepsis, toxic ingestion and hypoxia must be considered before attributing rapid breathing to anxiety. Rebreathing into a paper bag is no longer practised and is potentially lethal where the underlying cause is hypoxia. Management comprises reassurance, verbal coaching of respiratory rate, supplemental oxygen where any doubt exists, and transport."
+        },
+        "eli_new": {
+          "analogy": "Fast breathing is a fire alarm. You do not switch off the alarm before finding out whether there is a fire.",
+          "body": "The symptoms of blowing off too much carbon dioxide are dramatic and completely real. The danger is not the symptoms; it is the assumption. Deciding 'this is just anxiety' at the front door is how a clot in the lung or a diabetic emergency gets missed."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why hyperventilation syndrome is a diagnosis you should be reluctant to make, and what you actually do for the patient.",
+          "must_hit": [
+            {
+              "point": "Low carbon dioxide causes tingling, light-headedness, hand and foot spasm",
+              "accept": [
+                "carbon dioxide",
+                "co2",
+                "tingl",
+                "numb",
+                "light-head",
+                "lighthead",
+                "spasm",
+                "carpopedal"
+              ]
+            },
+            {
+              "point": "It is a diagnosis of exclusion",
+              "accept": [
+                "exclusion",
+                "rule out",
+                "last",
+                "not first",
+                "other causes"
+              ]
+            },
+            {
+              "point": "Dangerous causes include PE, diabetic emergencies, sepsis, poisoning, hypoxia",
+              "accept": [
+                "embol",
+                "pe",
+                "diabet",
+                "dka",
+                "sepsis",
+                "poison",
+                "overdose",
+                "hypox"
+              ]
+            },
+            {
+              "point": "No paper bag",
+              "accept": [
+                "paper bag",
+                "bag"
+              ]
+            },
+            {
+              "point": "Coach the rate down, give oxygen if in doubt",
+              "accept": [
+                "coach",
+                "calm",
+                "talk",
+                "slow",
+                "oxygen"
+              ]
+            }
+          ],
+          "model_answer": "Breathing faster and deeper than the body needs drives carbon dioxide down, which causes tingling around the mouth and in the fingers, light-headedness, a feeling of air hunger and sometimes cramping spasm of the hands and feet. Those symptoms are frightening, so the patient breathes faster still. The reason to be reluctant is that fast breathing is a symptom, not a diagnosis — a pulmonary embolism, a diabetic crisis, sepsis, a poisoning or plain hypoxia all present as someone anxious and breathing fast. So this is what you are left with after the dangerous things do not fit, never your opening assumption. Do not use a paper bag; that is out and it has killed hypoxic patients. Sit with them, coach the rate down with your voice, give oxygen if there is any doubt, and transport."
+        },
+        "story": {
+          "title": "Not just a panic attack",
+          "dispatch": "Rescue 2 — 34-year-old female, panic attack, called by a coworker.",
+          "body": "The call came in as a panic attack and she looks the part: breathing fast, hands cramping, tingling in her fingers, frightened.\n\nYour partner starts coaching her breathing, which is right. You start asking questions, which is also right.\n\nShe had a caesarean eleven days ago. Her left leg has been sore. Nothing about her chest sounds wrong at all.\n\nYou put oxygen on her and you do not write 'anxiety' on anything."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the symptom list and, in particular, the current text's explicit position on paper-bag rebreathing and on the differential for tachypnea."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-08",
+      "title": "Epiglottitis and croup",
+      "domain": "AIR",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-05-09",
+        "EMT-02-01-02"
+      ],
+      "key_points": [
+        "Both cause noisy breathing in a child, and telling them apart changes what you do",
+        "Croup is viral, comes on over days, is worse at night, and produces a harsh barking cough with stridor",
+        "Epiglottitis is a rapidly progressing infection of the epiglottis itself and is a true emergency",
+        "The epiglottitis picture: sudden high fever, drooling because swallowing hurts, a muffled voice, and a child sitting forward refusing to lie down",
+        "Do not put anything in the mouth of a suspected epiglottitis patient and do not try to look at the throat",
+        "Keep the child calm and with a parent; distress can worsen the obstruction",
+        "Give oxygen in whatever way the child will tolerate and transport without agitating them"
+      ],
+      "misconceptions": [
+        "Inspecting the throat of a child with suspected epiglottitis",
+        "Separating a frightened child from a parent",
+        "Treating every stridulous child as croup",
+        "Forcing a mask onto a child who is fighting it"
+      ],
+      "exam_favorites": [
+        "Drooling, muffled voice and tripoding as the epiglottitis picture",
+        "Barking cough and night-time worsening as croup",
+        "Never inspect the airway",
+        "Keeping the child calm as a treatment in itself"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two childhood illnesses, both noisy, and the difference matters.\n\nCroup is the common one. It is viral, builds over a day or two, and is usually worse at night. The sound is unmistakable once you have heard it: a harsh, barking cough like a seal, with stridor when they breathe in. The child is unwell but usually still drinking, still talking, still themselves.\n\nEpiglottitis is the one that frightens experienced people. The epiglottis itself becomes infected and swells, and it sits right at the entrance to the airway. It moves fast. The child has a sudden high fever, is drooling because swallowing hurts too much, has a muffled voice rather than a barking cough, and is sitting bolt upright leaning forward, refusing to lie down. They look frightened and unwell in a way croup children usually do not.\n\nHere is the rule that matters. Do not put anything in that child's mouth. No tongue depressor, no look at the throat, no thermometer. A swollen epiglottis can be tipped into complete obstruction by that kind of stimulation.\n\nKeep the child calm. Leave them in whatever position they have chosen. Keep the parent with them, and let the parent hold the oxygen if that is what the child will accept. Crying and struggling make the obstruction worse, so calm is not a comfort measure here, it is treatment.\n\nThen go, gently, and let the hospital know what is coming.",
+          "standard": "Croup (laryngotracheobronchitis) is a viral illness of the subglottic airway with gradual onset over one to two days, characteristic nocturnal exacerbation, a barking cough and inspiratory stridor; children typically remain interactive and able to swallow. Epiglottitis is bacterial infection and inflammation of the epiglottis and supraglottic structures, characterised by abrupt onset, high fever, drooling secondary to odynophagia, muffled voice, tripod positioning and severe anxiety, and carries a risk of rapid progression to complete airway obstruction. Examination of the oropharynx, including use of a tongue depressor, is contraindicated in suspected epiglottitis, as stimulation may precipitate complete obstruction. Management comprises minimising distress, permitting the child to maintain their position of choice, keeping the caregiver present, delivering oxygen in whatever form is tolerated, avoiding agitation, and expedited transport with hospital notification."
+        },
+        "eli_new": {
+          "analogy": "The epiglottis is the lid over the windpipe. If the lid swells, do not go poking at it.",
+          "body": "Both children make noise when they breathe, which is why they get confused. The differences are in the details: croup coughs like a seal and comes on slowly; epiglottitis drools, speaks in a muffled voice, and got sick fast. And the single thing to remember is that you never look in the throat of the second one."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you would tell croup from epiglottitis in a child, and what you must not do if you suspect epiglottitis.",
+          "must_hit": [
+            {
+              "point": "Croup: barking cough, stridor, gradual, worse at night",
+              "accept": [
+                "bark",
+                "seal",
+                "stridor",
+                "night",
+                "gradual",
+                "viral"
+              ]
+            },
+            {
+              "point": "Epiglottitis: sudden high fever, drooling, muffled voice, sitting forward",
+              "accept": [
+                "drool",
+                "muffled",
+                "fever",
+                "tripod",
+                "sitting",
+                "forward",
+                "sudden"
+              ]
+            },
+            {
+              "point": "Never inspect the throat or put anything in the mouth",
+              "accept": [
+                "do not",
+                "never",
+                "tongue depressor",
+                "throat",
+                "mouth",
+                "inspect",
+                "look"
+              ]
+            },
+            {
+              "point": "Keep the child calm and with a parent",
+              "accept": [
+                "calm",
+                "parent",
+                "caregiver",
+                "upset",
+                "agitat",
+                "position of comfort"
+              ]
+            }
+          ],
+          "model_answer": "Croup is viral, builds over a day or two, is worse at night, and gives a harsh barking cough with stridor in a child who is generally still interactive and swallowing. Epiglottitis comes on fast with a high fever, the child drools because swallowing hurts, the voice is muffled rather than barking, and they sit bolt upright leaning forward and will not lie down. If you suspect epiglottitis, you must not put anything in the mouth — no tongue depressor, no throat inspection — because stimulating a swollen epiglottis can tip it into complete obstruction. Keep the child calm in whatever position they have chosen, keep the parent with them, let the parent hold the oxygen if that is what is tolerated, and transport gently with early notification."
+        },
+        "story": {
+          "title": "Let her hold it",
+          "dispatch": "Rescue 2 — four-year-old, difficulty breathing, parents very worried.",
+          "body": "She is on her mother's lap, leaning forward, drooling onto a towel. Her voice is thick and quiet when she answers. She got sick this afternoon and has a high fever.\n\nThe new EMT reaches for a penlight and you stop his hand.\n\nYou give her mother the oxygen tubing to hold near her face, tell her to keep doing exactly what she is doing, and you carry them both out together. Nobody raises their voice. Nobody lies her down."
+        },
+        "do": {
+          "activity": "croup_or_epiglottitis",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each finding: croup, or epiglottitis?",
+          "config": {
+            "buckets": [
+              "Croup",
+              "Epiglottitis"
+            ],
+            "items": [
+              {
+                "text": "Harsh barking cough like a seal",
+                "bucket": 0
+              },
+              {
+                "text": "Drooling and refusing to swallow",
+                "bucket": 1
+              },
+              {
+                "text": "Came on over two days, worse at night",
+                "bucket": 0
+              },
+              {
+                "text": "Sudden high fever this afternoon",
+                "bucket": 1
+              },
+              {
+                "text": "Muffled voice, sitting bolt upright leaning forward",
+                "bucket": 1
+              },
+              {
+                "text": "Stridor on inspiration, child still chatty",
+                "bucket": 0
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Onset",
+              "left": "Over a day or two",
+              "right": "Sudden, hours"
+            },
+            {
+              "feature": "Cough",
+              "left": "Harsh, barking",
+              "right": "Little or none"
+            },
+            {
+              "feature": "Voice",
+              "left": "Hoarse",
+              "right": "Muffled"
+            },
+            {
+              "feature": "Drooling",
+              "left": "No",
+              "right": "Yes — swallowing hurts"
+            },
+            {
+              "feature": "Position",
+              "left": "Variable",
+              "right": "Sitting forward, refuses to lie down"
+            },
+            {
+              "feature": "Fever",
+              "left": "Low grade",
+              "right": "High"
+            },
+            {
+              "feature": "Examine the throat?",
+              "left": "Not routinely needed",
+              "right": "NEVER"
+            }
+          ],
+          "left_label": "Croup",
+          "right_label": "Epiglottitis"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the distinguishing features as the current text lists them, the wording of the do-not-examine rule, and how the text frames croup severity and any prehospital treatment."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-09",
+      "title": "Infectious respiratory disease: precautions and awareness",
+      "domain": "AIR",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-02-05-03",
+        "EMT-02-05-08"
+      ],
+      "key_points": [
+        "Pertussis, RSV, influenza and COVID all spread through the respiratory route",
+        "Standard precautions apply to every patient; respiratory illness adds eye protection and a mask",
+        "A mask on the patient, where tolerated, reduces spread at the source",
+        "Pertussis causes violent coughing fits, and in children a whooping sound on breathing in afterward",
+        "RSV is a major cause of respiratory distress in infants and can be severe in the very young",
+        "Influenza and COVID cover a wide range from mild illness to respiratory failure",
+        "Exposures are reported and documented through your service's process"
+      ],
+      "misconceptions": [
+        "Using standard precautions only after the patient looks infectious",
+        "Skipping eye protection during suctioning or a coughing patient",
+        "Assuming a well-looking infant with RSV will stay well"
+      ],
+      "exam_favorites": [
+        "Precautions applied before assessment, not after",
+        "Masking the patient at the source",
+        "RSV in infants",
+        "Reporting exposures"
+      ],
+      "modes": {
+        "read": {
+          "plain": "You will meet respiratory infections constantly, and most of the time you will not know which one you have until long after the call.\n\nThat is the whole argument for doing the same thing every time. Standard precautions on every patient, and for anybody with a cough or a fever, add eye protection and a mask for yourself. If the patient will tolerate a mask, putting one on them stops a great deal at the source, which is more effective than anything you do at your own end.\n\nA few worth knowing by name. Pertussis, whooping cough, causes fits of coughing so violent the patient cannot breathe between them, and in a child the desperate breath afterward makes the whoop. RSV is a common cause of infants in real respiratory distress, and small infants have very little reserve. Influenza and COVID both run from mild to life-threatening, and neither announces which it is going to be at the door.\n\nAnd if you are exposed, report it through your service's process and document it. That is not paperwork for its own sake; it is what makes follow-up and treatment possible.",
+          "standard": "Respiratory infectious diseases encountered in EMS include pertussis, respiratory syncytial virus, influenza and COVID-19, all transmitted by respiratory routes. Standard precautions are applied to every patient contact irrespective of presentation, with the addition of eye protection and a respiratory mask for patients with cough or fever; source control by masking the patient where tolerated is more effective than provider protection alone. Pertussis produces paroxysmal coughing with an inspiratory whoop in children. RSV is a leading cause of bronchiolitis and severe respiratory distress in infants, who possess limited respiratory reserve. Influenza and COVID-19 span a spectrum from mild illness to respiratory failure. Occupational exposures must be reported and documented through the service's exposure control process to enable follow-up and post-exposure management."
+        },
+        "eli_new": {
+          "analogy": "You do not put on a seatbelt once you see the other car.",
+          "body": "The reason precautions are 'standard' is that you cannot tell by looking. By the time a patient looks obviously infectious, you have already been breathing the same air for ten minutes. Doing it the same way every time is the only version that works."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what precautions you take with a coughing, feverish patient and why you take them before you know what is wrong.",
+          "must_hit": [
+            {
+              "point": "Standard precautions on every patient",
+              "accept": [
+                "standard precaution",
+                "every patient",
+                "always",
+                "ppe"
+              ]
+            },
+            {
+              "point": "Add eye protection and a mask for respiratory illness",
+              "accept": [
+                "eye",
+                "goggle",
+                "mask",
+                "n95",
+                "respirator"
+              ]
+            },
+            {
+              "point": "Mask the patient for source control where tolerated",
+              "accept": [
+                "mask the patient",
+                "on the patient",
+                "source"
+              ]
+            },
+            {
+              "point": "Report and document exposures",
+              "accept": [
+                "report",
+                "document",
+                "exposure"
+              ]
+            }
+          ],
+          "model_answer": "Standard precautions go on every patient, before you know anything. For anyone coughing or febrile, add eye protection and a mask for yourself, and if they will tolerate it, put a mask on the patient too — stopping it at the source does more than protecting your own face. You do it before you know what is wrong because you usually never find out on scene, and by the time someone looks infectious you have already shared their air. Worth knowing by name: pertussis with its violent coughing fits and whoop in children, RSV which puts infants into real distress, and influenza and COVID which both run from mild to life-threatening. If you are exposed, report and document it through your service's process so follow-up can happen."
+        },
+        "story": {
+          "title": "Nobody said anything about a cough",
+          "dispatch": "Rescue 2 — 30-year-old male, abdominal pain, residence.",
+          "body": "Dispatched for abdominal pain. No mention of anything respiratory.\n\nHe coughed twice while you were taking his history, said it was nothing, and mentioned his daughter had been off school all week.\n\nYou had gloves and glasses on from the doorway because that is what you always do. Three days later the service told you the family had tested positive for influenza.\n\nThe habit is the only part of that you controlled."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the precaution levels the current text specifies for each disease and your service's current exposure reporting process."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-10",
+      "title": "Assisting with an MDI and a small-volume nebulizer",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-05-01"
+      ],
+      "related": [
+        "EMT-02-05-01",
+        "EMT-02-05-02"
+      ],
+      "key_points": [
+        "The EMT assists a patient with their own prescribed medication, within protocol and often with medical direction",
+        "A metered-dose inhaler delivers a measured puff that the patient must time with their own breath",
+        "A spacer holds the puff so the timing matters less; it is especially useful for children and for the very breathless",
+        "A small-volume nebulizer turns liquid medication into a mist driven by oxygen, breathed in over several minutes",
+        "A nebulizer needs no coordination, which is why it suits a patient too breathless to time a puff",
+        "Check the six rights before assisting, and confirm the medication is prescribed to this patient and is not expired",
+        "Reassess after: breath sounds, work of breathing, speech and vital signs"
+      ],
+      "misconceptions": [
+        "Assisting with a medication prescribed to somebody else",
+        "Expecting a severely breathless patient to coordinate an inhaler without a spacer",
+        "Giving the dose and not reassessing",
+        "Skipping the expiry check"
+      ],
+      "exam_favorites": [
+        "The six rights",
+        "Spacer use and why",
+        "Nebulizer versus MDI in a very breathless patient",
+        "Reassessment after assisting"
+      ],
+      "modes": {
+        "read": {
+          "plain": "An EMT does not carry these medications. What an EMT does is help a patient take their own, within protocol, usually after contacting medical direction.\n\nA metered-dose inhaler is the small pressurised canister. One press delivers one measured puff, and the patient has to breathe in slowly at the same moment. That coordination is harder than it sounds, and it is hardest for exactly the patients who need it most.\n\nThat is what a spacer is for. It is a chamber between the inhaler and the mouth. The puff goes into the chamber and hangs there, so the patient can breathe it in over a few breaths instead of catching it in one. Use one for children, and for anyone too breathless to coordinate.\n\nA small-volume nebulizer is the other route. Liquid medication sits in a cup, oxygen flows through it, and it comes out as a mist the patient breathes over several minutes through a mask or mouthpiece. There is nothing to coordinate — they just breathe. That makes it the better choice for someone who is really struggling.\n\nBefore you assist with anything, run the six rights: right patient, right medication, right dose, right route, right time, right documentation. Check that it is this patient's own prescription and that it is in date. Both of those get missed.\n\nAnd afterwards, go back and look. Listen to the chest again, watch the work of breathing, see whether they can get more words out, and take another set of vitals. If nothing changed, that is information too.",
+          "standard": "At the EMT level, bronchodilator administration consists of assisting the patient with their own prescribed medication under protocol, commonly with online medical direction. A metered-dose inhaler delivers a fixed-volume aerosolised dose that requires coordination between actuation and slow inspiration; a valved holding chamber or spacer suspends the dose, removing the coordination requirement and improving delivery, and is particularly indicated in pediatric patients and in patients with severe dyspnea. A small-volume nebulizer aerosolises liquid medication using an oxygen flow, delivered over several minutes by mask or mouthpiece, requiring no inspiratory coordination and therefore suited to the severely dyspneic patient. Prior to assisting, the six rights are confirmed, together with verification that the medication is prescribed to that patient and is within its expiry date. Post-administration reassessment includes breath sounds, work of breathing, ability to speak and vital signs."
+        },
+        "eli_new": {
+          "analogy": "An inhaler is a dart you have to catch in mid-air. A spacer is a bucket you can scoop it out of.",
+          "body": "The hardest part of an inhaler is not the drug, it is the timing. Press and breathe in at exactly the same moment, slowly. Somebody gasping for air cannot do that, so the puff ends up on the back of their throat. A spacer catches it and lets them take it over several ordinary breaths, and a nebulizer removes the problem completely."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between assisting with an inhaler and setting up a nebulizer, and what you check before you help with either.",
+          "must_hit": [
+            {
+              "point": "The medication is the patient's own prescription, per protocol",
+              "accept": [
+                "their own",
+                "prescribed",
+                "protocol",
+                "medical direction",
+                "prescription"
+              ]
+            },
+            {
+              "point": "An MDI requires timing the puff with a slow breath in",
+              "accept": [
+                "coordinat",
+                "timing",
+                "time",
+                "same moment",
+                "breathe in",
+                "press"
+              ]
+            },
+            {
+              "point": "A spacer removes the coordination problem",
+              "accept": [
+                "spacer",
+                "chamber",
+                "holding"
+              ]
+            },
+            {
+              "point": "A nebulizer needs no coordination and runs over minutes",
+              "accept": [
+                "nebuli",
+                "mist",
+                "minutes",
+                "no coordination",
+                "just breathe"
+              ]
+            },
+            {
+              "point": "Check the six rights, including expiry and that it is this patient's",
+              "accept": [
+                "six rights",
+                "right patient",
+                "expir",
+                "date",
+                "rights"
+              ]
+            },
+            {
+              "point": "Reassess afterwards",
+              "accept": [
+                "reassess",
+                "after",
+                "breath sounds",
+                "vital"
+              ]
+            }
+          ],
+          "model_answer": "You are helping the patient take their own prescribed medication, within protocol and usually after contacting medical direction. An inhaler delivers one measured puff and the patient has to breathe in slowly at exactly that moment, which is hardest for the patients who need it most — a spacer fixes that by holding the puff in a chamber so they can take it over several breaths, and it is especially useful for children and for anyone very breathless. A nebulizer turns liquid medication into a mist driven by oxygen over several minutes, with nothing to coordinate, so it suits someone really struggling. Before assisting, run the six rights and specifically confirm it is this patient's own prescription and that it has not expired. Afterwards, reassess: breath sounds, work of breathing, how many words they can manage, and another set of vitals."
+        },
+        "story": {
+          "title": "The puff that went nowhere",
+          "dispatch": "Rescue 2 — 9-year-old, asthma attack, school nurse's office.",
+          "body": "He has his own inhaler and the nurse has already helped him with two puffs. He is still working hard and you can hear him from across the room.\n\nWatching him try again, you see it: he presses, and breathes in about half a second later. The puff hits the back of his throat and stops there.\n\nThere is a spacer in the side pocket of his bag, unused. With the spacer on, he takes the same medication over four ordinary breaths, and this time you can hear it reach where it was meant to go."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Assisting with a prescribed inhaler or nebulizer",
+          "steps": [
+            {
+              "text": "Confirm the indication and obtain protocol or medical direction approval",
+              "critical": true
+            },
+            {
+              "text": "Confirm the medication is prescribed to THIS patient",
+              "critical": true,
+              "note": "Assisting with someone else's medication is a critical fail."
+            },
+            {
+              "text": "Check the expiry date",
+              "critical": true,
+              "note": "Commonly missed."
+            },
+            {
+              "text": "Run the six rights: patient, medication, dose, route, time, documentation",
+              "critical": true
+            },
+            {
+              "text": "Shake the inhaler and attach a spacer if available",
+              "critical": false,
+              "note": "Spacer for children and for the severely breathless."
+            },
+            {
+              "text": "Coach the patient to breathe in slowly as the dose is delivered, or set the nebulizer running on oxygen",
+              "critical": false
+            },
+            {
+              "text": "Reassess breath sounds, work of breathing, speech and vital signs",
+              "critical": true,
+              "note": "Giving the dose and not reassessing is the other classic fail."
+            },
+            {
+              "text": "Document what was given, by whom, and the response",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. No medication names, doses or number of puffs are stated here — these are protocol-specific and were deliberately omitted. Confirm the assist procedure, the six rights wording, and your local protocol's medication list and dosing."
     }
   ]
 }

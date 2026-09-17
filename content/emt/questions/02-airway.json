@@ -2921,6 +2921,1116 @@
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-01-Q001",
+      "concept_id": "EMT-02-05-01",
+      "style": "recall",
+      "stem": "Why does an asthmatic have more trouble getting air out than in?",
+      "options": [
+        {
+          "text": "Inhaling widens the small airways while exhaling narrows them further",
+          "rationale": "Correct. The obstruction is predominantly expiratory, which is why wheezing is heard on the way out."
+        },
+        {
+          "text": "The diaphragm only works on inspiration",
+          "rationale": "The diaphragm relaxes for normal exhalation regardless of asthma."
+        },
+        {
+          "text": "Mucus only forms during exhalation",
+          "rationale": "Mucus is present throughout."
+        },
+        {
+          "text": "The trachea collapses on inhalation",
+          "rationale": "The trachea is not the site of asthmatic obstruction."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-01-Q002",
+      "concept_id": "EMT-02-05-01",
+      "style": "application",
+      "stem": "An asthmatic who was wheezing loudly now has a quiet chest but is still visibly struggling. What does this mean?",
+      "options": [
+        {
+          "text": "The attack is resolving",
+          "rationale": "This is the assumption the concept exists to correct."
+        },
+        {
+          "text": "Almost no air is moving and the patient is deteriorating",
+          "rationale": "Correct. Wheeze requires airflow; silence with increased work is ominous."
+        },
+        {
+          "text": "The patient has developed pneumonia",
+          "rationale": "Nothing here suggests infection."
+        },
+        {
+          "text": "The patient is holding their breath",
+          "rationale": "A struggling patient is not breath-holding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-01-Q003",
+      "concept_id": "EMT-02-05-01",
+      "style": "recall",
+      "stem": "Which finding best indicates the severity of an asthma attack?",
+      "options": [
+        {
+          "text": "The loudness of the wheeze",
+          "rationale": "Loudness does not track severity, and can fall as severity rises."
+        },
+        {
+          "text": "Whether the patient can speak in full sentences",
+          "rationale": "Correct. Speech, accessory muscle use and position are the clinical severity markers."
+        },
+        {
+          "text": "The patient's age",
+          "rationale": "Age does not grade the attack."
+        },
+        {
+          "text": "How long ago they used their inhaler",
+          "rationale": "Useful history, but not the severity marker."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-01-Q004",
+      "concept_id": "EMT-02-05-01",
+      "style": "scenario",
+      "stem": "A frightened asthmatic is breathing fast and shallow. Beyond oxygen and their inhaler, what most helps?",
+      "options": [
+        {
+          "text": "Walking them quickly to the ambulance to save time",
+          "rationale": "Exertion worsens an asthma attack."
+        },
+        {
+          "text": "Calming them and coaching slower breathing",
+          "rationale": "Correct. Panic drives fast shallow breathing, which is exactly wrong when you cannot exhale."
+        },
+        {
+          "text": "Laying them flat",
+          "rationale": "Flat is not a position of comfort for a breathless patient."
+        },
+        {
+          "text": "Having them breathe into a bag",
+          "rationale": "Rebreathing is not used and is dangerous."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-02-Q001",
+      "concept_id": "EMT-02-05-02",
+      "style": "recall",
+      "stem": "What distinguishes emphysema from chronic bronchitis?",
+      "options": [
+        {
+          "text": "Emphysema destroys alveolar walls; chronic bronchitis is airway inflammation and mucus",
+          "rationale": "Correct, though most patients have features of both."
+        },
+        {
+          "text": "Emphysema is infectious; chronic bronchitis is not",
+          "rationale": "Neither is an acute infection in this context."
+        },
+        {
+          "text": "Emphysema affects only the right lung",
+          "rationale": "It is not side-specific."
+        },
+        {
+          "text": "Chronic bronchitis is reversible; emphysema is not",
+          "rationale": "Both are chronic and largely irreversible."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-02-Q002",
+      "concept_id": "EMT-02-05-02",
+      "style": "application",
+      "stem": "Why do many COPD patients breathe through pursed lips?",
+      "options": [
+        {
+          "text": "To warm the incoming air",
+          "rationale": "Not the purpose."
+        },
+        {
+          "text": "To create back-pressure that holds small airways open during exhalation",
+          "rationale": "Correct. Lost elastic recoil makes exhalation active work."
+        },
+        {
+          "text": "To reduce the spread of infection",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To slow the heart rate",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-02-Q003",
+      "concept_id": "EMT-02-05-02",
+      "style": "application",
+      "stem": "How should you judge whether a COPD patient's breathing is abnormal today?",
+      "options": [
+        {
+          "text": "Compare it to a healthy adult's breathing",
+          "rationale": "These patients are never at a healthy baseline."
+        },
+        {
+          "text": "Compare it to their own normal, asking them or their family",
+          "rationale": "Correct. Their baseline is the reference point."
+        },
+        {
+          "text": "By respiratory rate alone",
+          "rationale": "Rate alone does not capture the change."
+        },
+        {
+          "text": "By whether they are on home oxygen",
+          "rationale": "Home oxygen is background, not today's finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-02-Q004",
+      "concept_id": "EMT-02-05-02",
+      "style": "scenario",
+      "stem": "A hypoxic COPD patient is in obvious distress. What do you do about oxygen?",
+      "options": [
+        {
+          "text": "Withhold it because oxygen suppresses their drive to breathe",
+          "rationale": "This half-remembered rule must not stop you treating hypoxia in front of you."
+        },
+        {
+          "text": "Give oxygen to correct the hypoxia",
+          "rationale": "Correct. A hypoxic patient needs oxygen."
+        },
+        {
+          "text": "Give oxygen only if the patient asks",
+          "rationale": "Treatment is not led by the patient's request."
+        },
+        {
+          "text": "Give oxygen only after contacting medical direction",
+          "rationale": "Hypoxia is treated without delay."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-03-Q001",
+      "concept_id": "EMT-02-05-03",
+      "style": "recall",
+      "stem": "What happens in the lung in pneumonia?",
+      "options": [
+        {
+          "text": "The airways spasm and narrow",
+          "rationale": "That describes asthma."
+        },
+        {
+          "text": "Air sacs in part of the lung fill with fluid and pus",
+          "rationale": "Correct. Infection of the lung tissue itself."
+        },
+        {
+          "text": "Air enters the space around the lung",
+          "rationale": "That describes a pneumothorax."
+        },
+        {
+          "text": "A clot blocks an artery",
+          "rationale": "That describes a pulmonary embolism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-03-Q002",
+      "concept_id": "EMT-02-05-03",
+      "style": "application",
+      "stem": "Why are pneumonia findings often heard in one area rather than throughout?",
+      "options": [
+        {
+          "text": "Because the infection involves a region rather than the whole lung",
+          "rationale": "Correct. That asymmetry is a useful clue."
+        },
+        {
+          "text": "Because the stethoscope works better on one side",
+          "rationale": "Not a real effect."
+        },
+        {
+          "text": "Because patients lie on the affected side",
+          "rationale": "Positioning does not produce the finding."
+        },
+        {
+          "text": "Because only the left lung becomes infected",
+          "rationale": "Pneumonia is not side-specific."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-03-Q003",
+      "concept_id": "EMT-02-05-03",
+      "style": "scenario",
+      "stem": "An 84-year-old is weak, confused and off her food, with a barely raised temperature and little cough. What should stay on your list?",
+      "options": [
+        {
+          "text": "Pneumonia",
+          "rationale": "Correct. Elderly patients frequently present atypically, without prominent fever or cough."
+        },
+        {
+          "text": "Pneumonia can be excluded because she has no cough",
+          "rationale": "Absence of cough does not exclude it in this age group."
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "rationale": "Nothing here suggests it."
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "rationale": "Wrong presentation entirely."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-04-Q001",
+      "concept_id": "EMT-02-05-04",
+      "style": "recall",
+      "stem": "In cardiogenic pulmonary edema, where does the fluid in the alveoli come from?",
+      "options": [
+        {
+          "text": "Swallowed water entering the lungs",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It is forced out of the lung capillaries by backed-up pressure",
+          "rationale": "Correct. Left heart failure raises pressure until fluid crosses into the air sacs."
+        },
+        {
+          "text": "Infection producing pus",
+          "rationale": "That is pneumonia."
+        },
+        {
+          "text": "Air leaking from a ruptured bleb",
+          "rationale": "That is a pneumothorax."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-04-Q002",
+      "concept_id": "EMT-02-05-04",
+      "style": "recall",
+      "stem": "Which finding suggests severe pulmonary edema?",
+      "options": [
+        {
+          "text": "A barking cough",
+          "rationale": "That points to croup."
+        },
+        {
+          "text": "Pink frothy sputum",
+          "rationale": "Correct. Fluid and air whipped together with a little blood."
+        },
+        {
+          "text": "A silent chest",
+          "rationale": "That is a severe asthma finding."
+        },
+        {
+          "text": "Unilateral absent breath sounds",
+          "rationale": "That suggests a pneumothorax."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-04-Q003",
+      "concept_id": "EMT-02-05-04",
+      "style": "application",
+      "stem": "Why can a patient with pulmonary edema not lie flat?",
+      "options": [
+        {
+          "text": "Lying flat redistributes fluid across more of the lung",
+          "rationale": "Correct, which is why they sit up and sleep on pillows."
+        },
+        {
+          "text": "Lying flat compresses the trachea",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Lying flat increases the heart rate",
+          "rationale": "Not the reason for the orthopnea."
+        },
+        {
+          "text": "Lying flat causes bronchospasm",
+          "rationale": "Bronchospasm is not the problem here."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-04-Q004",
+      "concept_id": "EMT-02-05-04",
+      "style": "scenario",
+      "stem": "A breathless patient has crackles at both bases, swollen ankles, distended neck veins, and sleeps in a recliner. Which intervention is most likely to help, per protocol?",
+      "options": [
+        {
+          "text": "A nebulized bronchodilator",
+          "rationale": "This picture is cardiac rather than bronchospastic."
+        },
+        {
+          "text": "CPAP",
+          "rationale": "Correct. It holds alveoli open and helps drive fluid out of them."
+        },
+        {
+          "text": "Placing the patient supine",
+          "rationale": "Supine makes this patient acutely worse."
+        },
+        {
+          "text": "Rebreathing into a bag",
+          "rationale": "Never indicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-05-Q001",
+      "concept_id": "EMT-02-05-05",
+      "style": "recall",
+      "stem": "What happens to the affected part of the lung in a pulmonary embolism?",
+      "options": [
+        {
+          "text": "It is perfused but not ventilated",
+          "rationale": "That is the reverse of what occurs."
+        },
+        {
+          "text": "It is ventilated but not perfused",
+          "rationale": "Correct. Air arrives, but there is no blood flow to collect the oxygen."
+        },
+        {
+          "text": "It fills with pus",
+          "rationale": "That is pneumonia."
+        },
+        {
+          "text": "It collapses inward",
+          "rationale": "That is a pneumothorax."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-05-Q002",
+      "concept_id": "EMT-02-05-05",
+      "style": "application",
+      "stem": "A patient has sudden shortness of breath, sharp pain on inspiration, a fast heart rate and completely clear lung sounds. Why should clear lungs not reassure you?",
+      "options": [
+        {
+          "text": "Because clear lungs are typical of a pulmonary embolism",
+          "rationale": "Correct. There is no fluid, spasm or infection to hear."
+        },
+        {
+          "text": "Because the stethoscope cannot detect wheezing",
+          "rationale": "It can, and wheezing is one of the sounds it detects most reliably."
+        },
+        {
+          "text": "Because clear lungs always indicate anxiety",
+          "rationale": "Clear lungs indicate nothing on their own."
+        },
+        {
+          "text": "Because lung sounds are unreliable in all patients",
+          "rationale": "They are useful; they simply do not exclude this diagnosis."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-05-Q003",
+      "concept_id": "EMT-02-05-05",
+      "style": "recall",
+      "stem": "Which history most raises suspicion of pulmonary embolism?",
+      "options": [
+        {
+          "text": "A long-standing smoking history",
+          "rationale": "A COPD risk factor, not specifically a PE one."
+        },
+        {
+          "text": "Recent surgery, immobility, long travel or a swollen painful calf",
+          "rationale": "Correct. Risk factors are central to recognising this."
+        },
+        {
+          "text": "A family history of asthma",
+          "rationale": "Not a PE risk factor."
+        },
+        {
+          "text": "Recent antibiotic use",
+          "rationale": "Not relevant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-05-Q004",
+      "concept_id": "EMT-02-05-05",
+      "style": "scenario",
+      "stem": "A woman who flew home four days ago has sudden dyspnea, pleuritic pain and a sore swollen calf. What is your management?",
+      "options": [
+        {
+          "text": "Assist with a bronchodilator",
+          "rationale": "There is no bronchospasm to treat."
+        },
+        {
+          "text": "Oxygen, position of comfort and rapid transport",
+          "rationale": "Correct. There is no EMT treatment for the clot itself."
+        },
+        {
+          "text": "Coach her breathing and reassure her it is anxiety",
+          "rationale": "This is the assumption that gets patients killed."
+        },
+        {
+          "text": "Apply CPAP",
+          "rationale": "Not indicated for this presentation at the EMT level."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-06-Q001",
+      "concept_id": "EMT-02-05-06",
+      "style": "recall",
+      "stem": "What causes the lung to collapse in a spontaneous pneumothorax?",
+      "options": [
+        {
+          "text": "Air entering the space around the lung, destroying the vacuum that holds it expanded",
+          "rationale": "Correct. The lung's own elasticity then pulls it inward."
+        },
+        {
+          "text": "Fluid filling the alveoli",
+          "rationale": "That is pulmonary edema."
+        },
+        {
+          "text": "A clot blocking the pulmonary artery",
+          "rationale": "That is an embolism."
+        },
+        {
+          "text": "Mucus plugging the bronchi",
+          "rationale": "That is not a pneumothorax."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-06-Q002",
+      "concept_id": "EMT-02-05-06",
+      "style": "recall",
+      "stem": "Which patient classically has a primary spontaneous pneumothorax?",
+      "options": [
+        {
+          "text": "A short, heavy, elderly woman",
+          "rationale": "Not the classic description."
+        },
+        {
+          "text": "A tall, thin young adult, often a smoker",
+          "rationale": "Correct — the classic demographic."
+        },
+        {
+          "text": "A toddler with a fever",
+          "rationale": "Wrong presentation entirely."
+        },
+        {
+          "text": "A pregnant patient in her third trimester",
+          "rationale": "Not the classic association."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-06-Q003",
+      "concept_id": "EMT-02-05-06",
+      "style": "application",
+      "stem": "Which combination suggests a simple pneumothorax is becoming a tension pneumothorax?",
+      "options": [
+        {
+          "text": "Improving colour and slowing heart rate",
+          "rationale": "Those suggest improvement."
+        },
+        {
+          "text": "Worsening distress, falling blood pressure and distended neck veins",
+          "rationale": "Correct. Rising intrathoracic pressure impedes venous return."
+        },
+        {
+          "text": "A productive cough and fever",
+          "rationale": "That suggests infection."
+        },
+        {
+          "text": "Bilateral wheezing",
+          "rationale": "That suggests bronchospasm."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-07-Q001",
+      "concept_id": "EMT-02-05-07",
+      "style": "recall",
+      "stem": "What causes the tingling and hand spasm in hyperventilation syndrome?",
+      "options": [
+        {
+          "text": "A rise in carbon dioxide",
+          "rationale": "The level falls, not rises."
+        },
+        {
+          "text": "A fall in carbon dioxide from breathing off more than the body makes",
+          "rationale": "Correct. Breathing off more carbon dioxide than the body produces is the whole mechanism."
+        },
+        {
+          "text": "A drop in blood sugar",
+          "rationale": "Not the mechanism here."
+        },
+        {
+          "text": "A rise in blood oxygen to toxic levels",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-07-Q002",
+      "concept_id": "EMT-02-05-07",
+      "style": "application",
+      "stem": "Why must hyperventilation syndrome be a diagnosis of exclusion?",
+      "options": [
+        {
+          "text": "Because it is extremely rare",
+          "rationale": "It is not rare; that is not the reason."
+        },
+        {
+          "text": "Because rapid breathing is also caused by pulmonary embolism, diabetic emergencies, sepsis, poisoning and hypoxia",
+          "rationale": "Correct. All look like an anxious, fast-breathing patient from the doorway."
+        },
+        {
+          "text": "Because only a physician may diagnose it",
+          "rationale": "Scope is not the reasoning being tested."
+        },
+        {
+          "text": "Because it always resolves without treatment",
+          "rationale": "It does not, and assuming so is dangerous."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-07-Q003",
+      "concept_id": "EMT-02-05-07",
+      "style": "recall",
+      "stem": "What is the correct position on paper-bag rebreathing?",
+      "options": [
+        {
+          "text": "Use it once other causes are excluded",
+          "rationale": "It is not used at all."
+        },
+        {
+          "text": "It is not used and can be lethal if the cause is hypoxia",
+          "rationale": "Correct. Rebreathing is no longer practised and is dangerous where the cause is hypoxia."
+        },
+        {
+          "text": "Use it only in children",
+          "rationale": "Not used in any age group."
+        },
+        {
+          "text": "Use it only with medical direction approval",
+          "rationale": "It is not part of current practice."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-07-Q004",
+      "concept_id": "EMT-02-05-07",
+      "style": "scenario",
+      "stem": "A woman eleven days post-caesarean is breathing fast with tingling fingers and a sore leg. The call came in as a panic attack. What do you do?",
+      "options": [
+        {
+          "text": "Reassure her it is anxiety and coach her breathing only",
+          "rationale": "The history here points somewhere far more dangerous."
+        },
+        {
+          "text": "Coach her breathing, give oxygen, and treat this as possible pulmonary embolism",
+          "rationale": "Correct. Recent surgery plus a sore leg plus sudden tachypnea is a PE story until proven otherwise."
+        },
+        {
+          "text": "Have her breathe into a bag",
+          "rationale": "Never — paper-bag rebreathing is not used, and is most dangerous in exactly this patient."
+        },
+        {
+          "text": "Withhold oxygen since her saturation reads normal",
+          "rationale": "Oxygen is given where there is any doubt."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-08-Q001",
+      "concept_id": "EMT-02-05-08",
+      "style": "recall",
+      "stem": "Which findings suggest epiglottitis rather than croup?",
+      "options": [
+        {
+          "text": "Barking cough and gradual onset over two days",
+          "rationale": "That is the croup picture."
+        },
+        {
+          "text": "Drooling, muffled voice, high fever and sudden onset",
+          "rationale": "Correct — the epiglottitis picture."
+        },
+        {
+          "text": "Wheezing on exhalation",
+          "rationale": "That suggests lower airway obstruction."
+        },
+        {
+          "text": "Crackles at the bases",
+          "rationale": "That suggests fluid, not epiglottitis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-08-Q002",
+      "concept_id": "EMT-02-05-08",
+      "style": "recall",
+      "stem": "What must you never do with a child you suspect has epiglottitis?",
+      "options": [
+        {
+          "text": "Give oxygen the child will tolerate",
+          "rationale": "Oxygen is appropriate in whatever form is accepted."
+        },
+        {
+          "text": "Inspect the throat or put anything in the mouth",
+          "rationale": "Correct. Stimulation can precipitate complete obstruction."
+        },
+        {
+          "text": "Let the parent hold the child",
+          "rationale": "Keeping the parent close is exactly right."
+        },
+        {
+          "text": "Transport the child sitting up",
+          "rationale": "Their chosen position should be left alone."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-08-Q003",
+      "concept_id": "EMT-02-05-08",
+      "style": "application",
+      "stem": "Why is keeping a child with suspected epiglottitis calm considered treatment rather than comfort?",
+      "options": [
+        {
+          "text": "Because crying and struggling can worsen the airway obstruction",
+          "rationale": "Correct. Distress is a physiological problem here."
+        },
+        {
+          "text": "Because calm children have lower fevers",
+          "rationale": "Not a real relationship."
+        },
+        {
+          "text": "Because it speeds up transport",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because it reduces the need for oxygen",
+          "rationale": "Oxygen need is unchanged."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-08-Q004",
+      "concept_id": "EMT-02-05-08",
+      "style": "scenario",
+      "stem": "A four-year-old with a sudden high fever is drooling, leaning forward on her mother's lap, and speaking in a muffled voice. Your partner reaches for a penlight to look in her throat. What do you do?",
+      "options": [
+        {
+          "text": "Help hold her still so he can see",
+          "rationale": "Restraint and examination are both exactly wrong here."
+        },
+        {
+          "text": "Stop him; do not examine the airway, keep her calm with her mother and transport",
+          "rationale": "Correct. Do not examine the airway, leave her in her chosen position, and keep her mother with her."
+        },
+        {
+          "text": "Lay her down for a better view",
+          "rationale": "She must be left in her chosen position."
+        },
+        {
+          "text": "Suction her mouth to clear the drool",
+          "rationale": "Suctioning is stimulation of the same kind."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-09-Q001",
+      "concept_id": "EMT-02-05-09",
+      "style": "recall",
+      "stem": "When are standard precautions applied?",
+      "options": [
+        {
+          "text": "Once a patient is known to be infectious",
+          "rationale": "By then you have already shared their air."
+        },
+        {
+          "text": "On every patient contact",
+          "rationale": "Correct. You usually never find out what they had."
+        },
+        {
+          "text": "Only for patients with a documented fever",
+          "rationale": "Fever is not the trigger."
+        },
+        {
+          "text": "Only during transport",
+          "rationale": "They apply from first contact."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-09-Q002",
+      "concept_id": "EMT-02-05-09",
+      "style": "application",
+      "stem": "Why is putting a mask on a coughing patient effective?",
+      "options": [
+        {
+          "text": "It sterilises exhaled air",
+          "rationale": "It does not sterilise anything."
+        },
+        {
+          "text": "It controls the spread at the source",
+          "rationale": "Correct. Source control does more than provider protection alone."
+        },
+        {
+          "text": "It improves the patient's oxygenation",
+          "rationale": "A surgical mask is not an oxygen device."
+        },
+        {
+          "text": "It reduces the patient's cough",
+          "rationale": "It does not treat the cough."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-09-Q003",
+      "concept_id": "EMT-02-05-09",
+      "style": "recall",
+      "stem": "Which infection is a leading cause of severe respiratory distress in infants?",
+      "options": [
+        {
+          "text": "Pertussis",
+          "rationale": "Pertussis causes coughing paroxysms but RSV is the classic infant bronchiolitis cause."
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "rationale": "Correct. RSV is the classic cause of bronchiolitis and severe distress in infants."
+        },
+        {
+          "text": "Influenza A in adults",
+          "rationale": "Not the infant-specific answer."
+        },
+        {
+          "text": "Tuberculosis",
+          "rationale": "Not the typical infant distress cause in this context."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-10-Q001",
+      "concept_id": "EMT-02-05-10",
+      "style": "recall",
+      "stem": "What is the EMT's role with a prescribed inhaler?",
+      "options": [
+        {
+          "text": "Carrying and administering the service's own supply",
+          "rationale": "EMTs assist with the patient's own medication."
+        },
+        {
+          "text": "Assisting the patient with their own prescribed medication, per protocol",
+          "rationale": "Correct, commonly with medical direction."
+        },
+        {
+          "text": "Prescribing a new dose",
+          "rationale": "Outside scope entirely."
+        },
+        {
+          "text": "Advising the patient to double their usual dose",
+          "rationale": "Not an EMT decision."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-10-Q002",
+      "concept_id": "EMT-02-05-10",
+      "style": "application",
+      "stem": "Why is a spacer particularly useful for a severely breathless patient?",
+      "options": [
+        {
+          "text": "It increases the dose delivered per puff",
+          "rationale": "It improves delivery, but the point tested is coordination."
+        },
+        {
+          "text": "It removes the need to time the breath with the puff",
+          "rationale": "Correct. Coordination is hardest for the patients who need it most."
+        },
+        {
+          "text": "It warms the medication",
+          "rationale": "Not its function."
+        },
+        {
+          "text": "It allows the medication to be swallowed",
+          "rationale": "It is not swallowed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-10-Q003",
+      "concept_id": "EMT-02-05-10",
+      "style": "application",
+      "stem": "Why might a nebulizer suit a patient who is struggling more than an inhaler?",
+      "options": [
+        {
+          "text": "It delivers the medication as a mist over several minutes with nothing to coordinate",
+          "rationale": "Correct. There is nothing for the patient to coordinate, which is why it suits the severely breathless."
+        },
+        {
+          "text": "It works without oxygen",
+          "rationale": "A small-volume nebulizer is typically driven by oxygen."
+        },
+        {
+          "text": "It delivers a much larger dose instantly",
+          "rationale": "It is delivered gradually, not instantly."
+        },
+        {
+          "text": "It does not require a prescription",
+          "rationale": "It still requires the patient's own prescribed medication and protocol."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-10-Q004",
+      "concept_id": "EMT-02-05-10",
+      "style": "sequence",
+      "stem": "Put assisting with a prescribed inhaler in order: 1) reassess breath sounds and vitals, 2) confirm protocol or medical direction, 3) run the six rights and check the expiry date, 4) coach the patient to breathe in slowly as the dose is delivered.",
+      "options": [
+        {
+          "text": "2, 3, 4, 1",
+          "rationale": "Correct. Authority, then checks, then delivery, then reassessment."
+        },
+        {
+          "text": "3, 2, 4, 1",
+          "rationale": "Running the checks before you have authority to assist reverses the order."
+        },
+        {
+          "text": "2, 4, 3, 1",
+          "rationale": "Delivering the dose before the six rights skips the safety step."
+        },
+        {
+          "text": "4, 2, 3, 1",
+          "rationale": "Delivering first is the wrong order entirely."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
