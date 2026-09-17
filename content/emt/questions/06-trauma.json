@@ -722,6 +722,1116 @@
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-01-Q001",
+      "concept_id": "EMT-06-02-01",
+      "style": "recall",
+      "stem": "How is arterial bleeding recognised?",
+      "options": [
+        {
+          "text": "Dark red and flowing steadily",
+          "rationale": "That describes venous bleeding."
+        },
+        {
+          "text": "Bright red and spurting with the pulse",
+          "rationale": "Correct. It comes from a pressurised vessel."
+        },
+        {
+          "text": "Slow oozing from a graze",
+          "rationale": "That is capillary bleeding."
+        },
+        {
+          "text": "Black and clotted",
+          "rationale": "Not a description of active arterial bleeding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-01-Q002",
+      "concept_id": "EMT-06-02-01",
+      "style": "recall",
+      "stem": "Where does catastrophic external bleeding sit in the assessment priorities?",
+      "options": [
+        {
+          "text": "After airway and breathing",
+          "rationale": "Exsanguination kills faster than airway obstruction."
+        },
+        {
+          "text": "Before the airway",
+          "rationale": "Correct. Stop the bleeding, then go back to the airway."
+        },
+        {
+          "text": "After a full set of vital signs",
+          "rationale": "Vital signs do not precede stopping catastrophic bleeding."
+        },
+        {
+          "text": "Only once the patient is in the ambulance",
+          "rationale": "It is managed immediately, wherever the patient is."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-01-Q003",
+      "concept_id": "EMT-06-02-01",
+      "style": "application",
+      "stem": "A dressing has soaked through. What should you do?",
+      "options": [
+        {
+          "text": "Remove it and apply a fresh one",
+          "rationale": "Removing it strips away whatever clot had formed."
+        },
+        {
+          "text": "Add dressings on top and press harder",
+          "rationale": "Correct. Never remove what is already there."
+        },
+        {
+          "text": "Lift it to assess the wound underneath",
+          "rationale": "Lifting disturbs the forming clot."
+        },
+        {
+          "text": "Irrigate the wound and redress",
+          "rationale": "Irrigation is not a bleeding control measure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-01-Q004",
+      "concept_id": "EMT-06-02-01",
+      "style": "application",
+      "stem": "Why is focused pressure better than pressure over a bulky dressing?",
+      "options": [
+        {
+          "text": "Bulky dressings absorb more blood",
+          "rationale": "Absorption is not bleeding control."
+        },
+        {
+          "text": "A thick dressing spreads the force and dilutes it over a wide area",
+          "rationale": "Correct. Two fingertips on the bleeding point beat a palm on a wad of gauze."
+        },
+        {
+          "text": "Bulky dressings are less sterile",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "There is no difference",
+          "rationale": "There is a substantial difference."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-01-Q005",
+      "concept_id": "EMT-06-02-01",
+      "style": "recall",
+      "stem": "What is the current position on elevation and pressure points?",
+      "options": [
+        {
+          "text": "They remain the primary intermediate measures",
+          "rationale": "They are no longer taught as primary measures."
+        },
+        {
+          "text": "They are no longer taught as primary measures; the sequence is pressure, packing, tourniquet",
+          "rationale": "Correct. The evidence was poor and they delayed what works."
+        },
+        {
+          "text": "They should be used before direct pressure",
+          "rationale": "Direct pressure comes first."
+        },
+        {
+          "text": "They replace tourniquets in limb bleeding",
+          "rationale": "They do not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-01-Q006",
+      "concept_id": "EMT-06-02-01",
+      "style": "scenario",
+      "stem": "Direct pressure is failing on a wound in the groin. What is the next step?",
+      "options": [
+        {
+          "text": "Apply a tourniquet above the wound",
+          "rationale": "A limb tourniquet cannot be applied to a junctional wound."
+        },
+        {
+          "text": "Pack the wound and maintain pressure on the packing",
+          "rationale": "Correct. Junctional wounds are packed."
+        },
+        {
+          "text": "Elevate the leg",
+          "rationale": "Elevation is not a primary measure."
+        },
+        {
+          "text": "Apply a pressure point in the abdomen",
+          "rationale": "Pressure points are no longer taught as primary measures."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-02-Q001",
+      "concept_id": "EMT-06-02-02",
+      "style": "sequence",
+      "stem": "How tight should a tourniquet be?",
+      "options": [
+        {
+          "text": "Tight enough to slow the bleeding noticeably",
+          "rationale": "Slowing it is not the endpoint and may be the dangerous middle ground."
+        },
+        {
+          "text": "Until the bleeding stops and the distal pulse disappears",
+          "rationale": "Correct. Both endpoints are required."
+        },
+        {
+          "text": "Three full turns of the windlass",
+          "rationale": "Turn counts do not define the endpoint."
+        },
+        {
+          "text": "Tight enough that the patient does not complain",
+          "rationale": "Pain is expected in a correctly applied tourniquet."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-02-Q002",
+      "concept_id": "EMT-06-02-02",
+      "style": "application",
+      "stem": "Bleeding increases after applying a tourniquet. What should you do?",
+      "options": [
+        {
+          "text": "Remove it, since it has made things worse",
+          "rationale": "Removal is almost always the wrong response."
+        },
+        {
+          "text": "Tighten it further — it is compressing veins but not arteries",
+          "rationale": "Correct. The half-tight tourniquet is the dangerous one."
+        },
+        {
+          "text": "Loosen it slightly to restore venous drainage",
+          "rationale": "This is the state causing the problem."
+        },
+        {
+          "text": "Apply direct pressure over the tourniquet",
+          "rationale": "The tourniquet itself needs to be tightened."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-02-Q003",
+      "concept_id": "EMT-06-02-02",
+      "style": "recall",
+      "stem": "Where should a tourniquet never be placed?",
+      "options": [
+        {
+          "text": "On the upper arm",
+          "rationale": "The upper arm is an appropriate site."
+        },
+        {
+          "text": "Over a joint",
+          "rationale": "Correct. It will not compress effectively there."
+        },
+        {
+          "text": "On the thigh",
+          "rationale": "The thigh is an appropriate site."
+        },
+        {
+          "text": "Above the wound",
+          "rationale": "Above the wound is exactly where it goes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-02-Q004",
+      "concept_id": "EMT-06-02-02",
+      "style": "application",
+      "stem": "A patient begs you to loosen a correctly applied tourniquet because of the pain. What do you do?",
+      "options": [
+        {
+          "text": "Loosen it slightly for comfort",
+          "rationale": "Loosening risks the dangerous half-tight state and restarts the bleeding."
+        },
+        {
+          "text": "Leave it, explain that the pain is expected and means it is working",
+          "rationale": "Correct. Pain is not a reason to loosen it."
+        },
+        {
+          "text": "Remove it and try direct pressure again",
+          "rationale": "Field release is not done."
+        },
+        {
+          "text": "Loosen it every few minutes to relieve the pain",
+          "rationale": "Intermittent loosening is specifically contraindicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-02-Q005",
+      "concept_id": "EMT-06-02-02",
+      "style": "recall",
+      "stem": "Why must a tourniquet never be covered?",
+      "options": [
+        {
+          "text": "Covering it reduces its effectiveness",
+          "rationale": "Covering does not affect the mechanics."
+        },
+        {
+          "text": "Because a tourniquet nobody can see gets missed, with serious consequences",
+          "rationale": "Correct. Say it out loud at handover and record the time."
+        },
+        {
+          "text": "Because the material degrades under a blanket",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because it will slip if covered",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-02-Q006",
+      "concept_id": "EMT-06-02-02",
+      "style": "sequence",
+      "stem": "One tourniquet has not controlled bleeding from a thigh. What is the next step?",
+      "options": [
+        {
+          "text": "Remove it and pack the wound instead",
+          "rationale": "Packing does not replace a tourniquet on a limb."
+        },
+        {
+          "text": "Apply a second tourniquet just above the first",
+          "rationale": "Correct. Two working together are frequently what a large thigh needs."
+        },
+        {
+          "text": "Elevate the limb",
+          "rationale": "Elevation is not a primary measure."
+        },
+        {
+          "text": "Apply a pressure point in the groin",
+          "rationale": "Pressure points are no longer taught as primary measures."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-02-Q007",
+      "concept_id": "EMT-06-02-02",
+      "style": "recall",
+      "stem": "What is the modern view of tourniquet safety?",
+      "options": [
+        {
+          "text": "They cost the limb and are a desperate last resort",
+          "rationale": "That belief came from poor devices left on for extreme periods."
+        },
+        {
+          "text": "Correctly applied tourniquets are safe, and patients die from delayed ones",
+          "rationale": "Correct. The risk of bleeding to death far exceeds the risk to the limb."
+        },
+        {
+          "text": "They should only be used for amputations",
+          "rationale": "They are indicated for uncontrolled limb bleeding too."
+        },
+        {
+          "text": "They should be released every ten minutes",
+          "rationale": "Intermittent release is contraindicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-03-Q001",
+      "concept_id": "EMT-06-02-03",
+      "style": "recall",
+      "stem": "Which wound is appropriate for packing?",
+      "options": [
+        {
+          "text": "An abdominal wound",
+          "rationale": "An abdomen is a cavity with no floor to pack against."
+        },
+        {
+          "text": "A deep groin wound where a tourniquet cannot be applied",
+          "rationale": "Correct. Junctional wounds are what packing is for."
+        },
+        {
+          "text": "A chest wound",
+          "rationale": "Packing a chest achieves nothing."
+        },
+        {
+          "text": "A superficial graze",
+          "rationale": "Packing is for life-threatening bleeding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-03-Q002",
+      "concept_id": "EMT-06-02-03",
+      "style": "sequence",
+      "stem": "Where should the gauze be directed when packing?",
+      "options": [
+        {
+          "text": "Loosely into the space to absorb blood",
+          "rationale": "Absorbent gauze sitting in a cavity is failed packing."
+        },
+        {
+          "text": "Directly onto the bleeding point, packed tightly",
+          "rationale": "Correct. The packing must compress the vessel from inside."
+        },
+        {
+          "text": "Around the edges of the wound only",
+          "rationale": "The cavity must be filled."
+        },
+        {
+          "text": "Over the top of the wound as a dressing",
+          "rationale": "That is a dressing, not packing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-03-Q003",
+      "concept_id": "EMT-06-02-03",
+      "style": "recall",
+      "stem": "How does hemostatic gauze differ in application from plain gauze?",
+      "options": [
+        {
+          "text": "It is laid over the wound rather than packed",
+          "rationale": "It is packed identically."
+        },
+        {
+          "text": "It is packed identically; the agent shortens the time but does not replace technique",
+          "rationale": "Correct. Clever gauze does not pack itself."
+        },
+        {
+          "text": "It requires less pressure afterwards",
+          "rationale": "Pressure is still held for the specified time."
+        },
+        {
+          "text": "It should be used loosely to allow the agent to work",
+          "rationale": "Loose packing fails regardless of the gauze."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-03-Q004",
+      "concept_id": "EMT-06-02-03",
+      "style": "application",
+      "stem": "You have packed a wound and want to know whether it worked. What should you do?",
+      "options": [
+        {
+          "text": "Lift the packing to inspect the wound",
+          "rationale": "Removing packing to look undoes what you achieved."
+        },
+        {
+          "text": "Hold for the full specified time, then watch for bleeding at the edges",
+          "rationale": "Correct. Do not remove packing to inspect."
+        },
+        {
+          "text": "Repack it to be sure",
+          "rationale": "Repacking without reason does harm."
+        },
+        {
+          "text": "Release pressure briefly every minute",
+          "rationale": "Intermittent release defeats the purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-03-Q005",
+      "concept_id": "EMT-06-02-03",
+      "style": "application",
+      "stem": "Why should help be arranged before packing a wound?",
+      "options": [
+        {
+          "text": "Because two people pack faster than one",
+          "rationale": "Speed is not the reason."
+        },
+        {
+          "text": "Because the procedure is extremely painful and the patient cannot hold still",
+          "rationale": "Correct. Doing it half-heartedly means doing it twice."
+        },
+        {
+          "text": "Because protocol requires two-person procedures",
+          "rationale": "Not the stated rationale."
+        },
+        {
+          "text": "Because one person holds the gauze packet",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-03-Q006",
+      "concept_id": "EMT-06-02-03",
+      "style": "recall",
+      "stem": "What is the consequence of packing loosely?",
+      "options": [
+        {
+          "text": "The wound heals better",
+          "rationale": "Not a prehospital consideration and not true."
+        },
+        {
+          "text": "It fails — the gauze absorbs blood without compressing the vessel",
+          "rationale": "Correct. The pressure comes from the packing being tight."
+        },
+        {
+          "text": "It reduces the pain without affecting control",
+          "rationale": "It does not control the bleeding at all."
+        },
+        {
+          "text": "It works equally well with hemostatic gauze",
+          "rationale": "Hemostatic gauze packed loosely also fails."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-03-Q007",
+      "concept_id": "EMT-06-02-03",
+      "style": "sequence",
+      "stem": "After packing is complete and pressure has been held, what comes next?",
+      "options": [
+        {
+          "text": "Remove the packing and apply a clean dressing",
+          "rationale": "Packing is not removed in the field."
+        },
+        {
+          "text": "Secure it with a pressure dressing over the top",
+          "rationale": "Correct, then reassess for bleeding at the edges."
+        },
+        {
+          "text": "Elevate the limb and release pressure",
+          "rationale": "Elevation is not a primary measure and pressure is maintained."
+        },
+        {
+          "text": "Apply a tourniquet over the packing",
+          "rationale": "A tourniquet does not apply to a junctional site."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-04-Q001",
+      "concept_id": "EMT-06-02-04",
+      "style": "recall",
+      "stem": "Where can a patient lose a large volume of blood with nothing visible externally?",
+      "options": [
+        {
+          "text": "Only into the abdomen",
+          "rationale": "Several sites can conceal major volume."
+        },
+        {
+          "text": "The chest, abdomen, pelvis and the thighs",
+          "rationale": "Correct, along with the ground under the patient."
+        },
+        {
+          "text": "Only into the chest",
+          "rationale": "The abdomen, pelvis and thighs all conceal major loss too."
+        },
+        {
+          "text": "Nowhere — major bleeding is always visible",
+          "rationale": "Major bleeding is frequently entirely concealed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-04-Q002",
+      "concept_id": "EMT-06-02-04",
+      "style": "recall",
+      "stem": "Which shock finding appears earliest?",
+      "options": [
+        {
+          "text": "Falling blood pressure",
+          "rationale": "Pressure falls last, after compensation fails."
+        },
+        {
+          "text": "A rising pulse",
+          "rationale": "Correct. It is the earliest and most useful sign."
+        },
+        {
+          "text": "Unconsciousness",
+          "rationale": "A very late finding."
+        },
+        {
+          "text": "Visible bruising",
+          "rationale": "Bruising takes hours to appear."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-04-Q003",
+      "concept_id": "EMT-06-02-04",
+      "style": "application",
+      "stem": "A patient after a fall has a pulse of 124, cold wet hands, a soft abdomen, no bruising, and a pressure of 128/76. How do you read this?",
+      "options": [
+        {
+          "text": "Reassuring — the abdomen is soft and the pressure is normal",
+          "rationale": "Bruising takes hours and pressure falls last."
+        },
+        {
+          "text": "Compensated shock — the pulse and skin are the honest findings",
+          "rationale": "Correct. Act on these rather than waiting for the pressure to fall."
+        },
+        {
+          "text": "No significant injury",
+          "rationale": "The mechanism and the findings both say otherwise."
+        },
+        {
+          "text": "Anxiety after the fall",
+          "rationale": "Cold clammy skin with a pulse of 124 is physiological."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-04-Q004",
+      "concept_id": "EMT-06-02-04",
+      "style": "application",
+      "stem": "How should the absence of bruising in the first hour be interpreted?",
+      "options": [
+        {
+          "text": "As evidence against internal bleeding",
+          "rationale": "Bruising develops over hours; early absence means nothing."
+        },
+        {
+          "text": "As meaningless this early",
+          "rationale": "Correct. The bruising that will be dramatic tomorrow is invisible now."
+        },
+        {
+          "text": "As proof the mechanism was minor",
+          "rationale": "It proves nothing about the mechanism."
+        },
+        {
+          "text": "As a reason to delay transport",
+          "rationale": "Never a reason to delay."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-04-Q005",
+      "concept_id": "EMT-06-02-04",
+      "style": "recall",
+      "stem": "What treatment for internal bleeding is available to an EMT?",
+      "options": [
+        {
+          "text": "Direct pressure on the abdomen",
+          "rationale": "Not an effective or appropriate intervention."
+        },
+        {
+          "text": "Oxygen as indicated, warmth, positioning, nothing by mouth, and rapid transport",
+          "rationale": "Correct. The definitive treatment is a surgeon."
+        },
+        {
+          "text": "A tourniquet above the abdomen",
+          "rationale": "Not possible or appropriate."
+        },
+        {
+          "text": "Oral fluids to replace the loss",
+          "rationale": "Nothing by mouth; they may need theatre."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-04-Q006",
+      "concept_id": "EMT-06-02-04",
+      "style": "scenario",
+      "stem": "Why should you not spend scene time looking for a confirming sign?",
+      "options": [
+        {
+          "text": "Because signs are unreliable in every patient",
+          "rationale": "Signs are useful; waiting for them is the problem."
+        },
+        {
+          "text": "Because the mechanism has already told you, and the treatment is elsewhere",
+          "rationale": "Correct. Time spent confirming is time not spent travelling."
+        },
+        {
+          "text": "Because assessment is not an EMT function",
+          "rationale": "Assessment very much is."
+        },
+        {
+          "text": "Because the hospital will repeat the assessment",
+          "rationale": "That is true but is not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-05-Q001",
+      "concept_id": "EMT-06-02-05",
+      "style": "recall",
+      "stem": "What is shock?",
+      "options": [
+        {
+          "text": "A blood pressure below a defined threshold",
+          "rationale": "Hypotension is one late sign, not the definition."
+        },
+        {
+          "text": "Inadequate tissue perfusion",
+          "rationale": "Correct. Defining it by pressure means recognising it late."
+        },
+        {
+          "text": "A psychological response to injury",
+          "rationale": "That is a different use of the word."
+        },
+        {
+          "text": "Loss of more than half the blood volume",
+          "rationale": "Shock occurs well before that."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-05-Q002",
+      "concept_id": "EMT-06-02-05",
+      "style": "recall",
+      "stem": "What characterises compensated shock?",
+      "options": [
+        {
+          "text": "Low blood pressure with a slow pulse",
+          "rationale": "That is neither phase."
+        },
+        {
+          "text": "Fast pulse, pale cool clammy skin, and a still-normal blood pressure",
+          "rationale": "Correct. The normal number is the trap."
+        },
+        {
+          "text": "Normal pulse and normal skin",
+          "rationale": "That is not shock."
+        },
+        {
+          "text": "Unresponsiveness with a very low pressure",
+          "rationale": "That is decompensated shock."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-05-Q003",
+      "concept_id": "EMT-06-02-05",
+      "style": "application",
+      "stem": "An injured 9-year-old has a normal blood pressure, a fast pulse, slow capillary refill, and has gone quiet. How do you read this?",
+      "options": [
+        {
+          "text": "Stable, given the normal blood pressure",
+          "rationale": "Children hold their pressure until they suddenly cannot."
+        },
+        {
+          "text": "Compensated shock in a child who may decompensate abruptly",
+          "rationale": "Correct. The number is the least informative finding here."
+        },
+        {
+          "text": "Anxiety from the incident",
+          "rationale": "Slow capillary refill is not anxiety."
+        },
+        {
+          "text": "Normal for a frightened child",
+          "rationale": "Going quiet with these findings is not reassurance."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-05-Q004",
+      "concept_id": "EMT-06-02-05",
+      "style": "application",
+      "stem": "Why is keeping a bleeding trauma patient warm considered treatment?",
+      "options": [
+        {
+          "text": "Because comfort reduces anxiety",
+          "rationale": "Comfort is a side benefit, not the reason."
+        },
+        {
+          "text": "Because cold blood clots poorly, and hypothermia and acidosis reinforce each other",
+          "rationale": "Correct. Blankets are a clotting intervention here."
+        },
+        {
+          "text": "Because warmth raises blood pressure directly",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Because hospitals require normothermic patients",
+          "rationale": "Not the rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-05-Q005",
+      "concept_id": "EMT-06-02-05",
+      "style": "recall",
+      "stem": "How should a hemorrhagic shock patient be positioned?",
+      "options": [
+        {
+          "text": "Head down, routinely",
+          "rationale": "Head-down positioning is no longer routinely recommended."
+        },
+        {
+          "text": "Supine, unless their breathing will not tolerate it",
+          "rationale": "Correct, and check your local protocol."
+        },
+        {
+          "text": "Sitting fully upright",
+          "rationale": "Sitting a shocked patient up removes perfusion pressure."
+        },
+        {
+          "text": "Prone",
+          "rationale": "Not an appropriate position."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-05-Q006",
+      "concept_id": "EMT-06-02-05",
+      "style": "scenario",
+      "stem": "A shocked trauma patient complains of severe thirst. What do you do?",
+      "options": [
+        {
+          "text": "Give small sips of water",
+          "rationale": "Nothing by mouth; they may need theatre."
+        },
+        {
+          "text": "Withhold fluids — thirst itself is a sign of significant loss",
+          "rationale": "Correct. Nothing by mouth, however thirsty they are."
+        },
+        {
+          "text": "Give an oral rehydration solution",
+          "rationale": "Still nothing by mouth."
+        },
+        {
+          "text": "Allow them to rinse and swallow",
+          "rationale": "Swallowing is what must be avoided."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-06-Q001",
+      "concept_id": "EMT-06-02-06",
+      "style": "recall",
+      "stem": "How should a patient with a nosebleed be positioned?",
+      "options": [
+        {
+          "text": "Sitting up, head tilted back",
+          "rationale": "This sends blood down the throat and causes vomiting."
+        },
+        {
+          "text": "Sitting up, leaning forward",
+          "rationale": "Correct. Blood goes into a bowl rather than a stomach."
+        },
+        {
+          "text": "Lying flat",
+          "rationale": "Lying flat also directs blood posteriorly."
+        },
+        {
+          "text": "Lying on the side with the head down",
+          "rationale": "Not the recommended position for simple epistaxis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-06-Q002",
+      "concept_id": "EMT-06-02-06",
+      "style": "recall",
+      "stem": "Where exactly should the nose be pinched?",
+      "options": [
+        {
+          "text": "The bony bridge",
+          "rationale": "Bone compresses nothing; the bleeding point is below it."
+        },
+        {
+          "text": "The soft cartilaginous part below the bone",
+          "rationale": "Correct, squeezed firmly."
+        },
+        {
+          "text": "Both nostrils at the tip only",
+          "rationale": "Too far forward to compress the bleeding point."
+        },
+        {
+          "text": "It should not be pinched at all",
+          "rationale": "Pinching is the primary measure in simple epistaxis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-06-Q003",
+      "concept_id": "EMT-06-02-06",
+      "style": "recall",
+      "stem": "How long should compression be held?",
+      "options": [
+        {
+          "text": "One minute, then check",
+          "rationale": "Checking resets the clock every time."
+        },
+        {
+          "text": "At least ten minutes without releasing",
+          "rationale": "Correct, timed, and it feels longer than it is."
+        },
+        {
+          "text": "Thirty seconds at a time",
+          "rationale": "Far too short to allow clot formation."
+        },
+        {
+          "text": "Until the patient says it has stopped",
+          "rationale": "The patient cannot see the bleeding point."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-06-Q004",
+      "concept_id": "EMT-06-02-06",
+      "style": "application",
+      "stem": "A nosebleed follows a significant head injury and contains clear fluid. What must you NOT do?",
+      "options": [
+        {
+          "text": "Transport the patient",
+          "rationale": "Transport is exactly what is needed."
+        },
+        {
+          "text": "Pack or pinch the nose closed",
+          "rationale": "Correct. Clear fluid may be cerebrospinal fluid from a skull base fracture."
+        },
+        {
+          "text": "Cover it loosely",
+          "rationale": "Loose covering is appropriate."
+        },
+        {
+          "text": "Take a set of vital signs",
+          "rationale": "Assessment remains appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-06-Q005",
+      "concept_id": "EMT-06-02-06",
+      "style": "scenario",
+      "stem": "Despite correct positioning and pinching, little blood comes from the front but the patient keeps swallowing. What does this suggest?",
+      "options": [
+        {
+          "text": "The technique is being applied incorrectly",
+          "rationale": "The scenario states it is correct."
+        },
+        {
+          "text": "A posterior bleed, which needs hospital management",
+          "rationale": "Correct. It is beyond what you can reach."
+        },
+        {
+          "text": "The bleeding has stopped",
+          "rationale": "Continuous swallowing indicates it has not."
+        },
+        {
+          "text": "The patient is anxious",
+          "rationale": "Swallowing blood is a physical finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

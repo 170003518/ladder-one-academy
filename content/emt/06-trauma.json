@@ -23,6 +23,18 @@
         "EMT-06-01-03",
         "EMT-06-01-04"
       ]
+    },
+    {
+      "id": "EMT-06-02",
+      "title": "Bleeding",
+      "concepts": [
+        "EMT-06-02-01",
+        "EMT-06-02-02",
+        "EMT-06-02-03",
+        "EMT-06-02-04",
+        "EMT-06-02-05",
+        "EMT-06-02-06"
+      ]
     }
   ],
   "concepts": [
@@ -688,6 +700,1075 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the golden period and platinum ten minute concepts against the current text. The one hour figure is presented as a teaching construct rather than a physiological threshold, which reflects current understanding but should be checked against your own source's wording."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-01",
+      "title": "External bleeding control",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-02-02",
+        "EMT-06-02-03",
+        "EMT-06-02-05"
+      ],
+      "key_points": [
+        "Arterial bleeding is bright red and spurts with the pulse; venous is darker and flows steadily; capillary oozes",
+        "Catastrophic external bleeding is managed before the airway, because it kills faster than anything else you can fix",
+        "Direct pressure is the first and most effective intervention, and it works when it is firm, focused on one point, and held",
+        "Pressure that is spread over a wide dressing is weaker than pressure focused on the bleeding point",
+        "Do not lift the dressing to look — every time you do, you tear apart what was forming",
+        "If blood soaks through, add dressings on top and press harder; do not remove what is already there",
+        "For a limb where direct pressure fails or is impractical, move to a tourniquet without hesitating",
+        "For a junctional wound — groin, armpit, neck — where a tourniquet cannot go, pack the wound and press",
+        "Elevation and pressure points are no longer taught as primary measures; direct pressure, packing and tourniquets are the sequence"
+      ],
+      "misconceptions": [
+        "Lifting the dressing to check whether the bleeding has stopped",
+        "Spreading pressure across a large bulky dressing instead of focusing it",
+        "Removing a soaked dressing and starting again",
+        "Working through the airway first when the patient is exsanguinating",
+        "Delaying a tourniquet to try direct pressure for longer than it is working"
+      ],
+      "exam_favorites": [
+        "Catastrophic bleeding before airway",
+        "Focused rather than spread pressure",
+        "Never lift the dressing",
+        "The direct pressure, packing, tourniquet sequence"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Three kinds of bleeding, told apart by colour and behaviour. Arterial is bright red and spurts in time with the pulse, because it is coming from a pressurised vessel. Venous is darker and flows steadily. Capillary oozes from a graze and usually stops itself.\n\nNow the one thing that reorders everything you have learned about priorities. Normally the sequence is airway, then breathing, then circulation. Catastrophic external bleeding comes before all of it. A patient with a severed femoral artery has a few minutes; a patient with an obstructed airway has a few more. If blood is pouring out of somebody, you stop that first and then go back to the airway.\n\nDirect pressure is the first intervention and the most effective, and the reason it sometimes fails is that it is done badly. Three things make it work.\n\nFirm. Not resting a hand on a dressing — pressing, hard enough that it takes effort to keep it up, hard enough that you will want to swap over after a few minutes.\n\nFocused. Pressure on one point, over the bleeding vessel. A thick fluffy dressing spreads your force over a wide area and dilutes it. Two fingertips on the actual bleeding point beat a palm on a wad of gauze.\n\nAnd held. This is the one people fail. Clotting takes time and every time you lift the dressing to check, you pull apart what was forming and start the clock again. Do not look. If you need to know whether it is working, look at the patient and look at whether fresh blood is appearing at the edges.\n\nIf blood soaks through, add on top and press harder. Do not peel the first dressing off — anything that was forming comes away with it.\n\nWhen direct pressure is not working, or cannot practically be applied, escalate. On a limb: tourniquet, and do not agonise over the decision. For a junctional wound where a limb tourniquet cannot reach — the groin, the armpit, the neck — pack the wound and hold pressure on the packing.\n\nOne piece of unlearning. Elevation and pressure points were taught as intermediate steps for many years. They are no longer taught as primary measures, because the evidence for them was poor and the time spent on them delayed things that work. The sequence now is direct pressure, packing, tourniquet. If someone senior tells you to elevate, elevating a limb harms nobody — but do not let it substitute for pressure that is working or a tourniquet that is needed.",
+          "standard": "External haemorrhage is classified by source: arterial bleeding is bright red and pulsatile; venous bleeding is darker and continuous; capillary bleeding oozes. Catastrophic external haemorrhage precedes airway management in the assessment sequence, as exsanguination produces death more rapidly than airway obstruction. Direct pressure constitutes the primary intervention; efficacy requires that pressure be firm, focused over the bleeding point rather than distributed across bulky dressings, and sustained without interruption. Dressing removal disrupts forming clot; saturated dressings are supplemented rather than replaced, with increased pressure. Where direct pressure fails or is impractical on an extremity, tourniquet application follows without delay. Junctional wounds not amenable to tourniquet — inguinal, axillary, cervical — require wound packing with sustained pressure. Elevation and pressure point compression are no longer taught as primary measures owing to limited supporting evidence and the delay they introduce; the current sequence is direct pressure, packing, tourniquet."
+        },
+        "eli_new": {
+          "analogy": "Pressure is not a gesture. It is a job that makes your arms ache, focused on one square centimetre, held without looking for far longer than feels necessary.",
+          "body": "The most common reason direct pressure fails is that somebody keeps lifting it to check. Clot formation is not instant, and every look starts the process again. Press, and do not look."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what makes direct pressure work, and the sequence when it does not.",
+          "must_hit": [
+            {
+              "point": "Arterial spurts bright red; venous flows darker; capillary oozes",
+              "accept": [
+                "arterial",
+                "spurt",
+                "bright",
+                "venous",
+                "dark",
+                "capillary",
+                "ooze"
+              ]
+            },
+            {
+              "point": "Catastrophic bleeding is managed before the airway",
+              "accept": [
+                "before",
+                "airway",
+                "first",
+                "catastroph",
+                "priority"
+              ]
+            },
+            {
+              "point": "Pressure must be firm, focused on one point, and held",
+              "accept": [
+                "firm",
+                "focus",
+                "point",
+                "held",
+                "hold",
+                "hard"
+              ]
+            },
+            {
+              "point": "Do not lift the dressing to look",
+              "accept": [
+                "lift",
+                "look",
+                "check",
+                "peel",
+                "disturb"
+              ]
+            },
+            {
+              "point": "Add dressings on top rather than removing soaked ones",
+              "accept": [
+                "add",
+                "on top",
+                "remove",
+                "soak",
+                "replace"
+              ]
+            },
+            {
+              "point": "Failed pressure on a limb means a tourniquet without hesitating",
+              "accept": [
+                "tourniquet",
+                "limb",
+                "hesitat",
+                "escalat"
+              ]
+            },
+            {
+              "point": "Junctional wounds are packed; elevation and pressure points are not primary",
+              "accept": [
+                "pack",
+                "junction",
+                "groin",
+                "armpit",
+                "elevat",
+                "pressure point"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Every thirty seconds",
+          "dispatch": "Engine 7 — laceration to the forearm, heavy bleeding, bystander first aid in progress.",
+          "body": "A well-meaning bystander had a dressing on it and was lifting the corner every thirty seconds to see whether it had stopped.\n\nIt had not stopped. It had been starting to stop, twelve separate times.\n\nThe firefighter put two fingers on one spot, pressed hard, and did not move for six minutes."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the bleeding classification and the current position on elevation and pressure points against the current text and current bleeding control guidance, which has changed in recent editions."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-02",
+      "title": "Tourniquet application",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-02-01"
+      ],
+      "related": [
+        "EMT-06-02-01",
+        "EMT-06-02-03",
+        "EMT-06-03-04"
+      ],
+      "key_points": [
+        "A tourniquet is the correct treatment for life-threatening limb bleeding that direct pressure has not controlled, and for an amputation",
+        "Modern practice is that tourniquets are safe when applied properly and the old fear of losing the limb is out of proportion to the risk",
+        "Apply high and tight above the wound, over a single bone where possible, and never over a joint",
+        "Tighten until the bleeding stops and the distal pulse is gone — a tourniquet that has not stopped the bleeding is too loose",
+        "A tourniquet that is too loose can make bleeding worse, because it blocks venous return without stopping arterial inflow",
+        "It will hurt, and that pain is expected — it is not a reason to loosen it",
+        "Never cover a tourniquet, and write the time of application somewhere visible, on the tourniquet or on the patient",
+        "Once applied, do not remove or loosen it in the field — release is a hospital decision",
+        "If one tourniquet does not stop the bleeding, apply a second just above the first"
+      ],
+      "misconceptions": [
+        "Applying it too loosely, which increases bleeding",
+        "Removing or loosening it because the patient is in pain",
+        "Covering it with a blanket so the receiving team does not see it",
+        "Applying it over a joint",
+        "Not recording the time of application"
+      ],
+      "exam_favorites": [
+        "High and tight, never over a joint",
+        "Tighten until the distal pulse is gone",
+        "Too loose makes bleeding worse",
+        "Record the time and never cover it"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A tourniquet stops life-threatening bleeding from a limb. It is indicated when direct pressure has not controlled the bleeding, when direct pressure is impractical — multiple casualties, a hazardous scene, a patient who has to be moved now — and immediately for a traumatic amputation.\n\nThe historical reluctance is worth addressing, because it still lingers. For a long time tourniquets were taught as a desperate last resort that would cost the limb. That belief came from poor devices, applied badly, and left on for extremely long periods. Modern practice, informed by a great deal of military experience, is that a properly applied tourniquet is safe for hours and that the risk of losing a limb is far smaller than the risk of bleeding to death. Patients die from delayed tourniquets. They very rarely lose limbs to prompt ones.\n\nApplication. High and tight above the wound. Over a single bone where you can — upper arm or thigh — because a tourniquet across two bones may not compress the vessel running between them. Never over a joint; it will not work.\n\nTighten until two things happen together: the bleeding stops, and the pulse below it disappears. Both. That is the endpoint, not a number of turns and not until it looks tight enough.\n\nThis matters because of a specific failure mode. A tourniquet tightened enough to compress veins but not arteries is worse than no tourniquet at all. Blood keeps arriving through the deeper, higher-pressure arteries and cannot get out through the compressed surface veins, so the limb engorges and bleeds harder. If you apply one and the bleeding increases, the answer is almost always to tighten it, not to take it off.\n\nIt will hurt. Properly applied tourniquets are genuinely painful, and patients ask for them to be loosened. That pain is expected and is not a reason to loosen anything. Tell them it is meant to hurt and that it is working.\n\nTwo things the receiving hospital needs. Never cover it — no blanket, no sleeve rolled down over it. Tourniquets get missed under blankets, with serious consequences. And write the time of application somewhere it cannot be lost: on the tourniquet itself if it has a panel, or on the patient's skin. The time drives every decision made about that limb afterwards.\n\nOnce it is on, leave it on. Do not release it, do not periodically loosen it, do not remove it because the bleeding appears to have stopped. Release is a hospital decision made with the ability to deal with what follows.\n\nAnd if one does not control the bleeding, put a second one on just above the first. Two working together are frequently what a large thigh needs.",
+          "standard": "Tourniquet application is indicated for life-threatening extremity haemorrhage uncontrolled by direct pressure, where direct pressure is impractical, and for traumatic amputation. Contemporary evidence, substantially derived from military experience, establishes that correctly applied tourniquets are safe for prolonged periods; historical concerns regarding limb loss reflected inadequate devices and prolonged application. Application is proximal to the wound, over a single long bone where anatomically possible, and never across a joint. Tightening continues until haemorrhage ceases and the distal pulse is abolished; both endpoints are required. Insufficient tightening occludes venous return without arresting arterial inflow, increasing haemorrhage; increased bleeding following application indicates the need for further tightening rather than removal. Pain is an expected consequence and does not indicate loosening. Tourniquets are never covered, and the application time is recorded visibly on the device or patient. Field release or intermittent loosening is contraindicated; release is a hospital decision. A second tourniquet is applied proximal to the first where one proves insufficient."
+        },
+        "eli_new": {
+          "analogy": "A tourniquet tightened halfway is a dam with the sluice open at the bottom. Water still arrives and cannot leave, and the reservoir behind it fills faster than before.",
+          "body": "Two things people get wrong. They apply it too loosely, because it is horrible to hurt somebody, and that makes the bleeding worse. And they cover it with a blanket, and a tourniquet nobody can see is a tourniquet nobody manages."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain where and how tight a tourniquet goes, why a loose one is dangerous, and what you do afterwards.",
+          "must_hit": [
+            {
+              "point": "Indicated for uncontrolled limb bleeding and for amputation",
+              "accept": [
+                "limb",
+                "uncontrolled",
+                "amputat",
+                "direct pressure",
+                "fail"
+              ]
+            },
+            {
+              "point": "Properly applied tourniquets are safe; the old fear is out of proportion",
+              "accept": [
+                "safe",
+                "fear",
+                "limb loss",
+                "myth",
+                "hours"
+              ]
+            },
+            {
+              "point": "High and tight above the wound, over a single bone, never over a joint",
+              "accept": [
+                "high",
+                "tight",
+                "above",
+                "single bone",
+                "joint"
+              ]
+            },
+            {
+              "point": "Tighten until bleeding stops and the distal pulse is gone",
+              "accept": [
+                "pulse",
+                "distal",
+                "gone",
+                "stop",
+                "both"
+              ]
+            },
+            {
+              "point": "Too loose makes bleeding worse by blocking venous return only",
+              "accept": [
+                "loose",
+                "venous",
+                "worse",
+                "arterial",
+                "engorg"
+              ]
+            },
+            {
+              "point": "Pain is expected and is not a reason to loosen it",
+              "accept": [
+                "pain",
+                "hurt",
+                "loosen",
+                "expect"
+              ]
+            },
+            {
+              "point": "Never cover it, record the time, and do not release in the field",
+              "accept": [
+                "cover",
+                "time",
+                "record",
+                "release",
+                "remove",
+                "hospital"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Under the blanket",
+          "dispatch": "Handover — limb trauma, tourniquet applied at scene.",
+          "body": "The crew had applied it correctly, high and tight, and the bleeding had stopped completely.\n\nThen somebody put a blanket over the patient because the ambulance was cold, and the handover said 'bleeding controlled' rather than 'tourniquet on, applied at 14:12'.\n\nIt was found forty minutes later. Everything about that tourniquet had been right except that nobody could see it."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Tourniquet application",
+          "steps": [
+            {
+              "text": "Recognise life-threatening limb bleeding: direct pressure failing, impractical, or a traumatic amputation",
+              "critical": true
+            },
+            {
+              "text": "Expose the limb enough to see where you are placing it",
+              "critical": false
+            },
+            {
+              "text": "Place HIGH AND TIGHT above the wound, over a single bone where possible",
+              "critical": true,
+              "note": "Upper arm or thigh. Two bones may let the vessel between them escape compression."
+            },
+            {
+              "text": "NEVER place it over a joint",
+              "critical": true
+            },
+            {
+              "text": "Tighten until the BLEEDING STOPS and the DISTAL PULSE IS GONE",
+              "critical": true,
+              "note": "Both endpoints. Not a number of turns, not until it looks tight."
+            },
+            {
+              "text": "If bleeding increases, TIGHTEN FURTHER — do not remove",
+              "critical": true,
+              "note": "A tourniquet tight enough for veins but not arteries makes bleeding worse."
+            },
+            {
+              "text": "If one does not control it, apply a SECOND just above the first",
+              "critical": true
+            },
+            {
+              "text": "Secure the windlass or fastening per the device's design",
+              "critical": true
+            },
+            {
+              "text": "WRITE THE TIME OF APPLICATION on the device or the patient's skin",
+              "critical": true
+            },
+            {
+              "text": "NEVER COVER IT — no blanket, no sleeve, nothing over it",
+              "critical": true,
+              "note": "A tourniquet nobody can see is a tourniquet nobody manages."
+            },
+            {
+              "text": "Expect pain and explain it; do NOT loosen for pain",
+              "critical": true
+            },
+            {
+              "text": "Do NOT release or periodically loosen in the field — release is a hospital decision",
+              "critical": true
+            },
+            {
+              "text": "Say the words 'tourniquet applied at [time]' out loud at handover",
+              "critical": true
+            },
+            {
+              "text": "Reassess for continued control throughout transport",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm tourniquet indications, application technique and the guidance on field release against the current text and local protocol. Manufacturer instructions for the specific device carried also govern. No maximum application times are stated here; those vary between sources and are a hospital decision."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-03",
+      "title": "Wound packing and hemostatic dressings",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-02-01"
+      ],
+      "related": [
+        "EMT-06-02-01",
+        "EMT-06-02-02",
+        "EMT-06-07-03"
+      ],
+      "key_points": [
+        "Wound packing is for junctional wounds a tourniquet cannot reach: the groin, the armpit, the neck, and deep wounds on the torso boundary",
+        "It is not used for chest or abdominal wounds, where there is no floor to pack against",
+        "The principle is to fill the entire wound cavity tightly and then hold pressure on the packing",
+        "Pack directly onto the bleeding point: push the gauze deep, find the source, and keep feeding more in",
+        "A loosely packed wound does not work — the packing has to be tight enough to press the vessel closed from inside",
+        "Hemostatic gauze contains an agent that speeds clotting and is packed the same way as plain gauze",
+        "Hold firm pressure on the packed wound for the time your protocol or the product specifies, without letting go to look",
+        "Once packed, leave it: do not remove packing to inspect, and secure it with a pressure dressing",
+        "Packing hurts a great deal and the patient will not be able to hold still — have help before you start"
+      ],
+      "misconceptions": [
+        "Packing a chest or abdominal wound",
+        "Packing loosely so the cavity is filled but not compressed",
+        "Letting go early to see whether it worked",
+        "Removing packing to inspect the wound",
+        "Starting without enough hands to hold the patient"
+      ],
+      "exam_favorites": [
+        "Which wounds get packed and which do not",
+        "Pack tightly onto the bleeding point",
+        "Hold without letting go",
+        "Never remove packing to look"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Wound packing exists for the wounds a tourniquet cannot solve. If bleeding is coming from a limb, you use a tourniquet. If it is coming from where the limb meets the body — the groin, the armpit — or from the neck, there is nowhere to put a tourniquet, and packing is the answer.\n\nFirst, where you do not pack. Not the chest. Not the abdomen. Those are cavities, not wounds with a floor, and packing gauze into them does nothing except push gauze into a cavity. Junctional wounds and deep wounds at the boundary of the torso are what this is for.\n\nThe principle is simple and the execution is brutal. You are filling the whole wound cavity tightly enough that the packing itself presses the bleeding vessel shut from inside.\n\nThat means going in. Put a finger into the wound, find the bleeding point, and pack directly onto it. Feed gauze in and keep feeding — far more than you expect, because these cavities are bigger than they look from outside. Push each addition down firmly and pack against the source, not just into the space around it.\n\nA loosely packed wound is a failed packed wound. Gauze sitting in a cavity absorbs blood and does nothing. The pressure has to come from the packing being tight, and that means your fist and your body weight going into it.\n\nHemostatic gauze is impregnated with an agent that accelerates clotting. It goes in exactly the same way — the technique does not change because the gauze is clever. The agent shortens how long things take; it does not replace packing properly.\n\nThen hold. Firm, direct pressure on the packed wound for whatever time your protocol or the product specifies — and hold for the whole time without letting go to check. Same principle as direct pressure, with higher stakes because you cannot start again easily.\n\nOnce it is packed, it stays packed. Do not remove it to look. Do not repack it because you are not sure. Secure it with a pressure dressing over the top and let the hospital deal with what is underneath.\n\nOne practical thing that is rarely said plainly: this hurts more than almost anything else you will do to a conscious patient. You are pushing gauze into an open wound with your fingers. They will not be able to keep still, however much they want to help. Get people positioned to hold them before you start, tell the patient what is about to happen, and then do it properly rather than gently. Doing it half-heartedly because it is distressing means doing it twice.",
+          "standard": "Wound packing addresses junctional haemorrhage inaccessible to tourniquet application: inguinal, axillary, cervical and deep wounds at the torso boundary. Packing is contraindicated in thoracic and abdominal wounds, which lack a compressible base. Technique requires complete tight filling of the wound cavity such that the packing compresses the bleeding vessel internally. Gauze is introduced digitally onto the bleeding source and progressively fed into the cavity with firm downward pressure; cavity volume typically exceeds external appearance. Loose packing is ineffective, functioning only as absorbent material. Haemostatic gauze incorporates a clotting-accelerating agent and is packed by identical technique; the agent reduces required time but does not substitute for correct packing. Sustained direct pressure is maintained over the packed wound for the interval specified by protocol or product without interruption. Packing is not removed for inspection and is secured with a pressure dressing. The procedure produces severe pain; adequate personnel for patient restraint should be positioned before commencing."
+        },
+        "eli_new": {
+          "analogy": "You are not filling a hole with gauze. You are building a plug tight enough to squeeze a vessel closed from the inside, and a plug that is not tight is just wet gauze.",
+          "body": "The mistake that ruins this is being gentle because it is distressing to do. A half-packed wound keeps bleeding and has to be done again, which hurts twice as much in total. Get help to hold them, warn the patient, and then commit."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain which wounds are packed, how tightly, and what you do afterwards.",
+          "must_hit": [
+            {
+              "point": "For junctional wounds a tourniquet cannot reach: groin, armpit, neck",
+              "accept": [
+                "junction",
+                "groin",
+                "armpit",
+                "axilla",
+                "neck",
+                "tourniquet"
+              ]
+            },
+            {
+              "point": "Not for chest or abdominal wounds",
+              "accept": [
+                "chest",
+                "abdomen",
+                "not",
+                "cavity",
+                "never"
+              ]
+            },
+            {
+              "point": "Fill the whole cavity tightly, packing onto the bleeding point",
+              "accept": [
+                "fill",
+                "tight",
+                "cavity",
+                "bleeding point",
+                "source",
+                "deep"
+              ]
+            },
+            {
+              "point": "Loose packing does not work",
+              "accept": [
+                "loose",
+                "fail",
+                "tight",
+                "absorb",
+                "press"
+              ]
+            },
+            {
+              "point": "Hemostatic gauze packs the same way",
+              "accept": [
+                "hemostatic",
+                "haemostatic",
+                "same",
+                "technique",
+                "agent"
+              ]
+            },
+            {
+              "point": "Hold pressure for the specified time without letting go",
+              "accept": [
+                "hold",
+                "pressure",
+                "time",
+                "let go",
+                "without"
+              ]
+            },
+            {
+              "point": "Do not remove packing to look; secure with a pressure dressing",
+              "accept": [
+                "remove",
+                "inspect",
+                "secure",
+                "dressing",
+                "leave"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Half a pack",
+          "dispatch": "Debrief — junctional wound, groin, packing performed on scene.",
+          "body": "The first attempt was tentative, because pushing gauze into an open wound with your fingers on a screaming patient is a genuinely difficult thing to make yourself do.\n\nIt did not stop bleeding. They unpacked it and did it again properly, with three people holding him.\n\nIt hurt twice, because the first time was gentle."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Wound packing",
+          "steps": [
+            {
+              "text": "Confirm the site is suitable: junctional or deep boundary wound, NOT chest or abdomen",
+              "critical": true,
+              "note": "A cavity has no floor to pack against. Packing a chest or abdomen achieves nothing."
+            },
+            {
+              "text": "Get help positioned to hold the patient BEFORE you start",
+              "critical": true,
+              "note": "This hurts more than almost anything else done to a conscious patient."
+            },
+            {
+              "text": "Tell the patient what is about to happen",
+              "critical": false
+            },
+            {
+              "text": "Expose the wound and clear pooled blood to find the bleeding point",
+              "critical": true
+            },
+            {
+              "text": "Put a finger into the wound and locate the source",
+              "critical": true
+            },
+            {
+              "text": "Pack gauze DIRECTLY ONTO the bleeding point, not into the space around it",
+              "critical": true
+            },
+            {
+              "text": "Keep feeding gauze in, pressing each addition down firmly",
+              "critical": true,
+              "note": "Cavities are bigger than they look. Use far more gauze than you expect to."
+            },
+            {
+              "text": "Fill the entire cavity TIGHTLY — loose packing is failed packing",
+              "critical": true
+            },
+            {
+              "text": "Apply firm direct pressure over the packing with your fist and body weight",
+              "critical": true
+            },
+            {
+              "text": "HOLD for the time your protocol or the product specifies, WITHOUT letting go to look",
+              "critical": true
+            },
+            {
+              "text": "Secure with a pressure dressing over the top",
+              "critical": true
+            },
+            {
+              "text": "Do NOT remove packing to inspect the wound",
+              "critical": true
+            },
+            {
+              "text": "Reassess for bleeding at the edges throughout transport, and hand over what was used and when",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the indications for wound packing, the contraindication in thoracic and abdominal wounds, and the pressure hold time against the current text, local protocol and the specific product's instructions."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-04",
+      "title": "Internal bleeding recognition",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-02-01"
+      ],
+      "related": [
+        "EMT-06-02-05",
+        "EMT-06-07-05",
+        "EMT-06-05-04"
+      ],
+      "key_points": [
+        "Internal bleeding cannot be seen, cannot be measured, and cannot be controlled by anything an EMT carries",
+        "It is recognised from the mechanism and from the signs of shock, not from anything visible",
+        "Suspect it from the mechanism: blunt abdominal trauma, a fall from height, a crash, penetrating torso injury, rib or pelvic fractures",
+        "Signs are the signs of shock: rising pulse, pale cool clammy skin, anxiety then confusion, thirst, and falling pressure late",
+        "Local signs include abdominal tenderness or rigidity, distension, bruising over the flank or around the navel, and pelvic instability",
+        "Bruising patterns take hours to appear, so their absence means nothing early on",
+        "Coughing or vomiting blood, and blood from the rectum, indicate bleeding into the gastrointestinal tract",
+        "A patient can lose a very large volume into the abdomen, the chest, the pelvis or the thighs with nothing visible outside",
+        "Treatment is oxygen as indicated, keep warm, position, nothing by mouth, and rapid transport to a surgeon"
+      ],
+      "misconceptions": [
+        "Waiting for a low blood pressure before acting",
+        "Being reassured by a soft abdomen early after injury",
+        "Expecting to see bruising in the first hour",
+        "Spending time on scene looking for a sign that confirms it"
+      ],
+      "exam_favorites": [
+        "Recognised from mechanism and shock, not from what you see",
+        "Where large volumes can hide",
+        "Bruising appears late"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Internal bleeding is the injury you cannot see, cannot measure, and cannot fix. That combination is what makes it dangerous, and it is why recognition is entirely about inference.\n\nStart with where blood can go. A patient can lose an enormous volume into the abdominal cavity, into a chest cavity, into the pelvis after a pelvic fracture, and into the soft tissues of the thighs after femur fractures. Several litres, in some cases, with absolutely nothing visible from outside. The phrase worth remembering is that the floor and four more — the ground, chest, abdomen, pelvis, and long bones — are where the blood is when you cannot find it.\n\nSo you recognise it two ways: the mechanism, and the shock.\n\nMechanism first, because it comes before any sign. Blunt abdominal trauma. A fall from height. A significant crash, especially with compartment intrusion. Penetrating injury anywhere on the torso. Rib fractures, which mean force went into the chest. A suspected pelvic fracture. Any of those means you should be expecting internal bleeding rather than waiting to be shown it.\n\nThen the shock findings, in the order they appear. A rising pulse first — the earliest sign and the most useful. Skin that goes pale, cool and clammy. A patient who becomes anxious and restless, then confused, then quiet. Thirst, which is a genuinely underrated finding. And blood pressure falling last, because the body defends it until it cannot any more.\n\nThat ordering is the whole art of this. A normal blood pressure does not mean no internal bleeding; it means compensation is still working. If you wait for the pressure to fall before you take it seriously, you are waiting for the point at which the patient is close to running out of reserve.\n\nLocal signs, when you have them, help. Abdominal tenderness, guarding, rigidity, distension. Bruising over the flank or around the navel. Pelvic instability — though you check that once, gently, and then not again.\n\nBut be careful with bruising. It takes hours to develop. Looking for it in the first hour and being reassured by smooth skin is a real error; the bruising that will be dramatic tomorrow is invisible now.\n\nBlood coming up or out — coughed, vomited, or passed — tells you the gastrointestinal tract is involved and is as significant as anything you can see externally.\n\nAnd the treatment is short, because almost nothing is yours. Oxygen as indicated. Keep them warm, because cold patients clot badly and a shocked patient loses heat fast. Position appropriately. Nothing by mouth, because they may go to theatre. And transport quickly to a surgeon, which is the only thing that is going to stop this. Do not spend scene time looking for a sign that confirms what the mechanism already told you.",
+          "standard": "Internal haemorrhage is neither visible nor quantifiable prehospitally and is not controllable within EMT scope; recognition is inferential, derived from mechanism and shock findings. Major volume loss occurs into the thoracic cavity, peritoneal cavity, retroperitoneum and pelvis, and the soft tissues of the thigh following femoral fracture, without external evidence. Mechanisms conferring suspicion include blunt abdominal trauma, falls from height, vehicular trauma with compartment intrusion, penetrating torso injury, rib fractures and suspected pelvic fracture. Shock findings appear in sequence: tachycardia earliest, followed by pallor with cool clammy skin, anxiety progressing to confusion and obtundation, thirst, and hypotension as a late finding reflecting decompensation. Normotension therefore does not exclude significant haemorrhage. Local findings include abdominal tenderness, guarding, rigidity, distension, flank or periumbilical ecchymosis, and pelvic instability, assessed once only. Ecchymosis develops over hours and its early absence carries no exclusionary value. Haemoptysis, haematemesis and rectal bleeding indicate gastrointestinal involvement. Management comprises oxygen as indicated, active warming, positioning, nil by mouth and expedited transport for surgical haemorrhage control."
+        },
+        "eli_new": {
+          "analogy": "The blood is on the floor, or in the chest, the abdomen, the pelvis, or the thighs. Those are the only places several litres can hide, and four of them are inside the patient.",
+          "body": "The trap is the blood pressure. It is the last thing to go and the first thing people look at. A rising pulse on a pale, clammy, anxious patient with a normal pressure is internal bleeding being compensated for, and that is the moment to act rather than the moment to be reassured."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how internal bleeding is recognised, where large volumes can hide, and why blood pressure misleads.",
+          "must_hit": [
+            {
+              "point": "It cannot be seen, measured or controlled prehospitally",
+              "accept": [
+                "cannot",
+                "see",
+                "measure",
+                "control",
+                "invisible"
+              ]
+            },
+            {
+              "point": "Recognised from mechanism and shock findings",
+              "accept": [
+                "mechanism",
+                "shock",
+                "infer",
+                "suspect"
+              ]
+            },
+            {
+              "point": "Blood hides in the chest, abdomen, pelvis and thighs",
+              "accept": [
+                "chest",
+                "abdomen",
+                "pelvis",
+                "thigh",
+                "femur",
+                "floor"
+              ]
+            },
+            {
+              "point": "Rising pulse first, then skin, then mental status, pressure last",
+              "accept": [
+                "pulse",
+                "skin",
+                "clammy",
+                "mental",
+                "confus",
+                "pressure",
+                "last"
+              ]
+            },
+            {
+              "point": "A normal blood pressure does not exclude it",
+              "accept": [
+                "normal",
+                "exclude",
+                "compensat",
+                "late",
+                "reserve"
+              ]
+            },
+            {
+              "point": "Bruising takes hours, so early absence means nothing",
+              "accept": [
+                "bruis",
+                "ecchymos",
+                "hours",
+                "absence",
+                "late"
+              ]
+            },
+            {
+              "point": "Oxygen, warmth, position, nothing by mouth, rapid transport to a surgeon",
+              "accept": [
+                "oxygen",
+                "warm",
+                "position",
+                "nothing by mouth",
+                "transport",
+                "surgeon"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "A soft abdomen",
+          "dispatch": "Medic 8 — fall from a roof, patient alert, complaining of back pain.",
+          "body": "His abdomen was soft and non-tender, there was no bruising anywhere, and his blood pressure was 128 over 76.\n\nHis pulse was 124 and his hands were cold and wet, and the student said the abdomen was reassuring.\n\nBruising takes hours. The pressure goes last. The pulse and the hands were the only honest findings in the room."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sequence of shock findings and the sites of concealed haemorrhage against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-05",
+      "title": "Hemorrhagic shock",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-02-04"
+      ],
+      "related": [
+        "EMT-04-04-01",
+        "EMT-06-02-04",
+        "EMT-06-01-04"
+      ],
+      "key_points": [
+        "Shock is inadequate perfusion — not low blood pressure, which is only one late sign of it",
+        "Hemorrhagic shock is shock caused by blood loss, and the treatment is stopping the bleeding and replacing the blood",
+        "Compensated shock is the body maintaining pressure by speeding the heart and clamping down the vessels; the patient looks stable and is not",
+        "Decompensated shock is when those mechanisms fail and the pressure falls, and it is a late and ominous development",
+        "Children compensate extremely well and then crash abruptly, so a normal blood pressure in an injured child is not reassurance",
+        "The three things an EMT can genuinely do are stop external bleeding, keep the patient warm, and get them to a surgeon quickly",
+        "Hypothermia makes bleeding worse because cold blood clots poorly, so warming is treatment rather than comfort",
+        "Position supine unless breathing prevents it; the head-down position is no longer routinely recommended",
+        "Nothing by mouth, oxygen as indicated, minimal handling, and a pre-alert"
+      ],
+      "misconceptions": [
+        "Defining shock by blood pressure",
+        "Being reassured by a normal pressure in a child",
+        "Leaving a trauma patient uncovered because you need to see them",
+        "Using a head-down position routinely",
+        "Giving a shocked patient a drink because they are thirsty"
+      ],
+      "exam_favorites": [
+        "Compensated versus decompensated",
+        "Why warmth is treatment",
+        "Children crash abruptly",
+        "The three things you can actually do"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Shock is not low blood pressure. Shock is inadequate perfusion — tissue not getting the oxygen it needs. Low blood pressure is one sign of shock, and a late one. Defining shock by a number means you will only recognise it once it is well advanced, and a great deal of harm comes from exactly that.\n\nHemorrhagic shock is shock from blood loss. The treatment, ultimately, is to stop the bleeding and replace the blood. Hold that in mind because it tells you what your job is: everything you do is either stopping bleeding, protecting what circulation remains, or shortening the time to somebody who can do the rest.\n\nThere are two phases and the difference matters enormously.\n\nCompensated shock is the body fighting back successfully. The heart speeds up. Vessels in the skin and the gut clamp down to push blood towards the brain and heart. The result is a patient with a fast pulse, pale cool clammy skin, some anxiety, and a blood pressure that is still normal. That is the whole problem. The number reads normal because the body is working extremely hard to keep it there, and a crew looking at the monitor sees stability that is not there.\n\nDecompensated shock is when that fails. The pressure drops, the mental status falls, and the patient deteriorates quickly. It is late, it is ominous, and it means a substantial proportion of the blood volume is already gone.\n\nChildren deserve a specific warning. They compensate better than adults, they hold their pressure longer, and when it finally goes it goes fast, with very little warning. A normal blood pressure in a seriously injured child is close to meaningless as reassurance. Read the pulse, the skin, the capillary refill and the mental status instead.\n\nSo what can you actually do? Three things, and they are worth a great deal.\n\nStop external bleeding. Pressure, packing, tourniquets. This is the one you can genuinely fix.\n\nKeep them warm. This sounds like comfort and it is not. Cold blood clots badly, and a shocked patient loses heat frighteningly fast — undressed, on a cold surface, with poor perfusion. Hypothermia, acidosis and impaired clotting reinforce each other in a cycle that is very hard to break once it is established. Blankets on a bleeding trauma patient are a clotting intervention.\n\nAnd get them to a surgeon. The blood and the operation are the treatment and neither is on your vehicle.\n\nPosition supine unless their breathing will not tolerate it. Note that the old head-down position is no longer routinely recommended; the evidence did not support it and it has fallen out of practice. Check your protocol.\n\nAnd nothing by mouth, however thirsty they are — and they will be thirsty, because thirst is a genuine sign of significant blood loss. Oxygen as indicated, handle them as little as possible, and pre-alert.",
+          "standard": "Shock denotes inadequate tissue perfusion; hypotension constitutes a single late manifestation rather than a definition. Haemorrhagic shock arises from blood volume loss, with definitive management comprising haemorrhage control and blood replacement. Compensated shock reflects maintained perfusion pressure through tachycardia and peripheral vasoconstriction, producing tachycardia, pallor, cool clammy skin and anxiety with preserved blood pressure; apparent haemodynamic stability is misleading. Decompensated shock follows failure of compensatory mechanisms, with hypotension and deteriorating mental status, and indicates substantial volume loss. Paediatric patients compensate more effectively and decompensate abruptly; normotension carries minimal reassurance value and assessment relies on pulse, perfusion, capillary refill and mental status. EMT-level interventions comprise external haemorrhage control, prevention of hypothermia and expedited transport. Hypothermia impairs coagulation and, with acidosis, establishes a self-reinforcing cycle; active warming constitutes a coagulation intervention rather than a comfort measure. Supine positioning is used unless respiratory compromise precludes it; Trendelenburg positioning is no longer routinely recommended. Nil by mouth is maintained despite thirst, which itself indicates significant loss."
+        },
+        "eli_new": {
+          "analogy": "Compensated shock is a patient sprinting to stand still. The blood pressure looks normal because of how hard they are working, and they cannot keep it up.",
+          "body": "Two habits worth more than anything technical. Stop defining shock by the blood pressure — read the pulse and the skin. And put blankets on bleeding patients, because cold blood does not clot and a cold trauma patient is a bleeding trauma patient who is getting worse."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define shock properly, explain compensated versus decompensated, and say why warmth is treatment.",
+          "must_hit": [
+            {
+              "point": "Shock is inadequate perfusion, not low blood pressure",
+              "accept": [
+                "perfusion",
+                "not",
+                "pressure",
+                "tissue",
+                "oxygen"
+              ]
+            },
+            {
+              "point": "Compensated: fast pulse, pale cool clammy, normal pressure",
+              "accept": [
+                "compensat",
+                "fast",
+                "pulse",
+                "clammy",
+                "normal",
+                "pressure"
+              ]
+            },
+            {
+              "point": "Decompensated: pressure falls, mental status drops, late and ominous",
+              "accept": [
+                "decompensat",
+                "fall",
+                "late",
+                "mental",
+                "ominous"
+              ]
+            },
+            {
+              "point": "Children compensate well then crash abruptly",
+              "accept": [
+                "child",
+                "compensat",
+                "crash",
+                "sudden",
+                "normal"
+              ]
+            },
+            {
+              "point": "Stop external bleeding, keep warm, get to a surgeon",
+              "accept": [
+                "stop",
+                "bleeding",
+                "warm",
+                "surgeon",
+                "transport"
+              ]
+            },
+            {
+              "point": "Cold blood clots badly, so warming is a clotting intervention",
+              "accept": [
+                "cold",
+                "clot",
+                "warm",
+                "hypotherm",
+                "cycle"
+              ]
+            },
+            {
+              "point": "Supine unless breathing prevents it; head-down is not routine",
+              "accept": [
+                "supine",
+                "flat",
+                "head-down",
+                "trendelenburg",
+                "routine"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The monitor said fine",
+          "dispatch": "Medic 2 — 9-year-old, struck by a car, conscious and crying.",
+          "body": "Her blood pressure was completely normal for her age and somebody said so out loud, twice.\n\nHer pulse was fast, her capillary refill was slow, and she had gone quiet in the last two minutes.\n\nChildren hold their pressure until they cannot. The number was the last thing that was going to tell anybody anything."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Compensated shock",
+          "right_label": "Decompensated shock",
+          "rows": [
+            {
+              "feature": "Blood pressure",
+              "left": "NORMAL — this is the trap",
+              "right": "Falling or low"
+            },
+            {
+              "feature": "Pulse",
+              "left": "Fast, may still be strong",
+              "right": "Fast and weak, or thready"
+            },
+            {
+              "feature": "Skin",
+              "left": "Pale, cool, clammy",
+              "right": "Pale or mottled, cold, very clammy"
+            },
+            {
+              "feature": "Mental status",
+              "left": "Anxious, restless",
+              "right": "Confused, then drowsy, then unresponsive"
+            },
+            {
+              "feature": "Capillary refill",
+              "left": "Delayed",
+              "right": "Markedly delayed or absent"
+            },
+            {
+              "feature": "What is happening",
+              "left": "The body is winning, at enormous cost",
+              "right": "The compensation has failed"
+            },
+            {
+              "feature": "How much is lost",
+              "left": "Enough to need compensating for",
+              "right": "A substantial proportion of the volume"
+            },
+            {
+              "feature": "What it means for you",
+              "left": "ACT NOW — this is the moment",
+              "right": "Late and ominous; you are already behind"
+            },
+            {
+              "feature": "Children",
+              "left": "They hold this phase longer than adults",
+              "right": "They enter it abruptly, with little warning"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the shock classification and the current position on head-down positioning against the current text and local protocol, as positioning guidance has changed in recent editions."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-02-06",
+      "title": "Epistaxis",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "prereqs": [],
+      "related": [
+        "EMT-06-02-01",
+        "EMT-06-06-01",
+        "EMT-05-09-02"
+      ],
+      "key_points": [
+        "Most nosebleeds come from the front of the septum and are controllable with simple measures",
+        "Sit the patient up and lean them forward, so blood goes into a bowl rather than down their throat",
+        "Pinch the soft part of the nose, not the bony bridge, and hold continuously for at least ten minutes without checking",
+        "Swallowed blood causes nausea and vomiting, which makes everything worse, so leaning forward matters",
+        "Do not pack the nose or tilt the head back",
+        "Ask about anticoagulants, because these nosebleeds are heavier and far less likely to stop",
+        "A posterior bleed — blood running down the throat despite correct positioning, with little from the front — is more serious and needs hospital management",
+        "A nosebleed after head trauma, especially with clear fluid mixed in, raises the possibility of a skull base fracture and is not packed or pinched",
+        "Significant ongoing blood loss from the nose can cause shock, particularly in older or anticoagulated patients"
+      ],
+      "misconceptions": [
+        "Tilting the head back, which sends blood down the throat",
+        "Pinching the bony bridge instead of the soft part",
+        "Releasing every minute to check",
+        "Packing the nose of a patient with head trauma"
+      ],
+      "exam_favorites": [
+        "Pinch the soft part, lean forward",
+        "Ten minutes without checking",
+        "Head trauma nosebleeds are not packed",
+        "Posterior bleeds need hospital"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Most nosebleeds come from a patch on the front of the septum where several small vessels meet, close to the surface and easily disturbed. Those are the ones you can fix on somebody's sofa, and they are the majority.\n\nThe technique is simple and almost always done wrong.\n\nSit them up and lean them forward. Forward, not back. The instinct — and the advice everyone's grandmother gave — is to tilt the head back, and it is wrong. It does not slow the bleeding; it just redirects it down the throat where you cannot see it. Swallowed blood is intensely irritating to the stomach, so the patient vomits, and now you have a vomiting patient with a nosebleed. Forward, over a bowl.\n\nPinch the soft part of the nose — the fleshy bit below the bone. People pinch the bridge, which is bone, and compresses nothing. Get your fingers below that, onto the soft cartilage, and squeeze firmly.\n\nThen hold for at least ten minutes without releasing. Not squeezing, releasing to check, and squeezing again — that resets the clock every time, exactly as with any other bleeding. Ten full minutes, timed, and it is longer than it feels.\n\nDo not pack the nose, and do not tilt the head back.\n\nAsk about anticoagulants, because they change the picture: these bleeds are heavier, they last much longer, and they far more often need a hospital.\n\nA posterior bleed comes from further back, and it declares itself in a particular way — the patient is positioned and pinched correctly, and there is very little coming out of the front, but blood is running down the back of their throat and they keep swallowing. That is a bleed you are not going to reach and it can be substantial. It needs hospital management.\n\nNow the important exception. A nosebleed after significant head trauma is a different thing entirely. If there is clear or straw-coloured fluid mixed with the blood, that can be cerebrospinal fluid, which means a fracture at the base of the skull. Do not pack that nose. Do not pinch it closed. You would be obstructing drainage and pushing material towards the inside of the skull. Let it drain, cover loosely, and transport.\n\nAnd do not dismiss a nosebleed as minor. Ongoing bleeding from a nose can produce genuine shock, particularly in an older patient on a blood thinner who has been bleeding steadily for an hour before anybody called. Take a pulse and look at the skin, as you would for bleeding anywhere else.",
+          "standard": "Epistaxis most commonly originates from the anterior nasal septum and is amenable to simple measures. Management comprises upright seated positioning with forward inclination, directing blood externally rather than posteriorly; posterior drainage produces gastric irritation with emesis. Compression is applied to the soft cartilaginous portion rather than the bony dorsum, maintained continuously for a minimum of ten minutes without interruption for inspection. Nasal packing and head extension are contraindicated. Anticoagulation produces heavier and more protracted bleeding with greater likelihood of requiring hospital intervention. Posterior epistaxis presents with minimal anterior bleeding despite correct technique alongside continuous posterior drainage and repeated swallowing, and requires hospital management. Epistaxis following significant head trauma, particularly with clear or serosanguineous fluid suggesting cerebrospinal fluid, indicates possible basilar skull fracture; nasal packing and compression are contraindicated, with loose covering and transport indicated. Sustained epistaxis may produce haemorrhagic shock, particularly in geriatric and anticoagulated patients."
+        },
+        "eli_new": {
+          "analogy": "Leaning back does not stop a nosebleed. It hides it, in a stomach, and gives it back to you ten minutes later as vomit.",
+          "body": "Two errors, both nearly universal. Tilting the head back, which sends the blood down the throat. And pinching the bony bridge, which compresses nothing at all. Forward, and on the soft part."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe correct nosebleed management and the situation in which you must not pinch or pack.",
+          "must_hit": [
+            {
+              "point": "Sit up and lean forward, not back",
+              "accept": [
+                "forward",
+                "lean",
+                "sit",
+                "back",
+                "tilt"
+              ]
+            },
+            {
+              "point": "Pinch the soft part, not the bony bridge",
+              "accept": [
+                "soft",
+                "pinch",
+                "bridge",
+                "bone",
+                "cartilage"
+              ]
+            },
+            {
+              "point": "Hold at least ten minutes without checking",
+              "accept": [
+                "ten",
+                "10",
+                "minutes",
+                "without",
+                "check",
+                "release"
+              ]
+            },
+            {
+              "point": "Leaning back sends blood down the throat and causes vomiting",
+              "accept": [
+                "throat",
+                "swallow",
+                "vomit",
+                "stomach",
+                "nausea"
+              ]
+            },
+            {
+              "point": "Ask about anticoagulants",
+              "accept": [
+                "anticoagul",
+                "thinner",
+                "medication"
+              ]
+            },
+            {
+              "point": "A posterior bleed drains down the throat despite correct technique",
+              "accept": [
+                "posterior",
+                "throat",
+                "swallow",
+                "back",
+                "hospital"
+              ]
+            },
+            {
+              "point": "After head trauma, especially with clear fluid, do not pack or pinch",
+              "accept": [
+                "head",
+                "trauma",
+                "clear",
+                "fluid",
+                "csf",
+                "skull",
+                "pack"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Grandmother's advice",
+          "dispatch": "Medic 5 — nosebleed, 30 minutes, patient now vomiting.",
+          "body": "She had been sitting with her head tipped right back for half an hour, exactly as she had always been told.\n\nThe bleeding had not stopped. It had been going into her stomach the entire time, and her stomach had finally had enough of it.\n\nThey sat her forward, pinched the soft part, and held it for ten minutes without letting go. That was the whole treatment."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the epistaxis management technique, the compression duration and the basilar skull fracture caution against the current text and local protocol."
     }
   ]
 }
