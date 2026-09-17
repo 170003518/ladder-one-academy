@@ -32,12 +32,13 @@ import { buildIndex, renderLibrary, KINDS } from './library.js';
    built" from the length of the module list. Question banks are loaded lazily —
    a bank dwarfs its module and is only needed when a check starts. */
 const MODULE_FILES = {
-  emt:   ['content/emt/02-airway.json', 'content/emt/03-assessment.json', 'content/emt/04-cardiology.json',
+  emt:   ['content/emt/01-preparatory.json', 'content/emt/02-airway.json', 'content/emt/03-assessment.json', 'content/emt/04-cardiology.json',
           'content/emt/05-medical.json', 'content/emt/06-trauma.json'],
   fire:  [],
   medic: []
 };
 const QUESTION_FILES = {
+  'EMT-01': 'content/emt/questions/01-preparatory.json',
   'EMT-02': 'content/emt/questions/02-airway.json',
   'EMT-03': 'content/emt/questions/03-assessment.json',
   'EMT-04': 'content/emt/questions/04-cardiology.json',
@@ -45,6 +46,7 @@ const QUESTION_FILES = {
   'EMT-06': 'content/emt/questions/06-trauma.json'
 };
 const CARD_FILES = {
+  'EMT-01': 'content/emt/cards/01-preparatory.json',
   'EMT-02': 'content/emt/cards/02-airway.json',
   'EMT-03': 'content/emt/cards/03-assessment.json',
   'EMT-04': 'content/emt/cards/04-cardiology.json',

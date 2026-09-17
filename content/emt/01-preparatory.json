@@ -1,0 +1,695 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-01",
+  "tier": "emt",
+  "number": 1,
+  "title": "Preparatory & Foundations",
+  "short_title": "Preparatory",
+  "domain_weighting": {
+    "OPS": 60,
+    "MED": 40
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [
+    {
+      "id": "EMT-01-01",
+      "title": "EMS systems",
+      "concepts": [
+        "EMT-01-01-01",
+        "EMT-01-01-02",
+        "EMT-01-01-03",
+        "EMT-01-01-04",
+        "EMT-01-01-05"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-01",
+      "title": "Levels of EMS providers",
+      "domain": "OPS",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-02",
+        "EMT-01-03-01"
+      ],
+      "key_points": [
+        "There are four nationally recognised levels: Emergency Medical Responder, EMT, Advanced EMT and Paramedic",
+        "Each level is defined by what it is trained and licensed to do, not by the badge or the vehicle",
+        "Emergency Medical Responder: first on scene, basic life support, minimal equipment",
+        "EMT: the backbone level — assessment, airway, bleeding control, splinting, and a short list of assisted medications",
+        "Advanced EMT: EMT skills plus some advanced airways, intravenous access and a wider medication list",
+        "Paramedic: the widest scope — advanced airways, cardiac monitoring and interpretation, and a large medication list",
+        "Scope of practice is set by the state and can be narrower than the national level suggests",
+        "Knowing what the level above you can do tells you when to call for them, which is a core EMT skill"
+      ],
+      "misconceptions": [
+        "Assuming national levels mean the same scope everywhere",
+        "Thinking the vehicle determines the level of care",
+        "Not calling for a higher level early enough because it feels like admitting defeat"
+      ],
+      "exam_favorites": [
+        "The four levels in order",
+        "What separates EMT from AEMT",
+        "Who sets scope of practice"
+      ],
+      "modes": {
+        "read": {
+          "plain": "There are four levels of EMS provider recognised nationally, and they stack.\n\nEmergency Medical Responder is the first rung. Often a firefighter, a police officer, or an industrial first responder. They arrive first, start basic life support, control bleeding, use an AED, and hold things together until a transporting unit arrives. Minimal equipment, enormous value.\n\nEMT is the level this whole tier is about, and it is the backbone of the system. Full patient assessment, airway management with basic adjuncts, oxygen, ventilation, bleeding control, splinting, childbirth, and a short list of medications that are mostly assisted rather than administered independently.\n\nAdvanced EMT adds a layer: some advanced airway devices, intravenous access, and a wider medication list.\n\nParamedic is the widest scope. Advanced airways, cardiac monitoring and rhythm interpretation, a large medication list, and a range of procedures the levels below do not carry.\n\nTwo things matter more than memorising the list.\n\nFirst, the level is about what a person is trained and licensed to do, not what vehicle they arrived in or what the patch says. An ambulance is not automatically a paramedic unit, and a fire engine may carry paramedics.\n\nSecond, scope of practice is set by your state, and it can be narrower than the national description. The national levels describe the ceiling; your state sets your actual ceiling, and your medical director may set it lower still. Learn yours specifically.\n\nAnd the practical reason to know all this: recognising when you need the level above you. Calling for a paramedic early is not an admission that you cannot cope. It is a clinical decision made on the patient's behalf, and the time it takes for them to arrive is time you do not get back by waiting.",
+          "standard": "Four nationally recognised levels of EMS provider exist, each defined by trained and licensed capability rather than by agency or vehicle type. Emergency Medical Responder provides initial basic life support with minimal equipment. Emergency Medical Technician provides comprehensive assessment, basic airway management, oxygen administration, ventilation, haemorrhage control, immobilisation, obstetric care and a limited formulary administered principally by assistance. Advanced Emergency Medical Technician adds selected advanced airway devices, intravenous access and an expanded formulary. Paramedic holds the broadest scope, including advanced airway management, cardiac monitoring and interpretation, and extensive pharmacological and procedural capability. Scope of practice is determined by state licensure and may be narrower than the national level description, with medical direction potentially narrowing it further. Recognition of the need for a higher level of care, and early request for it, constitutes a core competency at EMT level."
+        },
+        "eli_new": {
+          "analogy": "The levels are a set of nested boxes. Each one contains everything in the box below it, plus more.",
+          "body": "The practical use of this concept is not naming the levels. It is recognising the patient who needs the level above you, and calling early — because the twenty minutes a paramedic takes to arrive is twenty minutes you cannot get back by hesitating."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the four levels of EMS provider and explain what determines scope of practice.",
+          "must_hit": [
+            {
+              "point": "Emergency Medical Responder, EMT, Advanced EMT, Paramedic",
+              "accept": [
+                "responder",
+                "emt",
+                "advanced",
+                "paramedic",
+                "emr"
+              ]
+            },
+            {
+              "point": "Each level is defined by training and licence, not vehicle or badge",
+              "accept": [
+                "train",
+                "licens",
+                "vehicle",
+                "badge",
+                "patch"
+              ]
+            },
+            {
+              "point": "EMT covers assessment, airway, bleeding, splinting and assisted medications",
+              "accept": [
+                "assess",
+                "airway",
+                "bleeding",
+                "splint",
+                "medication",
+                "assist"
+              ]
+            },
+            {
+              "point": "AEMT adds IV access and a wider medication list",
+              "accept": [
+                "intravenous",
+                "iv",
+                "advanced",
+                "wider",
+                "medication"
+              ]
+            },
+            {
+              "point": "Paramedic has the widest scope including cardiac monitoring",
+              "accept": [
+                "paramedic",
+                "cardiac",
+                "monitor",
+                "advanced airway",
+                "widest"
+              ]
+            },
+            {
+              "point": "The state sets scope of practice and it may be narrower",
+              "accept": [
+                "state",
+                "scope",
+                "narrow",
+                "protocol",
+                "medical director"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Call them now",
+          "dispatch": "Medic 4 — EMT crew on scene, patient deteriorating, paramedic unit 18 minutes out.",
+          "body": "The EMT in charge asked for the paramedic unit four minutes after arriving, before anything had clearly gone wrong, and felt slightly foolish doing it.\n\nThey arrived at the same moment things did go wrong.\n\nEighteen minutes is eighteen minutes whether you ask at minute four or minute twenty. Only one of those gets them there in time."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the scope descriptions for each level against the current text and, more importantly, against your own state's scope of practice document, which governs."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-02",
+      "title": "Components of an EMS system and medical direction",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-01",
+        "EMT-01-01-04",
+        "EMT-01-03-01"
+      ],
+      "key_points": [
+        "An EMS system is more than ambulances: it includes access (the emergency number), dispatch, first response, transport, hospitals, rehabilitation and the training that feeds it",
+        "Every EMT works under the licence of a physician medical director — you do not practise on your own authority",
+        "Offline medical direction is the standing orders and protocols written in advance, which cover most of what you do",
+        "Online medical direction is contacting a physician in real time for a decision that is not covered, or that protocol requires you to ask about",
+        "Protocols are the default answer; a phone call is for the question the protocol did not anticipate",
+        "Quality improvement closes the loop by reviewing what actually happened and changing the protocols that need changing",
+        "The system only works if each part hands over cleanly to the next"
+      ],
+      "misconceptions": [
+        "Thinking the ambulance is the EMS system",
+        "Believing you practise on your own licence",
+        "Calling medical direction for something a standing order already covers",
+        "Not calling when protocol requires it"
+      ],
+      "exam_favorites": [
+        "Offline versus online medical direction",
+        "Whose licence you practise under",
+        "The components of a system"
+      ],
+      "modes": {
+        "read": {
+          "plain": "An EMS system is not a fleet of ambulances. It is a chain, and the ambulance is one link.\n\nIt starts with access — somebody being able to reach help, which means an emergency number that works and is answered. Then dispatch, which decides what goes and gives instructions to the caller while it travels. Then first response, often a fire crew or police arriving before a transporting unit. Then transport. Then the hospital, and after it, rehabilitation and whatever the patient's recovery needs.\n\nBehind all of it sits training, licensing, equipment standards, communications infrastructure, and money. And around it, quality improvement, which is the part that examines what actually happened and changes the things that need changing.\n\nThe chain matters because it is only as good as its weakest link and its worst handover. A brilliant crew who hand over badly have lost most of what they gained.\n\nNow the part that surprises new EMTs: you do not practise on your own authority. You practise under the licence of a physician — your medical director. Everything you are permitted to do is an extension of that physician's licence, delegated to you.\n\nThat delegation comes in two forms.\n\nOffline medical direction is written in advance: your protocols, standing orders, and guidelines. They cover the overwhelming majority of what you do, and they exist so that you do not have to phone somebody to give oxygen. When you follow a protocol, you are following a physician's instruction that was written before the call.\n\nOnline medical direction is talking to a physician in real time. You use it when protocol requires it, when a situation is not covered, or when you need a decision above your standing orders. Some protocols specify a call before a particular medication or before a refusal.\n\nThe practical rule is simple. The protocol is the default answer. The phone call is for the question the protocol did not anticipate — not for reassurance about something already written down, and not skipped when the protocol says to make it.",
+          "standard": "An EMS system comprises public access, emergency medical dispatch, first response, transport, definitive hospital care, rehabilitation, and the supporting infrastructure of training, licensure, equipment standards, communications and funding. System performance depends on the integrity of each component and on the quality of transitions between them. Quality improvement provides retrospective review and prospective protocol modification. EMT practice occurs under delegated physician authority through a medical director rather than under independent licensure. Offline medical direction comprises protocols, standing orders and guidelines authored in advance, governing the majority of prehospital care. Online medical direction comprises real-time physician consultation, indicated where protocol requires it, where the presentation falls outside written guidance, or where an intervention exceeds standing orders. Protocols constitute the default authority; real-time consultation addresses circumstances not anticipated by written guidance and is neither substituted for protocol nor omitted where protocol mandates it."
+        },
+        "eli_new": {
+          "analogy": "You are not practising medicine. You are practising a physician's medicine, at a distance, using instructions they wrote before they knew who the patient would be.",
+          "body": "The bit that catches people out is realising the protocol IS the doctor's instruction. Following a standing order is not doing something on your own — it is doing what the physician already told you to do. Which is why the call is for the thing they did not anticipate, and why skipping a required call is skipping an instruction."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the components of an EMS system and explain the two forms of medical direction.",
+          "must_hit": [
+            {
+              "point": "Access, dispatch, first response, transport, hospital, rehabilitation",
+              "accept": [
+                "access",
+                "dispatch",
+                "first response",
+                "transport",
+                "hospital",
+                "rehabilit"
+              ]
+            },
+            {
+              "point": "You practise under a physician medical director's licence",
+              "accept": [
+                "physician",
+                "medical director",
+                "licence",
+                "license",
+                "delegat"
+              ]
+            },
+            {
+              "point": "Offline direction is protocols and standing orders written in advance",
+              "accept": [
+                "offline",
+                "protocol",
+                "standing order",
+                "advance",
+                "written"
+              ]
+            },
+            {
+              "point": "Online direction is contacting a physician in real time",
+              "accept": [
+                "online",
+                "contact",
+                "real time",
+                "phone",
+                "consult"
+              ]
+            },
+            {
+              "point": "The protocol is the default; the call is for what it did not anticipate",
+              "accept": [
+                "default",
+                "protocol",
+                "anticipat",
+                "call",
+                "cover"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It was already written down",
+          "dispatch": "Debrief — new EMT, first week, oxygen administration.",
+          "body": "He stood with the mask in his hand asking whether somebody should phone the doctor first.\n\nThe standing order covering it had been signed by that doctor eighteen months earlier.\n\nFollowing a protocol is not acting alone. It is doing what the physician already told you to do, before they knew who you would be doing it to."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the components of an EMS system and the description of online and offline medical direction against the current text and your own service's protocol structure."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-03",
+      "title": "Roles, responsibilities and professionalism",
+      "domain": "OPS",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-01",
+        "EMT-01-02-03",
+        "EMT-01-03-01"
+      ],
+      "key_points": [
+        "The EMT's first responsibility is personal safety, then the safety of the crew, the patient and bystanders — in that order",
+        "That order is not callous: an injured EMT stops being a rescuer and becomes a second patient",
+        "Core responsibilities are assessment, treatment within scope, safe transport, and an accurate handover and record",
+        "Professionalism shows in appearance, language, punctuality, confidentiality and how you speak about patients when they cannot hear you",
+        "Patient advocacy means acting in the patient's interest, including when that is inconvenient or unpopular",
+        "Continuing education is a responsibility, not an optional extra, because practice changes",
+        "You represent the service to every person on scene, and most of what they remember is how you behaved"
+      ],
+      "misconceptions": [
+        "Putting the patient's safety above your own",
+        "Treating professionalism as being about uniform alone",
+        "Speaking dismissively about patients out of their hearing",
+        "Treating continuing education as a box to tick"
+      ],
+      "exam_favorites": [
+        "The safety priority order",
+        "What patient advocacy means",
+        "Professionalism beyond appearance"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The EMT's responsibilities start with an order of priority that sounds wrong the first time you hear it: yourself, then your crew, then the patient, then bystanders.\n\nIt is not callousness. An injured EMT does not help anybody — they become a second patient, they occupy the resources that were coming for the first one, and the person you were trying to reach is now further from help than before you arrived. Protecting yourself first is the only version of this job that works.\n\nAfter that, the core of the role: assess the patient properly, treat within your scope, transport safely to the right place, and hand over accurately with a record that matches what you did.\n\nProfessionalism is the word that gets reduced to uniform and boots, and it is much more than that. It is being on time. It is how you speak to a frightened person and to their family. It is keeping confidences. It is doing the same job well at four in the morning as at four in the afternoon.\n\nAnd it is how you talk about patients when they cannot hear you. Crew rooms and ambulance cabs are where professionalism actually gets tested, because nobody is watching. How a crew speaks about a patient in private shapes how they treat the next one.\n\nPatient advocacy means acting in the patient's interest, including when it is inconvenient. Asking for a paramedic when it will delay you. Insisting on a trauma centre that is further away. Pushing back, politely, when somebody wants to do something that is not in this person's interest. Advocacy is easy when it costs nothing, and it is only really advocacy when it costs something.\n\nContinuing education is part of the job rather than an addition to it. What was correct teaching ten years ago is in several places now known to be wrong — backboards, ventilation rates, tourniquets. If you stop learning, your practice quietly becomes out of date while feeling exactly as confident as it always did.\n\nAnd a small thing that is not small: you represent the service to every person on that scene. Most of them will not remember what you did clinically. They will remember whether you were kind.",
+          "standard": "EMT responsibilities are ordered by priority: personal safety, crew safety, patient safety, bystander safety. This sequence reflects that provider injury converts a rescuer into an additional patient, consuming resources and delaying care. Core responsibilities comprise patient assessment, treatment within scope of practice, safe transport to an appropriate destination, and accurate handover and documentation. Professionalism encompasses appearance, punctuality, communication, confidentiality, consistency of performance, and conduct outside patient observation. Patient advocacy denotes acting in the patient's interest irrespective of convenience, including requesting additional resources, selecting a more distant appropriate facility, and challenging decisions contrary to patient interest. Continuing education constitutes an ongoing professional obligation, as practice evolves and previously accepted teaching is superseded. Providers represent their service to all persons present on scene."
+        },
+        "eli_new": {
+          "analogy": "An injured EMT is not a hero. They are a second patient, and the ambulance that was coming for the first one is now needed twice.",
+          "body": "The priority order feels wrong until you picture it going wrong. You step into traffic to reach somebody, and now there are two patients, one crew, and one ambulance. The order exists so that the maths works."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Give the safety priority order and explain what patient advocacy actually requires.",
+          "must_hit": [
+            {
+              "point": "Yourself, crew, patient, bystanders — in that order",
+              "accept": [
+                "yourself",
+                "self",
+                "crew",
+                "patient",
+                "bystander",
+                "order"
+              ]
+            },
+            {
+              "point": "An injured EMT becomes a second patient",
+              "accept": [
+                "second patient",
+                "injured",
+                "resources",
+                "help nobody"
+              ]
+            },
+            {
+              "point": "Assessment, treatment in scope, safe transport, accurate handover and record",
+              "accept": [
+                "assess",
+                "scope",
+                "transport",
+                "handover",
+                "record",
+                "document"
+              ]
+            },
+            {
+              "point": "Professionalism includes how you speak about patients in private",
+              "accept": [
+                "private",
+                "speak",
+                "crew room",
+                "confiden",
+                "behav"
+              ]
+            },
+            {
+              "point": "Advocacy means acting in the patient's interest even when inconvenient",
+              "accept": [
+                "advoca",
+                "interest",
+                "inconvenient",
+                "cost",
+                "push"
+              ]
+            },
+            {
+              "point": "Continuing education because practice changes",
+              "accept": [
+                "continuing",
+                "education",
+                "change",
+                "update",
+                "out of date"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Two patients",
+          "dispatch": "Incident review — pedestrian struck, responder injured on scene.",
+          "body": "He crossed a live carriageway to reach her because she was lying in the road and it felt unthinkable not to.\n\nA second vehicle came through before the road was closed.\n\nThe ambulance that was coming for her was now needed for two, and she waited longer than she would have if he had waited ninety seconds."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the stated priority order and the description of EMT responsibilities against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-04",
+      "title": "Quality improvement and evidence-based practice",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-02",
+        "EMT-01-04-05",
+        "EMT-06-06-06"
+      ],
+      "key_points": [
+        "Quality improvement is the system looking at what it actually did and changing what needs changing",
+        "It is built on the patient care report, so a poor record makes the whole process blind",
+        "It is about systems rather than blame — a process that lets a good clinician make an error will let the next one make it too",
+        "Evidence-based practice means treatments are used because they have been shown to work, not because they have always been done",
+        "Several long-standing EMS practices have been reversed by evidence: routine backboarding, high-dose oxygen for everyone, tourniquets as a last resort",
+        "A practice being traditional is not evidence that it works, and the fact that a patient recovered does not prove what you did helped",
+        "Research participation and honest reporting of what happened are how the evidence gets better",
+        "Being willing to say a technique you were taught has been superseded is a professional skill"
+      ],
+      "misconceptions": [
+        "Treating quality improvement as fault-finding",
+        "Writing a vague report and assuming nobody reads it",
+        "Defending a practice because it has always been done",
+        "Concluding an intervention worked because the patient improved"
+      ],
+      "exam_favorites": [
+        "Systems rather than blame",
+        "Practices reversed by evidence",
+        "Why the report underpins the process"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Quality improvement is the part of an EMS system that looks at what the system actually did, rather than what it intended to do, and changes what needs changing.\n\nIt runs on your documentation. Every review, every audit, every protocol change starts from patient care reports, and a vague report makes the whole process blind. 'Patient treated and transported' tells the system nothing, and it tells it nothing on a scale of thousands of calls.\n\nThe principle underneath it is systems rather than blame. When something goes wrong, the useful question is not who made the error but what made the error possible — because a process that let a competent, careful person make a mistake at four in the morning will let the next competent, careful person make it too. Blame stops people reporting things, and a system where nobody reports anything cannot improve.\n\nEvidence-based practice is the other half. It means treatments are used because somebody has shown they work, not because they have always been done.\n\nThis matters more in EMS than people expect, because several practices that were taught confidently for decades have been reversed. Every trauma patient strapped to a rigid board — reversed, because the harms turned out to be real and the benefit was not demonstrated. High-concentration oxygen for every patient regardless of saturation — reversed. Tourniquets as a desperate last resort that would cost the limb — reversed, and reversed hard.\n\nEach of those was taught by good people who believed it. What changed was the evidence.\n\nWhich gives you two habits worth building. First, a practice being traditional is not evidence it works; 'we have always done it this way' is a description, not a justification. Second — and this is the harder one — the fact that a patient got better does not prove what you did helped. Most patients improve. Individual cases feel like proof and are not, which is exactly why the evidence has to come from more than one story.\n\nAnd finally, being able to say that something you were taught has been superseded, without feeling it as a personal defeat, is a genuine professional skill. Your practice will be revised during your career. The only question is whether you revise with it.",
+          "standard": "Quality improvement comprises systematic review of delivered care with subsequent modification of practice, protocol and process. It is dependent on patient care report data; incomplete documentation renders the process ineffective at scale. The governing principle is systems analysis rather than individual attribution, on the basis that a process permitting error by a competent provider will permit recurrence; punitive approaches suppress reporting and thereby prevent improvement. Evidence-based practice requires that interventions be justified by demonstrated efficacy rather than by tradition. Multiple established EMS practices have been reversed on the basis of accumulated evidence, including routine long spine board immobilisation, universal high-concentration oxygen administration, and restriction of tourniquet use to last resort. Traditional practice does not constitute evidence of efficacy, and individual patient recovery does not establish intervention efficacy, as most patients improve irrespective of intervention. Honest incident reporting and research participation constitute the mechanism by which the evidence base improves."
+        },
+        "eli_new": {
+          "analogy": "Quality improvement asks what made the hole in the road, not who fell in it. The person who fell in is useful information; the hole is the problem.",
+          "body": "The hardest habit here is accepting that a patient getting better does not prove you helped. Almost everybody gets better. That is why one good outcome feels like proof and is not, and why the practices that got reversed were all defended for years by people pointing at patients who did well."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what quality improvement is for, and what evidence-based practice means in EMS.",
+          "must_hit": [
+            {
+              "point": "The system reviewing what it actually did and changing what needs changing",
+              "accept": [
+                "review",
+                "actually",
+                "change",
+                "improve",
+                "system"
+              ]
+            },
+            {
+              "point": "It runs on patient care reports, so vague records make it blind",
+              "accept": [
+                "report",
+                "document",
+                "record",
+                "vague",
+                "blind",
+                "data"
+              ]
+            },
+            {
+              "point": "Systems rather than blame",
+              "accept": [
+                "system",
+                "blame",
+                "who",
+                "possible",
+                "punitive",
+                "report"
+              ]
+            },
+            {
+              "point": "Treatments used because they are shown to work, not because they are traditional",
+              "accept": [
+                "evidence",
+                "shown",
+                "work",
+                "tradition",
+                "always"
+              ]
+            },
+            {
+              "point": "Backboards, routine high-flow oxygen and last-resort tourniquets were all reversed",
+              "accept": [
+                "backboard",
+                "oxygen",
+                "tourniquet",
+                "revers",
+                "supersed"
+              ]
+            },
+            {
+              "point": "A patient improving does not prove the intervention helped",
+              "accept": [
+                "improv",
+                "prove",
+                "better",
+                "most patients",
+                "anecdot"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It has always worked",
+          "dispatch": "Debrief — protocol change meeting, long spine boards withdrawn.",
+          "body": "A very experienced medic said he had boarded thousands of patients and not one had been paralysed by it.\n\nThat was almost certainly true. It was also true of every crew who had never boarded anybody.\n\nThousands of patients doing well is what happens either way, which is precisely why it took evidence rather than experience to settle it."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the description of quality improvement and the listed examples of reversed practice against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-05",
+      "title": "The public health role of EMS",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-03",
+        "EMT-01-03-07",
+        "EMT-07-04-04"
+      ],
+      "key_points": [
+        "EMS sees people and places that no other part of healthcare reaches, which makes it a public health resource as well as an emergency one",
+        "Injury prevention is part of the role: car seats, smoke alarms, fall prevention, helmet use",
+        "EMS data identifies patterns — a junction producing repeated crashes, a building producing repeated overdoses",
+        "Crews are often the first to see a public health problem emerging, because they go into homes",
+        "Frequent callers usually signal an unmet need rather than misuse, and are better answered with a plan than with irritation",
+        "Community paramedicine and referral pathways exist in many systems to address needs that transport does not solve",
+        "Prevention work is unglamorous and prevents more harm than any single call you will ever run",
+        "Recognising and reporting safeguarding concerns is part of this role"
+      ],
+      "misconceptions": [
+        "Seeing prevention as somebody else's job",
+        "Treating frequent callers as a nuisance rather than a signal",
+        "Assuming that transport solves the problem you were called to",
+        "Not reporting a pattern because one call seems isolated"
+      ],
+      "exam_favorites": [
+        "Why EMS is a public health resource",
+        "Frequent callers as unmet need",
+        "Prevention versus response"
+      ],
+      "modes": {
+        "read": {
+          "plain": "EMS goes where nothing else in healthcare goes. Into houses, at night, unannounced, on the worst day of somebody's life. No clinic, no hospital and no surgery sees what a crew sees.\n\nThat access is why EMS is a public health resource and not only an emergency one.\n\nThe most obvious part is injury prevention. Car seats fitted correctly. Smoke alarms that work. Removing the rug at the top of the stairs in an eighty-year-old's house. Helmets. None of it is dramatic and all of it prevents more harm, over a career, than any single call you will ever run.\n\nThe second part is data. Individual calls look random; thousands of them do not. A junction that produces crash after crash. A building that produces overdose after overdose. A postcode where children arrive at hospital with burns. EMS data makes those visible, and things get fixed because somebody noticed a pattern — but only if the reports were written well enough to see it.\n\nThird, crews see emerging problems first. A new drug appearing in a town shows up in ambulances before it shows up anywhere official. Rising heat-related calls, a spike in respiratory illness, a cluster of falls in one sheltered housing block — the front line notices first.\n\nThen there is the subject of frequent callers, which deserves care. Somebody calling repeatedly is almost always signalling an unmet need rather than misusing the service. Untreated mental illness. Isolation. A chronic condition nobody is managing. Poverty. Being frightened and alone at three in the morning. They are answered better with a plan — a referral, a community paramedic, a social care route — than with irritation, and irritation is the response the job pulls you towards when you are tired.\n\nMany systems now have community paramedicine, referral pathways or non-transport options precisely for this. Know what yours has, because knowing it turns a frustrating repeat call into something you can actually do.\n\nAnd safeguarding sits here too. You are in the house. You see the conditions, the other people, the state of the children and the state of the fridge. Noticing and reporting concerns is part of the public health role, and it is often the only chance anybody outside gets to notice.",
+          "standard": "Emergency medical services access populations and environments not reached by other healthcare settings, constituting a public health resource in addition to an emergency response function. Injury prevention activity includes child restraint provision, smoke alarm programmes, falls risk reduction and protective equipment promotion, producing aggregate harm reduction exceeding that of individual response. Aggregated EMS data identifies geographic and temporal patterns — collision clusters, overdose locations, injury distributions — informing intervention, contingent on documentation quality. Prehospital providers frequently identify emerging public health phenomena earliest owing to community access. Frequent service users generally indicate unmet health or social need rather than misuse, and are more effectively addressed through referral pathways, community paramedicine or social care routes than through repeat transport. Recognition and reporting of safeguarding concerns constitutes part of this role, prehospital providers frequently being the only professionals accessing the home environment."
+        },
+        "eli_new": {
+          "analogy": "A single call is a photograph. Ten thousand calls are a map, and the map shows where the holes are.",
+          "body": "The frequent caller is the test of this whole concept. Somebody who calls twenty times a year is telling you something is wrong that transport does not fix, and the useful response is a referral rather than a sigh. Knowing what pathways your service has turns that call from frustrating into solvable."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why EMS is a public health resource and how frequent callers should be understood.",
+          "must_hit": [
+            {
+              "point": "EMS reaches homes and people no other part of healthcare sees",
+              "accept": [
+                "home",
+                "house",
+                "access",
+                "reach",
+                "nobody else",
+                "night"
+              ]
+            },
+            {
+              "point": "Injury prevention: car seats, smoke alarms, falls, helmets",
+              "accept": [
+                "prevent",
+                "car seat",
+                "smoke alarm",
+                "fall",
+                "helmet"
+              ]
+            },
+            {
+              "point": "Aggregated data reveals patterns individual calls hide",
+              "accept": [
+                "data",
+                "pattern",
+                "aggregate",
+                "junction",
+                "cluster",
+                "map"
+              ]
+            },
+            {
+              "point": "Crews often see emerging problems first",
+              "accept": [
+                "first",
+                "emerging",
+                "new",
+                "spike",
+                "front line"
+              ]
+            },
+            {
+              "point": "Frequent callers signal unmet need, not misuse",
+              "accept": [
+                "frequent",
+                "unmet",
+                "need",
+                "misuse",
+                "referral",
+                "plan"
+              ]
+            },
+            {
+              "point": "Referral pathways and community paramedicine exist for this",
+              "accept": [
+                "referral",
+                "community",
+                "pathway",
+                "social",
+                "non-transport"
+              ]
+            },
+            {
+              "point": "Safeguarding concerns are recognised and reported",
+              "accept": [
+                "safeguard",
+                "report",
+                "concern",
+                "abuse",
+                "neglect"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Twenty-two times",
+          "dispatch": "Review — one address, twenty-two calls in a year.",
+          "body": "The crew rooms had a name for her and it was not a kind one.\n\nA community paramedic visited once, properly, and found an untreated condition, a missed appointment three years earlier, and nobody checking on her at all.\n\nShe called twice in the following year. Nothing about her had been a misuse of anything; it had been a question nobody had answered."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the description of the public health role and available referral pathways against the current text and your own service's arrangements, which vary considerably."
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-01",
+  "tier": "emt",
+  "questions": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-01-Q001",
+      "concept_id": "EMT-01-01-01",
+      "style": "recall",
+      "stem": "What are the four nationally recognised levels of EMS provider?",
+      "options": [
+        {
+          "text": "First Aider, EMT, Nurse, Paramedic",
+          "rationale": "Nurse is not an EMS provider level."
+        },
+        {
+          "text": "Emergency Medical Responder, EMT, Advanced EMT, Paramedic",
+          "rationale": "Correct, and each contains the one below it."
+        },
+        {
+          "text": "EMT-Basic, EMT-Intermediate, EMT-Advanced, Doctor",
+          "rationale": "These are older or incorrect designations."
+        },
+        {
+          "text": "Driver, Attendant, Technician, Officer",
+          "rationale": "None of these are provider levels."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-01-Q002",
+      "concept_id": "EMT-01-01-01",
+      "style": "recall",
+      "stem": "What determines a provider's level?",
+      "options": [
+        {
+          "text": "The vehicle they arrive in",
+          "rationale": "An ambulance is not automatically a paramedic unit."
+        },
+        {
+          "text": "What they are trained and licensed to do",
+          "rationale": "Correct. The badge and the vehicle do not determine it."
+        },
+        {
+          "text": "The agency that employs them",
+          "rationale": "Employer does not set the provider level."
+        },
+        {
+          "text": "The colour of their uniform",
+          "rationale": "Not a determinant of anything clinical."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-01-Q003",
+      "concept_id": "EMT-01-01-01",
+      "style": "recall",
+      "stem": "Who sets scope of practice?",
+      "options": [
+        {
+          "text": "The national registry alone",
+          "rationale": "National levels describe the ceiling, not your licence."
+        },
+        {
+          "text": "The state, with medical direction potentially narrowing it further",
+          "rationale": "Correct. Learn yours specifically."
+        },
+        {
+          "text": "The individual provider",
+          "rationale": "Scope is not self-determined."
+        },
+        {
+          "text": "The receiving hospital",
+          "rationale": "Hospitals do not set field scope."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-01-Q004",
+      "concept_id": "EMT-01-01-01",
+      "style": "application",
+      "stem": "Which capability distinguishes Advanced EMT from EMT?",
+      "options": [
+        {
+          "text": "Patient assessment",
+          "rationale": "EMTs perform full patient assessment."
+        },
+        {
+          "text": "Intravenous access and a wider medication list",
+          "rationale": "Correct, along with some advanced airway devices."
+        },
+        {
+          "text": "Cardiac rhythm interpretation",
+          "rationale": "That belongs to the paramedic level."
+        },
+        {
+          "text": "Bleeding control",
+          "rationale": "EMTs control bleeding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-01-Q005",
+      "concept_id": "EMT-01-01-01",
+      "style": "scenario",
+      "stem": "A paramedic unit is 18 minutes away and your patient looks like they may deteriorate. When do you call?",
+      "options": [
+        {
+          "text": "Once deterioration is confirmed",
+          "rationale": "Eighteen minutes does not shrink because you waited."
+        },
+        {
+          "text": "Now — the travel time does not shorten by hesitating",
+          "rationale": "Correct. It is a clinical decision on the patient's behalf."
+        },
+        {
+          "text": "Only if you cannot manage alone",
+          "rationale": "Calling is not an admission of failure."
+        },
+        {
+          "text": "On arrival at hospital",
+          "rationale": "Far too late to be useful."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-02-Q001",
+      "concept_id": "EMT-01-01-02",
+      "style": "recall",
+      "stem": "What is offline medical direction?",
+      "options": [
+        {
+          "text": "Calling a physician when the radio fails",
+          "rationale": "That is not what the term means."
+        },
+        {
+          "text": "Protocols and standing orders written in advance",
+          "rationale": "Correct. They cover most of what you do."
+        },
+        {
+          "text": "Care given when no physician is available",
+          "rationale": "Direction is always present, in one form or the other."
+        },
+        {
+          "text": "Documentation reviewed after the call",
+          "rationale": "That is quality improvement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-02-Q002",
+      "concept_id": "EMT-01-01-02",
+      "style": "recall",
+      "stem": "Under whose authority does an EMT practise?",
+      "options": [
+        {
+          "text": "Their own licence",
+          "rationale": "EMTs do not practise on their own authority."
+        },
+        {
+          "text": "A physician medical director's, delegated to them",
+          "rationale": "Correct. Everything you do is an extension of that licence."
+        },
+        {
+          "text": "The ambulance service's operating certificate",
+          "rationale": "An operating certificate is not clinical authority."
+        },
+        {
+          "text": "The receiving hospital's",
+          "rationale": "The receiving hospital does not delegate your scope."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-02-Q003",
+      "concept_id": "EMT-01-01-02",
+      "style": "recall",
+      "stem": "Which of these is a component of an EMS system?",
+      "options": [
+        {
+          "text": "Only the transporting ambulance",
+          "rationale": "The ambulance is one link in a longer chain."
+        },
+        {
+          "text": "Public access, dispatch, first response, transport, hospital and rehabilitation",
+          "rationale": "Correct. The ambulance is one link in a longer chain."
+        },
+        {
+          "text": "Only hospitals",
+          "rationale": "Hospitals are one component among several."
+        },
+        {
+          "text": "Only the training programme",
+          "rationale": "Training supports the system but is not the whole of it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-02-Q004",
+      "concept_id": "EMT-01-01-02",
+      "style": "application",
+      "stem": "A standing order covers the intervention you are about to perform. Should you call medical direction?",
+      "options": [
+        {
+          "text": "Yes, always confirm by phone",
+          "rationale": "The standing order is already the physician's instruction."
+        },
+        {
+          "text": "No — the protocol is the physician's instruction, written in advance",
+          "rationale": "Correct. The call is for what protocol did not anticipate."
+        },
+        {
+          "text": "Only if the patient asks",
+          "rationale": "Patient request does not determine this."
+        },
+        {
+          "text": "Only on your first shift",
+          "rationale": "The principle does not change with experience."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-02-Q005",
+      "concept_id": "EMT-01-01-02",
+      "style": "scenario",
+      "stem": "What closes the loop between what happened on a call and what protocols say?",
+      "options": [
+        {
+          "text": "Dispatch",
+          "rationale": "Dispatch sends resources; it does not revise protocols."
+        },
+        {
+          "text": "Quality improvement",
+          "rationale": "Correct. It reviews what happened and changes what needs changing."
+        },
+        {
+          "text": "The patient care report alone",
+          "rationale": "The report is an input to it, not the process."
+        },
+        {
+          "text": "Medical direction on the phone",
+          "rationale": "Real-time direction handles one call, not the system."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-03-Q001",
+      "concept_id": "EMT-01-01-03",
+      "style": "recall",
+      "stem": "What is the correct safety priority order?",
+      "options": [
+        {
+          "text": "Patient, bystanders, crew, yourself",
+          "rationale": "This is the order reversed."
+        },
+        {
+          "text": "Yourself, crew, patient, bystanders",
+          "rationale": "Correct. An injured EMT becomes a second patient."
+        },
+        {
+          "text": "Crew, yourself, patient, bystanders",
+          "rationale": "Personal safety comes first."
+        },
+        {
+          "text": "Bystanders, patient, crew, yourself",
+          "rationale": "Entirely reversed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-03-Q002",
+      "concept_id": "EMT-01-01-03",
+      "style": "recall",
+      "stem": "Why does personal safety come before patient safety?",
+      "options": [
+        {
+          "text": "Because EMTs are more valuable than patients",
+          "rationale": "Nothing to do with relative worth."
+        },
+        {
+          "text": "Because an injured EMT becomes a second patient and delays care for the first",
+          "rationale": "Correct. The order exists so the arithmetic works."
+        },
+        {
+          "text": "Because protocol requires it for insurance reasons",
+          "rationale": "Not the clinical rationale."
+        },
+        {
+          "text": "It does not; patient safety comes first",
+          "rationale": "The order places personal safety first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-03-Q003",
+      "concept_id": "EMT-01-01-03",
+      "style": "application",
+      "stem": "What does patient advocacy require?",
+      "options": [
+        {
+          "text": "Doing whatever the patient asks",
+          "rationale": "Advocacy is acting in their interest, not following instructions."
+        },
+        {
+          "text": "Acting in the patient's interest even when it is inconvenient or unpopular",
+          "rationale": "Correct. It only counts when it costs something."
+        },
+        {
+          "text": "Agreeing with the receiving hospital",
+          "rationale": "Agreement is not advocacy."
+        },
+        {
+          "text": "Avoiding difficult conversations",
+          "rationale": "Advocacy frequently requires them."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-03-Q004",
+      "concept_id": "EMT-01-01-03",
+      "style": "recall",
+      "stem": "Where is professionalism most genuinely tested?",
+      "options": [
+        {
+          "text": "In uniform inspection",
+          "rationale": "Appearance is the smallest part of it."
+        },
+        {
+          "text": "In how you speak about patients when they cannot hear you",
+          "rationale": "Correct. Nobody is watching, which is the point."
+        },
+        {
+          "text": "In written examinations",
+          "rationale": "Exams do not test conduct."
+        },
+        {
+          "text": "At public events",
+          "rationale": "Public conduct is easier than private conduct."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-03-Q005",
+      "concept_id": "EMT-01-01-03",
+      "style": "scenario",
+      "stem": "Why is continuing education a responsibility rather than an option?",
+      "options": [
+        {
+          "text": "Because employers require attendance",
+          "rationale": "Requirement is not the reason."
+        },
+        {
+          "text": "Because practice changes, and out-of-date practice feels exactly as confident as current practice",
+          "rationale": "Correct. It goes out of date without feeling any different."
+        },
+        {
+          "text": "Because it is enjoyable",
+          "rationale": "Not the rationale."
+        },
+        {
+          "text": "Because it increases pay",
+          "rationale": "Not a clinical reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-04-Q001",
+      "concept_id": "EMT-01-01-04",
+      "style": "recall",
+      "stem": "What is the guiding principle of quality improvement?",
+      "options": [
+        {
+          "text": "Identifying who was responsible",
+          "rationale": "Blame stops people reporting, which stops improvement."
+        },
+        {
+          "text": "Examining what made the error possible rather than who made it",
+          "rationale": "Correct. Systems rather than blame."
+        },
+        {
+          "text": "Confirming that protocols were followed exactly",
+          "rationale": "Compliance checking is not the purpose."
+        },
+        {
+          "text": "Reducing the number of reports filed",
+          "rationale": "The opposite is wanted."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-04-Q002",
+      "concept_id": "EMT-01-01-04",
+      "style": "recall",
+      "stem": "What does quality improvement depend on?",
+      "options": [
+        {
+          "text": "Verbal accounts at the end of a shift",
+          "rationale": "Recollection at scale is not usable data."
+        },
+        {
+          "text": "Patient care reports — vague records make the process blind",
+          "rationale": "Correct — patient care reports — vague records make the process blind."
+        },
+        {
+          "text": "Dispatch times alone",
+          "rationale": "Times are one small part of the picture."
+        },
+        {
+          "text": "Patient satisfaction surveys only",
+          "rationale": "Useful, but not what the process runs on."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-04-Q003",
+      "concept_id": "EMT-01-01-04",
+      "style": "recall",
+      "stem": "Which of these practices has been reversed by evidence?",
+      "options": [
+        {
+          "text": "Assessing the airway first",
+          "rationale": "Still current and fundamental."
+        },
+        {
+          "text": "Routine backboarding of every trauma patient",
+          "rationale": "Correct, along with universal high-flow oxygen and last-resort tourniquets."
+        },
+        {
+          "text": "Checking a blood glucose in altered patients",
+          "rationale": "Still current."
+        },
+        {
+          "text": "Controlling external bleeding with direct pressure",
+          "rationale": "Still current."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-04-Q004",
+      "concept_id": "EMT-01-01-04",
+      "style": "application",
+      "stem": "A patient improved after an intervention. What does that prove?",
+      "options": [
+        {
+          "text": "That the intervention worked",
+          "rationale": "Most patients improve regardless."
+        },
+        {
+          "text": "Very little on its own — individual cases feel like proof and are not",
+          "rationale": "Correct. That is why evidence needs more than one story."
+        },
+        {
+          "text": "That the protocol is correct",
+          "rationale": "One case does not validate a protocol."
+        },
+        {
+          "text": "That the diagnosis was right",
+          "rationale": "It establishes neither."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-04-Q005",
+      "concept_id": "EMT-01-01-04",
+      "style": "application",
+      "stem": "How should 'we have always done it this way' be regarded?",
+      "options": [
+        {
+          "text": "As strong justification",
+          "rationale": "It is a description, not a justification."
+        },
+        {
+          "text": "As a description of practice, not evidence that it works",
+          "rationale": "Correct — as a description of practice, not evidence that it works."
+        },
+        {
+          "text": "As binding until protocol changes",
+          "rationale": "Protocols change because this reasoning is challenged."
+        },
+        {
+          "text": "As evidence of long-term safety",
+          "rationale": "Long use is not the same as demonstrated safety."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-04-Q006",
+      "concept_id": "EMT-01-01-04",
+      "style": "scenario",
+      "stem": "Why does a punitive approach to error harm an EMS system?",
+      "options": [
+        {
+          "text": "It is unfair to individuals",
+          "rationale": "Fairness matters, but the systemic harm is the point."
+        },
+        {
+          "text": "It stops people reporting, and a system with no reports cannot improve",
+          "rationale": "Correct — it stops people reporting, and a system with no reports cannot improve."
+        },
+        {
+          "text": "It increases documentation workload",
+          "rationale": "Not the principal harm."
+        },
+        {
+          "text": "It has no real effect",
+          "rationale": "It has a substantial effect."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-05-Q001",
+      "concept_id": "EMT-01-01-05",
+      "style": "recall",
+      "stem": "Why is EMS considered a public health resource?",
+      "options": [
+        {
+          "text": "Because it transports patients to hospital",
+          "rationale": "Transport is the emergency function, not the public health one."
+        },
+        {
+          "text": "Because it reaches homes and people no other part of healthcare sees",
+          "rationale": "Correct — because it reaches homes and people no other part of healthcare sees."
+        },
+        {
+          "text": "Because it employs large numbers of people",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because it operates at night",
+          "rationale": "Access matters more than the hour."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-05-Q002",
+      "concept_id": "EMT-01-01-05",
+      "style": "application",
+      "stem": "How should a frequent caller be understood?",
+      "options": [
+        {
+          "text": "As misusing the service",
+          "rationale": "Repeat calling almost always signals unmet need."
+        },
+        {
+          "text": "As signalling an unmet need better answered with a plan than with irritation",
+          "rationale": "Correct — as signalling an unmet need better answered with a plan than with irritation."
+        },
+        {
+          "text": "As a problem for dispatch to filter",
+          "rationale": "Filtering does not address the need."
+        },
+        {
+          "text": "As someone to be discouraged from calling",
+          "rationale": "Discouragement leaves the need unmet."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-05-Q003",
+      "concept_id": "EMT-01-01-05",
+      "style": "recall",
+      "stem": "What makes EMS data valuable to public health?",
+      "options": [
+        {
+          "text": "It records response times accurately",
+          "rationale": "Times are a small part of the picture."
+        },
+        {
+          "text": "Aggregated across thousands of calls it shows patterns single calls hide",
+          "rationale": "Correct — a junction, a building, a postcode."
+        },
+        {
+          "text": "It identifies individual patients by name",
+          "rationale": "Identification is not the public health value."
+        },
+        {
+          "text": "It measures crew performance",
+          "rationale": "Performance measurement is a different purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-05-Q004",
+      "concept_id": "EMT-01-01-05",
+      "style": "application",
+      "stem": "Which of these is injury prevention work?",
+      "options": [
+        {
+          "text": "Rapid transport to a trauma centre",
+          "rationale": "That is response, not prevention."
+        },
+        {
+          "text": "Fitting car seats correctly and checking smoke alarms",
+          "rationale": "Correct, along with falls prevention and helmet promotion."
+        },
+        {
+          "text": "Administering oxygen",
+          "rationale": "A treatment, not prevention."
+        },
+        {
+          "text": "Completing a patient care report",
+          "rationale": "Documentation supports prevention but is not it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-01-05-Q005",
+      "concept_id": "EMT-01-01-05",
+      "style": "scenario",
+      "stem": "Why does safeguarding sit within the public health role?",
+      "options": [
+        {
+          "text": "Because EMTs are trained investigators",
+          "rationale": "EMTs are not investigators."
+        },
+        {
+          "text": "Because crews enter homes and may be the only professionals who see the conditions",
+          "rationale": "Correct — because crews enter homes and may be the only professionals who see the conditions."
+        },
+        {
+          "text": "Because hospitals cannot report concerns",
+          "rationale": "Hospitals can and do."
+        },
+        {
+          "text": "Because it is required for billing",
+          "rationale": "Never a clinical rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    }
+  ]
+}
