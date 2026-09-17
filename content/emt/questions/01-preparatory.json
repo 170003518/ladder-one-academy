@@ -782,6 +782,1056 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-01-Q001",
+      "concept_id": "EMT-01-02-01",
+      "style": "recall",
+      "stem": "Why are standard precautions applied to every patient?",
+      "options": [
+        {
+          "text": "Because most patients carry an infection",
+          "rationale": "Most do not, which is not the point."
+        },
+        {
+          "text": "Because you cannot tell by looking, and carriers often do not know themselves",
+          "rationale": "Correct — because you cannot tell by looking, and carriers often do not know themselves."
+        },
+        {
+          "text": "Because protocol requires documentation of PPE use",
+          "rationale": "Not the rationale."
+        },
+        {
+          "text": "Because it saves time",
+          "rationale": "It is about transmission, not time."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-01-Q002",
+      "concept_id": "EMT-01-02-01",
+      "style": "application",
+      "stem": "What should determine your PPE selection?",
+      "options": [
+        {
+          "text": "The dispatch code",
+          "rationale": "Dispatch information is frequently wrong or incomplete."
+        },
+        {
+          "text": "What you are about to do in the next few minutes",
+          "rationale": "Correct. Dress for the task, not the call."
+        },
+        {
+          "text": "Whether the patient appears unwell",
+          "rationale": "Appearance predicts nothing."
+        },
+        {
+          "text": "What your crewmate is wearing",
+          "rationale": "Not a clinical basis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-01-Q003",
+      "concept_id": "EMT-01-02-01",
+      "style": "recall",
+      "stem": "When should eye protection be put on?",
+      "options": [
+        {
+          "text": "As soon as splashing occurs",
+          "rationale": "There is no putting goggles on once your face is wet."
+        },
+        {
+          "text": "Before starting, wherever splashing is foreseeable",
+          "rationale": "Correct — before starting, wherever splashing is foreseeable."
+        },
+        {
+          "text": "Only during childbirth",
+          "rationale": "Many situations are foreseeable splash risks."
+        },
+        {
+          "text": "Only if the patient is known to be infectious",
+          "rationale": "Known status is not the trigger."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-01-Q004",
+      "concept_id": "EMT-01-02-01",
+      "style": "recall",
+      "stem": "What does a surgical mask on the patient achieve?",
+      "options": [
+        {
+          "text": "It protects the patient from the crew",
+          "rationale": "Its main function is the reverse."
+        },
+        {
+          "text": "Source control — it protects everybody else",
+          "rationale": "Correct — source control — it protects everybody else."
+        },
+        {
+          "text": "It filters the air the patient breathes in",
+          "rationale": "That is a respirator's function for the wearer."
+        },
+        {
+          "text": "It reduces their oxygen requirement",
+          "rationale": "It does no such thing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-01-Q005",
+      "concept_id": "EMT-01-02-01",
+      "style": "application",
+      "stem": "You wore gloves throughout. Is hand hygiene still required?",
+      "options": [
+        {
+          "text": "No, the gloves protected your hands",
+          "rationale": "Hands are routinely contaminated during removal."
+        },
+        {
+          "text": "Yes — gloves are not a substitute and contamination occurs during removal",
+          "rationale": "Correct — yes — gloves are not a substitute and contamination occurs during removal."
+        },
+        {
+          "text": "Only if the gloves were damaged",
+          "rationale": "Contamination occurs with intact gloves."
+        },
+        {
+          "text": "Only before eating",
+          "rationale": "Hygiene follows every patient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-01-Q006",
+      "concept_id": "EMT-01-02-01",
+      "style": "scenario",
+      "stem": "When does most contamination occur in the PPE process?",
+      "options": [
+        {
+          "text": "While putting it on",
+          "rationale": "Donning is comparatively low risk."
+        },
+        {
+          "text": "During removal",
+          "rationale": "Correct, which is why the removal order is specified."
+        },
+        {
+          "text": "While wearing it",
+          "rationale": "Intact PPE in use is doing its job."
+        },
+        {
+          "text": "During storage",
+          "rationale": "Not the risk point."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-02-Q001",
+      "concept_id": "EMT-01-02-02",
+      "style": "recall",
+      "stem": "What are the four routes of transmission?",
+      "options": [
+        {
+          "text": "Oral, nasal, dermal, ocular",
+          "rationale": "These are sites, not transmission routes."
+        },
+        {
+          "text": "Bloodborne, airborne, droplet, contact",
+          "rationale": "Correct, with contact including contaminated surfaces."
+        },
+        {
+          "text": "Direct, indirect, vertical, horizontal",
+          "rationale": "Not the routes used here."
+        },
+        {
+          "text": "Viral, bacterial, fungal, parasitic",
+          "rationale": "These are organism types."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-02-Q002",
+      "concept_id": "EMT-01-02-02",
+      "style": "recall",
+      "stem": "Does bloodborne transmission require a route of entry?",
+      "options": [
+        {
+          "text": "No, contact with intact skin is sufficient",
+          "rationale": "Intact skin is an effective barrier."
+        },
+        {
+          "text": "Yes — a needlestick, a mucous membrane splash, or broken skin",
+          "rationale": "Correct — yes — a needlestick, a mucous membrane splash, or broken skin."
+        },
+        {
+          "text": "Only for certain organisms",
+          "rationale": "A portal of entry is required generally."
+        },
+        {
+          "text": "Only if the exposure lasts several minutes",
+          "rationale": "Duration is not the determining factor."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-02-Q003",
+      "concept_id": "EMT-01-02-02",
+      "style": "recall",
+      "stem": "What distinguishes airborne from droplet transmission?",
+      "options": [
+        {
+          "text": "Airborne particles are larger",
+          "rationale": "Airborne particles are smaller and stay suspended."
+        },
+        {
+          "text": "Airborne particles stay suspended and travel; droplets fall quickly over a short distance",
+          "rationale": "Correct — airborne particles stay suspended and travel; droplets fall quickly over a short distance."
+        },
+        {
+          "text": "Droplets persist in the air for hours",
+          "rationale": "That describes airborne particles."
+        },
+        {
+          "text": "There is no practical difference",
+          "rationale": "The difference determines what protection works."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-02-Q004",
+      "concept_id": "EMT-01-02-02",
+      "style": "application",
+      "stem": "When do most sharps injuries occur?",
+      "options": [
+        {
+          "text": "During the procedure itself",
+          "rationale": "Everyone is concentrating during the procedure."
+        },
+        {
+          "text": "After it, during tidying up, often to someone who did not use the needle",
+          "rationale": "Correct — after it, during tidying up, often to someone who did not use the needle."
+        },
+        {
+          "text": "While opening the packaging",
+          "rationale": "Not the usual point of injury."
+        },
+        {
+          "text": "During handover at hospital",
+          "rationale": "Not the usual point of injury."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-02-Q005",
+      "concept_id": "EMT-01-02-02",
+      "style": "application",
+      "stem": "You sustain a needlestick mid-shift. What do you do?",
+      "options": [
+        {
+          "text": "Finish the shift, then report",
+          "rationale": "Post-exposure treatment is time-critical."
+        },
+        {
+          "text": "Wash the site immediately, then report immediately",
+          "rationale": "Correct — delay removes the option rather than postponing it."
+        },
+        {
+          "text": "Report only if the patient is known to be infected",
+          "rationale": "Most carriers do not know their own status."
+        },
+        {
+          "text": "Apply a dressing and monitor yourself for symptoms",
+          "rationale": "Monitoring is not a substitute for reporting."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-02-Q006",
+      "concept_id": "EMT-01-02-02",
+      "style": "scenario",
+      "stem": "Which transmission route is most often underestimated?",
+      "options": [
+        {
+          "text": "Airborne",
+          "rationale": "Airborne precautions are usually taken seriously."
+        },
+        {
+          "text": "Contact, including equipment and surfaces",
+          "rationale": "Correct — rails, cables, handles between patients."
+        },
+        {
+          "text": "Bloodborne",
+          "rationale": "Bloodborne risk is widely recognised."
+        },
+        {
+          "text": "Droplet",
+          "rationale": "Droplet precautions are generally well understood."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-03-Q001",
+      "concept_id": "EMT-01-02-03",
+      "style": "recall",
+      "stem": "When does scene safety assessment happen?",
+      "options": [
+        {
+          "text": "On arrival, once",
+          "rationale": "Conditions change while you work."
+        },
+        {
+          "text": "Continuously, from dispatch until you are back in the vehicle",
+          "rationale": "Correct — continuously, from dispatch until you are back in the vehicle."
+        },
+        {
+          "text": "Only if dispatch flags a risk",
+          "rationale": "Dispatch information is frequently incomplete."
+        },
+        {
+          "text": "At handover",
+          "rationale": "Far too late to be useful."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-03-Q002",
+      "concept_id": "EMT-01-02-03",
+      "style": "application",
+      "stem": "Dispatch reports a stabbing at an unsecured scene. What do you do?",
+      "options": [
+        {
+          "text": "Enter quickly because the patient is bleeding",
+          "rationale": "You cannot treat anybody from a hospital bed."
+        },
+        {
+          "text": "Stage away and wait for law enforcement",
+          "rationale": "Correct, however hard that is to do."
+        },
+        {
+          "text": "Enter with the ambulance close to the door for a fast exit",
+          "rationale": "Proximity does not make an unsecured scene safe."
+        },
+        {
+          "text": "Send one crew member in to assess",
+          "rationale": "Splitting the crew increases the risk."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-03-Q003",
+      "concept_id": "EMT-01-02-03",
+      "style": "recall",
+      "stem": "What should the doorway assessment establish?",
+      "options": [
+        {
+          "text": "The patient's chief complaint",
+          "rationale": "That comes after you have decided to enter."
+        },
+        {
+          "text": "How many people are present, where the exits are, and what is in reach",
+          "rationale": "Correct — about three seconds well spent."
+        },
+        {
+          "text": "Whether the address is correct",
+          "rationale": "Useful but not the safety assessment."
+        },
+        {
+          "text": "Whether the lighting is adequate",
+          "rationale": "A minor consideration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-03-Q004",
+      "concept_id": "EMT-01-02-03",
+      "style": "application",
+      "stem": "A scene becomes unsafe while you are mid-treatment. What do you do?",
+      "options": [
+        {
+          "text": "Finish the intervention, then leave",
+          "rationale": "Treatment stage does not change the answer."
+        },
+        {
+          "text": "Leave, and return with law enforcement",
+          "rationale": "Correct. You can come back; you cannot if you are hurt."
+        },
+        {
+          "text": "Continue and ask a bystander to call police",
+          "rationale": "Continuing keeps you in the danger."
+        },
+        {
+          "text": "Move the patient to the ambulance first",
+          "rationale": "Moving a patient takes time you may not have."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-03-Q005",
+      "concept_id": "EMT-01-02-03",
+      "style": "recall",
+      "stem": "Which is a pre-arrival warning sign?",
+      "options": [
+        {
+          "text": "A well-lit address",
+          "rationale": "Not a warning sign."
+        },
+        {
+          "text": "A scene that goes quiet as you arrive",
+          "rationale": "Correct, along with shouting, hostile crowds and address history."
+        },
+        {
+          "text": "Someone waving you down",
+          "rationale": "Often just directing you."
+        },
+        {
+          "text": "An open front door",
+          "rationale": "Not in itself a warning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-03-Q006",
+      "concept_id": "EMT-01-02-03",
+      "style": "scenario",
+      "stem": "How should the ambulance be positioned?",
+      "options": [
+        {
+          "text": "As close to the patient as possible, whatever the layout",
+          "rationale": "Proximity is not the only consideration."
+        },
+        {
+          "text": "To protect the working area and to allow forward egress where possible",
+          "rationale": "Correct — to protect the working area and to allow forward egress where possible."
+        },
+        {
+          "text": "Facing the scene so the lights illuminate it",
+          "rationale": "Not the governing principle."
+        },
+        {
+          "text": "Wherever there is space",
+          "rationale": "Positioning is a deliberate safety decision."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-04-Q001",
+      "concept_id": "EMT-01-02-04",
+      "style": "recall",
+      "stem": "Why is cumulative stress more dangerous than acute stress?",
+      "options": [
+        {
+          "text": "It produces more severe symptoms immediately",
+          "rationale": "Its symptoms build slowly, which is the problem."
+        },
+        {
+          "text": "It builds with no identifiable moment, so nobody notices it starting",
+          "rationale": "Correct — including the person it is happening to."
+        },
+        {
+          "text": "It only affects inexperienced providers",
+          "rationale": "Experience offers no protection."
+        },
+        {
+          "text": "It resolves without intervention",
+          "rationale": "It generally does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-04-Q002",
+      "concept_id": "EMT-01-02-04",
+      "style": "recall",
+      "stem": "Which is a warning sign of accumulating stress?",
+      "options": [
+        {
+          "text": "Enjoying time off",
+          "rationale": "Not a warning sign."
+        },
+        {
+          "text": "Withdrawal, irritability, poor sleep and increased drinking",
+          "rationale": "Correct, along with intrusive memories and loss of interest."
+        },
+        {
+          "text": "Finding some calls difficult",
+          "rationale": "Difficult calls are normal."
+        },
+        {
+          "text": "Talking about calls with colleagues",
+          "rationale": "Talking is protective, not a warning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-04-Q003",
+      "concept_id": "EMT-01-02-04",
+      "style": "application",
+      "stem": "Does experience protect against calls that resemble your own life?",
+      "options": [
+        {
+          "text": "Yes, experienced providers are unaffected",
+          "rationale": "Twenty years offers no protection against these."
+        },
+        {
+          "text": "No — those calls land hard regardless of experience",
+          "rationale": "Correct, and expecting otherwise makes people think something is wrong with them."
+        },
+        {
+          "text": "Only after ten years",
+          "rationale": "No threshold confers protection."
+        },
+        {
+          "text": "Only for paediatric calls",
+          "rationale": "Several call types do this."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-04-Q004",
+      "concept_id": "EMT-01-02-04",
+      "style": "application",
+      "stem": "When is the best time to find out what support your service offers?",
+      "options": [
+        {
+          "text": "When you need it",
+          "rationale": "The worst possible time to be working it out."
+        },
+        {
+          "text": "Before you need it",
+          "rationale": "Correct — before you need it."
+        },
+        {
+          "text": "During your annual review",
+          "rationale": "Too infrequent to rely on."
+        },
+        {
+          "text": "It is not necessary to know",
+          "rationale": "Knowing the route is most of the barrier."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-04-Q005",
+      "concept_id": "EMT-01-02-04",
+      "style": "recall",
+      "stem": "How should help-seeking be regarded?",
+      "options": [
+        {
+          "text": "As a sign the person is unsuited to the job",
+          "rationale": "The opposite is true."
+        },
+        {
+          "text": "As professional behaviour",
+          "rationale": "Correct. The ones who last deal with it rather than stacking it."
+        },
+        {
+          "text": "As something to do only in crisis",
+          "rationale": "Waiting for crisis is the problem."
+        },
+        {
+          "text": "As a formality after major incidents only",
+          "rationale": "It is not restricted to major incidents."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-04-Q006",
+      "concept_id": "EMT-01-02-04",
+      "style": "scenario",
+      "stem": "A colleague has gone quiet and stopped socialising, and says they are fine. What is useful?",
+      "options": [
+        {
+          "text": "Accepting the answer and leaving it there",
+          "rationale": "Everybody says fine the first time."
+        },
+        {
+          "text": "Asking again, later and privately",
+          "rationale": "Correct — asking twice is often the whole intervention."
+        },
+        {
+          "text": "Reporting them to management",
+          "rationale": "Not the first step."
+        },
+        {
+          "text": "Avoiding the subject to respect their privacy",
+          "rationale": "Avoidance leaves them where they are."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-05-Q001",
+      "concept_id": "EMT-01-02-05",
+      "style": "recall",
+      "stem": "Which movement is most associated with back injury?",
+      "options": [
+        {
+          "text": "Lifting with the legs",
+          "rationale": "That is correct technique."
+        },
+        {
+          "text": "Twisting while loaded",
+          "rationale": "Correct — and it is the easiest to do without noticing."
+        },
+        {
+          "text": "Pushing a stretcher",
+          "rationale": "Pushing is the preferred option."
+        },
+        {
+          "text": "Keeping the load close",
+          "rationale": "That is the primary protective measure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-05-Q002",
+      "concept_id": "EMT-01-02-05",
+      "style": "recall",
+      "stem": "Why does keeping the weight close matter so much?",
+      "options": [
+        {
+          "text": "It feels more comfortable",
+          "rationale": "Comfort is a side effect."
+        },
+        {
+          "text": "Distance from the body multiplies the force through the lower spine",
+          "rationale": "Correct. Close and at arm's length are two different weights."
+        },
+        {
+          "text": "It improves grip",
+          "rationale": "Grip is not the mechanism."
+        },
+        {
+          "text": "It reduces the patient's anxiety",
+          "rationale": "Not the biomechanical reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-05-Q003",
+      "concept_id": "EMT-01-02-05",
+      "style": "application",
+      "stem": "When should you say you cannot manage a lift?",
+      "options": [
+        {
+          "text": "Halfway through, if it becomes too much",
+          "rationale": "That is a different and far worse situation."
+        },
+        {
+          "text": "Before it starts",
+          "rationale": "Correct. It is a normal professional statement beforehand."
+        },
+        {
+          "text": "Afterwards, in the report",
+          "rationale": "Too late to prevent anything."
+        },
+        {
+          "text": "Never — it undermines the crew",
+          "rationale": "Saying it is what protects the crew."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-05-Q004",
+      "concept_id": "EMT-01-02-05",
+      "style": "sequence",
+      "stem": "What should happen before anybody bends down?",
+      "options": [
+        {
+          "text": "The patient should be told to hold still",
+          "rationale": "Useful but not the critical step."
+        },
+        {
+          "text": "The lift is briefed: who calls it, the count, the destination and route",
+          "rationale": "Correct — the lift is briefed: who calls it, the count, the destination and route."
+        },
+        {
+          "text": "The stretcher is lowered fully",
+          "rationale": "Height is set to avoid stooping, not lowered."
+        },
+        {
+          "text": "Nothing; the lift is self-explanatory",
+          "rationale": "Most bad lifts come from unspoken assumptions."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-05-Q005",
+      "concept_id": "EMT-01-02-05",
+      "style": "application",
+      "stem": "How do most EMS back injuries occur?",
+      "options": [
+        {
+          "text": "In one dramatic heavy lift",
+          "rationale": "Almost none happen that way."
+        },
+        {
+          "text": "Cumulatively, over hundreds of slightly wrong lifts that did not hurt at the time",
+          "rationale": "Correct — cumulatively, over hundreds of slightly wrong lifts that did not hurt at the time."
+        },
+        {
+          "text": "From vehicle collisions",
+          "rationale": "A different mechanism."
+        },
+        {
+          "text": "From lifting equipment failure",
+          "rationale": "Equipment failure is uncommon."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-05-Q006",
+      "concept_id": "EMT-01-02-05",
+      "style": "recall",
+      "stem": "Push or pull, where you have the choice?",
+      "options": [
+        {
+          "text": "Pull — it gives better control",
+          "rationale": "Pulling puts the load behind you."
+        },
+        {
+          "text": "Push — it uses body weight and keeps the load in front",
+          "rationale": "Correct — push — it uses body weight and keeps the load in front."
+        },
+        {
+          "text": "Neither is preferable",
+          "rationale": "Pushing is preferred."
+        },
+        {
+          "text": "Whichever is faster",
+          "rationale": "Speed is not the criterion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-06-Q001",
+      "concept_id": "EMT-01-02-06",
+      "style": "recall",
+      "stem": "What makes fatigue particularly dangerous?",
+      "options": [
+        {
+          "text": "It causes obvious visible errors",
+          "rationale": "Errors are frequently not obvious at the time."
+        },
+        {
+          "text": "It degrades judgement while leaving confidence intact",
+          "rationale": "Correct. A tired clinician feels like themselves."
+        },
+        {
+          "text": "It only affects inexperienced staff",
+          "rationale": "It affects everyone."
+        },
+        {
+          "text": "It resolves as soon as a call starts",
+          "rationale": "Adrenaline masks it briefly; it does not resolve it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-06-Q002",
+      "concept_id": "EMT-01-02-06",
+      "style": "recall",
+      "stem": "Is sleep debt cleared by one long sleep?",
+      "options": [
+        {
+          "text": "Yes, a full night resets it",
+          "rationale": "The deficit carries forward."
+        },
+        {
+          "text": "No — it accumulates and carries forward",
+          "rationale": "Correct — no — it accumulates and carries forward."
+        },
+        {
+          "text": "Only if the sleep is at night",
+          "rationale": "Timing helps but does not clear accumulated debt."
+        },
+        {
+          "text": "Only for people under 30",
+          "rationale": "Age does not change this."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-06-Q003",
+      "concept_id": "EMT-01-02-06",
+      "style": "application",
+      "stem": "Why is the drive home after a night shift high risk?",
+      "options": [
+        {
+          "text": "Traffic is heavier in the morning",
+          "rationale": "Traffic is not the principal factor."
+        },
+        {
+          "text": "Lowest alertness, familiar route, and the time of day the body most wants sleep",
+          "rationale": "Correct — lowest alertness, familiar route, and the time of day the body most wants sleep."
+        },
+        {
+          "text": "Vehicles are less reliable in the cold",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is not especially risky",
+          "rationale": "It is one of the highest-risk things in the week."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-06-Q004",
+      "concept_id": "EMT-01-02-06",
+      "style": "recall",
+      "stem": "What does fitness for duty cover besides fatigue?",
+      "options": [
+        {
+          "text": "Only physical fitness testing",
+          "rationale": "Testing is one small part."
+        },
+        {
+          "text": "Illness, medication affecting alertness, and personal circumstances",
+          "rationale": "Correct — illness, medication affecting alertness, and personal circumstances."
+        },
+        {
+          "text": "Only uniform standards",
+          "rationale": "Not a fitness for duty matter."
+        },
+        {
+          "text": "Only certification currency",
+          "rationale": "Certification is separate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-06-Q005",
+      "concept_id": "EMT-01-02-06",
+      "style": "scenario",
+      "stem": "A colleague says they have adapted to nights and they cost them nothing. How should this be understood?",
+      "options": [
+        {
+          "text": "As accurate — people do adapt fully",
+          "rationale": "Night shifts impose cost regardless of habituation."
+        },
+        {
+          "text": "As tolerance of impairment rather than absence of it",
+          "rationale": "Correct — as tolerance of impairment rather than absence of it."
+        },
+        {
+          "text": "As evidence they need fewer rest breaks",
+          "rationale": "The opposite conclusion."
+        },
+        {
+          "text": "As a reason to assign them more nights",
+          "rationale": "Not a safe inference."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

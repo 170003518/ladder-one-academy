@@ -25,6 +25,18 @@
         "EMT-01-01-04",
         "EMT-01-01-05"
       ]
+    },
+    {
+      "id": "EMT-01-02",
+      "title": "Workforce safety and wellness",
+      "concepts": [
+        "EMT-01-02-01",
+        "EMT-01-02-02",
+        "EMT-01-02-03",
+        "EMT-01-02-04",
+        "EMT-01-02-05",
+        "EMT-01-02-06"
+      ]
     }
   ],
   "concepts": [
@@ -690,6 +702,911 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the description of the public health role and available referral pathways against the current text and your own service's arrangements, which vary considerably."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-01",
+      "title": "Standard precautions and PPE selection",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-09-04",
+        "EMT-01-02-02",
+        "EMT-01-02-03"
+      ],
+      "key_points": [
+        "Standard precautions treat every patient's blood and body fluids as infectious, because you cannot tell by looking",
+        "Gloves for every patient contact, without exception",
+        "Eye protection and a gown whenever splashing is foreseeable — and put them on before you start, not halfway through",
+        "A mask for the patient is source control and protects everyone else; a mask for you is personal protection",
+        "Respiratory protection for suspected airborne infection follows your service's policy, including any fit-testing requirement",
+        "Select PPE from what you are about to do, not from what the call was given as",
+        "Hand hygiene before and after every patient, including after gloves come off, is the most effective single measure",
+        "Remove PPE in the order your service specifies, because contamination happens during removal"
+      ],
+      "misconceptions": [
+        "Choosing PPE from the dispatch code rather than the task",
+        "Putting on eye protection after suctioning starts",
+        "Skipping hand hygiene because gloves were worn",
+        "Removing gloves by touching the outside"
+      ],
+      "exam_favorites": [
+        "Why precautions are universal",
+        "Choosing PPE by task",
+        "Hand hygiene as the most effective measure"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Standard precautions rest on a single idea: you cannot tell by looking. Most people carrying a bloodborne infection do not know it themselves, and the tidy house and the well-dressed patient are no safer than any other. So you stop trying to judge, and you treat every patient's blood and body fluids the same way.\n\nGloves for every patient contact. Not most. Every.\n\nEye protection and a gown whenever splashing is foreseeable — and the word foreseeable is doing work there. Suctioning. Childbirth. A vomiting patient. Arterial bleeding. An agitated patient. Intubation attempts happening beside you. The rule is to dress for it before you start, because there is no putting goggles on once your hands are occupied and your face is already wet.\n\nMasks work in two directions and it is worth being clear about which you mean. A surgical mask on a coughing patient is source control: it protects everybody else in the ambulance. A mask on you is personal protection. For a suspected airborne infection you follow your service's respiratory protection policy, which will specify the type of respirator and whether you need to have been fit-tested for it.\n\nNow the habit that matters most in practice: choose your PPE from the task, not from the call.\n\nDispatch information is frequently wrong or incomplete. 'Chest pain' turns into a patient vomiting blood. 'Unwell' turns into childbirth. So the question to ask is not what the call was given as, but what you are about to do in the next two minutes — and dress for that.\n\nHand hygiene is the most effective single measure available to you, and the one most often skipped, usually because the next job is already waiting. Before the patient, after the patient, and after gloves come off. Gloves are not a substitute: hands get contaminated during removal routinely, which is why the removal technique matters and why your service specifies an order.\n\nAnd remove PPE in that order, deliberately. Most contamination in the whole process happens in the thirty seconds when it is coming off.",
+          "standard": "Standard precautions apply universally on the basis that transmissible infection cannot be identified by inspection and is frequently unknown to the carrier. Gloves are indicated for all patient contact. Eye protection and gowns are indicated where splash exposure is foreseeable, including suctioning, obstetric care, emesis, arterial haemorrhage and agitated patients, and are applied prior to commencement rather than during the procedure. Surgical masks applied to the patient provide source control; masks and respirators worn by providers provide personal protection. Respiratory protection for suspected airborne infection follows service policy including fit-testing requirements. PPE selection is determined by anticipated task rather than by dispatch information, which is frequently inaccurate or incomplete. Hand hygiene before and after patient contact, including following glove removal, constitutes the most effective transmission control measure and is the most frequently omitted; gloves do not substitute. PPE removal follows a specified sequence, as the majority of contamination occurs during doffing."
+        },
+        "eli_new": {
+          "analogy": "You do not dress for the call you were given. You dress for the next two minutes of what your hands are about to do.",
+          "body": "The useful reframe: stop asking whether this patient looks infectious. That question has no reliable answer and asking it is how people get caught out. Ask instead what you are about to do, and dress for that."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the principle behind standard precautions and how PPE is selected.",
+          "must_hit": [
+            {
+              "point": "Universal, because you cannot tell by looking",
+              "accept": [
+                "universal",
+                "every",
+                "cannot tell",
+                "looking",
+                "unknown"
+              ]
+            },
+            {
+              "point": "Gloves for every patient contact",
+              "accept": [
+                "glove",
+                "every",
+                "contact",
+                "all"
+              ]
+            },
+            {
+              "point": "Eye protection and gown where splashing is foreseeable, applied before starting",
+              "accept": [
+                "eye",
+                "gown",
+                "splash",
+                "before",
+                "foreseeable"
+              ]
+            },
+            {
+              "point": "A mask on the patient is source control",
+              "accept": [
+                "mask",
+                "source",
+                "patient",
+                "protect others"
+              ]
+            },
+            {
+              "point": "Choose PPE from the task, not the dispatch code",
+              "accept": [
+                "task",
+                "dispatch",
+                "code",
+                "call",
+                "about to do"
+              ]
+            },
+            {
+              "point": "Hand hygiene is the most effective measure and gloves are not a substitute",
+              "accept": [
+                "hand",
+                "hygiene",
+                "effective",
+                "glove",
+                "substitute",
+                "removal"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Chest pain",
+          "dispatch": "Medic 3 — chest pain, 60-year-old male, no other information.",
+          "body": "Gloves went on in the doorway, which is what the call sounded like it needed.\n\nHe vomited a large volume of blood about forty seconds after they reached him.\n\nThe call was chest pain. What they were about to do was lean over a patient's face, and that is the thing to have dressed for."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm PPE selection guidance and removal sequence against the current text and your own service's infection control policy, which governs and includes fit-testing requirements."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-02",
+      "title": "Infectious disease transmission and exposure reporting",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-02-01",
+        "EMT-05-09-04"
+      ],
+      "key_points": [
+        "Transmission routes are bloodborne, airborne, droplet, and contact — direct or via a contaminated surface",
+        "Bloodborne exposure needs a route in: a needlestick, a splash to the eyes, nose or mouth, or blood into broken skin",
+        "Intact skin is an excellent barrier; blood on an ungloved but unbroken hand is not an exposure in the same way",
+        "Airborne particles stay suspended and travel; droplets fall quickly and travel a short distance",
+        "The highest-risk exposure you face is a sharps injury, and most happen after the procedure, during tidying up",
+        "If exposed: stop, wash or irrigate immediately, then report immediately",
+        "Some post-exposure treatments are time-critical, so delay removes the option rather than just delaying it",
+        "Report every exposure through your service's process, however small it seems and however busy you are",
+        "Nobody has ever been criticised for reporting an exposure too quickly"
+      ],
+      "misconceptions": [
+        "Delaying a report to the end of a shift",
+        "Assuming a small needlestick does not count",
+        "Not reporting out of embarrassment",
+        "Thinking blood on intact skin is the same as an exposure"
+      ],
+      "exam_favorites": [
+        "The four transmission routes",
+        "Why sharps injuries are highest risk",
+        "Irrigate then report immediately"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Infections move in four ways, and knowing which one you are dealing with tells you what protects you.\n\nBloodborne: the organism is in blood or certain body fluids and needs a route into you. A needle. A splash into your eyes, nose or mouth. Blood into skin that is already broken. Intact skin is an excellent barrier — blood on an unbroken hand is unpleasant and is not the same category of event as a needlestick.\n\nAirborne: small particles that stay suspended in the air and drift. They can reach you across a room and linger after the patient has gone, which is why airborne precautions involve a proper respirator rather than a surgical mask.\n\nDroplet: larger particles from coughing and sneezing that fall out of the air quickly and travel a short distance. A surgical mask and distance handle these.\n\nContact: touching the patient, or touching something the patient touched. The stretcher rail, the monitor cable, the door handle. This is the one that gets underestimated, and it is why cleaning between patients matters.\n\nNow the exposure that should worry you most: sharps. A needlestick is the highest-risk occupational exposure you face, and the detail worth knowing is when they happen. Not during the procedure, when everyone is concentrating. Afterwards, during tidying up, often to somebody who did not use the needle and did not know it was there.\n\nWhich is why the rules are what they are: never recap, dispose of it yourself, immediately, into the container, and do not leave a sharp on a bench for someone else to find with their hand.\n\nIf you are exposed — needlestick, splash to the face, blood into broken skin — the sequence is short and it is urgent.\n\nStop. Wash the site with soap and water, or irrigate a splashed eye or mouth thoroughly. Then report immediately, through your service's process.\n\nImmediately is the important word. Some post-exposure treatments have to start within hours to be effective, so a delay does not postpone the option — it removes it. Every hour you spend feeling stupid, or finishing the shift, or not wanting to make a fuss, is an hour of effectiveness gone.\n\nAnd report everything, however small. Nobody in the history of this job has ever been criticised for reporting an exposure too quickly.",
+          "standard": "Transmission occurs by bloodborne, airborne, droplet and contact routes, the latter directly or via contaminated fomites. Bloodborne transmission requires a portal of entry: percutaneous injury, mucous membrane splash, or contact with non-intact skin; intact skin constitutes an effective barrier. Airborne particles remain suspended and travel beyond the immediate vicinity, persisting after patient departure, necessitating respirator rather than surgical mask protection. Droplet particles settle rapidly over short distances, addressed by surgical mask and separation. Contact transmission via equipment and environmental surfaces necessitates decontamination between patients. Sharps injury constitutes the highest-risk occupational exposure and predominantly occurs following the procedure during disposal or clearing, frequently affecting a provider other than the operator. Preventive measures comprise no recapping, immediate disposal by the user, and avoidance of sharps left on surfaces. Following exposure, the sequence is immediate washing or mucous membrane irrigation followed by immediate reporting through service process; post-exposure prophylaxis is time-dependent, so delay eliminates rather than postpones therapeutic options. All exposures are reported irrespective of apparent severity."
+        },
+        "eli_new": {
+          "analogy": "Intact skin is a sealed envelope. A needlestick is somebody opening it for you.",
+          "body": "Most needlesticks happen in the quiet bit after the work is done, to whoever is clearing the bench. If you take one thing from this: dispose of your own sharp, yourself, the moment you finish with it, and never put one down."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the transmission routes and describe exactly what you do after a needlestick.",
+          "must_hit": [
+            {
+              "point": "Bloodborne, airborne, droplet, contact",
+              "accept": [
+                "bloodborne",
+                "airborne",
+                "droplet",
+                "contact",
+                "surface"
+              ]
+            },
+            {
+              "point": "Bloodborne needs a route in; intact skin is a barrier",
+              "accept": [
+                "route",
+                "entry",
+                "intact",
+                "skin",
+                "barrier",
+                "broken"
+              ]
+            },
+            {
+              "point": "Airborne stays suspended; droplets fall quickly",
+              "accept": [
+                "suspend",
+                "airborne",
+                "droplet",
+                "fall",
+                "distance",
+                "respirator"
+              ]
+            },
+            {
+              "point": "Sharps injury is the highest-risk exposure",
+              "accept": [
+                "sharp",
+                "needle",
+                "highest",
+                "risk"
+              ]
+            },
+            {
+              "point": "Most happen after the procedure, during tidying up",
+              "accept": [
+                "after",
+                "tidy",
+                "clear",
+                "dispos",
+                "bench",
+                "not the user"
+              ]
+            },
+            {
+              "point": "Wash or irrigate immediately, then report immediately",
+              "accept": [
+                "wash",
+                "irrigat",
+                "report",
+                "immediat"
+              ]
+            },
+            {
+              "point": "Post-exposure treatment is time-critical, so delay removes the option",
+              "accept": [
+                "time",
+                "hours",
+                "critical",
+                "delay",
+                "option",
+                "prophylax"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Nobody's needle",
+          "dispatch": "Incident report — sharps injury, second crew member, after the call.",
+          "body": "The cannulation had been done correctly and the sharp had gone in the container. A second one, from a first attempt, had been set down on the bench.\n\nThe person who found it was clearing up and had not been in the room when it was used.\n\nThat is where most of them happen — in the quiet bit afterwards, to somebody who did not know it was there."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm transmission route descriptions and your service's exposure reporting process and timeframes. No specific post-exposure prophylaxis regimens or time windows are stated; those are institutional and change."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-03",
+      "title": "Scene safety mindset, violent scenes and hazards",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-03",
+        "EMT-05-08-01",
+        "EMT-08-01-01"
+      ],
+      "key_points": [
+        "Scene safety is not a box ticked on arrival — it is a continuous assessment that runs the whole call",
+        "A scene that was safe when you walked in can stop being safe while you are working",
+        "Form a general impression from the doorway before committing: how many people, where are the exits, what is in reach",
+        "Stage away and wait for law enforcement where there is violence, weapons, or a scene not yet secured",
+        "Never let yourself be cornered: know your route out and keep it clear",
+        "Pre-arrival warning signs include shouting, a hostile crowd, a scene that goes quiet as you arrive, and history at the address",
+        "Common physical hazards are traffic, unstable vehicles, fire, electricity, animals, sharps, and unsafe structures",
+        "Position the ambulance to protect the working area and to allow you to leave without reversing where possible",
+        "If it becomes unsafe, leave — you can come back with police, and you cannot come back at all if you are hurt"
+      ],
+      "misconceptions": [
+        "Treating scene safety as a one-off check at the door",
+        "Entering a scene because the patient sounds critical",
+        "Parking so that leaving requires a three-point turn",
+        "Staying in a deteriorating scene because you have already started treatment"
+      ],
+      "exam_favorites": [
+        "Scene safety as continuous",
+        "Staging and waiting for law enforcement",
+        "Keeping your exit clear"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Scene safety gets taught as something you assess on arrival, and that framing is the problem. It is not a check. It is a continuous assessment that runs from dispatch until you are back in the vehicle.\n\nA scene that was safe when you walked in can stop being safe. The relative who was quiet becomes agitated. The crowd outside grows. The dog gets let in. The car you are working beside is on a slope. You are looking down at a patient with your back to a room, and everything you are not watching is changing.\n\nStart before you arrive. Dispatch information, history at that address, time of night, what you can hear as you pull up. A scene that goes quiet when you arrive is telling you something, and so is one where nobody comes out to meet you.\n\nThen the doorway. Before you commit, take one deliberate look: how many people are here, where are the exits, what is in reach that could be used, where is the patient in relation to both. That pause costs about three seconds and it is the most useful three seconds of the call.\n\nWhere there is violence, weapons, or a scene that has not been secured, you stage away and wait for law enforcement. This is genuinely hard to do when dispatch says somebody is bleeding, and it is still the right answer. You cannot treat anybody from a hospital bed, and a crew who go in and get hurt have converted one patient into three.\n\nInside, do not get cornered. Know your way out and keep it clear. Do not put yourself at the far end of a room, or in a bathroom, or behind a bed with a person between you and the door. Position so that both you and the patient can leave.\n\nThe physical hazards are the more ordinary half: live traffic, vehicles that have not been stabilised, fire, electricity, animals, sharps in the house, floors and structures that are not sound. Park to protect your working area, and where you can, park so you can drive out forwards rather than reversing.\n\nAnd the rule that underpins all of it: if it becomes unsafe, you leave. Not when you have finished the intervention. Not once the patient is packaged. You leave, and you come back with police. You can always come back. You cannot come back at all if you are hurt.",
+          "standard": "Scene safety constitutes continuous assessment from dispatch through to clearance rather than a discrete arrival check, as scene conditions evolve during the encounter. Pre-arrival assessment incorporates dispatch information, address history, temporal factors and auditory cues on approach. Doorway assessment prior to entry establishes occupancy, egress routes, accessible objects and patient position. Scenes involving violence, weapons or unsecured status require staging at a distance pending law enforcement, irrespective of reported patient acuity, as provider injury multiplies casualties and removes responding capability. Providers maintain unobstructed egress and avoid positions permitting entrapment. Physical hazards include live traffic, unstabilised vehicles, fire, electrical hazards, animals, sharps and structural instability. Vehicle positioning protects the working area and permits forward egress where feasible. Deterioration in scene safety mandates withdrawal irrespective of treatment stage, with return following law enforcement securing."
+        },
+        "eli_new": {
+          "analogy": "Scene safety is not a door you walk through. It is a weather report you keep checking, because it changes while you are standing in it.",
+          "body": "The hardest version of this is leaving a scene you have already started working in. Everything in you says finish what you started. The answer is that you can come back with police in four minutes, and you cannot come back at all if you are the one on the floor."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why scene safety is continuous and what you do when a scene turns unsafe.",
+          "must_hit": [
+            {
+              "point": "Continuous from dispatch to clearance, not a check on arrival",
+              "accept": [
+                "continuous",
+                "ongoing",
+                "arrival",
+                "check",
+                "whole call"
+              ]
+            },
+            {
+              "point": "A safe scene can stop being safe while you work",
+              "accept": [
+                "change",
+                "stop",
+                "deteriorat",
+                "becomes",
+                "while"
+              ]
+            },
+            {
+              "point": "Doorway assessment: people, exits, what is in reach",
+              "accept": [
+                "doorway",
+                "people",
+                "exit",
+                "reach",
+                "before",
+                "look"
+              ]
+            },
+            {
+              "point": "Stage away and wait for law enforcement where there is violence or weapons",
+              "accept": [
+                "stage",
+                "wait",
+                "police",
+                "law enforcement",
+                "violence",
+                "weapon"
+              ]
+            },
+            {
+              "point": "Keep your exit clear and do not get cornered",
+              "accept": [
+                "exit",
+                "cornered",
+                "route",
+                "out",
+                "clear"
+              ]
+            },
+            {
+              "point": "If it becomes unsafe you leave, whatever stage of treatment",
+              "accept": [
+                "leave",
+                "withdraw",
+                "unsafe",
+                "come back",
+                "stop"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Halfway through",
+          "dispatch": "Medic 8 — assault, patient on the floor of a flat, treatment in progress.",
+          "body": "They had a dressing on and an oxygen mask ready when a second man arrived at the door shouting, and the room changed.\n\nEverything in both of them said finish the dressing.\n\nThey went out and waited four minutes for police. Four minutes is a cost. Not going out at all had a different price."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm scene safety guidance, staging criteria and vehicle positioning against the current text and your own service's operational policy."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-04",
+      "title": "Stress, critical incident stress and resilience",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-01-03",
+        "EMT-01-02-06"
+      ],
+      "key_points": [
+        "Stress in this job is normal and expected, and the question is what you do with it rather than whether you have it",
+        "Acute stress happens during or immediately after an incident; cumulative stress builds quietly over months and years",
+        "Cumulative stress is the more dangerous of the two, because nothing identifies the moment it started",
+        "Warning signs include sleep disturbance, irritability, withdrawal, loss of interest, increased drinking, and intrusive memories",
+        "Some calls land harder than others regardless of experience: children, people you know, mass casualties, and calls that resemble your own life",
+        "Talking to somebody is a professional behaviour, not a failure of one",
+        "Peer support, employee assistance programmes and professional help exist, and knowing what yours are before you need them matters",
+        "Look after your crewmate: a colleague who has gone quiet is telling you something",
+        "The old model of mandatory debriefing after every incident is no longer applied uniformly, and approaches vary — know your service's"
+      ],
+      "misconceptions": [
+        "Believing that experienced providers do not find calls difficult",
+        "Waiting until you are in crisis to find out what support exists",
+        "Treating a quiet colleague as fine because they said they were",
+        "Assuming cumulative stress will resolve on its own"
+      ],
+      "exam_favorites": [
+        "Acute versus cumulative stress",
+        "Why cumulative stress is more dangerous",
+        "Recognising it in a colleague"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Stress in this job is not a sign that something has gone wrong with you. It is the predictable result of doing the job, and everybody who does it for long enough carries some. The useful question is never whether you have it, but what you do with it.\n\nThere are two shapes it takes.\n\nAcute stress arrives with an incident: during it or immediately after. Shaking hands, a racing heart, replaying the call, difficulty sleeping that night. It is sharp, it has an obvious cause, and it usually settles.\n\nCumulative stress is the other one, and it is the more dangerous of the two precisely because it has no moment. It builds over months and years out of ordinary calls, none of which was the one that did it. Nobody can point to a day it started, which means nobody notices it starting — including you.\n\nWhat it looks like: sleeping badly, or too much. Irritability with people who did not deserve it. Withdrawing from things you used to want to do. Losing interest. Drinking more than you used to. Intrusive memories arriving uninvited. Feeling flat, or feeling nothing at all about calls that used to affect you.\n\nSome calls land harder than others and this is not about experience. Children, always. Somebody you know, or somebody who looks like someone you know. Mass casualty incidents. And calls that resemble your own life — the same age as your daughter, the same street you grew up on, the same car. Twenty years in the job does not protect against those, and expecting it to is how people end up thinking there is something wrong with them.\n\nTalking to somebody is a professional behaviour. Not a failure of one. The people who last in this job are not the ones who feel less; they are the ones who deal with what they feel instead of stacking it.\n\nFind out what support your service has before you need it — peer support, an employee assistance programme, professional counselling routes. The worst time to work out how to access help is the moment you need it.\n\nAnd look after your crewmate. A colleague who has gone quiet, or who has stopped coming out, or who is drinking more, is telling you something without saying it. Asking twice is often the whole intervention.\n\nOne note on practice: the older model of mandatory formal debriefing after every significant incident is no longer applied uniformly, because the evidence for it was mixed. Approaches differ between services now. Know what yours does.",
+          "standard": "Occupational stress is an expected consequence of prehospital practice rather than an indicator of individual dysfunction. Acute stress reactions occur during or immediately following an incident, with identifiable precipitant and typical resolution. Cumulative stress develops progressively over extended periods without identifiable onset, conferring greater risk owing to delayed recognition. Manifestations include sleep disturbance, irritability, social withdrawal, anhedonia, increased alcohol consumption, intrusive recollection and emotional blunting. Certain call types confer disproportionate impact irrespective of experience, including paediatric incidents, known patients, mass casualty events and incidents resembling the provider's personal circumstances. Help-seeking constitutes professional behaviour. Available support mechanisms include peer support, employee assistance programmes and professional services; familiarity with access routes prior to need is advised. Peer monitoring is appropriate, behavioural change in colleagues frequently preceding disclosure. Mandatory universal formal debriefing following significant incidents is no longer uniformly applied owing to equivocal supporting evidence, with approaches varying between services."
+        },
+        "eli_new": {
+          "analogy": "Acute stress is a wave that hits you. Cumulative stress is the tide, and nobody notices the tide coming in.",
+          "body": "The reason cumulative stress is the dangerous one is that there is no moment to point at. Nothing happened. There was no call. It is a hundred ordinary shifts, and the first thing anybody notices is usually that you have stopped being yourself — and often somebody else notices before you do."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Contrast acute and cumulative stress, and describe what you do about either.",
+          "must_hit": [
+            {
+              "point": "Stress is expected in this job, not a sign of weakness",
+              "accept": [
+                "normal",
+                "expected",
+                "everybody",
+                "not weakness",
+                "predictable"
+              ]
+            },
+            {
+              "point": "Acute stress has an obvious cause and usually settles",
+              "accept": [
+                "acute",
+                "incident",
+                "immediate",
+                "settle",
+                "cause"
+              ]
+            },
+            {
+              "point": "Cumulative stress builds over time with no identifiable moment",
+              "accept": [
+                "cumulative",
+                "build",
+                "time",
+                "months",
+                "no moment",
+                "gradual"
+              ]
+            },
+            {
+              "point": "Signs: sleep, irritability, withdrawal, drinking, intrusive memories",
+              "accept": [
+                "sleep",
+                "irritab",
+                "withdraw",
+                "drink",
+                "intrusive",
+                "interest"
+              ]
+            },
+            {
+              "point": "Some calls land harder regardless of experience",
+              "accept": [
+                "child",
+                "know",
+                "resembl",
+                "mass",
+                "experience"
+              ]
+            },
+            {
+              "point": "Talking to somebody is professional behaviour; know your support routes in advance",
+              "accept": [
+                "talk",
+                "support",
+                "peer",
+                "assistance",
+                "advance",
+                "help"
+              ]
+            },
+            {
+              "point": "Watch your crewmate",
+              "accept": [
+                "crewmate",
+                "colleague",
+                "quiet",
+                "notice",
+                "ask"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Asked twice",
+          "dispatch": "Station — no incident. A colleague who had stopped coming to the pub.",
+          "body": "He said he was fine the first time, which is what everybody says the first time.\n\nThe second time, twenty minutes later and with nobody else around, he did not.\n\nNothing had happened to him. That was rather the point — nothing had happened, a hundred times, over about four years."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the description of stress reactions and your own service's support arrangements and debriefing approach, which vary between services."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-05",
+      "title": "Lifting mechanics and injury prevention",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-02-01",
+        "EMT-08-02-03",
+        "EMT-01-02-06"
+      ],
+      "key_points": [
+        "Back injury ends more EMS careers than any dramatic event, and almost all of it is cumulative rather than a single moment",
+        "Keep the weight close to your body: the further out it is, the more force goes through your spine",
+        "Lift with your legs, keep your back in its natural curve, and never twist while loaded",
+        "Twisting under load is the movement most associated with injury — move your feet instead",
+        "Push rather than pull where you have the choice, and work at a height that does not require bending",
+        "Know your own limit and say so before the lift, not during it",
+        "Call for a lifting assist rather than attempting a lift you are not confident about — the delay is trivial next to a career",
+        "Use the equipment: powered stretchers, stair chairs, scoops and slide sheets exist because human backs have limits",
+        "Communicate the lift: who is in charge, what the count is, and where you are going before anybody bends down"
+      ],
+      "misconceptions": [
+        "Lifting from a distance because moving closer is awkward",
+        "Twisting to place a patient rather than moving the feet",
+        "Attempting a lift you are unsure about rather than waiting for help",
+        "Not agreeing who calls the lift before starting"
+      ],
+      "exam_favorites": [
+        "Keep the weight close",
+        "Never twist under load",
+        "Agreeing the lift before it starts"
+      ],
+      "modes": {
+        "read": {
+          "plain": "More EMS careers end because of backs than because of anything dramatic. And almost none of those injuries happened in one memorable moment — it is cumulative, built out of hundreds of lifts that were each slightly wrong and none of which hurt at the time.\n\nThe mechanics are simple and they are mostly about distance. The further the weight is from your body, the more force goes through your lower spine, and it multiplies fast. The same patient held close and held at arm's length are, as far as your back is concerned, two completely different weights.\n\nSo: get close. Move yourself before you move the load, even when the furniture makes it awkward, because the awkwardness is the whole cost and the alternative is paid later.\n\nThen the standard mechanics. Lift with your legs — they are the strongest muscles you have and they are designed for it. Keep your back in its natural curve rather than rounded. Feet apart for a stable base. Head up, because your spine follows your head.\n\nAnd the single most important one: never twist while loaded. Twisting under load is the movement most associated with back injury, and it is the easiest one to do without noticing, because the patient needs to go slightly to the left and turning your shoulders is quicker than moving your feet. Move your feet. Every time.\n\nWhere you have the choice, push rather than pull — pushing lets you use your body weight and keeps the load in front of you. And set the working height so you are not bending: raise the stretcher before you work on it rather than stooping over it for twenty minutes.\n\nNow the part that is about judgement rather than technique. Know your limit, and say so before the lift rather than during it. Saying 'I do not think I can take that corner' beforehand is a normal professional statement. Saying it halfway up a staircase is a different situation entirely.\n\nAnd call for a lifting assist when you need one. Waiting eight minutes for another crew is an inconvenience. The alternative is an injury that can end the career, and nobody in the history of this job has regretted asking for help with a heavy patient down a narrow staircase.\n\nUse the equipment. Powered stretchers, stair chairs with tracks, scoops, slide sheets, carry sheets. They exist because human backs have limits, and using them is not a sign of weakness any more than using a pen is.\n\nFinally, talk about the lift before it happens. Who is in charge of the count. What the count actually is — 'ready, steady, lift' means different things to different people. Where the patient is going and what the route looks like. Most bad lifts go wrong because two people moved at different moments.",
+          "standard": "Musculoskeletal injury, predominantly of the lumbar spine, constitutes the leading cause of career termination in emergency medical services, and is typically cumulative rather than resulting from single events. Biomechanical load on the lumbar spine increases substantially with distance of the load from the body, rendering proximity the primary control measure. Technique comprises lifting with the lower limbs, maintaining lumbar lordosis, a stable base of support, and neutral head position. Axial rotation under load is the movement most strongly associated with injury and is avoided by repositioning the feet. Pushing is preferred to pulling where practicable, and working height is adjusted to avoid sustained flexion. Providers should establish and communicate individual limitations prior to lifting rather than during it, and request lifting assistance where capability is uncertain; the operational delay is disproportionately small relative to injury consequence. Mechanical aids including powered stretchers, stair chairs, scoop stretchers and slide sheets are used as designed. Lifts are briefed before commencement, establishing command, the specific count, destination and route, as asynchronous movement is a principal cause of failed lifts."
+        },
+        "eli_new": {
+          "analogy": "The same patient held against your chest and held at arm's length are two different weights, and only one of them is the one you think you are lifting.",
+          "body": "The movement that does the damage is not the heavy lift. It is the small twist at the end, when the patient needs to go six inches to the left and turning your shoulders is quicker than shuffling your feet. Move your feet. It is the whole technique in three words."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the mechanics of a safe lift and the movement most associated with injury.",
+          "must_hit": [
+            {
+              "point": "Back injury ends careers and is cumulative, not one moment",
+              "accept": [
+                "back",
+                "career",
+                "cumulative",
+                "hundreds",
+                "not one"
+              ]
+            },
+            {
+              "point": "Keep the weight close — distance multiplies the force on the spine",
+              "accept": [
+                "close",
+                "distance",
+                "arm",
+                "force",
+                "spine",
+                "away"
+              ]
+            },
+            {
+              "point": "Lift with the legs, keep the natural curve, stable base",
+              "accept": [
+                "leg",
+                "curve",
+                "back straight",
+                "base",
+                "feet apart"
+              ]
+            },
+            {
+              "point": "Never twist under load — move your feet",
+              "accept": [
+                "twist",
+                "rotate",
+                "feet",
+                "move",
+                "load"
+              ]
+            },
+            {
+              "point": "Push rather than pull; adjust the working height",
+              "accept": [
+                "push",
+                "pull",
+                "height",
+                "bend",
+                "raise"
+              ]
+            },
+            {
+              "point": "Say your limit before the lift, and call for an assist",
+              "accept": [
+                "limit",
+                "before",
+                "assist",
+                "help",
+                "wait",
+                "ask"
+              ]
+            },
+            {
+              "point": "Brief the lift: who calls it, what the count is, where it is going",
+              "accept": [
+                "brief",
+                "count",
+                "charge",
+                "route",
+                "agree",
+                "before"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Six inches to the left",
+          "dispatch": "Injury report — experienced EMT, lumbar injury, routine transfer.",
+          "body": "The lift itself was textbook. Close, legs, straight back, good count, two competent people.\n\nAt the end the patient needed to go slightly left onto the bed, and he turned his shoulders instead of his feet, because it was six inches.\n\nHe had done that several thousand times over eleven years. This was the one where something gave."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "A safe lift",
+          "steps": [
+            {
+              "text": "BRIEF THE LIFT before anybody bends down: who is in charge, what the count is, where it is going, what the route looks like",
+              "critical": true,
+              "note": "Most bad lifts go wrong because two people moved at different moments."
+            },
+            {
+              "text": "State your limits NOW, not halfway up the stairs",
+              "critical": true
+            },
+            {
+              "text": "Call a lifting assist if capability is uncertain — the delay is trivial next to a career",
+              "critical": true
+            },
+            {
+              "text": "Use the equipment: powered stretcher, stair chair, scoop, slide sheet",
+              "critical": false
+            },
+            {
+              "text": "Clear the route before you load",
+              "critical": false
+            },
+            {
+              "text": "Set the working height so nobody is stooping",
+              "critical": false
+            },
+            {
+              "text": "GET CLOSE — move yourself before you move the load",
+              "critical": true,
+              "note": "Distance multiplies the force on your spine. Close and at arm's length are two different weights."
+            },
+            {
+              "text": "Feet apart for a stable base; back in its natural curve; head up",
+              "critical": true
+            },
+            {
+              "text": "LIFT WITH YOUR LEGS",
+              "critical": true
+            },
+            {
+              "text": "NEVER TWIST UNDER LOAD — move your feet instead",
+              "critical": true,
+              "note": "The movement most associated with injury, and the easiest to do without noticing."
+            },
+            {
+              "text": "Push rather than pull wherever you have the choice",
+              "critical": false
+            },
+            {
+              "text": "Lower with the same technique — injuries happen on the way down too",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm lifting technique guidance and your service's equipment and lifting assist policy against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-02-06",
+      "title": "Sleep, nutrition and fitness for duty",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-01-02-04",
+        "EMT-01-02-05",
+        "EMT-08-01-03"
+      ],
+      "key_points": [
+        "Fatigue degrades judgement, reaction time and mood in ways that feel exactly like being fine",
+        "Shift work disrupts the body clock, and night shifts are physiologically harder regardless of how used to them you are",
+        "Sleep debt accumulates and is not repaid by one long lie-in",
+        "Strategic napping, protecting sleep in daylight, and managing caffeine timing all help; caffeine late in a shift costs the sleep afterwards",
+        "Driving home after a night shift is one of the highest-risk things you will do all week",
+        "Eating well on shift is genuinely hard and matters: blood sugar swings affect concentration and mood",
+        "Physical fitness reduces injury risk and is part of being fit for duty, not a hobby",
+        "Fitness for duty also covers illness, medication that affects alertness, and personal circumstances that make you unsafe today",
+        "Recognising you are not fit for a shift, and saying so, is a professional act"
+      ],
+      "misconceptions": [
+        "Believing you have adapted to nights so they cost you nothing",
+        "Treating the drive home as the safe part of the shift",
+        "Assuming one long sleep clears accumulated debt",
+        "Working a shift you know you are not fit for"
+      ],
+      "exam_favorites": [
+        "Why fatigue feels like being fine",
+        "The drive home after nights",
+        "Fitness for duty as a professional judgement"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Fatigue is dangerous in a particular way: it degrades your judgement and your reaction time while leaving your confidence completely intact. A tired clinician does not feel like an impaired clinician. They feel like themselves, making decisions that seem perfectly reasonable at the time.\n\nShift work fights your body clock, and night shifts are physiologically harder than day shifts no matter how many you have done. People say they have adapted. What they have usually adapted to is functioning while tired, which is not the same as not being tired.\n\nSleep debt accumulates. Four short nights do not get cancelled by one long lie-in, and the deficit carries forward. This is worth knowing because the natural assumption is that a good sleep resets things, and it mostly does not.\n\nSome practical things do help. Napping strategically where your service allows it, even briefly. Protecting daytime sleep properly — blackout, phone off, household warned, because sleeping in daylight is harder and needs more defending than sleeping at night. And watching when you take caffeine: it works, and caffeine in the last part of a shift is borrowed from the sleep you are about to try to have.\n\nThe drive home after a night shift deserves singling out, because it is genuinely one of the highest-risk things you will do all week and it does not feel like it. You are at your lowest alertness, in a familiar car, on a familiar route, at a time of day when the body most wants to sleep. Plenty of EMS people have survived their whole careers and been badly hurt on the way home from them. If you are too tired, do not drive — sleep first, or get a lift.\n\nEating on shift is harder than it sounds and it matters more than people credit. Meals are interrupted, food is whatever is available at three in the morning, and blood sugar swinging around affects concentration, patience and mood. Carrying something reasonable with you is a small habit that pays.\n\nPhysical fitness belongs here too. It reduces injury risk directly, and it is part of being fit for duty rather than a private hobby — this job asks your body to lift, carry, kneel and climb stairs at speed.\n\nAnd fitness for duty means more than fatigue. It covers being ill, being on medication that affects alertness, and personal circumstances that mean you are not safe to work today — grief, crisis, the aftermath of something. Recognising that and saying so is a professional act, not a failing. Working a shift you know you are not fit for puts a patient in the hands of somebody who has already noticed they should not be there.",
+          "standard": "Fatigue degrades cognitive performance, reaction time and affect while preserving subjective confidence, producing impairment without corresponding awareness. Shift work disrupts circadian regulation, with night shifts imposing physiological cost irrespective of habituation; adaptation typically reflects tolerance of impairment rather than absence of it. Sleep debt accumulates across consecutive shifts and is not fully recovered by single extended sleep periods. Mitigation includes strategic napping where policy permits, protection of daytime sleep through environmental control, and management of caffeine timing, late-shift consumption impairing subsequent sleep. The post-night-shift commute represents a period of substantially elevated risk owing to circadian nadir, route familiarity and accumulated deficit. Nutritional management on shift affects concentration and affect through glycaemic variability. Physical conditioning reduces musculoskeletal injury risk and constitutes a component of fitness for duty. Fitness for duty additionally encompasses acute illness, medications affecting alertness, and personal circumstances compromising safe performance; self-identification and disclosure constitute professional conduct."
+        },
+        "eli_new": {
+          "analogy": "Fatigue does not feel like impairment. It feels like being yourself, making reasonable decisions, in a fog you cannot see because you are inside it.",
+          "body": "The drive home is the bit nobody takes seriously. You have survived a night of genuinely dangerous work and the thing most likely to hurt you is twenty minutes on a familiar road with the sun coming up. If you are too tired, sleep in the car park. It is a completely normal thing to do."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why fatigue is dangerous, and what fitness for duty covers.",
+          "must_hit": [
+            {
+              "point": "Fatigue degrades judgement while leaving confidence intact",
+              "accept": [
+                "judgement",
+                "judgment",
+                "reaction",
+                "confiden",
+                "feel fine",
+                "impair"
+              ]
+            },
+            {
+              "point": "Night shifts are physiologically hard regardless of habit",
+              "accept": [
+                "night",
+                "circadian",
+                "body clock",
+                "adapt",
+                "harder"
+              ]
+            },
+            {
+              "point": "Sleep debt accumulates and is not repaid by one long sleep",
+              "accept": [
+                "debt",
+                "accumulat",
+                "repay",
+                "lie-in",
+                "carry"
+              ]
+            },
+            {
+              "point": "Protect daytime sleep and manage caffeine timing",
+              "accept": [
+                "daytime",
+                "blackout",
+                "protect",
+                "caffeine",
+                "timing",
+                "nap"
+              ]
+            },
+            {
+              "point": "The drive home after nights is one of the highest-risk things you do",
+              "accept": [
+                "drive",
+                "home",
+                "commut",
+                "risk",
+                "route"
+              ]
+            },
+            {
+              "point": "Fitness for duty covers illness, medication and personal circumstances",
+              "accept": [
+                "illness",
+                "medication",
+                "personal",
+                "circumstance",
+                "grief",
+                "unsafe"
+              ]
+            },
+            {
+              "point": "Saying you are not fit is a professional act",
+              "accept": [
+                "say",
+                "professional",
+                "recognis",
+                "disclose",
+                "not fit"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The car park",
+          "dispatch": "No call. End of a fourth night shift.",
+          "body": "She got to her car, sat down, and realised she could not remember the last two minutes of walking to it.\n\nShe slept for fifty minutes in the car park before driving, which felt faintly ridiculous at the time.\n\nThe most dangerous part of that week was never going to be a patient."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fatigue and shift work guidance against the current text and your service's fatigue management policy, which varies."
     }
   ]
 }
