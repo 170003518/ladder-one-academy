@@ -302,6 +302,156 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-01-C01",
+      "concept_id": "EMT-05-03-01",
+      "type": "concept",
+      "front": {
+        "title": "Insulin and glucose",
+        "summary": "Fuel and the key to the door"
+      },
+      "back": {
+        "body": "GLUCOSE = the fuel · INSULIN = the key that lets it into cells · No key → glucose piles up in the blood WHILE THE CELLS STARVE · A HIGH READING DOES NOT MEAN FUELLED CELLS · The BRAIN fails first: no stores, no quick alternative → sugar problems look like brain problems · TYPE 1 makes none · TYPE 2 responds poorly and MAY STILL TAKE INSULIN · DOWN: medication without food, exertion, alcohol · UP: illness, infection, missed medication, stress",
+        "why_it_matters": "A diabetic with flu usually runs high. The reflex expects low."
+      },
+      "high_yield": true,
+      "number": 13,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-03-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02-C02",
+      "concept_id": "EMT-05-03-02",
+      "type": "concept",
+      "front": {
+        "title": "Hypoglycemia",
+        "summary": "The brain is starving now"
+      },
+      "back": {
+        "body": "FAST onset: minutes to an hour · CONFUSED · odd or AGGRESSIVE · COOL PALE SWEATY · tremor · hungry · fast pulse → seizure → unresponsive · MIMICS drunkenness, psychiatric crisis and STROKE — which is why a meter comes out for EVERY altered patient · ORAL GLUCOSE ONLY IF THEY CAN SWALLOW AND PROTECT THEIR AIRWAY · Cannot protect it? NOTHING IN THE MOUTH — airway, transport, paramedic · Recheck after, and ask WHY it happened",
+        "why_it_matters": "He was face down being handcuffed, soaked in sweat on a cold night, with a sugar of 2.1."
+      },
+      "high_yield": true,
+      "number": 14,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-03-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02-C03",
+      "concept_id": "EMT-05-03-02",
+      "type": "drug",
+      "front": {
+        "title": "Oral glucose",
+        "summary": "Assist or administer per protocol"
+      },
+      "back": {
+        "body": "See the drug card fields. CLASS: carbohydrate · INDICATION: suspected hypoglycemia in a patient who is AWAKE and CAN SWALLOW · CONTRAINDICATED: cannot swallow, unresponsive, cannot protect the airway · ROUTE: oral / buccal · DOSE: PER PROTOCOL — VERIFY, not stated here",
+        "why_it_matters": "The contraindication and the indication are the same question: can they protect their own airway?"
+      },
+      "high_yield": true,
+      "number": 15,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-03-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02-C04",
+      "concept_id": "EMT-05-03-02",
+      "type": "compare",
+      "front": {
+        "title": "Hypo vs hyperglycemia",
+        "summary": "Fast and sweaty, or slow and dry"
+      },
+      "back": {
+        "body": "See the comparison rows. The two shortcuts: ONSET — minutes versus days. SKIN — cool and sweaty versus warm and dry. Neither replaces a meter.",
+        "why_it_matters": "Both end in an unresponsive diabetic. Only the meter tells you which one you are looking at."
+      },
+      "high_yield": true,
+      "number": 16,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-03-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-03-C05",
+      "concept_id": "EMT-05-03-03",
+      "type": "concept",
+      "front": {
+        "title": "Hyperglycemia, DKA and HHS",
+        "summary": "Slow, dry and deep-breathing"
+      },
+      "back": {
+        "body": "SLOW onset: hours to DAYS · THE THREE POLYS: polyuria · polydipsia · polyphagia · PROFOUNDLY DEHYDRATED — glucose spills into urine and drags water with it · SKIN WARM DRY FLUSHED (mirror of hypo) · DKA: no usable glucose → burns FAT → ACID → DEEP SIGHING RESPIRATIONS blowing it off + SWEET/FRUITY BREATH · THAT BREATHING IS COMPENSATION — support it, never slow it · HHS: extreme glucose + profound dehydration, NO ketones, older type 2, slower still · CARE: airway, oxygen, position, TRANSPORT — fluid and insulin are not yours",
+        "why_it_matters": "It looked like a respiratory call. The breathing was the only thing keeping his blood from turning to acid."
+      },
+      "high_yield": true,
+      "number": 17,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-03-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-04-C06",
+      "concept_id": "EMT-05-03-04",
+      "type": "concept",
+      "front": {
+        "title": "Thyroid and adrenal emergencies",
+        "summary": "Read the medication list"
+      },
+      "back": {
+        "body": "RARE — recognise, do not diagnose · OVERACTIVE THYROID: fever · very fast heart · agitated/confused · warm sweaty · UNDERACTIVE: cold · slow pulse · slow breathing · drowsy → unresponsive · ADRENAL CRISIS: weakness · vomiting · abdominal pain · SHOCK THAT DOES NOT RESPOND AS EXPECTED · THE KEY IS THE MEDICATION LIST: long-term steroids + unwell, injured, or recently stopped = adrenal crisis until proven otherwise · They need MORE steroid under stress, not less · CARE: supportive + temperature + transport",
+        "why_it_matters": "They did not diagnose anything. They said the word steroid at handover, and that was enough."
+      },
+      "high_yield": false,
+      "number": 18,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-03-04. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

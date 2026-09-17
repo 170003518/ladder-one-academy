@@ -33,6 +33,16 @@
         "EMT-05-02-05",
         "EMT-05-02-06"
       ]
+    },
+    {
+      "id": "EMT-05-03",
+      "title": "Endocrine emergencies",
+      "concepts": [
+        "EMT-05-03-01",
+        "EMT-05-03-02",
+        "EMT-05-03-03",
+        "EMT-05-03-04"
+      ]
     }
   ],
   "concepts": [
@@ -1145,6 +1155,605 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the AEIOU-TIPS expansion against the current text — the letters are assigned slightly differently between sources, particularly E and S. No medication or dose is stated."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-01",
+      "title": "Diabetes physiology: insulin and glucose",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-03-02",
+        "EMT-05-03-03"
+      ],
+      "key_points": [
+        "Glucose is the fuel; insulin is the key that lets glucose into cells",
+        "Without insulin, glucose piles up in the blood while the cells starve in the middle of plenty",
+        "The brain is the organ that suffers first and worst, because it cannot store fuel and cannot use an alternative quickly",
+        "Type 1 diabetes: the pancreas makes little or no insulin, so insulin must be given",
+        "Type 2 diabetes: insulin is made but the body responds poorly to it; it is managed with oral medication, lifestyle, and sometimes insulin",
+        "Blood glucose falls when the patient takes their medication and does not eat, or exerts themselves unusually, or is unwell",
+        "Blood glucose rises with illness, infection, missed medication, and stress"
+      ],
+      "misconceptions": [
+        "Believing the cells have plenty of fuel whenever blood glucose is high",
+        "Thinking type 2 diabetics never take insulin",
+        "Assuming a diabetic patient's problem is always their diabetes"
+      ],
+      "exam_favorites": [
+        "Insulin as the key, glucose as the fuel",
+        "Why the brain fails first",
+        "What makes glucose fall and what makes it rise"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Glucose is the fuel every cell runs on. Insulin is the key that lets it through the door.\n\nThat one image explains most of what you need. If there is no key, glucose cannot get into the cells. It stays in the bloodstream, and the blood glucose reading goes up and up while the cells themselves are starving. Full fuel tank, no way to reach the engine.\n\nThe brain feels this first. It cannot store fuel for later, and unlike muscle it cannot switch quickly to burning something else. Which is why blood sugar problems announce themselves as brain problems: confusion, odd behaviour, a reduced level of consciousness, seizures. A patient acting strangely is a patient whose brain is not being fed properly, and low blood sugar is one of the commonest reasons for that.\n\nTwo types. In type 1, the pancreas has stopped producing insulin, so it has to come from outside. In type 2, insulin is being produced but the body has stopped responding to it well. Type 2 is managed with tablets and diet, and often with insulin too as time goes on — so do not assume that a patient on insulin is type 1.\n\nWhat pushes the sugar down: taking the medication and then not eating, unusual exertion, alcohol, and being unwell enough to skip meals.\n\nWhat pushes it up: infection, illness of any kind, missed medication, and physical stress. This catches people out. A diabetic with the flu often runs high, not low, because being ill raises the demand.\n\nAnd hold onto this: a diabetic patient can have anything anyone else can have. Diabetes is a reason to check a glucose on every call. It is not a reason to stop thinking once you have.",
+          "standard": "Glucose constitutes the primary cellular energy substrate; insulin facilitates cellular glucose uptake. Absent adequate insulin activity, serum glucose accumulates while intracellular glucose availability falls, producing cellular starvation despite hyperglycaemia. The central nervous system is affected earliest and most severely, lacking significant glycogen storage and the capacity for rapid substrate switching; consequently dysglycaemia manifests neurologically as confusion, behavioural change, reduced consciousness or seizure. Type 1 diabetes mellitus reflects absolute insulin deficiency requiring exogenous replacement. Type 2 reflects insulin resistance with relative deficiency, managed by oral agents, lifestyle modification and frequently exogenous insulin; insulin use therefore does not indicate type. Hypoglycaemia is precipitated by medication taken without adequate intake, unaccustomed exertion, alcohol and intercurrent illness reducing intake. Hyperglycaemia is precipitated by infection, intercurrent illness, omitted medication and physiological stress."
+        },
+        "eli_new": {
+          "analogy": "Insulin is the key to the door. Glucose can be piled up outside the house and the people inside will still starve if nobody has the key.",
+          "body": "The counter-intuitive bit is that a high blood sugar reading does not mean the cells have fuel. It means the opposite: the fuel is stuck outside them. That is why a patient can be starving cellularly with a glucose reading through the roof."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the roles of glucose and insulin, and why blood sugar problems show up as brain problems.",
+          "must_hit": [
+            {
+              "point": "Glucose is the fuel, insulin is the key that lets it into cells",
+              "accept": [
+                "fuel",
+                "insulin",
+                "key",
+                "cell",
+                "uptake"
+              ]
+            },
+            {
+              "point": "Without insulin, glucose stays in the blood while cells starve",
+              "accept": [
+                "blood",
+                "starve",
+                "stuck",
+                "outside",
+                "high"
+              ]
+            },
+            {
+              "point": "The brain fails first because it cannot store fuel",
+              "accept": [
+                "brain",
+                "store",
+                "first",
+                "fuel",
+                "alternative"
+              ]
+            },
+            {
+              "point": "Type 1 makes no insulin; type 2 responds poorly and may still take insulin",
+              "accept": [
+                "type 1",
+                "type 2",
+                "resistan",
+                "produce",
+                "oral"
+              ]
+            },
+            {
+              "point": "Illness raises glucose; medication without food lowers it",
+              "accept": [
+                "illness",
+                "infection",
+                "food",
+                "eat",
+                "exert",
+                "miss"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Flu week",
+          "dispatch": "Medic 8 — 58-year-old male, diabetic, unwell for three days.",
+          "body": "The student expected a low sugar because that is what diabetics do, and had the glucose gel ready before the meter came out.\n\nHe had had influenza for three days and his glucose was very high.\n\nBeing ill raises the demand. It is the opposite of what the reflex expects."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the type 1 and type 2 descriptions and the lists of precipitating factors against the current text. No medication names or doses are stated."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02",
+      "title": "Hypoglycemia: presentation and oral glucose",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-03-01"
+      ],
+      "related": [
+        "EMT-05-02-06",
+        "EMT-05-02-01",
+        "EMT-05-03-03"
+      ],
+      "key_points": [
+        "Hypoglycemia is the true emergency of the two, because the brain is being starved right now",
+        "Onset is usually rapid — minutes to an hour — compared with the days of a hyperglycemic crisis",
+        "The picture is confusion, odd or aggressive behaviour, sweating, pallor, tremor, hunger, and a rapid pulse; it can progress to seizure and unresponsiveness",
+        "Cool sweaty skin in a confused diabetic is the classic combination",
+        "It is regularly mistaken for drunkenness, a psychiatric episode, or a stroke",
+        "Oral glucose is given only to a patient who is awake enough to swallow and protect their own airway",
+        "Nothing is put in the mouth of a patient who cannot protect their airway — that patient needs a route an EMT does not have, so transport and call for a paramedic",
+        "Improvement after glucose is often fast and obvious, and the patient still needs evaluation"
+      ],
+      "misconceptions": [
+        "Putting glucose gel into the mouth of an unresponsive patient",
+        "Assuming aggression is behavioural rather than metabolic",
+        "Not rechecking the glucose after treatment",
+        "Letting a patient who has improved refuse transport without considering why they went low"
+      ],
+      "exam_favorites": [
+        "The classic hypoglycemic presentation",
+        "The single requirement before giving oral glucose",
+        "Why hypoglycemia is the more urgent of the two"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Of the two blood sugar emergencies, this is the one that will hurt someone in front of you. A high sugar is a crisis that builds over days. A low sugar is a brain being starved right now.\n\nIt comes on fast: minutes to an hour. And it produces a picture that is easy to recognise once you have seen it and easy to misread if you have not.\n\nThe patient is confused. They may be behaving oddly, or aggressively, or in a way completely unlike themselves. Their skin is cool and sweaty and pale, they may be trembling, they may say they are hungry, and their pulse is fast. Left alone it goes on to seizures and unresponsiveness.\n\nCool sweaty skin in a confused diabetic is the combination worth memorising.\n\nAnd here is where patients get hurt: this looks like other things. It looks like drunkenness. It looks like a psychiatric crisis. It looks like a stroke. Every one of those has been written on a chart for a patient who simply needed sugar. This is the reason a glucometer comes out for every altered patient, without exception.\n\nTreatment is oral glucose, and there is exactly one condition attached: the patient has to be awake enough to swallow and protect their own airway. Can they hold a conversation? Can they follow the instruction to swallow? Then they can have it.\n\nIf they cannot — if they are unresponsive, or barely rousable, or having a seizure — then nothing goes in their mouth. Not gel, not juice, not sugar under the tongue. It will end up in their lungs. That patient needs glucose by a route you do not have, so the answer is airway management, transport, and a paramedic intercept if one is available.\n\nWhen it works it works quickly, and it is genuinely one of the most satisfying things you will do. Recheck the glucose afterward. And ask why it happened — a patient who went low for a reason they cannot explain still needs to be seen.",
+          "standard": "Hypoglycaemia constitutes the more time-critical of the dysglycaemic emergencies, reflecting acute cerebral substrate deprivation. Onset is typically rapid, over minutes to approximately one hour, contrasting with the subacute course of hyperglycaemic crises. Clinical features comprise altered mental status, behavioural disturbance including aggression, diaphoresis, pallor, tremor, hunger and tachycardia, progressing to seizure and unresponsiveness if untreated. Cool diaphoretic skin with confusion in a known diabetic is characteristic. Misattribution to intoxication, psychiatric illness or cerebrovascular accident is common and constitutes the principal source of preventable harm. Oral glucose administration requires intact airway protective reflexes and the ability to swallow; administration to a patient unable to protect the airway is contraindicated owing to aspiration risk, and such patients require airway management, transport and advanced-level intervention. Post-treatment glucose measurement and evaluation of the precipitating cause are indicated."
+        },
+        "eli_new": {
+          "analogy": "A low sugar is the brain running out of petrol on the motorway. Everything about the patient's behaviour is an engine misfiring, not a personality.",
+          "body": "The single most important habit in this whole module: a glucometer comes out for every altered patient. Not the ones who look diabetic. Every one. Because low sugar wearing a costume — drunk, aggressive, psychiatric, stroke — is how people get missed."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the hypoglycemic patient and state the one condition that must be met before giving oral glucose.",
+          "must_hit": [
+            {
+              "point": "Rapid onset over minutes to an hour",
+              "accept": [
+                "rapid",
+                "fast",
+                "minutes",
+                "quick",
+                "sudden"
+              ]
+            },
+            {
+              "point": "Confusion, odd or aggressive behaviour, cool sweaty pale skin, tremor, fast pulse",
+              "accept": [
+                "confus",
+                "behav",
+                "aggress",
+                "sweat",
+                "cool",
+                "pale",
+                "tremor",
+                "tachy"
+              ]
+            },
+            {
+              "point": "It mimics intoxication, psychiatric illness and stroke",
+              "accept": [
+                "drunk",
+                "intoxicat",
+                "psychiatric",
+                "stroke",
+                "mimic"
+              ]
+            },
+            {
+              "point": "Oral glucose only if the patient can swallow and protect their airway",
+              "accept": [
+                "swallow",
+                "airway",
+                "protect",
+                "awake",
+                "conscious"
+              ]
+            },
+            {
+              "point": "Nothing in the mouth of a patient who cannot protect the airway",
+              "accept": [
+                "nothing",
+                "mouth",
+                "aspirat",
+                "unresponsive",
+                "never"
+              ]
+            },
+            {
+              "point": "Recheck the glucose and find out why it happened",
+              "accept": [
+                "recheck",
+                "again",
+                "why",
+                "cause",
+                "reassess"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Take him in",
+          "dispatch": "Police request — male in his forties, aggressive, uncooperative, no obvious injury.",
+          "body": "He had swung at an officer and was face down on the pavement being handcuffed when the ambulance arrived.\n\nOne of the crew noticed his shirt was soaked through on a cold night and asked for a finger to check a sugar. The officers were not pleased about the delay.\n\nIt was 2.1. Ten minutes after the gel he apologised to everybody and could not remember any of it."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug",
+        "compare"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "Oral glucose",
+          "class": "Carbohydrate / hyperglycaemic agent",
+          "indications": [
+            "Suspected hypoglycemia in a patient who is awake and able to swallow",
+            "Altered mental status with a low measured blood glucose, where the airway is protected"
+          ],
+          "contraindications": [
+            "Unable to swallow",
+            "Unresponsive or unable to protect the airway",
+            "Known allergy to the preparation"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify",
+          "route": "Oral (buccal gel or equivalent preparation)",
+          "onset": "per protocol / verify",
+          "side_effects": [
+            "Nausea",
+            "Aspiration if given to a patient who cannot protect the airway"
+          ],
+          "scope": "EMT may administer or assist per protocol"
+        },
+        "compare": {
+          "left_label": "Hypoglycemia",
+          "right_label": "Hyperglycemia",
+          "rows": [
+            {
+              "feature": "Onset",
+              "left": "Rapid — minutes to about an hour",
+              "right": "Slow — hours to days"
+            },
+            {
+              "feature": "Skin",
+              "left": "Cool, pale, sweaty",
+              "right": "Warm, dry, flushed"
+            },
+            {
+              "feature": "Mental status",
+              "left": "Confusion, odd or aggressive behaviour, progressing to seizure and unresponsiveness",
+              "right": "Gradual drowsiness and lethargy, progressing to unresponsiveness"
+            },
+            {
+              "feature": "Breathing",
+              "left": "Normal or fast",
+              "right": "Deep and sighing in ketoacidosis"
+            },
+            {
+              "feature": "Breath",
+              "left": "Nothing characteristic",
+              "right": "May smell sweet or fruity in ketoacidosis"
+            },
+            {
+              "feature": "Hydration",
+              "left": "Usually normal",
+              "right": "Thirsty, passing large volumes of urine, dry — often profoundly volume depleted"
+            },
+            {
+              "feature": "Pulse",
+              "left": "Fast",
+              "right": "Fast, often weak with volume depletion"
+            },
+            {
+              "feature": "Field treatment",
+              "left": "Oral glucose if they can swallow and protect the airway",
+              "right": "Airway, oxygen as indicated, transport — the deficit is fluid and insulin, neither of which is yours"
+            },
+            {
+              "feature": "Urgency",
+              "left": "The brain is starving now",
+              "right": "A crisis that built over days, still time-critical"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the hypoglycaemia symptom list and the onset timeframe against the current text. Oral glucose dose and product are per protocol and are deliberately not stated."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-03",
+      "title": "Hyperglycemia, DKA and HHS",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-03-01"
+      ],
+      "related": [
+        "EMT-05-03-02",
+        "EMT-05-03-01"
+      ],
+      "key_points": [
+        "Hyperglycemia builds over hours to days, not minutes, so the patient has usually been unwell for a while",
+        "The classic early story is the three polys: passing large volumes of urine, extreme thirst, and excessive hunger",
+        "Those patients are profoundly dehydrated, because the glucose drags water out with it into the urine",
+        "Diabetic ketoacidosis happens when cells with no usable glucose burn fat instead and produce acid as a by-product",
+        "DKA gives deep sighing respirations — the body blowing off acid — and a sweet or fruity smell on the breath",
+        "Hyperosmolar hyperglycemic state is the other crisis: extremely high glucose with profound dehydration but without the ketones and acid, more often in older type 2 patients",
+        "Skin is warm, dry and flushed, the opposite of the hypoglycemic patient",
+        "Field care is airway, oxygen as indicated, position, and transport — the treatment is fluid and insulin, neither of which is an EMT's"
+      ],
+      "misconceptions": [
+        "Expecting a rapid onset like hypoglycemia",
+        "Mistaking deep sighing respirations for respiratory distress and treating the breathing",
+        "Missing how dehydrated these patients are because they are not bleeding",
+        "Assuming a high sugar is less urgent than a low one and slowing down accordingly"
+      ],
+      "exam_favorites": [
+        "The three polys",
+        "Deep sighing respirations and fruity breath in DKA",
+        "DKA versus HHS",
+        "Why these patients are volume depleted"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A high blood sugar crisis is a slow one. Hours to days, not minutes. By the time you are called, the patient has usually been getting steadily worse for a while and somebody has finally decided it is not going to sort itself out.\n\nThe early story is three things that all begin with poly-. Passing enormous volumes of urine. Being desperately thirsty. Being very hungry. The urine comes first: when there is too much glucose in the blood, the kidneys spill it, and glucose in the urine drags water out with it. The thirst is the body chasing the water it is losing. The hunger is those starving cells asking for fuel they cannot use.\n\nWhich means these patients are dry. Seriously, sometimes dangerously dry, and it is easy to underestimate because nothing is visibly leaking.\n\nNow the two crises.\n\nDiabetic ketoacidosis. The cells cannot use glucose, so they burn fat instead, and burning fat produces acid. The blood turns acidic and the body tries to correct it the only fast way it can — by breathing it off. That gives the deep, sighing, laboured-looking respirations that are so easy to mistake for a breathing problem. It is not a breathing problem. It is the compensation, and it is keeping them alive. The acid by-products also give the breath a sweet or fruity smell, sometimes described as like nail varnish remover.\n\nHyperosmolar hyperglycemic state is the other one. The glucose goes extraordinarily high and the dehydration is profound, but there is just enough insulin activity to stop fat being burned, so there is no acid and no ketones. It tends to be older type 2 patients, and it comes on even more slowly. They present confused and very dry.\n\nThe skin is warm, dry and flushed. Remember it as the mirror image of the cool, sweaty hypoglycemic patient.\n\nAnd what do you do? Airway, oxygen if indicated, a position that lets them breathe, and transport. The treatment these patients need is fluid and insulin, and neither one is yours. That is not a small role — recognising this and moving is the whole contribution — but do not stand on scene looking for something to give.",
+          "standard": "Hyperglycaemic crises develop over hours to days. The classical prodrome comprises polyuria, polydipsia and polyphagia; osmotic diuresis secondary to glycosuria produces substantial volume depletion. Diabetic ketoacidosis arises when absent insulin activity forces lipolysis for energy, generating ketoacids and metabolic acidosis. Respiratory compensation manifests as deep, sighing Kussmaul respirations, frequently misinterpreted as primary respiratory distress; ketone excretion produces a sweet or acetone-like breath odour. Hyperosmolar hyperglycaemic state features extreme hyperglycaemia and profound dehydration without significant ketosis, occurring predominantly in older patients with type 2 diabetes and developing more insidiously. Integument is characteristically warm, dry and flushed, opposite to the hypoglycaemic presentation. Prehospital management comprises airway maintenance, supplemental oxygen as indicated, positioning and transport; definitive therapy is fluid resuscitation and insulin, both beyond EMT scope."
+        },
+        "eli_new": {
+          "analogy": "The kidneys start bailing out sugar, and the sugar takes the water with it. The thirst and the enormous volumes of urine are the same event seen from two ends.",
+          "body": "The trap here is the breathing. A DKA patient breathing deeply and hard looks like a respiratory emergency, and the instinct is to treat the breathing. That breathing is the only thing holding their blood chemistry together. Support it, do not try to slow it down."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe how a hyperglycemic crisis presents, what causes the deep breathing in DKA, and what an EMT actually does.",
+          "must_hit": [
+            {
+              "point": "Slow onset over hours to days",
+              "accept": [
+                "slow",
+                "hours",
+                "days",
+                "gradual"
+              ]
+            },
+            {
+              "point": "Polyuria, polydipsia, polyphagia, and profound dehydration",
+              "accept": [
+                "urine",
+                "thirst",
+                "hunger",
+                "poly",
+                "dehydrat",
+                "dry"
+              ]
+            },
+            {
+              "point": "DKA burns fat for fuel, producing acid",
+              "accept": [
+                "fat",
+                "acid",
+                "ketone",
+                "ketoacid",
+                "burn"
+              ]
+            },
+            {
+              "point": "Deep sighing respirations blow off acid; fruity breath",
+              "accept": [
+                "deep",
+                "sigh",
+                "kussmaul",
+                "fruity",
+                "sweet",
+                "acetone"
+              ]
+            },
+            {
+              "point": "HHS is extreme glucose and dehydration without ketones, usually older type 2",
+              "accept": [
+                "hhs",
+                "hyperosmolar",
+                "ketone",
+                "older",
+                "type 2"
+              ]
+            },
+            {
+              "point": "Warm dry flushed skin; care is airway, oxygen, transport",
+              "accept": [
+                "warm",
+                "dry",
+                "flush",
+                "airway",
+                "oxygen",
+                "transport"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The breathing",
+          "dispatch": "Medic 6 — 19-year-old male, difficulty breathing, three days unwell.",
+          "body": "He was breathing deeply and fast and looked exhausted with it, and the first instinct in the room was that this was a respiratory call.\n\nHis skin was warm and dry, his mouth was parched, and there was something sweet in the air that nobody could place.\n\nThe breathing was not the problem. It was the only thing keeping his blood from turning to acid."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the DKA and HHS descriptions, the Kussmaul respiration pattern and the breath odour description against the current text. No glucose thresholds are stated because the diagnostic values differ between sources and are not field decisions."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-04",
+      "title": "Thyroid and adrenal emergencies",
+      "domain": "MED",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-04-04-01",
+        "EMT-05-01-01"
+      ],
+      "key_points": [
+        "These are rare, and the EMT task is recognising that something endocrine may be happening rather than naming it",
+        "An overactive thyroid crisis presents with fever, a very fast heart rate, agitation or confusion, and warm sweaty skin",
+        "An underactive thyroid crisis presents at the other end: cold, slow, drowsy, with slow breathing and low body temperature",
+        "Adrenal crisis presents with weakness, vomiting, abdominal pain, and shock that does not respond as expected to the usual measures",
+        "The history is the strongest clue: a patient on long-term steroid medication who becomes unwell, or who has recently stopped taking it, is an adrenal crisis until proven otherwise",
+        "A patient on steroids who is unwell, injured or stressed may need more steroid, not less, and stopping abruptly is dangerous",
+        "Field care is supportive: airway, oxygen as indicated, temperature management, position, and transport"
+      ],
+      "misconceptions": [
+        "Trying to name the specific endocrine disorder in the field",
+        "Missing the steroid history because the patient did not mention it",
+        "Treating unexplained shock as purely cardiac or haemorrhagic without considering an adrenal cause"
+      ],
+      "exam_favorites": [
+        "The steroid history as the key clue",
+        "The two opposite thyroid presentations",
+        "Shock that does not respond as expected"
+      ],
+      "modes": {
+        "read": {
+          "plain": "These are rare, and nobody expects an EMT to diagnose them. What is expected is that you notice something does not fit, and that you take the medication history seriously.\n\nThe thyroid sets the body's metabolic pace. Too much and everything runs fast and hot: fever, a racing heart, agitation, confusion, warm sweaty skin, sometimes a patient who looks like they are in a severe panic but with a genuinely high temperature. Too little and everything runs slow and cold: drowsy, slow pulse, slow shallow breathing, cold to touch with a low body temperature, progressing to unresponsive.\n\nThe adrenal glands sit above the kidneys and produce the hormones that let the body cope with stress, including holding blood pressure up. When they fail, or when somebody who has been taking steroids for a long time suddenly stops, the body loses the ability to respond to stress at all. That looks like weakness, vomiting, abdominal pain, and shock — and the shock has an unusual quality. It does not respond the way you expect it to.\n\nHere is the practical part, and honestly the only part you must carry away. Look at the medication list. A patient on long-term steroids who has become unwell, been injured, or has recently stopped or run out of their medication is at risk of an adrenal crisis. That patient needs more steroid, not less, and abruptly stopping is genuinely dangerous. If the list has a steroid on it and the patient is unwell out of proportion to what you can see, say so on your handover.\n\nEverything you do is supportive. Airway, oxygen as indicated, do something about their temperature in either direction, position them sensibly, and go.",
+          "standard": "Thyroid and adrenal emergencies are uncommon; prehospital recognition rather than specific diagnosis is the objective. Thyrotoxic crisis presents with hyperpyrexia, marked tachycardia, agitation or delirium and warm diaphoretic skin. Myxoedema crisis presents conversely with hypothermia, bradycardia, hypoventilation, somnolence and progressive obtundation. Adrenal crisis manifests as weakness, emesis, abdominal pain and shock refractory to expected response. Pharmacological history is the principal diagnostic indicator: patients on long-term corticosteroid therapy who become unwell, sustain injury, or abruptly discontinue therapy are at risk, requiring increased rather than decreased steroid provision; abrupt cessation is hazardous. Prehospital management is supportive, comprising airway maintenance, supplemental oxygen as indicated, temperature management, positioning and transport."
+        },
+        "eli_new": {
+          "analogy": "The thyroid is the thermostat and the adrenals are the emergency generator. One breaks by running too hot or too cold; the other breaks by failing to start when it is needed.",
+          "body": "You will not diagnose these and you are not meant to. What you are meant to do is read the medication list. Long-term steroids plus an unwell patient equals a sentence you say out loud at handover, and that sentence is the entire EMT contribution."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the two thyroid crisis presentations and explain why a steroid history matters.",
+          "must_hit": [
+            {
+              "point": "Overactive: fever, fast heart rate, agitation, warm sweaty skin",
+              "accept": [
+                "fever",
+                "fast",
+                "tachy",
+                "agitat",
+                "warm",
+                "sweat",
+                "hot"
+              ]
+            },
+            {
+              "point": "Underactive: cold, slow pulse, slow breathing, drowsy",
+              "accept": [
+                "cold",
+                "slow",
+                "brady",
+                "drowsy",
+                "hypotherm"
+              ]
+            },
+            {
+              "point": "Adrenal crisis: weakness, vomiting, abdominal pain, unexpected shock",
+              "accept": [
+                "weak",
+                "vomit",
+                "abdominal",
+                "shock",
+                "unresponsive to"
+              ]
+            },
+            {
+              "point": "Long-term steroids, or stopping them, is the key history",
+              "accept": [
+                "steroid",
+                "prednis",
+                "long-term",
+                "stopped",
+                "medication"
+              ]
+            },
+            {
+              "point": "They need more steroid when stressed, not less",
+              "accept": [
+                "more",
+                "increase",
+                "not less",
+                "stress"
+              ]
+            },
+            {
+              "point": "Care is supportive and transport",
+              "accept": [
+                "support",
+                "airway",
+                "oxygen",
+                "temperature",
+                "transport"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Out of tablets",
+          "dispatch": "Medic 4 — 47-year-old female, weakness and vomiting, two days.",
+          "body": "She was weak, nauseated, complaining of stomach ache, and her pressure was low in a way that did not match anything the crew could find.\n\nThe medication list had a steroid on it, prescribed long term, and she mentioned in passing that the pharmacy had been out of them for about a week.\n\nThe crew did not diagnose anything. They said the word steroid at handover, and that was enough."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the thyrotoxic and myxoedema crisis presentations and the adrenal crisis features against the current text. No steroid names or doses are stated; steroid administration is outside EMT scope."
     }
   ]
 }

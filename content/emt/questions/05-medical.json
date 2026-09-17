@@ -1202,6 +1202,606 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-01-Q001",
+      "concept_id": "EMT-05-03-01",
+      "style": "recall",
+      "stem": "What is insulin's role?",
+      "options": [
+        {
+          "text": "It is the fuel cells burn",
+          "rationale": "Glucose is the fuel; insulin is not burned."
+        },
+        {
+          "text": "It lets glucose move from the blood into cells",
+          "rationale": "Correct. Insulin is the key that opens the cell to glucose."
+        },
+        {
+          "text": "It converts protein into glucose",
+          "rationale": "That is not insulin's described role here."
+        },
+        {
+          "text": "It removes glucose from the body in urine",
+          "rationale": "Glucose in urine is a consequence of hyperglycaemia, not insulin's job."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-01-Q002",
+      "concept_id": "EMT-05-03-01",
+      "style": "application",
+      "stem": "A patient's blood glucose is very high. What is happening at cell level?",
+      "options": [
+        {
+          "text": "Cells have abundant fuel and are working well",
+          "rationale": "High blood glucose does not mean the fuel has reached the cells."
+        },
+        {
+          "text": "Glucose is stuck outside the cells, which are effectively starving",
+          "rationale": "Correct. Full tank, no way to reach the engine."
+        },
+        {
+          "text": "Cells are producing excess insulin",
+          "rationale": "Hyperglycaemia reflects too little insulin effect, not too much."
+        },
+        {
+          "text": "Glucose is being stored normally in the brain",
+          "rationale": "The brain stores very little fuel at any time."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-01-Q003",
+      "concept_id": "EMT-05-03-01",
+      "style": "recall",
+      "stem": "Why do blood sugar problems present as neurological problems?",
+      "options": [
+        {
+          "text": "Because glucose is only used by the brain",
+          "rationale": "Every cell uses glucose; the brain is simply most vulnerable."
+        },
+        {
+          "text": "Because the brain cannot store fuel and cannot quickly switch to another",
+          "rationale": "Correct. It feels a supply problem before anywhere else does."
+        },
+        {
+          "text": "Because insulin acts directly on nerve tissue",
+          "rationale": "That is not the mechanism described."
+        },
+        {
+          "text": "Because diabetes damages nerves over time",
+          "rationale": "True of chronic disease, but not why acute dysglycaemia alters mental status."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-01-Q004",
+      "concept_id": "EMT-05-03-01",
+      "style": "scenario",
+      "stem": "A diabetic patient has had influenza for three days. Which direction would you expect the glucose to move?",
+      "options": [
+        {
+          "text": "Down, because illness reduces appetite",
+          "rationale": "Reduced intake pulls one way, but illness raises demand more."
+        },
+        {
+          "text": "Up, because illness and infection raise blood glucose",
+          "rationale": "Correct. Being unwell commonly drives glucose higher, not lower."
+        },
+        {
+          "text": "It will be unchanged",
+          "rationale": "Intercurrent illness rarely leaves glucose unchanged."
+        },
+        {
+          "text": "It cannot be predicted at all, so no meter is needed",
+          "rationale": "A meter is always used, but illness does have an expected direction."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02-Q001",
+      "concept_id": "EMT-05-03-02",
+      "style": "recall",
+      "stem": "What is the classic skin finding in hypoglycemia?",
+      "options": [
+        {
+          "text": "Warm, dry and flushed",
+          "rationale": "That is the hyperglycemic picture."
+        },
+        {
+          "text": "Cool, pale and sweaty",
+          "rationale": "Correct. Cool sweaty skin with confusion in a diabetic is the combination to know."
+        },
+        {
+          "text": "Hot and dry with no sweating",
+          "rationale": "This describes a heat emergency, not hypoglycemia."
+        },
+        {
+          "text": "Mottled and cold peripherally only",
+          "rationale": "Not the characteristic finding described here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02-Q002",
+      "concept_id": "EMT-05-03-02",
+      "style": "recall",
+      "stem": "What must be true before oral glucose is given?",
+      "options": [
+        {
+          "text": "The patient must have a known diabetes diagnosis",
+          "rationale": "A diagnosis is not the requirement; airway protection is."
+        },
+        {
+          "text": "The patient must be awake enough to swallow and protect their airway",
+          "rationale": "Correct. That is the single condition attached."
+        },
+        {
+          "text": "Medical direction must be contacted first",
+          "rationale": "Contact requirements vary; airway protection is the universal condition."
+        },
+        {
+          "text": "Blood glucose must be below a fixed national threshold",
+          "rationale": "Thresholds are protocol-specific; the airway requirement is not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02-Q003",
+      "concept_id": "EMT-05-03-02",
+      "style": "application",
+      "stem": "A hypoglycemic patient is unresponsive. What is the correct action regarding oral glucose?",
+      "options": [
+        {
+          "text": "Place gel between the cheek and gum anyway",
+          "rationale": "This is aspiration into the lungs, not treatment."
+        },
+        {
+          "text": "Withhold it; manage the airway, transport, and seek advanced-level intervention",
+          "rationale": "Correct. Nothing goes in the mouth of a patient who cannot protect the airway."
+        },
+        {
+          "text": "Dilute it in water and give it slowly",
+          "rationale": "Liquid is worse, not better, in an unprotected airway."
+        },
+        {
+          "text": "Put sugar under the tongue",
+          "rationale": "Still an unprotected airway, still aspiration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02-Q004",
+      "concept_id": "EMT-05-03-02",
+      "style": "application",
+      "stem": "A combative patient is sweating heavily on a cold night with no injury. What should you do?",
+      "options": [
+        {
+          "text": "Assist police with restraint and transport to custody",
+          "rationale": "Combativeness with diaphoresis is a metabolic presentation until disproved."
+        },
+        {
+          "text": "Check a blood glucose",
+          "rationale": "Correct. This is exactly the patient whose low sugar gets missed."
+        },
+        {
+          "text": "Assume intoxication and wait for them to calm",
+          "rationale": "Waiting on a starving brain causes harm."
+        },
+        {
+          "text": "Request a psychiatric evaluation on scene",
+          "rationale": "Not before a reversible physical cause is excluded."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02-Q005",
+      "concept_id": "EMT-05-03-02",
+      "style": "recall",
+      "stem": "Why is hypoglycemia considered more time-critical than hyperglycemia?",
+      "options": [
+        {
+          "text": "Because it is more common",
+          "rationale": "Frequency is not the reason."
+        },
+        {
+          "text": "Because the brain is being deprived of fuel immediately",
+          "rationale": "Correct. A high sugar builds over days; a low one starves the brain now."
+        },
+        {
+          "text": "Because it always causes a seizure",
+          "rationale": "It can, but that is not the reason for urgency."
+        },
+        {
+          "text": "Because it cannot be treated in the field",
+          "rationale": "It often can be, which is part of why finding it matters."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-02-Q006",
+      "concept_id": "EMT-05-03-02",
+      "style": "scenario",
+      "stem": "A patient improves dramatically after oral glucose and wants to stay home. What is the concern?",
+      "options": [
+        {
+          "text": "None; the problem is resolved",
+          "rationale": "The sugar is corrected but the reason it fell has not been established."
+        },
+        {
+          "text": "The cause of the episode is unknown and may recur",
+          "rationale": "Correct. Improvement treats the number, not the reason behind it."
+        },
+        {
+          "text": "Oral glucose wears off within a minute",
+          "rationale": "It does not wear off that fast, but the underlying cause persists."
+        },
+        {
+          "text": "The patient must be transported regardless of any refusal",
+          "rationale": "Refusals are the patient's right; the concern is making sure it is informed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-03-Q001",
+      "concept_id": "EMT-05-03-03",
+      "style": "recall",
+      "stem": "Over what timeframe does a hyperglycemic crisis typically develop?",
+      "options": [
+        {
+          "text": "Seconds to minutes",
+          "rationale": "That is far too fast even for hypoglycemia."
+        },
+        {
+          "text": "Hours to days",
+          "rationale": "Correct. The patient has usually been unwell for a while before the call."
+        },
+        {
+          "text": "Minutes to an hour",
+          "rationale": "That is the hypoglycemic timeframe."
+        },
+        {
+          "text": "Weeks to months",
+          "rationale": "Too slow for an acute crisis presentation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-03-Q002",
+      "concept_id": "EMT-05-03-03",
+      "style": "recall",
+      "stem": "What causes the deep, sighing respirations seen in diabetic ketoacidosis?",
+      "options": [
+        {
+          "text": "Airway obstruction from swelling",
+          "rationale": "There is no obstruction in DKA."
+        },
+        {
+          "text": "The body blowing off acid to compensate for metabolic acidosis",
+          "rationale": "Correct. It is compensation, not a primary breathing problem."
+        },
+        {
+          "text": "Fluid in the lungs from heart failure",
+          "rationale": "DKA respirations are not caused by pulmonary oedema."
+        },
+        {
+          "text": "Panic and anxiety about being unwell",
+          "rationale": "The pattern is metabolic, not psychological."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-03-Q003",
+      "concept_id": "EMT-05-03-03",
+      "style": "recall",
+      "stem": "What distinguishes hyperosmolar hyperglycemic state from diabetic ketoacidosis?",
+      "options": [
+        {
+          "text": "HHS occurs only in children",
+          "rationale": "HHS occurs predominantly in older patients with type 2 diabetes."
+        },
+        {
+          "text": "HHS has extreme glucose and dehydration but without significant ketones and acid",
+          "rationale": "Correct. Enough insulin activity remains to prevent fat being burned."
+        },
+        {
+          "text": "HHS develops faster than DKA",
+          "rationale": "HHS develops more slowly, not faster."
+        },
+        {
+          "text": "HHS has no dehydration",
+          "rationale": "Dehydration in HHS is typically profound."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-03-Q004",
+      "concept_id": "EMT-05-03-03",
+      "style": "application",
+      "stem": "Why are hyperglycemic patients so dehydrated?",
+      "options": [
+        {
+          "text": "Because they stop drinking when confused",
+          "rationale": "Reduced intake contributes but is not the mechanism."
+        },
+        {
+          "text": "Because glucose spilled into the urine drags water out with it",
+          "rationale": "Correct. Osmotic diuresis is the mechanism behind the polyuria and thirst."
+        },
+        {
+          "text": "Because they sweat excessively",
+          "rationale": "Their skin is characteristically dry."
+        },
+        {
+          "text": "Because they vomit continuously",
+          "rationale": "Vomiting may occur but is not the primary mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-03-Q005",
+      "concept_id": "EMT-05-03-03",
+      "style": "application",
+      "stem": "A DKA patient is breathing deeply and rapidly. What is the appropriate response?",
+      "options": [
+        {
+          "text": "Coach the patient to slow their breathing down",
+          "rationale": "Slowing that breathing removes their compensation for the acidosis."
+        },
+        {
+          "text": "Support the airway and breathing, give oxygen as indicated, and transport",
+          "rationale": "Correct. The pattern is compensation and must not be suppressed."
+        },
+        {
+          "text": "Apply a paper bag to correct hyperventilation",
+          "rationale": "This is not hyperventilation syndrome and the intervention is harmful."
+        },
+        {
+          "text": "Withhold oxygen since the patient is breathing hard",
+          "rationale": "Hard breathing is not a reason to withhold oxygen."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-03-Q006",
+      "concept_id": "EMT-05-03-03",
+      "style": "scenario",
+      "stem": "What are the skin findings in hyperglycemia?",
+      "options": [
+        {
+          "text": "Cool, pale and sweaty",
+          "rationale": "That is the hypoglycemic picture."
+        },
+        {
+          "text": "Warm, dry and flushed",
+          "rationale": "Correct. It is the mirror image of hypoglycemia."
+        },
+        {
+          "text": "Mottled and cyanotic",
+          "rationale": "Not characteristic of hyperglycemia."
+        },
+        {
+          "text": "Normal in every case",
+          "rationale": "The skin findings are a recognised part of the picture."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-04-Q001",
+      "concept_id": "EMT-05-03-04",
+      "style": "recall",
+      "stem": "How does a thyroid crisis from an overactive thyroid present?",
+      "options": [
+        {
+          "text": "Cold, slow and drowsy",
+          "rationale": "That is the underactive presentation."
+        },
+        {
+          "text": "Fever, very fast heart rate, agitation and warm sweaty skin",
+          "rationale": "Correct. Everything runs fast and hot."
+        },
+        {
+          "text": "Low blood sugar with sweating",
+          "rationale": "That is hypoglycemia."
+        },
+        {
+          "text": "Deep sighing respirations with fruity breath",
+          "rationale": "That is diabetic ketoacidosis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-04-Q002",
+      "concept_id": "EMT-05-03-04",
+      "style": "application",
+      "stem": "A patient on long-term steroids ran out a week ago and now has weakness, vomiting and unexplained shock. What should you suspect?",
+      "options": [
+        {
+          "text": "A gastrointestinal infection",
+          "rationale": "Possible, but it does not explain shock in a steroid-dependent patient."
+        },
+        {
+          "text": "An adrenal crisis",
+          "rationale": "Correct. Stopping long-term steroids abruptly is a classic precipitant."
+        },
+        {
+          "text": "A thyroid crisis",
+          "rationale": "Thyroid crises do not present this way."
+        },
+        {
+          "text": "Hypoglycemia alone",
+          "rationale": "Would not by itself explain this picture, though a glucose is still checked."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-04-Q003",
+      "concept_id": "EMT-05-03-04",
+      "style": "recall",
+      "stem": "A patient on long-term steroids becomes seriously unwell. What is true about their steroid requirement?",
+      "options": [
+        {
+          "text": "They need less steroid while ill",
+          "rationale": "The requirement rises under stress, it does not fall."
+        },
+        {
+          "text": "They need more steroid, not less, and stopping abruptly is dangerous",
+          "rationale": "Correct. This is the reason the medication history matters so much."
+        },
+        {
+          "text": "Steroids should be withheld until hospital assessment",
+          "rationale": "Withholding is what precipitates the crisis."
+        },
+        {
+          "text": "The steroid is irrelevant to an acute illness",
+          "rationale": "It is one of the most relevant items on the list."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-04-Q004",
+      "concept_id": "EMT-05-03-04",
+      "style": "scenario",
+      "stem": "What is the EMT's role in a suspected endocrine emergency?",
+      "options": [
+        {
+          "text": "Naming the specific disorder before transport",
+          "rationale": "Field diagnosis is neither expected nor possible here."
+        },
+        {
+          "text": "Supportive care, temperature management, transport, and reporting the medication history",
+          "rationale": "Correct. Saying the word steroid at handover is the substantive contribution."
+        },
+        {
+          "text": "Withholding oxygen until the cause is established",
+          "rationale": "Oxygen is given as indicated, regardless of cause."
+        },
+        {
+          "text": "Administering steroid replacement on scene",
+          "rationale": "That is outside EMT scope."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
