@@ -1,0 +1,807 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-08",
+  "tier": "emt",
+  "number": 8,
+  "title": "EMS Operations",
+  "short_title": "Operations",
+  "domain_weighting": {
+    "OPS": 100
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [
+    {
+      "id": "EMT-08-01",
+      "title": "Ambulance operations",
+      "concepts": [
+        "EMT-08-01-01",
+        "EMT-08-01-02",
+        "EMT-08-01-03",
+        "EMT-08-01-04",
+        "EMT-08-01-05"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-01",
+      "title": "The phases of an ambulance call",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-01-02",
+        "EMT-08-01-04",
+        "EMT-03-01-01"
+      ],
+      "key_points": [
+        "A call has phases that begin before the tones and end after you are back in quarters",
+        "Preparation is the phase most often skipped and the one that decides the others",
+        "Dispatch gives you the location, the nature, and often information you should act on before arrival",
+        "En route is the time to plan: roles, equipment, hazards and what you expect to find",
+        "Arrival begins with scene size-up, not with patient contact",
+        "Patient care, then packaging, then transport, with the destination decision made deliberately",
+        "Transfer of care means a verbal handover to someone of equal or higher training, and it is not complete until they accept it",
+        "Post-run is a real phase: cleaning, disinfection, restocking, refuelling and completing the report",
+        "The unit is not available again until it is genuinely ready, and saying so is part of the job",
+        "Every phase has a failure mode, and most in-service failures trace back to preparation or post-run"
+      ],
+      "misconceptions": [
+        "Treating the call as beginning at the tones",
+        "Skipping size-up and walking straight to the patient",
+        "Leaving a patient without a verbal handover",
+        "Marking available before the unit is restocked"
+      ],
+      "exam_favorites": [
+        "Preparation decides everything",
+        "Transfer of care is a handover",
+        "Post-run is a phase"
+      ],
+      "modes": {
+        "read": {
+          "plain": "It helps to think of a call as having phases, because each one has its own job and its own characteristic failure.\n\nPreparation comes first, and it happens long before the tones. The vehicle checked, the equipment present and working, the oxygen full, the batteries charged, you fed and rested and knowing where things are. This is the phase people skip, and it is the phase that decides how all the others go. Everything you discover at three in the morning that is missing was missing at the start of the shift as well.\n\nDispatch gives you a location, a nature, and often more than people use. Listen properly. There is frequently information in there that should change something before you arrive — the number of patients, a hazard, a weapon mentioned, a location you know.\n\nEn route is planning time, and it is underused. Who is taking the patient and who is driving? What are you bringing in? What do you expect to find and what would change that? Is there a hazard? Two minutes of this on the way makes the first two minutes on scene dramatically better.\n\nArrival begins with size-up, not with patient contact. Scene safe, hazards, number of patients, mechanism, additional resources. Walking straight to the patient is how crews get hurt and how second patients get missed.\n\nThen patient care, then packaging, then transport, with the destination chosen deliberately — by patient need, protocol and capability, not by habit.\n\nTransfer of care is a phase in its own right and it is a frequent failure point. It means giving a verbal handover to someone of equal or higher training, and it is not complete until they have accepted the patient. Leaving someone on a bed in a corridor and putting a form in a tray is not transfer of care; in many systems it is abandonment. Say it out loud, say the important thing first, and make sure the person you told is the person taking over.\n\nPost-run is a real phase with real work in it: cleaning, disinfection, restocking, refuelling, completing the report, and getting the crew ready for the next one. This phase gets rushed because the call feels over, and that is exactly how the next crew ends up short of something.\n\nAnd the rule that ties it together: the unit is not available until it is genuinely ready. There is real pressure to mark available quickly, and resisting that when you are not actually ready is part of the job rather than a failure to do it.",
+          "standard": "EMS responses comprise sequential phases, each with distinct objectives and characteristic failure modes. Preparation precedes dispatch and comprises vehicle inspection, equipment verification and function testing, consumable stocking, and provider readiness; deficiencies identified during a call originate in this phase. Dispatch provides location, nature and frequently additional actionable information including patient numbers, hazards and weapon involvement, warranting attentive receipt. The en route phase permits role assignment, equipment selection, hazard anticipation and formulation of expectations. Arrival commences with scene size-up addressing safety, hazards, patient count, mechanism and resource requirements, preceding patient contact; omission is associated with provider injury and missed additional patients. Subsequent phases comprise patient assessment and care, packaging, and transport with destination selected by patient need, protocol and facility capability. Transfer of care requires verbal handover to a provider of equal or higher training and is incomplete until acceptance; documentation alone without verbal transfer may constitute abandonment. The post-run phase comprises decontamination, disinfection, restocking, refuelling, report completion and crew readiness, and is subject to compression owing to perceived completion. Unit availability should be declared only upon genuine readiness notwithstanding operational pressure."
+        },
+        "eli_new": {
+          "analogy": "Everything you find missing at three in the morning was missing at the start of the shift too. Preparation is the phase that decides every other one.",
+          "body": "Transfer of care is not finished when you put the form in the tray. It is finished when a person of equal or higher training has heard your handover and accepted the patient."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk through the phases of an ambulance call and name each phase's failure mode.",
+          "must_hit": [
+            {
+              "point": "Preparation happens before the tones and decides the rest",
+              "accept": [
+                "preparation",
+                "before",
+                "check",
+                "equipment",
+                "shift"
+              ]
+            },
+            {
+              "point": "Dispatch often carries information that should change something",
+              "accept": [
+                "dispatch",
+                "information",
+                "hazard",
+                "number",
+                "listen"
+              ]
+            },
+            {
+              "point": "En route is planning time: roles, equipment, hazards",
+              "accept": [
+                "en route",
+                "plan",
+                "role",
+                "equipment",
+                "expect"
+              ]
+            },
+            {
+              "point": "Arrival begins with size-up, not patient contact",
+              "accept": [
+                "size-up",
+                "scene",
+                "safe",
+                "before",
+                "patient contact"
+              ]
+            },
+            {
+              "point": "Destination is chosen by need, protocol and capability",
+              "accept": [
+                "destination",
+                "need",
+                "protocol",
+                "capability",
+                "deliberate"
+              ]
+            },
+            {
+              "point": "Transfer of care is a verbal handover to equal or higher training",
+              "accept": [
+                "transfer",
+                "verbal",
+                "handover",
+                "equal",
+                "higher",
+                "accept"
+              ]
+            },
+            {
+              "point": "A form in a tray is not transfer of care",
+              "accept": [
+                "form",
+                "tray",
+                "abandon",
+                "not",
+                "documentation"
+              ]
+            },
+            {
+              "point": "Post-run is a phase and the unit is not available until ready",
+              "accept": [
+                "post-run",
+                "clean",
+                "restock",
+                "available",
+                "ready"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Available",
+          "dispatch": "Medic 4 — clearing the hospital, dispatcher asking for status.",
+          "body": "There was pressure on and they were being asked to go available before the vehicle had been touched.\n\nThe officer said they would be available in six minutes, and listed what still needed doing.\n\nSix minutes later they took a call that needed two of the things on that list."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the phase breakdown and transfer of care requirements against the current text and your local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-02",
+      "title": "Daily readiness and vehicle checks",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-01-01",
+        "EMT-02-03-01"
+      ],
+      "key_points": [
+        "Check the vehicle and the equipment at the start of every shift, without exception",
+        "A check is not a glance — things are tested, not merely observed to be present",
+        "Test what has to work: suction, oxygen flow, batteries, lights, the stretcher's locks",
+        "Check quantities and check expiry dates, because both fail silently",
+        "Check the vehicle itself: fuel, fluids, tyres, lights, brakes and the warning devices",
+        "Use the checklist your service provides rather than your memory, which will skip the same item every time",
+        "Fix or report anything found, and document it — an unreported fault is a fault nobody fixes",
+        "Know where everything is, because in the dark you will find things by memory rather than by looking",
+        "The previous crew may have been busy, so assume nothing about what was restocked",
+        "The oxygen cylinder is the classic failure: full at the start of the shift is not full now"
+      ],
+      "misconceptions": [
+        "Looking at equipment rather than testing it",
+        "Trusting that the previous crew restocked",
+        "Skipping expiry dates",
+        "Finding a fault and not reporting it"
+      ],
+      "exam_favorites": [
+        "Test, do not glance",
+        "Expiry dates",
+        "Know where things are"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Check the vehicle and the equipment at the start of every shift. Every shift, not most shifts, and not only when you have time — because the shift where you skip it is statistically going to be the one where it matters.\n\nAnd understand what a check actually is. A check is not a glance along a shelf confirming that objects exist. Things get tested. Turn the suction on and listen to it pull. Open the oxygen and watch the flow. Switch the monitor on and confirm the battery is charged. Work the stretcher and hear the locks engage. Equipment that is present and broken is worse than equipment that is missing, because you will discover it at the moment you were relying on it.\n\nCheck quantities and check dates. Both fail quietly. A box with two left in it looks the same as a full one from a distance, and an expired item looks exactly like a current one. Those are the two things a quick look will never catch, which is precisely why they are on the list.\n\nCheck the vehicle as a vehicle, not just as a box of equipment. Fuel, fluids, tyres, lights, brakes, wipers, and the warning lights and siren. The clinical kit is useless in a vehicle that will not get you there.\n\nUse the checklist your service provides. Not because your memory is bad, but because memory skips reliably — people miss the same item every time and never notice, and a written list is the only thing that catches it.\n\nAnything you find, fix it or report it, and document that you did. A fault that is noticed and not reported is a fault nobody fixes, and it will be found again by the next crew under worse conditions.\n\nThere is a second purpose to the check that people miss. Doing it teaches you where everything is. On a bad call in the dark you will reach for things rather than search for them, and that only works if your hands already know the layout. Crews who check properly are faster on scene, and that is not a coincidence.\n\nAssume nothing about the previous crew. They may have had a difficult night and run out of time. That is not a criticism of them; it is the reason the check exists.\n\nAnd know the classic failure, which is oxygen. A cylinder that was full at the start of your last shift is not full now, and a cylinder someone used and put back looks identical to a full one. Read the gauge. Every time.",
+          "standard": "Vehicle and equipment inspection is performed at the commencement of every shift without exception. Inspection comprises functional testing rather than visual confirmation of presence: suction generation, oxygen flow, battery charge state, warning device operation and stretcher locking mechanisms are tested in operation, as present but non-functional equipment presents greater hazard than absent equipment. Quantity and expiry verification are required, as both fail without visible indication. Vehicle inspection addresses fuel, fluid levels, tyres, lighting, braking, wipers and emergency warning devices. The service-provided checklist should be used in preference to recall, as memory omission is systematic and unrecognised. Identified deficiencies require rectification or reporting with documentation; unreported faults persist to subsequent crews under less favourable conditions. Inspection additionally establishes equipment location familiarity, supporting retrieval by proprioception rather than search under adverse operational conditions. No assumption should be made regarding restocking by the preceding crew. Oxygen cylinder pressure constitutes a characteristic failure point, as partially depleted cylinders are visually indistinguishable from full cylinders and gauge verification is required at each inspection."
+        },
+        "eli_new": {
+          "analogy": "Equipment that is present and broken is worse than equipment that is missing, because you find out at the exact moment you were counting on it.",
+          "body": "A check tests things. Turn the suction on and listen to it. A glance along a shelf tells you objects exist, which is not the question you needed answered."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what a proper daily equipment check involves and why it matters.",
+          "must_hit": [
+            {
+              "point": "Check at the start of every shift without exception",
+              "accept": [
+                "every shift",
+                "always",
+                "start",
+                "exception",
+                "daily"
+              ]
+            },
+            {
+              "point": "Test equipment rather than glancing at it",
+              "accept": [
+                "test",
+                "not glance",
+                "function",
+                "turn on",
+                "operate"
+              ]
+            },
+            {
+              "point": "Present-but-broken is worse than missing",
+              "accept": [
+                "broken",
+                "present",
+                "worse",
+                "missing",
+                "fail"
+              ]
+            },
+            {
+              "point": "Check quantities and expiry dates",
+              "accept": [
+                "quantity",
+                "expiry",
+                "date",
+                "how many",
+                "silently"
+              ]
+            },
+            {
+              "point": "Check the vehicle: fuel, fluids, tyres, lights, brakes, warning devices",
+              "accept": [
+                "fuel",
+                "tyre",
+                "tire",
+                "brake",
+                "light",
+                "siren",
+                "fluid"
+              ]
+            },
+            {
+              "point": "Use the written checklist rather than memory",
+              "accept": [
+                "checklist",
+                "written",
+                "memory",
+                "skip",
+                "list"
+              ]
+            },
+            {
+              "point": "Report and document anything found",
+              "accept": [
+                "report",
+                "document",
+                "fix",
+                "fault",
+                "next crew"
+              ]
+            },
+            {
+              "point": "Checking teaches you where things are",
+              "accept": [
+                "where",
+                "location",
+                "dark",
+                "reach",
+                "familiar"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It read half",
+          "dispatch": "Medic 2 — start of shift, running late, vehicle handed over hot.",
+          "body": "The cylinder looked exactly the same as a full one, because they all do.\n\nSomebody read the gauge anyway, out of habit, and it read half.\n\nThe call ninety minutes later ran the whole way in on oxygen."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the vehicle and equipment check requirements against your service's own checklist and procedure."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-03",
+      "title": "Safe emergency driving",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-01-01",
+        "EMT-08-01-04"
+      ],
+      "key_points": [
+        "Lights and sirens ask other drivers for permission to proceed — they do not create right of way",
+        "Due regard means you remain responsible for driving safely regardless of your warning devices",
+        "Most people do not react to sirens the way you expect: they stop suddenly, turn in, or do not hear you at all",
+        "Modern cars are extremely well insulated, so your siren reaches far less far than you assume",
+        "Intersections are where ambulances crash — slow down, cover the brake, and make eye contact before proceeding",
+        "Clear each lane separately at an intersection rather than treating it as one decision",
+        "Speed saves very little time on most responses and costs enormously when it goes wrong",
+        "Everyone must be restrained, including the crew in the back wherever it is possible",
+        "Unsecured equipment becomes a projectile in a collision, so stow everything",
+        "A crash converts one emergency into several and removes the resource that was coming to help"
+      ],
+      "misconceptions": [
+        "Believing warning devices grant right of way",
+        "Assuming drivers can hear the siren",
+        "Treating an intersection as a single decision",
+        "Leaving equipment unsecured in the patient compartment"
+      ],
+      "exam_favorites": [
+        "Due regard",
+        "Intersections",
+        "The siren is a request"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Start with the thing that is most often misunderstood. Lights and sirens do not create right of way. They request it. They ask other drivers for permission to proceed, and permission can be refused, ignored, or simply not heard. In most jurisdictions your warning devices allow you to ask for certain exemptions, and they never relieve you of the duty to drive safely. That duty is usually called due regard, and it is the legal standard you will be measured against if anything goes wrong.\n\nSo think about what actually happens when other drivers meet you.\n\nSome stop dead in the middle of the road, which is the commonest reaction and the one that catches people out. Some panic and turn into your path. Some pull to the left when they meant to pull to the right. Some do exactly the right thing. And a substantial number never hear you at all.\n\nThat last group is larger than people assume. Modern cars are extremely well insulated, with the windows up, climate control on, and music or a phone call playing. A siren that is deafening in your cab may be barely audible in theirs until you are close enough for it to be useless. Never assume you have been heard. Assume the opposite and drive accordingly.\n\nIntersections are where ambulances crash. It is not the open road and it is not the speed on the straight; it is the junction. So build a habit there. Slow down meaningfully on approach. Cover the brake. Change the siren tone, because a changing sound is noticed where a constant one becomes background. And clear the intersection lane by lane rather than treating it as a single go or no-go decision — each lane is a separate vehicle that has to be seen to have stopped. Make eye contact where you can. A driver who has looked at you is a driver who has seen you; a driver looking at their phone has not, whatever their car is doing.\n\nOn speed: it saves very little. Over a typical response, driving considerably faster produces a difference measured in a small number of minutes, and almost never changes the outcome for the patient. The cost when it goes wrong is a collision involving your crew, your patient and members of the public. The arithmetic is not close.\n\nInside the vehicle: everyone restrained, including the crew in the back wherever the care being given allows it. And stow everything. Loose equipment in a collision becomes a projectile travelling at the speed the vehicle was travelling, and the patient compartment is full of heavy objects.\n\nThe summary that makes all of this stick: a crash turns one emergency into several, and it removes the resource that was on its way to help.",
+          "standard": "Emergency warning devices request rather than confer right of way; permission may be refused, disregarded or unperceived. In most jurisdictions warning devices permit request of specified exemptions while preserving the duty to operate safely, a standard designated due regard, which constitutes the applicable legal measure. Anticipated motorist responses include abrupt stopping within the carriageway, movement into the path of the emergency vehicle, movement in the incorrect direction, appropriate yielding, and complete failure to perceive the warning. Contemporary vehicle sound insulation, closed windows, climate control and audio substantially attenuate siren audibility, and audibility should not be assumed. Intersections constitute the predominant site of ambulance collision; risk mitigation comprises meaningful deceleration on approach, brake covering, siren tone variation as constant tones are perceptually filtered, lane-by-lane clearance rather than single-decision assessment, and eye contact confirmation. Increased response speed yields minimal time saving over typical response distances with negligible outcome effect, against substantial collision consequence. Occupant restraint applies to all persons including rear compartment personnel where patient care permits. Equipment must be secured, as unsecured objects become projectiles at vehicle velocity within a compartment containing substantial masses. Collision converts a single emergency into multiple incidents and removes the responding resource."
+        },
+        "eli_new": {
+          "analogy": "The siren is a request, not a command. Permission can be refused, and quite often it is never even heard.",
+          "body": "Clear an intersection lane by lane. It is not one decision about whether the junction is clear; it is a separate decision about each vehicle that has to have stopped."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain due regard and how to drive safely through an intersection under lights and sirens.",
+          "must_hit": [
+            {
+              "point": "Warning devices request right of way, they do not create it",
+              "accept": [
+                "request",
+                "not create",
+                "right of way",
+                "permission",
+                "ask"
+              ]
+            },
+            {
+              "point": "Due regard is the duty to drive safely regardless",
+              "accept": [
+                "due regard",
+                "safely",
+                "duty",
+                "responsible",
+                "standard"
+              ]
+            },
+            {
+              "point": "Drivers stop suddenly, turn in, or do not hear you",
+              "accept": [
+                "stop",
+                "turn",
+                "panic",
+                "hear",
+                "react"
+              ]
+            },
+            {
+              "point": "Modern cars are insulated so the siren carries less than assumed",
+              "accept": [
+                "insulat",
+                "window",
+                "music",
+                "hear",
+                "assume"
+              ]
+            },
+            {
+              "point": "Intersections are where ambulances crash",
+              "accept": [
+                "intersection",
+                "junction",
+                "crash",
+                "collision",
+                "where"
+              ]
+            },
+            {
+              "point": "Slow down, cover the brake, change the siren tone, make eye contact",
+              "accept": [
+                "slow",
+                "brake",
+                "tone",
+                "eye contact",
+                "approach"
+              ]
+            },
+            {
+              "point": "Clear each lane separately",
+              "accept": [
+                "lane",
+                "separate",
+                "one at a time",
+                "each",
+                "individually"
+              ]
+            },
+            {
+              "point": "Restrain everyone and stow all equipment",
+              "accept": [
+                "restrain",
+                "belt",
+                "secure",
+                "stow",
+                "projectile"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She never heard it",
+          "dispatch": "Medic 7 — responding, approaching a green light at speed.",
+          "body": "The light was green and technically nothing was required of them at all.\n\nThe driver slowed anyway and covered the brake, out of habit rather than for a reason.\n\nThe car that came through the red never braked, and the driver was still looking straight ahead as she passed."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm emergency driving law, due regard and the use of warning devices against your local law and your service's driving policy, which vary considerably by jurisdiction."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-04",
+      "title": "Scene positioning and roadway safety",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-01-03"
+      ],
+      "related": [
+        "EMT-08-01-03",
+        "EMT-08-03-01",
+        "EMT-01-02-01"
+      ],
+      "key_points": [
+        "Roadway incidents are among the most dangerous things EMS does, and responders are struck and killed doing them",
+        "Park to protect the working area, not for your own convenience in leaving",
+        "Position upwind and uphill of any potential hazard, and beyond the scene where fuel or fluids may spread",
+        "Use the vehicle as a physical barrier between traffic and the people working",
+        "Leave warning lights on, but be aware that too many lights can confuse and attract drivers",
+        "Wear high-visibility clothing on every roadway incident, without exception",
+        "Never turn your back on traffic, and work facing oncoming vehicles where possible",
+        "Get the patient out of the traffic lane as soon as it is safe to do so",
+        "Load from the protected side, and keep everyone out of the lane while doing it",
+        "Approaching traffic includes drivers who are distracted, impaired or looking at the incident rather than the road"
+      ],
+      "misconceptions": [
+        "Parking for convenience of departure",
+        "Working with your back to traffic",
+        "Skipping high-visibility clothing for a quick job",
+        "Loading from the traffic side"
+      ],
+      "exam_favorites": [
+        "Park to protect",
+        "Never turn your back",
+        "High-visibility every time"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Roadway incidents are among the most dangerous things EMS does. Responders are struck and killed on roads, doing ordinary work, on calls that were not otherwise remarkable. It is worth treating with the seriousness it deserves rather than the routine it feels like.\n\nStart with parking, and the principle that governs it: park to protect the working area, not for your own convenience in leaving. The instinct is to position for a clean exit, and that instinct puts the vehicle in the wrong place.\n\nWhat you want is the vehicle placed so that it shields the space where people will be working. Angle it so that if something strikes it, it is pushed away from the working area rather than into it. Your service will have a policy on this and it will be specific about angles and distances — learn it.\n\nPosition upwind and uphill of any potential hazard, so smoke, vapour or fumes blow away from you rather than over you, and so spilled fuel does not run towards where you are standing. And park beyond the scene rather than short of it where fluids may be spreading.\n\nLeave warning lights on, with one caveat worth knowing: too many lights can confuse approaching drivers, and there is a well-documented phenomenon where drivers steer towards the thing they are looking at. Follow your service's guidance on which lights to leave running, because more is not automatically better.\n\nWear high-visibility clothing on every roadway incident. Every one, including the quick ones, including in daylight, including when you are only going to be there two minutes. The calls where people get hit are precisely the ones that felt too brief to bother.\n\nNever turn your back on traffic. Work facing oncoming vehicles where you can, and if you must turn away, have someone else watching. This is a habit you build deliberately, because the natural thing is to focus entirely on the patient and forget that there is a road behind you.\n\nGet the patient out of the traffic lane as soon as it is safe to do so. Every minute spent working in a live lane is exposure for everybody, and the assessment you could do at the roadside can almost always be done in the ambulance instead.\n\nLoad from the protected side, with everyone out of the lane while you do it. That moment — stretcher out, doors open, several people concentrating on lifting — is one of the most exposed of the whole call.\n\nAnd hold on to the honest picture of approaching traffic. It contains drivers who are distracted, drivers who are impaired, drivers who are tired, and drivers who are looking directly at your incident instead of at the road. You are not being protected by anyone's attention. Assume the worst driver on that road is about to arrive, and set the scene up for them.",
+          "standard": "Roadway incidents represent a leading hazard to EMS personnel, with responder fatalities from vehicle strikes occurring during routine operations. Vehicle positioning should prioritise protection of the working area over departure convenience, with angling such that impact displaces the vehicle away from rather than into the working space; service-specific policy defines angles and distances. Positioning should be upwind and uphill of potential hazards to direct smoke, vapour and spilled fluids away from personnel, and beyond rather than short of the incident where fluid spread is possible. Warning lights should remain operational subject to service guidance, as excessive illumination may confuse approaching drivers and target fixation directs vehicles toward illuminated objects. High-visibility apparel is required at all roadway incidents without exception, including brief daylight operations, as short-duration exposures are associated with strike events. Personnel should avoid turning away from traffic, working facing oncoming vehicles where practicable with designated observation otherwise. Patient extraction from live traffic lanes should occur as soon as safely achievable, with assessment relocated to the vehicle. Loading should occur from the protected side with all personnel clear of live lanes, this phase representing a period of maximal exposure. Approaching traffic should be presumed to include distracted, impaired, fatigued and incident-focused drivers, and scene configuration should assume the least attentive driver."
+        },
+        "eli_new": {
+          "analogy": "Assume the worst driver on that road is about to arrive, and set the scene up for them. Nobody's attention is protecting you.",
+          "body": "Park to protect the working area, not to make leaving easy. The instinct to position for a clean exit puts the vehicle in exactly the wrong place."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to set up and work safely at a roadway incident.",
+          "must_hit": [
+            {
+              "point": "Roadway incidents are among the most dangerous things EMS does",
+              "accept": [
+                "dangerous",
+                "struck",
+                "killed",
+                "roadway",
+                "hazard"
+              ]
+            },
+            {
+              "point": "Park to protect the working area, not for convenience",
+              "accept": [
+                "park",
+                "protect",
+                "working",
+                "convenience",
+                "position"
+              ]
+            },
+            {
+              "point": "Use the vehicle as a barrier, angled to deflect away",
+              "accept": [
+                "barrier",
+                "angle",
+                "shield",
+                "away",
+                "block"
+              ]
+            },
+            {
+              "point": "Position upwind and uphill, and beyond spreading fluids",
+              "accept": [
+                "upwind",
+                "uphill",
+                "beyond",
+                "fuel",
+                "fluid",
+                "vapour"
+              ]
+            },
+            {
+              "point": "Wear high-visibility clothing on every roadway incident",
+              "accept": [
+                "high-visibility",
+                "hi-vis",
+                "vest",
+                "every",
+                "daylight"
+              ]
+            },
+            {
+              "point": "Never turn your back on traffic",
+              "accept": [
+                "back",
+                "traffic",
+                "facing",
+                "watch",
+                "turn"
+              ]
+            },
+            {
+              "point": "Get the patient out of the lane as soon as it is safe",
+              "accept": [
+                "out of",
+                "lane",
+                "soon",
+                "exposure",
+                "ambulance"
+              ]
+            },
+            {
+              "point": "Load from the protected side with everyone clear of the lane",
+              "accept": [
+                "load",
+                "protected side",
+                "clear",
+                "lane",
+                "exposed"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Two minutes",
+          "dispatch": "Engine 4 — minor collision, one patient, no entrapment.",
+          "body": "It was a nothing call and somebody stepped out without their vest because it was going to take two minutes.\n\nThe officer sent them back for it and made a point of doing it in front of everyone.\n\nThe calls where people get hit are exactly the ones that felt too brief to bother."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm vehicle positioning, warning light use and roadway operations against your service's policy and local highway procedure, which are specific about angles and distances."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-05",
+      "title": "Air medical transport",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-01-04",
+        "EMT-08-04-01",
+        "EMT-06-01-01"
+      ],
+      "key_points": [
+        "Air transport is requested for time-critical patients where it meaningfully shortens definitive care time",
+        "It is not automatically faster — count the launch, flight, landing, loading and flight time honestly",
+        "Weather, aircraft availability and darkness can all make air transport unavailable, so have a ground plan",
+        "Request early if you are going to request at all, because the aircraft takes time to arrive",
+        "The landing zone must be flat, firm, clear of wires, poles, trees, loose debris and people",
+        "Wires are the principal hazard and they are extremely hard to see from the air — report them specifically",
+        "Loose material becomes a projectile in rotor wash, so clear or secure everything nearby",
+        "Nobody approaches the aircraft until a crew member signals, and then only from the front, in the pilot's view",
+        "Never approach from the rear, because the tail rotor is effectively invisible when turning",
+        "On sloping ground approach from the downhill side, where the main rotor sits higher above the ground"
+      ],
+      "misconceptions": [
+        "Requesting air transport without counting the total time honestly",
+        "Failing to report wires at the landing zone",
+        "Approaching the aircraft before being signalled",
+        "Approaching from the rear or from the uphill side"
+      ],
+      "exam_favorites": [
+        "Wires are the main hazard",
+        "Approach from the front when signalled",
+        "Downhill on a slope"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Air medical transport exists for time-critical patients where flying meaningfully shortens the time to definitive care. That is the test, and it is worth applying honestly.\n\nBecause air transport is not automatically faster. Count the whole thing: the time for the aircraft to launch, the flight to you, the landing, the handover and loading, then the flight to hospital. On a short transport to a nearby capable facility, a ground ambulance that is already on scene with the patient in it will frequently win. Ask yourself whether the aircraft genuinely shortens time to definitive care, not whether it is more impressive.\n\nAvailability is real too. Weather stops aircraft flying, and it stops them at short notice. Aircraft are often already committed elsewhere. Darkness and terrain limit some operations. So always have a ground plan, and do not let a requested aircraft become the reason a patient is still on scene twenty minutes later.\n\nAnd if you are going to request, request early. The aircraft cannot be somewhere it has not been asked to go, and cancelling later costs nothing compared with requesting late.\n\nThen the landing zone, which is your job and is where you can do real harm or real good.\n\nIt needs to be flat, firm and clear. Flat enough to land on, firm enough not to sink or throw up dust and debris, and clear of obstructions in every direction — wires, poles, trees, signs, fences, vehicles and people.\n\nWires deserve their own paragraph because they are the principal hazard in this whole activity and they are extremely hard to see from the air. Overhead power lines, telephone lines, guy wires on poles, and anything strung between two points. If there are wires anywhere near your landing zone, say so explicitly and say where they are. Do not assume the crew can see what is obvious to you from the ground.\n\nLoose material becomes a projectile. Rotor wash is far stronger than people expect and it will pick up loose debris, blankets, equipment, dust, hats, unsecured dressings and paperwork, and throw them at the aircraft and at everybody standing nearby. Clear or secure everything in the area before the aircraft arrives, including your own kit.\n\nNow the approach rules, which are simple and absolute.\n\nNobody approaches the aircraft until a crew member signals them to. Nobody. The pilot and crew control that space, and approaching without a signal is how people get hurt.\n\nWhen signalled, approach from the front, where the pilot can see you. Stay in their field of view the whole way. Never approach from the rear, because the tail rotor is turning at a speed that makes it effectively invisible and there is nothing to see until it is far too late.\n\nAnd on sloping ground, approach from the downhill side. The main rotor tilts toward the uphill side, which brings the blades lower to the ground exactly where a person walking uphill would meet them.",
+          "standard": "Air medical transport is indicated for time-critical patients where its use meaningfully reduces time to definitive care. The determination requires honest accounting of total elapsed time including aircraft launch, transit to scene, landing, patient transfer and loading, and transit to the receiving facility; ground transport frequently proves superior for short distances to capable facilities with the patient already loaded. Availability limitations include weather, which may preclude flight at short notice, prior commitment of aircraft, and darkness or terrain restrictions; a ground transport contingency should always exist and a requested aircraft should not prolong scene time. Requests should be initiated early, as cancellation carries minimal cost relative to delayed request. Landing zone requirements comprise level, firm ground clear of obstructions including wires, poles, trees, signage, fencing, vehicles and personnel. Overhead wires constitute the principal hazard and are poorly visible from the air; their presence and location require explicit communication. Rotor downwash generates projectiles from loose material, requiring clearance or securing of debris, equipment, linen and documentation prior to arrival. Approach is prohibited until signalled by a crew member. Approach occurs from the front within the pilot's field of view and is maintained throughout. Rear approach is prohibited owing to the effectively invisible rotating tail rotor. On sloping terrain approach occurs from the downhill aspect, as main rotor tilt reduces blade ground clearance on the uphill side."
+        },
+        "eli_new": {
+          "analogy": "The tail rotor is turning fast enough to be invisible. There is nothing to see and nothing to hear in time, which is why the rule is absolute rather than a matter of care.",
+          "body": "Wires are the thing that kills aircraft and they are nearly impossible to see from above. If there are any near your landing zone, say so out loud and say exactly where."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain when to request air transport and how to set up and approach a landing zone safely.",
+          "must_hit": [
+            {
+              "point": "Requested where it meaningfully shortens time to definitive care",
+              "accept": [
+                "time",
+                "definitive",
+                "critical",
+                "shorten",
+                "test"
+              ]
+            },
+            {
+              "point": "Count the whole time honestly — it is not automatically faster",
+              "accept": [
+                "launch",
+                "flight",
+                "loading",
+                "total",
+                "not faster",
+                "ground"
+              ]
+            },
+            {
+              "point": "Weather and availability can remove the option, so have a ground plan",
+              "accept": [
+                "weather",
+                "availab",
+                "ground plan",
+                "darkness",
+                "commit"
+              ]
+            },
+            {
+              "point": "Request early if at all",
+              "accept": [
+                "early",
+                "request",
+                "cancel",
+                "time",
+                "arrive"
+              ]
+            },
+            {
+              "point": "The landing zone must be flat, firm and clear",
+              "accept": [
+                "flat",
+                "firm",
+                "clear",
+                "obstruct",
+                "level"
+              ]
+            },
+            {
+              "point": "Wires are the principal hazard and must be reported specifically",
+              "accept": [
+                "wire",
+                "power line",
+                "report",
+                "hard to see",
+                "hazard"
+              ]
+            },
+            {
+              "point": "Loose material becomes a projectile in rotor wash",
+              "accept": [
+                "loose",
+                "projectile",
+                "rotor wash",
+                "secure",
+                "debris"
+              ]
+            },
+            {
+              "point": "Approach only when signalled, from the front, never the rear, downhill on a slope",
+              "accept": [
+                "signal",
+                "front",
+                "pilot",
+                "never rear",
+                "tail rotor",
+                "downhill"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Say where they are",
+          "dispatch": "Engine 8 — landing zone being established in a field beside a road.",
+          "body": "The field was flat and firm and completely clear, and somebody said so on the radio.\n\nThen they added that there was a single telephone line across the far corner, running to a farmhouse, and gave the direction.\n\nThe pilot said afterwards that they would not have seen it."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm air medical activation criteria, landing zone dimensions and approach procedures against your local protocol and the operating service's requirements. Landing zone size requirements vary by aircraft and service and are deliberately not stated here."
+    }
+  ]
+}

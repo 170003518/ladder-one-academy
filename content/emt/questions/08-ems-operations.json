@@ -1,0 +1,907 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-08",
+  "tier": "emt",
+  "questions": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-01-Q001",
+      "concept_id": "EMT-08-01-01",
+      "style": "recall",
+      "stem": "When does a call actually begin?",
+      "options": [
+        {
+          "text": "At the tones",
+          "rationale": "Preparation precedes the tones."
+        },
+        {
+          "text": "At preparation, before the tones",
+          "rationale": "Correct — and it decides how the rest goes."
+        },
+        {
+          "text": "On arrival at scene",
+          "rationale": "Far too late."
+        },
+        {
+          "text": "At patient contact",
+          "rationale": "Far too late."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-01-Q002",
+      "concept_id": "EMT-08-01-01",
+      "style": "recall",
+      "stem": "What does transfer of care require?",
+      "options": [
+        {
+          "text": "Completing the report",
+          "rationale": "Documentation alone is not transfer."
+        },
+        {
+          "text": "A verbal handover to someone of equal or higher training who accepts the patient",
+          "rationale": "Correct — a verbal handover to someone of equal or higher training who accepts the patient."
+        },
+        {
+          "text": "Placing the patient on a bed",
+          "rationale": "Not sufficient."
+        },
+        {
+          "text": "Notifying dispatch",
+          "rationale": "Not transfer of care."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-01-Q003",
+      "concept_id": "EMT-08-01-01",
+      "style": "application",
+      "stem": "What should happen during the en route phase?",
+      "options": [
+        {
+          "text": "Nothing beyond driving safely",
+          "rationale": "It is valuable planning time."
+        },
+        {
+          "text": "Assign roles, choose equipment, anticipate hazards and expectations",
+          "rationale": "Correct — assign roles, choose equipment, anticipate hazards and expectations."
+        },
+        {
+          "text": "Complete the report in advance",
+          "rationale": "Not possible or appropriate."
+        },
+        {
+          "text": "Contact the receiving hospital",
+          "rationale": "Usually later, after assessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-01-Q004",
+      "concept_id": "EMT-08-01-01",
+      "style": "application",
+      "stem": "What is the first thing that happens on arrival?",
+      "options": [
+        {
+          "text": "Patient contact",
+          "rationale": "Size-up comes first."
+        },
+        {
+          "text": "Scene size-up",
+          "rationale": "Correct — safety, hazards, patients, mechanism, resources."
+        },
+        {
+          "text": "Equipment retrieval",
+          "rationale": "After size-up."
+        },
+        {
+          "text": "Notifying dispatch of arrival",
+          "rationale": "Not the clinical first step."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-01-Q005",
+      "concept_id": "EMT-08-01-01",
+      "style": "scenario",
+      "stem": "You are pressured to go available before the vehicle is restocked. What is correct?",
+      "options": [
+        {
+          "text": "Go available and restock at the next hospital",
+          "rationale": "The next call may need what is missing."
+        },
+        {
+          "text": "Stay unavailable until the unit is genuinely ready and say what is outstanding",
+          "rationale": "Correct — stay unavailable until the unit is genuinely ready and say what is outstanding."
+        },
+        {
+          "text": "Go available and hope the call is minor",
+          "rationale": "Not a defensible decision."
+        },
+        {
+          "text": "Refuse to communicate with dispatch",
+          "rationale": "Communicate clearly instead."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-01-Q006",
+      "concept_id": "EMT-08-01-01",
+      "style": "recall",
+      "stem": "What does the post-run phase include?",
+      "options": [
+        {
+          "text": "Only completing the report",
+          "rationale": "There is considerably more to it."
+        },
+        {
+          "text": "Cleaning, disinfection, restocking, refuelling, the report and crew readiness",
+          "rationale": "Correct — cleaning, disinfection, restocking, refuelling, the report and crew readiness."
+        },
+        {
+          "text": "Returning to quarters only",
+          "rationale": "Not the whole phase."
+        },
+        {
+          "text": "Nothing, the call is over",
+          "rationale": "It is a real phase with real work."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-02-Q001",
+      "concept_id": "EMT-08-01-02",
+      "style": "recall",
+      "stem": "What does a proper equipment check involve?",
+      "options": [
+        {
+          "text": "Confirming that items are present",
+          "rationale": "Presence is not function."
+        },
+        {
+          "text": "Testing that things actually work",
+          "rationale": "Correct — turn the suction on and listen to it."
+        },
+        {
+          "text": "Checking only what was used last shift",
+          "rationale": "Everything is checked."
+        },
+        {
+          "text": "Reviewing the previous crew's checklist",
+          "rationale": "Do your own check."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-02-Q002",
+      "concept_id": "EMT-08-01-02",
+      "style": "application",
+      "stem": "Why are quantities and expiry dates specifically listed?",
+      "options": [
+        {
+          "text": "They are required for billing",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Both fail silently and a quick look will never catch them",
+          "rationale": "Correct — both fail silently and a quick look will never catch them."
+        },
+        {
+          "text": "They change most often",
+          "rationale": "Not the stated reason."
+        },
+        {
+          "text": "They are easiest to check",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-02-Q003",
+      "concept_id": "EMT-08-01-02",
+      "style": "recall",
+      "stem": "Why use the written checklist rather than memory?",
+      "options": [
+        {
+          "text": "It is required for documentation",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "Memory skips reliably — people miss the same item every time without noticing",
+          "rationale": "Correct — memory skips reliably — people miss the same item every time without noticing."
+        },
+        {
+          "text": "It is faster",
+          "rationale": "It is often slower."
+        },
+        {
+          "text": "It impresses supervisors",
+          "rationale": "Not a reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-02-Q004",
+      "concept_id": "EMT-08-01-02",
+      "style": "application",
+      "stem": "You find a fault during your check. What must happen?",
+      "options": [
+        {
+          "text": "Note it mentally and work around it",
+          "rationale": "An unreported fault is a fault nobody fixes."
+        },
+        {
+          "text": "Fix or report it, and document that you did",
+          "rationale": "Correct — fix or report it, and document that you did."
+        },
+        {
+          "text": "Tell the next crew verbally",
+          "rationale": "Insufficient."
+        },
+        {
+          "text": "Take the unit out of service regardless",
+          "rationale": "Depends on the fault; reporting is the constant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-02-Q005",
+      "concept_id": "EMT-08-01-02",
+      "style": "scenario",
+      "stem": "What is the classic equipment failure to check?",
+      "options": [
+        {
+          "text": "The stretcher's wheels",
+          "rationale": "Worth checking, not the classic."
+        },
+        {
+          "text": "The oxygen cylinder — a part-used one looks identical to a full one",
+          "rationale": "Correct — the oxygen cylinder — a part-used one looks identical to a full one."
+        },
+        {
+          "text": "The radio",
+          "rationale": "Worth checking, not the classic."
+        },
+        {
+          "text": "The suction tubing",
+          "rationale": "Worth checking, not the classic."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-02-Q006",
+      "concept_id": "EMT-08-01-02",
+      "style": "recall",
+      "stem": "What is the second benefit of doing the check properly?",
+      "options": [
+        {
+          "text": "It satisfies management requirements",
+          "rationale": "Not the clinical benefit."
+        },
+        {
+          "text": "It teaches you where everything is, so you reach rather than search",
+          "rationale": "Correct — it teaches you where everything is, so you reach rather than search."
+        },
+        {
+          "text": "It shortens the shift",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It reduces cleaning",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-03-Q001",
+      "concept_id": "EMT-08-01-03",
+      "style": "recall",
+      "stem": "What do lights and sirens actually do?",
+      "options": [
+        {
+          "text": "Create right of way",
+          "rationale": "They do not create it."
+        },
+        {
+          "text": "Request right of way, which may be refused, ignored or unheard",
+          "rationale": "Correct — request right of way, which may be refused, ignored or unheard."
+        },
+        {
+          "text": "Remove your responsibility for safe driving",
+          "rationale": "Due regard always applies."
+        },
+        {
+          "text": "Grant exemption from all traffic law",
+          "rationale": "Never the case."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-03-Q002",
+      "concept_id": "EMT-08-01-03",
+      "style": "recall",
+      "stem": "What does due regard mean?",
+      "options": [
+        {
+          "text": "Driving as fast as conditions allow",
+          "rationale": "The opposite of the standard."
+        },
+        {
+          "text": "You remain responsible for driving safely regardless of your warning devices",
+          "rationale": "Correct — you remain responsible for driving safely regardless of your warning devices."
+        },
+        {
+          "text": "Following the vehicle ahead closely",
+          "rationale": "Not the meaning."
+        },
+        {
+          "text": "Using warning devices at all times",
+          "rationale": "Not the meaning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-03-Q003",
+      "concept_id": "EMT-08-01-03",
+      "style": "application",
+      "stem": "How should you clear an intersection?",
+      "options": [
+        {
+          "text": "As a single go or no-go decision",
+          "rationale": "Each lane is a separate decision."
+        },
+        {
+          "text": "Lane by lane, confirming each vehicle has stopped",
+          "rationale": "Correct — lane by lane, confirming each vehicle has stopped."
+        },
+        {
+          "text": "By relying on the siren to clear it",
+          "rationale": "The siren may not be heard."
+        },
+        {
+          "text": "At speed, to minimise exposure time",
+          "rationale": "That increases risk substantially."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-03-Q004",
+      "concept_id": "EMT-08-01-03",
+      "style": "application",
+      "stem": "Why change the siren tone on approach to an intersection?",
+      "options": [
+        {
+          "text": "It is louder",
+          "rationale": "Tone change is about attention, not volume."
+        },
+        {
+          "text": "A changing sound is noticed where a constant one becomes background",
+          "rationale": "Correct — a changing sound is noticed where a constant one becomes background."
+        },
+        {
+          "text": "It is required by law",
+          "rationale": "Not the stated reason."
+        },
+        {
+          "text": "It carries further",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-03-Q005",
+      "concept_id": "EMT-08-01-03",
+      "style": "scenario",
+      "stem": "Why should equipment be stowed in the patient compartment?",
+      "options": [
+        {
+          "text": "To keep the vehicle tidy",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "In a collision loose equipment becomes a projectile at vehicle speed",
+          "rationale": "Correct — in a collision loose equipment becomes a projectile at vehicle speed."
+        },
+        {
+          "text": "To speed up cleaning",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To prevent theft",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-03-Q006",
+      "concept_id": "EMT-08-01-03",
+      "style": "recall",
+      "stem": "What does high-speed response typically achieve?",
+      "options": [
+        {
+          "text": "A large reduction in response time",
+          "rationale": "It saves very little."
+        },
+        {
+          "text": "Very little time saved, at substantially increased risk",
+          "rationale": "Correct — very little time saved, at substantially increased risk."
+        },
+        {
+          "text": "Better patient outcomes in most cases",
+          "rationale": "Almost never changes outcome."
+        },
+        {
+          "text": "Compliance with protocol",
+          "rationale": "Not a protocol requirement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-04-Q001",
+      "concept_id": "EMT-08-01-04",
+      "style": "recall",
+      "stem": "What governs where you park at a roadway incident?",
+      "options": [
+        {
+          "text": "Convenience of leaving afterwards",
+          "rationale": "That instinct puts the vehicle in the wrong place."
+        },
+        {
+          "text": "Protection of the working area",
+          "rationale": "Correct — protection of the working area."
+        },
+        {
+          "text": "Proximity to the patient",
+          "rationale": "Protection comes first."
+        },
+        {
+          "text": "Visibility to dispatch",
+          "rationale": "Not a consideration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-04-Q002",
+      "concept_id": "EMT-08-01-04",
+      "style": "recall",
+      "stem": "Where should you position relative to a potential hazard?",
+      "options": [
+        {
+          "text": "Downwind and downhill",
+          "rationale": "The opposite."
+        },
+        {
+          "text": "Upwind and uphill, and beyond any spreading fluid",
+          "rationale": "Correct — upwind and uphill, and beyond any spreading fluid."
+        },
+        {
+          "text": "Directly alongside for access",
+          "rationale": "Not a safe position."
+        },
+        {
+          "text": "As close as possible",
+          "rationale": "Proximity is not the priority."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-04-Q003",
+      "concept_id": "EMT-08-01-04",
+      "style": "application",
+      "stem": "When is high-visibility clothing required?",
+      "options": [
+        {
+          "text": "At night only",
+          "rationale": "Every roadway incident, including daylight."
+        },
+        {
+          "text": "On every roadway incident without exception",
+          "rationale": "Correct — on every roadway incident without exception."
+        },
+        {
+          "text": "On motorway incidents only",
+          "rationale": "All roadways."
+        },
+        {
+          "text": "When the incident will take more than ten minutes",
+          "rationale": "Duration is irrelevant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-04-Q004",
+      "concept_id": "EMT-08-01-04",
+      "style": "application",
+      "stem": "Why does more warning lighting not automatically help?",
+      "options": [
+        {
+          "text": "It drains the battery",
+          "rationale": "Not the safety reason."
+        },
+        {
+          "text": "Too many lights can confuse drivers, who steer towards what they are looking at",
+          "rationale": "Correct — too many lights can confuse drivers, who steer towards what they are looking at."
+        },
+        {
+          "text": "It obscures the scene",
+          "rationale": "Not the described effect."
+        },
+        {
+          "text": "It is prohibited at night",
+          "rationale": "Not prohibited."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-04-Q005",
+      "concept_id": "EMT-08-01-04",
+      "style": "scenario",
+      "stem": "Which part of the call is most exposed on a roadway?",
+      "options": [
+        {
+          "text": "The initial approach",
+          "rationale": "Exposed, but not the most."
+        },
+        {
+          "text": "Loading — stretcher out, doors open, several people concentrating on lifting",
+          "rationale": "Correct — loading — stretcher out, doors open, several people concentrating on lifting."
+        },
+        {
+          "text": "The size-up",
+          "rationale": "Less exposed than loading."
+        },
+        {
+          "text": "Documentation",
+          "rationale": "Done in the vehicle."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-04-Q006",
+      "concept_id": "EMT-08-01-04",
+      "style": "recall",
+      "stem": "What assumption should you make about approaching traffic?",
+      "options": [
+        {
+          "text": "That drivers will see and yield to the warning lights",
+          "rationale": "An unsafe assumption."
+        },
+        {
+          "text": "That the worst driver on the road is about to arrive",
+          "rationale": "Correct — set the scene up for them."
+        },
+        {
+          "text": "That traffic has been stopped by police",
+          "rationale": "Not a safe assumption."
+        },
+        {
+          "text": "That drivers will slow for a visible incident",
+          "rationale": "Some look at it instead of the road."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-05-Q001",
+      "concept_id": "EMT-08-01-05",
+      "style": "application",
+      "stem": "How do you decide whether air transport is appropriate?",
+      "options": [
+        {
+          "text": "Whether the patient is seriously injured",
+          "rationale": "Severity alone does not decide it."
+        },
+        {
+          "text": "Whether it meaningfully shortens time to definitive care, counting the whole sequence honestly",
+          "rationale": "Correct — whether it meaningfully shortens time to definitive care, counting the whole sequence honestly."
+        },
+        {
+          "text": "Whether an aircraft is available",
+          "rationale": "Availability is a constraint, not the test."
+        },
+        {
+          "text": "Whether the scene is rural",
+          "rationale": "Location alone does not decide it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-05-Q002",
+      "concept_id": "EMT-08-01-05",
+      "style": "recall",
+      "stem": "What is the principal hazard at a landing zone?",
+      "options": [
+        {
+          "text": "Uneven ground",
+          "rationale": "A real concern, not the principal hazard."
+        },
+        {
+          "text": "Wires — and they are extremely hard to see from the air",
+          "rationale": "Correct — wires — and they are extremely hard to see from the air."
+        },
+        {
+          "text": "Bystanders",
+          "rationale": "Managed, but not the principal hazard."
+        },
+        {
+          "text": "Dust",
+          "rationale": "A problem, but not the principal hazard."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-05-Q003",
+      "concept_id": "EMT-08-01-05",
+      "style": "recall",
+      "stem": "When may you approach the aircraft?",
+      "options": [
+        {
+          "text": "Once the rotors slow",
+          "rationale": "Not the rule."
+        },
+        {
+          "text": "Only when a crew member signals you to",
+          "rationale": "Correct — only when a crew member signals you to."
+        },
+        {
+          "text": "As soon as it has landed",
+          "rationale": "Never without a signal."
+        },
+        {
+          "text": "When carrying the patient",
+          "rationale": "The signal is still required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-05-Q004",
+      "concept_id": "EMT-08-01-05",
+      "style": "recall",
+      "stem": "From where do you approach a helicopter?",
+      "options": [
+        {
+          "text": "From the rear, away from the main rotor",
+          "rationale": "Never the rear — the tail rotor is invisible."
+        },
+        {
+          "text": "From the front, within the pilot's field of view",
+          "rationale": "Correct — from the front, within the pilot's field of view."
+        },
+        {
+          "text": "From whichever side is nearest",
+          "rationale": "Not acceptable."
+        },
+        {
+          "text": "From the uphill side on a slope",
+          "rationale": "Downhill on a slope."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-05-Q005",
+      "concept_id": "EMT-08-01-05",
+      "style": "application",
+      "stem": "Why approach from the downhill side on sloping ground?",
+      "options": [
+        {
+          "text": "It is easier to walk",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "The main rotor tilts uphill, bringing the blades lower on that side",
+          "rationale": "Correct — the main rotor tilts uphill, bringing the blades lower on that side."
+        },
+        {
+          "text": "The pilot sits on the downhill side",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Rotor wash is weaker downhill",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-01-05-Q006",
+      "concept_id": "EMT-08-01-05",
+      "style": "scenario",
+      "stem": "Why clear loose material from the landing zone?",
+      "options": [
+        {
+          "text": "To make the zone look tidy",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Rotor wash throws it at the aircraft and at everyone nearby",
+          "rationale": "Correct — rotor wash throws it at the aircraft and at everyone nearby."
+        },
+        {
+          "text": "It interferes with radio communication",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It could catch fire",
+          "rationale": "Not the described hazard."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    }
+  ]
+}
