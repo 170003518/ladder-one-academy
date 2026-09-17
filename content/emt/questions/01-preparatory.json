@@ -4292,6 +4292,666 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-01-Q001",
+      "concept_id": "EMT-01-05-01",
+      "style": "recall",
+      "stem": "What does the suffix -itis mean?",
+      "options": [
+        {
+          "text": "Removal of",
+          "rationale": "That is -ectomy."
+        },
+        {
+          "text": "Inflammation",
+          "rationale": "Correct — as in gastritis, inflammation of the stomach."
+        },
+        {
+          "text": "Pain",
+          "rationale": "That is -algia."
+        },
+        {
+          "text": "Enlargement",
+          "rationale": "That is -megaly."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-01-Q002",
+      "concept_id": "EMT-01-05-01",
+      "style": "recall",
+      "stem": "What does brady- mean?",
+      "options": [
+        {
+          "text": "Fast",
+          "rationale": "That is tachy-."
+        },
+        {
+          "text": "Slow",
+          "rationale": "Correct — bradycardia is a slow heart rate."
+        },
+        {
+          "text": "Difficult",
+          "rationale": "That is dys-."
+        },
+        {
+          "text": "Absent",
+          "rationale": "That is a- or an-."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-01-Q003",
+      "concept_id": "EMT-01-05-01",
+      "style": "application",
+      "stem": "What does hypoglycaemia break down into?",
+      "options": [
+        {
+          "text": "Above + sugar + in the blood",
+          "rationale": "Hypo- means below, not above."
+        },
+        {
+          "text": "Below + sugar + in the blood",
+          "rationale": "Correct — below + sugar + in the blood."
+        },
+        {
+          "text": "Slow + sugar + condition",
+          "rationale": "Neither part is correct."
+        },
+        {
+          "text": "Without + sugar + disease",
+          "rationale": "Hypo- is not the same as without."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-01-Q004",
+      "concept_id": "EMT-01-05-01",
+      "style": "recall",
+      "stem": "Which pair is the most consequential mix-up?",
+      "options": [
+        {
+          "text": "Peri- and intra-",
+          "rationale": "A real distinction but less commonly transposed."
+        },
+        {
+          "text": "Hyper- and hypo-",
+          "rationale": "Correct — two letters apart, opposite meanings, opposite treatments."
+        },
+        {
+          "text": "Oste- and derm-",
+          "rationale": "Rarely confused."
+        },
+        {
+          "text": "-otomy and -ostomy",
+          "rationale": "A real distinction, but less consequential in the field."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-01-Q005",
+      "concept_id": "EMT-01-05-01",
+      "style": "scenario",
+      "stem": "You are not certain what a technical term means. What should you do?",
+      "options": [
+        {
+          "text": "Use it anyway — it sounds more professional",
+          "rationale": "A misused term sounds authoritative while being wrong."
+        },
+        {
+          "text": "Say it in plain words instead",
+          "rationale": "Correct. 'Difficulty breathing' is never wrong."
+        },
+        {
+          "text": "Avoid describing the finding",
+          "rationale": "The finding still needs communicating."
+        },
+        {
+          "text": "Use a similar term you do know",
+          "rationale": "Similar is not the same."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-02-Q001",
+      "concept_id": "EMT-01-05-02",
+      "style": "recall",
+      "stem": "What does supine mean?",
+      "options": [
+        {
+          "text": "Lying face down",
+          "rationale": "That is prone."
+        },
+        {
+          "text": "Lying face up",
+          "rationale": "Correct — lying face up."
+        },
+        {
+          "text": "Lying on the side",
+          "rationale": "That is lateral recumbent."
+        },
+        {
+          "text": "Sitting upright",
+          "rationale": "That is Fowler's position."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-02-Q002",
+      "concept_id": "EMT-01-05-02",
+      "style": "recall",
+      "stem": "What does distal mean?",
+      "options": [
+        {
+          "text": "Nearer the trunk or point of attachment",
+          "rationale": "That is proximal."
+        },
+        {
+          "text": "Further from the trunk or point of attachment",
+          "rationale": "Correct — as in circulation distal to an injury."
+        },
+        {
+          "text": "Toward the midline",
+          "rationale": "That is medial."
+        },
+        {
+          "text": "Nearer the surface",
+          "rationale": "That is superficial."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-02-Q003",
+      "concept_id": "EMT-01-05-02",
+      "style": "recall",
+      "stem": "Whose left is meant when documenting a left-sided injury?",
+      "options": [
+        {
+          "text": "The provider's",
+          "rationale": "Never the provider's."
+        },
+        {
+          "text": "The patient's",
+          "rationale": "Correct — always."
+        },
+        {
+          "text": "Whichever is clearer in context",
+          "rationale": "Ambiguity is what causes the error."
+        },
+        {
+          "text": "The receiving hospital's convention",
+          "rationale": "Not a thing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-02-Q004",
+      "concept_id": "EMT-01-05-02",
+      "style": "application",
+      "stem": "What position do directional terms assume?",
+      "options": [
+        {
+          "text": "Whatever position the patient is in",
+          "rationale": "Terms are independent of actual position."
+        },
+        {
+          "text": "The anatomical position — standing, facing forward, palms forward",
+          "rationale": "Correct — the anatomical position — standing, facing forward, palms forward."
+        },
+        {
+          "text": "Supine on a stretcher",
+          "rationale": "Not the reference position."
+        },
+        {
+          "text": "Seated upright",
+          "rationale": "Not the reference position."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-02-Q005",
+      "concept_id": "EMT-01-05-02",
+      "style": "scenario",
+      "stem": "What is Fowler's position?",
+      "options": [
+        {
+          "text": "Head down with feet raised",
+          "rationale": "That is Trendelenburg."
+        },
+        {
+          "text": "Sitting upright",
+          "rationale": "Correct, with semi-Fowler's partly reclined."
+        },
+        {
+          "text": "Lying on the left side",
+          "rationale": "That is left lateral recumbent."
+        },
+        {
+          "text": "Lying face down",
+          "rationale": "That is prone."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-03-Q001",
+      "concept_id": "EMT-01-05-03",
+      "style": "recall",
+      "stem": "Which plane divides the body into left and right?",
+      "options": [
+        {
+          "text": "Transverse",
+          "rationale": "Transverse divides top from bottom."
+        },
+        {
+          "text": "Sagittal",
+          "rationale": "Correct — the midsagittal plane divides it into equal halves."
+        },
+        {
+          "text": "Frontal",
+          "rationale": "Frontal divides front from back."
+        },
+        {
+          "text": "Coronal",
+          "rationale": "Coronal is another name for frontal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-03-Q002",
+      "concept_id": "EMT-01-05-03",
+      "style": "recall",
+      "stem": "Which organ sits in the right upper quadrant?",
+      "options": [
+        {
+          "text": "The spleen",
+          "rationale": "The spleen is left upper."
+        },
+        {
+          "text": "The liver",
+          "rationale": "Correct, along with the gallbladder."
+        },
+        {
+          "text": "The appendix",
+          "rationale": "The appendix is right lower."
+        },
+        {
+          "text": "The sigmoid colon",
+          "rationale": "That is left lower."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-03-Q003",
+      "concept_id": "EMT-01-05-03",
+      "style": "application",
+      "stem": "Why can a wound at the nipple line involve the abdomen?",
+      "options": [
+        {
+          "text": "Because the ribs do not extend that far",
+          "rationale": "The ribs are not the reason."
+        },
+        {
+          "text": "Because the diaphragm is a moving dome that rises well into the chest",
+          "rationale": "Correct — because the diaphragm is a moving dome that rises well into the chest."
+        },
+        {
+          "text": "Because the abdomen extends above the ribs permanently",
+          "rationale": "It does not; the diaphragm moves."
+        },
+        {
+          "text": "It cannot — that is a chest wound only",
+          "rationale": "It very much can."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-03-Q004",
+      "concept_id": "EMT-01-05-03",
+      "style": "recall",
+      "stem": "What does the retroperitoneal space contain, and why does it matter?",
+      "options": [
+        {
+          "text": "The lungs — it matters for ventilation",
+          "rationale": "The lungs are thoracic."
+        },
+        {
+          "text": "The kidneys and aorta — bleeding there is concealed",
+          "rationale": "Correct. A leaking aneurysm bleeds back there."
+        },
+        {
+          "text": "The heart — it matters for tamponade",
+          "rationale": "The heart is in the mediastinum."
+        },
+        {
+          "text": "The bladder — it matters for retention",
+          "rationale": "The bladder is pelvic."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-03-Q005",
+      "concept_id": "EMT-01-05-03",
+      "style": "application",
+      "stem": "What is the mediastinum?",
+      "options": [
+        {
+          "text": "The space behind the abdominal cavity",
+          "rationale": "That is the retroperitoneum."
+        },
+        {
+          "text": "The central thoracic space between the lungs holding the heart and great vessels",
+          "rationale": "Correct — the central thoracic space between the lungs holding the heart and great vessels."
+        },
+        {
+          "text": "The lining of the abdominal cavity",
+          "rationale": "That is the peritoneum."
+        },
+        {
+          "text": "The space inside the skull",
+          "rationale": "That is the cranial cavity."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-03-Q006",
+      "concept_id": "EMT-01-05-03",
+      "style": "scenario",
+      "stem": "Where is the appendix?",
+      "options": [
+        {
+          "text": "Left upper quadrant",
+          "rationale": "That holds the stomach and spleen."
+        },
+        {
+          "text": "Right lower quadrant",
+          "rationale": "Correct — right lower quadrant."
+        },
+        {
+          "text": "Right upper quadrant",
+          "rationale": "That holds the liver and gallbladder."
+        },
+        {
+          "text": "Left lower quadrant",
+          "rationale": "That holds the descending and sigmoid colon."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-04-Q001",
+      "concept_id": "EMT-01-05-04",
+      "style": "recall",
+      "stem": "How should a decimal quantity below one be written?",
+      "options": [
+        {
+          "text": "Without a leading zero, as .5",
+          "rationale": "A missed decimal point reads as 5."
+        },
+        {
+          "text": "With a leading zero, as 0.5",
+          "rationale": "Correct — with a leading zero, as 0.5."
+        },
+        {
+          "text": "As a fraction",
+          "rationale": "Not the convention."
+        },
+        {
+          "text": "Either way is acceptable",
+          "rationale": "One of them causes tenfold errors."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-04-Q002",
+      "concept_id": "EMT-01-05-04",
+      "style": "recall",
+      "stem": "Should a trailing zero follow a decimal point?",
+      "options": [
+        {
+          "text": "Yes, it shows precision",
+          "rationale": "A faint decimal turns 1.0 into 10."
+        },
+        {
+          "text": "No — write 1, never 1.0",
+          "rationale": "Correct — no — write 1, never 1.0."
+        },
+        {
+          "text": "Only for whole numbers",
+          "rationale": "The rule applies to decimal notation."
+        },
+        {
+          "text": "Only in electronic records",
+          "rationale": "The rule applies generally."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-04-Q003",
+      "concept_id": "EMT-01-05-04",
+      "style": "recall",
+      "stem": "Why do do-not-use lists exist?",
+      "options": [
+        {
+          "text": "To standardise appearance of records",
+          "rationale": "Appearance is not the reason."
+        },
+        {
+          "text": "Because those abbreviations have been misread in ways that harmed patients",
+          "rationale": "Correct — because those abbreviations have been misread in ways that harmed patients."
+        },
+        {
+          "text": "To reduce writing time",
+          "rationale": "They increase writing time."
+        },
+        {
+          "text": "Because of copyright restrictions",
+          "rationale": "Not a factor."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-04-Q004",
+      "concept_id": "EMT-01-05-04",
+      "style": "application",
+      "stem": "Which abbreviations are highest risk?",
+      "options": [
+        {
+          "text": "Anatomical terms",
+          "rationale": "Lower risk than the named category."
+        },
+        {
+          "text": "Units and drug names",
+          "rationale": "Correct — commonly prohibited outright."
+        },
+        {
+          "text": "Position descriptions",
+          "rationale": "Lower risk."
+        },
+        {
+          "text": "Times and dates",
+          "rationale": "Lower risk."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-04-Q005",
+      "concept_id": "EMT-01-05-04",
+      "style": "application",
+      "stem": "Which abbreviations may you use?",
+      "options": [
+        {
+          "text": "Any that are widely understood",
+          "rationale": "Widely understood is not the standard."
+        },
+        {
+          "text": "Only those on your organisation's approved list",
+          "rationale": "Correct — only those on your organisation's approved list."
+        },
+        {
+          "text": "Any you learned in training",
+          "rationale": "Training may not match your service's list."
+        },
+        {
+          "text": "Any your station uses informally",
+          "rationale": "Informal use is exactly the risk."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-04-Q006",
+      "concept_id": "EMT-01-05-04",
+      "style": "scenario",
+      "stem": "What should you do where an abbreviation could be read two ways?",
+      "options": [
+        {
+          "text": "Use it and clarify verbally",
+          "rationale": "The written record outlives the conversation."
+        },
+        {
+          "text": "Spell it out",
+          "rationale": "Correct — three seconds now against ambiguity later."
+        },
+        {
+          "text": "Use a different abbreviation",
+          "rationale": "Substituting one shorthand for another may not resolve it."
+        },
+        {
+          "text": "Omit the detail",
+          "rationale": "Never an acceptable resolution."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

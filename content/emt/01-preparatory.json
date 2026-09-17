@@ -63,6 +63,16 @@
         "EMT-01-04-05",
         "EMT-01-04-06"
       ]
+    },
+    {
+      "id": "EMT-01-05",
+      "title": "Medical terminology",
+      "concepts": [
+        "EMT-01-05-01",
+        "EMT-01-05-02",
+        "EMT-01-05-03",
+        "EMT-01-05-04"
+      ]
     }
   ],
   "concepts": [
@@ -3805,6 +3815,624 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm correction procedures and your service's documentation and amendment policy against the current text and local policy."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-01",
+      "title": "Word roots, prefixes and suffixes",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-01-05-02",
+        "EMT-01-05-04"
+      ],
+      "key_points": [
+        "Most medical terms are built from parts, so a term you have never seen can often be worked out",
+        "The root carries the core meaning, usually a body part: cardi- heart, pulmon- lung, hepat- liver, nephr- and ren- kidney, gastr- stomach, oste- bone, derm- skin, neur- nerve, hem- and haem- blood",
+        "A prefix goes in front and modifies: brady- slow, tachy- fast, hyper- above or excessive, hypo- below or deficient, a- and an- without, dys- difficult or painful, peri- around, intra- within",
+        "A suffix goes on the end and says what is happening: -itis inflammation, -ectomy removal, -otomy cutting into, -ostomy an opening, -emia in the blood, -pnea breathing, -algia pain, -osis abnormal condition, -pathy disease",
+        "Build them: brady + cardia = slow heart; hypo + glyc + emia = low sugar in the blood; dys + pnea = difficult breathing",
+        "Hyper- and hypo- differ by two letters and mean opposite things, which is the commonest and most consequential mix-up",
+        "Say unfamiliar terms out loud in parts before guessing at the whole",
+        "If you are not certain what a term means, say it in plain words instead — precision matters more than sounding fluent"
+      ],
+      "misconceptions": [
+        "Confusing hyper- and hypo- when writing or speaking",
+        "Using a term you are not sure of to sound professional",
+        "Assuming every term decomposes neatly — some do not"
+      ],
+      "exam_favorites": [
+        "Common roots and their meanings",
+        "Hyper versus hypo",
+        "Building a term from parts"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Medical terminology looks like a vocabulary to memorise and is mostly a construction kit. Learn the pieces and you can work out words you have never met.\n\nThree kinds of piece.\n\nThe root carries the core meaning, and it is usually a body part. Cardi- heart. Pulmon- lung. Hepat- liver. Nephr- and ren- both kidney. Gastr- stomach. Oste- bone. Derm- skin. Neur- nerve. Hem- or haem- blood. My- muscle. Angi- vessel.\n\nA prefix sits in front and modifies. Brady- slow. Tachy- fast. Hyper- above or excessive. Hypo- below or deficient. A- and an- without. Dys- difficult or painful. Peri- around. Intra- within. Sub- beneath. Poly- many.\n\nA suffix sits at the end and says what is going on. -itis inflammation. -ectomy removal. -otomy cutting into. -ostomy making an opening. -emia in the blood. -pnea breathing. -algia pain. -osis an abnormal condition. -pathy disease. -megaly enlargement.\n\nNow assemble. Brady plus cardia: slow heart. Hypo plus glyc plus emia: low sugar in the blood. Dys plus pnea: difficult breathing. A plus pnea: no breathing. Gastr plus itis: inflammation of the stomach. Nephr plus ectomy: removal of a kidney. Hepat plus megaly: enlarged liver.\n\nOne pair deserves particular attention, because it causes real harm: hyper- and hypo-. Two letters apart, opposite meanings, and both extremely common. Hyperglycaemia and hypoglycaemia are opposite emergencies with opposite treatments. Hypertension and hypotension likewise. When you are tired and writing quickly, these are the ones that get transposed — slow down for them specifically.\n\nA habit worth building: say an unfamiliar term out loud in its parts before guessing. Peri-card-itis. Around-heart-inflammation. That works far more often than it does not.\n\nAnd a rule that outranks all of it: if you are not certain what a term means, say it in plain words instead. 'Difficulty breathing' is never wrong. A misused technical term is worse than a plain description, because it sounds authoritative while being incorrect, and somebody may act on it. Precision matters more than sounding fluent.",
+          "standard": "Medical terminology is predominantly compositional, permitting derivation of unfamiliar terms from constituent elements. Roots convey core meaning, typically anatomical: cardi- (heart), pulmon- (lung), hepat- (liver), nephr-/ren- (kidney), gastr- (stomach), oste- (bone), derm- (skin), neur- (nerve), haem-/hem- (blood), my- (muscle), angi- (vessel). Prefixes modify: brady- (slow), tachy- (rapid), hyper- (excessive), hypo- (deficient), a-/an- (absence), dys- (difficult or painful), peri- (surrounding), intra- (within), sub- (beneath), poly- (many). Suffixes denote process or state: -itis (inflammation), -ectomy (excision), -otomy (incision), -ostomy (creation of an opening), -aemia/-emia (blood condition), -pnoea/-pnea (respiration), -algia (pain), -osis (abnormal condition), -pathy (disease), -megaly (enlargement). The hyper-/hypo- distinction is the principal source of consequential error, differing by two characters while denoting opposite conditions with opposite management. Decomposition of unfamiliar terms into constituents precedes interpretation. Where meaning is uncertain, plain language description is preferred, as misapplied technical terminology conveys unwarranted authority and may prompt inappropriate action."
+        },
+        "eli_new": {
+          "analogy": "Not a vocabulary list. A construction kit: root for the place, prefix for the modification, suffix for what is happening to it.",
+          "body": "Hyper and hypo are two letters apart and mean opposite things, and both appear constantly. They are the ones that get transposed at four in the morning. Slow down specifically for those two."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how medical terms are built and give examples of each part.",
+          "must_hit": [
+            {
+              "point": "Terms are built from root, prefix and suffix",
+              "accept": [
+                "root",
+                "prefix",
+                "suffix",
+                "built",
+                "parts",
+                "construct"
+              ]
+            },
+            {
+              "point": "Roots are usually body parts: cardi-, pulmon-, hepat-, nephr-, gastr-",
+              "accept": [
+                "cardi",
+                "pulmon",
+                "hepat",
+                "nephr",
+                "gastr",
+                "oste",
+                "derm",
+                "neur"
+              ]
+            },
+            {
+              "point": "Prefixes modify: brady-, tachy-, hyper-, hypo-, dys-, a-",
+              "accept": [
+                "brady",
+                "tachy",
+                "hyper",
+                "hypo",
+                "dys",
+                "an-",
+                "peri"
+              ]
+            },
+            {
+              "point": "Suffixes say what is happening: -itis, -ectomy, -emia, -pnea, -algia",
+              "accept": [
+                "itis",
+                "ectomy",
+                "emia",
+                "pnea",
+                "algia",
+                "osis",
+                "pathy"
+              ]
+            },
+            {
+              "point": "Build them: bradycardia, hypoglycaemia, dyspnoea",
+              "accept": [
+                "bradycardia",
+                "hypoglyc",
+                "dyspnoea",
+                "dyspnea",
+                "apnea",
+                "gastritis"
+              ]
+            },
+            {
+              "point": "Hyper and hypo are opposites two letters apart",
+              "accept": [
+                "hyper",
+                "hypo",
+                "opposite",
+                "two letters",
+                "confus"
+              ]
+            },
+            {
+              "point": "If unsure, use plain words instead",
+              "accept": [
+                "plain",
+                "unsure",
+                "uncertain",
+                "describe",
+                "rather than"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Two letters",
+          "dispatch": "Handover — diabetic patient, verbal report given at speed.",
+          "body": "The crew said hyperglycaemic. They meant hypoglycaemic, and everything else they said fitted the second one.\n\nThe nurse caught it because the description did not match the word.\n\nTwo letters, opposite emergencies, opposite treatments. It is the single most consequential slip in medical terminology."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the word part lists against the current text; these are standard but lists vary slightly between editions."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-02",
+      "title": "Directional and positional terms",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-01-05-01",
+        "EMT-01-05-03",
+        "EMT-06-02-05"
+      ],
+      "key_points": [
+        "All directional terms assume the anatomical position: standing, facing forward, arms at the sides, palms forward",
+        "Anterior (ventral) is front; posterior (dorsal) is back",
+        "Superior is toward the head; inferior is toward the feet",
+        "Medial is toward the midline; lateral is away from it",
+        "Proximal is closer to the trunk or point of attachment; distal is further from it",
+        "Superficial is nearer the surface; deep is further in",
+        "Supine is lying face up; prone is lying face down; lateral recumbent is lying on a side",
+        "Fowler's position is sitting up; semi-Fowler's is partly reclined; Trendelenburg is head down with feet raised",
+        "Left and right always mean the PATIENT'S left and right, never yours"
+      ],
+      "misconceptions": [
+        "Using your own left and right rather than the patient's",
+        "Confusing supine and prone",
+        "Describing a wound as 'on the left' without saying whose left",
+        "Assuming directional terms apply to the position the patient is actually in"
+      ],
+      "exam_favorites": [
+        "Proximal versus distal",
+        "Supine versus prone",
+        "The patient's left, always"
+      ],
+      "modes": {
+        "read": {
+          "plain": "All directional terms assume one starting position, called the anatomical position: standing upright, facing forward, arms at the sides, palms turned forward. Everything is described as if the patient were standing like that, whatever position they are actually in. A patient lying face down still has an anterior surface — it is just underneath them.\n\nThe pairs:\n\nAnterior and posterior. Front and back. Ventral and dorsal mean the same things.\n\nSuperior and inferior. Toward the head, toward the feet. The head is superior to the chest; the knee is inferior to the hip.\n\nMedial and lateral. Toward the midline, away from it. Your big toe is medial; your little toe is lateral.\n\nProximal and distal. Closer to the trunk or point of attachment, further from it. The elbow is proximal to the wrist; the fingers are distal to the elbow. These two matter operationally more than most — 'check circulation distal to the injury' is a sentence you will use constantly.\n\nSuperficial and deep. Nearer the surface, further in.\n\nThen the positions a patient is actually in.\n\nSupine is face up. Prone is face down. The two get confused, and a useful peg: prone starts with the same sound as 'prostrate', face down.\n\nLateral recumbent is lying on a side — left lateral recumbent means lying on the left side. This is the recovery position's formal name.\n\nFowler's is sitting up. Semi-Fowler's is partly reclined, somewhere around halfway. These matter because breathless patients are frequently transported in one of them.\n\nTrendelenburg is head down with feet elevated. Worth knowing the name, and worth knowing it is no longer routinely recommended in shock — see the shock concepts.\n\nAnd the rule that prevents actual harm: left and right always mean the patient's left and right. Never yours. When you are facing somebody, their left is on your right, and a wound recorded on the wrong side has caused wrong-site problems in real medicine. If there is any ambiguity, say 'the patient's left' out loud.",
+          "standard": "Directional terminology presumes the anatomical position: erect, facing anteriorly, upper limbs adducted with palms facing forward. Terms apply irrespective of the patient's actual position. Anterior (ventral) denotes the front aspect; posterior (dorsal) the rear. Superior denotes toward the head; inferior toward the feet. Medial denotes toward the midline; lateral away from it. Proximal denotes nearer the trunk or point of attachment; distal further from it, terminology of particular operational relevance in neurovascular assessment. Superficial denotes nearer the surface; deep further from it. Patient positions comprise supine (face up), prone (face down), and lateral recumbent (on a side, designated by the side of contact). Fowler's position denotes upright sitting; semi-Fowler's partial recumbency; Trendelenburg head-down with lower limbs elevated, no longer routinely recommended in shock management. Laterality always references the patient's left and right rather than the observer's; ambiguity is resolved by explicit statement."
+        },
+        "eli_new": {
+          "analogy": "Every direction is described from a body standing up facing you, regardless of how the patient is actually lying. The map does not rotate when the patient does.",
+          "body": "Proximal and distal are the two you will use every shift, because 'check circulation distal to the injury' is a sentence in every splinting and bandaging concept there is. Proximal is nearer the body; distal is further away."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define the main directional pairs and the common patient positions.",
+          "must_hit": [
+            {
+              "point": "Terms assume the anatomical position regardless of how the patient lies",
+              "accept": [
+                "anatomical position",
+                "standing",
+                "regardless",
+                "assume"
+              ]
+            },
+            {
+              "point": "Anterior is front, posterior is back",
+              "accept": [
+                "anterior",
+                "posterior",
+                "front",
+                "back",
+                "ventral",
+                "dorsal"
+              ]
+            },
+            {
+              "point": "Superior toward the head, inferior toward the feet",
+              "accept": [
+                "superior",
+                "inferior",
+                "head",
+                "feet"
+              ]
+            },
+            {
+              "point": "Medial toward the midline, lateral away",
+              "accept": [
+                "medial",
+                "lateral",
+                "midline",
+                "away"
+              ]
+            },
+            {
+              "point": "Proximal is nearer the trunk, distal further away",
+              "accept": [
+                "proximal",
+                "distal",
+                "trunk",
+                "attachment",
+                "nearer"
+              ]
+            },
+            {
+              "point": "Supine is face up, prone is face down",
+              "accept": [
+                "supine",
+                "prone",
+                "face up",
+                "face down"
+              ]
+            },
+            {
+              "point": "Fowler's is sitting up; Trendelenburg is head down",
+              "accept": [
+                "fowler",
+                "sitting",
+                "trendelenburg",
+                "head down"
+              ]
+            },
+            {
+              "point": "Left and right always mean the patient's",
+              "accept": [
+                "patient",
+                "left",
+                "right",
+                "yours",
+                "never"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Whose left",
+          "dispatch": "Handover — laceration recorded on the left forearm.",
+          "body": "The crew had been facing her the whole time, and wrote left because that is what they were looking at.\n\nIt was her right forearm.\n\nWhen you are facing somebody, their left is on your right. Saying 'the patient's left' out loud costs two words."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm directional terminology and position names against the current text. The current position on Trendelenburg in shock is covered in EMT-06-02-05."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-03",
+      "title": "Body planes, regions and cavities",
+      "domain": "OPS",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-05-02",
+        "EMT-06-07-05",
+        "EMT-05-06-01"
+      ],
+      "key_points": [
+        "Three planes divide the body: sagittal splits left from right, frontal or coronal splits front from back, transverse splits top from bottom",
+        "The midsagittal or median plane divides the body into equal left and right halves",
+        "The main body cavities are cranial, spinal, thoracic, abdominal and pelvic",
+        "The diaphragm separates the thoracic cavity from the abdominal cavity, and it moves — which is why a chest wound can involve the abdomen",
+        "The thoracic cavity holds the heart, lungs and great vessels; the mediastinum is the space between the lungs holding the heart and great vessels",
+        "The abdomen is described in four quadrants by lines through the umbilicus",
+        "Right upper quadrant: liver and gallbladder. Left upper: spleen and stomach. Right lower: appendix. Left lower: descending and sigmoid colon",
+        "The retroperitoneal space sits behind the abdominal cavity and holds the kidneys, the aorta and part of the pancreas",
+        "Knowing what sits under your hand is what turns palpation into information"
+      ],
+      "misconceptions": [
+        "Assuming a wound below the nipple line cannot involve the chest",
+        "Forgetting the diaphragm moves with breathing",
+        "Placing the appendix on the left",
+        "Ignoring the retroperitoneum when considering bleeding"
+      ],
+      "exam_favorites": [
+        "The three planes",
+        "Quadrant contents",
+        "Why the diaphragm matters in penetrating trauma"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Three planes cut the body, and they are the reference for describing anything.\n\nSagittal runs front to back and divides left from right. The midsagittal or median plane is the one that splits it into equal halves.\n\nFrontal, also called coronal, runs side to side and divides front from back.\n\nTransverse runs horizontally and divides top from bottom — this is the one a CT slice uses.\n\nThen the cavities, which are the spaces organs sit in.\n\nCranial holds the brain. Spinal holds the spinal cord. Thoracic holds the heart, the lungs and the great vessels. Abdominal holds most of the digestive organs, the liver, the spleen. Pelvic holds the bladder, the reproductive organs and part of the bowel.\n\nThe mediastinum is worth naming: the space in the middle of the thoracic cavity between the two lungs, containing the heart, the great vessels, the trachea and the oesophagus.\n\nNow the structure that matters most operationally: the diaphragm. It separates the thoracic cavity above from the abdominal cavity below, and it is a moving dome, not a flat floor. At full expiration it rises well up into the chest.\n\nThat single fact has a consequence you will use: a penetrating wound that looks like a chest wound can be an abdominal wound, and vice versa. A knife entering at the level of the nipple, angled downwards, is in the abdomen. This is why the boundary for potential abdominal injury is drawn from the nipple line to the groin.\n\nThe abdomen is described in four quadrants, divided by lines through the umbilicus.\n\nRight upper quadrant: the liver, mostly, and the gallbladder. Left upper: the stomach and the spleen. Right lower: the appendix. Left lower: the descending and sigmoid colon. The small bowel is spread across all four.\n\nAnd behind the abdominal cavity is the retroperitoneal space, which holds the kidneys, the aorta, the inferior vena cava and part of the pancreas. It matters because bleeding into it is entirely concealed — a leaking aortic aneurysm bleeds back there, and you will find nothing on examining the front of the abdomen.\n\nThe point of all of this is practical. Knowing what sits under your hand is what turns palpation from a ritual into information.",
+          "standard": "Three anatomical planes provide reference: the sagittal plane divides left from right, with the midsagittal plane creating equal halves; the frontal or coronal plane divides anterior from posterior; the transverse plane divides superior from inferior. Body cavities comprise cranial (brain), spinal (spinal cord), thoracic (heart, lungs, great vessels), abdominal and pelvic. The mediastinum denotes the central thoracic compartment between the lungs containing the heart, great vessels, trachea and oesophagus. The diaphragm separates thoracic from abdominal cavities and is a mobile dome rather than a fixed partition, ascending substantially into the thorax at full expiration; consequently penetrating injury may traverse both cavities, and the region from nipple line to groin is regarded as potentially involving the abdomen. The abdomen is described in four quadrants defined by perpendicular lines through the umbilicus: right upper (liver, gallbladder), left upper (stomach, spleen), right lower (appendix), left lower (descending and sigmoid colon), with small bowel distributed throughout. The retroperitoneal space lies posterior to the peritoneal cavity containing kidneys, aorta, inferior vena cava and part of the pancreas; haemorrhage into this space is concealed and produces no anterior abdominal findings."
+        },
+        "eli_new": {
+          "analogy": "The diaphragm is not a floor. It is a dome that moves, and at the top of its travel the abdomen reaches well up inside the ribcage.",
+          "body": "The practical consequence of the diaphragm moving: a wound at nipple level angled down is an abdominal wound. That is why the boundary for possible abdominal injury runs from the nipples to the groin, not from the bottom of the ribs."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the three planes, the main cavities, and what sits in each abdominal quadrant.",
+          "must_hit": [
+            {
+              "point": "Sagittal left from right, frontal front from back, transverse top from bottom",
+              "accept": [
+                "sagittal",
+                "frontal",
+                "coronal",
+                "transverse",
+                "plane"
+              ]
+            },
+            {
+              "point": "Cavities: cranial, spinal, thoracic, abdominal, pelvic",
+              "accept": [
+                "cranial",
+                "spinal",
+                "thoracic",
+                "abdominal",
+                "pelvic",
+                "cavity"
+              ]
+            },
+            {
+              "point": "The diaphragm separates thoracic from abdominal and moves",
+              "accept": [
+                "diaphragm",
+                "separat",
+                "move",
+                "dome",
+                "rise"
+              ]
+            },
+            {
+              "point": "A wound between the nipples and groin may involve the abdomen",
+              "accept": [
+                "nipple",
+                "groin",
+                "boundary",
+                "penetrat",
+                "both"
+              ]
+            },
+            {
+              "point": "Right upper liver and gallbladder; left upper stomach and spleen",
+              "accept": [
+                "liver",
+                "gallbladder",
+                "stomach",
+                "spleen",
+                "upper"
+              ]
+            },
+            {
+              "point": "Right lower appendix; left lower descending and sigmoid colon",
+              "accept": [
+                "appendix",
+                "descending",
+                "sigmoid",
+                "colon",
+                "lower"
+              ]
+            },
+            {
+              "point": "The retroperitoneum holds the kidneys and aorta, and bleeds concealed",
+              "accept": [
+                "retroperiton",
+                "kidney",
+                "aorta",
+                "conceal",
+                "behind"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Below the nipple",
+          "dispatch": "Medic 4 — single stab wound, entry at the left nipple line.",
+          "body": "It was recorded as a chest wound, which is exactly what it looked like.\n\nThe blade had gone in angled downwards at full expiration, when the diaphragm was high.\n\nIt was a chest wound and an abdominal wound, which is why the boundary is drawn where it is."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm plane, cavity and quadrant content descriptions against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-04",
+      "title": "Abbreviations and the do-not-use list",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-04-05",
+        "EMT-01-04-06",
+        "EMT-09-01-05"
+      ],
+      "key_points": [
+        "Abbreviations save time and cause errors, and the trade only works when everybody reads them the same way",
+        "Use only the abbreviations your service's approved list contains",
+        "Some abbreviations are on a do-not-use list because they have been misread in ways that harmed patients",
+        "The classic examples involve dose notation: a trailing zero after a decimal point can be read as ten times the dose, and a missing leading zero can be read as ten times too",
+        "Write a leading zero before a decimal point and never a trailing zero after one",
+        "Abbreviations for units and for drug names are the highest-risk category and are commonly prohibited",
+        "Where an abbreviation could be read two ways, write the word out — it takes three seconds",
+        "The rule is simple: if there is any chance of ambiguity, spell it out",
+        "Handwriting quality is part of this, because an abbreviation is only as safe as its legibility"
+      ],
+      "misconceptions": [
+        "Using a personal or service-specific abbreviation in a report others will read",
+        "Writing a trailing zero after a decimal point",
+        "Omitting the leading zero before a decimal point",
+        "Abbreviating a drug name"
+      ],
+      "exam_favorites": [
+        "Leading and trailing zeros",
+        "Why do-not-use lists exist",
+        "When to spell it out"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Abbreviations exist because writing is slow and shifts are busy. They cause errors because a shorthand is only safe if the person reading it decodes it the way the person writing it intended — and that assumption fails more often than people expect.\n\nSo the first rule is straightforward: use only the abbreviations on your service's approved list. Not the ones you learned somewhere else, not ones your station uses informally, and not ones you invented because they were obvious to you.\n\nSome abbreviations sit on a do-not-use list. These are not banned because somebody disliked them — they are banned because they have been misread, repeatedly, in ways that harmed patients. Your organisation will have a list and it is worth actually reading rather than assuming you know what is on it.\n\nThe clearest and most important examples involve how numbers are written, and these are worth getting exactly right because the failure mode is a tenfold error.\n\nA trailing zero after a decimal point is dangerous. Write a number as '1.0' and if the decimal point is faint, smudged, or lost in a photocopy, it reads as '10'. Ten times the intended amount. So never write a trailing zero after a decimal point — write '1', not '1.0'.\n\nA missing leading zero is dangerous in the same direction. Write '.5' and a missed decimal point reads as '5'. So always write the leading zero — '0.5', not '.5'.\n\nThose two rules together: leading zero always, trailing zero never.\n\nUnits and drug names are the highest-risk category to abbreviate, and are commonly prohibited outright. Abbreviated unit symbols have been confused with each other; abbreviated drug names have been confused with entirely different drugs. Write them out.\n\nAnd the rule that covers everything the list does not: if there is any chance of ambiguity, spell it out. Writing the word takes about three seconds. Working out afterwards what somebody meant takes considerably longer, and sometimes nobody works it out at all.\n\nOne last practical point. An abbreviation is only as safe as its legibility. Neat handwriting is not about tidiness — it is part of the same safety problem, and a beautifully chosen approved abbreviation written illegibly is no better than a banned one.",
+          "standard": "Abbreviation use trades documentation efficiency against interpretive error, the trade being favourable only where decoding is reliably consistent. Use is restricted to organisationally approved abbreviation lists, excluding personal, informal and externally acquired conventions. Do-not-use lists comprise abbreviations associated with documented misinterpretation causing patient harm. Numerical notation carries particular risk of tenfold error: trailing zeros following a decimal point may be misread as a tenfold increase where the decimal is obscured, and absent leading zeros carry equivalent risk. Convention requires a leading zero preceding a decimal point and prohibits trailing zeros following one. Unit symbols and drug name abbreviations constitute the highest-risk category and are frequently prohibited. Where ambiguity is possible, terms are written in full. Legibility forms part of the same safety consideration, as an approved abbreviation rendered illegibly confers no advantage over a prohibited one."
+        },
+        "eli_new": {
+          "analogy": "An abbreviation is a compression algorithm that only works if the other person has the same decoder. When they do not, the file opens as something else entirely.",
+          "body": "Two rules that prevent tenfold errors. Leading zero ALWAYS — write 0.5, never .5. Trailing zero NEVER — write 1, never 1.0. Both failures read as ten times the amount when the decimal point is faint."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why do-not-use lists exist and give the two rules about zeros.",
+          "must_hit": [
+            {
+              "point": "Abbreviations only work if reader and writer decode them the same way",
+              "accept": [
+                "decode",
+                "same",
+                "reader",
+                "ambigu",
+                "interpret"
+              ]
+            },
+            {
+              "point": "Use only your service's approved list",
+              "accept": [
+                "approved",
+                "list",
+                "service",
+                "only",
+                "organisation"
+              ]
+            },
+            {
+              "point": "Do-not-use items are banned because they have been misread and harmed patients",
+              "accept": [
+                "misread",
+                "harm",
+                "banned",
+                "do-not-use",
+                "error"
+              ]
+            },
+            {
+              "point": "Always write a leading zero before a decimal point",
+              "accept": [
+                "leading",
+                "zero",
+                "0.5",
+                "before",
+                "decimal"
+              ]
+            },
+            {
+              "point": "Never write a trailing zero after a decimal point",
+              "accept": [
+                "trailing",
+                "never",
+                "1.0",
+                "after",
+                "decimal"
+              ]
+            },
+            {
+              "point": "Both errors read as ten times the amount",
+              "accept": [
+                "ten",
+                "tenfold",
+                "10",
+                "times",
+                "overdose"
+              ]
+            },
+            {
+              "point": "Units and drug names are highest risk; spell out anything ambiguous",
+              "accept": [
+                "unit",
+                "drug name",
+                "spell",
+                "write out",
+                "full"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The faint decimal",
+          "dispatch": "Safety review — a number written with a trailing zero.",
+          "body": "It was written correctly, by somebody careful, and it said exactly what they meant it to say.\n\nThe decimal point did not survive the photocopier.\n\nOne character, ten times the amount, and the rule about trailing zeros exists because this has happened more than once."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Leading zero before a decimal point",
+            "value": "ALWAYS",
+            "note": "Write 0.5, never .5. A missed decimal reads as 5 — ten times the amount."
+          },
+          {
+            "label": "Trailing zero after a decimal point",
+            "value": "NEVER",
+            "note": "Write 1, never 1.0. A faint decimal reads as 10 — ten times the amount."
+          },
+          {
+            "label": "Size of the error both mistakes produce",
+            "value": "10x",
+            "note": "Which is why these two are the notation rules that get singled out."
+          },
+          {
+            "label": "Abbreviations you may use",
+            "value": "your approved list only",
+            "note": "Not personal ones, not station habits, not ones learned elsewhere."
+          },
+          {
+            "label": "Highest-risk things to abbreviate",
+            "value": "units and drug names",
+            "note": "Commonly prohibited outright. Write them out."
+          },
+          {
+            "label": "When in doubt",
+            "value": "spell it out",
+            "note": "Three seconds to write the word. Considerably longer to work out afterwards what was meant."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm YOUR organisation's approved abbreviation list and do-not-use list — both vary between services and neither is reproduced here."
     }
   ]
 }

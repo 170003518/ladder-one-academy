@@ -777,6 +777,131 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-04-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-01-C01",
+      "concept_id": "EMT-01-05-01",
+      "type": "concept",
+      "front": {
+        "title": "Word parts",
+        "summary": "A construction kit, not a vocabulary list"
+      },
+      "back": {
+        "body": "ROOT = the place, usually a body part: CARDI heart · PULMON lung · HEPAT liver · NEPHR/REN kidney · GASTR stomach · OSTE bone · DERM skin · NEUR nerve · HEM/HAEM blood · PREFIX modifies: BRADY slow · TACHY fast · HYPER above · HYPO below · A/AN without · DYS difficult · PERI around · INTRA within · SUFFIX says what is happening: -ITIS inflammation · -ECTOMY removal · -OTOMY cutting into · -OSTOMY an opening · -EMIA in the blood · -PNEA breathing · -ALGIA pain · -OSIS condition · -MEGALY enlargement · BUILD THEM: brady+cardia · hypo+glyc+emia · dys+pnea · HYPER AND HYPO ARE TWO LETTERS APART AND OPPOSITE — the most consequential slip there is · NOT SURE? USE PLAIN WORDS",
+        "why_it_matters": "They said hyperglycaemic and meant hypoglycaemic. Opposite emergencies, opposite treatments."
+      },
+      "high_yield": false,
+      "number": 32,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-05-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-02-C02",
+      "concept_id": "EMT-01-05-02",
+      "type": "concept",
+      "front": {
+        "title": "Directional terms",
+        "summary": "The map does not rotate with the patient"
+      },
+      "back": {
+        "body": "ALL TERMS ASSUME THE ANATOMICAL POSITION: standing, facing forward, palms forward — whatever position the patient is actually in · ANTERIOR/VENTRAL front ↔ POSTERIOR/DORSAL back · SUPERIOR toward the head ↔ INFERIOR toward the feet · MEDIAL toward the midline ↔ LATERAL away · PROXIMAL nearer the trunk ↔ DISTAL further — the pair you will use every shift ('circulation DISTAL to the injury') · SUPERFICIAL ↔ DEEP · POSITIONS: SUPINE face up · PRONE face down · LATERAL RECUMBENT on a side · FOWLER'S sitting up · SEMI-FOWLER'S partly reclined · TRENDELENBURG head down (no longer routine in shock) · LEFT AND RIGHT ALWAYS MEAN THE PATIENT'S",
+        "why_it_matters": "Facing somebody, their left is on your right. Saying 'the patient's left' costs two words."
+      },
+      "high_yield": false,
+      "number": 33,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-05-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-03-C03",
+      "concept_id": "EMT-01-05-03",
+      "type": "concept",
+      "front": {
+        "title": "Planes, cavities and quadrants",
+        "summary": "The diaphragm is a moving dome"
+      },
+      "back": {
+        "body": "PLANES: SAGITTAL left/right (MIDSAGITTAL = equal halves) · FRONTAL/CORONAL front/back · TRANSVERSE top/bottom · CAVITIES: cranial · spinal · THORACIC (heart, lungs, great vessels) · abdominal · pelvic · MEDIASTINUM = the central chest space between the lungs · THE DIAPHRAGM SEPARATES CHEST FROM ABDOMEN AND IT MOVES — at full expiration it rises well into the chest, so A WOUND AT NIPPLE LEVEL CAN BE AN ABDOMINAL WOUND · that is why the boundary runs NIPPLES TO GROIN · QUADRANTS: RUQ liver + gallbladder · LUQ stomach + spleen · RLQ APPENDIX · LLQ descending + sigmoid colon · RETROPERITONEUM behind it all: KIDNEYS and AORTA — bleeding there is COMPLETELY CONCEALED",
+        "why_it_matters": "It was a chest wound and an abdominal wound, which is why the boundary is drawn where it is."
+      },
+      "high_yield": true,
+      "number": 34,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-05-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-04-C04",
+      "concept_id": "EMT-01-05-04",
+      "type": "concept",
+      "front": {
+        "title": "Abbreviations",
+        "summary": "Leading zero always, trailing zero never"
+      },
+      "back": {
+        "body": "Abbreviations only work if the READER decodes them the way the WRITER meant — use ONLY YOUR SERVICE'S APPROVED LIST · DO-NOT-USE LISTS EXIST BECAUSE THOSE ITEMS HAVE BEEN MISREAD AND HARMED PATIENTS · THE TWO NOTATION RULES, both preventing TENFOLD errors: LEADING ZERO ALWAYS — write 0.5, never .5 (a missed point reads as 5) · TRAILING ZERO NEVER — write 1, never 1.0 (a faint point reads as 10) · UNITS AND DRUG NAMES are the highest-risk things to abbreviate and are commonly PROHIBITED — write them out · ANY CHANCE OF AMBIGUITY? SPELL IT OUT — three seconds · LEGIBILITY IS PART OF THIS: an approved abbreviation written illegibly is no better than a banned one",
+        "why_it_matters": "The decimal point did not survive the photocopier. One character, ten times the amount."
+      },
+      "high_yield": true,
+      "number": 35,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-05-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-01-05-04-C05",
+      "concept_id": "EMT-01-05-04",
+      "type": "numbers",
+      "front": {
+        "title": "Notation rules",
+        "summary": "The two that prevent tenfold errors"
+      },
+      "back": {
+        "body": "LEADING ZERO: ALWAYS — 0.5, never .5; a missed decimal reads as 5 · TRAILING ZERO: NEVER — 1, never 1.0; a faint decimal reads as 10 · SIZE OF THE ERROR EITHER MISTAKE PRODUCES: 10x · ABBREVIATIONS YOU MAY USE: your approved list ONLY · HIGHEST-RISK TO ABBREVIATE: units and drug names — usually prohibited · IN DOUBT: SPELL IT OUT",
+        "why_it_matters": "Both failures point the same way: ten times the amount intended."
+      },
+      "high_yield": true,
+      "number": 36,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 1,
+        "module_name": "Preparatory"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-01-05-04. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }
