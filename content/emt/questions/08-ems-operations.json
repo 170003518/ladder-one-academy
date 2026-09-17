@@ -2702,6 +2702,546 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-01-Q001",
+      "concept_id": "EMT-08-05-01",
+      "style": "recall",
+      "stem": "What is the most dangerous kind of hazmat incident?",
+      "options": [
+        {
+          "text": "One involving an unknown material",
+          "rationale": "Difficult, but not the most dangerous."
+        },
+        {
+          "text": "One that nobody recognised as a hazmat incident",
+          "rationale": "Correct — crews walk in and become patients."
+        },
+        {
+          "text": "One at a fixed facility",
+          "rationale": "Not inherently the most dangerous."
+        },
+        {
+          "text": "One involving a fire",
+          "rationale": "Not inherently the most dangerous."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-01-Q002",
+      "concept_id": "EMT-08-05-01",
+      "style": "application",
+      "stem": "Four people in one room have the same symptoms. What should you think?",
+      "options": [
+        {
+          "text": "A shared illness or food poisoning",
+          "rationale": "Do not assume that first."
+        },
+        {
+          "text": "A hazardous materials or exposure incident until proved otherwise",
+          "rationale": "Correct — a hazardous materials or exposure incident until proved otherwise."
+        },
+        {
+          "text": "A coincidence worth noting",
+          "rationale": "It is not treated as coincidence."
+        },
+        {
+          "text": "Mass anxiety",
+          "rationale": "Never the first assumption."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-01-Q003",
+      "concept_id": "EMT-08-05-01",
+      "style": "recall",
+      "stem": "What does the absence of an odour tell you?",
+      "options": [
+        {
+          "text": "That no hazardous material is present",
+          "rationale": "Many are odourless."
+        },
+        {
+          "text": "Very little — many materials have no smell, and some destroy your sense of it",
+          "rationale": "Correct — very little — many materials have no smell, and some destroy your sense of it."
+        },
+        {
+          "text": "That the concentration is low",
+          "rationale": "No such inference is available."
+        },
+        {
+          "text": "That the material has dispersed",
+          "rationale": "No such inference is available."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-01-Q004",
+      "concept_id": "EMT-08-05-01",
+      "style": "recall",
+      "stem": "How is the Emergency Response Guidebook organised?",
+      "options": [
+        {
+          "text": "Yellow by number, blue by name, orange for actions, green for distances",
+          "rationale": "Correct — yellow by number, blue by name, orange for actions, green for distances."
+        },
+        {
+          "text": "Blue by number, yellow by name, green for actions, orange for distances",
+          "rationale": "The colours are reversed."
+        },
+        {
+          "text": "Orange by number, green by name, yellow for actions",
+          "rationale": "Not the structure."
+        },
+        {
+          "text": "Alphabetically throughout",
+          "rationale": "It is colour-sectioned."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-01-Q005",
+      "concept_id": "EMT-08-05-01",
+      "style": "application",
+      "stem": "How should you approach a suspected hazmat scene?",
+      "options": [
+        {
+          "text": "Close enough to read the placard clearly",
+          "rationale": "That is close enough for the placard to matter."
+        },
+        {
+          "text": "Upwind and uphill, well back, using binoculars",
+          "rationale": "Correct — upwind and uphill, well back, using binoculars."
+        },
+        {
+          "text": "From downhill, where vapours rise away",
+          "rationale": "Vapours may collect downhill."
+        },
+        {
+          "text": "Directly, wearing gloves and a mask",
+          "rationale": "Not adequate protection."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-01-Q006",
+      "concept_id": "EMT-08-05-01",
+      "style": "scenario",
+      "stem": "What is the EMT's job at a hazmat incident?",
+      "options": [
+        {
+          "text": "Identify the material and begin treatment",
+          "rationale": "Not at close range and not your role."
+        },
+        {
+          "text": "Recognise, retreat, isolate and notify",
+          "rationale": "Correct — recognise, retreat, isolate and notify."
+        },
+        {
+          "text": "Establish decontamination",
+          "rationale": "That requires trained personnel."
+        },
+        {
+          "text": "Enter to remove patients",
+          "rationale": "Never without training and equipment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-02-Q001",
+      "concept_id": "EMT-08-05-02",
+      "style": "recall",
+      "stem": "What patient care happens in the hot zone?",
+      "options": [
+        {
+          "text": "Primary assessment and airway management",
+          "rationale": "None of that happens there."
+        },
+        {
+          "text": "None beyond removing the patient from it",
+          "rationale": "Correct — none beyond removing the patient from it."
+        },
+        {
+          "text": "Vital signs only",
+          "rationale": "No assessment at all."
+        },
+        {
+          "text": "Whatever the entry team is trained for",
+          "rationale": "Extraction is the task."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-02-Q002",
+      "concept_id": "EMT-08-05-02",
+      "style": "recall",
+      "stem": "What is the warm zone?",
+      "options": [
+        {
+          "text": "A buffer area with no function",
+          "rationale": "It has a specific function."
+        },
+        {
+          "text": "The decontamination corridor between hot and cold",
+          "rationale": "Correct — the decontamination corridor between hot and cold."
+        },
+        {
+          "text": "Where the ambulances stage",
+          "rationale": "That is the cold zone."
+        },
+        {
+          "text": "Where command is established",
+          "rationale": "That is the cold zone."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-02-Q003",
+      "concept_id": "EMT-08-05-02",
+      "style": "recall",
+      "stem": "Where do EMT-level providers work?",
+      "options": [
+        {
+          "text": "The hot zone with appropriate protection",
+          "rationale": "Not without specific training and equipment."
+        },
+        {
+          "text": "The cold zone, unless specifically trained and equipped otherwise",
+          "rationale": "Correct — the cold zone, unless specifically trained and equipped otherwise."
+        },
+        {
+          "text": "The warm zone, performing decontamination",
+          "rationale": "Not without specific training."
+        },
+        {
+          "text": "Wherever the patients are",
+          "rationale": "Zone discipline governs."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-02-Q004",
+      "concept_id": "EMT-08-05-02",
+      "style": "application",
+      "stem": "The wind shifts during an incident. What follows?",
+      "options": [
+        {
+          "text": "Nothing — zones are set at the start",
+          "rationale": "Boundaries are dynamic."
+        },
+        {
+          "text": "The zones move, and treatment, staging and command may all need to relocate",
+          "rationale": "Correct — the zones move, and treatment, staging and command may all need to relocate."
+        },
+        {
+          "text": "Only the hot zone changes",
+          "rationale": "All of them may."
+        },
+        {
+          "text": "The incident is downgraded",
+          "rationale": "No such inference."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-02-Q005",
+      "concept_id": "EMT-08-05-02",
+      "style": "application",
+      "stem": "May a contaminated patient be loaded into the ambulance?",
+      "options": [
+        {
+          "text": "Yes, if they are wrapped",
+          "rationale": "No wrapping makes it acceptable."
+        },
+        {
+          "text": "No — the interior cannot be decontaminated and the vehicle becomes a hazard",
+          "rationale": "Correct — no — the interior cannot be decontaminated and the vehicle becomes a hazard."
+        },
+        {
+          "text": "Yes, if the transport is short",
+          "rationale": "Duration is irrelevant."
+        },
+        {
+          "text": "Yes, with the windows open",
+          "rationale": "Not acceptable."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-02-Q006",
+      "concept_id": "EMT-08-05-02",
+      "style": "scenario",
+      "stem": "How does movement between zones work?",
+      "options": [
+        {
+          "text": "Freely, as the incident requires",
+          "rationale": "Uncontrolled movement spreads the incident."
+        },
+        {
+          "text": "One way — hot, through warm, into cold",
+          "rationale": "Correct — one way — hot, through warm, into cold."
+        },
+        {
+          "text": "Cold to warm for resupply",
+          "rationale": "Not without reprocessing."
+        },
+        {
+          "text": "Whatever is fastest under pressure",
+          "rationale": "Shortcuts are exactly the failure mode."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-03-Q001",
+      "concept_id": "EMT-08-05-03",
+      "style": "recall",
+      "stem": "What is the highest-value first step in decontamination?",
+      "options": [
+        {
+          "text": "Applying copious water",
+          "rationale": "Important, but not first."
+        },
+        {
+          "text": "Removing the patient's clothing",
+          "rationale": "Correct — most of it is on their clothes."
+        },
+        {
+          "text": "Administering oxygen",
+          "rationale": "Not a decontamination step."
+        },
+        {
+          "text": "Bagging belongings",
+          "rationale": "Done, but not the highest-value step."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-03-Q002",
+      "concept_id": "EMT-08-05-03",
+      "style": "application",
+      "stem": "A patient is covered in a dry powder. What do you do first?",
+      "options": [
+        {
+          "text": "Wash it off with copious water",
+          "rationale": "Some materials react with water."
+        },
+        {
+          "text": "Brush or blot it off before applying any water",
+          "rationale": "Correct — dry first, then wet."
+        },
+        {
+          "text": "Cover it with a dressing",
+          "rationale": "Not appropriate."
+        },
+        {
+          "text": "Neutralise it chemically",
+          "rationale": "Never attempted prehospitally."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-03-Q003",
+      "concept_id": "EMT-08-05-03",
+      "style": "recall",
+      "stem": "In which direction do you wash?",
+      "options": [
+        {
+          "text": "From the feet upwards",
+          "rationale": "That washes contaminant over clean areas."
+        },
+        {
+          "text": "From the head downwards",
+          "rationale": "Correct — from the head downwards."
+        },
+        {
+          "text": "From the centre outwards",
+          "rationale": "Not the described method."
+        },
+        {
+          "text": "In whichever order is fastest",
+          "rationale": "Direction matters."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-03-Q004",
+      "concept_id": "EMT-08-05-03",
+      "style": "application",
+      "stem": "When does decontamination happen relative to transport?",
+      "options": [
+        {
+          "text": "En route, to save time",
+          "rationale": "The vehicle cannot be decontaminated."
+        },
+        {
+          "text": "Before the patient enters the ambulance",
+          "rationale": "Correct — before the patient enters the ambulance."
+        },
+        {
+          "text": "At the hospital",
+          "rationale": "Far too late."
+        },
+        {
+          "text": "Partially before and partially after",
+          "rationale": "Not acceptable."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-03-Q005",
+      "concept_id": "EMT-08-05-03",
+      "style": "recall",
+      "stem": "Why protect yourself before treating?",
+      "options": [
+        {
+          "text": "It is a legal requirement",
+          "rationale": "The reason is practical."
+        },
+        {
+          "text": "A contaminated responder cannot treat anybody and becomes a patient",
+          "rationale": "Correct — a contaminated responder cannot treat anybody and becomes a patient."
+        },
+        {
+          "text": "To preserve equipment",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To avoid delaying the hazmat team",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-03-Q006",
+      "concept_id": "EMT-08-05-03",
+      "style": "scenario",
+      "stem": "What should you remember about runoff water?",
+      "options": [
+        {
+          "text": "It is safe once diluted",
+          "rationale": "Dilution does not make it safe."
+        },
+        {
+          "text": "It is contaminated and should be contained where possible",
+          "rationale": "Correct — it is contaminated and should be contained where possible."
+        },
+        {
+          "text": "It evaporates harmlessly",
+          "rationale": "Not a safe assumption."
+        },
+        {
+          "text": "It is the hospital's concern",
+          "rationale": "It is contained on scene where feasible."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

@@ -358,3 +358,25 @@ The midpoints sum to 99, so MED absorbs the rounding — it has the widest range
 and the largest share. These live in one exported constant in `js/simulation.js`
 so they can be corrected in one place when the current NREMT blueprint is
 checked, which the blueprint itself says still needs doing.
+
+## Batch 4 — Module 08 hazmat zones compare card
+
+The batch asked for "a compare card for hazmat zones". There are three zones
+and the compare card schema is strictly two-column (`left_label` /
+`right_label`, with every row filling both sides). Rather than drop a zone or
+invent a third column, the card compares HOT against WARM across the rows that
+actually get confused — who enters, what care is permitted, what happens there,
+whether an EMT belongs there — and its final row, "Beyond both: the COLD ZONE",
+uses the two cells to describe the cold zone rather than to contrast the other
+two. The full three-zone picture also appears in the concept card and the
+concept body, so nothing is lost if the compare card is read alone.
+
+## Batch 4 — the ERG mnemonic
+
+The batch asked for "a mnemonic for ERG use". There is no single standard
+mnemonic for this in the literature. The card uses **YBOG** — Yellow, Blue,
+Orange, Green — over the guidebook's own colour sections, with the memory line
+"Yellow by number · Blue by name · Orange for what to do · Green for how far
+back". The colour-section structure is genuine and standard; the acronym is an
+authoring device rather than a published mnemonic, and the concept's verify note
+flags that the guidebook's section arrangement is revised periodically.

@@ -502,6 +502,131 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-04-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-01-C01",
+      "concept_id": "EMT-08-05-01",
+      "type": "concept",
+      "front": {
+        "title": "Recognising hazmat",
+        "summary": "The one nobody recognised"
+      },
+      "back": {
+        "body": "THE MOST DANGEROUS HAZMAT INCIDENT IS THE ONE NOBODY RECOGNISED — crews walk in, treat patients, and BECOME patients · RECOGNISE FROM A DISTANCE: UPWIND, UPHILL, WELL BACK, THROUGH BINOCULARS — which exist so that reading a placard never requires being close enough for it to matter · CLUES: the OCCUPANCY · CONTAINER SHAPE · PLACARDS AND LABELS · spilled liquid, vapour clouds, unexplained fog, bubbling, DEAD OR DISTRESSED VEGETATION, INSECTS AND ANIMALS · AND THE ONE MOST OFTEN MISSED: SEVERAL PEOPLE WITH THE SAME SYMPTOMS IN THE SAME PLACE — hazmat until proved otherwise, and it presents as medicine · NO ODOUR PROVES NOTHING — many are odourless, some destroy your sense of smell, and if you CAN smell it you are IN it · YOUR JOB: RECOGNISE · RETREAT · ISOLATE · NOTIFY",
+        "why_it_matters": "Somebody stopped at the top of the stairs and said the word out loud. None of them became the fifth."
+      },
+      "high_yield": true,
+      "number": 21,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-05-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-01-C02",
+      "concept_id": "EMT-08-05-01",
+      "type": "mnemonic",
+      "front": {
+        "title": "The guidebook by colour",
+        "summary": "YBOG"
+      },
+      "back": {
+        "body": "WHITE (front and back) — how to use it and what to do first · YELLOW — by FOUR-DIGIT UN NUMBER · BLUE — by NAME · ORANGE — the GUIDE PAGES: fire, spill, first aid, protective clothing · GREEN — INITIAL ISOLATION AND PROTECTIVE ACTION DISTANCES.",
+        "why_it_matters": "Yellow by number · Blue by name · Orange for what to do · Green for how far back."
+      },
+      "high_yield": true,
+      "number": 22,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-05-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-02-C03",
+      "concept_id": "EMT-08-05-02",
+      "type": "concept",
+      "front": {
+        "title": "Zones and scene control",
+        "summary": "One way only"
+      },
+      "back": {
+        "body": "THREE ZONES, AND THE DIVISION IS WHAT STOPS A CONTAINED INCIDENT SPREADING · HOT ZONE: contains the hazard; ONLY TRAINED, PROTECTED PERSONNEL; NO PATIENT CARE BEYOND GETTING THEM OUT — no assessment, no vital signs · WARM ZONE: THE DECONTAMINATION CORRIDOR — contamination reduced, PPE removed IN SEQUENCE; life-saving intervention only, by trained protected people · COLD ZONE: command, staging, TREATMENT, transport, the ambulances — NOTHING CONTAMINATED ENTERS · MOVEMENT IS ONE WAY: HOT → WARM → COLD, never back without reprocessing · EMTs WORK IN THE COLD ZONE unless specifically trained and equipped · BOUNDARIES ARE SET BY HAZARD, WIND AND TERRAIN — IF THE WIND SHIFTS, THE ZONES MOVE, INCLUDING WHERE YOU PARKED · CONTAMINATED PATIENTS NEVER ENTER THE AMBULANCE",
+        "why_it_matters": "Moving the treatment area cost them eight minutes and saved them everything else."
+      },
+      "high_yield": true,
+      "number": 23,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-05-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-02-C04",
+      "concept_id": "EMT-08-05-02",
+      "type": "compare",
+      "front": {
+        "title": "Hot zone vs warm zone",
+        "summary": "And where the cold zone sits"
+      },
+      "back": {
+        "body": "See the comparison rows: what each zone is, who enters, what patient care is permitted, what happens there, whether an EMT works there, direction of movement, what sets the boundary, and the cold zone that lies beyond both.",
+        "why_it_matters": "Hot, warm, cold, one way only. Every shortcut across a boundary makes the incident bigger."
+      },
+      "high_yield": true,
+      "number": 24,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-05-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-03-C05",
+      "concept_id": "EMT-08-05-03",
+      "type": "concept",
+      "front": {
+        "title": "Decontamination",
+        "summary": "Undress them first"
+      },
+      "back": {
+        "body": "REMOVING THE CLOTHING IS THE HIGHEST-VALUE STEP — no equipment, seconds, and MOST OF WHAT LANDED ON THEM IS ON THEIR CLOTHES · DRY FIRST, THEN WET: BRUSH OR BLOT DRY POWDERS OFF BEFORE ANY WATER — some materials REACT with water, and wetting can spread it or drive it into skin · THEN COPIOUS WATER, HEAD DOWNWARDS, protecting the AIRWAY AND EYES · BAG, ISOLATE AND RECORD clothing and belongings — they may identify the substance · DECONTAMINATE BEFORE THE AMBULANCE, NEVER IN IT — an interior cannot be decontaminated, and you would produce a contaminated vehicle, crew and hospital bay · PROTECT YOURSELF FIRST: a contaminated responder treats nobody and becomes a patient · SECONDARY ROUTES: skin, clothing, hair, belongings, VOMIT · RUNOFF IS CONTAMINATED TOO",
+        "why_it_matters": "The guidebook entry, read afterwards, said the material reacted with water."
+      },
+      "high_yield": true,
+      "number": 25,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-05-03. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

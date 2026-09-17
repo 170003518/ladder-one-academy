@@ -52,6 +52,15 @@
         "EMT-08-04-03",
         "EMT-08-04-04"
       ]
+    },
+    {
+      "id": "EMT-08-05",
+      "title": "Hazardous materials",
+      "concepts": [
+        "EMT-08-05-01",
+        "EMT-08-05-02",
+        "EMT-08-05-03"
+      ]
     }
   ],
   "concepts": [
@@ -2871,6 +2880,540 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Triage algorithm figures (START: respiratory rate above 30, capillary refill over 2 seconds or absent radial pulse, ability to follow simple commands; JumpSTART: respiratory rate below 15 or above 45, five rescue breaths) are standard published values for those systems but MUST be confirmed against the current text and against the triage system your own service actually uses, which may differ. No medication names or doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-01",
+      "title": "Recognising a hazmat incident and using the guidebook",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-05-02",
+        "EMT-08-05-03",
+        "EMT-01-02-01"
+      ],
+      "key_points": [
+        "The most dangerous hazmat incident is the one nobody recognised as one",
+        "Recognise from a distance, upwind and uphill, using binoculars rather than proximity",
+        "Clues: the occupancy, the container shape, placards and labels, spilled material, vapour clouds, odours and dead vegetation or animals",
+        "Several people with similar symptoms in the same place is a hazmat presentation until proved otherwise",
+        "Transport placards carry a hazard class number and often a four-digit UN identification number",
+        "Fixed facilities often use a diamond with health, flammability and reactivity ratings and a special-hazard section",
+        "Shipping papers identify the load and are carried in known places on each mode of transport",
+        "The Emergency Response Guidebook turns an identification into an action plan and initial distances",
+        "Yellow finds by number, blue finds by name, orange gives the actions and green gives the distances",
+        "Your job is to recognise, retreat, isolate, and notify — not to identify at close range"
+      ],
+      "misconceptions": [
+        "Approaching to read a placard",
+        "Assuming an absent odour means an absent hazard",
+        "Treating multiple similar patients as a coincidence",
+        "Trying to identify a material at close range"
+      ],
+      "exam_favorites": [
+        "Recognise from a distance",
+        "Multiple similar patients",
+        "The guidebook colours"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The most dangerous hazardous materials incident is the one nobody recognised as one. Crews walk in, treat patients, and become patients. So recognition is the whole skill, and it happens from a distance.\n\nApproach upwind and uphill. Stop well back. Use binoculars — they are on the vehicle for exactly this, and the reason they exist is that reading a placard should never require being close enough for the placard to matter.\n\nThe clues.\n\nThe occupancy: what is this place? Industrial sites, agricultural premises, laboratories, plating shops, pool supply stores, farms with chemical stores. What happens here tells you what might be released here.\n\nThe container shape: tankers and cylinders and drums have shapes that indicate what they hold, and a shape that does not belong — a pressurised cylinder where there should not be one — is information.\n\nPlacards and labels: the diamond-shaped signs on vehicles and containers.\n\nThe physical evidence: spilled liquid, a vapour cloud, unusual odours, fog where there should be none, bubbling or boiling, discoloured surfaces, and dead or distressed vegetation, insects or animals. Dead birds around a scene is a warning that costs nothing to notice.\n\nAnd the clue that gets missed most often, because it presents as medicine rather than as a hazard: several people with similar symptoms in the same place. Multiple patients with the same complaint, in the same building, at the same time, is a hazardous materials or exposure presentation until proved otherwise. It is not a coincidence, it is not food poisoning until you have excluded the alternative, and walking in to treat them is exactly how responders are injured.\n\nBe careful about odours in both directions. An odour tells you something is there. The absence of an odour tells you very little, because many dangerous materials have no smell at all, and some destroy your sense of smell as part of the exposure. And if you can smell it, you are already in it.\n\nOn identification. Transport placards carry a hazard class number indicating the type of danger, and frequently a four-digit UN identification number that specifies the material. Fixed facilities often display a diamond divided into sections — health, flammability and reactivity, each rated on a scale, plus a section for special hazards such as water reactivity. Shipping papers describe the load and live in known places: with the driver in a road vehicle, with the conductor on a train, on the bridge of a vessel.\n\nThen the Emergency Response Guidebook, which turns an identification into an action plan. Its structure is colour-coded and worth knowing cold, because in an incident you want to open it once and land in the right place.\n\nThe white pages at the front and back tell you how to use it and what to do first. The yellow section finds the material by its four-digit UN number. The blue section finds it by name. Both send you to the same orange section, which holds the guide pages: fire, spill, first aid, protective clothing, and what to do in the first minutes. And the green section gives initial isolation and protective action distances for the materials that need them.\n\nSo: yellow by number, blue by name, orange for what to do, green for how far back.\n\nAnd hold on to what your job actually is at an EMT level. Recognise, retreat, isolate, notify. Recognise that this is a hazmat incident, get back and stay back, keep everyone else out, and call the people whose job this is. Identification from a safe distance is useful. Identification from close range is how you become the second call.",
+          "standard": "Unrecognised hazardous materials incidents pose the greatest danger, as responders enter contaminated environments and become casualties. Recognition is performed at distance from an upwind and uphill position using binoculars, as placard legibility should not require hazardous proximity. Recognition indicators comprise occupancy type including industrial, agricultural, laboratory and chemical retail premises; container configuration, with pressurised, tank and drum geometries indicating contents and anomalous containers constituting information; placards and labels; and physical evidence including spilled liquid, vapour clouds, unusual odours, unexplained fog, bubbling, surface discolouration and dead or distressed vegetation, insects or animals. Multiple patients presenting with similar symptoms at a common location constitutes a hazardous materials or exposure presentation pending exclusion and is the most frequently missed indicator. Olfactory evidence is asymmetrically informative: odour presence indicates release, whereas absence excludes little, as many hazardous materials are odourless and some produce olfactory fatigue; perceptible odour indicates existing exposure. Transport placards display a hazard class number and frequently a four-digit UN identification number. Fixed facilities commonly display a sectioned diamond rating health, flammability and reactivity with a special hazards section. Shipping papers are located with the driver in road transport, the conductor in rail transport, and on the bridge in marine transport. The Emergency Response Guidebook is organised by colour: white sections describe use and initial actions; yellow indexes by UN number; blue indexes by name; orange contains guide pages covering fire, spill, first aid and protective clothing; green provides initial isolation and protective action distances. The EMT role comprises recognition, withdrawal, isolation and notification rather than close-range identification."
+        },
+        "eli_new": {
+          "analogy": "Binoculars exist so that reading a placard never requires being close enough for the placard to matter.",
+          "body": "Several people with the same symptoms in the same building at the same time is a hazmat presentation until proved otherwise. It presents as medicine, which is exactly why it gets missed."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to recognise a hazmat incident from a distance and how the guidebook is organised.",
+          "must_hit": [
+            {
+              "point": "The most dangerous incident is the unrecognised one",
+              "accept": [
+                "unrecognis",
+                "unrecogniz",
+                "walk in",
+                "become patients",
+                "dangerous"
+              ]
+            },
+            {
+              "point": "Recognise from a distance, upwind and uphill, using binoculars",
+              "accept": [
+                "distance",
+                "upwind",
+                "uphill",
+                "binocular",
+                "back"
+              ]
+            },
+            {
+              "point": "Clues include occupancy, container shape, placards and physical evidence",
+              "accept": [
+                "occupancy",
+                "container",
+                "placard",
+                "vapour",
+                "dead",
+                "odour"
+              ]
+            },
+            {
+              "point": "Multiple patients with similar symptoms is a hazmat presentation",
+              "accept": [
+                "multiple",
+                "similar",
+                "symptoms",
+                "same",
+                "until proved"
+              ]
+            },
+            {
+              "point": "Absence of odour means very little",
+              "accept": [
+                "odour",
+                "odor",
+                "absence",
+                "odourless",
+                "smell"
+              ]
+            },
+            {
+              "point": "Placards carry a hazard class and often a four-digit UN number",
+              "accept": [
+                "placard",
+                "class",
+                "four-digit",
+                "un number",
+                "identif"
+              ]
+            },
+            {
+              "point": "Yellow by number, blue by name, orange for actions, green for distances",
+              "accept": [
+                "yellow",
+                "blue",
+                "orange",
+                "green",
+                "number",
+                "name",
+                "distance"
+              ]
+            },
+            {
+              "point": "Your job is recognise, retreat, isolate, notify",
+              "accept": [
+                "recognise",
+                "recognize",
+                "retreat",
+                "isolate",
+                "notify"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "All four of them",
+          "dispatch": "Medic 6 — four people unwell in a commercial basement.",
+          "body": "Four patients, one room, the same symptoms, and the call had come in as illness.\n\nSomebody stopped at the top of the stairs and said the word out loud before anyone went down.\n\nThey went back up, called it in, and none of them became the fifth."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "YBOG",
+          "expansion": [
+            "WHITE (front and back) — how to use the book, and what to do in the first minutes",
+            "YELLOW — find it by the FOUR-DIGIT UN NUMBER from the placard or the papers",
+            "BLUE — find it by the NAME of the material",
+            "ORANGE — the GUIDE PAGES: fire, spill, first aid, protective clothing, what to do",
+            "GREEN — INITIAL ISOLATION AND PROTECTIVE ACTION DISTANCES: how far back everybody goes"
+          ],
+          "memory_image": "Yellow by NUMBER · Blue by NAME · Orange for WHAT TO DO · Green for HOW FAR BACK. Both indexes land you in orange; green tells you where to stand while you read it."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm placard systems, the fixed-facility diamond and Emergency Response Guidebook structure against the current text and the current edition of the guidebook, whose section arrangement is revised periodically."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-02",
+      "title": "Zones and scene control",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-05-01"
+      ],
+      "related": [
+        "EMT-08-05-01",
+        "EMT-08-05-03",
+        "EMT-08-04-01"
+      ],
+      "key_points": [
+        "Hazmat scenes are divided into three zones, and the division is what keeps contamination from spreading",
+        "The hot zone contains the hazard, and only trained personnel in appropriate protection enter it",
+        "No patient care happens in the hot zone beyond removing the patient from it",
+        "The warm zone is the decontamination corridor, where contamination is reduced on the way out",
+        "The cold zone is everything beyond: command, staging, treatment and transport, and nothing contaminated enters it",
+        "Movement runs one way — from hot, through warm, into cold — and never back the other way",
+        "EMT-level providers work in the cold zone unless specifically trained and equipped otherwise",
+        "Zone boundaries are set by the hazard, the wind and the terrain, and they can change if the wind changes",
+        "Control entry and exit deliberately, because uncontrolled movement is how a contained incident spreads",
+        "Contaminated patients do not enter the ambulance, and contaminated responders do not enter the cold zone"
+      ],
+      "misconceptions": [
+        "Entering the hot zone without training or protection",
+        "Allowing a contaminated patient into the ambulance",
+        "Treating zone boundaries as fixed regardless of wind",
+        "Letting people move back from cold into warm casually"
+      ],
+      "exam_favorites": [
+        "One-way movement",
+        "EMTs work in the cold zone",
+        "Boundaries move with the wind"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Hazmat scenes are divided into three zones, and that division is the mechanism that stops a contained incident from becoming a spreading one. It is worth understanding as a system rather than as three definitions.\n\nThe hot zone is the area containing the hazard, and it extends far enough out that everything inside it is potentially contaminated. Only personnel who are trained and wearing appropriate protective equipment enter it. And the rule about care is absolute: no patient care happens in the hot zone beyond removing the patient from it. There is no assessment, no treatment, no vital signs. Entry teams get patients out; care begins once they are out.\n\nThe warm zone is the decontamination corridor — the controlled path between hot and cold, where contamination is reduced. This is where decontamination happens, where protective equipment comes off in a defined sequence, and where trained personnel with appropriate protection work. Life-saving interventions may be performed here by appropriately trained and protected people, but it is not where general patient care happens.\n\nThe cold zone is everything beyond, and it is the clean side: command post, staging, the treatment area, the transport area, and the ambulances. Nothing contaminated enters it. That is the entire definition.\n\nThe principle that ties the three together is one-way movement. Hot, through warm, into cold. Never the other direction without going through the whole process again. People and equipment and patients flow one way, and every time somebody shortcuts that — walks back in for a piece of kit, steps out of the corridor early, hands something across a boundary — the incident gets bigger.\n\nWhere do you work? Unless you are specifically trained and equipped for it, you work in the cold zone. That is not a limitation to be apologetic about; it is the correct place for an EMT to be. Your patients arrive to you decontaminated, and you provide the care you would provide to anyone, in the place where it is safe to do so.\n\nZone boundaries are set by the hazard, the wind and the terrain, and the important operational consequence is that they are not fixed. If the wind shifts, the zones move. A cold zone that was safe twenty minutes ago may not be safe now, and the treatment area, the staging area and the command post may all need to move. Somebody must be watching the wind, and everybody must be prepared to relocate.\n\nControl the entry and exit points deliberately. Uncontrolled movement across boundaries is precisely how a contained incident spreads, and it is usually done by well-meaning people in a hurry.\n\nAnd two consequences to hold onto, because they are the ones tested and the ones that matter on scene. Contaminated patients do not enter the ambulance — an ambulance interior is impossible to decontaminate properly and a contaminated vehicle is out of service and a hazard in itself. And contaminated responders do not enter the cold zone. Both rules feel obstructive in the moment, and both exist because somebody previously found out what happens otherwise.",
+          "standard": "Hazardous materials incidents are organised into three control zones, the division constituting the mechanism preventing contamination spread. The hot zone encompasses the hazard and surrounding potentially contaminated area; entry is restricted to trained personnel in appropriate protective equipment. Patient care within the hot zone is limited to extraction; assessment, treatment and vital sign measurement do not occur there. The warm zone constitutes the decontamination corridor, providing a controlled route between hot and cold zones where contamination reduction and sequenced protective equipment removal occur, staffed by trained and protected personnel; life-saving intervention by appropriately trained personnel may occur here, but general patient care does not. The cold zone comprises all remaining area including command post, staging, treatment and transport areas and vehicles, into which no contaminated person, patient or equipment enters. Movement proceeds unidirectionally from hot through warm to cold, with reverse movement requiring full reprocessing; boundary shortcuts including equipment retrieval, premature corridor exit and cross-boundary transfer expand the incident. EMT-level providers operate in the cold zone unless specifically trained and equipped otherwise, receiving decontaminated patients. Zone boundaries are determined by hazard characteristics, wind and terrain and are therefore dynamic; wind shift requires zone relocation, potentially including treatment, staging and command areas, requiring continuous wind monitoring and relocation readiness. Entry and exit points require deliberate control, as uncontrolled boundary movement spreads contained incidents. Contaminated patients do not enter ambulances, as vehicle interiors cannot be adequately decontaminated and contaminated vehicles are both unavailable and hazardous; contaminated responders do not enter the cold zone."
+        },
+        "eli_new": {
+          "analogy": "Hot, warm, cold, one way only. Every shortcut across a boundary makes the incident bigger, and shortcuts are always taken by well-meaning people in a hurry.",
+          "body": "If the wind shifts, the zones move. A cold zone that was safe twenty minutes ago may not be safe now, and that includes wherever you parked."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the three hazmat zones and explain where EMTs work.",
+          "must_hit": [
+            {
+              "point": "Three zones: hot, warm, cold",
+              "accept": [
+                "hot",
+                "warm",
+                "cold",
+                "three",
+                "zone"
+              ]
+            },
+            {
+              "point": "Only trained, protected personnel enter the hot zone",
+              "accept": [
+                "trained",
+                "protect",
+                "equipment",
+                "enter",
+                "hot"
+              ]
+            },
+            {
+              "point": "No patient care in the hot zone beyond removing the patient",
+              "accept": [
+                "no care",
+                "remove",
+                "extract",
+                "only",
+                "hot"
+              ]
+            },
+            {
+              "point": "The warm zone is the decontamination corridor",
+              "accept": [
+                "warm",
+                "decontamination",
+                "corridor",
+                "reduce",
+                "between"
+              ]
+            },
+            {
+              "point": "The cold zone holds command, staging, treatment and transport, and nothing contaminated enters",
+              "accept": [
+                "cold",
+                "command",
+                "staging",
+                "treatment",
+                "transport",
+                "nothing contaminated"
+              ]
+            },
+            {
+              "point": "Movement is one way: hot to warm to cold",
+              "accept": [
+                "one way",
+                "hot",
+                "warm",
+                "cold",
+                "never back"
+              ]
+            },
+            {
+              "point": "EMTs work in the cold zone unless specifically trained",
+              "accept": [
+                "cold zone",
+                "emt",
+                "unless",
+                "trained",
+                "equipped"
+              ]
+            },
+            {
+              "point": "Boundaries move with the wind, and contaminated patients never enter the ambulance",
+              "accept": [
+                "wind",
+                "move",
+                "boundar",
+                "ambulance",
+                "contaminated"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The wind turned",
+          "dispatch": "Command — hazmat incident, treatment area established.",
+          "body": "The treatment area had been in exactly the right place when it was set up.\n\nSomebody with a windsock said, twenty minutes later, that it was no longer the right place.\n\nMoving it cost them eight minutes of confusion and saved them everything else."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "HOT ZONE (exclusion)",
+          "right_label": "WARM ZONE (decontamination corridor)",
+          "rows": [
+            {
+              "feature": "What it is",
+              "left": "The area containing the hazard, extending far enough that EVERYTHING INSIDE IS POTENTIALLY CONTAMINATED",
+              "right": "The CONTROLLED PATH between hot and cold, where contamination is REDUCED on the way out"
+            },
+            {
+              "feature": "Who enters",
+              "left": "ONLY trained personnel in appropriate protective equipment",
+              "right": "Trained, appropriately protected decontamination personnel"
+            },
+            {
+              "feature": "Patient care",
+              "left": "NONE beyond REMOVING THE PATIENT. No assessment, no treatment, no vital signs",
+              "right": "LIFE-SAVING INTERVENTION ONLY, by trained and protected people. Not general care"
+            },
+            {
+              "feature": "What happens there",
+              "left": "Hazard control and patient extraction",
+              "right": "DECONTAMINATION, and protective equipment removal IN SEQUENCE"
+            },
+            {
+              "feature": "Where an EMT works",
+              "left": "NO — unless specifically trained and equipped",
+              "right": "NO — unless specifically trained and equipped"
+            },
+            {
+              "feature": "Direction of movement",
+              "left": "OUT ONLY — into the warm zone",
+              "right": "ONE WAY — hot → warm → cold, never back without reprocessing"
+            },
+            {
+              "feature": "What sets the boundary",
+              "left": "The hazard, the WIND and the terrain — so it MOVES if the wind shifts",
+              "right": "The same — and the corridor moves with it"
+            },
+            {
+              "feature": "Beyond both: the COLD ZONE",
+              "left": "Command post, staging, TREATMENT, transport and the ambulances",
+              "right": "WHERE YOU WORK. NOTHING CONTAMINATED ENTERS IT — not a patient, not a responder, not a piece of kit"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm zone definitions, entry criteria and your own scope in each zone against your local protocol and your service's hazmat plan, which govern who may enter where."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-05-03",
+      "title": "Decontamination and contaminated patients",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-05-02"
+      ],
+      "related": [
+        "EMT-08-05-01",
+        "EMT-08-05-02",
+        "EMT-05-08-01"
+      ],
+      "key_points": [
+        "Decontamination removes or reduces the contaminant before the patient enters the clean side",
+        "Removing clothing removes a large proportion of the contamination and is the highest-value first step",
+        "Brush or blot dry powders off before adding water, because water can activate some materials",
+        "Then wash with copious water, working from the head downwards, protecting the airway and eyes",
+        "Bag and isolate clothing and belongings, and record what was removed",
+        "Decontamination happens before the patient enters the ambulance, not after",
+        "Protect yourself first — a contaminated responder cannot treat anybody",
+        "Consult medical direction and the guidebook, and treat symptoms as your protocol directs",
+        "Avoid becoming a secondary casualty by contact with the patient, their clothing or their vomit",
+        "Runoff water is contaminated too, and it must be contained where the incident allows"
+      ],
+      "misconceptions": [
+        "Adding water to a dry powder before brushing it off",
+        "Loading a contaminated patient to decontaminate en route",
+        "Handling contaminated clothing without protection",
+        "Forgetting that runoff is contaminated"
+      ],
+      "exam_favorites": [
+        "Clothing off first",
+        "Brush dry powders",
+        "Decontaminate before loading"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Decontamination removes or reduces the contaminant before the patient reaches the clean side. It is the process that makes the rest of the care possible.\n\nThe highest-value single step is removing the patient's clothing. It is simple, it needs no equipment, and it removes a large proportion of the contamination in one action, because most of what has landed on a person is on their clothes rather than on them. If you take one thing from this concept, it is that undressing the patient is the intervention.\n\nSequence matters with dry materials. Brush or blot dry powders off before you apply any water. Some materials react with water — including violently — and turning a dry powder into a wet slurry can spread it, drive it into skin, or make it considerably more dangerous. Dry first, then wet.\n\nThen wash with copious amounts of water. Volume is what does the work. Work from the head downwards so you are not washing contaminant over areas already cleaned, and protect the airway and the eyes while you do it — the eyes in particular need irrigation in their own right if they are involved.\n\nBag and isolate the clothing and personal belongings, keep them secure, and record what was removed and where it went. Patients care about their belongings, and the items themselves may be needed for identification of the substance.\n\nDecontamination happens before the patient enters the ambulance. Not on the way. Not partially, with the rest done later. An ambulance interior cannot be decontaminated to any real standard, which means a contaminated patient in the back produces a contaminated vehicle, a contaminated crew, and a contaminated hospital bay at the other end. That single rule prevents an enormous amount of harm.\n\nProtect yourself first, which is worth restating because the instinct fights it. A contaminated responder cannot treat anybody, and instead becomes a patient who consumes resources. That is not selfishness, it is arithmetic.\n\nFor the medicine itself: consult medical direction and the guidebook, and treat symptoms as your protocol directs. The guidebook's orange section carries first aid guidance for the specific material, and medical direction can advise on what the exposure requires. This is one of the clearest cases where the answer is not in your head and is not supposed to be.\n\nStay alert to secondary contamination through the routes people forget: contact with the patient's skin, their clothing, their hair, their belongings, and their vomit. A patient who has ingested or inhaled something may off-gas or may vomit contaminated material, and the person holding the bowl is exposed.\n\nAnd remember that runoff water is contaminated. The water that has just washed a patient is now a hazardous material, and where the incident allows, it should be contained rather than allowed to run into drains or watercourses. That is a hazmat team responsibility rather than yours, but knowing it stops you from making it worse.",
+          "standard": "Decontamination reduces or removes contaminant prior to patient entry into the clean zone. Clothing removal constitutes the highest-yield initial intervention, requiring no equipment and eliminating a substantial proportion of contaminant, as the majority of deposited material resides on clothing rather than skin. Dry contaminants require brushing or blotting prior to water application, as certain materials react with water, potentially violently, and hydration may disperse material, drive it into skin or increase hazard. Irrigation employs copious water volume, proceeding cranially to caudally to avoid recontamination of cleaned areas, with airway and ocular protection maintained and separate ocular irrigation where indicated. Clothing and personal effects are bagged, isolated, secured and documented, as items may be required for substance identification. Decontamination precedes ambulance entry without exception, as vehicle interiors cannot be adequately decontaminated and contaminated transport produces contaminated vehicles, personnel and receiving facilities. Provider self-protection precedes patient care, as a contaminated provider becomes a resource-consuming casualty. Clinical management proceeds by consultation with medical direction and the Emergency Response Guidebook orange section first aid guidance, with symptomatic treatment per protocol. Secondary contamination routes include patient skin, clothing, hair, personal effects and emesis, with off-gassing and contaminated vomitus presenting risk to attending personnel. Runoff water constitutes hazardous material requiring containment where operationally feasible, this being a hazardous materials team responsibility."
+        },
+        "eli_new": {
+          "analogy": "Undressing the patient is the intervention. It takes no equipment, it takes seconds, and most of what landed on them is on their clothes rather than on them.",
+          "body": "Dry first, then wet. Brushing a powder off is safe; adding water to it can make it react, spread it, or drive it into the skin."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how decontamination is performed and what must not happen.",
+          "must_hit": [
+            {
+              "point": "Removing clothing removes a large proportion of contamination",
+              "accept": [
+                "clothing",
+                "remove",
+                "undress",
+                "most",
+                "first"
+              ]
+            },
+            {
+              "point": "Brush dry powders off before applying water",
+              "accept": [
+                "brush",
+                "dry",
+                "powder",
+                "before",
+                "water",
+                "react"
+              ]
+            },
+            {
+              "point": "Wash with copious water from the head downwards",
+              "accept": [
+                "copious",
+                "water",
+                "head",
+                "down",
+                "volume"
+              ]
+            },
+            {
+              "point": "Protect the airway and eyes",
+              "accept": [
+                "airway",
+                "eye",
+                "irrigat",
+                "protect",
+                "during"
+              ]
+            },
+            {
+              "point": "Bag and isolate clothing and belongings and record them",
+              "accept": [
+                "bag",
+                "isolate",
+                "belongings",
+                "record",
+                "secure"
+              ]
+            },
+            {
+              "point": "Decontamination happens before the ambulance, never in it",
+              "accept": [
+                "before",
+                "ambulance",
+                "not in",
+                "interior",
+                "cannot"
+              ]
+            },
+            {
+              "point": "Protect yourself first — a contaminated responder treats nobody",
+              "accept": [
+                "yourself",
+                "first",
+                "contaminated",
+                "responder",
+                "nobody"
+              ]
+            },
+            {
+              "point": "Watch for secondary contamination including vomit, and runoff is contaminated",
+              "accept": [
+                "secondary",
+                "vomit",
+                "off-gas",
+                "runoff",
+                "contain"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Dry first",
+          "dispatch": "Rescue 4 — patient covered in a dry chemical powder.",
+          "body": "Somebody reached for a hose, which is the obvious thing to reach for.\n\nSomebody else said to brush it off first, and they did, with a gloved hand and a soft brush.\n\nThe guidebook entry, read afterwards, said the material reacted with water."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm decontamination sequence, water use and treatment of specific exposures against your local protocol, medical direction and the current Emergency Response Guidebook. No medication names, antidotes or doses appear."
     }
   ]
 }
