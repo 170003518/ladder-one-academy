@@ -76,6 +76,14 @@
         "EMT-05-06-04",
         "EMT-05-06-05"
       ]
+    },
+    {
+      "id": "EMT-05-07",
+      "title": "Genitourinary and renal emergencies",
+      "concepts": [
+        "EMT-05-07-01",
+        "EMT-05-07-02"
+      ]
     }
   ],
   "concepts": [
@@ -4295,6 +4303,326 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the variceal bleeding description and dialysis emergency features against the current text. Fistula precautions should also be checked against local policy. No potassium values are stated; they cannot be measured prehospitally and the figures vary by source."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-01",
+      "title": "Kidney stones, urinary tract infection and retention",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-02-06",
+        "EMT-05-09-03",
+        "EMT-05-06-01"
+      ],
+      "key_points": [
+        "Kidney stone pain is severe, comes in waves, starts in the flank and radiates to the groin, and the patient cannot keep still",
+        "That restlessness is diagnostically useful: stone patients writhe, peritonitis patients lie rigid",
+        "Blood in the urine is common with stones, and a stone patient is often nauseated and vomiting",
+        "Flank pain in an older patient is not automatically a stone — an abdominal aortic aneurysm can present the same way",
+        "Urinary tract infection gives burning on passing urine, going often, urgency, and cloudy or smelly urine",
+        "In older patients a urinary infection often presents as confusion with none of the urinary symptoms at all",
+        "Infection that has reached the kidney adds fever, flank pain and feeling systemically unwell, and can progress to sepsis",
+        "Urinary retention is the inability to pass urine with an increasingly painful, distended lower abdomen, and it is genuinely agonising"
+      ],
+      "misconceptions": [
+        "Assuming flank pain in an older patient is a stone without considering an aneurysm",
+        "Dismissing confusion in an older patient as dementia without considering infection",
+        "Underestimating retention pain because it sounds minor",
+        "Missing sepsis in a patient with a urinary infection"
+      ],
+      "exam_favorites": [
+        "Stone pain: flank to groin, and the patient cannot keep still",
+        "Urinary infection presenting as confusion in older patients",
+        "Flank pain and the aneurysm trap"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Three urinary problems, and each has one detail that changes what you do.\n\nKidney stones produce some of the worst pain in medicine. It starts in the flank, radiates down and forwards to the groin, and comes in waves as the stone moves. The patients are nauseated and often vomiting, and there is frequently blood in the urine.\n\nThe finding worth noticing is behavioural. A stone patient cannot keep still. They pace, they writhe, they change position constantly, they cannot get comfortable anywhere. That is genuinely useful, because it is the opposite of the peritonitis patient who lies rigid and still. Restless is colic; motionless is peritoneal.\n\nNow the trap, and it is one that kills people. Flank pain in an older patient is not automatically a stone. A leaking abdominal aortic aneurysm presents exactly this way — flank or back pain, sometimes radiating to the groin — and if someone over about fifty has a first-ever episode of flank pain, particularly with any hint of shock, that possibility has to be in your mind and in your handover. A first stone at sixty-five is much less likely than a first stone at twenty-five.\n\nUrinary tract infections in younger adults are straightforward: burning, going often, urgency, cloudy or offensive urine, sometimes low abdominal discomfort.\n\nIn older patients the whole thing changes. A urinary infection in an elderly person very commonly presents as confusion, or being off their feet, or just not being themselves — with no burning, no urgency, nothing urinary at all. This is one of the commonest causes of new confusion in older people, and it gets written off as dementia or as 'a bit muddled' constantly. If family tell you a confused older person is not normally like this, an infection is high on the list.\n\nWhen infection reaches the kidney it adds fever, flank pain, rigors and feeling genuinely unwell, and from there it can progress to sepsis. Take vital signs seriously in anybody with a urinary infection and a fever.\n\nRetention is the third. The patient cannot pass urine, the bladder keeps filling, and it becomes agonising. There is a firm, tender, distended swelling above the pubic bone. It sounds like a minor complaint on a dispatch card and it is one of the more painful things you will attend. Take it seriously, be gentle with the abdomen, and get them somewhere it can be relieved.",
+          "standard": "Renal colic produces severe, colicky flank pain radiating to the groin, accompanied by haematuria, nausea and vomiting. Motor restlessness is characteristic and contrasts diagnostically with the immobility of peritoneal irritation. Flank pain in older patients requires consideration of abdominal aortic aneurysm, which may present identically; first presentation of flank pain in an older patient warrants heightened suspicion. Lower urinary tract infection presents with dysuria, frequency, urgency and cloudy or malodorous urine. In geriatric patients, urinary infection frequently presents as acute confusion or functional decline without urinary symptoms, constituting a common cause of new-onset delirium. Upper tract involvement adds fever, flank pain and systemic illness, with potential progression to sepsis. Urinary retention presents as inability to void with a progressively distended, tender suprapubic bladder and severe pain."
+        },
+        "eli_new": {
+          "analogy": "Stone pain is a patient who cannot sit down. Peritonitis is a patient who will not move at all. You can read both from the doorway.",
+          "body": "The one that gets missed: an older person who is suddenly confused, with no urinary symptoms at all, may well have a urinary infection. The absence of burning proves nothing in that age group, and 'they're just getting confused' is a conclusion, not an assessment."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe kidney stone pain, explain how urinary infection presents in older patients, and name the flank pain trap.",
+          "must_hit": [
+            {
+              "point": "Flank pain radiating to the groin, in waves, with blood in the urine",
+              "accept": [
+                "flank",
+                "groin",
+                "wave",
+                "colic",
+                "blood",
+                "urine",
+                "haematuria"
+              ]
+            },
+            {
+              "point": "Stone patients cannot keep still, unlike peritonitis",
+              "accept": [
+                "still",
+                "restless",
+                "writh",
+                "move",
+                "periton"
+              ]
+            },
+            {
+              "point": "Flank pain in an older patient may be an aortic aneurysm",
+              "accept": [
+                "aneurysm",
+                "aorta",
+                "older",
+                "elderly",
+                "aaa"
+              ]
+            },
+            {
+              "point": "Younger adults: burning, frequency, urgency, cloudy urine",
+              "accept": [
+                "burn",
+                "frequen",
+                "urgen",
+                "cloudy",
+                "dysuria"
+              ]
+            },
+            {
+              "point": "Older patients often present with confusion and no urinary symptoms",
+              "accept": [
+                "confus",
+                "older",
+                "elderly",
+                "no symptoms",
+                "delirium"
+              ]
+            },
+            {
+              "point": "Retention is agonising with a distended tender bladder",
+              "accept": [
+                "retention",
+                "distend",
+                "bladder",
+                "pubic",
+                "pain"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She's just getting muddled",
+          "dispatch": "Medic 8 — 84-year-old female, confused, care home request.",
+          "body": "The staff said she had been getting muddled for a while and today was worse, and nobody had thought of it as a medical problem.\n\nHer daughter, arriving later, said this was nothing like her — she had been doing the crossword on Sunday.\n\nNo burning, no urgency, nothing urinary at all. In her age group that absence means precisely nothing."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the renal colic presentation, the geriatric urinary infection presentation, and the aneurysm caution against the current text. No antibiotic names or doses are stated; treatment is outside EMT scope."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-02",
+      "title": "Renal failure and dialysis emergencies",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-06-05"
+      ],
+      "related": [
+        "EMT-05-06-05",
+        "EMT-04-04-01",
+        "EMT-02-05-01"
+      ],
+      "key_points": [
+        "Failing kidneys stop clearing waste, stop managing fluid, and stop regulating electrolytes",
+        "Acute kidney injury comes on over hours to days and is often reversible; chronic kidney disease is permanent and progressive",
+        "Dialysis does the job artificially, usually three times a week, and each session removes days of accumulated fluid and waste",
+        "The two emergencies around dialysis are missing it and complications of the session itself",
+        "Missing sessions causes fluid overload — breathlessness, swelling, unable to lie flat — and rising potassium, which causes fatal rhythms",
+        "Complications during or just after dialysis include low blood pressure, cramps, dizziness and collapse, from removing fluid too quickly",
+        "A dialysis patient who feels unwell just after a session has usually had too much fluid removed; one who feels unwell before it has usually had too little",
+        "The fistula rules apply absolutely: no blood pressure, no access, and firm sustained pressure if it bleeds",
+        "Every dialysis patient is fragile, and the question that orients the whole call is when they last dialysed"
+      ],
+      "misconceptions": [
+        "Treating a breathless dialysis patient as a straightforward chest problem",
+        "Using the fistula arm because the other one is awkward to reach",
+        "Not asking when the last session was",
+        "Assuming a post-dialysis collapse is cardiac without considering fluid removal"
+      ],
+      "exam_favorites": [
+        "Acute versus chronic kidney failure",
+        "Overload before a session, hypotension after one",
+        "The fistula rules",
+        "When did you last dialyse"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Kidneys do three jobs: clear waste, manage fluid balance, and keep electrolytes in range. When they fail, all three stop, and the consequences arrive in that order of visibility — you will see the fluid problem, you will not see the electrolyte problem until it kills someone.\n\nThere are two kinds of failure. Acute kidney injury develops over hours or days, often from dehydration, infection, shock or a medication, and it is frequently reversible if the cause is dealt with. Chronic kidney disease is permanent and gets slowly worse, and eventually reaches the point where the kidneys cannot sustain life without help.\n\nThat help is dialysis, usually three sessions a week, each taking hours. Each session pulls out several days' worth of accumulated fluid and waste. Understanding that rhythm explains almost every dialysis emergency you will attend, because the emergencies cluster at the two ends of it.\n\nBefore a session, or after a missed one, the patient is overloaded. Too much fluid, too much potassium. They are breathless, their legs are swollen, they cannot lie flat, and their chest sounds wet. It looks like heart failure and it is treated as a fluid problem. The potassium is the part you cannot see and cannot measure, and it causes fatal rhythm disturbances with very little warning. A patient who has missed two sessions is a fragile patient regardless of how they look.\n\nAfter a session the problem reverses. Too much fluid has come off, or it came off too fast, and now the patient is hypotensive, cramping, dizzy, or has collapsed in the dialysis unit car park. Same patient, opposite problem, and the timing is what tells you which one you have.\n\nSo one question orients the entire call: when did you last dialyse? Before it, think overload. Just after it, think too much off. That single answer reframes everything you then find.\n\nAnd the fistula rules stand, absolutely, on every dialysis call regardless of why you were sent. No blood pressure cuff on that arm. Nothing inserted into it. If it bleeds, firm sustained direct pressure and do not keep lifting it to check. That fistula is the patient's lifeline and clotting it off is a real injury, not a technicality.",
+          "standard": "Renal failure impairs excretion of nitrogenous waste, fluid balance regulation and electrolyte homeostasis. Acute kidney injury develops over hours to days, commonly secondary to hypovolaemia, sepsis, hypoperfusion or nephrotoxic agents, and is frequently reversible. Chronic kidney disease is progressive and irreversible, ultimately requiring renal replacement therapy. Haemodialysis is typically performed three times weekly, each session removing accumulated fluid and solute. Emergencies cluster at either end of the dialysis interval. Pre-dialysis or following missed sessions, patients present with volume overload — dyspnoea, peripheral oedema, orthopnoea, pulmonary crackles — and hyperkalaemia, which produces fatal dysrhythmia without reliable prodrome and cannot be assessed prehospitally. Post-dialysis, excessive or overly rapid ultrafiltration produces hypotension, cramping, dizziness and syncope. Temporal relationship to the last session is the orienting historical question. Arteriovenous fistula precautions apply universally: no blood pressure measurement, no vascular access, and sustained direct pressure without release for haemorrhage."
+        },
+        "eli_new": {
+          "analogy": "Dialysis is a tide that comes in over three days and goes out in four hours. The emergencies happen at high tide and at low tide, and the clock tells you which one you are looking at.",
+          "body": "One question does most of the work on any dialysis call: when did you last dialyse? Before it, they are probably too full. Just after it, they are probably too empty. The same patient produces opposite emergencies depending on where in the week you meet them."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what dialysis does, the two emergencies around it, and the fistula rules.",
+          "must_hit": [
+            {
+              "point": "Kidneys clear waste, manage fluid and regulate electrolytes",
+              "accept": [
+                "waste",
+                "fluid",
+                "electrolyte",
+                "potassium",
+                "balance"
+              ]
+            },
+            {
+              "point": "Acute injury is often reversible; chronic disease is permanent",
+              "accept": [
+                "acute",
+                "chronic",
+                "reversible",
+                "permanent",
+                "progressive"
+              ]
+            },
+            {
+              "point": "Missing dialysis causes fluid overload and rising potassium",
+              "accept": [
+                "missed",
+                "overload",
+                "breathless",
+                "swollen",
+                "potassium"
+              ]
+            },
+            {
+              "point": "Too much fluid removed causes hypotension, cramps and collapse after a session",
+              "accept": [
+                "hypotens",
+                "cramp",
+                "collapse",
+                "dizzy",
+                "after",
+                "removed"
+              ]
+            },
+            {
+              "point": "When did you last dialyse is the orienting question",
+              "accept": [
+                "when",
+                "last",
+                "dialyse",
+                "dialyze",
+                "session"
+              ]
+            },
+            {
+              "point": "No blood pressure or access on the fistula arm; firm pressure if it bleeds",
+              "accept": [
+                "fistula",
+                "blood pressure",
+                "access",
+                "pressure",
+                "arm"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "In the car park",
+          "dispatch": "Medic 2 — collapse outside the renal unit, patient conscious.",
+          "body": "He had walked out of his session twenty minutes earlier, got to his car, and gone down beside it.\n\nThe crew's first thought was cardiac, because a collapse in a man of sixty usually is.\n\nHe had come off the machine four litres lighter than he went on. Twenty minutes earlier, in the same car park, the answer would have been the opposite problem."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Before dialysis / missed session",
+          "right_label": "Just after dialysis",
+          "rows": [
+            {
+              "feature": "The problem",
+              "left": "Too much fluid and too much potassium",
+              "right": "Too much fluid removed, or removed too fast"
+            },
+            {
+              "feature": "Breathing",
+              "left": "Breathless, wet chest, cannot lie flat",
+              "right": "Usually unaffected"
+            },
+            {
+              "feature": "Legs and face",
+              "left": "Swollen",
+              "right": "Less swollen than usual"
+            },
+            {
+              "feature": "Blood pressure",
+              "left": "Often raised",
+              "right": "Low"
+            },
+            {
+              "feature": "Other findings",
+              "left": "Rising potassium you cannot measure — fatal rhythms with little warning",
+              "right": "Cramps, dizziness, collapse"
+            },
+            {
+              "feature": "The orienting question",
+              "left": "When did you last dialyse? Answer: a while ago, or missed",
+              "right": "When did you last dialyse? Answer: today, just now"
+            },
+            {
+              "feature": "Field management",
+              "left": "Sit up if breathless, oxygen as indicated, expedite — they need the machine",
+              "right": "Lay flat, oxygen as indicated, expedite — they need volume"
+            },
+            {
+              "feature": "Always",
+              "left": "No BP or access on the fistula arm",
+              "right": "No BP or access on the fistula arm"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the acute versus chronic kidney failure descriptions, dialysis complication patterns and fistula precautions against the current text and local policy. No potassium values or dialysis parameters are stated."
     }
   ]
 }

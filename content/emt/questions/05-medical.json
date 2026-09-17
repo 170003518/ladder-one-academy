@@ -4322,6 +4322,366 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-01-Q001",
+      "concept_id": "EMT-05-07-01",
+      "style": "recall",
+      "stem": "How does a patient with kidney stone pain typically behave?",
+      "options": [
+        {
+          "text": "Lies completely still because movement worsens the pain",
+          "rationale": "That is the peritonitis picture."
+        },
+        {
+          "text": "Cannot keep still — pacing, writhing, changing position constantly",
+          "rationale": "Correct. Restlessness is characteristic of colic."
+        },
+        {
+          "text": "Sits upright leaning forward",
+          "rationale": "That posture belongs to other presentations."
+        },
+        {
+          "text": "Sleeps through the pain",
+          "rationale": "Renal colic is among the most severe pain in medicine."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-01-Q002",
+      "concept_id": "EMT-05-07-01",
+      "style": "application",
+      "stem": "A 68-year-old has a first-ever episode of flank pain radiating to the groin. What must be considered?",
+      "options": [
+        {
+          "text": "Only a kidney stone, given the classic radiation",
+          "rationale": "A first stone at that age is much less likely than at twenty-five."
+        },
+        {
+          "text": "Abdominal aortic aneurysm, which can present identically",
+          "rationale": "Correct. This is the flank pain trap that kills people."
+        },
+        {
+          "text": "Muscular back strain",
+          "rationale": "Does not explain the radiation pattern in this age group."
+        },
+        {
+          "text": "Constipation",
+          "rationale": "Does not fit the presentation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-01-Q003",
+      "concept_id": "EMT-05-07-01",
+      "style": "recall",
+      "stem": "How does urinary tract infection commonly present in an older patient?",
+      "options": [
+        {
+          "text": "With severe burning and urgency, as in younger adults",
+          "rationale": "Those symptoms are frequently absent in this age group."
+        },
+        {
+          "text": "As new confusion, often with no urinary symptoms at all",
+          "rationale": "Correct. It is a common cause of new delirium in older people."
+        },
+        {
+          "text": "With chest pain",
+          "rationale": "Not a urinary presentation."
+        },
+        {
+          "text": "It does not occur in older patients",
+          "rationale": "It is more common, not less."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-01-Q004",
+      "concept_id": "EMT-05-07-01",
+      "style": "application",
+      "stem": "Family say a confused 84-year-old was doing crosswords on Sunday. How does that change your assessment?",
+      "options": [
+        {
+          "text": "It confirms the confusion is long-standing dementia",
+          "rationale": "It establishes the opposite."
+        },
+        {
+          "text": "It establishes an acute change from baseline, making an infective cause likely",
+          "rationale": "Correct. Baseline from family is diagnostic information."
+        },
+        {
+          "text": "It is not clinically relevant",
+          "rationale": "It is among the most relevant things you will be told."
+        },
+        {
+          "text": "It means no assessment is needed",
+          "rationale": "It makes assessment more urgent, not less."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-01-Q005",
+      "concept_id": "EMT-05-07-01",
+      "style": "recall",
+      "stem": "What suggests infection has reached the kidney rather than the bladder?",
+      "options": [
+        {
+          "text": "Cloudy urine alone",
+          "rationale": "Cloudy urine occurs with lower tract infection too."
+        },
+        {
+          "text": "Fever, flank pain and feeling systemically unwell",
+          "rationale": "Correct. Upper tract involvement can progress to sepsis."
+        },
+        {
+          "text": "Passing urine more often",
+          "rationale": "Frequency is a lower tract symptom."
+        },
+        {
+          "text": "Mild burning only",
+          "rationale": "Burning alone points at the lower tract."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-01-Q006",
+      "concept_id": "EMT-05-07-01",
+      "style": "scenario",
+      "stem": "How should urinary retention be regarded?",
+      "options": [
+        {
+          "text": "A minor complaint that can wait",
+          "rationale": "It is one of the more painful conditions you will attend."
+        },
+        {
+          "text": "Genuinely agonising, with a distended tender bladder needing relief",
+          "rationale": "Correct. Be gentle with the abdomen and transport."
+        },
+        {
+          "text": "A psychiatric presentation",
+          "rationale": "It is a physical obstruction."
+        },
+        {
+          "text": "Something to resolve with oral fluids",
+          "rationale": "More fluid makes a retained bladder worse."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-02-Q001",
+      "concept_id": "EMT-05-07-02",
+      "style": "recall",
+      "stem": "What distinguishes acute kidney injury from chronic kidney disease?",
+      "options": [
+        {
+          "text": "Acute is permanent; chronic is reversible",
+          "rationale": "That is the wrong way round."
+        },
+        {
+          "text": "Acute develops over hours to days and is often reversible; chronic is permanent and progressive",
+          "rationale": "Correct. Onset speed and reversibility are what separate them."
+        },
+        {
+          "text": "They are two terms for the same condition",
+          "rationale": "They are distinct in onset and reversibility."
+        },
+        {
+          "text": "Acute only occurs in children",
+          "rationale": "Acute kidney injury occurs at any age."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-02-Q002",
+      "concept_id": "EMT-05-07-02",
+      "style": "application",
+      "stem": "A dialysis patient collapses in the car park twenty minutes after a session. What should you consider first?",
+      "options": [
+        {
+          "text": "Hyperkalaemia from missed dialysis",
+          "rationale": "They have just dialysed; potassium will have been lowered."
+        },
+        {
+          "text": "Hypotension from too much fluid removed, or removed too quickly",
+          "rationale": "Correct. The timing points at the opposite problem to overload."
+        },
+        {
+          "text": "Fluid overload",
+          "rationale": "They have just had fluid taken off."
+        },
+        {
+          "text": "Dehydration from not drinking",
+          "rationale": "The fluid shift from the session is the more likely explanation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-02-Q003",
+      "concept_id": "EMT-05-07-02",
+      "style": "recall",
+      "stem": "Why is rising potassium in a patient who has missed dialysis so dangerous?",
+      "options": [
+        {
+          "text": "It causes severe pain",
+          "rationale": "Rising potassium is not primarily painful."
+        },
+        {
+          "text": "It causes fatal rhythm disturbances with little warning and cannot be measured prehospitally",
+          "rationale": "Correct. It is the part of the picture you cannot see."
+        },
+        {
+          "text": "It causes rapid weight gain",
+          "rationale": "Fluid causes the weight gain, not potassium."
+        },
+        {
+          "text": "It causes the fistula to clot",
+          "rationale": "Not the mechanism of danger."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-02-Q004",
+      "concept_id": "EMT-05-07-02",
+      "style": "application",
+      "stem": "What single question best orients a dialysis call?",
+      "options": [
+        {
+          "text": "What medications do they take?",
+          "rationale": "Useful, but not the orienting question."
+        },
+        {
+          "text": "When did they last dialyse?",
+          "rationale": "Correct. Before it suggests overload; just after suggests too much removed."
+        },
+        {
+          "text": "Do they have a cardiac history?",
+          "rationale": "Relevant background but not the orienting question."
+        },
+        {
+          "text": "How long have they been on dialysis?",
+          "rationale": "Useful context, not the orienting question."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-02-Q005",
+      "concept_id": "EMT-05-07-02",
+      "style": "recall",
+      "stem": "On which calls do the fistula precautions apply?",
+      "options": [
+        {
+          "text": "Only on calls related to dialysis problems",
+          "rationale": "They apply on every call, whatever the reason."
+        },
+        {
+          "text": "Every call involving a dialysis patient, regardless of the reason for the call",
+          "rationale": "Correct. The fistula is the patient's lifeline at all times."
+        },
+        {
+          "text": "Only when the fistula is visibly bleeding",
+          "rationale": "Precautions exist to prevent harm, not just respond to it."
+        },
+        {
+          "text": "Only if the patient reminds you",
+          "rationale": "The responsibility is yours."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-07-02-Q006",
+      "concept_id": "EMT-05-07-02",
+      "style": "scenario",
+      "stem": "How should a breathless, overloaded dialysis patient be positioned?",
+      "options": [
+        {
+          "text": "Flat, to maximise perfusion",
+          "rationale": "Flat worsens breathlessness in fluid overload."
+        },
+        {
+          "text": "Sitting up, with oxygen as indicated",
+          "rationale": "Correct. Upright helps a patient who is fluid overloaded and breathless."
+        },
+        {
+          "text": "Prone",
+          "rationale": "Not appropriate."
+        },
+        {
+          "text": "Head down",
+          "rationale": "Worsens the breathlessness."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
