@@ -352,6 +352,156 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-03-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-01-C01",
+      "concept_id": "EMT-08-04-01",
+      "type": "concept",
+      "front": {
+        "title": "Incident command",
+        "summary": "One plan, one commander"
+      },
+      "back": {
+        "body": "A STANDARD STRUCTURE FOR ANY INCIDENT, from a two-car collision to a disaster · PURPOSE: ONE PLAN · CLEAR ROLES · A SPAN OF CONTROL A HUMAN CAN MANAGE · EXACTLY ONE PERSON IS IN COMMAND — identified, known, and TRANSFERRED FORMALLY when it changes. Command that drifts is command nobody holds · SPAN OF CONTROL ≈ 3 TO 7 (5 as the working number) — exceed it and you add a LAYER. That is arithmetic about attention, not bureaucracy · PLAIN LANGUAGE, NOT AGENCY CODES — your code may mean nothing to the fire crew on the same channel · UNIFIED COMMAND when an incident crosses agencies · YOU TAKE ASSIGNMENTS FROM ONE SUPERVISOR ONLY · REPORT IN → TAKE THE ASSIGNMENT → WORK IN IT → REPORT BACK · FREELANCING IS THE DANGER, and it is always well intentioned",
+        "why_it_matters": "One name did not come back, and for ninety seconds nobody could say where he was."
+      },
+      "high_yield": true,
+      "number": 15,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-04-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-02-C02",
+      "concept_id": "EMT-08-04-02",
+      "type": "concept",
+      "front": {
+        "title": "Multiple casualty incidents",
+        "summary": "The first crew treats nobody"
+      },
+      "back": {
+        "body": "AN MCI IS PATIENTS EXCEEDING THE RESOURCES IMMEDIATELY AVAILABLE — RELATIVE, NOT A NUMBER. Three patients IS an MCI for one ambulance an hour from anywhere · THE FIRST UNIT SIZES UP, DECLARES, REQUESTS AND TAKES COMMAND — IT TREATS NOBODY. Start treating and you have removed the only person who could organise this · INITIAL REPORT: location · what happened · APPROXIMATE numbers · hazards · access. Rough and early beats accurate and late · REQUEST EARLY AND GENEROUSLY — cancelling is cheap, under-calling is not · ROLES BY FUNCTION: TRIAGE · TREATMENT · TRANSPORT · STAGING · STAGING stops units self-deploying and vanishing into the incident · RECORD WHO WENT WHERE — it cannot be reconstructed afterwards · THE AIM SHIFTS: THE MOST GOOD FOR THE MOST PATIENTS",
+        "why_it_matters": "He walked past the man holding his arm. He said it was the hardest thirty seconds of his career."
+      },
+      "high_yield": true,
+      "number": 16,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-04-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-03-C03",
+      "concept_id": "EMT-08-04-03",
+      "type": "concept",
+      "front": {
+        "title": "START triage",
+        "summary": "Fast, not accurate"
+      },
+      "back": {
+        "body": "SIMPLE TRIAGE AND RAPID TREATMENT — BUILT TO BE FAST RATHER THAN RIGHT, and that trade is deliberate · SECONDS PER PATIENT, NOT MINUTES · ONLY THREE INTERVENTIONS: OPEN THE AIRWAY · CONTROL MAJOR BLEEDING · MOVE ON. Anything else means you have stopped triaging · 1. CAN THEY WALK? → MINOR. This one step often removes most of the problem in fifteen seconds · 2. BREATHING? If not, OPEN THE AIRWAY — breathing now = IMMEDIATE, still not = DECEASED · 3. RATE ABOVE 30? → IMMEDIATE · 4. NO RADIAL PULSE or REFILL OVER 2 SECONDS? → IMMEDIATE · 5. CANNOT FOLLOW A SIMPLE COMMAND? → IMMEDIATE, otherwise DELAYED · TRIAGE IS REPEATED — A TAG IS A SNAPSHOT, NOT A VERDICT",
+        "why_it_matters": "Nineteen people stood up and walked to the fence. What was left was a problem you can work."
+      },
+      "high_yield": true,
+      "number": 17,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-04-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-03-C04",
+      "concept_id": "EMT-08-04-03",
+      "type": "algorithm",
+      "front": {
+        "title": "START",
+        "summary": "The five steps"
+      },
+      "back": {
+        "body": "Walk → MINOR. Not walking → breathing? Not breathing → open the airway → breathing = IMMEDIATE, still not = DECEASED. Breathing → rate above 30 = IMMEDIATE → no radial pulse or refill over 2 seconds = IMMEDIATE → cannot follow commands = IMMEDIATE, can follow = DELAYED. Control major bleeding when you find it.",
+        "why_it_matters": "Three interventions only. Airway, bleeding, move on."
+      },
+      "high_yield": true,
+      "number": 18,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-04-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-04-C05",
+      "concept_id": "EMT-08-04-04",
+      "type": "concept",
+      "front": {
+        "title": "JumpSTART",
+        "summary": "The five breaths"
+      },
+      "back": {
+        "body": "THE PAEDIATRIC VERSION, because CHILDREN ARREST FROM RESPIRATORY CAUSES — an apnoeic child may have a perfectly good heart that just needs air · Looks like a child, use JumpSTART; looks like an adult, use START. Do not deliberate · WALKING → MINOR — but INFANTS TOO YOUNG TO WALK ARE CARRIED THERE AND ASSESSED, because the walking logic does not apply to someone who never walked · NOT BREATHING → OPEN THE AIRWAY → breathing = IMMEDIATE · STILL NOT BREATHING → CHECK A PULSE: NO PULSE = DECEASED · PULSE BUT NO BREATHING → GIVE FIVE RESCUE BREATHS — THIS IS THE WHOLE POINT OF JUMPSTART · Breathing after = IMMEDIATE, still apnoeic = DECEASED · RATE BELOW 15 OR ABOVE 45 = IMMEDIATE (slow matters as much as fast) · NO PERIPHERAL PULSE = IMMEDIATE · AVPU: POSTURING OR UNRESPONSIVE = IMMEDIATE, otherwise DELAYED",
+        "why_it_matters": "The child was breathing by the fourth one."
+      },
+      "high_yield": true,
+      "number": 19,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-04-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-04-C06",
+      "concept_id": "EMT-08-04-04",
+      "type": "algorithm",
+      "front": {
+        "title": "JumpSTART",
+        "summary": "Paediatric triage"
+      },
+      "back": {
+        "body": "Walk → MINOR (infants too young to walk are carried there and assessed). Not breathing → open the airway → breathing = IMMEDIATE; still not → pulse? No pulse = DECEASED; pulse present → FIVE RESCUE BREATHS → breathing = IMMEDIATE, still apnoeic = DECEASED. Breathing → rate below 15 or above 45 = IMMEDIATE → no peripheral pulse = IMMEDIATE → AVPU: posturing or unresponsive = IMMEDIATE, otherwise DELAYED.",
+        "why_it_matters": "Pulse but no breathing means five breaths. That is the difference."
+      },
+      "high_yield": true,
+      "number": 20,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 8,
+        "module_name": "Operations"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-08-04-04. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

@@ -42,6 +42,16 @@
         "EMT-08-03-01",
         "EMT-08-03-02"
       ]
+    },
+    {
+      "id": "EMT-08-04",
+      "title": "Incident management and triage",
+      "concepts": [
+        "EMT-08-04-01",
+        "EMT-08-04-02",
+        "EMT-08-04-03",
+        "EMT-08-04-04"
+      ]
     }
   ],
   "concepts": [
@@ -1921,6 +1931,946 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm extrication roles, spinal stabilisation practice and removal decisions against the current text and your local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-01",
+      "title": "The incident command system",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-04-02",
+        "EMT-08-06-01",
+        "EMT-08-01-01"
+      ],
+      "key_points": [
+        "The incident command system is a standard structure for organising any incident, large or small",
+        "Its purpose is one plan, clear roles and a manageable span of control",
+        "There is always exactly one person in command, and command is formally transferred rather than drifting",
+        "Span of control means one supervisor oversees a manageable number of people, commonly cited as around three to seven",
+        "Common terminology matters — plain language rather than agency-specific codes, so everyone understands",
+        "The system scales: a small incident may be one person, a large one has sections and branches",
+        "Unified command lets several agencies command together when an incident crosses their responsibilities",
+        "You report to one supervisor and you receive assignments from that person only",
+        "Report in, take your assignment, work within it, and report back — freelancing is the danger",
+        "Accountability means command knows who is on scene and where they are, which matters when things go wrong"
+      ],
+      "misconceptions": [
+        "Freelancing rather than working within an assignment",
+        "Taking direction from several people at once",
+        "Using agency-specific radio codes at a multi-agency incident",
+        "Leaving command ambiguous or unannounced"
+      ],
+      "exam_favorites": [
+        "One person in command",
+        "Span of control",
+        "Do not freelance"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The incident command system is a standard structure for organising an incident — any incident, from a two-vehicle collision to a disaster. It is worth learning properly because it is used by every agency you will work alongside, and because most of it is common sense with names attached.\n\nIts purpose is three things: one plan, clear roles, and a span of control that a human being can actually manage.\n\nStart with command. There is always exactly one person in command of an incident. Not a committee, not whoever happens to be most senior, and not everybody a bit. One person, identified, and known to everyone on scene. When command changes — because someone more appropriate arrives, or the first person hands over — it is transferred formally and announced, with a proper briefing. Command that drifts quietly from one person to another is command that nobody actually holds.\n\nSpan of control is the idea that one supervisor can only effectively oversee a limited number of people. The commonly cited range is around three to seven, with five often given as the working number. When more people or more tasks arrive than that, the structure grows: you add another level, so each supervisor stays within a manageable span. That is the whole reason large incidents develop layers — not bureaucracy, but arithmetic about attention.\n\nCommon terminology is a genuinely important and frequently overlooked principle. Everyone uses plain language rather than agency-specific radio codes. A code that means one thing to your service may mean something different or nothing at all to the fire crew and the police on the same channel, and on a bad day that ambiguity costs time or lives. Say what you mean in words.\n\nThe system scales in both directions. A small incident might be one person doing everything, which is still incident command. A large one develops sections and branches with defined responsibilities. The structure grows to fit the incident rather than the incident being forced into a structure.\n\nUnified command exists for incidents that cross agency responsibilities — a vehicle fire with casualties on a highway involves fire, EMS, police and the highway authority, and no single agency owns the whole thing. Unified command lets them command together, with one shared plan rather than several parallel ones.\n\nNow the part that applies to you personally, every time.\n\nYou report to one supervisor, and you take assignments from that person only. If someone else gives you a task, you take it back to your supervisor. This feels rigid and it exists for a reason: taking direction from three people means being in three places, none of them where you were needed.\n\nReport in, take your assignment, work within it, and report back when it is done or when you cannot do it. The failure mode with a name is freelancing — seeing something that needs doing and going off to do it without telling anyone. It is almost always well intentioned, and it is dangerous: command believes you are somewhere you are not, the task you left is not done, and if the scene goes bad nobody knows where to look for you.\n\nWhich brings in accountability. Command needs to know who is on scene and where they are. That is not administration — it is the mechanism by which people get found when a building changes or a scene turns.",
+          "standard": "The incident command system provides a standardised organisational structure applicable to incidents of any scale, employed across responding agencies. Its objectives comprise unified planning, defined role allocation and maintenance of manageable span of control. Command resides with exactly one designated individual known to all personnel; command transfer occurs formally with announcement and briefing, undocumented drift of command being a recognised failure. Span of control denotes the number of personnel one supervisor may effectively oversee, commonly cited as three to seven with five as a working figure; exceedance triggers structural expansion by addition of supervisory levels. Common terminology requires plain language in preference to agency-specific codes, as code meanings differ between agencies operating on shared channels. The structure scales bidirectionally, from single-provider incidents to incidents requiring sections and branches, expanding to fit the incident. Unified command applies where incidents cross agency responsibilities, permitting joint command under a single shared plan. Individual providers report to a single supervisor and accept assignments only from that individual, referring tasks received from others back through their supervisor. The operational sequence comprises reporting in, accepting assignment, working within it, and reporting completion or inability. Freelancing, denoting self-directed activity outside assignment without notification, constitutes the principal individual failure mode, producing inaccurate command awareness of personnel location, incomplete assigned tasks, and inability to locate personnel during scene deterioration. Accountability systems maintain command awareness of personnel presence and location."
+        },
+        "eli_new": {
+          "analogy": "Span of control is arithmetic about attention, not bureaucracy. One person can watch about five things properly, so when there are twenty things you add a layer.",
+          "body": "Freelancing is the dangerous one, and it is always well intentioned. Command thinks you are somewhere you are not, your actual task is not done, and if the scene turns nobody knows where to look."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the incident command system and what it requires of you personally.",
+          "must_hit": [
+            {
+              "point": "It is a standard structure for organising any incident",
+              "accept": [
+                "standard",
+                "structure",
+                "any",
+                "scale",
+                "organis",
+                "organiz"
+              ]
+            },
+            {
+              "point": "Its purpose is one plan, clear roles and manageable span of control",
+              "accept": [
+                "one plan",
+                "roles",
+                "span",
+                "control",
+                "purpose"
+              ]
+            },
+            {
+              "point": "Exactly one person is in command and transfer is formal",
+              "accept": [
+                "one person",
+                "command",
+                "transfer",
+                "formal",
+                "announce"
+              ]
+            },
+            {
+              "point": "Span of control is roughly three to seven",
+              "accept": [
+                "three",
+                "seven",
+                "five",
+                "span",
+                "supervisor"
+              ]
+            },
+            {
+              "point": "Plain language rather than agency codes",
+              "accept": [
+                "plain",
+                "language",
+                "code",
+                "terminology",
+                "common"
+              ]
+            },
+            {
+              "point": "Unified command for incidents crossing agencies",
+              "accept": [
+                "unified",
+                "agencies",
+                "together",
+                "shared",
+                "cross"
+              ]
+            },
+            {
+              "point": "You take assignments from one supervisor only",
+              "accept": [
+                "one supervisor",
+                "assignment",
+                "only",
+                "report",
+                "back"
+              ]
+            },
+            {
+              "point": "Freelancing is the danger and accountability exists to find people",
+              "accept": [
+                "freelanc",
+                "accountab",
+                "where",
+                "find",
+                "danger"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Where is he",
+          "dispatch": "Command — personnel accountability check, all units report.",
+          "body": "One name did not come back, and for about ninety seconds nobody could say where he was.\n\nHe had seen something useful and gone to do it, which was well intentioned and correct on its own terms.\n\nNobody had known. That was the entire problem, and everybody on that scene remembered it."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm incident command terminology, span of control figures and structure against the current text and your local system, which may use different section names."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-02",
+      "title": "Multiple casualty incidents",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-04-01"
+      ],
+      "related": [
+        "EMT-08-04-01",
+        "EMT-08-04-03",
+        "EMT-08-06-02"
+      ],
+      "key_points": [
+        "A multiple casualty incident is one where the patients exceed the resources immediately available",
+        "That definition is relative — three patients can be an MCI for one ambulance in a rural system",
+        "The first unit's job is size-up, declaring, requesting and establishing command, not patient care",
+        "Resisting the pull to treat the first patient you see is the hardest and most important discipline",
+        "Request resources early and generously, because you can always cancel what you do not need",
+        "Give a clear initial report: location, what happened, approximate numbers, hazards and access",
+        "Functional roles get assigned as people arrive: triage, treatment, transport and staging",
+        "Staging keeps arriving units in one known place so they can be assigned rather than converging",
+        "Transport tracks where each patient goes, because that record is needed afterwards and nobody reconstructs it later",
+        "The aim shifts from doing everything possible for one patient to doing the most good for the most patients"
+      ],
+      "misconceptions": [
+        "Treating the first patient instead of sizing up and declaring",
+        "Under-requesting resources on the first report",
+        "Letting arriving units self-deploy rather than staging",
+        "Failing to record where patients were transported"
+      ],
+      "exam_favorites": [
+        "MCI is relative",
+        "First unit does not treat",
+        "Request early and generously"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A multiple casualty incident is one where the number of patients exceeds the resources immediately available. That is the definition, and the important word in it is relative. An MCI is not defined by a number of patients; it is defined by the relationship between patients and resources. Three patients is an ordinary day for a busy urban system and a full-blown MCI for a single ambulance an hour from anywhere. Judge it against what you have.\n\nThe first unit on scene has a specific job, and it is not patient care. It is size-up, declare, request, and establish command.\n\nThis is the hardest discipline in EMS operations, so it is worth being blunt about it. You will arrive and there will be an injured person in front of you, visible and audible and clearly needing help. Every instinct you have will say to start treating them. And if you do, you have removed the only person who could have organised the incident, and the twelve other patients you have not yet found will wait considerably longer for everything. The first crew treats nobody. They organise. It feels wrong and it is right.\n\nGive a clear initial report. Location, what has happened, approximate number of patients, hazards, access and where you want incoming units to come in from. Approximate is fine — an early rough number is far more useful than an accurate one in ten minutes.\n\nRequest early and generously. It is easy to cancel resources that turn out not to be needed and very hard to catch up when you under-called at the start. The cost of over-requesting is some inconvenience; the cost of under-requesting is measured in patient outcomes.\n\nThen roles get assigned as people arrive, organised by function rather than by rank.\n\nTriage sorts the patients and works out who needs what first. Treatment provides care in the treatment area, grouped by priority. Transport decides who goes where and in what order, matching patients to available vehicles and to hospital capability. Staging holds arriving units in one known location so they can be assigned deliberately.\n\nStaging deserves a note because it is what stops the second failure mode of MCIs. Without staging, every arriving unit drives to where the patients are, parks wherever there is space, and disappears into the incident. Within ten minutes there are vehicles blocking each other, crews working unsupervised, and nobody knows what resources are actually available. Staging keeps them findable and assignable.\n\nTransport tracking matters more than people expect on the day. Somebody records which patient went in which vehicle to which hospital. Afterwards — sometimes hours afterwards, sometimes for days — families, hospitals and investigators need that information, and it cannot be reconstructed from memory. Write it down at the time or it is gone.\n\nAnd underneath all of it is a shift in aim that takes getting used to. Normally you do everything possible for the patient in front of you. In an MCI, you do the most good for the most patients, which sometimes means moving past someone you could have helped in order to reach several people who need you more. That is not callousness; it is the arithmetic of a situation where the resources are finite, and it is why triage exists.",
+          "standard": "A multiple casualty incident denotes an event where patient numbers exceed immediately available resources; the definition is relative to available capability rather than absolute patient count, such that small numbers may constitute an MCI in resource-limited settings. The initial arriving unit performs size-up, declaration, resource request and command establishment rather than patient care; commencement of individual patient treatment removes the only available organising capacity and delays care to undiscovered patients. The initial report comprises location, incident nature, approximate patient numbers, hazards, access and ingress routing, with early approximation preferred to delayed accuracy. Resource requests should be early and generous, as cancellation is operationally trivial relative to the consequences of initial under-request. Functional role assignment occurs as personnel arrive: triage sorts patients by priority; treatment delivers care within priority-grouped areas; transport allocates patients to vehicles and destinations by capability; staging holds arriving units at a designated location for deliberate assignment. Absence of staging produces uncontrolled self-deployment with vehicle congestion, unsupervised working and loss of resource visibility. Transport tracking records patient, vehicle and destination contemporaneously, as this information is required subsequently by families, facilities and investigators and cannot be reconstructed retrospectively. The operational objective shifts from maximal intervention for the individual patient to maximal benefit across the patient population, which may require deferring treatable patients to reach those of greater priority."
+        },
+        "eli_new": {
+          "analogy": "The first crew treats nobody. It feels wrong, and it is right — because the person who starts treating is the person who was going to organise the whole incident.",
+          "body": "An MCI is not a number of patients. It is patients exceeding what you have, which means three can be an MCI for one ambulance an hour from anywhere."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define a multiple casualty incident and explain what the first unit does.",
+          "must_hit": [
+            {
+              "point": "An MCI is patients exceeding immediately available resources",
+              "accept": [
+                "exceed",
+                "resources",
+                "available",
+                "relative",
+                "definition"
+              ]
+            },
+            {
+              "point": "The definition is relative, not a fixed number",
+              "accept": [
+                "relative",
+                "not a number",
+                "depends",
+                "rural",
+                "three"
+              ]
+            },
+            {
+              "point": "The first unit sizes up, declares, requests and takes command",
+              "accept": [
+                "size-up",
+                "declare",
+                "request",
+                "command",
+                "first unit"
+              ]
+            },
+            {
+              "point": "The first unit treats nobody",
+              "accept": [
+                "no patient",
+                "treats nobody",
+                "not treat",
+                "resist",
+                "organise"
+              ]
+            },
+            {
+              "point": "Request early and generously because cancelling is easy",
+              "accept": [
+                "early",
+                "generous",
+                "cancel",
+                "under",
+                "request"
+              ]
+            },
+            {
+              "point": "The initial report covers location, nature, numbers, hazards and access",
+              "accept": [
+                "location",
+                "numbers",
+                "hazard",
+                "access",
+                "report"
+              ]
+            },
+            {
+              "point": "Roles: triage, treatment, transport, staging",
+              "accept": [
+                "triage",
+                "treatment",
+                "transport",
+                "staging",
+                "role"
+              ]
+            },
+            {
+              "point": "Track where each patient goes, and aim for the most good for the most patients",
+              "accept": [
+                "track",
+                "record",
+                "destination",
+                "most good",
+                "most patients"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He did not stop",
+          "dispatch": "Medic 9 — first unit on a multiple casualty incident, bus involved.",
+          "body": "There was a man sitting at the roadside holding his arm and looking straight at them as they got out.\n\nThe officer walked past him, gave a size-up, and asked for eight more units.\n\nHe said afterwards it was the hardest thirty seconds of his career."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm MCI declaration criteria, functional role names and reporting requirements against your local protocol and mass casualty plan, which vary by system. The triage figures referenced in this lesson must be confirmed against the triage system your own service uses. No medication names or doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-03",
+      "title": "START triage",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-04-02"
+      ],
+      "related": [
+        "EMT-08-04-02",
+        "EMT-08-04-04"
+      ],
+      "key_points": [
+        "Triage sorts patients by priority so that limited resources do the most good",
+        "START stands for Simple Triage And Rapid Treatment, and it is designed to be fast rather than accurate",
+        "Aim for a very short assessment per patient — seconds, not minutes",
+        "Only three interventions are performed during triage: open the airway, control major bleeding, and move on",
+        "Step one: anyone who can walk is directed to a designated area and tagged minor",
+        "Step two, breathing: if not breathing, open the airway; breathing now means immediate, still not breathing means deceased",
+        "Step three, breathing rate: above 30 is immediate, otherwise continue",
+        "Step four, perfusion: absent radial pulse or capillary refill over 2 seconds is immediate, otherwise continue",
+        "Step five, mental status: unable to follow simple commands is immediate; able to follow is delayed",
+        "Triage is repeated, because patients change and an early tag is a snapshot rather than a verdict"
+      ],
+      "misconceptions": [
+        "Stopping to treat individual patients during triage",
+        "Skipping the walking wounded step",
+        "Treating a triage tag as permanent",
+        "Spending minutes per patient"
+      ],
+      "exam_favorites": [
+        "The five steps",
+        "Only three interventions",
+        "Retriage"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Triage sorts patients by priority so that limited resources do the most good. It is the mechanism by which an overwhelmed scene becomes a manageable one.\n\nSTART stands for Simple Triage And Rapid Treatment, and the design goal is worth understanding: it is built to be fast, not to be accurate. A system that sorted perfectly but took three minutes a patient would be useless on a scene with forty patients. START accepts that it will occasionally get an individual wrong in order to sort everybody quickly, and that trade is deliberate.\n\nSo the pace is seconds per patient. Not minutes. If you find yourself spending a minute on someone, you have stopped triaging and started treating.\n\nWhich leads to the rule that people find hardest: during triage you perform only three interventions. Open the airway. Control major bleeding. Move on. That is the entire list. Everything else — splinting, dressing, reassurance, a full assessment — happens later in the treatment area, by people whose job that is. If you stop to treat during triage, patients you have not reached yet are waiting, and some of them are worse than the one in front of you.\n\nThe five steps.\n\nStep one. Anyone who can walk is directed to a designated area and tagged minor. This one step frequently removes the majority of patients from the problem in about fifteen seconds, and it is the highest-value thing in the whole system. Say it loudly and clearly: everyone who can hear me and can walk, go to that point over there.\n\nStep two, breathing. Is the patient breathing? If not, open the airway with a simple manoeuvre. If they start breathing, they are immediate. If they still do not breathe, they are tagged deceased and you move on. That is the hardest instruction in EMS and it is correct in this context: resources spent on one non-breathing patient are resources taken from several who can be saved.\n\nStep three, rate. If they are breathing faster than about thirty breaths a minute, they are immediate. If not, carry on.\n\nStep four, perfusion. Check a radial pulse, or capillary refill. No radial pulse, or refill longer than about two seconds, means immediate. Otherwise carry on. Control any major bleeding you find at this point — that is the second of your three permitted interventions.\n\nStep five, mental status. Can they follow a simple command — squeeze my hand, open your eyes? If not, immediate. If they can, they are delayed.\n\nSo the categories come out as: minor for the walking wounded, delayed for those who pass every step, immediate for anyone who fails breathing, rate, perfusion or mental status, and deceased for those who do not breathe after the airway is opened.\n\nAnd the last principle matters as much as the algorithm: triage is repeated. A tag is a snapshot of one moment, not a verdict. Patients deteriorate, and someone tagged delayed twenty minutes ago may be immediate now. Retriage is built into the process, and the treatment area exists partly so that somebody is watching for exactly that.",
+          "standard": "Triage prioritises patients to maximise benefit from limited resources. START, denoting Simple Triage And Rapid Treatment, prioritises speed over accuracy by design, accepting individual misclassification to achieve rapid population sorting; assessment duration should be measured in seconds. Permitted interventions during triage are limited to three: airway opening, major haemorrhage control, and progression to the next patient; all other care is deferred to the treatment area, as treatment during triage delays assessment of unreached and potentially higher-priority patients. The algorithm proceeds in five steps. Ambulatory patients are directed to a designated area and categorised minor, frequently removing the majority of patients rapidly. Respiratory assessment follows: apnoea prompts airway opening, with resumption of respiration categorised immediate and persistent apnoea categorised deceased. Respiratory rate above approximately 30 per minute is categorised immediate. Perfusion assessment by radial pulse or capillary refill categorises absent radial pulse or refill exceeding approximately 2 seconds as immediate, with major haemorrhage controlled at this point. Mental status assessment categorises inability to follow simple commands as immediate and ability as delayed. Resulting categories comprise minor for ambulatory patients, delayed for those passing all criteria, immediate for failure at any criterion, and deceased for persistent apnoea following airway opening. Triage is repeated, as categorisation represents a single time point and patients deteriorate; the treatment area provides the observation supporting retriage."
+        },
+        "eli_new": {
+          "analogy": "START is built to be fast rather than right. It accepts getting the occasional individual wrong in order to sort everybody quickly, and that trade is the whole design.",
+          "body": "Three interventions only: open the airway, stop major bleeding, move on. If you are doing anything else, you have stopped triaging."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk through START triage and explain what you may and may not do during it.",
+          "must_hit": [
+            {
+              "point": "Triage sorts patients so limited resources do the most good",
+              "accept": [
+                "sort",
+                "priorit",
+                "resources",
+                "most good",
+                "limited"
+              ]
+            },
+            {
+              "point": "START is designed to be fast rather than accurate",
+              "accept": [
+                "fast",
+                "rapid",
+                "not accurate",
+                "seconds",
+                "design"
+              ]
+            },
+            {
+              "point": "Only three interventions: airway, major bleeding, move on",
+              "accept": [
+                "airway",
+                "bleeding",
+                "move on",
+                "three",
+                "only"
+              ]
+            },
+            {
+              "point": "Walking wounded are directed away and tagged minor",
+              "accept": [
+                "walk",
+                "minor",
+                "direct",
+                "area",
+                "first"
+              ]
+            },
+            {
+              "point": "Not breathing: open the airway; breathing now is immediate, still apnoeic is deceased",
+              "accept": [
+                "breathing",
+                "open",
+                "airway",
+                "immediate",
+                "deceased"
+              ]
+            },
+            {
+              "point": "Rate above 30 is immediate",
+              "accept": [
+                "30",
+                "thirty",
+                "rate",
+                "immediate",
+                "respirat"
+              ]
+            },
+            {
+              "point": "No radial pulse or refill over 2 seconds is immediate",
+              "accept": [
+                "radial",
+                "pulse",
+                "capillary",
+                "two seconds",
+                "refill",
+                "perfusion"
+              ]
+            },
+            {
+              "point": "Cannot follow simple commands is immediate; can is delayed",
+              "accept": [
+                "command",
+                "follow",
+                "mental",
+                "immediate",
+                "delayed"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Everyone who can hear me",
+          "dispatch": "Medic 4 — triage assigned, approximately thirty patients reported.",
+          "body": "Thirty patients is a number that makes people freeze, and for a second or two everybody did.\n\nThen somebody shouted the walking wounded instruction, and about nineteen people stood up and walked over to the fence.\n\nWhat was left was eleven patients, which is a problem you can actually work."
+        }
+      },
+      "cards": [
+        "concept",
+        "algorithm"
+      ],
+      "card_data": {
+        "algorithm": {
+          "start": "walk",
+          "nodes": [
+            {
+              "id": "walk",
+              "text": "Can the patient WALK?",
+              "kind": "decision"
+            },
+            {
+              "id": "minor",
+              "text": "MINOR — direct them to the designated area",
+              "kind": "end"
+            },
+            {
+              "id": "breathing",
+              "text": "Is the patient BREATHING?",
+              "kind": "decision"
+            },
+            {
+              "id": "open_airway",
+              "text": "OPEN THE AIRWAY (one of your three permitted interventions)",
+              "kind": "action"
+            },
+            {
+              "id": "breathing_now",
+              "text": "Breathing now?",
+              "kind": "decision"
+            },
+            {
+              "id": "deceased",
+              "text": "DECEASED — move on",
+              "kind": "end"
+            },
+            {
+              "id": "immediate",
+              "text": "IMMEDIATE",
+              "kind": "end"
+            },
+            {
+              "id": "rate",
+              "text": "RESPIRATORY RATE above 30?",
+              "kind": "decision"
+            },
+            {
+              "id": "perfusion",
+              "text": "PERFUSION: radial pulse absent, or capillary refill over 2 seconds?",
+              "kind": "decision"
+            },
+            {
+              "id": "control_bleeding",
+              "text": "CONTROL MAJOR BLEEDING (second permitted intervention)",
+              "kind": "action"
+            },
+            {
+              "id": "mental",
+              "text": "MENTAL STATUS: can they follow a simple command?",
+              "kind": "decision"
+            },
+            {
+              "id": "delayed",
+              "text": "DELAYED",
+              "kind": "end"
+            }
+          ],
+          "branches": [
+            {
+              "from": "walk",
+              "to": "minor",
+              "condition": "Yes — walking"
+            },
+            {
+              "from": "walk",
+              "to": "breathing",
+              "condition": "No — not walking"
+            },
+            {
+              "from": "breathing",
+              "to": "open_airway",
+              "condition": "Not breathing"
+            },
+            {
+              "from": "open_airway",
+              "to": "breathing_now",
+              "condition": "Airway opened"
+            },
+            {
+              "from": "breathing_now",
+              "to": "immediate",
+              "condition": "Breathing started"
+            },
+            {
+              "from": "breathing_now",
+              "to": "deceased",
+              "condition": "Still not breathing"
+            },
+            {
+              "from": "breathing",
+              "to": "rate",
+              "condition": "Breathing"
+            },
+            {
+              "from": "rate",
+              "to": "immediate",
+              "condition": "Above 30"
+            },
+            {
+              "from": "rate",
+              "to": "perfusion",
+              "condition": "30 or below"
+            },
+            {
+              "from": "perfusion",
+              "to": "control_bleeding",
+              "condition": "Any major bleeding found"
+            },
+            {
+              "from": "control_bleeding",
+              "to": "immediate",
+              "condition": "No radial pulse or refill over 2 seconds"
+            },
+            {
+              "from": "perfusion",
+              "to": "immediate",
+              "condition": "No radial pulse or refill over 2 seconds"
+            },
+            {
+              "from": "perfusion",
+              "to": "mental",
+              "condition": "Radial pulse present, refill under 2 seconds"
+            },
+            {
+              "from": "mental",
+              "to": "immediate",
+              "condition": "Cannot follow commands"
+            },
+            {
+              "from": "mental",
+              "to": "delayed",
+              "condition": "Can follow commands"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Triage algorithm figures (START: respiratory rate above 30, capillary refill over 2 seconds or absent radial pulse, ability to follow simple commands; JumpSTART: respiratory rate below 15 or above 45, five rescue breaths) are standard published values for those systems but MUST be confirmed against the current text and against the triage system your own service actually uses, which may differ. No medication names or doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-04",
+      "title": "JumpSTART and triaging children",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-04-03"
+      ],
+      "related": [
+        "EMT-08-04-03",
+        "EMT-07-03-04",
+        "EMT-07-03-03"
+      ],
+      "key_points": [
+        "JumpSTART is the paediatric counterpart to START, because children are not small adults physiologically",
+        "The core difference is that children arrest from respiratory causes, so an apnoeic child gets a ventilation attempt",
+        "Infants who cannot walk are assessed rather than automatically tagged minor",
+        "Able to walk means minor, as in the adult system",
+        "If not breathing, open the airway; if breathing starts, immediate",
+        "If still not breathing, check for a pulse: no pulse means deceased",
+        "If there is a pulse but no breathing, give five rescue breaths — this is the JumpSTART difference",
+        "Breathing after those breaths means immediate; still apnoeic means deceased",
+        "Respiratory rate below 15 or above 45 is immediate, otherwise check perfusion and then mental status",
+        "Mental status uses AVPU: inappropriate posturing or unresponsive is immediate; otherwise delayed"
+      ],
+      "misconceptions": [
+        "Applying adult START unmodified to children",
+        "Skipping the five rescue breaths in an apnoeic child with a pulse",
+        "Automatically tagging non-walking infants minor",
+        "Using the adult respiratory thresholds for a child"
+      ],
+      "exam_favorites": [
+        "The five rescue breaths",
+        "15 and 45",
+        "Why it differs"
+      ],
+      "modes": {
+        "read": {
+          "plain": "JumpSTART is the paediatric counterpart to START, and it exists because children are not small adults physiologically. Applying the adult algorithm unmodified to a child produces the wrong answer in a predictable way.\n\nThe reason is the one that runs through all of paediatrics: children arrest from respiratory causes. An adult found apnoeic on a disaster scene has usually had a catastrophic event and is genuinely unsalvageable within triage constraints. A child found apnoeic may have a perfectly good heart that simply needs some air, and a very short intervention may restart them. So JumpSTART builds that intervention into the algorithm, where START does not.\n\nJumpSTART is intended for children, with the commonly taught range being roughly one to eight years — and in practice, if a patient looks like a child, use it; if they look like an adult, use START. Do not spend triage time deciding.\n\nThe sequence.\n\nCan they walk? If yes, minor, same as the adult system. There is one modification: infants who are too young to walk are not automatically tagged minor for that reason. They are carried to the minor area and assessed there, because the whole logic of the walking step — that walking demonstrates adequate airway, breathing, circulation and mental status — does not apply to someone who has never walked.\n\nBreathing? If yes, go to rate. If no, open the airway. If they start breathing, immediate.\n\nIf they still are not breathing, check for a pulse. No pulse, deceased.\n\nAnd here is the JumpSTART difference, the one thing to remember above all: if there is a pulse but no breathing, give five rescue breaths. That is the modification, it is the reason the system exists, and it is what people forget.\n\nIf breathing starts after those breaths, immediate. If they remain apnoeic, deceased. So in JumpSTART, an apnoeic child with a pulse gets one short intervention before being tagged, and no other patient in either system does.\n\nFor breathing children, the rate thresholds differ from the adult. Below 15 or above 45 is immediate. Both ends matter — a child breathing too slowly is as concerning as one breathing too fast, and a slow rate in a child is an ominous sign rather than a calm one.\n\nIf the rate falls between those, check perfusion. A palpable peripheral pulse is required; absent means immediate.\n\nThen mental status, which uses AVPU rather than the adult follow-commands test, because many children are too young to follow commands reliably even when perfectly well. Alert, responds to Voice, or responds to Pain appropriately — meaning localising, withdrawing, pushing you away — is delayed. Inappropriate responses such as posturing, or unresponsive, is immediate.\n\nThat AVPU substitution is worth understanding rather than memorising, because it is the same principle as the walking step: you cannot use a test the patient could not pass when well.",
+          "standard": "JumpSTART constitutes the paediatric adaptation of START, developed because paediatric physiology differs materially from adult. The principal distinction derives from the predominance of respiratory aetiology in paediatric arrest: apnoeic adults in disaster triage are generally unsalvageable within triage constraints, whereas apnoeic children may retain adequate cardiac function and respond to brief ventilatory intervention, which JumpSTART incorporates. Application is indicated for paediatric patients, commonly cited as approximately one to eight years, with practical determination by apparent developmental stage rather than triage-time deliberation. The algorithm proceeds as follows. Ambulatory patients are categorised minor. Pre-ambulatory infants are not automatically categorised minor, as the walking criterion presupposes demonstrated ambulatory capability; they are carried to the minor area and assessed. Apnoeic patients undergo airway opening, with resumption of respiration categorised immediate. Persistent apnoea prompts pulse assessment: absent pulse is categorised deceased; present pulse prompts administration of five rescue breaths, constituting the defining JumpSTART modification. Resumption of respiration thereafter is categorised immediate; persistent apnoea is categorised deceased. In breathing patients, respiratory rate below 15 or above 45 per minute is categorised immediate, bradypnoea carrying equivalent significance to tachypnoea. Intermediate rates prompt perfusion assessment by palpable peripheral pulse, absence categorising immediate. Mental status employs AVPU rather than command-following, as young children may not reliably follow commands when well: alert, voice-responsive, or appropriately pain-responsive with localisation or withdrawal is categorised delayed; inappropriate responses including posturing, or unresponsiveness, is categorised immediate."
+        },
+        "eli_new": {
+          "analogy": "A child found apnoeic may have a perfectly good heart that needs some air. That single fact is why JumpSTART exists and why it has five breaths in it.",
+          "body": "The one thing to remember: pulse but no breathing means five rescue breaths. Nothing else in either triage system gets an intervention like that, and it is exactly what people forget."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain JumpSTART and how it differs from START.",
+          "must_hit": [
+            {
+              "point": "JumpSTART is the paediatric version because children are not small adults",
+              "accept": [
+                "paediatric",
+                "pediatric",
+                "child",
+                "not small adult",
+                "version"
+              ]
+            },
+            {
+              "point": "Children arrest from respiratory causes, so an apnoeic child may be salvageable",
+              "accept": [
+                "respirat",
+                "arrest",
+                "cause",
+                "salvage",
+                "air"
+              ]
+            },
+            {
+              "point": "Walking means minor; pre-ambulatory infants are assessed instead",
+              "accept": [
+                "walk",
+                "minor",
+                "infant",
+                "carried",
+                "assess"
+              ]
+            },
+            {
+              "point": "Not breathing: open the airway; breathing now means immediate",
+              "accept": [
+                "open",
+                "airway",
+                "immediate",
+                "breathing",
+                "start"
+              ]
+            },
+            {
+              "point": "Still apnoeic: no pulse means deceased",
+              "accept": [
+                "pulse",
+                "no pulse",
+                "deceased",
+                "check",
+                "absent"
+              ]
+            },
+            {
+              "point": "Pulse but no breathing means five rescue breaths",
+              "accept": [
+                "five",
+                "rescue breath",
+                "pulse",
+                "difference",
+                "modification"
+              ]
+            },
+            {
+              "point": "Rate below 15 or above 45 is immediate",
+              "accept": [
+                "15",
+                "45",
+                "rate",
+                "immediate",
+                "below",
+                "above"
+              ]
+            },
+            {
+              "point": "Mental status uses AVPU, not follow-commands",
+              "accept": [
+                "avpu",
+                "alert",
+                "voice",
+                "pain",
+                "postur",
+                "unresponsive"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Five breaths",
+          "dispatch": "Medic 2 — triage assigned, children among the casualties.",
+          "body": "The child had a pulse and was not breathing, and the adult algorithm in everybody's head said one thing.\n\nSomebody gave five breaths, because that is the whole reason the paediatric version exists.\n\nThe child was breathing by the fourth one."
+        }
+      },
+      "cards": [
+        "concept",
+        "algorithm"
+      ],
+      "card_data": {
+        "algorithm": {
+          "start": "walk",
+          "nodes": [
+            {
+              "id": "walk",
+              "text": "Can the child WALK?",
+              "kind": "decision"
+            },
+            {
+              "id": "minor",
+              "text": "MINOR — direct to the designated area. INFANTS TOO YOUNG TO WALK are carried there and ASSESSED",
+              "kind": "end"
+            },
+            {
+              "id": "breathing",
+              "text": "Is the child BREATHING?",
+              "kind": "decision"
+            },
+            {
+              "id": "open_airway",
+              "text": "OPEN THE AIRWAY",
+              "kind": "action"
+            },
+            {
+              "id": "breathing_now",
+              "text": "Breathing now?",
+              "kind": "decision"
+            },
+            {
+              "id": "pulse_check",
+              "text": "Is there a PULSE?",
+              "kind": "decision"
+            },
+            {
+              "id": "five_breaths",
+              "text": "GIVE FIVE RESCUE BREATHS — this is the JumpSTART difference",
+              "kind": "action"
+            },
+            {
+              "id": "breathing_after",
+              "text": "Breathing after the five breaths?",
+              "kind": "decision"
+            },
+            {
+              "id": "deceased",
+              "text": "DECEASED — move on",
+              "kind": "end"
+            },
+            {
+              "id": "immediate",
+              "text": "IMMEDIATE",
+              "kind": "end"
+            },
+            {
+              "id": "rate",
+              "text": "RESPIRATORY RATE below 15 or above 45?",
+              "kind": "decision"
+            },
+            {
+              "id": "perfusion",
+              "text": "PERFUSION: is a peripheral pulse palpable?",
+              "kind": "decision"
+            },
+            {
+              "id": "mental",
+              "text": "MENTAL STATUS by AVPU",
+              "kind": "decision"
+            },
+            {
+              "id": "delayed",
+              "text": "DELAYED",
+              "kind": "end"
+            }
+          ],
+          "branches": [
+            {
+              "from": "walk",
+              "to": "minor",
+              "condition": "Yes — walking"
+            },
+            {
+              "from": "walk",
+              "to": "breathing",
+              "condition": "No — not walking"
+            },
+            {
+              "from": "breathing",
+              "to": "open_airway",
+              "condition": "Not breathing"
+            },
+            {
+              "from": "open_airway",
+              "to": "breathing_now",
+              "condition": "Airway opened"
+            },
+            {
+              "from": "breathing_now",
+              "to": "immediate",
+              "condition": "Breathing started"
+            },
+            {
+              "from": "breathing_now",
+              "to": "pulse_check",
+              "condition": "Still not breathing"
+            },
+            {
+              "from": "pulse_check",
+              "to": "deceased",
+              "condition": "No pulse"
+            },
+            {
+              "from": "pulse_check",
+              "to": "five_breaths",
+              "condition": "Pulse present"
+            },
+            {
+              "from": "five_breaths",
+              "to": "breathing_after",
+              "condition": "Five breaths given"
+            },
+            {
+              "from": "breathing_after",
+              "to": "immediate",
+              "condition": "Breathing"
+            },
+            {
+              "from": "breathing_after",
+              "to": "deceased",
+              "condition": "Still apnoeic"
+            },
+            {
+              "from": "breathing",
+              "to": "rate",
+              "condition": "Breathing"
+            },
+            {
+              "from": "rate",
+              "to": "immediate",
+              "condition": "Below 15 or above 45"
+            },
+            {
+              "from": "rate",
+              "to": "perfusion",
+              "condition": "Between 15 and 45"
+            },
+            {
+              "from": "perfusion",
+              "to": "immediate",
+              "condition": "No palpable peripheral pulse"
+            },
+            {
+              "from": "perfusion",
+              "to": "mental",
+              "condition": "Peripheral pulse present"
+            },
+            {
+              "from": "mental",
+              "to": "immediate",
+              "condition": "Posturing or unresponsive"
+            },
+            {
+              "from": "mental",
+              "to": "delayed",
+              "condition": "Alert, voice, or appropriate response to pain"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Triage algorithm figures (START: respiratory rate above 30, capillary refill over 2 seconds or absent radial pulse, ability to follow simple commands; JumpSTART: respiratory rate below 15 or above 45, five rescue breaths) are standard published values for those systems but MUST be confirmed against the current text and against the triage system your own service actually uses, which may differ. No medication names or doses appear."
     }
   ]
 }

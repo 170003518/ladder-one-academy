@@ -1982,6 +1982,726 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-01-Q001",
+      "concept_id": "EMT-08-04-01",
+      "style": "recall",
+      "stem": "How many people are in command of an incident?",
+      "options": [
+        {
+          "text": "However many senior officers are present",
+          "rationale": "Command is singular."
+        },
+        {
+          "text": "Exactly one, identified and known to everyone",
+          "rationale": "Correct — exactly one, identified and known to everyone."
+        },
+        {
+          "text": "One per agency",
+          "rationale": "That is not unified command."
+        },
+        {
+          "text": "It varies with incident size",
+          "rationale": "Command is always singular."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-01-Q002",
+      "concept_id": "EMT-08-04-01",
+      "style": "recall",
+      "stem": "What does span of control mean?",
+      "options": [
+        {
+          "text": "The geographic area an incident covers",
+          "rationale": "Not the meaning."
+        },
+        {
+          "text": "The number of people one supervisor can effectively oversee, commonly three to seven",
+          "rationale": "Correct — the number of people one supervisor can effectively oversee, commonly three to seven."
+        },
+        {
+          "text": "The radio range available",
+          "rationale": "Not the meaning."
+        },
+        {
+          "text": "The number of agencies involved",
+          "rationale": "Not the meaning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-01-Q003",
+      "concept_id": "EMT-08-04-01",
+      "style": "application",
+      "stem": "Someone other than your supervisor gives you a task. What do you do?",
+      "options": [
+        {
+          "text": "Do it, since it needs doing",
+          "rationale": "That is how people end up in three places."
+        },
+        {
+          "text": "Take it back to your supervisor",
+          "rationale": "Correct — take it back to your supervisor."
+        },
+        {
+          "text": "Do it and mention it later",
+          "rationale": "Assignments come from one person."
+        },
+        {
+          "text": "Refuse and continue",
+          "rationale": "Refer it rather than refusing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-01-Q004",
+      "concept_id": "EMT-08-04-01",
+      "style": "application",
+      "stem": "What is freelancing and why is it dangerous?",
+      "options": [
+        {
+          "text": "Working faster than assigned — it wastes resources",
+          "rationale": "Not the definition."
+        },
+        {
+          "text": "Acting outside your assignment without telling anyone — command loses track of you",
+          "rationale": "Correct — acting outside your assignment without telling anyone — command loses track of you."
+        },
+        {
+          "text": "Taking a second assignment — it causes fatigue",
+          "rationale": "Not the definition."
+        },
+        {
+          "text": "Refusing an assignment — it breaks the chain",
+          "rationale": "Not the definition."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-01-Q005",
+      "concept_id": "EMT-08-04-01",
+      "style": "recall",
+      "stem": "Why use plain language rather than agency codes?",
+      "options": [
+        {
+          "text": "Codes are slower to say",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "A code may mean something different or nothing to other agencies on the channel",
+          "rationale": "Correct — a code may mean something different or nothing to other agencies on the channel."
+        },
+        {
+          "text": "Codes are being phased out for cost reasons",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Plain language sounds more professional",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-01-Q006",
+      "concept_id": "EMT-08-04-01",
+      "style": "scenario",
+      "stem": "What is accountability for?",
+      "options": [
+        {
+          "text": "Documenting overtime",
+          "rationale": "Not its purpose."
+        },
+        {
+          "text": "So command knows who is on scene and where, and can find them if things go wrong",
+          "rationale": "Correct — so command knows who is on scene and where, and can find them if things go wrong."
+        },
+        {
+          "text": "Assigning blame afterwards",
+          "rationale": "Not its purpose."
+        },
+        {
+          "text": "Recording equipment use",
+          "rationale": "Not its purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-02-Q001",
+      "concept_id": "EMT-08-04-02",
+      "style": "recall",
+      "stem": "What defines a multiple casualty incident?",
+      "options": [
+        {
+          "text": "More than ten patients",
+          "rationale": "It is not a fixed number."
+        },
+        {
+          "text": "Patients exceeding the resources immediately available",
+          "rationale": "Correct — the definition is relative."
+        },
+        {
+          "text": "Any incident involving a vehicle with multiple occupants",
+          "rationale": "Not the definition."
+        },
+        {
+          "text": "An incident requiring mutual aid",
+          "rationale": "A consequence, not the definition."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-02-Q002",
+      "concept_id": "EMT-08-04-02",
+      "style": "recall",
+      "stem": "What does the first arriving unit do?",
+      "options": [
+        {
+          "text": "Treat the most seriously injured patient",
+          "rationale": "That removes your only organiser."
+        },
+        {
+          "text": "Size up, declare, request resources and establish command",
+          "rationale": "Correct — size up, declare, request resources and establish command."
+        },
+        {
+          "text": "Begin triage immediately",
+          "rationale": "Command comes first."
+        },
+        {
+          "text": "Wait for a supervisor",
+          "rationale": "Establish command yourself."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-02-Q003",
+      "concept_id": "EMT-08-04-02",
+      "style": "application",
+      "stem": "Why should the first unit not begin patient care?",
+      "options": [
+        {
+          "text": "It is against protocol",
+          "rationale": "The reason is operational, not procedural."
+        },
+        {
+          "text": "Doing so removes the only person available to organise the incident",
+          "rationale": "Correct — doing so removes the only person available to organise the incident."
+        },
+        {
+          "text": "It exposes them to liability",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Their equipment is needed elsewhere",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-02-Q004",
+      "concept_id": "EMT-08-04-02",
+      "style": "application",
+      "stem": "How should resources be requested?",
+      "options": [
+        {
+          "text": "Conservatively, to avoid waste",
+          "rationale": "Under-requesting is very hard to recover from."
+        },
+        {
+          "text": "Early and generously — cancelling is easy",
+          "rationale": "Correct — early and generously — cancelling is easy."
+        },
+        {
+          "text": "Only once patient numbers are confirmed",
+          "rationale": "Too slow — an early rough number beats a late accurate one."
+        },
+        {
+          "text": "Through the receiving hospital",
+          "rationale": "Not the route."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-02-Q005",
+      "concept_id": "EMT-08-04-02",
+      "style": "recall",
+      "stem": "What does staging achieve?",
+      "options": [
+        {
+          "text": "A place for crews to rest",
+          "rationale": "Not its purpose."
+        },
+        {
+          "text": "Arriving units stay findable and assignable rather than self-deploying",
+          "rationale": "Correct — arriving units stay findable and assignable rather than self-deploying."
+        },
+        {
+          "text": "Somewhere to store equipment",
+          "rationale": "Not its purpose."
+        },
+        {
+          "text": "A triage area",
+          "rationale": "Triage is a separate function."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-02-Q006",
+      "concept_id": "EMT-08-04-02",
+      "style": "scenario",
+      "stem": "Why record which patient went where?",
+      "options": [
+        {
+          "text": "For billing purposes",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "Families, hospitals and investigators need it afterwards and it cannot be reconstructed",
+          "rationale": "Correct — families, hospitals and investigators need it afterwards and it cannot be reconstructed."
+        },
+        {
+          "text": "To measure crew performance",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is optional if the incident is small",
+          "rationale": "It matters regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-03-Q001",
+      "concept_id": "EMT-08-04-03",
+      "style": "recall",
+      "stem": "What does START stand for?",
+      "options": [
+        {
+          "text": "Simple Triage And Rapid Treatment",
+          "rationale": "Correct — simple Triage And Rapid Treatment."
+        },
+        {
+          "text": "Systematic Trauma Assessment and Response Technique",
+          "rationale": "Not the expansion."
+        },
+        {
+          "text": "Scene Triage And Resource Tracking",
+          "rationale": "Not the expansion."
+        },
+        {
+          "text": "Standard Triage And Rescue Team",
+          "rationale": "Not the expansion."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-03-Q002",
+      "concept_id": "EMT-08-04-03",
+      "style": "recall",
+      "stem": "Which interventions are permitted during START triage?",
+      "options": [
+        {
+          "text": "Airway, bleeding control, splinting and dressings",
+          "rationale": "Only the first two, plus moving on."
+        },
+        {
+          "text": "Open the airway, control major bleeding, and move on",
+          "rationale": "Correct — open the airway, control major bleeding, and move on."
+        },
+        {
+          "text": "A full primary assessment on each patient",
+          "rationale": "Far too slow."
+        },
+        {
+          "text": "Whatever the patient most needs",
+          "rationale": "Not during triage."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-03-Q003",
+      "concept_id": "EMT-08-04-03",
+      "style": "sequence",
+      "stem": "What is the first step of START?",
+      "options": [
+        {
+          "text": "Check breathing",
+          "rationale": "That is the second step."
+        },
+        {
+          "text": "Direct everyone who can walk to a designated area and tag them minor",
+          "rationale": "Correct — direct everyone who can walk to a designated area and tag them minor."
+        },
+        {
+          "text": "Check radial pulses",
+          "rationale": "That comes later."
+        },
+        {
+          "text": "Count respiratory rates",
+          "rationale": "That comes later."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-03-Q004",
+      "concept_id": "EMT-08-04-03",
+      "style": "sequence",
+      "stem": "A patient is not breathing. You open the airway and they still do not breathe. What now?",
+      "options": [
+        {
+          "text": "Begin ventilation",
+          "rationale": "Not during triage."
+        },
+        {
+          "text": "Tag deceased and move on",
+          "rationale": "Correct — resources spent here are taken from those who can be saved."
+        },
+        {
+          "text": "Tag immediate and continue",
+          "rationale": "Immediate applies if breathing starts."
+        },
+        {
+          "text": "Reposition and try again",
+          "rationale": "One airway attempt, then move on."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-03-Q005",
+      "concept_id": "EMT-08-04-03",
+      "style": "application",
+      "stem": "A breathing patient has no radial pulse. What category?",
+      "options": [
+        {
+          "text": "Delayed",
+          "rationale": "Absent radial pulse means immediate."
+        },
+        {
+          "text": "Immediate",
+          "rationale": "Correct — immediate."
+        },
+        {
+          "text": "Minor",
+          "rationale": "They are not walking."
+        },
+        {
+          "text": "Deceased",
+          "rationale": "They are breathing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-03-Q006",
+      "concept_id": "EMT-08-04-03",
+      "style": "application",
+      "stem": "Why is triage repeated?",
+      "options": [
+        {
+          "text": "To check the tags were applied correctly",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "A tag is a snapshot and patients deteriorate",
+          "rationale": "Correct — a tag is a snapshot and patients deteriorate."
+        },
+        {
+          "text": "To satisfy documentation requirements",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because the first pass is often wrong",
+          "rationale": "Repetition is about change, not error."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-04-Q001",
+      "concept_id": "EMT-08-04-04",
+      "style": "recall",
+      "stem": "What is the defining difference between JumpSTART and START?",
+      "options": [
+        {
+          "text": "Different colour tags",
+          "rationale": "The tags are the same."
+        },
+        {
+          "text": "An apnoeic child with a pulse gets five rescue breaths",
+          "rationale": "Correct — an apnoeic child with a pulse gets five rescue breaths."
+        },
+        {
+          "text": "Children are always tagged immediate",
+          "rationale": "Not the case."
+        },
+        {
+          "text": "Walking children are not tagged minor",
+          "rationale": "Walking children are tagged minor, as in the adult system."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-04-Q002",
+      "concept_id": "EMT-08-04-04",
+      "style": "recall",
+      "stem": "Why does JumpSTART include a ventilation attempt?",
+      "options": [
+        {
+          "text": "Children are easier to ventilate",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Children arrest from respiratory causes, so a short intervention may restart them",
+          "rationale": "Correct — children arrest from respiratory causes, so a short intervention may restart them."
+        },
+        {
+          "text": "It is required by protocol everywhere",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Their airways block more easily",
+          "rationale": "True, but not the reason for the modification."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-04-Q003",
+      "concept_id": "EMT-08-04-04",
+      "style": "sequence",
+      "stem": "An apnoeic child has a palpable pulse. What do you do?",
+      "options": [
+        {
+          "text": "Tag deceased",
+          "rationale": "Only after the five breaths fail."
+        },
+        {
+          "text": "Give five rescue breaths, then reassess",
+          "rationale": "Correct — give five rescue breaths, then reassess."
+        },
+        {
+          "text": "Tag immediate and move on",
+          "rationale": "Give the breaths first."
+        },
+        {
+          "text": "Begin compressions",
+          "rationale": "Not part of triage."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-04-Q004",
+      "concept_id": "EMT-08-04-04",
+      "style": "recall",
+      "stem": "Which respiratory rates make a child immediate in JumpSTART?",
+      "options": [
+        {
+          "text": "Above 30 only",
+          "rationale": "That is the adult START threshold."
+        },
+        {
+          "text": "Below 15 or above 45",
+          "rationale": "Correct — both ends matter."
+        },
+        {
+          "text": "Above 45 only",
+          "rationale": "A slow rate is equally concerning."
+        },
+        {
+          "text": "Below 10 or above 60",
+          "rationale": "Not the JumpSTART thresholds."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-04-Q005",
+      "concept_id": "EMT-08-04-04",
+      "style": "application",
+      "stem": "Why does JumpSTART use AVPU instead of follow-commands?",
+      "options": [
+        {
+          "text": "It is quicker to perform",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Many young children cannot follow commands reliably even when well",
+          "rationale": "Correct — many young children cannot follow commands reliably even when well."
+        },
+        {
+          "text": "Children do not speak clearly",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "AVPU is more accurate in all patients",
+          "rationale": "Not the reason given."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-04-04-Q006",
+      "concept_id": "EMT-08-04-04",
+      "style": "sequence",
+      "stem": "How is an infant too young to walk handled?",
+      "options": [
+        {
+          "text": "Automatically tagged minor",
+          "rationale": "The walking logic does not apply to them."
+        },
+        {
+          "text": "Carried to the minor area and assessed there",
+          "rationale": "Correct — carried to the minor area and assessed there."
+        },
+        {
+          "text": "Automatically tagged immediate",
+          "rationale": "Not automatic."
+        },
+        {
+          "text": "Triaged last",
+          "rationale": "Not the rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
