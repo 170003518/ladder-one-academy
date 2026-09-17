@@ -827,6 +827,306 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-01-C01",
+      "concept_id": "EMT-02-04-01",
+      "type": "concept",
+      "front": {
+        "title": "Bag-valve-mask",
+        "summary": "Breathing for a patient who cannot"
+      },
+      "back": {
+        "body": "Oxygen at high flow with the reservoir attached · Two rescuers preferred: one seals with both hands and lifts the jaw, one squeezes · Alone: C-grip, thumb and index on the mask, other fingers pulling the jaw UP into it · Squeeze to visible chest rise, then stop · A bad seal, not a weak squeeze, is the usual failure · The bag does not open an airway",
+        "why_it_matters": "You are pulling the face into the mask, not pressing the mask onto the face."
+      },
+      "high_yield": true,
+      "number": 34,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-01-C02",
+      "concept_id": "EMT-02-04-01",
+      "type": "skill",
+      "front": {
+        "title": "BVM ventilation, apneic adult",
+        "summary": "Critical steps and the common fails"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: open the airway first, insert an adjunct, confirm oxygen and reservoir, establish the seal, ventilate to chest rise only, reassess continuously.",
+        "why_it_matters": "Sealing before opening the airway and over-squeezing are the two things that fail this station."
+      },
+      "high_yield": false,
+      "number": 35,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-02-C03",
+      "concept_id": "EMT-02-04-02",
+      "type": "concept",
+      "front": {
+        "title": "Ventilation rate",
+        "summary": "Slower than your hands want"
+      },
+      "back": {
+        "body": "Adult with a pulse, not breathing: about 1 breath every 5 to 6 seconds · Each breath over about 1 second, to chest rise · Children and infants are faster — take the number from your current text · Too fast inflates the stomach AND reduces blood return to the heart · Count out loud",
+        "why_it_matters": "Hyperventilation is an active harm, not just a wasted effort."
+      },
+      "high_yield": true,
+      "number": 36,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-02-C04",
+      "concept_id": "EMT-02-04-02",
+      "type": "numbers",
+      "front": {
+        "title": "Ventilation rates",
+        "summary": "The figures, and the ones deliberately left blank"
+      },
+      "back": {
+        "body": "See the numbers card. Adult rescue breathing 1 every 5 to 6 seconds; each breath about 1 second. Pediatric, infant and advanced-airway rates are NOT filled in — they have changed between guideline editions.",
+        "why_it_matters": "Using a half-remembered pediatric rate is worse than looking it up."
+      },
+      "high_yield": false,
+      "number": 37,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-03-C05",
+      "concept_id": "EMT-02-04-03",
+      "type": "concept",
+      "front": {
+        "title": "Is it working?",
+        "summary": "Judge from the patient, not the bag"
+      },
+      "back": {
+        "body": "Adequate: visible chest rise and fall · appropriate rate · improving colour · settling heart rate. Inadequate: no chest rise · rate too slow or too fast · abdomen inflating · gurgling · audible leak. Reassess continuously — seals slip and heads move.",
+        "why_it_matters": "The patient is the gauge. How the bag feels tells you nothing about what reached the lungs."
+      },
+      "high_yield": false,
+      "number": 38,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-04-C06",
+      "concept_id": "EMT-02-04-04",
+      "type": "concept",
+      "front": {
+        "title": "Gastric distention",
+        "summary": "Air going down the wrong pipe"
+      },
+      "back": {
+        "body": "Caused by too much volume, too fast a rate, or an airway that is not fully open · Pushes on the diaphragm so ventilation gets harder · Big rise in regurgitation and aspiration risk · Fix with technique: slower, less volume, reposition · NEVER press on the abdomen · Cricoid pressure is no longer routinely recommended",
+        "why_it_matters": "The instinct to squeeze harder is exactly backwards."
+      },
+      "high_yield": false,
+      "number": 39,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-05-C07",
+      "concept_id": "EMT-02-04-05",
+      "type": "concept",
+      "front": {
+        "title": "CPAP",
+        "summary": "Support for a patient who is still breathing"
+      },
+      "back": {
+        "body": "Holds airways and alveoli open through the whole cycle · For an AWAKE patient breathing on their own, working hard, staying hypoxic · Classic: pulmonary edema, COPD exacerbation (per protocol) · NOT in arrest, inadequate breathing, inability to protect the airway, vomiting, hypotension, suspected pneumothorax · Coach them or they will pull it off",
+        "why_it_matters": "Every contraindication follows from one fact: CPAP supports breathing, it does not replace it."
+      },
+      "high_yield": true,
+      "number": 40,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-05-C08",
+      "concept_id": "EMT-02-04-05",
+      "type": "compare",
+      "front": {
+        "title": "CPAP vs. BVM",
+        "summary": "Support versus replace"
+      },
+      "back": {
+        "body": "CPAP is for a patient who is breathing on their own and awake enough to cooperate; the BVM is for a patient who is not breathing adequately at all. Vomiting and hypotension rule out CPAP but not the bag.",
+        "why_it_matters": "Choosing between them is really one question: is the patient still breathing adequately?"
+      },
+      "high_yield": false,
+      "number": 41,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-06-C09",
+      "concept_id": "EMT-02-04-06",
+      "type": "concept",
+      "front": {
+        "title": "Assisting ventilations",
+        "summary": "Adding to their breaths, not replacing them"
+      },
+      "back": {
+        "body": "For breathing that is too slow, too shallow, or tiring out · Seal the mask, watch the chest, squeeze AS THEY BEGIN TO INHALE · Squeezing against their exhalation fights them and fills the stomach · Fast and shallow can move less air than slow and deep · When their effort fades, take over completely",
+        "why_it_matters": "Timing matters more than force in this one."
+      },
+      "high_yield": true,
+      "number": 42,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-07-C10",
+      "concept_id": "EMT-02-04-07",
+      "type": "concept",
+      "front": {
+        "title": "Stoma ventilation",
+        "summary": "The airway starts at the neck"
+      },
+      "back": {
+        "body": "Ventilate AT the stoma, not the face · A pediatric or infant mask often seals better on a neck · If air escapes from the mouth and nose, seal them and continue at the stoma · Stomas block with secretions — suction may be needed first · Head positioning does nothing here",
+        "why_it_matters": "Everything you know about airways assumes the air goes in at the face. This patient is the exception."
+      },
+      "high_yield": false,
+      "number": 43,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-08-C11",
+      "concept_id": "EMT-02-04-08",
+      "type": "concept",
+      "front": {
+        "title": "Capnography",
+        "summary": "Is air actually moving?"
+      },
+      "back": {
+        "body": "Measures CO2 in exhaled breath as a number and a waveform · Normal roughly 35 to 45 mmHg · A waveform proves ventilation is happening · Rising = ventilating too slowly · Falling = ventilating too fast · Sudden sustained rise in arrest suggests return of circulation · Capnography = ventilation; pulse oximetry = oxygenation",
+        "why_it_matters": "Oximetry lags. Capnography does not — no air moving means no waveform, immediately."
+      },
+      "high_yield": false,
+      "number": 44,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-08. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-08-C12",
+      "concept_id": "EMT-02-04-08",
+      "type": "numbers",
+      "front": {
+        "title": "Capnography numbers",
+        "summary": "What the value is telling you"
+      },
+      "back": {
+        "body": "See the numbers card: normal 35 to 45 mmHg; rising means too slow; falling means too fast; a sudden sustained rise during CPR suggests return of circulation.",
+        "why_it_matters": "In arrest, the number often moves before anyone can feel a pulse."
+      },
+      "high_yield": false,
+      "number": 45,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-08. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

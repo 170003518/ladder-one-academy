@@ -2081,6 +2081,846 @@
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Confirm indications for high-concentration oxygen in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-01-Q001",
+      "concept_id": "EMT-02-04-01",
+      "style": "recall",
+      "stem": "What is the endpoint for each bag-valve-mask squeeze?",
+      "options": [
+        {
+          "text": "Emptying the bag completely",
+          "rationale": "Emptying the bag delivers far more volume than the lungs need and inflates the stomach."
+        },
+        {
+          "text": "Visible chest rise",
+          "rationale": "Correct. Chest rise is the endpoint; stop there."
+        },
+        {
+          "text": "A count of three seconds",
+          "rationale": "Duration alone does not tell you whether air reached the lungs."
+        },
+        {
+          "text": "Until resistance is felt",
+          "rationale": "Resistance can mean an obstructed airway rather than a full lung."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-01-Q002",
+      "concept_id": "EMT-02-04-01",
+      "style": "recall",
+      "stem": "Why is two-rescuer bag-valve-mask ventilation preferred?",
+      "options": [
+        {
+          "text": "It delivers a larger volume",
+          "rationale": "Volume is set by chest rise, not by the number of rescuers."
+        },
+        {
+          "text": "One rescuer can devote both hands to the mask seal",
+          "rationale": "Correct. The seal is the hard part, and two hands hold it far better."
+        },
+        {
+          "text": "It allows a faster rate",
+          "rationale": "Rate should not increase; hyperventilation is harmful."
+        },
+        {
+          "text": "It removes the need for an airway adjunct",
+          "rationale": "An adjunct is still needed regardless of how many rescuers there are."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-01-Q003",
+      "concept_id": "EMT-02-04-01",
+      "style": "application",
+      "stem": "You are bagging an apneic adult and the chest is not rising. You can hear air escaping near the cheek. What do you do first?",
+      "options": [
+        {
+          "text": "Squeeze the bag harder and faster",
+          "rationale": "A harder squeeze through a leak just makes a louder leak."
+        },
+        {
+          "text": "Correct the mask seal",
+          "rationale": "Correct. An audible leak is a seal problem, and it is the most common cause of failure."
+        },
+        {
+          "text": "Increase the oxygen flow rate",
+          "rationale": "Flow rate does not fix a leaking mask."
+        },
+        {
+          "text": "Begin chest compressions",
+          "rationale": "Compressions are indicated by pulselessness, not by a failed ventilation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-01-Q004",
+      "concept_id": "EMT-02-04-01",
+      "style": "sequence",
+      "stem": "Put BVM ventilation of an apneic adult in order: 1) establish the mask seal, 2) insert an airway adjunct, 3) open the airway manually, 4) attach oxygen and confirm the reservoir fills.",
+      "options": [
+        {
+          "text": "3, 2, 4, 1",
+          "rationale": "Correct. Open the airway, place the adjunct, get oxygen on it, then seal and ventilate."
+        },
+        {
+          "text": "1, 3, 2, 4",
+          "rationale": "Sealing the mask before the airway is open means ventilating into a closed airway."
+        },
+        {
+          "text": "4, 1, 3, 2",
+          "rationale": "Attaching oxygen first is harmless but sealing before opening the airway is not."
+        },
+        {
+          "text": "2, 3, 1, 4",
+          "rationale": "An adjunct is inserted after the airway is opened, not before."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-02-Q001",
+      "concept_id": "EMT-02-04-02",
+      "style": "recall",
+      "stem": "An adult with a pulse is not breathing. What is the commonly taught ventilation interval?",
+      "options": [
+        {
+          "text": "One breath every 2 to 3 seconds",
+          "rationale": "That interval is far too fast for an adult and risks hyperventilation."
+        },
+        {
+          "text": "One breath every 5 to 6 seconds",
+          "rationale": "Correct — the interval commonly taught for adult rescue breathing."
+        },
+        {
+          "text": "One breath every 10 seconds",
+          "rationale": "Too slow to maintain adequate minute ventilation."
+        },
+        {
+          "text": "One breath every 15 seconds",
+          "rationale": "Far too slow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-02-Q002",
+      "concept_id": "EMT-02-04-02",
+      "style": "recall",
+      "stem": "Over roughly how long should each ventilation be delivered?",
+      "options": [
+        {
+          "text": "About one second",
+          "rationale": "Correct. Delivered over about a second, just to visible chest rise."
+        },
+        {
+          "text": "As fast as possible",
+          "rationale": "A fast forceful squeeze drives air into the stomach."
+        },
+        {
+          "text": "About four seconds",
+          "rationale": "Unnecessarily long and not the taught technique."
+        },
+        {
+          "text": "Until the bag is empty",
+          "rationale": "Bag volume is not the target; chest rise is."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-02-Q003",
+      "concept_id": "EMT-02-04-02",
+      "style": "application",
+      "stem": "Beyond gastric distention, why is ventilating too fast harmful?",
+      "options": [
+        {
+          "text": "It cools the patient",
+          "rationale": "Temperature is not the concern."
+        },
+        {
+          "text": "Raised pressure in the chest impedes blood returning to the heart",
+          "rationale": "Correct. Stacked breaths reduce venous return and can lower cardiac output."
+        },
+        {
+          "text": "It uses the oxygen cylinder faster",
+          "rationale": "True but trivial compared with the physiological harm."
+        },
+        {
+          "text": "It causes the mask seal to fail",
+          "rationale": "Seal failure is not the mechanism of harm from hyperventilation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-02-Q004",
+      "concept_id": "EMT-02-04-02",
+      "style": "scenario",
+      "stem": "Your partner is ventilating an adult in respiratory arrest and the breaths are stacking on top of each other. What is the most useful correction?",
+      "options": [
+        {
+          "text": "Tell them to squeeze harder",
+          "rationale": "Force is not the problem; frequency is."
+        },
+        {
+          "text": "Have them count the interval out loud",
+          "rationale": "Correct. Counting aloud is what keeps the rate honest under stress."
+        },
+        {
+          "text": "Switch to a smaller bag",
+          "rationale": "Bag size is not the issue."
+        },
+        {
+          "text": "Remove the airway adjunct",
+          "rationale": "Removing the adjunct would make ventilation worse."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-03-Q001",
+      "concept_id": "EMT-02-04-03",
+      "style": "recall",
+      "stem": "What is the primary sign that artificial ventilation is adequate?",
+      "options": [
+        {
+          "text": "The bag refills quickly",
+          "rationale": "Bag refill reflects the device, not the patient."
+        },
+        {
+          "text": "Visible chest rise and fall with each breath",
+          "rationale": "Correct. You judge from the patient, not the equipment."
+        },
+        {
+          "text": "The patient's eyes open",
+          "rationale": "Not a sign of adequate ventilation."
+        },
+        {
+          "text": "The reservoir stays full",
+          "rationale": "Reservoir status tells you about oxygen supply, not delivery to lungs."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-03-Q002",
+      "concept_id": "EMT-02-04-03",
+      "style": "application",
+      "stem": "During ventilation you notice the patient's abdomen becoming progressively distended. What does this indicate?",
+      "options": [
+        {
+          "text": "The ventilations are adequate",
+          "rationale": "A distending stomach is a sign something is wrong, not right."
+        },
+        {
+          "text": "Air is being forced into the esophagus and stomach",
+          "rationale": "Correct — from too much volume, too much speed, or an airway that is not fully open."
+        },
+        {
+          "text": "The patient is beginning to breathe on their own",
+          "rationale": "Spontaneous effort does not inflate the stomach."
+        },
+        {
+          "text": "The oxygen flow is too low",
+          "rationale": "Flow rate does not cause gastric distention."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-03-Q003",
+      "concept_id": "EMT-02-04-03",
+      "style": "recall",
+      "stem": "Which of the following is a secondary sign that ventilation is working?",
+      "options": [
+        {
+          "text": "Improving skin colour and a settling heart rate",
+          "rationale": "Correct. These follow as oxygenation improves."
+        },
+        {
+          "text": "Increasing resistance in the bag",
+          "rationale": "Rising resistance suggests a developing problem."
+        },
+        {
+          "text": "A louder leak at the mask",
+          "rationale": "A leak is a failure, not a sign of success."
+        },
+        {
+          "text": "The patient becoming more rigid",
+          "rationale": "Not a ventilation sign."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-04-Q001",
+      "concept_id": "EMT-02-04-04",
+      "style": "recall",
+      "stem": "What causes gastric distention during positive-pressure ventilation?",
+      "options": [
+        {
+          "text": "Too much volume, too fast a rate, or an incompletely opened airway",
+          "rationale": "Correct. All three push air down the path of least resistance."
+        },
+        {
+          "text": "Oxygen flow set too high",
+          "rationale": "Flow rate into the reservoir does not cause insufflation."
+        },
+        {
+          "text": "Using an airway adjunct",
+          "rationale": "An adjunct reduces the risk by opening the airway."
+        },
+        {
+          "text": "Ventilating too slowly",
+          "rationale": "Slow ventilation does not force air into the stomach."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-04-Q002",
+      "concept_id": "EMT-02-04-04",
+      "style": "application",
+      "stem": "A patient's stomach is visibly distended during ventilation. What should you do?",
+      "options": [
+        {
+          "text": "Press firmly on the abdomen to release the air",
+          "rationale": "This precipitates regurgitation, which is the outcome you are trying to avoid."
+        },
+        {
+          "text": "Slow the rate, reduce volume, and recheck airway positioning",
+          "rationale": "Correct. The correction is technique, not pressure."
+        },
+        {
+          "text": "Increase the ventilation rate to overcome the resistance",
+          "rationale": "Faster ventilation makes distention worse."
+        },
+        {
+          "text": "Stop ventilating until the distention resolves",
+          "rationale": "Stopping ventilation on an apneic patient is not an option."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-04-Q003",
+      "concept_id": "EMT-02-04-04",
+      "style": "recall",
+      "stem": "What is the current status of cricoid pressure during ventilation?",
+      "options": [
+        {
+          "text": "It is required on every ventilated patient",
+          "rationale": "It is not required, and is no longer routinely recommended."
+        },
+        {
+          "text": "It is no longer routinely recommended",
+          "rationale": "Correct. Know the term and its historical role, and follow current guidance."
+        },
+        {
+          "text": "It has never been taught",
+          "rationale": "It was standard teaching for many years."
+        },
+        {
+          "text": "It replaces the need for suction",
+          "rationale": "Nothing replaces having suction available."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-05-Q001",
+      "concept_id": "EMT-02-04-05",
+      "style": "recall",
+      "stem": "Which patient is a candidate for CPAP?",
+      "options": [
+        {
+          "text": "An apneic patient in respiratory arrest",
+          "rationale": "CPAP supports breathing; it does not replace it. That patient needs ventilation."
+        },
+        {
+          "text": "An awake patient working hard to breathe and staying hypoxic",
+          "rationale": "Correct. CPAP supports a patient who is breathing but losing the fight."
+        },
+        {
+          "text": "An unresponsive patient who cannot protect the airway",
+          "rationale": "Inability to protect the airway is a contraindication."
+        },
+        {
+          "text": "A patient who is actively vomiting",
+          "rationale": "Vomiting behind a sealed mask risks aspiration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-05-Q002",
+      "concept_id": "EMT-02-04-05",
+      "style": "recall",
+      "stem": "Why is hypotension a contraindication to CPAP?",
+      "options": [
+        {
+          "text": "The mask is uncomfortable at low pressures",
+          "rationale": "Comfort is not the reason."
+        },
+        {
+          "text": "Raised pressure in the chest impedes blood returning to the heart",
+          "rationale": "Correct. It can worsen an already compromised circulation."
+        },
+        {
+          "text": "CPAP lowers the oxygen concentration delivered",
+          "rationale": "It does not."
+        },
+        {
+          "text": "Low blood pressure prevents a mask seal",
+          "rationale": "Blood pressure has nothing to do with the seal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-05-Q003",
+      "concept_id": "EMT-02-04-05",
+      "style": "application",
+      "stem": "Which pair are classic indications for prehospital CPAP?",
+      "options": [
+        {
+          "text": "Pulmonary edema from heart failure and COPD exacerbation",
+          "rationale": "Correct, subject to local protocol."
+        },
+        {
+          "text": "Cardiac arrest and severe trauma",
+          "rationale": "Neither is a CPAP situation."
+        },
+        {
+          "text": "Hyperventilation syndrome and anxiety",
+          "rationale": "Not CPAP indications."
+        },
+        {
+          "text": "Foreign body obstruction and epiglottitis",
+          "rationale": "Airway obstruction is not treated with CPAP."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-05-Q004",
+      "concept_id": "EMT-02-04-05",
+      "style": "scenario",
+      "stem": "You apply CPAP and the patient immediately panics and pulls at the mask. What is the best response?",
+      "options": [
+        {
+          "text": "Strap it tighter and hold her hands down",
+          "rationale": "Forcing the mask is how CPAP attempts fail."
+        },
+        {
+          "text": "Coach her, hold the mask gently against the face, and keep talking her through it",
+          "rationale": "Correct. Tolerance is the common failure point, and coaching is the fix."
+        },
+        {
+          "text": "Abandon CPAP and begin bag-valve-mask ventilation",
+          "rationale": "She is breathing on her own; that is a step backwards."
+        },
+        {
+          "text": "Increase the pressure to overcome her resistance",
+          "rationale": "Raising pressure makes intolerance worse."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-06-Q001",
+      "concept_id": "EMT-02-04-06",
+      "style": "recall",
+      "stem": "When assisting ventilations on a patient who is breathing inadequately, when do you squeeze?",
+      "options": [
+        {
+          "text": "On your own steady count regardless of the patient",
+          "rationale": "Squeezing out of phase fights the patient and fills the stomach."
+        },
+        {
+          "text": "As the patient begins to inhale",
+          "rationale": "Correct. You are adding volume to a breath they have already started."
+        },
+        {
+          "text": "As the patient begins to exhale",
+          "rationale": "Squeezing against an exhalation delivers nothing."
+        },
+        {
+          "text": "Only between the patient's breaths",
+          "rationale": "That is replacing rather than assisting, and mistimes the support."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-06-Q002",
+      "concept_id": "EMT-02-04-06",
+      "style": "application",
+      "stem": "A patient is breathing 30 times a minute with very shallow chest movement. What does this tell you?",
+      "options": [
+        {
+          "text": "They are ventilating well because the rate is high",
+          "rationale": "Rate alone does not equal adequate air movement."
+        },
+        {
+          "text": "They may be moving less useful air than someone breathing slower and deeper",
+          "rationale": "Correct. Shallow rapid breathing can move very little effective volume."
+        },
+        {
+          "text": "They need no intervention until the rate falls",
+          "rationale": "Waiting for deterioration is the error this concept exists to prevent."
+        },
+        {
+          "text": "They should be placed in the recovery position",
+          "rationale": "Position does not fix inadequate tidal volume."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-06-Q003",
+      "concept_id": "EMT-02-04-06",
+      "style": "scenario",
+      "stem": "You have been assisting a patient's ventilations and their own respiratory effort is fading. What changes?",
+      "options": [
+        {
+          "text": "Nothing; continue assisting at the same rate",
+          "rationale": "Their effort no longer sets the rhythm, so assisting is no longer possible."
+        },
+        {
+          "text": "You transition to full ventilation at an appropriate rate",
+          "rationale": "Correct. When the patient stops contributing, you do all of it."
+        },
+        {
+          "text": "You switch to CPAP",
+          "rationale": "CPAP requires adequate spontaneous breathing."
+        },
+        {
+          "text": "You reduce the volume of each breath",
+          "rationale": "Reducing volume as effort fades worsens the situation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-07-Q001",
+      "concept_id": "EMT-02-04-07",
+      "style": "recall",
+      "stem": "Where do you ventilate a patient with a stoma?",
+      "options": [
+        {
+          "text": "At the mouth and nose as usual",
+          "rationale": "Their airway does not begin at the face."
+        },
+        {
+          "text": "At the stoma",
+          "rationale": "Correct. The airway starts at the opening in the neck."
+        },
+        {
+          "text": "At whichever gives better chest rise",
+          "rationale": "The stoma is the airway; the face is not an alternative route."
+        },
+        {
+          "text": "Through a nasopharyngeal airway",
+          "rationale": "An NPA does not reach a surgical airway."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-07-Q002",
+      "concept_id": "EMT-02-04-07",
+      "style": "application",
+      "stem": "You are ventilating at a stoma and feel air escaping from the patient's mouth and nose. What do you do?",
+      "options": [
+        {
+          "text": "Move the mask to the face instead",
+          "rationale": "The stoma is still the airway; moving the mask abandons it."
+        },
+        {
+          "text": "Seal the mouth and nose and continue at the stoma",
+          "rationale": "Correct. The upper airway is still connected, so close it off."
+        },
+        {
+          "text": "Increase the ventilation rate",
+          "rationale": "Rate does not stop a leak through the upper airway."
+        },
+        {
+          "text": "Stop and suction the stoma",
+          "rationale": "Suction is for obstruction, not for an upper-airway leak."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-07-Q003",
+      "concept_id": "EMT-02-04-07",
+      "style": "recall",
+      "stem": "Why does head positioning not help a stoma patient?",
+      "options": [
+        {
+          "text": "Because the airway is entered below the mouth and throat",
+          "rationale": "Correct. There is no tongue between your air and their lungs."
+        },
+        {
+          "text": "Because their neck cannot be moved",
+          "rationale": "Neck mobility is not the reason."
+        },
+        {
+          "text": "Because a stoma patient is always supine",
+          "rationale": "Position is not fixed."
+        },
+        {
+          "text": "Because a stoma cannot be obstructed",
+          "rationale": "Stomas obstruct readily with secretions."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-08-Q001",
+      "concept_id": "EMT-02-04-08",
+      "style": "recall",
+      "stem": "What is the approximate normal range for end-tidal carbon dioxide?",
+      "options": [
+        {
+          "text": "5 to 15 mmHg",
+          "rationale": "Far below the normal range."
+        },
+        {
+          "text": "35 to 45 mmHg",
+          "rationale": "Correct — the commonly taught normal range."
+        },
+        {
+          "text": "60 to 80 mmHg",
+          "rationale": "Well above normal."
+        },
+        {
+          "text": "90 to 100 mmHg",
+          "rationale": "Not a carbon dioxide range at all."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-08-Q002",
+      "concept_id": "EMT-02-04-08",
+      "style": "application",
+      "stem": "What does capnography tell you that pulse oximetry does not?",
+      "options": [
+        {
+          "text": "How much oxygen is bound to hemoglobin",
+          "rationale": "That is precisely what oximetry measures."
+        },
+        {
+          "text": "Whether air is actually moving in and out",
+          "rationale": "Correct. Capnography reflects ventilation; oximetry reflects oxygenation."
+        },
+        {
+          "text": "The patient's blood pressure",
+          "rationale": "Neither device measures blood pressure."
+        },
+        {
+          "text": "The patient's heart rhythm",
+          "rationale": "That requires a cardiac monitor."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-08-Q003",
+      "concept_id": "EMT-02-04-08",
+      "style": "application",
+      "stem": "During ventilation the end-tidal carbon dioxide value is steadily falling. What is the most likely explanation?",
+      "options": [
+        {
+          "text": "You are ventilating too slowly",
+          "rationale": "Slow ventilation lets carbon dioxide accumulate, raising the value."
+        },
+        {
+          "text": "You are ventilating too fast",
+          "rationale": "Correct. Blowing off carbon dioxide drives the number down."
+        },
+        {
+          "text": "The oxygen supply has failed",
+          "rationale": "Oxygen supply does not directly drive the end-tidal value."
+        },
+        {
+          "text": "The patient has begun breathing on their own",
+          "rationale": "Returning spontaneous breathing would not simply drop the value."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-08-Q004",
+      "concept_id": "EMT-02-04-08",
+      "style": "scenario",
+      "stem": "During CPR the end-tidal carbon dioxide suddenly rises and stays up. What should you suspect?",
+      "options": [
+        {
+          "text": "The monitor has failed",
+          "rationale": "A sustained meaningful rise is a clinical finding, not an artifact to dismiss."
+        },
+        {
+          "text": "Return of spontaneous circulation",
+          "rationale": "Correct. It reflects restored pulmonary blood flow and often precedes a palpable pulse."
+        },
+        {
+          "text": "The patient is hyperventilated",
+          "rationale": "Hyperventilation drives the value down, not up."
+        },
+        {
+          "text": "The airway has become obstructed",
+          "rationale": "Obstruction would reduce or flatten the reading."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

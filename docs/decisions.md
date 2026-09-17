@@ -141,3 +141,12 @@
 - Skill concepts (OPA, NPA, suction, FBAO) each got a skill card with critical steps flagged and at least one `sequence` question, per the brief. BVM belongs to EMT-02-04 and is handled there.
 - Do It activities use only shapes that have renderers: `sort_into_buckets` for maneuver choice, OPA appropriateness and suction tip selection; `select_device` match for OPA/NPA/neither and for FBAO action by patient.
 - EMT-02-02-07 carries three card types (concept, algorithm, skill) because the choking decision is both a tree and a psychomotor skill.
+
+## 2026-09-16 — Content: EMT-02-04 Ventilation
+
+- 8 concepts, 28 questions, 12 cards. New lesson — the module had never carried EMT-02-04, so the merge tool now creates a missing lesson and keeps `lessons[]` in ID order (which is teaching order, because the IDs are padded).
+- **Pediatric and advanced-airway ventilation rates are deliberately blank.** These have been revised between guideline editions, and a half-remembered rate is worse than an obvious gap. The adult interval (about one breath every 5 to 6 seconds) and breath duration (about one second) are stated; the Numbers card shows the pediatric and advanced-airway rows as unfilled with a note saying where to get them. `verify_notes` on EMT-02-04-02 calls this out explicitly.
+- **No CPAP pressure settings are given** (cmH2O). They are protocol-specific, not textbook constants, so the concept teaches indications, contraindications and coaching and leaves the numbers to local protocol.
+- Cricoid pressure is taught as historical and explicitly "no longer routinely recommended", because an EMT will still hear the term.
+- BVM is the skill concept in this lesson and got a skill card with critical steps plus a `sequence` question, per the brief.
+- Merging this lesson resolved three previously dangling `related` links from EMT-02-03 concepts that pointed forward to EMT-02-04-01.

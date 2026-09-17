@@ -49,6 +49,20 @@
         "EMT-02-03-05",
         "EMT-02-03-06"
       ]
+    },
+    {
+      "id": "EMT-02-04",
+      "title": "Ventilation",
+      "concepts": [
+        "EMT-02-04-01",
+        "EMT-02-04-02",
+        "EMT-02-04-03",
+        "EMT-02-04-04",
+        "EMT-02-04-05",
+        "EMT-02-04-06",
+        "EMT-02-04-07",
+        "EMT-02-04-08"
+      ]
     }
   ],
   "concepts": [
@@ -2937,6 +2951,1141 @@
       "media": [],
       "verify": true,
       "verify_notes": "Confirm the 94 to 99% target and the COPD 88 to 92% range as stated in AAOS 12e and current AHA guidance; confirm the current wording on oxygen in ACS and stroke."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-01",
+      "title": "Bag-valve-mask: one- and two-rescuer technique",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-02-04"
+      ],
+      "related": [
+        "EMT-02-04-02",
+        "EMT-02-04-03",
+        "EMT-02-02-05"
+      ],
+      "key_points": [
+        "The EMT's tool for ventilating a patient who is not breathing adequately on their own",
+        "Attach oxygen at high flow and use the reservoir; without oxygen the bag delivers room air",
+        "Two rescuers is the preferred technique: one holds the seal with both hands, the other squeezes",
+        "A one-rescuer seal uses the C-grip, thumb and index finger forming a C on the mask, remaining fingers lifting the jaw into the mask",
+        "Squeeze until you see the chest rise, then stop; chest rise is the endpoint, not bag volume",
+        "A poor mask seal is the most common reason ventilation fails",
+        "An airway adjunct and a positioned head make the bag work; the bag does not open the airway"
+      ],
+      "misconceptions": [
+        "Squeezing harder or faster instead of fixing the seal",
+        "Ventilating without oxygen connected",
+        "Trying to hold a seal one-handed when a second rescuer is available",
+        "Using bag volume rather than chest rise as the endpoint"
+      ],
+      "exam_favorites": [
+        "Two-rescuer preferred and why",
+        "The C-grip",
+        "Chest rise as the endpoint",
+        "That a bad seal, not a weak squeeze, is the usual failure"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A bag-valve-mask is how an EMT breathes for somebody. It is a self-inflating bag, a one-way valve and a mask, and it should always have oxygen running into it with the reservoir attached. Without that, you are pushing room air.\n\nThe hard part is not the squeezing. It is the seal. If air escapes around the mask, nothing reaches the lungs no matter how hard you work. That is why two rescuers is the preferred way: one person uses both hands to hold the mask down and lift the jaw up into it, and the other squeezes the bag.\n\nWorking alone, you use the C-grip. Thumb and index finger make a C over the mask and press down; your remaining fingers hook under the bony jaw and lift it up into the mask. You are pulling the face into the mask, not mashing the mask onto the face.\n\nSqueeze slowly and stop as soon as the chest rises. Chest rise is the whole endpoint. Squeezing more than that pushes air into the stomach.\n\nAnd remember what the bag does not do. It does not open the airway. Position the head, put in an adjunct, then ventilate.",
+          "standard": "The bag-valve-mask (BVM) provides positive-pressure ventilation for patients with absent or inadequate spontaneous breathing. The device is used with supplemental oxygen at high flow and an attached reservoir; without these it delivers approximately ambient oxygen concentration. Two-rescuer technique is preferred: one provider maintains the mask seal bilaterally while simultaneously performing a jaw lift, and the second delivers ventilations. Single-rescuer ventilation uses the C-grip, in which the thumb and index finger secure the mask while the remaining digits elevate the mandible into the mask. Adequate volume is defined by visible chest rise; excessive volume or rate produces gastric insufflation and raises the risk of regurgitation. Inadequate mask seal is the predominant cause of ineffective ventilation. The BVM does not establish airway patency: head positioning and an appropriate adjunct remain prerequisites."
+        },
+        "eli_new": {
+          "analogy": "You are not pushing the mask onto the face. You are pulling the face up into the mask.",
+          "body": "New EMTs squeeze harder when ventilation is not working. Almost always the problem is at the other end. Air is leaking out around the edge of the mask, and a harder squeeze just makes a louder leak. Fix the seal, get a second pair of hands on it, and the same squeeze suddenly works."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Walk a new EMT through ventilating an apneic adult with a bag-valve-mask, and tell them what to check first when it is not working.",
+          "must_hit": [
+            {
+              "point": "Oxygen connected with the reservoir",
+              "accept": [
+                "oxygen",
+                "reservoir",
+                "high flow"
+              ]
+            },
+            {
+              "point": "Two-rescuer technique is preferred",
+              "accept": [
+                "two rescuer",
+                "two-rescuer",
+                "two person",
+                "second rescuer",
+                "partner"
+              ]
+            },
+            {
+              "point": "Squeeze until the chest rises and stop",
+              "accept": [
+                "chest rise",
+                "chest rises",
+                "visible chest"
+              ]
+            },
+            {
+              "point": "A poor seal is the usual failure",
+              "accept": [
+                "seal",
+                "leak"
+              ]
+            }
+          ],
+          "model_answer": "Get oxygen on it at high flow with the reservoir attached, or you are just moving room air. Position the head and put in an adjunct first, because the bag does not open an airway. If there are two of you, one holds the mask down with both hands and lifts the jaw into it while the other squeezes. Alone, use the C-grip: thumb and index finger pressing the mask, the other fingers pulling the bony jaw up into it. Squeeze slowly until you see the chest rise, then stop. When it is not working, check the seal before anything else — a leak is far more likely than a weak squeeze."
+        },
+        "story": {
+          "title": "Two pairs of hands",
+          "dispatch": "Rescue 2, Engine 4 — unresponsive, not breathing normally, residence.",
+          "body": "You are alone at the head with the bag and it is not going well. The chest barely moves and you can hear air hissing out by his cheek every time you squeeze.\n\nEngine 4 comes through the door. Their firefighter drops to the head, takes the mask in both hands, pulls the jaw up into it, and nods. You squeeze the same bag with the same pressure and the chest rises properly for the first time.\n\nNothing changed except the seal."
+        },
+        "do": {
+          "activity": "bvm_troubleshoot",
+          "type": "select_device",
+          "prompt": "The chest is not rising. Pick the first thing to fix for each situation.",
+          "config": {
+            "devices": [
+              "Fix the mask seal",
+              "Reposition the head or insert an adjunct",
+              "Suction the airway",
+              "Add a second rescuer"
+            ],
+            "patients": [
+              {
+                "text": "Air hissing audibly from the side of the mask with each squeeze",
+                "correct": 0,
+                "why": "An audible leak is a seal problem, and no amount of extra force fixes it."
+              },
+              {
+                "text": "Good seal, but the chest still will not rise and the neck is flexed forward",
+                "correct": 1,
+                "why": "The bag does not open an airway. Reposition and add an adjunct."
+              },
+              {
+                "text": "Gurgling with each squeeze and fluid visible at the lips",
+                "correct": 2,
+                "why": "Ventilating through fluid drives it into the lungs. Clear it first."
+              },
+              {
+                "text": "You are alone, holding the mask one-handed, and cannot maintain the seal",
+                "correct": 3,
+                "why": "Two-rescuer technique exists for exactly this."
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "BVM ventilation of an apneic adult",
+          "steps": [
+            {
+              "text": "Take standard precautions",
+              "critical": false
+            },
+            {
+              "text": "Open the airway with the appropriate manual maneuver",
+              "critical": true,
+              "note": "The bag does not open an airway."
+            },
+            {
+              "text": "Insert an airway adjunct",
+              "critical": true
+            },
+            {
+              "text": "Attach oxygen at high flow and confirm the reservoir fills",
+              "critical": true,
+              "note": "Without oxygen the bag delivers room air."
+            },
+            {
+              "text": "Establish a mask seal — two-rescuer where possible, C-grip alone",
+              "critical": true,
+              "note": "A leaking seal is the most common reason ventilation fails."
+            },
+            {
+              "text": "Ventilate until visible chest rise, then stop",
+              "critical": true,
+              "note": "Over-squeezing inflates the stomach."
+            },
+            {
+              "text": "Reassess chest rise, rate and the seal continuously",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the C-grip description, whether the current text specifies a squeeze duration, and the oxygen flow rate it teaches for the BVM reservoir."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-02",
+      "title": "Ventilation rates by age and situation",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-04-01"
+      ],
+      "related": [
+        "EMT-02-04-01",
+        "EMT-02-04-04"
+      ],
+      "key_points": [
+        "Ventilation rate depends on the patient's age, whether there is a pulse, and whether an advanced airway is in place",
+        "An adult in respiratory arrest with a pulse is ventilated at roughly one breath every 5 to 6 seconds",
+        "Children and infants are ventilated faster than adults, and the exact rate has changed between guideline editions",
+        "Ventilating too fast is actively harmful: it inflates the stomach and reduces blood return to the heart",
+        "Each breath is delivered over about a second, just until the chest rises"
+      ],
+      "misconceptions": [
+        "Ventilating as fast as adrenaline suggests rather than counting",
+        "Using the same rate for an adult and an infant",
+        "Believing that more ventilation is always better"
+      ],
+      "exam_favorites": [
+        "The adult rescue-breathing interval",
+        "That pediatric rates are faster",
+        "Why hyperventilation is harmful",
+        "One second per breath, to chest rise"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Rate matters as much as technique. Too slow and the patient stays hypoxic. Too fast and you actively cause harm, which surprises people.\n\nFor an adult who has a pulse but is not breathing, the commonly taught interval is one breath every 5 to 6 seconds. Say it out loud as you go — squeeze, two, three, four, five.\n\nChildren and infants get ventilated faster than adults, because their normal rates are faster. The exact numbers have been revised between guideline editions, so use the figure your current text and protocol give rather than a number you half-remember.\n\nDeliver each breath over about a second, and only until the chest rises. A fast, hard squeeze forces air past the esophagus into the stomach.\n\nThe reason to care about going too fast is not just gastric distention. Every positive-pressure breath raises the pressure inside the chest, and that pressure works against blood returning to the heart. Ventilate too fast and you can drop the very output you are trying to support.",
+          "standard": "Ventilation rate is determined by patient age, the presence of a pulse, and whether an advanced airway is in place. For the adult in respiratory arrest with a perfusing rhythm, ventilation is commonly taught at approximately one breath every 5 to 6 seconds. Pediatric patients are ventilated at higher rates reflecting their higher baseline respiratory rates; the specific intervals have been revised across guideline editions and must be taken from the current standard rather than recalled. Each ventilation is delivered over approximately one second to visible chest rise. Excessive ventilation rate or volume produces gastric insufflation with attendant regurgitation risk, and raises intrathoracic pressure sufficiently to impede venous return and reduce cardiac output. Hyperventilation is therefore not a benign error."
+        },
+        "eli_new": {
+          "analogy": "Every squeeze is a small squeeze on the heart as well as the lungs. Do it too often and you strangle the pump you are trying to help.",
+          "body": "It feels wrong to slow down when somebody is not breathing. But each breath you push in raises the pressure inside the chest, and the heart fills between breaths. Pile the breaths on top of each other and there is never a low-pressure moment for blood to come back. Counting out loud is what keeps you honest."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain to a new EMT how fast to ventilate an adult who has a pulse but is not breathing, and why going faster is not better.",
+          "must_hit": [
+            {
+              "point": "About one breath every 5 to 6 seconds for an adult",
+              "accept": [
+                "5 to 6",
+                "5-6",
+                "every six",
+                "every 6",
+                "every five"
+              ]
+            },
+            {
+              "point": "Each breath over about a second, to chest rise",
+              "accept": [
+                "one second",
+                "1 second",
+                "chest rise",
+                "a second"
+              ]
+            },
+            {
+              "point": "Too fast inflates the stomach",
+              "accept": [
+                "stomach",
+                "gastric",
+                "distention",
+                "distension"
+              ]
+            },
+            {
+              "point": "Too fast reduces blood return to the heart",
+              "accept": [
+                "venous return",
+                "blood return",
+                "cardiac output",
+                "pressure in the chest",
+                "intrathoracic"
+              ]
+            }
+          ],
+          "model_answer": "For an adult with a pulse who is not breathing, the commonly taught interval is one breath every 5 to 6 seconds, delivered over about a second, just until the chest rises. Count out loud, because adrenaline makes everyone go faster than they think. Going faster is not better: extra volume and extra rate push air into the stomach, and every positive-pressure breath raises the pressure inside the chest, which works against blood coming back to the heart. Hyperventilating can lower the output you are trying to support. Children and infants are ventilated faster than adults, but take that number from your current text because it has changed between editions."
+        },
+        "story": {
+          "title": "Counting out loud",
+          "dispatch": "Rescue 2 — unresponsive, agonal breathing, pulse present.",
+          "body": "Your partner is on the bag and going far too fast, one breath on top of the next, because that is what your hands want to do when somebody is dying in front of you.\n\nThe medic arriving says one word: count. Your partner starts saying it out loud — squeeze, two, three, four, five — and the rhythm settles. The stomach stops rising under the shirt.\n\nNobody squeezed harder. They just stopped stacking the breaths."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Adult, pulse present, not breathing",
+            "value": "1 breath every 5 to 6",
+            "unit": "seconds",
+            "note": "Confirm against the current text."
+          },
+          {
+            "label": "Length of each breath",
+            "value": "about 1",
+            "unit": "second",
+            "note": "Deliver just to visible chest rise."
+          },
+          {
+            "label": "Child and infant rates",
+            "value": "faster than adult",
+            "unit": "",
+            "note": "Exact figures revised between guideline editions — fill from the current source."
+          },
+          {
+            "label": "With an advanced airway in place",
+            "value": "—",
+            "unit": "",
+            "note": "Not stated here; take from the current text and protocol."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the adult rescue-breathing interval and, critically, the CURRENT pediatric and infant ventilation rates and the rate used with an advanced airway in place — these have changed between guideline editions and are deliberately not stated here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-03",
+      "title": "Signs of adequate artificial ventilation",
+      "domain": "AIR",
+      "difficulty": 2,
+      "prereqs": [
+        "EMT-02-04-01"
+      ],
+      "related": [
+        "EMT-02-04-01",
+        "EMT-02-04-04",
+        "EMT-02-01-05"
+      ],
+      "key_points": [
+        "The chest rises and falls visibly with each ventilation",
+        "The rate is appropriate for the patient's age and situation",
+        "Heart rate and skin colour improve as oxygenation improves",
+        "Signs of inadequate ventilation: no chest rise, a rate that is too slow or too fast, and a stomach that is inflating",
+        "Ventilation is assessed continuously, not confirmed once and forgotten"
+      ],
+      "misconceptions": [
+        "Confirming chest rise on the first breath and never looking again",
+        "Judging adequacy by how hard the bag feels rather than by the patient",
+        "Ignoring a rising abdomen"
+      ],
+      "exam_favorites": [
+        "Chest rise as the primary sign",
+        "Rising stomach as a sign of a problem",
+        "That ventilation is reassessed continuously"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Once you start ventilating, the question becomes: is it working? You answer it from the patient, not from the equipment.\n\nThe first thing is chest rise. It should go up and come down with every squeeze, visibly, the way a normal breath looks. Not a twitch, not a heave.\n\nThe second is rate. Appropriate for the age, steady, not stacked on top of itself.\n\nThen watch the patient change. As oxygen gets in, colour improves and a fast heart rate often begins to settle. Those are downstream signs and they take time, but they tell you it is working.\n\nNow the failures. No chest rise means the air is going somewhere other than the lungs, usually past a bad seal or into a blocked airway. A stomach that is visibly inflating means air is going down the esophagus, which means too much volume, too much speed, or an airway that is not properly open.\n\nAnd this is not a one-time check. Seals slip, heads move, patients vomit. Keep looking.",
+          "standard": "Adequate artificial ventilation is assessed from the patient rather than the device. The primary indicator is visible bilateral chest rise and fall with each delivered breath, of a volume comparable to a normal spontaneous breath. Rate must be appropriate to age and clinical situation. Secondary indicators include improvement in skin colour and normalisation of a previously elevated heart rate as oxygenation improves. Indicators of inadequate ventilation include absent or minimal chest rise, a rate that is too slow or too rapid, and progressive gastric distention, which signals esophageal insufflation from excessive volume, excessive rate, or incomplete airway opening. Assessment is continuous: mask seal, head position and airway patency all degrade over time, and vomiting may occur at any point."
+        },
+        "eli_new": {
+          "analogy": "The patient is the gauge, not the bag.",
+          "body": "It is easy to get absorbed in the equipment — how the bag feels, whether the reservoir is full. None of that tells you whether air is reaching lungs. Look at the chest. Look at the belly. Look at the colour. The patient tells you the truth."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Tell a new EMT how they know their ventilations are working, and what the warning signs look like.",
+          "must_hit": [
+            {
+              "point": "Visible chest rise and fall with each breath",
+              "accept": [
+                "chest rise",
+                "chest rises",
+                "chest fall"
+              ]
+            },
+            {
+              "point": "Appropriate rate for age",
+              "accept": [
+                "rate",
+                "age",
+                "too fast",
+                "too slow"
+              ]
+            },
+            {
+              "point": "Improving colour and heart rate",
+              "accept": [
+                "colour",
+                "color",
+                "skin",
+                "heart rate",
+                "pulse"
+              ]
+            },
+            {
+              "point": "A rising stomach means air is going the wrong way",
+              "accept": [
+                "stomach",
+                "gastric",
+                "abdomen",
+                "belly",
+                "distention",
+                "distension"
+              ]
+            }
+          ],
+          "model_answer": "You judge it from the patient. The chest should rise and fall visibly with every squeeze, about like a normal breath, and the rate should suit the patient's age without breaths stacking up. Over the next minutes, colour should improve and a fast heart rate often settles. The warnings are the opposite: no chest rise means the air is not reaching the lungs, usually a seal or airway problem, and a stomach that keeps inflating means you are pushing air down the esophagus from too much volume, too much speed, or an airway that is not properly open. Keep checking — seals slip and heads move."
+        },
+        "story": {
+          "title": "The rising shirt",
+          "dispatch": "Rescue 2 — cardiac arrest, bystander CPR in progress.",
+          "body": "Four minutes into the code, somebody notices the patient's shirt is tight across his stomach in a way it was not when you arrived.\n\nChest rise had been marginal for a while and the person on the bag had been compensating by squeezing more. All of that extra volume had been going into the stomach.\n\nRepositioning the head and fixing the seal got the chest moving again with less pressure, not more."
+        },
+        "do": {
+          "activity": "vent_adequate",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each finding during bag-valve-mask ventilation.",
+          "config": {
+            "buckets": [
+              "Ventilation is adequate",
+              "Ventilation is NOT adequate"
+            ],
+            "items": [
+              {
+                "text": "Chest rises visibly with each squeeze",
+                "bucket": 0
+              },
+              {
+                "text": "Abdomen becoming visibly distended",
+                "bucket": 1
+              },
+              {
+                "text": "Colour improving from grey toward pink",
+                "bucket": 0
+              },
+              {
+                "text": "No chest movement despite firm squeezes",
+                "bucket": 1
+              },
+              {
+                "text": "Steady rate, breaths not stacking",
+                "bucket": 0
+              },
+              {
+                "text": "Audible hissing from the mask edge",
+                "bucket": 1
+              },
+              {
+                "text": "Previously fast heart rate beginning to settle",
+                "bucket": 0
+              },
+              {
+                "text": "Gurgling heard with each ventilation",
+                "bucket": 1
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the list of adequacy and inadequacy signs the current text gives, and whether it names a target volume other than visible chest rise."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-04",
+      "title": "Gastric distention and cricoid pressure",
+      "domain": "AIR",
+      "difficulty": 2,
+      "prereqs": [
+        "EMT-02-04-01",
+        "EMT-02-04-02"
+      ],
+      "related": [
+        "EMT-02-02-06",
+        "EMT-02-04-03"
+      ],
+      "key_points": [
+        "Gastric distention is air forced into the stomach by ventilation that is too fast, too forceful, or through a partly obstructed airway",
+        "A distended stomach pushes up against the diaphragm and makes ventilation harder",
+        "It substantially raises the risk of regurgitation and aspiration",
+        "The fix is technique: slow down, use less volume, and make sure the airway is properly open",
+        "Cricoid pressure was historically taught to prevent it and is no longer routinely recommended",
+        "Suction must be immediately available whenever you are ventilating"
+      ],
+      "misconceptions": [
+        "Trying to press the air out of a distended stomach",
+        "Continuing the same technique and accepting distention as unavoidable",
+        "Believing cricoid pressure is still standard practice"
+      ],
+      "exam_favorites": [
+        "What causes gastric distention",
+        "Why it matters",
+        "That cricoid pressure is historical",
+        "That the correction is technique, not pressure"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Air takes the path of least resistance. If the airway is not fully open, or you squeeze too fast or too hard, some of that air goes down the esophagus into the stomach instead of into the lungs.\n\nYou will see it as a stomach that gets progressively bigger. Two things follow. First, the inflated stomach pushes up on the diaphragm and gives the lungs less room, so ventilation gets harder and you are tempted to squeeze harder still. Second, and worse, a full stomach is much more likely to empty itself back up into the throat. Now you are ventilating through vomit.\n\nThe fix is not force. It is technique. Slow the rate. Use only the volume that makes the chest rise. Recheck that the head is positioned and the adjunct is doing its job.\n\nDo not press on the abdomen to push the air out. That is how you cause the regurgitation you are trying to avoid.\n\nFor years, pressure on the cricoid cartilage was taught to occlude the esophagus and prevent this. It is no longer routinely recommended. Know what it is, know it was standard, and know that current practice has moved away from it.",
+          "standard": "Gastric distention results from insufflation of air into the esophagus and stomach during positive-pressure ventilation, and is caused by excessive ventilation rate, excessive tidal volume, or incomplete airway opening. Progressive distention elevates the diaphragm, reducing pulmonary compliance and making subsequent ventilation more difficult, and markedly increases the risk of regurgitation and aspiration. Management is corrective technique: reduce rate and volume, deliver only to visible chest rise, and reconfirm airway positioning and adjunct placement. Manual abdominal pressure to decompress the stomach is not performed, as it precipitates regurgitation. Cricoid pressure (the Sellick maneuver), historically taught to occlude the esophagus during ventilation, is no longer routinely recommended; EMTs should recognise the term and its historical role while following current guidance. Suction must remain immediately available throughout positive-pressure ventilation."
+        },
+        "eli_new": {
+          "analogy": "You are filling two bags through one opening. Push too hard and the wrong bag fills.",
+          "body": "Air goes wherever it is easiest to go. Lungs are easy when the airway is open and you squeeze gently. Make the airway harder to get into, or push harder than the lungs want, and the stomach becomes the easier option. It is that simple, and the answer is always to make the lungs easier rather than to push harder."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what causes gastric distention during ventilation, why it is dangerous, and what you do about it.",
+          "must_hit": [
+            {
+              "point": "Caused by too fast, too forceful, or a partly obstructed airway",
+              "accept": [
+                "too fast",
+                "too much",
+                "forceful",
+                "volume",
+                "obstruct",
+                "airway not open",
+                "rate"
+              ]
+            },
+            {
+              "point": "Pushes on the diaphragm and makes ventilation harder",
+              "accept": [
+                "diaphragm",
+                "harder",
+                "compliance",
+                "less room"
+              ]
+            },
+            {
+              "point": "Raises the risk of vomiting and aspiration",
+              "accept": [
+                "vomit",
+                "regurgitat",
+                "aspirat"
+              ]
+            },
+            {
+              "point": "Fixed by slowing down and reopening the airway, not by pressing on the abdomen",
+              "accept": [
+                "slow",
+                "less volume",
+                "reposition",
+                "do not press",
+                "technique"
+              ]
+            }
+          ],
+          "model_answer": "It happens when air goes down the esophagus instead of the trachea, which comes from ventilating too fast, using too much volume, or working through an airway that is not properly open. The stomach fills, pushes up on the diaphragm, and ventilation gets harder — which tempts you to squeeze harder and makes it worse. The real danger is that a full stomach regurgitates, and then you are pushing vomit into the lungs. Fix it by slowing down, giving only enough volume for chest rise, and rechecking the head position and adjunct. Never press on the abdomen to force the air out. Cricoid pressure used to be taught for this and is no longer routinely recommended."
+        },
+        "story": {
+          "title": "Harder is not better",
+          "dispatch": "Rescue 2 — unresponsive, not breathing, apartment.",
+          "body": "The chest was barely moving, so the newer EMT on the bag did what feels natural and squeezed harder and faster. Ten minutes later the patient's abdomen was visibly domed and the bag felt stiff in his hand.\n\nThe medic took the mask, repositioned the head, seated the adjunct properly, and handed it back with one instruction: half as fast, half as hard.\n\nThe chest started rising properly. The bag got easier, not harder."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the current text's stance on cricoid pressure and its exact wording, and whether it gives any figures for volume or pressure."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-05",
+      "title": "CPAP: indications, contraindications, setup",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-04-03"
+      ],
+      "related": [
+        "EMT-02-05-04",
+        "EMT-02-05-02"
+      ],
+      "key_points": [
+        "Continuous positive airway pressure holds the airways and alveoli open through the whole breathing cycle",
+        "For an awake patient who is breathing on their own but working hard and staying hypoxic",
+        "Classic indications include pulmonary edema from heart failure and a COPD exacerbation, per local protocol",
+        "The patient must be awake enough to cooperate, follow instructions and protect their own airway",
+        "Contraindicated in respiratory or cardiac arrest, in a patient who cannot protect their airway, and in a patient who is vomiting",
+        "Hypotension and suspected pneumothorax are contraindications because the pressure impedes venous return",
+        "Talk the patient through it: the mask is tight and frightening, and tolerance decides whether it works"
+      ],
+      "misconceptions": [
+        "Putting CPAP on a patient who is not breathing adequately on their own",
+        "Using it on an obtunded patient who cannot protect the airway",
+        "Applying the mask without coaching the patient through it",
+        "Treating it as a substitute for ventilation"
+      ],
+      "exam_favorites": [
+        "Awake and breathing on their own is the entry requirement",
+        "Arrest and inability to protect the airway are absolute contraindications",
+        "Why hypotension matters",
+        "That coaching determines tolerance"
+      ],
+      "modes": {
+        "read": {
+          "plain": "CPAP is a tight mask that delivers continuous pressure, so the patient is breathing against a constant push. That pressure holds small airways and alveoli open at the end of each breath instead of letting them collapse, and in pulmonary edema it helps push fluid back out of the air spaces.\n\nThe patient has to be doing the breathing. CPAP supports a patient who is working hard and losing; it does not breathe for anyone. Awake, able to follow instructions, able to protect their own airway.\n\nThe classic candidates are heart failure with pulmonary edema, and COPD exacerbations, within your protocol.\n\nThe contraindications follow from the same logic. Respiratory or cardiac arrest means they cannot breathe against it, so they need ventilation instead. A patient who cannot protect their airway, or who is vomiting, will aspirate behind a sealed mask. Low blood pressure is a problem because the pressure in the chest works against blood returning to the heart. Suspected pneumothorax is a problem for obvious reasons.\n\nFinally, the human part. A tight mask blowing air at a frightened, breathless person feels like drowning. Explain it, hold it gently against the face before strapping, and keep talking. Most CPAP failures are tolerance failures.",
+          "standard": "Continuous positive airway pressure (CPAP) delivers a constant positive pressure throughout the respiratory cycle, maintaining alveolar and small-airway patency at end-expiration, increasing functional residual capacity, and in cardiogenic pulmonary edema promoting movement of fluid out of the alveolar space. It is indicated for the spontaneously breathing patient with increased work of breathing and persistent hypoxia, classically in acute decompensated heart failure with pulmonary edema and in COPD exacerbation, subject to local protocol. The patient must be alert enough to cooperate with the mask, follow instruction, and protect the airway. Contraindications include respiratory or cardiac arrest, inadequate spontaneous ventilation, inability to protect the airway, active vomiting, hypotension, and suspected pneumothorax; elevated intrathoracic pressure impedes venous return and may precipitate hemodynamic compromise. Coaching is a determinant of success, as mask intolerance is a common cause of failure."
+        },
+        "eli_new": {
+          "analogy": "It is a stiff breeze against a door that keeps swinging shut — the door stays open because the pressure never stops.",
+          "body": "Picture the smallest air sacs collapsing a little at the end of every breath, so the next breath has to pop them open again. That is exhausting. CPAP keeps a constant pressure so they never fully close. The patient stops spending energy reopening their lungs and can use it on actually breathing."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain which patient you would put on CPAP, which patient you would not, and why the not-list looks the way it does.",
+          "must_hit": [
+            {
+              "point": "Awake, breathing on their own, working hard and hypoxic",
+              "accept": [
+                "awake",
+                "alert",
+                "breathing on their own",
+                "spontaneous",
+                "work of breathing",
+                "cooperate"
+              ]
+            },
+            {
+              "point": "Classic uses are pulmonary edema and COPD",
+              "accept": [
+                "pulmonary edema",
+                "chf",
+                "heart failure",
+                "copd"
+              ]
+            },
+            {
+              "point": "Not in arrest or inadequate breathing",
+              "accept": [
+                "arrest",
+                "apneic",
+                "not breathing",
+                "inadequate"
+              ]
+            },
+            {
+              "point": "Not if they cannot protect the airway or are vomiting",
+              "accept": [
+                "protect",
+                "vomit",
+                "airway"
+              ]
+            },
+            {
+              "point": "Hypotension is a contraindication",
+              "accept": [
+                "hypotension",
+                "low blood pressure",
+                "pressure",
+                "venous return"
+              ]
+            }
+          ],
+          "model_answer": "CPAP is for an awake patient who is breathing on their own but working hard and staying hypoxic — classically pulmonary edema from heart failure, or a COPD exacerbation, within protocol. They have to be able to cooperate and protect their own airway, because the mask seals tight. You do not use it on someone in arrest or breathing inadequately, because CPAP supports breathing rather than replacing it, and that patient needs ventilation. You do not use it on someone who cannot protect their airway or who is vomiting, because they will aspirate behind the mask. Hypotension rules it out because the pressure in the chest works against blood returning to the heart, and a suspected pneumothorax rules it out too. And you coach them through it — most failures are the patient pulling the mask off."
+        },
+        "story": {
+          "title": "Talk them into it",
+          "dispatch": "Rescue 2 — 78-year-old female, difficulty breathing, third floor.",
+          "body": "She is upright at the edge of the bed, speaking two words at a time, wet-sounding, terrified. Her sat is low and she is using every muscle she has.\n\nYour partner holds the CPAP mask a few inches from her face first, lets her feel the air, and explains what it will feel like. Then against the face without straps. Then straps.\n\nFor the first thirty seconds she fights it and tries to pull it away. Your partner keeps a hand on her shoulder and keeps talking. By the time you are in the elevator she is taking slower, deeper breaths and saying whole sentences."
+        },
+        "do": {
+          "activity": "cpap_or_not",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each patient: is CPAP appropriate?",
+          "config": {
+            "buckets": [
+              "CPAP appropriate",
+              "CPAP not appropriate"
+            ],
+            "items": [
+              {
+                "text": "Awake, tripoding, wet lung sounds, low sat, speaking two words at a time",
+                "bucket": 0
+              },
+              {
+                "text": "Unresponsive and apneic",
+                "bucket": 1
+              },
+              {
+                "text": "Alert COPD patient working hard, following instructions",
+                "bucket": 0
+              },
+              {
+                "text": "Actively vomiting",
+                "bucket": 1
+              },
+              {
+                "text": "Drowsy, will not follow instructions, cannot protect the airway",
+                "bucket": 1
+              },
+              {
+                "text": "Breathing hard with a systolic pressure far below normal",
+                "bucket": 1
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Patient breathing?",
+              "left": "Yes, on their own",
+              "right": "No, or inadequately"
+            },
+            {
+              "feature": "Level of consciousness",
+              "left": "Awake, cooperative",
+              "right": "Any"
+            },
+            {
+              "feature": "What it does",
+              "left": "Supports the patient's own breathing",
+              "right": "Replaces the patient's breathing"
+            },
+            {
+              "feature": "Vomiting",
+              "left": "Contraindicated",
+              "right": "Suction and continue"
+            },
+            {
+              "feature": "Low blood pressure",
+              "left": "Contraindicated",
+              "right": "Not a contraindication"
+            }
+          ],
+          "left_label": "CPAP",
+          "right_label": "Bag-valve-mask"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the indication and contraindication lists against the current text AND your local protocol, and note that no pressure settings (cmH2O) are stated here because they are protocol-specific."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-06",
+      "title": "Assisting a patient who is breathing inadequately",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-04-01",
+        "EMT-02-01-05"
+      ],
+      "related": [
+        "EMT-02-01-05",
+        "EMT-02-04-05"
+      ],
+      "key_points": [
+        "For a patient who is breathing but not moving enough air: too slow, too shallow, or tiring out",
+        "You add volume to the breaths they are already taking rather than replacing them",
+        "Time your squeeze to begin as the patient starts to inhale",
+        "Squeezing against a patient's exhalation fights them and delivers nothing",
+        "If their own effort fades, this becomes full ventilation",
+        "A patient breathing 30 shallow times a minute can be moving less useful air than one breathing 12 deeply"
+      ],
+      "misconceptions": [
+        "Waiting for a patient to stop breathing entirely before helping",
+        "Squeezing on your own rhythm rather than theirs",
+        "Judging adequacy by rate alone"
+      ],
+      "exam_favorites": [
+        "Timing the squeeze to the patient's inhalation",
+        "Rate alone does not equal adequacy",
+        "The transition from assisting to full ventilation"
+      ],
+      "modes": {
+        "read": {
+          "plain": "There is a patient between 'breathing fine' and 'not breathing at all', and they are easy to miss. They are breathing — often fast — but each breath is shallow and moves almost nothing useful. Or they are breathing slowly and deeply enough per breath but nowhere near often enough. Either way the total air moved is not sustaining them.\n\nThis patient does not need you to take over. They need you to add to what they are already doing.\n\nExplain what you are going to do if they are awake enough to hear it. Get the mask sealed. Then watch their chest, and as they begin to inhale, squeeze. You are topping up a breath they started.\n\nGetting this wrong is the common failure. If you squeeze on your own count, sooner or later you are pushing air in while they are pushing it out. You fight each other, nothing goes in, and air ends up in the stomach.\n\nWatch for the moment their effort fades. When it does, you stop assisting and start doing all of it.",
+          "standard": "Assisted ventilation is indicated for the patient with spontaneous but inadequate respiration, whether from inadequate rate, inadequate tidal volume, or exhaustion. The technique augments rather than replaces the patient's own effort: after establishing a mask seal, the provider initiates each squeeze synchronously with the onset of the patient's inspiration, adding volume to the breath already beginning. Asynchronous ventilation delivered against active exhalation is ineffective and promotes gastric insufflation. Adequacy is assessed by total air movement rather than rate alone: a patient breathing rapidly and shallowly may achieve substantially less effective alveolar ventilation than one breathing more slowly with adequate tidal volume. Deterioration of the patient's own respiratory effort mandates transition from assisted to full positive-pressure ventilation."
+        },
+        "eli_new": {
+          "analogy": "You are not rowing for them. You are pulling on the same oar, at the same moment they do.",
+          "body": "The instinct is to establish your own rhythm and make the patient fit it. Do the opposite. Watch their chest, wait for the start of their breath, and squeeze then. You are helping a breath they already decided to take, which is why timing matters more than force."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you assist ventilations on a patient who is breathing but inadequately, and what you are watching for while you do it.",
+          "must_hit": [
+            {
+              "point": "For breathing that is too slow, too shallow, or tiring",
+              "accept": [
+                "too slow",
+                "shallow",
+                "inadequate",
+                "tiring",
+                "exhaust"
+              ]
+            },
+            {
+              "point": "Time the squeeze to the start of their own inhalation",
+              "accept": [
+                "as they inhale",
+                "their inhalation",
+                "time",
+                "synchron",
+                "when they breathe in",
+                "start of"
+              ]
+            },
+            {
+              "point": "Squeezing against exhalation fights them",
+              "accept": [
+                "against",
+                "exhal",
+                "fight",
+                "out of sync",
+                "asynchron"
+              ]
+            },
+            {
+              "point": "Move to full ventilation if their effort fades",
+              "accept": [
+                "full ventilation",
+                "take over",
+                "stops breathing",
+                "effort fades",
+                "deteriorat"
+              ]
+            }
+          ],
+          "model_answer": "This is the patient who is breathing but not moving enough air — too slow, too shallow, or simply running out of energy. You are adding to their breaths, not replacing them. Tell them what you are doing if they can hear you, get a good seal, watch the chest, and start your squeeze exactly as they begin to breathe in. If you squeeze on your own rhythm you will eventually be pushing in while they are pushing out, which achieves nothing and fills the stomach. Judge them on total air moved, not rate — fast and shallow can be worse than slow and deep. And watch for their effort fading, because that is the moment you stop assisting and start doing all the breathing for them."
+        },
+        "story": {
+          "title": "Fast and going nowhere",
+          "dispatch": "Rescue 2 — 61-year-old male, difficulty breathing, worsening.",
+          "body": "He is breathing about thirty times a minute and at first glance that looks like a lot of breathing. Then you watch his chest and it barely moves. He cannot finish a word.\n\nYour partner seals the mask and starts squeezing with him, catching the beginning of each breath. The first two are mistimed and you can hear them fight. The third lands with him and his chest actually rises.\n\nSix minutes later his rate has come down to the low twenties and he manages a short sentence."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the current text's criteria for inadequate breathing and its description of timing assisted ventilations, and whether it gives a rate for assisting."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-07",
+      "title": "Stoma and tracheostomy ventilation",
+      "domain": "AIR",
+      "difficulty": 2,
+      "prereqs": [
+        "EMT-02-04-01"
+      ],
+      "related": [
+        "EMT-02-02-06",
+        "EMT-02-04-01"
+      ],
+      "key_points": [
+        "A stoma is a surgical opening in the front of the neck that the patient breathes through directly",
+        "Ventilate at the stoma, not at the mouth and nose",
+        "A pediatric or infant mask often seals better over a stoma than an adult mask",
+        "If air escapes from the mouth and nose while you ventilate the stoma, seal them and continue at the stoma",
+        "Secretions block stomas readily; suction may be needed before ventilation will work",
+        "Head position does not open a stoma; the airway starts at the neck"
+      ],
+      "misconceptions": [
+        "Ventilating at the face when the patient has a stoma",
+        "Assuming head positioning will help",
+        "Forgetting that the mouth and nose may need sealing"
+      ],
+      "exam_favorites": [
+        "Ventilate at the stoma",
+        "Sealing the mouth and nose when air escapes",
+        "That positioning the head does not apply"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Some patients breathe through a hole in the front of the neck. It may be from a laryngectomy or a tracheostomy, and it may or may not have a tube in it. What matters to you is that their airway starts at the neck, not at the mouth.\n\nSo ventilate there. Put the mask over the stoma, not over the face. An infant or pediatric mask usually seals better on a neck than a full-size adult mask does.\n\nIf you are ventilating the stoma and you hear or feel air coming out of the mouth and nose, that patient still has a connection between the two. Seal the mouth and nose — a hand works — and keep going at the stoma.\n\nStomas block with secretions easily. If ventilation will not go in, suction may be the answer before anything else.\n\nAnd unlearn one reflex. Tilting the head does nothing here. There is no tongue between your air and their lungs. The airway starts at the opening in front of you.",
+          "standard": "A stoma is a surgical opening in the anterior neck through which the patient breathes, resulting from laryngectomy or tracheostomy, and may or may not contain a tube. Positive-pressure ventilation is delivered directly at the stoma rather than at the face. A pediatric or infant mask frequently achieves a better seal over the stoma than an adult mask. Where the upper airway remains patent, air delivered at the stoma may escape through the mouth and nose; these should be sealed manually while ventilation continues at the stoma. Stomas obstruct readily with secretions, and suctioning may be required before ventilation becomes effective. Head positioning maneuvers do not contribute to patency in the stoma patient, as the airway is entered distal to the oropharynx."
+        },
+        "eli_new": {
+          "analogy": "Their front door has been moved to the side of the house. Knocking at the old one does nothing.",
+          "body": "Everything you have learned about airways assumes the air goes in at the face. This patient's air goes in at the neck. Once you accept that, the rest follows: put the mask where the air goes, seal anywhere it leaks, and forget about tilting the head."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how ventilating a patient with a stoma differs from ventilating anyone else.",
+          "must_hit": [
+            {
+              "point": "Ventilate at the stoma, not the face",
+              "accept": [
+                "stoma",
+                "neck",
+                "not the face",
+                "at the opening"
+              ]
+            },
+            {
+              "point": "A smaller pediatric or infant mask often seals better",
+              "accept": [
+                "pediatric",
+                "infant",
+                "smaller mask",
+                "child mask"
+              ]
+            },
+            {
+              "point": "Seal the mouth and nose if air escapes there",
+              "accept": [
+                "seal the mouth",
+                "mouth and nose",
+                "escap",
+                "leak"
+              ]
+            },
+            {
+              "point": "Head positioning does not open a stoma",
+              "accept": [
+                "head position",
+                "tilt",
+                "does not help",
+                "no tongue"
+              ]
+            }
+          ],
+          "model_answer": "Their airway starts at the neck, so the mask goes over the stoma rather than the face. A pediatric or infant mask usually seals better on a neck than an adult one. If you feel or hear air escaping from the mouth and nose while you ventilate, their upper airway is still connected — seal the mouth and nose with your hand and keep ventilating at the stoma. Stomas clog with secretions, so if nothing is going in, suction before you try harder. And tilting the head does nothing for this patient, because there is no tongue between your air and their lungs."
+        },
+        "story": {
+          "title": "The wrong door",
+          "dispatch": "Rescue 2 — unresponsive male, home care patient, family on scene.",
+          "body": "The new EMT had the mask on his face and was getting nothing. His daughter said, quietly, he doesn't breathe through there.\n\nThere was a stoma at the base of his neck, half-covered by a dressing. Your partner swapped to a pediatric mask, sealed it over the stoma, and the chest rose on the first squeeze.\n\nOn the second squeeze you felt air on your wrist from his mouth, so you cupped a hand over his mouth and nose, and it all went where it was supposed to."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the mask choice the current text recommends for stoma ventilation and its description of sealing the upper airway."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-08",
+      "title": "Capnography at the EMT level",
+      "domain": "AIR",
+      "difficulty": 3,
+      "prereqs": [
+        "EMT-02-04-03"
+      ],
+      "related": [
+        "EMT-02-03-05",
+        "EMT-02-04-02"
+      ],
+      "key_points": [
+        "Capnography measures the carbon dioxide in exhaled breath, and shows it as a number and a waveform",
+        "A normal end-tidal carbon dioxide is roughly 35 to 45 mmHg",
+        "It confirms that air is actually moving in and out, which pulse oximetry does not",
+        "A rising number can mean ventilation is too slow; a falling number can mean it is too fast",
+        "In cardiac arrest a suddenly rising value can be the first sign of return of circulation",
+        "It reflects ventilation, while pulse oximetry reflects oxygenation; they answer different questions"
+      ],
+      "misconceptions": [
+        "Treating capnography and pulse oximetry as interchangeable",
+        "Reading the number without looking at the waveform",
+        "Assuming a good pulse oximetry reading means ventilation is adequate"
+      ],
+      "exam_favorites": [
+        "The normal end-tidal range",
+        "Ventilation versus oxygenation",
+        "What a rising value in arrest suggests",
+        "That it confirms air movement"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Pulse oximetry tells you how much oxygen is on the blood. Capnography tells you whether air is actually moving. They are different questions, and a patient can look fine on one while failing the other.\n\nCapnography samples exhaled breath and reports the carbon dioxide at the end of each exhalation, normally somewhere around 35 to 45 mmHg. It draws a waveform as well as a number, and the shape carries information the number alone does not.\n\nBecause carbon dioxide only appears in exhaled air if air is being exhaled, a waveform is proof that ventilation is happening. That is why it is the standard confirmation that a breathing circuit is working.\n\nThe number moves with ventilation. Ventilate too slowly and carbon dioxide accumulates and the number climbs. Ventilate too fast and you blow it off and the number falls — which is one more reason not to hyperventilate.\n\nIn cardiac arrest it earns its keep. The value reflects how much blood is being returned to the lungs, so a sudden climb during CPR is often the first sign that circulation has come back, before anyone finds a pulse.",
+          "standard": "Capnography measures carbon dioxide in exhaled gas, reported as an end-tidal value (EtCO2) with an accompanying waveform. The normal range is approximately 35 to 45 mmHg. Because exhaled CO2 is present only when gas is actually being exhaled, waveform capnography provides direct confirmation of ventilation and of circuit integrity, information that pulse oximetry cannot supply: capnography reflects ventilation while oximetry reflects oxygenation. EtCO2 varies inversely with minute ventilation, rising with hypoventilation and falling with hyperventilation, providing real-time feedback on ventilation rate. During cardiac arrest, EtCO2 reflects pulmonary blood flow and therefore the effectiveness of chest compressions; an abrupt sustained rise commonly precedes detection of a palpable pulse and is a recognised early indicator of return of spontaneous circulation. Waveform morphology carries diagnostic information beyond the numeric value."
+        },
+        "eli_new": {
+          "analogy": "Pulse oximetry tells you what is in the tank. Capnography tells you whether the engine is actually running.",
+          "body": "A patient can have a reassuring oxygen saturation for minutes after they stop ventilating properly, because the oxygen already on board takes time to be used. Capnography does not have that lag: if no air is moving, there is no exhaled carbon dioxide, and the waveform flatlines straight away."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between what pulse oximetry tells you and what capnography tells you, and what a rising or falling number means during ventilation.",
+          "must_hit": [
+            {
+              "point": "Normal end-tidal CO2 is about 35 to 45 mmHg",
+              "accept": [
+                "35",
+                "45",
+                "35 to 45",
+                "35-45"
+              ]
+            },
+            {
+              "point": "Capnography shows ventilation, oximetry shows oxygenation",
+              "accept": [
+                "ventilation",
+                "oxygenation",
+                "different",
+                "air movement"
+              ]
+            },
+            {
+              "point": "Rising means too slow, falling means too fast",
+              "accept": [
+                "rising",
+                "climb",
+                "falling",
+                "drop",
+                "too slow",
+                "too fast",
+                "hyperventilat"
+              ]
+            },
+            {
+              "point": "A sudden rise in arrest suggests return of circulation",
+              "accept": [
+                "rosc",
+                "return of",
+                "circulation",
+                "pulse back",
+                "arrest"
+              ]
+            }
+          ],
+          "model_answer": "Pulse oximetry tells you how much oxygen is loaded onto the blood; capnography tells you whether air is actually moving in and out. A normal end-tidal carbon dioxide is roughly 35 to 45 mmHg, shown as a number and a waveform, and the waveform itself is proof that ventilation is happening. The number tracks ventilation: too slow and carbon dioxide builds up so the number climbs, too fast and you blow it off so the number falls. In cardiac arrest the value reflects blood flow through the lungs, so a sudden sustained rise during CPR is often the first sign circulation has come back, before anyone can feel a pulse."
+        },
+        "story": {
+          "title": "The number moved first",
+          "dispatch": "Rescue 2 — cardiac arrest, CPR in progress on arrival.",
+          "body": "Nine minutes in, compressions continuous, nobody has felt anything. The medic is watching the capnography value more than the monitor.\n\nIt had been sitting low. Then it climbed, and kept climbing, and did not fall back.\n\nAt the next rhythm check there was a pulse. The number had told them almost a minute before anyone's fingers did."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Normal end-tidal CO2",
+            "value": "35 to 45",
+            "unit": "mmHg",
+            "note": "Confirm against the current text."
+          },
+          {
+            "label": "Number rising",
+            "value": "ventilating too slowly",
+            "unit": "",
+            "note": "CO2 accumulating."
+          },
+          {
+            "label": "Number falling",
+            "value": "ventilating too fast",
+            "unit": "",
+            "note": "CO2 being blown off."
+          },
+          {
+            "label": "Sudden sustained rise in arrest",
+            "value": "possible return of circulation",
+            "unit": "",
+            "note": "Often precedes a palpable pulse."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the normal end-tidal range the current text gives, its description of waveform interpretation, and whether capnography is within EMT scope in your state and service."
     }
   ]
 }
