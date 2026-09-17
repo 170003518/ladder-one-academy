@@ -1502,6 +1502,486 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-01-Q001",
+      "concept_id": "EMT-03-04-01",
+      "style": "recall",
+      "stem": "Which patient receives a rapid full-body scan?",
+      "options": [
+        {
+          "text": "An alert patient with an isolated cut finger",
+          "rationale": "An isolated minor injury does not warrant a full sweep."
+        },
+        {
+          "text": "A patient with a significant mechanism of injury",
+          "rationale": "Correct, along with unresponsive and unstable patients."
+        },
+        {
+          "text": "Any patient who requests one",
+          "rationale": "Patient request does not set the examination type."
+        },
+        {
+          "text": "Only patients over 65",
+          "rationale": "Age alone is not the criterion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-01-Q002",
+      "concept_id": "EMT-03-04-01",
+      "style": "application",
+      "stem": "Why is the rapid full-body scan performed in a fixed order every time?",
+      "options": [
+        {
+          "text": "Because the order is required for billing",
+          "rationale": "Not a clinical reason."
+        },
+        {
+          "text": "Because under pressure people fall back on a drilled sequence and do not skip regions",
+          "rationale": "Correct. A fixed order is what survives adrenaline and distraction."
+        },
+        {
+          "text": "Because it is faster to work alphabetically",
+          "rationale": "The order is anatomical, not alphabetical."
+        },
+        {
+          "text": "Because the patient expects it",
+          "rationale": "Patient expectation does not drive the sequence."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-01-Q003",
+      "concept_id": "EMT-03-04-01",
+      "style": "application",
+      "stem": "Which region is most commonly skipped during a rapid full-body scan?",
+      "options": [
+        {
+          "text": "The head",
+          "rationale": "Rarely omitted, as it is immediately visible."
+        },
+        {
+          "text": "The posterior surfaces, because the patient has to be rolled",
+          "rationale": "Correct — the back is the classic omission."
+        },
+        {
+          "text": "The chest",
+          "rationale": "Rarely omitted in a trauma patient."
+        },
+        {
+          "text": "The extremities",
+          "rationale": "Usually examined because injuries there are visible."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-01-Q004",
+      "concept_id": "EMT-03-04-01",
+      "style": "sequence",
+      "stem": "Put the rapid full-body scan in order: 1) pelvis, 2) head and neck, 3) posterior surfaces, 4) chest and abdomen.",
+      "options": [
+        {
+          "text": "2, 4, 1, 3",
+          "rationale": "Correct. Head and neck, chest and abdomen, pelvis, then roll for the back."
+        },
+        {
+          "text": "4, 2, 1, 3",
+          "rationale": "Starting at the chest skips the head, which the sequence begins with."
+        },
+        {
+          "text": "2, 1, 4, 3",
+          "rationale": "The pelvis is assessed after the chest and abdomen, not before."
+        },
+        {
+          "text": "3, 2, 4, 1",
+          "rationale": "The back is examined last, after the anterior surfaces."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-02-Q001",
+      "concept_id": "EMT-03-04-02",
+      "style": "recall",
+      "stem": "What directs the examination of a responsive medical patient?",
+      "options": [
+        {
+          "text": "The mechanism of injury",
+          "rationale": "Mechanism directs trauma assessment."
+        },
+        {
+          "text": "The chief complaint and history",
+          "rationale": "Correct — the story aims the examination."
+        },
+        {
+          "text": "The dispatch code",
+          "rationale": "Dispatch information is a starting point, not a direction."
+        },
+        {
+          "text": "The patient's age",
+          "rationale": "Age is context, not direction."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-02-Q002",
+      "concept_id": "EMT-03-04-02",
+      "style": "application",
+      "stem": "What does 'focused' mean in a focused medical assessment?",
+      "options": [
+        {
+          "text": "Brief and superficial",
+          "rationale": "Focused is about direction, not brevity."
+        },
+        {
+          "text": "Aimed at the relevant system and thorough within it",
+          "rationale": "Correct. Focus describes direction, not how little you do."
+        },
+        {
+          "text": "Limited to the area the patient points at",
+          "rationale": "A system is examined, not a spot."
+        },
+        {
+          "text": "Performed only on scene",
+          "rationale": "Location is not what the word describes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-02-Q003",
+      "concept_id": "EMT-03-04-02",
+      "style": "scenario",
+      "stem": "A patient reports difficulty breathing but the respiratory examination is entirely normal. What should you do?",
+      "options": [
+        {
+          "text": "Accept the complaint and transport without further examination",
+          "rationale": "A mismatch is information that should be acted on."
+        },
+        {
+          "text": "Widen the examination, because the findings do not fit the story",
+          "rationale": "Correct — unreported trauma or a different primary problem may explain it."
+        },
+        {
+          "text": "Record the complaint as unfounded",
+          "rationale": "You are not in a position to dismiss the complaint."
+        },
+        {
+          "text": "Repeat the respiratory examination until you find something",
+          "rationale": "Repetition does not widen the search."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-03-Q001",
+      "concept_id": "EMT-03-04-03",
+      "style": "recall",
+      "stem": "What does the T in DCAP-BTLS stand for?",
+      "options": [
+        {
+          "text": "Trauma",
+          "rationale": "Too general to be a finding."
+        },
+        {
+          "text": "Tenderness",
+          "rationale": "Correct — pain on palpation, which cannot be seen."
+        },
+        {
+          "text": "Temperature",
+          "rationale": "Temperature is part of the skin assessment."
+        },
+        {
+          "text": "Tension",
+          "rationale": "Not a DCAP-BTLS finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-03-Q002",
+      "concept_id": "EMT-03-04-03",
+      "style": "application",
+      "stem": "Why can DCAP-BTLS not be applied by inspection alone?",
+      "options": [
+        {
+          "text": "Because tenderness, deformity and swelling are often felt rather than seen",
+          "rationale": "Correct — an eyes-only exam finds a fraction of what is there."
+        },
+        {
+          "text": "Because the lighting is always poor",
+          "rationale": "Lighting is a factor but not the principle."
+        },
+        {
+          "text": "Because patients move too much",
+          "rationale": "Movement is not the reason."
+        },
+        {
+          "text": "Because gloves reduce visibility",
+          "rationale": "Gloves do not obstruct inspection."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-03-Q003",
+      "concept_id": "EMT-03-04-03",
+      "style": "application",
+      "stem": "Where is DCAP-BTLS applied?",
+      "options": [
+        {
+          "text": "Only to the area the patient says hurts",
+          "rationale": "That defeats the purpose of a systematic examination."
+        },
+        {
+          "text": "At every region examined",
+          "rationale": "Correct — the point is finding what was not reported."
+        },
+        {
+          "text": "Only to the head and chest",
+          "rationale": "No such restriction exists."
+        },
+        {
+          "text": "Only in trauma patients over 18",
+          "rationale": "Age is not a criterion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-04-Q001",
+      "concept_id": "EMT-03-04-04",
+      "style": "recall",
+      "stem": "Where is the detailed head-to-toe examination usually performed?",
+      "options": [
+        {
+          "text": "On scene before moving the patient",
+          "rationale": "Detailed examination on scene delays transport."
+        },
+        {
+          "text": "En route, in the ambulance",
+          "rationale": "Correct — better light, more time, patient already moving."
+        },
+        {
+          "text": "In the emergency department by the EMT",
+          "rationale": "It is completed before handover."
+        },
+        {
+          "text": "At the patient's home after transport is declined",
+          "rationale": "Not the standard setting."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-04-Q002",
+      "concept_id": "EMT-03-04-04",
+      "style": "application",
+      "stem": "Why does the detailed examination repeat regions already covered by the rapid scan?",
+      "options": [
+        {
+          "text": "Because the rapid scan is performed quickly and in poor conditions and misses findings",
+          "rationale": "Correct — this is a second look, not redundancy."
+        },
+        {
+          "text": "Because protocol requires two examinations",
+          "rationale": "Protocol is not the reasoning."
+        },
+        {
+          "text": "Because patients change their story",
+          "rationale": "Not the reason for re-examining."
+        },
+        {
+          "text": "Because the first examination is never performed properly",
+          "rationale": "The first is appropriate for its purpose."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-04-Q003",
+      "concept_id": "EMT-03-04-04",
+      "style": "application",
+      "stem": "Which patient does not require a detailed head-to-toe examination?",
+      "options": [
+        {
+          "text": "An unresponsive patient after a fall",
+          "rationale": "Unresponsiveness warrants thorough examination."
+        },
+        {
+          "text": "An alert patient with an isolated ankle injury and normal vital signs",
+          "rationale": "Correct — the examination is matched to the patient."
+        },
+        {
+          "text": "A patient ejected from a vehicle",
+          "rationale": "A significant mechanism warrants it."
+        },
+        {
+          "text": "A patient with a declining level of consciousness",
+          "rationale": "Deterioration warrants thorough reassessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-05-Q001",
+      "concept_id": "EMT-03-04-05",
+      "style": "recall",
+      "stem": "Why is an unresponsive medical patient given a rapid full-body scan?",
+      "options": [
+        {
+          "text": "Because all unresponsive patients have injuries",
+          "rationale": "Not all do, and that is not the reasoning."
+        },
+        {
+          "text": "Because they cannot tell you what hurts, so examination replaces asking",
+          "rationale": "Correct. Your hands do the job the patient's voice normally does."
+        },
+        {
+          "text": "Because it is faster than a focused examination",
+          "rationale": "Speed is not the reason."
+        },
+        {
+          "text": "Because protocol requires it for billing",
+          "rationale": "Not a clinical reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-05-Q002",
+      "concept_id": "EMT-03-04-05",
+      "style": "application",
+      "stem": "What should you check in any patient with an altered level of consciousness?",
+      "options": [
+        {
+          "text": "A blood glucose",
+          "rationale": "Correct. Hypoglycaemia is common, mimics much else, and is correctable."
+        },
+        {
+          "text": "A temperature only",
+          "rationale": "Temperature alone does not address the commonest correctable cause."
+        },
+        {
+          "text": "Pupil size only",
+          "rationale": "Pupils are useful but not the priority check here."
+        },
+        {
+          "text": "Nothing until arrival at hospital",
+          "rationale": "Deferring the check removes a treatable finding from the field."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-05-Q003",
+      "concept_id": "EMT-03-04-05",
+      "style": "scenario",
+      "stem": "An unresponsive woman is found at home by her son, who does not know her medications. Where is the history?",
+      "options": [
+        {
+          "text": "Unavailable; document that no history could be obtained",
+          "rationale": "Collateral history is available in the environment."
+        },
+        {
+          "text": "In the room — medication bottles, equipment, jewellery, and the position she was found in",
+          "rationale": "Correct. When the patient cannot speak, the scene has to."
+        },
+        {
+          "text": "Only in the hospital record",
+          "rationale": "The field history is still obtainable."
+        },
+        {
+          "text": "In the dispatch notes",
+          "rationale": "Dispatch information is not a history."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

@@ -48,6 +48,17 @@
         "EMT-03-03-03",
         "EMT-03-03-04"
       ]
+    },
+    {
+      "id": "EMT-03-04",
+      "title": "Secondary assessment",
+      "concepts": [
+        "EMT-03-04-01",
+        "EMT-03-04-02",
+        "EMT-03-04-03",
+        "EMT-03-04-04",
+        "EMT-03-04-05"
+      ]
     }
   ],
   "concepts": [
@@ -2088,6 +2099,655 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and the exact expansion the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-01",
+      "title": "Rapid full-body scan",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-01-05",
+        "EMT-03-02-06"
+      ],
+      "related": [
+        "EMT-03-04-03",
+        "EMT-03-01-05"
+      ],
+      "key_points": [
+        "Used for a patient with a significant mechanism of injury, an unresponsive patient, or one who is unstable",
+        "A fast, systematic sweep of the whole body looking for injuries you have not been told about",
+        "Works head to toe: head, neck, chest, abdomen, pelvis, extremities, then the back",
+        "You are looking and feeling for DCAP-BTLS findings at every region",
+        "Expose what you need to see, and protect the patient's dignity and temperature while you do it",
+        "It takes well under a couple of minutes; if it is taking longer you are doing a detailed exam instead"
+      ],
+      "misconceptions": [
+        "Performing a rapid scan on a patient with an isolated minor injury",
+        "Skipping the back because the patient is on a stretcher",
+        "Turning the scan into a slow detailed examination on scene"
+      ],
+      "exam_favorites": [
+        "Which patients get it",
+        "The head-to-toe order",
+        "That the back is included"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The rapid full-body scan is what you do when the mechanism tells you there may be injuries the patient has not mentioned and cannot feel. It is for the patient with a significant mechanism, the unresponsive patient, and the unstable one.\n\nIt is fast and it is systematic, and the system is what makes it fast. Head, neck, chest, abdomen, pelvis, extremities, and then the back. Always the same order, so you cannot skip a region by accident under pressure.\n\nAt each region you are looking and feeling for the same set of findings, which is what DCAP-BTLS collects. Your hands are doing as much work as your eyes: crepitus, instability and tenderness are felt rather than seen.\n\nExpose what you need to expose to actually see an injury, because a hand on top of a jacket finds very little. Balance that against dignity and against heat loss, which is a real risk in a trauma patient.\n\nAnd keep it rapid. This is a sweep for things that will kill the patient, not a catalogue of every bruise. If you are still on scene doing it several minutes later, you have drifted into a detailed exam and the patient is paying for it in time.",
+          "standard": "The rapid full-body scan is indicated for patients with a significant mechanism of injury, unresponsive patients, and patients who are physiologically unstable. It comprises a rapid systematic survey of head, neck, chest, abdomen, pelvis, extremities and posterior surfaces, conducted in a fixed sequence to prevent omission under pressure. Each region is inspected and palpated for the findings collected by the DCAP-BTLS mnemonic, with palpation identifying crepitus, instability and tenderness not apparent on inspection. Adequate exposure is required for meaningful examination, balanced against patient dignity and prevention of hypothermia. The examination is intended to be completed rapidly; prolongation converts it into a detailed physical examination and delays definitive care."
+        },
+        "eli_new": {
+          "analogy": "You are not cataloguing the damage. You are checking whether anything here is going to kill him in the next twenty minutes.",
+          "body": "The order exists so that you can be frightened, rushed and distracted and still not skip the pelvis. Under pressure, people do not improvise reliably; they fall back on whatever sequence they drilled."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain who gets a rapid full-body scan, what order you work in, and what you are feeling for.",
+          "must_hit": [
+            {
+              "point": "Significant mechanism, unresponsive, or unstable patients",
+              "accept": [
+                "significant",
+                "mechanism",
+                "unresponsive",
+                "unstable"
+              ]
+            },
+            {
+              "point": "Head to toe in a fixed order, including the back",
+              "accept": [
+                "head",
+                "toe",
+                "order",
+                "back",
+                "posterior",
+                "systematic"
+              ]
+            },
+            {
+              "point": "Looking and feeling for DCAP-BTLS findings",
+              "accept": [
+                "dcap",
+                "btls",
+                "deformit",
+                "tender",
+                "crepitus",
+                "palpat"
+              ]
+            },
+            {
+              "point": "Expose enough to see, manage dignity and heat loss",
+              "accept": [
+                "expose",
+                "dignity",
+                "cover",
+                "warm",
+                "hypotherm",
+                "heat"
+              ]
+            },
+            {
+              "point": "Keep it fast",
+              "accept": [
+                "rapid",
+                "fast",
+                "quick",
+                "minute",
+                "not detailed"
+              ]
+            }
+          ],
+          "model_answer": "It is for a patient with a significant mechanism, an unresponsive patient, or an unstable one — anyone who may have injuries they have not told you about. You work head to toe in a fixed order: head, neck, chest, abdomen, pelvis, extremities, then the back, because a fixed order is what stops you skipping a region under pressure. At each region you look and you feel, checking for the DCAP-BTLS findings, and your hands find crepitus, instability and tenderness that your eyes cannot. Expose enough to actually see the injury, while managing dignity and heat loss. And keep it rapid — this is a sweep for what will kill them, not a catalogue of bruises."
+        },
+        "story": {
+          "title": "The region nobody checked",
+          "dispatch": "Rescue 4 — fall from scaffolding, approximately four metres.",
+          "body": "The crew did a good scan. Head, neck, chest, abdomen, extremities. He was talking the whole time and nothing hurt except his wrist.\n\nThey did not log-roll him, because he was already on the board and it seemed unnecessary.\n\nThe hospital found the injury on his back within ten minutes of arrival. Nobody had looked at the one surface he could not see either."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Rapid full-body scan",
+          "steps": [
+            {
+              "text": "Confirm the primary assessment is complete and life threats are managed",
+              "critical": true,
+              "note": "The scan never comes before airway, breathing and bleeding."
+            },
+            {
+              "text": "Expose the regions you need to see",
+              "critical": false,
+              "note": "A hand on top of a jacket finds nothing."
+            },
+            {
+              "text": "Head and face: inspect and palpate",
+              "critical": false
+            },
+            {
+              "text": "Neck: inspect and palpate, check for distension and deviation",
+              "critical": true
+            },
+            {
+              "text": "Chest: inspect, palpate, assess for symmetry of movement",
+              "critical": true
+            },
+            {
+              "text": "Abdomen: inspect and palpate all four quadrants",
+              "critical": true
+            },
+            {
+              "text": "Pelvis: assess once, gently — do not repeatedly rock an unstable pelvis",
+              "critical": true,
+              "note": "Repeated assessment of an unstable pelvis causes further bleeding."
+            },
+            {
+              "text": "Extremities: inspect, palpate, check distal pulse, motor and sensation",
+              "critical": true
+            },
+            {
+              "text": "Posterior surfaces: log-roll and examine the back",
+              "critical": true,
+              "note": "The most commonly skipped region."
+            },
+            {
+              "text": "Cover the patient to preserve warmth and dignity",
+              "critical": false
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sequence and the findings list the current text gives for this examination."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-02",
+      "title": "Focused assessment for the medical patient",
+      "domain": "TRAU",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-03-03-03",
+        "EMT-03-01-03"
+      ],
+      "key_points": [
+        "Driven by the chief complaint and the history rather than by a mechanism",
+        "You examine the system the complaint points to, in depth, rather than sweeping everything",
+        "A responsive medical patient gives you the history first, and the history tells you where to look",
+        "It is focused, not brief: the examination of the relevant system should be thorough",
+        "If the picture does not fit the complaint, widen the examination"
+      ],
+      "misconceptions": [
+        "Performing a full trauma sweep on a responsive medical patient",
+        "Examining only the area the patient points at without examining the system",
+        "Ignoring findings that do not fit the working picture"
+      ],
+      "exam_favorites": [
+        "What drives the focus",
+        "History first in a responsive medical patient",
+        "Widening when it does not fit"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A responsive medical patient is assessed in the opposite direction to a trauma patient. With trauma, the mechanism tells you where to look. With a medical complaint, the history tells you, which means you take the history first and let it aim the examination.\n\nSo a patient complaining of difficulty breathing gets a thorough respiratory examination: work of breathing, chest movement, breath sounds in all the places you should listen, skin, position, ability to speak. A patient with chest pain gets that plus a careful look at everything that might be cardiac or vascular.\n\nFocused does not mean quick and thin. It means aimed. The examination of the relevant system should be more thorough than it would be in a rapid sweep, not less.\n\nAnd hold it loosely. If what you find does not match the story you were told, that is information. Widen out. A medical patient who does not add up may be a trauma patient who has not mentioned a fall, or a patient whose primary problem is not the one they led with.",
+          "standard": "Assessment of the responsive medical patient is directed by the chief complaint and history rather than by mechanism of injury, and the history is therefore obtained before the physical examination. The examination focuses in depth on the body system implicated by the presenting complaint; focus denotes direction rather than brevity, and examination of the relevant system should exceed the depth achieved in a rapid survey. Findings inconsistent with the presenting history warrant broadening of the examination, as incongruent findings may indicate unreported trauma or a primary problem distinct from the stated complaint."
+        },
+        "eli_new": {
+          "analogy": "Trauma: the mechanism points at the body. Medical: the story points at the body. Either way, something aims you.",
+          "body": "Focused is often misread as short. It is not — it means you are pointing the examination somewhere specific instead of sweeping. The respiratory exam on a breathless patient should be the most careful respiratory exam you do all shift."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you assess a responsive medical patient and how that differs from a trauma patient.",
+          "must_hit": [
+            {
+              "point": "Driven by chief complaint and history, not mechanism",
+              "accept": [
+                "history",
+                "complaint",
+                "not mechanism",
+                "drives",
+                "aims"
+              ]
+            },
+            {
+              "point": "History first in a responsive medical patient",
+              "accept": [
+                "history first",
+                "before",
+                "then examine"
+              ]
+            },
+            {
+              "point": "Focused means aimed and thorough, not brief",
+              "accept": [
+                "thorough",
+                "in depth",
+                "not brief",
+                "aimed",
+                "deep"
+              ]
+            },
+            {
+              "point": "Widen if findings do not fit",
+              "accept": [
+                "widen",
+                "broaden",
+                "does not fit",
+                "inconsistent",
+                "expand"
+              ]
+            }
+          ],
+          "model_answer": "With trauma the mechanism aims you; with a medical patient the history does, so in a responsive medical patient you take the history first and let it point the examination. Then you examine that system properly — a breathless patient gets a full respiratory exam, not a glance. Focused means aimed, not brief: the examination of the relevant system should be more thorough than anything in a rapid sweep, not less. And if what you find does not match what you were told, widen out, because that mismatch may mean unreported trauma or a primary problem that is not the complaint they led with."
+        },
+        "story": {
+          "title": "It did not add up",
+          "dispatch": "Rescue 4 — 44-year-old male, difficulty breathing.",
+          "body": "The history was a respiratory one and the respiratory exam was unremarkable. Clear, equal, no work of breathing to speak of.\n\nThat mismatch is what made your partner widen out rather than accept it.\n\nHis abdomen was rigid. He had not mentioned falling off a ladder the previous evening, because he did not think it was related."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sequence and the findings list the current text gives for this examination."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-03",
+      "title": "DCAP-BTLS",
+      "domain": "TRAU",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-04-01"
+      ],
+      "related": [
+        "EMT-03-04-01",
+        "EMT-03-04-04"
+      ],
+      "key_points": [
+        "The checklist of findings you look and feel for at every region of a physical examination",
+        "Deformities — anything not the shape it should be",
+        "Contusions — bruising",
+        "Abrasions — scraped skin",
+        "Punctures and penetrations — holes",
+        "Burns",
+        "Tenderness — pain on palpation",
+        "Lacerations — cuts",
+        "Swelling",
+        "Half of these are found with your hands rather than your eyes"
+      ],
+      "misconceptions": [
+        "Looking for DCAP-BTLS findings without palpating",
+        "Applying it only to the area that hurts",
+        "Reciting the letters without applying them to each region"
+      ],
+      "exam_favorites": [
+        "What each letter stands for",
+        "That it is applied at every region",
+        "That tenderness is felt, not seen"
+      ],
+      "modes": {
+        "read": {
+          "plain": "DCAP-BTLS is not an assessment in its own right. It is the checklist of findings you are hunting for at every single region as you work through a physical examination, and its value is that it stops you looking only for the obvious.\n\nDeformities: anything that is not the shape it should be. Contusions: bruising. Abrasions: scraped skin. Punctures or penetrations: holes, which are easy to miss in dark clothing and in hair. Burns. Tenderness: pain when you press, which you cannot see. Lacerations: cuts. Swelling.\n\nNotice how many of those require hands. Tenderness is invisible. Deformity is often felt before it is seen. Swelling under clothing does not announce itself. An examination conducted entirely by eye finds perhaps half of what is there.\n\nAnd it goes with every region, not just the one that hurts. The point of a systematic examination is the injuries the patient has not told you about, and those are by definition somewhere you were not already looking.",
+          "standard": "DCAP-BTLS is a mnemonic enumerating the findings sought during physical examination of each body region: Deformities, Contusions, Abrasions, Punctures and penetrations, Burns, Tenderness, Lacerations and Swelling. It functions as a checklist applied region by region rather than as an independent assessment. Several findings — notably tenderness, deformity and subcutaneous swelling — are identified by palpation rather than inspection, and examination conducted by inspection alone detects a substantially reduced proportion of injuries. Application to all regions rather than to the symptomatic area alone is essential, as the purpose of systematic examination is identification of injuries not reported by the patient."
+        },
+        "eli_new": {
+          "analogy": "Eight things to hunt for, at every stop along the body. Half of them are invisible.",
+          "body": "The commonest failure is not forgetting a letter, it is doing the whole examination with your eyes. Tenderness is the letter that catches people, because a patient who has not been pressed cannot tell you that pressing hurts."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Say what DCAP-BTLS stands for and explain why you cannot do it by looking alone.",
+          "must_hit": [
+            {
+              "point": "Deformities, Contusions, Abrasions, Punctures/penetrations",
+              "accept": [
+                "deformit",
+                "contusion",
+                "abrasion",
+                "punctur",
+                "penetrat"
+              ]
+            },
+            {
+              "point": "Burns, Tenderness, Lacerations, Swelling",
+              "accept": [
+                "burn",
+                "tender",
+                "laceration",
+                "swelling"
+              ]
+            },
+            {
+              "point": "Tenderness and deformity are felt, not seen",
+              "accept": [
+                "palpat",
+                "feel",
+                "hands",
+                "touch",
+                "invisible",
+                "cannot see"
+              ]
+            },
+            {
+              "point": "Applied at every region, not only where it hurts",
+              "accept": [
+                "every region",
+                "all",
+                "not only",
+                "whole body",
+                "systematic"
+              ]
+            }
+          ],
+          "model_answer": "Deformities, Contusions, Abrasions, Punctures or penetrations, Burns, Tenderness, Lacerations and Swelling. It is a checklist of what you hunt for at each region rather than an assessment on its own. You cannot do it by eye because several of those findings are invisible — tenderness only exists once you press, deformity is often felt before it is seen, and swelling under clothing does not announce itself. And it is applied at every region, not just the painful one, because the whole purpose of a systematic examination is finding the injuries the patient has not mentioned."
+        },
+        "story": {
+          "title": "Nothing to see",
+          "dispatch": "Rescue 4 — assault, male, conscious, no obvious injuries.",
+          "body": "Dark clothing, poor light, patient sitting up and insisting he was fine and did not want to go.\n\nNothing to see. Your partner ran hands over him anyway, region by region, and stopped at the left lower chest where the patient flinched hard.\n\nThere was a small puncture there, almost invisible against the fabric. Nobody was ever going to find that by looking."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "DCAP-BTLS",
+          "expansion": [
+            "Deformities — not the shape it should be",
+            "Contusions — bruising",
+            "Abrasions — scraped skin",
+            "Punctures and penetrations — holes, easily missed in dark clothing and hair",
+            "Burns",
+            "Tenderness — pain on palpation, which you cannot see",
+            "Lacerations — cuts",
+            "Swelling — often felt before it is seen"
+          ],
+          "memory_image": "Eight findings, at every region. Half of them only exist once your hands are on the patient."
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sequence and the findings list the current text gives for this examination."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-04",
+      "title": "The detailed head-to-toe examination",
+      "domain": "TRAU",
+      "difficulty": 2,
+      "prereqs": [
+        "EMT-03-04-01"
+      ],
+      "related": [
+        "EMT-03-04-03",
+        "EMT-03-06-01"
+      ],
+      "key_points": [
+        "A thorough, unhurried examination usually performed en route rather than on scene",
+        "Covers every region in order, including the areas already scanned",
+        "Includes findings that are not immediately life-threatening but still matter",
+        "Not every patient needs one: it is for patients whose injuries or condition justify it",
+        "It is the examination that finds the things the rapid scan was moving too fast to notice"
+      ],
+      "misconceptions": [
+        "Performing a detailed examination on scene while the patient deteriorates",
+        "Assuming the rapid scan already found everything",
+        "Performing it on every patient regardless of need"
+      ],
+      "exam_favorites": [
+        "When and where it is done",
+        "That it repeats regions already scanned",
+        "Which patients need it"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The detailed examination is the unhurried version, and the thing to understand about it is where it happens. It is usually done in the back of a moving ambulance, not on the pavement, because the patients who need it are usually patients who need to be moving.\n\nIt covers everything, in order, including regions the rapid scan already covered. That repetition is deliberate. A scan performed in ninety seconds on a noisy scene with a frightened patient misses things, and the detailed examination is your second look with better light, more time and less adrenaline.\n\nIt also picks up the findings that are real but not immediately lethal: the wrist that turns out to be broken, the small laceration hidden in the hairline, the tenderness nobody noticed while dealing with the chest.\n\nAnd it is not universal. A patient with an isolated ankle injury and normal vital signs does not need their whole body examined in detail. Match it to the patient.",
+          "standard": "The detailed physical examination is a comprehensive, unhurried regional examination typically performed during transport rather than on scene. It encompasses all body regions in sequence, including those previously assessed during the rapid full-body scan; repetition is deliberate, as the rapid scan is conducted under time pressure and in suboptimal conditions and is expected to miss findings. The detailed examination identifies injuries that are clinically significant but not immediately life-threatening. It is indicated selectively according to mechanism and patient condition rather than universally, and is not required for patients with isolated minor injury and normal physiology."
+        },
+        "eli_new": {
+          "analogy": "The rapid scan is a torch swept across a room. The detailed exam is turning the lights on.",
+          "body": "People assume that if the rapid scan was done properly there is nothing left to find. The rapid scan was done in ninety seconds by someone with adrenaline in their bloodstream on a scene with poor light. A second, slower look is not redundancy."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what the detailed head-to-toe examination is, where it is usually done, and why it repeats what the rapid scan covered.",
+          "must_hit": [
+            {
+              "point": "Thorough and unhurried, usually en route",
+              "accept": [
+                "en route",
+                "in the ambulance",
+                "transport",
+                "moving",
+                "unhurried",
+                "thorough"
+              ]
+            },
+            {
+              "point": "Covers all regions including ones already scanned",
+              "accept": [
+                "all regions",
+                "again",
+                "repeat",
+                "already",
+                "every region"
+              ]
+            },
+            {
+              "point": "The rapid scan misses things under time pressure",
+              "accept": [
+                "miss",
+                "time pressure",
+                "fast",
+                "adrenaline",
+                "second look",
+                "light"
+              ]
+            },
+            {
+              "point": "Not every patient needs one",
+              "accept": [
+                "not every",
+                "selective",
+                "isolated",
+                "minor",
+                "match"
+              ]
+            }
+          ],
+          "model_answer": "It is the thorough, unhurried version, and it is usually done in the back of a moving ambulance rather than on scene, because the patients who need it are the ones who need to be moving. It covers every region in order, including the ones the rapid scan already covered, and that repetition is deliberate — a ninety-second scan on a noisy scene with poor light and adrenaline misses things, so this is the second look with better conditions. It picks up what is real but not immediately lethal: the fractured wrist, the laceration in the hairline, tenderness nobody noticed. And it is selective: an isolated ankle injury with normal vitals does not need one."
+        },
+        "story": {
+          "title": "Better light",
+          "dispatch": "Rescue 4 — motorcycle versus car, rider conscious.",
+          "body": "The scan on the road found the obvious things and nothing else, and everybody was focused on getting him off the carriageway.\n\nIn the back, with the lights on and the doors shut, the detailed exam found a deep laceration in his hairline that had been hidden by hair and by the dark.\n\nIt was not going to kill him. It was also not going to be found on that road."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sequence and the findings list the current text gives for this examination."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-05",
+      "title": "Assessing the unresponsive medical patient",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-04-01",
+        "EMT-03-02-02"
+      ],
+      "related": [
+        "EMT-03-05-07",
+        "EMT-03-04-01"
+      ],
+      "key_points": [
+        "An unresponsive medical patient cannot give you a history, so you take one from everything else",
+        "They are assessed like a trauma patient: a rapid full-body scan, because they cannot tell you what hurts",
+        "The scene is a history: medication bottles, medical alert jewellery, oxygen equipment, the position they were found in",
+        "Family and bystanders become the history, and what they say about the last few hours matters most",
+        "Check a blood glucose in any patient with an altered level of consciousness",
+        "Consider trauma even when the call sounds medical, because an unresponsive patient may have fallen"
+      ],
+      "misconceptions": [
+        "Assuming an unresponsive patient with no obvious injury is purely medical",
+        "Failing to look around the room for the history",
+        "Omitting a blood glucose in an altered patient"
+      ],
+      "exam_favorites": [
+        "Scan them like a trauma patient",
+        "The scene as a history",
+        "Glucose in every altered patient"
+      ],
+      "modes": {
+        "read": {
+          "plain": "An unresponsive medical patient is the hardest history you will take, because the person who knows what happened cannot tell you.\n\nSo you assess them the way you assess a trauma patient: a rapid full-body scan. Not because you assume they are injured, but because they cannot tell you what hurts, and the usual method of finding out — asking — is unavailable.\n\nThen you take the history from everything that is not the patient. The room is a history. Bottles on the side and in the bathroom cabinet. A medical alert bracelet. An oxygen concentrator in the corner. A glucometer on the table. The position they were found in, and whether anything looks disturbed.\n\nFamily and bystanders become your source, and the question that yields most is what the last few hours looked like. Not their whole medical history — what was different today.\n\nCheck a glucose. Any patient with an altered level of consciousness gets one, because hypoglycaemia is common, it mimics almost everything else, and it is one of the few causes an EMT can do something about.\n\nAnd keep trauma on the table. An unresponsive patient found on the floor may have been unresponsive and then fallen, or fallen and then become unresponsive, and you cannot tell which from the doorway.",
+          "standard": "The unresponsive medical patient cannot provide history, and assessment is adapted accordingly. A rapid full-body scan is performed, as the patient cannot localise symptoms and inspection and palpation substitute for subjective report. Environmental assessment provides collateral history: medication containers, medical identification jewellery, home oxygen or glucometry equipment, and the position in which the patient was found. Family and bystanders are questioned, with emphasis on events of the preceding hours rather than remote history. Blood glucose measurement is indicated in all patients with altered mental status, as hypoglycaemia is prevalent, mimics numerous other presentations, and is correctable at the EMT level. Traumatic injury must be considered, as unresponsiveness and falls occur in either causal order."
+        },
+        "eli_new": {
+          "analogy": "The patient has lost their voice, so the room has to speak for them.",
+          "body": "Everything you normally rely on comes from asking. When asking is not available, the instinct is to feel stuck. The answer is that the information is still there, it is just distributed around the room and among the people standing in it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you assess an unresponsive medical patient when they cannot give you a history.",
+          "must_hit": [
+            {
+              "point": "Rapid full-body scan, because they cannot say what hurts",
+              "accept": [
+                "rapid",
+                "full body",
+                "full-body",
+                "scan",
+                "head to toe",
+                "cannot tell"
+              ]
+            },
+            {
+              "point": "The scene is the history: bottles, jewellery, equipment, position found",
+              "accept": [
+                "bottle",
+                "medication",
+                "bracelet",
+                "jewell",
+                "equipment",
+                "position",
+                "room",
+                "scene"
+              ]
+            },
+            {
+              "point": "Family and bystanders, focused on the last few hours",
+              "accept": [
+                "family",
+                "bystander",
+                "witness",
+                "last few hours",
+                "today",
+                "recent"
+              ]
+            },
+            {
+              "point": "Check a blood glucose",
+              "accept": [
+                "glucose",
+                "sugar",
+                "bgl",
+                "glucometer"
+              ]
+            },
+            {
+              "point": "Consider trauma as well",
+              "accept": [
+                "trauma",
+                "fall",
+                "injur",
+                "fell"
+              ]
+            }
+          ],
+          "model_answer": "You assess them like a trauma patient, with a rapid full-body scan, not because you assume injury but because asking what hurts is unavailable and your hands have to replace it. Then you take the history from everything that is not the patient: medication bottles, a medical alert bracelet, home oxygen, a glucometer, the position they were found in. Family and bystanders become the source, and the most productive question is what the last few hours looked like rather than their whole history. Check a blood glucose on any altered patient, because hypoglycaemia is common, mimics nearly everything, and is one of the few things you can fix. And keep trauma in mind — they may have fallen, in either causal order."
+        },
+        "story": {
+          "title": "The cabinet",
+          "dispatch": "Rescue 4 — unresponsive female, found by her son, no further information.",
+          "body": "She could not tell you anything. Her son had moved out years ago and did not know her medications.\n\nYour partner opened the bathroom cabinet and photographed the shelf. Four bottles, one of them a diabetic medication, and a glucometer on the windowsill with a strip still in it.\n\nHer blood sugar was low enough to explain everything. The history had been in the bathroom the whole time."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sequence and the findings list the current text gives for this examination."
     }
   ]
 }
