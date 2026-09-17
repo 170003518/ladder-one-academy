@@ -2492,6 +2492,906 @@
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-01-Q001",
+      "concept_id": "EMT-06-04-01",
+      "style": "recall",
+      "stem": "Why is a full thickness burn typically painless in the burned area?",
+      "options": [
+        {
+          "text": "Because the patient is in shock",
+          "rationale": "Shock is not the explanation."
+        },
+        {
+          "text": "Because the nerve endings have been destroyed",
+          "rationale": "Correct. The worst burns hurt least."
+        },
+        {
+          "text": "Because the skin is numb from cold",
+          "rationale": "Cooling is not the reason."
+        },
+        {
+          "text": "Because adrenaline masks the pain",
+          "rationale": "Adrenaline affects all burns equally."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-01-Q002",
+      "concept_id": "EMT-06-04-01",
+      "style": "recall",
+      "stem": "Which burn depth is characterised by blisters?",
+      "options": [
+        {
+          "text": "Superficial",
+          "rationale": "Superficial burns are red and dry without blisters."
+        },
+        {
+          "text": "Partial thickness",
+          "rationale": "Correct. Moist, mottled, blistered and intensely painful."
+        },
+        {
+          "text": "Full thickness",
+          "rationale": "Full thickness burns are dry, white or charred."
+        },
+        {
+          "text": "All depths equally",
+          "rationale": "Blistering is specific to partial thickness."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-01-Q003",
+      "concept_id": "EMT-06-04-01",
+      "style": "application",
+      "stem": "A patient says a white, leathery patch on his arm barely hurts. How serious is this?",
+      "options": [
+        {
+          "text": "Minor, since it does not hurt",
+          "rationale": "Painlessness indicates destroyed nerve endings."
+        },
+        {
+          "text": "Serious — painlessness indicates a full thickness burn",
+          "rationale": "Correct. The part that does not hurt is the part that needs a surgeon."
+        },
+        {
+          "text": "Superficial, since there are no blisters",
+          "rationale": "Absence of blisters here indicates greater depth, not less."
+        },
+        {
+          "text": "It cannot be assessed without a doctor",
+          "rationale": "The findings are assessable and describable."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-01-Q004",
+      "concept_id": "EMT-06-04-01",
+      "style": "recall",
+      "stem": "Which burn depths count towards the extent calculation?",
+      "options": [
+        {
+          "text": "All depths including superficial",
+          "rationale": "Counting superficial burns inflates the figure."
+        },
+        {
+          "text": "Partial and full thickness only",
+          "rationale": "Correct. Superficial burns are excluded."
+        },
+        {
+          "text": "Full thickness only",
+          "rationale": "Partial thickness burns are counted too."
+        },
+        {
+          "text": "Superficial and partial only",
+          "rationale": "Full thickness burns are certainly counted."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-01-Q005",
+      "concept_id": "EMT-06-04-01",
+      "style": "application",
+      "stem": "Why is a circumferential full thickness burn around a limb dangerous?",
+      "options": [
+        {
+          "text": "Because it causes more pain",
+          "rationale": "Full thickness burns are painless."
+        },
+        {
+          "text": "Because inelastic burned skin plus underlying swelling acts like a tourniquet",
+          "rationale": "Correct. Check distal circulation and say so at handover."
+        },
+        {
+          "text": "Because it spreads infection faster",
+          "rationale": "Not the acute mechanical concern."
+        },
+        {
+          "text": "Because it always becomes full thickness elsewhere",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-01-Q006",
+      "concept_id": "EMT-06-04-01",
+      "style": "scenario",
+      "stem": "How reliable is an early field assessment of burn depth?",
+      "options": [
+        {
+          "text": "Entirely reliable if done carefully",
+          "rationale": "Depth is genuinely difficult to judge early."
+        },
+        {
+          "text": "Limited — burns are often mixed and depth can declare itself over days",
+          "rationale": "Correct. Describe what you see rather than committing."
+        },
+        {
+          "text": "Depth cannot be assessed at all in the field",
+          "rationale": "It can be described, just not always definitively."
+        },
+        {
+          "text": "It is reliable only for full thickness burns",
+          "rationale": "Even those can be difficult early."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-02-Q001",
+      "concept_id": "EMT-06-04-02",
+      "style": "recall",
+      "stem": "In the adult rule of nines, what percentage is one entire leg?",
+      "options": [
+        {
+          "text": "9 percent",
+          "rationale": "That is one arm, or the head and neck."
+        },
+        {
+          "text": "18 percent",
+          "rationale": "Correct. A leg is a fifth of the body and is consistently underestimated."
+        },
+        {
+          "text": "14 percent",
+          "rationale": "That is the infant figure for a leg."
+        },
+        {
+          "text": "25 percent",
+          "rationale": "Not a rule of nines value."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-02-Q002",
+      "concept_id": "EMT-06-04-02",
+      "style": "recall",
+      "stem": "What percentage is an infant's head?",
+      "options": [
+        {
+          "text": "9 percent, as in an adult",
+          "rationale": "A child's head is a far larger share of the body."
+        },
+        {
+          "text": "18 percent",
+          "rationale": "Correct — double the adult figure."
+        },
+        {
+          "text": "14 percent",
+          "rationale": "That is the infant figure for a leg."
+        },
+        {
+          "text": "4.5 percent",
+          "rationale": "Not a rule of nines value."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-02-Q003",
+      "concept_id": "EMT-06-04-02",
+      "style": "calculation",
+      "stem": "An adult has burns to the entire front of the trunk and one whole arm. What is the approximate extent?",
+      "options": [
+        {
+          "text": "18 percent",
+          "rationale": "That accounts for the trunk but omits the arm."
+        },
+        {
+          "text": "27 percent",
+          "rationale": "Correct — 18 for the anterior trunk plus 9 for the arm."
+        },
+        {
+          "text": "36 percent",
+          "rationale": "That would be two arms plus the trunk, or both trunk surfaces."
+        },
+        {
+          "text": "9 percent",
+          "rationale": "That is the arm alone."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-02-Q004",
+      "concept_id": "EMT-06-04-02",
+      "style": "application",
+      "stem": "You have a 7-year-old with burns. Which rule applies?",
+      "options": [
+        {
+          "text": "The adult rule of nines",
+          "rationale": "Adult proportions underestimate a child's head burn substantially."
+        },
+        {
+          "text": "Neither cleanly — estimate with palms and describe what is burned",
+          "rationale": "Correct. Intermediate ages need a Lund-Browder chart at hospital."
+        },
+        {
+          "text": "The infant rule of nines",
+          "rationale": "Infant proportions do not fit a seven-year-old either."
+        },
+        {
+          "text": "Halve the adult figures",
+          "rationale": "Not a recognised method."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-02-Q005",
+      "concept_id": "EMT-06-04-02",
+      "style": "recall",
+      "stem": "Whose palm is used in the palm method?",
+      "options": [
+        {
+          "text": "The provider's palm",
+          "rationale": "Your hand on a child's chest gives a wildly wrong answer."
+        },
+        {
+          "text": "The patient's own palm",
+          "rationale": "Correct. The estimate is relative to their body."
+        },
+        {
+          "text": "A standard measuring card",
+          "rationale": "The method uses the patient's hand."
+        },
+        {
+          "text": "Either, since palms are similar",
+          "rationale": "They are not, particularly in children."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-02-Q006",
+      "concept_id": "EMT-06-04-02",
+      "style": "application",
+      "stem": "How should a field burn percentage be presented at handover?",
+      "options": [
+        {
+          "text": "As a precise measured figure",
+          "rationale": "Field estimates are approximations."
+        },
+        {
+          "text": "As an estimate, with a description of exactly what is burned",
+          "rationale": "Correct. The description survives your arithmetic being adjusted."
+        },
+        {
+          "text": "Not at all, since hospital will recalculate",
+          "rationale": "Your figure and description are both useful."
+        },
+        {
+          "text": "Only if it exceeds a threshold",
+          "rationale": "Extent is reported regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-03-Q001",
+      "concept_id": "EMT-06-04-03",
+      "style": "recall",
+      "stem": "Why must a chemical burn never be neutralised?",
+      "options": [
+        {
+          "text": "Because it wastes time",
+          "rationale": "Time is not the primary reason."
+        },
+        {
+          "text": "Because the reaction generates heat, adding a thermal burn to injured tissue",
+          "rationale": "Correct. Water, and lots of it, instead."
+        },
+        {
+          "text": "Because neutralising agents are not carried",
+          "rationale": "Availability is not the reason."
+        },
+        {
+          "text": "Because it spreads the chemical further",
+          "rationale": "Not the stated mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-03-Q002",
+      "concept_id": "EMT-06-04-03",
+      "style": "recall",
+      "stem": "What is done first for a dry powder chemical burn?",
+      "options": [
+        {
+          "text": "Irrigate immediately with water",
+          "rationale": "Water can activate certain dry chemicals."
+        },
+        {
+          "text": "Brush the powder off, then irrigate",
+          "rationale": "Correct. Irrigating first washes activated chemical across more skin."
+        },
+        {
+          "text": "Apply a dry dressing and transport",
+          "rationale": "Irrigation is needed after brushing."
+        },
+        {
+          "text": "Neutralise with the opposite pH",
+          "rationale": "Neutralisation is never done."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-03-Q003",
+      "concept_id": "EMT-06-04-03",
+      "style": "application",
+      "stem": "An electrical burn shows a coin-sized wound on a palm and another on a foot. How extensive is the injury likely to be?",
+      "options": [
+        {
+          "text": "Limited to the two visible wounds",
+          "rationale": "Those are the two ends of an injury you cannot see."
+        },
+        {
+          "text": "Far greater — everything on the path between them took the current",
+          "rationale": "Correct. The visible burns are two small doors on a long tunnel."
+        },
+        {
+          "text": "Superficial, given the small size",
+          "rationale": "Size of the visible wounds says nothing here."
+        },
+        {
+          "text": "Impossible to estimate, so assume it is minor",
+          "rationale": "Assume the opposite."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-03-Q004",
+      "concept_id": "EMT-06-04-03",
+      "style": "application",
+      "stem": "Why is cooling a large burn for a prolonged period harmful?",
+      "options": [
+        {
+          "text": "It increases pain",
+          "rationale": "Cooling reduces pain; the problem is elsewhere."
+        },
+        {
+          "text": "It causes hypothermia, since the skin that retains heat is gone",
+          "rationale": "Correct. Cool briefly, then dry, cover and warm."
+        },
+        {
+          "text": "It deepens the burn",
+          "rationale": "Cooling does not deepen burns."
+        },
+        {
+          "text": "It washes away protective clotting",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-03-Q005",
+      "concept_id": "EMT-06-04-03",
+      "style": "recall",
+      "stem": "When may you approach a patient in contact with electricity?",
+      "options": [
+        {
+          "text": "Once the patient says the power is off",
+          "rationale": "A patient's belief is not confirmation."
+        },
+        {
+          "text": "Only once isolation is confirmed by someone qualified to confirm it",
+          "rationale": "Correct. Ground, fences and vehicles can all be energised."
+        },
+        {
+          "text": "Once you can see no sparks",
+          "rationale": "Absence of sparks means nothing."
+        },
+        {
+          "text": "If you wear rubber gloves",
+          "rationale": "Ordinary gloves offer no protection at these voltages."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-03-Q006",
+      "concept_id": "EMT-06-04-03",
+      "style": "scenario",
+      "stem": "Why might an electrical injury patient have a fracture with no impact?",
+      "options": [
+        {
+          "text": "Because burns weaken bone immediately",
+          "rationale": "That is not the mechanism."
+        },
+        {
+          "text": "Because current causes violent muscle contraction strong enough to break bones",
+          "rationale": "Correct. People dislocate shoulders through their own muscle power."
+        },
+        {
+          "text": "Because they always fall",
+          "rationale": "Falls occur but are not the only mechanism."
+        },
+        {
+          "text": "Fractures do not occur in electrical injury",
+          "rationale": "They are a recognised finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-04-Q001",
+      "concept_id": "EMT-06-04-04",
+      "style": "recall",
+      "stem": "Which finding suggests inhalation injury?",
+      "options": [
+        {
+          "text": "Blistering on the hands",
+          "rationale": "A burn finding, not an inhalation one."
+        },
+        {
+          "text": "Soot around the nose and singed nasal hair",
+          "rationale": "Correct. Hot gas passed across that face into the airway."
+        },
+        {
+          "text": "A fast pulse",
+          "rationale": "Non-specific."
+        },
+        {
+          "text": "Pain in the burned area",
+          "rationale": "Tells you about depth, not the airway."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-04-Q002",
+      "concept_id": "EMT-06-04-04",
+      "style": "recall",
+      "stem": "What does hoarseness in a fire victim indicate?",
+      "options": [
+        {
+          "text": "Smoke irritation that will settle",
+          "rationale": "It indicates the airway is already swelling."
+        },
+        {
+          "text": "That the airway is already involved and swelling",
+          "rationale": "Correct. It is not a warning of a future problem."
+        },
+        {
+          "text": "Shouting during the fire",
+          "rationale": "A possible contributor, but not something to rely on."
+        },
+        {
+          "text": "Nothing significant if they are talking",
+          "rationale": "Talking now does not predict talking later."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-04-Q003",
+      "concept_id": "EMT-06-04-04",
+      "style": "application",
+      "stem": "A patient who walked out of a house fire is comfortable with a slight rasp to the voice. What is the concern?",
+      "options": [
+        {
+          "text": "None; he is comfortable and walking",
+          "rationale": "Comfort now says nothing about the next hour."
+        },
+        {
+          "text": "Swelling develops over minutes to hours and the airway will become harder to manage",
+          "rationale": "Correct. Transport early and notify early."
+        },
+        {
+          "text": "He may have inhaled dust",
+          "rationale": "The rasp and the enclosed fire point at inhalation injury."
+        },
+        {
+          "text": "He needs a chest x-ray only",
+          "rationale": "He needs an airway assessed before it closes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-04-Q004",
+      "concept_id": "EMT-06-04-04",
+      "style": "recall",
+      "stem": "What is the pulse oximeter worth in a fire victim?",
+      "options": [
+        {
+          "text": "It is the most reliable finding available",
+          "rationale": "It cannot distinguish carbon monoxide from oxygen."
+        },
+        {
+          "text": "Very little — it cannot distinguish carbon monoxide from oxygen",
+          "rationale": "Correct. A comfortable number must not slow you down."
+        },
+        {
+          "text": "It is accurate if above 95 percent",
+          "rationale": "A high reading is precisely the misleading case."
+        },
+        {
+          "text": "It measures carbon monoxide directly",
+          "rationale": "A standard oximeter does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-04-Q005",
+      "concept_id": "EMT-06-04-04",
+      "style": "sequence",
+      "stem": "Why should airway instrumentation be minimised in these patients?",
+      "options": [
+        {
+          "text": "Because equipment is in short supply",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because an irritable, swelling airway can spasm shut",
+          "rationale": "Correct. Watch, support, oxygenate and go."
+        },
+        {
+          "text": "Because it is uncomfortable for the patient",
+          "rationale": "Comfort is not the clinical rationale."
+        },
+        {
+          "text": "Because it is outside EMT scope",
+          "rationale": "Basic airway management is within scope; the concern is provocation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-04-Q006",
+      "concept_id": "EMT-06-04-04",
+      "style": "application",
+      "stem": "What are the two most valuable interventions for suspected inhalation injury?",
+      "options": [
+        {
+          "text": "Cooling the burns and elevating the limbs",
+          "rationale": "Neither addresses the airway threat."
+        },
+        {
+          "text": "Early transport and early notification",
+          "rationale": "Correct. They let the airway be secured before it becomes impossible."
+        },
+        {
+          "text": "Oral fluids and reassurance",
+          "rationale": "Neither addresses the threat."
+        },
+        {
+          "text": "Waiting on scene to see whether it deteriorates",
+          "rationale": "Waiting is the error this concept exists to prevent."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-05-Q001",
+      "concept_id": "EMT-06-04-05",
+      "style": "recall",
+      "stem": "Why should rings and jewellery be removed early?",
+      "options": [
+        {
+          "text": "To prevent theft during transport",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "Because swelling turns a ring into a tourniquet and it soon cannot be removed",
+          "rationale": "Correct. Fifteen seconds now, impossible in ten minutes."
+        },
+        {
+          "text": "Because metal conducts heat into the wound",
+          "rationale": "Not the stated rationale."
+        },
+        {
+          "text": "Because hospitals require it",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-05-Q002",
+      "concept_id": "EMT-06-04-05",
+      "style": "recall",
+      "stem": "What should be applied to a burn?",
+      "options": [
+        {
+          "text": "Antiseptic cream",
+          "rationale": "Topical preparations are contraindicated."
+        },
+        {
+          "text": "A dry sterile dressing and nothing else",
+          "rationale": "Correct. No cream, ointment, butter or ice."
+        },
+        {
+          "text": "Ice packs directly on the burn",
+          "rationale": "Ice causes further injury."
+        },
+        {
+          "text": "Petroleum jelly to seal it",
+          "rationale": "Nothing is applied but a dry dressing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-05-Q003",
+      "concept_id": "EMT-06-04-05",
+      "style": "recall",
+      "stem": "Should blisters be broken?",
+      "options": [
+        {
+          "text": "Yes, to relieve pressure",
+          "rationale": "The blister roof is intact skin and a barrier against infection."
+        },
+        {
+          "text": "No — intact skin is a barrier against infection",
+          "rationale": "Correct. It will be dealt with cleanly later."
+        },
+        {
+          "text": "Only if they are large",
+          "rationale": "Size does not change the principle."
+        },
+        {
+          "text": "Only on the hands",
+          "rationale": "Location does not change the principle."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-05-Q004",
+      "concept_id": "EMT-06-04-05",
+      "style": "application",
+      "stem": "A patient escaped a fire through a first-floor window and has forearm burns. What must you be careful not to miss?",
+      "options": [
+        {
+          "text": "Nothing; the burns are the injury",
+          "rationale": "Burns are visually dominant and distract from everything else."
+        },
+        {
+          "text": "Injuries from the escape, such as fractures and head injury",
+          "rationale": "Correct. People escaping fires fall, jump and get hit by things."
+        },
+        {
+          "text": "Whether the burns are partial or full thickness",
+          "rationale": "Important, but not the thing most likely to be missed."
+        },
+        {
+          "text": "The exact burn percentage",
+          "rationale": "An estimate matters less than a missed fracture."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-05-Q005",
+      "concept_id": "EMT-06-04-05",
+      "style": "application",
+      "stem": "A small burn is confined to the palm of one hand. Is it significant?",
+      "options": [
+        {
+          "text": "No, it is well under any percentage threshold",
+          "rationale": "Hands are significant regardless of size, because of function."
+        },
+        {
+          "text": "Yes — hands are a significant area regardless of extent",
+          "rationale": "Correct, along with face, feet, genitalia, joints and circumferential burns."
+        },
+        {
+          "text": "Only if it is full thickness",
+          "rationale": "Location alone makes it significant."
+        },
+        {
+          "text": "Only in a child",
+          "rationale": "It is significant at any age."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-05-Q006",
+      "concept_id": "EMT-06-04-05",
+      "style": "scenario",
+      "stem": "A child's burn has a clean-edged stocking distribution that does not match the account given. What should you do?",
+      "options": [
+        {
+          "text": "Accuse the carer and await police",
+          "rationale": "Accusation is not your role."
+        },
+        {
+          "text": "Record factually what you saw and what you were told, and report through safeguarding",
+          "rationale": "Correct. Describe rather than conclude, and do not stay silent."
+        },
+        {
+          "text": "Say nothing in case you are wrong",
+          "rationale": "Being unsure is not a reason not to report."
+        },
+        {
+          "text": "Write your suspicion as a conclusion in the notes",
+          "rationale": "Record the facts; the conclusion is for others."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

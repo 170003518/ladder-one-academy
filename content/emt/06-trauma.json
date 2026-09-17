@@ -45,6 +45,17 @@
         "EMT-06-03-03",
         "EMT-06-03-04"
       ]
+    },
+    {
+      "id": "EMT-06-04",
+      "title": "Burns",
+      "concepts": [
+        "EMT-06-04-01",
+        "EMT-06-04-02",
+        "EMT-06-04-03",
+        "EMT-06-04-04",
+        "EMT-06-04-05"
+      ]
     }
   ],
   "concepts": [
@@ -2421,6 +2432,996 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the packaging technique and the guidance on partial amputations against the current text and local protocol. No maximum ischaemic time for replantation is stated; that is a surgical decision and figures vary."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-01",
+      "title": "Burn depth classification",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-04-02",
+        "EMT-06-04-05"
+      ],
+      "key_points": [
+        "Burn depth describes how far through the skin the damage goes, and it determines healing, scarring and whether surgery is needed",
+        "Superficial burns involve only the outer layer: red, dry, painful, no blisters — sunburn is the everyday example",
+        "Partial thickness burns go through the outer layer into the dermis: blistered, moist, mottled red or pink, and intensely painful",
+        "Full thickness burns destroy all layers: white, leathery, waxy or charred, dry, and typically painless in the burned area",
+        "That painlessness is the key finding — the nerve endings have been destroyed, so the worst burns hurt least",
+        "A full thickness burn is almost always surrounded by partial thickness burn, so the patient still has pain from the edges",
+        "Burns are frequently mixed depth, and depth can be hard to judge early and may declare itself over the following days",
+        "Superficial burns are excluded when calculating burn extent for fluid decisions; partial and full thickness are counted",
+        "A circumferential full thickness burn around a limb or the chest can constrict like a tourniquet as swelling develops"
+      ],
+      "misconceptions": [
+        "Grading severity by how much the patient says it hurts",
+        "Counting superficial burns in the extent calculation",
+        "Assuming an early assessment of depth is final",
+        "Missing a circumferential burn that will constrict"
+      ],
+      "exam_favorites": [
+        "The three depths and their findings",
+        "Why full thickness burns are painless",
+        "Superficial burns are not counted in extent",
+        "Circumferential burns constrict"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Burn depth is how far through the skin the injury goes, and it is the single most useful thing you can describe about a burn.\n\nSuperficial burns involve only the outermost layer. Red, dry, painful, and no blisters. Sunburn is the familiar example. They heal on their own without scarring.\n\nPartial thickness burns go through that outer layer into the dermis beneath. These are the ones with blisters. The surface is moist and weeping, mottled red or pink, and they are intensely painful — more painful than deeper burns, because the nerve endings are damaged and exposed but still working.\n\nFull thickness burns destroy every layer of skin. They look white, waxy, leathery or charred, and the surface is dry rather than weeping. And they are typically painless in the burned area, because the nerve endings have been destroyed along with everything else.\n\nThat last point is the one that matters most, because it inverts the intuition everybody has. The worst burns hurt the least. A patient calmly telling you a white leathery patch on their arm does not hurt is describing something far more serious than the person screaming about a blistered hand.\n\nDo not grade a burn by how much it hurts.\n\nThere is a subtlety here. A full thickness burn is almost always ringed by partial thickness burn at its edges, where the heat was less intense. So the patient usually is in pain — from the border rather than the centre. If you press the middle of a full thickness area and they feel nothing, that is your finding.\n\nBurns are usually mixed. One injury commonly contains superficial, partial and full thickness areas, and judging which is which early is genuinely difficult even for people who do it often. Burns also evolve — an area that looks partial thickness today can declare itself as full thickness over the following days. So describe what you see rather than committing to a confident classification, and say it is difficult to judge if it is.\n\nWhen extent is calculated for fluid decisions, superficial burns are not counted. Only partial and full thickness areas go into the number. Counting the sunburn on somebody's shoulders inflates the figure and can lead to over-treatment.\n\nOne final thing to look for. A full thickness burn that goes all the way around a limb, or around the chest, is a problem beyond the burn itself. Burned skin is leathery and does not stretch, and the tissue underneath swells. Around an arm, that acts like a tourniquet and cuts off the circulation. Around a chest, it can restrict breathing. If you find a circumferential full thickness burn, check circulation below it, watch the breathing, and say so clearly at handover — it is a surgical problem with a short fuse.",
+          "standard": "Burn depth denotes the extent of dermal penetration and determines healing, scarring and surgical requirement. Superficial burns involve the epidermis alone, presenting as erythematous, dry and painful without blistering, and heal without scarring. Partial thickness burns extend into the dermis, producing blistering, moist mottled erythematous surfaces and severe pain owing to exposed but viable nerve endings. Full thickness burns destroy all dermal layers, appearing white, waxy, leathery or charred with a dry surface, and are characteristically insensate owing to nerve ending destruction. Severity therefore correlates inversely with pain within the burned area. Full thickness burns are typically bounded by partial thickness injury, preserving peripheral sensation. Burns are commonly of mixed depth, with early classification unreliable and depth frequently evolving over subsequent days. Superficial burns are excluded from body surface area calculation; only partial and full thickness areas are counted. Circumferential full thickness burns produce constriction as underlying oedema develops within inelastic eschar, compromising distal perfusion in extremities and ventilation in the thorax."
+        },
+        "eli_new": {
+          "analogy": "The worst burns hurt least, because the nerves that would have reported the pain were destroyed by the thing that caused it.",
+          "body": "Two errors. Grading severity by pain, which gets it exactly backwards. And counting superficial burns in the extent, which inflates the number and can lead to a patient being over-treated for a burn that was partly sunburn."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the three burn depths, and explain why full thickness burns are painless.",
+          "must_hit": [
+            {
+              "point": "Superficial: outer layer only, red, dry, painful, no blisters",
+              "accept": [
+                "superficial",
+                "red",
+                "dry",
+                "blister",
+                "sunburn",
+                "outer"
+              ]
+            },
+            {
+              "point": "Partial thickness: into the dermis, blistered, moist, intensely painful",
+              "accept": [
+                "partial",
+                "blister",
+                "moist",
+                "dermis",
+                "painful"
+              ]
+            },
+            {
+              "point": "Full thickness: all layers, white or leathery or charred, dry",
+              "accept": [
+                "full",
+                "white",
+                "leather",
+                "char",
+                "waxy",
+                "dry"
+              ]
+            },
+            {
+              "point": "Full thickness is painless because the nerve endings are destroyed",
+              "accept": [
+                "painless",
+                "nerve",
+                "destroy",
+                "insensate",
+                "hurt least"
+              ]
+            },
+            {
+              "point": "Do not grade severity by pain",
+              "accept": [
+                "pain",
+                "grade",
+                "severity",
+                "inverse",
+                "backwards"
+              ]
+            },
+            {
+              "point": "Superficial burns are not counted in the extent calculation",
+              "accept": [
+                "superficial",
+                "count",
+                "extent",
+                "exclude",
+                "calculation"
+              ]
+            },
+            {
+              "point": "Circumferential full thickness burns constrict limbs and the chest",
+              "accept": [
+                "circumferent",
+                "constrict",
+                "tourniquet",
+                "chest",
+                "breathing",
+                "swell"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It doesn't hurt",
+          "dispatch": "Medic 3 — kitchen burn, 44-year-old male, forearm.",
+          "body": "He was more embarrassed than distressed and kept saying it was not that bad because it barely hurt at all.\n\nThe centre of it was white and leathery and he felt nothing when it was touched. The ring of blistered skin around the outside was where all his pain was coming from.\n\nThe part that did not hurt was the part that needed a surgeon."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Superficial — depth",
+            "value": "outer layer only",
+            "note": "Red, dry, painful, NO blisters. Sunburn. NOT counted in burn extent."
+          },
+          {
+            "label": "Partial thickness — depth",
+            "value": "into the dermis",
+            "note": "BLISTERS, moist, mottled red or pink, intensely painful. Counted in extent."
+          },
+          {
+            "label": "Full thickness — depth",
+            "value": "all layers",
+            "note": "White, waxy, leathery or charred, DRY, and PAINLESS in the burned area. Counted in extent."
+          },
+          {
+            "label": "Pain as a severity guide",
+            "value": "inverted",
+            "note": "The worst burns hurt least. Never grade a burn by how much it hurts."
+          },
+          {
+            "label": "Which depths count towards extent",
+            "value": "partial + full only",
+            "note": "Superficial burns are excluded. Counting them inflates the figure."
+          },
+          {
+            "label": "Circumferential full thickness burn",
+            "value": "constricts",
+            "note": "Leathery skin does not stretch and the tissue beneath swells. Check distal circulation; watch breathing if it is around the chest."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the burn depth descriptions and the exclusion of superficial burns from extent calculations against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-02",
+      "title": "Rule of nines and the palm method",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-04-01"
+      ],
+      "related": [
+        "EMT-06-04-01",
+        "EMT-06-04-05"
+      ],
+      "key_points": [
+        "Burn extent is expressed as a percentage of total body surface area, and it drives fluid decisions and destination",
+        "The rule of nines divides the adult body into areas of nine percent or multiples of nine",
+        "Adult: head and neck 9, each arm 9, each leg 18, front of trunk 18, back of trunk 18, genitalia 1",
+        "The paediatric proportions differ because a child's head is proportionally much larger and the legs proportionally smaller",
+        "Infant: head 18, each arm 9, each leg 14, front of trunk 18, back of trunk 18",
+        "The intermediate ages between infant and adult are not covered by a simple rule, and a Lund-Browder chart is used for them at hospital",
+        "The palm method estimates scattered or irregular burns: the patient's own palm is approximately one percent of their body surface",
+        "Use the patient's palm, not yours — the estimate is relative to their body",
+        "Superficial burns are excluded from the total, and field estimates are approximations rather than measurements"
+      ],
+      "misconceptions": [
+        "Using the adult rule of nines on a small child",
+        "Using your own palm rather than the patient's",
+        "Including superficial burns in the total",
+        "Presenting a field estimate as a precise figure"
+      ],
+      "exam_favorites": [
+        "The adult rule of nines figures",
+        "The paediatric differences",
+        "The palm method",
+        "Why intermediate ages need a chart"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Burn extent is expressed as a percentage of the body surface, and it matters because it drives fluid resuscitation decisions at hospital and helps decide whether the patient goes to a burns centre.\n\nThe rule of nines divides the adult body into regions that are nine percent or multiples of it. For an adult: head and neck nine. Each arm nine. Each leg eighteen. The front of the trunk eighteen. The back of the trunk eighteen. And the genitalia one, which is what makes the total come to a hundred.\n\nWorth noticing that a leg is a fifth of the body and an arm is a tenth of it — people consistently underestimate legs.\n\nChildren are not small adults, and the proportions genuinely differ. A child's head is a much larger share of their body and their legs are a smaller share. For an infant: head eighteen, each arm nine, each leg fourteen, front of trunk eighteen, back of trunk eighteen.\n\nSo a burn to the head that is nine percent in an adult is eighteen percent in an infant — double. Using adult figures on a small child substantially underestimates a head burn and overestimates a leg burn.\n\nNow the honest part. Between infant and adult there is no clean rule, because the proportions shift gradually with age. Hospitals use a Lund-Browder chart, which has age-adjusted values for each region. I am not giving you an intermediate table here, because those values vary between sources and a confidently wrong figure for a seven-year-old is worse than saying you estimated it. If you have a child between those two extremes, estimate with the palm method, describe what is burned in plain terms — 'the whole of the front of the chest and all of the right arm' — and let the receiving team apply the chart.\n\nThe palm method handles scattered and irregular burns, which the rule of nines does badly. The patient's own palm is approximately one percent of their body surface. Splashes, spatter, patchy burns — count palms.\n\nTwo details. Use the patient's palm, not yours: the estimate is relative to their body, and your hand on a child's chest gives a wildly wrong answer. And sources differ on whether the one percent includes the fingers or the palm alone, so check which your text uses.\n\nFinally: superficial burns are excluded, and everything here is an estimate. Field burn percentages are routinely revised at hospital, and that is expected. Give your figure, say how you arrived at it, and describe what you actually saw — the description survives your arithmetic being adjusted.",
+          "standard": "Burn extent is quantified as percentage total body surface area, informing fluid resuscitation and destination decisions. The rule of nines apportions the adult body in increments of nine percent: head and neck nine, each upper limb nine, each lower limb eighteen, anterior trunk eighteen, posterior trunk eighteen, and genitalia one, totalling one hundred. Paediatric proportions differ owing to relatively greater cephalic and lesser lower limb surface area. Infant values are: head eighteen, each upper limb nine, each lower limb fourteen, anterior trunk eighteen, posterior trunk eighteen. Intermediate ages are not accommodated by a simple rule and are assessed at hospital using an age-adjusted Lund-Browder chart. The palm method estimates irregular or scattered burns, the patient's own palmar surface approximating one percent of their total body surface area; the patient's palm rather than the provider's is used, and sources differ regarding inclusion of the digits. Superficial burns are excluded from calculation, and prehospital estimates constitute approximations subject to revision."
+        },
+        "eli_new": {
+          "analogy": "An adult leg is a fifth of the body. People look at a burned leg and say ten percent, and they are half right in the wrong direction.",
+          "body": "The honest gap in this concept is the child between infant and adult. There is no clean rule for a seven-year-old, and the age-adjusted tables differ between sources. Estimate with palms, describe exactly what is burned, and let the hospital apply the chart."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Give the adult rule of nines, the infant differences, and explain the palm method.",
+          "must_hit": [
+            {
+              "point": "Adult: head 9, each arm 9, each leg 18, front trunk 18, back trunk 18, genitalia 1",
+              "accept": [
+                "nine",
+                "18",
+                "arm",
+                "leg",
+                "trunk",
+                "head"
+              ]
+            },
+            {
+              "point": "Infant: head 18, each leg 14, arms 9, trunk 18 front and back",
+              "accept": [
+                "18",
+                "14",
+                "infant",
+                "head",
+                "leg",
+                "child"
+              ]
+            },
+            {
+              "point": "A child's head is proportionally larger and legs smaller",
+              "accept": [
+                "head",
+                "larger",
+                "leg",
+                "smaller",
+                "proportion"
+              ]
+            },
+            {
+              "point": "Intermediate ages need a Lund-Browder chart at hospital",
+              "accept": [
+                "lund",
+                "browder",
+                "chart",
+                "intermediate",
+                "age"
+              ]
+            },
+            {
+              "point": "The patient's palm is about one percent",
+              "accept": [
+                "palm",
+                "one percent",
+                "1%",
+                "hand"
+              ]
+            },
+            {
+              "point": "Use the patient's palm, not yours",
+              "accept": [
+                "patient",
+                "their",
+                "not yours",
+                "own"
+              ]
+            },
+            {
+              "point": "Superficial burns are excluded and estimates are approximate",
+              "accept": [
+                "superficial",
+                "exclude",
+                "estimate",
+                "approxim",
+                "revise"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The whole front of the chest",
+          "dispatch": "Medic 5 — 7-year-old, scald, chest and right arm.",
+          "body": "The crew knew the adult rule and the infant rule and had a seven-year-old in front of them, who is neither.\n\nRather than guess at an intermediate figure, they counted palms, wrote down exactly which areas were burned, and said so plainly at handover.\n\nThe hospital applied the chart. An honest description beat a confident wrong number."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "ADULT — head and neck",
+            "value": "9",
+            "unit": "%"
+          },
+          {
+            "label": "ADULT — each arm",
+            "value": "9",
+            "unit": "%"
+          },
+          {
+            "label": "ADULT — each leg",
+            "value": "18",
+            "unit": "%",
+            "note": "A fifth of the body. Consistently underestimated."
+          },
+          {
+            "label": "ADULT — front of trunk",
+            "value": "18",
+            "unit": "%"
+          },
+          {
+            "label": "ADULT — back of trunk",
+            "value": "18",
+            "unit": "%"
+          },
+          {
+            "label": "ADULT — genitalia",
+            "value": "1",
+            "unit": "%",
+            "note": "The one percent that makes the total come to 100."
+          },
+          {
+            "label": "INFANT — head",
+            "value": "18",
+            "unit": "%",
+            "note": "DOUBLE the adult figure. A child's head is a far larger share."
+          },
+          {
+            "label": "INFANT — each arm",
+            "value": "9",
+            "unit": "%"
+          },
+          {
+            "label": "INFANT — each leg",
+            "value": "14",
+            "unit": "%",
+            "note": "Smaller share than the adult 18."
+          },
+          {
+            "label": "INFANT — front of trunk",
+            "value": "18",
+            "unit": "%"
+          },
+          {
+            "label": "INFANT — back of trunk",
+            "value": "18",
+            "unit": "%"
+          },
+          {
+            "label": "Ages between infant and adult",
+            "value": "not stated here",
+            "note": "No clean rule exists. Values vary between sources. Estimate with palms, describe what is burned, and let hospital apply a Lund-Browder chart."
+          },
+          {
+            "label": "PALM METHOD — the PATIENT'S palm",
+            "value": "about 1",
+            "unit": "%",
+            "note": "For scattered or irregular burns. Use THEIR palm, not yours. Sources differ on whether this includes the fingers."
+          },
+          {
+            "label": "Which burns count",
+            "value": "partial + full thickness",
+            "note": "Superficial burns are excluded from the total."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "calculation": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Adult and infant rule of nines figures are standard curriculum values and must still be confirmed against AAOS Emergency Care 12e. The intermediate paediatric values between infant and adult are DELIBERATELY NOT STATED because they vary between sources and editions; Lund-Browder charts are used at hospital for those ages. Sources also differ on whether the palm method's one percent includes the fingers — confirm which your text uses."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-03",
+      "title": "Thermal, chemical, electrical and radiation burns",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-04-01"
+      ],
+      "related": [
+        "EMT-06-04-04",
+        "EMT-06-03-01",
+        "EMT-05-05-01"
+      ],
+      "key_points": [
+        "Stop the burning process first, whatever the cause — that is the common first step",
+        "Thermal: remove from the source, cool with room temperature water briefly, then cover and keep the patient warm",
+        "Cooling too long or with anything cold causes hypothermia, particularly in children and large burns",
+        "Chemical: brush off dry powder first, then irrigate with copious running water for a prolonged period per protocol",
+        "Do not attempt to neutralise a chemical — the reaction generates heat and makes the injury worse",
+        "Electrical: the visible wounds are entry and exit points and the damage runs between them, so the injury is far bigger than it looks",
+        "Electrical injury can cause cardiac arrest and rhythm disturbances, and can fracture bones through violent muscle contraction",
+        "Never touch an electrical patient until the source is confirmed isolated by someone qualified to say so",
+        "Radiation: time, distance and shielding; do not enter and do not become a casualty"
+      ],
+      "misconceptions": [
+        "Cooling a large burn for too long and causing hypothermia",
+        "Trying to neutralise an acid or alkali",
+        "Judging an electrical burn by the size of the visible wounds",
+        "Approaching an electrical patient before isolation is confirmed",
+        "Irrigating a dry powder chemical before brushing it off"
+      ],
+      "exam_favorites": [
+        "Cooling briefly then keeping warm",
+        "Never neutralise a chemical",
+        "Electrical damage runs between entry and exit",
+        "Confirm isolation before touching"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Whatever the cause, the first step is the same: stop the burning process. Everything else follows from that.\n\nThermal burns. Get the patient away from the source, and remove burning or smouldering clothing and anything hot that is still against the skin — but leave anything stuck to the burn where it is. Cool the burned area with room temperature water, briefly.\n\nThat word briefly matters. Cooling relieves pain and limits ongoing damage, and beyond a short period it stops helping and starts causing hypothermia. A patient with a large burn has lost the skin that normally keeps heat in, and pouring water on them cools the whole body, not just the burn. Children are especially vulnerable because of their surface-to-volume ratio. So: cool the burn, then stop, dry them, cover them and keep them warm. Cooling and warming in sequence sounds contradictory and it is exactly right. Follow your protocol for the duration.\n\nChemical burns. The order here catches people out. If the chemical is a dry powder, brush it off first. Adding water to certain dry chemicals activates them, and irrigating before brushing washes activated chemical across more skin. Brush it off, then irrigate.\n\nThen irrigate with copious running water for a prolonged period — far longer than feels necessary, and the duration is in your protocol. Remove contaminated clothing and jewellery while irrigating, because the chemical is in the fabric and keeps working.\n\nAnd do not try to neutralise anything. Not acid with alkali, not alkali with acid. The reaction itself generates heat, so you add a thermal burn on top of the chemical one, in tissue that is already injured. Water, and lots of it.\n\nElectrical burns are the most deceptive injury in this module. You will see an entry wound and an exit wound, often small, often on a hand and a foot. Between them, the current travelled through the body, and everything on that path — muscle, nerve, vessel, heart — took the energy. The visible burns are the two ends of an injury you cannot see any of.\n\nSo expect the injury to be far bigger than it looks. Expect cardiac effects: electricity causes arrest and rhythm disturbances, and a patient who was shocked and now seems fine still needs monitoring. Expect fractures and dislocations, because current causes violent muscle contraction, and people break bones and dislocate shoulders through their own muscle power. And expect the muscle damage to behave like a crush injury.\n\nSafety is absolute here. Do not touch the patient, and do not touch anything the patient is touching, until the power is confirmed isolated by somebody qualified to confirm it. Not somebody saying they think it is off. Confirmed, by the utility company or a competent person. Downed power lines can energise ground, fences and vehicles for a considerable distance. Every year rescuers die at these scenes doing something that felt obviously necessary.\n\nRadiation. Three principles: minimise time, maximise distance, use shielding. This is a specialist scene. Do not enter, do not improvise, and stay well back until the people with the equipment and the training arrive. A rescuer who becomes a casualty has helped nobody.",
+          "standard": "Cessation of the burning process constitutes the initial intervention across all burn mechanisms. Thermal burns require removal from source, removal of burning or smouldering clothing and retained hot material while leaving adherent material in situ, and brief cooling with room temperature water; prolonged cooling produces hypothermia, particularly in paediatric patients and extensive burns where integumentary thermoregulation is lost, and is followed by drying, covering and active warming. Chemical burns require removal of dry particulate by brushing prior to irrigation, as premature irrigation activates and disperses certain agents, followed by prolonged copious irrigation with running water and removal of contaminated clothing and jewellery. Neutralisation is contraindicated, as the reaction is exothermic and superimposes thermal injury. Electrical injury produces entry and exit wounds with extensive intervening tissue damage along the current path; associated findings include cardiac arrest and dysrhythmia, fractures and dislocations from tetanic muscle contraction, and rhabdomyolysis. Scene approach is contraindicated until isolation is confirmed by a competent authority, as energised ground, fencing and vehicles extend the hazard. Radiation incidents are managed by minimising time, maximising distance and employing shielding, with entry restricted to appropriately equipped specialist responders."
+        },
+        "eli_new": {
+          "analogy": "An electrical burn is a tunnel with two small doors. You can see both doors and none of the tunnel, and all the damage is in the tunnel.",
+          "body": "Two things that feel wrong and are right. Cool the burn and then deliberately warm the patient — those are not contradictory, they are sequential. And brush dry chemical off before you reach for water, because water on some dry chemicals makes them worse."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe how each burn type is managed, and explain why electrical burns are deceptive.",
+          "must_hit": [
+            {
+              "point": "Stop the burning process first in every case",
+              "accept": [
+                "stop",
+                "burning",
+                "source",
+                "first",
+                "remove"
+              ]
+            },
+            {
+              "point": "Thermal: cool briefly, then dry, cover and keep warm",
+              "accept": [
+                "cool",
+                "brief",
+                "warm",
+                "cover",
+                "dry",
+                "hypotherm"
+              ]
+            },
+            {
+              "point": "Chemical: brush dry powder off BEFORE irrigating",
+              "accept": [
+                "brush",
+                "dry",
+                "powder",
+                "before",
+                "irrigat"
+              ]
+            },
+            {
+              "point": "Irrigate copiously for a prolonged period and remove contaminated clothing",
+              "accept": [
+                "irrigat",
+                "water",
+                "copious",
+                "clothing",
+                "prolonged"
+              ]
+            },
+            {
+              "point": "Never neutralise a chemical — the reaction generates heat",
+              "accept": [
+                "neutralis",
+                "neutraliz",
+                "heat",
+                "reaction",
+                "never"
+              ]
+            },
+            {
+              "point": "Electrical damage runs between entry and exit and is far bigger than it looks",
+              "accept": [
+                "entry",
+                "exit",
+                "between",
+                "path",
+                "bigger",
+                "hidden"
+              ]
+            },
+            {
+              "point": "Expect cardiac effects and fractures from muscle contraction",
+              "accept": [
+                "cardiac",
+                "arrest",
+                "rhythm",
+                "fracture",
+                "dislocat",
+                "contraction"
+              ]
+            },
+            {
+              "point": "Never approach until isolation is confirmed by someone qualified",
+              "accept": [
+                "isolat",
+                "confirm",
+                "power",
+                "touch",
+                "qualified",
+                "safe"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Two small holes",
+          "dispatch": "Medic 7 — electrical contact at a building site, patient conscious, power isolated.",
+          "body": "There was a burn on his right palm about the size of a coin, and another on the sole of his left foot.\n\nHe felt fine, wanted to go back to work, and could not understand the fuss over two small marks.\n\nThe current had gone in at one and out at the other, and everything on the line between them had been in its path."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Chemical burn",
+          "right_label": "Electrical burn",
+          "rows": [
+            {
+              "feature": "First action",
+              "left": "Brush off DRY powder, then irrigate",
+              "right": "DO NOT TOUCH until isolation is confirmed"
+            },
+            {
+              "feature": "Main treatment",
+              "left": "Copious running water, prolonged, per protocol",
+              "right": "Nothing on scene reaches the injury"
+            },
+            {
+              "feature": "Absolute rule",
+              "left": "NEVER neutralise — the reaction makes heat",
+              "right": "NEVER approach on somebody's assurance it is off"
+            },
+            {
+              "feature": "Clothing",
+              "left": "Remove while irrigating — chemical is in the fabric",
+              "right": "Remove to find entry and exit wounds"
+            },
+            {
+              "feature": "What you can see",
+              "left": "Roughly the extent of the injury",
+              "right": "Two small wounds and none of the damage"
+            },
+            {
+              "feature": "Hidden damage",
+              "left": "Depth may progress as the agent keeps working",
+              "right": "Everything between entry and exit took the current"
+            },
+            {
+              "feature": "Cardiac risk",
+              "left": "Not characteristic",
+              "right": "Arrest and rhythm disturbance — monitor even if they feel fine"
+            },
+            {
+              "feature": "Other injuries",
+              "left": "Eyes, airway if inhaled or splashed",
+              "right": "FRACTURES and DISLOCATIONS from violent muscle contraction"
+            },
+            {
+              "feature": "Behaves like",
+              "left": "A burn that keeps burning",
+              "right": "A crush injury, plus a cardiac event"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm burn management for each mechanism, particularly the cooling duration and chemical irrigation duration, against the current text and local protocol — both vary between sources. No specific cooling or irrigation times are stated here for that reason."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-04",
+      "title": "Airway burns and inhalation injury",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-04-01"
+      ],
+      "related": [
+        "EMT-05-05-04",
+        "EMT-06-04-03",
+        "EMT-02-01-01"
+      ],
+      "key_points": [
+        "Inhalation injury kills more burn patients than the skin burns do, and it can be present with almost no external burn",
+        "The warning signs are the story and the face: an enclosed-space fire, soot around the mouth or nose, singed facial or nasal hair, burns to the face or neck",
+        "Hoarseness, a change in voice, stridor, a brassy cough, carbon in the sputum and difficulty swallowing are the airway declaring itself",
+        "Swelling develops over minutes to hours, so an airway that is patent now may not be later — this is why these patients go early",
+        "An airway that is beginning to swell will only get more difficult, so early transport and early notification are the treatment",
+        "Give high-flow oxygen by non-rebreather, and remember that a normal oximeter reading means nothing after a fire",
+        "Assume carbon monoxide in any enclosed-space fire, and consider cyanide from burning synthetic materials",
+        "Sit the patient up if they tolerate it, keep them calm, and handle the airway as little as possible",
+        "Do not be reassured by a comfortable patient: the dangerous phase is the one that has not started yet"
+      ],
+      "misconceptions": [
+        "Being reassured by a patient who is talking normally now",
+        "Trusting a pulse oximeter after a fire",
+        "Waiting to see whether the airway deteriorates before transporting",
+        "Repeatedly instrumenting an irritable airway"
+      ],
+      "exam_favorites": [
+        "Warning signs on the face and in the story",
+        "Swelling develops over hours",
+        "The oximeter lies after a fire",
+        "Early transport is the treatment"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Inhalation injury is the thing that kills burn patients. More than the burns themselves, and often in patients whose skin damage is unimpressive. So this concept is about recognising a threat that has not arrived yet.\n\nThe warning comes from two places: the story, and the face.\n\nThe story. Was this a fire in an enclosed space? A house, a vehicle, a basement, a container? Enclosed-space fires fill the space with hot gases and products of combustion and give the patient nowhere to go. Was the patient unconscious at any point, or trapped, or found in the room rather than outside it? Those details matter more than the burns.\n\nThe face. Soot around the mouth or in the nostrils. Singed facial hair, eyebrows, or hairs inside the nose. Burns to the face or neck. Any of those means hot gas passed across that face and into the airway behind it.\n\nThen listen. Hoarseness or any change of voice. Stridor. A hard brassy cough. Black-flecked sputum. Difficulty or pain on swallowing, or drooling. Those are not warning signs of a future problem; they are the airway telling you it is already swelling.\n\nHere is what makes this dangerous, and it is the whole reason the concept exists. The swelling develops over minutes to hours. A patient who is talking normally, comfortably, with a clear voice may be perfectly patent right now and progressively obstructing over the next hour. The comfortable patient in front of you is not the patient who will arrive.\n\nWhich means the treatment is time. Get them moving early, and tell the hospital early — because an airway that is starting to swell only becomes more difficult to manage as the hour goes on, and the people who can secure it want to do so before it becomes impossible. Notification is genuinely one of the most valuable things you can do here.\n\nGive high-flow oxygen by non-rebreather. And remember the pulse oximeter problem from carbon monoxide: after a fire, a saturation of 99 percent tells you nothing, because the machine cannot distinguish carbon monoxide from oxygen. Do not let a comfortable number contribute to a decision to slow down.\n\nAssume carbon monoxide in any enclosed-space fire. Consider cyanide as well, because burning synthetic materials — furniture, foam, carpet, plastics — release it, and fire victims frequently have both.\n\nPractically: sit them up if they tolerate it, keep them calm, and interfere with the airway as little as you can. An irritable, swelling airway that is repeatedly instrumented can spasm shut. Watch it, support it, oxygenate it, and go.",
+          "standard": "Inhalation injury constitutes the leading cause of mortality in burn patients and may occur with minimal cutaneous burn. Historical indicators include enclosed-space fire, loss of consciousness, entrapment and discovery within the fire compartment. Examination findings include perioral and nasal soot, singed facial, nasal and eyebrow hair, and facial or cervical burns. Symptoms indicating established airway involvement comprise hoarseness or voice change, stridor, brassy cough, carbonaceous sputum, odynophagia and drooling. Oedema progresses over minutes to hours, so current patency does not predict continued patency; early transport and prearrival notification constitute the principal interventions, as airway management difficulty increases progressively. High-concentration oxygen is administered by non-rebreather mask. Pulse oximetry is unreliable following fire exposure owing to carboxyhaemoglobin. Carbon monoxide toxicity is presumed in enclosed-space fires, with cyanide toxicity considered where synthetic materials have combusted. Patients are positioned upright as tolerated, kept calm, and airway instrumentation minimised to avoid precipitating laryngospasm."
+        },
+        "eli_new": {
+          "analogy": "A swelling airway is a door closing slowly. The question is never whether it is open now. It is how open it will be in forty minutes, and whether you will be somewhere useful by then.",
+          "body": "The trap is a comfortable patient. Someone who walked out of a house fire, is talking normally and has a clear voice can obstruct over the next hour. Nothing about how they look right now tells you about the hour ahead — the story and the face do."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the warning signs of inhalation injury, and explain why early transport is the treatment.",
+          "must_hit": [
+            {
+              "point": "It kills more burn patients than the skin burns do",
+              "accept": [
+                "kill",
+                "mortality",
+                "more",
+                "leading",
+                "skin"
+              ]
+            },
+            {
+              "point": "Enclosed-space fire, trapped or unconscious in the fire",
+              "accept": [
+                "enclosed",
+                "space",
+                "trapped",
+                "unconscious",
+                "house",
+                "vehicle"
+              ]
+            },
+            {
+              "point": "Soot around the mouth or nose, singed facial or nasal hair, facial burns",
+              "accept": [
+                "soot",
+                "singe",
+                "hair",
+                "face",
+                "nostril",
+                "neck"
+              ]
+            },
+            {
+              "point": "Hoarseness, stridor, brassy cough, carbon in sputum, difficulty swallowing",
+              "accept": [
+                "hoarse",
+                "voice",
+                "stridor",
+                "cough",
+                "sputum",
+                "swallow",
+                "drool"
+              ]
+            },
+            {
+              "point": "Swelling develops over minutes to hours, so now does not predict later",
+              "accept": [
+                "swell",
+                "hours",
+                "progress",
+                "later",
+                "now"
+              ]
+            },
+            {
+              "point": "Early transport and early notification are the treatment",
+              "accept": [
+                "early",
+                "transport",
+                "notify",
+                "pre-alert",
+                "difficult"
+              ]
+            },
+            {
+              "point": "The oximeter is unreliable after a fire; assume carbon monoxide",
+              "accept": [
+                "oximet",
+                "saturation",
+                "unreliable",
+                "carbon monoxide",
+                "cyanide"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He walked out",
+          "dispatch": "Medic 1 — house fire, one occupant out, refusing assessment.",
+          "body": "He had walked out under his own steam and was standing on the pavement talking to a neighbour, with a bit of soot on his face and no burns anybody could see.\n\nHis voice had a rasp to it that had not been there yesterday, and the fire had been in a closed front room.\n\nHe was entirely comfortable, and that told nobody anything at all about the next forty minutes."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Suspected inhalation injury",
+          "steps": [
+            {
+              "text": "Establish the story: enclosed space, trapped, unconscious, found inside the compartment",
+              "critical": true
+            },
+            {
+              "text": "Look at the face: SOOT around mouth and nose, SINGED facial or nasal hair, facial or neck burns",
+              "critical": true
+            },
+            {
+              "text": "LISTEN to the voice: hoarseness, any change, stridor, brassy cough",
+              "critical": true
+            },
+            {
+              "text": "Ask about swallowing; look for drooling and carbon-flecked sputum",
+              "critical": true
+            },
+            {
+              "text": "HIGH-FLOW OXYGEN by non-rebreather",
+              "critical": true
+            },
+            {
+              "text": "Do NOT trust the pulse oximeter after a fire",
+              "critical": true,
+              "note": "It cannot distinguish carbon monoxide from oxygen. A comfortable number means nothing here."
+            },
+            {
+              "text": "Assume carbon monoxide; consider cyanide where synthetics burned",
+              "critical": true
+            },
+            {
+              "text": "Sit the patient up as tolerated and keep them calm",
+              "critical": false
+            },
+            {
+              "text": "Minimise airway instrumentation — an irritable swelling airway can spasm shut",
+              "critical": true
+            },
+            {
+              "text": "TRANSPORT EARLY — do not wait to see whether it deteriorates",
+              "critical": true,
+              "note": "The airway only gets more difficult. The comfortable patient in front of you is not the patient who will arrive."
+            },
+            {
+              "text": "PRE-ALERT and say the words inhalation injury",
+              "critical": true
+            },
+            {
+              "text": "Reassess the voice and breathing continuously throughout transport",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the inhalation injury warning signs and the airway management approach against the current text and local protocol. No specific timeframes for airway deterioration are stated, as the progression is variable."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-04-05",
+      "title": "Burn management and transport criteria",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-04-01",
+        "EMT-06-04-02"
+      ],
+      "related": [
+        "EMT-06-04-01",
+        "EMT-06-04-04",
+        "EMT-06-01-03"
+      ],
+      "key_points": [
+        "Stop the burning, remove jewellery and constricting items early before swelling makes it impossible, and leave anything stuck to the burn",
+        "Cover burns with a dry sterile dressing; do not use ointments, creams, butter, ice or anything else",
+        "Do not break blisters — intact skin is a barrier against infection",
+        "Burn patients lose heat rapidly because the skin that retains it is damaged, so keeping them warm is a priority",
+        "Assess and treat other injuries: a burn is visually dominant and distracts from fractures, bleeding and head injury",
+        "Burns to the face, hands, feet, genitalia or across a joint, and circumferential burns, are significant regardless of size",
+        "Burns in the very young and the very old are more serious at the same extent",
+        "Specific burn centre criteria are set locally and by regional burn services — use yours",
+        "Consider non-accidental injury where the pattern does not match the history, particularly in children and vulnerable adults"
+      ],
+      "misconceptions": [
+        "Applying creams or ointments to a burn",
+        "Breaking blisters",
+        "Leaving rings on a burned hand",
+        "Being so absorbed by the burn that other injuries are missed",
+        "Letting a burn patient get cold"
+      ],
+      "exam_favorites": [
+        "Remove jewellery early",
+        "Nothing on the burn but a dry dressing",
+        "Burns distract from other injuries",
+        "Special areas matter regardless of size"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Once the burning has stopped, burn care is mostly about a short list of things to do and a longer list of things not to.\n\nDo remove rings, watches, bracelets and anything constricting, and do it early. Burned tissue swells, and swelling around a ring turns it into a tourniquet on a finger. Ten minutes later it may not come off at all. This is a small action with a large consequence and it gets forgotten in the drama.\n\nDo leave anything that is stuck to the burn where it is. Melted fabric fused to skin comes away with the skin. Cut around it and leave it.\n\nCover the burn with a dry sterile dressing. And that is all that goes on it. No ointment, no cream, no antiseptic, no butter, no toothpaste, no ice. Everything in that list has been applied by somebody before your arrival, and all of them either trap heat, cause harm, or have to be painfully scrubbed off before anybody can assess the burn properly.\n\nDo not break blisters. The blister roof is intact skin and it is a barrier against infection. It will be dealt with properly later by somebody who can do it cleanly.\n\nKeep the patient warm, and take it seriously. A burn patient has lost the organ that holds heat in, and they will become cold faster than you expect — especially after cooling, especially undressed, especially in winter. Blankets, heat the ambulance, and do it before they start shivering.\n\nAnd this one matters as much as anything: look for the other injuries. A burn is visually overwhelming. It pulls every pair of eyes in the room towards it, and meanwhile the patient has a fractured ankle from jumping out of a window and a head injury from the beam that came down. People escaping fires fall, jump and get hit by things. Work your normal assessment rather than treating the burn as the whole patient.\n\nSome burns are significant regardless of how small they are. Face, because of the airway and the eyes. Hands and feet, because of function. Genitalia. Any burn crossing a joint, because scarring restricts movement permanently. And circumferential burns, which constrict. A small burn in any of those places is not a small burn.\n\nAge matters too. The very young and the very old do worse with the same percentage burn than a healthy adult.\n\nThe actual burn centre criteria — which percentages, which depths, which ages — are set locally and by your regional burn service. I am not giving figures here because they differ and they get revised. Learn yours.\n\nAnd one last thing, which is uncomfortable and necessary. Consider whether the burn matches the story. Burns are a common presentation of abuse in children and vulnerable adults. A pattern that does not fit the history — a glove or stocking distribution, a clean edge, a shape that matches an object, a delay in seeking help, an account that keeps changing — is something you record factually and report through your safeguarding route. Describe exactly what you saw and exactly what you were told. Do not accuse anybody, and do not decide not to mention it because you might be wrong.",
+          "standard": "Following cessation of the burning process, management comprises early removal of rings, jewellery and constricting items before oedema precludes it; adherent material is left in situ with surrounding fabric cut away. Burns are covered with dry sterile dressings; topical preparations, including ointments, creams, antiseptics and domestic applications, are contraindicated, as is ice. Blisters are not deroofed, intact epidermis constituting an infection barrier. Hypothermia develops rapidly owing to loss of integumentary thermoregulation, particularly following cooling, and active warming is prioritised. Concurrent injuries must be sought, as the visual prominence of burns distracts from fractures, haemorrhage and head injury sustained during escape. Burns involving the face, hands, feet, genitalia, or crossing joints, and circumferential burns, are significant irrespective of extent. Paediatric and geriatric patients sustain greater physiological insult at equivalent extent. Burn centre referral criteria are established locally and by regional burn services. Non-accidental injury should be considered where the burn pattern is inconsistent with the stated mechanism, with factual documentation and safeguarding referral per local policy."
+        },
+        "eli_new": {
+          "analogy": "A burn takes up the whole room. The fractured ankle from jumping out of the window does not, and it is still there.",
+          "body": "Take the rings off first. It takes fifteen seconds, and in ten minutes it will be impossible — at which point a wedding ring is a tourniquet on a finger that is already injured."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe burn management, what must not be applied, and which small burns are still significant.",
+          "must_hit": [
+            {
+              "point": "Remove rings and constricting items early before swelling",
+              "accept": [
+                "ring",
+                "jewellery",
+                "jewelry",
+                "remove",
+                "early",
+                "swell"
+              ]
+            },
+            {
+              "point": "Leave anything stuck to the burn in place",
+              "accept": [
+                "stuck",
+                "adherent",
+                "leave",
+                "cut around",
+                "fabric"
+              ]
+            },
+            {
+              "point": "Dry sterile dressing only — no creams, ointments or ice",
+              "accept": [
+                "dry",
+                "sterile",
+                "cream",
+                "ointment",
+                "ice",
+                "nothing"
+              ]
+            },
+            {
+              "point": "Do not break blisters",
+              "accept": [
+                "blister",
+                "break",
+                "intact",
+                "barrier"
+              ]
+            },
+            {
+              "point": "Keep them warm — they lose heat fast",
+              "accept": [
+                "warm",
+                "heat",
+                "hypotherm",
+                "blanket",
+                "cold"
+              ]
+            },
+            {
+              "point": "Look for other injuries the burn distracts from",
+              "accept": [
+                "other",
+                "injur",
+                "distract",
+                "fracture",
+                "head",
+                "fall"
+              ]
+            },
+            {
+              "point": "Face, hands, feet, genitalia, joints and circumferential burns are significant at any size",
+              "accept": [
+                "face",
+                "hand",
+                "feet",
+                "genital",
+                "joint",
+                "circumferent"
+              ]
+            },
+            {
+              "point": "Consider non-accidental injury where the pattern does not fit the story",
+              "accept": [
+                "non-accidental",
+                "abuse",
+                "pattern",
+                "story",
+                "safeguard"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Nobody looked at the ankle",
+          "dispatch": "Medic 4 — house fire, occupant escaped through a first floor window.",
+          "body": "He had burns to both forearms and everybody in the room was looking at them, including the crew.\n\nHe had also dropped about four metres onto a concrete path on his way out.\n\nThe burns were what you saw from the doorway. The ankle was what he was going to need an operation for."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm burn dressing guidance and the significant-area list against the current text. Burn centre referral criteria are DELIBERATELY NOT STATED as percentages or ages, because they are set locally and by regional burn services and are revised; use your own."
     }
   ]
 }
