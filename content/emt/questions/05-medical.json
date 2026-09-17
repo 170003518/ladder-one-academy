@@ -5402,6 +5402,726 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-01-Q001",
+      "concept_id": "EMT-05-09-01",
+      "style": "recall",
+      "stem": "What causes the pain in a sickle cell crisis?",
+      "options": [
+        {
+          "text": "Inflammation of the joints",
+          "rationale": "Joint inflammation is not the mechanism."
+        },
+        {
+          "text": "Rigid sickled cells jamming small vessels and starving the tissue beyond",
+          "rationale": "Correct. It is tissue ischaemia, the same as any other blocked supply."
+        },
+        {
+          "text": "An allergic reaction to the patient's own cells",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Excess iron deposited in tissues",
+          "rationale": "Not the cause of a vaso-occlusive crisis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-01-Q002",
+      "concept_id": "EMT-05-09-01",
+      "style": "recall",
+      "stem": "What findings suggest acute chest syndrome?",
+      "options": [
+        {
+          "text": "Chest pain alone in a known crisis",
+          "rationale": "Chest pain is expected in crisis; the additional findings are what matter."
+        },
+        {
+          "text": "Chest pain with fever, breathlessness and a falling oxygen saturation",
+          "rationale": "Correct. It can look like pneumonia and can kill quickly."
+        },
+        {
+          "text": "Abdominal pain with vomiting",
+          "rationale": "That is not acute chest syndrome."
+        },
+        {
+          "text": "Leg pain with swelling",
+          "rationale": "Not the presentation described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-01-Q003",
+      "concept_id": "EMT-05-09-01",
+      "style": "application",
+      "stem": "A 9-year-old with sickle cell disease has sudden one-sided weakness. How should this be regarded?",
+      "options": [
+        {
+          "text": "Unlikely to be a stroke because of the age",
+          "rationale": "Sickle cell substantially raises stroke risk in children."
+        },
+        {
+          "text": "As a stroke until proven otherwise",
+          "rationale": "Correct. A young age is not reassurance in this group."
+        },
+        {
+          "text": "As a normal part of a pain crisis",
+          "rationale": "Focal weakness is not part of a pain crisis."
+        },
+        {
+          "text": "As attention-seeking behaviour",
+          "rationale": "A focal neurological finding is not dismissed as behaviour."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-01-Q004",
+      "concept_id": "EMT-05-09-01",
+      "style": "application",
+      "stem": "Why is keeping a sickle cell patient warm part of the treatment?",
+      "options": [
+        {
+          "text": "Because cold causes shivering which worsens pain",
+          "rationale": "Shivering is not the stated mechanism."
+        },
+        {
+          "text": "Because cold is a trigger for sickling",
+          "rationale": "Correct. So is low oxygen, which is why oxygen is given as indicated."
+        },
+        {
+          "text": "Because warmth speeds drug absorption",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is a comfort measure only",
+          "rationale": "It is a physiological intervention, not just comfort."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-01-Q005",
+      "concept_id": "EMT-05-09-01",
+      "style": "recall",
+      "stem": "Which of these is a recognised trigger for a sickle cell crisis?",
+      "options": [
+        {
+          "text": "Eating a large meal",
+          "rationale": "Not a recognised trigger."
+        },
+        {
+          "text": "Dehydration",
+          "rationale": "Correct. Infection, cold, low oxygen, exertion and stress also trigger crises."
+        },
+        {
+          "text": "Bright light",
+          "rationale": "Not a recognised trigger."
+        },
+        {
+          "text": "Loud noise",
+          "rationale": "Not a recognised trigger."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-01-Q006",
+      "concept_id": "EMT-05-09-01",
+      "style": "scenario",
+      "stem": "A sickle cell patient in severe pain names her usual analgesia and dose. How should this be interpreted?",
+      "options": [
+        {
+          "text": "As evidence of drug-seeking behaviour",
+          "rationale": "This suspicion is a documented reason these patients are under-treated."
+        },
+        {
+          "text": "As expertise in her own disease, gained over many crises",
+          "rationale": "Correct. Familiarity reflects experience, not aberrant behaviour."
+        },
+        {
+          "text": "As a reason to withhold pain management",
+          "rationale": "Withholding on this basis is exactly the failure to avoid."
+        },
+        {
+          "text": "As evidence the pain is not severe",
+          "rationale": "Composure in a patient who has done this many times says nothing about severity."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-02-Q001",
+      "concept_id": "EMT-05-09-02",
+      "style": "recall",
+      "stem": "Why does a minor head injury matter in an anticoagulated patient?",
+      "options": [
+        {
+          "text": "Because the scalp bleeds more visibly",
+          "rationale": "Visible scalp bleeding is not the concern."
+        },
+        {
+          "text": "Because a slow bleed inside the skull can develop with a delayed presentation",
+          "rationale": "Correct. They feel fine for hours and then deteriorate."
+        },
+        {
+          "text": "Because anticoagulants cause headaches",
+          "rationale": "Not the mechanism of concern."
+        },
+        {
+          "text": "Because the patient will be more confused than usual",
+          "rationale": "Not the reason the mechanism matters."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-02-Q002",
+      "concept_id": "EMT-05-09-02",
+      "style": "application",
+      "stem": "An 88-year-old on an anticoagulant knocked his head, feels fine, and wants to refuse. What is the appropriate advice?",
+      "options": [
+        {
+          "text": "Refusal is reasonable given how well he feels",
+          "rationale": "Feeling well is exactly what a slow bleed looks like early."
+        },
+        {
+          "text": "He should be transported despite feeling well, because the pattern is recognised",
+          "rationale": "Correct. Age plus anticoagulation plus a knock is the combination."
+        },
+        {
+          "text": "He only needs transport if he vomits",
+          "rationale": "Waiting for symptoms defeats the point."
+        },
+        {
+          "text": "A phone call to his doctor tomorrow is sufficient",
+          "rationale": "That delay is the risk being described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-02-Q003",
+      "concept_id": "EMT-05-09-02",
+      "style": "recall",
+      "stem": "Why should the actual medication packaging accompany the patient?",
+      "options": [
+        {
+          "text": "For billing purposes",
+          "rationale": "Not a clinical consideration."
+        },
+        {
+          "text": "Because reversal differs between agents and the hospital needs to know which one",
+          "rationale": "Correct. 'On a blood thinner' is a much weaker handover than naming it."
+        },
+        {
+          "text": "To prove the patient takes their medication",
+          "rationale": "Compliance is not the reason."
+        },
+        {
+          "text": "So the patient does not lose it",
+          "rationale": "Not the clinical rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-02-Q004",
+      "concept_id": "EMT-05-09-02",
+      "style": "recall",
+      "stem": "Where do hemophilia patients bleed, besides externally?",
+      "options": [
+        {
+          "text": "Only into the skin as bruising",
+          "rationale": "Bruising occurs but is not the significant site."
+        },
+        {
+          "text": "Into joints and muscles",
+          "rationale": "Correct. Bleeding into a joint is agonising and damaging."
+        },
+        {
+          "text": "Only into the gut",
+          "rationale": "Not the characteristic sites."
+        },
+        {
+          "text": "They do not bleed internally",
+          "rationale": "They very much do."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-02-Q005",
+      "concept_id": "EMT-05-09-02",
+      "style": "application",
+      "stem": "A hemophilia patient says they have already given themselves factor concentrate. What should you do?",
+      "options": [
+        {
+          "text": "Disregard it, since it is not a prescribed prehospital treatment",
+          "rationale": "It is their prescribed treatment and the hospital needs to know."
+        },
+        {
+          "text": "Record what was given and when, and pass it on at handover",
+          "rationale": "Correct. They are often the most informed person in the room."
+        },
+        {
+          "text": "Advise them not to do that again",
+          "rationale": "It is their agreed treatment plan."
+        },
+        {
+          "text": "Assume they are mistaken about the dose",
+          "rationale": "There is no basis for assuming that."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-02-Q006",
+      "concept_id": "EMT-05-09-02",
+      "style": "scenario",
+      "stem": "How should direct pressure be applied to bleeding in an anticoagulated patient?",
+      "options": [
+        {
+          "text": "Applied and lifted every thirty seconds to check progress",
+          "rationale": "Lifting disturbs what was forming and restarts the bleeding."
+        },
+        {
+          "text": "Firmly and continuously, without lifting to look",
+          "rationale": "Correct. It works considerably better when left alone."
+        },
+        {
+          "text": "Lightly, to avoid bruising",
+          "rationale": "Light pressure will not control it."
+        },
+        {
+          "text": "Replaced with elevation alone",
+          "rationale": "Elevation alone is not sufficient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-03-Q001",
+      "concept_id": "EMT-05-09-03",
+      "style": "recall",
+      "stem": "What two things must be present to suspect sepsis?",
+      "options": [
+        {
+          "text": "A fever and a raised pulse",
+          "rationale": "A fever alone, with tachycardia, is not the definition."
+        },
+        {
+          "text": "A suspected infection and signs of organ dysfunction",
+          "rationale": "Correct. Both ingredients are required."
+        },
+        {
+          "text": "A positive blood test and a high temperature",
+          "rationale": "Blood tests are not available prehospitally."
+        },
+        {
+          "text": "A wound and visible pus",
+          "rationale": "Sepsis need not have any visible source."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-03-Q002",
+      "concept_id": "EMT-05-09-03",
+      "style": "application",
+      "stem": "An older patient with an infection has become newly confused. How should this be regarded?",
+      "options": [
+        {
+          "text": "As their baseline cognitive state",
+          "rationale": "New confusion is by definition a change from baseline."
+        },
+        {
+          "text": "As organ dysfunction, making sepsis likely",
+          "rationale": "Correct. The brain is an organ and confusion is it struggling."
+        },
+        {
+          "text": "As dehydration only",
+          "rationale": "Dehydration may contribute but does not exclude sepsis."
+        },
+        {
+          "text": "As a psychiatric presentation",
+          "rationale": "Not with a suspected infection present."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-03-Q003",
+      "concept_id": "EMT-05-09-03",
+      "style": "recall",
+      "stem": "How should a low temperature in a patient with suspected infection be interpreted?",
+      "options": [
+        {
+          "text": "As reassuring, since there is no fever",
+          "rationale": "A low temperature can indicate a failure to mount a response."
+        },
+        {
+          "text": "As concerning — potentially as significant as a high temperature",
+          "rationale": "Correct. These patients are often sicker, and it is missed more often."
+        },
+        {
+          "text": "As evidence that the infection has resolved",
+          "rationale": "It indicates no such thing."
+        },
+        {
+          "text": "As a measurement error to be repeated and ignored",
+          "rationale": "It should be repeated and acted on, not dismissed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-03-Q004",
+      "concept_id": "EMT-05-09-03",
+      "style": "application",
+      "stem": "A patient with a pulse of 112, respirations of 26, confusion and a systolic of 84 has warm, pink skin. Can this be shock?",
+      "options": [
+        {
+          "text": "No — shocked patients have cool, clammy skin",
+          "rationale": "This expectation is precisely why early septic shock is missed."
+        },
+        {
+          "text": "Yes — early septic shock causes vasodilation, so the skin can be warm and flushed",
+          "rationale": "Correct. Warm and pink is what early septic shock looks like."
+        },
+        {
+          "text": "No — the pulse is not high enough",
+          "rationale": "112 with a systolic of 84 is significant."
+        },
+        {
+          "text": "Only if the temperature is above normal",
+          "rationale": "Temperature does not determine whether shock is present."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-03-Q005",
+      "concept_id": "EMT-05-09-03",
+      "style": "recall",
+      "stem": "Which vital sign is most often skipped and is central to sepsis recognition?",
+      "options": [
+        {
+          "text": "Pulse",
+          "rationale": "Pulse is rarely skipped."
+        },
+        {
+          "text": "Temperature",
+          "rationale": "Correct. You cannot use a finding you never measured."
+        },
+        {
+          "text": "Respiratory rate",
+          "rationale": "Often estimated poorly, but temperature is the one omitted."
+        },
+        {
+          "text": "Oxygen saturation",
+          "rationale": "Routinely measured on most calls."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-03-Q006",
+      "concept_id": "EMT-05-09-03",
+      "style": "scenario",
+      "stem": "What should the pre-alert say?",
+      "options": [
+        {
+          "text": "Generally unwell elderly patient",
+          "rationale": "This does not activate any specific pathway."
+        },
+        {
+          "text": "Query sepsis, explicitly",
+          "rationale": "Correct. The word triggers a time-targeted pathway before your doors open."
+        },
+        {
+          "text": "Nothing; assess on arrival",
+          "rationale": "Pre-alerting is the intervention with the most leverage here."
+        },
+        {
+          "text": "Possible urinary infection only",
+          "rationale": "Naming only the source misses the urgency."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-04-Q001",
+      "concept_id": "EMT-05-09-04",
+      "style": "recall",
+      "stem": "To which patients are standard precautions applied?",
+      "options": [
+        {
+          "text": "Only those with a known infectious diagnosis",
+          "rationale": "Most people carrying a bloodborne infection do not know it."
+        },
+        {
+          "text": "Every patient, every time",
+          "rationale": "Correct. The principle is that you cannot tell by looking."
+        },
+        {
+          "text": "Only those who appear unwell or unkempt",
+          "rationale": "Appearance predicts nothing."
+        },
+        {
+          "text": "Only when transporting to an infectious diseases unit",
+          "rationale": "Destination does not determine precautions."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-04-Q002",
+      "concept_id": "EMT-05-09-04",
+      "style": "recall",
+      "stem": "What is the single most effective transmission control measure?",
+      "options": [
+        {
+          "text": "Wearing a gown on every call",
+          "rationale": "Gowns are used where splashing is foreseeable, not universally."
+        },
+        {
+          "text": "Hand hygiene before and after every patient",
+          "rationale": "Correct. It is also the measure most often skipped."
+        },
+        {
+          "text": "Wearing two pairs of gloves",
+          "rationale": "Double-gloving is not the most effective measure."
+        },
+        {
+          "text": "Deep-cleaning the ambulance weekly",
+          "rationale": "Cleaning matters but is not the most effective single measure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-04-Q003",
+      "concept_id": "EMT-05-09-04",
+      "style": "application",
+      "stem": "You wore gloves throughout. Is hand hygiene still needed afterwards?",
+      "options": [
+        {
+          "text": "No, the gloves protected your hands",
+          "rationale": "Hands are routinely contaminated during glove removal."
+        },
+        {
+          "text": "Yes — gloves are not a substitute and contamination occurs during removal",
+          "rationale": "Correct. Hand hygiene follows every glove removal."
+        },
+        {
+          "text": "Only if the gloves tore",
+          "rationale": "Contamination happens during removal even with intact gloves."
+        },
+        {
+          "text": "Only before eating",
+          "rationale": "Hand hygiene follows every patient, regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-04-Q004",
+      "concept_id": "EMT-05-09-04",
+      "style": "recall",
+      "stem": "What is the rule about recapping needles?",
+      "options": [
+        {
+          "text": "Recap carefully using one hand",
+          "rationale": "No technique makes recapping acceptable."
+        },
+        {
+          "text": "Never recap — dispose immediately into the container",
+          "rationale": "Correct. Dispose of it yourself, at once."
+        },
+        {
+          "text": "Recap only if disposal is not immediately available",
+          "rationale": "Disposal must be made available, not worked around."
+        },
+        {
+          "text": "Recap if the needle was not used on the patient",
+          "rationale": "The rule does not depend on use."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-04-Q005",
+      "concept_id": "EMT-05-09-04",
+      "style": "sequence",
+      "stem": "You sustain a needlestick injury. What do you do?",
+      "options": [
+        {
+          "text": "Finish the shift and report at the end",
+          "rationale": "Some post-exposure treatments are time-critical."
+        },
+        {
+          "text": "Wash or irrigate immediately, then report immediately",
+          "rationale": "Correct. Delay removes treatment options."
+        },
+        {
+          "text": "Report only if the patient is known to carry an infection",
+          "rationale": "Most carriers do not know their own status."
+        },
+        {
+          "text": "Apply a dressing and monitor for symptoms",
+          "rationale": "Monitoring is not a substitute for reporting."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-04-Q006",
+      "concept_id": "EMT-05-09-04",
+      "style": "application",
+      "stem": "Why put a surgical mask on a coughing patient?",
+      "options": [
+        {
+          "text": "To protect the patient from the crew",
+          "rationale": "Its main function is source control, not protecting the wearer."
+        },
+        {
+          "text": "To protect everybody else from the patient",
+          "rationale": "Correct. It is high-value source control that takes ten seconds."
+        },
+        {
+          "text": "To reduce the patient's anxiety",
+          "rationale": "Not the clinical purpose."
+        },
+        {
+          "text": "To measure their respiratory rate more accurately",
+          "rationale": "Not its purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

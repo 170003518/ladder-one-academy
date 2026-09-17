@@ -1327,6 +1327,156 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-08-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-01-C01",
+      "concept_id": "EMT-05-09-01",
+      "type": "concept",
+      "front": {
+        "title": "Sickle cell crisis",
+        "summary": "Rigid cells, jammed vessels, real pain"
+      },
+      "back": {
+        "body": "Red cells turn RIGID AND CURVED under stress → JAM in small vessels → tissue beyond is STARVED → that is the pain, and it is among the worst there is · TRIGGERS: infection · dehydration · COLD · low oxygen · exertion · stress · SITES: back, chest, abdomen, long bones · ACUTE CHEST SYNDROME = chest pain + FEVER + breathless + FALLING SATURATION = life-threatening, and it hides inside the crisis you already diagnosed · RAISED STROKE RISK INCLUDING IN CHILDREN · CARE: oxygen · KEEP WARM · gentle · their position · go · BELIEVE THEM ABOUT THE PAIN",
+        "why_it_matters": "Knowing what works is not a red flag. It is thirty years of experience with her own body."
+      },
+      "high_yield": true,
+      "number": 54,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-09-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-02-C02",
+      "concept_id": "EMT-05-09-02",
+      "type": "concept",
+      "front": {
+        "title": "Anticoagulants and hemophilia",
+        "summary": "Bleeding that will not stop"
+      },
+      "back": {
+        "body": "Anticoagulants and antiplatelets STOP CLOTS FORMING → bleeding that starts does not stop · BLEEDING IS OUT OF PROPORTION TO THE MECHANISM · A MINOR HEAD KNOCK CAN START A SLOW BLEED INSIDE THE SKULL — they feel fine for HOURS, then deteriorate · OLDER + ANTICOAGULATED + A FALL = TRANSPORT, even feeling perfectly well · BRING THE BOX — reversal differs by drug and 'on a blood thinner' is a weak handover · HEMOPHILIA: missing clotting factor, bleeds into JOINTS and MUSCLES too · They often carry their own factor and may have already used it — ASK · ALL: FIRM CONTINUOUS PRESSURE, do not lift to look · transport early",
+        "why_it_matters": "Slow bleeds are the ones where the patient feels fine while you are standing there."
+      },
+      "high_yield": true,
+      "number": 55,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-09-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-03-C03",
+      "concept_id": "EMT-05-09-03",
+      "type": "concept",
+      "front": {
+        "title": "Sepsis",
+        "summary": "Take a temperature; say the word"
+      },
+      "back": {
+        "body": "SEPSIS = the body's response to infection DAMAGING ITS OWN ORGANS · NEEDS BOTH: a suspected infection AND signs of organ dysfunction · WATCH FOR: temperature HIGH OR LOW · fast breathing · fast pulse · low pressure · NEW CONFUSION · NEW CONFUSION IS AN ORGAN SIGN — the brain is an organ, and 'she gets like this' is not an assessment · A LOW TEMPERATURE IS AS BAD AS A HIGH ONE and gets missed more · EARLY SEPTIC SHOCK CAN BE WARM AND FLUSHED, not cool and clammy · TAKE A TEMPERATURE — the vital sign most often skipped · PRE-ALERT AND SAY THE WORD SEPSIS",
+        "why_it_matters": "Warm and pink with a systolic of 84 is what early septic shock looks like."
+      },
+      "high_yield": true,
+      "number": 56,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-09-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-03-C04",
+      "concept_id": "EMT-05-09-03",
+      "type": "numbers",
+      "front": {
+        "title": "Sepsis: what to measure and what it means",
+        "summary": "Mostly not numbers"
+      },
+      "back": {
+        "body": "REQUIRES: infection + organ dysfunction — BOTH · TEMPERATURE: high OR LOW, and low is missed more often · NEW CONFUSION: an organ dysfunction sign · SKIN IN EARLY SEPTIC SHOCK: may be WARM AND FLUSHED, not cool and clammy · MOST-SKIPPED VITAL SIGN: temperature · SCREENING THRESHOLDS: use your own service's tool — numeric criteria vary and are revised, so they are deliberately not printed here",
+        "why_it_matters": "You cannot use a finding you never measured."
+      },
+      "high_yield": true,
+      "number": 57,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-09-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-04-C05",
+      "concept_id": "EMT-05-09-04",
+      "type": "concept",
+      "front": {
+        "title": "Infection precautions",
+        "summary": "You cannot tell by looking"
+      },
+      "back": {
+        "body": "STANDARD PRECAUTIONS ON EVERY PATIENT, EVERY TIME — because appearance predicts nothing and most carriers do not know · GLOVES always · EYE PROTECTION + GOWN wherever splashing is possible, put on BEFORE you start · RESPIRATORY PROTECTION per service policy for airborne · A SURGICAL MASK ON A COUGHING PATIENT protects everybody else — ten seconds, high value · HAND HYGIENE IS THE MOST EFFECTIVE MEASURE AND THE MOST SKIPPED — gloves are NOT a substitute · NEVER RECAP A NEEDLE, dispose yourself, immediately · EXPOSED? Irrigate, then REPORT IMMEDIATELY — treatment is time-critical · Clean between patients",
+        "why_it_matters": "Most needlesticks happen during the tidying up, to someone who did not use the needle."
+      },
+      "high_yield": true,
+      "number": 58,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-09-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-04-C06",
+      "concept_id": "EMT-05-09-04",
+      "type": "skill",
+      "front": {
+        "title": "Standard precautions and exposure response",
+        "summary": "Critical steps"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: precautions on every patient, hand hygiene BEFORE and AFTER, gloves always, eye protection and gown before you start, respiratory protection per policy, NEVER recap, dispose yourself immediately, remove gloves without touching the outside then wash again, decontaminate between patients, and if exposed IRRIGATE THEN REPORT IMMEDIATELY.",
+        "why_it_matters": "Nobody has ever been criticised for reporting an exposure too quickly."
+      },
+      "high_yield": true,
+      "number": 59,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-09-04. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

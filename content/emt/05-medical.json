@@ -94,6 +94,16 @@
         "EMT-05-08-03",
         "EMT-05-08-04"
       ]
+    },
+    {
+      "id": "EMT-05-09",
+      "title": "Hematology, immunology and infectious disease",
+      "concepts": [
+        "EMT-05-09-01",
+        "EMT-05-09-02",
+        "EMT-05-09-03",
+        "EMT-05-09-04"
+      ]
     }
   ],
   "concepts": [
@@ -5333,6 +5343,668 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the capacity criteria and consent framework against the current text. Legal mechanisms for involuntary transport vary substantially by jurisdiction and are deliberately not specified here — the local framework governs and must be learned specifically."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-01",
+      "title": "Sickle cell crisis",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-02-01",
+        "EMT-02-03-01",
+        "EMT-05-09-03"
+      ],
+      "key_points": [
+        "In sickle cell disease the red cells change shape under stress and jam in small blood vessels, cutting off the tissue beyond",
+        "That blockage is what produces the pain, and the pain is genuinely severe — patients describe it as among the worst there is",
+        "Common triggers are infection, dehydration, cold, low oxygen, exertion and stress",
+        "Pain crisis usually affects the back, chest, abdomen and long bones, and the patient often knows exactly what is happening",
+        "Acute chest syndrome — chest pain, fever, breathlessness and low oxygen saturation — is a life-threatening complication",
+        "These patients are at higher risk of stroke, including children, so any neurological finding is taken seriously",
+        "Field care is oxygen as indicated, warmth, gentle handling, a position of comfort and transport",
+        "Believe the patient about their pain: sickle cell patients are frequently and wrongly suspected of drug-seeking, and it delays their care"
+      ],
+      "misconceptions": [
+        "Doubting the severity of the pain because the patient looks composed or knows the medication names",
+        "Missing acute chest syndrome by attributing chest pain to the crisis",
+        "Letting the patient get cold",
+        "Dismissing a neurological change in a young sickle cell patient"
+      ],
+      "exam_favorites": [
+        "Why the cells jam and cause pain",
+        "Acute chest syndrome",
+        "Stroke risk including in children",
+        "Believing the patient"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Sickle cell disease is an inherited condition in which the red cells, which are normally soft flexible discs that squeeze through the smallest vessels, change shape when they are stressed. They become rigid and curved — sickle-shaped — and rigid curved cells do not squeeze through anything. They jam.\n\nWhen they jam, everything downstream of that blockage stops getting blood. That is what causes the pain, and it is the same mechanism as any other tissue being starved of blood supply. Which is why the pain is so severe: patients who have experienced both frequently say it is worse than childbirth or a fracture.\n\nWhat sets it off: infection, dehydration, cold, low oxygen, physical exertion, and emotional stress. Often more than one at once. A patient who has been unwell, not drinking, and got cold is stacking triggers.\n\nA pain crisis usually affects the back, the chest, the abdomen and the long bones of the arms and legs. And here is something useful — these patients generally know their own disease extremely well. They will tell you this is a crisis, they will tell you where it usually starts, and they are usually right. Listen to them.\n\nTwo complications matter more than the rest.\n\nAcute chest syndrome is the dangerous one. Chest pain, fever, breathlessness, and a falling oxygen saturation. It can look like pneumonia and it can kill quickly. The trap is that a sickle cell patient in a pain crisis is expected to have chest pain, so the additional finding gets absorbed into the diagnosis you already have. If there is fever, breathlessness, or a saturation that is not where it should be, that is a separate and serious problem. Say so.\n\nStroke is the other. Sickle cell patients have a substantially raised stroke risk, and unusually, that includes children. A sickle cell child with weakness on one side, speech difficulty or a sudden severe headache is having a stroke until somebody proves otherwise, and a young age is not reassurance here.\n\nWhat you can do is simple and genuinely useful. Oxygen as indicated, because low oxygen makes cells sickle. Keep them warm, because cold does too. Handle them gently. Let them choose their position. And go.\n\nFinally, something that matters as much as anything clinical. Sickle cell patients are repeatedly and wrongly suspected of drug-seeking. They know the names of their medications, they know what dose works, they arrive in severe pain looking outwardly composed because they have done this thirty times before, and all of that gets read as suspicious. It is not. It is expertise in their own disease. That suspicion delays treatment for people in extraordinary pain, and it is a well-documented failure. Believe them.",
+          "standard": "Sickle cell disease produces haemoglobin polymerisation under physiological stress, deforming erythrocytes into rigid sickle forms that occlude microvasculature, causing distal tissue ischaemia. Vaso-occlusive crisis produces severe pain, characteristically affecting the back, chest, abdomen and long bones. Precipitants include infection, dehydration, hypothermia, hypoxia, exertion and psychological stress. Acute chest syndrome — chest pain with fever, dyspnoea and hypoxaemia — constitutes a life-threatening complication and may be obscured by attribution of chest pain to the crisis itself. Cerebrovascular accident risk is substantially elevated, including in paediatric patients; focal neurological findings require urgent evaluation irrespective of age. Prehospital management comprises oxygen as indicated, maintenance of normothermia, gentle handling, position of comfort and transport. Patients with sickle cell disease experience documented under-treatment of pain owing to unwarranted suspicion of drug-seeking behaviour; familiarity with their own medications reflects disease expertise rather than aberrant behaviour."
+        },
+        "eli_new": {
+          "analogy": "Normal red cells are soft discs that fold through the narrowest gaps. Sickled cells are rigid crescents, and a rigid crescent in a narrow vessel is a log jam with everything downstream waiting.",
+          "body": "The failure to avoid here is a human one. A patient in agonising pain who knows the name and dose of their own medication is not gaming you. They have had this crisis dozens of times. Treating that knowledge as suspicious is a documented reason these patients wait longer than anybody else."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what happens in a sickle cell crisis, name the dangerous complication, and describe your field care.",
+          "must_hit": [
+            {
+              "point": "Red cells become rigid and jam in small vessels, starving tissue",
+              "accept": [
+                "rigid",
+                "sickle",
+                "jam",
+                "block",
+                "vessel",
+                "ischaem",
+                "ischem"
+              ]
+            },
+            {
+              "point": "Triggers include infection, dehydration, cold, low oxygen, exertion and stress",
+              "accept": [
+                "infection",
+                "dehydrat",
+                "cold",
+                "oxygen",
+                "exertion",
+                "stress"
+              ]
+            },
+            {
+              "point": "Acute chest syndrome: chest pain, fever, breathlessness, low saturation",
+              "accept": [
+                "acute chest",
+                "fever",
+                "breathless",
+                "saturation",
+                "chest"
+              ]
+            },
+            {
+              "point": "Raised stroke risk, including in children",
+              "accept": [
+                "stroke",
+                "child",
+                "neurolog",
+                "young"
+              ]
+            },
+            {
+              "point": "Oxygen, warmth, gentle handling, position of comfort, transport",
+              "accept": [
+                "oxygen",
+                "warm",
+                "gentle",
+                "comfort",
+                "transport"
+              ]
+            },
+            {
+              "point": "Believe the patient about their pain",
+              "accept": [
+                "believe",
+                "pain",
+                "drug",
+                "seeking",
+                "trust"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She knew the dose",
+          "dispatch": "Medic 3 — 26-year-old female, severe pain, known sickle cell.",
+          "body": "She was sitting upright, speaking in complete sentences, and told the crew exactly which analgesia worked for her and at what dose.\n\nOne of them made a face about it in the corridor afterwards.\n\nShe had been having crises since she was four. Knowing what works is not a red flag; it is thirty years of experience with her own body."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the crisis description, trigger list, acute chest syndrome features and stroke risk against the current text. No analgesia is named or dosed — pain management here is outside EMT scope and protocol-specific."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-02",
+      "title": "Anticoagulated patients and hemophilia",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-02-05",
+        "EMT-06-02-01",
+        "EMT-06-06-02"
+      ],
+      "key_points": [
+        "Anticoagulants and antiplatelet medications stop clots forming, which means bleeding that starts does not stop easily",
+        "The commonest consequence you will meet is a patient who bled far more than the injury suggested",
+        "A minor head injury in an anticoagulated patient can produce a slow bleed inside the skull with a delayed presentation",
+        "Age plus anticoagulation plus a fall is a combination that deserves transport even when the patient feels fine",
+        "Newer anticoagulants are not reversed the way older ones are, and the hospital needs to know which one it is",
+        "Take the medication or its packaging with you — the drug name changes the hospital's management",
+        "Hemophilia is an inherited deficiency of a clotting factor, and these patients bleed into joints and muscles as well as externally",
+        "Hemophilia patients frequently carry their own factor concentrate and know their treatment plan, so ask them",
+        "For all of them: direct pressure works and works better when it is held without lifting, plus early transport"
+      ],
+      "misconceptions": [
+        "Assuming a minor mechanism means a minor bleed in an anticoagulated patient",
+        "Not asking about blood thinners because the patient looks well",
+        "Leaving the medication behind",
+        "Repeatedly lifting a dressing to see whether bleeding has stopped"
+      ],
+      "exam_favorites": [
+        "Why minor head injuries matter on anticoagulants",
+        "Bring the medication",
+        "Hemophilia patients know their own plan"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Anticoagulants and antiplatelet drugs are extremely common, and they change the meaning of every injury you attend.\n\nThey work by interfering with clotting. That is the point of them — they stop dangerous clots forming. But the price is that when bleeding starts, the body's usual response is blunted, and bleeding that would have stopped by itself keeps going.\n\nThe practical version: an anticoagulated patient bleeds more than the injury suggests. A cut that would have been trivial keeps soaking through. A bruise becomes enormous. Internal bleeding from a modest mechanism becomes significant.\n\nAnd the one that really matters is the head. A minor knock — a cupboard door, a low ceiling, a fall from standing that the patient shrugs off — can start a slow bleed inside the skull. Slow is the problem: they feel fine for hours, sometimes a day or more, and then deteriorate. So an older patient on an anticoagulant who has hit their head gets taken seriously and should be transported, even feeling completely well, even with a mechanism that sounds like nothing. That is not over-caution. That is the recognised pattern.\n\nA practical detail that matters more than it sounds. There are several classes of these drugs and they are not all reversed the same way; some of the newer ones do not have the straightforward reversal the older ones do. So the hospital genuinely needs to know which drug it is, not just that there is one. Take the packet, take the box, take the repeat prescription slip — whatever names it. 'On a blood thinner' is a much weaker handover than naming it.\n\nHemophilia is a different mechanism with a similar consequence. It is inherited, and it means one of the clotting factors is missing or deficient. These patients bleed externally, but importantly they also bleed into places you cannot see — into joints, which is agonising and damaging, and into muscles.\n\nMost hemophilia patients know their condition better than you do. Many carry their own factor concentrate and have a treatment plan agreed with their haematology team. Ask them what they normally do and what they have already had. They are frequently the most informed person in the room, and they may have already given themselves treatment before you arrived, which the hospital needs to know.\n\nFor all these patients the fundamentals do not change. Direct pressure works. It works considerably better when it is held firmly and continuously, and every time you lift the dressing to look, you disturb what was forming. Hold it. And transport early, because what they need — reversal, factor replacement, imaging — is at the hospital.",
+          "standard": "Anticoagulant and antiplatelet agents impair haemostasis, producing haemorrhage disproportionate to the mechanism. Minor head trauma may precipitate intracranial haemorrhage with delayed presentation; advanced age combined with anticoagulation and any fall warrants transport irrespective of apparent well-being or trivial mechanism. Reversal strategies differ between agent classes, and several newer agents lack the straightforward reversal available for older ones; identification of the specific agent materially affects management, and medication packaging should accompany the patient. Haemophilia comprises inherited deficiency of specific clotting factors, producing external haemorrhage together with haemarthrosis and intramuscular bleeding. Affected patients commonly possess detailed knowledge of their condition, carry factor concentrate and may have self-administered prior to arrival; this should be elicited and communicated. Management comprises sustained uninterrupted direct pressure and early transport."
+        },
+        "eli_new": {
+          "analogy": "Anticoagulants do not make people bleed. They make bleeding that starts refuse to stop — which is why a cupboard door becomes a hospital admission.",
+          "body": "The habit worth building: whenever you find a blood thinner on a medication list, pick up the box and bring it. Not the name written in your notes — the actual box. Which drug it is changes what the hospital can do about it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why a minor head injury matters in an anticoagulated patient and what you should bring with you.",
+          "must_hit": [
+            {
+              "point": "Anticoagulants mean bleeding that starts does not stop easily",
+              "accept": [
+                "clot",
+                "stop",
+                "bleed",
+                "thinner",
+                "anticoagul"
+              ]
+            },
+            {
+              "point": "Bleeding is out of proportion to the mechanism",
+              "accept": [
+                "proportion",
+                "more",
+                "minor",
+                "mechanism",
+                "worse"
+              ]
+            },
+            {
+              "point": "Minor head injury can cause a slow bleed with delayed presentation",
+              "accept": [
+                "head",
+                "slow",
+                "delay",
+                "skull",
+                "intracranial",
+                "hours"
+              ]
+            },
+            {
+              "point": "Older patient plus anticoagulant plus a fall means transport even if they feel fine",
+              "accept": [
+                "older",
+                "transport",
+                "fall",
+                "fine",
+                "even"
+              ]
+            },
+            {
+              "point": "Bring the medication or packaging — which drug it is changes management",
+              "accept": [
+                "bring",
+                "packet",
+                "box",
+                "name",
+                "which",
+                "medication"
+              ]
+            },
+            {
+              "point": "Hemophilia patients bleed into joints and often carry their own factor",
+              "accept": [
+                "hemophilia",
+                "haemophilia",
+                "joint",
+                "factor",
+                "carry",
+                "know"
+              ]
+            },
+            {
+              "point": "Firm continuous direct pressure and early transport",
+              "accept": [
+                "pressure",
+                "direct",
+                "hold",
+                "continuous",
+                "transport"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The cupboard door",
+          "dispatch": "Medic 5 — 88-year-old male, hit his head on a cupboard, refusing transport.",
+          "body": "There was barely a mark on him and he was entirely himself, irritated that his daughter had called at all.\n\nThe crew looked at his medication list, found an anticoagulant, and spent ten minutes explaining why a cupboard door mattered.\n\nHe went. The bleed that was found was slow, and slow bleeds are the ones where the patient feels fine while you are standing there."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the anticoagulant and antiplatelet descriptions and the head injury guidance against the current text and local protocol. No specific medications are named and no reversal agents are described; those are beyond EMT scope and change frequently."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-03",
+      "title": "Sepsis recognition",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-04-04-01",
+        "EMT-05-07-01",
+        "EMT-05-02-06"
+      ],
+      "key_points": [
+        "Sepsis is the body's response to an infection damaging its own organs, and it kills more people than most of the conditions that get more attention",
+        "The two things you need are a suspected infection and signs of organ dysfunction",
+        "The findings that should trigger concern are a high or low temperature, fast breathing, fast pulse, low blood pressure and new confusion",
+        "New confusion in an older person with any infection is an organ dysfunction sign, not just being muddled",
+        "A low temperature is as concerning as a high one, and is easier to miss",
+        "Septic shock is sepsis with circulatory failure, and the skin can be warm early rather than cool",
+        "Early recognition and a pre-alert change outcomes, because the treatment is time-critical",
+        "Field care is oxygen as indicated, position, warmth, and rapid transport with a pre-alert saying the word sepsis",
+        "Take a temperature: it is the vital sign most often skipped and it is central here"
+      ],
+      "misconceptions": [
+        "Not taking a temperature",
+        "Being reassured by a normal or low temperature",
+        "Attributing new confusion in an older patient to their baseline",
+        "Expecting cold clammy skin and dismissing sepsis because the patient is warm",
+        "Not using the word sepsis in the pre-alert"
+      ],
+      "exam_favorites": [
+        "Infection plus organ dysfunction",
+        "New confusion as an organ sign",
+        "Low temperature being as bad as high",
+        "Warm skin in early septic shock"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Sepsis is what happens when the body's response to an infection starts damaging its own organs. The infection is the trigger; the damage is done by the response. It kills an enormous number of people, many more than conditions that get far more attention, and the single biggest factor in survival is how early somebody recognises it.\n\nTwo ingredients. First, a suspected infection — a chest infection, a urinary infection, a wound, a line, a recent operation, anything. Second, signs that organs are struggling.\n\nThe findings to watch for: temperature high or low, breathing fast, pulse fast, blood pressure low, and new confusion.\n\nTwo of those deserve expanding, because they are where sepsis gets missed.\n\nNew confusion. An older person with an infection who has become confused is not just having a bad day. Confusion is the brain not working properly, and the brain is an organ. New confusion plus a suspected infection is sepsis until proven otherwise, and it is dismissed constantly as 'they get like this'.\n\nAnd temperature — specifically, a low one. Everybody watches for a fever. A patient whose temperature has dropped below normal in the face of an infection is often sicker than a patient with a high fever, because their body has stopped mounting a response. A normal or low temperature is not reassurance. And you can only know this if you take one, which brings me to the point I will repeat: take a temperature. It is the vital sign most often skipped and it is central to this whole concept.\n\nSeptic shock is sepsis that has progressed to circulatory failure. There is a specific trap here. Everybody learns that shock means cool, pale, clammy skin. In early septic shock the vessels are dilated, so the patient can be warm and flushed with a bounding pulse while their pressure falls. A warm patient can absolutely be in shock, and expecting cold clammy skin means you will miss the early ones.\n\nWhat you do is straightforward: oxygen as indicated, position them appropriately, keep them warm, and transport quickly.\n\nAnd pre-alert. Say the word. Not 'unwell elderly patient' — 'query sepsis'. That word triggers a specific pathway with time targets attached, and it starts moving before your doors open. Of everything on this card, saying that word is the intervention with the most leverage.",
+          "standard": "Sepsis denotes life-threatening organ dysfunction resulting from a dysregulated host response to infection. Recognition requires suspected infection together with indicators of organ dysfunction: pyrexia or hypothermia, tachypnoea, tachycardia, hypotension and new-onset confusion. Altered mental status represents cerebral organ dysfunction and, in geriatric patients with suspected infection, warrants presumption of sepsis rather than attribution to baseline cognitive state. Hypothermia carries prognostic significance equal to or exceeding pyrexia and reflects failure to mount a febrile response. Septic shock denotes sepsis with circulatory failure; early vasodilation may produce warm, flushed skin with bounding pulses, contrasting with the cool clammy presentation of hypovolaemic shock, and expectation of the latter presentation causes missed recognition. Prehospital management comprises oxygen as indicated, appropriate positioning, maintenance of normothermia and expedited transport with prearrival notification explicitly naming sepsis, which activates time-targeted institutional pathways."
+        },
+        "eli_new": {
+          "analogy": "Sepsis is a fire alarm that sets off the sprinklers in every room including the ones that were not burning. The infection started it; the response is what floods the building.",
+          "body": "Two habits. Take a temperature on every unwell patient, because a low one is as alarming as a high one and nobody looks for it. And say the word sepsis in the pre-alert, because that word moves a hospital in a way that 'generally unwell' never does."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what sepsis is, the findings that should trigger concern, and what you say in the pre-alert.",
+          "must_hit": [
+            {
+              "point": "The body's response to infection damaging its own organs",
+              "accept": [
+                "infection",
+                "response",
+                "organ",
+                "damag",
+                "dysfunction"
+              ]
+            },
+            {
+              "point": "Suspected infection plus signs of organ dysfunction",
+              "accept": [
+                "infection",
+                "organ",
+                "dysfunction",
+                "two",
+                "both"
+              ]
+            },
+            {
+              "point": "High or low temperature, fast breathing, fast pulse, low pressure, new confusion",
+              "accept": [
+                "temperature",
+                "breath",
+                "pulse",
+                "pressure",
+                "confus"
+              ]
+            },
+            {
+              "point": "New confusion is an organ sign, not just being muddled",
+              "accept": [
+                "confus",
+                "brain",
+                "organ",
+                "new",
+                "baseline"
+              ]
+            },
+            {
+              "point": "A low temperature is as concerning as a high one",
+              "accept": [
+                "low",
+                "hypotherm",
+                "normal",
+                "as bad",
+                "cold"
+              ]
+            },
+            {
+              "point": "Early septic shock can have warm flushed skin, not cool and clammy",
+              "accept": [
+                "warm",
+                "flush",
+                "dilat",
+                "bounding",
+                "cool",
+                "clammy"
+              ]
+            },
+            {
+              "point": "Take a temperature and pre-alert saying the word sepsis",
+              "accept": [
+                "temperature",
+                "pre-alert",
+                "prealert",
+                "sepsis",
+                "word",
+                "notify"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She's a bit warm",
+          "dispatch": "Medic 7 — 81-year-old female, off her feet, care home.",
+          "body": "Her pulse was 112 and she was breathing at 26, and she was confused in a way the staff said was not like her.\n\nHer skin was warm and pink and the newest crew member said she did not look shocked, because shocked patients are meant to be cold and grey.\n\nHer blood pressure was 84 systolic. Warm and pink is what early septic shock looks like, and it is why it gets missed."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "What sepsis requires",
+            "value": "infection + organ dysfunction",
+            "note": "Both. A fever alone is not sepsis; an infection with a struggling organ is."
+          },
+          {
+            "label": "Temperature",
+            "value": "high OR low",
+            "note": "A low temperature is as concerning as a high one, and is missed more often."
+          },
+          {
+            "label": "New confusion",
+            "value": "an organ dysfunction sign",
+            "note": "The brain is an organ. New confusion plus infection is sepsis until proven otherwise."
+          },
+          {
+            "label": "Skin in early septic shock",
+            "value": "may be WARM and flushed",
+            "note": "Not cool and clammy. Expecting cold skin is why early septic shock is missed."
+          },
+          {
+            "label": "The vital sign most often skipped",
+            "value": "temperature",
+            "note": "You cannot use a finding you never measured."
+          },
+          {
+            "label": "Screening tool thresholds",
+            "value": "use your service's tool",
+            "note": "Numeric thresholds and scoring systems vary between services and are revised; deliberately not stated here."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sepsis recognition criteria and the septic shock presentation against the current text and current sepsis guidelines, which are revised periodically. No specific screening tool thresholds or scoring systems are stated here, as these vary between services and change; use your own service's screening tool."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-09-04",
+      "title": "Infectious diseases and precautions",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-09-03",
+        "EMT-05-05-01"
+      ],
+      "key_points": [
+        "Standard precautions are applied to every patient, every time, regardless of what you think they have",
+        "The principle is that you cannot tell by looking, so you do not try",
+        "Gloves for every patient contact; eye protection and a gown whenever splashing is possible",
+        "Respiratory protection is added for patients with a suspected airborne infection, per your service's policy",
+        "A surgical mask on a coughing patient protects everybody else and is one of the most effective things you can do",
+        "Hand hygiene before and after every patient is the single most effective measure, and the one most often skipped",
+        "Sharps injuries are the highest-risk exposure: never recap, dispose immediately, and report any injury at once",
+        "Report an exposure straight away — some post-exposure treatments are time-critical and delay removes the option",
+        "Clean and decontaminate equipment between patients, and treat the ambulance as clinical space"
+      ],
+      "misconceptions": [
+        "Deciding precautions based on how a patient looks or where they live",
+        "Recapping needles",
+        "Skipping hand hygiene because gloves were worn",
+        "Delaying reporting a needlestick out of embarrassment or time pressure"
+      ],
+      "exam_favorites": [
+        "Standard precautions on everybody",
+        "Hand hygiene as the most effective measure",
+        "Never recap a needle",
+        "Report exposures immediately"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The whole of infection control rests on one idea: you cannot tell by looking. The patient who is obviously unwell in a dirty flat may have nothing transmissible. The comfortable, well-dressed patient in a tidy house may have several things. Most people carrying a bloodborne infection do not know it themselves.\n\nSo the answer is not to guess better. It is to stop guessing, and apply the same precautions to everybody, every time. That is what standard precautions means, and the reason it works is that it removes judgement from the equation.\n\nIn practice: gloves for every patient contact, without exception. Eye protection and a gown whenever there is any prospect of splashing — and there is more splashing in this job than people anticipate. Suctioning, childbirth, vomiting, arterial bleeding, an agitated patient. If you might get wet, dress for it beforehand, because there is no putting goggles on halfway through.\n\nFor a patient with a suspected airborne infection, add respiratory protection according to your service's policy, which will specify what and when.\n\nAnd one thing that is simple, cheap and highly effective: put a surgical mask on a coughing patient. It does not protect them, it protects everybody else, and it works. It is one of the highest-value things you can do in the first ten seconds of a respiratory call.\n\nNow the measure that outperforms everything: hand hygiene. Before every patient, after every patient, after gloves come off. It is more effective than anything else on this list and it is the thing most often skipped, usually because the next job is already waiting. Gloves are not a substitute — hands get contaminated during removal, routinely.\n\nSharps deserve their own attention because they are the highest-risk exposure you face. Never recap a needle. Not carefully, not with one hand, not just this once. Dispose of it immediately into the container, yourself, not later and not by somebody else. Most needlestick injuries happen after the procedure has finished, during tidying up, to someone who did not use the needle.\n\nIf you do get an exposure — needlestick, splash to the eyes or mouth, blood into broken skin — report it immediately. Wash or irrigate first, then report. Some post-exposure treatments have to start within hours to work, and every hour you spend feeling stupid about it is an hour of effectiveness gone. Nobody has ever been criticised for reporting one quickly.\n\nAnd clean properly between patients. The stretcher, the rails, the monitor cables, the seatbelt buckles, the door handles. The ambulance is a clinical space that carries one sick person after another, and what gets left behind on a surface is somebody else's infection.",
+          "standard": "Standard precautions are applied universally, irrespective of presumed diagnosis, on the principle that transmissible infection cannot be identified by inspection and is frequently unknown to the carrier. Gloves are worn for all patient contact; eye protection and gowns are worn where splash exposure is foreseeable. Respiratory protection is added for suspected airborne infection per service policy. Application of a surgical mask to a coughing patient provides effective source control. Hand hygiene before and after every patient encounter, including following glove removal, constitutes the single most effective transmission control measure and is the most frequently omitted; gloves do not substitute, as contamination commonly occurs during removal. Sharps injuries represent the highest-risk occupational exposure: needles are never recapped, are disposed of immediately by the user, and injuries predominantly occur post-procedure during disposal. Exposures are irrigated and reported immediately, as post-exposure prophylaxis is time-dependent. Equipment and vehicle surfaces are decontaminated between patients."
+        },
+        "eli_new": {
+          "analogy": "Standard precautions exist because the question 'does this patient look infectious?' has no reliable answer. Stop asking it and dress the same way for everybody.",
+          "body": "Two things that are unglamorous and outperform everything else: wash your hands, and never recap a needle. Most needlesticks happen during tidying up, to someone who was not even the one who used it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the principle behind standard precautions, name the most effective single measure, and describe sharps handling.",
+          "must_hit": [
+            {
+              "point": "Applied to every patient because you cannot tell by looking",
+              "accept": [
+                "every",
+                "universal",
+                "cannot tell",
+                "looking",
+                "standard"
+              ]
+            },
+            {
+              "point": "Gloves always; eye protection and gown where splashing is possible",
+              "accept": [
+                "glove",
+                "eye",
+                "gown",
+                "splash",
+                "protect"
+              ]
+            },
+            {
+              "point": "A surgical mask on a coughing patient protects everybody else",
+              "accept": [
+                "mask",
+                "cough",
+                "source",
+                "others",
+                "surgical"
+              ]
+            },
+            {
+              "point": "Hand hygiene is the most effective measure and the most often skipped",
+              "accept": [
+                "hand",
+                "wash",
+                "hygiene",
+                "effective",
+                "skip"
+              ]
+            },
+            {
+              "point": "Gloves are not a substitute for hand hygiene",
+              "accept": [
+                "glove",
+                "substitute",
+                "removal",
+                "after",
+                "still"
+              ]
+            },
+            {
+              "point": "Never recap a needle; dispose immediately yourself",
+              "accept": [
+                "recap",
+                "needle",
+                "dispose",
+                "immediately",
+                "sharps"
+              ]
+            },
+            {
+              "point": "Report exposures immediately because treatment is time-critical",
+              "accept": [
+                "report",
+                "immediately",
+                "exposure",
+                "time",
+                "hours"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Tidying up",
+          "dispatch": "Debrief — needlestick injury, crew member, non-clinical moment.",
+          "body": "The call had gone well and was over. Everything had been done correctly during the treatment itself.\n\nThe injury happened forty seconds later, clearing the bench, to the crew member who had not used the needle and did not know it was there.\n\nThat is when most of them happen. Not during the procedure — during the tidying up afterwards."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Standard precautions and exposure response",
+          "steps": [
+            {
+              "text": "Apply standard precautions to EVERY patient — do not decide based on appearance",
+              "critical": true
+            },
+            {
+              "text": "Hand hygiene BEFORE patient contact",
+              "critical": true
+            },
+            {
+              "text": "Gloves for every patient contact",
+              "critical": true
+            },
+            {
+              "text": "Add eye protection and a gown wherever splashing is foreseeable — before you start, not during",
+              "critical": true
+            },
+            {
+              "text": "Add respiratory protection for suspected airborne infection per service policy",
+              "critical": true
+            },
+            {
+              "text": "Put a surgical mask on a coughing patient",
+              "critical": false,
+              "note": "It protects everybody else, and it is one of the highest-value ten-second actions available."
+            },
+            {
+              "text": "NEVER recap a needle — dispose of it immediately, yourself, into the container",
+              "critical": true,
+              "note": "Most needlesticks happen during tidying up, to someone who did not use the needle."
+            },
+            {
+              "text": "Remove gloves without touching the outside, then perform hand hygiene AGAIN",
+              "critical": true,
+              "note": "Hands are routinely contaminated during removal. Gloves are not a substitute."
+            },
+            {
+              "text": "Decontaminate the stretcher, rails, cables, buckles and handles between patients",
+              "critical": true
+            },
+            {
+              "text": "IF EXPOSED: wash or irrigate immediately, then report immediately",
+              "critical": true,
+              "note": "Some post-exposure treatments are time-critical. Delay removes the option."
+            },
+            {
+              "text": "Complete the exposure documentation the same shift",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the precaution levels, respiratory protection requirements and post-exposure reporting procedures against the current text and your own service's infection control policy, which governs. No specific post-exposure prophylaxis regimens or time windows are stated; those are institutional and change."
     }
   ]
 }
