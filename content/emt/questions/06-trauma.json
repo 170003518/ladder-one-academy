@@ -1832,6 +1832,666 @@
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-01-Q001",
+      "concept_id": "EMT-06-03-01",
+      "style": "recall",
+      "stem": "When is a crush injury most dangerous?",
+      "options": [
+        {
+          "text": "While the weight is still on the limb",
+          "rationale": "The patient is often stable and talking during compression."
+        },
+        {
+          "text": "At the moment the pressure is released",
+          "rationale": "Correct. Everything accumulated washes into the circulation at once."
+        },
+        {
+          "text": "Several days afterwards",
+          "rationale": "Kidney effects can be delayed, but the acute danger is at release."
+        },
+        {
+          "text": "Only if the skin is broken",
+          "rationale": "Crush injury is dangerous with skin entirely intact."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-01-Q002",
+      "concept_id": "EMT-06-03-01",
+      "style": "recall",
+      "stem": "What is released into the circulation when a crushed limb is freed?",
+      "options": [
+        {
+          "text": "Carbon dioxide only",
+          "rationale": "Not the substance of concern."
+        },
+        {
+          "text": "Potassium, acid and muscle breakdown products",
+          "rationale": "Correct. Potassium can stop a heart; the rest can block kidneys."
+        },
+        {
+          "text": "Clotting factors",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Insulin",
+          "rationale": "Not related to crush injury."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-01-Q003",
+      "concept_id": "EMT-06-03-01",
+      "style": "recall",
+      "stem": "What is the earliest sign of compartment syndrome?",
+      "options": [
+        {
+          "text": "Loss of the distal pulse",
+          "rationale": "Pulselessness is a very late finding."
+        },
+        {
+          "text": "Pain out of proportion to the apparent injury",
+          "rationale": "Correct. It is a finding, not an exaggeration."
+        },
+        {
+          "text": "Visible bruising",
+          "rationale": "Bruising is late and not specific to compartment syndrome."
+        },
+        {
+          "text": "An open wound",
+          "rationale": "Compartment syndrome occurs with intact skin."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-01-Q004",
+      "concept_id": "EMT-06-03-01",
+      "style": "application",
+      "stem": "A limb with suspected compartment syndrome has a strong distal pulse. What does that tell you?",
+      "options": [
+        {
+          "text": "It excludes compartment syndrome",
+          "rationale": "A present pulse offers no reassurance here."
+        },
+        {
+          "text": "Very little — pulselessness is a late finding",
+          "rationale": "Correct. Muscle dies well before the pulse disappears."
+        },
+        {
+          "text": "The pressure has resolved",
+          "rationale": "It shows no such thing."
+        },
+        {
+          "text": "The limb is uninjured",
+          "rationale": "The limb may be seriously injured with a pulse present."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-01-Q005",
+      "concept_id": "EMT-06-03-01",
+      "style": "application",
+      "stem": "A patient has been trapped for 70 minutes and rescue are ready to lift. What should you do?",
+      "options": [
+        {
+          "text": "Stand clear until the lift is complete",
+          "rationale": "The release is precisely when you need to be present."
+        },
+        {
+          "text": "Ensure everybody is positioned at the patient before the weight comes off",
+          "rationale": "Correct. Release is a clinical event, not just an extrication milestone."
+        },
+        {
+          "text": "Encourage them to lift quickly to shorten the compression",
+          "rationale": "Speed of lifting is not the issue."
+        },
+        {
+          "text": "Leave to prepare the ambulance",
+          "rationale": "The patient needs you at that moment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-01-Q006",
+      "concept_id": "EMT-06-03-01",
+      "style": "scenario",
+      "stem": "What does the absence of bruising one hour after a significant impact tell you?",
+      "options": [
+        {
+          "text": "That the impact was minor",
+          "rationale": "Bruising takes hours to develop."
+        },
+        {
+          "text": "Nothing — bruising appears hours later",
+          "rationale": "Correct. Tomorrow's dramatic bruise is invisible now."
+        },
+        {
+          "text": "That no blood vessels were damaged",
+          "rationale": "Vessels may be extensively damaged."
+        },
+        {
+          "text": "That the patient is exaggerating",
+          "rationale": "Never a conclusion to draw from absent bruising."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-02-Q001",
+      "concept_id": "EMT-06-03-02",
+      "style": "recall",
+      "stem": "Why is an impaled object left in place?",
+      "options": [
+        {
+          "text": "Because removing it is painful",
+          "rationale": "Pain is not the reason."
+        },
+        {
+          "text": "Because it may be tamponading the vessel it damaged",
+          "rationale": "Correct. Removing it opens bleeding you cannot then reach."
+        },
+        {
+          "text": "Because it is evidence",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "Because it will fall out on its own",
+          "rationale": "It will not, and that is not the rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-02-Q002",
+      "concept_id": "EMT-06-03-02",
+      "style": "recall",
+      "stem": "What are the only exceptions to leaving an impaled object in place?",
+      "options": [
+        {
+          "text": "When it is awkward to transport",
+          "rationale": "Awkwardness is not an exception."
+        },
+        {
+          "text": "When it obstructs the airway or prevents chest compressions",
+          "rationale": "Correct. Those two, and nothing else."
+        },
+        {
+          "text": "When the patient requests removal",
+          "rationale": "Patient request does not make removal safe."
+        },
+        {
+          "text": "When bleeding has stopped",
+          "rationale": "Stopped bleeding often means the object is doing the work."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-02-Q003",
+      "concept_id": "EMT-06-03-02",
+      "style": "application",
+      "stem": "How should an avulsed flap of tissue be managed?",
+      "options": [
+        {
+          "text": "Cut it off and dress the wound",
+          "rationale": "The flap often retains a blood supply and can survive."
+        },
+        {
+          "text": "Gently replace it in its normal position and dress it there",
+          "rationale": "Correct. Do not leave it folded back or hanging."
+        },
+        {
+          "text": "Fold it back to expose the wound bed",
+          "rationale": "This damages the flap's attachment."
+        },
+        {
+          "text": "Leave it hanging and bandage around it",
+          "rationale": "The flap should be repositioned."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-02-Q004",
+      "concept_id": "EMT-06-03-02",
+      "style": "application",
+      "stem": "How is bleeding controlled around an impaled object?",
+      "options": [
+        {
+          "text": "By pressing directly on the object",
+          "rationale": "Pressing on the object drives it further in."
+        },
+        {
+          "text": "By applying pressure beside the object, around its base",
+          "rationale": "Correct, with bulky dressings built up to stabilise it."
+        },
+        {
+          "text": "By removing the object and applying pressure",
+          "rationale": "Removal is not done."
+        },
+        {
+          "text": "By applying a tourniquet over the object",
+          "rationale": "Not applicable or appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-02-Q005",
+      "concept_id": "EMT-06-03-02",
+      "style": "recall",
+      "stem": "What does the external size of a puncture wound indicate about its depth?",
+      "options": [
+        {
+          "text": "Depth is proportional to width",
+          "rationale": "There is no such relationship."
+        },
+        {
+          "text": "Nothing — a tiny mark can cover a deep track",
+          "rationale": "Correct. Ask what went in and how far."
+        },
+        {
+          "text": "A small wound is always superficial",
+          "rationale": "Frequently untrue and dangerous to assume."
+        },
+        {
+          "text": "Only a doctor can determine this",
+          "rationale": "You cannot determine it either, which is the point."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-02-Q006",
+      "concept_id": "EMT-06-03-02",
+      "style": "scenario",
+      "stem": "What should be documented before and after dressing an open wound?",
+      "options": [
+        {
+          "text": "The wound's dimensions only",
+          "rationale": "Useful, but not the critical record."
+        },
+        {
+          "text": "Circulation, sensation and movement distal to the wound",
+          "rationale": "Correct. It shows whether anything changed in your care."
+        },
+        {
+          "text": "The dressing brand used",
+          "rationale": "Not clinically significant."
+        },
+        {
+          "text": "Nothing, if the bleeding is controlled",
+          "rationale": "Neurovascular status is always recorded."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-03-Q001",
+      "concept_id": "EMT-06-03-03",
+      "style": "recall",
+      "stem": "What is the difference between a dressing and a bandage?",
+      "options": [
+        {
+          "text": "They are two words for the same thing",
+          "rationale": "They have different jobs."
+        },
+        {
+          "text": "A dressing covers the wound; a bandage holds the dressing in place",
+          "rationale": "Correct, and the bandage may also apply pressure."
+        },
+        {
+          "text": "A bandage is sterile and a dressing is not",
+          "rationale": "Dressings are the ones that should be sterile."
+        },
+        {
+          "text": "A dressing is only for bleeding wounds",
+          "rationale": "Dressings cover, absorb and protect any wound."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-03-Q002",
+      "concept_id": "EMT-06-03-03",
+      "style": "application",
+      "stem": "Why must distal circulation be rechecked during transport, not just after bandaging?",
+      "options": [
+        {
+          "text": "Because bandages loosen over time",
+          "rationale": "The problem is the opposite."
+        },
+        {
+          "text": "Because swelling continues, so a correct bandage can become constricting",
+          "rationale": "Correct. The limb keeps swelling; the bandage does not grow."
+        },
+        {
+          "text": "Because the patient may have removed it",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "Because vibration changes the tension",
+          "rationale": "Not the stated mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-03-Q003",
+      "concept_id": "EMT-06-03-03",
+      "style": "recall",
+      "stem": "In which direction is a limb bandaged?",
+      "options": [
+        {
+          "text": "From the body outwards towards the fingers",
+          "rationale": "This traps fluid out at the fingertips."
+        },
+        {
+          "text": "From the far end towards the body",
+          "rationale": "Correct. It moves fluid towards the circulation."
+        },
+        {
+          "text": "From the middle outwards in both directions",
+          "rationale": "Not the described technique."
+        },
+        {
+          "text": "Direction does not matter",
+          "rationale": "It does matter for fluid movement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-03-Q004",
+      "concept_id": "EMT-06-03-03",
+      "style": "recall",
+      "stem": "When is an occlusive dressing indicated?",
+      "options": [
+        {
+          "text": "On any bleeding wound",
+          "rationale": "Ordinary wounds get ordinary dressings."
+        },
+        {
+          "text": "Open chest wounds, large neck wounds and eviscerations",
+          "rationale": "Correct — where air entering would cause harm."
+        },
+        {
+          "text": "On abrasions to keep them clean",
+          "rationale": "An ordinary dressing is appropriate there."
+        },
+        {
+          "text": "On all dirty wounds",
+          "rationale": "Contamination is not the indication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-03-Q005",
+      "concept_id": "EMT-06-03-03",
+      "style": "scenario",
+      "stem": "Why leave fingers and toes exposed where possible?",
+      "options": [
+        {
+          "text": "To reduce the amount of bandage used",
+          "rationale": "Economy is not the reason."
+        },
+        {
+          "text": "So circulation can be checked without undoing the dressing",
+          "rationale": "Correct — otherwise reassessments quietly stop happening."
+        },
+        {
+          "text": "To allow the wound to breathe",
+          "rationale": "The wound is not at the fingertips."
+        },
+        {
+          "text": "Because covering them is uncomfortable",
+          "rationale": "Not the clinical rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-04-Q001",
+      "concept_id": "EMT-06-03-04",
+      "style": "recall",
+      "stem": "How should an amputated part be cooled?",
+      "options": [
+        {
+          "text": "Packed directly in ice",
+          "rationale": "Direct ice contact and freezing destroy the tissue."
+        },
+        {
+          "text": "Wrapped dry, sealed in a bag, and the bag placed on ice",
+          "rationale": "Correct. The bag is the boundary between the tissue and the ice."
+        },
+        {
+          "text": "Submerged in iced water without a bag",
+          "rationale": "Soaking the part is contraindicated."
+        },
+        {
+          "text": "Frozen for preservation",
+          "rationale": "Freezing ends any chance of reattachment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-04-Q002",
+      "concept_id": "EMT-06-03-04",
+      "style": "recall",
+      "stem": "What comes first at an amputation?",
+      "options": [
+        {
+          "text": "Locating and packaging the part",
+          "rationale": "The part is dramatic but is not the emergency."
+        },
+        {
+          "text": "Controlling the stump bleeding",
+          "rationale": "Correct. The patient takes priority over the part."
+        },
+        {
+          "text": "Photographing the scene",
+          "rationale": "Never a clinical priority."
+        },
+        {
+          "text": "Cleaning the amputated part",
+          "rationale": "The part is not cleaned at all."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-04-Q003",
+      "concept_id": "EMT-06-03-04",
+      "style": "sequence",
+      "stem": "The amputated part cannot be found on scene. What do you do?",
+      "options": [
+        {
+          "text": "Delay transport until it is located",
+          "rationale": "The patient must not wait for the part."
+        },
+        {
+          "text": "Transport the patient and arrange for the part to follow",
+          "rationale": "Correct. A part arriving late beats a patient arriving late."
+        },
+        {
+          "text": "Cancel transport until the scene is searched",
+          "rationale": "Never appropriate."
+        },
+        {
+          "text": "Wait for police to complete a search",
+          "rationale": "The patient goes now."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-04-Q004",
+      "concept_id": "EMT-06-03-04",
+      "style": "sequence",
+      "stem": "A finger is partially amputated, attached only by a thin strand of tissue. What do you do?",
+      "options": [
+        {
+          "text": "Complete the amputation and package the part",
+          "rationale": "Never completed — that strand may carry the blood supply."
+        },
+        {
+          "text": "Support it in position, dress it, and splint the limb",
+          "rationale": "Correct. Leave it attached and prevent traction or twisting."
+        },
+        {
+          "text": "Cut it free to make dressing easier",
+          "rationale": "Convenience does not justify it."
+        },
+        {
+          "text": "Pull it straight to realign it",
+          "rationale": "Traction risks the remaining attachment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-04-Q005",
+      "concept_id": "EMT-06-03-04",
+      "style": "recall",
+      "stem": "What should be recorded with the amputated part?",
+      "options": [
+        {
+          "text": "The mechanism of injury only",
+          "rationale": "Useful, but not the two critical facts."
+        },
+        {
+          "text": "The patient's name and the time of amputation",
+          "rationale": "Correct — those determine what the surgeons can attempt."
+        },
+        {
+          "text": "The ambient temperature",
+          "rationale": "Not the recorded detail."
+        },
+        {
+          "text": "Nothing; labelling is a hospital task",
+          "rationale": "The time is known only to you."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

@@ -35,6 +35,16 @@
         "EMT-06-02-05",
         "EMT-06-02-06"
       ]
+    },
+    {
+      "id": "EMT-06-03",
+      "title": "Soft tissue injuries",
+      "concepts": [
+        "EMT-06-03-01",
+        "EMT-06-03-02",
+        "EMT-06-03-03",
+        "EMT-06-03-04"
+      ]
     }
   ],
   "concepts": [
@@ -1769,6 +1779,648 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the epistaxis management technique, the compression duration and the basilar skull fracture caution against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-01",
+      "title": "Closed injuries: contusion, hematoma and crush",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-05-05",
+        "EMT-06-03-02",
+        "EMT-06-08-03"
+      ],
+      "key_points": [
+        "A closed injury damages tissue under intact skin, so the seriousness is easy to underestimate",
+        "A contusion is a bruise: small vessels broken, blood in the tissue, swelling and discolouration",
+        "A hematoma is a collection of blood in one place, and a large one can hold a significant volume",
+        "Bruising takes hours to appear, so its absence early tells you nothing about the force involved",
+        "Crush injury is prolonged compression of tissue, and the danger arrives when the pressure is released rather than while it is on",
+        "Released crushed muscle sends potassium and breakdown products into the circulation, which can cause fatal rhythm disturbances and kidney failure",
+        "Tell the rescue team before a long-trapped limb is freed, because that release is a clinical event",
+        "Compartment syndrome can follow a closed injury: pain out of proportion, pain on passive stretch, tightness, and it is time-critical",
+        "Treat closed injuries with cold, and reassess neurovascular status distal to the injury"
+      ],
+      "misconceptions": [
+        "Assuming an intact skin means a minor injury",
+        "Expecting bruising to be visible immediately",
+        "Treating the moment of release in a crush injury as the end of the emergency",
+        "Dismissing pain out of proportion to the injury"
+      ],
+      "exam_favorites": [
+        "Why bruising is a late sign",
+        "The danger of crush release",
+        "Compartment syndrome warning signs"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A closed injury is damage under skin that has not broken. That is what makes them deceptive — there is nothing to see, and nothing to see is frequently read as nothing wrong.\n\nA contusion is a bruise. Small vessels tear, blood leaks into the tissue, and you get swelling, tenderness and eventually discolouration. A hematoma is the same process on a larger scale and collected in one place, and a big one — in a thigh, say — can hold a genuinely significant volume of blood.\n\nAnd here is the point that keeps coming up in trauma: bruising appears late. Hours. The impressive purple bruise is tomorrow's finding, not today's. So looking at smooth unmarked skin an hour after a serious impact and concluding that not much happened is a real error.\n\nCrush injury is the serious one in this concept, and its danger is counterintuitive.\n\nWhen a limb is compressed for a prolonged period, the muscle inside it dies. While the pressure is on, the products of that dying muscle are trapped locally — the patient may be talking to you, in pain but stable, for a long time.\n\nThe danger arrives when the pressure comes off. Circulation returns, and everything that accumulated in that limb washes into the general circulation at once: potassium, acid, and the breakdown products of muscle. Potassium can stop a heart. The breakdown products can block the kidneys. Patients have arrested at the moment of release, having been stable and conversational under the weight for an hour.\n\nWhat that means for you is practical. If a patient has been trapped for a prolonged period, tell the rescue team that the release is a clinical event, not just an extrication milestone. Everybody should be ready for it, at the patient's side, before the weight comes off. Advanced treatments exist and are not yours, so if release is imminent and the entrapment has been long, a paramedic or a physician should be there if that is possible in your system.\n\nCompartment syndrome is the other complication worth knowing. Muscles sit in compartments wrapped in tough sheets of tissue that do not stretch. Swelling inside a compartment raises the pressure until it exceeds the pressure in the small vessels, and the muscle inside begins to die — with the skin intact and the limb looking unremarkable.\n\nThe warning sign is pain out of proportion to the injury. A patient whose pain seems excessive for what you can see is not exaggerating; that disproportion is the classic finding. Pain on passive stretching of the muscles, a tight woody feel to the compartment, and later numbness and tingling complete the picture. A pulse may still be present — losing the pulse is very late and its presence is no reassurance.\n\nFor simple closed injuries: cold, and check circulation, sensation and movement below the injury. And record what you find, because someone will want to know whether it changed.",
+          "standard": "Closed soft tissue injury denotes damage beneath intact integument, with severity readily underestimated. Contusion comprises capillary disruption with interstitial haemorrhage producing swelling, tenderness and delayed discolouration; haematoma denotes a localised collection which may sequester substantial volume. Ecchymosis develops over hours, and early absence carries no exclusionary value regarding force sustained. Crush injury results from prolonged tissue compression with resultant rhabdomyolysis; the critical period follows decompression rather than accompanying compression, as restored circulation releases accumulated potassium, acid and myoglobin systemically, precipitating dysrhythmia and renal failure. Prolonged entrapment therefore requires that release be treated as a clinical event, with appropriate personnel present and, where available, advanced-level attendance. Compartment syndrome arises from raised intracompartmental pressure exceeding capillary perfusion pressure within inelastic fascial boundaries, producing muscle necrosis despite intact skin and unremarkable appearance. The cardinal finding is pain disproportionate to apparent injury, with pain on passive stretch, tense compartment, and later paraesthesia; preserved distal pulses do not exclude it and pulselessness is a late finding. Management of simple closed injury comprises cold application and documented neurovascular assessment distal to the injury."
+        },
+        "eli_new": {
+          "analogy": "A crushed limb under a weight is a sealed container. The emergency starts when somebody opens it.",
+          "body": "Two things to carry away. Pain out of proportion to the injury is a finding, not a personality trait — it is the earliest sign of compartment syndrome. And a long-trapped limb being freed is a moment to be standing next to the patient, not a moment to relax."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why a crush injury is most dangerous at release, and name the earliest sign of compartment syndrome.",
+          "must_hit": [
+            {
+              "point": "Closed injuries are under intact skin and easy to underestimate",
+              "accept": [
+                "closed",
+                "intact",
+                "skin",
+                "underestimate",
+                "nothing to see"
+              ]
+            },
+            {
+              "point": "Bruising takes hours, so early absence means nothing",
+              "accept": [
+                "bruis",
+                "hours",
+                "late",
+                "absence",
+                "ecchymos"
+              ]
+            },
+            {
+              "point": "Crush danger comes at release, not during compression",
+              "accept": [
+                "release",
+                "free",
+                "danger",
+                "compression",
+                "after"
+              ]
+            },
+            {
+              "point": "Potassium and breakdown products wash into the circulation",
+              "accept": [
+                "potassium",
+                "breakdown",
+                "myoglobin",
+                "circulation",
+                "kidney",
+                "rhythm"
+              ]
+            },
+            {
+              "point": "Tell the rescue team that release is a clinical event",
+              "accept": [
+                "rescue",
+                "tell",
+                "release",
+                "ready",
+                "event"
+              ]
+            },
+            {
+              "point": "Compartment syndrome: pain out of proportion is the earliest sign",
+              "accept": [
+                "compartment",
+                "proportion",
+                "pain",
+                "stretch",
+                "tight"
+              ]
+            },
+            {
+              "point": "A present pulse does not exclude compartment syndrome",
+              "accept": [
+                "pulse",
+                "present",
+                "exclude",
+                "late",
+                "reassur"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Before you lift it",
+          "dispatch": "Engine 6 — worker trapped under machinery, conscious, one leg pinned, 70 minutes.",
+          "body": "He had been talking the whole time, in pain but entirely stable, and the rescue crew were ready to lift.\n\nThe medic asked them to wait two minutes so everybody could be in position at the patient rather than at the machine.\n\nThe hour under the weight was survivable. The moment it came off was the part that needed everybody watching."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the crush injury pathophysiology and the compartment syndrome findings against the current text. No specific entrapment time thresholds are stated because sources differ and the risk is continuous; advanced treatments before release are outside EMT scope and protocol-specific."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-02",
+      "title": "Open injuries and impaled objects",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-02-01"
+      ],
+      "related": [
+        "EMT-06-03-03",
+        "EMT-06-03-04",
+        "EMT-06-07-03"
+      ],
+      "key_points": [
+        "Abrasion scrapes off the surface layers: painful, often dirty, rarely serious in itself",
+        "Laceration is a cut, which may be clean-edged or ragged, and can be deep enough to involve vessels, nerves and tendons",
+        "Avulsion is a flap of tissue torn loose but still attached; the flap is replaced in its normal position and dressed",
+        "Amputation is complete separation of a part, and the stump is controlled with pressure or a tourniquet",
+        "Penetrating and puncture wounds may look trivial and be deep, and the entry size means nothing",
+        "An impaled object is stabilised in place and never removed — it may be tamponading a vessel, and removing it releases the bleeding",
+        "The exceptions to leaving an impaled object are when it obstructs the airway or prevents chest compressions",
+        "Stabilise an impaled object with bulky dressings built up around it, and control bleeding around the base",
+        "Check circulation, sensation and movement distal to any open wound, and record it before and after dressing"
+      ],
+      "misconceptions": [
+        "Removing an impaled object",
+        "Pushing an avulsed flap aside rather than replacing it",
+        "Being reassured by the small size of a puncture wound",
+        "Failing to document neurovascular status before dressing"
+      ],
+      "exam_favorites": [
+        "The types of open wound",
+        "Never remove an impaled object and the two exceptions",
+        "Replacing an avulsed flap"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Open wounds are classified by what happened to the tissue, and the classification is useful because each type has a different practical consequence.\n\nAn abrasion is a scrape — the surface layers rubbed off. They are painful out of proportion to their depth because the nerve endings are exposed, and they are often dirty, with grit and road material ground in.\n\nA laceration is a cut. Clean-edged from glass or a blade, ragged from a tearing force. The thing to remember is that depth matters more than length: a short deep laceration can involve a vessel, a nerve or a tendon.\n\nAn avulsion is a flap of tissue torn loose but still attached at one edge. The right thing to do is gently replace the flap into its normal position and dress it there. That flap often has a blood supply through its attachment, and a replaced flap can survive. Do not fold it back or leave it hanging.\n\nAmputation is complete separation. Control the stump with direct pressure and, if that fails, a tourniquet. The part itself has its own concept.\n\nPuncture and penetrating wounds are the deceptive category. A nail, a blade, a spike — a tiny external mark over a deep track. Never judge these by the size of the hole, and always ask what went in and how far.\n\nNow the rule this concept is built around: an impaled object stays where it is.\n\nThe reason is mechanical. That object may be pressing against the vessel it damaged on the way in, and sitting there holding the bleeding closed. Pull it out and you remove the plug. Bleeding that was controlled becomes uncontrolled, and now you have a wound with no way to reach the source. You also cause fresh damage on the way out, because objects do not retrace their path.\n\nSo stabilise it. Build bulky dressings up around the object so it cannot move, and secure them so the object is supported rather than the object supporting itself. Movement during transport tears more tissue.\n\nControl bleeding around the base with pressure applied beside the object, not on it.\n\nThere are two exceptions, and both are situations where the object prevents something immediately life-saving. If it is in the cheek and obstructing the airway, or if it is in the chest in a way that makes chest compressions impossible, it comes out. Those are the only two. If you are considering removal for any other reason, the answer is no.\n\nAnd for every open wound, check circulation, sensation and movement below it — before you dress it and again afterwards. That record is what tells the hospital whether something changed while the patient was in your care.",
+          "standard": "Open soft tissue injuries are classified by mechanism. Abrasion denotes superficial epidermal removal, disproportionately painful owing to nerve ending exposure and frequently contaminated. Laceration denotes incision with clean or irregular margins; depth rather than length determines involvement of vascular, neural and tendinous structures. Avulsion denotes a tissue flap detached but retaining attachment; the flap is repositioned anatomically and dressed in situ, preserving perfusion through the pedicle. Amputation denotes complete separation, with stump haemorrhage controlled by direct pressure or tourniquet. Puncture and penetrating wounds present minimal external evidence with potentially extensive tracts; external dimensions carry no prognostic value. Impaled objects are stabilised in situ and not removed, as the object may tamponade the vessel it disrupted and removal produces uncontrolled haemorrhage inaccessible to direct control, together with additional tissue damage along a divergent path. Stabilisation employs bulky dressings built around the object; haemorrhage is controlled by pressure adjacent to rather than upon the object. Removal is indicated only where the object obstructs the airway or precludes chest compressions. Neurovascular status distal to any open wound is assessed and documented before and after dressing."
+        },
+        "eli_new": {
+          "analogy": "An impaled object is often the only thing holding the bleeding closed. Pulling it out is removing a plug from a hole you cannot then reach.",
+          "body": "The two exceptions to leaving an impaled object are narrow and specific: it blocks the airway, or it stops chest compressions. Anything else — it is awkward, it will not fit in the ambulance, the patient wants it out — is not an exception."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the types of open wound, and explain why an impaled object is left in place.",
+          "must_hit": [
+            {
+              "point": "Abrasion, laceration, avulsion, amputation, puncture",
+              "accept": [
+                "abrasion",
+                "laceration",
+                "avulsion",
+                "amputation",
+                "puncture"
+              ]
+            },
+            {
+              "point": "An avulsed flap is replaced in its normal position and dressed",
+              "accept": [
+                "flap",
+                "replace",
+                "position",
+                "avuls",
+                "dress"
+              ]
+            },
+            {
+              "point": "Puncture wounds look trivial and can be deep",
+              "accept": [
+                "puncture",
+                "small",
+                "deep",
+                "size",
+                "trivial"
+              ]
+            },
+            {
+              "point": "An impaled object may be tamponading the vessel it damaged",
+              "accept": [
+                "tamponad",
+                "plug",
+                "holding",
+                "vessel",
+                "bleeding"
+              ]
+            },
+            {
+              "point": "Stabilise with bulky dressings and control bleeding around the base",
+              "accept": [
+                "stabilis",
+                "stabiliz",
+                "bulky",
+                "dressing",
+                "base",
+                "around"
+              ]
+            },
+            {
+              "point": "The only exceptions are airway obstruction and preventing compressions",
+              "accept": [
+                "airway",
+                "cheek",
+                "compression",
+                "exception",
+                "cpr"
+              ]
+            },
+            {
+              "point": "Check circulation, sensation and movement before and after dressing",
+              "accept": [
+                "circulation",
+                "sensation",
+                "movement",
+                "before",
+                "after",
+                "distal"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It won't fit",
+          "dispatch": "Engine 9 — male impaled on railings, conscious, bleeding controlled.",
+          "body": "The immediate practical problem was that the railing was a metre long and the patient could not be moved with it attached.\n\nSomebody asked whether they could just pull him off it, and the answer was no, and the fire crew cut the railing instead.\n\nAwkward is not one of the exceptions. There are only two, and neither of them is about whether it fits in the ambulance."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wound classification and impaled object management against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-03",
+      "title": "Dressing and bandaging principles",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "prereqs": [
+        "EMT-06-03-02"
+      ],
+      "related": [
+        "EMT-06-03-02",
+        "EMT-06-07-03",
+        "EMT-06-07-05"
+      ],
+      "key_points": [
+        "A dressing covers the wound; a bandage holds the dressing in place — two different things with two different jobs",
+        "Dressings should be sterile where possible and large enough to cover the whole wound with a margin",
+        "Bandages are applied firmly enough to secure and to apply pressure, but never so tight that they cut off circulation",
+        "Check circulation, sensation and movement distal to any bandage after applying it, and again during transport",
+        "Swelling continues after you leave, so a bandage that was correct on scene can become a tourniquet by the hospital",
+        "Bandage from distal to proximal on a limb so that you push fluid towards the body rather than trapping it",
+        "Leave fingers and toes exposed where possible so circulation can be checked without undoing anything",
+        "Never bandage circumferentially around the neck",
+        "An occlusive dressing is used where air must be kept out: open chest wounds, large neck wounds, and eviscerations"
+      ],
+      "misconceptions": [
+        "Applying a bandage so tight it compromises circulation",
+        "Covering fingertips so circulation cannot be checked",
+        "Failing to reassess after swelling develops",
+        "Bandaging around the neck"
+      ],
+      "exam_favorites": [
+        "Dressing versus bandage",
+        "Reassess distal circulation after bandaging",
+        "Leave fingertips exposed",
+        "When an occlusive dressing is used"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two words that get used interchangeably and should not be. A dressing goes on the wound; its job is to cover, absorb and protect. A bandage goes over the dressing; its job is to hold it there and, when needed, to apply pressure.\n\nDressings should be sterile where you can manage it, and big enough to cover the whole wound with a margin. A dressing the same size as the wound leaves the edges exposed and slides off centre the moment anybody moves.\n\nBandages need to be firm enough to do their job and no firmer. That sounds obvious and it is the single most common error in this whole area, for a specific reason.\n\nThe reason is swelling. You apply a bandage on scene, it is snug and correct, and then over the next forty minutes the injured tissue swells underneath it. A bandage that was right when you applied it can be a tourniquet by the time you arrive. This is why the rule is not just to check circulation after applying it, but to check it again during transport. The first check tells you that you did it right. The second tells you whether it is still right.\n\nSo: after every bandage, check circulation, sensation and movement below it. Colour, warmth, capillary refill, pulse if you can find one, whether they can feel you touching and whether they can move. And do it again on the way.\n\nA few practical rules. On a limb, bandage from the far end towards the body. That way you are moving fluid towards the circulation rather than trapping it out at the fingertips.\n\nLeave the fingers and toes uncovered whenever the injury allows. That way you can check circulation at a glance without undoing your own work. Covering the fingertips means every reassessment costs you a rebandage, which means reassessments quietly stop happening.\n\nNever bandage all the way around a neck. It should not need saying and it gets done.\n\nAnd occlusive dressings, which are a different tool for a different problem. An occlusive dressing does not breathe — its purpose is to stop air getting in. You use one where air entering would harm the patient: an open chest wound, where air drawn into the chest collapses the lung; a large wound in the neck where air could enter a vein; and over an evisceration, where a moist dressing covered with an occlusive layer keeps exposed bowel from drying out. Those are the situations. Ordinary wounds get ordinary dressings.",
+          "standard": "A dressing covers the wound, providing coverage, absorption and protection; a bandage secures the dressing and may provide compression. Dressings should be sterile where practicable and sufficiently large to cover the wound with a surrounding margin. Bandages are applied with sufficient firmness for security and compression without compromising perfusion. Neurovascular status distal to any bandage is assessed following application and reassessed during transport, as progressive tissue oedema may convert an appropriately applied bandage into an occlusive constriction. Limb bandaging proceeds distal to proximal, directing fluid towards the central circulation. Digits are left exposed where injury permits, enabling perfusion assessment without disturbing the dressing. Circumferential cervical bandaging is contraindicated. Occlusive dressings, being impermeable to air, are indicated where air entry would cause harm: open thoracic wounds, large cervical wounds with venous air embolism risk, and evisceration, where a moist dressing covered by an occlusive layer prevents desiccation of exposed viscera."
+        },
+        "eli_new": {
+          "analogy": "A bandage is a snapshot of how swollen the limb was when you applied it. The limb keeps swelling; the bandage does not keep growing.",
+          "body": "Leave the fingertips out. It sounds trivial and it is the difference between reassessing circulation five times on the way in, and reassessing it once because each check means undoing everything."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between a dressing and a bandage, and what you check after applying one.",
+          "must_hit": [
+            {
+              "point": "A dressing covers the wound; a bandage holds it in place",
+              "accept": [
+                "dressing",
+                "cover",
+                "bandage",
+                "hold",
+                "secure"
+              ]
+            },
+            {
+              "point": "Firm enough to secure and compress, never tight enough to cut off circulation",
+              "accept": [
+                "firm",
+                "tight",
+                "circulation",
+                "compress",
+                "secure"
+              ]
+            },
+            {
+              "point": "Check circulation, sensation and movement after applying and again in transport",
+              "accept": [
+                "circulation",
+                "sensation",
+                "movement",
+                "again",
+                "transport",
+                "reassess"
+              ]
+            },
+            {
+              "point": "Swelling continues, so a correct bandage can become a tourniquet",
+              "accept": [
+                "swell",
+                "tourniquet",
+                "later",
+                "change",
+                "tight"
+              ]
+            },
+            {
+              "point": "Bandage distal to proximal and leave fingertips exposed",
+              "accept": [
+                "distal",
+                "proximal",
+                "finger",
+                "toe",
+                "exposed"
+              ]
+            },
+            {
+              "point": "Never bandage circumferentially around the neck",
+              "accept": [
+                "neck",
+                "circumferent",
+                "around",
+                "never"
+              ]
+            },
+            {
+              "point": "Occlusive dressings for chest wounds, large neck wounds and eviscerations",
+              "accept": [
+                "occlusive",
+                "chest",
+                "neck",
+                "eviscerat",
+                "air"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It was fine when we put it on",
+          "dispatch": "Handover — forearm laceration, bandaged at scene, 40 minute transport.",
+          "body": "The bandage had been applied correctly and the fingers had been pink and warm when they left.\n\nNobody looked again, because the fingertips had been covered up and checking meant undoing it.\n\nAt handover the hand was dusky. Nothing had been done wrong on scene. The swelling had simply carried on happening."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm dressing and bandaging principles and the indications for occlusive dressings against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-03-04",
+      "title": "Amputated part care",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-02-02"
+      ],
+      "related": [
+        "EMT-06-02-02",
+        "EMT-06-03-02",
+        "EMT-06-05-01"
+      ],
+      "key_points": [
+        "The patient always takes priority over the part: control the stump bleeding first",
+        "Control the stump with direct pressure, and a tourniquet if pressure fails",
+        "Wrap the amputated part in a dry sterile dressing, place it in a sealed plastic bag, and put that bag on ice or in cold water",
+        "The part must never touch ice directly and must never be frozen, because freezing destroys the tissue and ends any chance of reattachment",
+        "Do not soak the part in water, and do not use dry ice",
+        "Bring the part with the patient, and if it cannot be found immediately, transport the patient anyway and have the part follow",
+        "A partial amputation is not completed — the remaining attachment may carry the blood supply, so it is supported in position and dressed",
+        "Label the part and note the time of amputation",
+        "Handle the part gently and do not clean or scrub it"
+      ],
+      "misconceptions": [
+        "Putting the amputated part directly on ice, or freezing it",
+        "Delaying transport of the patient to search for the part",
+        "Completing a partial amputation",
+        "Soaking the part in water or antiseptic"
+      ],
+      "exam_favorites": [
+        "Stump first, part second",
+        "Cool but never freeze",
+        "Never complete a partial amputation"
+      ],
+      "modes": {
+        "read": {
+          "plain": "There are two things at an amputation: a patient and a part. They are not equally important, and the ordering trips people up because the part is dramatic and attracts attention.\n\nThe patient comes first. Control the stump. Direct pressure, firm and focused, and if that does not work, a tourniquet without hesitating — amputation is a textbook tourniquet indication. Get the bleeding stopped before anybody starts thinking about the part.\n\nThen the part, and the handling matters because it determines whether reattachment is even possible.\n\nWrap it in a dry sterile dressing. Put the wrapped part in a sealed plastic bag. Put the sealed bag on ice, or in cold water with ice in it.\n\nThe critical detail is that the part never touches ice directly, and is never frozen. Freezing kills the tissue outright, and a frozen part cannot be reattached to anything. The bag is what stands between the tissue and the ice. Cool is the goal; frozen is the end of it. And no dry ice, ever — far too cold.\n\nDo not soak the part in water. Do not put it in antiseptic. Do not clean or scrub it. Do not pick bits off it. Wrap it, bag it, cool it, and let the surgeons deal with what is on it.\n\nBring it with the patient. If the part cannot be found straight away — and at industrial and road incidents that is common — do not hold the patient on scene searching for it. The patient is the emergency. Transport, and arrange for the part to follow with the fire crew or the police once it is found. A part arriving twenty minutes later is far better than a patient arriving twenty minutes later.\n\nPartial amputations need their own rule, and it is important: you do not complete them. However badly attached the part looks, whatever strand of tissue is holding it, that attachment may be carrying the blood supply that is keeping the distal tissue alive. Support the part in the position it is in, dress it, splint the limb so nothing twists or drags during movement, and leave it attached.\n\nAnd label the part with the patient's name and the time of the amputation, because those two facts determine what the receiving team can attempt.",
+          "standard": "Management prioritises the patient over the amputated part. Stump haemorrhage is controlled by direct pressure, with tourniquet application where pressure fails; amputation constitutes a primary tourniquet indication. The amputated part is wrapped in dry sterile dressing, placed within a sealed plastic bag, and the bag cooled on ice or in iced water. Direct contact between tissue and ice is contraindicated, as is freezing, which produces irreversible tissue destruction precluding replantation; dry ice is contraindicated. Immersion in water or antiseptic, and cleaning or debridement of the part, are contraindicated. The part accompanies the patient where available; where the part cannot be immediately located, patient transport proceeds without delay and the part follows separately. Partial amputations are not completed, as the residual attachment may convey perfusion to distal tissue; the part is supported in position, dressed and the limb splinted to prevent traction or torsion. The part is labelled with patient identification and the time of amputation."
+        },
+        "eli_new": {
+          "analogy": "Cool, not cold. The bag is the boundary between saving the part and destroying it, and ice touching tissue is on the wrong side of that boundary.",
+          "body": "Two absolutes. Never freeze the part, and never complete a partial amputation. Both are done with good intentions — packing it well in ice, tidying up something barely attached — and both end any chance of that limb being reattached."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe how an amputated part is packaged, and what you do with a partial amputation.",
+          "must_hit": [
+            {
+              "point": "Control the stump first — the patient takes priority",
+              "accept": [
+                "stump",
+                "patient",
+                "first",
+                "pressure",
+                "tourniquet"
+              ]
+            },
+            {
+              "point": "Wrap in a dry sterile dressing and seal in a plastic bag",
+              "accept": [
+                "dry",
+                "sterile",
+                "wrap",
+                "bag",
+                "seal",
+                "plastic"
+              ]
+            },
+            {
+              "point": "Cool the bag on ice or in iced water",
+              "accept": [
+                "ice",
+                "cool",
+                "cold",
+                "water",
+                "bag"
+              ]
+            },
+            {
+              "point": "Never let the part touch ice and never freeze it",
+              "accept": [
+                "never",
+                "touch",
+                "freeze",
+                "frozen",
+                "direct"
+              ]
+            },
+            {
+              "point": "Do not soak, clean or use dry ice",
+              "accept": [
+                "soak",
+                "clean",
+                "scrub",
+                "dry ice",
+                "antiseptic"
+              ]
+            },
+            {
+              "point": "Transport the patient even if the part is not found; the part follows",
+              "accept": [
+                "transport",
+                "found",
+                "follow",
+                "search",
+                "delay"
+              ]
+            },
+            {
+              "point": "Never complete a partial amputation — support and dress it in position",
+              "accept": [
+                "partial",
+                "complete",
+                "attach",
+                "support",
+                "splint",
+                "blood supply"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Packed in ice",
+          "dispatch": "Handover — industrial amputation, part recovered by the fire crew.",
+          "body": "Everybody had done well. The stump was controlled, the patient was stable, and somebody had thoughtfully surrounded the part with ice to keep it as cold as possible.\n\nIt had been in direct contact with the ice for thirty-five minutes.\n\nCool preserves tissue. Frozen destroys it, and the plastic bag was the only thing that was ever going to separate the two."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Amputated part care",
+          "steps": [
+            {
+              "text": "CONTROL THE STUMP FIRST — direct pressure, tourniquet if pressure fails",
+              "critical": true,
+              "note": "The patient is the emergency. The part is dramatic and attracts attention it should not have first."
+            },
+            {
+              "text": "Handle the part gently; do NOT clean, scrub or pick at it",
+              "critical": true
+            },
+            {
+              "text": "Wrap the part in a DRY sterile dressing",
+              "critical": true
+            },
+            {
+              "text": "Place the wrapped part in a SEALED plastic bag",
+              "critical": true
+            },
+            {
+              "text": "Place the sealed bag on ice, or in cold water with ice",
+              "critical": true
+            },
+            {
+              "text": "The part must NEVER touch ice directly and must NEVER be frozen",
+              "critical": true,
+              "note": "Freezing destroys the tissue outright. The bag is the boundary. No dry ice."
+            },
+            {
+              "text": "Do NOT soak the part in water or antiseptic",
+              "critical": true
+            },
+            {
+              "text": "Label the part with the patient's name and THE TIME OF AMPUTATION",
+              "critical": true
+            },
+            {
+              "text": "If the part is not immediately found, TRANSPORT THE PATIENT and have it follow",
+              "critical": true
+            },
+            {
+              "text": "PARTIAL amputation: do NOT complete it",
+              "critical": true,
+              "note": "The remaining attachment may be carrying the blood supply keeping the distal tissue alive."
+            },
+            {
+              "text": "Support a partially amputated part in position, dress it, and splint to prevent traction or twisting",
+              "critical": true
+            },
+            {
+              "text": "Pre-alert so the receiving team can mobilise surgical services",
+              "critical": false
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the packaging technique and the guidance on partial amputations against the current text and local protocol. No maximum ischaemic time for replantation is stated; that is a surgical decision and figures vary."
     }
   ]
 }
