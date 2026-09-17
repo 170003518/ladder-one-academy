@@ -84,6 +84,16 @@
         "EMT-05-07-01",
         "EMT-05-07-02"
       ]
+    },
+    {
+      "id": "EMT-05-08",
+      "title": "Psychiatric and behavioral emergencies",
+      "concepts": [
+        "EMT-05-08-01",
+        "EMT-05-08-02",
+        "EMT-05-08-03",
+        "EMT-05-08-04"
+      ]
     }
   ],
   "concepts": [
@@ -4623,6 +4633,706 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the acute versus chronic kidney failure descriptions, dialysis complication patterns and fistula precautions against the current text and local policy. No potassium values or dialysis parameters are stated."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-01",
+      "title": "Behavioral emergency assessment and scene safety",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-02-06",
+        "EMT-05-08-03",
+        "EMT-05-05-03"
+      ],
+      "key_points": [
+        "A behavioral emergency is behaviour the patient or those around them cannot manage, whatever its cause",
+        "Medical causes must be excluded before behaviour is called psychiatric: low blood sugar, hypoxia, head injury, infection, drugs and alcohol all present as behaviour change",
+        "Every behavioral patient gets a blood glucose and an oxygen saturation, without exception",
+        "Scene safety comes first and stays first: position yourself between the patient and the exit, never let yourself be cornered",
+        "Scan for potential weapons and note what is in reach, including ordinary objects",
+        "One person talks; the rest stay quiet. Multiple voices escalate an agitated patient",
+        "Speak calmly and slowly, give the patient space, avoid direct prolonged eye contact, and do not touch without warning",
+        "Never leave a behavioral patient alone, and never turn your back on one"
+      ],
+      "misconceptions": [
+        "Labelling behaviour psychiatric before checking a glucose",
+        "Standing between the patient and their own exit route so they feel trapped",
+        "Three crew members all talking at once",
+        "Approaching and touching an agitated patient without warning"
+      ],
+      "exam_favorites": [
+        "Medical causes before psychiatric labels",
+        "Positioning relative to the exit",
+        "One voice only"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A behavioral emergency is behaviour the patient cannot manage, or that the people around them cannot manage. That definition is deliberately broad, and it says nothing about cause — which is the whole point.\n\nBecause the most important thing in this concept is that behaviour is a symptom, and plenty of things that are not psychiatric produce it. Low blood sugar produces aggression. Hypoxia produces agitation and confusion. Head injuries produce combativeness. Infection produces delirium, especially in older people. Drugs and alcohol produce all of it. And every one of those has been written up as a psychiatric presentation by somebody who decided early.\n\nSo: a glucose and a saturation on every behavioral patient. Every one. It takes ninety seconds and it is the difference between a diagnosis and a label.\n\nNow safety, which comes first and never stops being first.\n\nPosition yourself so you have a clear route out. Do not let yourself get backed into a bathroom, a bedroom, or the far end of a corridor. And here is the part people get wrong — do not block the patient's exit either. A frightened person who feels cornered fights. Both of you should be able to leave. In practice that usually means standing to one side rather than squarely in a doorway.\n\nLook around as you come in. Not dramatically, just look. Kitchens have knives. Living rooms have heavy ornaments. Garages have tools. You are not being paranoid; you are noticing what is within reach so that you know before you need to.\n\nOne person talks. This is the single most useful thing a crew can do and it is broken constantly. When three people are asking questions, an agitated patient cannot process any of them and the volume in the room rises. Agree who is talking before you go in. Everybody else says nothing, stands still, and watches.\n\nHow you talk matters. Slow, quiet, short sentences. Leave more space than feels natural. Avoid long unbroken eye contact, which reads as a challenge. Tell them before you touch them, every time, and ask rather than announce where you can.\n\nAnd two absolutes: never leave a behavioral patient on their own, and never turn your back on one. Not because they are dangerous by nature, but because you cannot see what you are not looking at, and the cost of being wrong is high.",
+          "standard": "A behavioural emergency denotes behaviour the patient or their environment cannot manage, irrespective of aetiology. Organic causes must be excluded before psychiatric attribution: hypoglycaemia, hypoxia, traumatic brain injury, infection and intoxication all produce behavioural disturbance. Blood glucose measurement and pulse oximetry are mandatory in every behavioural presentation. Scene safety is the initial and continuing priority: providers maintain unobstructed egress without obstructing the patient's own egress, as perceived entrapment escalates agitation. Environmental scanning for accessible weapons, including improvised objects, is performed on entry. Communication is conducted by a single designated provider, as multiple simultaneous speakers escalate agitated patients. Technique comprises slow quiet speech, short sentences, increased interpersonal distance, avoidance of sustained eye contact, and announcement prior to any physical contact. Behavioural patients are not left unattended and providers do not turn away from them."
+        },
+        "eli_new": {
+          "analogy": "Behaviour is a symptom, not a diagnosis. Treating it as a diagnosis is the same mistake as treating a fever as a diagnosis.",
+          "body": "Two habits that separate crews who manage these calls well from crews who do not. First: check a sugar before you form an opinion. Second: decide in the ambulance who is going to talk, and then the other two genuinely say nothing."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what must be excluded before calling behaviour psychiatric, and describe how you set up the scene.",
+          "must_hit": [
+            {
+              "point": "Medical causes first: low sugar, hypoxia, head injury, infection, drugs and alcohol",
+              "accept": [
+                "glucose",
+                "sugar",
+                "hypox",
+                "head",
+                "infection",
+                "drug",
+                "alcohol",
+                "medical"
+              ]
+            },
+            {
+              "point": "Every behavioral patient gets a glucose and a saturation",
+              "accept": [
+                "glucose",
+                "saturation",
+                "oximet",
+                "every",
+                "check"
+              ]
+            },
+            {
+              "point": "Keep your own exit clear without cornering the patient",
+              "accept": [
+                "exit",
+                "route",
+                "corner",
+                "door",
+                "trapped",
+                "both"
+              ]
+            },
+            {
+              "point": "Scan for weapons and objects within reach",
+              "accept": [
+                "weapon",
+                "object",
+                "reach",
+                "scan",
+                "knife"
+              ]
+            },
+            {
+              "point": "One person talks; the rest stay quiet",
+              "accept": [
+                "one",
+                "single",
+                "talk",
+                "quiet",
+                "voice"
+              ]
+            },
+            {
+              "point": "Calm slow speech, space, no sudden touch",
+              "accept": [
+                "calm",
+                "slow",
+                "space",
+                "touch",
+                "warn",
+                "eye"
+              ]
+            },
+            {
+              "point": "Never leave them alone or turn your back",
+              "accept": [
+                "alone",
+                "back",
+                "leave",
+                "never"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Who's talking",
+          "dispatch": "Medic 6 — male in his twenties, agitated, family requesting help.",
+          "body": "There were three crew, two police officers and four family members in a small front room, and at least five of them were talking to him at once.\n\nThe senior medic asked everybody except one officer to step into the hall, then sat down on the floor and said almost nothing for two minutes.\n\nBy the time she asked her first question, he was answering it."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Approaching a behavioral emergency",
+          "steps": [
+            {
+              "text": "Decide who will talk BEFORE entering — one voice only",
+              "critical": true
+            },
+            {
+              "text": "Scene safety: request law enforcement where indicated and wait if the scene is not safe",
+              "critical": true
+            },
+            {
+              "text": "On entry, scan for accessible objects and note the layout",
+              "critical": true
+            },
+            {
+              "text": "Position so YOUR exit is clear and the PATIENT'S exit is not blocked",
+              "critical": true,
+              "note": "A person who feels cornered fights. Stand to one side of a doorway, not in it."
+            },
+            {
+              "text": "Reduce the number of people in the room",
+              "critical": false
+            },
+            {
+              "text": "Speak slowly and quietly in short sentences; allow more space than feels natural",
+              "critical": false
+            },
+            {
+              "text": "Avoid sustained direct eye contact",
+              "critical": false
+            },
+            {
+              "text": "CHECK A BLOOD GLUCOSE AND AN OXYGEN SATURATION",
+              "critical": true,
+              "note": "Before any psychiatric label. Low sugar and hypoxia both present as behaviour."
+            },
+            {
+              "text": "Take vital signs including temperature where the patient tolerates it",
+              "critical": false
+            },
+            {
+              "text": "Announce before any physical contact, every time",
+              "critical": true
+            },
+            {
+              "text": "Never leave the patient alone and never turn your back",
+              "critical": true
+            },
+            {
+              "text": "Document behaviour objectively — what was said and done, not your interpretation of it",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the organic causes list and the scene safety principles against the current text and local policy. Restraint is covered separately; no medication is named or dosed."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-02",
+      "title": "Suicide risk assessment",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-08-01",
+        "EMT-05-08-04"
+      ],
+      "key_points": [
+        "Asking about suicide does not plant the idea — this is the single most important thing to know, and the fear of it stops people asking",
+        "Ask directly and plainly: are you thinking about killing yourself?",
+        "Risk rises with a specific plan, available means, a stated timeframe, and previous attempts",
+        "A previous attempt is one of the strongest predictors, so it is always asked about",
+        "Sudden calm after a period of severe distress can mean a decision has been made, not that the crisis has passed",
+        "Take every statement seriously, including ones that sound manipulative or attention-seeking",
+        "Remove or secure obvious means where it is safe to do so, and tell the receiving staff what was present",
+        "Do not leave the patient alone, and do not promise confidentiality you cannot keep",
+        "Document what the patient said in their own words"
+      ],
+      "misconceptions": [
+        "Not asking because it might give them the idea",
+        "Being reassured by sudden calm",
+        "Dismissing threats as attention-seeking",
+        "Promising not to tell anyone"
+      ],
+      "exam_favorites": [
+        "Asking directly does not plant the idea",
+        "Plan, means, timeframe, previous attempts",
+        "Sudden calm as a warning sign"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Start with the thing that stops people doing this properly: asking someone about suicide does not put the idea in their head. It does not increase risk. It is the single most persistent myth in this area and it stops crews asking the question that matters.\n\nWhat asking actually does is give somebody permission to say out loud something they have been carrying alone, often for a long time. People are frequently relieved to be asked. Some will say yes to a stranger in a uniform when they have not been able to say it to anyone who loves them.\n\nSo ask, and ask plainly. Not 'you're not thinking of doing anything silly, are you' — which is a question shaped to get a no. Ask: are you thinking about killing yourself? Clear words, no euphemism, no apology for asking.\n\nIf the answer is yes, four things raise the risk.\n\nA plan. Not just wanting to die, but having thought about how. The more specific it is, the more serious it is.\n\nMeans. Do they have access to what the plan requires? A plan with the means sitting in the next room is a different situation from a plan with no way to carry it out.\n\nA timeframe. Tonight is different from someday.\n\nAnd previous attempts. This is one of the strongest predictors there is, so always ask. Have you tried before? What happened?\n\nNow the finding people misread. A patient who has been severely distressed and becomes suddenly calm and settled may not have recovered. That peace sometimes comes from having made a decision, and the relief of having decided. If a distressed patient becomes serene without anything having changed, that is a reason for more concern, not less.\n\nTake everything seriously, including statements that feel manipulative. You cannot tell from the outside, the people who seem to be seeking attention sometimes die, and it is not your call to make. Treat the statement as real every time.\n\nPractically: remove or secure obvious means where you safely can — the tablets on the table, the rope in the room — and tell the hospital what was there. Do not leave them alone, including in a toilet or while you fetch the trolley. And never promise to keep it secret, because you will pass this on, and a promise you break destroys the trust you needed.\n\nWrite down what they said in their own words. Their sentence, in quotation marks, is worth more than your summary of it.",
+          "standard": "Enquiry regarding suicidal ideation does not induce or increase risk; this misconception is the principal barrier to assessment. Direct, unambiguous questioning is indicated. Risk stratification considers presence of a formulated plan, availability of means, specified timeframe, and history of previous attempts, the last constituting among the strongest predictors. Abrupt resolution of distress into calm may reflect decisional resolution rather than clinical improvement and warrants increased rather than decreased concern. All expressed ideation is treated as genuine irrespective of apparent secondary gain. Means are removed or secured where safe and reported to receiving staff. Patients are not left unattended, including during toileting. Confidentiality must not be promised. Documentation records patient statements verbatim."
+        },
+        "eli_new": {
+          "analogy": "Asking is not handing someone a weapon. It is opening a door they have been standing behind.",
+          "body": "The two errors that matter. Not asking, because of a myth. And being reassured by a patient who has suddenly gone calm, when that calm can be the sound of a decision having been made."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you ask about suicide, what raises risk, and why sudden calm is concerning.",
+          "must_hit": [
+            {
+              "point": "Asking does not plant the idea or increase risk",
+              "accept": [
+                "not plant",
+                "does not",
+                "myth",
+                "increase",
+                "idea",
+                "safe to ask"
+              ]
+            },
+            {
+              "point": "Ask directly and plainly, without euphemism",
+              "accept": [
+                "direct",
+                "plain",
+                "clear",
+                "ask",
+                "kill yourself"
+              ]
+            },
+            {
+              "point": "A plan, available means, a timeframe and previous attempts raise risk",
+              "accept": [
+                "plan",
+                "means",
+                "timeframe",
+                "previous",
+                "attempt"
+              ]
+            },
+            {
+              "point": "Previous attempts are among the strongest predictors",
+              "accept": [
+                "previous",
+                "before",
+                "strongest",
+                "predictor",
+                "attempt"
+              ]
+            },
+            {
+              "point": "Sudden calm may mean a decision has been made",
+              "accept": [
+                "calm",
+                "sudden",
+                "decision",
+                "settled",
+                "concern"
+              ]
+            },
+            {
+              "point": "Take every statement seriously; do not promise confidentiality",
+              "accept": [
+                "serious",
+                "attention",
+                "manipulat",
+                "confidential",
+                "promise"
+              ]
+            },
+            {
+              "point": "Secure means, do not leave them alone, quote their words",
+              "accept": [
+                "means",
+                "remove",
+                "alone",
+                "quote",
+                "words",
+                "document"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She seemed fine",
+          "dispatch": "Medic 9 — welfare check, 34-year-old female, family concerned.",
+          "body": "The sister said she had been in a terrible state for weeks and had been much better since yesterday — calm, organised, had tidied the flat and sorted out some paperwork.\n\nThe crew nearly took that at face value, because it sounded like good news and everybody wanted it to be.\n\nNothing in her circumstances had changed. Only the decision had."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the risk factors and the guidance on direct questioning against the current text and local mental health policy. Nothing here replaces a formal risk assessment by qualified staff."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-03",
+      "title": "Agitation, excited delirium and restraint principles",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-08-01"
+      ],
+      "related": [
+        "EMT-05-08-01",
+        "EMT-05-05-03",
+        "EMT-05-05-07"
+      ],
+      "key_points": [
+        "Severe agitation with a very high body temperature, extraordinary strength and apparent insensitivity to pain is a medical emergency, not simply a behavioural one",
+        "These patients die, and they die from the physiology — hyperthermia, exhaustion and acidosis — not from the behaviour",
+        "Sudden quiet after violent struggling is an ominous sign, not a sign that the patient has settled",
+        "Verbal de-escalation is attempted first and is often enough; restraint is a last resort",
+        "Restraint requires enough people to do it quickly and safely — too few people makes it more dangerous, not less",
+        "NEVER restrain a patient face down, and never hobble or hog-tie: positional asphyxia kills",
+        "A restrained patient is monitored continuously and never left unobserved, and the restraints are never used as a reason to stop assessing",
+        "Restrained patients still need a glucose, a saturation, a temperature and a full set of vital signs",
+        "Document why restraint was necessary, what was tried first, how many people, what type, and every reassessment"
+      ],
+      "misconceptions": [
+        "Restraining prone or hog-tying a patient",
+        "Reading sudden quiet after a struggle as the patient calming down",
+        "Restraining with too few people because waiting felt slow",
+        "Treating restraint as the end of assessment rather than the start of closer monitoring",
+        "Missing hyperthermia because everybody is focused on the struggle"
+      ],
+      "exam_favorites": [
+        "Sudden quiet after struggling",
+        "Never prone, never hog-tied",
+        "Continuous monitoring after restraint",
+        "Hyperthermia as the lethal feature"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Some agitated patients are not simply agitated. There is a presentation — variously named, and the naming is contested — of extreme agitation with a very high body temperature, remarkable strength, apparent insensitivity to pain, and a patient who cannot be reasoned with at all.\n\nWhat you need to know about it is this: these patients die. And they die from physiology, not behaviour. Their temperature is dangerously high, they are in profound metabolic derangement from prolonged maximal exertion, and their body is being pushed past what it can sustain. It is a medical emergency dressed as a behavioural one, and treating it purely as a behaviour problem is how people end up dead in custody and on ambulance floors.\n\nThe most important single sign: sudden quiet after violent struggling. Everyone in the room exhales, because the fight is over and it feels like success. It is often the opposite. A patient who has been fighting at maximum effort and abruptly goes still may be arresting. If that happens, check — immediately, properly, pulse and breathing — do not stand back relieved.\n\nDe-escalation first, always, and it works more often than people expect. Time, quiet, space, one voice, and taking away whatever is making it worse. Many of these calls end without anybody touching anybody.\n\nWhen restraint is genuinely necessary, some rules are absolute.\n\nEnough people. Restraint with too few hands takes longer, involves more struggling, and hurts everybody — patient included. Waiting three minutes for enough people is safer than starting now with too few.\n\nNever prone. Never face down, never hog-tied, never hobbled, never with a patient folded forward so they cannot expand their chest. Positional asphyxia is how restrained patients die, and it is entirely preventable. Supine or on the side, with the face visible and the chest free.\n\nAnd once restrained, that patient needs more attention, not less. Continuous observation. Never out of sight. Check circulation in restrained limbs. And keep assessing — restraints are not a diagnosis, and a restrained patient still needs a blood glucose, an oxygen saturation, a temperature and a full set of vital signs. That temperature matters especially, because hyperthermia is the thing most likely to kill them and nobody takes a temperature while somebody is fighting.\n\nDocument properly: what the behaviour was, what you tried before restraint, why it became necessary, how many people were involved, what type of restraint, the position used, and every reassessment with times. This is the documentation most likely to be read carefully afterwards.",
+          "standard": "Severe agitation accompanied by marked hyperthermia, apparent increased strength and diminished pain response constitutes a medical emergency; the terminology applied to this presentation is contested. Mortality derives from hyperthermia, metabolic acidosis and exhaustion consequent to sustained maximal exertion rather than from the behaviour itself. Abrupt cessation of struggling following violent resistance may indicate cardiorespiratory arrest and mandates immediate assessment rather than reassurance. Verbal de-escalation constitutes first-line management and is frequently sufficient. Where physical restraint is necessary, adequate personnel must be assembled; insufficient numbers prolong struggle and increase risk to all parties. Prone restraint, hobbling and hog-tying are absolutely contraindicated owing to positional asphyxia; supine or lateral positioning with the face visible and thorax unrestricted is required. Restrained patients require continuous observation, assessment of distal circulation, and complete vital signs including temperature, glucose and oxygen saturation. Documentation records the precipitating behaviour, de-escalation attempted, justification, personnel involved, restraint type and position, and all reassessments with times."
+        },
+        "eli_new": {
+          "analogy": "A patient fighting at maximum effort is running an engine at redline. The danger is not the noise. It is what happens to the engine, and the silence when it stops.",
+          "body": "The moment that catches crews out is the moment of relief. Violent struggling stops, the room relaxes, and everybody takes a breath. That is precisely when you should be checking a pulse."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why severe agitation is a medical emergency, what sudden quiet means, and the absolute rules of restraint.",
+          "must_hit": [
+            {
+              "point": "Extreme agitation with high temperature and apparent great strength is a medical emergency",
+              "accept": [
+                "temperature",
+                "hypertherm",
+                "strength",
+                "pain",
+                "medical"
+              ]
+            },
+            {
+              "point": "They die from physiology: hyperthermia, exhaustion, acidosis",
+              "accept": [
+                "hypertherm",
+                "exhaust",
+                "acidosis",
+                "physiolog",
+                "die"
+              ]
+            },
+            {
+              "point": "Sudden quiet after struggling may mean arrest",
+              "accept": [
+                "sudden",
+                "quiet",
+                "still",
+                "arrest",
+                "check",
+                "pulse"
+              ]
+            },
+            {
+              "point": "De-escalation first; restraint is a last resort",
+              "accept": [
+                "de-escalat",
+                "deescalat",
+                "talk",
+                "last resort",
+                "first"
+              ]
+            },
+            {
+              "point": "Enough people, and NEVER prone or hog-tied",
+              "accept": [
+                "people",
+                "enough",
+                "prone",
+                "face down",
+                "hog",
+                "asphyxia"
+              ]
+            },
+            {
+              "point": "Continuous monitoring after restraint, never out of sight",
+              "accept": [
+                "monitor",
+                "continuous",
+                "observ",
+                "sight",
+                "circulation"
+              ]
+            },
+            {
+              "point": "Restrained patients still need glucose, saturation, temperature and vitals",
+              "accept": [
+                "glucose",
+                "saturation",
+                "temperature",
+                "vital",
+                "assess"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The moment it went quiet",
+          "dispatch": "Medic 4 — assist police, male fighting restraint, multiple officers on scene.",
+          "body": "He had been struggling at full effort for several minutes and was drenched and burning hot to touch.\n\nThen he stopped. Everybody in the room let their shoulders down, and one officer said thank God.\n\nThe medic was already on his neck feeling for a pulse. There was not one."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Physical restraint",
+          "steps": [
+            {
+              "text": "Exhaust verbal de-escalation first: time, quiet, space, one voice",
+              "critical": true
+            },
+            {
+              "text": "Assemble ENOUGH people before starting — waiting is safer than starting short-handed",
+              "critical": true
+            },
+            {
+              "text": "Brief the team: who takes which limb, who controls the head, who is in charge",
+              "critical": true
+            },
+            {
+              "text": "Restrain SUPINE or LATERAL — never prone, never hobbled, never hog-tied",
+              "critical": true,
+              "note": "Positional asphyxia is how restrained patients die, and it is entirely preventable."
+            },
+            {
+              "text": "Keep the face visible and the chest free to expand at all times",
+              "critical": true
+            },
+            {
+              "text": "Check circulation, sensation and movement distal to every restraint",
+              "critical": true
+            },
+            {
+              "text": "Take a full set of vital signs INCLUDING A TEMPERATURE",
+              "critical": true,
+              "note": "Hyperthermia is the most likely thing to kill them and nobody takes a temperature during a struggle."
+            },
+            {
+              "text": "Check a blood glucose and an oxygen saturation",
+              "critical": true
+            },
+            {
+              "text": "Observe continuously — the patient is never out of sight",
+              "critical": true
+            },
+            {
+              "text": "If struggling stops abruptly, CHECK A PULSE AND BREATHING IMMEDIATELY",
+              "critical": true,
+              "note": "Sudden quiet after maximal effort can be an arrest, not a patient settling."
+            },
+            {
+              "text": "Reassess and record at regular intervals throughout transport",
+              "critical": true
+            },
+            {
+              "text": "Document behaviour, de-escalation attempted, justification, personnel, restraint type and position, and every reassessment",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation description, restraint principles and positional asphyxia guidance against the current text and local restraint policy, which governs. The terminology for this presentation is contested and varies between sources and jurisdictions. No sedative medication is named or dosed; chemical restraint is outside EMT scope."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-04",
+      "title": "Legal aspects of psychiatric transport",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-08-01",
+        "EMT-05-08-02"
+      ],
+      "key_points": [
+        "Competent adults may refuse care, and mental illness alone does not remove that capacity",
+        "Capacity is about whether this patient can understand, retain, weigh and communicate a decision about this particular issue, now",
+        "Capacity can fluctuate and is decision-specific: someone may have capacity for one choice and not another",
+        "Implied consent covers a patient who cannot consent and is in an emergency",
+        "Legal frameworks exist for involuntary transport of patients who are a danger to themselves or others, and they differ by jurisdiction — know yours",
+        "Involuntary transport usually requires law enforcement or a designated official, not an EMT acting alone",
+        "Transporting an adult with capacity against their will can constitute assault or false imprisonment",
+        "Document the capacity assessment, what the patient was told, what they said, who was present, and the legal authority relied on",
+        "When it is genuinely unclear, involve medical direction and law enforcement rather than deciding alone"
+      ],
+      "misconceptions": [
+        "Assuming a psychiatric diagnosis means the patient cannot refuse",
+        "Transporting an adult with capacity against their will",
+        "Relying on family consent for a competent adult",
+        "Deciding alone in an ambiguous case rather than seeking direction"
+      ],
+      "exam_favorites": [
+        "Mental illness does not remove capacity",
+        "The four elements of capacity",
+        "Who authorises involuntary transport",
+        "What to document"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This is the area where good intentions cause legal problems, so it is worth being precise.\n\nA competent adult can refuse medical care. All of it. Even when the refusal is unwise, even when it will harm them, even when everybody in the room disagrees. That right does not disappear because somebody has a psychiatric diagnosis. A person with schizophrenia, depression or bipolar disorder can have full capacity, and frequently does.\n\nCapacity is not a global label. It is about this decision, at this moment. Four things: can the person understand the information, retain it long enough to use it, weigh it up against alternatives, and communicate their decision? All four, for this specific decision, now.\n\nAnd it moves. Somebody may have capacity this hour and not the next. Someone may have capacity to decide about a dressing and not about a life-threatening refusal. So it is assessed for the decision in front of you, not established once and filed away.\n\nWhere a patient cannot consent — unconscious, or without capacity — and there is an emergency, implied consent covers acting in their best interests. That is the default position and it exists precisely so that nobody stands and watches.\n\nEvery jurisdiction has a legal mechanism for transporting somebody involuntarily when they pose a danger to themselves or to others. The names, the criteria and the paperwork differ enormously between systems. You have to know yours, specifically, and knowing it in general terms is not enough.\n\nWhat is nearly universal is that an EMT does not invoke it alone. Involuntary transport normally requires law enforcement, a physician, or another designated official depending on the system. If you are considering moving an adult against their will, somebody else with that authority should be involved.\n\nThe risk of getting it wrong runs both ways, and both are serious. Transporting a competent adult against their will can be assault and false imprisonment. Leaving a patient who lacked capacity, and who then comes to harm, is abandonment. Neither is a comfortable place to be, which is exactly why the documentation matters.\n\nSo write it down properly: your assessment of capacity and what you based it on, what you told the patient about the risks, what they said back — in their words — who else was present, and what legal authority you relied on if the transport was involuntary.\n\nAnd when it is genuinely unclear, it is not your decision to make alone. Medical direction, law enforcement, and if your service has one, a mental health professional. Calling for help with a difficult decision is not weakness; it is what the system is for.",
+          "standard": "Adults with decision-making capacity may refuse care irrespective of the apparent wisdom of that refusal; psychiatric diagnosis does not itself negate capacity. Capacity is decision-specific and temporally variable, requiring that the patient understand relevant information, retain it, weigh it against alternatives, and communicate a decision. Implied consent applies where a patient lacks capacity and an emergency exists, permitting treatment in the patient's best interests. Statutory mechanisms for involuntary transport of patients posing danger to self or others exist in all jurisdictions but differ substantially in criteria, terminology and procedure; providers must know local provisions specifically. Invocation ordinarily requires law enforcement, a physician or another designated authority rather than the EMT alone. Transport of a capacitous adult against their will may constitute assault and false imprisonment; failure to transport an incapacitous patient who subsequently suffers harm may constitute abandonment. Documentation records the capacity assessment and its basis, information given, patient responses verbatim, persons present, and the legal authority relied upon. Ambiguous cases warrant consultation with medical direction and law enforcement."
+        },
+        "eli_new": {
+          "analogy": "Capacity is a key cut for one lock at one moment, not a passport that works everywhere forever.",
+          "body": "The instinct when someone is unwell and refusing help is to take them anyway because you are trying to help. That instinct is how EMTs end up in legal trouble. The answer is not to abandon the patient — it is to bring in the people who have the authority you do not."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what capacity is, whether mental illness removes it, and who authorises involuntary transport.",
+          "must_hit": [
+            {
+              "point": "Competent adults may refuse, even unwisely",
+              "accept": [
+                "refuse",
+                "competent",
+                "right",
+                "unwise",
+                "adult"
+              ]
+            },
+            {
+              "point": "Mental illness alone does not remove capacity",
+              "accept": [
+                "mental illness",
+                "diagnosis",
+                "does not",
+                "alone",
+                "still"
+              ]
+            },
+            {
+              "point": "Understand, retain, weigh, communicate — for this decision now",
+              "accept": [
+                "understand",
+                "retain",
+                "weigh",
+                "communicate",
+                "decision"
+              ]
+            },
+            {
+              "point": "Capacity fluctuates and is decision-specific",
+              "accept": [
+                "fluctuat",
+                "specific",
+                "change",
+                "vary",
+                "moment"
+              ]
+            },
+            {
+              "point": "Implied consent covers an emergency where the patient cannot consent",
+              "accept": [
+                "implied",
+                "consent",
+                "emergency",
+                "unconscious",
+                "best interest"
+              ]
+            },
+            {
+              "point": "Involuntary transport needs law enforcement or a designated official, not an EMT alone",
+              "accept": [
+                "law enforcement",
+                "police",
+                "physician",
+                "official",
+                "alone",
+                "authority"
+              ]
+            },
+            {
+              "point": "Document the assessment, what was said, who was present and the authority relied on",
+              "accept": [
+                "document",
+                "record",
+                "said",
+                "present",
+                "authority"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He said no",
+          "dispatch": "Medic 1 — 28-year-old male, family report he has stopped his medication.",
+          "body": "He answered the door, listened to everything the crew said, repeated the risks back to them accurately, and said he was not going to hospital today.\n\nHis mother was distressed and asked them to just take him. The crew explained, more than once, that they could not.\n\nHe had a diagnosis. He also understood, retained, weighed and communicated. Those are different things, and only the second one decides."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the capacity criteria and consent framework against the current text. Legal mechanisms for involuntary transport vary substantially by jurisdiction and are deliberately not specified here — the local framework governs and must be learned specifically."
     }
   ]
 }

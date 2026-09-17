@@ -4682,6 +4682,726 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-01-Q001",
+      "concept_id": "EMT-05-08-01",
+      "style": "recall",
+      "stem": "What must be excluded before behaviour is attributed to a psychiatric cause?",
+      "options": [
+        {
+          "text": "A family history of mental illness",
+          "rationale": "History does not exclude an organic cause."
+        },
+        {
+          "text": "Medical causes such as low blood sugar, hypoxia, head injury and infection",
+          "rationale": "Correct. All of these present as behaviour change."
+        },
+        {
+          "text": "Whether the patient has been sectioned before",
+          "rationale": "Previous admissions do not exclude a medical cause today."
+        },
+        {
+          "text": "The patient's willingness to cooperate",
+          "rationale": "Cooperation says nothing about aetiology."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-01-Q002",
+      "concept_id": "EMT-05-08-01",
+      "style": "recall",
+      "stem": "Which two measurements are taken on every behavioral patient?",
+      "options": [
+        {
+          "text": "Temperature and respiratory rate only",
+          "rationale": "Both are useful but are not the named pair."
+        },
+        {
+          "text": "Blood glucose and oxygen saturation",
+          "rationale": "Correct. Ninety seconds, and it separates a diagnosis from a label."
+        },
+        {
+          "text": "Blood pressure and pulse only",
+          "rationale": "Important, but not the two that exclude the reversible causes."
+        },
+        {
+          "text": "None; vital signs escalate agitated patients",
+          "rationale": "Vital signs are obtained wherever the patient tolerates it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-01-Q003",
+      "concept_id": "EMT-05-08-01",
+      "style": "application",
+      "stem": "Where should you position yourself relative to a doorway with an agitated patient?",
+      "options": [
+        {
+          "text": "Squarely in the doorway, blocking the exit",
+          "rationale": "A patient who feels cornered fights."
+        },
+        {
+          "text": "To one side, keeping your own exit clear without blocking theirs",
+          "rationale": "Correct. Both of you should be able to leave."
+        },
+        {
+          "text": "Behind the patient, out of their view",
+          "rationale": "Never position yourself where you cannot be seen or see them."
+        },
+        {
+          "text": "In the far corner of the room",
+          "rationale": "That is exactly where you do not want to be."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-01-Q004",
+      "concept_id": "EMT-05-08-01",
+      "style": "application",
+      "stem": "Five people are talking to an agitated patient at once. What should happen?",
+      "options": [
+        {
+          "text": "Continue; more voices show concern",
+          "rationale": "Multiple voices escalate an agitated patient."
+        },
+        {
+          "text": "Reduce the room to one speaker and ask the rest to step out",
+          "rationale": "Correct. One voice is the single most useful thing a crew can do."
+        },
+        {
+          "text": "Raise your voice to be heard above the others",
+          "rationale": "Raising volume raises the temperature of the room."
+        },
+        {
+          "text": "Have each person ask their questions in turn",
+          "rationale": "Fewer people, not an orderly queue of them."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-01-Q005",
+      "concept_id": "EMT-05-08-01",
+      "style": "sequence",
+      "stem": "When should you touch a behavioral patient?",
+      "options": [
+        {
+          "text": "Whenever assessment requires it, without preamble",
+          "rationale": "Unannounced contact escalates an already frightened patient."
+        },
+        {
+          "text": "After announcing it, every time",
+          "rationale": "Correct. Tell them before you touch them, without exception."
+        },
+        {
+          "text": "Only after restraint has been applied",
+          "rationale": "Restraint is a last resort, not a precondition for contact."
+        },
+        {
+          "text": "Never, under any circumstances",
+          "rationale": "Assessment requires contact; the rule is to announce it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-01-Q006",
+      "concept_id": "EMT-05-08-01",
+      "style": "recall",
+      "stem": "Why is a behavioral patient never left alone?",
+      "options": [
+        {
+          "text": "Because they will always attempt to leave",
+          "rationale": "Not the stated reason, and not universally true."
+        },
+        {
+          "text": "Because you cannot see what you are not looking at, and the cost of being wrong is high",
+          "rationale": "Correct. It is about visibility, not about assuming danger."
+        },
+        {
+          "text": "Because protocol requires two-person contact for billing",
+          "rationale": "Not a clinical consideration."
+        },
+        {
+          "text": "Because they cannot be trusted",
+          "rationale": "The rule is not a judgement about the patient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-02-Q001",
+      "concept_id": "EMT-05-08-02",
+      "style": "recall",
+      "stem": "Does asking a patient directly about suicide increase their risk?",
+      "options": [
+        {
+          "text": "Yes, it can plant the idea",
+          "rationale": "This is the persistent myth that stops people asking."
+        },
+        {
+          "text": "No — asking does not plant the idea and often brings relief",
+          "rationale": "Correct. It gives permission to say something carried alone."
+        },
+        {
+          "text": "Only in patients under 18",
+          "rationale": "It does not increase risk at any age."
+        },
+        {
+          "text": "Only if asked more than once",
+          "rationale": "Repetition does not create risk either."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-02-Q002",
+      "concept_id": "EMT-05-08-02",
+      "style": "recall",
+      "stem": "Which factors raise suicide risk?",
+      "options": [
+        {
+          "text": "Age and gender alone",
+          "rationale": "Demographics alone are not the assessment."
+        },
+        {
+          "text": "A specific plan, available means, a timeframe, and previous attempts",
+          "rationale": "Correct. Previous attempts are among the strongest predictors."
+        },
+        {
+          "text": "Whether the patient is crying",
+          "rationale": "Visible distress does not stratify risk."
+        },
+        {
+          "text": "Whether family are present",
+          "rationale": "Presence of family does not determine risk."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-02-Q003",
+      "concept_id": "EMT-05-08-02",
+      "style": "application",
+      "stem": "A severely distressed patient has become suddenly calm and organised with nothing having changed. How should this be read?",
+      "options": [
+        {
+          "text": "As recovery from the crisis",
+          "rationale": "Nothing in her circumstances changed, only her resolve."
+        },
+        {
+          "text": "As possibly reflecting a decision having been made — a reason for more concern",
+          "rationale": "Correct. That calm can be the sound of a decision."
+        },
+        {
+          "text": "As evidence the original distress was exaggerated",
+          "rationale": "The distress was real."
+        },
+        {
+          "text": "As a reason to consider leaving the patient at home",
+          "rationale": "This is the point at which you do the opposite."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-02-Q004",
+      "concept_id": "EMT-05-08-02",
+      "style": "application",
+      "stem": "A patient says something that sounds attention-seeking. How should you treat it?",
+      "options": [
+        {
+          "text": "Dismiss it as manipulation",
+          "rationale": "You cannot tell from outside, and people who seem to be seeking attention do die."
+        },
+        {
+          "text": "Treat it as genuine, as with every statement",
+          "rationale": "Correct. It is not your call to judge which ones are real."
+        },
+        {
+          "text": "Confront the patient about their motives",
+          "rationale": "Confrontation achieves nothing and damages trust."
+        },
+        {
+          "text": "Document it as non-genuine",
+          "rationale": "Documentation records what was said, not your judgement of sincerity."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-02-Q005",
+      "concept_id": "EMT-05-08-02",
+      "style": "recall",
+      "stem": "Should you promise a suicidal patient confidentiality?",
+      "options": [
+        {
+          "text": "Yes, to build trust quickly",
+          "rationale": "You will pass this on, and a broken promise destroys the trust you needed."
+        },
+        {
+          "text": "No — you will pass the information on and cannot promise otherwise",
+          "rationale": "Correct. Be honest about what happens next."
+        },
+        {
+          "text": "Yes, if they ask directly",
+          "rationale": "Promising it because they asked makes the breach worse."
+        },
+        {
+          "text": "Only about the details, not the fact",
+          "rationale": "Partial promises are still promises you cannot keep."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-02-Q006",
+      "concept_id": "EMT-05-08-02",
+      "style": "scenario",
+      "stem": "How should the patient's statements be documented?",
+      "options": [
+        {
+          "text": "As your clinical interpretation of their intent",
+          "rationale": "Your summary is less useful than their words."
+        },
+        {
+          "text": "In their own words, quoted",
+          "rationale": "Correct. Their sentence in quotation marks carries the most information."
+        },
+        {
+          "text": "As a risk score only",
+          "rationale": "A score without the words loses what was actually said."
+        },
+        {
+          "text": "Not at all, for confidentiality",
+          "rationale": "Documentation is required and is passed to receiving staff."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-03-Q001",
+      "concept_id": "EMT-05-08-03",
+      "style": "recall",
+      "stem": "Why is severe agitation with very high body temperature a medical emergency?",
+      "options": [
+        {
+          "text": "Because the patient may injure staff",
+          "rationale": "Staff safety matters, but it is not why it is a medical emergency."
+        },
+        {
+          "text": "Because patients die from hyperthermia, exhaustion and acidosis",
+          "rationale": "Correct. The physiology kills them, not the behaviour."
+        },
+        {
+          "text": "Because it always indicates a psychiatric illness",
+          "rationale": "It is frequently not psychiatric at all."
+        },
+        {
+          "text": "Because it requires police involvement",
+          "rationale": "Police involvement is not what makes it medical."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-03-Q002",
+      "concept_id": "EMT-05-08-03",
+      "style": "application",
+      "stem": "A violently struggling restrained patient suddenly goes quiet. What should you do?",
+      "options": [
+        {
+          "text": "Take the opportunity to relax and reassess in a few minutes",
+          "rationale": "This is the moment crews are caught out."
+        },
+        {
+          "text": "Immediately check a pulse and breathing",
+          "rationale": "Correct. Sudden quiet after maximal effort can be an arrest."
+        },
+        {
+          "text": "Tighten the restraints while they are settled",
+          "rationale": "The priority is establishing whether they have arrested."
+        },
+        {
+          "text": "Move them to the ambulance quickly",
+          "rationale": "Assessment comes before movement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-03-Q003",
+      "concept_id": "EMT-05-08-03",
+      "style": "recall",
+      "stem": "In what position must a patient never be restrained?",
+      "options": [
+        {
+          "text": "Supine",
+          "rationale": "Supine is an acceptable position."
+        },
+        {
+          "text": "Prone or hog-tied",
+          "rationale": "Correct. Positional asphyxia is how restrained patients die."
+        },
+        {
+          "text": "On their side",
+          "rationale": "Lateral positioning is acceptable."
+        },
+        {
+          "text": "Sitting upright with the chest free",
+          "rationale": "Acceptable provided the chest can expand."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-03-Q004",
+      "concept_id": "EMT-05-08-03",
+      "style": "application",
+      "stem": "Only two crew are available and restraint appears necessary. What is the safer course?",
+      "options": [
+        {
+          "text": "Start now, since delay increases risk",
+          "rationale": "Too few hands prolongs the struggle and increases risk to everybody."
+        },
+        {
+          "text": "Wait for enough people before starting",
+          "rationale": "Correct. Waiting three minutes is safer than starting short-handed."
+        },
+        {
+          "text": "Use additional mechanical restraint to compensate",
+          "rationale": "More devices do not replace enough hands."
+        },
+        {
+          "text": "Restrain prone, which needs fewer people",
+          "rationale": "Prone restraint is absolutely contraindicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-03-Q005",
+      "concept_id": "EMT-05-08-03",
+      "style": "recall",
+      "stem": "What does a patient need after being restrained?",
+      "options": [
+        {
+          "text": "Less assessment, since they are now controlled",
+          "rationale": "Restraint is the start of closer monitoring, not the end of assessment."
+        },
+        {
+          "text": "Continuous observation and a full set of vital signs including temperature",
+          "rationale": "Correct. Restraints are not a diagnosis."
+        },
+        {
+          "text": "Transport without further contact",
+          "rationale": "Continuous observation is required throughout."
+        },
+        {
+          "text": "Only a pulse check on arrival",
+          "rationale": "Reassessment is at regular intervals throughout."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-03-Q006",
+      "concept_id": "EMT-05-08-03",
+      "style": "sequence",
+      "stem": "Why is a temperature specifically important in a restrained, previously struggling patient?",
+      "options": [
+        {
+          "text": "Because restraint causes fever",
+          "rationale": "Restraint does not cause fever."
+        },
+        {
+          "text": "Because hyperthermia is the most likely thing to kill them and nobody measures it during a struggle",
+          "rationale": "Correct. It is the measurement most often missed here."
+        },
+        {
+          "text": "Because it determines the transport destination",
+          "rationale": "Not what it determines."
+        },
+        {
+          "text": "Because it indicates infection",
+          "rationale": "Infection is not the concern in this presentation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-04-Q001",
+      "concept_id": "EMT-05-08-04",
+      "style": "recall",
+      "stem": "Does a psychiatric diagnosis remove a patient's capacity to refuse care?",
+      "options": [
+        {
+          "text": "Yes, always",
+          "rationale": "A diagnosis alone does not remove capacity."
+        },
+        {
+          "text": "No — capacity is assessed for the decision at hand, and many patients with a diagnosis have it",
+          "rationale": "Correct. Diagnosis and capacity are different things."
+        },
+        {
+          "text": "Only for patients who have been admitted before",
+          "rationale": "Previous admission does not determine current capacity."
+        },
+        {
+          "text": "Only if family disagree with the refusal",
+          "rationale": "Family disagreement does not determine capacity."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-04-Q002",
+      "concept_id": "EMT-05-08-04",
+      "style": "recall",
+      "stem": "What are the four elements of capacity?",
+      "options": [
+        {
+          "text": "Age, orientation, cooperation, consent",
+          "rationale": "None of these are the elements."
+        },
+        {
+          "text": "Understand, retain, weigh, and communicate a decision",
+          "rationale": "Correct. All four, for this decision, now."
+        },
+        {
+          "text": "Alertness, mobility, speech, memory",
+          "rationale": "These are clinical observations, not capacity elements."
+        },
+        {
+          "text": "Diagnosis, history, examination, plan",
+          "rationale": "That is the structure of a clinical assessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-04-Q003",
+      "concept_id": "EMT-05-08-04",
+      "style": "application",
+      "stem": "A patient understands the risks, repeats them accurately, and refuses transport. Family ask you to take him anyway. What do you do?",
+      "options": [
+        {
+          "text": "Transport him, since family have asked",
+          "rationale": "Family cannot consent for a capacitous adult."
+        },
+        {
+          "text": "Explain that you cannot transport a capacitous adult against their will",
+          "rationale": "Correct. Doing so may constitute assault and false imprisonment."
+        },
+        {
+          "text": "Transport him if he has a psychiatric diagnosis",
+          "rationale": "Diagnosis does not remove capacity."
+        },
+        {
+          "text": "Leave without documenting anything",
+          "rationale": "Documentation is essential in exactly this situation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-04-Q004",
+      "concept_id": "EMT-05-08-04",
+      "style": "recall",
+      "stem": "Who typically authorises involuntary transport?",
+      "options": [
+        {
+          "text": "The EMT, acting alone on clinical judgement",
+          "rationale": "An EMT does not invoke this alone."
+        },
+        {
+          "text": "Law enforcement, a physician or another designated official, depending on jurisdiction",
+          "rationale": "Correct. The specific framework varies and must be known locally."
+        },
+        {
+          "text": "The patient's family",
+          "rationale": "Family cannot authorise involuntary transport."
+        },
+        {
+          "text": "The receiving hospital by telephone",
+          "rationale": "Not the general mechanism, though medical direction may be involved."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-04-Q005",
+      "concept_id": "EMT-05-08-04",
+      "style": "application",
+      "stem": "What is the risk of leaving a patient who lacked capacity?",
+      "options": [
+        {
+          "text": "None, since they refused",
+          "rationale": "A refusal from someone without capacity is not a valid refusal."
+        },
+        {
+          "text": "Abandonment, if they subsequently come to harm",
+          "rationale": "Correct. The risk runs both ways, which is why documentation matters."
+        },
+        {
+          "text": "Only a complaint, with no legal consequence",
+          "rationale": "It carries real legal consequence."
+        },
+        {
+          "text": "It transfers liability to the family",
+          "rationale": "Liability is not transferred by leaving."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-08-04-Q006",
+      "concept_id": "EMT-05-08-04",
+      "style": "scenario",
+      "stem": "A capacity decision is genuinely unclear. What should you do?",
+      "options": [
+        {
+          "text": "Make the call yourself and document it afterwards",
+          "rationale": "Ambiguous cases are not decided alone."
+        },
+        {
+          "text": "Involve medical direction and law enforcement",
+          "rationale": "Correct. Calling for help with a hard decision is what the system is for."
+        },
+        {
+          "text": "Default to always transporting",
+          "rationale": "Transporting a capacitous adult against their will has its own consequences."
+        },
+        {
+          "text": "Default to never transporting",
+          "rationale": "Leaving an incapacitous patient risks abandonment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
