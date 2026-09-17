@@ -40,6 +40,16 @@
         "EMT-09-02-07",
         "EMT-09-02-08"
       ]
+    },
+    {
+      "id": "EMT-09-03",
+      "title": "Administration in practice",
+      "concepts": [
+        "EMT-09-03-01",
+        "EMT-09-03-02",
+        "EMT-09-03-03",
+        "EMT-09-03-04"
+      ]
     }
   ],
   "concepts": [
@@ -2654,6 +2664,632 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm whether your service carries activated charcoal, its indications, contraindications and authorisation requirements against your local protocol — practice has changed considerably and varies widely. NO DOSE IS STATED. Every dose field on every drug card in this module reads 'per protocol / verify'. Confirm doses, indications and contraindications against your own protocol and the current text before use."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-01",
+      "title": "Assisting with a patient's own medication",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-09-01-07",
+        "EMT-09-02-04",
+        "EMT-09-02-06"
+      ],
+      "key_points": [
+        "Assisting means helping a patient take a medication that was prescribed to them",
+        "Confirm it is prescribed to this patient, not to a partner, a parent or a neighbour",
+        "Confirm it is in date and that the medication in the container matches the label",
+        "Confirm the criteria in your protocol are met, and contact medical direction where required",
+        "The patient should take it themselves wherever they are able to",
+        "Check whether they have already taken a dose, and how many, and when",
+        "A patient who cannot follow the instruction to use a device may not be able to use it effectively",
+        "Never assist with a medication that is not prescribed to the patient in front of you",
+        "Document that you assisted, with what, at what time, and what happened afterwards",
+        "Assisting is still an administration as far as your responsibility is concerned"
+      ],
+      "misconceptions": [
+        "Assisting with a family member's prescription",
+        "Assuming the container holds what the label says",
+        "Failing to ask how many doses have already been taken",
+        "Recording the assistance casually or not at all"
+      ],
+      "exam_favorites": [
+        "Prescribed to this patient",
+        "How many already",
+        "It is still your responsibility"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Assisting means helping a patient take a medication that was prescribed to them — their inhaler, their nitroglycerin, their auto-injector. It is a different authority from administering something your service carries, and it comes with its own checks.\n\nFirst, confirm it is prescribed to this patient. Not to their husband, not to their mother, not to a friend who had the same thing last year and left the box. Read the name on the label and make sure it is the person in front of you. Households frequently contain several people's medication, and an inhaler is an inhaler to look at.\n\nSecond, confirm it is in date. Expiry dates matter and people keep things for years, particularly medications they only use in emergencies — which is exactly the category you will be reaching for. An auto-injector that has sat in a drawer since a reaction three years ago may well be out of date.\n\nThird, confirm the medication in the container matches the label. Tablets get decanted into other boxes, and people organise things into pill organisers. If the container and the contents do not obviously agree, do not use it.\n\nFourth, confirm the criteria in your protocol are met, and contact medical direction where your system requires it. Assisting is not a free action; it is an authorised one, with conditions.\n\nWherever the patient is able to, they should take it themselves. That is partly a scope point and partly practical — they have done it many times, they know their own technique, and self-administration keeps the boundary between assisting and administering clear.\n\nThen a question that gets missed: have they already taken a dose? How many, and when? People treat themselves before calling, and often before even deciding it was serious. Somebody with chest pain may have taken two doses of their own spray before the ambulance arrived, and unless you ask specifically, that will not appear in the conversation.\n\nOne clinical caution. A patient who cannot follow the instruction for a device cannot use the device effectively. Someone too confused to coordinate an inhaler, or too exhausted to inhale, will not get the drug into their airways however many times you press it. That is a sign to escalate rather than to repeat.\n\nAnd never assist with a medication that is not prescribed to the patient in front of you. Not their partner's identical inhaler, not a neighbour's spare. The prescription is what makes it appropriate for this person, and the reasoning that says \"it is the same drug\" is the reasoning that leads to harm.\n\nDocument that you assisted, with what, at what time, and what happened afterwards.\n\nAnd hold on to the last point, because people get it wrong. Assisting is still an administration as far as your responsibility is concerned. The fact that the patient's own hand pressed the device does not move the decision away from you. You decided it was appropriate, and you own that decision.",
+          "standard": "Assistance denotes facilitation of patient self-administration of a medication prescribed to that patient, constituting a distinct authority from administration of service-carried agents and subject to specific verification. Prescription must be confirmed as issued to the present patient rather than to a household member or third party, as households commonly contain multiple prescriptions and devices are visually similar. Expiry must be verified, as emergency-use medications are retained for extended periods and constitute precisely the category likely to be required. Container contents must be verified as corresponding to label, as decanting and use of pill organisers occur; discrepancy precludes use. Protocol criteria must be satisfied and medical direction contacted where the system requires, assistance constituting an authorised rather than unrestricted action. Self-administration by the patient is preferred where capability permits, on both scope and practical grounds, preserving the distinction between assistance and administration and employing the patient's established technique. Enquiry regarding prior self-administration, including quantity and timing, is required, as patients frequently self-treat before summoning assistance and do not volunteer this. Patients unable to follow device instructions cannot achieve effective delivery; inability to coordinate an inhaler or generate adequate inspiratory effort indicates escalation rather than repetition. Assistance with medication not prescribed to the present patient is prohibited irrespective of pharmaceutical equivalence. Documentation comprises the agent, time and subsequent effect. Assistance constitutes administration for the purposes of provider responsibility; patient actuation of the device does not transfer the clinical decision, which remains the provider's."
+        },
+        "eli_new": {
+          "analogy": "The fact that the patient's own hand pressed the device does not move the decision away from you. You decided it was appropriate.",
+          "body": "Read the name on the label. Households contain several people's medication, and one inhaler looks very much like another."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what you check before assisting a patient with their own medication.",
+          "must_hit": [
+            {
+              "point": "It must be prescribed to this patient",
+              "accept": [
+                "prescribed",
+                "this patient",
+                "name",
+                "label",
+                "not their"
+              ]
+            },
+            {
+              "point": "It must be in date",
+              "accept": [
+                "date",
+                "expiry",
+                "expired",
+                "years",
+                "drawer"
+              ]
+            },
+            {
+              "point": "The contents must match the label",
+              "accept": [
+                "contents",
+                "match",
+                "label",
+                "container",
+                "decant"
+              ]
+            },
+            {
+              "point": "Protocol criteria must be met, with medical direction where required",
+              "accept": [
+                "protocol",
+                "criteria",
+                "medical direction",
+                "authoris",
+                "conditions"
+              ]
+            },
+            {
+              "point": "The patient takes it themselves where able",
+              "accept": [
+                "themselves",
+                "self",
+                "able",
+                "own hand",
+                "technique"
+              ]
+            },
+            {
+              "point": "Ask how many doses they have already taken and when",
+              "accept": [
+                "already",
+                "how many",
+                "when",
+                "before",
+                "ask"
+              ]
+            },
+            {
+              "point": "Never assist with someone else's prescription",
+              "accept": [
+                "never",
+                "someone else",
+                "partner",
+                "neighbour",
+                "same drug"
+              ]
+            },
+            {
+              "point": "Assisting is still your responsibility",
+              "accept": [
+                "responsibility",
+                "still",
+                "administration",
+                "own",
+                "decision"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Whose name",
+          "dispatch": "Medic 7 — breathing difficulty, inhaler produced by a family member.",
+          "body": "Somebody turned the label towards the light and read the name on it, which takes about three seconds.\n\nIt was her husband's. Hers was upstairs and had run out two weeks before.\n\nThat is a different call from the one they thought they were on."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the criteria for assisting with patient medications, and whether medical direction contact is required, against your local protocol. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-02",
+      "title": "Reassessment and documentation",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-05"
+      ],
+      "related": [
+        "EMT-09-01-05",
+        "EMT-03-06-01",
+        "EMT-01-04-02"
+      ],
+      "key_points": [
+        "Giving a drug is half the job — finding out what it did is the other half",
+        "Reassess after every administration, on a timescale that matches the drug's onset",
+        "Reassess the thing the drug was supposed to change, not just the general impression",
+        "Look for adverse effects specifically, because you know what this drug can do",
+        "Vital signs before and after give you a comparison rather than a snapshot",
+        "Document the medication, the dose, the route, the time and who gave it",
+        "Document the effect, which is the part most often left out and the part the hospital most wants",
+        "Document a refusal or a withheld dose and the reason, because a decision not to give is still a decision",
+        "Say it in the handover as well as writing it, because the written record may not be read immediately",
+        "An administration that is not documented is indistinguishable from one that did not happen"
+      ],
+      "misconceptions": [
+        "Giving a drug and not reassessing",
+        "Documenting the dose but not the effect",
+        "Failing to record a withheld dose and why",
+        "Relying on the written record alone at handover"
+      ],
+      "exam_favorites": [
+        "Reassess what the drug should change",
+        "Document the effect",
+        "Record what you withheld"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Giving a drug is half the job. Finding out what it did is the other half, and it is the half that gets skipped when things are busy.\n\nReassess after every administration, on a timescale that matches the drug's onset. Something given sublingually or by injection is reassessed within a few minutes. Something oral takes longer. Knowing the onset tells you when to look.\n\nAnd reassess the specific thing the drug was supposed to change. This matters more than it sounds. If you gave a bronchodilator, listen to the chest and look at the work of breathing — do not simply form a general impression that the patient seems a bit better. If you gave glucose, look at the mental status and recheck the sugar where protocol allows. If you assisted with nitroglycerin, ask about the pain and take another blood pressure. Match the reassessment to the intention.\n\nLook for adverse effects specifically, because you know what this drug can do. That knowledge is what turns reassessment from a vague look into a check. Expecting a faster heart rate after a bronchodilator means you take a pulse. Expecting hypotension after nitroglycerin means you take a pressure.\n\nVital signs before and after give you a comparison. A single set afterwards tells you the state; two sets tell you the direction, and direction is what clinical decisions are made from.\n\nThen documentation, and it comes in two halves.\n\nThe administration: what you gave, how much, by which route, at what time, and who gave it.\n\nAnd the effect: what happened. This is the part most often left out and the part the receiving hospital most wants — because it tells them what has already been tried and whether it worked, which shapes everything they do next. \"Given\" and \"given, with the pain reducing from severe to mild and no change in blood pressure\" are very different pieces of information.\n\nDocument a refusal or a withheld dose too, with the reason. A decision not to give something is still a clinical decision, and it is one somebody may ask about later. \"Nitroglycerin withheld: systolic below protocol threshold\" shows that you considered it and decided correctly. Silence looks like you forgot.\n\nSay it in the handover as well as writing it. The written record may not be read for some time, and the person taking over the patient needs the drug history immediately. Say what you gave, when, and what happened.\n\nAnd carry the last line with you, because it is the one that matters legally and clinically: an administration that is not documented is indistinguishable, afterwards, from one that did not happen.",
+          "standard": "Administration constitutes half of the clinical action, with determination of effect constituting the remainder, and is the component omitted under operational pressure. Reassessment follows every administration on a timescale corresponding to the agent's onset; sublingual and parenteral routes warrant reassessment within minutes, enteral routes later, with knowledge of onset determining timing. Reassessment should address the specific parameter the agent was intended to modify rather than global impression: bronchodilator administration warrants auscultation and assessment of work of breathing; glucose administration warrants mental status assessment and repeat glucose measurement where protocol permits; nitroglycerin warrants pain assessment and repeat blood pressure. Adverse effect surveillance should be specific and informed by the agent's known effect profile, converting reassessment from observation to directed examination. Paired pre- and post-administration vital signs provide trend rather than single-point data, trend informing clinical decision. Documentation comprises two components: the administration, recording agent, quantity, route, time and administering provider; and the effect, recording outcome. The latter is most frequently omitted and is of greatest value to receiving clinicians, indicating prior intervention and response and shaping subsequent management. Refusals and withheld doses require documentation with rationale, a decision to withhold constituting a clinical decision subject to subsequent review; recorded rationale demonstrates consideration, whereas omission implies oversight. Verbal handover should include drug history in addition to written documentation, as written records may not be reviewed contemporaneously while the receiving provider requires immediate awareness. Undocumented administration is retrospectively indistinguishable from non-administration."
+        },
+        "eli_new": {
+          "analogy": "'Given' and 'given, with the pain falling from severe to mild and no change in pressure' are completely different pieces of information, and only one of them is useful.",
+          "body": "Reassess the specific thing the drug was meant to change. A general impression that the patient seems better is not a reassessment."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what you do after giving a drug and what must be documented.",
+          "must_hit": [
+            {
+              "point": "Giving the drug is half the job; finding out what it did is the other half",
+              "accept": [
+                "half",
+                "what it did",
+                "effect",
+                "other",
+                "find out"
+              ]
+            },
+            {
+              "point": "Reassess on a timescale matching the drug's onset",
+              "accept": [
+                "onset",
+                "timescale",
+                "minutes",
+                "when",
+                "match"
+              ]
+            },
+            {
+              "point": "Reassess the specific thing the drug should change",
+              "accept": [
+                "specific",
+                "intended",
+                "listen",
+                "mental status",
+                "pain",
+                "not general"
+              ]
+            },
+            {
+              "point": "Look for adverse effects specifically",
+              "accept": [
+                "adverse",
+                "specific",
+                "expect",
+                "pulse",
+                "pressure",
+                "check"
+              ]
+            },
+            {
+              "point": "Vital signs before and after give a comparison",
+              "accept": [
+                "before",
+                "after",
+                "compar",
+                "trend",
+                "direction"
+              ]
+            },
+            {
+              "point": "Document what, how much, route, time and who",
+              "accept": [
+                "what",
+                "dose",
+                "route",
+                "time",
+                "who"
+              ]
+            },
+            {
+              "point": "Document the effect — the part most often left out",
+              "accept": [
+                "effect",
+                "left out",
+                "hospital",
+                "wants",
+                "happened"
+              ]
+            },
+            {
+              "point": "Document withheld doses and reasons, and say it at handover",
+              "accept": [
+                "withheld",
+                "refus",
+                "reason",
+                "handover",
+                "say"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Withheld",
+          "dispatch": "Medic 5 — chest pain, nitroglycerin considered and not given.",
+          "body": "They did not give it, for a good reason, and very nearly wrote nothing about it.\n\nSomebody added one line saying it was withheld and why.\n\nThat line is the difference between a decision made and a thing forgotten, and it costs about eight seconds."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm documentation requirements and reassessment intervals against your service's policy and your local protocol. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-03",
+      "title": "The medication kit",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-01-02",
+        "EMT-09-01-05"
+      ],
+      "key_points": [
+        "Medications are checked at the start of every shift like everything else on the vehicle",
+        "Check quantities, check expiry dates, and check that packaging is intact",
+        "Expiry dates fail silently, so they must be read rather than assumed",
+        "Store medications within the temperature range they require, which is a genuine problem in a vehicle",
+        "Heat and freezing both damage medications, and a vehicle experiences both",
+        "Light damages some medications, which is why they come in dark containers or boxes",
+        "Keep the kit organised and consistent so you can find things by memory in poor conditions",
+        "Controlled medications have additional security and record requirements where your service carries them",
+        "Replace what you use at the earliest opportunity, and report what you could not replace",
+        "A medication that is out of date, damaged, or stored outside its range is not used"
+      ],
+      "misconceptions": [
+        "Assuming the previous crew checked the expiry dates",
+        "Leaving medications in a vehicle through extreme temperatures",
+        "Rearranging the kit so nobody else can find things",
+        "Using a medication whose packaging is damaged"
+      ],
+      "exam_favorites": [
+        "Expiry fails silently",
+        "Temperature in a vehicle",
+        "Consistent layout"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Medications get checked at the start of every shift, exactly like everything else on the vehicle, and for the same reasons.\n\nCheck quantities, so you know what you have. Check expiry dates, because they fail silently — an expired item looks precisely like a current one, and no amount of looking at the kit will tell you. They have to be read. And check that packaging is intact: a damaged blister, a cracked vial, a torn seal or an auto-injector with a damaged casing is not used.\n\nTemperature is a genuine problem specific to this setting, and it is worth taking seriously because it is invisible.\n\nMedications have a temperature range they need to be kept within. A vehicle is one of the worst environments there is for that. It sits in the sun and becomes extremely hot, and the same vehicle sits overnight in winter and freezes. Both damage medications, and neither leaves a visible mark. A drug that has been repeatedly heated and cooled may simply not work, and nothing about the box will tell you.\n\nSo follow your service's storage arrangements — the insulated bag, the climate-controlled compartment, the practice of bringing certain items inside — rather than treating them as optional. They exist because someone worked out what the compartment temperature actually reaches.\n\nLight damages some medications, which is why they come in dark containers or stay in their boxes. Leave them in what they came in.\n\nKeep the kit organised and organised consistently. Not for tidiness — so that you can find things by memory, in the dark, in a hurry, with one hand. That only works if the layout is the same every time and the same as everyone else's. Rearranging a shared kit to suit yourself is a genuinely unhelpful thing to do, however much better your system is.\n\nWhere your service carries controlled medications, they come with additional security and record-keeping requirements: secure storage, counts at handover, documentation of every use and of any wastage. Follow those exactly. They are not bureaucratic obstruction — they are how a system can account for drugs that are attractive to steal, and the record protects you as much as anything else.\n\nReplace what you use at the earliest opportunity, and report what you could not replace so the next crew is not surprised by a gap.\n\nAnd the rule that ties it together: a medication that is out of date, damaged, or has been stored outside its range is not used. Set it aside, report it, and replace it. Using it because it is probably fine is a decision you cannot support afterwards, and probably fine is not a standard anybody applies to their own family's medicine.",
+          "standard": "Medications are inspected at the commencement of every shift consistent with other vehicle equipment. Inspection comprises quantity verification, expiry date verification, and packaging integrity assessment; expired items are visually indistinguishable from current items and require explicit reading. Damaged blister packaging, cracked vials, compromised seals and damaged auto-injector casings preclude use. Temperature management presents a setting-specific problem: pharmaceutical agents require storage within specified temperature ranges, and vehicles represent an adverse environment subject to extreme solar heating and overnight freezing, both producing degradation without visible indication; repeatedly thermally cycled agents may be inactive without external evidence. Service storage provisions including insulated containers, climate-controlled compartments and removal of specified items to controlled environments should be followed as designed rather than treated as discretionary. Photodegradation affects certain agents, accounting for opaque containers and retention within original packaging. Kit organisation should be consistent, permitting retrieval by memory under adverse conditions with limited manual availability; consistency across the service is required, and unilateral reorganisation of shared equipment impairs this. Controlled medications, where carried, impose additional security and record requirements comprising secure storage, handover counts, and documentation of administration and wastage; these provide organisational accountability for diversion-prone agents and afford provider protection. Consumed items are replaced at the earliest opportunity, with unreplaceable deficits reported to prevent unanticipated shortfall for subsequent crews. Expired, damaged or improperly stored medications are not used; they are segregated, reported and replaced."
+        },
+        "eli_new": {
+          "analogy": "The heat and the cold leave no mark. A drug that has been baked and frozen all summer looks exactly like one that has not, and may simply not work.",
+          "body": "Expiry dates fail silently. An expired item looks identical to a current one, which is exactly why reading them is on the list and looking at the kit is not enough."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how medications are checked and stored on a vehicle.",
+          "must_hit": [
+            {
+              "point": "Check at the start of every shift",
+              "accept": [
+                "every shift",
+                "start",
+                "check",
+                "like everything",
+                "daily"
+              ]
+            },
+            {
+              "point": "Check quantities, expiry dates and packaging integrity",
+              "accept": [
+                "quantity",
+                "expiry",
+                "packaging",
+                "intact",
+                "damaged"
+              ]
+            },
+            {
+              "point": "Expiry dates fail silently and must be read",
+              "accept": [
+                "silent",
+                "read",
+                "identical",
+                "looks",
+                "assume"
+              ]
+            },
+            {
+              "point": "Temperature range matters and a vehicle is a bad environment",
+              "accept": [
+                "temperature",
+                "range",
+                "vehicle",
+                "hot",
+                "freez",
+                "sun"
+              ]
+            },
+            {
+              "point": "Heat and freezing damage medications invisibly",
+              "accept": [
+                "heat",
+                "freez",
+                "damage",
+                "invisible",
+                "no mark",
+                "not work"
+              ]
+            },
+            {
+              "point": "Light damages some medications",
+              "accept": [
+                "light",
+                "dark",
+                "box",
+                "container",
+                "original"
+              ]
+            },
+            {
+              "point": "Keep the kit organised consistently so you can find things by memory",
+              "accept": [
+                "organis",
+                "consistent",
+                "memory",
+                "dark",
+                "layout"
+              ]
+            },
+            {
+              "point": "Controlled medications have extra requirements; do not use expired or damaged items",
+              "accept": [
+                "controlled",
+                "security",
+                "count",
+                "wastage",
+                "not used",
+                "segregat"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Probably fine",
+          "dispatch": "Station — morning check, expired item found in the kit.",
+          "body": "It was three weeks out of date and somebody said it was probably fine, which it probably was.\n\nThe officer asked whether he would give it to his own child on that basis.\n\nIt went in the bin, and the gap went in the report."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm medication storage ranges, controlled drug procedures and your check requirements against your service's own policy. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-04",
+      "title": "Pharmacology in special populations",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-03"
+      ],
+      "related": [
+        "EMT-07-03-02",
+        "EMT-07-04-03",
+        "EMT-07-01-01"
+      ],
+      "key_points": [
+        "The same drug behaves differently depending on who is taking it",
+        "Children are not small adults — doses are based on weight or length, never estimated by eye",
+        "Paediatric doses are calculated using the tool your service provides rather than mental arithmetic",
+        "Older patients metabolise and eliminate drugs more slowly, so effects are stronger and longer",
+        "Liver or kidney disease produces the same effect at any age",
+        "In pregnancy, what is given to the patient reaches the fetus, and some drugs are avoided",
+        "Treat the pregnant patient — what is good for her is generally good for the pregnancy",
+        "Existing medications create interactions, which is why the medication list is part of the drug decision",
+        "Tolerance in long-term users means usual doses may have less effect than expected",
+        "When a patient does not respond as expected, their population and their medication list are the first places to look"
+      ],
+      "misconceptions": [
+        "Estimating a child's weight by eye",
+        "Assuming an adult dose is safe in an older patient",
+        "Withholding needed treatment from a pregnant patient out of caution",
+        "Ignoring the medication list when deciding"
+      ],
+      "exam_favorites": [
+        "Use the tool for children",
+        "Treat the pregnant patient",
+        "Check the list first"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The same drug behaves differently depending on who is taking it, and four populations account for most of the differences you will meet.\n\nChildren. The principle is the one that runs through all of paediatrics: a child is not a small adult. Paediatric doses are based on weight, or on length using a measuring tape designed for it, and they are never estimated by eye. Estimating a child's weight by looking at them is unreliable even among experienced people, and a dosing error in a small child is proportionally far larger than the same error in an adult. So use the tool your service provides — the tape, the chart, the app — and use it every time, including when you are confident. Mental arithmetic under pressure is where paediatric dosing errors come from.\n\nOlder patients. Metabolism and elimination slow with age, so drugs are removed more slowly, accumulate, and produce stronger and longer effects than expected. This is the mechanism underneath the polypharmacy point in geriatrics, and it means that an adult dose is not automatically an appropriate dose. The same applies at any age to patients with liver or kidney disease, for the same reason.\n\nPregnancy. What is given to the patient reaches the fetus, and some drugs are avoided for that reason. Your protocol will identify them.\n\nBut hold on to the other half of that, because the error goes both ways and the second one is more common: treat the pregnant patient. What is good for her is generally good for the pregnancy, and the biggest threat to a fetus is usually a mother who is hypoxic, shocked, or in an untreated emergency. Withholding necessary treatment out of vague caution about pregnancy harms both of them. Follow your protocol, and do not let a well-meant hesitation become undertreatment.\n\nExisting medications. What the patient already takes creates interactions, and some of those change what you can safely give. This is exactly why the medication list is part of the drug decision rather than a separate historical exercise, and why gathering it properly is worth the time.\n\nTolerance. A patient who takes a drug long-term may get less effect from a usual dose than someone who does not. That is useful context when a patient tells you their normal medication is not working, and it is information rather than a judgement about them.\n\nAnd a practical habit to finish with. When a patient does not respond to a drug the way you expected, their population and their medication list are the first two places to look. Not the drug, not the technique, not bad luck. Who are they, and what else is already in them? That question answers a surprising proportion of unexpected responses.",
+          "standard": "Pharmacological response varies by patient population, with four categories accounting for most clinically relevant variation. Paediatric dosing derives from weight or length-based estimation using purpose-designed tape or chart and is never estimated visually, as visual weight estimation is unreliable including among experienced providers and proportional dosing error is greater in smaller patients; service-provided tools should be used invariably, as mental calculation under operational pressure constitutes a principal source of paediatric dosing error. Geriatric patients demonstrate reduced metabolism and elimination with consequent accumulation and augmented, prolonged effect, such that standard adult dosing may be inappropriate; equivalent considerations apply at any age in hepatic or renal impairment. In pregnancy, administered agents reach the fetus and certain agents are avoided per protocol. Conversely, necessary treatment should not be withheld: maternal treatment generally benefits the pregnancy, and the principal fetal threat is typically maternal hypoxia, shock or untreated emergency; precautionary withholding constitutes undertreatment harmful to both. Existing medications generate interactions altering the safety of proposed administration, rendering the medication list an element of the administration decision rather than a separate historical exercise. Tolerance in long-term users reduces effect from standard doses, constituting clinical context rather than judgement. Where response deviates from expectation, patient population and existing medication list constitute the primary investigative considerations, accounting for a substantial proportion of unexpected responses."
+        },
+        "eli_new": {
+          "analogy": "The biggest threat to a fetus is usually a mother who is hypoxic or shocked. Treating her is treating the pregnancy.",
+          "body": "Never estimate a child's weight by eye. Experienced people are unreliable at it, and the dosing tool exists precisely because mental arithmetic under pressure is where paediatric errors come from."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how drug handling differs in children, older patients, pregnancy and long-term users.",
+          "must_hit": [
+            {
+              "point": "The same drug behaves differently depending on who takes it",
+              "accept": [
+                "different",
+                "population",
+                "depends",
+                "who",
+                "varies"
+              ]
+            },
+            {
+              "point": "Paediatric doses are by weight or length, never estimated by eye",
+              "accept": [
+                "weight",
+                "length",
+                "tape",
+                "never",
+                "eye",
+                "estimate"
+              ]
+            },
+            {
+              "point": "Use the tool provided rather than mental arithmetic",
+              "accept": [
+                "tool",
+                "tape",
+                "chart",
+                "arithmetic",
+                "every time"
+              ]
+            },
+            {
+              "point": "Older patients metabolise and eliminate more slowly",
+              "accept": [
+                "older",
+                "slow",
+                "accumulat",
+                "stronger",
+                "longer"
+              ]
+            },
+            {
+              "point": "Liver or kidney disease has the same effect at any age",
+              "accept": [
+                "liver",
+                "kidney",
+                "disease",
+                "any age",
+                "same"
+              ]
+            },
+            {
+              "point": "In pregnancy, drugs reach the fetus and some are avoided",
+              "accept": [
+                "pregnan",
+                "fetus",
+                "reach",
+                "avoid",
+                "protocol"
+              ]
+            },
+            {
+              "point": "Treat the pregnant patient — what helps her helps the pregnancy",
+              "accept": [
+                "treat",
+                "her",
+                "helps",
+                "hypox",
+                "shock",
+                "withhold"
+              ]
+            },
+            {
+              "point": "Check the medication list and consider tolerance when a response is unexpected",
+              "accept": [
+                "medication list",
+                "interaction",
+                "tolerance",
+                "unexpected",
+                "first"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Get the tape",
+          "dispatch": "Medic 2 — paediatric patient, medication indicated, weight unknown.",
+          "body": "Somebody said a number out loud, confidently, having looked at the child.\n\nSomebody else got the tape out and measured, which took about twenty seconds.\n\nThe two numbers were not close, and the confident one was the high one."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm paediatric dosing tools, pregnancy considerations and interaction guidance against your local protocol and the current text. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
     }
   ]
 }

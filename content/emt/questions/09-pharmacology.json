@@ -2702,6 +2702,726 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-01-Q001",
+      "concept_id": "EMT-09-03-01",
+      "style": "recall",
+      "stem": "What does assisting mean?",
+      "options": [
+        {
+          "text": "Giving a medication your service carries",
+          "rationale": "That is administering."
+        },
+        {
+          "text": "Helping a patient take a medication prescribed to them",
+          "rationale": "Correct — helping a patient take a medication prescribed to them."
+        },
+        {
+          "text": "Watching a patient take any medication",
+          "rationale": "The prescription requirement applies."
+        },
+        {
+          "text": "Handing over a medication for later use",
+          "rationale": "Not assisting."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-01-Q002",
+      "concept_id": "EMT-09-03-01",
+      "style": "application",
+      "stem": "A family member offers their own identical inhaler. May you assist with it?",
+      "options": [
+        {
+          "text": "Yes, it is the same drug",
+          "rationale": "The reasoning that says that is what leads to harm."
+        },
+        {
+          "text": "No — it must be prescribed to the patient in front of you",
+          "rationale": "Correct — no — it must be prescribed to the patient in front of you."
+        },
+        {
+          "text": "Yes, in an emergency",
+          "rationale": "The requirement stands."
+        },
+        {
+          "text": "Only with medical direction",
+          "rationale": "The prescription requirement is not waived."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-01-Q003",
+      "concept_id": "EMT-09-03-01",
+      "style": "recall",
+      "stem": "What must be checked besides the prescription?",
+      "options": [
+        {
+          "text": "Only the expiry date",
+          "rationale": "There is more to check."
+        },
+        {
+          "text": "The expiry date, and that the contents match the label",
+          "rationale": "Correct — the expiry date, and that the contents match the label."
+        },
+        {
+          "text": "Only the manufacturer",
+          "rationale": "Not the check."
+        },
+        {
+          "text": "Only the dose printed on the box",
+          "rationale": "Not sufficient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-01-Q004",
+      "concept_id": "EMT-09-03-01",
+      "style": "application",
+      "stem": "Which question is easily missed when assisting?",
+      "options": [
+        {
+          "text": "Whether they have a spacer",
+          "rationale": "Useful, but not the missed question here."
+        },
+        {
+          "text": "How many doses they have already taken, and when",
+          "rationale": "Correct — people self-treat before calling."
+        },
+        {
+          "text": "Whether they smoke",
+          "rationale": "Not the missed question."
+        },
+        {
+          "text": "Who prescribed it",
+          "rationale": "Less critical than prior doses."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-01-Q005",
+      "concept_id": "EMT-09-03-01",
+      "style": "recall",
+      "stem": "Who should physically take the medication?",
+      "options": [
+        {
+          "text": "Always the EMT",
+          "rationale": "Not where the patient is able."
+        },
+        {
+          "text": "The patient themselves wherever they are able to",
+          "rationale": "Correct — the patient themselves wherever they are able to."
+        },
+        {
+          "text": "A family member",
+          "rationale": "Not appropriate."
+        },
+        {
+          "text": "Whoever is closest",
+          "rationale": "Not how it is decided."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-01-Q006",
+      "concept_id": "EMT-09-03-01",
+      "style": "scenario",
+      "stem": "Whose responsibility is an assisted administration?",
+      "options": [
+        {
+          "text": "The patient's, since they took it",
+          "rationale": "The decision was yours."
+        },
+        {
+          "text": "Yours — assisting is still an administration as far as responsibility goes",
+          "rationale": "Correct — yours — assisting is still an administration as far as responsibility goes."
+        },
+        {
+          "text": "The prescriber's",
+          "rationale": "Not for this decision."
+        },
+        {
+          "text": "Shared equally with the patient",
+          "rationale": "The clinical decision remains yours."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-02-Q001",
+      "concept_id": "EMT-09-03-02",
+      "style": "application",
+      "stem": "How should you reassess after a bronchodilator?",
+      "options": [
+        {
+          "text": "Ask whether the patient feels better",
+          "rationale": "A frightened patient often says yes regardless."
+        },
+        {
+          "text": "Listen to the chest and look at the work of breathing",
+          "rationale": "Correct — reassess what the drug should change."
+        },
+        {
+          "text": "Recheck the blood sugar",
+          "rationale": "Not the relevant parameter."
+        },
+        {
+          "text": "Take a temperature",
+          "rationale": "Not the relevant parameter."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-02-Q002",
+      "concept_id": "EMT-09-03-02",
+      "style": "recall",
+      "stem": "When should reassessment happen?",
+      "options": [
+        {
+          "text": "At hospital handover",
+          "rationale": "Far too late."
+        },
+        {
+          "text": "On a timescale matching the drug's onset",
+          "rationale": "Correct — on a timescale matching the drug's onset."
+        },
+        {
+          "text": "Exactly five minutes after every drug",
+          "rationale": "Onset varies by drug and route."
+        },
+        {
+          "text": "Only if the patient complains",
+          "rationale": "Reassess regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-02-Q003",
+      "concept_id": "EMT-09-03-02",
+      "style": "recall",
+      "stem": "Which part of documentation is most often left out?",
+      "options": [
+        {
+          "text": "The time of administration",
+          "rationale": "Usually recorded."
+        },
+        {
+          "text": "The effect — what actually happened",
+          "rationale": "Correct, and it is what the hospital most wants."
+        },
+        {
+          "text": "The route",
+          "rationale": "Usually recorded."
+        },
+        {
+          "text": "Who gave it",
+          "rationale": "Usually recorded."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-02-Q004",
+      "concept_id": "EMT-09-03-02",
+      "style": "application",
+      "stem": "You decided not to give a drug. Should that be documented?",
+      "options": [
+        {
+          "text": "No, only what you gave matters",
+          "rationale": "A decision not to give is still a decision."
+        },
+        {
+          "text": "Yes, with the reason",
+          "rationale": "Correct — silence looks like you forgot."
+        },
+        {
+          "text": "Only if medical direction was contacted",
+          "rationale": "Document regardless."
+        },
+        {
+          "text": "Only if the patient asked for it",
+          "rationale": "Document regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-02-Q005",
+      "concept_id": "EMT-09-03-02",
+      "style": "application",
+      "stem": "Why take vital signs before as well as after?",
+      "options": [
+        {
+          "text": "It is a documentation requirement",
+          "rationale": "The reason is clinical."
+        },
+        {
+          "text": "Two sets give you direction, and decisions are made from direction",
+          "rationale": "Correct — two sets give you direction, and decisions are made from direction."
+        },
+        {
+          "text": "The first set is more accurate",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It fills the time while waiting",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-02-Q006",
+      "concept_id": "EMT-09-03-02",
+      "style": "scenario",
+      "stem": "Why say the drug history at handover as well as writing it?",
+      "options": [
+        {
+          "text": "It is polite",
+          "rationale": "The reason is practical."
+        },
+        {
+          "text": "The written record may not be read immediately, and the receiving provider needs it now",
+          "rationale": "Correct — the written record may not be read immediately, and the receiving provider needs it now."
+        },
+        {
+          "text": "Writing is unreliable",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It shortens the written report",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-03-Q001",
+      "concept_id": "EMT-09-03-03",
+      "style": "recall",
+      "stem": "Why must expiry dates be read rather than assumed?",
+      "options": [
+        {
+          "text": "They are printed in small text",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "An expired item looks identical to a current one — they fail silently",
+          "rationale": "Correct — an expired item looks identical to a current one — they fail silently."
+        },
+        {
+          "text": "They change frequently",
+          "rationale": "They do not."
+        },
+        {
+          "text": "The previous crew may have removed them",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-03-Q002",
+      "concept_id": "EMT-09-03-03",
+      "style": "application",
+      "stem": "Why is a vehicle a difficult place to store medications?",
+      "options": [
+        {
+          "text": "It vibrates",
+          "rationale": "Not the principal problem."
+        },
+        {
+          "text": "It becomes extremely hot in sun and freezes overnight, and both damage drugs invisibly",
+          "rationale": "Correct — it becomes extremely hot in sun and freezes overnight, and both damage drugs invisibly."
+        },
+        {
+          "text": "It is not secure",
+          "rationale": "A separate issue."
+        },
+        {
+          "text": "Humidity is uncontrolled",
+          "rationale": "Not the described problem."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-03-Q003",
+      "concept_id": "EMT-09-03-03",
+      "style": "recall",
+      "stem": "Why do some medications come in dark containers?",
+      "options": [
+        {
+          "text": "For identification",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Light damages them",
+          "rationale": "Correct — light damages them."
+        },
+        {
+          "text": "To reduce breakage",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "For security",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-03-Q004",
+      "concept_id": "EMT-09-03-03",
+      "style": "application",
+      "stem": "Why should the kit layout be consistent?",
+      "options": [
+        {
+          "text": "It looks more professional",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "So you can find things by memory in the dark and in a hurry",
+          "rationale": "Correct — so you can find things by memory in the dark and in a hurry."
+        },
+        {
+          "text": "It reduces restocking time",
+          "rationale": "A minor benefit."
+        },
+        {
+          "text": "It is required by regulation",
+          "rationale": "Not the reason given."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-03-Q005",
+      "concept_id": "EMT-09-03-03",
+      "style": "scenario",
+      "stem": "You find a medication three weeks out of date. What do you do?",
+      "options": [
+        {
+          "text": "Use it, since it is probably fine",
+          "rationale": "Not a decision you can support afterwards."
+        },
+        {
+          "text": "Set it aside, report it and replace it",
+          "rationale": "Correct — set it aside, report it and replace it."
+        },
+        {
+          "text": "Use it only in an emergency",
+          "rationale": "Not acceptable."
+        },
+        {
+          "text": "Leave it for the next crew to deal with",
+          "rationale": "Report it yourself."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-03-Q006",
+      "concept_id": "EMT-09-03-03",
+      "style": "recall",
+      "stem": "What extra requirements apply to controlled medications?",
+      "options": [
+        {
+          "text": "None beyond normal storage",
+          "rationale": "There are additional requirements."
+        },
+        {
+          "text": "Secure storage, counts at handover, and documentation of use and wastage",
+          "rationale": "Correct — secure storage, counts at handover, and documentation of use and wastage."
+        },
+        {
+          "text": "Refrigeration only",
+          "rationale": "Not the requirement."
+        },
+        {
+          "text": "Medical direction approval for carriage",
+          "rationale": "Not the described requirement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-04-Q001",
+      "concept_id": "EMT-09-03-04",
+      "style": "recall",
+      "stem": "How are paediatric doses determined?",
+      "options": [
+        {
+          "text": "By estimating the child's weight visually",
+          "rationale": "Visual estimation is unreliable."
+        },
+        {
+          "text": "By weight or length, using the tool your service provides",
+          "rationale": "Correct — by weight or length, using the tool your service provides."
+        },
+        {
+          "text": "By age alone",
+          "rationale": "Age is a poor proxy."
+        },
+        {
+          "text": "By halving the adult dose",
+          "rationale": "Not how it works."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-04-Q002",
+      "concept_id": "EMT-09-03-04",
+      "style": "application",
+      "stem": "Why use the dosing tape even when you are confident?",
+      "options": [
+        {
+          "text": "It is required for documentation",
+          "rationale": "The reason is safety."
+        },
+        {
+          "text": "Visual estimation is unreliable even among experienced people",
+          "rationale": "Correct — visual estimation is unreliable even among experienced people."
+        },
+        {
+          "text": "It is faster than estimating",
+          "rationale": "It is slightly slower."
+        },
+        {
+          "text": "It records the dose automatically",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-04-Q003",
+      "concept_id": "EMT-09-03-04",
+      "style": "recall",
+      "stem": "Why are older patients more affected by the same dose?",
+      "options": [
+        {
+          "text": "They have smaller body mass",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "Slower metabolism and elimination mean drugs accumulate and act longer",
+          "rationale": "Correct — slower metabolism and elimination mean drugs accumulate and act longer."
+        },
+        {
+          "text": "They absorb drugs faster",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "They are more sensitive to pain",
+          "rationale": "Not relevant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-04-Q004",
+      "concept_id": "EMT-09-03-04",
+      "style": "application",
+      "stem": "A pregnant patient needs treatment. What is the risk in over-caution?",
+      "options": [
+        {
+          "text": "There is none — caution is always safest",
+          "rationale": "The error goes both ways."
+        },
+        {
+          "text": "Withholding necessary treatment harms both, since maternal hypoxia or shock threatens the fetus",
+          "rationale": "Correct — withholding necessary treatment harms both, since maternal hypoxia or shock threatens the fetus."
+        },
+        {
+          "text": "Delayed documentation",
+          "rationale": "Not the risk."
+        },
+        {
+          "text": "Increased transport time",
+          "rationale": "Not the risk."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-04-Q005",
+      "concept_id": "EMT-09-03-04",
+      "style": "recall",
+      "stem": "What does tolerance mean for a long-term user?",
+      "options": [
+        {
+          "text": "The drug will be more effective",
+          "rationale": "The opposite."
+        },
+        {
+          "text": "A usual dose may have less effect than expected",
+          "rationale": "Correct — a usual dose may have less effect than expected."
+        },
+        {
+          "text": "They will have an allergic reaction",
+          "rationale": "Unrelated."
+        },
+        {
+          "text": "They cannot be given the drug",
+          "rationale": "Not the case."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-03-04-Q006",
+      "concept_id": "EMT-09-03-04",
+      "style": "scenario",
+      "stem": "A patient does not respond as expected. Where do you look first?",
+      "options": [
+        {
+          "text": "At your technique",
+          "rationale": "Possible, but not first."
+        },
+        {
+          "text": "At their population and their medication list",
+          "rationale": "Correct — at their population and their medication list."
+        },
+        {
+          "text": "At the drug's expiry date",
+          "rationale": "Less likely than the first two."
+        },
+        {
+          "text": "At the diagnosis only",
+          "rationale": "Population and interactions come first here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
