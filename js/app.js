@@ -25,6 +25,7 @@ import * as deckprint from './deckprint.js';
 import * as deck from './deck.js';
 import { renderOverview } from './overview.js';
 import { buildWorksheet, renderWorksheetView, newSeed } from './worksheet.js';
+import { renderReadiness } from './readiness.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -50,6 +51,7 @@ const app = {
   modulesByTier: { emt: [], fire: [], medic: [] },
   questionsByModule: {},
   decksByModule: {},
+  cardsByTier: { emt: [], fire: [], medic: [] },
   loadError: null,
   depth: 'plain'
 };
@@ -77,6 +79,13 @@ async function loadContent() {
     }
     mods.sort((a, b) => a.number - b.number);
     app.modulesByTier[tier] = mods;
+  }
+  // Card retention feeds the readiness meter on the home screen, so every built
+  // module's deck is loaded at boot rather than on demand.
+  for (const [tier, mods] of Object.entries(app.modulesByTier)) {
+    const all = [];
+    for (const m of mods) all.push(...((await loadDeck(m.id)).cards || []));
+    app.cardsByTier[tier] = all;
   }
 }
 
@@ -160,6 +169,13 @@ async function route() {
     const questions = await loadQuestions(mod.id);
     ctx = { kind: 'exam', module: mod, questions };
     app.el.innerHTML = shell(exam.renderExam(mod, questions));
+    return done();
+  }
+
+  if (parts[0] === 'readiness') {
+    exam.abandon(); quiz.abandon();
+    ctx = { kind: 'readiness' };
+    app.el.innerHTML = shell(renderReadiness(app.modulesByTier.emt, app.cardsByTier.emt));
     return done();
   }
 
@@ -274,6 +290,7 @@ async function route() {
   ctx = null;
   app.el.innerHTML = shell(renderLadder(progress.load(), {
     modulesByTier: app.modulesByTier,
+    cardsByTier: app.cardsByTier,
     loadError: app.loadError
   }));
   done();
@@ -304,6 +321,7 @@ function refresh() {
   if (!ctx) return route();
   if (ctx.kind === 'exam') { app.el.innerHTML = shell(exam.renderExam(ctx.module, ctx.questions)); return; }
   if (ctx.kind === 'print') return route();
+  if (ctx.kind === 'readiness') { app.el.innerHTML = shell(renderReadiness(app.modulesByTier.emt, app.cardsByTier.emt)); return; }
   if (ctx.kind === 'worksheet') { app.el.innerHTML = shell(renderWorksheetView(ctx.module, ctx.lesson, ctx.sheet)); return; }
   if (ctx.kind === 'overview') { app.el.innerHTML = shell(renderOverview(ctx.module, ctx.questions)); return; }
   if (ctx.kind === 'deck') { app.el.innerHTML = shell(deck.renderDeck(ctx.module, ctx.deck)); return; }

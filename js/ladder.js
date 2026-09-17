@@ -6,6 +6,7 @@
 
 import { TIERS, tierStatus, isAttested, isConceptComplete } from './progress.js';
 import { lessonProgress, ring } from './overview.js';
+import { compute as computeReadiness, meter } from './readiness.js';
 
 /* How many modules each tier has in the blueprint, so "3 of 11 built" is a real
    fraction rather than a hardcoded denominator. From docs/emt-blueprint.md. */
@@ -170,7 +171,7 @@ function tierCard(tier, status, { modules, progress, attested, progressByModule,
   </article>`;
 }
 
-export function renderLadder(state, { modulesByTier, loadError }) {
+export function renderLadder(state, { modulesByTier, loadError, cardsByTier = {} }) {
   const status = {};
   const progressByTier = {};
 
@@ -214,6 +215,7 @@ export function renderLadder(state, { modulesByTier, loadError }) {
         <p class="tagline">Climb to certified.</p>
         ${continueBtn}
       </div>
+      ${meter(computeReadiness(state, modulesByTier.emt || [], cardsByTier.emt || [], 'emt', MODULES_IN_TIER.emt))}
     </div>
     ${banner}
     <div class="rungs">

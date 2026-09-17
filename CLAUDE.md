@@ -29,7 +29,7 @@ js/                     app.js (router/state), progress.js, ladder.js, lesson.js
                         hear.js (Hear It / TTS), teach.js (Teach It Back),
                         bank.js (question selection), quiz.js (lesson check), exam.js (module exam),
                         print.js (one card), deckprint.js (whole deck, tiled),
-                        srs.js (SM-2 scheduling), deck.js (the Deck screen), overview.js (module overview), worksheet.js (worksheet generator)
+                        srs.js (SM-2 scheduling), deck.js (the Deck screen), overview.js (module overview), worksheet.js (worksheet generator), readiness.js (Exam Readiness meter)
 brand/                  theme.css, logo.svg, logo-mono.svg, print.css, preview.html
 content/emt/            02-airway, 03-assessment, 04-cardiology built; 01 and 05-11 to come
 content/emt/questions/  01-preparatory.json … 11-exam-prep.json   (question bank, loaded on demand)
