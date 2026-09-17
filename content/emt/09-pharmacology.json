@@ -1,0 +1,1184 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-09",
+  "tier": "emt",
+  "number": 9,
+  "title": "Pharmacology",
+  "short_title": "Pharmacology",
+  "domain_weighting": {
+    "MED": 100
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [
+    {
+      "id": "EMT-09-01",
+      "title": "Principles of pharmacology",
+      "concepts": [
+        "EMT-09-01-01",
+        "EMT-09-01-02",
+        "EMT-09-01-03",
+        "EMT-09-01-04",
+        "EMT-09-01-05",
+        "EMT-09-01-06",
+        "EMT-09-01-07"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-01",
+      "title": "Drug names and forms",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-09-01-02",
+        "EMT-07-04-03"
+      ],
+      "key_points": [
+        "Every drug has several names, and knowing which kind you are looking at prevents confusion",
+        "The generic name is the official name of the drug itself and does not change between manufacturers",
+        "The trade name is a manufacturer's brand name, it is capitalised, and one drug may have many",
+        "The chemical name describes the molecule and is of no practical use to you on a call",
+        "Patients almost always know the trade name and almost never know the generic name",
+        "Two boxes with different trade names can contain exactly the same drug, which is a real source of double dosing",
+        "Forms matter because form determines route, speed and whether the patient can take it",
+        "Common forms: tablets and capsules, liquids and suspensions, gels, sprays, inhalers and auto-injectors",
+        "Compressed gas is a form too, and oxygen is a drug",
+        "When taking a history, write down exactly what is on the box rather than what you think it means"
+      ],
+      "misconceptions": [
+        "Assuming two trade names mean two different drugs",
+        "Recording what you think a drug is rather than what the box says",
+        "Treating oxygen as something other than a drug",
+        "Expecting a patient to know generic names"
+      ],
+      "exam_favorites": [
+        "Generic vs trade",
+        "Same drug, two boxes",
+        "Oxygen is a drug"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Every drug has more than one name, and the confusion that causes is a genuine patient safety problem rather than a vocabulary quiz.\n\nThe generic name is the official name of the drug itself. It does not change between manufacturers or countries, it is written in lower case, and it is the name that actually identifies the substance.\n\nThe trade name is a brand name owned by a manufacturer. It is capitalised, it is usually shorter and more memorable, and a single drug may have many of them. That is by design — the memorable name is the one being advertised.\n\nThe chemical name describes the molecule itself, and it is of no practical use to you on a call. Know that it exists and move on.\n\nHere is why this matters operationally. Patients almost always know the trade name, because that is what is on the box and what the advertisement said. They almost never know the generic name. So when you ask what someone takes, expect brand names, and expect not to recognise some of them.\n\nAnd the real hazard: two boxes bearing different trade names can contain exactly the same drug. A patient prescribed one brand by a specialist and another by a family doctor may be taking a double dose of the same medication without anyone having noticed — including them. This is a well-recognised cause of harm, and it is one of the reasons taking the actual boxes to hospital is so useful.\n\nThen forms, which matter more than they first appear because the form determines the route, the speed of onset, and whether this patient can take it at all.\n\nTablets and capsules are swallowed, which requires a patient who can swallow safely. Liquids and suspensions are easier for patients who cannot manage tablets. Gels are absorbed through the tissues of the mouth. Sprays under the tongue absorb quickly. Inhalers deliver the drug directly to the airways. Auto-injectors deliver an injection through a spring-loaded device designed to be usable by someone who is frightened and unwell. And compressed gas is a form too — which is worth stating plainly, because oxygen is a drug, with indications, contraindications, effects and harms, and it deserves the same care as anything else you give.\n\nA practical instruction to finish. When you take a medication history, write down exactly what is on the box. Not your interpretation of it, not what class you think it belongs to, not a guess at the generic name. The exact words, the exact strength on the label, and the form. Somebody at the hospital will be able to make sense of it, and they can only do that if what you wrote is what was actually there.",
+          "standard": "Pharmaceutical agents carry multiple designations, confusion between which constitutes a patient safety concern. The generic name is the official designation of the substance, invariant across manufacturers and jurisdictions and rendered in lower case. The trade name is a proprietary designation owned by a manufacturer, capitalised, and potentially multiple for a single agent. The chemical name describes molecular structure and has no prehospital utility. Patients characteristically recognise trade names and not generic names, as the former appear on packaging and in advertising; medication histories should therefore anticipate proprietary designations. Distinct trade names may denote identical agents, producing inadvertent duplicate dosing where multiple prescribers are involved, a recognised source of harm and a rationale for transporting original containers. Pharmaceutical form determines route, onset and patient suitability. Forms comprise tablets and capsules requiring intact swallowing; liquids and suspensions for patients unable to manage solid forms; gels absorbed through oral mucosa; sublingual sprays affording rapid absorption; inhalers delivering agent directly to the airway; auto-injectors providing spring-actuated injection usable by distressed patients; and compressed gas, oxygen constituting a drug with indications, contraindications, effects and potential harms warranting equivalent care. Medication histories should record packaging text verbatim, including exact strength and form, rather than provider interpretation, class attribution or presumed generic equivalent, as receiving clinicians can interpret accurate transcription but not inference."
+        },
+        "eli_new": {
+          "analogy": "The trade name is the advertised one, which is why it is the one the patient knows and the one you will not recognise.",
+          "body": "Two different boxes can hold the same drug. That is how people end up taking a double dose without anybody noticing, including them."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the different kinds of drug name and why it matters on a call.",
+          "must_hit": [
+            {
+              "point": "The generic name is the official name and does not change",
+              "accept": [
+                "generic",
+                "official",
+                "same",
+                "manufactur",
+                "lower case"
+              ]
+            },
+            {
+              "point": "The trade name is a brand name and there may be several",
+              "accept": [
+                "trade",
+                "brand",
+                "capital",
+                "several",
+                "manufactur"
+              ]
+            },
+            {
+              "point": "The chemical name is of no practical use",
+              "accept": [
+                "chemical",
+                "molecule",
+                "no use",
+                "practical",
+                "exists"
+              ]
+            },
+            {
+              "point": "Patients know trade names, not generic names",
+              "accept": [
+                "patient",
+                "trade",
+                "know",
+                "brand",
+                "box"
+              ]
+            },
+            {
+              "point": "Two trade names can be the same drug — a real double-dosing hazard",
+              "accept": [
+                "same drug",
+                "double",
+                "two",
+                "duplicate",
+                "harm"
+              ]
+            },
+            {
+              "point": "Form determines route, speed and whether the patient can take it",
+              "accept": [
+                "form",
+                "route",
+                "speed",
+                "swallow",
+                "onset"
+              ]
+            },
+            {
+              "point": "Forms include tablets, liquids, gels, sprays, inhalers and auto-injectors",
+              "accept": [
+                "tablet",
+                "liquid",
+                "gel",
+                "spray",
+                "inhaler",
+                "auto-injector"
+              ]
+            },
+            {
+              "point": "Oxygen is a drug, and record exactly what the box says",
+              "accept": [
+                "oxygen",
+                "drug",
+                "exact",
+                "box",
+                "verbatim",
+                "write"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Both boxes",
+          "dispatch": "Medic 3 — elderly patient, unwell, medications brought to the vehicle.",
+          "body": "Two boxes, two different names on the front, two different prescribers.\n\nSomebody at the hospital turned them both over and read the small print on the back.\n\nSame drug. He had been taking it twice a day for about three weeks."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm drug naming conventions and medication forms against the current text. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-02",
+      "title": "Routes of administration",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-01"
+      ],
+      "related": [
+        "EMT-09-01-01",
+        "EMT-09-01-03",
+        "EMT-09-02-02"
+      ],
+      "key_points": [
+        "The route determines how fast a drug works and how much of it reaches the bloodstream",
+        "Broadly, the closer to the bloodstream and the better the blood supply, the faster the effect",
+        "Oral means swallowed, and it is the slowest route because it must be absorbed through the gut",
+        "Never give anything by mouth to a patient who cannot protect their own airway",
+        "Sublingual means under the tongue, where a rich blood supply absorbs the drug quickly",
+        "Inhaled means into the airways, which is fast and delivers the drug where it is needed for lung problems",
+        "Intramuscular means into muscle, which has a good blood supply and gives a reliable, fairly quick effect",
+        "Intranasal uses the lining of the nose and works quickly without a needle",
+        "Intravenous is the fastest and most complete route, and it is outside EMT scope in most systems",
+        "The route also determines what can go wrong, so match the route to the patient's condition"
+      ],
+      "misconceptions": [
+        "Giving anything oral to a patient who cannot protect their airway",
+        "Assuming a route works the same in a shocked patient",
+        "Confusing sublingual with swallowed",
+        "Using a route your protocol does not authorise"
+      ],
+      "exam_favorites": [
+        "Blood supply drives speed",
+        "Nothing oral without an airway",
+        "Routes at EMT level"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The route is how the drug gets in, and it determines two things that matter: how fast it works, and how much of it actually reaches the bloodstream.\n\nThe organising principle is simple. The closer the drug starts to the bloodstream, and the better the blood supply where you put it, the faster it works. Everything below is a version of that.\n\nOral means swallowed. It is the slowest route, because the drug has to pass into the stomach, be absorbed through the gut wall, and travel through the liver before it reaches the general circulation. It is convenient and it is what most medication is, but nothing about it is fast.\n\nAnd it carries an absolute rule: never give anything by mouth to a patient who cannot protect their own airway. Not a tablet, not a drink, not a gel. A patient with a reduced level of consciousness, or who cannot swallow reliably, will aspirate it into their lungs, and aspiration causes serious harm and sometimes kills people. When you are deciding whether an oral medication is appropriate, that question comes before every other consideration.\n\nSublingual means under the tongue. That area has a rich blood supply and a thin lining, so a drug placed there is absorbed quickly and directly — and importantly, it bypasses the gut and the liver entirely. That is why drugs needed quickly are given this way. The patient must not swallow it, and it does not work in a dry mouth.\n\nInhaled means into the airways, by inhaler or nebuliser. It is fast, and it has the specific advantage that for a lung problem, it puts the drug exactly where the problem is, in a small dose, with fewer effects elsewhere in the body.\n\nIntramuscular means into a muscle. Muscle has a good blood supply, so absorption is reliable and reasonably quick — not as fast as intravenous, but it needs no vein and can be given quickly by someone with basic training, which is exactly why auto-injectors use this route.\n\nIntranasal uses the lining of the nose, which is thin and richly supplied with blood. It works quickly, needs no needle, and can be given to a patient who is unconscious or uncooperative. That combination is why it has become common for certain emergency medications.\n\nIntravenous means directly into a vein. It is the fastest and most complete route, because the drug is already in the bloodstream and nothing has to be absorbed at all. In most systems it is outside EMT scope.\n\nThe route also determines what can go wrong, which is a useful way to think about it. Oral risks aspiration. Inhaled requires a patient who can take a breath in when you ask. Intramuscular depends on perfusion — in a severely shocked patient with poor peripheral circulation, absorption from muscle is unreliable. So match the route to the patient in front of you rather than to the drug in the abstract.",
+          "standard": "Route of administration determines onset and bioavailability, governed by proximity to the circulation and vascularity of the absorptive surface. Oral administration is the slowest route, requiring gastric passage, intestinal absorption and hepatic first-pass metabolism prior to systemic circulation. Oral administration is absolutely contraindicated in patients unable to protect the airway, including those with reduced consciousness or unreliable swallow, owing to aspiration risk with attendant morbidity and mortality; airway protection is assessed before other considerations. Sublingual administration employs the richly vascularised, thinly epithelialised sublingual surface, affording rapid absorption with avoidance of gastrointestinal transit and hepatic first pass; the preparation must not be swallowed and absorption is impaired in xerostomia. Inhaled administration delivers agent to the airway by inhaler or nebuliser, providing rapid onset and, for pulmonary pathology, site-directed delivery at reduced dose with reduced systemic effect. Intramuscular administration exploits skeletal muscle vascularity for reliable, moderately rapid absorption without venous access, requiring minimal training and underlying auto-injector design. Intranasal administration employs the thin, vascular nasal mucosa, affording rapid onset without needle and permitting administration to unconscious or uncooperative patients. Intravenous administration provides the most rapid and complete delivery, bypassing absorption entirely, and is beyond EMT scope in most systems. Route selection additionally determines failure mode: oral confers aspiration risk, inhaled requires inspiratory capacity, and intramuscular absorption is unreliable in severe shock with peripheral hypoperfusion; route should therefore be matched to patient condition."
+        },
+        "eli_new": {
+          "analogy": "Under the tongue is a short cut. It skips the stomach and the liver entirely, which is why it is used when something needs to work now.",
+          "body": "Never put anything in the mouth of a patient who cannot protect their airway. That question comes before every other consideration about an oral medication."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the main routes of administration and what governs how fast each works.",
+          "must_hit": [
+            {
+              "point": "Route determines speed and how much reaches the bloodstream",
+              "accept": [
+                "speed",
+                "fast",
+                "bloodstream",
+                "absorb",
+                "route"
+              ]
+            },
+            {
+              "point": "Closer to the bloodstream and better blood supply means faster",
+              "accept": [
+                "blood supply",
+                "closer",
+                "vascular",
+                "faster",
+                "principle"
+              ]
+            },
+            {
+              "point": "Oral is slowest — gut and liver first",
+              "accept": [
+                "oral",
+                "slow",
+                "gut",
+                "stomach",
+                "liver",
+                "swallow"
+              ]
+            },
+            {
+              "point": "Nothing oral for a patient who cannot protect their airway",
+              "accept": [
+                "airway",
+                "protect",
+                "aspirat",
+                "never",
+                "conscious"
+              ]
+            },
+            {
+              "point": "Sublingual is fast and bypasses the gut and liver",
+              "accept": [
+                "sublingual",
+                "under the tongue",
+                "bypass",
+                "fast",
+                "liver"
+              ]
+            },
+            {
+              "point": "Inhaled puts the drug where the lung problem is",
+              "accept": [
+                "inhal",
+                "airway",
+                "lung",
+                "nebulis",
+                "direct"
+              ]
+            },
+            {
+              "point": "Intramuscular is reliable and needs no vein",
+              "accept": [
+                "intramuscular",
+                "muscle",
+                "no vein",
+                "auto-injector",
+                "reliable"
+              ]
+            },
+            {
+              "point": "Intranasal is fast and needleless; intravenous is fastest but outside scope",
+              "accept": [
+                "intranasal",
+                "nose",
+                "needle",
+                "intravenous",
+                "scope",
+                "fastest"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Not in the mouth",
+          "dispatch": "Medic 8 — low blood sugar suspected, patient drowsy.",
+          "body": "Somebody had a tube of gel out and was about to use it, which was the right drug for the problem.\n\nThe patient could not hold their own head up and had not spoken since arrival.\n\nThe question is not whether the drug is right. It is whether this patient can protect their airway."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm route definitions and the routes authorised at your level against the current text and your local protocol, which vary. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-03",
+      "title": "How drugs act, and the words for it",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-02"
+      ],
+      "related": [
+        "EMT-09-01-02",
+        "EMT-09-02-08",
+        "EMT-07-04-03"
+      ],
+      "key_points": [
+        "A drug changes something the body already does — it speeds it up, slows it down, or blocks it",
+        "Onset is how long until the drug starts working, and it depends heavily on the route",
+        "Peak is when the effect is greatest, and duration is how long the effect lasts",
+        "Half-life describes how long the body takes to remove half of the drug",
+        "An agonist produces an effect; an antagonist blocks one, including sometimes an overdose",
+        "An antagonist can wear off before the drug it is blocking, so the original effect can return",
+        "Absorption, distribution, metabolism and elimination describe a drug's journey through the body",
+        "Liver and kidney function affect metabolism and elimination, which is why the elderly and the unwell are more sensitive",
+        "Tolerance means a patient needs more of a drug over time to get the same effect",
+        "Reassessment after giving a drug is how you find out what it actually did, rather than what it should have done"
+      ],
+      "misconceptions": [
+        "Assuming an antagonist lasts as long as the drug it reverses",
+        "Expecting the same onset from every route",
+        "Ignoring liver and kidney function in older patients",
+        "Giving a drug and not reassessing"
+      ],
+      "exam_favorites": [
+        "Antagonists wear off",
+        "Onset depends on route",
+        "Reassess after giving"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A useful starting idea: a drug does not add a new capability to the body. It changes something the body already does — speeds a process up, slows it down, or blocks it. Almost every drug you will meet fits one of those descriptions, and thinking about it that way makes the effects predictable rather than arbitrary.\n\nSome words you need.\n\nOnset is how long before the drug starts to do something. It depends enormously on the route, which is the link back to the previous concept — the same drug given by two routes has two different onsets.\n\nPeak is when the effect is at its greatest. Duration is how long the effect lasts.\n\nHalf-life is how long the body takes to remove half of the drug present. It is a useful shorthand for how long something hangs around, and it explains why some drugs are taken once a day and others four times.\n\nThen two words worth knowing properly.\n\nAn agonist produces an effect — it stimulates the process. An antagonist blocks one — it occupies the place the drug or the body's own chemical would act, and stops it working. Some antagonists are used specifically to reverse an overdose.\n\nAnd that leads to something clinically important rather than merely definitional: an antagonist can wear off before the drug it is blocking. Give a reversal agent for an overdose and the patient may wake up — but if the reversal agent is shorter-acting than the drug it reversed, the original effect returns when the antagonist fades. Which is why a patient who has been reversed is still a patient who needs transport and observation, no matter how well they now look or how strongly they insist otherwise. This is one of the more important single ideas in prehospital pharmacology.\n\nFour words describe a drug's journey. Absorption, getting in. Distribution, moving around the body. Metabolism, being chemically altered, mostly by the liver. Elimination, leaving, mostly through the kidneys.\n\nThat last pair explains something you will see constantly. Older patients and patients with liver or kidney disease metabolise and eliminate drugs more slowly, so drugs accumulate and effects are stronger and longer than expected. It is the mechanism behind the polypharmacy point in geriatrics: a dose that was fine for years becomes too much as those organs decline.\n\nTolerance means needing more of a drug over time to get the same effect, and it develops with some drugs and not others. A patient taking a long-term medication may need doses that would be dangerous in someone who does not take it, which is useful context rather than a judgement.\n\nAnd finally, the practical instruction that makes all of this real. After you give a drug, reassess. Not because the textbook says what should happen, but because what actually happened is the only thing that matters, and it is frequently not what was expected. Did it work? Did anything else happen? Document both.",
+          "standard": "Pharmacological agents modify existing physiological processes by augmentation, attenuation or blockade rather than conferring novel function. Onset denotes interval to initial effect and is route-dependent, the same agent exhibiting differing onset by route. Peak denotes maximal effect and duration denotes persistence of effect. Half-life denotes the interval required for elimination of half the quantity present and informs dosing frequency. Agonists produce receptor-mediated effect; antagonists occupy the site of action and prevent effect, certain antagonists being employed for overdose reversal. Clinically, an antagonist may exhibit shorter duration than the agent it reverses, permitting return of the original effect following antagonist decline; patients receiving reversal therefore require transport and observation irrespective of apparent recovery or refusal. Pharmacokinetics comprise absorption, distribution, metabolism, predominantly hepatic, and elimination, predominantly renal. Reduced hepatic and renal function in elderly patients and those with organ disease impairs metabolism and elimination, producing accumulation with augmented and prolonged effect; this mechanism underlies the geriatric observation that established doses may become excessive with organ decline. Tolerance denotes requirement for increased dose to achieve equivalent effect over time, occurring with certain agents, such that patients on long-term therapy may require doses hazardous in naive patients. Reassessment following administration is required to determine actual effect, which frequently differs from anticipated effect, with documentation of both therapeutic and adverse outcomes."
+        },
+        "eli_new": {
+          "analogy": "Drugs do not give the body new abilities. They speed something up, slow something down, or block it — which makes the effects predictable rather than arbitrary.",
+          "body": "An antagonist can wear off before the drug it reversed. Which is why a reversed patient still needs transport and watching, however well they look and however firmly they say otherwise."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain onset, duration, agonist and antagonist, and why a reversed patient still needs transport.",
+          "must_hit": [
+            {
+              "point": "Drugs change what the body already does",
+              "accept": [
+                "change",
+                "already",
+                "speed",
+                "slow",
+                "block"
+              ]
+            },
+            {
+              "point": "Onset depends heavily on the route",
+              "accept": [
+                "onset",
+                "route",
+                "depends",
+                "start",
+                "fast"
+              ]
+            },
+            {
+              "point": "Peak, duration and half-life describe the effect over time",
+              "accept": [
+                "peak",
+                "duration",
+                "half-life",
+                "time",
+                "lasts"
+              ]
+            },
+            {
+              "point": "An agonist produces an effect and an antagonist blocks one",
+              "accept": [
+                "agonist",
+                "antagonist",
+                "block",
+                "produce",
+                "reverse"
+              ]
+            },
+            {
+              "point": "An antagonist can wear off before the drug it blocks",
+              "accept": [
+                "wear off",
+                "shorter",
+                "return",
+                "before",
+                "reversal"
+              ]
+            },
+            {
+              "point": "A reversed patient still needs transport and observation",
+              "accept": [
+                "transport",
+                "observ",
+                "still",
+                "refus",
+                "watch"
+              ]
+            },
+            {
+              "point": "Absorption, distribution, metabolism, elimination",
+              "accept": [
+                "absorption",
+                "distribution",
+                "metabolism",
+                "elimination",
+                "liver",
+                "kidney"
+              ]
+            },
+            {
+              "point": "Liver and kidney decline makes drugs accumulate, and you reassess after giving",
+              "accept": [
+                "liver",
+                "kidney",
+                "accumulat",
+                "older",
+                "reassess",
+                "after"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He felt fine",
+          "dispatch": "Medic 5 — patient reversed and now alert, declining transport.",
+          "body": "He was awake, oriented, embarrassed, and entirely reasonable about wanting to go home.\n\nSomebody explained that what had reversed it was likely to wear off sooner than what he had taken.\n\nHe went, on that sentence rather than on any argument about authority."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm pharmacological terminology and the duration relationships described against the current text and your local protocol. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-04",
+      "title": "Indications, contraindications and side effects",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-03"
+      ],
+      "related": [
+        "EMT-09-01-03",
+        "EMT-09-01-05",
+        "EMT-05-03-01"
+      ],
+      "key_points": [
+        "An indication is the reason to give a drug — the situation in which it helps",
+        "A contraindication is a reason not to give it, because in this situation it would cause harm",
+        "An absolute contraindication means never in this situation; a relative one means weigh it up",
+        "Side effects are effects other than the intended one, and most are predictable from how the drug works",
+        "An untoward or adverse effect is a harmful one, and you look for it rather than waiting to notice",
+        "Allergy is different from side effect — nausea is a side effect, a rash and swelling is an allergy",
+        "Always ask about allergies before giving anything, every time, including things you have given before",
+        "Check indications and contraindications for every administration rather than relying on memory",
+        "The patient's other medications can create a contraindication that neither drug has alone",
+        "If you are unsure whether a drug is indicated, contact medical direction rather than guessing"
+      ],
+      "misconceptions": [
+        "Confusing an allergy with a side effect",
+        "Skipping the allergy question on a repeat administration",
+        "Treating a relative contraindication as absolute or vice versa",
+        "Guessing rather than contacting medical direction"
+      ],
+      "exam_favorites": [
+        "Indication vs contraindication",
+        "Allergy is not a side effect",
+        "Ask every time"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Four words carry most of this concept, and being precise about them prevents real errors.\n\nAn indication is the reason to give a drug — the situation in which it is expected to help. Every administration you make should be answerable with a specific indication, not just a general impression that it seemed like a good idea.\n\nA contraindication is a reason not to give it, because in this particular situation it would do harm. This is the more important of the pair, and the one that requires active checking, because indications tend to be obvious and contraindications tend to be hidden in the history.\n\nContraindications come in two strengths. An absolute contraindication means never, in this situation, regardless of how much you would like to. A relative contraindication means the risk is increased and has to be weighed against the benefit — which usually means a conversation with medical direction rather than a decision made alone.\n\nSide effects are effects other than the intended one. Most are entirely predictable from how the drug works: a drug that relaxes airways will also affect the heart, because the same mechanism reaches both. Understanding the mechanism makes the side effects memorable rather than a list.\n\nAn untoward or adverse effect is a harmful one. And the useful instruction here is that you look for them actively rather than waiting to notice — knowing what a drug might do means you check for it specifically after giving it.\n\nNow the distinction that matters most in practice: allergy is not the same as a side effect, and patients routinely report the two as the same thing. \"I'm allergic to that, it makes me feel sick\" describes a side effect, not an allergy. A true allergy involves an immune reaction — rash, hives, swelling, wheeze, difficulty breathing — and it can be life-threatening and can worsen with each exposure.\n\nThe distinction matters because it changes what can safely be given. But the prehospital rule is unambiguous: if a patient reports an allergy, you do not give that drug. Sorting out whether it was a genuine allergy is a conversation for the hospital, not a judgement to make on scene, and the clarification you ask for is about the history rather than about permission.\n\nSo ask about allergies before giving anything. Every time. Including a drug you have already given this patient today, because circumstances change and because asking costs four seconds.\n\nCheck indications and contraindications for every administration rather than relying on memory. You will give the same handful of drugs hundreds of times, and familiarity is exactly the condition under which people stop checking.\n\nAnd remember that the patient's other medications can create a contraindication that neither drug carries alone. Two drugs that are individually fine can be dangerous together, which is another reason the medication list is worth gathering properly.\n\nIf you are not sure whether a drug is indicated, contact medical direction. That is the correct action, not a fallback, and nobody has ever been criticised for asking.",
+          "standard": "Indication denotes the circumstance in which administration is expected to benefit; every administration should correspond to a specific indication. Contraindication denotes circumstance in which administration would cause harm, requiring active verification, as indications are typically apparent whereas contraindications reside within the history. Absolute contraindications preclude administration irrespective of circumstance; relative contraindications denote increased risk requiring benefit-risk assessment, typically with medical direction. Side effects denote effects other than the intended effect and are predominantly predictable from mechanism, as receptor distribution extends beyond the target tissue. Untoward or adverse effects denote harmful effects, requiring active surveillance informed by knowledge of the agent's potential effects rather than passive observation. Allergy is distinct from side effect and is frequently conflated by patients; gastrointestinal upset constitutes a side effect whereas immune-mediated reaction with urticaria, angio-oedema, wheeze or respiratory compromise constitutes allergy, which may be life-threatening and may escalate with repeated exposure. Prehospitally, reported allergy precludes administration of that agent; differentiation of true allergy from intolerance is undertaken in hospital. Allergy enquiry precedes every administration, including repeat administration to the same patient. Indication and contraindication verification is performed for every administration rather than by recall, as familiarity with frequently administered agents predisposes to omission of checking. Concurrent medications may generate contraindications absent for either agent individually, providing further rationale for comprehensive medication history. Where indication is uncertain, medical direction consultation constitutes the correct action."
+        },
+        "eli_new": {
+          "analogy": "Indications are obvious and contraindications hide in the history. That asymmetry is why one of them needs active checking and the other mostly does not.",
+          "body": "'I'm allergic, it makes me feel sick' describes a side effect. But on scene it does not matter — reported allergy means you do not give it, and sorting it out is a hospital conversation."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define indication, contraindication, side effect and allergy, and explain what you check before giving a drug.",
+          "must_hit": [
+            {
+              "point": "An indication is the reason to give it",
+              "accept": [
+                "indication",
+                "reason",
+                "give",
+                "situation",
+                "helps"
+              ]
+            },
+            {
+              "point": "A contraindication is a reason not to, because it would harm",
+              "accept": [
+                "contraindication",
+                "not",
+                "harm",
+                "reason",
+                "avoid"
+              ]
+            },
+            {
+              "point": "Absolute means never; relative means weigh it up",
+              "accept": [
+                "absolute",
+                "relative",
+                "never",
+                "weigh",
+                "risk"
+              ]
+            },
+            {
+              "point": "Side effects are other effects, mostly predictable from mechanism",
+              "accept": [
+                "side effect",
+                "other",
+                "predictable",
+                "mechanism",
+                "expected"
+              ]
+            },
+            {
+              "point": "Adverse effects are harmful and you look for them actively",
+              "accept": [
+                "adverse",
+                "untoward",
+                "harmful",
+                "look for",
+                "check"
+              ]
+            },
+            {
+              "point": "Allergy is an immune reaction, not nausea",
+              "accept": [
+                "allergy",
+                "immune",
+                "rash",
+                "swelling",
+                "wheeze",
+                "not nausea"
+              ]
+            },
+            {
+              "point": "Reported allergy means you do not give it",
+              "accept": [
+                "reported",
+                "do not give",
+                "hospital",
+                "sort out",
+                "scene"
+              ]
+            },
+            {
+              "point": "Ask allergies every time, and consult medical direction if unsure",
+              "accept": [
+                "every time",
+                "ask",
+                "medical direction",
+                "unsure",
+                "contact"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Four seconds",
+          "dispatch": "Medic 2 — second administration to the same patient this shift.",
+          "body": "Somebody asked the allergy question again, for a patient they had already treated ninety minutes earlier.\n\nIt felt slightly ridiculous and they asked it anyway.\n\nThe answer had changed, because the first time round nobody had asked about the second drug."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm indication and contraindication definitions and your own drug check procedure against the current text and your local protocol. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-05",
+      "title": "The six rights",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-04"
+      ],
+      "related": [
+        "EMT-09-01-04",
+        "EMT-09-01-06",
+        "EMT-09-03-02"
+      ],
+      "key_points": [
+        "The six rights are a checklist performed out loud before every single administration",
+        "Right patient — confirm who you are giving it to, which matters more with multiple patients",
+        "Right medication — read the label, and read it at the moment you draw or open it, not from memory",
+        "Right dose — confirm the amount against your protocol, and check the concentration on the label",
+        "Right route — confirm how it goes in, because the same drug by the wrong route can harm",
+        "Right time — confirm it is the right moment, including whether an earlier dose has already been given",
+        "Right documentation — record what, how much, by which route, at what time, by whom, and the effect",
+        "Read the label three times: when you pick it up, when you prepare it, and before it goes in",
+        "Say the checks out loud, because speaking them catches errors that silent reading does not",
+        "Some texts add a seventh right, such as the patient's right to refuse — follow the version your programme uses"
+      ],
+      "misconceptions": [
+        "Reading the label once and relying on memory",
+        "Checking silently rather than out loud",
+        "Skipping the check because you have given this drug many times",
+        "Documenting later and inaccurately"
+      ],
+      "exam_favorites": [
+        "The six rights",
+        "Read the label three times",
+        "Say it out loud"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The six rights are a checklist you run before every single administration, and the whole value of them is that they are performed rather than known. Being able to list them is not the skill. Running them at three in the morning when you are tired and hurried is the skill.\n\nRight patient. Confirm who you are giving this to. This sounds trivial with one patient in a bedroom and stops being trivial the moment there are two, or when several crews are working in the same space, or when the patient cannot confirm their own identity.\n\nRight medication. Read the label. Read it at the moment you open or draw it, not from memory of what you picked up thirty seconds ago and not from the position it lives in on the shelf. Boxes get restocked in the wrong place, and packaging from the same manufacturer looks alike on purpose.\n\nRight dose. Confirm the amount against your protocol, and check the concentration on the label as well as the volume. The same drug frequently exists in more than one concentration, and that is the mechanism behind some of the worst errors in medicine.\n\nRight route. Confirm how it goes in. Some drugs exist in forms for different routes, and the same drug by the wrong route can be ineffective or dangerous.\n\nRight time. Confirm this is the right moment. In practice the highest-value version of this question is whether a dose has already been given — by the patient themselves before you arrived, by a family member, by a first responder, or by your own crew. Ask specifically, because people do not volunteer it.\n\nRight documentation. Record what you gave, how much, by which route, at what time, who gave it, and what happened afterwards. That last part is frequently omitted and is the part the hospital most wants.\n\nTwo habits make the rights actually work.\n\nRead the label three times: when you pick the container up, when you prepare the dose, and immediately before it goes in. That sounds excessive and it is the standard practice in every setting that gives medications routinely, for the straightforward reason that it catches errors at three separate points.\n\nAnd say the checks out loud. Speaking them engages a different kind of attention than reading them silently, it lets your partner catch what you missed, and it produces a shared record of what was intended. Silent checking feels the same as checking and is measurably worse.\n\nFinally, be aware that some texts and programmes add a seventh right, most commonly the patient's right to refuse, and sometimes the right effect or the right to know what they are being given. Follow whichever version your programme and protocol use. The number matters less than the fact that you actually perform them.\n\nAnd the honest warning: the danger is familiarity. You will give the same handful of drugs hundreds of times, and the check will start to feel like a formality. That is precisely when it stops being performed, and precisely when it was doing its job.",
+          "standard": "The six rights constitute a pre-administration verification checklist performed prior to every administration, with operational value residing in execution rather than recall. Right patient requires confirmation of recipient identity, of increased importance with multiple patients, multiple attending crews, or patients unable to confirm identity. Right medication requires label verification at the point of opening or preparation rather than by recall or storage position, as restocking errors occur and manufacturer packaging is deliberately similar. Right dose requires verification of quantity against protocol and of concentration in addition to volume, as multiple concentrations of a single agent constitute a recognised source of serious error. Right route requires confirmation of administration route, as agents exist in route-specific formulations and incorrect route may render administration ineffective or harmful. Right time requires confirmation of appropriate timing, with the highest-yield application being determination of prior administration by the patient, family, first responders or crew, which is infrequently volunteered and requires specific enquiry. Right documentation requires recording of agent, quantity, route, time, administering provider and subsequent effect, the last frequently omitted and of greatest interest to receiving clinicians. Two practices support execution: triple label verification at retrieval, preparation and administration, standard in settings administering medications routinely as it interrupts error at three points; and verbalisation of checks, which engages distinct attentional processes, permits partner verification and generates a shared record, silent verification being subjectively equivalent and measurably inferior. Some texts and programmes specify a seventh right, commonly the right to refuse, the right effect, or the right to information; providers follow their programme and protocol. Familiarity with frequently administered agents constitutes the principal threat to execution."
+        },
+        "eli_new": {
+          "analogy": "Being able to list the six rights is not the skill. Running them at three in the morning when you are tired is the skill.",
+          "body": "Say the checks out loud. Silent checking feels exactly the same as checking and is measurably worse, and speaking them lets your partner catch what you missed."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the six rights and explain the two habits that make them work.",
+          "must_hit": [
+            {
+              "point": "Right patient — confirm who you are giving it to",
+              "accept": [
+                "right patient",
+                "who",
+                "identity",
+                "confirm",
+                "multiple"
+              ]
+            },
+            {
+              "point": "Right medication — read the label, not your memory",
+              "accept": [
+                "medication",
+                "label",
+                "read",
+                "memory",
+                "shelf"
+              ]
+            },
+            {
+              "point": "Right dose — including the concentration",
+              "accept": [
+                "dose",
+                "concentration",
+                "amount",
+                "protocol",
+                "label"
+              ]
+            },
+            {
+              "point": "Right route",
+              "accept": [
+                "route",
+                "how",
+                "goes in",
+                "form",
+                "wrong route"
+              ]
+            },
+            {
+              "point": "Right time — including whether a dose has already been given",
+              "accept": [
+                "time",
+                "already",
+                "earlier",
+                "given",
+                "ask"
+              ]
+            },
+            {
+              "point": "Right documentation — including the effect",
+              "accept": [
+                "document",
+                "record",
+                "time",
+                "who",
+                "effect"
+              ]
+            },
+            {
+              "point": "Read the label three times",
+              "accept": [
+                "three times",
+                "label",
+                "pick up",
+                "prepare",
+                "before"
+              ]
+            },
+            {
+              "point": "Say the checks out loud, and beware familiarity",
+              "accept": [
+                "out loud",
+                "speak",
+                "silent",
+                "familiar",
+                "partner"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Say it",
+          "dispatch": "Medic 7 — medication being prepared, partner across the compartment.",
+          "body": "They had done it out loud every time since training, which occasionally felt performative.\n\nOn this one the partner said, from four feet away and without looking up, that the concentration was not the usual one.\n\nSilent checking would have felt identical and caught nothing."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "1 — RIGHT PATIENT",
+            "value": "who is this?",
+            "note": "Trivial with one patient in a bedroom. Not trivial with two, with several crews, or when they cannot confirm their own identity."
+          },
+          {
+            "label": "2 — RIGHT MEDICATION",
+            "value": "READ THE LABEL",
+            "note": "At the moment you open it. NOT from memory, NOT from where it lives on the shelf. Restocking errors happen and packaging looks alike on purpose."
+          },
+          {
+            "label": "3 — RIGHT DOSE",
+            "value": "amount AND concentration",
+            "note": "The same drug often exists in more than one concentration. That is the mechanism behind some of the worst errors in medicine."
+          },
+          {
+            "label": "4 — RIGHT ROUTE",
+            "value": "how does it go in?",
+            "note": "The same drug by the wrong route can be useless or dangerous."
+          },
+          {
+            "label": "5 — RIGHT TIME",
+            "value": "has a dose already been given?",
+            "note": "By the patient before you arrived, by family, by first responders, by your own crew. ASK — people do not volunteer it."
+          },
+          {
+            "label": "6 — RIGHT DOCUMENTATION",
+            "value": "what, how much, route, time, who, AND THE EFFECT",
+            "note": "The effect is the part most often left out and the part the hospital most wants."
+          },
+          {
+            "label": "Habit one",
+            "value": "READ THE LABEL THREE TIMES",
+            "note": "When you pick it up · when you prepare it · immediately before it goes in. Three separate chances to catch it."
+          },
+          {
+            "label": "Habit two",
+            "value": "SAY THE CHECKS OUT LOUD",
+            "note": "Silent checking feels identical and is measurably worse. Speaking them lets your partner catch what you missed."
+          },
+          {
+            "label": "A seventh right?",
+            "value": "depends on your programme",
+            "note": "Some texts add the right to refuse, the right effect, or the right to know. FOLLOW YOUR OWN VERSION. The number matters less than performing them."
+          },
+          {
+            "label": "The real danger",
+            "value": "FAMILIARITY",
+            "note": "You will give the same few drugs hundreds of times. The check starts to feel like a formality exactly when it is doing its job."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the number and wording of the rights against your own programme and protocol, as some texts specify seven or more. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-06",
+      "title": "Medication errors",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-05"
+      ],
+      "related": [
+        "EMT-09-01-05",
+        "EMT-01-04-02"
+      ],
+      "key_points": [
+        "Medication errors happen to careful people, and the system is designed on that assumption",
+        "Common errors: wrong drug, wrong dose, wrong route, wrong patient, and a dose given twice",
+        "Look-alike packaging and sound-alike names are known causes rather than excuses",
+        "Distraction and interruption during preparation are strongly associated with error",
+        "If you make an error, the first action is to care for the patient, not to work out what happened",
+        "Tell someone immediately — your partner, medical direction and the receiving hospital",
+        "Document what was actually given, accurately, including the error",
+        "Never conceal an error or alter documentation, which turns a clinical problem into a career-ending one",
+        "Report through your service's process, because errors that are not reported cannot be prevented",
+        "A service that punishes reporting produces silence rather than safety, and good ones know it"
+      ],
+      "misconceptions": [
+        "Concealing an error or altering the record",
+        "Trying to work out what happened before treating the patient",
+        "Assuming careful people do not make errors",
+        "Not reporting a near miss"
+      ],
+      "exam_favorites": [
+        "Patient first, then disclosure",
+        "Never alter the record",
+        "Report near misses"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Medication errors happen to careful, competent, experienced people. That is not a reassurance, it is the design assumption behind every check in this lesson — the rights, the triple label read, the verbalising. Those exist because individual care is not sufficient on its own, and a system that relied on people simply being careful would fail regularly.\n\nThe common errors are worth naming so you can watch for them. The wrong drug. The wrong dose. The wrong route. The wrong patient. And a dose given twice, because two people each thought the other had not done it.\n\nSome known causes. Look-alike packaging — manufacturers use house styles, so their products resemble each other. Sound-alike names, which are common enough that published lists of confusable pairs exist. And distraction or interruption during preparation, which is one of the strongest associations there is: being spoken to halfway through drawing up a dose substantially increases the chance of getting it wrong. That is why some settings treat medication preparation as a do-not-interrupt activity, and why it is worth saying \"give me ten seconds\" rather than answering.\n\nNow the important part: what to do if it happens.\n\nFirst, care for the patient. Not investigate, not explain, not work out how. Assess them, treat the effects, get help if you need it, and prepare for what this drug or this dose is likely to do. The patient is the only urgent thing in the situation.\n\nSecond, tell someone immediately. Your partner, medical direction, and the receiving hospital. The hospital in particular must know, because their treatment depends on what is actually in the patient, and a concealed error means clinicians treating a patient on false information. Say it plainly and early.\n\nThird, document what was actually given. Accurately. Including the error. The record must describe reality, because everyone downstream relies on it.\n\nAnd the rule with the sharpest consequences: never conceal an error and never alter documentation. Concealment turns a clinical problem into a professional and legal catastrophe. An error honestly reported is usually survivable, both for the patient and for your career. An error concealed, and then discovered, generally is not — and it will be discovered, because the patient's subsequent course does not match their record.\n\nReport through your service's process, including near misses — the ones where you caught it in time. Near misses are free information about how the next real error will happen, and a service that hears about them can fix the packaging, the storage or the procedure before somebody is harmed.\n\nOne last observation, which is about culture rather than about you. A service that punishes reporting produces silence, not safety. The errors still happen; they simply stop being visible, which means nothing gets fixed. Good organisations understand this and treat honest reporting as a contribution rather than a confession. If you can, be the person who reports, and be the person who makes it safe for others to.",
+          "standard": "Medication errors occur among careful, competent and experienced practitioners; verification systems including the rights, triple label verification and verbalisation exist on this assumption, as reliance on individual diligence alone produces regular failure. Common error types comprise incorrect agent, dose, route and patient, and duplicate administration arising from assumed non-administration by a colleague. Recognised contributory factors include look-alike packaging arising from manufacturer house styles, sound-alike agent names for which published confusable-pair lists exist, and distraction or interruption during preparation, which demonstrates strong association with error and underlies do-not-interrupt designation of medication preparation in some settings. Following an error, the sequence is: first, patient care, comprising assessment, treatment of effects, escalation and anticipation of the agent's likely effects; second, immediate disclosure to partner, medical direction and receiving facility, the latter essential as subsequent treatment depends on accurate knowledge of administered agents and concealment causes clinicians to treat on false information; third, accurate documentation of what was actually administered including the error, as downstream care depends on record accuracy. Concealment of error and alteration of documentation are absolutely prohibited, converting a clinical event into a professional and legal one; honest reporting is generally survivable clinically and professionally whereas concealment discovered through divergence between clinical course and record is not. Reporting through service process should include near misses, which provide information regarding latent failure modes and permit correction of packaging, storage or procedure before harm occurs. Organisational cultures that penalise reporting produce non-reporting rather than reduced error, preventing system correction."
+        },
+        "eli_new": {
+          "analogy": "An error honestly reported is usually survivable. An error concealed and then discovered generally is not — and it will be discovered, because the patient's course stops matching their record.",
+          "body": "The first action after an error is caring for the patient. Not investigating, not explaining, not working out how. The patient is the only urgent thing in the room."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what causes medication errors and exactly what you do if you make one.",
+          "must_hit": [
+            {
+              "point": "Errors happen to careful people — that is why the checks exist",
+              "accept": [
+                "careful",
+                "competent",
+                "happen",
+                "system",
+                "assumption"
+              ]
+            },
+            {
+              "point": "Common errors: wrong drug, dose, route, patient, or a double dose",
+              "accept": [
+                "wrong drug",
+                "dose",
+                "route",
+                "patient",
+                "twice",
+                "double"
+              ]
+            },
+            {
+              "point": "Look-alike packaging and sound-alike names are known causes",
+              "accept": [
+                "look-alike",
+                "sound-alike",
+                "packaging",
+                "name",
+                "confus"
+              ]
+            },
+            {
+              "point": "Distraction during preparation strongly predicts error",
+              "accept": [
+                "distract",
+                "interrupt",
+                "preparation",
+                "spoken",
+                "associat"
+              ]
+            },
+            {
+              "point": "First action is caring for the patient",
+              "accept": [
+                "patient",
+                "first",
+                "care",
+                "treat",
+                "assess"
+              ]
+            },
+            {
+              "point": "Tell your partner, medical direction and the hospital immediately",
+              "accept": [
+                "tell",
+                "partner",
+                "medical direction",
+                "hospital",
+                "immediate"
+              ]
+            },
+            {
+              "point": "Document accurately, including the error",
+              "accept": [
+                "document",
+                "accurate",
+                "record",
+                "including",
+                "error"
+              ]
+            },
+            {
+              "point": "Never conceal or alter the record, and report near misses",
+              "accept": [
+                "never",
+                "conceal",
+                "alter",
+                "near miss",
+                "report"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Ten seconds",
+          "dispatch": "Medic 1 — medication being drawn up, radio traffic incoming.",
+          "body": "Somebody spoke to her halfway through, which is the single strongest predictor there is.\n\nShe said give me ten seconds, finished, read the label again, and then answered.\n\nThat is a whole safety system, and it fits in four words."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm error reporting procedure and disclosure requirements against your service's policy and your local protocol, which vary. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-07",
+      "title": "Your scope, and medical direction",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-05"
+      ],
+      "related": [
+        "EMT-09-01-05",
+        "EMT-09-03-01",
+        "EMT-01-04-01"
+      ],
+      "key_points": [
+        "What you may give is set by your protocol and your medical director, not by what you know",
+        "At EMT level the actions are usually administer, or assist the patient with their own medication",
+        "Administering means you give a medication your service carries, under your authority to do so",
+        "Assisting means helping a patient take their own prescribed medication, which is a different authority",
+        "Standing orders authorise you to act without contacting anyone first, in defined situations",
+        "Online medical direction means contacting a physician and receiving an order for this specific patient",
+        "Know which of your medications are standing orders and which require contact, before you need to know",
+        "When you contact medical direction, give a clear picture and repeat the order back before acting",
+        "If an order seems wrong or unsafe, say so — you are responsible for what you do, and repeating the concern is appropriate",
+        "Acting outside your scope is a serious matter, however well intentioned and however right you were"
+      ],
+      "misconceptions": [
+        "Acting on knowledge rather than authorisation",
+        "Failing to repeat back an order",
+        "Carrying out an order you believe is unsafe without questioning it",
+        "Confusing assisting with administering"
+      ],
+      "exam_favorites": [
+        "Standing vs online orders",
+        "Repeat the order back",
+        "Question an unsafe order"
+      ],
+      "modes": {
+        "read": {
+          "plain": "What you may give is determined by your protocol and your medical director. Not by what you know, not by what would clearly help, and not by what you did in a previous job or a different system. This is one of the sharpest distinctions between medicine as a body of knowledge and medicine as a practice with authority attached.\n\nAt EMT level, there are usually two kinds of action.\n\nAdministering means you give a medication your service carries, under your own authority to do so. The drug is yours, the decision is within your scope, and you are acting as a clinician within a defined permission.\n\nAssisting means helping a patient take their own prescribed medication — their inhaler, their nitroglycerin, their auto-injector. That is a different authority and frequently has different conditions attached: the medication must be prescribed to this patient, it must be in date, and your protocol will usually require specific criteria to be met. Knowing which of your actions is which matters, because the rules differ.\n\nThen the two ways authority reaches you.\n\nStanding orders, sometimes called offline medical direction, are written authorisations to act in defined situations without contacting anybody first. Your medical director has decided in advance that in this situation, an EMT may do this. That decision has already been made; you are executing it.\n\nOnline medical direction means contacting a physician and receiving an order for this specific patient, now. You describe the situation and they authorise, modify or decline.\n\nFind out which of your medications sit in which category before you need to know. Standing in a kitchen with a deteriorating patient is a bad time to discover that the drug in your hand requires a phone call.\n\nWhen you do contact medical direction, two habits make it work. Give a clear, ordered picture — who the patient is, what is wrong, what you have found, what you have done, and what you are asking for. And repeat the order back before acting on it. Repeating back catches mishearing, catches ambiguity, and takes three seconds. Radios are noisy, drug names sound alike, and \"repeat back\" exists because of what happens when people do not.\n\nNow the harder situation. If an order seems wrong or unsafe, say so. You are responsible for what you do, and \"I was told to\" is not a complete answer for an action you knew was wrong. The correct approach is not refusal as a first move; it is to state your concern clearly and specifically — mention the finding you think they may not have, or the contraindication you believe applies — and to ask them to confirm. Most of the time this resolves it, because most apparently wrong orders are based on incomplete information, and you are the one standing in the room.\n\nAnd be clear about the last point. Acting outside your scope is a serious matter, regardless of intention and regardless of whether you turned out to be right. Scope exists so that a system can be accountable for what its clinicians do, and the person who exceeds it — even successfully — has removed that accountability.",
+          "standard": "Permissible medication administration is determined by protocol and medical director authorisation rather than by provider knowledge, prior practice in other systems or apparent clinical benefit. EMT-level action comprises two categories. Administration denotes provision of a service-carried medication under the provider's own authorisation. Assistance denotes facilitation of patient self-administration of their own prescribed medication, constituting a distinct authority typically conditional upon the medication being prescribed to that patient, within expiry, and upon protocol-specified criteria. Authority is conveyed by two mechanisms. Standing orders, or offline medical direction, constitute written pre-authorisation for defined situations without requirement for contemporaneous contact, the medical director having determined in advance the permissible action. Online medical direction denotes contemporaneous physician contact and patient-specific order, with authorisation, modification or refusal. Providers should establish the categorisation of their formulary in advance of need. Contact with medical direction requires structured presentation comprising patient identification, presenting problem, findings, interventions performed and the specific request; orders must be repeated back prior to execution, addressing mishearing and ambiguity in a noisy environment with acoustically similar agent names. Where an order appears erroneous or unsafe, the provider states the specific concern, identifying the finding or contraindication believed relevant, and requests confirmation; most such situations resolve, as apparently erroneous orders typically reflect incomplete information held by the remote physician. Providers retain responsibility for their actions and instruction does not constitute complete justification for knowingly erroneous action. Practice outside authorised scope constitutes a serious matter irrespective of intent or outcome, as scope provides the mechanism of system accountability."
+        },
+        "eli_new": {
+          "analogy": "Standing orders are a decision already made. Online direction is a decision being made now. Knowing which applies to the drug in your hand is not something to work out in a kitchen.",
+          "body": "Repeat the order back. It takes three seconds, radios are noisy, drug names sound alike, and the instruction exists because of what happened when people did not."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what governs your scope and how medical direction works.",
+          "must_hit": [
+            {
+              "point": "Protocol and your medical director decide, not your knowledge",
+              "accept": [
+                "protocol",
+                "medical director",
+                "authoris",
+                "not knowledge",
+                "scope"
+              ]
+            },
+            {
+              "point": "Administering uses your service's medication under your authority",
+              "accept": [
+                "administer",
+                "service",
+                "carries",
+                "authority",
+                "own"
+              ]
+            },
+            {
+              "point": "Assisting means helping with the patient's own prescribed medication",
+              "accept": [
+                "assist",
+                "own",
+                "prescribed",
+                "patient",
+                "different"
+              ]
+            },
+            {
+              "point": "Standing orders authorise action without contacting anyone",
+              "accept": [
+                "standing",
+                "offline",
+                "without",
+                "advance",
+                "written"
+              ]
+            },
+            {
+              "point": "Online direction means a physician order for this specific patient",
+              "accept": [
+                "online",
+                "contact",
+                "physician",
+                "order",
+                "specific"
+              ]
+            },
+            {
+              "point": "Know which applies before you need to know",
+              "accept": [
+                "know",
+                "before",
+                "which",
+                "advance",
+                "kitchen"
+              ]
+            },
+            {
+              "point": "Give a clear picture and repeat the order back",
+              "accept": [
+                "clear",
+                "picture",
+                "repeat",
+                "back",
+                "confirm"
+              ]
+            },
+            {
+              "point": "Question an unsafe order, and never exceed your scope",
+              "accept": [
+                "question",
+                "unsafe",
+                "concern",
+                "scope",
+                "responsible"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Say the finding",
+          "dispatch": "Medic 4 — online medical direction, order received.",
+          "body": "The order did not fit what they were looking at, and the easy thing would have been to carry it out.\n\nInstead they said one specific finding out loud and asked for confirmation.\n\nThe order changed. The physician had not had that piece of information."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm your own scope, which medications are standing orders, and your medical direction contact procedure against your local protocol, which varies considerably by system. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    }
+  ]
+}

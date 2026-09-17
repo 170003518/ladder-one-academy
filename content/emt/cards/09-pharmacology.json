@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-09",
+  "tier": "emt",
+  "cards": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-01-C01",
+      "concept_id": "EMT-09-01-01",
+      "type": "concept",
+      "front": {
+        "title": "Drug names and forms",
+        "summary": "Two boxes, one drug"
+      },
+      "back": {
+        "body": "GENERIC NAME — the OFFICIAL name of the drug itself; lower case, SAME EVERYWHERE · TRADE NAME — a manufacturer's BRAND name; capitalised, and ONE DRUG MAY HAVE MANY · CHEMICAL NAME — the molecule; of no practical use to you · PATIENTS KNOW TRADE NAMES AND NOT GENERIC ONES, because that is what is on the box · TWO BOXES WITH DIFFERENT TRADE NAMES CAN HOLD THE SAME DRUG — a real cause of DOUBLE DOSING, and a reason to bring the boxes · FORM DETERMINES ROUTE, SPEED AND WHETHER THIS PATIENT CAN TAKE IT: tablets · capsules · liquids · gels · sprays · inhalers · auto-injectors · AND COMPRESSED GAS — OXYGEN IS A DRUG · WRITE DOWN EXACTLY WHAT IS ON THE BOX, not what you think it means",
+        "why_it_matters": "Same drug. He had been taking it twice a day for about three weeks."
+      },
+      "high_yield": true,
+      "number": 1,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-01-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-02-C02",
+      "concept_id": "EMT-09-01-02",
+      "type": "concept",
+      "front": {
+        "title": "Routes",
+        "summary": "Closer and better supplied means faster"
+      },
+      "back": {
+        "body": "ROUTE DECIDES HOW FAST IT WORKS AND HOW MUCH REACHES THE BLOOD · THE PRINCIPLE: THE CLOSER TO THE BLOODSTREAM AND THE BETTER THE BLOOD SUPPLY, THE FASTER · ORAL — SLOWEST: gut absorption, then the liver · NEVER GIVE ANYTHING BY MOUTH TO A PATIENT WHO CANNOT PROTECT THEIR AIRWAY. That question comes BEFORE every other consideration · SUBLINGUAL — rich blood supply, thin lining, FAST, and BYPASSES THE GUT AND LIVER. Does not work in a dry mouth · INHALED — fast, and puts the drug WHERE THE LUNG PROBLEM IS · INTRAMUSCULAR — reliable, no vein, basic training: why AUTO-INJECTORS use it · INTRANASAL — fast, no needle, works on the uncooperative · INTRAVENOUS — fastest and most complete; outside EMT scope in most systems · MATCH THE ROUTE TO THE PATIENT, not to the drug in the abstract",
+        "why_it_matters": "The question is not whether the drug is right. It is whether this patient can protect their airway."
+      },
+      "high_yield": true,
+      "number": 2,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-01-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-03-C03",
+      "concept_id": "EMT-09-01-03",
+      "type": "concept",
+      "front": {
+        "title": "How drugs act",
+        "summary": "Antagonists wear off"
+      },
+      "back": {
+        "body": "A DRUG CHANGES SOMETHING THE BODY ALREADY DOES — speeds it up, slows it down, or BLOCKS it · ONSET (how long until it works, HEAVILY ROUTE-DEPENDENT) · PEAK · DURATION · HALF-LIFE (time to remove half of it) · AGONIST PRODUCES an effect · ANTAGONIST BLOCKS one, and some reverse overdoses · AN ANTAGONIST CAN WEAR OFF BEFORE THE DRUG IT REVERSED — SO THE ORIGINAL EFFECT CAN COME BACK. A REVERSED PATIENT STILL NEEDS TRANSPORT AND WATCHING, however well they look · ABSORPTION · DISTRIBUTION · METABOLISM (liver) · ELIMINATION (kidneys) — which is why OLDER AND UNWELL PATIENTS ACCUMULATE DRUGS and react more strongly · TOLERANCE: more needed over time for the same effect · ALWAYS REASSESS AFTER GIVING — what happened matters, not what should have",
+        "why_it_matters": "He went, on that sentence rather than on any argument about authority."
+      },
+      "high_yield": true,
+      "number": 3,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-01-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-04-C04",
+      "concept_id": "EMT-09-01-04",
+      "type": "concept",
+      "front": {
+        "title": "Indications and contraindications",
+        "summary": "Ask every time"
+      },
+      "back": {
+        "body": "INDICATION — the reason TO give it · CONTRAINDICATION — a reason NOT to, because here it would HARM · INDICATIONS ARE OBVIOUS; CONTRAINDICATIONS HIDE IN THE HISTORY, which is why one needs ACTIVE CHECKING · ABSOLUTE = never in this situation · RELATIVE = weigh it, usually with medical direction · SIDE EFFECTS are other effects, MOSTLY PREDICTABLE FROM THE MECHANISM · ADVERSE EFFECTS are harmful — LOOK FOR THEM, do not wait to notice · ALLERGY IS NOT A SIDE EFFECT: nausea is a side effect; RASH, SWELLING, WHEEZE, DIFFICULTY BREATHING is allergy · BUT ON SCENE: REPORTED ALLERGY MEANS YOU DO NOT GIVE IT — sorting it out is a hospital conversation · ASK ABOUT ALLERGIES BEFORE EVERY ADMINISTRATION, INCLUDING REPEATS · OTHER MEDICATIONS CAN CREATE A CONTRAINDICATION NEITHER DRUG HAS ALONE · UNSURE? CONTACT MEDICAL DIRECTION",
+        "why_it_matters": "It felt slightly ridiculous and they asked it anyway. The answer had changed."
+      },
+      "high_yield": true,
+      "number": 4,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-01-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-05-C05",
+      "concept_id": "EMT-09-01-05",
+      "type": "concept",
+      "front": {
+        "title": "The six rights",
+        "summary": "Performed, not known"
+      },
+      "back": {
+        "body": "A CHECKLIST RUN BEFORE EVERY SINGLE ADMINISTRATION — and being able to LIST them is not the skill; RUNNING them at 3am when you are tired is · RIGHT PATIENT · RIGHT MEDICATION (READ THE LABEL, at the moment you open it, not from memory or shelf position) · RIGHT DOSE (amount AND CONCENTRATION — the same drug often comes in more than one) · RIGHT ROUTE · RIGHT TIME (HAS A DOSE ALREADY BEEN GIVEN? by the patient, family, first responders, your own crew — ASK) · RIGHT DOCUMENTATION (what, how much, route, time, who, AND THE EFFECT) · READ THE LABEL THREE TIMES: picking up, preparing, before it goes in · SAY THE CHECKS OUT LOUD — silent checking FEELS IDENTICAL AND IS WORSE · THE DANGER IS FAMILIARITY",
+        "why_it_matters": "The partner said, without looking up, that the concentration was not the usual one."
+      },
+      "high_yield": true,
+      "number": 5,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-01-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-05-C06",
+      "concept_id": "EMT-09-01-05",
+      "type": "numbers",
+      "front": {
+        "title": "The six rights",
+        "summary": "Plus the two habits"
+      },
+      "back": {
+        "body": "1 RIGHT PATIENT · 2 RIGHT MEDICATION — READ THE LABEL · 3 RIGHT DOSE — amount AND CONCENTRATION · 4 RIGHT ROUTE · 5 RIGHT TIME — has a dose already been given? · 6 RIGHT DOCUMENTATION — including THE EFFECT · HABIT ONE: READ THE LABEL THREE TIMES · HABIT TWO: SAY THE CHECKS OUT LOUD · Some programmes add a seventh right — follow your own version · THE REAL DANGER IS FAMILIARITY.",
+        "why_it_matters": "The number matters less than the fact that you actually perform them."
+      },
+      "high_yield": true,
+      "number": 6,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-01-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-06-C07",
+      "concept_id": "EMT-09-01-06",
+      "type": "concept",
+      "front": {
+        "title": "Medication errors",
+        "summary": "Patient first, then say it"
+      },
+      "back": {
+        "body": "ERRORS HAPPEN TO CAREFUL, COMPETENT, EXPERIENCED PEOPLE — that is the ASSUMPTION THE WHOLE CHECKING SYSTEM IS BUILT ON · COMMON: wrong drug · wrong dose · wrong route · wrong patient · A DOSE GIVEN TWICE because each thought the other had not · KNOWN CAUSES: LOOK-ALIKE PACKAGING · SOUND-ALIKE NAMES · DISTRACTION OR INTERRUPTION DURING PREPARATION, one of the strongest associations there is · IF IT HAPPENS: 1. CARE FOR THE PATIENT — not investigate, not explain · 2. TELL YOUR PARTNER, MEDICAL DIRECTION AND THE HOSPITAL IMMEDIATELY — their treatment depends on knowing what is actually in the patient · 3. DOCUMENT WHAT WAS ACTUALLY GIVEN, INCLUDING THE ERROR · NEVER CONCEAL AND NEVER ALTER THE RECORD · REPORT NEAR MISSES TOO",
+        "why_it_matters": "She said give me ten seconds, finished, read the label again, and then answered."
+      },
+      "high_yield": true,
+      "number": 7,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-01-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-01-07-C08",
+      "concept_id": "EMT-09-01-07",
+      "type": "concept",
+      "front": {
+        "title": "Scope and medical direction",
+        "summary": "Repeat it back"
+      },
+      "back": {
+        "body": "YOUR PROTOCOL AND MEDICAL DIRECTOR DECIDE WHAT YOU MAY GIVE — not what you know, not what would obviously help, not what you did elsewhere · ADMINISTER = your service's medication under your own authority · ASSIST = helping a patient with THEIR OWN PRESCRIBED medication — a DIFFERENT authority, usually with conditions (prescribed to them, in date, criteria met) · STANDING ORDERS (offline) = written pre-authorisation; THE DECISION IS ALREADY MADE · ONLINE = a physician order for THIS patient, NOW · KNOW WHICH IS WHICH BEFORE YOU NEED TO · GIVE A CLEAR ORDERED PICTURE, THEN REPEAT THE ORDER BACK — three seconds, noisy radios, similar-sounding names · IF AN ORDER SEEMS UNSAFE, SAY THE SPECIFIC FINDING AND ASK FOR CONFIRMATION — you are the one in the room · ACTING OUTSIDE SCOPE IS SERIOUS EVEN WHEN YOU WERE RIGHT",
+        "why_it_matters": "The order changed. The physician had not had that piece of information."
+      },
+      "high_yield": true,
+      "number": 8,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-01-07. Check every figure on this card against the source before it is printed or drilled."
+    }
+  ]
+}
