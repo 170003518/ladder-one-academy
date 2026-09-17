@@ -212,6 +212,996 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-01-Q001",
+      "concept_id": "EMT-05-02-01",
+      "style": "recall",
+      "stem": "Which type of stroke accounts for the large majority of cases?",
+      "options": [
+        {
+          "text": "Hemorrhagic",
+          "rationale": "Hemorrhagic strokes are the minority."
+        },
+        {
+          "text": "Ischemic",
+          "rationale": "Correct. A blocked vessel is by far the more common mechanism."
+        },
+        {
+          "text": "Transient ischemic attack",
+          "rationale": "A TIA resolves completely and is not a completed stroke."
+        },
+        {
+          "text": "They occur at equal rates",
+          "rationale": "They do not; ischemic strokes clearly predominate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-01-Q002",
+      "concept_id": "EMT-05-02-01",
+      "style": "recall",
+      "stem": "What is the single most important piece of history in a suspected stroke?",
+      "options": [
+        {
+          "text": "The patient's medication list",
+          "rationale": "Useful, but not the datum that governs treatment eligibility."
+        },
+        {
+          "text": "The time the patient was last known to be at their normal baseline",
+          "rationale": "Correct. Eligibility for time-dependent treatment is measured from last known well."
+        },
+        {
+          "text": "When the symptoms were first noticed",
+          "rationale": "Noticing is not the same as onset; someone may have been affected for hours before."
+        },
+        {
+          "text": "The patient's blood pressure",
+          "rationale": "Important to record but not the governing history."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-01-Q003",
+      "concept_id": "EMT-05-02-01",
+      "style": "application",
+      "stem": "A patient's one-sided weakness and slurred speech resolve completely before you arrive. What do you do?",
+      "options": [
+        {
+          "text": "Obtain a refusal since the problem has resolved",
+          "rationale": "A resolved deficit is a TIA, a warning of a stroke to come."
+        },
+        {
+          "text": "Assess and transport; a TIA carries substantial short-term stroke risk",
+          "rationale": "Correct. Resolution does not mean the danger has passed."
+        },
+        {
+          "text": "Advise the patient to see their doctor within a week",
+          "rationale": "That delay wastes the warning the TIA provided."
+        },
+        {
+          "text": "Treat it as a psychiatric presentation",
+          "rationale": "Focal deficits that resolve are neurological, not psychiatric."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-01-Q004",
+      "concept_id": "EMT-05-02-01",
+      "style": "application",
+      "stem": "Why is a blood glucose measured on every suspected stroke patient?",
+      "options": [
+        {
+          "text": "To decide whether the stroke is ischemic or hemorrhagic",
+          "rationale": "Glucose does not distinguish stroke types."
+        },
+        {
+          "text": "Because hypoglycemia can reproduce a stroke picture and is correctable",
+          "rationale": "Correct. It is the one stroke mimic you can fix on scene."
+        },
+        {
+          "text": "Because stroke always causes high blood sugar",
+          "rationale": "It does not, and that is not why glucose is checked."
+        },
+        {
+          "text": "Because glucose determines transport destination",
+          "rationale": "Destination is determined by stroke recognition, not by the glucose value."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-01-Q005",
+      "concept_id": "EMT-05-02-01",
+      "style": "scenario",
+      "stem": "A stroke patient begins vomiting and their speech becomes unintelligible. What takes priority?",
+      "options": [
+        {
+          "text": "Completing the stroke scale",
+          "rationale": "A scale is worthless if the patient aspirates while you finish it."
+        },
+        {
+          "text": "Airway management and positioning",
+          "rationale": "Correct. Airway comes before the stroke assessment, every time."
+        },
+        {
+          "text": "Obtaining a more precise last known well time",
+          "rationale": "Important, but not before the airway is secure."
+        },
+        {
+          "text": "Requesting a helicopter",
+          "rationale": "Transport decisions do not precede airway management."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-01-Q006",
+      "concept_id": "EMT-05-02-01",
+      "style": "recall",
+      "stem": "Why is field differentiation between ischemic and hemorrhagic stroke not attempted?",
+      "options": [
+        {
+          "text": "Because both are treated identically at hospital",
+          "rationale": "They are not; that is precisely why imaging is required."
+        },
+        {
+          "text": "Because the two cannot be reliably told apart without imaging, and guessing costs time",
+          "rationale": "Correct. Recognition and rapid transport are the field tasks."
+        },
+        {
+          "text": "Because hemorrhagic stroke is too rare to consider",
+          "rationale": "It is a minority but far from rare."
+        },
+        {
+          "text": "Because EMTs are not permitted to assess neurological status",
+          "rationale": "EMTs assess neurological status routinely."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-02-Q001",
+      "concept_id": "EMT-05-02-02",
+      "style": "recall",
+      "stem": "What three elements make up the Cincinnati Prehospital Stroke Scale?",
+      "options": [
+        {
+          "text": "Balance, eyes, speech",
+          "rationale": "Balance and eyes belong to BE-FAST, not to Cincinnati."
+        },
+        {
+          "text": "Facial droop, arm drift, speech",
+          "rationale": "Correct. Those are the three Cincinnati elements."
+        },
+        {
+          "text": "Grip strength, pupils, gait",
+          "rationale": "None of these are Cincinnati elements."
+        },
+        {
+          "text": "Blood pressure, glucose, pulse",
+          "rationale": "These are vital signs, not a stroke scale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-02-Q002",
+      "concept_id": "EMT-05-02-02",
+      "style": "recall",
+      "stem": "How many abnormal findings are required for a positive stroke scale?",
+      "options": [
+        {
+          "text": "All three",
+          "rationale": "A scale is not a majority vote."
+        },
+        {
+          "text": "One",
+          "rationale": "Correct. Any single abnormal finding makes the scale positive."
+        },
+        {
+          "text": "At least two",
+          "rationale": "Two is not the threshold; one is enough."
+        },
+        {
+          "text": "None; the scale is scored numerically",
+          "rationale": "Prehospital scales of this type are not scored against a threshold."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-02-Q003",
+      "concept_id": "EMT-05-02-02",
+      "style": "recall",
+      "stem": "What does BE-FAST add to FAST, and why?",
+      "options": [
+        {
+          "text": "Breathing and Extremities, to assess perfusion",
+          "rationale": "Neither letter stands for those."
+        },
+        {
+          "text": "Balance and Eyes, to catch posterior strokes that FAST misses",
+          "rationale": "Correct. Posterior strokes often lack facial droop and arm drift."
+        },
+        {
+          "text": "Blood pressure and ECG, to assess cardiac cause",
+          "rationale": "BE-FAST is a neurological screen, not a cardiac one."
+        },
+        {
+          "text": "Bleeding and Edema, to identify hemorrhagic stroke",
+          "rationale": "BE-FAST does not distinguish stroke type."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-02-Q004",
+      "concept_id": "EMT-05-02-02",
+      "style": "application",
+      "stem": "A patient has sudden severe dizziness, cannot walk straight, and has double vision. FAST is negative. What is the concern?",
+      "options": [
+        {
+          "text": "Benign vertigo; no transport needed",
+          "rationale": "Sudden onset with these findings is not assumed benign."
+        },
+        {
+          "text": "A posterior circulation stroke, which FAST does not reliably detect",
+          "rationale": "Correct. This is exactly the gap BE-FAST addresses."
+        },
+        {
+          "text": "Hyperventilation",
+          "rationale": "Hyperventilation does not cause double vision and gait failure."
+        },
+        {
+          "text": "A negative scale excludes stroke",
+          "rationale": "A negative scale never excludes stroke."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-02-Q005",
+      "concept_id": "EMT-05-02-02",
+      "style": "scenario",
+      "stem": "The receiving hospital is four minutes away. Should you pre-notify a suspected stroke?",
+      "options": [
+        {
+          "text": "No; you will arrive before they can prepare",
+          "rationale": "Four minutes is enough to start assembling a team and clear a scanner."
+        },
+        {
+          "text": "Yes; notification activates the stroke team before you arrive, regardless of distance",
+          "rationale": "Correct. The alert is what mobilises people and equipment."
+        },
+        {
+          "text": "Only if the scale is positive on all elements",
+          "rationale": "One positive element is enough to alert on."
+        },
+        {
+          "text": "Only if the patient consents to it",
+          "rationale": "Notification is clinical communication, not a consent matter."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-03-Q001",
+      "concept_id": "EMT-05-02-03",
+      "style": "recall",
+      "stem": "What should be placed in the mouth of a convulsing patient?",
+      "options": [
+        {
+          "text": "A bite block",
+          "rationale": "Objects in the mouth break teeth and can obstruct the airway."
+        },
+        {
+          "text": "Nothing at all",
+          "rationale": "Correct. The tongue cannot be swallowed and nothing belongs in the mouth."
+        },
+        {
+          "text": "An oropharyngeal airway",
+          "rationale": "It cannot be safely placed during convulsive activity."
+        },
+        {
+          "text": "A rolled towel",
+          "rationale": "A towel is still an object in an airway."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-03-Q002",
+      "concept_id": "EMT-05-02-03",
+      "style": "recall",
+      "stem": "What defines status epilepticus?",
+      "options": [
+        {
+          "text": "Any seizure lasting more than ten seconds",
+          "rationale": "Far too short to define the emergency."
+        },
+        {
+          "text": "A seizure that does not stop, or repeated seizures without recovery in between",
+          "rationale": "Correct. Either pattern is a true emergency."
+        },
+        {
+          "text": "A seizure in a patient with no seizure history",
+          "rationale": "A first-ever seizure is significant but is not status."
+        },
+        {
+          "text": "A seizure followed by confusion",
+          "rationale": "Confusion afterwards is the normal postictal period."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-03-Q003",
+      "concept_id": "EMT-05-02-03",
+      "style": "application",
+      "stem": "Forty minutes after a witnessed seizure, a patient is less rousable than at five minutes. What does this suggest?",
+      "options": [
+        {
+          "text": "A normal postictal course",
+          "rationale": "Postictal patients improve; this one is deteriorating."
+        },
+        {
+          "text": "Something other than a simple postictal state, requiring reassessment",
+          "rationale": "Correct. Failure to improve means looking for another cause."
+        },
+        {
+          "text": "That the patient is faking",
+          "rationale": "Deterioration is not assumed to be feigned."
+        },
+        {
+          "text": "That another seizure is certain",
+          "rationale": "Possible, but the immediate point is that this is not a normal recovery."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-03-Q004",
+      "concept_id": "EMT-05-02-03",
+      "style": "application",
+      "stem": "Why is a blood glucose checked on a patient with known epilepsy who has seized?",
+      "options": [
+        {
+          "text": "Because seizure medications raise blood sugar",
+          "rationale": "That is not the reason glucose is checked."
+        },
+        {
+          "text": "Because hypoglycemia causes seizures and a known disorder does not exclude it",
+          "rationale": "Correct. A seizure history does not protect anyone from a low sugar."
+        },
+        {
+          "text": "Because glucose determines whether transport is needed",
+          "rationale": "Transport is not decided by the glucose value."
+        },
+        {
+          "text": "It is not necessary in a known epileptic",
+          "rationale": "It is necessary in every seizure patient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-03-Q005",
+      "concept_id": "EMT-05-02-03",
+      "style": "sequence",
+      "stem": "A patient is actively convulsing on a hard floor beside a coffee table. What is your first action?",
+      "options": [
+        {
+          "text": "Restrain the limbs to prevent injury",
+          "rationale": "Restraint causes injury and does not shorten the seizure."
+        },
+        {
+          "text": "Move the table and pad the head",
+          "rationale": "Correct. Protecting from the environment comes first."
+        },
+        {
+          "text": "Insert an oropharyngeal airway",
+          "rationale": "It cannot be safely placed during convulsive activity."
+        },
+        {
+          "text": "Begin ventilating with a bag-valve mask",
+          "rationale": "Not during active convulsion; position and protect first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-03-Q006",
+      "concept_id": "EMT-05-02-03",
+      "style": "recall",
+      "stem": "Which statement about focal seizures is accurate?",
+      "options": [
+        {
+          "text": "They always involve convulsive movement of the whole body",
+          "rationale": "That describes a generalised seizure."
+        },
+        {
+          "text": "They start in one area and awareness may be preserved or lost",
+          "rationale": "Correct. A focal seizure can look like staring, a repeated movement or an odd smell."
+        },
+        {
+          "text": "They cannot impair consciousness",
+          "rationale": "They can; focal seizures vary in whether awareness is retained."
+        },
+        {
+          "text": "They only occur in children",
+          "rationale": "They occur at any age."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-04-Q001",
+      "concept_id": "EMT-05-02-04",
+      "style": "recall",
+      "stem": "What distinguishes syncope from a seizure in the minutes afterwards?",
+      "options": [
+        {
+          "text": "Syncope patients remain confused far longer",
+          "rationale": "That describes the postictal state after a seizure."
+        },
+        {
+          "text": "Syncope patients recover quickly and are fully oriented",
+          "rationale": "Correct. Rapid full recovery is the distinguishing feature."
+        },
+        {
+          "text": "Syncope patients always have incontinence",
+          "rationale": "Incontinence is more associated with seizure and is not required for either."
+        },
+        {
+          "text": "There is no way to tell them apart",
+          "rationale": "The speed and completeness of recovery separates them."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-04-Q002",
+      "concept_id": "EMT-05-02-04",
+      "style": "application",
+      "stem": "A 17-year-old collapsed mid-sprint with no warning. An uncle died suddenly at 41. How do you regard this?",
+      "options": [
+        {
+          "text": "A benign heat-related faint",
+          "rationale": "Exertional syncope with no prodrome and a family history is not benign."
+        },
+        {
+          "text": "High-risk syncope suggesting a cardiac cause, requiring transport",
+          "rationale": "Correct. Three high-risk features are present in the story."
+        },
+        {
+          "text": "Dehydration requiring oral fluids on scene",
+          "rationale": "This ignores the pattern in front of you."
+        },
+        {
+          "text": "Anxiety related to competition",
+          "rationale": "Nothing here supports that, and it dismisses three red flags."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-04-Q003",
+      "concept_id": "EMT-05-02-04",
+      "style": "application",
+      "stem": "Why is every syncopal patient assessed for injury?",
+      "options": [
+        {
+          "text": "Because syncope causes muscle damage",
+          "rationale": "Syncope itself does not cause muscle damage."
+        },
+        {
+          "text": "Because they fell from standing with no way to break the fall",
+          "rationale": "Correct. Head and facial injury are common and easily missed."
+        },
+        {
+          "text": "Because syncope always involves a seizure",
+          "rationale": "It does not."
+        },
+        {
+          "text": "Because they will refuse transport otherwise",
+          "rationale": "Injury assessment is clinical, not a persuasion tactic."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-04-Q004",
+      "concept_id": "EMT-05-02-04",
+      "style": "recall",
+      "stem": "A patient reports a few limb jerks at the end of a faint. What does this indicate?",
+      "options": [
+        {
+          "text": "A seizure has occurred and must be documented as such",
+          "rationale": "Brief jerking can accompany an uncomplicated faint."
+        },
+        {
+          "text": "Brief jerking can accompany simple syncope and does not by itself mean seizure",
+          "rationale": "Correct. This detail commonly causes a faint to be mislabelled."
+        },
+        {
+          "text": "A stroke is in progress",
+          "rationale": "Nothing here suggests a focal deficit."
+        },
+        {
+          "text": "The patient is having a psychiatric episode",
+          "rationale": "Brief myoclonus is a physiological finding, not a psychiatric one."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-04-Q005",
+      "concept_id": "EMT-05-02-04",
+      "style": "scenario",
+      "stem": "Which syncope history is most concerning?",
+      "options": [
+        {
+          "text": "Fainted after standing up quickly from a hot bath",
+          "rationale": "A typical vasovagal or orthostatic pattern."
+        },
+        {
+          "text": "Fainted during exertion with no warning at all",
+          "rationale": "Correct. Exertional syncope without a prodrome points at a cardiac cause."
+        },
+        {
+          "text": "Fainted at the sight of a needle, with nausea beforehand",
+          "rationale": "A classic vasovagal prodrome and trigger."
+        },
+        {
+          "text": "Fainted after standing in a queue for an hour",
+          "rationale": "Prolonged standing is a common benign trigger."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-05-Q001",
+      "concept_id": "EMT-05-02-05",
+      "style": "recall",
+      "stem": "Which headache history is most concerning?",
+      "options": [
+        {
+          "text": "Gradual onset over several hours",
+          "rationale": "A gradual build is the more typical benign pattern."
+        },
+        {
+          "text": "Maximum intensity reached almost instantly",
+          "rationale": "Correct. Sudden maximal onset is the single most concerning story."
+        },
+        {
+          "text": "Headache present on and off for two weeks",
+          "rationale": "Chronic recurrence is less acutely concerning than sudden onset."
+        },
+        {
+          "text": "Headache relieved by lying down",
+          "rationale": "Relief with position is reassuring rather than alarming."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-05-Q002",
+      "concept_id": "EMT-05-02-05",
+      "style": "application",
+      "stem": "A patient with monthly migraines says this headache is the worst of her life and began all at once. How should her migraine history be weighed?",
+      "options": [
+        {
+          "text": "It makes the complaint less concerning, since she is used to headaches",
+          "rationale": "Her history is what qualifies her to rank this one."
+        },
+        {
+          "text": "It makes her comparison more credible, not less",
+          "rationale": "Correct. A frequent headache sufferer is the best judge of an unusual one."
+        },
+        {
+          "text": "It is irrelevant to the assessment",
+          "rationale": "It is relevant — it strengthens the significance of her description."
+        },
+        {
+          "text": "It means the call can be downgraded",
+          "rationale": "Downgrading on a headache history is exactly the trap here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-05-Q003",
+      "concept_id": "EMT-05-02-05",
+      "style": "recall",
+      "stem": "Headache with fever and a stiff neck should prompt what?",
+      "options": [
+        {
+          "text": "Reassurance and a recommendation to rest",
+          "rationale": "This combination is not managed with reassurance."
+        },
+        {
+          "text": "Concern for a central nervous system infection and appropriate precautions",
+          "rationale": "Correct. It changes both your precautions and your urgency."
+        },
+        {
+          "text": "Immediate cold compress and discharge",
+          "rationale": "Discharge is not an EMT decision and this presentation needs evaluation."
+        },
+        {
+          "text": "Assessment for a fractured cervical spine",
+          "rationale": "Nothing in the presentation suggests trauma."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-05-Q004",
+      "concept_id": "EMT-05-02-05",
+      "style": "application",
+      "stem": "An 80-year-old on an anticoagulant has a headache after bumping his head on a cupboard door. How significant is the minor mechanism?",
+      "options": [
+        {
+          "text": "Not significant; the mechanism was trivial",
+          "rationale": "Anticoagulation makes a trivial mechanism capable of a serious bleed."
+        },
+        {
+          "text": "Significant; age and anticoagulation make minor trauma capable of serious bleeding",
+          "rationale": "Correct. The mechanism does not have to look impressive."
+        },
+        {
+          "text": "Significant only if he lost consciousness",
+          "rationale": "Loss of consciousness is not required for a slow bleed."
+        },
+        {
+          "text": "Significant only if he is on aspirin specifically",
+          "rationale": "Any anticoagulation raises the concern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-05-Q005",
+      "concept_id": "EMT-05-02-05",
+      "style": "scenario",
+      "stem": "What constitutes appropriate field care for a patient with a severe headache and photophobia?",
+      "options": [
+        {
+          "text": "Bright lighting to assess pupils continuously",
+          "rationale": "Constant bright light is distressing and unnecessary."
+        },
+        {
+          "text": "Position of comfort, dimmed lights, low noise, gentle handling and transport",
+          "rationale": "Correct. Supportive care of this kind is genuine treatment here."
+        },
+        {
+          "text": "Rapid extrication and a fast drive",
+          "rationale": "Rough handling and speed make this patient worse."
+        },
+        {
+          "text": "Withholding transport until the headache improves",
+          "rationale": "A red-flag headache is transported."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-06-Q001",
+      "concept_id": "EMT-05-02-06",
+      "style": "recall",
+      "stem": "In AEIOU-TIPS, what does the I in AEIOU stand for?",
+      "options": [
+        {
+          "text": "Infection",
+          "rationale": "Infection is the I in TIPS, not in AEIOU."
+        },
+        {
+          "text": "Insulin, meaning blood glucose high or low",
+          "rationale": "Correct. The AEIOU I points at dysglycaemia."
+        },
+        {
+          "text": "Injury",
+          "rationale": "Injury falls under T for trauma."
+        },
+        {
+          "text": "Ischemia",
+          "rationale": "Ischemia is not the assigned expansion of this letter."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-06-Q002",
+      "concept_id": "EMT-05-02-06",
+      "style": "recall",
+      "stem": "Which two causes of altered mental status can an EMT both identify and correct?",
+      "options": [
+        {
+          "text": "Uremia and stroke",
+          "rationale": "Neither is correctable in the field."
+        },
+        {
+          "text": "Hypoxia and hypoglycemia",
+          "rationale": "Correct. Oxygen and glucose are the reversible pair within EMT scope."
+        },
+        {
+          "text": "Infection and trauma",
+          "rationale": "Both are identified but neither is corrected on scene."
+        },
+        {
+          "text": "Psychiatric illness and poisoning",
+          "rationale": "Neither is reversed by an EMT on scene."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-06-Q003",
+      "concept_id": "EMT-05-02-06",
+      "style": "application",
+      "stem": "A patient found slumped outside a pub smells strongly of alcohol. What does that smell exclude?",
+      "options": [
+        {
+          "text": "Hypoglycemia",
+          "rationale": "It excludes nothing, hypoglycemia included."
+        },
+        {
+          "text": "Nothing at all",
+          "rationale": "Correct. It tells you only that they have been drinking."
+        },
+        {
+          "text": "Head injury",
+          "rationale": "A drinker can readily also have a head injury."
+        },
+        {
+          "text": "Sepsis",
+          "rationale": "Intoxication and sepsis frequently coexist."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-06-Q004",
+      "concept_id": "EMT-05-02-06",
+      "style": "recall",
+      "stem": "How do AVPU and the AEIOU-TIPS differential relate?",
+      "options": [
+        {
+          "text": "AVPU replaces the differential",
+          "rationale": "AVPU describes depth, not cause."
+        },
+        {
+          "text": "AVPU describes the level of consciousness; the differential addresses the cause",
+          "rationale": "Correct. Both are recorded, and neither substitutes for the other."
+        },
+        {
+          "text": "The differential determines the AVPU score",
+          "rationale": "The differential is about aetiology, not scoring."
+        },
+        {
+          "text": "They are two names for the same assessment",
+          "rationale": "They assess different things entirely."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-06-Q005",
+      "concept_id": "EMT-05-02-06",
+      "style": "application",
+      "stem": "A care home patient is described as confused. What single question most helps?",
+      "options": [
+        {
+          "text": "How old is the patient?",
+          "rationale": "Age does not establish whether the confusion is new."
+        },
+        {
+          "text": "Is this different from how they normally are?",
+          "rationale": "Correct. Baseline turns a vague finding into diagnostic information."
+        },
+        {
+          "text": "What is their diagnosis on file?",
+          "rationale": "A filed diagnosis does not tell you about today."
+        },
+        {
+          "text": "Have they eaten today?",
+          "rationale": "Relevant background, but it does not establish baseline."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-06-Q006",
+      "concept_id": "EMT-05-02-06",
+      "style": "scenario",
+      "stem": "What is the first priority in a patient with a markedly reduced level of consciousness?",
+      "options": [
+        {
+          "text": "Obtaining a full medication history",
+          "rationale": "History matters but does not come before the airway."
+        },
+        {
+          "text": "Airway assessment and protection",
+          "rationale": "Correct. Reduced consciousness means a reduced ability to protect the airway."
+        },
+        {
+          "text": "Determining which AEIOU-TIPS cause applies",
+          "rationale": "The differential follows the primary assessment."
+        },
+        {
+          "text": "Requesting law enforcement",
+          "rationale": "Not a clinical priority in the absence of a safety concern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

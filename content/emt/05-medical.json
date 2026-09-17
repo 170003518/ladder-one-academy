@@ -21,6 +21,18 @@
         "EMT-05-01-01",
         "EMT-05-01-02"
       ]
+    },
+    {
+      "id": "EMT-05-02",
+      "title": "Neurologic emergencies",
+      "concepts": [
+        "EMT-05-02-01",
+        "EMT-05-02-02",
+        "EMT-05-02-03",
+        "EMT-05-02-04",
+        "EMT-05-02-05",
+        "EMT-05-02-06"
+      ]
     }
   ],
   "concepts": [
@@ -243,6 +255,896 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the list of high-frequency complaints and the association between non-specific complaints and serious illness in older patients against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-01",
+      "title": "Stroke: ischemic, hemorrhagic and TIA",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-02-01",
+        "EMT-05-02-02",
+        "EMT-05-03-02"
+      ],
+      "key_points": [
+        "A stroke is a loss of blood supply to part of the brain, and the deficit maps to the part that lost supply",
+        "Ischemic stroke is a blocked vessel and accounts for the large majority of strokes",
+        "Hemorrhagic stroke is a ruptured vessel, and is more often associated with sudden severe headache, vomiting and rapid deterioration",
+        "You cannot tell the two apart in the field, which is why the field job is recognition and rapid transport, not classification",
+        "A transient ischemic attack resolves completely but is a warning, not a false alarm, and is transported",
+        "Last known well is the single most important piece of history, because treatment eligibility is measured from it",
+        "Any stroke patient can lose their airway, so airway and positioning come before the stroke scale",
+        "Hypoglycemia mimics stroke closely enough that a blood glucose is part of every stroke assessment"
+      ],
+      "misconceptions": [
+        "Trying to decide ischemic versus hemorrhagic in the field",
+        "Standing down because the symptoms resolved, which is a TIA and still needs transport",
+        "Recording 'found this morning' instead of an actual last-known-well time",
+        "Assuming a patient who cannot speak cannot hear or understand you"
+      ],
+      "exam_favorites": [
+        "Ischemic versus hemorrhagic proportions and presentation",
+        "Why last known well matters",
+        "TIA is transported",
+        "Glucose on every stroke patient"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A stroke is the brain losing its blood supply. Which abilities disappear depends entirely on which part of the brain went without.\n\nThere are two mechanisms. Most strokes are ischemic: a clot blocks a vessel and everything downstream starves. A minority are hemorrhagic: a vessel ruptures and blood pushes into tissue that has nowhere to expand.\n\nHemorrhagic strokes are more likely to come with a sudden severe headache, vomiting, and a patient who gets worse quickly. But 'more likely' is not a field test. You cannot tell them apart at the kerbside, and you do not need to. Your job is recognising that this is a stroke and getting the patient to a place that can image the brain.\n\nA transient ischemic attack is the same picture that then goes away completely. It is not a false alarm. It is a warning shot, and a meaningful number of people who have one go on to have a real stroke soon after. The patient goes to hospital.\n\nThe piece of history that matters most is last known well: the last moment somebody can testify this patient was at their normal baseline. Not when symptoms were noticed, and not when somebody woke up and found them. Treatment eligibility is measured from that moment, so get a time and get a name to go with it.\n\nTwo more things. Stroke patients lose airways, from weakness, from vomiting, from a drooping side of the mouth. Airway first, always. And check a blood glucose on every single one, because low blood sugar produces a stroke picture convincingly enough to fool people, and it is the one cause you can fix.",
+          "standard": "Cerebrovascular accident results from interruption of cerebral perfusion, with deficits corresponding to the territory affected. Ischemic infarction, arising from thrombotic or embolic occlusion, constitutes the large majority of presentations; intracerebral and subarachnoid haemorrhage constitute the minority and are associated more frequently with abrupt severe headache, emesis and rapid neurological deterioration. Field differentiation is not possible and is not attempted; prehospital management consists of recognition, airway protection, and expedited transport to a facility capable of neuroimaging. Transient ischemic attack denotes complete resolution of deficit and carries substantial short-term stroke risk, warranting transport. Time of last known well governs eligibility for time-dependent intervention and is the priority historical datum. Blood glucose measurement is mandatory in every suspected stroke, as hypoglycaemia reproduces focal neurological deficit and is correctable."
+        },
+        "eli_new": {
+          "analogy": "A stroke is a power cut in one district of a city. Which lights go out tells you which district, not what caused it.",
+          "body": "The instinct is to work out what kind of stroke it is. Let go of that. In the field the two look alike often enough that guessing adds nothing and costs minutes. Recognise, protect the airway, check a sugar, get a last-known-well time, and move."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the two stroke mechanisms, what a TIA is, and the two things you must do for every suspected stroke patient.",
+          "must_hit": [
+            {
+              "point": "Ischemic is a blockage and is the large majority",
+              "accept": [
+                "ischemic",
+                "clot",
+                "blockage",
+                "majority",
+                "block"
+              ]
+            },
+            {
+              "point": "Hemorrhagic is a bleed, often with severe headache and rapid decline",
+              "accept": [
+                "hemorrhagic",
+                "bleed",
+                "rupture",
+                "headache"
+              ]
+            },
+            {
+              "point": "You cannot tell them apart in the field",
+              "accept": [
+                "cannot tell",
+                "field",
+                "imaging",
+                "ct",
+                "scan"
+              ]
+            },
+            {
+              "point": "A TIA resolves but is still transported",
+              "accept": [
+                "tia",
+                "transient",
+                "resolve",
+                "transport",
+                "warning"
+              ]
+            },
+            {
+              "point": "Last known well time",
+              "accept": [
+                "last known well",
+                "time",
+                "baseline",
+                "onset"
+              ]
+            },
+            {
+              "point": "Check a blood glucose because hypoglycemia mimics stroke",
+              "accept": [
+                "glucose",
+                "sugar",
+                "hypoglyc",
+                "mimic"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Found this morning",
+          "dispatch": "Medic 7 — 68-year-old female, weakness on one side, found by her husband.",
+          "body": "He found her at seven, slumped and unable to speak clearly, and called immediately.\n\nThe crew asked when he had last seen her normal. He said seven. They asked when she had gone to bed. He said about ten the night before, and she was fine then.\n\nThe last known well was ten at night, not seven in the morning, and that is a nine-hour difference that decides what the hospital can offer her."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Stroke",
+          "right_label": "Hypoglycemia",
+          "rows": [
+            {
+              "feature": "Onset",
+              "left": "Usually sudden, a deficit that is there from the start",
+              "right": "Often gradual over minutes to hours, sometimes sudden"
+            },
+            {
+              "feature": "Pattern of deficit",
+              "left": "Focal — one side, one function, mapping to a brain territory",
+              "right": "Usually global — confusion, altered behaviour, though it can mimic a focal deficit"
+            },
+            {
+              "feature": "Skin",
+              "left": "Usually normal",
+              "right": "Often cool and diaphoretic"
+            },
+            {
+              "feature": "Blood glucose",
+              "left": "Normal or raised",
+              "right": "Low — this is the finding that separates them"
+            },
+            {
+              "feature": "Response to glucose",
+              "left": "None",
+              "right": "Often rapid and dramatic improvement"
+            },
+            {
+              "feature": "Field action",
+              "left": "Recognise, airway, last known well, rapid transport",
+              "right": "Give glucose per protocol if the patient can protect their airway"
+            },
+            {
+              "feature": "Why it matters",
+              "left": "Time-dependent treatment at hospital",
+              "right": "A fixable cause that is missed if nobody checks a sugar"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the proportion of strokes that are ischemic versus hemorrhagic, the TIA short-term stroke risk, and the stated presentation differences against the current text. No time windows for specific treatments are stated here because those are institution-specific and change."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-02",
+      "title": "Stroke scales and last known well",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-02-01"
+      ],
+      "related": [
+        "EMT-05-02-01",
+        "EMT-03-02-01"
+      ],
+      "key_points": [
+        "A stroke scale is a structured way of finding a focal deficit quickly and reporting it in language the hospital recognises",
+        "The Cincinnati Prehospital Stroke Scale tests facial droop, arm drift and speech",
+        "FAST is Face, Arms, Speech, Time; BE-FAST adds Balance and Eyes to catch posterior strokes that FAST misses",
+        "Any single abnormal finding is a positive scale — the patient does not need to fail every element",
+        "A negative scale does not exclude a stroke, particularly a posterior one",
+        "Last known well is a time and a witness, recorded together",
+        "Pre-notify the receiving hospital, because a stroke alert mobilises a team before you arrive"
+      ],
+      "misconceptions": [
+        "Requiring all three Cincinnati elements to be abnormal before calling it positive",
+        "Using FAST alone and missing a posterior stroke presenting as dizziness and imbalance",
+        "Recording when symptoms were discovered as the last known well time",
+        "Not pre-notifying because the hospital is close"
+      ],
+      "exam_favorites": [
+        "The three Cincinnati elements",
+        "What BE-FAST adds and why",
+        "One abnormal finding is a positive scale",
+        "Last known well versus time discovered"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A stroke scale exists so that a focal deficit gets found fast and described in words the hospital already understands.\n\nThe Cincinnati Prehospital Stroke Scale has three parts. Ask the patient to smile and watch for one side lagging. Ask them to hold both arms out with eyes closed and watch for one drifting down. Ask them to repeat a simple sentence and listen for slurring or the wrong words.\n\nFAST is the same idea packaged for the public: Face, Arms, Speech, Time.\n\nBE-FAST adds two letters to the front, Balance and Eyes, and it exists because of a real gap. Strokes in the back of the brain do not always produce a drooping face or a drifting arm. They produce sudden severe dizziness, a patient who cannot walk straight, double vision. A pure FAST assessment walks past those.\n\nHere is the part people get wrong: one abnormal finding makes the scale positive. You are not adding up a score and needing a majority. A drifting arm on its own is a positive scale.\n\nAnd a negative scale does not clear anybody. If the history sounds like a stroke and the scale is clean, believe the history.\n\nLast known well is a time plus a witness, written down together. 'Twenty-two hundred, per husband' is useful. 'This morning' is not.\n\nFinally, call it in early. A stroke alert pulls a team, a scanner and a bed together before your wheels stop. Doing that from the truck is worth more than anything else you can do on the way.",
+          "standard": "Prehospital stroke scales provide structured detection of focal neurological deficit and standardised communication. The Cincinnati Prehospital Stroke Scale assesses facial droop, arm drift and speech abnormality. FAST encodes Face, Arms, Speech and Time; BE-FAST prefixes Balance and Eyes, improving sensitivity for posterior circulation events which frequently lack the anterior findings FAST detects. A single abnormal element constitutes a positive scale; scoring thresholds are not applied. A negative scale does not exclude cerebrovascular accident, particularly posterior circulation stroke, and clinical suspicion based on history supersedes a negative scale. Time of last known well is documented together with the witness attesting to it. Prearrival notification activates institutional stroke pathways and is performed irrespective of transport distance."
+        },
+        "eli_new": {
+          "analogy": "A stroke scale is a smoke detector, not a diagnosis. One beep is enough to act on, and silence does not prove there is no fire.",
+          "body": "Two mistakes get made constantly. The first is thinking you need all three Cincinnati findings — you need one. The second is trusting a clean FAST in a patient who suddenly cannot walk straight and is seeing double. That is what BE-FAST was invented for."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Run through the Cincinnati scale, explain what BE-FAST adds, and say what counts as a positive result.",
+          "must_hit": [
+            {
+              "point": "Facial droop, arm drift, speech",
+              "accept": [
+                "face",
+                "droop",
+                "arm",
+                "drift",
+                "speech",
+                "slur"
+              ]
+            },
+            {
+              "point": "BE-FAST adds Balance and Eyes for posterior strokes",
+              "accept": [
+                "balance",
+                "eyes",
+                "posterior",
+                "be-fast",
+                "vision"
+              ]
+            },
+            {
+              "point": "One abnormal finding is positive",
+              "accept": [
+                "one",
+                "single",
+                "any",
+                "positive"
+              ]
+            },
+            {
+              "point": "A negative scale does not exclude stroke",
+              "accept": [
+                "negative",
+                "exclude",
+                "rule out",
+                "still"
+              ]
+            },
+            {
+              "point": "Last known well with a witness, and pre-notify",
+              "accept": [
+                "last known well",
+                "witness",
+                "notify",
+                "alert",
+                "pre-alert"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She just felt dizzy",
+          "dispatch": "Medic 3 — 54-year-old female, dizziness and vomiting.",
+          "body": "Her face was symmetrical, her grip was equal, her speech was clear. FAST was negative three times.\n\nShe could not stand without falling to one side and she was seeing double, and the crew recorded dizziness and transported her without an alert.\n\nIt was a posterior stroke. Balance and Eyes are the two letters that would have caught it."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "BE-FAST",
+          "expansion": [
+            "Balance — sudden loss of balance or coordination; a posterior finding FAST misses",
+            "Eyes — sudden vision loss or double vision",
+            "Face — ask for a smile; watch for one side lagging",
+            "Arms — both arms out, eyes closed; watch for one drifting down",
+            "Speech — repeat a simple sentence; listen for slurring or the wrong words",
+            "Time — last known well, with the witness who attests to it. Pre-notify."
+          ],
+          "memory_image": "The two letters bolted onto the front are the ones that catch the stroke FAST walks past."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the Cincinnati elements, the BE-FAST expansion and the relative sensitivity claim for posterior circulation strokes against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-03",
+      "title": "Seizures, status epilepticus and postictal care",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-02-02",
+        "EMT-05-02-06",
+        "EMT-05-03-02"
+      ],
+      "key_points": [
+        "A seizure is disordered electrical activity in the brain; a convulsion is one way that shows itself, not the only way",
+        "Generalised seizures involve the whole brain and impair consciousness; focal seizures start in one area and may or may not",
+        "During the seizure you protect the patient from injury and protect the airway — you do not restrain them and you put nothing in the mouth",
+        "Status epilepticus is a seizure that does not stop, or repeated seizures without recovery in between, and it is a true emergency",
+        "The postictal period is the recovery afterwards: confusion, drowsiness, sometimes agitation, gradually clearing",
+        "A postictal patient who is not gradually improving needs another explanation",
+        "Check a blood glucose on every seizure patient, because hypoglycemia causes seizures",
+        "A first-ever seizure, a seizure in pregnancy, a seizure in water, and a seizure with injury all raise the stakes"
+      ],
+      "misconceptions": [
+        "Putting something in the mouth to stop the tongue being swallowed — the tongue cannot be swallowed and objects break teeth and block airways",
+        "Restraining a convulsing patient, which causes injury without shortening the seizure",
+        "Assuming any confused patient after a seizure is simply postictal and needs no further thought",
+        "Not checking a glucose because the patient has a known seizure disorder"
+      ],
+      "exam_favorites": [
+        "What not to do during a convulsion",
+        "The definition of status epilepticus",
+        "What the postictal period looks like and when it is not postictal",
+        "Glucose on every seizure"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A seizure is the brain's electrical activity going out of order. The shaking everybody pictures is one way that shows itself. Plenty of seizures do not look like that at all.\n\nGeneralised seizures involve the whole brain at once and consciousness goes. Focal seizures start in one region; the patient may stay aware, or may not, and may just stare, or repeat a movement, or smell something that is not there.\n\nWhile it is happening, your job is small and specific. Move furniture. Put something soft under the head. Protect the airway, turn them on their side if you can. Time it.\n\nAnd two things you do not do. You do not restrain them, because you cannot stop the seizure by holding them and you will break something. And you do not put anything in their mouth. The old idea about swallowing the tongue is simply wrong — it is anatomically impossible — and objects put in mouths break teeth and end up in airways.\n\nStatus epilepticus is a seizure that will not stop, or seizures stacked back to back without the patient coming round in between. That is an emergency in the real sense. The brain is consuming oxygen it is not getting, and it needs medication an EMT does not carry. Recognise it, support the airway, and move.\n\nAfterwards comes the postictal period. Confused, sleepy, sometimes combative, slowly clearing. The word 'slowly clearing' is the important part. A postictal patient gets better. One who is not getting better, or is getting worse, has something else going on and deserves a fresh look.\n\nAnd check a sugar. Every time. Low blood glucose causes seizures, and a known seizure disorder does not protect anybody from also being hypoglycemic.",
+          "standard": "Seizure denotes disordered cerebral electrical activity; convulsive motor activity represents one manifestation among several. Generalised seizures involve both hemispheres with impairment of consciousness; focal seizures originate in a discrete region with variable preservation of awareness, and may manifest as automatisms, sensory phenomena or behavioural arrest. Prehospital management during the ictal phase comprises protection from environmental injury, airway positioning and timing of the event. Restraint is contraindicated, as is insertion of any object into the oral cavity; tongue occlusion by swallowing is anatomically impossible and oral objects produce dental trauma and airway obstruction. Status epilepticus denotes continuous seizure activity or recurrent seizures without interictal recovery of consciousness and constitutes a time-critical emergency requiring pharmacological termination beyond EMT scope. The postictal phase is characterised by progressive resolution of confusion and somnolence; failure to improve, or deterioration, mandates evaluation for an alternative cause. Blood glucose measurement is indicated in every seizure presentation."
+        },
+        "eli_new": {
+          "analogy": "A seizure is an electrical storm. You cannot stop the storm by holding the roof down; you clear the things it could knock over and wait for it to pass.",
+          "body": "Two reflexes to unlearn. The first is grabbing hold of someone who is convulsing — you will not shorten it and you may dislocate a shoulder. The second is putting something in their mouth. Nobody swallows their tongue. It is attached."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what you do and do not do during a seizure, what status epilepticus is, and what the postictal period should look like.",
+          "must_hit": [
+            {
+              "point": "Protect from injury, protect the airway, time it",
+              "accept": [
+                "protect",
+                "injury",
+                "airway",
+                "time",
+                "side"
+              ]
+            },
+            {
+              "point": "Do not restrain and do not put anything in the mouth",
+              "accept": [
+                "restrain",
+                "mouth",
+                "tongue",
+                "nothing",
+                "never"
+              ]
+            },
+            {
+              "point": "Status epilepticus is continuous or back-to-back seizures without recovery",
+              "accept": [
+                "status",
+                "continuous",
+                "back to back",
+                "not stop",
+                "recover"
+              ]
+            },
+            {
+              "point": "Postictal is confusion that gradually clears",
+              "accept": [
+                "postictal",
+                "confus",
+                "clear",
+                "improve",
+                "drowsy"
+              ]
+            },
+            {
+              "point": "A postictal patient who is not improving needs another explanation",
+              "accept": [
+                "not improving",
+                "worse",
+                "another",
+                "different",
+                "deteriorat"
+              ]
+            },
+            {
+              "point": "Check a blood glucose",
+              "accept": [
+                "glucose",
+                "sugar",
+                "hypoglyc"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Still not right",
+          "dispatch": "Engine 9 — 34-year-old male, witnessed seizure, now conscious.",
+          "body": "Known epilepsy, missed doses, a witnessed convulsion lasting about a minute. Textbook.\n\nTwenty minutes later he was no clearer than he had been at five minutes, and if anything he was harder to rouse.\n\nPostictal patients get better. This one was not getting better, and the crew stopped calling it postictal."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Managing an active seizure",
+          "steps": [
+            {
+              "text": "Protect the patient from the environment: move furniture, pad the head",
+              "critical": true
+            },
+            {
+              "text": "Do NOT restrain the patient",
+              "critical": true,
+              "note": "Restraint does not shorten the seizure and causes injury."
+            },
+            {
+              "text": "Put NOTHING in the mouth",
+              "critical": true,
+              "note": "The tongue cannot be swallowed. Objects break teeth and obstruct airways."
+            },
+            {
+              "text": "Note the time the seizure started and how long it lasts",
+              "critical": true
+            },
+            {
+              "text": "Position for airway once movement allows, suction as needed",
+              "critical": true
+            },
+            {
+              "text": "Give oxygen as indicated and check a blood glucose",
+              "critical": true
+            },
+            {
+              "text": "Recognise status epilepticus — continuous, or repeated without recovery — and expedite transport",
+              "critical": true
+            },
+            {
+              "text": "Through the postictal period, reassess for steady improvement",
+              "critical": true,
+              "note": "Not improving, or getting worse, means look for another cause."
+            },
+            {
+              "text": "Gather history: known disorder, medication compliance, injury, pregnancy, first-ever event",
+              "critical": false
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the definition of status epilepticus and the expected postictal course against the current text. No anticonvulsant medication names or doses are stated; those are outside EMT scope and protocol-specific."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-04",
+      "title": "Syncope",
+      "domain": "MED",
+      "difficulty": 3,
+      "prereqs": [],
+      "related": [
+        "EMT-04-02-01",
+        "EMT-05-02-03"
+      ],
+      "key_points": [
+        "Syncope is a brief loss of consciousness from a transient drop in cerebral perfusion, with spontaneous full recovery",
+        "The recovery is the distinguishing feature: a syncopal patient comes round and is oriented, unlike a postictal patient",
+        "Causes divide roughly into cardiac, neurologic, and everything else — and the cardiac ones are the dangerous group",
+        "Syncope during exertion, syncope with no warning at all, and syncope in a patient with cardiac history are the concerning patterns",
+        "Vasovagal syncope usually has warning: light-headedness, nausea, a hot flush, visual greying",
+        "Anyone who has fainted may also have been injured by the fall, particularly the head",
+        "Orthostatic vital signs may be taken per protocol, but a patient who faints on standing does not need them repeated to prove it"
+      ],
+      "misconceptions": [
+        "Treating all fainting as benign because young people faint",
+        "Missing the head injury caused by the fall",
+        "Confusing syncope with a seizure when there were a few jerks at the end, which can happen with a simple faint",
+        "Letting a patient refuse transport after exertional syncope"
+      ],
+      "exam_favorites": [
+        "What distinguishes syncope from a postictal state",
+        "The high-risk syncope patterns",
+        "The injury caused by the fall"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Syncope is fainting, described properly: consciousness lost briefly because the brain's blood supply dipped, followed by a full spontaneous recovery.\n\nThat recovery is the thing that separates it from a seizure. A patient who has fainted comes round and knows where they are, usually within a minute. A patient who has seized is confused for a good deal longer. If somebody is still muddled twenty minutes later, you are not looking at a simple faint.\n\nCauses sort into a few piles. The common, benign pile is vasovagal: standing too long, a fright, blood, pain, heat. These usually come with a warning — going light-headed, feeling sick, vision greying at the edges, a wave of heat — and the patient often has time to sit down.\n\nThen there is the pile that worries you: cardiac. A rhythm that stopped supplying the brain for a few seconds. These are the ones that kill people, and there are patterns that point at them. Fainting during exertion rather than after it. Fainting with no warning whatsoever, straight from normal to the floor. Fainting in someone with a known cardiac history or a family history of sudden death.\n\nIf any of those are in the story, this patient is going to hospital, and their reluctance is not the deciding factor.\n\nAnd whatever the cause: they fell. From standing, usually onto something hard, with no hands out to break it because they were unconscious on the way down. Check the head. Check the face. People get discharged from faints and come back with a bleed.\n\nOne more thing that catches people out. A simple faint can produce a few jerks of the limbs at the end. That is not a seizure.",
+          "standard": "Syncope is transient loss of consciousness secondary to global cerebral hypoperfusion, with spontaneous and complete recovery. Rapid return to full orientation differentiates syncope from the postictal state. Aetiologies are conventionally grouped as cardiac, neurologic and other, of which cardiac causes carry the greatest mortality. Features suggesting cardiac origin include syncope occurring during exertion, absence of any prodrome, and known cardiac or family history of sudden death. Vasovagal syncope typically features a prodrome of light-headedness, nausea, diaphoresis and visual greying. Brief myoclonic jerking may accompany uncomplicated syncope and does not indicate seizure. All syncopal patients sustain an uncontrolled fall and require assessment for traumatic injury, particularly head injury. Orthostatic vital signs may be obtained per protocol."
+        },
+        "eli_new": {
+          "analogy": "A faint is the brain briefly losing its water pressure. Lying down restores it, which is why fainting fixes itself.",
+          "body": "The trap is that fainting is so common and so often harmless that it gets waved through. Two questions cut through it: was there any warning, and were they exerting themselves? No warning, or during exercise, and this stops being a simple faint."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define syncope, explain how it differs from a seizure, and name the high-risk features.",
+          "must_hit": [
+            {
+              "point": "Brief loss of consciousness from reduced brain perfusion with full recovery",
+              "accept": [
+                "brief",
+                "perfusion",
+                "recover",
+                "faint",
+                "conscious"
+              ]
+            },
+            {
+              "point": "Rapid full orientation distinguishes it from a postictal state",
+              "accept": [
+                "oriented",
+                "postictal",
+                "recover",
+                "quick",
+                "seizure"
+              ]
+            },
+            {
+              "point": "Cardiac causes are the dangerous group",
+              "accept": [
+                "cardiac",
+                "heart",
+                "dangerous",
+                "rhythm"
+              ]
+            },
+            {
+              "point": "High risk: during exertion, no warning, cardiac history",
+              "accept": [
+                "exertion",
+                "exercise",
+                "no warning",
+                "prodrome",
+                "history"
+              ]
+            },
+            {
+              "point": "Assess for injury from the fall, especially the head",
+              "accept": [
+                "fall",
+                "injury",
+                "head",
+                "trauma"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "On the pitch",
+          "dispatch": "Medic 1 — 17-year-old male, collapsed during a football match, now alert.",
+          "body": "He was up before anyone reached him, embarrassed, saying he was fine and it was just the heat.\n\nHe had gone down mid-sprint, with no warning, and his uncle had died suddenly at forty-one.\n\nExertional syncope, no prodrome, family history. Three flags in one story, and none of them are visible on the patient standing in front of you looking well."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification of syncope causes and the high-risk features against the current text; the exertional, no-prodrome and family-history flags are curriculum-standard but should be checked."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-05",
+      "title": "Headache red flags",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-02-01",
+        "EMT-05-02-03"
+      ],
+      "key_points": [
+        "Most headaches are not emergencies, so the field task is spotting the few that are",
+        "A sudden headache that reaches maximum intensity almost immediately is the single most concerning story",
+        "A headache described by the patient as the worst of their life is treated as significant whatever their headache history",
+        "Headache with fever and a stiff neck raises the possibility of a central nervous system infection and prompts precautions",
+        "Headache with any focal neurological deficit, seizure, or altered mental status is a neurological emergency until proven otherwise",
+        "Headache after a head injury, particularly in an anticoagulated or older patient, is significant even when the injury looked minor",
+        "Headache that wakes the patient from sleep, or is worse on straining, or is new in someone over 50, are further flags",
+        "Field care is supportive: airway, positioning, dim and quiet, minimal handling, and transport"
+      ],
+      "misconceptions": [
+        "Dismissing a headache because the patient has migraines",
+        "Treating 'worst headache of my life' as dramatic language",
+        "Bright lights and loud handling for a patient who is photophobic",
+        "Missing the fever and neck stiffness because the complaint was recorded as headache"
+      ],
+      "exam_favorites": [
+        "The sudden-maximal-intensity story",
+        "Worst headache of their life",
+        "Headache with fever and neck stiffness",
+        "Headache after a head injury on anticoagulants"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Almost every headache you go to is not an emergency. The job is finding the ones that are, and there is a short list of stories that should make you sit up.\n\nThe first and most important is the sudden one. Not a headache that built up over an hour — one that arrived at full strength almost instantly, like a switch. Ask directly: did it come on gradually, or was it at its worst straight away? That single question is worth more than everything else you will ask about a headache.\n\nSecond, the words 'worst headache of my life'. People say it. Believe it. It matters even — especially — in somebody who gets headaches all the time, because they are the ones qualified to rank it.\n\nThird, headache with fever and a stiff neck. That combination raises the possibility of an infection around the brain and spinal cord, and it changes what you wear as well as where you go.\n\nFourth, headache with anything neurological attached: a weak side, a change in speech, a seizure, confusion, a new visual problem. That is no longer a headache call.\n\nFifth, headache after a head injury. If the patient is older, or on a blood thinner, the injury does not need to have looked impressive. A minor bump plus anticoagulation is a combination that produces slow bleeds.\n\nAnd a few more worth knowing: a headache that wakes someone from sleep, one that gets worse on coughing or straining, and a genuinely new type of headache in a patient over fifty.\n\nWhat you actually do is unglamorous and matters more than it sounds. Airway, position of comfort, lights down, voices down, handle them gently, and go. A patient with a severe headache is often desperately light- and sound-sensitive, and a quiet, dim, smooth ride is real treatment.",
+          "standard": "The majority of headache presentations are benign; prehospital assessment is directed at identifying the minority requiring urgent evaluation. Thunderclap onset — maximal intensity attained within seconds — is the most significant historical feature and is elicited by direct questioning about the speed of onset. Patient characterisation as the worst headache experienced warrants significance irrespective of headache history. Headache with fever and nuchal rigidity raises concern for central nervous system infection and prompts appropriate precautions. Headache accompanied by focal neurological deficit, seizure activity or altered mental status constitutes a neurological emergency. Headache following head trauma carries elevated significance in geriatric and anticoagulated patients irrespective of apparent mechanism severity. Additional concerning features include headache waking the patient from sleep, exacerbation on Valsalva, and new-onset headache in a patient over fifty. Prehospital management is supportive: airway, position of comfort, reduction of light and noise, gentle handling and transport."
+        },
+        "eli_new": {
+          "analogy": "Most headaches are the weather. The ones that matter arrive like a door slamming rather than clouds gathering.",
+          "body": "One question does most of the work: did it come on gradually or was it at its worst straight away? Everything else about a headache is context. That is the question that separates the ordinary from the emergency."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the headache red flags and describe the field care for a patient with a severe headache.",
+          "must_hit": [
+            {
+              "point": "Sudden onset reaching maximum intensity almost instantly",
+              "accept": [
+                "sudden",
+                "thunderclap",
+                "instant",
+                "maximum",
+                "straight away"
+              ]
+            },
+            {
+              "point": "Worst headache of their life",
+              "accept": [
+                "worst",
+                "life",
+                "ever"
+              ]
+            },
+            {
+              "point": "Fever with a stiff neck suggests CNS infection",
+              "accept": [
+                "fever",
+                "stiff neck",
+                "neck",
+                "infection",
+                "meningitis"
+              ]
+            },
+            {
+              "point": "Any focal deficit, seizure or altered mental status",
+              "accept": [
+                "focal",
+                "deficit",
+                "seizure",
+                "altered",
+                "weak"
+              ]
+            },
+            {
+              "point": "Head injury, especially older or anticoagulated patients",
+              "accept": [
+                "head injury",
+                "anticoagul",
+                "blood thinner",
+                "older",
+                "elderly"
+              ]
+            },
+            {
+              "point": "Supportive care: dim, quiet, gentle handling, transport",
+              "accept": [
+                "dim",
+                "quiet",
+                "gentle",
+                "comfort",
+                "light",
+                "transport"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She gets migraines",
+          "dispatch": "Medic 5 — 44-year-old female, headache, known migraine sufferer.",
+          "body": "The call was nearly downgraded on the phone. She had migraines. She had them monthly. She knew the drill.\n\nThe student asked whether it built up like her usual ones. She said no — it was there all at once, while she was washing up, and it was the worst she had ever had.\n\nThe fact that she got headaches was exactly what made her able to say that."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the red flag list, particularly the over-50 new-onset flag and the Valsalva exacerbation flag, against the current text. No medication is named or dosed here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-06",
+      "title": "Altered mental status and the AEIOU-TIPS differential",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-02-02",
+        "EMT-05-02-01",
+        "EMT-05-03-02",
+        "EMT-05-05-01"
+      ],
+      "key_points": [
+        "Altered mental status is a finding, not a diagnosis — it always has a cause and the cause is what you are looking for",
+        "AEIOU-TIPS is a structured differential: Alcohol, Epilepsy/Electrolytes, Insulin, Overdose/Oxygen, Uremia, Trauma, Infection, Psychiatric/Poisoning, Stroke/Shock/Seizure",
+        "The reversible causes an EMT can actually affect are low oxygen and low blood glucose, so both are checked on every altered patient",
+        "AVPU describes the level; the differential explains it — record both",
+        "A patient who smells of alcohol may also be hypoglycemic, head injured, or septic, and the smell explains nothing on its own",
+        "Airway is the first concern in any patient with a reduced level of consciousness",
+        "Establish the baseline: family telling you this is not how they normally are is diagnostic information"
+      ],
+      "misconceptions": [
+        "Stopping at 'intoxicated' and looking no further",
+        "Failing to check a glucose because a cause seems obvious",
+        "Recording AVPU and calling that an assessment of mental status",
+        "Assuming a nursing home patient's confusion is their baseline without asking"
+      ],
+      "exam_favorites": [
+        "What AEIOU-TIPS stands for",
+        "The two reversible causes an EMT can find and treat",
+        "Why the smell of alcohol explains nothing",
+        "Establishing baseline from family"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Altered mental status is not a diagnosis. It is a finding, like a fever. Something caused it, and the whole job is working out what.\n\nAEIOU-TIPS is the list people use so they stop guessing and start working through possibilities.\n\nA is alcohol. E is epilepsy, and electrolytes. I is insulin — meaning blood sugar, high or low. O is overdose, and oxygen. U is uremia, kidney failure poisoning the blood. T is trauma. I is infection. P is psychiatric, and poisoning. S is stroke, shock, and seizure.\n\nIt is not elegant and the letters do double duty, but it makes you consider a sepsis or a low sugar in a patient you had already written off as drunk.\n\nOf everything on that list, two causes are both common and things an EMT can actually find and fix: low oxygen and low blood glucose. So both get checked on every altered patient. A pulse oximeter and a glucometer, every time, no exceptions and no judgment calls.\n\nRecord the level and the cause separately. AVPU tells you how deep it is. The differential is what you think is behind it. 'Responds to voice' is not an assessment of mental status; it is one line of one.\n\nNow the big one. A patient smells of alcohol. Everybody in the room, including you, has already decided. And the smell of alcohol tells you exactly one thing: they have been drinking. It does not tell you they are not hypoglycemic. It does not tell you they did not hit their head when they went down. It does not tell you they are not septic. People die of head injuries in the corner of rooms because they smelled of drink.\n\nAirway first, always. Reduced consciousness means a reduced ability to protect the airway.\n\nAnd ask what normal looks like. 'She's a bit confused' means nothing until somebody who knows her tells you whether that is new. Family saying 'this is not her' is diagnostic information, and it is free.",
+          "standard": "Altered mental status constitutes a clinical finding requiring aetiological investigation rather than a diagnosis. The AEIOU-TIPS mnemonic structures the differential: Alcohol; Epilepsy and Electrolytes; Insulin, denoting dysglycaemia; Overdose and Oxygen; Uremia; Trauma; Infection; Psychiatric and Poisoning; Stroke, Shock and Seizure. Hypoxia and hypoglycaemia represent the reversible aetiologies within EMT scope and are assessed in every presentation by pulse oximetry and blood glucose measurement. Level of consciousness, documented by AVPU, is recorded separately from the presumed aetiology. The presence of ethanol odour carries no exclusionary value and coexists with hypoglycaemia, traumatic brain injury and sepsis. Airway assessment and protection precede all other intervention where consciousness is reduced. Determination of the patient's cognitive baseline from family or carers constitutes essential diagnostic information."
+        },
+        "eli_new": {
+          "analogy": "Altered mental status is the check engine light. AEIOU-TIPS is the list of things to look at before you decide it is nothing.",
+          "body": "The thing that kills patients here is the shortcut. Drunk, diabetic, demented, psychiatric — pick a label early and stop looking. The discipline is: check a sugar, check a saturation, ask what normal looks like, and only then start forming an opinion."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Expand AEIOU-TIPS, and explain the two things you check on every altered patient and why the smell of alcohol proves nothing.",
+          "must_hit": [
+            {
+              "point": "Alcohol, Epilepsy/Electrolytes, Insulin, Overdose/Oxygen, Uremia",
+              "accept": [
+                "alcohol",
+                "epilep",
+                "insulin",
+                "overdose",
+                "oxygen",
+                "uremia",
+                "electrolyte"
+              ]
+            },
+            {
+              "point": "Trauma, Infection, Psychiatric/Poisoning, Stroke/Shock/Seizure",
+              "accept": [
+                "trauma",
+                "infection",
+                "psychiatric",
+                "poison",
+                "stroke",
+                "shock",
+                "seizure"
+              ]
+            },
+            {
+              "point": "Check oxygen saturation and blood glucose on every altered patient",
+              "accept": [
+                "glucose",
+                "sugar",
+                "oxygen",
+                "saturation",
+                "oximet"
+              ]
+            },
+            {
+              "point": "Those two are the reversible causes an EMT can treat",
+              "accept": [
+                "reversible",
+                "fix",
+                "treat",
+                "correct"
+              ]
+            },
+            {
+              "point": "The smell of alcohol excludes nothing",
+              "accept": [
+                "smell",
+                "alcohol",
+                "exclude",
+                "also",
+                "assume"
+              ]
+            },
+            {
+              "point": "Airway first, and establish the baseline from family",
+              "accept": [
+                "airway",
+                "baseline",
+                "family",
+                "normal"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He's just drunk",
+          "dispatch": "Engine 2 — male in his fifties, found slumped outside a pub, smells of alcohol.",
+          "body": "The doorman said he had been drinking all afternoon and had been put outside an hour ago, and that seemed to cover it.\n\nThe crew checked a sugar anyway, because they check a sugar on everybody, and it was low.\n\nHe had been drinking all afternoon. Both things were true. Only one of them was going to kill him."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "AEIOU-TIPS",
+          "expansion": [
+            "A — Alcohol",
+            "E — Epilepsy, Electrolytes",
+            "I — Insulin: blood glucose, high or low",
+            "O — Overdose, Oxygen (hypoxia)",
+            "U — Uremia: kidney failure",
+            "T — Trauma",
+            "I — Infection, including sepsis",
+            "P — Psychiatric, Poisoning",
+            "S — Stroke, Shock, Seizure"
+          ],
+          "memory_image": "Five vowels then a word. Of the nine, only two are yours to fix on scene: the O for oxygen and the I for insulin."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the AEIOU-TIPS expansion against the current text — the letters are assigned slightly differently between sources, particularly E and S. No medication or dose is stated."
     }
   ]
 }

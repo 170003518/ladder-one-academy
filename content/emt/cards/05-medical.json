@@ -52,6 +52,256 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-01-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-01-C01",
+      "concept_id": "EMT-05-02-01",
+      "type": "concept",
+      "front": {
+        "title": "Stroke",
+        "summary": "Recognise, protect, transport"
+      },
+      "back": {
+        "body": "ISCHEMIC = blocked vessel = the large majority · HEMORRHAGIC = ruptured vessel = minority, more often sudden severe headache + vomiting + fast decline · YOU CANNOT TELL THEM APART IN THE FIELD and do not try · TIA = resolves completely = still a stroke warning = still transported · LAST KNOWN WELL is the history that matters — a time and a witness · AIRWAY BEFORE SCALE · CHECK A GLUCOSE ON EVERY ONE",
+        "why_it_matters": "Last seen normal at ten at night, not found at seven in the morning. Nine hours decides what they can offer her."
+      },
+      "high_yield": true,
+      "number": 3,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-01-C02",
+      "concept_id": "EMT-05-02-01",
+      "type": "compare",
+      "front": {
+        "title": "Stroke vs hypoglycemia",
+        "summary": "The mimic you can fix"
+      },
+      "back": {
+        "body": "See the comparison rows. The separator is the glucose meter: a focal deficit with a normal sugar is a stroke until imaged; a confused, cool, sweating patient with a low sugar often improves in front of you.",
+        "why_it_matters": "It is the one stroke mimic you can correct on scene, and it is only found if somebody checks."
+      },
+      "high_yield": true,
+      "number": 4,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-02-C03",
+      "concept_id": "EMT-05-02-02",
+      "type": "concept",
+      "front": {
+        "title": "Stroke scales",
+        "summary": "One finding is enough"
+      },
+      "back": {
+        "body": "CINCINNATI: facial droop · arm drift · speech · FAST = Face Arms Speech Time · BE-FAST adds BALANCE and EYES for posterior strokes · ONE abnormal finding = POSITIVE · A NEGATIVE SCALE DOES NOT RULE OUT A STROKE — believe the history · Last known well = time + witness · PRE-NOTIFY however close the hospital is",
+        "why_it_matters": "FAST was negative three times on a woman having a posterior stroke."
+      },
+      "high_yield": true,
+      "number": 5,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-02-C04",
+      "concept_id": "EMT-05-02-02",
+      "type": "mnemonic",
+      "front": {
+        "title": "BE-FAST",
+        "summary": "Stroke screen, posterior included"
+      },
+      "back": {
+        "body": "B — Balance: sudden loss of balance or coordination · E — Eyes: sudden vision loss or double vision · F — Face: ask for a smile, watch for a lag · A — Arms: both out, eyes closed, watch for drift · S — Speech: repeat a sentence, listen for slurring · T — Time: last known well with a witness, and pre-notify",
+        "why_it_matters": "The two letters at the front are the ones that catch the stroke FAST walks past."
+      },
+      "high_yield": true,
+      "number": 6,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-03-C05",
+      "concept_id": "EMT-05-02-03",
+      "type": "concept",
+      "front": {
+        "title": "Seizures",
+        "summary": "Protect, time, do not interfere"
+      },
+      "back": {
+        "body": "DURING: move furniture · pad the head · TIME IT · position for airway when you can · DO NOT RESTRAIN · PUT NOTHING IN THE MOUTH — the tongue cannot be swallowed · STATUS EPILEPTICUS = will not stop, or repeated without recovery = true emergency, expedite · POSTICTAL = confusion that GRADUALLY CLEARS; not clearing means look elsewhere · CHECK A GLUCOSE EVERY TIME",
+        "why_it_matters": "Postictal patients get better. The one who is not getting better has something else going on."
+      },
+      "high_yield": true,
+      "number": 7,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-03-C06",
+      "concept_id": "EMT-05-02-03",
+      "type": "skill",
+      "front": {
+        "title": "Managing an active seizure",
+        "summary": "Critical steps and the two nevers"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: protect from the environment, never restrain, never put anything in the mouth, time it, airway and suction when movement allows, oxygen and glucose, recognise status and expedite, reassess through the postictal period for steady improvement.",
+        "why_it_matters": "The two nevers are reflexes people have to actively unlearn."
+      },
+      "high_yield": true,
+      "number": 8,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-04-C07",
+      "concept_id": "EMT-05-02-04",
+      "type": "concept",
+      "front": {
+        "title": "Syncope",
+        "summary": "The recovery is the clue"
+      },
+      "back": {
+        "body": "SYNCOPE = brief loss of consciousness from a dip in brain perfusion, FULL SPONTANEOUS RECOVERY · Quick and oriented = syncope; confused for a long time = postictal · VASOVAGAL usually has warning: light-headed, nausea, hot, vision greying · HIGH RISK: during EXERTION · NO warning at all · cardiac or family history of sudden death · A few jerks at the end can happen in a simple faint · THEY FELL — check the head",
+        "why_it_matters": "He was up before anyone reached him, looking well, with three red flags in his history."
+      },
+      "high_yield": true,
+      "number": 9,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-05-C08",
+      "concept_id": "EMT-05-02-05",
+      "type": "concept",
+      "front": {
+        "title": "Headache red flags",
+        "summary": "Most are not emergencies; find the ones that are"
+      },
+      "back": {
+        "body": "THE QUESTION: did it build up, or was it at its worst STRAIGHT AWAY? · 'Worst headache of my life' — believe it, especially from a frequent sufferer · FEVER + STIFF NECK = CNS infection, precautions · Any FOCAL DEFICIT, seizure or altered mental status · AFTER A HEAD INJURY, especially older or ANTICOAGULATED — mechanism need not look impressive · Wakes from sleep · worse on straining · new over 50 · CARE: dim, quiet, gentle, position of comfort, transport",
+        "why_it_matters": "Her migraine history was exactly what made her able to say it was the worst she had ever had."
+      },
+      "high_yield": true,
+      "number": 10,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-06-C09",
+      "concept_id": "EMT-05-02-06",
+      "type": "concept",
+      "front": {
+        "title": "Altered mental status",
+        "summary": "A finding, never a diagnosis"
+      },
+      "back": {
+        "body": "AMS ALWAYS HAS A CAUSE · Work AEIOU-TIPS rather than guessing · CHECK A GLUCOSE AND A SATURATION ON EVERY ALTERED PATIENT — the two reversible causes you can find · AVPU = the level; the differential = the cause; record BOTH · THE SMELL OF ALCOHOL EXCLUDES NOTHING — not low sugar, not a head injury, not sepsis · AIRWAY FIRST · Ask family what normal looks like",
+        "why_it_matters": "He had been drinking all afternoon and his sugar was low. Both were true; one was going to kill him."
+      },
+      "high_yield": true,
+      "number": 11,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-02-06-C10",
+      "concept_id": "EMT-05-02-06",
+      "type": "mnemonic",
+      "front": {
+        "title": "AEIOU-TIPS",
+        "summary": "The altered mental status differential"
+      },
+      "back": {
+        "body": "A — Alcohol · E — Epilepsy, Electrolytes · I — Insulin (glucose, high or low) · O — Overdose, Oxygen · U — Uremia · T — Trauma · I — Infection, including sepsis · P — Psychiatric, Poisoning · S — Stroke, Shock, Seizure",
+        "why_it_matters": "Nine causes. Two are yours to fix on scene: the O for oxygen and the I for insulin."
+      },
+      "high_yield": true,
+      "number": 12,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 5,
+        "module_name": "Medical"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-05-02-06. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }
