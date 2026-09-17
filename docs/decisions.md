@@ -321,3 +321,40 @@ concept that the outline had folded into a larger one:
 
 Final shape: 06-01 (4), 06-02 (6), 06-03 (4), 06-04 (5), 06-05 (6), 06-06 (8),
 06-07 (6), 06-08 (4), 06-09 (7) = 50.
+
+## Module 01 and 08 concept counts (batch 4)
+
+The batch asked for Module 01 at 46 concepts and Module 08 at 21. The blueprint
+outline lists 48 and 22. Two merges in Module 01 and one in Module 08, chosen
+where the outline already separates things an EMT meets at the same awareness
+level:
+
+- **01-06-07 Digestive, urinary and reproductive systems** merges the outline's
+  separate digestive and urinary/reproductive items.
+- **01-06-08 Endocrine, lymphatic and immune systems** merges the outline's
+  separate endocrine and lymphatic/immune items.
+- **08-03-02 The EMT's role at an extrication: simple and complex access** merges
+  the outline's "roles of EMS at an extrication" and "simple vs complex access",
+  which are the same question asked twice.
+
+Module 01 lesson 06 therefore holds 8 concepts rather than 10, and Module 08
+lesson 03 holds 2 rather than 3. Every other lesson follows the outline exactly.
+
+## NREMT domain weights used by the full simulation (batch 4)
+
+The blueprint gives ranges, not points: AIR 18–22%, CARD 20–24%, TRAU 14–18%,
+MED 27–31%, OPS 10–14%. The simulation needs a single number per domain, so it
+uses the midpoint of each range, normalised to 100:
+
+| Domain | Range | Used |
+|---|---|---|
+| AIR | 18–22% | 20% |
+| CARD | 20–24% | 22% |
+| TRAU | 14–18% | 16% |
+| MED | 27–31% | 30% |
+| OPS | 10–14% | 12% |
+
+The midpoints sum to 99, so MED absorbs the rounding — it has the widest range
+and the largest share. These live in one exported constant in `js/simulation.js`
+so they can be corrected in one place when the current NREMT blueprint is
+checked, which the blueprint itself says still needs doing.
