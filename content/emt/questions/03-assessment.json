@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-03",
+  "tier": "emt",
+  "questions": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-01-Q001",
+      "concept_id": "EMT-03-01-01",
+      "style": "recall",
+      "stem": "What is the correct order of priority in scene safety?",
+      "options": [
+        {
+          "text": "Patient, bystanders, crew, yourself",
+          "rationale": "This reverses the order and puts the rescuers last."
+        },
+        {
+          "text": "Yourself, your crew, the patient, then bystanders",
+          "rationale": "Correct. An injured provider cannot help anyone and becomes a second patient."
+        },
+        {
+          "text": "Bystanders, patient, yourself, crew",
+          "rationale": "Bystanders are not the first priority."
+        },
+        {
+          "text": "Whoever is most seriously injured first",
+          "rationale": "Injury severity does not override the safety order."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-01-Q002",
+      "concept_id": "EMT-03-01-01",
+      "style": "application",
+      "stem": "When does scene size-up end?",
+      "options": [
+        {
+          "text": "When you make patient contact",
+          "rationale": "Hazards can appear after contact."
+        },
+        {
+          "text": "It does not — it continues for the whole call",
+          "rationale": "Correct. Scenes change while you are working on them."
+        },
+        {
+          "text": "When law enforcement declares the scene secure",
+          "rationale": "A secure declaration does not freeze the scene."
+        },
+        {
+          "text": "When the patient is loaded",
+          "rationale": "Hazards exist at the vehicle too."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-01-Q003",
+      "concept_id": "EMT-03-01-01",
+      "style": "scenario",
+      "stem": "You arrive to find a patient down beside a vehicle with a power line across the roof. What do you do?",
+      "options": [
+        {
+          "text": "Approach carefully and avoid touching the vehicle",
+          "rationale": "Proximity to a downed line is itself the hazard."
+        },
+        {
+          "text": "Stage at a safe distance and request the power company",
+          "rationale": "Correct. You cannot make this scene safe with what you carry."
+        },
+        {
+          "text": "Use a wooden pole to move the line",
+          "rationale": "Improvised line handling is not within EMT practice."
+        },
+        {
+          "text": "Drag the patient clear quickly",
+          "rationale": "Approaching to drag is the exposure you are avoiding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-02-Q001",
+      "concept_id": "EMT-03-01-02",
+      "style": "recall",
+      "stem": "When is the decision about standard precautions made?",
+      "options": [
+        {
+          "text": "During the scene size-up, before patient contact",
+          "rationale": "Correct. By the time you can see it is messy, you are already exposed."
+        },
+        {
+          "text": "After the primary assessment",
+          "rationale": "That is after contact."
+        },
+        {
+          "text": "Only when the patient is known to be infectious",
+          "rationale": "You usually never find out what they had."
+        },
+        {
+          "text": "At the hospital",
+          "rationale": "Far too late to protect anyone."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-02-Q002",
+      "concept_id": "EMT-03-01-02",
+      "style": "application",
+      "stem": "Which task most clearly requires eye protection in addition to gloves?",
+      "options": [
+        {
+          "text": "Taking a blood pressure",
+          "rationale": "No splash risk."
+        },
+        {
+          "text": "Suctioning an airway",
+          "rationale": "Correct. Suctioning splashes, which is exactly what eye protection is for."
+        },
+        {
+          "text": "Applying a cardiac monitor",
+          "rationale": "No splash risk."
+        },
+        {
+          "text": "Splinting a closed forearm fracture",
+          "rationale": "No splash risk in a closed injury."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-02-Q003",
+      "concept_id": "EMT-03-01-02",
+      "style": "scenario",
+      "stem": "You are dispatched for abdominal pain and find a woman crowning. What changes about your precautions?",
+      "options": [
+        {
+          "text": "Nothing; gloves are sufficient",
+          "rationale": "Childbirth involves substantial fluid exposure."
+        },
+        {
+          "text": "Add eye protection and a gown before delivery",
+          "rationale": "Correct. Precautions are upgraded as the call reveals itself."
+        },
+        {
+          "text": "Remove gloves for better dexterity",
+          "rationale": "Gloves are never removed for patient contact."
+        },
+        {
+          "text": "Wait for a second crew before touching the patient",
+          "rationale": "Delivery cannot be deferred for that reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-03-Q001",
+      "concept_id": "EMT-03-01-03",
+      "style": "recall",
+      "stem": "What is the mechanism of injury?",
+      "options": [
+        {
+          "text": "The medical condition that prompted the call",
+          "rationale": "That is the nature of illness."
+        },
+        {
+          "text": "The physical forces that acted on the patient",
+          "rationale": "Correct. It tells you where the energy went."
+        },
+        {
+          "text": "The patient's past medical history",
+          "rationale": "History informs the nature of illness."
+        },
+        {
+          "text": "The patient's chief complaint",
+          "rationale": "The complaint is what they tell you, not the forces involved."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-03-Q002",
+      "concept_id": "EMT-03-01-03",
+      "style": "application",
+      "stem": "A driver crashes on an empty, dry road in daylight with no obvious cause. What should you specifically consider?",
+      "options": [
+        {
+          "text": "That the crash is the whole problem",
+          "rationale": "This is the trap the concept exists to prevent."
+        },
+        {
+          "text": "That a medical event may have caused the crash",
+          "rationale": "Correct. The crash is the consequence; ask what produced it."
+        },
+        {
+          "text": "That the vehicle was defective and the patient is uninjured",
+          "rationale": "Vehicle faults do not remove the need to assess the patient."
+        },
+        {
+          "text": "That no assessment is needed if the damage is minor",
+          "rationale": "Damage does not determine the need for assessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-03-Q003",
+      "concept_id": "EMT-03-01-03",
+      "style": "application",
+      "stem": "How does the nature of illness change the assessment compared with a mechanism of injury?",
+      "options": [
+        {
+          "text": "It drives a history-led focused exam rather than an exam led by where the energy went",
+          "rationale": "Correct. The history tells you which system to examine, rather than the forces telling you where to look."
+        },
+        {
+          "text": "It means no physical examination is needed",
+          "rationale": "A medical patient is still examined."
+        },
+        {
+          "text": "It means vital signs are optional",
+          "rationale": "Vitals are taken regardless."
+        },
+        {
+          "text": "It means the patient does not need transport",
+          "rationale": "Transport decisions are separate."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-04-Q001",
+      "concept_id": "EMT-03-01-04",
+      "style": "recall",
+      "stem": "Why is the number of patients determined before treating anyone?",
+      "options": [
+        {
+          "text": "Because insurance requires it",
+          "rationale": "Not a clinical reason."
+        },
+        {
+          "text": "Because committing to one patient stops you seeing the others",
+          "rationale": "Correct, and quiet patients are routinely missed."
+        },
+        {
+          "text": "Because the count determines the transport destination",
+          "rationale": "Destination is decided later and by other factors."
+        },
+        {
+          "text": "Because dispatch needs the number for billing",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-04-Q002",
+      "concept_id": "EMT-03-01-04",
+      "style": "application",
+      "stem": "Why should additional resources be requested early?",
+      "options": [
+        {
+          "text": "Because cancelling a unit is quick and summoning one is slow",
+          "rationale": "Correct. Ten seconds to stand a unit down; ten minutes to wait for one you should have called."
+        },
+        {
+          "text": "Because units cannot be cancelled once dispatched",
+          "rationale": "They can be, which is the whole reason calling early costs nothing."
+        },
+        {
+          "text": "Because more crews always improve patient outcome",
+          "rationale": "Not automatically true."
+        },
+        {
+          "text": "Because it reduces your documentation",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-04-Q003",
+      "concept_id": "EMT-03-01-04",
+      "style": "scenario",
+      "stem": "At a two-car collision you find three injured occupants and a bystander with chest pain. Your crew is two people. What does this become?",
+      "options": [
+        {
+          "text": "A standard two-patient call",
+          "rationale": "Four patients exceeds a two-person crew."
+        },
+        {
+          "text": "A multiple-casualty incident requiring triage",
+          "rationale": "Correct. Patients outnumber what the crew can manage."
+        },
+        {
+          "text": "A refusal situation",
+          "rationale": "Nothing here suggests refusal."
+        },
+        {
+          "text": "A law enforcement matter",
+          "rationale": "Police may attend but this is a patient-load problem."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-05-Q001",
+      "concept_id": "EMT-03-01-05",
+      "style": "recall",
+      "stem": "Which of the following is a significant mechanism of injury?",
+      "options": [
+        {
+          "text": "Twisting an ankle stepping off a kerb",
+          "rationale": "Low energy, localised."
+        },
+        {
+          "text": "Ejection from a vehicle",
+          "rationale": "Correct — a classic significant mechanism."
+        },
+        {
+          "text": "A superficial cut to the finger",
+          "rationale": "Low energy."
+        },
+        {
+          "text": "Bumping a shin on furniture",
+          "rationale": "Low energy."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-05-Q002",
+      "concept_id": "EMT-03-01-05",
+      "style": "application",
+      "stem": "What does a significant mechanism of injury change about your assessment?",
+      "options": [
+        {
+          "text": "It means a rapid full-body scan rather than a focused exam",
+          "rationale": "Correct. You look for injuries the patient has not told you about."
+        },
+        {
+          "text": "It means skipping vital signs to save time",
+          "rationale": "Vitals are not skipped."
+        },
+        {
+          "text": "It means the patient must refuse transport in writing",
+          "rationale": "Unrelated."
+        },
+        {
+          "text": "It means no examination is needed before transport",
+          "rationale": "Assessment is more thorough, not less."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-05-Q003",
+      "concept_id": "EMT-03-01-05",
+      "style": "application",
+      "stem": "An 88-year-old falls from standing height onto a tiled floor. How should you classify the mechanism?",
+      "options": [
+        {
+          "text": "Not significant, because the fall was short",
+          "rationale": "Age lowers the threshold substantially."
+        },
+        {
+          "text": "Significant, because age lowers the energy needed to cause serious injury",
+          "rationale": "Correct — this is the answer the concept is built around."
+        },
+        {
+          "text": "Significant only if she is anticoagulated",
+          "rationale": "Anticoagulation adds risk but age alone already lowers the threshold."
+        },
+        {
+          "text": "Not significant unless she lost consciousness",
+          "rationale": "Loss of consciousness is not the deciding factor."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-05-Q004",
+      "concept_id": "EMT-03-01-05",
+      "style": "scenario",
+      "stem": "A driver from a heavily damaged vehicle is walking, alert and says he is fine. How does this affect the significant mechanism?",
+      "options": [
+        {
+          "text": "It cancels it; a well patient does not need a full-body scan",
+          "rationale": "This is exactly the error the concept warns about."
+        },
+        {
+          "text": "It does not cancel it; you still perform a rapid full-body scan",
+          "rationale": "Correct. Mechanism raises suspicion that appearance cannot remove."
+        },
+        {
+          "text": "It downgrades it to non-significant",
+          "rationale": "Appearance does not reclassify the mechanism."
+        },
+        {
+          "text": "It means only vital signs are required",
+          "rationale": "A significant mechanism still drives a full-body scan."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    }
+  ]
+}

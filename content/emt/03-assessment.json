@@ -1,0 +1,692 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-03",
+  "tier": "emt",
+  "number": 3,
+  "title": "Patient Assessment",
+  "short_title": "Assessment",
+  "domain_weighting": {
+    "MED": 50,
+    "TRAU": 50
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [
+    {
+      "id": "EMT-03-01",
+      "title": "Scene size-up",
+      "concepts": [
+        "EMT-03-01-01",
+        "EMT-03-01-02",
+        "EMT-03-01-03",
+        "EMT-03-01-04",
+        "EMT-03-01-05"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-01",
+      "title": "Scene safety",
+      "domain": "OPS",
+      "difficulty": 1,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-01-02",
+        "EMT-03-01-04"
+      ],
+      "key_points": [
+        "Scene safety begins before you arrive and never stops while you are there",
+        "The order is you, your crew, the patient, then bystanders — in that order, every time",
+        "An injured EMT stops being a rescuer and becomes a second patient",
+        "If the scene is not safe and you cannot make it safe, you stage and wait for the resource that can",
+        "Scenes change: a quiet scene can turn while you are kneeling on it"
+      ],
+      "misconceptions": [
+        "Entering a scene because the patient looks critical",
+        "Treating scene safety as a box ticked on arrival rather than a continuous process",
+        "Assuming law enforcement being present means the scene is secure"
+      ],
+      "exam_favorites": [
+        "The order of priority",
+        "That size-up is continuous",
+        "Staging rather than entering"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Scene safety is the first thing and it is not a step you finish. It starts with the dispatch information, continues as you pull up and look at the address, and carries on the entire time you are there.\n\nThe order matters and it is always the same: you, then your crew, then your patient, then everyone else standing around. That ordering feels wrong to people who came into this work to help, but an injured EMT does not help anybody. They become a second patient, they consume the resources that were coming for the first one, and now nobody is being treated.\n\nIf a scene is unsafe and you cannot make it safe with what you have, you do not go in. You stage a safe distance away and you wait for whoever can make it safe — law enforcement, the fire suppression crew, the power company. Waiting feels terrible. Do it anyway.\n\nAnd keep looking. The dog that was asleep wakes up. The family member who was calm gets a phone call. The car that was stable shifts. Size-up is a loop, not a line.",
+          "standard": "Scene safety is the initial and ongoing assessment of hazards to responders, patients and bystanders, and is the first component of the scene size-up. The established priority order is provider safety, crew safety, patient safety and bystander safety. An injured provider both removes a rescuer from the response and generates an additional patient, consuming resources allocated to the original incident. Where hazards exceed the crew's capability to mitigate them, the appropriate action is to stage at a safe distance and request the resource capable of securing the scene. Scene assessment is continuous rather than a discrete arrival step, as hazards may develop or be revealed during patient contact."
+        },
+        "eli_new": {
+          "analogy": "Putting on your own oxygen mask first is not selfishness. It is the only way you are any use to anyone else.",
+          "body": "The instinct when someone is hurt is to run toward them. Every rule about scene safety exists to override that instinct, because the moment you are hurt too, the call stops being a rescue and becomes a bigger emergency with fewer people to handle it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the order of priority in scene safety and why the order is what it is.",
+          "must_hit": [
+            {
+              "point": "You, then crew, then patient, then bystanders",
+              "accept": [
+                "yourself",
+                "you first",
+                "crew",
+                "partner",
+                "patient",
+                "bystander"
+              ]
+            },
+            {
+              "point": "An injured EMT becomes a second patient",
+              "accept": [
+                "second patient",
+                "another patient",
+                "become a patient",
+                "hurt"
+              ]
+            },
+            {
+              "point": "Stage and wait if it cannot be made safe",
+              "accept": [
+                "stage",
+                "wait",
+                "stay back",
+                "do not enter",
+                "law enforcement"
+              ]
+            },
+            {
+              "point": "Size-up is continuous",
+              "accept": [
+                "continuous",
+                "ongoing",
+                "keep looking",
+                "changes",
+                "never stops"
+              ]
+            }
+          ],
+          "model_answer": "You first, then your crew, then the patient, then bystanders — in that order every time. It feels backwards for people who came into this work to help, but an injured EMT stops being a rescuer and becomes a second patient, consuming the very resources that were coming for the first one. If a scene is not safe and you cannot make it safe with what you have, you stage a safe distance away and wait for whoever can secure it. And it is not a box you tick on arrival: scenes change while you are kneeling on them, so you keep looking the whole time."
+        },
+        "story": {
+          "title": "The dog in the back room",
+          "dispatch": "Rescue 4 — 60-year-old male, chest pain, private residence.",
+          "body": "The scene was fine. Calm house, calm family, patient sitting up talking to you.\n\nThen somebody opened the back door to let the crew in with the stretcher and the dog came through it. Nobody had mentioned a dog. Nobody had asked.\n\nYour partner got between it and you, the daughter grabbed the collar, and it was over in four seconds. But for those four seconds nobody was treating the chest pain."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the priority order wording and the current text's guidance on staging versus entering."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-02",
+      "title": "Determining standard precautions",
+      "domain": "OPS",
+      "difficulty": 1,
+      "prereqs": [
+        "EMT-03-01-01"
+      ],
+      "related": [
+        "EMT-03-01-01"
+      ],
+      "key_points": [
+        "Standard precautions are chosen during size-up, before you touch the patient",
+        "Gloves are the baseline for every patient contact",
+        "Add eye protection whenever splashing or spraying is possible",
+        "Add a mask for a coughing or feverish patient, and consider one for the patient too",
+        "Add a gown when heavy contamination is likely, such as childbirth or major bleeding",
+        "The decision is made from the information you have, then upgraded as you learn more"
+      ],
+      "misconceptions": [
+        "Deciding on precautions after seeing how messy it is",
+        "Using gloves alone during suctioning or childbirth",
+        "Treating precautions as being about the patient's diagnosis rather than about the task"
+      ],
+      "exam_favorites": [
+        "That the decision is made before contact",
+        "Eye protection during suctioning",
+        "Gown for childbirth and major bleeding"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The decision about what to put on is part of the size-up, not a reaction to what you find. By the time you are close enough to know it is messy, you have already been exposed.\n\nGloves go on for every patient, always. Beyond that, you are matching the protection to the task rather than to the patient's diagnosis. Anything that could splash or spray toward your face — suctioning, active vomiting, arterial bleeding, childbirth — gets eye protection. A patient who is coughing or febrile gets a mask, and so do you. Heavy contamination, meaning a delivery or a major bleed, gets a gown.\n\nThe thing to hold onto is that you are protecting yourself from the job, not from a person. You almost never know what someone has. You do know whether you are about to put a suction catheter in their mouth.\n\nAnd you upgrade as you go. If the call turns out to be more than dispatch described, stop and add what you need.",
+          "standard": "Selection of standard precautions occurs during the scene size-up, prior to patient contact, and is based on the anticipated task rather than on presumed patient diagnosis. Gloves constitute the minimum for all patient contact. Eye protection is indicated where splash or spray is foreseeable, including suctioning, active vomiting, uncontrolled hemorrhage and childbirth. A surgical mask is indicated for patients with cough or fever, with source control by masking the patient where tolerated. Gown or fluid-resistant protection is indicated where gross contamination is anticipated. Precaution level is escalated as additional information emerges during the call."
+        },
+        "eli_new": {
+          "analogy": "You dress for the job you are about to do, not for the person you are about to meet.",
+          "body": "You will almost never know what a patient is carrying. What you do know, before you get out of the truck, is roughly what you are going to be doing with your hands. That is what decides the gear."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you decide what protective equipment to put on, and when you decide it.",
+          "must_hit": [
+            {
+              "point": "Decided during size-up, before patient contact",
+              "accept": [
+                "before",
+                "size-up",
+                "size up",
+                "on arrival",
+                "beforehand"
+              ]
+            },
+            {
+              "point": "Gloves for every patient",
+              "accept": [
+                "glove"
+              ]
+            },
+            {
+              "point": "Eye protection where splashing is possible",
+              "accept": [
+                "eye",
+                "goggle",
+                "face shield",
+                "splash"
+              ]
+            },
+            {
+              "point": "Mask for cough or fever; gown for heavy contamination",
+              "accept": [
+                "mask",
+                "gown",
+                "childbirth",
+                "contaminat"
+              ]
+            }
+          ],
+          "model_answer": "You decide during the size-up, before you touch anyone, because by the time you can see it is messy you have already been exposed. Gloves go on for every patient without exception. Then you match the rest to the task, not to the patient's diagnosis: eye protection anywhere splashing or spraying is possible — suctioning, vomiting, major bleeding, childbirth — a mask if they are coughing or febrile, and a mask on them too if they will tolerate it, and a gown where heavy contamination is likely. Then you upgrade as the call reveals itself."
+        },
+        "story": {
+          "title": "Gloves only",
+          "dispatch": "Rescue 4 — female, abdominal pain, second floor.",
+          "body": "Dispatch said abdominal pain, so the crew went up with gloves.\n\nShe was 38 weeks pregnant and crowning.\n\nThe delivery went fine. What did not go fine was that two people spent the next hour in the decontamination room and one of them had to have a conversation with the infection control officer about eye protection."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the precaution levels the current text lists and any service-specific requirements."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-03",
+      "title": "Nature of illness versus mechanism of injury",
+      "domain": "OPS",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-01-05",
+        "EMT-03-04-01",
+        "EMT-03-04-02"
+      ],
+      "key_points": [
+        "Nature of illness is why a medical patient called; mechanism of injury is what physically happened to a trauma patient",
+        "The distinction steers the whole assessment: medical patients get a focused exam driven by the history, trauma patients get an exam driven by the mechanism",
+        "The information comes from the scene, the patient, family and bystanders",
+        "Some patients are both: a diabetic who crashed a car has a nature of illness and a mechanism",
+        "Never let the obvious injury hide the medical cause that produced it"
+      ],
+      "misconceptions": [
+        "Assuming a patient found in a car is purely a trauma patient",
+        "Deciding the nature of illness from dispatch information alone",
+        "Ignoring the scene because the patient can talk"
+      ],
+      "exam_favorites": [
+        "Which drives which assessment",
+        "Patients who are both",
+        "Reading the scene for clues"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Every patient falls broadly into two camps, and which camp they are in changes how you assess them.\n\nA medical patient has a nature of illness — chest pain, difficulty breathing, altered mental status. You find it out mostly by asking, and the history drives a focused examination of whatever system is involved.\n\nA trauma patient has a mechanism of injury — the physical forces that acted on them. You work it out mostly by looking: the height of the fall, the damage to the vehicle, the bent steering wheel, the starred windscreen. The mechanism drives what you examine, because it tells you where the energy went.\n\nThe interesting patients are the ones who are both. A driver who crashed into a parked car in the middle of the afternoon on an empty road has a mechanism of injury, yes. But ask why. Did they have a seizure? A stroke? Were they hypoglycemic? The crash is the consequence; something caused it.\n\nThat is the trap worth remembering. Blood and broken glass are loud. The quiet medical problem underneath them is what kills the patient later.",
+          "standard": "The nature of illness (NOI) describes the medical complaint or condition prompting the call, while the mechanism of injury (MOI) describes the forces producing trauma. The distinction determines assessment strategy: the medical patient receives a history-driven focused examination, whereas the trauma patient receives an examination directed by the mechanism and its anticipated injury pattern. Information is derived from the scene, the patient, family and bystanders. Patients frequently present with both — a medical event precipitating a traumatic one — and the presence of obvious injury must not preclude investigation of an underlying medical cause, which may represent the more significant threat."
+        },
+        "eli_new": {
+          "analogy": "The crash is the punchline. Always ask what the joke was.",
+          "body": "Injuries are visible and illnesses usually are not, so injuries get all the attention. The discipline is to look at an obviously injured patient and still ask why this happened today, to this person, in this place."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between nature of illness and mechanism of injury, and why a patient can have both.",
+          "must_hit": [
+            {
+              "point": "NOI is the medical complaint; MOI is the physical forces",
+              "accept": [
+                "nature of illness",
+                "medical",
+                "mechanism",
+                "forces",
+                "injur"
+              ]
+            },
+            {
+              "point": "NOI drives a history-led exam; MOI drives an exam led by the forces",
+              "accept": [
+                "history",
+                "focused",
+                "drives",
+                "directs",
+                "where to look"
+              ]
+            },
+            {
+              "point": "A medical event can cause a traumatic one",
+              "accept": [
+                "both",
+                "caused",
+                "seizure",
+                "stroke",
+                "diabetic",
+                "why"
+              ]
+            }
+          ],
+          "model_answer": "Nature of illness is why a medical patient called — chest pain, trouble breathing, altered mental status — and you find it by asking, with the history driving a focused exam of the system involved. Mechanism of injury is what physically happened to a trauma patient, and you find it by looking at the scene: the height of the fall, the damage to the car, the bent wheel. The mechanism tells you where the energy went and therefore where to examine. Plenty of patients are both — a driver who crashed because they had a seizure has a mechanism and a nature of illness — and the visible injury must never stop you asking what caused the crash."
+        },
+        "story": {
+          "title": "Why today",
+          "dispatch": "Rescue 4 — single vehicle into a parked car, low speed, driver conscious.",
+          "body": "Minor damage. He is out of the car, walking, apologetic, saying he must have been distracted.\n\nYour partner keeps asking why. Not what hurts — why. Empty road, dry, daylight, no phone in his hand.\n\nHis blood sugar comes back low enough that the crash makes sense. He was not distracted. He was going out."
+        },
+        "do": {
+          "activity": "noi_or_moi",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each call: does the assessment start from a nature of illness, or from a mechanism of injury?",
+          "config": {
+            "buckets": [
+              "Nature of illness",
+              "Mechanism of injury"
+            ],
+            "items": [
+              {
+                "text": "68-year-old with crushing chest pain at rest",
+                "bucket": 0
+              },
+              {
+                "text": "Fall from a roof onto concrete",
+                "bucket": 1
+              },
+              {
+                "text": "Sudden weakness down one side while watching television",
+                "bucket": 0
+              },
+              {
+                "text": "Head-on collision, airbags deployed",
+                "bucket": 1
+              },
+              {
+                "text": "Difficulty breathing, worse over three days",
+                "bucket": 0
+              },
+              {
+                "text": "Struck by a car while crossing the road",
+                "bucket": 1
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Patient type",
+              "left": "Medical",
+              "right": "Trauma"
+            },
+            {
+              "feature": "How you find it",
+              "left": "Mostly by asking",
+              "right": "Mostly by looking"
+            },
+            {
+              "feature": "What it drives",
+              "left": "History-led focused exam",
+              "right": "Exam led by where the energy went"
+            },
+            {
+              "feature": "Main source",
+              "left": "Patient, family, medications",
+              "right": "The scene and the damage"
+            },
+            {
+              "feature": "Watch for",
+              "left": "—",
+              "right": "A medical cause behind the crash"
+            }
+          ],
+          "left_label": "Nature of illness",
+          "right_label": "Mechanism of injury"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the definitions and the text's guidance on assessing patients with both an NOI and an MOI."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-04",
+      "title": "Number of patients and additional resources",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [
+        "EMT-03-01-01"
+      ],
+      "related": [
+        "EMT-03-01-05"
+      ],
+      "key_points": [
+        "Count the patients before you commit to treating one",
+        "Ask for extra resources early; it is easy to cancel a unit and slow to summon one",
+        "The count includes people who have walked away, are still in a vehicle, or are not complaining",
+        "More patients than your crew can manage means you are running a multiple-casualty incident and triage applies",
+        "Resources are not only ambulances: law enforcement, fire suppression, power, rescue and air medical are all resources"
+      ],
+      "misconceptions": [
+        "Committing to the first patient you see and never counting",
+        "Waiting until you are overwhelmed before calling for help",
+        "Counting only the people who are complaining"
+      ],
+      "exam_favorites": [
+        "Counting before treating",
+        "Calling early and cancelling later",
+        "What counts as a resource"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Before you kneel down next to anybody, count. It is the step most easily skipped, because the first patient you see is usually the loudest one and your attention goes straight to them.\n\nThe count has to include people who are not obvious. Someone who climbed out and is sitting on the kerb. A child still in a rear-facing seat. A second occupant thrown clear. A family member who is quietly having a cardiac event from the stress. The quiet ones are routinely missed.\n\nIf the number of patients is more than your crew can handle, the call is no longer a patient-care call. It is a multiple-casualty incident, and you switch to triage.\n\nWhen you ask for more, ask early. A unit you called and no longer need takes ten seconds to cancel. A unit you should have called ten minutes ago takes ten minutes to arrive, and those are ten minutes you spend without it.\n\nAnd resources are broader than ambulances. Law enforcement for a scene that is not secure. Fire for a vehicle that is not stable. The power company for the wire nobody noticed. Rescue for entrapment. Air medical for distance or time.",
+          "standard": "Determination of the number of patients occurs during the scene size-up and precedes commitment to individual patient care. The count must include patients who have self-extricated, remain within vehicles, or are not voicing complaint, as these are commonly overlooked. Where patient numbers exceed the capability of the responding crew, the incident is managed as a multiple-casualty incident and triage protocols apply. Requests for additional resources should be made early, as cancellation is trivial and delayed summoning is not. Resources encompass law enforcement, fire suppression, utility services, technical rescue and air medical assets in addition to further transporting units."
+        },
+        "eli_new": {
+          "analogy": "It is quick to send a truck home. It is slow to get one to come.",
+          "body": "The first patient you see grabs your whole attention, which is exactly the problem. The step is to stand still for a few seconds, look around the whole scene, and count — including the people who are not asking for anything."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why you count patients before treating anyone, and what you do if there are more than you can manage.",
+          "must_hit": [
+            {
+              "point": "Count before committing to a patient",
+              "accept": [
+                "count",
+                "before",
+                "first",
+                "how many"
+              ]
+            },
+            {
+              "point": "Include people who walked away or are not complaining",
+              "accept": [
+                "walked",
+                "quiet",
+                "not complaining",
+                "still in the",
+                "missed",
+                "hidden"
+              ]
+            },
+            {
+              "point": "Call for resources early because cancelling is easy",
+              "accept": [
+                "early",
+                "cancel",
+                "sooner",
+                "ask for"
+              ]
+            },
+            {
+              "point": "More than you can manage means MCI and triage",
+              "accept": [
+                "mci",
+                "multiple casualty",
+                "triage"
+              ]
+            }
+          ],
+          "model_answer": "You count first because the moment you kneel next to someone, your attention is gone. The count has to include the people who are not obvious — someone who climbed out and is sitting on the kerb, a child still in a car seat, a relative quietly having their own event. If there are more patients than your crew can manage, it stops being a patient-care call and becomes a multiple-casualty incident, and you switch to triage. Ask for extra resources early: cancelling a unit takes ten seconds, summoning one you needed ten minutes ago takes ten minutes. And resources means police, fire, power, rescue and air medical too, not just more ambulances."
+        },
+        "story": {
+          "title": "The one on the kerb",
+          "dispatch": "Rescue 4 — two-vehicle collision, injuries reported.",
+          "body": "Two cars, one obviously worse. The driver of the worse one was screaming, so that is where everyone went.\n\nTwenty minutes later somebody noticed the woman sitting quietly on the kerb forty feet away, who had been the front passenger in the other car and had walked there herself.\n\nShe had not said anything because she did not want to be a nuisance. Her spleen had other ideas."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm what the current text includes in the patient count and its guidance on when to declare an MCI."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-05",
+      "title": "Significant versus non-significant mechanism of injury",
+      "domain": "OPS",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-01-03"
+      ],
+      "related": [
+        "EMT-03-04-01",
+        "EMT-03-02-06"
+      ],
+      "key_points": [
+        "A significant mechanism is one where the forces involved make serious internal injury plausible, whether or not it is visible",
+        "A significant mechanism changes the assessment: rapid full-body scan rather than a focused exam",
+        "Commonly cited significant mechanisms include falls from height, ejection, death of another occupant, rollover, high-speed collision, penetrating trauma to the trunk, and being struck as a pedestrian or cyclist",
+        "Children and older adults sustain serious injury from lesser mechanisms than a healthy adult",
+        "Mechanism raises suspicion; it does not make a diagnosis, and a reassuring exam does not cancel a significant mechanism"
+      ],
+      "misconceptions": [
+        "Downgrading a significant mechanism because the patient looks fine",
+        "Applying adult mechanism thresholds to a child or an older adult",
+        "Treating mechanism as a diagnosis rather than as an index of suspicion"
+      ],
+      "exam_favorites": [
+        "Which mechanisms are significant",
+        "That it drives rapid scan versus focused exam",
+        "Age changing the threshold",
+        "Mechanism as suspicion, not diagnosis"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The forces that acted on a patient tell you how much energy went into them, and energy is what injures. A significant mechanism of injury is one where the amount of energy makes serious internal injury plausible even if there is nothing to see.\n\nThe list you will be asked about is fairly consistent: a fall from a substantial height, ejection from a vehicle, another occupant in the same vehicle dying, a rollover, a high-speed collision, penetrating injury to the head, neck, chest or abdomen, and any pedestrian or cyclist struck by a vehicle. Confirm the exact thresholds your text uses, because the numbers attached to some of them vary.\n\nWhat it changes is the shape of your assessment. Significant mechanism means you do a rapid scan of the whole body looking for injuries you have not been told about, rather than a focused examination of the part that hurts.\n\nTwo groups shift the threshold downward. Children get seriously hurt by forces that would leave an adult walking, and older adults are fragile in ways that a mechanism description does not capture. A fall from standing height is trivial for a twenty-year-old and can be lethal at eighty.\n\nAnd the most important discipline: a significant mechanism is not cancelled by a patient who looks well. It raises your suspicion, and suspicion is not something the patient can talk you out of.",
+          "standard": "Mechanism of injury is classified as significant where the forces involved make serious occult injury plausible irrespective of external findings. Commonly cited significant mechanisms include falls from height, ejection from a vehicle, death of another occupant in the same vehicle, vehicle rollover, high-velocity collision, penetrating trauma to the head, neck, torso or abdomen, and pedestrian or cyclist struck by a vehicle; specific thresholds vary between texts and trauma systems. Classification determines assessment strategy, with significant mechanism indicating a rapid full-body scan rather than a focused examination. Pediatric and geriatric patients sustain significant injury at lower energy thresholds, and age modifies the classification accordingly. Mechanism constitutes an index of suspicion rather than a diagnosis, and a reassuring initial examination does not negate a significant mechanism."
+        },
+        "eli_new": {
+          "analogy": "Mechanism tells you how hard the bell was rung. It does not tell you whether the bell is cracked — but it tells you to go and look.",
+          "body": "New EMTs want the patient's appearance to settle the question, because a patient who is walking and talking feels like a patient who is fine. Mechanism exists precisely because internal injuries are quiet at first. The forces are evidence you can trust before the body has started showing you anything."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what makes a mechanism of injury significant, what it changes about your assessment, and why a patient who looks fine does not cancel it.",
+          "must_hit": [
+            {
+              "point": "Forces make serious internal injury plausible even with nothing visible",
+              "accept": [
+                "force",
+                "energy",
+                "internal",
+                "hidden",
+                "occult",
+                "plausible",
+                "serious"
+              ]
+            },
+            {
+              "point": "Examples: fall from height, ejection, rollover, death of an occupant, penetrating trunk injury, struck pedestrian",
+              "accept": [
+                "fall",
+                "eject",
+                "rollover",
+                "death",
+                "penetrat",
+                "pedestrian",
+                "high speed",
+                "high-speed"
+              ]
+            },
+            {
+              "point": "Drives a rapid full-body scan rather than a focused exam",
+              "accept": [
+                "rapid",
+                "full body",
+                "full-body",
+                "head to toe",
+                "scan",
+                "focused"
+              ]
+            },
+            {
+              "point": "Children and older adults are injured by less",
+              "accept": [
+                "child",
+                "pediatric",
+                "elderly",
+                "older",
+                "geriatric",
+                "age"
+              ]
+            },
+            {
+              "point": "A reassuring exam does not cancel the mechanism",
+              "accept": [
+                "looks fine",
+                "does not cancel",
+                "still",
+                "suspicion",
+                "reassur"
+              ]
+            }
+          ],
+          "model_answer": "A significant mechanism is one where the forces involved make serious internal injury plausible whether or not anything is visible. The usual list is falls from height, ejection, another occupant dying, rollover, high-speed collisions, penetrating injury to the head, neck, chest or abdomen, and pedestrians or cyclists struck by vehicles — confirm the exact thresholds in your text, because the numbers vary. What it changes is that you do a rapid scan of the whole body instead of a focused exam of what hurts. Children and older adults get badly hurt by much less, so the threshold drops for them. And the patient looking fine does not cancel it: mechanism raises suspicion, and a well-looking patient cannot talk you out of suspicion."
+        },
+        "story": {
+          "title": "Walking and talking",
+          "dispatch": "Rescue 4 — vehicle into a tree, one occupant, patient out of the car.",
+          "body": "He met you at the roadside. Walking, embarrassed, saying he was fine and asking whether he really needed to go.\n\nThe car was off the road, front end folded, windscreen starred from the inside, and the driver's seat had come off its runners.\n\nYou did the rapid scan anyway, because of the car and not because of him. His abdomen was tender in a way he had not mentioned and did not seem to think mattered."
+        },
+        "do": {
+          "activity": "significant_moi",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each mechanism: significant, or not significant?",
+          "config": {
+            "buckets": [
+              "Significant",
+              "Not significant"
+            ],
+            "items": [
+              {
+                "text": "Ejected from the vehicle",
+                "bucket": 0
+              },
+              {
+                "text": "Low-speed reverse into a bollard, no damage, restrained driver",
+                "bucket": 1
+              },
+              {
+                "text": "Another occupant in the same car died",
+                "bucket": 0
+              },
+              {
+                "text": "Stab wound to the abdomen",
+                "bucket": 0
+              },
+              {
+                "text": "Twisted an ankle stepping off a kerb",
+                "bucket": 1
+              },
+              {
+                "text": "Vehicle rollover",
+                "bucket": 0
+              },
+              {
+                "text": "88-year-old who fell from standing height onto a tiled floor",
+                "bucket": 0
+              },
+              {
+                "text": "Cut finger on a kitchen knife",
+                "bucket": 1
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the list of significant mechanisms and the specific thresholds (fall height, speed) the current text gives — those figures vary between texts and trauma systems and are deliberately not stated here."
+    }
+  ]
+}

@@ -28,12 +28,18 @@ import * as deck from './deck.js';
    built" from the length of the module list. Question banks are loaded lazily —
    a bank dwarfs its module and is only needed when a check starts. */
 const MODULE_FILES = {
-  emt:   ['content/emt/02-airway.json'],
+  emt:   ['content/emt/02-airway.json', 'content/emt/03-assessment.json'],
   fire:  [],
   medic: []
 };
-const QUESTION_FILES = { 'EMT-02': 'content/emt/questions/02-airway.json' };
-const CARD_FILES     = { 'EMT-02': 'content/emt/cards/02-airway.json' };
+const QUESTION_FILES = {
+  'EMT-02': 'content/emt/questions/02-airway.json',
+  'EMT-03': 'content/emt/questions/03-assessment.json'
+};
+const CARD_FILES = {
+  'EMT-02': 'content/emt/cards/02-airway.json',
+  'EMT-03': 'content/emt/cards/03-assessment.json'
+};
 
 const app = {
   el: null,

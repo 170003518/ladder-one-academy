@@ -201,3 +201,10 @@ Values supplied by AJ and filled into the concepts, cards and questions that had
 - One incidental fix: EMT-02-05-10's story said a nurse had helped a child with "two puffs". That reads as a dose, so it is now "helped him with it once" — no loss to the narrative.
 - **`accept` keywords must be at least 2 characters.** Adding "5" to two Teach `must_hit` lists failed the schema. Replaced with "5 seconds", "5 back", "5 chest" and "five" — a bare "5" would have matched almost any answer containing a digit anyway, so the constraint was protecting the check as well as the data.
 - **Flowchart alt trimmed 998 → 776 characters**, keeping every box name (ASTHMA, COPD, PULMONARY EDEMA, PNEUMOTHORAX, GETTING WORSE, CHEST SOUNDS CLEAR, PULMONARY EMBOLISM), every branch label, and the named findings. The SVG's own `<desc>` was updated to the identical text — they had been allowed to drift apart when the diagram was first written, and now match exactly.
+
+## 2026-09-17 — Module 03 Patient Assessment
+
+- New module file `content/emt/03-assessment.json` with its own question bank and card deck, registered in `app.js`. Domain weighting `MED 50 / TRAU 50`, since assessment feeds both.
+- **The blueprint's own lesson listing gives 31 concepts, not the 32 its summary table quotes** (5 + 7 + 4 + 5 + 8 + 2). The per-lesson listing is the authoritative one and is what was built; the table total appears to be an approximation.
+- **Merge tool generalised** (`merge2.py`): it now takes a module slug, creates the module, bank and deck files on first use, and validates any module. The Module 02 tool was hardcoded to one file set.
+- **The authoring helper now fails the build on a rationale under 10 characters** before anything is merged, listing every offender at once. Four were caught this way in lesson 01 alone — the same class of defect that reached the repo during Module 02 and had to be fixed afterwards.

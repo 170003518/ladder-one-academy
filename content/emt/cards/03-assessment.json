@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-03",
+  "tier": "emt",
+  "cards": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-01-C01",
+      "concept_id": "EMT-03-01-01",
+      "type": "concept",
+      "front": {
+        "title": "Scene safety",
+        "summary": "The order never changes"
+      },
+      "back": {
+        "body": "You · your crew · the patient · bystanders — in that order, every time · An injured EMT becomes a second patient and consumes the resources sent for the first · If you cannot make it safe, STAGE and wait for who can · Size-up is continuous, not an arrival step · Scenes change while you are kneeling on them",
+        "why_it_matters": "The instinct is to run toward the patient. Every rule here exists to override that instinct."
+      },
+      "high_yield": true,
+      "number": 1,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-01-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-02-C02",
+      "concept_id": "EMT-03-01-02",
+      "type": "concept",
+      "front": {
+        "title": "Standard precautions",
+        "summary": "Dress for the task, not the diagnosis"
+      },
+      "back": {
+        "body": "Decided during size-up, BEFORE contact · Gloves every patient, always · Eye protection wherever splash or spray is possible: suctioning, vomiting, major bleeding, childbirth · Mask for cough or fever, and mask the patient too · Gown for heavy contamination · Upgrade as the call reveals itself",
+        "why_it_matters": "You almost never know what a patient has. You do know what you are about to do with your hands."
+      },
+      "high_yield": false,
+      "number": 2,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-01-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-03-C03",
+      "concept_id": "EMT-03-01-03",
+      "type": "concept",
+      "front": {
+        "title": "NOI vs. MOI",
+        "summary": "Two camps, two assessments"
+      },
+      "back": {
+        "body": "Nature of illness = why a medical patient called; found by ASKING; drives a history-led focused exam · Mechanism of injury = the forces acting on a trauma patient; found by LOOKING; drives an exam aimed where the energy went · Many patients are both · Never let the visible injury hide the medical cause that produced it",
+        "why_it_matters": "The crash is the consequence. Always ask what caused it."
+      },
+      "high_yield": true,
+      "number": 3,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-01-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-03-C04",
+      "concept_id": "EMT-03-01-03",
+      "type": "compare",
+      "front": {
+        "title": "Nature of illness vs. mechanism of injury",
+        "summary": "How you find it, what it drives"
+      },
+      "back": {
+        "body": "Nature of illness is a medical problem found mostly by asking, and it drives a focused exam led by the history. Mechanism of injury is the physical forces found mostly by looking at the scene, and it drives an exam aimed where the energy went. A patient can have both, and the medical cause behind a crash is the one that gets missed.",
+        "why_it_matters": "Which camp the patient is in decides the shape of everything that follows."
+      },
+      "high_yield": false,
+      "number": 4,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-01-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-04-C05",
+      "concept_id": "EMT-03-01-04",
+      "type": "concept",
+      "front": {
+        "title": "Counting patients",
+        "summary": "Count before you kneel"
+      },
+      "back": {
+        "body": "Count BEFORE committing to anyone · Include those who walked away, are still in a vehicle, or are not complaining · More patients than your crew can manage = MCI, switch to triage · Ask for resources EARLY — cancelling takes seconds, summoning takes minutes · Resources include police, fire, power, rescue and air medical",
+        "why_it_matters": "The loudest patient takes all your attention, which is exactly why you count first."
+      },
+      "high_yield": false,
+      "number": 5,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-01-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-05-C06",
+      "concept_id": "EMT-03-01-05",
+      "type": "concept",
+      "front": {
+        "title": "Significant mechanism",
+        "summary": "Energy makes injury plausible"
+      },
+      "back": {
+        "body": "Falls from height · Ejection · Death of another occupant · Rollover · High-speed collision · Penetrating injury to head, neck, chest or abdomen · Pedestrian or cyclist struck · Children and older adults are injured by far less · Drives a RAPID FULL-BODY SCAN, not a focused exam · A well-looking patient does NOT cancel it",
+        "why_it_matters": "Mechanism raises suspicion, and suspicion is not something the patient can talk you out of."
+      },
+      "high_yield": true,
+      "number": 6,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-01-05. Check every figure on this card against the source before it is printed or drilled."
+    }
+  ]
+}
