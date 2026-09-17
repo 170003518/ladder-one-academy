@@ -52,8 +52,7 @@ const QUESTION_FILES = {
   'EMT-07': 'content/emt/questions/07-special-populations.json',
   'EMT-08': 'content/emt/questions/08-ems-operations.json',
   'EMT-09': 'content/emt/questions/09-pharmacology.json',
-  'EMT-10': 'content/emt/questions/10-psychomotor-skills.json',
-  'EMT-11': 'content/emt/questions/11-exam-prep.json'
+  'EMT-10': 'content/emt/questions/10-psychomotor-skills.json'
 };
 const CARD_FILES = {
   'EMT-01': 'content/emt/cards/01-preparatory.json',
@@ -65,8 +64,7 @@ const CARD_FILES = {
   'EMT-07': 'content/emt/cards/07-special-populations.json',
   'EMT-08': 'content/emt/cards/08-ems-operations.json',
   'EMT-09': 'content/emt/cards/09-pharmacology.json',
-  'EMT-10': 'content/emt/cards/10-psychomotor-skills.json',
-  'EMT-11': 'content/emt/cards/11-exam-prep.json'
+  'EMT-10': 'content/emt/cards/10-psychomotor-skills.json'
 };
 
 const app = {

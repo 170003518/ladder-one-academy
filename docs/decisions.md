@@ -380,3 +380,23 @@ Orange, Green — over the guidebook's own colour sections, with the memory line
 back". The colour-section structure is genuine and standard; the acronym is an
 authoring device rather than a published mnemonic, and the concept's verify note
 flags that the guidebook's section arrangement is revised periodically.
+
+## Batch 4 — Module 11 has no question or card files
+
+Module 11's concepts are read-only by design: 11-01 through 11-05 and 11-09 carry
+no cards, and 11-06 through 11-08 are placeholders pointing at the Test Center.
+That leaves the module with nothing at all to put in a question bank or a card
+deck, and the question-bank and card-deck schemas both require a non-empty array.
+
+Rather than invent questions nobody asked for, or weaken a schema that is doing
+useful work everywhere else, Module 11 simply has no `questions/11-exam-prep.json`
+and no `cards/11-exam-prep.json`, and it is absent from `QUESTION_FILES` and
+`CARD_FILES` in js/app.js. Both loaders already return an empty result for a
+module with no registered path, and tools/validate.py already treats an absent
+bank as "this module has none" rather than as a failure. The concepts declare
+only a `read` mode, so `availableModes()` renders them read-only without any
+special casing.
+
+Consequence worth knowing: Module 11 has no module exam and contributes nothing
+to the full simulation. That is correct — it is a guide to the exam, not content
+the exam tests.

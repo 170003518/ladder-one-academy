@@ -13,6 +13,329 @@
     "pass_pct": 80,
     "retake_after_hours": 24
   },
-  "lessons": [],
-  "concepts": []
+  "lessons": [
+    {
+      "id": "EMT-11-01",
+      "title": "Exam preparation",
+      "concepts": [
+        "EMT-11-01-01",
+        "EMT-11-01-02",
+        "EMT-11-01-03",
+        "EMT-11-01-04",
+        "EMT-11-01-05",
+        "EMT-11-01-06",
+        "EMT-11-01-07",
+        "EMT-11-01-08",
+        "EMT-11-01-09"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-11-01-01",
+      "title": "How the certification exam works",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-11-01-02",
+        "EMT-11-01-04"
+      ],
+      "key_points": [
+        "The cognitive examination is computer adaptive, so the questions you get depend on how you answer",
+        "Adaptive means the test adjusts difficulty as it goes, aiming at the level where it can decide about you",
+        "The exam stops when it is confident you are above or below the passing standard",
+        "Because of that, a short exam is not a bad sign and a long exam is not a bad sign",
+        "You cannot skip a question or go back to change an earlier answer",
+        "Questions are drawn across the domains in fixed proportions, which is what the blueprint describes",
+        "The passing standard is a level of ability, not a percentage of questions answered correctly",
+        "Some items on the exam are unscored trial questions, and you cannot tell which",
+        "There is also a psychomotor component, covered by Module 10",
+        "Confirm the current format, length and rules in the official candidate handbook — they change"
+      ],
+      "misconceptions": [],
+      "exam_favorites": [],
+      "modes": {
+        "read": {
+          "plain": "The cognitive examination is computer adaptive, and understanding what that means removes most of the anxiety around it.\n\nAdaptive means the test responds to you. Answer correctly and the next question tends to be harder; answer incorrectly and it tends to be easier. The exam is trying to find the level at which you are operating, and then to establish with confidence whether that level is above or below the passing standard.\n\nWhich has three consequences worth internalising.\n\nFirst, the exam stops when it is confident. That is why length varies, and it is why you cannot read anything into how long yours was. A short exam means the software reached confidence quickly — in either direction. A long exam means you were near the standard and it needed more evidence. Candidates torture themselves over this afterwards and there is nothing in it.\n\nSecond, you cannot skip a question and you cannot go back. Each answer determines the next question, so there is no revisiting. Answer the one in front of you, commit, and move on. Dwelling costs time and changes nothing.\n\nThird, the passing standard is a level of ability rather than a percentage. You are not aiming to get a certain number right. You are demonstrating that you operate above a defined standard, and the questions you see are chosen to measure that as efficiently as possible. This is also why the exam feels hard: a well-functioning adaptive test keeps you near your own limit, so most candidates feel like they are struggling. Feeling like it was hard is what passing feels like.\n\nQuestions are drawn across the domains in fixed proportions. That is what the blueprint describes, and it is covered in the next concept.\n\nSome items are unscored trial questions being tested for future use, and you cannot tell which. So a question that seems strange or unlike anything you studied may simply not count — another reason not to dwell.\n\nAnd there is a psychomotor component separate from the cognitive exam, covered in Module 10.\n\nEverything above is a description of the general approach rather than a substitute for the official rules. Read the current candidate handbook, because formats and requirements are revised.",
+          "standard": "The cognitive certification examination employs computer adaptive testing, in which item difficulty is adjusted in response to candidate performance: correct responses tend to produce more difficult subsequent items and incorrect responses less difficult items, with the algorithm estimating candidate ability and determining whether it exceeds the passing standard. Examination termination occurs upon attainment of confidence in that determination, producing variable examination length; length therefore carries no inferential value regarding outcome, brief examinations indicating rapid attainment of confidence in either direction and extended examinations indicating proximity to the standard. Item skipping and response revision are not permitted, as each response determines subsequent item selection. The passing standard represents a level of ability rather than a proportion of correct responses; item selection targets the candidate's estimated ability, with the consequence that candidates characteristically experience the examination as difficult, this being the expected experience irrespective of outcome. Items are distributed across domains in defined proportions described by the examination blueprint. A proportion of items are unscored pretest items indistinguishable from scored items. A separate psychomotor component exists, addressed in Module 10. The foregoing describes general approach and does not substitute for current official requirements, which are periodically revised."
+        }
+      },
+      "cards": [],
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Examination format, length, scoring and retake rules are set by your certifying body and are revised periodically. Confirm every detail here against the current official candidate handbook and your own state or regional requirements before relying on it."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-11-01-02",
+      "title": "The domain blueprint",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-11-01-01",
+        "EMT-11-01-03"
+      ],
+      "key_points": [
+        "The blueprint says what proportion of the exam comes from each area of practice",
+        "The weights used in this platform are recorded in docs/emt-blueprint.md",
+        "Airway, respiration and ventilation is one domain",
+        "Cardiology and resuscitation is a second",
+        "Trauma is a third",
+        "Medical and obstetrics and gynaecology is a fourth, and it is the largest",
+        "EMS operations is the fifth",
+        "The weights tell you where your study time is worth most, not what matters clinically",
+        "A large domain that you are weak in is the highest-value thing you can fix",
+        "Confirm the current weights against the official blueprint — they are revised periodically"
+      ],
+      "misconceptions": [],
+      "exam_favorites": [],
+      "modes": {
+        "read": {
+          "plain": "The blueprint is the document that says what proportion of the examination comes from each area of practice. It matters because it tells you where your study time buys the most.\n\nThe five domains are airway, respiration and ventilation; cardiology and resuscitation; trauma; medical, obstetrics and gynaecology; and EMS operations. The medical domain is the largest, which surprises people who expect trauma to dominate.\n\nThe specific weights this platform uses are recorded in docs/emt-blueprint.md, along with where they came from, and they drive how the full simulation draws its questions.\n\nNow the important qualification. The weights describe examination proportions, not clinical importance. Airway management is not less important than medical emergencies because it carries fewer questions; it is a smaller domain because it covers fewer distinct topics. Do not let the blueprint teach you what matters at three in the morning.\n\nWhat the blueprint is genuinely useful for is allocating attention. If you are weak in a large domain, that is the highest-value thing you can fix — more value than polishing a small domain you are already strong in. The readiness meter in this platform scores you by domain for exactly this reason: so you can see where the gap and the weight overlap.\n\nAnd the weights are revised periodically by the certifying body. Confirm the current version against the official blueprint rather than assuming any figure here is current.",
+          "standard": "The examination blueprint specifies the proportional distribution of items across practice domains, informing efficient allocation of preparation effort. Five domains are defined: airway, respiration and ventilation; cardiology and resuscitation; trauma; medical, obstetrics and gynaecology; and EMS operations, with the medical domain carrying the greatest proportion contrary to common expectation regarding trauma. The specific weights employed by this platform are documented in docs/emt-blueprint.md with provenance, and govern item selection in the full simulation. Blueprint weights describe examination composition rather than clinical significance; smaller domain weighting reflects narrower topic coverage rather than reduced clinical importance, and should not inform clinical prioritisation. The blueprint's utility lies in attention allocation: deficiency within a heavily weighted domain represents the highest-yield remediable gap, exceeding the value of further work within a smaller domain of existing strength. The platform's readiness meter reports performance by domain to permit identification of gaps coinciding with weight. Blueprint weights are subject to periodic revision by the certifying body and should be confirmed against the current official document."
+        }
+      },
+      "cards": [],
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Examination format, length, scoring and retake rules are set by your certifying body and are revised periodically. Confirm every detail here against the current official candidate handbook and your own state or regional requirements before relying on it. The domain weights in docs/emt-blueprint.md are the platform's own working figures and must be confirmed against the current official blueprint."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-11-01-03",
+      "title": "Building a study plan",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-11-01-02",
+        "EMT-11-01-04"
+      ],
+      "key_points": [
+        "A plan you follow beats a better plan you do not",
+        "Work out how long you have and how much time per week you genuinely have, not what you wish you had",
+        "Spread study over time rather than concentrating it — spaced repetition beats cramming for retention",
+        "Test yourself rather than rereading, because retrieval is what builds durable memory",
+        "Rereading feels productive and is one of the least effective things you can do",
+        "Prioritise by the blueprint weight multiplied by your own weakness",
+        "Review what you got wrong deliberately, rather than moving on to new material",
+        "Mix topics within a session rather than blocking one subject, which improves discrimination",
+        "Build in rest — sleep is part of learning rather than a break from it",
+        "Track something, because progress you cannot see is progress you will not believe in"
+      ],
+      "misconceptions": [],
+      "exam_favorites": [],
+      "modes": {
+        "read": {
+          "plain": "The single most useful thing to say about study plans is that a plan you actually follow beats a better plan you do not. Build something sustainable rather than something impressive.\n\nStart with the real numbers. How long until the exam? How many hours a week do you genuinely have, given work, sleep and everything else? Not the number you would like. The number that survives a bad week.\n\nThen a few principles that are well supported and that most people do the opposite of.\n\nSpread the study out. The same total hours spread over weeks produce far better retention than the same hours concentrated into a few days. Cramming works for tomorrow and fails for the exam in three weeks.\n\nTest yourself rather than rereading. Retrieving something from memory strengthens it; reading it again mostly strengthens your sense of familiarity with the page. Rereading feels productive, which is exactly why it persists, and it is among the least effective things you can do with study time. Use the quiz modes, the cards and the exams.\n\nPrioritise by blueprint weight multiplied by your own weakness. A large domain you are weak in is the highest-value target. A small domain you are already good at is the lowest.\n\nReview what you got wrong, deliberately, rather than moving on. The questions you missed are the only ones carrying new information; the ones you got right told you something you already knew. Go back to the concept, read it again, and retest it later.\n\nMix topics within a session rather than doing one subject in a block. It feels harder and it produces better discrimination between similar things — which is precisely what an exam of confusable options tests.\n\nBuild in rest. Sleep is where learning is consolidated, and a tired brain retains badly. Studying until two in the morning is usually a net loss.\n\nAnd track something. Use the readiness meter, or a list, or a calendar. Progress you cannot see is progress you will not believe in, and belief is what keeps a plan running through week four.",
+          "standard": "Study plan efficacy depends primarily on adherence rather than design, favouring sustainable over ambitious scheduling. Planning proceeds from realistic assessment of available time until examination and genuinely available weekly hours accounting for existing commitments. Several evidence-supported principles are commonly inverted in practice. Distributed practice produces superior retention to massed practice for equivalent total hours; concentrated study supports immediate recall and fails at extended intervals. Retrieval practice exceeds re-reading in effectiveness, as retrieval strengthens memory whereas re-reading predominantly increases familiarity; re-reading generates a subjective impression of productivity accounting for its persistence despite low efficacy. Prioritisation should combine blueprint weighting with individual deficiency, deficiency within heavily weighted domains constituting the highest-yield target. Deliberate review of incorrect responses is indicated in preference to progression, as incorrect responses carry novel information whereas correct responses confirm existing knowledge; review should comprise return to source material and delayed retesting. Interleaving of topics within sessions produces superior discrimination relative to blocked practice, this being the capacity assessed by examinations employing confusable distractors, notwithstanding increased subjective difficulty. Rest is a component of learning, sleep mediating consolidation, and extended study at the expense of sleep is typically counterproductive. Progress tracking supports adherence, as unobserved progress undermines sustained engagement."
+        }
+      },
+      "cards": [],
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Study technique recommendations are drawn from general learning research rather than from a source text specific to this examination. Confirm against your own programme's guidance."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-11-01-04",
+      "title": "How to answer the questions",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-11-01-01",
+        "EMT-11-01-05"
+      ],
+      "key_points": [
+        "Read the whole stem before looking at the options, and work out what is actually being asked",
+        "Identify the patient, the problem and the question — many stems carry detail that does not matter",
+        "Decide your answer before reading the options where you can, then look for it",
+        "Eliminate what is clearly wrong first, which usually leaves two plausible options",
+        "Between two plausible options, ask which one addresses the more immediate threat to life",
+        "Airway, breathing and circulation resolve a large proportion of ordering questions",
+        "Scene safety and your own safety come before patient care in any question that involves them",
+        "Prefer the answer within your scope of practice — exams test your level, not a paramedic's",
+        "Watch for absolutes such as always and never, which are frequently but not reliably wrong",
+        "Answer every question, commit, and move on — you cannot go back, and dwelling costs time"
+      ],
+      "misconceptions": [],
+      "exam_favorites": [],
+      "modes": {
+        "read": {
+          "plain": "Some of this is technique and some of it is discipline, and both are learnable.\n\nRead the whole stem before you look at the options. Options are designed to be attractive, and reading them first shapes how you read the question. Work out what is actually being asked before you let anyone suggest an answer to you.\n\nIdentify three things: who the patient is, what the problem is, and what the question is asking. Many stems carry detail that does not affect the answer — age, occupation, a medication list, the weather. Some of it matters and some is there to see whether you can tell the difference.\n\nWhere you can, decide your own answer before reading the options, then look for it. That protects you from being led.\n\nThen eliminate. Most questions have one or two options that are clearly wrong, and removing them usually leaves two plausible ones. That is where the question actually lives.\n\nBetween two plausible options, the most useful question is: which addresses the more immediate threat to life? Exams of this kind are largely about priority, and airway, breathing and circulation resolve a large proportion of ordering questions on their own. If one option addresses the airway and the other addresses a fracture, the airway wins.\n\nScene safety and your own safety come before patient care whenever a question involves them. If one option is about making the scene safe and another is about reaching the patient, the safe option is the answer, every time.\n\nPrefer the answer within your scope of practice. You are being tested at your level, and an option describing something outside it is usually there to catch the over-read candidate.\n\nWatch for absolutes — always, never, all, none. They are frequently wrong because clinical practice rarely deals in absolutes. Frequently, not reliably: some absolutes are true, and \"never give anything by mouth to a patient who cannot protect their airway\" is one of them. Use it as a flag, not a rule.\n\nAnd the discipline. Answer every question. Commit. Move on. You cannot go back, so time spent agonising after you have decided buys nothing and costs your attention on the next one.",
+          "standard": "Examination technique comprises learnable components of method and discipline. The complete stem should be read prior to option review, as options are constructed to be attractive and prior exposure influences stem interpretation; the question should be determined before candidate answers are presented. Three elements should be identified: patient, problem and question. Stems contain information not bearing on the answer, discrimination between relevant and irrelevant detail constituting part of the assessment. Formulation of an answer prior to option review, where feasible, reduces susceptibility to option-directed reasoning. Elimination of clearly incorrect options typically reduces the field to two plausible alternatives, at which the discriminating judgement occurs. Between plausible alternatives, the determining question is which addresses the more immediate threat to life, examinations of this type assessing prioritisation; airway, breathing and circulation resolve a substantial proportion of ordering items. Scene and provider safety precede patient care in any item addressing both. Answers within the candidate's scope of practice are preferred, as assessment is at the candidate's level and out-of-scope options identify over-reading. Absolute qualifiers including always, never, all and none are frequently but not invariably incorrect, clinical practice rarely admitting absolutes; certain absolutes are valid, and the qualifier should function as an indicator rather than a rule. Every item should be answered with commitment and progression, as revision is not permitted and post-decision deliberation consumes attention without benefit."
+        }
+      },
+      "cards": [],
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Question technique recommendations are general examination strategy rather than official guidance. Confirm against your own programme's advice and the official candidate handbook."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-11-01-05",
+      "title": "Test day",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-11-01-04",
+        "EMT-11-01-09"
+      ],
+      "key_points": [
+        "Know where you are going, how long it takes and what you need to bring, before the day",
+        "Bring the identification your certifying body requires, in the form it requires",
+        "Arrive early enough that being late is not possible",
+        "Sleep matters more than one more evening of revision",
+        "Eat something — a long adaptive exam is a sustained concentration task",
+        "Expect it to feel hard, because a working adaptive test keeps you near your own limit",
+        "Feeling like you are failing is the normal experience of a well-calibrated adaptive exam",
+        "If anxiety rises, slow your breathing deliberately and re-read the stem from the beginning",
+        "Do not try to count how many you think you got right — it is not measurable and it is corrosive",
+        "Whatever happens, one result is not a verdict on whether you can do this job"
+      ],
+      "misconceptions": [],
+      "exam_favorites": [],
+      "modes": {
+        "read": {
+          "plain": "Most of test day is logistics, and logistics are the part you can remove from the equation entirely.\n\nKnow where you are going, how long the journey takes at that time of day, and what you need to bring. Check the identification requirements specifically — certifying bodies are strict about the form of identification, and people are turned away for it. Do this a week before, not the night before.\n\nArrive early enough that being late is not possible. Not early enough that being late is unlikely.\n\nSleep. One more evening of revision will add very little and a poor night's sleep will cost a great deal. This is a straightforward trade and most people get it wrong.\n\nEat something. A long adaptive exam is a sustained concentration task, and concentration is metabolically expensive.\n\nNow the part that helps most, and it is psychological rather than practical.\n\nExpect it to feel hard. A working adaptive test keeps you near your own limit, because that is where it gets the most information about you. Which means that if it is functioning properly, you will spend most of the exam feeling uncertain. That feeling is not evidence that you are failing — it is the expected experience of every candidate, including the ones who pass comfortably.\n\nCandidates come out of adaptive exams convinced they failed and pass. That is normal and it is worth knowing in advance.\n\nIf anxiety rises during the exam, do something deliberate rather than pushing through. Slow your breathing on purpose for a few breaths. Then go back to the top of the stem and read it again from the beginning. Anxiety degrades reading comprehension first, and re-reading fixes more than trying harder does.\n\nDo not try to keep score. You cannot know, the estimate will be wrong, and it converts attention you need into anxiety you do not.\n\nAnd hold on to the last one. Whatever happens, one result is not a verdict on whether you can do this job. People retake and pass and go on to be excellent at it, and the exam is a measurement taken on one day rather than a statement about who you are.",
+          "standard": "Test day preparation is predominantly logistical, permitting elimination of controllable variance. Location, journey duration at the relevant time and required materials should be established in advance, with specific attention to identification requirements, which are strictly enforced and constitute a cause of candidate exclusion; verification should occur substantially before the examination date. Arrival timing should render lateness impossible rather than improbable. Sleep should be prioritised over additional revision, the marginal benefit of further study being small relative to the cost of sleep deprivation. Nutrition should be addressed, sustained concentration carrying metabolic cost. Psychologically, examination difficulty should be anticipated: a functioning adaptive test maintains item difficulty near candidate ability, maximising information, with the consequence that candidates experience prolonged uncertainty irrespective of eventual outcome; this experience is not evidence of failure and is reported by successful candidates. Anxiety arising during the examination is best addressed by deliberate action rather than persistence: intentional respiratory slowing followed by re-reading the stem from its beginning, anxiety impairing reading comprehension preferentially, such that re-reading is more effective than increased effort. Score estimation during the examination is not feasible, produces inaccurate estimates, and converts required attention into anxiety. A single examination result does not constitute an assessment of occupational suitability; retaking and subsequent success are common, and the examination constitutes a single-occasion measurement."
+        }
+      },
+      "cards": [],
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Examination format, length, scoring and retake rules are set by your certifying body and are revised periodically. Confirm every detail here against the current official candidate handbook and your own state or regional requirements before relying on it. Identification and admission requirements are set by the testing body and must be confirmed directly with them."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-11-01-06",
+      "title": "Module exams — go to the Test Center",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-11-01-07",
+        "EMT-11-01-08"
+      ],
+      "key_points": [
+        "This entry is a pointer rather than a lesson",
+        "Module exams live in the Test Center, not here",
+        "Each module has its own exam drawn from that module's question bank",
+        "Concepts flagged for review are kept out of module exams",
+        "Use a module exam once you have worked through a module, to find out what did not stick",
+        "Review every question you got wrong against its concept rather than moving on"
+      ],
+      "misconceptions": [],
+      "exam_favorites": [],
+      "modes": {
+        "read": {
+          "plain": "This is a pointer, not a lesson. There is no reading here.\n\nModule exams live in the Test Center. Each module has its own exam, drawn from that module's question bank, and concepts still flagged for review are kept out of it so you are not tested on unverified material.\n\nUse one when you have worked through a module and want to know what actually stuck rather than what feels familiar. Then go back through everything you got wrong, concept by concept, before moving on.\n\nOpen the Test Center to take one.",
+          "standard": "This entry constitutes a navigational pointer rather than instructional content. Module examinations are accessed through the Test Center, each module carrying an examination drawn from its own item bank with concepts flagged for review excluded. Module examinations are indicated following completion of a module to assess retention as distinct from familiarity, with subsequent concept-level review of incorrect responses prior to progression."
+        }
+      },
+      "cards": [],
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. This is a placeholder concept. The material it points to is an interactive feature of the platform rather than written content, so there is nothing to verify in the usual sense — but confirm that the Test Center feature named here still exists and behaves as described before relying on this entry.",
+      "high_yield": true
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-11-01-07",
+      "title": "The full simulation — go to the Test Center",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-11-01-06",
+        "EMT-11-01-08"
+      ],
+      "key_points": [
+        "This entry is a pointer rather than a lesson",
+        "The full simulation lives in the Test Center, not here",
+        "It draws questions across every EMT module, weighted by the domain blueprint",
+        "It is timed, so it also practises the endurance part of the exam",
+        "It scores you by domain, which is what tells you where to work next",
+        "Attempts are stored, so you can see whether you are improving rather than guessing"
+      ],
+      "misconceptions": [],
+      "exam_favorites": [],
+      "modes": {
+        "read": {
+          "plain": "This is a pointer, not a lesson. There is no reading here.\n\nThe full simulation lives in the Test Center. It draws questions across every EMT module, weighted according to the domain blueprint, and it is timed — which matters, because sustained concentration is part of what the real exam tests and it is not something you can practise in ten-minute chunks.\n\nIt scores you by domain, and that per-domain score is the useful output. A single overall number tells you very little; knowing that you are strong in trauma and weak in a larger domain tells you exactly what to do next.\n\nAttempts are stored, so improvement is visible rather than remembered.\n\nOpen the Test Center to take one.",
+          "standard": "This entry constitutes a navigational pointer rather than instructional content. The full simulation is accessed through the Test Center and comprises items drawn across all EMT modules weighted by the domain blueprint, administered under timed conditions to replicate the sustained concentration demand of the examination. Scoring is reported by domain, per-domain reporting providing actionable direction in contrast to aggregate scoring. Attempts are stored, permitting objective assessment of progression."
+        }
+      },
+      "cards": [],
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. This is a placeholder concept. The material it points to is an interactive feature of the platform rather than written content, so there is nothing to verify in the usual sense — but confirm that the Test Center feature named here still exists and behaves as described before relying on this entry.",
+      "high_yield": true
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-11-01-08",
+      "title": "Adaptive practice — go to the Test Center",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-11-01-06",
+        "EMT-11-01-07"
+      ],
+      "key_points": [
+        "This entry is a pointer rather than a lesson",
+        "Adaptive practice lives in the Test Center, not here",
+        "It raises or lowers difficulty in response to each answer, like the real exam",
+        "It stops when it has stabilised on an estimate of where you are",
+        "It is the closest available practice for how the real exam actually feels",
+        "Expect it to feel hard, because that is what a working adaptive test does"
+      ],
+      "misconceptions": [],
+      "exam_favorites": [],
+      "modes": {
+        "read": {
+          "plain": "This is a pointer, not a lesson. There is no reading here.\n\nAdaptive practice lives in the Test Center. It raises or lowers the difficulty in response to each answer and stops when it has stabilised on an estimate of where you are — the same principle the real examination uses.\n\nIts value is that it rehearses the feeling as well as the content. A working adaptive test keeps you near your own limit, so it will feel hard, and getting used to that in advance removes a great deal of the alarm on the day.\n\nOpen the Test Center to take one.",
+          "standard": "This entry constitutes a navigational pointer rather than instructional content. Adaptive practice is accessed through the Test Center and adjusts item difficulty in response to each response, terminating upon stabilisation of the ability estimate, replicating the operating principle of the certification examination. Its value includes familiarisation with the subjective experience in addition to content assessment: adaptive administration maintains difficulty near candidate ability, producing sustained subjective difficulty, prior exposure to which reduces examination-day alarm."
+        }
+      },
+      "cards": [],
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. This is a placeholder concept. The material it points to is an interactive feature of the platform rather than written content, so there is nothing to verify in the usual sense — but confirm that the Test Center feature named here still exists and behaves as described before relying on this entry.",
+      "high_yield": true
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-11-01-09",
+      "title": "After the exam",
+      "domain": "OPS",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-11-01-05",
+        "EMT-11-01-03"
+      ],
+      "key_points": [
+        "Results arrive through your certifying body, not through the testing centre",
+        "A pass is one requirement among several — there are usually others to complete",
+        "If you do not pass, you are given information about where you were weak by domain",
+        "That domain feedback is genuinely useful and should drive what you do next",
+        "There is a waiting period before retaking, and a limit on attempts before further training",
+        "Most people who retake after targeted study pass",
+        "Certification has to be maintained, with continuing education and periodic recertification",
+        "Keep your own record of continuing education rather than relying on anyone else's",
+        "Your certification and your licence to practise may be separate things with separate rules",
+        "Confirm all of this with your certifying body and your state or regional authority"
+      ],
+      "misconceptions": [],
+      "exam_favorites": [],
+      "modes": {
+        "read": {
+          "plain": "Results come through your certifying body rather than from the testing centre, and the timing varies.\n\nPassing the cognitive exam is one requirement among several. There is usually the psychomotor component, and there are state or regional requirements that are separate from national certification. Find out what your full list is early, because people finish the exam and then discover another step they could have done months ago.\n\nIf you do not pass, you are given feedback on where you were weak by domain. That feedback is genuinely useful — it is the closest thing to a map of what to do next that you will get, and it is much better than guessing. Take it seriously, work the weak domains specifically rather than starting again from the beginning, and use the readiness meter here to check whether the gap has closed.\n\nThere is a waiting period before retaking and a limit on the number of attempts before additional training is required. Know both numbers.\n\nAnd this is worth saying plainly: most people who retake after targeted study pass. A first attempt that did not go well is a common experience and not a prediction.\n\nOnce certified, certification has to be maintained — continuing education, and recertification at intervals. Start keeping your own record of continuing education from the beginning. Do not rely on an employer's system to still have it in three years, because employers change and systems get replaced.\n\nAnd be clear that your certification and your licence to practise may be two separate things, issued by different bodies, with different requirements and different renewal dates. Missing one because you assumed it was the other is a common and entirely avoidable problem.\n\nConfirm all of it with your certifying body and your state or regional authority, because none of it is uniform.",
+          "standard": "Results are issued by the certifying body rather than the testing centre, with variable timing. Cognitive examination success constitutes one of several requirements, typically including the psychomotor component and jurisdiction-specific requirements separate from national certification; the complete requirement set should be established early, as sequential discovery of requirements produces avoidable delay. Unsuccessful candidates receive domain-level performance feedback, which provides directed remediation information superior to undirected review; remediation should target identified domains specifically, with progress assessed by the platform's readiness meter. A mandatory interval precedes retaking and a limit applies to attempts before additional training is required; both should be established. Retaking following targeted preparation is commonly successful, and initial unsuccessful attempts are frequent and non-predictive. Maintenance of certification requires continuing education and periodic recertification. Independent records of continuing education should be maintained rather than relying upon employer systems, given employment change and system replacement. Certification and licensure may constitute separate credentials issued by different authorities with differing requirements and renewal dates, conflation of which produces avoidable lapse. All requirements should be confirmed with the certifying body and the relevant state or regional authority, as they are not uniform."
+        }
+      },
+      "cards": [],
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Examination format, length, scoring and retake rules are set by your certifying body and are revised periodically. Confirm every detail here against the current official candidate handbook and your own state or regional requirements before relying on it. Retake intervals, attempt limits, recertification requirements and the relationship between certification and licensure vary by jurisdiction and must be confirmed with your own certifying body and state or regional authority."
+    }
+  ]
 }
