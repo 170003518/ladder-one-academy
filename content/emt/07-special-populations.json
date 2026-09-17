@@ -25,6 +25,15 @@
         "EMT-07-01-05",
         "EMT-07-01-06"
       ]
+    },
+    {
+      "id": "EMT-07-02",
+      "title": "Neonatal care",
+      "concepts": [
+        "EMT-07-02-01",
+        "EMT-07-02-02",
+        "EMT-07-02-03"
+      ]
     }
   ],
   "concepts": [
@@ -1140,6 +1149,569 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the management of postpartum haemorrhage against the current text and local protocol. No medication names or doses are stated; uterotonic drugs are outside EMT scope."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-01",
+      "title": "Initial newborn care and APGAR",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-02-02",
+        "EMT-07-01-04",
+        "EMT-01-08-01"
+      ],
+      "key_points": [
+        "Almost every newborn needs only three things: warm, dry and stimulate",
+        "Drying is both warming and stimulation, and vigorous drying is frequently all the stimulation required",
+        "Newborns lose heat extremely fast, so dry them, remove the wet towel, wrap them and cover the head",
+        "The three questions that decide everything: is it term, is it breathing or crying, and does it have good tone",
+        "A crying baby with good tone needs drying, warming and its mother, and nothing else",
+        "APGAR is scored at one minute and five minutes, and it documents progress rather than directing resuscitation",
+        "Never delay resuscitation to calculate an APGAR score — the score records what happened, it does not decide it",
+        "APGAR: Appearance, Pulse, Grimace, Activity, Respiration — each scored 0, 1 or 2, for a total out of 10",
+        "The heart rate is the single most useful number in a newborn, and it is assessed at the base of the cord or with a stethoscope"
+      ],
+      "misconceptions": [
+        "Delaying resuscitation to work out an APGAR score",
+        "Leaving a newborn in a wet towel",
+        "Suctioning routinely when the baby is vigorous",
+        "Forgetting to cover the head"
+      ],
+      "exam_favorites": [
+        "Warm, dry, stimulate",
+        "The three assessment questions",
+        "APGAR records rather than directs"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The overwhelming majority of newborns need three things and nothing more: warm, dry and stimulate.\n\nAnd those three overlap neatly, because drying a baby vigorously with a towel does all three jobs at once — it removes wet, it warms, and the friction is stimulation. For most babies, that vigorous drying is the entire resuscitation.\n\nHeat matters more than people expect. Newborns have a very large surface area for their size, almost no insulating fat, and they arrive wet. They lose heat frighteningly fast, and a cold newborn does worse at everything. So dry them, take the wet towel away and replace it with a dry one, wrap them, and cover the head — which is a large proportion of a newborn's surface area and the easiest thing to forget.\n\nThree questions decide what happens next.\n\nIs it term? Is it breathing or crying? Does it have good tone — flexed limbs, moving, rather than floppy?\n\nIf all three are yes: dry, warm, and give the baby to its mother. Skin to skin, covered, with a hat on. That is the whole intervention, and it is better than anything else you could do.\n\nIf any of those is no, you move into resuscitation, which has its own concept.\n\nThen APGAR, which is frequently misunderstood. It is a score out of ten, assessed at one minute and again at five, made of five components each scored zero, one or two.\n\nAppearance — colour. Pulse — heart rate. Grimace — response to stimulation. Activity — muscle tone. Respiration — breathing effort.\n\nHere is the part that matters: APGAR documents progress. It does not direct resuscitation. You never wait, and you never stop what you are doing, to work out a score. If a baby is not breathing, you are ventilating it — you are not counting up its Appearance. The score is recorded afterwards, from what you observed, and its real value is in the comparison between the one minute and five minute numbers, which shows whether things are improving.\n\nAnd one number outranks all of it. The heart rate is the single most useful thing you can assess in a newborn, because it tells you whether the resuscitation is working better than anything else does. Feel at the base of the umbilical cord or listen with a stethoscope.",
+          "standard": "The majority of newborns require only warming, drying and stimulation. Vigorous drying provides thermal management, moisture removal and tactile stimulation simultaneously and constitutes sufficient intervention in most cases. Neonatal thermal vulnerability arises from high surface area to mass ratio, minimal subcutaneous insulation and wet presentation; management comprises drying, removal of wet linen, wrapping in dry material and covering the head, which represents a substantial proportion of surface area. Three assessment questions determine subsequent management: gestational maturity, presence of breathing or crying, and muscle tone. Affirmative responses to all three indicate routine care with maternal skin-to-skin contact under covering. Negative response to any indicates progression to resuscitation. APGAR scoring is performed at one and five minutes, comprising Appearance, Pulse, Grimace, Activity and Respiration, each scored zero to two for a maximum of ten. APGAR documents clinical progress and does not direct resuscitation; scoring must never delay or interrupt intervention, and the comparison between one and five minute scores provides the principal value. Heart rate constitutes the single most informative neonatal parameter, indicating resuscitation efficacy, and is assessed at the umbilical base or by auscultation."
+        },
+        "eli_new": {
+          "analogy": "Warm, dry, stimulate — and drying vigorously does all three at once. For most babies that towel is the entire resuscitation.",
+          "body": "APGAR never decides anything. If a baby is not breathing you are ventilating it, not calculating its Appearance score. The number gets written down afterwards, and its value is in comparing one minute with five."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe initial newborn care and explain what APGAR is actually for.",
+          "must_hit": [
+            {
+              "point": "Warm, dry and stimulate covers almost every newborn",
+              "accept": [
+                "warm",
+                "dry",
+                "stimulate",
+                "three",
+                "most"
+              ]
+            },
+            {
+              "point": "Vigorous drying does all three at once",
+              "accept": [
+                "drying",
+                "vigorous",
+                "towel",
+                "friction",
+                "all three"
+              ]
+            },
+            {
+              "point": "Newborns lose heat very fast — remove wet towels and cover the head",
+              "accept": [
+                "heat",
+                "cold",
+                "wet",
+                "towel",
+                "head",
+                "cover"
+              ]
+            },
+            {
+              "point": "Three questions: term, breathing or crying, good tone",
+              "accept": [
+                "term",
+                "breathing",
+                "crying",
+                "tone",
+                "three questions"
+              ]
+            },
+            {
+              "point": "If all three are yes, dry, warm and give to the mother",
+              "accept": [
+                "mother",
+                "skin",
+                "yes",
+                "give",
+                "routine"
+              ]
+            },
+            {
+              "point": "APGAR is scored at one and five minutes out of ten",
+              "accept": [
+                "one minute",
+                "five",
+                "ten",
+                "score",
+                "apgar"
+              ]
+            },
+            {
+              "point": "APGAR documents progress and never directs or delays resuscitation",
+              "accept": [
+                "document",
+                "never",
+                "delay",
+                "direct",
+                "record",
+                "progress"
+              ]
+            },
+            {
+              "point": "Heart rate is the most useful newborn number",
+              "accept": [
+                "heart rate",
+                "most useful",
+                "cord",
+                "stethoscope",
+                "working"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Nobody was counting",
+          "dispatch": "Medic 7 — newborn delivered, not breathing at birth.",
+          "body": "The student asked what the APGAR was, about forty seconds in, because that is what the textbook had in it.\n\nNobody answered because both of the others had their hands on the baby, drying and then ventilating.\n\nThe score was written down afterwards, from what they had seen. It would not have changed a single thing they did."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "A — APPEARANCE (colour)",
+            "value": "0 / 1 / 2",
+            "note": "0 blue or pale all over · 1 body pink, extremities blue · 2 pink all over"
+          },
+          {
+            "label": "P — PULSE (heart rate)",
+            "value": "0 / 1 / 2",
+            "note": "0 absent · 1 below 100 · 2 above 100. The single most useful newborn number."
+          },
+          {
+            "label": "G — GRIMACE (response to stimulation)",
+            "value": "0 / 1 / 2",
+            "note": "0 no response · 1 grimace · 2 cry, cough or sneeze"
+          },
+          {
+            "label": "A — ACTIVITY (muscle tone)",
+            "value": "0 / 1 / 2",
+            "note": "0 limp · 1 some flexion · 2 active movement"
+          },
+          {
+            "label": "R — RESPIRATION (breathing effort)",
+            "value": "0 / 1 / 2",
+            "note": "0 absent · 1 slow, irregular or weak cry · 2 strong cry"
+          },
+          {
+            "label": "Total",
+            "value": "out of 10",
+            "note": "Scored at ONE minute and again at FIVE. The comparison between them is the useful part."
+          },
+          {
+            "label": "What APGAR is for",
+            "value": "documenting progress",
+            "note": "IT NEVER DIRECTS RESUSCITATION AND NEVER DELAYS IT. Ventilate the baby; write the score afterwards."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the APGAR components and scoring and the initial newborn care sequence against the current text and current neonatal resuscitation guidelines."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-02",
+      "title": "Neonatal resuscitation",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-02-01"
+      ],
+      "related": [
+        "EMT-07-02-01",
+        "EMT-04-03-02",
+        "EMT-01-08-01"
+      ],
+      "key_points": [
+        "Newborn resuscitation is almost always a breathing problem, not a heart problem — which reverses the adult priority",
+        "Ventilation is the intervention that fixes almost every newborn, and it is the one most often done too late",
+        "The sequence: warm, dry and stimulate; then position the airway and clear it only if needed; then assess breathing and heart rate",
+        "If the baby is not breathing or the heart rate is below 100, begin positive pressure ventilation",
+        "Effective ventilation is judged by the chest rising and by the heart rate improving — the heart rate is the best indicator",
+        "If the heart rate stays below 60 despite 30 seconds of effective ventilation, begin compressions",
+        "Newborn compressions run at a ratio of 3 compressions to 1 ventilation, with the thumbs encircling the chest",
+        "Reassess the heart rate frequently, because it is the measure of whether what you are doing is working",
+        "Keep the baby warm throughout — a cold newborn resuscitates badly"
+      ],
+      "misconceptions": [
+        "Reaching for compressions before ventilation is effective",
+        "Suctioning routinely rather than only when needed",
+        "Judging ventilation by the bag rather than by chest rise and heart rate",
+        "Letting the baby get cold during resuscitation"
+      ],
+      "exam_favorites": [
+        "Ventilation before compressions",
+        "The heart rate thresholds",
+        "The 3:1 ratio"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The single most important idea in newborn resuscitation is that it is a breathing problem, not a heart problem.\n\nAn adult in cardiac arrest usually has a heart that has failed with reasonably oxygenated blood still circulating, which is why compressions lead. A newborn is the opposite: its heart is almost always structurally fine, and it is failing because it has not started breathing. Fix the breathing and the heart rate comes back.\n\nWhich means ventilation is the intervention, and it is the one most often started too late.\n\nThe sequence.\n\nWarm, dry and stimulate. For most babies this is all of it. Position the airway — neutral, not extended, because a newborn's prominent occiput flexes the neck and a slight pad under the shoulders helps. Clear the airway only if there is something obstructing it; routine suctioning of a vigorous baby is not needed and wastes time.\n\nThen assess two things: is it breathing, and what is the heart rate?\n\nIf it is not breathing, or gasping, or the heart rate is below 100, start positive pressure ventilation. That is a lower threshold than people expect, and it is deliberate.\n\nNow, how do you know your ventilation is working? Two things. The chest rising — visible, gentle rise, not a heaving one. And the heart rate improving, which is the better indicator of the two. A heart rate that starts climbing is telling you the ventilation is effective in a way nothing else does.\n\nIf ventilation is not producing chest rise, fix that before anything else: reposition the head, check the seal, check for obstruction. Ineffective ventilation delivered enthusiastically for two minutes achieves nothing.\n\nIf the heart rate remains below 60 despite 30 seconds of effective ventilation — and effective is the operative word — begin compressions.\n\nNewborn compressions use a different ratio from any other patient: three compressions to one ventilation. The technique is thumbs side by side on the lower third of the sternum with your hands encircling the chest. And the ratio exists because it preserves ventilation frequency, which is what this baby actually needs.\n\nThroughout, reassess the heart rate. It is your measure of whether any of this is working.\n\nAnd keep the baby warm the entire time. A cold newborn resuscitates badly, and it is astonishingly easy to leave one uncovered while concentrating on the airway.",
+          "standard": "Neonatal resuscitation addresses respiratory rather than primary cardiac failure, inverting the adult priority sequence: the neonatal myocardium is typically structurally normal, with bradycardia arising from failure to establish respiration, and resolving with effective ventilation. Ventilation therefore constitutes the principal intervention and is the most frequently delayed. The sequence comprises warming, drying and stimulation; airway positioning in neutral alignment with shoulder padding to offset occipital prominence; airway clearance only where obstruction is present, routine suction of vigorous infants being unnecessary; then assessment of respiration and heart rate. Positive pressure ventilation is indicated for apnoea, gasping, or heart rate below 100 beats per minute. Ventilation efficacy is assessed by visible gentle chest rise and by improvement in heart rate, the latter constituting the superior indicator. Absent chest rise requires correction of position, seal and obstruction before escalation. Chest compressions are indicated where heart rate remains below 60 despite 30 seconds of effective ventilation. Neonatal compression to ventilation ratio is 3:1, performed with the two-thumb encircling technique on the lower sternum, the ratio preserving ventilation frequency. Heart rate is reassessed frequently as the measure of intervention efficacy. Normothermia is maintained throughout, as hypothermia impairs resuscitation."
+        },
+        "eli_new": {
+          "analogy": "An adult arrest is a pump that stopped with fuel still in the tank. A newborn is a full tank that never got started, and the starter is the breathing.",
+          "body": "Everything in newborn resuscitation is ventilation until proven otherwise. The heart rate is your read-out of whether it is working — a rising heart rate means your ventilation is effective, and it is a better indicator than anything you can see."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why ventilation leads in newborn resuscitation and give the heart rate thresholds.",
+          "must_hit": [
+            {
+              "point": "Newborn resuscitation is a breathing problem, not a heart problem",
+              "accept": [
+                "breathing",
+                "respirat",
+                "not heart",
+                "reverse",
+                "ventilation"
+              ]
+            },
+            {
+              "point": "Warm, dry, stimulate; position the airway; clear only if needed",
+              "accept": [
+                "warm",
+                "dry",
+                "stimulate",
+                "position",
+                "neutral",
+                "suction"
+              ]
+            },
+            {
+              "point": "Ventilate if not breathing or heart rate below 100",
+              "accept": [
+                "100",
+                "ventilat",
+                "not breathing",
+                "gasping",
+                "below"
+              ]
+            },
+            {
+              "point": "Effective ventilation is judged by chest rise and improving heart rate",
+              "accept": [
+                "chest rise",
+                "heart rate",
+                "improv",
+                "effective",
+                "indicator"
+              ]
+            },
+            {
+              "point": "Compressions if the heart rate stays below 60 after 30 seconds of effective ventilation",
+              "accept": [
+                "60",
+                "30",
+                "compress",
+                "effective",
+                "despite"
+              ]
+            },
+            {
+              "point": "The ratio is 3 compressions to 1 ventilation",
+              "accept": [
+                "3:1",
+                "three",
+                "one",
+                "ratio",
+                "compress"
+              ]
+            },
+            {
+              "point": "Use the two-thumb encircling technique",
+              "accept": [
+                "thumb",
+                "encircl",
+                "sternum",
+                "hands"
+              ]
+            },
+            {
+              "point": "Keep the baby warm throughout",
+              "accept": [
+                "warm",
+                "cold",
+                "hypotherm",
+                "cover",
+                "throughout"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The chest was not moving",
+          "dispatch": "Medic 1 — newborn, apnoeic, ventilation in progress for two minutes.",
+          "body": "They had been ventilating steadily and correctly-looking for about two minutes and the heart rate had not moved at all.\n\nSomebody looked at the chest rather than at the bag, and it was barely rising.\n\nThey repositioned the head and improved the seal. The heart rate started climbing within about fifteen seconds."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Neonatal resuscitation",
+          "steps": [
+            {
+              "text": "WARM, DRY AND STIMULATE — vigorous drying is all three, and is enough for most babies",
+              "critical": true
+            },
+            {
+              "text": "Remove the wet towel, wrap in a dry one, COVER THE HEAD",
+              "critical": true,
+              "note": "A cold newborn resuscitates badly, and it is very easy to leave one uncovered while concentrating."
+            },
+            {
+              "text": "POSITION THE AIRWAY NEUTRAL — not extended; pad under the shoulders to offset the occiput",
+              "critical": true
+            },
+            {
+              "text": "Clear the airway ONLY if something is obstructing it — routine suction of a vigorous baby wastes time",
+              "critical": true
+            },
+            {
+              "text": "ASSESS: is it breathing, and what is the HEART RATE?",
+              "critical": true
+            },
+            {
+              "text": "NOT BREATHING, GASPING, OR HEART RATE BELOW 100 → START POSITIVE PRESSURE VENTILATION",
+              "critical": true,
+              "note": "A lower threshold than people expect, and deliberately so. Ventilation is the intervention most often started late."
+            },
+            {
+              "text": "CHECK IT IS WORKING: visible gentle CHEST RISE, and a HEART RATE THAT IMPROVES",
+              "critical": true,
+              "note": "The heart rate is the better indicator. Look at the chest, not at the bag."
+            },
+            {
+              "text": "No chest rise? REPOSITION the head, CHECK THE SEAL, check for obstruction — before anything else",
+              "critical": true
+            },
+            {
+              "text": "HEART RATE STILL BELOW 60 AFTER 30 SECONDS OF *EFFECTIVE* VENTILATION → START COMPRESSIONS",
+              "critical": true
+            },
+            {
+              "text": "Ratio 3 COMPRESSIONS TO 1 VENTILATION, two thumbs on the lower sternum with hands encircling the chest",
+              "critical": true
+            },
+            {
+              "text": "REASSESS THE HEART RATE FREQUENTLY — it is your measure of whether this is working",
+              "critical": true
+            },
+            {
+              "text": "Keep the baby warm throughout, and transport with the mother",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Neonatal resuscitation figures (ventilate below 100 beats per minute, compressions below 60 after 30 seconds of effective ventilation, 3:1 compression to ventilation ratio) are taken from current neonatal resuscitation guidelines and MUST be confirmed against the current AHA/NRP guidelines and your own protocol before use — resuscitation figures are revised on a cycle. No medication names or doses appear; neonatal resuscitation drugs are outside EMT scope."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-03",
+      "title": "The premature infant",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-02-02"
+      ],
+      "related": [
+        "EMT-07-02-02",
+        "EMT-07-02-01"
+      ],
+      "key_points": [
+        "A premature infant is born before term, and everything that makes newborns vulnerable is exaggerated",
+        "Heat loss is the biggest immediate problem: less fat, thinner skin, larger surface area for size",
+        "Their lungs may be immature, so they are far more likely to need help breathing",
+        "They are small and fragile and need gentle handling, and even ordinary handling is stimulation",
+        "They are more prone to infection, so clean technique matters more than usual",
+        "Use appropriately sized equipment — an adult or child mask will not seal and will not ventilate",
+        "Resuscitate with the same sequence as any newborn: warm, dry, stimulate, ventilate, compress",
+        "Do not assume a very premature baby is not viable; begin resuscitation and let the hospital make that decision",
+        "Transport to a facility with neonatal capability, and pre-alert so the team is assembled"
+      ],
+      "misconceptions": [
+        "Deciding on scene that a premature baby is not viable",
+        "Using equipment that does not fit",
+        "Underestimating how fast a premature baby cools",
+        "Handling roughly because of urgency"
+      ],
+      "exam_favorites": [
+        "Why heat loss dominates",
+        "Do not judge viability on scene",
+        "Equipment sizing"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A premature infant is born before term, and the practical summary is that everything that makes any newborn vulnerable is exaggerated.\n\nHeat loss is the most immediate problem and the one that does the most harm quietly. They have less fat, thinner skin, and an even larger surface area relative to their size. A premature baby cools remarkably fast, and cold makes everything else worse — breathing, circulation, clotting, resuscitation. Dry them, wrap them, cover the head, warm the ambulance beyond what feels comfortable for you, and keep them covered while you work. Whatever your service provides for neonatal warming, use it.\n\nTheir lungs may be immature, which means they are considerably more likely to need help breathing than a term baby. Expect to ventilate and be ready before you need to be.\n\nThey are small and fragile. Handle them gently — and be aware that with a very small baby, ordinary handling is significant stimulation in itself, so you need less than you think.\n\nThey are more prone to infection, so clean technique matters more than usual. Clean hands, clean towels, clean equipment.\n\nEquipment sizing is a practical point that trips crews up. A mask sized for a child or an adult will not seal on a premature face, and a mask that does not seal does not ventilate at all. Know what neonatal equipment your vehicle carries and where it is, before you need it at three in the morning in somebody's bathroom.\n\nThe resuscitation sequence itself does not change: warm, dry, stimulate, position the airway, ventilate if not breathing or the heart rate is below 100, compress if below 60 despite effective ventilation.\n\nNow the point that matters most ethically and practically. Do not decide on scene that a very premature baby is not viable. That judgement requires information you do not have — accurate gestation, weight, the response to resuscitation over time — and it is made by people with that information. Begin resuscitation, continue it, transport, and let the hospital make the decision. Withholding on an assumption about gestational age is a decision you cannot undo and cannot reliably make.\n\nAnd transport to a place with neonatal capability, with a pre-alert so a team is waiting.",
+          "standard": "Preterm infants are born before completion of term gestation, with amplification of all neonatal vulnerabilities. Thermal instability constitutes the principal immediate hazard, arising from reduced subcutaneous adipose tissue, thinner integument and further increased surface area to mass ratio; hypothermia adversely affects respiration, circulation, coagulation and resuscitation efficacy. Management comprises drying, wrapping, head covering, elevated ambient temperature and use of available neonatal warming equipment. Pulmonary immaturity increases the likelihood of requiring ventilatory support, and preparation should precede need. Fragility requires gentle handling, with ordinary handling constituting significant stimulation in very small infants. Increased infection susceptibility warrants clean technique. Equipment sizing is critical: masks sized for larger patients will not achieve a seal and therefore will not ventilate; providers should establish neonatal equipment carriage and location in advance. The resuscitation sequence is unchanged from term infants. Determination of non-viability is not made prehospitally, requiring accurate gestational assessment, weight and response to resuscitation over time; resuscitation is commenced and continued with transport, and viability determination deferred to the receiving facility. Transport is directed to a facility with neonatal capability with prearrival notification."
+        },
+        "eli_new": {
+          "analogy": "Everything true of a newborn is more true of a premature one. Thinner, smaller, colder faster, and less able to start breathing on its own.",
+          "body": "Do not make a viability judgement on a bathroom floor. You do not have the gestation, the weight, or any of the information that decision needs. Start, continue, transport, and let people with that information decide."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why premature infants are more vulnerable and what you must not decide on scene.",
+          "must_hit": [
+            {
+              "point": "Everything that makes newborns vulnerable is exaggerated",
+              "accept": [
+                "exaggerat",
+                "more",
+                "vulnerab",
+                "worse",
+                "amplif"
+              ]
+            },
+            {
+              "point": "Heat loss is the biggest immediate problem",
+              "accept": [
+                "heat",
+                "cold",
+                "warm",
+                "thermal",
+                "fast"
+              ]
+            },
+            {
+              "point": "Immature lungs mean they are more likely to need ventilation",
+              "accept": [
+                "lung",
+                "immature",
+                "ventilat",
+                "breathing",
+                "help"
+              ]
+            },
+            {
+              "point": "Handle gently — ordinary handling is significant stimulation",
+              "accept": [
+                "gentle",
+                "handl",
+                "fragile",
+                "stimulation",
+                "less"
+              ]
+            },
+            {
+              "point": "Use correctly sized equipment — a mask that does not seal does not ventilate",
+              "accept": [
+                "size",
+                "mask",
+                "seal",
+                "equipment",
+                "fit"
+              ]
+            },
+            {
+              "point": "The resuscitation sequence is unchanged",
+              "accept": [
+                "same",
+                "sequence",
+                "unchanged",
+                "warm",
+                "ventilate"
+              ]
+            },
+            {
+              "point": "Do not judge viability on scene — resuscitate and let hospital decide",
+              "accept": [
+                "viability",
+                "not decide",
+                "scene",
+                "resuscitat",
+                "hospital"
+              ]
+            },
+            {
+              "point": "Transport to neonatal capability with a pre-alert",
+              "accept": [
+                "neonatal",
+                "capability",
+                "transport",
+                "pre-alert",
+                "team"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Start anyway",
+          "dispatch": "Medic 4 — unexpected premature delivery at home, gestation uncertain.",
+          "body": "The baby was very small and somebody said quietly that it might be too early to be worth it.\n\nNobody on that floor knew the gestation within four weeks, or the weight, or how it would respond.\n\nThey started, and continued, and drove. That decision belonged to people who would have all three of those things."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm preterm care and prehospital viability decision-making against the current text and your local protocol. The resuscitation figures referenced here (ventilate below 100, compressions below 60 after 30 seconds of effective ventilation, 3:1 ratio) MUST be confirmed against current AHA/NRP guidelines, which are revised on a cycle. No medication names or doses appear."
     }
   ]
 }

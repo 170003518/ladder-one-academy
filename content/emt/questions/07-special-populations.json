@@ -1082,6 +1082,546 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-01-Q001",
+      "concept_id": "EMT-07-02-01",
+      "style": "recall",
+      "stem": "What do almost all newborns need?",
+      "options": [
+        {
+          "text": "Suction, oxygen and ventilation",
+          "rationale": "Most need none of those."
+        },
+        {
+          "text": "Warm, dry and stimulate",
+          "rationale": "Correct — and vigorous drying does all three."
+        },
+        {
+          "text": "Immediate cord clamping",
+          "rationale": "Not the initial priority described."
+        },
+        {
+          "text": "A full APGAR before anything else",
+          "rationale": "Scoring never comes first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-01-Q002",
+      "concept_id": "EMT-07-02-01",
+      "style": "recall",
+      "stem": "What do the letters of APGAR stand for?",
+      "options": [
+        {
+          "text": "Airway, Pulse, Grimace, Activity, Respiration",
+          "rationale": "The A is Appearance, not Airway."
+        },
+        {
+          "text": "Appearance, Pulse, Grimace, Activity, Respiration",
+          "rationale": "Correct — appearance, Pulse, Grimace, Activity, Respiration."
+        },
+        {
+          "text": "Appearance, Position, Grip, Alertness, Reflex",
+          "rationale": "Not the components."
+        },
+        {
+          "text": "Activity, Pulse, Grimace, Airway, Reflex",
+          "rationale": "Not the components."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-01-Q003",
+      "concept_id": "EMT-07-02-01",
+      "style": "application",
+      "stem": "A newborn is not breathing. Should you calculate an APGAR first?",
+      "options": [
+        {
+          "text": "Yes, it guides the resuscitation",
+          "rationale": "APGAR never directs resuscitation."
+        },
+        {
+          "text": "No — ventilate the baby and record the score afterwards",
+          "rationale": "Correct — no — ventilate the baby and record the score afterwards."
+        },
+        {
+          "text": "Yes, at one minute exactly",
+          "rationale": "Timing does not override intervention."
+        },
+        {
+          "text": "Only the pulse component",
+          "rationale": "No component is calculated before acting."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-01-Q004",
+      "concept_id": "EMT-07-02-01",
+      "style": "recall",
+      "stem": "What are the three questions that decide newborn management?",
+      "options": [
+        {
+          "text": "Weight, length and head circumference",
+          "rationale": "Measurements, not assessment questions."
+        },
+        {
+          "text": "Is it term, is it breathing or crying, does it have good tone",
+          "rationale": "Correct — is it term, is it breathing or crying, does it have good tone."
+        },
+        {
+          "text": "Sex, time of birth and APGAR",
+          "rationale": "Not assessment questions."
+        },
+        {
+          "text": "Colour, temperature and pulse",
+          "rationale": "Components of APGAR, not the three questions."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-01-Q005",
+      "concept_id": "EMT-07-02-01",
+      "style": "application",
+      "stem": "Which single number is most useful in a newborn?",
+      "options": [
+        {
+          "text": "Respiratory rate",
+          "rationale": "Useful, but not the most informative."
+        },
+        {
+          "text": "Heart rate",
+          "rationale": "Correct — it tells you whether the resuscitation is working."
+        },
+        {
+          "text": "Temperature",
+          "rationale": "Important but not the guide to resuscitation."
+        },
+        {
+          "text": "Oxygen saturation",
+          "rationale": "Takes time to become reliable after birth."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-01-Q006",
+      "concept_id": "EMT-07-02-01",
+      "style": "scenario",
+      "stem": "Why must a newborn's head be covered?",
+      "options": [
+        {
+          "text": "To reduce noise stimulation",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is a large proportion of their surface area and a major route of heat loss",
+          "rationale": "Correct — it is a large proportion of their surface area and a major route of heat loss."
+        },
+        {
+          "text": "To keep the fontanelle protected",
+          "rationale": "Not the thermal reason."
+        },
+        {
+          "text": "To help them sleep",
+          "rationale": "Not a clinical rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-02-Q001",
+      "concept_id": "EMT-07-02-02",
+      "style": "recall",
+      "stem": "Why does ventilation lead in newborn resuscitation?",
+      "options": [
+        {
+          "text": "Because compressions are difficult in newborns",
+          "rationale": "Technique is not the reason."
+        },
+        {
+          "text": "Because it is a breathing problem — the heart is usually fine and fails for want of oxygen",
+          "rationale": "Correct — because it is a breathing problem — the heart is usually fine and fails for want of oxygen."
+        },
+        {
+          "text": "Because newborn hearts cannot be compressed effectively",
+          "rationale": "They can be."
+        },
+        {
+          "text": "Because protocol requires it in all ages",
+          "rationale": "The adult sequence is different."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-02-Q002",
+      "concept_id": "EMT-07-02-02",
+      "style": "recall",
+      "stem": "At what heart rate do you begin positive pressure ventilation?",
+      "options": [
+        {
+          "text": "Below 60",
+          "rationale": "That is the compression threshold."
+        },
+        {
+          "text": "Below 100",
+          "rationale": "Correct — a lower threshold than people expect, deliberately."
+        },
+        {
+          "text": "Below 40",
+          "rationale": "Not the stated threshold."
+        },
+        {
+          "text": "Only if absent",
+          "rationale": "Ventilation begins well before absence."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-02-Q003",
+      "concept_id": "EMT-07-02-02",
+      "style": "sequence",
+      "stem": "When do compressions begin in a newborn?",
+      "options": [
+        {
+          "text": "Immediately if the heart rate is below 100",
+          "rationale": "That is the ventilation threshold."
+        },
+        {
+          "text": "If the heart rate stays below 60 after 30 seconds of EFFECTIVE ventilation",
+          "rationale": "Correct — effective is the operative word."
+        },
+        {
+          "text": "As soon as the baby is apnoeic",
+          "rationale": "Apnoea calls for ventilation first."
+        },
+        {
+          "text": "Only if the heart rate is absent",
+          "rationale": "Compressions begin before absence."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-02-Q004",
+      "concept_id": "EMT-07-02-02",
+      "style": "recall",
+      "stem": "What is the newborn compression to ventilation ratio?",
+      "options": [
+        {
+          "text": "30:2",
+          "rationale": "That is the adult single-rescuer ratio."
+        },
+        {
+          "text": "3:1",
+          "rationale": "Correct — it preserves ventilation frequency, which is what the baby needs."
+        },
+        {
+          "text": "15:2",
+          "rationale": "That is a paediatric two-rescuer ratio."
+        },
+        {
+          "text": "5:1",
+          "rationale": "Not a current ratio."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-02-Q005",
+      "concept_id": "EMT-07-02-02",
+      "style": "application",
+      "stem": "You have ventilated for two minutes and the heart rate has not moved. What should you check first?",
+      "options": [
+        {
+          "text": "Whether to start medication",
+          "rationale": "Outside EMT scope and not the first check."
+        },
+        {
+          "text": "Whether the chest is actually rising — position, seal and obstruction",
+          "rationale": "Correct. Look at the chest, not the bag."
+        },
+        {
+          "text": "Whether to begin compressions immediately",
+          "rationale": "Compressions follow effective ventilation, not ineffective ventilation."
+        },
+        {
+          "text": "The baby's temperature",
+          "rationale": "Important, but not the first check here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-02-Q006",
+      "concept_id": "EMT-07-02-02",
+      "style": "application",
+      "stem": "How do you know your newborn ventilation is effective?",
+      "options": [
+        {
+          "text": "The bag is compressing easily",
+          "rationale": "The bag tells you little."
+        },
+        {
+          "text": "Visible gentle chest rise and an improving heart rate",
+          "rationale": "Correct — the heart rate is the better indicator."
+        },
+        {
+          "text": "The baby's colour alone",
+          "rationale": "Colour changes late."
+        },
+        {
+          "text": "The oxygen saturation reading",
+          "rationale": "Takes time to become reliable after birth."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-03-Q001",
+      "concept_id": "EMT-07-02-03",
+      "style": "recall",
+      "stem": "What is the biggest immediate problem in a premature infant?",
+      "options": [
+        {
+          "text": "Infection",
+          "rationale": "A real risk, but not the most immediate."
+        },
+        {
+          "text": "Heat loss",
+          "rationale": "Correct — less fat, thinner skin, larger relative surface area."
+        },
+        {
+          "text": "Bleeding",
+          "rationale": "Not the principal immediate problem."
+        },
+        {
+          "text": "Hypoglycaemia",
+          "rationale": "A concern, but heat loss dominates immediately."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-03-Q002",
+      "concept_id": "EMT-07-02-03",
+      "style": "application",
+      "stem": "Should you decide on scene that a very premature baby is not viable?",
+      "options": [
+        {
+          "text": "Yes, if it appears extremely small",
+          "rationale": "You lack the information that decision requires."
+        },
+        {
+          "text": "No — resuscitate, transport, and let the hospital decide",
+          "rationale": "Correct — no — resuscitate, transport, and let the hospital decide."
+        },
+        {
+          "text": "Yes, if gestation is stated as very early",
+          "rationale": "Stated gestation on scene is frequently inaccurate."
+        },
+        {
+          "text": "Only with medical direction agreement by phone",
+          "rationale": "Begin resuscitation regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-03-Q003",
+      "concept_id": "EMT-07-02-03",
+      "style": "recall",
+      "stem": "Why does equipment sizing matter so much?",
+      "options": [
+        {
+          "text": "Larger equipment is harder to handle",
+          "rationale": "Handling is not the issue."
+        },
+        {
+          "text": "A mask that does not seal does not ventilate at all",
+          "rationale": "Correct — a mask that does not seal does not ventilate at all."
+        },
+        {
+          "text": "It affects documentation accuracy",
+          "rationale": "Not a clinical reason."
+        },
+        {
+          "text": "Smaller equipment is more sterile",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-03-Q004",
+      "concept_id": "EMT-07-02-03",
+      "style": "recall",
+      "stem": "Does the resuscitation sequence change for a premature baby?",
+      "options": [
+        {
+          "text": "Yes, compressions come first",
+          "rationale": "The sequence is unchanged."
+        },
+        {
+          "text": "No — warm, dry, stimulate, ventilate, compress",
+          "rationale": "Correct — no — warm, dry, stimulate, ventilate, compress."
+        },
+        {
+          "text": "Yes, ventilation is omitted",
+          "rationale": "Ventilation is more likely to be needed, not less."
+        },
+        {
+          "text": "Yes, stimulation is omitted",
+          "rationale": "Stimulation is still used, more gently."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-03-Q005",
+      "concept_id": "EMT-07-02-03",
+      "style": "application",
+      "stem": "Why handle a very small premature baby especially gently?",
+      "options": [
+        {
+          "text": "They feel pain more acutely",
+          "rationale": "Not the stated reason."
+        },
+        {
+          "text": "They are fragile, and ordinary handling is already significant stimulation",
+          "rationale": "Correct — they are fragile, and ordinary handling is already significant stimulation."
+        },
+        {
+          "text": "It reduces infection risk",
+          "rationale": "Clean technique addresses that."
+        },
+        {
+          "text": "It speeds up the resuscitation",
+          "rationale": "Not the rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-02-03-Q006",
+      "concept_id": "EMT-07-02-03",
+      "style": "scenario",
+      "stem": "Where should a premature newborn be transported?",
+      "options": [
+        {
+          "text": "The nearest hospital, whatever its capability",
+          "rationale": "Neonatal capability matters here."
+        },
+        {
+          "text": "A facility with neonatal capability, with a pre-alert",
+          "rationale": "Correct — a facility with neonatal capability, with a pre-alert."
+        },
+        {
+          "text": "The hospital the mother booked at, regardless",
+          "rationale": "Capability governs."
+        },
+        {
+          "text": "Wherever the parents prefer",
+          "rationale": "Preference does not determine capability."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
