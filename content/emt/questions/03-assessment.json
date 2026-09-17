@@ -482,6 +482,666 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-01-Q001",
+      "concept_id": "EMT-03-02-01",
+      "style": "recall",
+      "stem": "What question does the general impression answer?",
+      "options": [
+        {
+          "text": "What is wrong with the patient",
+          "rationale": "That is a diagnosis, which the general impression is not."
+        },
+        {
+          "text": "Is this patient sick or not sick",
+          "rationale": "Correct. It sets the pace of everything that follows."
+        },
+        {
+          "text": "What is the patient's blood pressure",
+          "rationale": "No measurement is involved."
+        },
+        {
+          "text": "Does the patient need transport by air",
+          "rationale": "Destination decisions come much later."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-01-Q002",
+      "concept_id": "EMT-03-02-01",
+      "style": "recall",
+      "stem": "Which three elements build the general impression?",
+      "options": [
+        {
+          "text": "Pulse, blood pressure and respiratory rate",
+          "rationale": "These are vital signs, taken later."
+        },
+        {
+          "text": "Appearance, work of breathing and skin colour",
+          "rationale": "Correct — all visible from the doorway."
+        },
+        {
+          "text": "History, medications and allergies",
+          "rationale": "These come from the history, not the first look."
+        },
+        {
+          "text": "Airway, breathing and circulation",
+          "rationale": "These are the primary survey steps that follow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-01-Q003",
+      "concept_id": "EMT-03-02-01",
+      "style": "scenario",
+      "stem": "A patient looks grey and is breathing with his shoulders, but his first blood pressure is normal. What should you do?",
+      "options": [
+        {
+          "text": "Treat him as low priority because the vitals are normal",
+          "rationale": "Vital signs lag; appearance does not."
+        },
+        {
+          "text": "Believe the impression, keep looking and consider calling for help early",
+          "rationale": "Correct. Compensation keeps numbers normal until it fails."
+        },
+        {
+          "text": "Repeat the blood pressure and wait for it to fall",
+          "rationale": "Waiting for deterioration is not a plan."
+        },
+        {
+          "text": "Discharge him at scene",
+          "rationale": "Nothing here supports that."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-02-Q001",
+      "concept_id": "EMT-03-02-02",
+      "style": "recall",
+      "stem": "What does the P in AVPU stand for?",
+      "options": [
+        {
+          "text": "Pulse",
+          "rationale": "AVPU describes responsiveness, not circulation."
+        },
+        {
+          "text": "Responds to Painful stimulus",
+          "rationale": "Correct — responds only to a painful stimulus."
+        },
+        {
+          "text": "Pupils",
+          "rationale": "Pupils are assessed separately."
+        },
+        {
+          "text": "Posture",
+          "rationale": "Posture contributes to the general impression, not to AVPU."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-02-Q002",
+      "concept_id": "EMT-03-02-02",
+      "style": "application",
+      "stem": "A patient is wide awake and interacting but believes it is 1997. How is she described?",
+      "options": [
+        {
+          "text": "Unresponsive",
+          "rationale": "She is interacting spontaneously."
+        },
+        {
+          "text": "Alert but not orientated to time",
+          "rationale": "Correct. Alert and orientated are different things."
+        },
+        {
+          "text": "Responds to verbal stimulus only",
+          "rationale": "She is spontaneously interacting, not merely responding."
+        },
+        {
+          "text": "Responds to painful stimulus only",
+          "rationale": "She is awake and talking."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-02-Q003",
+      "concept_id": "EMT-03-02-02",
+      "style": "application",
+      "stem": "A patient who was alert on arrival now responds only when you say her name twice. What is the significance?",
+      "options": [
+        {
+          "text": "None, as long as she still responds",
+          "rationale": "A falling level of consciousness is a time-critical finding."
+        },
+        {
+          "text": "Her level of consciousness is falling, which is an emergency",
+          "rationale": "Correct. The direction matters more than the value."
+        },
+        {
+          "text": "It means she is asleep and should be left alone",
+          "rationale": "Deterioration is not sleep."
+        },
+        {
+          "text": "It means her blood pressure must have risen",
+          "rationale": "No such relationship is implied."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-02-Q004",
+      "concept_id": "EMT-03-02-02",
+      "style": "sequence",
+      "stem": "Put the AVPU assessment in the correct order of stimulus: 1) apply a painful stimulus, 2) observe for spontaneous interaction, 3) speak to the patient.",
+      "options": [
+        {
+          "text": "2, 3, 1",
+          "rationale": "Correct. Look first, speak before you touch, cause pain last."
+        },
+        {
+          "text": "1, 2, 3",
+          "rationale": "Applying pain before speaking is the wrong way round."
+        },
+        {
+          "text": "3, 2, 1",
+          "rationale": "You observe before you speak."
+        },
+        {
+          "text": "2, 1, 3",
+          "rationale": "Pain is applied only after voice has failed."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-03-Q001",
+      "concept_id": "EMT-03-02-03",
+      "style": "recall",
+      "stem": "A patient speaking to you in clear full sentences tells you what about the airway?",
+      "options": [
+        {
+          "text": "It is patent at this moment",
+          "rationale": "Correct, though airways can close later."
+        },
+        {
+          "text": "It will remain patent for the whole call",
+          "rationale": "Patency now does not guarantee patency later."
+        },
+        {
+          "text": "It requires an adjunct",
+          "rationale": "A talking patient does not need an adjunct."
+        },
+        {
+          "text": "Nothing useful",
+          "rationale": "Clear speech is a direct demonstration of a patent airway."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-03-Q002",
+      "concept_id": "EMT-03-02-03",
+      "style": "recall",
+      "stem": "What does gurgling in the airway indicate?",
+      "options": [
+        {
+          "text": "The tongue is obstructing",
+          "rationale": "Snoring, not gurgling, suggests the tongue."
+        },
+        {
+          "text": "Fluid in the airway requiring suction",
+          "rationale": "Correct. Gurgling is liquid, and liquid means suction before anything else."
+        },
+        {
+          "text": "Upper airway narrowing",
+          "rationale": "That is stridor."
+        },
+        {
+          "text": "Normal breathing sounds",
+          "rationale": "Gurgling is never normal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-03-Q003",
+      "concept_id": "EMT-03-02-03",
+      "style": "application",
+      "stem": "Which airway finding is the most concerning in a patient who is visibly working to breathe?",
+      "options": [
+        {
+          "text": "Loud snoring",
+          "rationale": "Snoring means air is still moving past an obstruction."
+        },
+        {
+          "text": "Silence",
+          "rationale": "Correct. No sound with visible effort means nothing is moving."
+        },
+        {
+          "text": "Gurgling",
+          "rationale": "Concerning and treatable, but air is still moving."
+        },
+        {
+          "text": "Occasional coughing",
+          "rationale": "A cough indicates air movement and protective reflexes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-04-Q001",
+      "concept_id": "EMT-03-02-04",
+      "style": "recall",
+      "stem": "Which three things together determine whether breathing is adequate?",
+      "options": [
+        {
+          "text": "Rate, depth and effort",
+          "rationale": "Correct — none of them is sufficient alone."
+        },
+        {
+          "text": "Rate, pulse and blood pressure",
+          "rationale": "Pulse and pressure are circulation findings."
+        },
+        {
+          "text": "Colour, temperature and condition",
+          "rationale": "These describe the skin."
+        },
+        {
+          "text": "Rate alone",
+          "rationale": "Rate alone is the classic misleading measure."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-04-Q002",
+      "concept_id": "EMT-03-02-04",
+      "style": "application",
+      "stem": "An unresponsive patient is making slow, irregular gulping movements. What is this?",
+      "options": [
+        {
+          "text": "Adequate breathing",
+          "rationale": "These movements do not ventilate the patient."
+        },
+        {
+          "text": "Agonal gasps, indicating cardiac arrest until proven otherwise",
+          "rationale": "Correct. They look like breathing and ventilate nobody."
+        },
+        {
+          "text": "Snoring respirations",
+          "rationale": "Snoring is an airway sound, not this pattern."
+        },
+        {
+          "text": "Normal for a sleeping patient",
+          "rationale": "A sleeping patient breathes regularly."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-04-Q003",
+      "concept_id": "EMT-03-02-04",
+      "style": "application",
+      "stem": "Why can a patient breathing 30 times a minute be in more trouble than one breathing 12 times?",
+      "options": [
+        {
+          "text": "Because a fast rate always means hypoxia",
+          "rationale": "Rate alone does not establish that."
+        },
+        {
+          "text": "Because shallow breaths at a fast rate can move less useful air",
+          "rationale": "Correct. Rate without depth tells you very little."
+        },
+        {
+          "text": "Because 30 is above the normal adult range",
+          "rationale": "Being outside a range is not the mechanism."
+        },
+        {
+          "text": "Because fast breathing damages the lungs",
+          "rationale": "Not the reasoning being tested."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-05-Q001",
+      "concept_id": "EMT-03-02-05",
+      "style": "recall",
+      "stem": "Where do you check a pulse in an unresponsive patient?",
+      "options": [
+        {
+          "text": "Radial",
+          "rationale": "Peripheral pulses are lost early when perfusion falls."
+        },
+        {
+          "text": "Carotid",
+          "rationale": "Correct — a central pulse persists longer than a peripheral one."
+        },
+        {
+          "text": "Pedal",
+          "rationale": "Even more peripheral than radial."
+        },
+        {
+          "text": "Brachial in all adults",
+          "rationale": "Brachial is used in infants, not routinely in adults."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-05-Q002",
+      "concept_id": "EMT-03-02-05",
+      "style": "recall",
+      "stem": "What three things are assessed about the skin?",
+      "options": [
+        {
+          "text": "Colour, temperature and condition",
+          "rationale": "Correct — the three things the skin tells you."
+        },
+        {
+          "text": "Colour, tone and circulation",
+          "rationale": "Tone is not part of this assessment."
+        },
+        {
+          "text": "Capillary refill, temperature and turgor",
+          "rationale": "Not the three taught here."
+        },
+        {
+          "text": "Colour, thickness and condition",
+          "rationale": "Thickness is not assessed."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-05-Q003",
+      "concept_id": "EMT-03-02-05",
+      "style": "application",
+      "stem": "Why are cool, pale, clammy skin findings significant even when blood pressure is normal?",
+      "options": [
+        {
+          "text": "Because they show the body is compensating, and blood pressure falls only when compensation fails",
+          "rationale": "Correct. That is why skin is an earlier warning than any cuff."
+        },
+        {
+          "text": "Because they indicate a fever",
+          "rationale": "Fever produces hot skin."
+        },
+        {
+          "text": "Because they prove the patient is bleeding internally",
+          "rationale": "They raise suspicion but do not prove it."
+        },
+        {
+          "text": "Because they always indicate an allergic reaction",
+          "rationale": "Not specific to allergy."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-06-Q001",
+      "concept_id": "EMT-03-02-06",
+      "style": "recall",
+      "stem": "What does the primary assessment end with?",
+      "options": [
+        {
+          "text": "A complete set of vital signs",
+          "rationale": "Vitals are part of assessment but not the endpoint."
+        },
+        {
+          "text": "A transport priority decision",
+          "rationale": "Correct — it ends in a decision, not a summary."
+        },
+        {
+          "text": "A full head-to-toe examination",
+          "rationale": "That is the secondary assessment."
+        },
+        {
+          "text": "A radio report",
+          "rationale": "The report follows the decision."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-06-Q002",
+      "concept_id": "EMT-03-02-06",
+      "style": "application",
+      "stem": "Which finding would make a patient high priority?",
+      "options": [
+        {
+          "text": "A controlled laceration to the forearm in an alert patient",
+          "rationale": "Controlled bleeding in an alert patient is not high priority."
+        },
+        {
+          "text": "A level of consciousness that has fallen since your arrival",
+          "rationale": "Correct — deterioration is the change most often missed."
+        },
+        {
+          "text": "A twisted ankle with normal vital signs",
+          "rationale": "Low priority."
+        },
+        {
+          "text": "A patient who is anxious but has normal findings throughout",
+          "rationale": "Anxiety alone does not establish priority."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-06-Q003",
+      "concept_id": "EMT-03-02-06",
+      "style": "scenario",
+      "stem": "Your patient looked stable on arrival but is now quieter and paler. What should happen to the priority?",
+      "options": [
+        {
+          "text": "It stays the same because it was set on arrival",
+          "rationale": "Priority is revised on reassessment."
+        },
+        {
+          "text": "It is upgraded",
+          "rationale": "Correct, and this upgrade is the one crews most often miss."
+        },
+        {
+          "text": "It is downgraded because he is calmer",
+          "rationale": "Quiet from deterioration is not calm."
+        },
+        {
+          "text": "It cannot be changed once transport has begun",
+          "rationale": "It can be revised at any point."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-07-Q001",
+      "concept_id": "EMT-03-02-07",
+      "style": "recall",
+      "stem": "What does the X in XABC stand for?",
+      "options": [
+        {
+          "text": "Examination",
+          "rationale": "Not what the X denotes."
+        },
+        {
+          "text": "Exsanguinating haemorrhage",
+          "rationale": "Correct — massive external bleeding."
+        },
+        {
+          "text": "Exposure",
+          "rationale": "Exposure is a later step in trauma assessment, not the X here."
+        },
+        {
+          "text": "Extrication",
+          "rationale": "Not what the X denotes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-07-Q002",
+      "concept_id": "EMT-03-02-07",
+      "style": "application",
+      "stem": "When does XABC replace the standard ABC order?",
+      "options": [
+        {
+          "text": "For every trauma patient",
+          "rationale": "It applies to a specific presentation, not all trauma."
+        },
+        {
+          "text": "When there is obvious catastrophic external bleeding",
+          "rationale": "Correct — an arterial limb bleed or amputation."
+        },
+        {
+          "text": "When the patient is unresponsive",
+          "rationale": "Unresponsiveness alone does not trigger it."
+        },
+        {
+          "text": "When the airway is obstructed",
+          "rationale": "An obstructed airway is handled at A."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-07-Q003",
+      "concept_id": "EMT-03-02-07",
+      "style": "scenario",
+      "stem": "You find a patient with pulsing bright blood pooling from an arm wound. What do you do first?",
+      "options": [
+        {
+          "text": "Open the airway and assess breathing",
+          "rationale": "This is exactly the patient for whom bleeding comes first."
+        },
+        {
+          "text": "Apply a tourniquet or hard direct pressure, then move to the airway",
+          "rationale": "Correct. It is one intervention, then the normal sequence."
+        },
+        {
+          "text": "Take a full set of vital signs",
+          "rationale": "Vitals do not stop bleeding."
+        },
+        {
+          "text": "Perform a rapid full-body scan",
+          "rationale": "The scan comes after the immediate threat is controlled."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

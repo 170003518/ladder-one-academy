@@ -25,6 +25,19 @@
         "EMT-03-01-04",
         "EMT-03-01-05"
       ]
+    },
+    {
+      "id": "EMT-03-02",
+      "title": "Primary assessment",
+      "concepts": [
+        "EMT-03-02-01",
+        "EMT-03-02-02",
+        "EMT-03-02-03",
+        "EMT-03-02-04",
+        "EMT-03-02-05",
+        "EMT-03-02-06",
+        "EMT-03-02-07"
+      ]
     }
   ],
   "concepts": [
@@ -687,6 +700,892 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the list of significant mechanisms and the specific thresholds (fall height, speed) the current text gives — those figures vary between texts and trauma systems and are deliberately not stated here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-01",
+      "title": "General impression",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-02-06",
+        "EMT-03-02-02"
+      ],
+      "key_points": [
+        "Formed in the first few seconds, from the doorway, before you touch the patient",
+        "You are answering one question: sick or not sick?",
+        "Built from appearance, work of breathing and skin colour",
+        "It sets the pace of everything that follows, not the diagnosis",
+        "A bad general impression justifies calling for help before you have any numbers"
+      ],
+      "misconceptions": [
+        "Waiting for vital signs before deciding how sick someone is",
+        "Treating the general impression as a diagnosis",
+        "Ignoring an instinct that something is wrong because the numbers look acceptable"
+      ],
+      "exam_favorites": [
+        "Sick or not sick in the first seconds",
+        "The three things it is built from",
+        "That it sets pace, not diagnosis"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Before you kneel, before you touch anything, you look. The general impression is what you form in the first few seconds from the doorway, and it answers exactly one question: is this patient sick or not sick?\n\nThree things build it. Appearance — are they alert, are they interacting, is their posture normal or are they rigid, slumped, tripoding. Work of breathing — is breathing effortless, or are they using muscles they should not need. And skin colour — pink, or grey, mottled, blue, sheet-white.\n\nThat is enough to decide how fast the next ten minutes are going to move. It is not a diagnosis and it is not meant to be. A patient who looks sick gets a faster, shorter, more aggressive assessment and an earlier call for help. A patient who looks well gets a more thorough, more leisurely one.\n\nThe part people undervalue is that this impression is allowed to override numbers. If someone looks terrible and their first set of vitals is unremarkable, believe your eyes and keep looking. Vital signs are a lagging indicator; appearance is not.",
+          "standard": "The general impression is formed within the initial seconds of patient contact, prior to physical examination, and is used to categorise the patient as critically ill or not. It is derived from appearance including mentation and posture, work of breathing, and skin colour. Its function is to determine the urgency and depth of subsequent assessment and the timing of requests for additional resources, rather than to establish a diagnosis. Because compensatory mechanisms may maintain vital signs within normal limits in a deteriorating patient, an impression of critical illness is not invalidated by an initially reassuring set of vitals."
+        },
+        "eli_new": {
+          "analogy": "You know within a second whether a room smells of smoke. You do not need a sensor to start moving.",
+          "body": "Experienced clinicians look sideways at a patient and know. What they are doing is not mystical: they are reading posture, effort and colour, all at once, faster than they can describe. You can learn it by naming those three things deliberately until it becomes automatic."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what the general impression is, what it is built from, and what it is for.",
+          "must_hit": [
+            {
+              "point": "Formed in the first seconds, before touching the patient",
+              "accept": [
+                "first",
+                "seconds",
+                "doorway",
+                "before",
+                "glance"
+              ]
+            },
+            {
+              "point": "Answers sick or not sick",
+              "accept": [
+                "sick",
+                "not sick",
+                "critical",
+                "how bad"
+              ]
+            },
+            {
+              "point": "Built from appearance, work of breathing and skin colour",
+              "accept": [
+                "appearance",
+                "breathing",
+                "work of breathing",
+                "skin",
+                "colour",
+                "color"
+              ]
+            },
+            {
+              "point": "Sets pace, not diagnosis",
+              "accept": [
+                "pace",
+                "urgency",
+                "not a diagnosis",
+                "how fast",
+                "priority"
+              ]
+            }
+          ],
+          "model_answer": "It is what you form from the doorway in the first few seconds, before you touch anyone, and it answers one question: sick or not sick. You build it from three things — appearance, including mentation and posture, work of breathing, and skin colour. Its job is to set the pace and depth of everything that follows and to decide whether you call for help now, not to make a diagnosis. And it is allowed to beat the numbers: if someone looks terrible with an unremarkable first set of vitals, believe your eyes, because vitals lag and appearance does not."
+        },
+        "story": {
+          "title": "From the doorway",
+          "dispatch": "Rescue 4 — 54-year-old male, feeling unwell, private residence.",
+          "body": "Called in as feeling unwell, which could be anything.\n\nYou got three steps into the room and stopped. He was upright, grey, silent, and breathing with his shoulders.\n\nHis first blood pressure was fine. Your partner called for ALS anyway, on the strength of what the room looked like. By the time they arrived the blood pressure had caught up with the impression."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-02",
+      "title": "Level of consciousness: AVPU and an introduction to GCS",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-02-01"
+      ],
+      "related": [
+        "EMT-03-02-01",
+        "EMT-03-06-02"
+      ],
+      "key_points": [
+        "AVPU is the rapid scale used in the primary assessment: Alert, responds to Verbal, responds to Painful, Unresponsive",
+        "Alert is further described by what the patient is orientated to — person, place, time and event",
+        "Responds to Verbal means they react to your voice, even if only by opening their eyes",
+        "Responds to Painful means they react only to a painful stimulus",
+        "Unresponsive means no response to any stimulus",
+        "The Glasgow Coma Scale scores eye opening, verbal response and motor response separately, and is more detailed than the primary assessment needs",
+        "What matters most is the trend: a level of consciousness that is falling is an emergency regardless of where it started"
+      ],
+      "misconceptions": [
+        "Recording a single AVPU value and never repeating it",
+        "Confusing 'alert' with 'orientated'",
+        "Using a painful stimulus before trying voice"
+      ],
+      "exam_favorites": [
+        "What each AVPU letter means",
+        "Alert versus orientated",
+        "That the trend matters more than the value"
+      ],
+      "modes": {
+        "read": {
+          "plain": "In the primary assessment you need a level of consciousness fast, and AVPU is the tool. Four levels: Alert, responds to Verbal stimulus, responds to Painful stimulus, Unresponsive.\n\nAlert means their eyes are open and they are interacting with you spontaneously. It does not automatically mean they know what is going on, which is why alert is usually qualified by what they are orientated to: person, place, time and event. Someone can be wide awake and have no idea what year it is.\n\nVerbal means they were not spontaneously interacting but they respond to your voice — even just opening their eyes when you speak. Painful means voice does nothing and they respond only to a painful stimulus. Unresponsive means nothing produces a response at all.\n\nWork down the scale in order. Speak before you touch, and touch before you cause pain.\n\nThe Glasgow Coma Scale is the more detailed version, scoring eye opening, verbal response and motor response separately and adding them up. You will meet it constantly; it is more granular than the primary assessment needs, and this is the introduction rather than the whole of it.\n\nThe single most useful thing about level of consciousness is not the value, it is the direction. A patient who was alert and is now responding only to voice is deteriorating, and that matters far more than any particular letter.",
+          "standard": "Level of consciousness in the primary assessment is assessed using the AVPU scale: Alert, responsive to Verbal stimulus, responsive to Painful stimulus, Unresponsive. Alertness is qualified by orientation to person, place, time and event, as spontaneous eye opening and interaction do not establish orientation. Assessment proceeds hierarchically, with verbal stimulus applied before painful stimulus. The Glasgow Coma Scale provides a more granular assessment by scoring eye opening, verbal response and motor response independently and summing the components; it exceeds the granularity required for the primary assessment and is introduced here rather than treated in full. Serial assessment is more informative than any single value, and a declining level of consciousness constitutes a time-critical finding irrespective of the initial level."
+        },
+        "eli_new": {
+          "analogy": "AVPU is four rungs on a ladder. Which rung matters less than which way they are moving.",
+          "body": "The four letters are easy. The thing that catches people is treating it as a label you write once. Level of consciousness is a measurement, and like any measurement it is nearly useless as a single reading and very powerful as a series."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the AVPU scale, how 'alert' is qualified, and why the trend matters more than the value.",
+          "must_hit": [
+            {
+              "point": "Alert, Verbal, Painful, Unresponsive",
+              "accept": [
+                "alert",
+                "verbal",
+                "pain",
+                "unresponsive",
+                "avpu"
+              ]
+            },
+            {
+              "point": "Alert is qualified by orientation to person, place, time, event",
+              "accept": [
+                "orientat",
+                "person",
+                "place",
+                "time",
+                "event"
+              ]
+            },
+            {
+              "point": "Voice before pain",
+              "accept": [
+                "voice first",
+                "before",
+                "speak",
+                "verbal before"
+              ]
+            },
+            {
+              "point": "A falling level of consciousness is an emergency",
+              "accept": [
+                "trend",
+                "falling",
+                "declin",
+                "worse",
+                "direction",
+                "deteriorat"
+              ]
+            }
+          ],
+          "model_answer": "AVPU is Alert, responds to Verbal, responds to Painful, Unresponsive. Alert means eyes open and interacting spontaneously, which is not the same as orientated — you qualify it by what they know: person, place, time and event. Work down in order, speaking before you touch and touching before you cause pain. The Glasgow Coma Scale is the more detailed version, scoring eye opening, verbal and motor separately, and it is more than the primary assessment needs. The most useful thing is the direction: a patient who was alert and now only answers to voice is deteriorating, and that matters more than any single letter."
+        },
+        "story": {
+          "title": "Two letters in ten minutes",
+          "dispatch": "Rescue 4 — fall, elderly female, head injury.",
+          "body": "On arrival she was alert and cross about the fuss, orientated to everything you asked.\n\nTen minutes later, in the back of the truck, she answered you but only after you said her name twice, and she had stopped being cross.\n\nNothing about her blood pressure had changed. The letter had, and that was the finding you called ahead with."
+        },
+        "do": {
+          "activity": "avpu_level",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each patient onto the AVPU scale.",
+          "config": {
+            "buckets": [
+              "Alert",
+              "Verbal",
+              "Painful",
+              "Unresponsive"
+            ],
+            "items": [
+              {
+                "text": "Eyes open, talking to you, knows the day and where she is",
+                "bucket": 0
+              },
+              {
+                "text": "Eyes closed; opens them and mumbles when you say his name",
+                "bucket": 1
+              },
+              {
+                "text": "No reaction to your voice; groans when you pinch the trapezius",
+                "bucket": 2
+              },
+              {
+                "text": "No reaction to voice or to any stimulus",
+                "bucket": 3
+              },
+              {
+                "text": "Wide awake and interacting, but insists it is 1997",
+                "bucket": 0
+              },
+              {
+                "text": "Withdraws a limb only when a painful stimulus is applied",
+                "bucket": 2
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "AVPU",
+          "expansion": [
+            "Alert — eyes open, interacting spontaneously (qualify with orientation to person, place, time, event)",
+            "Verbal — responds to your voice",
+            "Painful — responds only to a painful stimulus",
+            "Unresponsive — no response to anything"
+          ],
+          "memory_image": "Four rungs on a ladder. Note which rung, then note which way they are climbing."
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment. Confirm whether the current text introduces GCS in the primary assessment or defers it, and its exact orientation wording."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-03",
+      "title": "Airway assessment in the primary survey",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-02-02"
+      ],
+      "related": [
+        "EMT-02-02-01",
+        "EMT-02-02-06"
+      ],
+      "key_points": [
+        "The question is not 'is there an airway' but 'is it open and will it stay open'",
+        "A patient speaking clearly in full sentences has a patent airway right now",
+        "Snoring, gurgling, stridor and silence are all airway findings, and silence is the worst of them",
+        "An airway that is open now can close: consider level of consciousness, swelling, bleeding and vomiting",
+        "You fix what you find before moving on — positioning, suction, adjunct — you do not note it and continue"
+      ],
+      "misconceptions": [
+        "Moving on to breathing with a noisy airway unaddressed",
+        "Treating a patient who is talking as having a permanently secure airway",
+        "Assuming a quiet airway is a clear airway"
+      ],
+      "exam_favorites": [
+        "Sounds and what they mean",
+        "That talking equals patent, for now",
+        "Fix before you move on"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Airway is the first thing you can actually treat, and the rule of the primary assessment is that you deal with what you find before you move on.\n\nThe quickest test is speech. A patient who is talking to you in clear full sentences has a patent airway at this moment, and you can move on. That word 'moment' is doing a lot of work, because airways close.\n\nWhen they are not talking, listen. Snoring is the tongue. Gurgling is fluid, and it means suction. Stridor is a high-pitched sound on breathing in and means upper airway narrowing, which is serious. And silence, in a patient who is clearly trying to breathe, is the most alarming finding of all, because it means nothing is moving.\n\nThen think forwards. This airway is open now; will it stay open? A falling level of consciousness, swelling from a burn or an allergic reaction, blood in the mouth, active vomiting — all of these predict an airway that will close while you are still working.\n\nAnd whatever you find, you fix it here. Reposition. Suction. Put in an adjunct. You do not write down 'noisy airway' and proceed to breathing.",
+          "standard": "Airway assessment within the primary survey establishes both current patency and the likelihood of continued patency. A patient producing clear speech in complete sentences demonstrates a patent airway at that moment. In the absence of speech, auscultatory findings guide intervention: snoring indicates tongue-related obstruction, gurgling indicates fluid requiring suction, stridor indicates upper airway narrowing, and absent sound in a patient with visible respiratory effort indicates minimal or absent air movement and is the most concerning finding. Anticipated compromise is assessed by considering declining level of consciousness, airway oedema, hemorrhage and active vomiting. Identified airway compromise is corrected before the assessment proceeds."
+        },
+        "eli_new": {
+          "analogy": "A door that is open now is not the same as a door that will stay open. Check the hinge as well as the gap.",
+          "body": "It is tempting to treat airway as a yes-or-no box. It is really two questions asked together: is air moving right now, and is anything about this patient going to stop it moving in the next ten minutes."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you assess the airway in the primary survey and what the different sounds tell you.",
+          "must_hit": [
+            {
+              "point": "Clear speech in full sentences means patent now",
+              "accept": [
+                "talking",
+                "speak",
+                "sentence",
+                "patent"
+              ]
+            },
+            {
+              "point": "Snoring is the tongue; gurgling means suction; stridor is upper airway narrowing",
+              "accept": [
+                "snor",
+                "tongue",
+                "gurgl",
+                "suction",
+                "stridor"
+              ]
+            },
+            {
+              "point": "Silence with effort is the worst finding",
+              "accept": [
+                "silent",
+                "silence",
+                "no sound",
+                "quiet",
+                "nothing moving"
+              ]
+            },
+            {
+              "point": "Consider whether it will stay open",
+              "accept": [
+                "stay open",
+                "will it",
+                "anticipat",
+                "swelling",
+                "vomit",
+                "level of consciousness"
+              ]
+            },
+            {
+              "point": "Fix it before moving on",
+              "accept": [
+                "fix",
+                "correct",
+                "before",
+                "suction",
+                "adjunct",
+                "reposition"
+              ]
+            }
+          ],
+          "model_answer": "You are asking two things: is it open now, and will it stay open. Clear speech in full sentences answers the first — that airway is patent at this moment. If they are not talking, listen: snoring is the tongue, gurgling means fluid and therefore suction, stridor is upper airway narrowing and is serious, and silence in someone visibly trying to breathe is the worst of all because nothing is moving. Then think ahead about a falling level of consciousness, swelling, blood or vomiting, any of which will close an airway that is open now. And whatever you find, you fix it here — reposition, suction, adjunct — before you move on to breathing."
+        },
+        "story": {
+          "title": "He was talking a minute ago",
+          "dispatch": "Rescue 4 — allergic reaction, 30-year-old female, restaurant.",
+          "body": "She was talking when you arrived. Full sentences, anxious, complaining her throat felt tight.\n\nYou wrote 'airway patent'. Four minutes later her voice had changed, and a minute after that there was a high-pitched sound on every breath in.\n\nAirway patent had been true. It had also been temporary, and the second question was the one that mattered."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-04",
+      "title": "Breathing assessment in the primary survey",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-02-03"
+      ],
+      "related": [
+        "EMT-02-01-05",
+        "EMT-02-04-01"
+      ],
+      "key_points": [
+        "You are looking for adequacy, not just presence: rate, depth and effort together",
+        "Look at the chest, listen for air movement, feel for it if you need to",
+        "Inadequate breathing is treated here with ventilation, not noted for later",
+        "Rate alone is misleading: fast and shallow can move less air than slow and deep",
+        "Agonal gasps are not breathing and must not be mistaken for it"
+      ],
+      "misconceptions": [
+        "Counting a rate and calling that the breathing assessment",
+        "Mistaking agonal gasps for adequate breathing",
+        "Deferring ventilation until after the rest of the survey"
+      ],
+      "exam_favorites": [
+        "Rate, depth and effort together",
+        "Agonal gasps are not breathing",
+        "Treat inadequate breathing here"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Breathing in the primary assessment is not a yes-or-no question either. Plenty of dying patients are breathing. The question is whether the breathing is adequate.\n\nThree things together: rate, depth and effort. A rate on its own is misleading, and this is the trap that catches new EMTs. A patient breathing thirty times a minute with barely any chest movement may be moving far less useful air than one breathing twelve times deeply. Look at the chest rather than only counting.\n\nEffort is the other half. Accessory muscles in the neck, retractions between the ribs, nasal flaring in a child, a patient who cannot say more than a few words at a time — all of these say that breathing is costing far more than it should.\n\nOne specific thing to recognise: agonal gasps. Slow, irregular, gulping movements in a patient who is otherwise not responsive. They look like breathing and they are not. A patient making agonal gasps is in cardiac arrest until proven otherwise.\n\nAnd as with airway, inadequate breathing is treated at this point. You do not finish the survey first.",
+          "standard": "Breathing assessment in the primary survey evaluates adequacy rather than presence, integrating rate, tidal volume and work of breathing. Respiratory rate considered in isolation is unreliable, as rapid shallow respiration may produce lower effective alveolar ventilation than slower respiration with adequate tidal volume. Increased work of breathing is indicated by accessory muscle use, intercostal or suprasternal retraction, nasal flaring in pediatric patients and inability to speak in complete sentences. Agonal respirations — slow, irregular, gasping movements in an unresponsive patient — do not constitute effective breathing and should be treated as indicating cardiac arrest. Inadequate ventilation identified at this stage is corrected immediately with positive-pressure ventilation before assessment continues."
+        },
+        "eli_new": {
+          "analogy": "Counting breaths without watching the chest is like counting footsteps to work out how far someone walked, without checking the size of their steps.",
+          "body": "The number is the easy part and it is the least informative part. Two patients can breathe at the same rate and one of them is fine while the other is dying, and the only way to tell is to look at how much chest is actually moving and how hard they are working for it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you assess breathing in the primary survey and why the rate alone is not enough.",
+          "must_hit": [
+            {
+              "point": "Rate, depth and effort together",
+              "accept": [
+                "rate",
+                "depth",
+                "effort",
+                "volume",
+                "work"
+              ]
+            },
+            {
+              "point": "Fast and shallow can move less air than slow and deep",
+              "accept": [
+                "shallow",
+                "fast",
+                "less air",
+                "deep",
+                "misleading"
+              ]
+            },
+            {
+              "point": "Agonal gasps are not breathing",
+              "accept": [
+                "agonal",
+                "gasp",
+                "not breathing",
+                "arrest"
+              ]
+            },
+            {
+              "point": "Treat inadequate breathing here",
+              "accept": [
+                "ventilat",
+                "treat",
+                "bvm",
+                "immediately",
+                "here"
+              ]
+            }
+          ],
+          "model_answer": "You are assessing adequacy, not presence, which means rate, depth and effort together. Rate on its own misleads: thirty shallow breaths a minute can move less useful air than twelve deep ones, so look at the chest instead of only counting. Effort tells you the other half — accessory muscles, retractions, nasal flaring in a child, someone who can only manage a few words at a time. Recognise agonal gasps specifically: slow irregular gulping in an unresponsive patient is not breathing, and that patient is in cardiac arrest until proven otherwise. And inadequate breathing gets ventilated right here, not noted for later."
+        },
+        "story": {
+          "title": "It looked like breathing",
+          "dispatch": "Rescue 4 — unresponsive male, bystanders on scene.",
+          "body": "The caller told dispatch he was still breathing, and from the doorway it looked like it — occasional big gulping movements, maybe four or five a minute.\n\nYour partner checked a pulse while you watched the chest. There was no pulse, and those gulps were agonal.\n\nCompressions started about eleven seconds after you came through the door, because nobody stopped to argue about whether that counted as breathing."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-05",
+      "title": "Circulation: pulse, bleeding and skin",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-02-04"
+      ],
+      "related": [
+        "EMT-03-05-05",
+        "EMT-03-02-07"
+      ],
+      "key_points": [
+        "Three things: a pulse, any major bleeding, and what the skin tells you",
+        "Check a central pulse in an unresponsive patient; a radial pulse in a responsive one",
+        "Major external bleeding is controlled at this point, immediately",
+        "Skin is assessed for colour, temperature and condition — colour, temperature, condition, often shortened to CTC",
+        "Cool, pale, clammy skin is the body shunting blood away from the surface, and is an early sign of shock",
+        "Skin findings often change before blood pressure does"
+      ],
+      "misconceptions": [
+        "Waiting for a blood pressure before suspecting shock",
+        "Assessing skin only by colour and ignoring temperature and moisture",
+        "Leaving major bleeding until after the survey"
+      ],
+      "exam_favorites": [
+        "Central versus radial pulse",
+        "Colour, temperature, condition",
+        "Skin changing before blood pressure"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Circulation in the primary assessment is three quick things, and none of them require equipment.\n\nFirst, is there a pulse. In an unresponsive patient, go central — the carotid — because peripheral pulses disappear early when perfusion drops. In a responsive patient the radial pulse is enough, and its presence tells you something about perfusion by itself.\n\nSecond, is there major bleeding. If there is, control it now. Not after the survey.\n\nThird, the skin, and this is the part people undervalue. Three things: colour, temperature and condition. Pink, warm and dry is what you want. Pale, cool and clammy means the body is pulling blood away from the surface to protect the core, and that is a compensating patient — someone whose blood pressure has not fallen yet precisely because their body is working hard to stop it falling.\n\nThat is why skin matters so much. Blood pressure is a late sign. By the time it drops, the compensation has failed. Skin tells you earlier, and it tells you without a cuff.",
+          "standard": "Circulatory assessment in the primary survey comprises pulse assessment, identification and control of major hemorrhage, and evaluation of skin. Pulse is assessed centrally at the carotid in unresponsive patients, as peripheral pulses are lost early in hypoperfusion, and radially in responsive patients. Major external hemorrhage is controlled at the point of identification. Skin is evaluated for colour, temperature and condition: pallor with cool, diaphoretic skin reflects peripheral vasoconstriction and sympathetic activation, representing compensated shock. Because blood pressure is maintained by compensatory mechanisms until they fail, cutaneous findings frequently precede measurable hypotension and are therefore an earlier indicator of hypoperfusion."
+        },
+        "eli_new": {
+          "analogy": "The body turns off the lights in the outer rooms to keep the heating on in the middle of the house.",
+          "body": "Skin is the cheapest monitor you own. Cool, pale and sweaty means the body has decided the skin is expendable and is defending the organs that are not. That decision happens well before the blood pressure gives way."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the three parts of the circulation check and why skin findings matter so much.",
+          "must_hit": [
+            {
+              "point": "Pulse — carotid if unresponsive, radial if responsive",
+              "accept": [
+                "pulse",
+                "carotid",
+                "radial",
+                "central"
+              ]
+            },
+            {
+              "point": "Control major bleeding immediately",
+              "accept": [
+                "bleed",
+                "hemorrhage",
+                "haemorrhage",
+                "control",
+                "stop"
+              ]
+            },
+            {
+              "point": "Skin: colour, temperature, condition",
+              "accept": [
+                "colour",
+                "color",
+                "temperature",
+                "condition",
+                "ctc",
+                "clammy",
+                "moist"
+              ]
+            },
+            {
+              "point": "Skin changes before blood pressure falls",
+              "accept": [
+                "before",
+                "earlier",
+                "late sign",
+                "compensat",
+                "blood pressure"
+              ]
+            }
+          ],
+          "model_answer": "Three things, none needing equipment. A pulse — carotid in an unresponsive patient because peripheral pulses go early, radial in a responsive one. Major external bleeding, which you control right there rather than after the survey. And the skin: colour, temperature and condition. Pink, warm and dry is normal; pale, cool and clammy means the body is shunting blood from the surface to protect the core. That matters because blood pressure is a late sign — it holds until compensation fails — so skin tells you a patient is in trouble before any cuff will."
+        },
+        "story": {
+          "title": "Pressure was fine",
+          "dispatch": "Rescue 4 — motorcycle down, single rider, conscious.",
+          "body": "He was talking, his blood pressure was normal, and the new EMT was visibly relaxing.\n\nHis skin was grey, cold and wet, and his radial pulse was fast and thin under your fingers.\n\nThe pressure was normal because he was young and his body was working extremely hard to keep it there. It stayed normal for another eight minutes, and then it did not."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "CTC",
+          "expansion": [
+            "Colour — pink, pale, flushed, cyanotic, mottled, jaundiced",
+            "Temperature — warm, cool, cold, hot",
+            "Condition — dry, moist, clammy, diaphoretic"
+          ],
+          "memory_image": "Three words you can check with the back of one hand, faster than you can find a cuff."
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-06",
+      "title": "The transport priority decision",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-02-05"
+      ],
+      "related": [
+        "EMT-03-01-05",
+        "EMT-03-06-01"
+      ],
+      "key_points": [
+        "The end of the primary assessment is a decision, not a summary",
+        "High priority means the patient goes now, with further assessment done on the way",
+        "Drivers of high priority include a poor general impression, an airway or breathing problem, uncontrolled bleeding, shock, an altered or falling level of consciousness, and severe pain",
+        "Priority decides pace and destination, and it can be revised in either direction",
+        "Deciding late costs the patient time that cannot be recovered"
+      ],
+      "misconceptions": [
+        "Finishing a full assessment on scene before deciding priority",
+        "Treating the priority decision as unchangeable once made",
+        "Downgrading a priority because the patient is now more comfortable"
+      ],
+      "exam_favorites": [
+        "That the primary assessment ends in a decision",
+        "What drives high priority",
+        "That priority can be revised"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The primary assessment does not end with a list of findings. It ends with a decision: does this patient go now, or do we have time?\n\nHigh priority means the patient is loaded and further assessment happens on the move. The things that put someone in that category are the ones you have just been looking for — a general impression of a sick patient, an airway you are struggling to keep open, breathing that is inadequate, bleeding you have not controlled, signs of shock, a level of consciousness that is altered or falling, and severe pain.\n\nThat decision changes two things: how fast you move, and sometimes where you go.\n\nIt is also reversible. A patient who looked terrible and has improved with oxygen and positioning can be downgraded. A patient who looked stable and is quietly deteriorating gets upgraded — and that upgrade is the more important of the two, because it is the one people miss.\n\nThe cost of deciding late is the part to internalise. Everything you do on scene is time the patient is not in the place that can fix them. Deciding early is not being hasty; it is giving the hospital the minutes it needs.",
+          "standard": "The primary assessment concludes with a transport priority determination rather than a summary of findings. High-priority designation indicates immediate transport with continued assessment performed en route. Indications include a general impression of critical illness, compromised or threatened airway, inadequate ventilation, uncontrolled hemorrhage, signs of hypoperfusion, altered or declining level of consciousness, and severe pain. The determination governs both the pace of on-scene activity and, where systems permit, destination selection. Priority is subject to revision in either direction on reassessment, with upgrade of an initially stable patient representing the more commonly missed change. Delayed determination consumes time that cannot be recovered downstream."
+        },
+        "eli_new": {
+          "analogy": "The primary assessment is not a report. It is a question with two answers: now, or not now.",
+          "body": "It is easy to treat assessment as information-gathering that ends when you run out of things to check. The point of the primary survey is narrower than that: find the things that kill people quickly, fix what you can, and decide whether this patient can afford for you to stay."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what the primary assessment ends with and what would make a patient high priority.",
+          "must_hit": [
+            {
+              "point": "It ends in a transport priority decision",
+              "accept": [
+                "decision",
+                "priority",
+                "transport",
+                "now"
+              ]
+            },
+            {
+              "point": "High priority means go now, assess en route",
+              "accept": [
+                "go now",
+                "immediate",
+                "en route",
+                "on the way",
+                "load"
+              ]
+            },
+            {
+              "point": "Drivers: bad impression, airway, breathing, bleeding, shock, altered LOC, severe pain",
+              "accept": [
+                "impression",
+                "airway",
+                "breathing",
+                "bleed",
+                "shock",
+                "conscious",
+                "pain"
+              ]
+            },
+            {
+              "point": "It can be revised in either direction",
+              "accept": [
+                "revise",
+                "change",
+                "upgrade",
+                "downgrade",
+                "reassess"
+              ]
+            }
+          ],
+          "model_answer": "It ends with a decision, not a summary: does this patient go now or do we have time? High priority means you load and keep assessing on the way. The drivers are exactly what you have been looking for — a general impression of a sick patient, an airway you are fighting to hold, inadequate breathing, uncontrolled bleeding, signs of shock, an altered or falling level of consciousness, and severe pain. It changes your pace and sometimes your destination, and it can be revised either way — the upgrade of a patient who looked stable and is quietly deteriorating is the one people miss. Deciding late costs time nobody can get back."
+        },
+        "story": {
+          "title": "Eleven minutes on a driveway",
+          "dispatch": "Rescue 4 — 71-year-old male, weakness, no other detail.",
+          "body": "He was grey and quiet and his skin was wet, and the crew did a careful, thorough, complete assessment on the driveway because nothing was obviously broken.\n\nEleven minutes. A full set of vitals, a second set, a history, a medication list.\n\nNone of it was wrong. All of it could have been done in the back of a moving ambulance, and the decision to go could have been made in the first ninety seconds."
+        },
+        "do": {
+          "activity": "priority_call",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each patient at the end of the primary assessment.",
+          "config": {
+            "buckets": [
+              "High priority — go now",
+              "Not high priority"
+            ],
+            "items": [
+              {
+                "text": "Grey, clammy, responding only to voice",
+                "bucket": 0
+              },
+              {
+                "text": "Alert, orientated, twisted ankle, normal vitals",
+                "bucket": 1
+              },
+              {
+                "text": "Bleeding from a thigh wound you have not controlled",
+                "bucket": 0
+              },
+              {
+                "text": "Breathing 8 times a minute and shallow",
+                "bucket": 0
+              },
+              {
+                "text": "Alert with a laceration to the forearm, bleeding controlled",
+                "bucket": 1
+              },
+              {
+                "text": "Was alert on arrival, now only responds to your voice",
+                "bucket": 0
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment. Confirm the high-priority criteria list the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-07",
+      "title": "XABC: life-threatening bleeding first",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-02-05"
+      ],
+      "related": [
+        "EMT-03-02-05",
+        "EMT-03-01-05"
+      ],
+      "key_points": [
+        "The traditional order is Airway, Breathing, Circulation",
+        "XABC puts eXsanguinating haemorrhage before the airway, because massive external bleeding kills faster than anything else",
+        "It applies where there is obvious, catastrophic external bleeding — an arterial bleed or an amputation",
+        "In practice it takes seconds: apply the tourniquet or the pressure, then go straight to airway",
+        "It does not replace ABC for every patient; it reorders it for the ones actively bleeding out",
+        "The change reflects what actually kills trauma patients in the first minutes"
+      ],
+      "misconceptions": [
+        "Applying XABC to every patient regardless of bleeding",
+        "Working through airway and breathing while a patient bleeds out from a limb",
+        "Believing XABC abandons the airway"
+      ],
+      "exam_favorites": [
+        "What the X stands for",
+        "When it applies",
+        "That it reorders rather than replaces ABC"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The order you were taught is Airway, Breathing, Circulation, and it is right for the overwhelming majority of patients. Airway problems kill in minutes, breathing problems in a few more, circulation problems more slowly still.\n\nThere is one exception, and it comes from what people actually die of in the first minutes of major trauma. A patient with an arterial bleed from a limb, or a traumatic amputation, can lose a fatal volume of blood in less time than it takes to work carefully through an airway assessment. For that patient the order becomes XABC, where X stands for exsanguinating haemorrhage.\n\nIn practice this is not a philosophical reordering, it is a few seconds. You see the bleeding, you put a tourniquet on it or you put hard pressure on it, and then you go straight into the airway as normal. The X is not a new assessment phase; it is a single intervention inserted at the front.\n\nAnd it applies only where the bleeding is obvious and catastrophic. A patient with a bleeding scalp wound gets ABC, and their bleeding gets dealt with at C.\n\nWhat XABC really encodes is a piece of hard-won evidence: for the bleeding trauma patient, the clock on blood loss is faster than the clock on everything else.",
+          "standard": "The conventional primary assessment sequence prioritises airway, breathing and circulation according to the rapidity with which each causes death. XABC modifies this sequence by placing control of exsanguinating external hemorrhage before airway assessment, reflecting evidence that massive external hemorrhage from extremity arterial injury or traumatic amputation produces death more rapidly than airway compromise in this specific population. The modification is procedural rather than structural: hemorrhage control is applied as a single immediate intervention — typically tourniquet application or direct pressure — after which the standard sequence proceeds. It is indicated only where catastrophic external hemorrhage is evident, and does not supersede the conventional sequence for other presentations."
+        },
+        "eli_new": {
+          "analogy": "The order is set by which clock runs fastest. For a patient bleeding out of a limb, that clock is the blood.",
+          "body": "ABC is not a ritual, it is a ranking by how quickly each thing kills. XABC is the same logic applied honestly: when someone is losing blood at arterial speed, blood is now the fastest clock in the room, so it goes first."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what the X in XABC stands for, when you would use it, and why the order changes.",
+          "must_hit": [
+            {
+              "point": "X is exsanguinating or massive external haemorrhage",
+              "accept": [
+                "exsanguinat",
+                "bleed",
+                "hemorrhage",
+                "haemorrhage",
+                "massive"
+              ]
+            },
+            {
+              "point": "Used where bleeding is obvious and catastrophic",
+              "accept": [
+                "arterial",
+                "amputation",
+                "catastrophic",
+                "obvious",
+                "massive"
+              ]
+            },
+            {
+              "point": "It is one immediate intervention, then straight to airway",
+              "accept": [
+                "tourniquet",
+                "pressure",
+                "seconds",
+                "then airway",
+                "straight"
+              ]
+            },
+            {
+              "point": "It reorders rather than replaces ABC",
+              "accept": [
+                "reorder",
+                "not replace",
+                "still",
+                "same",
+                "most patients",
+                "exception"
+              ]
+            }
+          ],
+          "model_answer": "The X is exsanguinating haemorrhage — massive external bleeding. ABC ranks things by how quickly they kill, and for most patients airway is the fastest clock. But a patient with an arterial limb bleed or a traumatic amputation can lose a fatal volume faster than you can work carefully through an airway, so for them blood becomes the fastest clock and goes first. In practice it takes seconds: tourniquet or hard pressure, then straight into airway as normal. It applies only where the bleeding is obvious and catastrophic — a bleeding scalp wound is still handled at C — so it reorders the sequence for a specific patient rather than replacing it for everyone."
+        },
+        "story": {
+          "title": "Six seconds",
+          "dispatch": "Rescue 4 — industrial accident, arm injury, heavy bleeding reported.",
+          "body": "You could see it from the door: bright blood, pulsing, pooling out from under his left arm and a co-worker holding a jacket against it that was already soaked.\n\nNobody assessed an airway. Your partner had a tourniquet high on that arm and wound down inside about six seconds, and only then knelt at his head and started talking to him.\n\nHe was talking back. The airway had been fine the whole time. The blood had not."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment. Confirm whether the current text teaches XABC explicitly and the exact indications it gives."
     }
   ]
 }
