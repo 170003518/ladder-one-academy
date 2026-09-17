@@ -56,6 +56,18 @@
         "EMT-06-04-04",
         "EMT-06-04-05"
       ]
+    },
+    {
+      "id": "EMT-06-05",
+      "title": "Musculoskeletal injuries",
+      "concepts": [
+        "EMT-06-05-01",
+        "EMT-06-05-02",
+        "EMT-06-05-03",
+        "EMT-06-05-04",
+        "EMT-06-05-05",
+        "EMT-06-05-06"
+      ]
     }
   ],
   "concepts": [
@@ -3422,6 +3434,1125 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm burn dressing guidance and the significant-area list against the current text. Burn centre referral criteria are DELIBERATELY NOT STATED as percentages or ages, because they are set locally and by regional burn services and are revised; use your own."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-01",
+      "title": "Fractures, dislocations, sprains and strains",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-05-02",
+        "EMT-06-05-05",
+        "EMT-06-02-04"
+      ],
+      "key_points": [
+        "A fracture is a broken bone; a dislocation is a joint out of position; a sprain is a stretched or torn ligament; a strain is a stretched or torn muscle or tendon",
+        "You cannot reliably tell a fracture from a sprain in the field — treat what you cannot exclude as a fracture",
+        "An open fracture is one where the skin over it is broken, whether or not bone is visible; it carries a high infection risk",
+        "Signs are deformity, swelling, bruising, tenderness over the bone, inability to use the limb, and crepitus — which you never deliberately elicit",
+        "Compare with the other side: a limb is its own best reference",
+        "Dislocations are extremely painful and frequently threaten the nerves and vessels crossing that joint",
+        "Angulated fractures and dislocations are splinted in the position found, unless the limb is pulseless — then follow your protocol",
+        "A femur fracture can bleed a significant volume into the thigh, so it is a circulation problem as well as a bone problem",
+        "Check circulation, sensation and movement before splinting and again after, every time"
+      ],
+      "misconceptions": [
+        "Trying to distinguish a sprain from a fracture in the field",
+        "Testing for crepitus deliberately",
+        "Treating a femur fracture as purely an orthopaedic problem",
+        "Splinting without checking circulation first"
+      ],
+      "exam_favorites": [
+        "Cannot tell a fracture from a sprain in the field",
+        "What makes a fracture open",
+        "Femur fractures bleed",
+        "Check CSM before and after"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Four words that get mixed up, and the distinction is simpler than it sounds.\n\nA fracture is a broken bone. A dislocation is a joint where the bones have come out of position. A sprain is a ligament — the tissue joining bone to bone across a joint — stretched or torn. A strain is a muscle or tendon stretched or torn.\n\nNow the practical truth: you cannot reliably tell a fracture from a sprain at the roadside. Neither can most doctors without an x-ray. Swollen, painful, bruised ankles are fractures often enough that guessing is not worth doing. So the rule is straightforward — treat what you cannot exclude as a fracture, splint it, and let the x-ray sort it out. Nobody has been harmed by a splinted sprain.\n\nAn open fracture is one where the skin over the fracture is broken. Note that carefully: it does not require visible bone. A small puncture wound over a fracture site, made by a bone end that went out and came back, makes that an open fracture, and it carries a high infection risk that changes how urgently it is managed. Cover it with a sterile dressing, note it, and say the word open at handover.\n\nThe signs: deformity, swelling, bruising, tenderness directly over the bone, an inability to use or bear weight on the limb, and crepitus — the grating of bone ends.\n\nOn crepitus: you may feel it while doing something else, and if you do, that is a finding. You never go looking for it. Deliberately moving a limb to see whether it grates causes pain and further damage for information that changes nothing about your treatment.\n\nUse the other side. Patients come with a built-in reference. Compare shape, length, alignment, colour and warmth against the uninjured limb — subtle deformity is far easier to see in comparison than in isolation.\n\nDislocations deserve respect. They are ferociously painful, and because nerves and vessels cross joints, a displaced joint can stretch or compress them. Check circulation and sensation distal to any dislocation immediately, and again after any movement.\n\nAs a general rule, splint angulated fractures and dislocations in the position you found them. Straightening things causes damage and pain. The exception is a limb with no pulse below the injury, where restoring perfusion may justify a single careful attempt at realignment — and that is a protocol matter, so know what yours says before you are standing over a white foot.\n\nOne fracture deserves separate mention. A femur can bleed a substantial volume into the thigh, and two femurs can produce shock on their own. Treat a femur fracture as a circulation problem as well as a bone problem, and take a pulse rather than just a splint.\n\nAnd the habit that underpins all of this: circulation, sensation and movement below the injury, checked before you splint and again after. Every time, recorded both times. It is the only way anybody knows whether your splint helped or harmed.",
+          "standard": "Fracture denotes osseous discontinuity; dislocation denotes articular displacement; sprain denotes ligamentous stretching or tearing; strain denotes musculotendinous stretching or tearing. Prehospital differentiation of fracture from sprain is unreliable; injuries that cannot be excluded as fracture are managed as such. Open fracture denotes disruption of overlying integument irrespective of bone visibility, conferring substantial infection risk and altering urgency; sterile covering and explicit handover are indicated. Findings include deformity, swelling, ecchymosis, point tenderness, functional loss and crepitus; crepitus is never deliberately elicited, as provocation produces pain and further injury without altering management. Contralateral comparison provides an internal reference for subtle deformity. Dislocations produce severe pain and may compromise neurovascular structures crossing the joint, requiring immediate and repeated distal assessment. Angulated fractures and dislocations are splinted in the position found; absent distal pulse may justify a single careful realignment attempt per protocol. Femoral fracture may sequester substantial blood volume within the thigh and constitutes a circulatory as well as skeletal injury. Circulation, sensation and movement distal to injury are assessed and documented before and after splinting."
+        },
+        "eli_new": {
+          "analogy": "A patient brings their own control group. The other arm is the same arm without the injury, and comparing the two shows you things staring at one never will.",
+          "body": "Never go looking for crepitus. If you feel it while doing something necessary, note it. Deliberately rocking a limb to hear it grate hurts the patient for information that changes nothing you were going to do."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define the four injury types, explain what makes a fracture open, and say what you check around splinting.",
+          "must_hit": [
+            {
+              "point": "Fracture is broken bone; dislocation is a joint out of position",
+              "accept": [
+                "fracture",
+                "bone",
+                "dislocat",
+                "joint",
+                "position"
+              ]
+            },
+            {
+              "point": "Sprain is a ligament; strain is muscle or tendon",
+              "accept": [
+                "sprain",
+                "ligament",
+                "strain",
+                "muscle",
+                "tendon"
+              ]
+            },
+            {
+              "point": "You cannot tell a fracture from a sprain in the field — treat as fracture",
+              "accept": [
+                "cannot",
+                "tell",
+                "sprain",
+                "treat",
+                "splint",
+                "x-ray"
+              ]
+            },
+            {
+              "point": "Open fracture means broken skin over it, with or without visible bone",
+              "accept": [
+                "open",
+                "skin",
+                "broken",
+                "visible",
+                "infection"
+              ]
+            },
+            {
+              "point": "Never deliberately elicit crepitus",
+              "accept": [
+                "crepitus",
+                "deliberate",
+                "never",
+                "look",
+                "grat"
+              ]
+            },
+            {
+              "point": "Compare with the uninjured side",
+              "accept": [
+                "compare",
+                "other side",
+                "opposite",
+                "reference"
+              ]
+            },
+            {
+              "point": "A femur fracture bleeds significantly into the thigh",
+              "accept": [
+                "femur",
+                "thigh",
+                "bleed",
+                "volume",
+                "shock",
+                "circulation"
+              ]
+            },
+            {
+              "point": "Check circulation, sensation and movement before and after splinting",
+              "accept": [
+                "circulation",
+                "sensation",
+                "movement",
+                "before",
+                "after",
+                "csm"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The other ankle",
+          "dispatch": "Medic 2 — fall on stairs, ankle injury, patient says it is just a sprain.",
+          "body": "It was swollen and sore and looked, in isolation, like every sprained ankle anybody has ever seen.\n\nThe student put the two feet side by side and one of them pointed slightly differently from the other.\n\nIt had been invisible until there was something to compare it against."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the injury definitions, the open fracture definition and the guidance on realigning a pulseless limb against the current text and local protocol, which governs realignment."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-02",
+      "title": "Splinting principles and types",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-05-01"
+      ],
+      "related": [
+        "EMT-06-05-01",
+        "EMT-06-05-03",
+        "EMT-06-01-04"
+      ],
+      "key_points": [
+        "Splinting reduces pain, prevents further damage to nerves and vessels, limits bleeding, and makes movement possible",
+        "Immobilise the joint above and the joint below the fracture; for a joint injury, immobilise the bone above and below",
+        "Check circulation, sensation and movement before splinting and again immediately after — every single time",
+        "Expose the injury and cover any open wound with a sterile dressing before the splint goes on",
+        "Pad the splint and pad the gaps, especially over bony points, because pressure under a splint causes injury over time",
+        "Splint in the position found, unless the limb is pulseless and your protocol permits realignment",
+        "Rigid splints, formable splints, vacuum splints, sling and swathe, and the patient's own body all have a place",
+        "Splint before moving the patient where the situation allows, but a critical patient is moved and splinted en route",
+        "Do not delay transport of a major trauma patient to splint individual fractures"
+      ],
+      "misconceptions": [
+        "Splinting without checking circulation first",
+        "Failing to pad bony points",
+        "Splinting individual fractures on a major trauma patient before transport",
+        "Immobilising only the fracture site itself"
+      ],
+      "exam_favorites": [
+        "Joint above and joint below",
+        "CSM before and after",
+        "Padding",
+        "When splinting waits"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Splinting does four things. It reduces pain, often dramatically. It stops broken ends moving and causing more damage to the nerves and vessels beside them. It limits bleeding, because moving bone ends tear tissue and keep bleeding going. And it makes the patient movable, which they may not be otherwise.\n\nThe basic rule of coverage: for a fracture in a bone, immobilise the joint above and the joint below it. For an injury to a joint, immobilise the bone above and the bone below. Splinting just the painful spot leaves the ends free to move, which defeats the purpose.\n\nThen the rule that matters more than any technique: circulation, sensation and movement, before and after. Before, so you know what you started with. After, so you know your splint has not made it worse. A splint applied over a limb that already had no pulse is a different situation from a splint that caused the pulse to disappear, and the only way anybody can tell those apart is if you checked first. Record both.\n\nBefore the splint goes on: expose the injury properly and cover any open wound with a sterile dressing. You cannot dress a wound through a splint, and discovering an open fracture after immobilising the limb means undoing your own work.\n\nPad it. Pad the splint itself and pad the gaps between splint and limb, particularly over bony points — ankles, knees, elbows, wrists. A hard surface pressing on a bony point for forty minutes of transport causes real injury, and the patient may not be able to tell you because of the pain from the fracture. Padding is not a nicety.\n\nSplint in the position found. Straightening angulated fractures causes damage and severe pain. The exception is a limb with no pulse below the injury — where restoring circulation may justify one careful attempt at realignment, and where your protocol governs. Know what yours says.\n\nThe types available: rigid splints, which are firm and need the limb brought to them or padding to fill the gaps; formable splints, which mould to the limb as found and are excellent for angulated injuries; vacuum splints, which conform closely and hold the position found extremely well; slings and swathes for the shoulder and upper arm; and the patient themselves — an injured leg splinted to the good leg, an injured arm bound to the chest — which works when equipment is short or the patient must be moved now.\n\nFinally, timing, which is where judgement comes in. For an isolated limb injury in a stable patient, splint before you move them. It is kinder and it prevents further damage.\n\nFor a major trauma patient, do not do that. Splinting individual fractures on somebody who is bleeding internally spends the minutes that matter most on the least important injury. Get them onto a device that immobilises everything at once, get moving, and splint en route if at all. A femur fracture in a patient with a rigid abdomen is not what is going to kill them.",
+          "standard": "Splinting reduces pain, prevents further neurovascular injury from bone end movement, limits haemorrhage and facilitates patient movement. Immobilisation encompasses the joint proximal and distal to a fractured bone, or the bone proximal and distal to an injured joint. Circulation, sensation and movement are assessed and documented immediately before and immediately after application, permitting differentiation between pre-existing and splint-induced compromise. Injuries are exposed and open wounds covered with sterile dressings prior to splint application. Padding of the splint and of gaps, particularly over bony prominences, prevents pressure injury during transport, which the patient may not report owing to fracture pain. Splinting is performed in the position found; realignment is reserved for pulseless limbs where protocol permits. Splint types comprise rigid, formable, vacuum, sling and swathe, and anatomical splinting using the patient's own body. In isolated injury with a stable patient, splinting precedes movement; in major trauma, whole-body immobilisation and expedited transport take precedence, with individual splinting performed en route or omitted."
+        },
+        "eli_new": {
+          "analogy": "A splint has two jobs: hold the ends still, and do no harm for the next forty minutes. The padding is the second job.",
+          "body": "The judgement call is timing. For a broken wrist, splint then move. For a patient with a rigid abdomen and a broken femur, the femur can wait — spending five minutes on it is spending five minutes on the injury least likely to kill them."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what splinting achieves, how much you immobilise, and when splinting waits.",
+          "must_hit": [
+            {
+              "point": "Reduces pain, prevents further damage, limits bleeding, allows movement",
+              "accept": [
+                "pain",
+                "damage",
+                "bleeding",
+                "move",
+                "nerve",
+                "vessel"
+              ]
+            },
+            {
+              "point": "Immobilise the joint above and below a fracture",
+              "accept": [
+                "joint",
+                "above",
+                "below",
+                "proximal",
+                "distal"
+              ]
+            },
+            {
+              "point": "Check CSM immediately before and immediately after",
+              "accept": [
+                "circulation",
+                "sensation",
+                "movement",
+                "before",
+                "after",
+                "csm"
+              ]
+            },
+            {
+              "point": "Cover open wounds before the splint goes on",
+              "accept": [
+                "open",
+                "wound",
+                "dress",
+                "before",
+                "expose"
+              ]
+            },
+            {
+              "point": "Pad the splint and bony points",
+              "accept": [
+                "pad",
+                "bony",
+                "pressure",
+                "gap"
+              ]
+            },
+            {
+              "point": "Splint in the position found unless pulseless and protocol permits",
+              "accept": [
+                "position",
+                "found",
+                "pulseless",
+                "realign",
+                "protocol"
+              ]
+            },
+            {
+              "point": "Major trauma patients are moved first and splinted en route or not at all",
+              "accept": [
+                "major",
+                "trauma",
+                "transport",
+                "en route",
+                "delay",
+                "first"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Five minutes on a femur",
+          "dispatch": "Debrief — multi-system trauma, scene time review.",
+          "body": "The femur was obviously broken and the traction splint went on beautifully, applied correctly by a crew who knew what they were doing.\n\nThe patient also had a rigid abdomen and a pulse of 130.\n\nThe splint was five minutes of excellent care applied to the injury that was least likely to be the problem."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Splinting a limb",
+          "steps": [
+            {
+              "text": "Decide whether to splint now or move now — major trauma goes first, splinting happens en route",
+              "critical": true
+            },
+            {
+              "text": "Expose the injury fully and compare with the other side",
+              "critical": true
+            },
+            {
+              "text": "CHECK AND RECORD circulation, sensation and movement DISTAL to the injury",
+              "critical": true,
+              "note": "Before, so you know what you started with. This is what lets anyone tell your splint from the injury."
+            },
+            {
+              "text": "Control any bleeding and cover open wounds with a sterile dressing",
+              "critical": true,
+              "note": "You cannot dress a wound through a splint."
+            },
+            {
+              "text": "Remove rings, watches and constricting items distal to the injury",
+              "critical": true
+            },
+            {
+              "text": "Choose a splint that fits the position the limb is in",
+              "critical": false
+            },
+            {
+              "text": "Immobilise the JOINT ABOVE and the JOINT BELOW a fractured bone",
+              "critical": true,
+              "note": "For a joint injury, immobilise the bone above and below instead."
+            },
+            {
+              "text": "PAD the splint and PAD the gaps, especially over bony points",
+              "critical": true
+            },
+            {
+              "text": "Splint IN THE POSITION FOUND unless the limb is pulseless and protocol permits realignment",
+              "critical": true
+            },
+            {
+              "text": "Secure firmly enough to immobilise, not tightly enough to constrict",
+              "critical": true
+            },
+            {
+              "text": "RECHECK circulation, sensation and movement IMMEDIATELY after",
+              "critical": true,
+              "note": "If anything has worsened, loosen and reassess before you go anywhere."
+            },
+            {
+              "text": "Elevate and apply cold per protocol where appropriate",
+              "critical": false
+            },
+            {
+              "text": "Reassess CSM again during transport — swelling continues",
+              "critical": true
+            },
+            {
+              "text": "Document both checks with times, and hand over what changed",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm splinting principles and the guidance on realignment against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-03",
+      "title": "The traction splint",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-05-02"
+      ],
+      "related": [
+        "EMT-06-05-02",
+        "EMT-06-05-04",
+        "EMT-06-05-06"
+      ],
+      "key_points": [
+        "A traction splint is for an isolated closed mid-shaft femur fracture, and for almost nothing else",
+        "It works by applying steady pull along the line of the bone, which realigns the ends and relaxes the powerful thigh muscles that are pulling them past each other",
+        "That muscle spasm is what causes the extreme pain and the ongoing bleeding, so relieving it treats both",
+        "It is contraindicated with injury to the pelvis, hip, knee or ankle on that side, with a lower leg fracture, and with a partial amputation or avulsion",
+        "It is not used in an open femur fracture where bone would be drawn back inside, per protocol",
+        "Applying traction to a fractured pelvis can worsen the bleeding, which is why the pelvis must be assessed first",
+        "Check circulation, sensation and movement before and after, as with any splint",
+        "Two people apply it: one maintains manual traction throughout while the other works the device",
+        "Manual traction is never released once started until the device has taken over"
+      ],
+      "misconceptions": [
+        "Applying it with a suspected pelvic fracture",
+        "Releasing manual traction part way through application",
+        "Using it for a fracture near the knee or ankle",
+        "Using it on a patient with multiple injuries who needs to move now"
+      ],
+      "exam_favorites": [
+        "Isolated closed mid-shaft femur only",
+        "Why it relieves pain and bleeding",
+        "The contraindications",
+        "Never release manual traction"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The traction splint has one job and a narrow set of circumstances for doing it: an isolated, closed, mid-shaft femur fracture.\n\nHere is why it works. The thigh contains the most powerful muscles in the body, and when the femur breaks, those muscles contract. They pull the broken ends past each other and hold them there, overlapping. That spasm is what causes the extreme pain of a femur fracture, it shortens the limb, and it keeps bone ends grinding through tissue and bleeding.\n\nApplying steady traction along the line of the bone overcomes that pull. The ends come back into alignment, the muscles relax, the pain falls substantially, and the bleeding slows because the ends stop moving. It is one of the more satisfying things you can do, and one of the few interventions where the patient thanks you immediately.\n\nNow the contraindications, which is where this concept earns its difficulty.\n\nAny injury to the pelvis, hip, knee or ankle on that side. Any fracture of the lower leg. A partial amputation or avulsion where traction could pull the limb apart. And an open femur fracture where traction would draw contaminated bone back inside — follow your protocol on that one, as practice varies.\n\nThe pelvis matters most. Traction pulls on the femur and the femur pulls on the pelvis, so applying traction to a patient with a fractured pelvis can pull open a pelvic fracture that is already bleeding heavily. That is why the pelvis is assessed before the traction splint comes off the vehicle, and why the sequence is not negotiable.\n\nThe logic of the contraindications is the same in each case: traction is a pulling force, and it needs somewhere solid to pull against at each end. If either anchor is broken, you are pulling a broken thing apart.\n\nApplication is a two-person job and cannot properly be done alone. One person applies manual traction and holds it. The other measures, positions and works the device. Then the device takes over and only then does the first person let go.\n\nThat last point is the one to remember. Once manual traction starts, it is not released until the mechanical traction is applied and holding. Letting go part way lets the muscles snap the ends back past each other, which hurts enormously, undoes what you achieved, and causes more damage on the way.\n\nAnd as with every splint: circulation, sensation and movement before, and again after.\n\nOne judgement note. This is an excellent device for the right patient, and the right patient is a stable one with an isolated femur fracture. In a multiply injured patient who needs to be moving now, it is usually the wrong use of five minutes.",
+          "standard": "The traction splint is indicated for isolated closed mid-shaft femoral fracture. Mechanism relies on countering spasm of the powerful thigh musculature, which following fracture contracts and displaces the bone ends into overlap, producing severe pain, limb shortening and continued haemorrhage from bone end movement. Applied longitudinal traction restores alignment, relieves spasm, reduces pain and limits haemorrhage. Contraindications comprise injury to the ipsilateral pelvis, hip, knee or ankle; fracture of the lower leg; partial amputation or avulsion where traction risks separation; and open femoral fracture where traction would retract contaminated bone, per protocol. Pelvic fracture is the critical contraindication, as femoral traction transmits force to the pelvis and may distract an actively haemorrhaging pelvic fracture; pelvic assessment therefore precedes application. Application requires two providers: one maintains manual traction continuously while the second applies the device. Manual traction is not released until mechanical traction is established, as premature release permits recurrence of overlap with associated pain and tissue damage. Circulation, sensation and movement are assessed before and after. Application is inappropriate in multiply injured patients requiring expedited transport."
+        },
+        "eli_new": {
+          "analogy": "The thigh muscles are strong enough to pull a broken femur past itself and hold it there. Traction is you having a quiet argument with the strongest muscles in the body, and winning by being steady rather than strong.",
+          "body": "Every contraindication is the same idea: traction pulls between two anchors, and if an anchor is broken you are pulling a broken thing apart. Pelvis, hip, knee, ankle, lower leg, partial amputation — all of them are a broken anchor."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "State when a traction splint is used, why it works, and the contraindications.",
+          "must_hit": [
+            {
+              "point": "For an isolated closed mid-shaft femur fracture",
+              "accept": [
+                "isolated",
+                "closed",
+                "mid-shaft",
+                "femur",
+                "thigh"
+              ]
+            },
+            {
+              "point": "Thigh muscles pull the ends past each other, causing pain and bleeding",
+              "accept": [
+                "muscle",
+                "spasm",
+                "overlap",
+                "pull",
+                "pain",
+                "bleed"
+              ]
+            },
+            {
+              "point": "Traction realigns the ends and relaxes the muscles",
+              "accept": [
+                "traction",
+                "align",
+                "relax",
+                "pull",
+                "relieve"
+              ]
+            },
+            {
+              "point": "Contraindicated with pelvis, hip, knee or ankle injury on that side",
+              "accept": [
+                "pelvis",
+                "hip",
+                "knee",
+                "ankle",
+                "contraindic"
+              ]
+            },
+            {
+              "point": "Contraindicated with lower leg fracture or partial amputation",
+              "accept": [
+                "lower leg",
+                "tibia",
+                "partial",
+                "amputat",
+                "avulsion"
+              ]
+            },
+            {
+              "point": "Pelvic fracture matters most — traction can worsen pelvic bleeding",
+              "accept": [
+                "pelvis",
+                "pelvic",
+                "bleed",
+                "worse",
+                "assess first"
+              ]
+            },
+            {
+              "point": "Two people, and manual traction is never released until the device holds",
+              "accept": [
+                "two",
+                "manual",
+                "release",
+                "never",
+                "device",
+                "hold"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Assess the pelvis first",
+          "dispatch": "Medic 6 — motorcyclist, obvious deformed thigh, conscious.",
+          "body": "The femur was unmistakable and somebody was already reaching into the locker for the traction splint.\n\nThe officer stopped them and checked the pelvis, which was unstable.\n\nTraction pulls on the femur and the femur pulls on the pelvis. The splint that was about to help him would have pulled open the injury that was actually bleeding."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Traction splint",
+          "steps": [
+            {
+              "text": "Confirm the indication: ISOLATED, CLOSED, MID-SHAFT femur fracture",
+              "critical": true
+            },
+            {
+              "text": "ASSESS THE PELVIS FIRST",
+              "critical": true,
+              "note": "Traction pulls on the femur, which pulls on the pelvis. An unstable pelvis is an absolute stop."
+            },
+            {
+              "text": "Rule out injury to the hip, knee or ankle on that side, and lower leg fracture",
+              "critical": true
+            },
+            {
+              "text": "Rule out partial amputation or avulsion",
+              "critical": true
+            },
+            {
+              "text": "Check and record circulation, sensation and movement distal to the injury",
+              "critical": true
+            },
+            {
+              "text": "Expose the limb and cover any wound",
+              "critical": false
+            },
+            {
+              "text": "Person one applies MANUAL TRACTION along the line of the bone and holds it",
+              "critical": true
+            },
+            {
+              "text": "Person two measures the device against the uninjured leg and positions it",
+              "critical": false
+            },
+            {
+              "text": "Person two secures the ischial strap and the ankle hitch",
+              "critical": true
+            },
+            {
+              "text": "Apply mechanical traction until the device takes the pull",
+              "critical": true
+            },
+            {
+              "text": "ONLY NOW does person one release manual traction",
+              "critical": true,
+              "note": "Releasing early lets the muscles snap the ends past each other again. It hurts enormously and undoes everything."
+            },
+            {
+              "text": "Secure the remaining straps, avoiding the fracture site",
+              "critical": false
+            },
+            {
+              "text": "RECHECK circulation, sensation and movement",
+              "critical": true
+            },
+            {
+              "text": "Secure the patient and the splint for movement, and reassess during transport",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the indications and contraindications for traction splinting, particularly the guidance on open femoral fractures, against the current text and local protocol, as practice varies."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-04",
+      "title": "Pelvic fractures",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-05-06",
+        "EMT-06-02-04",
+        "EMT-06-05-03"
+      ],
+      "key_points": [
+        "The pelvis is a ring, and a ring cannot break in only one place — one visible fracture means another somewhere else",
+        "A major pelvic fracture can bleed enormously, because large vessels run across the pelvis and the space has no limit to fill",
+        "Bleeding from a pelvic fracture is internal, invisible, and not reachable by anything an EMT carries",
+        "Suspect it from the mechanism: a fall from height, a motorcyclist, a pedestrian struck, a crash with side intrusion, and a fall from standing in an older patient",
+        "Signs are pelvic pain, instability, bruising over the pelvis or perineum, leg length difference or outward rotation, and unexplained shock",
+        "Assess pelvic stability ONCE, gently, and never again — repeated springing disturbs clot and worsens bleeding",
+        "Many services no longer test stability at all and rely on mechanism and pain; know what yours says",
+        "Do not log roll a patient with a suspected pelvic fracture if it can be avoided; use a scoop or a flat lift",
+        "The treatment is a pelvic binder, applied early, plus warmth, minimal movement and rapid transport"
+      ],
+      "misconceptions": [
+        "Springing the pelvis repeatedly to confirm instability",
+        "Log rolling a patient with a suspected pelvic fracture",
+        "Waiting for a low blood pressure before suspecting pelvic bleeding",
+        "Treating a fall from standing in an older patient as a minor mechanism"
+      ],
+      "exam_favorites": [
+        "A ring breaks in two places",
+        "Assess stability once, or not at all",
+        "Avoid log rolling",
+        "Unexplained shock plus mechanism"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The pelvis is a ring of bone. That single fact explains most of what follows.\n\nA ring cannot break in only one place. Take a metal ring and try to break it once — it does not work, it either holds or it gives way in two places. So if you find or suspect one pelvic fracture, there is another, and the ring has come apart in a way that lets the two halves move independently.\n\nWhy that matters is what runs across the pelvis. Large vessels, a rich network of veins, and the bone itself is highly vascular. When the ring comes apart, all of that tears. And because the pelvis has opened up, the space available for blood to fill has grown — there is no ceiling on it. Patients exsanguinate into their own pelvis.\n\nEvery bit of that bleeding is internal. You cannot see it, cannot measure it, and cannot put pressure on it. This is why the mechanism-plus-shock combination matters so much: a patient with the right mechanism and unexplained shock has a pelvic fracture until somebody images them, regardless of what your hands find.\n\nMechanisms: a fall from height. A motorcyclist. A pedestrian struck by a vehicle. A crash with intrusion from the side. And — the one that gets overlooked — a fall from standing height in an older person, which fractures pelvises routinely and does not feel like a mechanism at all.\n\nSigns: pain in the pelvis, groin or lower back. Instability if you assess for it. Bruising over the pelvis or perineum. One leg shorter, or rotated outwards. Blood at the urethra. And shock with no other explanation.\n\nNow, assessing stability. If your protocol has you check it: once. Gently. Downwards and inwards pressure on the iliac crests, one time, and then never again. The reason is mechanical — whatever clot has formed across those torn vessels is fragile, and springing the pelvis breaks it up and restarts the bleeding. The check tells you something you probably already knew from the mechanism, and each repetition costs blood.\n\nAnd be aware that many services have moved away from testing stability at all, on exactly that reasoning — the test can harm and rarely changes the decision. Mechanism and pain are enough to act on. Know what your protocol says.\n\nMovement matters too. Do not log roll a patient with a suspected pelvic fracture if there is any alternative. Rolling twists the two halves of a broken ring against each other. Use a scoop stretcher, or a flat lift with enough hands, and move them once.\n\nThe treatment is a pelvic binder, applied early — which has its own concept — along with keeping them warm, moving them as little as possible, and going quickly.",
+          "standard": "The pelvis constitutes an osseous ring; ring structures cannot sustain single-point disruption, so identification of one fracture implies a second. Disruption produces haemorrhage from adjacent major vessels, the pelvic venous plexus and cancellous bone, into a retroperitoneal space whose volume increases with displacement, permitting exsanguinating haemorrhage. Haemorrhage is entirely internal and inaccessible to prehospital control. Mechanisms conferring suspicion include falls from height, motorcyclist and pedestrian impacts, lateral compartment intrusion, and ground-level falls in geriatric patients. Findings include pelvic, groin or lumbar pain, instability, ecchymosis over the pelvis or perineum, limb shortening or external rotation, urethral bleeding, and unexplained shock. Where protocol directs stability assessment, it is performed once only with gentle downward and inward compression of the iliac crests; repeated assessment disrupts clot and increases haemorrhage. Many services have discontinued stability testing on this basis, relying on mechanism and pain. Log rolling is avoided where alternatives exist, as rotation displaces ring segments against one another; scoop stretcher or flat lift with adequate personnel is preferred. Management comprises early pelvic binder application, normothermia, minimal movement and expedited transport."
+        },
+        "eli_new": {
+          "analogy": "You cannot break a ring in one place. If you have found one fracture, there is a second one you have not found, and the ring is now two pieces that can move.",
+          "body": "Assess the pelvis once, or not at all. Every spring of an unstable pelvis breaks up whatever clot had formed, and the test rarely tells you something the mechanism had not already told you."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why a pelvic fracture bleeds so heavily, and how you assess and move the patient.",
+          "must_hit": [
+            {
+              "point": "The pelvis is a ring and cannot break in only one place",
+              "accept": [
+                "ring",
+                "two",
+                "one place",
+                "second",
+                "break"
+              ]
+            },
+            {
+              "point": "Large vessels tear and the space to fill has no limit",
+              "accept": [
+                "vessel",
+                "vein",
+                "bleed",
+                "space",
+                "volume",
+                "exsanguin"
+              ]
+            },
+            {
+              "point": "The bleeding is internal and unreachable",
+              "accept": [
+                "internal",
+                "invisible",
+                "cannot",
+                "pressure",
+                "reach"
+              ]
+            },
+            {
+              "point": "Mechanism plus unexplained shock is enough to suspect it",
+              "accept": [
+                "mechanism",
+                "shock",
+                "unexplained",
+                "suspect",
+                "fall"
+              ]
+            },
+            {
+              "point": "A fall from standing in an older patient fractures pelvises",
+              "accept": [
+                "standing",
+                "older",
+                "elderly",
+                "fall",
+                "overlook"
+              ]
+            },
+            {
+              "point": "Assess stability once, gently, or not at all per protocol",
+              "accept": [
+                "once",
+                "gentle",
+                "stability",
+                "never again",
+                "protocol",
+                "spring"
+              ]
+            },
+            {
+              "point": "Avoid log rolling; use a scoop or flat lift",
+              "accept": [
+                "log roll",
+                "scoop",
+                "flat lift",
+                "avoid",
+                "move once"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Spring it again",
+          "dispatch": "Debrief — pelvic fracture, three crew members on scene.",
+          "body": "The first crew member checked the pelvis and found it unstable, and said so.\n\nThe second checked, to confirm. The third checked, because they had not felt one before and wanted to know what it felt like.\n\nWhatever clot had formed across those torn veins was broken up three separate times, by three people all doing something they believed was reasonable."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the guidance on pelvic stability assessment against the current text and your own protocol — practice differs substantially, and a number of services no longer assess stability at all."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-05",
+      "title": "Neurovascular checks and compartment syndrome",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-05-02"
+      ],
+      "related": [
+        "EMT-06-03-01",
+        "EMT-06-05-02",
+        "EMT-06-03-03"
+      ],
+      "key_points": [
+        "Every limb injury gets a neurovascular check before and after anything you do to it",
+        "The check is remembered as CSM — circulation, sensation, movement — or PMS, pulse, motor, sensory",
+        "Circulation: pulse if findable, skin colour, warmth, and capillary refill compared with the other side",
+        "Sensation: can they feel you touching, and does it feel the same as the other limb",
+        "Movement: can they wiggle fingers or toes, within the limits of the pain",
+        "A finding is only useful compared against something — the other limb, or your own earlier check",
+        "Record the time with each check, because what matters is whether it changed and when",
+        "Compartment syndrome is the reason these checks are not paperwork: pain out of proportion is the earliest sign, and a present pulse excludes nothing",
+        "If anything has worsened after a splint or bandage, loosen it and reassess before you go anywhere"
+      ],
+      "misconceptions": [
+        "Recording 'CSM intact' without recording a time",
+        "Checking before but not after an intervention",
+        "Being reassured by a present pulse in a limb with severe pain",
+        "Leaving a splint on when circulation worsened after applying it"
+      ],
+      "exam_favorites": [
+        "What CSM actually involves",
+        "Compare against the other limb and your earlier check",
+        "Record times",
+        "Loosen if it worsened"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Neurovascular checks are the most repeated and most skipped assessment in trauma. Everybody knows to do them; a lot of records say 'CSM intact' with no time and no detail, and that record is worth very little.\n\nThe check has three parts, remembered either as CSM — circulation, sensation, movement — or PMS — pulse, motor, sensory. Same thing.\n\nCirculation. A pulse distal to the injury if you can find one, and often you cannot, which is fine. Then colour: pink, pale, dusky, mottled. Warmth, felt with the back of your hand. And capillary refill, pressed and released, compared with the other side.\n\nSensation. Touch them and ask whether they can feel it, and then ask the better question: does it feel the same as the other hand or foot? Patients frequently say yes to 'can you feel this' and then, asked to compare, say the injured side feels duller or tingly. That comparison is where the finding is.\n\nMovement. Can they wiggle fingers or toes? Not move the injured joint — just the digits beyond the injury. Pain limits this and that is expected; you are looking for whether the ability is there at all.\n\nThe thread through all of it is comparison. A capillary refill of three seconds means one thing if the other hand is two and quite another if the other hand is also three. A single reading without a comparison is nearly uninterpretable, and you have two comparisons available: the other limb, and your own previous check.\n\nWhich is why times matter. 'CSM intact' tells the hospital almost nothing. 'Radial pulse present, fingers pink and warm, sensation equal, moving all fingers — 14:20. Repeated after splint 14:26, unchanged' tells them everything, and it tells them your splint did no harm. If it later changes, somebody can see exactly when.\n\nAnd the reason all this matters rather than being paperwork: compartment syndrome. Swelling inside a compartment that cannot expand raises the pressure until muscle starts dying, with intact skin and an unremarkable-looking limb.\n\nThe earliest sign is pain out of proportion to the apparent injury. A patient whose pain seems excessive for what you can see is giving you a finding. Pain on passive stretching of the fingers or toes, a tight woody feel to the muscle compartment, and later numbness and tingling follow.\n\nThe pulse is the trap. It is often still present, because arterial pressure is higher than the pressure that has already shut down the small vessels feeding the muscle. Losing the pulse is a very late sign, and finding one present is no reassurance at all. If you wait for a pulseless limb before taking the pain seriously, the muscle has been dying for hours.\n\nAnd the practical consequence: if anything is worse after you applied a splint or a bandage, loosen it and reassess before moving. Not at the hospital. Now.",
+          "standard": "Neurovascular assessment is performed distal to every limb injury before and after any intervention, denoted CSM (circulation, sensation, movement) or PMS (pulse, motor, sensory). Circulatory assessment comprises distal pulse where palpable, colour, temperature and capillary refill with contralateral comparison. Sensory assessment establishes not only presence of sensation but equivalence to the contralateral limb, comparison frequently revealing deficit that presence alone does not. Motor assessment establishes digital movement distal to injury within pain limits. Findings require comparison, either contralateral or against prior assessment; isolated values are largely uninterpretable. Documentation includes timing, as change and its timing constitute the clinically significant information. Compartment syndrome represents the rationale for serial assessment: raised intracompartmental pressure produces muscle necrosis with intact integument. The earliest finding is pain disproportionate to apparent injury, followed by pain on passive stretch, a tense compartment, and later paraesthesia. Distal pulses commonly remain palpable, as arterial pressure exceeds the capillary closing pressure already reached; pulselessness is a late finding and preserved pulses provide no reassurance. Deterioration following splint or bandage application requires immediate loosening and reassessment."
+        },
+        "eli_new": {
+          "analogy": "A single capillary refill reading is a word with no sentence around it. The other limb and your own earlier check are the sentence.",
+          "body": "Write the time. 'CSM intact' with no time is almost worthless; the same words with a time, repeated after your splint, prove your splint did no harm and let anyone afterwards see exactly when something changed."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe a neurovascular check, explain why comparison matters, and name the earliest sign of compartment syndrome.",
+          "must_hit": [
+            {
+              "point": "Circulation, sensation, movement — or pulse, motor, sensory",
+              "accept": [
+                "circulation",
+                "sensation",
+                "movement",
+                "csm",
+                "pms",
+                "pulse",
+                "motor"
+              ]
+            },
+            {
+              "point": "Circulation: pulse, colour, warmth, capillary refill",
+              "accept": [
+                "pulse",
+                "colour",
+                "color",
+                "warm",
+                "capillary",
+                "refill"
+              ]
+            },
+            {
+              "point": "Ask whether sensation feels the SAME as the other side",
+              "accept": [
+                "same",
+                "compare",
+                "other",
+                "equal",
+                "duller"
+              ]
+            },
+            {
+              "point": "Compare against the other limb and your earlier check",
+              "accept": [
+                "compare",
+                "other limb",
+                "earlier",
+                "previous",
+                "reference"
+              ]
+            },
+            {
+              "point": "Record the time with every check",
+              "accept": [
+                "time",
+                "record",
+                "document",
+                "when",
+                "changed"
+              ]
+            },
+            {
+              "point": "Pain out of proportion is the earliest compartment syndrome sign",
+              "accept": [
+                "proportion",
+                "pain",
+                "earliest",
+                "compartment",
+                "stretch"
+              ]
+            },
+            {
+              "point": "A present pulse does not exclude compartment syndrome",
+              "accept": [
+                "pulse",
+                "present",
+                "exclude",
+                "late",
+                "reassur"
+              ]
+            },
+            {
+              "point": "If it worsened after a splint, loosen it and reassess now",
+              "accept": [
+                "loosen",
+                "worse",
+                "reassess",
+                "splint",
+                "now"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "CSM intact",
+          "dispatch": "Handover — forearm fracture, splinted at scene, transport 35 minutes.",
+          "body": "The record said 'CSM intact' and nothing else. No time, no detail, no second check.\n\nAt hospital the fingers were cool and the patient could not feel a pinch on the little finger.\n\nNobody could say whether that had happened in the splint, before it, or on the way in. Two lines and two times would have answered it."
+        }
+      },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "CSM",
+          "expansion": [
+            "C — Circulation: distal pulse if findable, colour, warmth, capillary refill — all compared with the other side",
+            "S — Sensation: not just 'can you feel this' but 'does it feel the SAME as the other side?'",
+            "M — Movement: can they wiggle the fingers or toes beyond the injury, within the pain",
+            "Also known as PMS — Pulse, Motor, Sensory. Same three things.",
+            "BEFORE and AFTER every splint, bandage or movement. WITH A TIME on each."
+          ],
+          "memory_image": "Three words, twice, with a clock. Once before you touch the limb and once after, and the two times are what make either of them mean anything."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the neurovascular assessment components and the compartment syndrome findings against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-06",
+      "title": "Pelvic binder application",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-05-04"
+      ],
+      "related": [
+        "EMT-06-05-04",
+        "EMT-06-02-04",
+        "EMT-06-05-03"
+      ],
+      "key_points": [
+        "A pelvic binder closes the pelvic ring, reducing the space blood can fill and allowing clot to form",
+        "It is applied for a suspected pelvic fracture based on mechanism and findings — you do not need confirmation to apply it",
+        "The single most common error is placing it too high: it goes over the greater trochanters, not over the iliac crests or the waist",
+        "The greater trochanters are the bony points at the widest part of the hips, and the binder is centred on them",
+        "Remove objects from pockets before applying, because anything trapped underneath becomes a pressure point for hours",
+        "Apply it early, before moving the patient where possible, and use a scoop or a flat lift rather than a log roll",
+        "Tighten to the manufacturer's specification — more is not better and over-tightening can cause harm",
+        "Once applied, it stays on: do not remove it to examine the pelvis, and do not loosen it to check",
+        "A folded sheet can be used where no commercial device is available, per protocol, applied at the same level"
+      ],
+      "misconceptions": [
+        "Applying the binder over the iliac crests or the waist",
+        "Log rolling the patient to apply it",
+        "Removing or loosening it to examine the pelvis",
+        "Leaving keys or a phone in a pocket underneath it",
+        "Waiting for confirmation of a fracture before applying it"
+      ],
+      "exam_favorites": [
+        "Over the greater trochanters, not the crests",
+        "Empty the pockets first",
+        "Apply early and leave it on",
+        "Do not log roll"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A pelvic binder closes the ring. When the pelvis comes apart the space available to fill with blood increases, and bringing the two halves back together reduces that space and lets clot form and hold. It also stops the broken ends grinding, which is both painful and a source of continued bleeding.\n\nYou apply it on suspicion. You do not need a confirmed fracture, you will not get one in the field, and waiting for certainty is waiting for blood loss. Mechanism plus pain, or mechanism plus unexplained shock, is enough.\n\nNow the error that matters more than all the others: position.\n\nA pelvic binder goes over the greater trochanters — the bony prominences you can feel at the widest part of the hips, roughly level with the crease of the buttock, considerably lower than most people place it. It does not go over the iliac crests, the bony ridges you feel when you put your hands on somebody's hips. And it certainly does not go around the waist.\n\nA binder placed too high does not close the ring. It compresses the top of the pelvis, which can actually open the bottom of it, and it is worse than not applying one. If you learn one thing from this concept: lower than you think. Find the trochanters with your hands and centre the binder on them.\n\nBefore it goes on, empty the pockets. Keys, a phone, a wallet, a belt buckle — anything trapped underneath will sit under pressure against skin for hours, because this binder is not coming off before hospital, and possibly not for some time afterwards. Pressure injuries from objects under binders are a documented and entirely preventable harm.\n\nApply it early, and apply it before moving the patient where the situation allows — the movement is what displaces an unstable pelvis. Getting it on first means one less opportunity for harm.\n\nGetting it under the patient is the practical problem. Do not log roll if there is any alternative. Rolling twists the two halves of the ring against each other. Slide the binder under the natural hollow at the knees and work it up, or use a scoop stretcher, or a flat lift with enough hands. Move the patient once.\n\nTighten to the manufacturer's specification — many devices have a mechanism that indicates correct tension. More is not better. Over-tightening can damage skin and, with certain fracture patterns, cause harm.\n\nAnd once it is on, it stays on. Do not remove it to examine the pelvis. Do not loosen it to check whether it is working. Do not take it off for the x-ray — that is a hospital decision made with surgeons present. Every removal is a fresh opportunity to restart bleeding that had stopped.\n\nIf no commercial binder is available, a folded sheet applied at the same level and secured can be used per protocol. The level is the part that matters; the material is secondary.",
+          "standard": "A pelvic binder approximates the disrupted pelvic ring, reducing potential space for haemorrhage and permitting clot stabilisation, while limiting bone end movement. Application is based on suspicion derived from mechanism with pain or unexplained shock; radiographic confirmation is neither available nor required prehospitally. Correct placement is centred over the greater trochanters, at the widest point of the hips, substantially lower than intuitive placement. Application over the iliac crests or the waist fails to close the ring, may distract the inferior pelvis, and is worse than no application. Pockets are emptied prior to application, as retained objects produce pressure injury during prolonged application. Early application preceding patient movement is preferred, as movement displaces the unstable ring. Log rolling is avoided; the device is slid beneath the popliteal hollow and worked proximally, or a scoop stretcher or flat lift employed. Tensioning follows manufacturer specification, over-tightening producing skin injury and potential harm with certain fracture patterns. The binder is not removed or loosened prehospitally for examination or assessment; removal is a hospital decision. A folded sheet applied at the same anatomical level may substitute per protocol."
+        },
+        "eli_new": {
+          "analogy": "The binder is a belt for hips, not a belt for a waist. Everybody's instinct puts it where a belt goes, and a belt is far too high.",
+          "body": "Lower than you think. The single most common failure of this device is placing it over the iliac crests because that is where hands naturally go on somebody's hips. Feel for the trochanters — the widest bony points, roughly level with the buttock crease — and centre it there."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain where a pelvic binder goes, why the level matters, and what you do before and after applying it.",
+          "must_hit": [
+            {
+              "point": "It closes the ring, reducing the space blood can fill",
+              "accept": [
+                "close",
+                "ring",
+                "space",
+                "volume",
+                "clot"
+              ]
+            },
+            {
+              "point": "Applied on suspicion — no confirmation needed",
+              "accept": [
+                "suspicion",
+                "suspect",
+                "confirm",
+                "mechanism",
+                "early"
+              ]
+            },
+            {
+              "point": "Over the GREATER TROCHANTERS, not the iliac crests or the waist",
+              "accept": [
+                "trochanter",
+                "crest",
+                "waist",
+                "lower",
+                "hip"
+              ]
+            },
+            {
+              "point": "Too high does not close the ring and can be worse than nothing",
+              "accept": [
+                "high",
+                "fail",
+                "worse",
+                "open",
+                "not close"
+              ]
+            },
+            {
+              "point": "Empty the pockets first",
+              "accept": [
+                "pocket",
+                "keys",
+                "phone",
+                "object",
+                "pressure"
+              ]
+            },
+            {
+              "point": "Apply before moving; do not log roll",
+              "accept": [
+                "before",
+                "move",
+                "log roll",
+                "scoop",
+                "flat lift"
+              ]
+            },
+            {
+              "point": "Tighten to specification and never remove or loosen it in the field",
+              "accept": [
+                "tighten",
+                "specification",
+                "remove",
+                "loosen",
+                "stays",
+                "hospital"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Where a belt goes",
+          "dispatch": "Debrief — pelvic binder applied at scene, repositioned at hospital.",
+          "body": "The crew had recognised the pelvic fracture, applied the binder promptly, and done everything else correctly.\n\nIt was sitting across the iliac crests, exactly where a belt would go, which is exactly where hands go when you put them on somebody's hips.\n\nIt had not closed the ring at all. The device was right, the decision was right, and the level was about ten centimetres too high."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Pelvic binder application",
+          "steps": [
+            {
+              "text": "Suspect a pelvic fracture from mechanism plus pain, or mechanism plus unexplained shock",
+              "critical": true,
+              "note": "Apply on suspicion. You will never get confirmation in the field."
+            },
+            {
+              "text": "Decide early — apply BEFORE moving the patient where the situation allows",
+              "critical": true
+            },
+            {
+              "text": "EMPTY THE POCKETS and remove belts and anything that will sit under the binder",
+              "critical": true,
+              "note": "It is not coming off before hospital. Keys under a binder cause pressure injury."
+            },
+            {
+              "text": "Expose the pelvis enough to identify the GREATER TROCHANTERS by feel",
+              "critical": true,
+              "note": "The widest bony points of the hips, roughly level with the buttock crease. LOWER THAN YOU THINK."
+            },
+            {
+              "text": "Get the binder underneath WITHOUT LOG ROLLING",
+              "critical": true,
+              "note": "Slide it under the hollow at the knees and work it up, or use a scoop or a flat lift."
+            },
+            {
+              "text": "Centre the binder OVER THE GREATER TROCHANTERS — not the iliac crests, not the waist",
+              "critical": true,
+              "note": "Too high does not close the ring and can be worse than applying nothing."
+            },
+            {
+              "text": "Bring the leg together and internally rotate them per protocol before tightening",
+              "critical": false
+            },
+            {
+              "text": "Tighten to the MANUFACTURER'S SPECIFICATION — more is not better",
+              "critical": true
+            },
+            {
+              "text": "Confirm the device is secured and the level has not shifted",
+              "critical": true
+            },
+            {
+              "text": "Do NOT remove or loosen it to examine or check — it stays on",
+              "critical": true,
+              "note": "Every removal is a fresh chance to restart bleeding that had stopped."
+            },
+            {
+              "text": "Keep the patient warm and move them as little as possible",
+              "critical": true
+            },
+            {
+              "text": "Check circulation, sensation and movement in both legs",
+              "critical": true
+            },
+            {
+              "text": "Pre-alert, and say a binder is on and at what time",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm binder placement, tensioning and the guidance on improvised binders against the current text, local protocol and the manufacturer's instructions for the specific device carried."
     }
   ]
 }

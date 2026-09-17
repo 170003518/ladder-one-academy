@@ -3392,6 +3392,1086 @@
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-01-Q001",
+      "concept_id": "EMT-06-05-01",
+      "style": "recall",
+      "stem": "What is a sprain?",
+      "options": [
+        {
+          "text": "A broken bone",
+          "rationale": "That is a fracture."
+        },
+        {
+          "text": "A stretched or torn ligament",
+          "rationale": "Correct. A strain involves muscle or tendon."
+        },
+        {
+          "text": "A stretched or torn muscle",
+          "rationale": "That is a strain."
+        },
+        {
+          "text": "A joint out of position",
+          "rationale": "That is a dislocation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-01-Q002",
+      "concept_id": "EMT-06-05-01",
+      "style": "recall",
+      "stem": "What makes a fracture open?",
+      "options": [
+        {
+          "text": "Visible bone protruding through the skin",
+          "rationale": "Visible bone is not required."
+        },
+        {
+          "text": "Broken skin over the fracture, with or without visible bone",
+          "rationale": "Correct. A small puncture over the site is enough."
+        },
+        {
+          "text": "Bleeding from the limb",
+          "rationale": "Bleeding alone does not make it open."
+        },
+        {
+          "text": "A fracture in more than one place",
+          "rationale": "That describes a different classification."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-01-Q003",
+      "concept_id": "EMT-06-05-01",
+      "style": "application",
+      "stem": "A swollen painful ankle cannot be told apart from a fracture. What do you do?",
+      "options": [
+        {
+          "text": "Treat it as a sprain and advise rest",
+          "rationale": "Guessing is not worth doing; fractures look like this."
+        },
+        {
+          "text": "Treat it as a fracture, splint it, and let the x-ray decide",
+          "rationale": "Correct. Nobody has been harmed by a splinted sprain."
+        },
+        {
+          "text": "Have the patient bear weight to test it",
+          "rationale": "Testing by weight-bearing risks further injury."
+        },
+        {
+          "text": "Move the joint to check for crepitus",
+          "rationale": "Crepitus is never deliberately elicited."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-01-Q004",
+      "concept_id": "EMT-06-05-01",
+      "style": "recall",
+      "stem": "How should crepitus be approached?",
+      "options": [
+        {
+          "text": "Test for it deliberately to confirm a fracture",
+          "rationale": "Provocation causes pain and damage for no change in treatment."
+        },
+        {
+          "text": "Note it if felt incidentally; never go looking for it",
+          "rationale": "Correct. It changes nothing you were going to do anyway."
+        },
+        {
+          "text": "It is the most reliable fracture sign and must be sought",
+          "rationale": "Reliability does not justify causing harm."
+        },
+        {
+          "text": "It should be documented only if the patient reports it",
+          "rationale": "Patients do not report crepitus; you feel it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-01-Q005",
+      "concept_id": "EMT-06-05-01",
+      "style": "application",
+      "stem": "Why is a femur fracture also a circulation problem?",
+      "options": [
+        {
+          "text": "Because splinting restricts blood flow",
+          "rationale": "A correctly applied splint should not."
+        },
+        {
+          "text": "Because a femur can bleed a substantial volume into the thigh",
+          "rationale": "Correct. Two femurs can produce shock on their own."
+        },
+        {
+          "text": "Because it always involves an artery injury",
+          "rationale": "Direct arterial injury is not required for significant loss."
+        },
+        {
+          "text": "Because the patient cannot walk",
+          "rationale": "Immobility is not a circulatory problem."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-01-Q006",
+      "concept_id": "EMT-06-05-01",
+      "style": "scenario",
+      "stem": "What is the best reference for judging subtle limb deformity?",
+      "options": [
+        {
+          "text": "A textbook diagram",
+          "rationale": "Anatomy varies between people."
+        },
+        {
+          "text": "The patient's uninjured opposite limb",
+          "rationale": "Correct. Patients bring their own control group."
+        },
+        {
+          "text": "The mechanism of injury",
+          "rationale": "It suggests what to look for but is not a reference."
+        },
+        {
+          "text": "The patient's own description",
+          "rationale": "Useful, but not a visual reference."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-02-Q001",
+      "concept_id": "EMT-06-05-02",
+      "style": "recall",
+      "stem": "How much should be immobilised for a fractured bone?",
+      "options": [
+        {
+          "text": "The fracture site alone",
+          "rationale": "This leaves the ends free to move."
+        },
+        {
+          "text": "The joint above and the joint below",
+          "rationale": "Correct. For a joint injury, the bone above and below instead."
+        },
+        {
+          "text": "The whole limb plus the trunk",
+          "rationale": "More than is required for most limb fractures."
+        },
+        {
+          "text": "Just distal to the fracture",
+          "rationale": "Immobilising one side achieves little."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-02-Q002",
+      "concept_id": "EMT-06-05-02",
+      "style": "sequence",
+      "stem": "What is checked immediately before and immediately after splinting?",
+      "options": [
+        {
+          "text": "The patient's blood pressure",
+          "rationale": "Important, but not the splinting-specific check."
+        },
+        {
+          "text": "Circulation, sensation and movement distal to the injury",
+          "rationale": "Correct. It distinguishes your splint from the injury itself."
+        },
+        {
+          "text": "The splint's expiry date",
+          "rationale": "Not a clinical check."
+        },
+        {
+          "text": "The mechanism of injury",
+          "rationale": "Established earlier, not around splinting."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-02-Q003",
+      "concept_id": "EMT-06-05-02",
+      "style": "application",
+      "stem": "Why does an open wound need dressing before the splint is applied?",
+      "options": [
+        {
+          "text": "Because splints are not sterile",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because you cannot dress a wound through a splint",
+          "rationale": "Correct — finding it afterwards means undoing your own work."
+        },
+        {
+          "text": "Because dressings hold the splint in place",
+          "rationale": "They do not serve that function."
+        },
+        {
+          "text": "Because protocol requires that order for billing",
+          "rationale": "Not a clinical consideration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-02-Q004",
+      "concept_id": "EMT-06-05-02",
+      "style": "application",
+      "stem": "Why does padding over bony points matter?",
+      "options": [
+        {
+          "text": "It improves patient comfort only",
+          "rationale": "It prevents actual pressure injury."
+        },
+        {
+          "text": "Because a hard surface on a bony point for a long transport causes injury the patient may not report",
+          "rationale": "Correct. Fracture pain masks it."
+        },
+        {
+          "text": "Because it makes the splint look neater",
+          "rationale": "Not a clinical consideration."
+        },
+        {
+          "text": "Because unpadded splints slip",
+          "rationale": "Slippage is not the main concern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-02-Q005",
+      "concept_id": "EMT-06-05-02",
+      "style": "sequence",
+      "stem": "A major trauma patient has a rigid abdomen, a pulse of 130, and an obviously fractured femur. What is the priority?",
+      "options": [
+        {
+          "text": "Apply a traction splint correctly before moving",
+          "rationale": "Five minutes on the injury least likely to kill them."
+        },
+        {
+          "text": "Immobilise as a whole, move, and splint en route if at all",
+          "rationale": "Correct. The abdomen is what will kill them."
+        },
+        {
+          "text": "Splint every fracture found before transport",
+          "rationale": "This is the error the concept warns about."
+        },
+        {
+          "text": "Delay transport until all injuries are splinted",
+          "rationale": "Never appropriate in major trauma."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-02-Q006",
+      "concept_id": "EMT-06-05-02",
+      "style": "recall",
+      "stem": "In what position should an angulated fracture be splinted?",
+      "options": [
+        {
+          "text": "Straightened to anatomical alignment always",
+          "rationale": "Straightening causes damage and severe pain."
+        },
+        {
+          "text": "The position found, unless pulseless and protocol permits realignment",
+          "rationale": "Correct. Know what your protocol says."
+        },
+        {
+          "text": "Whatever position fits the available splint",
+          "rationale": "The splint is chosen to fit the limb, not the reverse."
+        },
+        {
+          "text": "Fully flexed to reduce bleeding",
+          "rationale": "Not a recognised principle."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-03-Q001",
+      "concept_id": "EMT-06-05-03",
+      "style": "recall",
+      "stem": "What is the indication for a traction splint?",
+      "options": [
+        {
+          "text": "Any femur fracture",
+          "rationale": "Open fractures and those with other injuries are excluded."
+        },
+        {
+          "text": "An isolated closed mid-shaft femur fracture",
+          "rationale": "Correct, and almost nothing else."
+        },
+        {
+          "text": "A fractured lower leg",
+          "rationale": "A lower leg fracture is a contraindication."
+        },
+        {
+          "text": "A dislocated hip",
+          "rationale": "Hip injury contraindicates it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-03-Q002",
+      "concept_id": "EMT-06-05-03",
+      "style": "recall",
+      "stem": "Why does a traction splint relieve pain in a femur fracture?",
+      "options": [
+        {
+          "text": "It numbs the area by compression",
+          "rationale": "It does not work by numbing."
+        },
+        {
+          "text": "It overcomes the muscle spasm pulling the bone ends past each other",
+          "rationale": "Correct, which also slows the bleeding."
+        },
+        {
+          "text": "It reduces blood flow to the limb",
+          "rationale": "That would be harmful, not therapeutic."
+        },
+        {
+          "text": "It cools the injured tissue",
+          "rationale": "Cooling is not its mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-03-Q003",
+      "concept_id": "EMT-06-05-03",
+      "style": "sequence",
+      "stem": "What must be assessed before a traction splint is applied?",
+      "options": [
+        {
+          "text": "The patient's medication history",
+          "rationale": "Relevant generally but not the gating assessment."
+        },
+        {
+          "text": "The pelvis",
+          "rationale": "Correct. Traction on the femur transmits to the pelvis and can worsen pelvic bleeding."
+        },
+        {
+          "text": "The cervical spine",
+          "rationale": "Assessed as part of the survey, but not the specific contraindication here."
+        },
+        {
+          "text": "The opposite femur",
+          "rationale": "Used for measuring, but not the safety assessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-03-Q004",
+      "concept_id": "EMT-06-05-03",
+      "style": "recall",
+      "stem": "Which is a contraindication to traction splinting?",
+      "options": [
+        {
+          "text": "A closed mid-shaft femur fracture",
+          "rationale": "That is the indication."
+        },
+        {
+          "text": "An ankle injury on the same side",
+          "rationale": "Correct, along with pelvis, hip, knee and lower leg injury."
+        },
+        {
+          "text": "Patient anxiety",
+          "rationale": "Not a contraindication."
+        },
+        {
+          "text": "A long transport time",
+          "rationale": "Long transport favours splinting, not against it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-03-Q005",
+      "concept_id": "EMT-06-05-03",
+      "style": "sequence",
+      "stem": "When may manual traction be released?",
+      "options": [
+        {
+          "text": "As soon as the device is positioned",
+          "rationale": "Positioning is not the same as taking the pull."
+        },
+        {
+          "text": "Only once mechanical traction is applied and holding",
+          "rationale": "Correct. Early release lets the ends snap back past each other."
+        },
+        {
+          "text": "Whenever the person holding it becomes tired",
+          "rationale": "Fatigue is managed by swapping, not releasing."
+        },
+        {
+          "text": "Once the patient reports less pain",
+          "rationale": "Pain relief does not mean the device has taken over."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-03-Q006",
+      "concept_id": "EMT-06-05-03",
+      "style": "application",
+      "stem": "What is the common logic behind all the traction splint contraindications?",
+      "options": [
+        {
+          "text": "They all involve open wounds",
+          "rationale": "Not all of them do."
+        },
+        {
+          "text": "Traction pulls between two anchors, and a broken anchor means pulling a broken thing apart",
+          "rationale": "Correct. Pelvis, hip, knee, ankle, lower leg — each is a broken anchor."
+        },
+        {
+          "text": "They all involve the knee",
+          "rationale": "Only one of them does."
+        },
+        {
+          "text": "They all require surgery",
+          "rationale": "Not the organising principle."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-04-Q001",
+      "concept_id": "EMT-06-05-04",
+      "style": "recall",
+      "stem": "Why does one pelvic fracture imply a second?",
+      "options": [
+        {
+          "text": "Because the force is always doubled",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because the pelvis is a ring, and a ring cannot break in only one place",
+          "rationale": "Correct. It either holds or gives way in two places."
+        },
+        {
+          "text": "Because pelvic bones are unusually brittle",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Because both sides are always struck",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-04-Q002",
+      "concept_id": "EMT-06-05-04",
+      "style": "recall",
+      "stem": "Why can a pelvic fracture bleed so heavily?",
+      "options": [
+        {
+          "text": "Because the skin over it tears easily",
+          "rationale": "The bleeding is internal."
+        },
+        {
+          "text": "Large vessels tear and the displaced ring creates space with no limit to fill",
+          "rationale": "Correct. Patients exsanguinate into their own pelvis."
+        },
+        {
+          "text": "Because the pelvis contains an artery that always ruptures",
+          "rationale": "No single vessel is the cause."
+        },
+        {
+          "text": "Because it prevents clotting",
+          "rationale": "It does not affect clotting directly."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-04-Q003",
+      "concept_id": "EMT-06-05-04",
+      "style": "application",
+      "stem": "How many times should pelvic stability be assessed?",
+      "options": [
+        {
+          "text": "As many times as needed to be sure",
+          "rationale": "Each repetition breaks up clot and restarts bleeding."
+        },
+        {
+          "text": "Once, gently — or not at all, depending on your protocol",
+          "rationale": "Correct. Many services have stopped testing entirely."
+        },
+        {
+          "text": "Once by each crew member",
+          "rationale": "This is exactly the error to avoid."
+        },
+        {
+          "text": "Continuously during transport",
+          "rationale": "Never appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-04-Q004",
+      "concept_id": "EMT-06-05-04",
+      "style": "application",
+      "stem": "Why should log rolling be avoided with a suspected pelvic fracture?",
+      "options": [
+        {
+          "text": "Because it is uncomfortable for the patient",
+          "rationale": "Comfort is not the clinical reason."
+        },
+        {
+          "text": "Because rolling twists the two halves of a broken ring against each other",
+          "rationale": "Correct. Use a scoop or a flat lift instead."
+        },
+        {
+          "text": "Because it takes too long",
+          "rationale": "Time is not the reason."
+        },
+        {
+          "text": "Because it requires too many people",
+          "rationale": "A flat lift requires more, not fewer."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-04-Q005",
+      "concept_id": "EMT-06-05-04",
+      "style": "recall",
+      "stem": "Which mechanism for pelvic fracture is most often overlooked?",
+      "options": [
+        {
+          "text": "A motorcyclist thrown from a bike",
+          "rationale": "A recognised high-energy mechanism."
+        },
+        {
+          "text": "A fall from standing height in an older patient",
+          "rationale": "Correct. It fractures pelvises routinely and does not feel like a mechanism."
+        },
+        {
+          "text": "A pedestrian struck by a car",
+          "rationale": "A recognised mechanism, not an overlooked one."
+        },
+        {
+          "text": "A fall from a roof",
+          "rationale": "Clearly a significant mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-04-Q006",
+      "concept_id": "EMT-06-05-04",
+      "style": "scenario",
+      "stem": "A patient has the right mechanism and unexplained shock, but your examination finds a stable pelvis. What should you conclude?",
+      "options": [
+        {
+          "text": "The pelvis is not injured",
+          "rationale": "A stable-feeling pelvis does not exclude a fracture."
+        },
+        {
+          "text": "Still suspect a pelvic fracture — mechanism plus unexplained shock is enough to act on",
+          "rationale": "Correct. Your hands are not the deciding finding."
+        },
+        {
+          "text": "The shock must be cardiac",
+          "rationale": "Not supported by the mechanism."
+        },
+        {
+          "text": "Repeat the stability check to be certain",
+          "rationale": "Repeating the check causes harm."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-05-Q001",
+      "concept_id": "EMT-06-05-05",
+      "style": "recall",
+      "stem": "What do the three letters of CSM stand for?",
+      "options": [
+        {
+          "text": "Colour, swelling, mobility",
+          "rationale": "Not the standard expansion."
+        },
+        {
+          "text": "Circulation, sensation, movement",
+          "rationale": "Correct — also known as PMS: pulse, motor, sensory."
+        },
+        {
+          "text": "Compression, splinting, monitoring",
+          "rationale": "Not an assessment mnemonic."
+        },
+        {
+          "text": "Cold, swollen, mottled",
+          "rationale": "Those are findings, not the check."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-05-Q002",
+      "concept_id": "EMT-06-05-05",
+      "style": "application",
+      "stem": "What is the better sensation question to ask?",
+      "options": [
+        {
+          "text": "Can you feel this?",
+          "rationale": "Patients often say yes even with a deficit."
+        },
+        {
+          "text": "Does this feel the same as the other side?",
+          "rationale": "Correct. The comparison is where the finding is."
+        },
+        {
+          "text": "Does it hurt?",
+          "rationale": "Pain is a separate assessment."
+        },
+        {
+          "text": "Can you move it?",
+          "rationale": "That is the movement component."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-05-Q003",
+      "concept_id": "EMT-06-05-05",
+      "style": "recall",
+      "stem": "Why must a time be recorded with each neurovascular check?",
+      "options": [
+        {
+          "text": "For billing purposes",
+          "rationale": "Not a clinical reason."
+        },
+        {
+          "text": "Because what matters is whether it changed and when",
+          "rationale": "Correct. 'CSM intact' with no time is nearly worthless."
+        },
+        {
+          "text": "Because protocol requires timestamps on everything",
+          "rationale": "The reason is clinical, not administrative."
+        },
+        {
+          "text": "Because capillary refill varies with time of day",
+          "rationale": "Not a recognised factor."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-05-Q004",
+      "concept_id": "EMT-06-05-05",
+      "style": "recall",
+      "stem": "What is the earliest sign of compartment syndrome?",
+      "options": [
+        {
+          "text": "Absent distal pulse",
+          "rationale": "Pulselessness is a very late finding."
+        },
+        {
+          "text": "Pain out of proportion to the apparent injury",
+          "rationale": "Correct, followed by pain on passive stretch and a tight compartment."
+        },
+        {
+          "text": "Visible swelling",
+          "rationale": "Swelling may be unremarkable from outside."
+        },
+        {
+          "text": "Loss of movement",
+          "rationale": "A later finding than disproportionate pain."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-05-Q005",
+      "concept_id": "EMT-06-05-05",
+      "style": "application",
+      "stem": "A splinted limb has become cooler with reduced sensation since you applied the splint. What do you do?",
+      "options": [
+        {
+          "text": "Note it and continue to hospital",
+          "rationale": "Deterioration after your intervention is acted on immediately."
+        },
+        {
+          "text": "Loosen the splint and reassess before moving",
+          "rationale": "Correct. Not at hospital — now."
+        },
+        {
+          "text": "Tighten the splint to stabilise it further",
+          "rationale": "Tightening worsens the problem."
+        },
+        {
+          "text": "Remove the splint entirely and transport unsplinted",
+          "rationale": "Loosening and reassessing comes first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-05-Q006",
+      "concept_id": "EMT-06-05-05",
+      "style": "scenario",
+      "stem": "A patient with severe limb pain has a strong distal pulse. How reassuring is that?",
+      "options": [
+        {
+          "text": "Very — a pulse excludes compartment syndrome",
+          "rationale": "A pulse excludes nothing here."
+        },
+        {
+          "text": "Not at all — the pulse persists long after the small vessels have shut down",
+          "rationale": "Correct. Waiting for pulselessness means hours of dying muscle."
+        },
+        {
+          "text": "Reassuring if capillary refill is also normal",
+          "rationale": "Both can be normal in early compartment syndrome."
+        },
+        {
+          "text": "It means the pain is exaggerated",
+          "rationale": "Disproportionate pain is a finding, not an exaggeration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-06-Q001",
+      "concept_id": "EMT-06-05-06",
+      "style": "recall",
+      "stem": "Where is a pelvic binder positioned?",
+      "options": [
+        {
+          "text": "Over the iliac crests",
+          "rationale": "This is the most common error — it is too high to close the ring."
+        },
+        {
+          "text": "Over the greater trochanters",
+          "rationale": "Correct — the widest bony points of the hips, lower than intuition suggests."
+        },
+        {
+          "text": "Around the waist",
+          "rationale": "Far too high; that is where a belt goes."
+        },
+        {
+          "text": "Across the lower abdomen",
+          "rationale": "Not the correct landmark."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-06-Q002",
+      "concept_id": "EMT-06-05-06",
+      "style": "recall",
+      "stem": "What happens if a binder is applied too high?",
+      "options": [
+        {
+          "text": "It works slightly less well but is still beneficial",
+          "rationale": "It may be worse than applying nothing."
+        },
+        {
+          "text": "It does not close the ring, and can open the lower pelvis",
+          "rationale": "Correct. Level is the whole point of the device."
+        },
+        {
+          "text": "It causes no harm but no benefit",
+          "rationale": "It can actively worsen the injury."
+        },
+        {
+          "text": "It works just as well as correct placement",
+          "rationale": "Placement determines whether it works at all."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-06-Q003",
+      "concept_id": "EMT-06-05-06",
+      "style": "sequence",
+      "stem": "What must be done before applying a pelvic binder?",
+      "options": [
+        {
+          "text": "Obtain radiographic confirmation",
+          "rationale": "Not available in the field and not required."
+        },
+        {
+          "text": "Empty the pockets and remove objects that will sit underneath",
+          "rationale": "Correct. It stays on for hours and objects cause pressure injury."
+        },
+        {
+          "text": "Log roll the patient to inspect the back",
+          "rationale": "Log rolling is specifically avoided."
+        },
+        {
+          "text": "Apply a traction splint first",
+          "rationale": "The pelvis is assessed before traction splinting, not the reverse."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-06-Q004",
+      "concept_id": "EMT-06-05-06",
+      "style": "application",
+      "stem": "How should the binder be placed under the patient?",
+      "options": [
+        {
+          "text": "By log rolling them onto their side",
+          "rationale": "Rolling twists the two halves of a broken ring."
+        },
+        {
+          "text": "Slid under the hollow at the knees and worked up, or via a scoop or flat lift",
+          "rationale": "Correct. Move the patient once."
+        },
+        {
+          "text": "By sitting the patient forward",
+          "rationale": "Not appropriate with a suspected pelvic fracture."
+        },
+        {
+          "text": "By lifting from the injured side only",
+          "rationale": "Uneven lifting displaces the ring."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-06-Q005",
+      "concept_id": "EMT-06-05-06",
+      "style": "sequence",
+      "stem": "May a binder be loosened to check whether it is working?",
+      "options": [
+        {
+          "text": "Yes, briefly, to assess the pelvis",
+          "rationale": "Every removal is a chance to restart stopped bleeding."
+        },
+        {
+          "text": "No — it stays on; removal is a hospital decision",
+          "rationale": "Correct. Do not loosen it to check or examine."
+        },
+        {
+          "text": "Yes, if the patient reports discomfort",
+          "rationale": "Discomfort is not a reason to loosen it."
+        },
+        {
+          "text": "Yes, once per hour",
+          "rationale": "Never appropriate in the field."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-05-06-Q006",
+      "concept_id": "EMT-06-05-06",
+      "style": "application",
+      "stem": "Do you need a confirmed fracture before applying a binder?",
+      "options": [
+        {
+          "text": "Yes, or it may cause harm",
+          "rationale": "You will never get confirmation in the field."
+        },
+        {
+          "text": "No — apply on suspicion from mechanism and findings",
+          "rationale": "Correct. Waiting for certainty is waiting while they bleed."
+        },
+        {
+          "text": "Only if the pelvis feels unstable",
+          "rationale": "A stable-feeling pelvis does not exclude a fracture."
+        },
+        {
+          "text": "Only with medical direction approval",
+          "rationale": "Binder application does not generally require it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
