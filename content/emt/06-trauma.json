@@ -104,6 +104,19 @@
         "EMT-06-08-03",
         "EMT-06-08-04"
       ]
+    },
+    {
+      "id": "EMT-06-09",
+      "title": "Environmental emergencies",
+      "concepts": [
+        "EMT-06-09-01",
+        "EMT-06-09-02",
+        "EMT-06-09-03",
+        "EMT-06-09-04",
+        "EMT-06-09-05",
+        "EMT-06-09-06",
+        "EMT-06-09-07"
+      ]
     }
   ],
   "concepts": [
@@ -7971,6 +7984,1221 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the physiological changes of pregnancy, the gestation at which positioning becomes important, and the presentation of placental separation against the current text. No specific gestational week thresholds are stated because sources vary."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-01",
+      "title": "Heat exhaustion and heat stroke",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-09-02",
+        "EMT-05-05-03",
+        "EMT-05-02-06"
+      ],
+      "key_points": [
+        "Heat exhaustion is the body struggling with heat and still coping; heat stroke is the body having failed",
+        "The single most important distinguishing finding is mental status: confusion, agitation or reduced consciousness means heat stroke",
+        "Heat exhaustion: heavy sweating, weakness, dizziness, nausea, headache, cramps, with a normal or near-normal mental status",
+        "Heat stroke: a very high body temperature with an ALTERED MENTAL STATUS, and it is a true emergency",
+        "Classic heat stroke often gives hot dry skin; exertional heat stroke often still has sweating, so do not use dry skin as the test",
+        "Heat stroke kills through the temperature itself, so the treatment is cooling, started immediately and not delayed for transport",
+        "Cool aggressively: remove clothing, move to a cool place, wet the skin and fan, apply cold packs to the neck, armpits and groin per protocol",
+        "Stop active cooling per protocol before the patient becomes hypothermic, and monitor for shivering, which generates heat",
+        "Heat exhaustion is treated with rest, a cool environment and oral fluids only if the patient is fully alert and able to swallow"
+      ],
+      "misconceptions": [
+        "Using dry skin as the test for heat stroke",
+        "Delaying cooling until transport",
+        "Giving oral fluids to a confused patient",
+        "Missing heat stroke because the patient is still sweating"
+      ],
+      "exam_favorites": [
+        "Mental status is the distinguishing finding",
+        "Sweating does not exclude heat stroke",
+        "Cool immediately",
+        "Fluids only for the fully alert"
+      ],
+      "modes": {
+        "read": {
+          "plain": "These two are on a spectrum and the line between them matters enormously, because one is uncomfortable and one is lethal.\n\nHeat exhaustion is the body working hard against heat and still managing. The patient is sweating heavily, weak, dizzy, nauseated, with a headache, perhaps cramping. Their skin may be pale and clammy from all the sweating. They feel dreadful.\n\nAnd critically: they know where they are. Their mental status is normal, or close to it.\n\nHeat stroke is the body having lost the fight. The temperature regulation has failed, the core temperature climbs, and at a certain point the brain stops working properly.\n\nThat is the distinguishing finding, and it is worth putting above everything else: an altered mental status. Confusion, strange behaviour, agitation, slurred speech, seizures, a reduced level of consciousness. A hot patient who is confused has heat stroke until proven otherwise, and that is a genuine emergency measured in minutes.\n\nNow the piece of teaching that causes harm. Classic heat stroke — the kind that develops over days in an elderly person in a hot flat — does often produce hot, dry skin, because they have run out of the capacity to sweat. But exertional heat stroke — an athlete, a soldier, somebody working in heat — frequently still has drenched skin at the point of collapse.\n\nSo do not use dry skin as your test. A sweating patient can absolutely be in heat stroke. Use the mental status.\n\nWhat kills in heat stroke is the temperature itself, cooking enzymes and cells throughout the body. Every minute at that temperature does more damage. Which gives you an unusual treatment principle for prehospital care: cool first, and cool on scene. This is one of the few conditions where starting treatment before moving is clearly right, because cooling is the treatment and nobody at the hospital can undo the damage done while you drove there.\n\nCool aggressively. Get the clothing off. Get them somewhere cool or into shade. Wet the skin and fan them hard — evaporation moves a great deal of heat, and a fan with wet skin is genuinely effective. Cold packs to the neck, the armpits and the groin where large vessels run close to the surface, per protocol.\n\nTwo cautions. Stop active cooling per your protocol before you overshoot into hypothermia. And watch for shivering — shivering generates heat and works against you, so it is managed per protocol rather than ignored.\n\nFor heat exhaustion, the treatment is gentler: rest, a cool environment, lie them down, loosen clothing. Oral fluids only if they are fully alert and able to swallow safely. If there is any doubt about their mental status, nothing by mouth — and if there is doubt about their mental status, you should be wondering whether this is heat exhaustion at all.",
+          "standard": "Heat exhaustion and heat stroke represent points on a continuum of thermal injury. Heat exhaustion reflects preserved but strained thermoregulation, presenting with profuse diaphoresis, weakness, dizziness, nausea, headache and cramps, with normal or near-normal mental status. Heat stroke reflects thermoregulatory failure with core hyperthermia and central nervous system dysfunction; altered mental status — confusion, agitation, dysarthria, seizure or obtundation — is the defining feature. Classical heat stroke, developing over days typically in elderly patients, commonly produces hot dry skin; exertional heat stroke frequently presents with preserved diaphoresis, and anhidrosis is therefore not a reliable discriminator. Mortality derives from hyperthermia itself through cellular and enzymatic injury, rendering immediate on-scene cooling the definitive prehospital intervention. Cooling comprises clothing removal, relocation to a cool environment, skin wetting with forced air convection, and cold pack application to cervical, axillary and inguinal regions per protocol. Active cooling is discontinued per protocol before hypothermia supervenes, and shivering, which generates heat, is managed per protocol. Heat exhaustion is managed by rest, cooling and oral rehydration restricted to fully alert patients able to protect the airway."
+        },
+        "eli_new": {
+          "analogy": "Heat exhaustion is a patient who feels terrible and knows where they are. Heat stroke is a patient who does not. That is the whole distinction, and everything else is detail.",
+          "body": "Forget hot dry skin as the test. An athlete who collapses in heat stroke is usually drenched. The test is whether the brain is working, and the treatment is to start cooling before you move them."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between heat exhaustion and heat stroke, and how each is treated.",
+          "must_hit": [
+            {
+              "point": "Heat exhaustion is coping; heat stroke is the body having failed",
+              "accept": [
+                "coping",
+                "fail",
+                "struggl",
+                "spectrum",
+                "regulat"
+              ]
+            },
+            {
+              "point": "The distinguishing finding is ALTERED MENTAL STATUS",
+              "accept": [
+                "mental",
+                "confus",
+                "conscious",
+                "altered",
+                "brain"
+              ]
+            },
+            {
+              "point": "Heat exhaustion: sweating, weak, dizzy, nauseated, normal mental status",
+              "accept": [
+                "sweat",
+                "weak",
+                "dizz",
+                "nausea",
+                "headache",
+                "cramp",
+                "normal"
+              ]
+            },
+            {
+              "point": "Do not use dry skin as the test — exertional heat stroke often still sweats",
+              "accept": [
+                "dry",
+                "skin",
+                "sweat",
+                "exertional",
+                "test",
+                "not"
+              ]
+            },
+            {
+              "point": "The temperature itself kills, so cool immediately and on scene",
+              "accept": [
+                "temperature",
+                "cool",
+                "immediate",
+                "scene",
+                "before",
+                "minute"
+              ]
+            },
+            {
+              "point": "Remove clothing, wet the skin and fan, cold packs to neck, armpits, groin",
+              "accept": [
+                "clothing",
+                "wet",
+                "fan",
+                "cold pack",
+                "neck",
+                "armpit",
+                "groin"
+              ]
+            },
+            {
+              "point": "Stop cooling per protocol and watch for shivering",
+              "accept": [
+                "stop",
+                "protocol",
+                "shiver",
+                "overshoot",
+                "hypotherm"
+              ]
+            },
+            {
+              "point": "Oral fluids only if fully alert and able to swallow",
+              "accept": [
+                "oral",
+                "fluid",
+                "alert",
+                "swallow",
+                "nothing by mouth"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He was soaked",
+          "dispatch": "Medic 8 — collapse at a half marathon, 24-year-old male.",
+          "body": "He was drenched in sweat, which somebody said meant it could not be heat stroke because the skin is supposed to be hot and dry.\n\nHe did not know what race he was in, and he was becoming agitated.\n\nThe dry skin teaching belongs to the elderly patient in the hot flat. The runner who collapses is usually still sweating, and the brain is the test."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Heat exhaustion",
+          "right_label": "Heat stroke",
+          "rows": [
+            {
+              "feature": "MENTAL STATUS",
+              "left": "Normal or near normal — they know where they are",
+              "right": "ALTERED — confused, agitated, slurred, seizing, unresponsive"
+            },
+            {
+              "feature": "What is happening",
+              "left": "The body is struggling and still coping",
+              "right": "Temperature regulation has FAILED"
+            },
+            {
+              "feature": "Skin",
+              "left": "Sweating heavily, often pale and clammy",
+              "right": "Hot. DRY in classic heat stroke, often STILL SWEATING in exertional"
+            },
+            {
+              "feature": "Temperature",
+              "left": "Normal or mildly raised",
+              "right": "Very high"
+            },
+            {
+              "feature": "Other findings",
+              "left": "Weakness, dizziness, nausea, headache, cramps",
+              "right": "Everything in the left column, plus the brain failing"
+            },
+            {
+              "feature": "Urgency",
+              "left": "Uncomfortable and treatable",
+              "right": "TRUE EMERGENCY — the temperature is killing cells now"
+            },
+            {
+              "feature": "Treatment",
+              "left": "Rest, cool environment, lie down, loosen clothing",
+              "right": "AGGRESSIVE COOLING, STARTED ON SCENE"
+            },
+            {
+              "feature": "Fluids",
+              "left": "Oral fluids IF fully alert and able to swallow",
+              "right": "NOTHING BY MOUTH"
+            },
+            {
+              "feature": "The one test",
+              "left": "Do they know where they are? Yes",
+              "right": "Do they know where they are? No"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the heat exhaustion and heat stroke presentations, the cooling methods and the guidance on when to stop cooling against the current text and local protocol. No specific core temperature thresholds are stated, as sources differ and core temperature is rarely measurable prehospitally."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-02",
+      "title": "Hypothermia stages and frostbite",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-09-01",
+        "EMT-06-09-03",
+        "EMT-04-03-01"
+      ],
+      "key_points": [
+        "Hypothermia is described in stages by what the patient can still do, which is more useful in the field than a temperature you cannot measure",
+        "MILD: shivering, alert, able to look after themselves — the body is still fighting effectively",
+        "MODERATE: shivering slows or stops, confusion, clumsiness, slurred speech, drowsiness — the body is losing",
+        "SEVERE: shivering has stopped, the patient is unresponsive, muscles are rigid, and the pulse and breathing may be almost undetectable",
+        "SHIVERING STOPPING IS THE WARNING SIGN — it means the body has run out of the ability to generate heat, not that they are warming up",
+        "Handle severely hypothermic patients extremely gently, because rough handling can trigger a fatal cardiac rhythm",
+        "Check the pulse for longer than usual — up to a minute — because it can be very slow and very weak",
+        "Nobody is dead until they are warm and dead: resuscitation continues and rewarming happens at hospital",
+        "Frostbite is frozen tissue: hard, white or waxy, numb — do not rub it, do not rewarm if there is any chance of refreezing"
+      ],
+      "misconceptions": [
+        "Treating a patient who has stopped shivering as improving",
+        "Rough handling of a severely hypothermic patient",
+        "Declaring death on a cold patient without warming",
+        "Rubbing frostbitten tissue",
+        "Rewarming a frostbitten limb that may refreeze"
+      ],
+      "exam_favorites": [
+        "Shivering stopping is a warning, not improvement",
+        "Handle gently",
+        "Warm and dead",
+        "Never rub frostbite"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Hypothermia is usually taught in temperature bands, which is a problem for you because you will rarely be able to measure a core temperature. So the useful staging is by what the patient can still do.\n\nMILD. They are shivering hard, they are alert, they can look after themselves, they complain about being cold. The shivering is the body generating heat, and it works — this patient is losing the battle slowly and can still win it.\n\nMODERATE. The shivering slows and then stops. They become confused, clumsy, slurred. They stumble, they fumble with things, they say odd things, they become drowsy. Some become paradoxically warm-feeling and start undressing, which is a recognised and dangerous phenomenon.\n\nSEVERE. Shivering has gone entirely. The patient is unresponsive. The muscles become rigid. The pulse and breathing may be so slow and shallow that you cannot find them at all with an ordinary check.\n\nNow the single most important thing in this concept: the shivering stopping is a warning sign.\n\nIt is easy to read as improvement — the patient has stopped shaking, they seem calmer. It means the opposite. It means the body has exhausted its ability to generate heat, and from that point the temperature falls faster. A patient who has stopped shivering in the cold is worse than they were ten minutes ago, not better.\n\nHandling matters more here than almost anywhere. A severely hypothermic heart is extremely irritable, and rough handling, jolting, or sudden movement can trigger ventricular fibrillation. So move them slowly, keep them horizontal, do not let them walk or exert themselves, and warn everybody helping. This is a genuine and specific risk, not a theoretical caution.\n\nCheck the pulse for longer than you normally would — up to a full minute. A hypothermic pulse can be extremely slow and very weak, and starting compressions on a patient who has a pulse is its own harm. Equally, if you genuinely cannot find one after a proper look, treat it as an arrest.\n\nAnd the principle that governs everything: nobody is dead until they are warm and dead. Cold protects the brain and the organs, and people have survived remarkably long cold arrests with good outcomes. Resuscitation continues, and the decision about stopping is made at hospital, warm. Do not make that decision in the snow.\n\nFrostbite is tissue that has frozen. It is hard, white or waxy or greyish, and numb — and the numbness means the patient may not know how bad it is. Handle it like a fracture: gently, splinted, covered, with nothing rubbing against it.\n\nTwo things you do not do. Do not rub it, ever — ice crystals in the tissue tear it apart from the inside when it is massaged. And do not rewarm it if there is any chance it will refreeze. A thaw-refreeze cycle is far more destructive than staying frozen, so a limb that will be exposed again on the way out stays frozen until you are somewhere it can stay warm.",
+          "standard": "Hypothermia is staged prehospitally by functional capacity rather than core temperature, which is rarely measurable. Mild hypothermia features vigorous shivering with preserved alertness and self-care capability. Moderate hypothermia features diminishing then absent shivering with confusion, ataxia, dysarthria and somnolence; paradoxical undressing is recognised. Severe hypothermia features absent shivering, unresponsiveness, muscular rigidity, and profoundly depressed pulse and respiration that may be undetectable on routine examination. Cessation of shivering indicates exhaustion of thermogenic capacity with accelerated subsequent cooling, and represents deterioration rather than improvement. The hypothermic myocardium is highly irritable; rough handling, jolting and patient exertion may precipitate ventricular fibrillation, requiring gentle horizontal handling and prohibition of ambulation. Pulse assessment is extended to one minute owing to profound bradycardia and weak output. Resuscitation is continued with rewarming at hospital, as hypothermia confers cerebral and organ protection and survival following prolonged cold arrest is documented. Frostbite presents as firm, pale or waxy, insensate tissue; friction is contraindicated, as intracellular ice crystals produce further tissue disruption, and rewarming is deferred where refreezing is possible, a thaw-refreeze cycle being more destructive than continued freezing."
+        },
+        "eli_new": {
+          "analogy": "Shivering is the furnace running. When it stops, that is not the fire going out because the room is warm. It is the fuel running out.",
+          "body": "Two absolutes. A patient who has stopped shivering in the cold has got worse, not better. And nobody is dead until they are warm and dead — the decision to stop belongs at hospital, not in the snow."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the hypothermia stages, explain what stopping shivering means, and give the frostbite rules.",
+          "must_hit": [
+            {
+              "point": "Mild: shivering, alert, able to look after themselves",
+              "accept": [
+                "mild",
+                "shiver",
+                "alert",
+                "cope",
+                "self"
+              ]
+            },
+            {
+              "point": "Moderate: shivering slows or stops, confused, clumsy, slurred, drowsy",
+              "accept": [
+                "moderate",
+                "confus",
+                "clumsy",
+                "slur",
+                "drowsy",
+                "stumble"
+              ]
+            },
+            {
+              "point": "Severe: no shivering, unresponsive, rigid, pulse barely detectable",
+              "accept": [
+                "severe",
+                "unresponsive",
+                "rigid",
+                "pulse",
+                "undetect"
+              ]
+            },
+            {
+              "point": "Shivering stopping is a warning, not improvement",
+              "accept": [
+                "stop",
+                "warning",
+                "worse",
+                "not improv",
+                "exhaust",
+                "fuel"
+              ]
+            },
+            {
+              "point": "Handle gently — rough handling can trigger a fatal rhythm",
+              "accept": [
+                "gentle",
+                "rough",
+                "handl",
+                "fibrillat",
+                "rhythm",
+                "jolt"
+              ]
+            },
+            {
+              "point": "Check the pulse for up to a minute",
+              "accept": [
+                "pulse",
+                "minute",
+                "longer",
+                "slow",
+                "weak"
+              ]
+            },
+            {
+              "point": "Nobody is dead until they are warm and dead",
+              "accept": [
+                "warm",
+                "dead",
+                "resuscitat",
+                "continue",
+                "hospital"
+              ]
+            },
+            {
+              "point": "Never rub frostbite, and do not rewarm if it may refreeze",
+              "accept": [
+                "rub",
+                "frostbite",
+                "rewarm",
+                "refreeze",
+                "never"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He stopped shaking",
+          "dispatch": "Medic 2 — male found on a hillside, cold, been out overnight.",
+          "body": "The walker who found him said he had been shaking violently for the first half hour and had gone quiet and calm since, which sounded to everybody like an improvement.\n\nIt was not. His body had simply run out of the ability to make heat.\n\nThey moved him slowly, flat, and nobody let him try to stand."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Mild hypothermia",
+          "right_label": "Moderate to severe hypothermia",
+          "rows": [
+            {
+              "feature": "Shivering",
+              "left": "VIGOROUS — the body is generating heat and it is working",
+              "right": "SLOWING, then STOPPED — the body has run out of fuel"
+            },
+            {
+              "feature": "Mental status",
+              "left": "Alert, oriented, complaining about the cold",
+              "right": "Confused, slurred, drowsy → unresponsive"
+            },
+            {
+              "feature": "Coordination",
+              "left": "Normal or slightly clumsy",
+              "right": "Stumbling, fumbling, dropping things → rigid muscles"
+            },
+            {
+              "feature": "Can they help themselves?",
+              "left": "Yes — they can move, dress, act",
+              "right": "No — and may paradoxically start undressing"
+            },
+            {
+              "feature": "Pulse",
+              "left": "Normal",
+              "right": "Slow and weak — CHECK FOR UP TO A MINUTE"
+            },
+            {
+              "feature": "Handling",
+              "left": "Normal care",
+              "right": "EXTREMELY GENTLE — rough handling can trigger a fatal rhythm"
+            },
+            {
+              "feature": "Movement",
+              "left": "Can walk to the ambulance",
+              "right": "KEEP THEM HORIZONTAL — do not let them walk or exert"
+            },
+            {
+              "feature": "What the change means",
+              "left": "Losing slowly, can still recover",
+              "right": "STOPPING SHIVERING IS A WARNING, NOT IMPROVEMENT"
+            },
+            {
+              "feature": "If in arrest",
+              "left": "Unlikely",
+              "right": "NOBODY IS DEAD UNTIL THEY ARE WARM AND DEAD"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the hypothermia staging, handling precautions, pulse check duration and frostbite management against the current text and local protocol. No core temperature thresholds are stated because they vary between sources and core temperature is rarely measurable prehospitally."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-03",
+      "title": "Drowning",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-09-02",
+        "EMT-04-03-02",
+        "EMT-02-04-01"
+      ],
+      "key_points": [
+        "Drowning is respiratory impairment from being in or under water, and the problem is hypoxia rather than water in the lungs",
+        "The old distinctions — wet versus dry, near-drowning, secondary drowning — have been abandoned; it is drowning, with or without survival",
+        "The priority is ventilation and oxygenation, so rescue breaths come first in drowning arrest rather than compressions first",
+        "Do not attempt to drain water from the lungs; it delays ventilation and causes vomiting",
+        "Expect vomiting and have suction ready — it is extremely common during drowning resuscitation",
+        "Cold water drowning can be associated with survival after prolonged submersion, so resuscitate and warm",
+        "Spinal injury is uncommon in drowning unless there is a diving, surfing or fall mechanism, so do not let precautions delay ventilation",
+        "Every drowning patient is assessed and transported even if they seem fine, because breathing problems can develop over hours",
+        "Never enter the water to rescue somebody unless you are trained and equipped — reach, throw, row, and go only as a last resort"
+      ],
+      "misconceptions": [
+        "Attempting to drain water from the lungs",
+        "Delaying ventilation for spinal precautions in a non-diving mechanism",
+        "Entering water without training and equipment",
+        "Letting a well-seeming patient refuse assessment"
+      ],
+      "exam_favorites": [
+        "Ventilation first",
+        "No draining water",
+        "Assess everybody",
+        "Reach, throw, row, go"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Drowning means respiratory impairment from being in or under water. That is the whole definition, and it stops there deliberately — it does not say whether the person died.\n\nThe terminology has been cleaned up considerably, and the old terms have been abandoned: wet drowning, dry drowning, near-drowning, secondary drowning. They were inconsistently used and they confused communication. Now there is drowning, and it has outcomes.\n\nWhat matters is that the problem is hypoxia. Whether much water entered the lungs or very little, what harms the patient is a brain and a heart deprived of oxygen. That single fact drives your priorities.\n\nIn a drowning arrest, ventilation comes first. This is a specific departure from the usual compressions-first approach, and the reasoning is clean: in most adult cardiac arrests the blood is still full of oxygen and needs circulating. In drowning, the arrest was caused by oxygen running out, so circulating that blood achieves much less until you put oxygen back in it. Rescue breaths first, then compressions, per your protocol.\n\nDo not try to drain water from the lungs. No inverting, no abdominal thrusts to expel water, no rolling them to let it run out. Very little water is usually there, it will not come out that way, and every second spent trying is a second not ventilating. It also causes vomiting.\n\nWhich brings us to vomiting, and you should simply expect it. It is extremely common during drowning resuscitation, because water and air end up in the stomach. Have suction out and working before you need it, and be ready to turn the patient.\n\nCold water changes the outlook. Submersion in cold water, particularly in children, has been associated with survival after remarkably long periods, because cold slows metabolism and protects the brain. So the same principle from hypothermia applies: resuscitate, warm, and let the decision be made at hospital. Do not make it at the water's edge based on how long they were under.\n\nSpinal injury is worth being sensible about. It is genuinely uncommon in drowning unless the mechanism involves diving into shallow water, surfing, or a fall from height. So for someone who simply got into difficulty swimming, do not let elaborate spinal precautions delay getting air into them. Where the mechanism does suggest it, manage both — but the airway still comes first.\n\nEverybody gets assessed and transported, including people who walk out of the water and feel fine. Breathing problems can develop over the following hours as the lungs react to what got into them, and a patient who goes home feeling well can deteriorate. Explain that, plainly, to anyone inclined to decline.\n\nAnd finally, your own safety. Do not enter the water unless you are trained and equipped for water rescue. The order is reach, throw, row, and go — and go, meaning swimming to them, is the last resort for trained rescuers only. Drowning people grab, climb and push down. The most common way a rescuer drowns is by swimming out to somebody.",
+          "standard": "Drowning denotes respiratory impairment resulting from submersion or immersion in liquid; the definition is independent of outcome. Historical terminology — wet, dry, near and secondary drowning — has been abandoned owing to inconsistent application. The pathophysiological basis is hypoxia rather than pulmonary fluid volume. In drowning-associated cardiac arrest, ventilation precedes compressions, as the arrest arises from oxygen depletion rather than a circulatory cause with oxygenated blood available. Attempts to drain pulmonary fluid are contraindicated, delaying ventilation and precipitating emesis. Emesis is common during drowning resuscitation and suction should be immediately available. Cold water immersion is associated with survival following prolonged submersion, particularly in paediatric patients, and resuscitation with rewarming is continued. Cervical spine injury is uncommon in the absence of diving, surfing or fall mechanisms, and precautions must not delay ventilation. All drowning patients require assessment and transport irrespective of apparent wellbeing, as respiratory deterioration may develop over subsequent hours. Water entry by untrained responders is contraindicated; the sequence reach, throw, row, go applies, with swimming rescue restricted to trained personnel."
+        },
+        "eli_new": {
+          "analogy": "The problem is not water in the lungs. It is oxygen not in the brain — which is why the first thing you do is breathe for them.",
+          "body": "Do not try to get the water out. There usually is not much, it will not come out, and you will make them vomit while not ventilating them. Breathe for them instead."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what drowning is, why ventilation comes first, and the rules about water rescue.",
+          "must_hit": [
+            {
+              "point": "Respiratory impairment from being in or under water, causing hypoxia",
+              "accept": [
+                "respiratory",
+                "water",
+                "hypox",
+                "oxygen",
+                "impair"
+              ]
+            },
+            {
+              "point": "The old terms — wet, dry, near, secondary drowning — are abandoned",
+              "accept": [
+                "wet",
+                "dry",
+                "near",
+                "secondary",
+                "abandon",
+                "term"
+              ]
+            },
+            {
+              "point": "Ventilation comes first because the arrest was caused by lack of oxygen",
+              "accept": [
+                "ventilat",
+                "breath",
+                "first",
+                "oxygen",
+                "compression"
+              ]
+            },
+            {
+              "point": "Do not try to drain water from the lungs",
+              "accept": [
+                "drain",
+                "water",
+                "lungs",
+                "invert",
+                "thrust",
+                "never"
+              ]
+            },
+            {
+              "point": "Expect vomiting; have suction ready",
+              "accept": [
+                "vomit",
+                "suction",
+                "expect",
+                "common"
+              ]
+            },
+            {
+              "point": "Cold water is associated with survival after prolonged submersion",
+              "accept": [
+                "cold",
+                "survival",
+                "prolonged",
+                "child",
+                "warm"
+              ]
+            },
+            {
+              "point": "Everybody is assessed and transported even if they seem fine",
+              "accept": [
+                "everybody",
+                "transport",
+                "assess",
+                "fine",
+                "hours",
+                "later"
+              ]
+            },
+            {
+              "point": "Reach, throw, row, go — and never enter the water untrained",
+              "accept": [
+                "reach",
+                "throw",
+                "row",
+                "go",
+                "enter",
+                "trained"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He walked out",
+          "dispatch": "Medic 4 — swimmer in difficulty, out of the water, conscious and talking.",
+          "body": "He had coughed a lot at the water's edge, felt embarrassed, and wanted to go and get changed.\n\nThe crew explained that breathing problems after drowning can develop over hours, and that going home and feeling unwell alone was the thing to avoid.\n\nHe went with them. Walking out of the water is not the end of the event."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the current drowning terminology, the ventilation-first sequence and water rescue guidance against the current text and current resuscitation guidelines."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-04",
+      "title": "Diving emergencies",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "prereqs": [],
+      "related": [
+        "EMT-06-09-03",
+        "EMT-02-03-01"
+      ],
+      "key_points": [
+        "Two main groups: problems from pressure changes on the way down or up, and problems from gas dissolved in the blood",
+        "Barotrauma happens when gas in a closed space cannot equalise as pressure changes — ears, sinuses and lungs",
+        "Pulmonary barotrauma from ascending while holding the breath can force gas into the circulation, which is a true emergency",
+        "Decompression sickness is nitrogen coming out of solution as bubbles during ascent, and it usually appears within hours of surfacing",
+        "Symptoms include joint pain, rash, fatigue, numbness or weakness, dizziness, and in severe cases breathlessness and collapse",
+        "Any neurological symptom after a dive is treated as decompression illness until proven otherwise",
+        "Give high-flow oxygen by non-rebreather, which is the most useful thing you can do and helps both conditions",
+        "Position supine and keep them flat; do not sit them up and do not put them head down",
+        "Transport to a facility that can arrange recompression, and take the dive computer or dive log with the patient"
+      ],
+      "misconceptions": [
+        "Sitting a diving casualty upright",
+        "Dismissing joint pain after a dive as musculoskeletal",
+        "Withholding oxygen because saturations look normal",
+        "Leaving the dive computer behind"
+      ],
+      "exam_favorites": [
+        "Barotrauma versus decompression sickness",
+        "Any neurological symptom after a dive",
+        "High-flow oxygen helps both",
+        "Take the dive computer"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Diving problems come in two families, and you do not need to tell them apart to treat them, because the treatment is largely the same.\n\nThe first family is pressure. As a diver descends the pressure rises, and any gas trapped in a closed space gets squeezed; as they ascend, it expands. If it cannot equalise, something gives. That is barotrauma, and it affects the ears, the sinuses and the lungs.\n\nEars and sinuses cause pain and sometimes bleeding, and they are unpleasant rather than dangerous. The lungs are the serious one. If a diver ascends while holding their breath, the gas in their lungs expands with nowhere to go, and it can tear lung tissue and force gas into the bloodstream. Gas bubbles in the circulation can travel to the brain, and that is a true emergency that comes on within minutes of surfacing, often with sudden collapse or neurological signs.\n\nThe second family is decompression sickness. Under pressure, nitrogen dissolves into the blood and tissues. If the diver ascends too quickly, it comes out of solution as bubbles inside the body — the same thing that happens when you open a fizzy drink.\n\nThose bubbles cause a variety of symptoms depending on where they lodge. Joint and limb pain, classically deep and aching, which is where the old name 'the bends' comes from. Rashes and skin mottling. Unusual fatigue. Numbness, tingling, weakness. Dizziness. And in severe cases breathlessness, confusion and collapse.\n\nThe timing is useful: it usually appears within hours of surfacing, and often within the first hour, though it can be delayed.\n\nHere is the rule that matters most for you: any neurological symptom after a dive is treated as decompression illness until proven otherwise. Numbness, weakness, difficulty walking, confusion, visual changes. Do not attribute them to tiredness, to cold, or to having carried heavy kit up a beach.\n\nAnd the good news is that the single most useful thing you can do is easy and helps both families: high-flow oxygen by non-rebreather. It helps wash nitrogen out and improves oxygen delivery to tissue that bubbles are obstructing. Give it even if the saturation reading looks perfectly normal, because the problem is not one the oximeter measures.\n\nPosition them supine and keep them flat. Do not sit them up. And note that head-down positioning, which was recommended for many years, is no longer advised — check your protocol.\n\nTransport to a facility that can arrange recompression, which may not be the nearest hospital, and let your control room sort that out early.\n\nFinally, bring the dive computer, the dive log, or both. They record depth, time and ascent rate, and that information genuinely changes the treatment decisions made afterwards. Also find out whether anyone else on the dive is symptomatic — dive buddies share profiles.",
+          "standard": "Diving emergencies comprise barotrauma and decompression sickness. Barotrauma results from failure of gas equilibration within closed spaces during pressure change, affecting the middle ear, sinuses and lungs. Pulmonary barotrauma from breath-hold ascent produces alveolar rupture with gas entry into the pulmonary circulation, potentially producing arterial gas embolism with cerebral involvement, presenting within minutes of surfacing with collapse or neurological deficit. Decompression sickness results from nitrogen dissolved at depth emerging from solution as bubbles during excessively rapid ascent. Manifestations include deep aching limb and joint pain, cutaneous rash and mottling, disproportionate fatigue, paraesthesia, weakness, vertigo and, in severe cases, dyspnoea, confusion and collapse, typically within hours of surfacing. Any neurological manifestation following diving is managed as decompression illness until excluded. High-concentration oxygen by non-rebreather benefits both entities and is administered irrespective of pulse oximetry, which does not measure the relevant abnormality. Supine positioning is maintained; head-down positioning is no longer advised. Transport is directed to a facility with recompression access, with dive computer or log accompanying the patient, and dive companions assessed for symptoms."
+        },
+        "eli_new": {
+          "analogy": "Nitrogen dissolves into a diver under pressure like gas into a sealed fizzy drink. Come up too fast and you have opened the bottle from the inside.",
+          "body": "Any neurological symptom after a dive is decompression illness until proven otherwise, and high-flow oxygen is the right answer whatever the saturation reads. Then bring the dive computer."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the two families of diving emergency, and the treatment common to both.",
+          "must_hit": [
+            {
+              "point": "Barotrauma is gas in a closed space unable to equalise — ears, sinuses, lungs",
+              "accept": [
+                "barotrauma",
+                "pressure",
+                "equalis",
+                "equaliz",
+                "ear",
+                "sinus",
+                "lung"
+              ]
+            },
+            {
+              "point": "Ascending while holding the breath can force gas into the circulation",
+              "accept": [
+                "hold",
+                "breath",
+                "ascend",
+                "gas",
+                "circulation",
+                "bubble"
+              ]
+            },
+            {
+              "point": "Decompression sickness is nitrogen coming out of solution as bubbles",
+              "accept": [
+                "decompression",
+                "nitrogen",
+                "bubble",
+                "solution",
+                "ascent"
+              ]
+            },
+            {
+              "point": "Symptoms include joint pain, rash, fatigue, numbness, weakness, dizziness",
+              "accept": [
+                "joint",
+                "pain",
+                "rash",
+                "fatigue",
+                "numb",
+                "weak",
+                "dizz"
+              ]
+            },
+            {
+              "point": "Any neurological symptom after a dive is decompression illness until proven otherwise",
+              "accept": [
+                "neurolog",
+                "after",
+                "dive",
+                "until",
+                "proven",
+                "assume"
+              ]
+            },
+            {
+              "point": "High-flow oxygen helps both and is given whatever the saturation reads",
+              "accept": [
+                "high-flow",
+                "oxygen",
+                "non-rebreather",
+                "saturation",
+                "both"
+              ]
+            },
+            {
+              "point": "Keep them supine and flat; not sitting up and not head down",
+              "accept": [
+                "supine",
+                "flat",
+                "sit",
+                "head down",
+                "position"
+              ]
+            },
+            {
+              "point": "Take the dive computer or log and ask about the buddy",
+              "accept": [
+                "computer",
+                "log",
+                "buddy",
+                "depth",
+                "profile",
+                "bring"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He carried the tanks",
+          "dispatch": "Medic 6 — diver unwell after surfacing, ninety minutes ago.",
+          "body": "He had aching shoulders and a bit of numbness in one hand, and had put it down to carrying the tanks up the beach.\n\nHis dive computer was still on his wrist and showed a rapid ascent.\n\nAny neurological symptom after a dive is decompression illness until somebody proves otherwise, and the numbness was the finding, not the aching."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the diving emergency presentations, oxygen guidance and current positioning advice against the current text and local protocol, as head-down positioning guidance has changed."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-05",
+      "title": "Bites, stings and envenomation",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-04-02",
+        "EMT-06-03-02",
+        "EMT-06-03-03"
+      ],
+      "key_points": [
+        "Scene safety first: whatever bit or stung the patient may still be present and may sting again",
+        "Do not attempt to catch, kill or handle the animal — a photograph from a safe distance is enough where identification matters",
+        "The commonest life-threatening consequence of a sting is anaphylaxis, not the venom itself",
+        "For a bee sting, remove the stinger promptly by scraping or brushing it out; the priority is speed rather than technique",
+        "Keep an envenomated limb below the level of the heart, immobilised, and keep the patient calm and still",
+        "Remove rings, watches and anything constricting early, because swelling can be dramatic",
+        "Do not cut, do not suck, do not apply ice, and do not apply a tourniquet to a snakebite — all cause harm",
+        "Mark the edge of any swelling with a pen and write the time, so its progression can be tracked",
+        "Mammal bites carry a high infection risk, and a human bite is among the dirtiest of all"
+      ],
+      "misconceptions": [
+        "Trying to catch or kill the snake or spider",
+        "Cutting or sucking a snakebite",
+        "Applying ice or a tourniquet to an envenomated limb",
+        "Elevating an envenomated limb",
+        "Leaving rings on a swelling hand"
+      ],
+      "exam_favorites": [
+        "Anaphylaxis is the commonest killer",
+        "Remove a stinger fast, not carefully",
+        "Limb below the heart, still",
+        "Never cut, suck, ice or tourniquet"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Start with the scene, because this is one of the few calls where the cause of the injury is alive and may still be there. A wasp nest that stung one person will sting the next. A snake that bit somebody is nearby. A dog that bit a child has not left.\n\nAnd do not try to catch it, kill it, or bring it. People get bitten a second time doing this, and a dead snake can still envenomate through a reflex bite. If identification genuinely matters, a photograph from a safe distance is plenty.\n\nNow the fact that reframes this whole topic: the commonest life-threatening consequence of a sting is not the venom. It is anaphylaxis. Bee and wasp stings kill people through allergic reaction far more often than through their venom, and that means your first thought at any sting call is an airway, breathing and circulation assessment, not the sting site.\n\nFor a bee sting specifically, get the stinger out quickly. It continues to deliver venom while it is in place, and there is a long-standing debate about scraping versus pulling that does not matter much — what matters is speed. Scrape it or brush it out with whatever is to hand, immediately, rather than hunting for the correct tool.\n\nFor envenomation from a bite — snake, spider, scorpion — a few principles apply generally.\n\nKeep the bitten limb below the level of the heart, and keep it still. Immobilise it as you would a fracture. Movement and muscular activity move venom around faster, so keep the patient calm and, where possible, do not let them walk.\n\nGet rings, watches and bracelets off early. Swelling after envenomation can be dramatic and fast, and a ring on a swelling finger becomes a tourniquet within minutes.\n\nAnd a list of things not to do, all of which were once taught and all of which cause harm. Do not cut the wound. Do not suck the venom out, by mouth or with a device — it does not work and it damages tissue. Do not apply ice, which worsens local tissue damage. Do not apply a tourniquet or a tight constricting band to a snakebite. Every one of these causes injury in addition to the bite, and none removes meaningful venom.\n\nOne thing that is genuinely useful and costs nothing: take a pen and draw a line at the leading edge of the swelling, and write the time next to it. Repeat it as you go. That gives the hospital a direct record of how fast it is spreading, which is real clinical information and is far better than 'it looked smaller before'.\n\nMammal bites deserve a mention for infection rather than venom. Dog and cat bites carry a high infection risk — cat bites particularly, because their fine teeth make deep puncture wounds that seal over. And human bites are among the dirtiest wounds there are. Do not close them, irrigate per protocol, cover, and ensure they are seen.",
+          "standard": "Scene assessment precedes patient care, as the causative animal may remain present and capable of further envenomation. Capture or killing of the animal is contraindicated owing to risk of secondary envenomation, including reflex envenomation by dead snakes; photographic identification from a safe distance suffices where required. Anaphylaxis constitutes the commonest life-threatening consequence of hymenoptera sting, exceeding direct venom toxicity, and initial assessment is therefore directed at airway, breathing and circulation. Retained bee stingers continue envenomation and require prompt removal by scraping or brushing, speed exceeding technique in importance. Envenomated limbs are positioned below the level of the heart, immobilised, with the patient kept calm and ambulation avoided, as muscular activity accelerates systemic venom distribution. Constricting items are removed early owing to rapid oedema. Incision, suction, application of ice and tourniquet application are contraindicated, producing additional tissue injury without meaningful venom removal. Marking the advancing margin of oedema with the time provides an objective record of progression. Mammalian bites carry high infection risk, with feline bites producing deep sealed puncture wounds and human bites among the most heavily contaminated."
+        },
+        "eli_new": {
+          "analogy": "The venom is rarely what kills. The allergic reaction is. Which means the first thing you assess at a sting call is the airway, not the sting.",
+          "body": "Everything you were ever told to do to a snakebite — cut it, suck it, ice it, tie it off — causes harm and removes nothing. What helps is a pen: mark the swelling and write the time."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the commonest danger from stings, how to manage an envenomated limb, and what not to do.",
+          "must_hit": [
+            {
+              "point": "Scene safety — the animal may still be present",
+              "accept": [
+                "scene",
+                "safety",
+                "still",
+                "present",
+                "nest",
+                "again"
+              ]
+            },
+            {
+              "point": "Do not catch or kill the animal; a photograph is enough",
+              "accept": [
+                "catch",
+                "kill",
+                "photograph",
+                "handle",
+                "bring"
+              ]
+            },
+            {
+              "point": "Anaphylaxis is the commonest life-threatening consequence of a sting",
+              "accept": [
+                "anaphylaxis",
+                "allerg",
+                "commonest",
+                "venom",
+                "airway"
+              ]
+            },
+            {
+              "point": "Remove a bee stinger quickly — speed matters more than technique",
+              "accept": [
+                "stinger",
+                "remove",
+                "quick",
+                "scrape",
+                "speed"
+              ]
+            },
+            {
+              "point": "Keep the limb below the heart, immobilised, and the patient still",
+              "accept": [
+                "below",
+                "heart",
+                "immobilis",
+                "still",
+                "calm",
+                "walk"
+              ]
+            },
+            {
+              "point": "Remove rings and constricting items early",
+              "accept": [
+                "ring",
+                "watch",
+                "remove",
+                "swell",
+                "constrict"
+              ]
+            },
+            {
+              "point": "Do not cut, suck, ice or apply a tourniquet",
+              "accept": [
+                "cut",
+                "suck",
+                "ice",
+                "tourniquet",
+                "never"
+              ]
+            },
+            {
+              "point": "Mark the edge of the swelling with a pen and write the time",
+              "accept": [
+                "mark",
+                "pen",
+                "swelling",
+                "time",
+                "track",
+                "edge"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "A pen and a watch",
+          "dispatch": "Medic 7 — snakebite to the ankle, patient calm, 40 minute transport.",
+          "body": "There was nothing the crew could give and nothing they could remove, and the temptation to do something was considerable.\n\nThey took his boot and sock off, got his anklet off before it stopped coming off, kept the leg low and still, and drew a line at the edge of the swelling with the time beside it. Then another, fifteen minutes later.\n\nThe two lines told the hospital more than anything else on the handover."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm envenomation management against the current text, local protocol and regional guidance, which varies considerably by geography and by the species present."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-06",
+      "title": "Lightning injuries",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-08-01"
+      ],
+      "related": [
+        "EMT-06-04-03",
+        "EMT-04-03-02",
+        "EMT-06-08-01"
+      ],
+      "key_points": [
+        "Lightning kills primarily by stopping the heart and stopping the breathing, and both can recover if supported",
+        "In a lightning strike with multiple casualties, triage is REVERSED: treat the apparently dead first",
+        "That reversal exists because those who are breathing will usually survive without you, while those in arrest can be saved by immediate resuscitation",
+        "Lightning can stop the heart and the breathing separately, and breathing often takes longer to return — so ventilation may be needed for a prolonged period after a pulse returns",
+        "The current passes largely over the surface of the body, so deep burns are less common than the mechanism suggests",
+        "Look for other injuries: the strike throws people, causing blunt trauma, fractures and head injury",
+        "Ruptured eardrums, confusion, amnesia and temporary paralysis of the limbs are all common",
+        "The scene remains dangerous — lightning strikes the same place more than once and the storm is still overhead",
+        "Patients do not carry a charge and are safe to touch"
+      ],
+      "misconceptions": [
+        "Triaging a lightning scene normally",
+        "Refusing to touch a struck patient for fear of charge",
+        "Stopping ventilation as soon as a pulse returns",
+        "Remaining in the open on a scene where the storm is still active"
+      ],
+      "exam_favorites": [
+        "Reverse triage",
+        "Breathing returns later than the pulse",
+        "Patients carry no charge",
+        "The scene is still dangerous"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Lightning kills in a specific way, and understanding it explains the one piece of practice that is unique to this concept.\n\nThe current stops the heart and stops the breathing. Those are the deaths. Deep burns, which the mechanism suggests, are actually less common than people expect, because the current tends to flash over the outside of the body rather than travelling through it.\n\nNow the thing that makes lightning different from every other multiple casualty scene.\n\nNormal triage puts the dead and apparently dead last, because resources spent on them are resources not spent on the salvageable. That principle is sound and it applies almost everywhere.\n\nIn lightning it is reversed. You treat the apparently dead first.\n\nThe reasoning is specific to this mechanism. A lightning strike stops a heart that is otherwise normal, in a person who is usually young and healthy, and that heart will frequently restart with immediate resuscitation. Meanwhile, the people who are conscious and breathing after a lightning strike will almost all survive whether you get to them now or in ten minutes.\n\nSo the group who benefit most from immediate attention are the ones who look worst. It is the only common scene where that is true, and it is worth knowing before you are standing in a field deciding.\n\nA related and important detail: lightning can stop the heart and the breathing independently, and the breathing frequently takes longer to come back. So a patient can regain a pulse and remain apnoeic for a considerable time afterwards. If you stop ventilating because the pulse returned, they will arrest again from hypoxia. Keep ventilating for as long as it takes.\n\nLook for other injuries. The strike throws people — sometimes a considerable distance — and the blunt trauma from landing can be severe. Fractures, head injuries, spinal injuries. The muscle contraction alone can fracture bones and dislocate shoulders.\n\nOther common findings: ruptured eardrums from the pressure of the thunder. Confusion and amnesia, often lasting hours. And temporary paralysis of the limbs, typically the legs, which may look alarming and frequently resolves.\n\nScene safety matters and gets overlooked in the urgency. The saying about lightning never striking twice is simply untrue, and the storm that produced this casualty is still overhead. Move casualties to somewhere safer before working on them if there is any way to do that, and be aware of your own exposure in open ground.\n\nAnd one myth worth dispelling firmly, because it causes hesitation at the worst moment: a patient struck by lightning does not carry a charge. They are completely safe to touch. There is no reason to delay.",
+          "standard": "Lightning injury produces mortality principally through cardiac and respiratory arrest, both potentially reversible with support. Deep thermal injury is less frequent than the mechanism suggests, as current predominantly flashes over the body surface. Triage priority is inverted at lightning incidents: apparently deceased casualties are treated first, as lightning arrests occur in structurally normal hearts frequently responsive to immediate resuscitation, while conscious breathing casualties predominantly survive without immediate intervention. Cardiac and respiratory arrest occur independently, with respiratory recovery typically lagging return of circulation; ventilatory support is therefore continued after return of pulse to prevent hypoxic re-arrest. Associated blunt trauma from displacement and from tetanic muscular contraction produces fractures, dislocations, head and spinal injury. Common findings include tympanic membrane rupture, confusion, amnesia and transient limb paralysis, typically of the lower limbs, which frequently resolves. Scene hazard persists, as repeat strikes occur and the storm remains active; casualties are relocated where feasible. Casualties retain no electrical charge and are safe to contact."
+        },
+        "eli_new": {
+          "analogy": "Every other scene, the dead go last. Lightning is the exception — the hearts it stops are normal hearts, and they restart.",
+          "body": "Two things to carry. Reverse the triage: treat the apparently dead first. And keep ventilating after the pulse comes back, because the breathing returns later than the heartbeat and stopping is how you lose them twice."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how lightning kills, why triage is reversed, and what happens after the pulse returns.",
+          "must_hit": [
+            {
+              "point": "It kills by stopping the heart and the breathing",
+              "accept": [
+                "heart",
+                "breathing",
+                "arrest",
+                "stop",
+                "respiratory"
+              ]
+            },
+            {
+              "point": "Triage is REVERSED — treat the apparently dead first",
+              "accept": [
+                "revers",
+                "triage",
+                "dead first",
+                "apparently"
+              ]
+            },
+            {
+              "point": "Because those breathing will usually survive and stopped hearts can be restarted",
+              "accept": [
+                "breathing",
+                "survive",
+                "restart",
+                "salvag",
+                "normal heart"
+              ]
+            },
+            {
+              "point": "Breathing returns later than the pulse, so keep ventilating",
+              "accept": [
+                "breathing",
+                "later",
+                "pulse",
+                "ventilat",
+                "keep",
+                "apnoe"
+              ]
+            },
+            {
+              "point": "Deep burns are less common than expected — the current flashes over",
+              "accept": [
+                "burn",
+                "surface",
+                "flash",
+                "over",
+                "less common"
+              ]
+            },
+            {
+              "point": "Look for blunt trauma from being thrown",
+              "accept": [
+                "thrown",
+                "blunt",
+                "fracture",
+                "head",
+                "spinal",
+                "landing"
+              ]
+            },
+            {
+              "point": "Ruptured eardrums, confusion, amnesia and temporary paralysis are common",
+              "accept": [
+                "eardrum",
+                "confus",
+                "amnesia",
+                "paralysis",
+                "temporary"
+              ]
+            },
+            {
+              "point": "The scene is still dangerous, and patients carry no charge",
+              "accept": [
+                "scene",
+                "danger",
+                "storm",
+                "again",
+                "charge",
+                "touch",
+                "safe"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The ones standing up",
+          "dispatch": "Medic 5 — lightning strike, group of walkers, four casualties.",
+          "body": "Three were sitting up, shaken and confused. One was face down and not moving, and the instinct honed on every other multiple casualty scene was to leave him.\n\nThe officer went straight to him, because a lightning arrest is a normal heart that has been stopped.\n\nThe three sitting up were going to survive with or without anybody. He was the only one whose outcome was still being decided."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the reverse triage principle and lightning injury patterns against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-07",
+      "title": "High-altitude illness",
+      "domain": "TRAU",
+      "difficulty": 3,
+      "prereqs": [],
+      "related": [
+        "EMT-02-03-01",
+        "EMT-05-02-06",
+        "EMT-02-05-01"
+      ],
+      "key_points": [
+        "High-altitude illness is caused by less oxygen available in the air as altitude increases, and it affects otherwise healthy people",
+        "Acute mountain sickness is the mild form: headache, nausea, fatigue, poor sleep and dizziness, like a bad hangover",
+        "High-altitude cerebral edema is swelling of the brain, and the warning sign is a change in thinking or balance — confusion, or being unable to walk a straight line",
+        "High-altitude pulmonary edema is fluid in the lungs: breathlessness at rest, a cough, reduced exercise tolerance, and it can be rapidly fatal",
+        "Both severe forms can develop from mild symptoms over hours, and both are life-threatening",
+        "DESCENT is the treatment for all of it and it is not optional — nothing else substitutes for going down",
+        "Give oxygen where available, keep the patient warm, and do not let them descend alone or carry their own load",
+        "Never let a symptomatic person continue to ascend, and never leave one alone to sleep it off",
+        "Symptoms that begin during descent or at rest, or that are asymmetrical or focal, suggest something other than altitude"
+      ],
+      "misconceptions": [
+        "Allowing a symptomatic climber to continue upwards",
+        "Letting somebody sleep off altitude symptoms alone",
+        "Treating descent as one option among several",
+        "Sending a symptomatic patient down unaccompanied"
+      ],
+      "exam_favorites": [
+        "The three forms",
+        "Descent is the treatment",
+        "Never ascend with symptoms",
+        "Never leave them alone"
+      ],
+      "modes": {
+        "read": {
+          "plain": "High altitude means less oxygen available in each breath. The percentage of oxygen in the air does not change, but the pressure does, so less of it crosses into the blood with each breath. Given time, the body adapts. Given too little time, it does not, and high-altitude illness is what that failure looks like.\n\nIt affects fit, healthy people, and being fit is not protective — if anything fit people get into trouble because they ascend faster.\n\nThere are three forms and they sit on a spectrum.\n\nAcute mountain sickness is the mild and common one. Headache, nausea, tiredness, dizziness, poor appetite, and sleeping badly. It feels like a bad hangover, and it is usually self-limiting if the patient stops ascending and rests.\n\nHigh-altitude cerebral edema is swelling of the brain. The thing that tells you it has moved from mild to dangerous is a change in how the person thinks or moves: confusion, unusual behaviour, drowsiness, and characteristically a loss of coordination. The classic field test is asking somebody to walk heel-to-toe along a line — somebody with cerebral edema cannot do it, and the failure is obvious. Anybody at altitude who becomes confused or unsteady is in trouble.\n\nHigh-altitude pulmonary edema is fluid in the lungs. Breathlessness that is out of proportion to what they are doing, and eventually breathlessness at rest. A dry cough that becomes wet, sometimes with frothy or pink sputum. Marked loss of exercise capacity — a person who was keeping up yesterday falling far behind today. It can kill quickly.\n\nBoth severe forms can develop out of mild symptoms over hours, often overnight, which is why nobody with symptoms should be left to sleep it off alone.\n\nNow the treatment, and it is the whole concept: descent. Going down is the treatment for all three, it works reliably, and nothing else substitutes for it. Oxygen helps if you have it. Drugs exist and are not yours. But the definitive treatment is altitude, and the only way to change altitude is to move.\n\nSo descend, as far and as soon as practical. Do not wait for the morning. Do not wait for better weather if there is any safe way down.\n\nA few practical rules that go with it. Never let somebody with symptoms continue upwards — this is the single most important preventive rule in the whole topic, and it is broken constantly by people who have paid a lot of money to reach a summit. Never send a symptomatic person down alone, because somebody with early cerebral edema can become confused on the way and make poor decisions on dangerous ground. And do not let them carry their own pack.\n\nOne last thing. Symptoms that start during or after descent, or that are one-sided or focal, are not altitude illness. Weakness on one side, a facial droop, chest pain — those are other conditions that happen to be occurring at altitude, and they need their own thinking.",
+          "standard": "High-altitude illness results from reduced barometric pressure with consequently reduced alveolar oxygen tension; the fractional oxygen concentration of air is unchanged. It affects physiologically normal individuals, and physical fitness is not protective, potentially permitting more rapid ascent than acclimatisation allows. Acute mountain sickness comprises headache, nausea, fatigue, dizziness, anorexia and disturbed sleep, and is generally self-limiting with cessation of ascent. High-altitude cerebral oedema manifests as altered mentation, behavioural change, somnolence and ataxia; tandem gait testing demonstrates the deficit reliably. High-altitude pulmonary oedema manifests as disproportionate exertional dyspnoea progressing to dyspnoea at rest, cough progressing from dry to productive with frothy or blood-tinged sputum, and marked reduction in exercise tolerance, with potential for rapid fatality. Both severe forms may evolve from mild symptoms over hours, characteristically overnight. Descent constitutes definitive treatment for all forms, with no adequate substitute; supplemental oxygen is adjunctive. Continued ascent with symptoms is contraindicated, symptomatic individuals are not left unattended to sleep, and descent is not undertaken unaccompanied or carrying load. Focal or lateralised neurological findings, or symptoms commencing during or after descent, indicate alternative pathology."
+        },
+        "eli_new": {
+          "analogy": "The air has the same oxygen in it. There is just less air. The body adapts if you give it time, and high-altitude illness is what happens when you did not.",
+          "body": "Descent is the treatment. Not rest, not fluids, not waiting for morning. Everything else is something you do while going down, and nobody with symptoms goes up or goes down alone."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the three forms of high-altitude illness and state the treatment for all of them.",
+          "must_hit": [
+            {
+              "point": "Less oxygen available as altitude increases, affecting healthy people",
+              "accept": [
+                "oxygen",
+                "altitude",
+                "pressure",
+                "healthy",
+                "adapt"
+              ]
+            },
+            {
+              "point": "Acute mountain sickness: headache, nausea, fatigue, poor sleep, dizziness",
+              "accept": [
+                "mountain sickness",
+                "headache",
+                "nausea",
+                "fatigue",
+                "sleep",
+                "dizz"
+              ]
+            },
+            {
+              "point": "Cerebral edema: confusion, altered behaviour, loss of coordination",
+              "accept": [
+                "cerebral",
+                "confus",
+                "coordinat",
+                "balance",
+                "heel",
+                "behaviour"
+              ]
+            },
+            {
+              "point": "Pulmonary edema: breathlessness at rest, cough, loss of exercise capacity",
+              "accept": [
+                "pulmonary",
+                "breathless",
+                "cough",
+                "rest",
+                "exercise",
+                "frothy"
+              ]
+            },
+            {
+              "point": "Both severe forms can develop from mild symptoms over hours",
+              "accept": [
+                "hours",
+                "develop",
+                "overnight",
+                "mild",
+                "progress"
+              ]
+            },
+            {
+              "point": "DESCENT is the treatment and nothing substitutes for it",
+              "accept": [
+                "descen",
+                "down",
+                "treatment",
+                "altitude",
+                "substitut"
+              ]
+            },
+            {
+              "point": "Never continue ascending with symptoms",
+              "accept": [
+                "ascend",
+                "up",
+                "continue",
+                "never",
+                "symptom"
+              ]
+            },
+            {
+              "point": "Never leave them alone or let them descend unaccompanied",
+              "accept": [
+                "alone",
+                "unaccompan",
+                "sleep",
+                "accompany",
+                "pack"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He'll sleep it off",
+          "dispatch": "Remote support call — trekking group, one member unwell at camp.",
+          "body": "He had a headache and felt sick and everybody agreed he should get some sleep and see how he felt in the morning.\n\nHe was asked to walk heel-to-toe along a line before that was agreed, and he could not do it at all.\n\nThey went down that night. Cerebral edema develops out of a headache, and overnight is exactly when it happens."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the high-altitude illness presentations and the primacy of descent against the current text and current wilderness medicine guidance. No altitude thresholds or ascent rate figures are stated, as these vary between sources and individuals."
     }
   ]
 }

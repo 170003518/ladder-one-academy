@@ -7712,6 +7712,1206 @@
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-01-Q001",
+      "concept_id": "EMT-06-09-01",
+      "style": "recall",
+      "stem": "What single finding distinguishes heat stroke from heat exhaustion?",
+      "options": [
+        {
+          "text": "Hot dry skin",
+          "rationale": "Exertional heat stroke frequently still has sweating."
+        },
+        {
+          "text": "An altered mental status",
+          "rationale": "Correct. A hot confused patient has heat stroke until proven otherwise."
+        },
+        {
+          "text": "Muscle cramps",
+          "rationale": "Cramps occur in heat exhaustion."
+        },
+        {
+          "text": "Heavy sweating",
+          "rationale": "Sweating is present in both."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-01-Q002",
+      "concept_id": "EMT-06-09-01",
+      "style": "application",
+      "stem": "A runner collapses drenched in sweat and does not know what race he is in. What is this?",
+      "options": [
+        {
+          "text": "Heat exhaustion, since he is still sweating",
+          "rationale": "Sweating does not exclude heat stroke."
+        },
+        {
+          "text": "Heat stroke — the altered mental status is the finding",
+          "rationale": "Correct. Exertional heat stroke usually still sweats."
+        },
+        {
+          "text": "Simple dehydration",
+          "rationale": "Confusion is not explained by dehydration alone."
+        },
+        {
+          "text": "Hypoglycemia only",
+          "rationale": "Worth checking, but the picture is heat stroke."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-01-Q003",
+      "concept_id": "EMT-06-09-01",
+      "style": "application",
+      "stem": "When should cooling begin in heat stroke?",
+      "options": [
+        {
+          "text": "On arrival at hospital",
+          "rationale": "Every minute at that temperature does more damage."
+        },
+        {
+          "text": "Immediately, on scene, before transport",
+          "rationale": "Correct. Cooling is the treatment and nobody can undo the delay."
+        },
+        {
+          "text": "Once vital signs are fully recorded",
+          "rationale": "Vital signs do not precede cooling here."
+        },
+        {
+          "text": "Only if the temperature can be measured",
+          "rationale": "Cooling is not withheld pending a measurement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-01-Q004",
+      "concept_id": "EMT-06-09-01",
+      "style": "recall",
+      "stem": "Where are cold packs applied in heat stroke?",
+      "options": [
+        {
+          "text": "Over the chest and abdomen",
+          "rationale": "Not the sites where large vessels run superficially."
+        },
+        {
+          "text": "Neck, armpits and groin",
+          "rationale": "Correct, where large vessels run close to the surface."
+        },
+        {
+          "text": "The hands and feet only",
+          "rationale": "Peripheral sites are far less effective."
+        },
+        {
+          "text": "Directly on the face",
+          "rationale": "Not the described technique."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-01-Q005",
+      "concept_id": "EMT-06-09-01",
+      "style": "application",
+      "stem": "Should a confused heat stroke patient be given oral fluids?",
+      "options": [
+        {
+          "text": "Yes, they are dehydrated",
+          "rationale": "A confused patient cannot safely protect their airway."
+        },
+        {
+          "text": "No — nothing by mouth with an altered mental status",
+          "rationale": "Correct. Fluids are for the fully alert heat exhaustion patient."
+        },
+        {
+          "text": "Yes, in small sips",
+          "rationale": "Still an aspiration risk."
+        },
+        {
+          "text": "Only if they ask for them",
+          "rationale": "Asking does not establish airway safety."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-01-Q006",
+      "concept_id": "EMT-06-09-01",
+      "style": "scenario",
+      "stem": "Why does shivering matter during cooling?",
+      "options": [
+        {
+          "text": "It indicates the patient is recovering",
+          "rationale": "It is not a recovery sign."
+        },
+        {
+          "text": "Shivering generates heat and works against your cooling",
+          "rationale": "Correct. Manage it per protocol rather than ignoring it."
+        },
+        {
+          "text": "It means the cooling has been sufficient",
+          "rationale": "Not what it indicates."
+        },
+        {
+          "text": "It has no clinical significance",
+          "rationale": "It directly opposes the treatment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-02-Q001",
+      "concept_id": "EMT-06-09-02",
+      "style": "recall",
+      "stem": "A hypothermic patient has stopped shivering. What does this mean?",
+      "options": [
+        {
+          "text": "They are warming up and improving",
+          "rationale": "It means the opposite."
+        },
+        {
+          "text": "The body has exhausted its ability to generate heat — they are worse",
+          "rationale": "Correct. From that point the temperature falls faster."
+        },
+        {
+          "text": "The shivering reflex was never present",
+          "rationale": "It was present and has now failed."
+        },
+        {
+          "text": "They are comfortable now",
+          "rationale": "Comfort is not what it indicates."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-02-Q002",
+      "concept_id": "EMT-06-09-02",
+      "style": "recall",
+      "stem": "How is hypothermia usefully staged in the field?",
+      "options": [
+        {
+          "text": "By measured core temperature",
+          "rationale": "Core temperature is rarely measurable prehospitally."
+        },
+        {
+          "text": "By what the patient can still do — shivering, mental status, coordination",
+          "rationale": "Correct. Capability is visible; a core temperature is not."
+        },
+        {
+          "text": "By how long they were exposed",
+          "rationale": "Exposure time varies in its effect."
+        },
+        {
+          "text": "By skin temperature at the fingers",
+          "rationale": "Peripheral temperature is a poor guide."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-02-Q003",
+      "concept_id": "EMT-06-09-02",
+      "style": "application",
+      "stem": "Why must a severely hypothermic patient be handled extremely gently?",
+      "options": [
+        {
+          "text": "Because their skin bruises easily",
+          "rationale": "Not the principal concern."
+        },
+        {
+          "text": "Because rough handling can trigger a fatal cardiac rhythm",
+          "rationale": "Correct. A cold heart is extremely irritable."
+        },
+        {
+          "text": "Because their bones are brittle",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Because it is uncomfortable for them",
+          "rationale": "Comfort is not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-02-Q004",
+      "concept_id": "EMT-06-09-02",
+      "style": "recall",
+      "stem": "How long should you check for a pulse in a hypothermic patient?",
+      "options": [
+        {
+          "text": "Ten seconds, as usual",
+          "rationale": "A hypothermic pulse can be too slow and weak to find in ten seconds."
+        },
+        {
+          "text": "Up to a minute",
+          "rationale": "Correct. Starting compressions on a perfusing patient is its own harm."
+        },
+        {
+          "text": "Five seconds, to avoid delay",
+          "rationale": "Far too short here."
+        },
+        {
+          "text": "Do not check; assume arrest",
+          "rationale": "Assuming arrest without checking is not appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-02-Q005",
+      "concept_id": "EMT-06-09-02",
+      "style": "application",
+      "stem": "What does 'nobody is dead until they are warm and dead' mean for you?",
+      "options": [
+        {
+          "text": "Resuscitation is futile in cold patients",
+          "rationale": "The principle says the opposite."
+        },
+        {
+          "text": "Resuscitation continues and the decision to stop is made warm, at hospital",
+          "rationale": "Correct. Cold protects the brain and organs."
+        },
+        {
+          "text": "Warming must be completed before CPR begins",
+          "rationale": "CPR does not wait for warming."
+        },
+        {
+          "text": "Cold patients cannot be resuscitated in the field",
+          "rationale": "They can, and are."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-02-Q006",
+      "concept_id": "EMT-06-09-02",
+      "style": "scenario",
+      "stem": "A frostbitten hand may be exposed to freezing conditions again during evacuation. Should you rewarm it?",
+      "options": [
+        {
+          "text": "Yes, immediately, to limit tissue damage",
+          "rationale": "A thaw-refreeze cycle is far more destructive than staying frozen."
+        },
+        {
+          "text": "No — leave it frozen until you are somewhere it can stay warm",
+          "rationale": "Correct. And never rub it."
+        },
+        {
+          "text": "Yes, but rub it gently to speed rewarming",
+          "rationale": "Rubbing tears the tissue from the inside."
+        },
+        {
+          "text": "Yes, with hot water",
+          "rationale": "Rapid rewarming with refreezing risk is harmful."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-03-Q001",
+      "concept_id": "EMT-06-09-03",
+      "style": "recall",
+      "stem": "What is the fundamental problem in drowning?",
+      "options": [
+        {
+          "text": "Water filling the lungs and displacing air",
+          "rationale": "Often little water is present; hypoxia is the problem."
+        },
+        {
+          "text": "Hypoxia — a brain and heart deprived of oxygen",
+          "rationale": "Correct. That drives every priority."
+        },
+        {
+          "text": "Swallowed water causing stomach rupture",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Cold causing cardiac arrest directly",
+          "rationale": "Cold is a factor but not the fundamental problem."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-03-Q002",
+      "concept_id": "EMT-06-09-03",
+      "style": "recall",
+      "stem": "Why does ventilation come first in drowning arrest?",
+      "options": [
+        {
+          "text": "Because compressions are ineffective in wet patients",
+          "rationale": "Compressions work; the sequence is about oxygen."
+        },
+        {
+          "text": "Because the arrest was caused by oxygen running out, so circulating oxygen-poor blood achieves little",
+          "rationale": "Correct. Put oxygen back in it first."
+        },
+        {
+          "text": "Because water must be expelled first",
+          "rationale": "Water is not expelled at all."
+        },
+        {
+          "text": "Because protocol always begins with breaths",
+          "rationale": "Most arrests begin with compressions; drowning is the departure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-03-Q003",
+      "concept_id": "EMT-06-09-03",
+      "style": "application",
+      "stem": "Should you attempt to drain water from a drowning patient's lungs?",
+      "options": [
+        {
+          "text": "Yes, by inverting them",
+          "rationale": "There is usually little water and it will not come out that way."
+        },
+        {
+          "text": "No — it delays ventilation and causes vomiting",
+          "rationale": "Correct. Breathe for them instead."
+        },
+        {
+          "text": "Yes, using abdominal thrusts",
+          "rationale": "This causes vomiting without removing water."
+        },
+        {
+          "text": "Only if water is visible in the mouth",
+          "rationale": "Suction visible fluid, but do not attempt lung drainage."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-03-Q004",
+      "concept_id": "EMT-06-09-03",
+      "style": "recall",
+      "stem": "What should you expect during drowning resuscitation?",
+      "options": [
+        {
+          "text": "Bleeding from the airway",
+          "rationale": "Not characteristic."
+        },
+        {
+          "text": "Vomiting — have suction ready before you need it",
+          "rationale": "Correct. Water and air end up in the stomach."
+        },
+        {
+          "text": "Immediate return of spontaneous circulation",
+          "rationale": "Not something to expect."
+        },
+        {
+          "text": "Seizures in every patient",
+          "rationale": "Not characteristic."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-03-Q005",
+      "concept_id": "EMT-06-09-03",
+      "style": "application",
+      "stem": "A patient walks out of the water feeling fine. What should you advise?",
+      "options": [
+        {
+          "text": "They can go home if they feel well",
+          "rationale": "Breathing problems can develop over hours."
+        },
+        {
+          "text": "They should be assessed and transported, because problems can develop over hours",
+          "rationale": "Correct. Walking out is not the end of the event."
+        },
+        {
+          "text": "They only need attention if they cough",
+          "rationale": "Coughing is not the threshold."
+        },
+        {
+          "text": "They should rest at home and call if unwell",
+          "rationale": "Being alone and deteriorating is what to avoid."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-03-Q006",
+      "concept_id": "EMT-06-09-03",
+      "style": "scenario",
+      "stem": "What is the order for water rescue?",
+      "options": [
+        {
+          "text": "Go, row, throw, reach",
+          "rationale": "That is the order reversed, with the most dangerous first."
+        },
+        {
+          "text": "Reach, throw, row, go — with 'go' for trained rescuers only",
+          "rationale": "Correct. Swimming out is how rescuers drown."
+        },
+        {
+          "text": "Enter the water immediately to save time",
+          "rationale": "The most common way a rescuer drowns."
+        },
+        {
+          "text": "Wait for the fire service in all cases",
+          "rationale": "Reaching and throwing can be done immediately."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-04-Q001",
+      "concept_id": "EMT-06-09-04",
+      "style": "recall",
+      "stem": "What is decompression sickness?",
+      "options": [
+        {
+          "text": "Gas in the ears failing to equalise",
+          "rationale": "That is barotrauma."
+        },
+        {
+          "text": "Nitrogen coming out of solution as bubbles during ascent",
+          "rationale": "Correct — the fizzy drink effect, inside the body."
+        },
+        {
+          "text": "Oxygen toxicity at depth",
+          "rationale": "A different diving problem."
+        },
+        {
+          "text": "Water entering the lungs",
+          "rationale": "That is drowning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-04-Q002",
+      "concept_id": "EMT-06-09-04",
+      "style": "recall",
+      "stem": "Why is ascending while holding the breath dangerous?",
+      "options": [
+        {
+          "text": "It causes the diver to run out of air",
+          "rationale": "Breath-holding does not consume the supply."
+        },
+        {
+          "text": "Expanding gas can tear lung tissue and enter the bloodstream",
+          "rationale": "Correct, a true emergency within minutes of surfacing."
+        },
+        {
+          "text": "It causes the ears to rupture",
+          "rationale": "Ear barotrauma is a separate, less serious problem."
+        },
+        {
+          "text": "It increases nitrogen absorption",
+          "rationale": "Absorption happens at depth, not on ascent."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-04-Q003",
+      "concept_id": "EMT-06-09-04",
+      "style": "application",
+      "stem": "A diver has numbness in one hand ninety minutes after surfacing and blames carrying equipment. How do you regard this?",
+      "options": [
+        {
+          "text": "As musculoskeletal, given the explanation",
+          "rationale": "Any neurological symptom after a dive is decompression illness until proven otherwise."
+        },
+        {
+          "text": "As decompression illness until proven otherwise",
+          "rationale": "Correct. The numbness is the finding, not the aching."
+        },
+        {
+          "text": "As anxiety after a difficult dive",
+          "rationale": "A physical explanation is available and serious."
+        },
+        {
+          "text": "As unrelated, given the time since surfacing",
+          "rationale": "It usually appears within hours of surfacing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-04-Q004",
+      "concept_id": "EMT-06-09-04",
+      "style": "recall",
+      "stem": "Should oxygen be given if the saturation reading is normal?",
+      "options": [
+        {
+          "text": "No, oxygen is only for low saturations",
+          "rationale": "The problem is not one the oximeter measures."
+        },
+        {
+          "text": "Yes — high-flow oxygen helps both families of diving emergency",
+          "rationale": "Correct. Give it regardless of the reading."
+        },
+        {
+          "text": "Only if the patient is breathless",
+          "rationale": "Neurological symptoms alone warrant it."
+        },
+        {
+          "text": "Only after recompression is arranged",
+          "rationale": "Oxygen is given immediately."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-04-Q005",
+      "concept_id": "EMT-06-09-04",
+      "style": "scenario",
+      "stem": "What should accompany a diving casualty to hospital?",
+      "options": [
+        {
+          "text": "Only their personal identification",
+          "rationale": "The dive data is what changes treatment decisions."
+        },
+        {
+          "text": "The dive computer or dive log",
+          "rationale": "Correct — it records depth, time and ascent rate."
+        },
+        {
+          "text": "Their diving certification card",
+          "rationale": "Not clinically useful."
+        },
+        {
+          "text": "Nothing; the hospital will obtain details later",
+          "rationale": "The computer is on their wrist now."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-05-Q001",
+      "concept_id": "EMT-06-09-05",
+      "style": "recall",
+      "stem": "What is the commonest life-threatening consequence of a bee or wasp sting?",
+      "options": [
+        {
+          "text": "Venom toxicity",
+          "rationale": "Venom kills far less often than the allergic reaction."
+        },
+        {
+          "text": "Anaphylaxis",
+          "rationale": "Correct. Your first thought at a sting call is airway, breathing and circulation."
+        },
+        {
+          "text": "Local infection",
+          "rationale": "Not the immediate life threat."
+        },
+        {
+          "text": "Blood loss",
+          "rationale": "Stings do not cause significant bleeding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-05-Q002",
+      "concept_id": "EMT-06-09-05",
+      "style": "recall",
+      "stem": "How should a bee stinger be removed?",
+      "options": [
+        {
+          "text": "Carefully with tweezers, gripping the base",
+          "rationale": "The debate over technique matters less than speed."
+        },
+        {
+          "text": "Quickly, by scraping or brushing it out",
+          "rationale": "Correct. It keeps delivering venom while in place."
+        },
+        {
+          "text": "Left in place for hospital removal",
+          "rationale": "It continues to envenomate."
+        },
+        {
+          "text": "Squeezed out from underneath",
+          "rationale": "Not the recommended approach."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-05-Q003",
+      "concept_id": "EMT-06-09-05",
+      "style": "application",
+      "stem": "How should an envenomated limb be positioned?",
+      "options": [
+        {
+          "text": "Elevated above the heart",
+          "rationale": "Elevation is not recommended here."
+        },
+        {
+          "text": "Below the level of the heart, immobilised, with the patient kept still",
+          "rationale": "Correct. Movement moves venom faster."
+        },
+        {
+          "text": "Moved regularly to disperse the venom",
+          "rationale": "Dispersal is what you are trying to avoid."
+        },
+        {
+          "text": "Tightly bandaged from the bite upwards",
+          "rationale": "Constriction is not applied to a snakebite."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-05-Q004",
+      "concept_id": "EMT-06-09-05",
+      "style": "recall",
+      "stem": "Which of these should be done to a snakebite?",
+      "options": [
+        {
+          "text": "Cut the wound and suck out the venom",
+          "rationale": "Both cause harm and remove nothing meaningful."
+        },
+        {
+          "text": "Mark the edge of the swelling with a pen and write the time",
+          "rationale": "Correct — it gives the hospital a record of progression."
+        },
+        {
+          "text": "Apply ice to the site",
+          "rationale": "Ice worsens local tissue damage."
+        },
+        {
+          "text": "Apply a tourniquet above the bite",
+          "rationale": "Contraindicated in snakebite."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-05-Q005",
+      "concept_id": "EMT-06-09-05",
+      "style": "application",
+      "stem": "Should you catch or kill the animal for identification?",
+      "options": [
+        {
+          "text": "Yes, it helps hospital treatment",
+          "rationale": "People are bitten a second time doing this."
+        },
+        {
+          "text": "No — a photograph from a safe distance is enough where it matters",
+          "rationale": "Correct. A dead snake can still deliver a reflex bite."
+        },
+        {
+          "text": "Yes, if it can be done safely with a stick",
+          "rationale": "Not worth the risk."
+        },
+        {
+          "text": "Only if the patient asks you to",
+          "rationale": "Never a reason to attempt it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-05-Q006",
+      "concept_id": "EMT-06-09-05",
+      "style": "scenario",
+      "stem": "Why do cat bites carry a particularly high infection risk?",
+      "options": [
+        {
+          "text": "Cats carry more bacteria than dogs",
+          "rationale": "Not the stated mechanism."
+        },
+        {
+          "text": "Fine teeth make deep puncture wounds that seal over",
+          "rationale": "Correct. The wound closes over the contamination."
+        },
+        {
+          "text": "Cat saliva is toxic",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Cat bites are always on the face",
+          "rationale": "Location is not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-06-Q001",
+      "concept_id": "EMT-06-09-06",
+      "style": "recall",
+      "stem": "How is triage different at a lightning strike?",
+      "options": [
+        {
+          "text": "It is the same as any multiple casualty scene",
+          "rationale": "It is the one common exception."
+        },
+        {
+          "text": "It is REVERSED — the apparently dead are treated first",
+          "rationale": "Correct. Those hearts are normal and frequently restart."
+        },
+        {
+          "text": "Only children are treated",
+          "rationale": "Age does not determine order."
+        },
+        {
+          "text": "Nobody is treated until the storm passes",
+          "rationale": "Casualties are moved and treated as safely as possible."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-06-Q002",
+      "concept_id": "EMT-06-09-06",
+      "style": "recall",
+      "stem": "Why is lightning triage reversed?",
+      "options": [
+        {
+          "text": "Because lightning victims are always unsalvageable",
+          "rationale": "The opposite is true."
+        },
+        {
+          "text": "Because those breathing will usually survive anyway, while stopped hearts can be restarted",
+          "rationale": "Correct. The ones who look worst benefit most."
+        },
+        {
+          "text": "Because the burns are always fatal",
+          "rationale": "Deep burns are less common than expected."
+        },
+        {
+          "text": "Because protocol requires it at all outdoor scenes",
+          "rationale": "It is specific to this mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-06-Q003",
+      "concept_id": "EMT-06-09-06",
+      "style": "application",
+      "stem": "A lightning patient regains a pulse but is not breathing. What should you do?",
+      "options": [
+        {
+          "text": "Stop ventilating since the pulse has returned",
+          "rationale": "They will arrest again from hypoxia."
+        },
+        {
+          "text": "Keep ventilating — breathing returns later than the pulse",
+          "rationale": "Correct, sometimes for a considerable time."
+        },
+        {
+          "text": "Start compressions again",
+          "rationale": "Compressions are not indicated with a pulse present."
+        },
+        {
+          "text": "Wait to see if breathing resumes on its own",
+          "rationale": "Waiting without ventilating causes hypoxia."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-06-Q004",
+      "concept_id": "EMT-06-09-06",
+      "style": "recall",
+      "stem": "Does a lightning-struck patient carry a charge?",
+      "options": [
+        {
+          "text": "Yes — wait before touching them",
+          "rationale": "This myth causes hesitation at the worst moment."
+        },
+        {
+          "text": "No — they are completely safe to touch",
+          "rationale": "Correct. There is no reason to delay."
+        },
+        {
+          "text": "Only if they are still wet",
+          "rationale": "Wetness does not retain charge."
+        },
+        {
+          "text": "Only for the first minute",
+          "rationale": "There is no charge at any point."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-06-Q005",
+      "concept_id": "EMT-06-09-06",
+      "style": "application",
+      "stem": "Why should you look for blunt trauma in a lightning patient?",
+      "options": [
+        {
+          "text": "Lightning does not cause blunt trauma",
+          "rationale": "The strike throws people, sometimes a considerable distance."
+        },
+        {
+          "text": "The strike throws people, and muscle contraction can fracture bones",
+          "rationale": "Correct. Fractures, head and spinal injuries are common."
+        },
+        {
+          "text": "Because burns hide fractures",
+          "rationale": "Deep burns are uncommon here."
+        },
+        {
+          "text": "Because they always fall from height",
+          "rationale": "They are thrown, not necessarily from height."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-06-Q006",
+      "concept_id": "EMT-06-09-06",
+      "style": "scenario",
+      "stem": "Which finding is common after a lightning strike?",
+      "options": [
+        {
+          "text": "Deep full thickness burns over most of the body",
+          "rationale": "The current flashes over the surface; deep burns are less common."
+        },
+        {
+          "text": "Ruptured eardrums, confusion and temporary limb paralysis",
+          "rationale": "Correct, and the paralysis frequently resolves."
+        },
+        {
+          "text": "Immediate permanent blindness",
+          "rationale": "Not a characteristic finding."
+        },
+        {
+          "text": "Massive external bleeding",
+          "rationale": "Not characteristic of lightning injury."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-07-Q001",
+      "concept_id": "EMT-06-09-07",
+      "style": "recall",
+      "stem": "What causes high-altitude illness?",
+      "options": [
+        {
+          "text": "A lower percentage of oxygen in the air",
+          "rationale": "The percentage is unchanged; the pressure is lower."
+        },
+        {
+          "text": "Lower air pressure meaning less oxygen crosses into the blood",
+          "rationale": "Correct, in people who ascended faster than they adapted."
+        },
+        {
+          "text": "Cold temperatures at altitude",
+          "rationale": "Cold is a separate hazard."
+        },
+        {
+          "text": "Dehydration alone",
+          "rationale": "Dehydration contributes but is not the cause."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-07-Q002",
+      "concept_id": "EMT-06-09-07",
+      "style": "recall",
+      "stem": "What suggests high-altitude cerebral edema rather than simple mountain sickness?",
+      "options": [
+        {
+          "text": "A worse headache",
+          "rationale": "Headache alone does not distinguish them."
+        },
+        {
+          "text": "Confusion, altered behaviour, or loss of coordination",
+          "rationale": "Correct — the heel-to-toe walk fails obviously."
+        },
+        {
+          "text": "Nausea and vomiting",
+          "rationale": "Present in the mild form too."
+        },
+        {
+          "text": "Poor sleep",
+          "rationale": "A mild-form symptom."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-07-Q003",
+      "concept_id": "EMT-06-09-07",
+      "style": "recall",
+      "stem": "What is the treatment for all forms of high-altitude illness?",
+      "options": [
+        {
+          "text": "Rest at the current altitude",
+          "rationale": "Rest does not address the cause."
+        },
+        {
+          "text": "Descent",
+          "rationale": "Correct. Nothing else substitutes for going down."
+        },
+        {
+          "text": "Oral fluids and analgesia",
+          "rationale": "Helpful but not the treatment."
+        },
+        {
+          "text": "Waiting until morning",
+          "rationale": "Both severe forms commonly develop overnight."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-07-Q004",
+      "concept_id": "EMT-06-09-07",
+      "style": "application",
+      "stem": "A trekker with a headache and nausea wants to sleep and reassess in the morning. What should happen?",
+      "options": [
+        {
+          "text": "Let them sleep; symptoms often settle",
+          "rationale": "Severe forms develop out of mild symptoms overnight."
+        },
+        {
+          "text": "Assess coordination, and descend rather than leaving them to sleep alone",
+          "rationale": "Correct. Overnight is exactly when it happens."
+        },
+        {
+          "text": "Give analgesia and continue upwards tomorrow",
+          "rationale": "Never continue ascending with symptoms."
+        },
+        {
+          "text": "Send them down alone to save the group's schedule",
+          "rationale": "A symptomatic person never descends unaccompanied."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-07-Q005",
+      "concept_id": "EMT-06-09-07",
+      "style": "scenario",
+      "stem": "A climber at altitude develops one-sided weakness and a facial droop. Is this altitude illness?",
+      "options": [
+        {
+          "text": "Yes, altitude illness commonly causes focal signs",
+          "rationale": "Focal, one-sided signs are not altitude illness."
+        },
+        {
+          "text": "No — focal or one-sided signs suggest another condition occurring at altitude",
+          "rationale": "Correct. It needs its own thinking."
+        },
+        {
+          "text": "Yes, if they ascended rapidly",
+          "rationale": "Rapid ascent does not make focal signs altitude illness."
+        },
+        {
+          "text": "Only if they also have a headache",
+          "rationale": "A headache does not reclassify focal signs."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

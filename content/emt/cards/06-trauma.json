@@ -1652,6 +1652,231 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-08-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-01-C01",
+      "concept_id": "EMT-06-09-01",
+      "type": "concept",
+      "front": {
+        "title": "Heat exhaustion and heat stroke",
+        "summary": "Do they know where they are?"
+      },
+      "back": {
+        "body": "HEAT EXHAUSTION = the body struggling and STILL COPING · heavy sweating · weak · dizzy · nauseated · headache · cramps · MENTAL STATUS NORMAL · HEAT STROKE = thermoregulation HAS FAILED · THE DEFINING FINDING IS AN ALTERED MENTAL STATUS — confused, agitated, slurred, seizing, unresponsive · DO NOT USE HOT DRY SKIN AS THE TEST — that is CLASSIC heat stroke in an elderly patient; EXERTIONAL heat stroke is usually STILL DRENCHED · THE TEMPERATURE ITSELF IS WHAT KILLS → COOL IMMEDIATELY, ON SCENE, BEFORE MOVING · clothing off · cool place · WET THE SKIN AND FAN · cold packs to NECK, ARMPITS, GROIN · STOP per protocol before overshooting · SHIVERING MAKES HEAT · FLUIDS ONLY IF FULLY ALERT",
+        "why_it_matters": "The dry skin teaching belongs to the elderly patient in the hot flat. The runner is still sweating."
+      },
+      "high_yield": true,
+      "number": 67,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-09-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-01-C02",
+      "concept_id": "EMT-06-09-01",
+      "type": "compare",
+      "front": {
+        "title": "Heat exhaustion vs heat stroke",
+        "summary": "One question separates them"
+      },
+      "back": {
+        "body": "See the comparison rows. Everything else overlaps — sweating, weakness, nausea, cramps. THE SEPARATOR IS THE BRAIN: heat exhaustion knows where they are, heat stroke does not. Heat exhaustion gets rest and fluids; HEAT STROKE GETS AGGRESSIVE COOLING STARTED ON SCENE and NOTHING BY MOUTH.",
+        "why_it_matters": "Sweating does not exclude heat stroke, and being able to stand does not either."
+      },
+      "high_yield": true,
+      "number": 68,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-09-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-02-C03",
+      "concept_id": "EMT-06-09-02",
+      "type": "concept",
+      "front": {
+        "title": "Hypothermia and frostbite",
+        "summary": "Shivering stopping is not good news"
+      },
+      "back": {
+        "body": "STAGE BY WHAT THEY CAN STILL DO, not a temperature you cannot measure · MILD: SHIVERING HARD · alert · can look after themselves · MODERATE: shivering SLOWS and STOPS · confused · clumsy · slurred · drowsy · may paradoxically UNDRESS · SEVERE: no shivering · unresponsive · RIGID · pulse and breathing barely detectable · SHIVERING STOPPING MEANS THE BODY HAS RUN OUT OF FUEL — they are WORSE, not better · HANDLE EXTREMELY GENTLY — a cold heart is irritable and rough handling can trigger a fatal rhythm · KEEP THEM HORIZONTAL, do not let them walk · CHECK THE PULSE FOR UP TO A MINUTE · NOBODY IS DEAD UNTIL THEY ARE WARM AND DEAD · FROSTBITE: hard, white, waxy, NUMB · NEVER RUB IT · DO NOT REWARM IF IT MAY REFREEZE",
+        "why_it_matters": "He had been shaking violently and had gone quiet, and everybody thought that was an improvement."
+      },
+      "high_yield": true,
+      "number": 69,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-09-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-02-C04",
+      "concept_id": "EMT-06-09-02",
+      "type": "compare",
+      "front": {
+        "title": "Mild vs moderate-severe hypothermia",
+        "summary": "Read the shivering"
+      },
+      "back": {
+        "body": "See the comparison rows. The single most informative finding is the SHIVERING: vigorous means the body is still generating heat and winning slowly; slowing or stopped means it has run out. Mild patients can walk; MODERATE AND SEVERE PATIENTS ARE MOVED HORIZONTALLY AND GENTLY, because a cold heart can be thrown into a fatal rhythm by handling.",
+        "why_it_matters": "Nobody is dead until they are warm and dead, and that decision belongs at hospital, not in the snow."
+      },
+      "high_yield": true,
+      "number": 70,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-09-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-03-C05",
+      "concept_id": "EMT-06-09-03",
+      "type": "concept",
+      "front": {
+        "title": "Drowning",
+        "summary": "Breathe for them first"
+      },
+      "back": {
+        "body": "DROWNING = respiratory impairment from being in or under water · THE PROBLEM IS HYPOXIA, not water in the lungs · The old terms — WET, DRY, NEAR, SECONDARY drowning — ARE ABANDONED · IN DROWNING ARREST, VENTILATION COMES FIRST — the arrest was caused by oxygen running out, so circulating oxygen-poor blood achieves little · DO NOT TRY TO DRAIN WATER — there is little there, it will not come out, and you will make them vomit instead of ventilating · EXPECT VOMITING, HAVE SUCTION OUT FIRST · COLD WATER: survival after long submersion is documented — resuscitate and warm · SPINAL INJURY IS UNCOMMON unless diving, surfing or a fall — do not let precautions delay air · ASSESS AND TRANSPORT EVERYBODY — problems develop over HOURS · REACH, THROW, ROW, GO — and 'go' is trained rescuers only",
+        "why_it_matters": "Walking out of the water is not the end of the event."
+      },
+      "high_yield": true,
+      "number": 71,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-09-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-04-C06",
+      "concept_id": "EMT-06-09-04",
+      "type": "concept",
+      "front": {
+        "title": "Diving emergencies",
+        "summary": "Oxygen, flat, and bring the computer"
+      },
+      "back": {
+        "body": "TWO FAMILIES · BAROTRAUMA: gas in a closed space cannot equalise → EARS · SINUSES · LUNGS · ASCENDING WHILE HOLDING THE BREATH can tear lung and force GAS INTO THE BLOODSTREAM — collapse within minutes of surfacing · DECOMPRESSION SICKNESS: nitrogen comes OUT OF SOLUTION AS BUBBLES on ascent — joint and limb pain · rash · unusual fatigue · numbness · weakness · dizziness → breathlessness and collapse · usually within HOURS of surfacing · ANY NEUROLOGICAL SYMPTOM AFTER A DIVE IS DECOMPRESSION ILLNESS UNTIL PROVEN OTHERWISE · HIGH-FLOW OXYGEN HELPS BOTH — give it WHATEVER THE SATURATION READS · SUPINE AND FLAT — not sitting up, not head down · Facility with RECOMPRESSION · TAKE THE DIVE COMPUTER · Ask about the buddy",
+        "why_it_matters": "He blamed carrying the tanks. The numbness was the finding, not the aching."
+      },
+      "high_yield": false,
+      "number": 72,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-09-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-05-C07",
+      "concept_id": "EMT-06-09-05",
+      "type": "concept",
+      "front": {
+        "title": "Bites, stings and envenomation",
+        "summary": "A pen is better than a knife"
+      },
+      "back": {
+        "body": "SCENE FIRST — whatever did it may still be there · DO NOT CATCH OR KILL IT; a photo from a distance is enough, and a dead snake still bites · THE COMMONEST KILLER OF A STING IS ANAPHYLAXIS, NOT VENOM — assess ABCs first, not the sting site · BEE STINGER: OUT FAST, scrape or brush — speed beats technique · ENVENOMATED LIMB: BELOW THE HEART · IMMOBILISED · patient CALM AND STILL, do not let them walk · RINGS AND WATCHES OFF EARLY — swelling is fast · NEVER CUT · NEVER SUCK · NEVER ICE · NEVER TOURNIQUET — all cause harm and remove nothing · MARK THE EDGE OF THE SWELLING WITH A PEN AND WRITE THE TIME · MAMMAL BITES: high infection risk — CAT bites seal over deep punctures, HUMAN bites are among the dirtiest",
+        "why_it_matters": "Two pen lines told the hospital more than anything else on the handover."
+      },
+      "high_yield": true,
+      "number": 73,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-09-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-06-C08",
+      "concept_id": "EMT-06-09-06",
+      "type": "concept",
+      "front": {
+        "title": "Lightning injuries",
+        "summary": "Reverse the triage"
+      },
+      "back": {
+        "body": "LIGHTNING KILLS BY STOPPING THE HEART AND THE BREATHING — both can recover · DEEP BURNS ARE LESS COMMON THAN EXPECTED; the current flashes over the surface · TRIAGE IS REVERSED: TREAT THE APPARENTLY DEAD FIRST — the only common scene where that is true · WHY: those breathing will almost all survive without you, and a lightning arrest is a NORMAL HEART that frequently restarts · THE HEART AND THE BREATHING STOP SEPARATELY — BREATHING COMES BACK LATER, so KEEP VENTILATING AFTER THE PULSE RETURNS or they arrest again · LOOK FOR BLUNT TRAUMA — the strike THROWS people, and muscle contraction breaks bones · COMMON: ruptured eardrums · confusion · amnesia · TEMPORARY LIMB PARALYSIS · THE SCENE IS STILL DANGEROUS — it strikes twice · PATIENTS CARRY NO CHARGE, TOUCH THEM",
+        "why_it_matters": "The three sitting up were going to survive anyway. He was the only one still being decided."
+      },
+      "high_yield": true,
+      "number": 74,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-09-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-09-07-C09",
+      "concept_id": "EMT-06-09-07",
+      "type": "concept",
+      "front": {
+        "title": "High-altitude illness",
+        "summary": "Descent is the treatment"
+      },
+      "back": {
+        "body": "LESS AIR PRESSURE → less oxygen crosses per breath · affects FIT, HEALTHY people — fitness is not protective, and fit people ascend faster · ACUTE MOUNTAIN SICKNESS: headache · nausea · fatigue · dizzy · poor sleep — like a bad hangover · CEREBRAL EDEMA: CONFUSION · odd behaviour · drowsy · LOSS OF COORDINATION — the heel-to-toe walk fails obviously · PULMONARY EDEMA: breathless AT REST · cough turning wet, sometimes frothy or pink · cannot keep up — CAN KILL QUICKLY · BOTH SEVERE FORMS GROW OUT OF MILD SYMPTOMS OVER HOURS, USUALLY OVERNIGHT · DESCENT IS THE TREATMENT FOR ALL OF IT — nothing substitutes · Oxygen if you have it · NEVER ASCEND WITH SYMPTOMS · NEVER LEAVE THEM TO SLEEP IT OFF ALONE · NEVER SEND THEM DOWN UNACCOMPANIED · FOCAL or ONE-SIDED signs are NOT altitude illness",
+        "why_it_matters": "He could not walk heel-to-toe at all. They went down that night."
+      },
+      "high_yield": false,
+      "number": 75,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 6,
+        "module_name": "Trauma"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-06-09-07. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }
