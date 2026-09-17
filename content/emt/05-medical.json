@@ -104,6 +104,15 @@
         "EMT-05-09-03",
         "EMT-05-09-04"
       ]
+    },
+    {
+      "id": "EMT-05-10",
+      "title": "Gynecologic emergencies",
+      "concepts": [
+        "EMT-05-10-01",
+        "EMT-05-10-02",
+        "EMT-05-10-03"
+      ]
     }
   ],
   "concepts": [
@@ -6005,6 +6014,487 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the precaution levels, respiratory protection requirements and post-exposure reporting procedures against the current text and your own service's infection control policy, which governs. No specific post-exposure prophylaxis regimens or time windows are stated; those are institutional and change."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-01",
+      "title": "Vaginal bleeding and ectopic pregnancy",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-06-01",
+        "EMT-04-04-01",
+        "EMT-05-10-03"
+      ],
+      "key_points": [
+        "Any woman of childbearing age with abdominal pain is potentially pregnant until that is excluded, whatever she believes or says",
+        "An ectopic pregnancy is one implanted outside the uterus, usually in a fallopian tube, and it can rupture and bleed catastrophically",
+        "The classic triad is abdominal pain, a missed or abnormal period, and vaginal bleeding — but not every patient has all three",
+        "A ruptured ectopic bleeds internally, so the external bleeding you can see may be minimal or absent while the patient is in shock",
+        "Shoulder tip pain in a woman with abdominal pain suggests blood under the diaphragm and is a serious finding",
+        "Pallor, a fast pulse and light-headedness in a woman of childbearing age with abdominal pain is a ruptured ectopic until proven otherwise",
+        "Estimate blood loss by counting pads or by what is soaked, not by eye, and never pack the vagina",
+        "Treat as shock: position, oxygen as indicated, keep warm, nothing by mouth, rapid transport with a pre-alert",
+        "Ask about pregnancy privately, away from partners and family, because the honest answer may depend on who is listening"
+      ],
+      "misconceptions": [
+        "Accepting 'I can't be pregnant' as an exclusion",
+        "Judging blood loss by what is visible when the bleeding is internal",
+        "Packing the vagina to control bleeding",
+        "Asking about pregnancy in front of a partner or parent",
+        "Attributing pallor and tachycardia to anxiety about the bleeding"
+      ],
+      "exam_favorites": [
+        "Childbearing age plus abdominal pain equals potentially pregnant",
+        "The internal bleeding of a ruptured ectopic",
+        "Shoulder tip pain",
+        "Never pack the vagina"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Start with the rule that governs the whole concept: any woman of childbearing age with abdominal pain is potentially pregnant until that has been properly excluded. Not until she says she is not. Not until you have decided she does not seem likely to be. Women can be pregnant without knowing, can be pregnant while using contraception, and may not say so in front of whoever is in the room.\n\nAn ectopic pregnancy is one that has implanted somewhere other than the lining of the uterus — most often in a fallopian tube, which is a narrow structure with no capacity to expand. As the pregnancy grows, it eventually tears through. When that happens, a major blood supply opens into the abdomen.\n\nThe classic description is three things: abdominal pain, a missed or unusual period, and vaginal bleeding. Learn it, and then immediately learn that plenty of patients do not have all three. Some have not missed a period. Some have no external bleeding at all. A patient who does not fit the triad is not thereby excluded.\n\nThis is the crucial point. A ruptured ectopic bleeds internally. The blood goes into the abdominal cavity, where you cannot see it and neither can she. So you can have a patient in genuine haemorrhagic shock with almost nothing on the pad. If you assess this bleeding by what is visible, you will conclude she is fine while she is dying.\n\nAssess her instead. Pallor. A rising pulse. Light-headedness, especially on sitting up. Cool skin. And blood pressure last, because it holds and then drops.\n\nWatch for shoulder tip pain. Blood collecting under the diaphragm irritates a nerve that also supplies the shoulder, so a woman with abdominal pain rubbing a shoulder nothing has happened to is giving you a serious finding. Ask about it directly if she has not mentioned it.\n\nPut it together: a woman of childbearing age, abdominal pain, pale, tachycardic, light-headed. That is a ruptured ectopic until somebody proves otherwise, and it is a surgical emergency measured in minutes.\n\nFor bleeding you can see, estimate honestly — how many pads, how saturated, over how long. Count and describe rather than guessing at volumes. Take what is soaked with you if it helps the hospital judge.\n\nAnd never pack the vagina. Not with gauze, not with dressings, nothing. External pads only. Packing conceals continuing bleeding, can introduce infection, and can cause damage.\n\nManage her as a shocked patient: position, oxygen as indicated, keep her warm, nothing by mouth because she may go to theatre, and transport quickly with a pre-alert.\n\nOne last thing, and it is genuinely important. Ask about pregnancy and about the possibility of pregnancy privately. Away from a partner, away from a parent, away from anybody. The answer you get with somebody else listening may not be the true one, and the true one may be the thing that saves her. Finding thirty seconds alone with a patient is a clinical skill.",
+          "standard": "Any woman of childbearing age presenting with abdominal pain is regarded as potentially pregnant until excluded, irrespective of patient assertion, contraceptive use or perceived likelihood. Ectopic pregnancy denotes implantation outside the endometrial cavity, most commonly within a fallopian tube; tubal rupture produces catastrophic intraperitoneal haemorrhage. The classical triad comprises abdominal pain, amenorrhoea or abnormal menses, and vaginal bleeding, though incomplete presentations are common and do not exclude the diagnosis. Haemorrhage is predominantly intraperitoneal, so external blood loss correlates poorly with total loss and may be absent in profound shock. Referred shoulder tip pain reflects subdiaphragmatic blood and constitutes a significant finding. Pallor, tachycardia and presyncope in a woman of childbearing age with abdominal pain warrant presumption of ruptured ectopic pregnancy. External loss is quantified by pad count and saturation rather than visual estimation. Vaginal packing is contraindicated; external pads only. Management comprises shock positioning, oxygen as indicated, maintenance of normothermia, nil by mouth and expedited transport with prearrival notification. Enquiry regarding pregnancy is conducted privately, as responses may be influenced by the presence of companions."
+        },
+        "eli_new": {
+          "analogy": "A ruptured ectopic bleeds into a container you cannot see inside. The pad tells you nothing. The pulse and the pallor tell you everything.",
+          "body": "Two habits here save lives. Never accept 'I can't be pregnant' as an exclusion — it is a belief, not a test. And find thirty seconds alone with her before you ask, because the honest answer sometimes depends entirely on who else is in the room."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why external bleeding misleads in a ruptured ectopic, and how you ask about pregnancy.",
+          "must_hit": [
+            {
+              "point": "Any woman of childbearing age with abdominal pain is potentially pregnant",
+              "accept": [
+                "childbearing",
+                "pregnant",
+                "potentially",
+                "until",
+                "exclude"
+              ]
+            },
+            {
+              "point": "Ectopic implants outside the uterus, usually a tube, and can rupture",
+              "accept": [
+                "ectopic",
+                "tube",
+                "outside",
+                "uterus",
+                "ruptur"
+              ]
+            },
+            {
+              "point": "Pain, missed period and bleeding — but not everyone has all three",
+              "accept": [
+                "pain",
+                "period",
+                "bleed",
+                "triad",
+                "three",
+                "not all"
+              ]
+            },
+            {
+              "point": "Bleeding is internal, so visible loss may be minimal in shock",
+              "accept": [
+                "internal",
+                "visible",
+                "minimal",
+                "see",
+                "shock",
+                "abdomen"
+              ]
+            },
+            {
+              "point": "Shoulder tip pain means blood under the diaphragm",
+              "accept": [
+                "shoulder",
+                "diaphragm",
+                "referred",
+                "blood"
+              ]
+            },
+            {
+              "point": "Count pads, never pack the vagina",
+              "accept": [
+                "pad",
+                "count",
+                "pack",
+                "never",
+                "external"
+              ]
+            },
+            {
+              "point": "Ask about pregnancy privately",
+              "accept": [
+                "privat",
+                "alone",
+                "partner",
+                "family",
+                "away"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Thirty seconds alone",
+          "dispatch": "Medic 4 — 24-year-old female, abdominal pain, partner present.",
+          "body": "She said twice, firmly, that there was no possibility she was pregnant, and her partner agreed from across the room.\n\nWhile he was moving the car, the medic asked once more, quietly, and got a different answer.\n\nNothing about her had changed in those ninety seconds. Only who was listening."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the ectopic pregnancy presentation and the guidance on blood loss estimation against the current text. Field management is supportive; no definitive treatment is available prehospitally."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-02",
+      "title": "Sexual assault: care and evidence preservation",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-05-08-01",
+        "EMT-05-10-01"
+      ],
+      "key_points": [
+        "The patient is the priority: medical assessment and treatment of injuries come before anything to do with evidence",
+        "Only expose and examine what you need to treat — do not examine the genital area unless there is life-threatening bleeding to manage",
+        "Take a same-gender provider if the patient wants one and it is possible, and ask rather than assume",
+        "Believe the patient, do not ask why or what they were doing, and do not question the account",
+        "Discourage washing, changing clothes, eating, drinking, or using the toilet where possible — explain why rather than instructing",
+        "Handle clothing minimally; if clothing is removed, use paper bags rather than plastic, per local policy",
+        "Document the patient's own words and observable findings; do not record opinions about what happened",
+        "Keep a record of who was present and who handled anything, because continuity of evidence may matter",
+        "The patient controls what happens next — including whether to involve police — and that control has just been taken from them, so giving it back matters"
+      ],
+      "misconceptions": [
+        "Examining the genital area when there is no life-threatening bleeding",
+        "Asking questions that sound like the patient is being assessed for credibility",
+        "Instructing rather than explaining when discouraging washing",
+        "Putting clothing in plastic bags",
+        "Deciding for the patient whether police should be involved"
+      ],
+      "exam_favorites": [
+        "Patient care before evidence",
+        "What not to examine",
+        "Explaining rather than instructing",
+        "The patient controls what happens next"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This concept is as much about conduct as about clinical care, and the conduct part is what patients remember for the rest of their lives.\n\nThe patient comes first. Always. Airway, breathing, circulation, injuries, pain. Evidence is genuinely important and it is second. Nobody has ever been criticised for treating a patient properly at the cost of a swab.\n\nOn examination, take a deliberately restricted approach. Expose only what you must expose in order to treat something. In particular, do not examine the genital area. The only reason to look there is life-threatening bleeding you have to manage, and that is uncommon. There is no assessment finding you need that justifies it, and the examination itself is experienced as a further violation by someone who has just been violated.\n\nAsk whether they would prefer a provider of a particular gender, and make it happen if you can. Ask; do not assume you know the answer.\n\nHow you speak matters enormously. Believe them. Do not ask why they were there, what they were wearing, whether they had been drinking, why they did not leave, or anything else that sounds like the account is being tested. You are not investigating. Those questions, however innocently meant, land as disbelief, and patients remember them for decades.\n\nOn evidence: try to discourage washing, showering, changing clothes, eating, drinking, brushing teeth, and using the toilet. But how you do this matters more than whether you succeed. Explain why — that evidence may be preserved and it may matter later, and that the choice is theirs. Do not instruct. Someone who has just had control taken away should not be given orders by another stranger. If they wash anyway, that is entirely their right and you support it without any suggestion of disapproval.\n\nHandle clothing as little as possible. If clothing has to be removed for treatment, place it in paper bags rather than plastic — plastic traps moisture and degrades biological evidence — following your local policy. Note who handled what.\n\nDocument the patient's own words in quotation marks and what you actually observed. Record injuries factually: what, where, what size, what colour. Do not write opinions about whether an assault occurred or what you think happened. That is not your role and speculation in a record can do real harm later.\n\nKeep a note of everybody present and anybody who handled clothing or belongings, because continuity of evidence may matter and nobody will remember three months later.\n\nAnd the thread running through all of it: the patient decides. Whether to be transported, whether to involve police, whether to be examined, who is present, what they are ready to talk about. Control has just been taken away from this person by force. Every choice you can hand back is part of the care you are providing, and it is not a small part.",
+          "standard": "Clinical priority remains with the patient: assessment and management of airway, breathing, circulation and injury precede all evidentiary considerations. Examination is restricted to that necessary for treatment; genital examination is not performed except where life-threatening haemorrhage requires management. Provider gender preference is elicited and accommodated where possible. Communication avoids any enquiry implying assessment of credibility. Washing, changing of clothing, oral intake, oral hygiene and toileting are discouraged through explanation of evidentiary significance rather than instruction, with the patient retaining the decision. Clothing is handled minimally and, where removed, placed in paper rather than plastic receptacles per local policy, plastic promoting moisture retention and degradation of biological material. Documentation records patient statements verbatim and objective findings without opinion regarding causation. Persons present and those handling belongings are recorded for continuity purposes. Patient autonomy governs decisions regarding transport, law enforcement involvement, examination and attendance, restoration of control constituting a substantive element of care."
+        },
+        "eli_new": {
+          "analogy": "Control was taken from this person by force. Every decision you hand back is a piece of it returned, and that is treatment, not courtesy.",
+          "body": "The hardest habit to build here is not clinical. It is noticing the questions you were about to ask out of ordinary curiosity — where were you, what happened, why — and not asking them. You do not need the answers to treat anybody, and the asking causes harm."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what comes first, what you do not examine, and how you handle evidence preservation.",
+          "must_hit": [
+            {
+              "point": "Patient care and injuries come before evidence",
+              "accept": [
+                "patient",
+                "first",
+                "injur",
+                "treat",
+                "before",
+                "evidence"
+              ]
+            },
+            {
+              "point": "Do not examine the genital area unless there is life-threatening bleeding",
+              "accept": [
+                "genital",
+                "examine",
+                "not",
+                "bleeding",
+                "expose"
+              ]
+            },
+            {
+              "point": "Offer a provider of the patient's preferred gender and ask rather than assume",
+              "accept": [
+                "gender",
+                "prefer",
+                "ask",
+                "same",
+                "assume"
+              ]
+            },
+            {
+              "point": "Believe them and do not ask questions that test the account",
+              "accept": [
+                "believe",
+                "why",
+                "question",
+                "credib",
+                "investigat"
+              ]
+            },
+            {
+              "point": "Discourage washing and changing by explaining, not instructing",
+              "accept": [
+                "wash",
+                "change",
+                "explain",
+                "instruct",
+                "choice"
+              ]
+            },
+            {
+              "point": "Paper bags not plastic for clothing, handled minimally",
+              "accept": [
+                "paper",
+                "plastic",
+                "bag",
+                "clothing",
+                "handle"
+              ]
+            },
+            {
+              "point": "Document their words and observations, not opinions; the patient decides what happens next",
+              "accept": [
+                "document",
+                "words",
+                "opinion",
+                "decide",
+                "police",
+                "control"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "She asked if she could shower",
+          "dispatch": "Medic 2 — female patient, assault, police not yet involved.",
+          "body": "She asked whether she was allowed to have a shower, and the question was phrased like that — allowed.\n\nThe medic explained why it might matter later, said it was completely her decision, and meant it.\n\nShe showered. She also, later that week, went to the police. Being given the choice was the part she talked about afterwards."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Sexual assault: care and evidence",
+          "steps": [
+            {
+              "text": "Treat the patient first: airway, breathing, circulation, injuries, pain",
+              "critical": true
+            },
+            {
+              "text": "Ask whether they would prefer a provider of a particular gender, and accommodate if possible",
+              "critical": false
+            },
+            {
+              "text": "Expose ONLY what must be exposed to treat something",
+              "critical": true
+            },
+            {
+              "text": "Do NOT examine the genital area unless managing life-threatening bleeding",
+              "critical": true,
+              "note": "There is no finding you need that justifies it, and it is experienced as a further violation."
+            },
+            {
+              "text": "Believe the patient; ask nothing that tests the account",
+              "critical": true,
+              "note": "No why, no what were you doing, no had you been drinking. You are not investigating."
+            },
+            {
+              "text": "EXPLAIN why washing, changing, eating, drinking and toileting may matter — then let them decide",
+              "critical": true
+            },
+            {
+              "text": "Handle clothing minimally; PAPER bags, not plastic, per local policy",
+              "critical": false
+            },
+            {
+              "text": "Record who was present and who handled belongings",
+              "critical": false
+            },
+            {
+              "text": "Document their words in quotation marks and observable findings only — no opinions on causation",
+              "critical": true
+            },
+            {
+              "text": "The patient decides about transport, police, examination and who is present",
+              "critical": true
+            },
+            {
+              "text": "Offer, do not impose, information about support services per local policy",
+              "critical": false
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm evidence handling requirements against your service's policy and local law enforcement protocols, which govern and vary substantially by jurisdiction. Nothing here overrides local policy on chain of custody."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-03",
+      "title": "Pelvic inflammatory disease and other gynecologic pain",
+      "domain": "MED",
+      "difficulty": 3,
+      "prereqs": [],
+      "related": [
+        "EMT-05-10-01",
+        "EMT-05-06-01"
+      ],
+      "key_points": [
+        "Pelvic inflammatory disease is infection of the upper reproductive tract, usually spreading upwards from a sexually transmitted infection",
+        "It gives lower abdominal pain, often on both sides, sometimes with fever, discharge and pain on movement",
+        "Patients with it may walk slowly and carefully, because movement is painful — sometimes described as a shuffling gait",
+        "Untreated it can cause chronic pain, infertility and ectopic pregnancy, so encouraging assessment matters",
+        "An ovarian cyst can rupture and cause sudden severe one-sided pain, sometimes after exertion or intercourse",
+        "Ovarian torsion is an ovary twisting on its blood supply: sudden severe one-sided pain with vomiting, and it is a surgical emergency",
+        "Severe period pain is common and real, but sudden severe one-sided pain is not assumed to be period pain",
+        "Every one of these is managed the same way in the field, and every one of them needs pregnancy excluded",
+        "Ask privately, use neutral language, and offer a chaperone or a provider of their preferred gender"
+      ],
+      "misconceptions": [
+        "Assuming severe one-sided pain is period pain",
+        "Not excluding pregnancy because a diagnosis seems obvious",
+        "Discussing gynecologic history in front of family",
+        "Treating a patient's reluctance to describe symptoms as vagueness rather than discomfort"
+      ],
+      "exam_favorites": [
+        "The PID picture",
+        "Torsion as a surgical emergency",
+        "Sudden one-sided pain is not assumed to be period pain",
+        "Pregnancy excluded in all of them"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A short concept with one theme running through it: in the field you cannot tell these apart, you do not need to, and what matters is recognising that this is significant pain that needs assessing.\n\nPelvic inflammatory disease is infection of the upper reproductive tract — the uterus, the tubes, the ovaries — usually from an infection that started lower down and travelled up. It gives lower abdominal pain, frequently on both sides, often with fever, sometimes with discharge, and characteristically it hurts to move. Some patients walk slowly and carefully in a way that has been described as a shuffling gait, and that is a genuine observation you can make from the doorway.\n\nIt matters because untreated it causes lasting damage: chronic pain, scarring that causes infertility, and scarring that makes a future ectopic pregnancy more likely. Which means encouraging somebody to be assessed is worth doing properly, particularly if they are inclined to wait and see.\n\nOvarian cysts are common and usually silent, but one can rupture, and that gives sudden severe one-sided pain, sometimes triggered by exertion or intercourse. Most settle. Some bleed significantly.\n\nOvarian torsion is the one that must not be missed. The ovary twists on its own blood supply and the supply is cut off. Sudden, severe, one-sided pain, usually with vomiting, in a patient who is genuinely distressed. It is a surgical emergency and there is a time limit on saving the ovary.\n\nWhich brings up the assumption that does damage: sudden severe one-sided pain is not period pain. Period pain is common and can be genuinely severe, and dismissing it is its own failure — but it is usually familiar to the patient, usually cyclical, and usually not sudden and one-sided. If a patient says this is different from her usual pain, that sentence is data.\n\nField care is identical for all of them: position of comfort, oxygen as indicated, nothing by mouth, assess for shock, transport. Pregnancy is excluded in every single one, because an ectopic can masquerade as any of them.\n\nAnd handle the conversation well. Ask privately. Use plain, neutral, non-judgemental language. Offer a chaperone or a provider of their preferred gender. A patient who seems vague about her symptoms is frequently not vague — she is uncomfortable, and the fix for that is privacy and a matter-of-fact tone rather than more questions.",
+          "standard": "Pelvic inflammatory disease denotes infection of the upper genital tract, typically ascending from a sexually transmitted lower tract infection. Presentation comprises bilateral lower abdominal pain, frequently with pyrexia, vaginal discharge and pain on movement; an antalgic shuffling gait may be observed. Sequelae of untreated disease include chronic pelvic pain, tubal infertility and increased ectopic pregnancy risk. Ovarian cyst rupture produces sudden severe unilateral pain, occasionally precipitated by exertion or intercourse, with variable haemorrhage. Ovarian torsion, in which the ovary rotates about its vascular pedicle producing ischaemia, presents with abrupt severe unilateral pain and vomiting and constitutes a time-critical surgical emergency. Dysmenorrhoea is common and may be severe, but sudden severe unilateral pain is not attributed to it; patient report that pain differs from her usual pattern is significant. Prehospital management is identical across these presentations: position of comfort, oxygen as indicated, nil by mouth, assessment for shock and transport. Pregnancy is excluded in all presentations. History is obtained privately using neutral language, with a chaperone or provider of preferred gender offered."
+        },
+        "eli_new": {
+          "analogy": "Any of these can look like the others, and one of them is an ectopic pregnancy wearing a different hat. Which is why the pregnancy question is asked every single time.",
+          "body": "The assumption to avoid: that sudden severe one-sided pain in a young woman is just a bad period. Period pain is usually familiar and cyclical. Sudden, one-sided and unlike anything she has had before is a different thing, and 'this isn't like my usual' is a sentence worth acting on."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe pelvic inflammatory disease, explain why torsion matters, and say what is excluded in every case.",
+          "must_hit": [
+            {
+              "point": "PID is infection of the upper reproductive tract, usually ascending",
+              "accept": [
+                "infection",
+                "upper",
+                "uterus",
+                "tube",
+                "ascend",
+                "pid"
+              ]
+            },
+            {
+              "point": "Lower abdominal pain often bilateral, fever, discharge, painful to move",
+              "accept": [
+                "lower",
+                "both",
+                "bilateral",
+                "fever",
+                "discharge",
+                "move",
+                "gait"
+              ]
+            },
+            {
+              "point": "Untreated it causes chronic pain, infertility and ectopic risk",
+              "accept": [
+                "chronic",
+                "infertil",
+                "ectopic",
+                "scar",
+                "damage"
+              ]
+            },
+            {
+              "point": "Torsion is an ovary twisting on its blood supply — a surgical emergency",
+              "accept": [
+                "torsion",
+                "twist",
+                "blood supply",
+                "surgical",
+                "emergency"
+              ]
+            },
+            {
+              "point": "Sudden severe one-sided pain is not assumed to be period pain",
+              "accept": [
+                "sudden",
+                "one-sided",
+                "unilateral",
+                "period",
+                "assume"
+              ]
+            },
+            {
+              "point": "Pregnancy is excluded in every case; ask privately with neutral language",
+              "accept": [
+                "pregnan",
+                "exclude",
+                "privat",
+                "neutral",
+                "chaperone"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Not like my usual",
+          "dispatch": "Medic 6 — 19-year-old female, abdominal pain, vomiting.",
+          "body": "Her flatmate said it was probably period pain because she got bad ones, and she had already taken something for it.\n\nThe patient said one sentence that changed the call: this is not like my usual.\n\nIt was sudden, it was on one side, and she was vomiting. None of those belonged to the explanation everybody had already settled on."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the pelvic inflammatory disease presentation, its sequelae, and the ovarian torsion description against the current text. No antibiotic or analgesic names or doses are stated."
     }
   ]
 }

@@ -6122,6 +6122,516 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-01-Q001",
+      "concept_id": "EMT-05-10-01",
+      "style": "recall",
+      "stem": "A patient states firmly she cannot be pregnant. How does this affect your assessment?",
+      "options": [
+        {
+          "text": "It excludes pregnancy from consideration",
+          "rationale": "A statement is a belief, not a test."
+        },
+        {
+          "text": "It does not exclude it — she is still treated as potentially pregnant",
+          "rationale": "Correct. Women can be pregnant unknowingly, or may answer differently in company."
+        },
+        {
+          "text": "It excludes it if she is using contraception",
+          "rationale": "Contraception does not exclude pregnancy."
+        },
+        {
+          "text": "It excludes it if she is under 20",
+          "rationale": "Age within the childbearing range excludes nothing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-01-Q002",
+      "concept_id": "EMT-05-10-01",
+      "style": "application",
+      "stem": "A woman of childbearing age with abdominal pain is pale, tachycardic and light-headed, with almost no visible bleeding. What should you suspect?",
+      "options": [
+        {
+          "text": "Anxiety about her symptoms",
+          "rationale": "Pallor and tachycardia with abdominal pain are physiological findings."
+        },
+        {
+          "text": "A ruptured ectopic pregnancy bleeding internally",
+          "rationale": "Correct. The bleeding is into the abdomen where you cannot see it."
+        },
+        {
+          "text": "A urinary tract infection",
+          "rationale": "Does not explain the shock findings."
+        },
+        {
+          "text": "Menstrual cramps",
+          "rationale": "Does not explain pallor and tachycardia."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-01-Q003",
+      "concept_id": "EMT-05-10-01",
+      "style": "recall",
+      "stem": "What does shoulder tip pain suggest in a woman with abdominal pain?",
+      "options": [
+        {
+          "text": "A shoulder injury she has forgotten",
+          "rationale": "Referred pain does not require shoulder injury."
+        },
+        {
+          "text": "Blood under the diaphragm irritating a shared nerve supply",
+          "rationale": "Correct. It is a serious finding in this context."
+        },
+        {
+          "text": "Anxiety causing muscle tension",
+          "rationale": "A physical explanation is available."
+        },
+        {
+          "text": "Dehydration",
+          "rationale": "Not a cause of referred shoulder tip pain."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-01-Q004",
+      "concept_id": "EMT-05-10-01",
+      "style": "application",
+      "stem": "How should heavy vaginal bleeding be controlled?",
+      "options": [
+        {
+          "text": "Pack the vagina firmly with gauze",
+          "rationale": "Packing conceals continuing bleeding, risks infection and can cause damage."
+        },
+        {
+          "text": "External pads only, counted and described",
+          "rationale": "Correct. Never pack the vagina."
+        },
+        {
+          "text": "Apply a tourniquet to the lower abdomen",
+          "rationale": "Not an appropriate or possible intervention."
+        },
+        {
+          "text": "Direct pressure internally",
+          "rationale": "Internal pressure is not applied."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-01-Q005",
+      "concept_id": "EMT-05-10-01",
+      "style": "recall",
+      "stem": "Why should pregnancy questions be asked privately?",
+      "options": [
+        {
+          "text": "To comply with documentation requirements",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because the honest answer may depend on who is listening",
+          "rationale": "Correct. Finding thirty seconds alone is a clinical skill."
+        },
+        {
+          "text": "Because it saves time",
+          "rationale": "It often takes more time, not less."
+        },
+        {
+          "text": "Because partners are not permitted in the ambulance",
+          "rationale": "Not the rationale."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-01-Q006",
+      "concept_id": "EMT-05-10-01",
+      "style": "scenario",
+      "stem": "A patient has no missed period and no visible bleeding. Does this exclude an ectopic pregnancy?",
+      "options": [
+        {
+          "text": "Yes, since two of the three classic features are absent",
+          "rationale": "Incomplete presentations are common and exclude nothing."
+        },
+        {
+          "text": "No — plenty of patients do not have all three features",
+          "rationale": "Correct. The triad is a description, not a screening test."
+        },
+        {
+          "text": "Yes, if she also denies pregnancy",
+          "rationale": "Denial does not exclude it either."
+        },
+        {
+          "text": "Only if her blood pressure is normal",
+          "rationale": "Blood pressure holds until late in haemorrhage."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-02-Q001",
+      "concept_id": "EMT-05-10-02",
+      "style": "recall",
+      "stem": "What takes priority in the care of a sexual assault patient?",
+      "options": [
+        {
+          "text": "Evidence preservation",
+          "rationale": "Evidence is important and is second."
+        },
+        {
+          "text": "Medical assessment and treatment of injuries",
+          "rationale": "Correct. Nobody is criticised for treating a patient properly."
+        },
+        {
+          "text": "Contacting law enforcement",
+          "rationale": "That is the patient's decision, not a clinical priority."
+        },
+        {
+          "text": "Obtaining a detailed account of events",
+          "rationale": "You are not investigating."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-02-Q002",
+      "concept_id": "EMT-05-10-02",
+      "style": "recall",
+      "stem": "When should an EMT examine the genital area of a sexual assault patient?",
+      "options": [
+        {
+          "text": "Routinely, to document injuries",
+          "rationale": "Documentation does not justify it."
+        },
+        {
+          "text": "Only where there is life-threatening bleeding to manage",
+          "rationale": "Correct. There is no other finding that justifies it."
+        },
+        {
+          "text": "Whenever the patient consents",
+          "rationale": "Consent does not make it clinically necessary."
+        },
+        {
+          "text": "Always, before transport",
+          "rationale": "It is not part of routine assessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-02-Q003",
+      "concept_id": "EMT-05-10-02",
+      "style": "application",
+      "stem": "A patient asks whether she is allowed to shower. What is the appropriate response?",
+      "options": [
+        {
+          "text": "Tell her she must not shower until police arrive",
+          "rationale": "Instructing removes the control she has just had taken from her."
+        },
+        {
+          "text": "Explain why it may matter later and make clear the decision is hers",
+          "rationale": "Correct. Explanation, not instruction, and the choice is genuinely hers."
+        },
+        {
+          "text": "Tell her it makes no difference",
+          "rationale": "It may matter, and misleading her is not respectful."
+        },
+        {
+          "text": "Refuse to answer and change the subject",
+          "rationale": "Avoiding the question is unhelpful."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-02-Q004",
+      "concept_id": "EMT-05-10-02",
+      "style": "recall",
+      "stem": "How should clothing be bagged?",
+      "options": [
+        {
+          "text": "In sealed plastic bags",
+          "rationale": "Plastic traps moisture and degrades biological evidence."
+        },
+        {
+          "text": "In paper bags, per local policy",
+          "rationale": "Correct, and handled as little as possible."
+        },
+        {
+          "text": "In whatever is nearest",
+          "rationale": "Container choice matters here."
+        },
+        {
+          "text": "It should be washed before bagging",
+          "rationale": "Washing destroys evidence."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-02-Q005",
+      "concept_id": "EMT-05-10-02",
+      "style": "application",
+      "stem": "Which question should not be asked?",
+      "options": [
+        {
+          "text": "Where does it hurt?",
+          "rationale": "A clinical question and entirely appropriate."
+        },
+        {
+          "text": "Why didn't you leave?",
+          "rationale": "Correct — this tests the account and lands as disbelief."
+        },
+        {
+          "text": "Would you prefer a different provider?",
+          "rationale": "Appropriate and worth asking."
+        },
+        {
+          "text": "Are you having any difficulty breathing?",
+          "rationale": "A clinical question and appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-02-Q006",
+      "concept_id": "EMT-05-10-02",
+      "style": "sequence",
+      "stem": "What should be documented?",
+      "options": [
+        {
+          "text": "Your assessment of whether an assault occurred",
+          "rationale": "That is not your role and speculation can do real harm."
+        },
+        {
+          "text": "The patient's own words in quotation marks and observable findings",
+          "rationale": "Correct. Facts and quotes, no opinions on causation."
+        },
+        {
+          "text": "Your impression of the patient's credibility",
+          "rationale": "Never appropriate to record."
+        },
+        {
+          "text": "A reconstruction of events from the scene",
+          "rationale": "Not an EMT function."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-03-Q001",
+      "concept_id": "EMT-05-10-03",
+      "style": "recall",
+      "stem": "How does pelvic inflammatory disease typically present?",
+      "options": [
+        {
+          "text": "Sudden one-sided pain with no fever",
+          "rationale": "That pattern suggests torsion or cyst rupture."
+        },
+        {
+          "text": "Lower abdominal pain often on both sides, with fever and pain on movement",
+          "rationale": "Correct. A slow careful gait may be visible from the doorway."
+        },
+        {
+          "text": "Upper abdominal pain radiating to the back",
+          "rationale": "That points elsewhere entirely."
+        },
+        {
+          "text": "Painless vaginal bleeding",
+          "rationale": "Not the PID presentation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-03-Q002",
+      "concept_id": "EMT-05-10-03",
+      "style": "recall",
+      "stem": "Why is ovarian torsion a surgical emergency?",
+      "options": [
+        {
+          "text": "Because it causes severe bleeding",
+          "rationale": "Bleeding is not the primary mechanism."
+        },
+        {
+          "text": "Because the ovary's blood supply is cut off and there is a time limit on saving it",
+          "rationale": "Correct. It is ischaemia with a clock on it."
+        },
+        {
+          "text": "Because it always becomes infected",
+          "rationale": "Infection is not the mechanism."
+        },
+        {
+          "text": "Because it causes airway compromise",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-03-Q003",
+      "concept_id": "EMT-05-10-03",
+      "style": "application",
+      "stem": "A 19-year-old with sudden severe one-sided pain and vomiting is told by a friend it is period pain. How should you regard that?",
+      "options": [
+        {
+          "text": "Accept it, since she has a history of severe periods",
+          "rationale": "Sudden, one-sided and with vomiting does not fit period pain."
+        },
+        {
+          "text": "Do not assume period pain — sudden severe one-sided pain with vomiting suggests something else",
+          "rationale": "Correct. 'This is not like my usual' is data."
+        },
+        {
+          "text": "Advise simple analgesia and no transport",
+          "rationale": "Not appropriate for this presentation."
+        },
+        {
+          "text": "Assume anxiety about examinations",
+          "rationale": "Nothing supports that."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-03-Q004",
+      "concept_id": "EMT-05-10-03",
+      "style": "application",
+      "stem": "What must be excluded in every gynecologic pain presentation?",
+      "options": [
+        {
+          "text": "Appendicitis",
+          "rationale": "Worth considering, but not the universal exclusion."
+        },
+        {
+          "text": "Pregnancy, because an ectopic can masquerade as any of these",
+          "rationale": "Correct. It is asked every single time."
+        },
+        {
+          "text": "Urinary infection",
+          "rationale": "Worth considering, but not the universal exclusion."
+        },
+        {
+          "text": "Musculoskeletal strain",
+          "rationale": "Not the universal exclusion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-10-03-Q005",
+      "concept_id": "EMT-05-10-03",
+      "style": "scenario",
+      "stem": "A patient seems vague about her symptoms with family present. What is the likely explanation?",
+      "options": [
+        {
+          "text": "She is being uncooperative",
+          "rationale": "Reluctance in company is not uncooperativeness."
+        },
+        {
+          "text": "She is uncomfortable discussing it in front of others, and privacy will help",
+          "rationale": "Correct. Privacy and a matter-of-fact tone, rather than more questions."
+        },
+        {
+          "text": "She does not understand the questions",
+          "rationale": "Possible, but privacy is the first thing to try."
+        },
+        {
+          "text": "She is concealing something deliberately",
+          "rationale": "Not a fair or useful assumption."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
