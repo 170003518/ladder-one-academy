@@ -3512,6 +3512,816 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-01-Q001",
+      "concept_id": "EMT-05-06-01",
+      "style": "recall",
+      "stem": "How does visceral abdominal pain typically present?",
+      "options": [
+        {
+          "text": "Sharp, constant and precisely located",
+          "rationale": "That describes parietal pain."
+        },
+        {
+          "text": "Dull, crampy and hard to point at",
+          "rationale": "Correct. Patients rub a whole region with a flat hand."
+        },
+        {
+          "text": "Burning and confined to the skin",
+          "rationale": "That is not abdominal pain of either type."
+        },
+        {
+          "text": "Only present on movement",
+          "rationale": "Movement-related pain is a separate feature."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-01-Q002",
+      "concept_id": "EMT-05-06-01",
+      "style": "application",
+      "stem": "A patient's vague crampy abdominal pain has become sharp and localised to one point. What does this mean?",
+      "options": [
+        {
+          "text": "The patient is improving and can now describe it better",
+          "rationale": "This is a deterioration mistaken for clarity."
+        },
+        {
+          "text": "The process has progressed to involve the abdominal lining",
+          "rationale": "Correct. Visceral becoming parietal is worsening."
+        },
+        {
+          "text": "The original pain was imagined",
+          "rationale": "Nothing supports that."
+        },
+        {
+          "text": "The pain has moved to a different organ",
+          "rationale": "Pain character changing is not the pain relocating."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-01-Q003",
+      "concept_id": "EMT-05-06-01",
+      "style": "application",
+      "stem": "A patient with abdominal pain has shoulder tip pain and no shoulder injury. What does this suggest?",
+      "options": [
+        {
+          "text": "A muscular strain from guarding",
+          "rationale": "Guarding does not produce shoulder tip pain."
+        },
+        {
+          "text": "Blood or air under the diaphragm",
+          "rationale": "Correct. This is the classic referred pain pattern."
+        },
+        {
+          "text": "A cervical spine problem",
+          "rationale": "Not suggested by abdominal pain."
+        },
+        {
+          "text": "Anxiety causing muscle tension",
+          "rationale": "A physical explanation is available and should be pursued."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-01-Q004",
+      "concept_id": "EMT-05-06-01",
+      "style": "recall",
+      "stem": "In what order should the abdominal quadrants be palpated?",
+      "options": [
+        {
+          "text": "Painful quadrant first, while the patient is still relaxed",
+          "rationale": "Palpating there first makes the patient guard everywhere."
+        },
+        {
+          "text": "Painful quadrant last",
+          "rationale": "Correct. Start furthest away and work towards it."
+        },
+        {
+          "text": "Clockwise from the upper right, always",
+          "rationale": "A routine is useful but the painful area still goes last."
+        },
+        {
+          "text": "Order does not matter",
+          "rationale": "It matters considerably."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-01-Q005",
+      "concept_id": "EMT-05-06-01",
+      "style": "scenario",
+      "stem": "An older diabetic patient has epigastric pain with sweating and nausea. What must be considered?",
+      "options": [
+        {
+          "text": "Indigestion requiring antacids",
+          "rationale": "This presentation is treated as cardiac until proven otherwise."
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "rationale": "Correct. Epigastric pain is a recognised cardiac presentation in this group."
+        },
+        {
+          "text": "Simple gastroenteritis",
+          "rationale": "Does not explain the sweating in this patient group."
+        },
+        {
+          "text": "Anxiety about being unwell",
+          "rationale": "Not a diagnosis to reach for here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-02-Q001",
+      "concept_id": "EMT-05-06-02",
+      "style": "recall",
+      "stem": "How does a patient with peritonitis typically lie?",
+      "options": [
+        {
+          "text": "Restless, constantly shifting position",
+          "rationale": "That is the colic picture."
+        },
+        {
+          "text": "Absolutely still with knees drawn up",
+          "rationale": "Correct. Movement makes peritoneal pain much worse."
+        },
+        {
+          "text": "Flat on their back with legs extended",
+          "rationale": "Extension stretches the abdomen and is avoided."
+        },
+        {
+          "text": "Sitting upright and leaning forward",
+          "rationale": "That posture belongs to other presentations."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-02-Q002",
+      "concept_id": "EMT-05-06-02",
+      "style": "recall",
+      "stem": "What is the classical appendicitis pain story?",
+      "options": [
+        {
+          "text": "Right lower quadrant pain from the very first moment",
+          "rationale": "It classically begins elsewhere and migrates."
+        },
+        {
+          "text": "Vague pain around the navel migrating to the right lower quadrant over hours",
+          "rationale": "Correct. The migration is what makes the story characteristic."
+        },
+        {
+          "text": "Left lower quadrant pain radiating to the back",
+          "rationale": "Not the appendicitis pattern."
+        },
+        {
+          "text": "Epigastric pain relieved by eating",
+          "rationale": "Not the appendicitis pattern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-02-Q003",
+      "concept_id": "EMT-05-06-02",
+      "style": "application",
+      "stem": "A teenager in severe abdominal pain all night suddenly feels fine, but is pale with a pulse of 118. What should you suspect?",
+      "options": [
+        {
+          "text": "He has recovered and needs no transport",
+          "rationale": "Pale with a pulse of 118 is not recovery."
+        },
+        {
+          "text": "Perforation, with peritonitis to follow",
+          "rationale": "Correct. Sudden relief can mean the pressure has released through a rupture."
+        },
+        {
+          "text": "He was exaggerating the original pain",
+          "rationale": "His vital signs say otherwise."
+        },
+        {
+          "text": "Simple constipation that has resolved",
+          "rationale": "Does not explain the tachycardia and pallor."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-02-Q004",
+      "concept_id": "EMT-05-06-02",
+      "style": "recall",
+      "stem": "Which findings suggest bowel obstruction?",
+      "options": [
+        {
+          "text": "Board-like rigidity with the patient lying still",
+          "rationale": "That describes peritonitis."
+        },
+        {
+          "text": "Crampy waves of pain, distension, vomiting, and nothing passing",
+          "rationale": "Correct. Obstipation completes the picture."
+        },
+        {
+          "text": "Burning epigastric pain relieved by food",
+          "rationale": "Not an obstruction pattern."
+        },
+        {
+          "text": "Sharp right upper quadrant pain after fatty food",
+          "rationale": "That points elsewhere."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-02-Q005",
+      "concept_id": "EMT-05-06-02",
+      "style": "application",
+      "stem": "Why do bowel obstruction patients become hypovolaemic?",
+      "options": [
+        {
+          "text": "Because they bleed into the bowel",
+          "rationale": "Bleeding is not the usual mechanism."
+        },
+        {
+          "text": "Because fluid is vomited out or sits uselessly in dilated bowel",
+          "rationale": "Correct. Large volumes are lost from the circulation either way."
+        },
+        {
+          "text": "Because they stop producing urine",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Because the obstruction compresses major vessels",
+          "rationale": "Not the usual cause of the fluid loss."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-02-Q006",
+      "concept_id": "EMT-05-06-02",
+      "style": "scenario",
+      "stem": "Having found a rigid abdomen, what should you do next?",
+      "options": [
+        {
+          "text": "Palpate repeatedly to confirm the finding",
+          "rationale": "You have the finding; repeating it only hurts them."
+        },
+        {
+          "text": "Stop palpating, keep them comfortable and still, and transport",
+          "rationale": "Correct. Nothing further is gained from pressing again."
+        },
+        {
+          "text": "Apply a heat pack to relax the muscles",
+          "rationale": "Heat is specifically avoided in abdominal pain."
+        },
+        {
+          "text": "Give oral fluids for the dehydration",
+          "rationale": "Nothing by mouth; they may need theatre."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-03-Q001",
+      "concept_id": "EMT-05-06-03",
+      "style": "recall",
+      "stem": "What does coffee-ground vomit indicate?",
+      "options": [
+        {
+          "text": "Food residue only",
+          "rationale": "The appearance is blood altered by acid, not food."
+        },
+        {
+          "text": "Blood that has been in contact with stomach acid, from an upper source",
+          "rationale": "Correct. It has sat long enough to be changed by the acid."
+        },
+        {
+          "text": "A lower gastrointestinal bleed",
+          "rationale": "Vomited blood indicates an upper source."
+        },
+        {
+          "text": "Bile without blood",
+          "rationale": "Bile has a different appearance entirely."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-03-Q002",
+      "concept_id": "EMT-05-06-03",
+      "style": "recall",
+      "stem": "What does black, tarry stool indicate?",
+      "options": [
+        {
+          "text": "A lower bleed close to the rectum",
+          "rationale": "Blood from there arrives red, not black."
+        },
+        {
+          "text": "Digested blood from an upper source",
+          "rationale": "Correct. It has travelled the whole length of the gut."
+        },
+        {
+          "text": "Iron deficiency without bleeding",
+          "rationale": "Iron supplements can darken stool, but tarry stool with these findings is bleeding."
+        },
+        {
+          "text": "Normal variation",
+          "rationale": "Black tarry stool is never dismissed as normal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-03-Q003",
+      "concept_id": "EMT-05-06-03",
+      "style": "application",
+      "stem": "How much can you infer about total blood loss from the visible blood?",
+      "options": [
+        {
+          "text": "It is a reliable estimate of the loss",
+          "rationale": "There is no reliable relationship between the two."
+        },
+        {
+          "text": "Very little — most of the blood stays inside the gut",
+          "rationale": "Correct. The bowl is not the measurement."
+        },
+        {
+          "text": "Visible blood is usually most of the loss",
+          "rationale": "The opposite is true."
+        },
+        {
+          "text": "Only if it is weighed accurately",
+          "rationale": "Weighing what is visible does not measure what is not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-03-Q004",
+      "concept_id": "EMT-05-06-03",
+      "style": "application",
+      "stem": "A bleeding patient has a pulse of 116, cold damp hands and a normal blood pressure. How do you interpret this?",
+      "options": [
+        {
+          "text": "Stable, since the blood pressure is normal",
+          "rationale": "Normal pressure in a bleeding patient is compensation, not stability."
+        },
+        {
+          "text": "Compensating shock — pressure falls late",
+          "rationale": "Correct. The pulse and the skin are the informative findings."
+        },
+        {
+          "text": "Anxiety explaining all the findings",
+          "rationale": "The findings are physiological."
+        },
+        {
+          "text": "No shock present",
+          "rationale": "Shock is present and being compensated for."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-03-Q005",
+      "concept_id": "EMT-05-06-03",
+      "style": "recall",
+      "stem": "Which history items make gastrointestinal bleeding worse?",
+      "options": [
+        {
+          "text": "Recent vaccination",
+          "rationale": "Not relevant to bleeding severity."
+        },
+        {
+          "text": "Anticoagulants, liver disease and alcohol use",
+          "rationale": "Correct. All three worsen bleeding or impair clotting."
+        },
+        {
+          "text": "Well-controlled asthma",
+          "rationale": "Not relevant here."
+        },
+        {
+          "text": "A history of migraines",
+          "rationale": "Not relevant here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-03-Q006",
+      "concept_id": "EMT-05-06-03",
+      "style": "scenario",
+      "stem": "A patient with GI bleeding is vomiting and cannot lie flat. How should they be positioned?",
+      "options": [
+        {
+          "text": "Sitting fully upright",
+          "rationale": "Sitting a shocked patient up removes perfusion pressure."
+        },
+        {
+          "text": "On their side, with suction immediately available",
+          "rationale": "Correct. Protect the airway without sitting a shocked patient up."
+        },
+        {
+          "text": "Prone",
+          "rationale": "Not an appropriate position."
+        },
+        {
+          "text": "Head down at a steep angle",
+          "rationale": "Not appropriate and worsens the vomiting risk."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-04-Q001",
+      "concept_id": "EMT-05-06-04",
+      "style": "recall",
+      "stem": "Where does gallbladder pain classically sit, and what commonly precedes it?",
+      "options": [
+        {
+          "text": "Left lower quadrant, after exercise",
+          "rationale": "Neither the location nor the trigger fits."
+        },
+        {
+          "text": "Right upper quadrant, often after a fatty meal",
+          "rationale": "Correct. The meal an hour or two before is the classic story."
+        },
+        {
+          "text": "Central abdomen, after fasting",
+          "rationale": "Not the biliary pattern."
+        },
+        {
+          "text": "Suprapubic, after urination",
+          "rationale": "Not the biliary pattern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-04-Q002",
+      "concept_id": "EMT-05-06-04",
+      "style": "recall",
+      "stem": "How is pancreatic pain classically described?",
+      "options": [
+        {
+          "text": "Burning, relieved by eating",
+          "rationale": "That is not the pancreatitis description."
+        },
+        {
+          "text": "Boring through from the upper abdomen to the back, constant and severe",
+          "rationale": "Correct. Patients describe it as drilling through."
+        },
+        {
+          "text": "Crampy waves that come and go",
+          "rationale": "That is more typical of colic."
+        },
+        {
+          "text": "Sharp and confined to the right lower quadrant",
+          "rationale": "That points at appendicitis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-04-Q003",
+      "concept_id": "EMT-05-06-04",
+      "style": "application",
+      "stem": "A patient with severe upper abdominal pain refuses to lie flat and stays folded forward. What should you do?",
+      "options": [
+        {
+          "text": "Insist on supine positioning for a proper assessment",
+          "rationale": "Flattening the patient removes the only comfort they have."
+        },
+        {
+          "text": "Allow the position of comfort they have chosen",
+          "rationale": "Correct. Sitting forward relieves pancreatic pain; they worked that out already."
+        },
+        {
+          "text": "Position them prone instead",
+          "rationale": "Not an appropriate alternative."
+        },
+        {
+          "text": "Assume the refusal indicates a psychiatric problem",
+          "rationale": "The posture is a physical finding, not a behavioural one."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-04-Q004",
+      "concept_id": "EMT-05-06-04",
+      "style": "scenario",
+      "stem": "Why is field differentiation between cholecystitis and pancreatitis unnecessary?",
+      "options": [
+        {
+          "text": "Because neither is serious",
+          "rationale": "Both can be serious."
+        },
+        {
+          "text": "Because EMT-level management is identical for both",
+          "rationale": "Correct. Recognition of a serious upper abdomen is what matters."
+        },
+        {
+          "text": "Because they never occur together",
+          "rationale": "They are in fact associated."
+        },
+        {
+          "text": "Because both resolve without treatment",
+          "rationale": "Neither is assumed to resolve on its own."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-05-Q001",
+      "concept_id": "EMT-05-06-05",
+      "style": "recall",
+      "stem": "What is the immediate threat in a ruptured oesophageal varix?",
+      "options": [
+        {
+          "text": "Slow anaemia over hours",
+          "rationale": "The threat is immediate, not gradual."
+        },
+        {
+          "text": "The airway, which fills with blood faster than the patient can clear it",
+          "rationale": "Correct. The airway kills before the blood loss does."
+        },
+        {
+          "text": "Infection of the food pipe",
+          "rationale": "Not the immediate threat."
+        },
+        {
+          "text": "Dehydration from vomiting",
+          "rationale": "Not the proximate danger."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-05-Q002",
+      "concept_id": "EMT-05-06-05",
+      "style": "application",
+      "stem": "You are called to a known liver disease patient vomiting bright red blood. What should you prepare first?",
+      "options": [
+        {
+          "text": "An oral glucose preparation",
+          "rationale": "Not relevant to this presentation."
+        },
+        {
+          "text": "Suction, assembled and tested, before entering",
+          "rationale": "Correct. Suction in the bag is suction you do not have."
+        },
+        {
+          "text": "A blood pressure cuff on the left arm",
+          "rationale": "Not the priority preparation here."
+        },
+        {
+          "text": "A traction splint",
+          "rationale": "Not relevant to this presentation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-05-Q003",
+      "concept_id": "EMT-05-06-05",
+      "style": "recall",
+      "stem": "Why does variceal bleeding not stop on its own?",
+      "options": [
+        {
+          "text": "Because the veins are too large to clot",
+          "rationale": "Size is not the reason given."
+        },
+        {
+          "text": "Because liver disease impairs the production of clotting factors",
+          "rationale": "Correct. The organ that makes them is the diseased one."
+        },
+        {
+          "text": "Because patients take aspirin for it",
+          "rationale": "Not the explanation."
+        },
+        {
+          "text": "Because the stomach acid dissolves clots",
+          "rationale": "Not the explanation given here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-05-Q004",
+      "concept_id": "EMT-05-06-05",
+      "style": "application",
+      "stem": "A dialysis patient is breathless with swollen ankles and cannot lie flat. What is the key question?",
+      "options": [
+        {
+          "text": "Do they smoke?",
+          "rationale": "Useful background but not the diagnostic question here."
+        },
+        {
+          "text": "When did they last dialyse?",
+          "rationale": "Correct. A missed session explains the overload."
+        },
+        {
+          "text": "Have they had a chest x-ray recently?",
+          "rationale": "Not a field question that changes management."
+        },
+        {
+          "text": "What is their usual blood pressure?",
+          "rationale": "Helpful context but not the key question."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-05-Q005",
+      "concept_id": "EMT-05-06-05",
+      "style": "recall",
+      "stem": "What must never be done to an arm containing a dialysis fistula?",
+      "options": [
+        {
+          "text": "Observe it for bleeding",
+          "rationale": "Observation is appropriate and necessary."
+        },
+        {
+          "text": "Take a blood pressure or use it for access",
+          "rationale": "Correct. Clotting off a fistula is a genuine harm to the patient."
+        },
+        {
+          "text": "Support it during movement",
+          "rationale": "Supporting the limb is fine."
+        },
+        {
+          "text": "Cover it with a blanket",
+          "rationale": "Covering it causes no harm."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-05-Q006",
+      "concept_id": "EMT-05-06-05",
+      "style": "sequence",
+      "stem": "A dialysis fistula site is bleeding heavily. What do you do?",
+      "options": [
+        {
+          "text": "Apply a tourniquet above it",
+          "rationale": "A tourniquet on a fistula limb risks the fistula and is not first-line here."
+        },
+        {
+          "text": "Firm continuous direct pressure, without lifting to check",
+          "rationale": "Correct. Releasing to look restarts what you just controlled."
+        },
+        {
+          "text": "Elevate the limb and observe",
+          "rationale": "Elevation alone will not control arterial-pressure bleeding."
+        },
+        {
+          "text": "Pack the site with gauze and leave it uncovered",
+          "rationale": "Packing without sustained pressure will not control it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

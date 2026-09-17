@@ -65,6 +65,17 @@
         "EMT-05-05-06",
         "EMT-05-05-07"
       ]
+    },
+    {
+      "id": "EMT-05-06",
+      "title": "Abdominal and gastrointestinal emergencies",
+      "concepts": [
+        "EMT-05-06-01",
+        "EMT-05-06-02",
+        "EMT-05-06-03",
+        "EMT-05-06-04",
+        "EMT-05-06-05"
+      ]
     }
   ],
   "concepts": [
@@ -3499,6 +3510,791 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the four toxidrome descriptions and the discriminating findings against the current text. No substances are named beyond their classes."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-01",
+      "title": "Abdominal pain assessment and referred pain",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-04-02-01",
+        "EMT-05-06-02",
+        "EMT-05-10-01"
+      ],
+      "key_points": [
+        "The abdomen is assessed by quadrants, and the quadrant narrows what is underneath",
+        "OPQRST is the tool, and provocation and radiation carry most of the information",
+        "Visceral pain from hollow organs is dull, crampy and hard to point at; parietal pain from the lining is sharp and localised",
+        "A patient whose vague pain becomes sharp and localised has usually got worse, not better",
+        "Referred pain is felt somewhere other than the source — shoulder tip pain from blood or air under the diaphragm is the classic",
+        "Palpate the painful quadrant LAST, and watch the patient's face rather than your hands",
+        "Never assume abdominal pain is abdominal: a heart attack presents as epigastric pain often enough to matter",
+        "Nothing by mouth, position of comfort, and never apply heat"
+      ],
+      "misconceptions": [
+        "Palpating the painful area first and losing the rest of the exam",
+        "Assuming epigastric pain is indigestion",
+        "Giving a patient something to drink because they are thirsty",
+        "Missing that pain becoming localised is a deterioration"
+      ],
+      "exam_favorites": [
+        "Visceral versus parietal pain",
+        "Referred shoulder tip pain",
+        "Palpating the painful quadrant last",
+        "Epigastric pain as a cardiac presentation"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The abdomen is divided into four quadrants and the division does real work, because it tells you what is underneath your hand.\n\nOPQRST is the framework, and two letters earn their keep here. Provocation — does movement make it worse? Someone who will not let the trolley go over a bump has a very different problem from someone who is writhing and cannot get comfortable. And radiation — where else does it go? That answer is sometimes the whole diagnosis.\n\nThere are two kinds of abdominal pain and knowing the difference is genuinely useful.\n\nVisceral pain comes from the hollow organs themselves. It is dull, crampy, comes in waves, and the patient cannot point to it — ask them to and they will rub a whole region with a flat hand.\n\nParietal pain comes from the lining of the abdominal cavity being irritated. It is sharp, constant, and precisely locatable. Ask them to point and one finger lands on one spot.\n\nNow the useful part: when the first becomes the second, the patient has got worse. Vague crampy pain all over that has become sharp pain in one place means something has progressed to involve the lining. That is a deterioration, and it is easy to mishear as improvement because the patient can now describe it clearly.\n\nReferred pain is pain felt away from its source, because of how nerves are wired. The one to memorise is shoulder tip pain, which can mean blood or air under the diaphragm — from a ruptured ectopic pregnancy, a bleeding spleen, or a perforation. A patient with abdominal pain and an aching shoulder tip with no shoulder injury is telling you something important.\n\nOn examination, one rule: palpate the painful quadrant last. Start furthest away and work towards it. If you go straight to the sore bit, the patient tenses up, and the rest of your exam is worthless. And watch their face, not your hands — the face tells you where the pain is more honestly than the words do.\n\nOne more thing, and it is the one that gets missed. Abdominal pain is not always abdominal. A heart attack can present as pain in the upper abdomen, particularly in older patients, in women, and in diabetics. Epigastric pain that came with sweating, nausea and shortness of breath is a cardiac presentation until proven otherwise.\n\nAnd for management: nothing by mouth — they may go to theatre. A position of comfort, usually knees drawn up. No heat, ever, because it can make things worse.",
+          "standard": "Abdominal assessment is organised by quadrant, localising the underlying viscera. OPQRST characterisation is applied, with provocation and radiation carrying particular diagnostic weight. Visceral pain, arising from hollow viscera, is dull, colicky and poorly localised; parietal pain, arising from peritoneal irritation, is sharp, constant and precisely localised. Transition from visceral to parietal character indicates progression rather than improvement. Referred pain denotes perception distant from the source; shoulder tip pain suggests subdiaphragmatic blood or air, as in ruptured ectopic pregnancy, splenic haemorrhage or viscus perforation. Palpation proceeds from the least painful quadrant to the most painful, with observation of facial response. Epigastric pain may represent acute coronary syndrome, particularly in geriatric, female and diabetic patients. Management comprises nil by mouth in anticipation of operative intervention, position of comfort, and avoidance of applied heat."
+        },
+        "eli_new": {
+          "analogy": "Visceral pain is a wide flat hand rubbing a region. Parietal pain is one finger on one spot. When the hand becomes the finger, they got worse.",
+          "body": "The instinct is to go straight to where it hurts, because that is the interesting bit. Do the opposite. Go there last, or the patient guards and you learn nothing from anywhere else."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain visceral versus parietal pain, what referred shoulder tip pain suggests, and how you palpate an abdomen.",
+          "must_hit": [
+            {
+              "point": "Visceral is dull, crampy and hard to localise",
+              "accept": [
+                "visceral",
+                "dull",
+                "cramp",
+                "vague",
+                "point"
+              ]
+            },
+            {
+              "point": "Parietal is sharp, constant and precisely located",
+              "accept": [
+                "parietal",
+                "sharp",
+                "localis",
+                "localiz",
+                "one spot",
+                "finger"
+              ]
+            },
+            {
+              "point": "Visceral becoming parietal is a deterioration",
+              "accept": [
+                "worse",
+                "deteriorat",
+                "progress",
+                "change"
+              ]
+            },
+            {
+              "point": "Shoulder tip pain suggests blood or air under the diaphragm",
+              "accept": [
+                "shoulder",
+                "diaphragm",
+                "blood",
+                "air",
+                "referred"
+              ]
+            },
+            {
+              "point": "Palpate the painful quadrant last, watching the face",
+              "accept": [
+                "last",
+                "painful",
+                "face",
+                "guard",
+                "quadrant"
+              ]
+            },
+            {
+              "point": "Epigastric pain can be cardiac; nothing by mouth, no heat",
+              "accept": [
+                "cardiac",
+                "heart",
+                "epigastric",
+                "nothing by mouth",
+                "heat",
+                "npo"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The shoulder",
+          "dispatch": "Medic 3 — 28-year-old female, abdominal pain, feeling faint.",
+          "body": "She had lower abdominal pain that had been building all morning, and she kept rolling her shoulder and rubbing the tip of it.\n\nShe had not fallen. She had not lifted anything. Nothing had happened to that shoulder at all.\n\nBlood under the diaphragm irritates the nerve that also serves the shoulder tip. The shoulder was reporting on the abdomen."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the visceral and parietal pain descriptions and the referred pain patterns against the current text. No specific diagnoses are asserted from field findings."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-02",
+      "title": "Peritonitis, appendicitis and bowel obstruction",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-06-01"
+      ],
+      "related": [
+        "EMT-05-06-01",
+        "EMT-04-04-01"
+      ],
+      "key_points": [
+        "Peritonitis is inflammation of the abdominal lining, and it produces a rigid, board-like abdomen the patient will not let you touch",
+        "A peritonitic patient lies very still with knees drawn up, because movement hurts — the opposite of colic",
+        "Appendicitis classically starts as vague pain around the navel and moves to the right lower quadrant over hours",
+        "Pain that becomes localised to the right lower quadrant with fever and vomiting is the pattern to recognise",
+        "Sudden relief of appendicitis pain can mean rupture, not recovery, and is followed by peritonitis",
+        "Bowel obstruction produces crampy waves of pain, distension, vomiting, and no passage of stool or gas",
+        "Obstruction vomiting can become faeculent, and these patients vomit large volumes and become dehydrated",
+        "All three are surgical problems: nothing by mouth, position of comfort, monitor for shock, transport"
+      ],
+      "misconceptions": [
+        "Pressing repeatedly on a rigid abdomen to confirm the finding",
+        "Reading sudden pain relief in appendicitis as improvement",
+        "Giving fluids to a vomiting obstruction patient",
+        "Waiting for a fever before taking appendicitis seriously"
+      ],
+      "exam_favorites": [
+        "The peritonitic patient lying still",
+        "Appendicitis pain migration",
+        "Sudden relief meaning rupture",
+        "The obstruction picture"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Three problems, all of them ultimately surgical, all of them recognisable from the way the patient lies and what the pain has done over time.\n\nPeritonitis is inflammation of the abdominal lining. It comes from something leaking into a cavity that is meant to be sterile — a burst appendix, a perforated ulcer, infection. The abdomen becomes rigid and board-like, and the patient will not let you near it.\n\nThe posture is the giveaway. A peritonitic patient lies absolutely still, knees drawn up, and does not want the trolley to move. Every bump hurts. Compare that with colic, where the patient cannot get comfortable and is constantly shifting. Still means peritoneal. Writhing means colic. That single observation, made from the doorway, is worth a lot.\n\nAnd once you have found a rigid abdomen, stop pressing on it. You have your finding. Confirming it three more times only hurts them.\n\nAppendicitis has a story that is worth knowing because it is so characteristic. It starts as vague, hard-to-place pain around the navel. Over hours it migrates and settles in the right lower quadrant, and by then the patient can point at it. Fever, nausea and vomiting come along with it, and they usually do not want to eat.\n\nThe detail that catches people out: if that pain suddenly disappears, do not relax. Sudden relief can mean the appendix has ruptured and the pressure has released. The patient feels briefly better and is about to get very much worse, because peritonitis is what follows. A patient whose severe pain vanished on its own needs more attention, not less.\n\nBowel obstruction is different in character. The bowel is blocked and keeps trying to push past it, which produces crampy pain in waves. The abdomen distends. The patient vomits, sometimes enormous volumes, and in a long-standing obstruction the vomit can become faeculent — a finding nobody forgets. And nothing is passing: no stool, no gas.\n\nThose patients get dry fast, because all that fluid is either being vomited out or sitting uselessly in dilated bowel. Watch for shock.\n\nFor all three: nothing by mouth, position of comfort, oxygen if indicated, monitor for shock, and transport. They need an operating theatre, and your job is to get them to one without making anything worse on the way.",
+          "standard": "Peritonitis denotes peritoneal inflammation, typically from perforation or infection, producing involuntary guarding and board-like rigidity with marked tenderness. Characteristic posture is immobility with hips flexed, contrasting with the restlessness of colic; movement exacerbates peritoneal pain. Repeated palpation of a rigid abdomen is unnecessary once the finding is established. Appendicitis classically presents with periumbilical visceral pain migrating over hours to the right lower quadrant with localisation, accompanied by fever, nausea, vomiting and anorexia. Abrupt resolution of pain may indicate perforation with subsequent peritonitis rather than improvement. Bowel obstruction produces colicky pain, abdominal distension, vomiting which may become faeculent in established obstruction, and obstipation. Substantial third-space and vomitus fluid losses produce hypovolaemia. All three are surgical presentations: management comprises nil by mouth, position of comfort, oxygen as indicated, monitoring for shock and transport."
+        },
+        "eli_new": {
+          "analogy": "A patient who lies rigidly still has peritonitis. A patient who cannot lie still at all has colic. You can make that call before you touch them.",
+          "body": "The appendicitis trap is the one to remember: pain that suddenly stops is not good news. Somebody who was in agony and is now comfortable has often just perforated, and the peace lasts about an hour."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe how a peritonitic patient lies, the appendicitis pain story, and the bowel obstruction picture.",
+          "must_hit": [
+            {
+              "point": "Peritonitis gives a rigid board-like abdomen",
+              "accept": [
+                "rigid",
+                "board",
+                "guard",
+                "tender"
+              ]
+            },
+            {
+              "point": "They lie very still with knees drawn up; colic patients writhe",
+              "accept": [
+                "still",
+                "knees",
+                "move",
+                "writh",
+                "restless"
+              ]
+            },
+            {
+              "point": "Appendicitis starts near the navel and migrates to the right lower quadrant",
+              "accept": [
+                "navel",
+                "umbilic",
+                "migrat",
+                "right lower",
+                "rlq"
+              ]
+            },
+            {
+              "point": "Sudden relief can mean rupture, not recovery",
+              "accept": [
+                "sudden",
+                "relief",
+                "ruptur",
+                "perforat",
+                "worse"
+              ]
+            },
+            {
+              "point": "Obstruction: crampy waves, distension, vomiting, nothing passing",
+              "accept": [
+                "cramp",
+                "wave",
+                "distend",
+                "vomit",
+                "stool",
+                "gas"
+              ]
+            },
+            {
+              "point": "All three are surgical: nothing by mouth, comfort, watch for shock, transport",
+              "accept": [
+                "surgical",
+                "nothing by mouth",
+                "npo",
+                "shock",
+                "transport",
+                "comfort"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It stopped",
+          "dispatch": "Medic 2 — 16-year-old male, abdominal pain since yesterday, now says he is fine.",
+          "body": "His mother apologised for calling. He had been doubled up all night and an hour ago the pain had simply stopped, and now he wanted to go back to bed.\n\nHe was pale, his pulse was 118, and he did not want to get off the sofa.\n\nThe pain stopping was the event, not the recovery."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Peritonitis",
+          "right_label": "Colic (including obstruction)",
+          "rows": [
+            {
+              "feature": "How they lie",
+              "left": "Absolutely STILL, knees drawn up",
+              "right": "Cannot get comfortable, constantly shifting"
+            },
+            {
+              "feature": "Effect of movement",
+              "left": "Makes it much worse — every bump hurts",
+              "right": "No particular effect"
+            },
+            {
+              "feature": "Pain character",
+              "left": "Sharp, constant, localised",
+              "right": "Crampy, comes in waves, poorly localised"
+            },
+            {
+              "feature": "Abdomen on palpation",
+              "left": "Rigid, board-like, guarded",
+              "right": "Soft between waves, may be distended"
+            },
+            {
+              "feature": "Typical causes",
+              "left": "Perforation, rupture, leaking infection",
+              "right": "Obstruction, stones, gastroenteritis"
+            },
+            {
+              "feature": "What you can tell from the doorway",
+              "left": "Still = peritoneal",
+              "right": "Writhing = colic"
+            },
+            {
+              "feature": "Both need",
+              "left": "Nothing by mouth, comfort, shock watch, transport",
+              "right": "Nothing by mouth, comfort, shock watch, transport"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classical appendicitis migration pattern, the peritonitis findings and the obstruction presentation against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-03",
+      "title": "Gastrointestinal bleeding",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-06-01"
+      ],
+      "related": [
+        "EMT-04-04-01",
+        "EMT-05-06-05"
+      ],
+      "key_points": [
+        "Upper GI bleeding comes from above the small bowel; lower GI bleeding from below it",
+        "Vomited blood may be bright red, or look like coffee grounds where it has sat in stomach acid",
+        "Black tarry stool means blood that has been digested on its way through, and it points upper",
+        "Bright red blood passed from below points lower, or to a very brisk upper bleed moving fast",
+        "The amount you can see bears no reliable relationship to the amount lost — most of it stays inside",
+        "Assess for shock rather than estimating the volume: pulse, skin, mental status, blood pressure last",
+        "Anticoagulants, liver disease and alcohol use all make bleeding worse and harder to stop",
+        "Manage as shock: airway and suction ready, oxygen as indicated, position, keep warm, nothing by mouth, rapid transport"
+      ],
+      "misconceptions": [
+        "Estimating blood loss from what is visible",
+        "Waiting for a low blood pressure before calling it shock",
+        "Sitting a bleeding patient upright because they are vomiting",
+        "Not asking about blood thinners"
+      ],
+      "exam_favorites": [
+        "Coffee-ground vomit and black tarry stool",
+        "Why visible loss means little",
+        "Shock assessment rather than volume estimation"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Gastrointestinal bleeding gets divided into upper and lower, and the dividing line sits at the top of the small bowel. That sounds academic until you realise it is exactly what the appearance of the blood tells you.\n\nBlood that is vomited comes from the upper part. If it comes up fresh and fast it is bright red. If it has sat in stomach acid for a while it turns dark and granular, and the standard description — coffee grounds — is accurate enough that you will recognise it immediately.\n\nBlood that has travelled the whole length of the gut gets digested along the way, and arrives as black, tarry, sticky stool with a smell people remember. That is an upper bleed too; it has just gone the long way round.\n\nBright red blood passed from below is usually a lower source. But be careful with that, because a very brisk upper bleed can move through fast enough to arrive still red. Bright red and a patient who looks terrible is a lot of blood moving quickly.\n\nNow the sentence that matters most in this concept: what you can see tells you almost nothing about what has been lost. Most of it is still inside, in the bowel, where you cannot see it and neither can the patient. Crews get falsely reassured by a small amount in a bowl, and dangerously so.\n\nSo do not estimate volume. Assess for shock instead. Pulse first — rising rate is the early sign. Skin: pale, cool, sweaty. Mental status: anxious, then confused, then quiet. And blood pressure last, because it holds up until the patient has lost a great deal and then falls suddenly. A normal blood pressure in a bleeding patient is not reassurance, it is compensation.\n\nAsk about three things specifically. Anticoagulants — blood thinners mean bleeding that will not stop on its own. Liver disease, which both causes bleeding and impairs clotting. And alcohol, for the same reasons plus the varices in the next concept.\n\nManagement is shock management. Airway with suction at hand and working, because these patients vomit and can aspirate. Oxygen as indicated. Keep them flat unless vomiting makes that impossible, and if it does, get them on their side rather than sitting up. Keep them warm — cold patients clot badly. Nothing by mouth. And go, because what they need is blood and an endoscopy, and those are at the hospital.",
+          "standard": "Gastrointestinal haemorrhage is classified as upper or lower relative to the ligament of Treitz. Haematemesis indicates an upper source, appearing bright red with rapid bleeding or as coffee-ground material following exposure to gastric acid. Melaena — black, tarry, malodorous stool — reflects digested blood and also indicates an upper source. Haematochezia suggests a lower source, though brisk upper haemorrhage with rapid transit may present similarly. Visible blood loss correlates poorly with total loss, the majority remaining within the gastrointestinal lumen; assessment is therefore directed at shock findings rather than volume estimation. Tachycardia, cutaneous changes and altered mental status precede hypotension, which is a late finding reflecting decompensation. Anticoagulant therapy, hepatic disease and alcohol use exacerbate haemorrhage and impair haemostasis. Management comprises airway maintenance with suction immediately available, oxygen as indicated, supine positioning or lateral positioning where vomiting precludes it, active warming, nil by mouth and expedited transport."
+        },
+        "eli_new": {
+          "analogy": "What you can see in the bowl is the tip of it. The rest is in a container you cannot look inside — which is why you read the patient, not the bowl.",
+          "body": "The single most dangerous habit here is being reassured by a small amount of visible blood. There is no relationship between what came out and what was lost. Read the pulse and the skin, and treat what they tell you."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what coffee-ground vomit and black tarry stool indicate, and how you assess blood loss.",
+          "must_hit": [
+            {
+              "point": "Coffee grounds are blood that has sat in stomach acid; upper source",
+              "accept": [
+                "coffee",
+                "acid",
+                "upper",
+                "stomach",
+                "vomit"
+              ]
+            },
+            {
+              "point": "Black tarry stool is digested blood, also upper",
+              "accept": [
+                "black",
+                "tarry",
+                "melaena",
+                "melena",
+                "digest",
+                "upper"
+              ]
+            },
+            {
+              "point": "Bright red from below suggests lower, or a very brisk upper bleed",
+              "accept": [
+                "bright",
+                "red",
+                "lower",
+                "brisk",
+                "fast"
+              ]
+            },
+            {
+              "point": "Visible loss tells you nothing about total loss",
+              "accept": [
+                "visible",
+                "nothing",
+                "estimate",
+                "inside",
+                "most"
+              ]
+            },
+            {
+              "point": "Assess for shock: pulse, skin, mental status, pressure last",
+              "accept": [
+                "pulse",
+                "skin",
+                "mental",
+                "pressure",
+                "late",
+                "shock"
+              ]
+            },
+            {
+              "point": "Ask about anticoagulants, liver disease and alcohol",
+              "accept": [
+                "anticoagul",
+                "thinner",
+                "liver",
+                "alcohol",
+                "warfarin"
+              ]
+            },
+            {
+              "point": "Suction ready, keep warm, nothing by mouth, rapid transport",
+              "accept": [
+                "suction",
+                "warm",
+                "nothing by mouth",
+                "transport",
+                "oxygen"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Not much in the bowl",
+          "dispatch": "Medic 4 — 71-year-old male, vomited blood once, family concerned.",
+          "body": "There was a small amount in a washing-up bowl and it did not look like very much at all, and the patient was apologetic about the fuss.\n\nHis pulse was 116 and his hands were cold and damp, and his blood pressure was entirely normal.\n\nThe bowl was not the measurement. The pulse and the hands were, and the normal pressure was the least informative number in the room."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the upper and lower GI bleed descriptions and the shock assessment sequence against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-04",
+      "title": "Cholecystitis and pancreatitis",
+      "domain": "MED",
+      "difficulty": 2,
+      "prereqs": [
+        "EMT-05-06-01"
+      ],
+      "related": [
+        "EMT-05-06-01",
+        "EMT-05-06-05"
+      ],
+      "key_points": [
+        "Both present as upper abdominal pain that an EMT manages the same way, so the task is recognition rather than distinction",
+        "Gallbladder pain sits in the right upper quadrant, often comes on after a fatty meal, and may refer to the right shoulder blade",
+        "Gallbladder pain can be severe and colicky, and the patient may be restless with it",
+        "Pancreatic pain sits in the upper abdomen and bores through to the back, and is often severe and constant",
+        "The classic pancreatitis posture is sitting up and leaning forward, or curling on the side, because lying flat makes it worse",
+        "Pancreatitis is strongly associated with alcohol and with gallstones",
+        "Both can vomit repeatedly and both can become dehydrated",
+        "Care is the same as any surgical abdomen: nothing by mouth, comfort, oxygen as indicated, shock watch, transport"
+      ],
+      "misconceptions": [
+        "Trying to distinguish the two in the field when management is identical",
+        "Laying a pancreatitis patient flat because it is easier for the trolley",
+        "Dismissing severe upper abdominal pain as indigestion"
+      ],
+      "exam_favorites": [
+        "Right upper quadrant pain after fatty food",
+        "Pain boring through to the back",
+        "The leaning-forward posture"
+      ],
+      "modes": {
+        "read": {
+          "plain": "These two get taught together because they present similarly, they sit next to each other anatomically, and at EMT level you manage them identically. So the goal is recognising a serious upper abdominal problem, not naming which one.\n\nGallbladder trouble gives right upper quadrant pain. The story is usually a meal, often a fatty one, an hour or two before it started. The pain can be severe and comes in waves, and the patient may be quite restless with it, because it is colicky rather than peritoneal. It sometimes refers to the right shoulder blade, which is worth knowing so you are not confused by a patient rubbing their back.\n\nPancreatitis is different in character. The pain sits high in the abdomen, often central, and it bores straight through to the back. Patients describe it as drilling or boring, and it tends to be constant and severe rather than coming in waves.\n\nThe posture is the useful finding. A pancreatitis patient usually wants to sit up and lean forward, or curl up on their side. What they do not want to do is lie flat, because flat makes it worse. So if you find someone with severe upper abdominal pain hunched forward who resists being laid down, let them stay there. Do not flatten a patient for the convenience of the trolley.\n\nThe two big associations for pancreatitis are alcohol and gallstones, which is part of why these two conditions keep company.\n\nBoth vomit, sometimes repeatedly, and both get dehydrated because of it. Look for that.\n\nAnd care is exactly what it was for the last three concepts: nothing by mouth, a position of comfort chosen by the patient rather than by you, oxygen as indicated, watch for shock, and transport. There is nothing clever to do here, and the position of comfort is not a small thing — for a pancreatitis patient it is the only comfort available.",
+          "standard": "Cholecystitis and pancreatitis present as upper abdominal pain with identical EMT-level management; recognition rather than differentiation is the objective. Biliary pain localises to the right upper quadrant, frequently follows ingestion of a fatty meal, is colicky in character with associated restlessness, and may refer to the right scapular region. Pancreatic pain localises to the epigastrium with penetration to the back, is typically constant and severe, and is characteristically relieved by sitting forward or lateral flexion and exacerbated by supine positioning. Principal associations of pancreatitis are alcohol use and cholelithiasis. Both produce repeated emesis with consequent dehydration. Management comprises nil by mouth, patient-selected position of comfort, oxygen as indicated, monitoring for shock and transport."
+        },
+        "eli_new": {
+          "analogy": "Gallbladder pain arrives after dinner and comes in waves. Pancreatic pain bores through to the back and will not let the patient lie down.",
+          "body": "Do not spend effort deciding which one it is. You treat both the same way. The one thing that does change your behaviour is the posture: a pancreatitis patient who is sitting forward should be allowed to stay sitting forward."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe how gallbladder and pancreatic pain differ, and what an EMT does for both.",
+          "must_hit": [
+            {
+              "point": "Gallbladder: right upper quadrant, often after a fatty meal, colicky",
+              "accept": [
+                "right upper",
+                "ruq",
+                "fatty",
+                "meal",
+                "colic",
+                "gallbladder"
+              ]
+            },
+            {
+              "point": "May refer to the right shoulder blade",
+              "accept": [
+                "shoulder",
+                "scapula",
+                "back",
+                "refer"
+              ]
+            },
+            {
+              "point": "Pancreatic: upper abdomen boring through to the back, constant",
+              "accept": [
+                "pancrea",
+                "back",
+                "boring",
+                "through",
+                "constant",
+                "epigastric"
+              ]
+            },
+            {
+              "point": "Pancreatitis patients sit forward and resist lying flat",
+              "accept": [
+                "forward",
+                "sit",
+                "lean",
+                "flat",
+                "curl",
+                "position"
+              ]
+            },
+            {
+              "point": "Alcohol and gallstones are the main pancreatitis associations",
+              "accept": [
+                "alcohol",
+                "gallstone",
+                "stone"
+              ]
+            },
+            {
+              "point": "Management is the same: nothing by mouth, comfort, shock watch, transport",
+              "accept": [
+                "nothing by mouth",
+                "npo",
+                "comfort",
+                "shock",
+                "transport",
+                "same"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Leave him where he is",
+          "dispatch": "Medic 7 — 49-year-old male, severe abdominal pain, two hours.",
+          "body": "He was on a kitchen chair, folded forward over the table, and would not straighten up.\n\nThe new crew member asked him to lie on the trolley so they could assess him properly and he refused, three times, quite firmly.\n\nHe was not being difficult. Lying flat was the one position that made it unbearable, and he had worked that out before anybody arrived."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the pain characteristics, referral patterns and positional findings against the current text. No diagnostic criteria or laboratory values are stated, as neither is a field decision."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-05",
+      "title": "Esophageal varices and the dialysis patient",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-05-06-03"
+      ],
+      "related": [
+        "EMT-05-06-03",
+        "EMT-05-07-02",
+        "EMT-02-05-01"
+      ],
+      "key_points": [
+        "Esophageal varices are swollen veins at the lower end of the food pipe, caused by back-pressure from liver disease",
+        "They can rupture and produce sudden, massive, bright red vomiting of blood",
+        "This is one of the few GI bleeds that can kill within minutes, and the immediate danger is the airway",
+        "Suction, suction, and more suction: have it working and in your hand before you need it, and position to protect the airway",
+        "These patients often clot badly because of their liver disease, so the bleeding does not stop on its own",
+        "Dialysis patients have their own set of emergencies: missed sessions cause fluid overload and dangerous potassium rises",
+        "Fluid overload presents as breathlessness, swelling and difficulty lying flat, and is the commonest reason a dialysis patient calls",
+        "Never take a blood pressure or put anything in the arm carrying a dialysis fistula — use the other arm",
+        "Bleeding from a fistula site can be severe: direct pressure, and do not release to look"
+      ],
+      "misconceptions": [
+        "Being caught without working suction at a variceal bleed",
+        "Using the fistula arm for a blood pressure cuff",
+        "Assuming a breathless dialysis patient has a chest infection without asking when they last dialysed",
+        "Releasing pressure on a bleeding fistula to check whether it has stopped"
+      ],
+      "exam_favorites": [
+        "Why variceal bleeding is an airway emergency",
+        "The fistula arm rule",
+        "Missed dialysis causing overload",
+        "Direct pressure on a bleeding fistula"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two groups of patients who are unusually fragile, for different reasons.\n\nEsophageal varices first. Liver disease creates back-pressure in the veins that drain the gut, and that pressure forces blood into smaller veins that were never built for it — including a set at the bottom of the food pipe. They swell, they thin, and eventually one tears.\n\nWhen that happens the bleeding is sudden, bright red, and enormous. This is one of very few gastrointestinal bleeds that can kill somebody in minutes, and it will not be the blood loss that does it first — it will be the airway. The patient is trying to breathe through a mouthful of blood while more arrives.\n\nSo your preparation is suction. Working, tested, in your hand. Not in the bag, not in the truck. If you are called to a known liver patient vomiting blood, get suction out before you are in the room, and think about how you would position someone whose airway is filling faster than you can clear it — usually on their side, head slightly down if your equipment and protocol allow it.\n\nAnd their clotting is poor, because the liver makes the clotting factors and their liver is the problem. So this does not stop by itself. They need an endoscopy urgently, which means the useful things you can do are airway, oxygen, warmth and speed.\n\nDialysis patients are the second group. Their kidneys do not work and a machine does the job a few times a week. When they miss a session — through illness, transport failure, a bank holiday, or simply not going — two things build up: fluid and potassium.\n\nFluid overload is what you will see most. They become breathless, their ankles and legs swell, and they cannot lie flat. It looks a lot like heart failure, and the question that sorts it out is one line: when did you last dialyse? A breathless dialysis patient who missed Tuesday has told you the diagnosis.\n\nPotassium rising is the dangerous one, because it causes fatal rhythm disturbances with very little warning. You cannot measure it, so treat any dialysis patient who has missed sessions as fragile and get moving.\n\nTwo practical rules about the fistula — the surgically joined artery and vein, usually in an arm, that the machine connects to. Never take a blood pressure on that arm. Never put anything in it. That fistula is how the patient stays alive, and clotting it off is a genuine harm. Use the other arm, always, and if both arms have one, ask.\n\nAnd if a fistula site bleeds, it can bleed alarmingly, because it is arterial pressure in a vein. Direct pressure, firmly, and keep it there. Do not lift it every thirty seconds to see how it is doing.",
+          "standard": "Oesophageal varices result from portal hypertension secondary to hepatic disease, producing dilated submucosal veins at the gastro-oesophageal junction. Rupture produces sudden massive haematemesis of bright red blood, constituting one of few gastrointestinal haemorrhages capable of causing death within minutes; the proximate threat is airway compromise rather than exsanguination. Management requires immediately available functioning suction, airway positioning, oxygen, warming and expedited transport. Coagulopathy secondary to hepatic synthetic failure prevents spontaneous haemostasis. Patients receiving haemodialysis present with distinct emergencies. Missed dialysis produces volume overload and hyperkalaemia. Volume overload presents with dyspnoea, peripheral oedema and orthopnoea, and is the commonest presentation; determining the interval since last dialysis is the key historical question. Hyperkalaemia produces potentially fatal dysrhythmia without reliable warning and cannot be assessed prehospitally. Arteriovenous fistulae must not be used for blood pressure measurement or vascular access; the contralateral limb is used. Fistula haemorrhage requires sustained direct pressure without intermittent release."
+        },
+        "eli_new": {
+          "analogy": "A variceal bleed is a burst pipe upstream of the airway. The patient does not drown in the ward; they drown in your ambulance if the suction is in the bag.",
+          "body": "Two rules that are absolute and easy to break under pressure: suction out before you walk in on a known liver patient vomiting blood, and never touch a fistula arm with a blood pressure cuff."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why variceal bleeding is an airway emergency, and give the rules about a dialysis fistula.",
+          "must_hit": [
+            {
+              "point": "Varices are swollen veins from liver back-pressure that can rupture",
+              "accept": [
+                "varice",
+                "vein",
+                "liver",
+                "pressure",
+                "rupture"
+              ]
+            },
+            {
+              "point": "Bleeding is sudden, bright red and massive, and can kill in minutes",
+              "accept": [
+                "sudden",
+                "bright",
+                "massive",
+                "minutes",
+                "kill"
+              ]
+            },
+            {
+              "point": "The immediate danger is the airway, so suction must be ready",
+              "accept": [
+                "airway",
+                "suction",
+                "ready",
+                "position",
+                "side"
+              ]
+            },
+            {
+              "point": "They clot badly because of liver disease",
+              "accept": [
+                "clot",
+                "liver",
+                "factor",
+                "stop"
+              ]
+            },
+            {
+              "point": "Missed dialysis causes fluid overload and dangerous potassium rise",
+              "accept": [
+                "dialysis",
+                "missed",
+                "fluid",
+                "overload",
+                "potassium"
+              ]
+            },
+            {
+              "point": "Never use the fistula arm for a blood pressure or anything else",
+              "accept": [
+                "fistula",
+                "arm",
+                "blood pressure",
+                "cuff",
+                "other arm",
+                "never"
+              ]
+            },
+            {
+              "point": "Bleeding fistula needs firm continuous direct pressure",
+              "accept": [
+                "pressure",
+                "direct",
+                "firm",
+                "hold",
+                "release"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "When did you last dialyse",
+          "dispatch": "Medic 5 — 66-year-old male, difficulty breathing, cannot lie flat.",
+          "body": "Wet-sounding chest, swollen ankles, propped on three pillows. Everybody in the room was thinking heart failure.\n\nThe question that changed the handover was four words long, and the answer was that he had missed Tuesday because the hospital transport had not turned up.\n\nSame breathlessness, entirely different reason for it."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Suspected variceal bleed",
+          "steps": [
+            {
+              "text": "Get suction out, assembled and TESTED before entering where possible",
+              "critical": true,
+              "note": "Suction in the bag is suction you do not have."
+            },
+            {
+              "text": "Standard precautions including eye protection — this bleeding is forceful",
+              "critical": true
+            },
+            {
+              "text": "Position to protect the airway: usually lateral, head slightly down if equipment and protocol allow",
+              "critical": true
+            },
+            {
+              "text": "Suction continuously as needed and be prepared to keep doing it",
+              "critical": true
+            },
+            {
+              "text": "High-flow oxygen as indicated once the airway is clear enough to use it",
+              "critical": true
+            },
+            {
+              "text": "Assess for shock — pulse and skin, not visible volume",
+              "critical": true
+            },
+            {
+              "text": "Keep the patient warm; cold patients clot even less well",
+              "critical": true
+            },
+            {
+              "text": "Nothing by mouth",
+              "critical": true
+            },
+            {
+              "text": "Expedite transport and pre-alert — they need an endoscopy, not a scene",
+              "critical": true
+            },
+            {
+              "text": "Note the history: liver disease, alcohol, anticoagulants, previous variceal bleeds",
+              "critical": false
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the variceal bleeding description and dialysis emergency features against the current text. Fistula precautions should also be checked against local policy. No potassium values are stated; they cannot be measured prehospitally and the figures vary by source."
     }
   ]
 }
