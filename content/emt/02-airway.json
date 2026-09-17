@@ -1421,7 +1421,10 @@
               }
             ]
           }
-        }
+        },
+        "see": [
+          "opa_npa_sizing"
+        ]
       },
       "cards": [
         "concept",
@@ -1476,7 +1479,19 @@
         "sequence": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sizing landmarks the current text teaches (earlobe versus angle of the jaw), the exact pediatric insertion description, and whether the 180-degree rotation is still the taught adult technique."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sizing landmarks the current text teaches (earlobe versus angle of the jaw), the exact pediatric insertion description, and whether the 180-degree rotation is still the taught adult technique.",
+      "media": [
+        {
+          "id": "opa_npa_sizing",
+          "src": "media/emt/02/opa_npa_sizing.svg",
+          "kind": "diagram",
+          "alt": "Two side-view head profiles. On the left, an oropharyngeal airway measured from the corner of the mouth to the earlobe, with both landmarks marked and a line drawn between them, and the device shown below at the same length. On the right, a nasopharyngeal airway measured from the tip of the nose to the earlobe, with both landmarks marked and the device shown below at the same, longer, length. A note reads that the airway is measured against the individual patient every time and that too long or too short both cause harm.",
+          "caption": "Both adjuncts are measured against the patient's own face. The OPA spans the corner of the mouth to the earlobe; the NPA spans the tip of the nose to the earlobe.",
+          "source": "original",
+          "license": "L1A original, drawn for this project",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -1607,7 +1622,10 @@
               }
             ]
           }
-        }
+        },
+        "see": [
+          "opa_npa_sizing"
+        ]
       },
       "cards": [
         "concept",
@@ -1662,7 +1680,19 @@
         "sequence": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sizing landmark, the lubricant type, the bevel orientation wording, the preferred nostril if the current text specifies one, and the exact phrasing of the head and facial trauma contraindication."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sizing landmark, the lubricant type, the bevel orientation wording, the preferred nostril if the current text specifies one, and the exact phrasing of the head and facial trauma contraindication.",
+      "media": [
+        {
+          "id": "opa_npa_sizing",
+          "src": "media/emt/02/opa_npa_sizing.svg",
+          "kind": "diagram",
+          "alt": "Two side-view head profiles. On the left, an oropharyngeal airway measured from the corner of the mouth to the earlobe, with both landmarks marked and a line drawn between them, and the device shown below at the same length. On the right, a nasopharyngeal airway measured from the tip of the nose to the earlobe, with both landmarks marked and the device shown below at the same, longer, length. A note reads that the airway is measured against the individual patient every time and that too long or too short both cause harm.",
+          "caption": "The NPA is measured from the tip of the nose to the earlobe — a different, longer span than the OPA beside it.",
+          "source": "original",
+          "license": "L1A original, drawn for this project",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -3098,7 +3128,10 @@
               }
             ]
           }
-        }
+        },
+        "see": [
+          "bvm_two_rescuer"
+        ]
       },
       "cards": [
         "concept",
@@ -3149,7 +3182,19 @@
         "sequence": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the C-grip description, whether the current text specifies a squeeze duration, and the oxygen flow rate it teaches for the BVM reservoir."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the C-grip description, whether the current text specifies a squeeze duration, and the oxygen flow rate it teaches for the BVM reservoir.",
+      "media": [
+        {
+          "id": "bvm_two_rescuer",
+          "src": "media/emt/02/bvm_two_rescuer.svg",
+          "kind": "diagram",
+          "alt": "A patient's face seen from above the head with a ventilation mask over the nose and mouth. Rescuer one uses both hands: thumbs pressing the mask down on each side, and the remaining fingers hooked behind the angles of the jaw. Blue arrows show the jaw being lifted up into the mask. Rescuer two, to the side, squeezes the bag with both hands. A caption reads: lift the jaw up into the mask, do not push the mask down onto the face. A footer notes that a leaking seal, not a weak squeeze, is the usual reason ventilation fails.",
+          "caption": "Rescuer one owns the seal with both hands, lifting the jaw into the mask. Rescuer two owns the bag.",
+          "source": "original",
+          "license": "L1A original, drawn for this project",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -4610,7 +4655,10 @@
               }
             ]
           }
-        }
+        },
+        "see": [
+          "resp_compare_flow"
+        ]
       },
       "cards": [
         "concept",
@@ -4656,7 +4704,19 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the description of crackles and pink frothy sputum, the associated signs listed, and your local CPAP protocol for this presentation."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the description of crackles and pink frothy sputum, the associated signs listed, and your local CPAP protocol for this presentation.",
+      "media": [
+        {
+          "id": "resp_compare_flow",
+          "src": "media/emt/02/resp_compare_flow.svg",
+          "kind": "diagram",
+          "alt": "A comparison chart for a short-of-breath patient, branching on what is heard in the chest. Wheeze on exhalation leads to asthma, episodic with a known trigger and where a silent chest means worse rather than better, and below it COPD, with a long smoking history, barrel chest and pursed-lip breathing, assessed against the patient's own baseline. Crackles worst at the bases lead to pulmonary edema, a heart problem rather than a lung one, supported by inability to lie flat, pink frothy sputum, distended neck veins and swollen ankles, treated with CPAP per protocol. Quiet breath sounds on one side lead to pneumothorax, sudden, sharp and one-sided, classically in a tall thin young adult, with a dashed warning box below for tension pneumothorax marked by falling blood pressure, raised neck veins and a trachea pushed away. A separate dashed box covers a chest that sounds clear, with sudden onset, sharp pain on inspiration, a fast heart rate and risk factors, pointing to pulmonary embolism.",
+          "caption": "What you hear narrows it down; the history decides it. The two dashed boxes are the ones where the chest can sound deceptively normal.",
+          "source": "original",
+          "license": "L1A original, drawn for this project",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",

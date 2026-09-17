@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 506" width="760" height="506" role="img" aria-labelledby="t d">
+  <title id="t">Sizing an oropharyngeal and a nasopharyngeal airway</title>
+  <desc id="d">Two side-view head profiles. On the left, an oropharyngeal airway measured from the corner of the mouth to the earlobe. On the right, a nasopharyngeal airway measured from the tip of the nose to the earlobe. Each device is drawn beside its measurement at matching length.</desc>
+  <style>
+    .face { stroke: #0F1F3D; stroke-width: 3; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+    .dev  { stroke: #0F1F3D; stroke-width: 6; fill: none; stroke-linecap: round; }
+    .meas { stroke: #2E7DFF; stroke-width: 3; fill: none; }
+    .meas-d { stroke: #2E7DFF; stroke-width: 3; fill: none; stroke-dasharray: 7 5; }
+    .dot  { fill: #2E7DFF; }
+    .lbl  { font-family: Inter, Arial, sans-serif; font-size: 15px; fill: #0F1F3D; }
+    .lbl-b{ font-family: Inter, Arial, sans-serif; font-size: 15px; fill: #2E7DFF; }
+    .hd   { font-family: Oswald, Impact, 'Arial Narrow', sans-serif; font-size: 21px; letter-spacing: 1px; fill: #0F1F3D; }
+    .sub  { font-family: Inter, Arial, sans-serif; font-size: 13px; fill: #8A94A6; }
+    .lead { stroke: #8A94A6; stroke-width: 1; fill: none; }
+    .rule { stroke: #8A94A6; stroke-width: 1; stroke-dasharray: 4 4; }
+  </style>
+  <rect width="760" height="506" fill="#FFFFFF"/>
+  <line class="rule" x1="380" y1="40" x2="380" y2="440"/>
+
+  <!-- ===================== LEFT: OPA ===================== -->
+  <text class="hd" x="34" y="40">OROPHARYNGEAL AIRWAY</text>
+  <text class="sub" x="34" y="60">Corner of the mouth to the earlobe</text>
+
+  <!-- head profile, facing left -->
+  <path class="face" d="M243 92 C 168 92, 118 146, 120 210 L 100 240 L 128 250 L 120 276 C 108 288, 126 300, 148 300"/>
+  <path class="face" d="M148 300 C 132 312, 140 340, 168 352 C 218 372, 268 348, 280 300"/>
+  <path class="face" d="M280 300 C 296 270, 300 200, 290 160 C 280 118, 268 96, 243 92"/>
+  <!-- ear -->
+  <path class="face" d="M258 222 C 246 216, 240 234, 248 250 C 252 260, 262 262, 266 256"/>
+  <!-- mouth line -->
+  <path class="face" d="M124 282 C 140 288, 158 288, 172 284" stroke-width="2.5"/>
+
+  <!-- landmarks: corner of mouth, earlobe -->
+  <circle class="dot" cx="172" cy="284" r="6"/>
+  <circle class="dot" cx="264" cy="258" r="6"/>
+  <path class="meas" d="M172 284 L 264 258"/>
+  <path class="lead" d="M172 290 L 140 330"/>
+  <text class="lbl-b" x="40" y="346">corner of the mouth</text>
+  <text class="lbl-b" x="286" y="262">earlobe</text>
+
+  <!-- the device, drawn at the same span, below -->
+  <text class="lbl" x="34" y="392">Device matched to that span</text>
+  <path class="dev" d="M64 420 L 108 420 C 138 420, 152 408, 155 392"/>
+  <rect x="50" y="404" width="12" height="32" rx="3" fill="none" stroke="#0F1F3D" stroke-width="3"/>
+  <path class="meas-d" d="M60 448 L 155 448"/>
+  <text class="sub" x="170" y="452">same length as the measurement above</text>
+
+  <!-- ===================== RIGHT: NPA ===================== -->
+  <text class="hd" x="414" y="40">NASOPHARYNGEAL AIRWAY</text>
+  <text class="sub" x="414" y="60">Tip of the nose to the earlobe</text>
+
+  <path class="face" d="M623 92 C 548 92, 498 146, 500 210 L 480 240 L 508 250 L 500 276 C 488 288, 506 300, 528 300"/>
+  <path class="face" d="M528 300 C 512 312, 520 340, 548 352 C 598 372, 648 348, 660 300"/>
+  <path class="face" d="M660 300 C 676 270, 680 200, 670 160 C 660 118, 648 96, 623 92"/>
+  <path class="face" d="M638 222 C 626 216, 620 234, 628 250 C 632 260, 642 262, 646 256"/>
+  <path class="face" d="M504 282 C 520 288, 538 288, 552 284" stroke-width="2.5"/>
+
+  <!-- landmarks: tip of nose, earlobe -->
+  <circle class="dot" cx="480" cy="240" r="6"/>
+  <circle class="dot" cx="644" cy="258" r="6"/>
+  <path class="meas" d="M480 240 L 644 258"/>
+  <text class="lbl-b" x="430" y="222">tip of the nose</text>
+  <text class="lbl-b" x="666" y="262">earlobe</text>
+
+  <text class="lbl" x="414" y="392">Device matched to that span</text>
+  <path class="dev" d="M440 420 L 590 420" />
+  <ellipse cx="436" cy="420" rx="9" ry="14" fill="none" stroke="#0F1F3D" stroke-width="3"/>
+  <path class="meas-d" d="M440 448 L 590 448"/>
+  <text class="sub" x="604" y="452">longer than the OPA</text>
+
+  <!-- footer note, print-safe: differences are labelled as well as coloured -->
+  <line class="rule" x1="34" y1="474" x2="726" y2="474"/>
+  <text class="sub" x="34" y="496">Measured against the individual patient every time. Too long or too short both cause harm.</text>
+</svg>

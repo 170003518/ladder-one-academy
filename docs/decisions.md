@@ -159,3 +159,13 @@
 - Hyperventilation syndrome is taught as **a diagnosis of exclusion**, with the paper bag explicitly ruled out. This is the lesson's highest-risk teaching point and the story mode drives it with a post-caesarean patient dispatched as a panic attack.
 - Epiglottitis carries an explicit never-examine-the-airway rule, and the concept frames keeping the child calm as treatment rather than comfort.
 - **Seven rationales failed the schema's 10-character minimum** ("Correct.", "Never.", "It can.") and were rewritten as real explanations. The minimum is doing exactly what it exists for — a one-word rationale teaches nothing, and the schema caught every one.
+
+## 2026-09-16 — Module 02 diagrams
+
+- Three original SVGs added in the style of `airway_upper_lower.svg`: brand palette only, white ground, Inter labels, Oswald headings, slate leader lines.
+  - `opa_npa_sizing.svg` — registered in **both** EMT-02-02-04 and EMT-02-02-05, since it shows the two measurements side by side and each concept needs it. The same `src` appears in two concept manifests with different captions; the manifest is per-concept, so this is duplication by design rather than a shared asset table.
+  - `bvm_two_rescuer.svg` — EMT-02-04-01.
+  - `resp_compare_flow.svg` — EMT-02-05-04, because the wheeze-versus-crackles decision is where the four conditions actually get confused.
+- **Print-safe means never colour-only.** Every distinction carries a label as well as a colour, and the flowchart additionally uses solid versus dashed box outlines with a key explaining what the dash means — so the chart still works in black and white, which master-plan §2 requires.
+- The flowchart deliberately includes a "chest sounds clear" box for pulmonary embolism, because the absence of a finding is the hardest thing to represent on a chart organised by what you hear.
+- Alt text runs 300–900 characters and names every box and branch. This is why the `media[].alt` cap was raised to 1000; a screen-reader user gets the whole chart or none of it.

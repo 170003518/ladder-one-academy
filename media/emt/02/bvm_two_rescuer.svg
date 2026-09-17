@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" width="700" height="520" role="img" aria-labelledby="t d">
+  <title id="t">Two-rescuer bag-valve-mask technique</title>
+  <desc id="d">A patient's face seen from above the head, with a ventilation mask over the nose and mouth. Rescuer one kneels at the head and uses both hands: thumbs pressing the mask down onto the face on each side, and the remaining fingers hooked behind the angles of the jaw lifting it up into the mask. Rescuer two, at the side, squeezes the bag with both hands. Labels mark the thumb position, the finger position behind the jaw, the direction the jaw is lifted, and the direction the mask is pressed.</desc>
+  <style>
+    .face { stroke: #0F1F3D; stroke-width: 3; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+    .mask { stroke: #2E7DFF; stroke-width: 4; fill: none; }
+    .hand { stroke: #0F1F3D; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .arrow{ stroke: #2E7DFF; stroke-width: 3; fill: none; }
+    .lbl  { font-family: Inter, Arial, sans-serif; font-size: 15px; fill: #0F1F3D; }
+    .lbl-b{ font-family: Inter, Arial, sans-serif; font-size: 15px; fill: #2E7DFF; }
+    .hd   { font-family: Oswald, Impact, 'Arial Narrow', sans-serif; font-size: 21px; letter-spacing: 1px; fill: #0F1F3D; }
+    .sub  { font-family: Inter, Arial, sans-serif; font-size: 13px; fill: #8A94A6; }
+    .lead { stroke: #8A94A6; stroke-width: 1; fill: none; }
+    .bag  { stroke: #0F1F3D; stroke-width: 3; fill: none; }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#2E7DFF"/>
+    </marker>
+  </defs>
+  <rect width="700" height="520" fill="#FFFFFF"/>
+
+  <text class="hd" x="30" y="40">TWO-RESCUER BAG-VALVE-MASK</text>
+  <text class="sub" x="30" y="60">Seen from above the patient's head. Rescuer 1 owns the seal; rescuer 2 owns the bag.</text>
+
+  <!-- head, viewed from above the crown -->
+  <ellipse class="face" cx="300" cy="270" rx="118" ry="150"/>
+  <!-- jaw line -->
+  <path class="face" d="M196 330 C 230 392, 370 392, 404 330" stroke-width="2.5"/>
+  <!-- eyes for orientation -->
+  <circle cx="258" cy="232" r="7" fill="#0F1F3D"/>
+  <circle cx="342" cy="232" r="7" fill="#0F1F3D"/>
+
+  <!-- mask: triangular body over nose and mouth -->
+  <path class="mask" d="M300 240 L 244 330 C 258 368, 342 368, 356 330 Z"/>
+  <circle class="mask" cx="300" cy="248" r="16"/>
+  <text class="lbl-b" x="300" y="392" text-anchor="middle">mask</text>
+
+  <!-- rescuer 1 thumbs pressing down on the mask -->
+  <path class="hand" d="M236 292 C 252 288, 268 296, 276 312"/>
+  <path class="hand" d="M364 292 C 348 288, 332 296, 324 312"/>
+  <text class="lbl" x="150" y="286">thumbs press</text>
+  <text class="lbl" x="150" y="304">the mask down</text>
+  <path class="lead" d="M232 292 L 214 292"/>
+  <text class="lbl" x="432" y="286">thumbs press</text>
+  <text class="lbl" x="432" y="304">the mask down</text>
+  <path class="lead" d="M368 292 L 428 292"/>
+
+  <!-- rescuer 1 fingers behind the angles of the jaw, lifting -->
+  <path class="hand" d="M200 336 C 186 348, 184 366, 194 378"/>
+  <path class="hand" d="M208 344 C 194 356, 192 374, 202 386"/>
+  <path class="hand" d="M400 336 C 414 348, 416 366, 406 378"/>
+  <path class="hand" d="M392 344 C 406 356, 408 374, 398 386"/>
+  <text class="lbl" x="60" y="420">fingers behind the</text>
+  <text class="lbl" x="60" y="438">angles of the jaw</text>
+  <path class="lead" d="M186 400 L 160 414"/>
+  <text class="lbl" x="452" y="420">fingers behind the</text>
+  <text class="lbl" x="452" y="438">angles of the jaw</text>
+  <path class="lead" d="M414 400 L 448 414"/>
+
+  <!-- lift arrows: jaw up into the mask -->
+  <path class="arrow" d="M214 372 L 244 340" marker-end="url(#ah)"/>
+  <path class="arrow" d="M386 372 L 356 340" marker-end="url(#ah)"/>
+  <text class="lbl-b" x="300" y="470" text-anchor="middle">lift the jaw UP into the mask — do not push the mask down onto the face</text>
+
+  <!-- rescuer 2 and the bag -->
+  <ellipse class="bag" cx="596" cy="168" rx="52" ry="34"/>
+  <path class="bag" d="M544 168 L 512 168"/>
+  <path class="hand" d="M566 142 C 580 132, 612 132, 626 142"/>
+  <path class="hand" d="M566 194 C 580 204, 612 204, 626 194"/>
+  <path class="hand" d="M576 146 L 576 190" stroke-width="2"/>
+  <path class="hand" d="M596 142 L 596 194" stroke-width="2"/>
+  <path class="hand" d="M616 146 L 616 190" stroke-width="2"/>
+  <text class="lbl" x="522" y="106">rescuer 2</text>
+  <text class="lbl" x="522" y="124">squeezes to chest rise</text>
+  <text class="lbl" x="30" y="106">rescuer 1</text>
+  <text class="lbl" x="30" y="124">both hands on the seal</text>
+
+  <text class="sub" x="30" y="500">A leaking seal, not a weak squeeze, is the usual reason ventilation fails.</text>
+</svg>
