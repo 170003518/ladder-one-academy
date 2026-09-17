@@ -839,7 +839,10 @@
           "title": "From the doorway",
           "dispatch": "Rescue 4 — 54-year-old male, feeling unwell, private residence.",
           "body": "Called in as feeling unwell, which could be anything.\n\nYou got three steps into the room and stopped. He was upright, grey, silent, and breathing with his shoulders.\n\nHis first blood pressure was fine. Your partner called for ALS anyway, on the strength of what the room looked like. By the time they arrived the blood pressure had caught up with the impression."
-        }
+        },
+        "see": [
+          "primary_assessment_flow"
+        ]
       },
       "cards": [
         "concept"
@@ -850,7 +853,19 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the wording and sequence the current text gives for this step of the primary assessment.",
+      "media": [
+        {
+          "id": "primary_assessment_flow",
+          "src": "media/emt/03/primary_assessment_flow.svg",
+          "kind": "diagram",
+          "alt": "Flow chart of the primary assessment. General impression from the doorway answers sick or not sick, from appearance, work of breathing and skin colour. Then level of consciousness on the AVPU scale, where the direction of travel matters more than the letter. Then A for airway: open now and will it stay open, with snoring meaning tongue, gurgling meaning suction, stridor meaning narrowing and silence the worst finding. Then B for breathing: rate, depth and effort together, with agonal gasps meaning cardiac arrest. Then C for circulation: pulse, major bleeding, and skin colour, temperature and condition, which change before blood pressure. A dashed box at the top right shows X for catastrophic external bleeding, controlled before the airway. A second dashed box states that each step is fixed before moving on. The chart ends in a transport priority decision rather than a summary.",
+          "caption": "The survey ends in a decision, not a summary. Everything dashed is a rule about the sequence rather than a step in it.",
+          "source": "original",
+          "license": "L1A original, drawn for this project",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",

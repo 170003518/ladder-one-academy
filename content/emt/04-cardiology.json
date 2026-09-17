@@ -161,7 +161,10 @@
           "title": "Follow the drop",
           "dispatch": "Training day — cardiology block, station three.",
           "body": "The class had been naming chambers for twenty minutes and nobody could explain why a patient with heart failure had swollen ankles.\n\nThe instructor drew one circle on the whiteboard and traced a single drop round it with a finger, out loud, twice.\n\nSomebody at the back said: so if the right side fails, it backs up into the body — that is the ankles. That was the whole lesson."
-        }
+        },
+        "see": [
+          "heart_blood_flow"
+        ]
       },
       "cards": [
         "concept"
@@ -172,7 +175,19 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the anatomy, terminology and any figures against the current text."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the anatomy, terminology and any figures against the current text.",
+      "media": [
+        {
+          "id": "heart_blood_flow",
+          "src": "media/emt/04/heart_blood_flow.svg",
+          "kind": "diagram",
+          "alt": "The heart drawn as two pumps side by side. Oxygen-poor blood from the body enters the right atrium, passes a valve into the right ventricle and is pumped to the lungs, where it gains oxygen. Oxygen-rich blood returns to the left atrium, passes a valve into the left ventricle and is pumped out to the body. The right side is navy, the left blue, with valves marked between each atrium and ventricle. The left ventricle wall is drawn thicker, labelled as thicker because it supplies the whole body rather than only the lungs. A note states that left-sided failure backs blood into the lungs and right-sided failure backs blood into the body.",
+          "caption": "Follow one drop all the way round and heart failure stops being a list to memorise.",
+          "source": "original",
+          "license": "L1A original, drawn for this project",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -1727,7 +1742,10 @@
           "title": "Before you arrived",
           "dispatch": "Rescue 6 — cardiac arrest, bystander CPR in progress, gym.",
           "body": "By the time you were through the door, a personal trainer had been doing compressions for four minutes and somebody had run for the AED on the wall.\n\nHe survived, and he walked out of hospital nine days later.\n\nThe crew got the credit. What actually decided it had already happened before the ambulance turned into the car park."
-        }
+        },
+        "see": [
+          "chain_of_survival"
+        ]
       },
       "cards": [
         "concept"
@@ -1738,7 +1756,19 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material.",
+      "media": [
+        {
+          "id": "chain_of_survival",
+          "src": "media/emt/04/chain_of_survival.svg",
+          "kind": "diagram",
+          "alt": "Six interlocking links left to right: recognition and calling for help; early high-quality CPR; early defibrillation, drawn in blue as the link that converts a shockable rhythm; advanced care; post-arrest care; and recovery. A dashed band marks the first two links as belonging to bystanders and the remaining four to professionals. A caption states that compressions rarely restart a heart but keep blood moving to the brain and heart muscle so the heart stays worth shocking, and that each minute of delay to defibrillation costs survival.",
+          "caption": "The first two links belong to bystanders, and they matter more to survival than anything added later.",
+          "source": "original",
+          "license": "L1A original, drawn for this project",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -2995,7 +3025,10 @@
           "title": "The pressure was fine",
           "dispatch": "Rescue 6 — 24-year-old male, motorcycle down, conscious and talking.",
           "body": "Blood pressure 118 over 74. The student wrote it down and relaxed.\n\nPulse 126 and thin. Skin grey, cold, wet. He kept asking the same question three times and could not sit still.\n\nEvery one of those findings was his body fighting hard to keep that 118 where it was. It held for another nine minutes and then it did not."
-        }
+        },
+        "see": [
+          "stages_of_shock"
+        ]
       },
       "cards": [
         "concept",
@@ -3045,7 +3078,19 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification, findings and management description against the current text. No medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification, findings and management description against the current text. No medication names or doses are stated here; those are protocol-specific and were deliberately omitted.",
+      "media": [
+        {
+          "id": "stages_of_shock",
+          "src": "media/emt/04/stages_of_shock.svg",
+          "kind": "diagram",
+          "alt": "Three stages left to right beneath a graph. A solid line shows perfusion falling steadily; a dashed blue line shows blood pressure holding flat through the compensated stage and dropping only at decompensation. Compensated shock, outlined in blue and marked catch it here: fast pulse, cool pale clammy skin, anxious and restless, blood pressure normal. Decompensated shock: blood pressure falling, pulse thready or slowing, cold mottled skin, confused or drowsy. Irreversible shock: restoring perfusion no longer saves the patient. A side panel sorts shock at the neck — flat neck veins mean volume loss and fluid helps, distended neck veins mean pump failure or obstruction and fluid harms, with neurogenic shock the exception being warm, dry, pink and not tachycardic.",
+          "caption": "The early signs are the body fighting; the late signs are the body losing. Blood pressure is the last thing to move.",
+          "source": "original",
+          "license": "L1A original, drawn for this project",
+          "print_safe": true
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",

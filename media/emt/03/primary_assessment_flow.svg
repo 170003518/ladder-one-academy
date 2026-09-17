@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" width="820" height="640" role="img" aria-labelledby="t d">
+  <title id="t">The primary assessment</title>
+  <desc id="d">Flow chart of the primary assessment. General impression from the doorway answers sick or not sick. Then level of consciousness on the AVPU scale. Then airway: open now and will it stay open, with snoring meaning tongue, gurgling meaning suction, stridor meaning narrowing and silence the worst finding. Then breathing: rate, depth and effort together, with agonal gasps meaning cardiac arrest. Then circulation: pulse, major bleeding, and skin colour, temperature and condition. A branch at the start shows that catastrophic external bleeding is controlled before the airway, which is XABC. The chart ends in a transport priority decision rather than a summary, and a side note states that each step is fixed before moving on.</desc>
+  <style>
+    .box{fill:#FFFFFF;stroke:#0F1F3D;stroke-width:2.5}
+    .box-b{fill:#FFFFFF;stroke:#2E7DFF;stroke-width:2.5}
+    .warn{fill:#FFFFFF;stroke:#0F1F3D;stroke-width:2.5;stroke-dasharray:4 3}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:17px;letter-spacing:1px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .lbl{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#0F1F3D}
+    .sub{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .act{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#2E7DFF}
+    .arr{stroke:#0F1F3D;stroke-width:2;fill:none}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0 0 L10 5 L0 10 z" fill="#0F1F3D"/></marker></defs>
+  <rect width="820" height="640" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="36">THE PRIMARY ASSESSMENT</text>
+  <text class="sub" x="28" y="56">Find what kills quickly, fix it before moving on, and end with a decision.</text>
+
+  <rect class="warn" x="520" y="76" width="270" height="76" rx="6"/>
+  <text class="ttl" x="536" y="100">X — CATASTROPHIC BLEEDING</text>
+  <text class="lbl" x="536" y="120">Arterial limb bleed or amputation?</text>
+  <text class="act" x="536" y="140">Tourniquet or hard pressure FIRST, then A</text>
+
+  <rect class="box" x="28" y="76" width="440" height="66" rx="6"/>
+  <text class="ttl" x="44" y="100">GENERAL IMPRESSION</text>
+  <text class="lbl" x="44" y="122">From the doorway: sick or not sick? Appearance · breathing · skin colour</text>
+  <path class="arr" d="M518 114 L472 114" marker-end="url(#a)"/>
+
+  <path class="arr" d="M248 142 L248 176" marker-end="url(#a)"/>
+  <rect class="box" x="28" y="176" width="440" height="66" rx="6"/>
+  <text class="ttl" x="44" y="200">LEVEL OF CONSCIOUSNESS</text>
+  <text class="lbl" x="44" y="222">A · V · P · U — and which way it is moving matters more than the letter</text>
+
+  <path class="arr" d="M248 242 L248 276" marker-end="url(#a)"/>
+  <rect class="box" x="28" y="276" width="440" height="86" rx="6"/>
+  <text class="ttl" x="44" y="300">A — AIRWAY</text>
+  <text class="lbl" x="44" y="322">Open now? Will it stay open?</text>
+  <text class="sub" x="44" y="342">Snoring = tongue · Gurgling = suction · Stridor = narrowing · SILENCE = worst</text>
+
+  <path class="arr" d="M248 362 L248 396" marker-end="url(#a)"/>
+  <rect class="box" x="28" y="396" width="440" height="86" rx="6"/>
+  <text class="ttl" x="44" y="420">B — BREATHING</text>
+  <text class="lbl" x="44" y="442">Rate AND depth AND effort, together</text>
+  <text class="sub" x="44" y="462">Agonal gasps are NOT breathing — cardiac arrest until proven otherwise</text>
+
+  <path class="arr" d="M248 482 L248 516" marker-end="url(#a)"/>
+  <rect class="box" x="28" y="516" width="440" height="86" rx="6"/>
+  <text class="ttl" x="44" y="540">C — CIRCULATION</text>
+  <text class="lbl" x="44" y="562">Pulse · major bleeding · skin</text>
+  <text class="sub" x="44" y="582">Colour, Temperature, Condition — skin changes BEFORE blood pressure</text>
+
+  <path class="arr" d="M468 559 L520 559" marker-end="url(#a)"/>
+  <rect class="box-b" x="520" y="500" width="270" height="118" rx="6"/>
+  <text class="ttl" x="536" y="526">TRANSPORT PRIORITY</text>
+  <text class="sub" x="536" y="544">The survey ends in a DECISION, not a summary</text>
+  <text class="lbl" x="536" y="566">Bad impression · threatened airway</text>
+  <text class="lbl" x="536" y="584">Inadequate breathing · uncontrolled bleeding</text>
+  <text class="act" x="536" y="606">Shock · falling LOC · severe pain → GO NOW</text>
+
+  <rect class="warn" x="520" y="200" width="270" height="140" rx="6"/>
+  <text class="ttl" x="536" y="226">FIX BEFORE YOU MOVE ON</text>
+  <text class="lbl" x="536" y="248">A noisy airway gets suctioned or</text>
+  <text class="lbl" x="536" y="266">positioned HERE, not noted for later.</text>
+  <text class="lbl" x="536" y="288">Inadequate breathing gets ventilated</text>
+  <text class="lbl" x="536" y="306">HERE. Major bleeding gets controlled</text>
+  <text class="lbl" x="536" y="324">HERE.</text>
+
+  <text class="sub" x="28" y="628">Dashed boxes are the rules that govern the sequence rather than steps within it.</text>
+</svg>

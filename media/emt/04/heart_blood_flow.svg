@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 620" width="780" height="620" role="img" aria-labelledby="t d">
+  <title id="t">Blood flow through the heart</title>
+  <desc id="d">Diagram of the heart as two pumps side by side. Oxygen-poor blood from the body enters the right atrium, passes through a valve into the right ventricle, and is pumped to the lungs. In the lungs it gains oxygen. Oxygen-rich blood returns to the left atrium, passes through a valve into the left ventricle, and is pumped out to the body. The right side is drawn in navy and the left in blue, with valves marked between each atrium and ventricle and at each outflow. The left ventricle wall is drawn thicker than the right, labelled as thicker because it supplies the whole body rather than only the lungs. A note explains that left-sided failure backs blood up into the lungs and right-sided failure backs blood up into the body.</desc>
+  <style>
+    .rt{stroke:#0F1F3D;stroke-width:3;fill:none}
+    .lt{stroke:#2E7DFF;stroke-width:3;fill:none}
+    .wall{fill:#0F1F3D}
+    .lbl{font-family:Inter,Arial,sans-serif;font-size:13px;fill:#0F1F3D}
+    .lblb{font-family:Inter,Arial,sans-serif;font-size:13px;fill:#2E7DFF}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:16px;letter-spacing:1px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .sub{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .flow{stroke-width:3;fill:none}
+    .valve{stroke:#0F1F3D;stroke-width:2.5;fill:#FFFFFF}
+  </style>
+  <defs>
+    <marker id="an" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0F1F3D"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2E7DFF"/></marker>
+  </defs>
+  <rect width="780" height="620" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="36">BLOOD FLOW THROUGH THE HEART</text>
+  <text class="sub" x="28" y="56">Two pumps in one box. Follow one drop all the way round.</text>
+
+  <!-- chambers -->
+  <rect class="rt" x="230" y="120" width="140" height="110" rx="10"/>
+  <text class="ttl" x="248" y="150">RIGHT ATRIUM</text>
+  <text class="lbl" x="248" y="172">from the body</text>
+  <text class="sub" x="248" y="192">oxygen-poor</text>
+
+  <rect class="rt" x="230" y="300" width="140" height="150" rx="10"/>
+  <text class="ttl" x="244" y="330">RIGHT VENTRICLE</text>
+  <text class="lbl" x="248" y="352">to the lungs</text>
+
+  <rect class="lt" x="420" y="120" width="140" height="110" rx="10"/>
+  <text class="ttl" x="440" y="150">LEFT ATRIUM</text>
+  <text class="lblb" x="440" y="172">from the lungs</text>
+  <text class="sub" x="440" y="192">oxygen-rich</text>
+
+  <rect class="lt" x="420" y="300" width="140" height="150" rx="10"/>
+  <text class="ttl" x="436" y="330">LEFT VENTRICLE</text>
+  <text class="lblb" x="440" y="352">to the body</text>
+  <rect class="wall" x="552" y="300" width="14" height="150" rx="4"/>
+  <text class="sub" x="576" y="370">thicker wall</text>
+  <text class="sub" x="576" y="386">— it supplies</text>
+  <text class="sub" x="576" y="402">the whole body,</text>
+  <text class="sub" x="576" y="418">not just next door</text>
+
+  <!-- valves -->
+  <path class="valve" d="M282 230 l18 22 l-36 0 z"/>
+  <text class="sub" x="176" y="256">valve</text>
+  <path class="valve" d="M472 230 l18 22 l-36 0 z"/>
+
+  <!-- flow arrows -->
+  <path class="flow rt" d="M100 168 L226 168" marker-end="url(#an)"/>
+  <text class="lbl" x="86" y="150">from body</text>
+  <path class="flow rt" d="M300 234 L300 296" marker-end="url(#an)"/>
+  <path class="flow rt" d="M300 452 C 300 510, 160 510, 150 432" marker-end="url(#an)"/>
+  <text class="lbl" x="92" y="470">to the lungs</text>
+
+  <rect class="rt" x="60" y="300" width="120" height="120" rx="60" stroke-dasharray="6 4"/>
+  <text class="ttl" x="86" y="350">LUNGS</text>
+  <text class="sub" x="76" y="372">picks up oxygen</text>
+  <text class="sub" x="76" y="390">gives up CO2</text>
+
+  <path class="flow lt" d="M120 296 C 120 210, 300 90, 486 116" marker-end="url(#ab)"/>
+  <text class="lblb" x="232" y="100">oxygenated, back to the left</text>
+  <path class="flow lt" d="M490 234 L490 296" marker-end="url(#ab)"/>
+  <path class="flow lt" d="M566 376 L680 376" marker-end="url(#ab)"/>
+  <text class="lblb" x="666" y="356">to the body</text>
+
+  <text class="ttl" x="28" y="546">WHY IT MATTERS</text>
+  <text class="lbl" x="28" y="570">LEFT side fails → blood backs up into the LUNGS → breathlessness, crackles</text>
+  <text class="lbl" x="28" y="592">RIGHT side fails → blood backs up into the BODY → swollen ankles, distended neck veins</text>
+  <text class="sub" x="28" y="612">Navy = oxygen-poor, right side. Blue = oxygen-rich, left side. Valves keep it one-way.</text>
+</svg>

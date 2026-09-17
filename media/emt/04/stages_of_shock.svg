@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" width="880" height="560" role="img" aria-labelledby="t d">
+  <title id="t">Stages of shock</title>
+  <desc id="d">Three stages shown left to right with a descending line above them representing perfusion. Compensated shock: the body is winning, with a fast pulse, cool pale clammy skin, an anxious restless patient and a blood pressure that is still normal, marked as the stage where recognition still helps. Decompensated shock: the body is losing, with falling blood pressure, a thready or slowing pulse, cold mottled skin and a confused or drowsy patient. Irreversible shock: damage persists even if perfusion is restored. A line across the chart marks blood pressure as the last thing to change, showing it staying flat through the compensated stage and dropping only at decompensation. A side panel adds that flat neck veins mean volume loss where fluid helps, distended neck veins mean pump failure or obstruction where fluid harms, and that neurogenic shock is the exception with warm dry pink skin and a pulse that is not fast.</desc>
+  <style>
+    .box{fill:#FFFFFF;stroke:#0F1F3D;stroke-width:2.5}
+    .good{fill:#FFFFFF;stroke:#2E7DFF;stroke-width:3}
+    .warn{fill:#FFFFFF;stroke:#0F1F3D;stroke-width:2.5;stroke-dasharray:4 3}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:16px;letter-spacing:1px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .lbl{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#0F1F3D}
+    .sub{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .act{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#2E7DFF}
+    .perf{stroke:#0F1F3D;stroke-width:3;fill:none}
+    .bp{stroke:#2E7DFF;stroke-width:3;fill:none;stroke-dasharray:8 5}
+    .axis{stroke:#8A94A6;stroke-width:1}
+  </style>
+  <rect width="880" height="560" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="36">STAGES OF SHOCK</text>
+  <text class="sub" x="28" y="56">Shock is inadequate perfusion — not a blood pressure number.</text>
+
+  <!-- graph -->
+  <line class="axis" x1="60" y1="190" x2="640" y2="190"/>
+  <line class="axis" x1="60" y1="80" x2="60" y2="190"/>
+  <text class="sub" x="12" y="86">high</text>
+  <text class="sub" x="14" y="188">low</text>
+  <path class="perf" d="M60 92 L230 118 L420 168 L620 186"/>
+  <text class="lbl" x="150" y="86">perfusion falling</text>
+  <path class="bp" d="M60 104 L300 106 L420 150 L620 184"/>
+  <text class="act" x="430" y="128">blood pressure holds, then drops LATE</text>
+
+  <!-- stages -->
+  <rect class="good" x="40" y="214" width="180" height="200" rx="6"/>
+  <text class="ttl" x="56" y="240">COMPENSATED</text>
+  <text class="sub" x="56" y="258">the body is winning</text>
+  <text class="lbl" x="56" y="284">Fast pulse</text>
+  <text class="lbl" x="56" y="304">Cool, pale, clammy skin</text>
+  <text class="lbl" x="56" y="324">Anxious, restless</text>
+  <text class="lbl" x="56" y="344">Blood pressure NORMAL</text>
+  <text class="act" x="56" y="378">CATCH IT HERE</text>
+  <text class="sub" x="56" y="398">recognition still works</text>
+
+  <rect class="box" x="240" y="214" width="180" height="200" rx="6"/>
+  <text class="ttl" x="256" y="240">DECOMPENSATED</text>
+  <text class="sub" x="256" y="258">the body is losing</text>
+  <text class="lbl" x="256" y="284">Blood pressure FALLING</text>
+  <text class="lbl" x="256" y="304">Pulse thready or slowing</text>
+  <text class="lbl" x="256" y="324">Cold, mottled skin</text>
+  <text class="lbl" x="256" y="344">Confused, drowsy</text>
+  <text class="sub" x="256" y="378">visible to everyone —</text>
+  <text class="sub" x="256" y="396">and much later than you wanted</text>
+
+  <rect class="warn" x="440" y="214" width="180" height="200" rx="6"/>
+  <text class="ttl" x="456" y="240">IRREVERSIBLE</text>
+  <text class="sub" x="456" y="258">damage is done</text>
+  <text class="lbl" x="456" y="284">Restoring perfusion</text>
+  <text class="lbl" x="456" y="304">no longer saves</text>
+  <text class="lbl" x="456" y="324">the patient</text>
+
+  <!-- side panel -->
+  <rect class="box" x="650" y="214" width="204" height="200" rx="6"/>
+  <text class="ttl" x="666" y="240">SORT IT AT THE NECK</text>
+  <text class="lbl" x="666" y="266">FLAT neck veins</text>
+  <text class="act" x="666" y="284">volume loss — fluid helps</text>
+  <text class="lbl" x="666" y="314">DISTENDED neck veins</text>
+  <text class="act" x="666" y="332">pump failure or obstruction</text>
+  <text class="act" x="666" y="350">— fluid harms</text>
+  <text class="sub" x="666" y="382">Exception: NEUROGENIC is</text>
+  <text class="sub" x="666" y="398">warm, dry, pink, not fast</text>
+
+  <text class="lbl" x="28" y="458">The early signs are the body FIGHTING. The late signs are the body LOSING.</text>
+  <text class="lbl" x="28" y="480">Waiting for the blood pressure to confirm your suspicion means waiting until compensation has failed.</text>
+  <text class="sub" x="28" y="506">Children compensate even more efficiently, so their blood pressure falls later still —</text>
+  <text class="sub" x="28" y="524">mental status and capillary refill carry more weight in paediatric assessment.</text>
+  <text class="sub" x="28" y="548">Solid line: perfusion. Dashed blue line: blood pressure.</text>
+</svg>

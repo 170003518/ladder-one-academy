@@ -217,3 +217,10 @@ Values supplied by AJ and filled into the concepts, cards and questions that had
 - **No medication doses anywhere in the module.** EMT-04-02-08 teaches assisting with aspirin and nitroglycerin — why aspirin is chewed, blood pressure before and after every nitroglycerin dose, and the erectile-dysfunction-medication contraindication — and names no dose. The drug names appear only as the medications being assisted with, which is unavoidable in a concept about assisting with them.
 - **The neck veins are used as the organising discriminator across the shock lesson.** Flat means volume loss and fluid helps; distended means pump failure or obstruction and fluid harms. Neurogenic shock is taught explicitly as the exception that breaks the cool-pale-clammy-and-tachycardic pattern.
 - A recurring authoring defect: bare `"Correct."` rationales failing the 10-character minimum. The `lib.py` guard now reports all offenders in one pass before anything merges, and for Module 04 they were expanded in bulk before the first run rather than one per attempt.
+
+## 2026-09-17 — Module 03 and 04 diagrams
+
+- Four original SVGs in the established style (brand palette, white ground, Inter labels, Oswald headings): `primary_assessment_flow.svg` on EMT-03-02-01, `heart_blood_flow.svg` on EMT-04-01-01, `chain_of_survival.svg` on EMT-04-03-01, `stages_of_shock.svg` on EMT-04-04-01. All registered in `media[]` with full alt text and added to `modes.see`.
+- **Print-safe throughout**: every distinction carries a label as well as a colour, and where a colour does carry meaning the diagram says so in a key — the chain-of-survival link 3 is blue *and* captioned as the converting link; the shock graph's dashed blue line is labelled as blood pressure.
+- **The primary assessment chart uses dashed outlines for rules rather than steps.** X for catastrophic bleeding and "fix before you move on" are both properties of the sequence, not stages within it, and the key says so.
+- Alt text runs 541–889 characters, comfortably inside the 1000 cap raised for exactly this purpose.

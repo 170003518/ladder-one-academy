@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-labelledby="t d">
+  <title id="t">The chain of survival</title>
+  <desc id="d">Six interlocking links shown left to right. Link one, recognition and calling for help. Link two, early high-quality CPR. Link three, early defibrillation. Link four, advanced care. Link five, post-arrest care. Link six, recovery. The first two links are marked as belonging to bystanders and the remaining four to professionals. A caption states that compressions rarely restart the heart but keep it worth shocking, and that the chain is only as strong as its weakest link, with each minute of delay to defibrillation reducing the chance of survival.</desc>
+  <style>
+    .link{fill:none;stroke:#0F1F3D;stroke-width:3.5}
+    .link-b{fill:none;stroke:#2E7DFF;stroke-width:3.5}
+    .n{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:22px;fill:#0F1F3D}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:14px;letter-spacing:.8px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .lbl{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#0F1F3D}
+    .sub{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .band{fill:none;stroke:#8A94A6;stroke-width:1.5;stroke-dasharray:5 4}
+  </style>
+  <rect width="900" height="400" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="36">THE CHAIN OF SURVIVAL</text>
+  <text class="sub" x="28" y="56">As strong as its weakest link. Each minute of delay to defibrillation costs survival.</text>
+
+  <!-- links -->
+  <ellipse class="link" cx="105" cy="170" rx="62" ry="42"/>
+  <ellipse class="link" cx="245" cy="170" rx="62" ry="42"/>
+  <ellipse class="link-b" cx="385" cy="170" rx="62" ry="42"/>
+  <ellipse class="link" cx="525" cy="170" rx="62" ry="42"/>
+  <ellipse class="link" cx="665" cy="170" rx="62" ry="42"/>
+  <ellipse class="link" cx="805" cy="170" rx="62" ry="42"/>
+
+  <text class="n" x="96" y="162">1</text>
+  <text class="n" x="236" y="162">2</text>
+  <text class="n" x="376" y="162">3</text>
+  <text class="n" x="516" y="162">4</text>
+  <text class="n" x="656" y="162">5</text>
+  <text class="n" x="796" y="162">6</text>
+
+  <text class="ttl" x="105" y="188" text-anchor="middle">RECOGNISE</text>
+  <text class="ttl" x="245" y="188" text-anchor="middle">CPR</text>
+  <text class="ttl" x="385" y="188" text-anchor="middle">DEFIBRILLATE</text>
+  <text class="ttl" x="525" y="188" text-anchor="middle">ADVANCED</text>
+  <text class="ttl" x="665" y="188" text-anchor="middle">POST-ARREST</text>
+  <text class="ttl" x="805" y="188" text-anchor="middle">RECOVERY</text>
+
+  <text class="lbl" x="105" y="248" text-anchor="middle">and call for help</text>
+  <text class="lbl" x="245" y="248" text-anchor="middle">early, high quality</text>
+  <text class="lbl" x="385" y="248" text-anchor="middle">early — every minute counts</text>
+  <text class="lbl" x="525" y="248" text-anchor="middle">care</text>
+  <text class="lbl" x="665" y="248" text-anchor="middle">care in hospital</text>
+  <text class="lbl" x="805" y="248" text-anchor="middle">a link in its own right</text>
+
+  <!-- who owns which links -->
+  <path class="band" d="M40 282 L310 282"/>
+  <text class="sub" x="175" y="302" text-anchor="middle">BYSTANDERS — and these two matter most</text>
+  <path class="band" d="M326 282 L868 282"/>
+  <text class="sub" x="597" y="302" text-anchor="middle">PROFESSIONALS</text>
+
+  <text class="lbl" x="28" y="344">Compressions rarely restart a heart. They keep blood moving to the brain and the heart muscle,</text>
+  <text class="lbl" x="28" y="364">which keeps the heart in a state where a shock can still work — they buy time for link 3.</text>
+  <text class="sub" x="28" y="386">Link 3 is drawn in blue because it is the link that actually converts a shockable rhythm.</text>
+</svg>
