@@ -6992,6 +6992,726 @@
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-01-Q001",
+      "concept_id": "EMT-06-08-01",
+      "style": "recall",
+      "stem": "In multi-system trauma, how does visibility relate to danger?",
+      "options": [
+        {
+          "text": "The most visible injury is usually the most dangerous",
+          "rationale": "The relationship is close to the opposite."
+        },
+        {
+          "text": "Visible injuries often matter least; the dangerous ones show little",
+          "rationale": "Correct. A rigid abdomen shows nothing."
+        },
+        {
+          "text": "They are always the same injury",
+          "rationale": "They frequently are not."
+        },
+        {
+          "text": "Visibility is a reliable guide to priority",
+          "rationale": "It is a misleading guide."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-01-Q002",
+      "concept_id": "EMT-06-08-01",
+      "style": "recall",
+      "stem": "What is the organising principle for prioritising injuries?",
+      "options": [
+        {
+          "text": "Treat the most painful injury first",
+          "rationale": "Pain does not determine priority."
+        },
+        {
+          "text": "What will kill in minutes outranks what will kill in hours",
+          "rationale": "Correct. That is what the primary assessment sequence encodes."
+        },
+        {
+          "text": "Treat injuries in the order they are found",
+          "rationale": "Order of discovery is arbitrary."
+        },
+        {
+          "text": "Treat the injury the patient complains about most",
+          "rationale": "Patients frequently complain about the least dangerous injury."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-01-Q003",
+      "concept_id": "EMT-06-08-01",
+      "style": "application",
+      "stem": "Three crew are on scene with a major trauma patient. How should they work?",
+      "options": [
+        {
+          "text": "Sequentially, so nothing is missed",
+          "rationale": "Sequential working is the usual cause of long scene times."
+        },
+        {
+          "text": "In parallel, with roles assigned out loud",
+          "rationale": "Correct. Three people, three things at once."
+        },
+        {
+          "text": "All on the most serious injury together",
+          "rationale": "That leaves everything else undone."
+        },
+        {
+          "text": "One assesses while two observe",
+          "rationale": "This wastes two people."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-01-Q004",
+      "concept_id": "EMT-06-08-01",
+      "style": "application",
+      "stem": "When should the transport destination be decided?",
+      "options": [
+        {
+          "text": "After the secondary survey is complete",
+          "rationale": "Then every earlier decision was made without the answer."
+        },
+        {
+          "text": "Early — it shapes everything you do on scene",
+          "rationale": "Correct. It decides how much happens here and how much en route."
+        },
+        {
+          "text": "On arrival at the ambulance",
+          "rationale": "Too late to shape scene decisions."
+        },
+        {
+          "text": "By the receiving hospital on the radio",
+          "rationale": "The crew makes the decision using local criteria."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-01-Q005",
+      "concept_id": "EMT-06-08-01",
+      "style": "recall",
+      "stem": "Is choosing not to splint a fracture a clinical decision?",
+      "options": [
+        {
+          "text": "No, it is simply an omission",
+          "rationale": "Omission is as deliberate as action."
+        },
+        {
+          "text": "Yes — it is as active a decision as choosing to splint",
+          "rationale": "Correct. All scene time comes from the same account."
+        },
+        {
+          "text": "Only if documented",
+          "rationale": "It is a decision whether or not documented."
+        },
+        {
+          "text": "Only for critical patients",
+          "rationale": "The principle applies generally."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-01-Q006",
+      "concept_id": "EMT-06-08-01",
+      "style": "scenario",
+      "stem": "A patient has an obviously deformed forearm. What should you check before treating it?",
+      "options": [
+        {
+          "text": "Nothing; deformity is the priority",
+          "rationale": "Deformity is visually loud and clinically quiet."
+        },
+        {
+          "text": "Catastrophic bleeding, airway, breathing and circulation",
+          "rationale": "Correct — the primary assessment comes first."
+        },
+        {
+          "text": "Whether it is an open or closed fracture",
+          "rationale": "Relevant, but not before the primary assessment."
+        },
+        {
+          "text": "Whether the patient can move their fingers",
+          "rationale": "Part of limb assessment, which comes later."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-02-Q001",
+      "concept_id": "EMT-06-08-02",
+      "style": "recall",
+      "stem": "Which of these justifies a rapid extrication?",
+      "options": [
+        {
+          "text": "The crew being ready to move",
+          "rationale": "Readiness is not an indication."
+        },
+        {
+          "text": "An unstable vehicle",
+          "rationale": "Correct, along with an unstable patient or access to another patient."
+        },
+        {
+          "text": "Cold weather",
+          "rationale": "Not an indication."
+        },
+        {
+          "text": "A long queue of jobs waiting",
+          "rationale": "Never a clinical indication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-02-Q002",
+      "concept_id": "EMT-06-08-02",
+      "style": "recall",
+      "stem": "Why does an unstable patient justify rapid extrication?",
+      "options": [
+        {
+          "text": "Because unstable patients cannot be moved carefully",
+          "rationale": "They can; the issue is time."
+        },
+        {
+          "text": "Because the injury they definitely have will kill them sooner than the one they might have",
+          "rationale": "Correct. A perfectly protected spine in an arrested patient has helped nobody."
+        },
+        {
+          "text": "Because spinal injury is impossible in unstable patients",
+          "rationale": "Spinal injury remains possible."
+        },
+        {
+          "text": "Because protocol requires speed in all unstable patients",
+          "rationale": "The trade is clinical, not procedural."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-02-Q003",
+      "concept_id": "EMT-06-08-02",
+      "style": "application",
+      "stem": "What continues throughout a rapid extrication?",
+      "options": [
+        {
+          "text": "Nothing; speed replaces stabilisation",
+          "rationale": "Stabilisation is maintained, imperfectly but continuously."
+        },
+        {
+          "text": "Manual in-line stabilisation",
+          "rationale": "Correct. Somebody has the head and keeps it."
+        },
+        {
+          "text": "A full secondary survey",
+          "rationale": "That happens later."
+        },
+        {
+          "text": "Continuous blood pressure monitoring",
+          "rationale": "Not practical during extrication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-02-Q004",
+      "concept_id": "EMT-06-08-02",
+      "style": "sequence",
+      "stem": "What is the role of the long board in a rapid extrication?",
+      "options": [
+        {
+          "text": "It is the transport device to hospital",
+          "rationale": "It is an extrication device, not a transport one."
+        },
+        {
+          "text": "It moves the patient; its job ends at the stretcher",
+          "rationale": "Correct. It is an extrication device, not a transport one."
+        },
+        {
+          "text": "It replaces manual stabilisation",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It is not used in rapid extrication",
+          "rationale": "It is commonly used to move them."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-02-Q005",
+      "concept_id": "EMT-06-08-02",
+      "style": "application",
+      "stem": "Why should you say out loud that you are performing a rapid extrication?",
+      "options": [
+        {
+          "text": "To warn bystanders",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To make the decision explicit rather than drifting into it, and to give you the sentence to document",
+          "rationale": "Correct. It also tells your crew what is about to happen."
+        },
+        {
+          "text": "Because protocol requires verbal announcements",
+          "rationale": "Not a procedural requirement."
+        },
+        {
+          "text": "To alert the receiving hospital",
+          "rationale": "That comes later, in the pre-alert."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-02-Q006",
+      "concept_id": "EMT-06-08-02",
+      "style": "scenario",
+      "stem": "The scene is secure and the patient is alert and stable. Is rapid extrication indicated?",
+      "options": [
+        {
+          "text": "Yes, if the crew are all in position",
+          "rationale": "Readiness is not an indication."
+        },
+        {
+          "text": "No — none of the three indications is present",
+          "rationale": "Correct. A careful extrication is appropriate."
+        },
+        {
+          "text": "Yes, since it saves time",
+          "rationale": "Speed alone is not an indication."
+        },
+        {
+          "text": "Yes, if transport time is long",
+          "rationale": "Transport time is not an indication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-03-Q001",
+      "concept_id": "EMT-06-08-03",
+      "style": "recall",
+      "stem": "What causes primary blast injury?",
+      "options": [
+        {
+          "text": "Flying debris striking the patient",
+          "rationale": "That is secondary blast injury."
+        },
+        {
+          "text": "The pressure wave itself, affecting air-filled organs",
+          "rationale": "Correct — lungs, ears and bowel."
+        },
+        {
+          "text": "The patient being thrown against a wall",
+          "rationale": "That is tertiary blast injury."
+        },
+        {
+          "text": "Burns from the fireball",
+          "rationale": "That falls under quaternary."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-03-Q002",
+      "concept_id": "EMT-06-08-03",
+      "style": "recall",
+      "stem": "Which category causes the most casualties in most explosions?",
+      "options": [
+        {
+          "text": "Primary",
+          "rationale": "Primary injury affects fewer patients than debris does."
+        },
+        {
+          "text": "Secondary — penetrating trauma from debris and fragments",
+          "rationale": "Correct. Sometimes hundreds of wounds in one patient."
+        },
+        {
+          "text": "Tertiary",
+          "rationale": "Being thrown affects fewer than flying debris."
+        },
+        {
+          "text": "Quaternary",
+          "rationale": "A broad category but not the commonest cause of casualties."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-03-Q003",
+      "concept_id": "EMT-06-08-03",
+      "style": "application",
+      "stem": "A patient walked away from an explosion with no visible injury. What is the concern?",
+      "options": [
+        {
+          "text": "None; visible injury is the reliable guide",
+          "rationale": "Blast lung can be present with nothing to see."
+        },
+        {
+          "text": "Blast lung, which can develop or worsen over hours",
+          "rationale": "Correct. Reassess over time and have a low threshold."
+        },
+        {
+          "text": "Only psychological effects",
+          "rationale": "Physical injury is the concern here."
+        },
+        {
+          "text": "Delayed bleeding from fragments only",
+          "rationale": "Fragments would be visible; the lungs are not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-03-Q004",
+      "concept_id": "EMT-06-08-03",
+      "style": "application",
+      "stem": "A blast patient has intact eardrums. What does this exclude?",
+      "options": [
+        {
+          "text": "Blast lung",
+          "rationale": "Blast lung occurs with eardrums intact."
+        },
+        {
+          "text": "Nothing — intact eardrums are not a reliable screening test",
+          "rationale": "Correct. Using them that way has missed serious injuries."
+        },
+        {
+          "text": "All primary blast injury",
+          "rationale": "It excludes no category."
+        },
+        {
+          "text": "Bowel injury",
+          "rationale": "It excludes that no more than the lungs."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-03-Q005",
+      "concept_id": "EMT-06-08-03",
+      "style": "recall",
+      "stem": "What is a particular scene hazard at explosions?",
+      "options": [
+        {
+          "text": "Heavy traffic only",
+          "rationale": "Traffic is a general hazard, not a particular one here."
+        },
+        {
+          "text": "Secondary devices, specifically intended to catch responders",
+          "rationale": "Correct, along with collapse, fire and debris."
+        },
+        {
+          "text": "Poor lighting",
+          "rationale": "A general hazard."
+        },
+        {
+          "text": "Crowds of onlookers",
+          "rationale": "A general hazard, not the specific one."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-03-Q006",
+      "concept_id": "EMT-06-08-03",
+      "style": "scenario",
+      "stem": "How many blast injury categories can one patient have?",
+      "options": [
+        {
+          "text": "Only one, determined by their position",
+          "rationale": "One patient commonly has several at once."
+        },
+        {
+          "text": "Several at once",
+          "rationale": "Correct, which is why the categories are a prompt to keep looking."
+        },
+        {
+          "text": "Never more than two",
+          "rationale": "No such limit applies."
+        },
+        {
+          "text": "Only primary and secondary",
+          "rationale": "All four can coexist."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-04-Q001",
+      "concept_id": "EMT-06-08-04",
+      "style": "recall",
+      "stem": "What is the best treatment for an unborn baby in maternal trauma?",
+      "options": [
+        {
+          "text": "Direct fetal monitoring on scene",
+          "rationale": "Not available and not the principle."
+        },
+        {
+          "text": "Resuscitating the mother",
+          "rationale": "Correct. Treat her, and the baby is treated with her."
+        },
+        {
+          "text": "Delivering the baby immediately",
+          "rationale": "Not an EMT intervention or the principle."
+        },
+        {
+          "text": "Positioning the mother prone",
+          "rationale": "Never appropriate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-04-Q002",
+      "concept_id": "EMT-06-08-04",
+      "style": "recall",
+      "stem": "Why can a pregnant trauma patient have normal vital signs despite significant blood loss?",
+      "options": [
+        {
+          "text": "Because pregnancy lowers the heart rate",
+          "rationale": "It does not work that way."
+        },
+        {
+          "text": "Because her increased blood volume lets her lose a lot before signs change",
+          "rationale": "Correct, and blood is diverted from the uterus before then."
+        },
+        {
+          "text": "Because pain is reduced in pregnancy",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Because blood pressure rises in pregnancy",
+          "rationale": "Not the explanation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-04-Q003",
+      "concept_id": "EMT-06-08-04",
+      "style": "application",
+      "stem": "A 28-week pregnant patient's blood pressure drifts down while secured flat on a board. What is the likely cause?",
+      "options": [
+        {
+          "text": "Undetected internal bleeding only",
+          "rationale": "Possible, but there is a positional explanation to exclude first."
+        },
+        {
+          "text": "The uterus compressing the vein returning blood to the heart",
+          "rationale": "Correct. Tilt the board or displace the uterus to the left."
+        },
+        {
+          "text": "The cervical collar restricting circulation",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "An allergic reaction to the board",
+          "rationale": "Not a recognised cause."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-04-Q004",
+      "concept_id": "EMT-06-08-04",
+      "style": "application",
+      "stem": "How should a pregnant patient needing spinal precautions be tilted?",
+      "options": [
+        {
+          "text": "Turn her onto her side on top of the board",
+          "rationale": "This defeats the spinal precautions."
+        },
+        {
+          "text": "Tilt the whole device, wedging under the right side",
+          "rationale": "Correct. The patient stays secured and the uterus is displaced."
+        },
+        {
+          "text": "Remove the board and lay her on her left side",
+          "rationale": "Not necessary; tilt the device instead."
+        },
+        {
+          "text": "Leave her flat and accept the blood pressure",
+          "rationale": "Never appropriate when a simple fix exists."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-04-Q005",
+      "concept_id": "EMT-06-08-04",
+      "style": "recall",
+      "stem": "How can placental separation present?",
+      "options": [
+        {
+          "text": "Always with heavy vaginal bleeding",
+          "rationale": "Bleeding can be entirely concealed behind the placenta."
+        },
+        {
+          "text": "With pain, contractions or bleeding — or with none of those",
+          "rationale": "Correct. It can follow relatively modest trauma."
+        },
+        {
+          "text": "Only after severe trauma",
+          "rationale": "It can follow a simple fall or low-speed collision."
+        },
+        {
+          "text": "Only with visible abdominal bruising",
+          "rationale": "Bruising is not required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-04-Q006",
+      "concept_id": "EMT-06-08-04",
+      "style": "scenario",
+      "stem": "A pregnant patient after a significant collision feels entirely well and wants to decline assessment. What should you do?",
+      "options": [
+        {
+          "text": "Accept the refusal since she feels well",
+          "rationale": "Normal maternal wellbeing does not exclude harm to the pregnancy."
+        },
+        {
+          "text": "Explain why assessment is needed and encourage transport",
+          "rationale": "Correct. Blood is diverted from the uterus before she feels anything."
+        },
+        {
+          "text": "Insist and transport against her will",
+          "rationale": "Capacity and consent still apply."
+        },
+        {
+          "text": "Advise her to attend if bleeding starts",
+          "rationale": "Waiting for bleeding may be waiting too long."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

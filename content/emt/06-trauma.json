@@ -94,6 +94,16 @@
         "EMT-06-07-05",
         "EMT-06-07-06"
       ]
+    },
+    {
+      "id": "EMT-06-08",
+      "title": "Multi-system trauma",
+      "concepts": [
+        "EMT-06-08-01",
+        "EMT-06-08-02",
+        "EMT-06-08-03",
+        "EMT-06-08-04"
+      ]
     }
   ],
   "concepts": [
@@ -7237,6 +7247,730 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the commotio cordis description and the emphasis on early defibrillation against the current text and current resuscitation guidelines."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-01",
+      "title": "Prioritising injuries",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-01-04"
+      ],
+      "related": [
+        "EMT-06-01-03",
+        "EMT-06-01-04",
+        "EMT-03-02-01"
+      ],
+      "key_points": [
+        "Multi-system trauma means more than one body system injured, and the injuries compete for your attention",
+        "The most visible injury is very often not the most dangerous one",
+        "Priorities follow the primary assessment: catastrophic bleeding, airway, breathing, circulation, disability, exposure",
+        "Anything that will kill in the next few minutes outranks anything that will kill in the next few hours",
+        "A deformed limb, a large laceration and a burn all attract attention that a rigid abdomen does not",
+        "Work in parallel where you have people, not in sequence — that is how scene times stay short",
+        "Reassess frequently, because the priority changes as the patient changes",
+        "Decide the transport destination early, and let that decision drive what you do on scene",
+        "What you do not do on scene is as much a decision as what you do"
+      ],
+      "misconceptions": [
+        "Treating the most visible injury first",
+        "Working through tasks sequentially when three people are available",
+        "Deciding the destination after everything else is done",
+        "Completing a full secondary survey before moving a critical patient"
+      ],
+      "exam_favorites": [
+        "Visible is not the same as dangerous",
+        "Minutes outrank hours",
+        "Work in parallel",
+        "Deciding what not to do"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Multi-system trauma is a patient with injuries in more than one system, and the practical problem is that those injuries compete. Several of them are shouting for attention and only some of them matter right now.\n\nThe single most useful principle: the most visible injury is very often not the most dangerous one.\n\nA deformed, angulated forearm is horrible to look at and everybody in the room will be drawn to it. A large scalp laceration bleeds impressively across the floor. A burn is visually overwhelming. None of those is likely to kill anybody in the next ten minutes.\n\nMeanwhile, the rigid abdomen shows nothing. The tension pneumothorax shows nothing until you listen. The head injury that is deteriorating shows nothing but a patient answering questions slightly worse than before.\n\nSo priorities follow the primary assessment, in order: catastrophic external bleeding first, then airway, breathing, circulation, disability, and exposure. That sequence exists precisely because it puts things in order of how quickly they kill, and it is designed to be followed when your instincts are pulling you towards the dramatic thing on the floor.\n\nThe organising rule: anything that will kill in the next few minutes outranks anything that will kill in the next few hours. A femur fracture is a real injury that will matter a great deal to this patient's year. It is not what to do in minute three.\n\nParallel, not sequential. If you have three people, three things happen at once — one on the airway, one on bleeding, one getting vital signs and preparing to move. Long scene times usually come from three people watching one person do one thing at a time, not from anybody being slow. Assign roles out loud.\n\nReassess constantly, because the priority list is not fixed. The patient who needed bleeding controlled five minutes ago may now need an airway. The tension pneumothorax was not there when you arrived. Whatever you decided first is a decision about that moment, not about the call.\n\nDecide the destination early. Where this patient is going shapes everything on scene — how much you do, how fast you move, whether the splint happens here or en route. Making that decision at the end, after everything else, means every earlier decision was made without knowing the answer.\n\nAnd finally: what you do not do is a decision too. Choosing not to splint a forearm, not to complete the secondary survey, not to get a second set of vital signs before moving — those are active clinical choices and they should be as deliberate as the things you did do. A crew that does everything on a major trauma patient has chosen to spend time, and that time comes out of the same account.",
+          "standard": "Multi-system trauma denotes injury to more than one body system, producing competing clinical demands. Visual prominence of injury correlates poorly with lethality: deformed extremities, scalp lacerations and burns attract attention disproportionate to their immediate threat, while intra-abdominal haemorrhage, tension pneumothorax and evolving intracranial injury present minimal external evidence. Prioritisation follows the primary assessment sequence — catastrophic external haemorrhage, airway, breathing, circulation, disability, exposure — ordered by rapidity of lethality. The organising principle holds that conditions lethal within minutes supersede those lethal within hours. Parallel rather than sequential task performance, with explicit role assignment, is the principal determinant of scene time; prolonged scene times typically reflect sequential working rather than individual slowness. Continuous reassessment is required as priorities evolve with patient condition. Destination determination early in the encounter shapes subsequent on-scene decisions regarding intervention extent and timing. Omission of intervention constitutes an active clinical decision equivalent in deliberateness to intervention itself, as all on-scene time is drawn from the same finite interval."
+        },
+        "eli_new": {
+          "analogy": "The injury shouting loudest is rarely the one that will kill them. Quiet injuries — a rigid abdomen, a slightly worse answer to a question — are where the danger lives.",
+          "body": "Long scene times almost never come from somebody being slow. They come from three people taking turns. Say out loud who is doing what, and then three things happen at once."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how injuries are prioritised in multi-system trauma and why scene times run long.",
+          "must_hit": [
+            {
+              "point": "The most visible injury is often not the most dangerous",
+              "accept": [
+                "visible",
+                "dangerous",
+                "dramatic",
+                "attention",
+                "not"
+              ]
+            },
+            {
+              "point": "Follow the primary assessment: bleeding, airway, breathing, circulation, disability, exposure",
+              "accept": [
+                "primary",
+                "bleeding",
+                "airway",
+                "breathing",
+                "circulation",
+                "disability"
+              ]
+            },
+            {
+              "point": "Minutes outrank hours",
+              "accept": [
+                "minutes",
+                "hours",
+                "outrank",
+                "kill",
+                "first"
+              ]
+            },
+            {
+              "point": "Quiet injuries — rigid abdomen, deteriorating head injury — are the dangerous ones",
+              "accept": [
+                "abdomen",
+                "head",
+                "quiet",
+                "tension",
+                "hidden"
+              ]
+            },
+            {
+              "point": "Work in parallel with roles assigned out loud",
+              "accept": [
+                "parallel",
+                "roles",
+                "same time",
+                "assign",
+                "simultan"
+              ]
+            },
+            {
+              "point": "Reassess because the priority changes",
+              "accept": [
+                "reassess",
+                "change",
+                "evolve",
+                "again"
+              ]
+            },
+            {
+              "point": "Decide the destination early",
+              "accept": [
+                "destination",
+                "early",
+                "transport",
+                "decide"
+              ]
+            },
+            {
+              "point": "Choosing not to do something is also a decision",
+              "accept": [
+                "not",
+                "omit",
+                "decision",
+                "choose",
+                "skip"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Everybody looked at the arm",
+          "dispatch": "Medic 5 — motorcyclist versus barrier, obvious forearm deformity.",
+          "body": "The forearm was bent at an angle that made everybody wince, and three people ended up working on it within the first two minutes.\n\nNobody had listened to his chest or laid a hand on his abdomen.\n\nThe arm was the loudest injury in the room and it was the one that mattered least."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the primary assessment sequence and prioritisation principles against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-02",
+      "title": "The rapid extrication decision",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-06-06"
+      ],
+      "related": [
+        "EMT-06-06-06",
+        "EMT-06-08-01",
+        "EMT-06-06-08"
+      ],
+      "key_points": [
+        "Rapid extrication means getting a patient out quickly with manual stabilisation, accepting more spinal movement than a careful extrication would",
+        "It is indicated when the scene is unsafe, when the patient's condition is unstable, or when access to another patient requires it",
+        "It is not indicated because it is quicker or because everybody is ready to go",
+        "The decision is a trade: accepting some risk of worsening a possible spinal injury against a definite and immediate threat",
+        "An unsafe scene — fire, unstable vehicle, traffic, hostility, rising water — justifies it immediately",
+        "An unstable patient — failing airway, uncontrolled bleeding, deteriorating consciousness — justifies it because the injury they have will kill them sooner than the injury they might have",
+        "Manual in-line stabilisation is maintained throughout, imperfectly but continuously",
+        "The extrication device — the long board or scoop — is used to move them, not to transport them",
+        "Say out loud that you are performing a rapid extrication and why, and record the reason"
+      ],
+      "misconceptions": [
+        "Rapid extrication because it is faster",
+        "Abandoning manual stabilisation because the extrication is rapid",
+        "Using a careful extrication on a patient with a failing airway",
+        "Not documenting the reason for the decision"
+      ],
+      "exam_favorites": [
+        "The three indications",
+        "It is a trade, not a shortcut",
+        "Manual stabilisation continues throughout",
+        "Document the reason"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Rapid extrication is getting somebody out of a vehicle or a confined space quickly, with manual stabilisation only, accepting that the spine will move more than it would during a careful, staged extrication.\n\nIt is a deliberate trade, and understanding it as a trade is the whole concept.\n\nA careful extrication protects a possible spinal injury. It also takes several minutes, during which the patient stays where they are. Rapid extrication accepts more movement in exchange for getting them out now.\n\nSo you are weighing a possible injury against a definite one. Three situations justify that trade.\n\nAn unsafe scene. Fire, or smoke, or fuel. A vehicle that is unstable or on its side. Live traffic that has not been stopped. A hostile scene. Rising water. In these cases the risk to everybody — including you — is immediate and certain, and a possible spinal injury does not compete with it.\n\nAn unstable patient. An airway you cannot manage in the position they are in. Bleeding you cannot control where they are. A deteriorating level of consciousness. The logic here is clean: the injury they definitely have is going to kill them sooner than the injury they might have. A perfectly protected spine in a patient who arrested in the driver's seat has helped nobody.\n\nAccess to another patient. If somebody critical is behind or underneath this patient and cannot be reached, moving this patient quickly is justified — this is usually a multiple casualty judgement.\n\nAnd the reasons that do not justify it: being in a hurry. Everybody being ready. The weather being unpleasant. Wanting to be back in service. Those are real pressures and none of them is an indication.\n\nThroughout, manual in-line stabilisation is maintained. It will be imperfect — that is accepted and expected — but it is continuous. Somebody has the head, and they keep it, and they communicate. The movement being faster does not mean it is uncontrolled.\n\nThe device you use — a long board, a scoop — is for moving them. Once they are on the stretcher, the board's job is done. It is an extrication device, not a transport device.\n\nAnd say it out loud. 'We are doing a rapid extrication because the vehicle is unstable.' It tells your crew what is happening, it makes the decision explicit rather than drifting into it, and it gives you the sentence to write afterwards. A rapid extrication with a documented reason is a clinical decision. One without is something that just happened.",
+          "standard": "Rapid extrication denotes expedited removal from a vehicle or confined space using manual stabilisation alone, accepting greater spinal movement than staged extrication. The decision constitutes a deliberate trade between the risk of exacerbating a possible spinal injury and a definite immediate threat. Indications comprise: an unsafe scene, including fire, vehicle instability, uncontrolled traffic, hostility or rising water, where risk to patient and providers is immediate and certain; patient instability, including unmanageable airway in situ, uncontrolled haemorrhage or declining level of consciousness, where the established injury confers greater immediate mortality than the potential one; and required access to another critical patient. Convenience, crew readiness, environmental conditions and operational pressure do not constitute indications. Manual in-line stabilisation is maintained continuously throughout, accepting that it is imperfect. Extrication devices, including long spine boards and scoop stretchers, serve movement rather than transport, with removal following transfer to the stretcher. The decision should be verbalised and documented with its justification."
+        },
+        "eli_new": {
+          "analogy": "A careful extrication protects a spine that may not be injured. A rapid one protects a patient who definitely is. You are choosing which risk to take, not choosing to be careless.",
+          "body": "The indications are the scene, the patient, or access to another patient. Being in a hurry is not on the list, and it is the reason it gets done most often."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what rapid extrication is, when it is indicated, and what continues throughout.",
+          "must_hit": [
+            {
+              "point": "Getting the patient out quickly with manual stabilisation, accepting more movement",
+              "accept": [
+                "quick",
+                "manual",
+                "stabilis",
+                "movement",
+                "accept"
+              ]
+            },
+            {
+              "point": "Indicated for an unsafe scene",
+              "accept": [
+                "unsafe",
+                "scene",
+                "fire",
+                "traffic",
+                "unstable vehicle",
+                "water"
+              ]
+            },
+            {
+              "point": "Indicated for an unstable patient",
+              "accept": [
+                "unstable",
+                "airway",
+                "bleeding",
+                "conscious",
+                "deteriorat"
+              ]
+            },
+            {
+              "point": "Indicated when access to another patient requires it",
+              "accept": [
+                "access",
+                "another",
+                "patient",
+                "behind",
+                "underneath"
+              ]
+            },
+            {
+              "point": "Not indicated simply because it is quicker",
+              "accept": [
+                "quicker",
+                "hurry",
+                "faster",
+                "not",
+                "convenience"
+              ]
+            },
+            {
+              "point": "It is a trade between a possible injury and a definite one",
+              "accept": [
+                "trade",
+                "possible",
+                "definite",
+                "risk",
+                "weigh"
+              ]
+            },
+            {
+              "point": "Manual in-line stabilisation continues throughout",
+              "accept": [
+                "manual",
+                "in-line",
+                "throughout",
+                "continuous",
+                "head"
+              ]
+            },
+            {
+              "point": "Say it out loud and document the reason",
+              "accept": [
+                "out loud",
+                "say",
+                "document",
+                "record",
+                "reason"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Because we were ready",
+          "dispatch": "Debrief — rapid extrication performed, patient stable, scene secure.",
+          "body": "The vehicle was stable, the traffic was stopped, there was no fire, and the patient was alert with a normal airway and normal vital signs.\n\nEverybody was in position and ready and somebody said let's just take him out.\n\nThere are three indications. Being ready is not one of them, and it is the commonest reason it gets done."
+        }
+      },
+      "cards": [
+        "concept",
+        "algorithm"
+      ],
+      "card_data": {
+        "algorithm": {
+          "start": "safe",
+          "nodes": [
+            {
+              "id": "safe",
+              "text": "Is the scene unsafe? Fire, unstable vehicle, live traffic, hostility, rising water.",
+              "kind": "decision"
+            },
+            {
+              "id": "unstable",
+              "text": "Is the patient unstable? Airway you cannot manage here, uncontrolled bleeding, falling consciousness.",
+              "kind": "decision"
+            },
+            {
+              "id": "access",
+              "text": "Does reaching another critical patient require moving this one?",
+              "kind": "decision"
+            },
+            {
+              "id": "rapid",
+              "text": "RAPID EXTRICATION. Manual in-line stabilisation throughout. Say why out loud. Document the reason.",
+              "kind": "action"
+            },
+            {
+              "id": "careful",
+              "text": "Careful staged extrication. Being ready, being in a hurry and the weather are NOT indications.",
+              "kind": "action"
+            }
+          ],
+          "branches": [
+            {
+              "from": "safe",
+              "condition": "Yes",
+              "to": "rapid"
+            },
+            {
+              "from": "safe",
+              "condition": "No",
+              "to": "unstable"
+            },
+            {
+              "from": "unstable",
+              "condition": "Yes",
+              "to": "rapid"
+            },
+            {
+              "from": "unstable",
+              "condition": "No",
+              "to": "access"
+            },
+            {
+              "from": "access",
+              "condition": "Yes",
+              "to": "rapid"
+            },
+            {
+              "from": "access",
+              "condition": "No",
+              "to": "careful"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the indications for rapid extrication against the current text and local protocol, which governs."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-03",
+      "title": "Blast injuries",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-03-01",
+        "EMT-06-07-01",
+        "EMT-06-04-04"
+      ],
+      "key_points": [
+        "Blast injuries are described in four categories, and a single patient commonly has several at once",
+        "Primary blast injury is caused by the pressure wave itself and affects the air-filled organs: lungs, ears, bowel",
+        "Blast lung is the most serious primary injury and can develop or worsen over hours with little to see initially",
+        "Ruptured eardrums are common and indicate significant pressure exposure, but their absence does not exclude primary blast injury",
+        "Secondary blast injury is penetrating trauma from debris and fragments, and is the most common cause of casualties",
+        "Tertiary blast injury is from the body being thrown and striking something, producing blunt and crush injuries",
+        "Quaternary blast injury covers everything else: burns, inhalation, crush from collapse, and exacerbation of existing conditions",
+        "Scene safety is paramount: secondary devices, structural collapse, fire and unstable surfaces are all real risks",
+        "Blast patients need reassessment over time, because the injury that matters may not be visible at first contact"
+      ],
+      "misconceptions": [
+        "Clearing a patient because there is nothing to see",
+        "Assuming intact eardrums exclude blast injury",
+        "Entering a blast scene before it has been declared safe",
+        "Treating only the obvious penetrating wounds"
+      ],
+      "exam_favorites": [
+        "The four categories",
+        "Blast lung develops over hours",
+        "Eardrums do not exclude it",
+        "Secondary devices"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Blast injuries are conventionally described in four categories, and the reason to know them is that they remind you to keep looking. One patient commonly has injuries from several categories at once, and the categories fail in different ways and at different speeds.\n\nPrimary blast injury is caused by the pressure wave itself — the wall of compressed air that travels out from the explosion. It damages tissue where air meets fluid, which means the air-filled organs: the lungs, the ears, the bowel.\n\nBlast lung is the important one. The pressure wave tears the delicate tissue in the lungs, causing bleeding and swelling into the air spaces. It can be present with almost nothing to see externally, and it can develop or worsen over hours. A patient who walks away from an explosion breathing normally can deteriorate later. So any blast patient with any respiratory symptom needs a careful look and a low threshold, and all of them need reassessment over time.\n\nRuptured eardrums are also primary injury and are common, since eardrums are delicate and rupture at lower pressures than lungs. A perforated eardrum tells you the pressure exposure was significant. But — and this matters — intact eardrums do not exclude blast lung. The relationship is not reliable enough to use as a screening test, and using it that way has missed serious injuries.\n\nSecondary blast injury is penetrating trauma from things the blast threw: fragments from the device, glass, masonry, whatever was nearby. This is the most common cause of casualties in most explosions, and the injuries are exactly what you already know — penetrating wounds, sometimes hundreds of them, with all the usual rules about small holes and deep tracks.\n\nTertiary blast injury is the patient themselves being thrown and hitting something. Blunt trauma, fractures, head injuries, and crush injuries if a structure came down. The mechanism is displacement.\n\nQuaternary covers everything else the event caused: burns from the fireball, inhalation injury from smoke and hot gases, crush from collapse, toxic exposure, and the exacerbation of conditions the patient already had — the asthmatic in a dusty collapsed building, the cardiac patient with the stress of it.\n\nAnd scene safety here deserves particular emphasis, because it is a category of its own. Secondary devices are a real tactic, specifically intended to catch responders. Structures are unstable. Fires start. Surfaces are covered in glass and debris. Do not enter until the scene has been declared safe by the people whose job that is, and be aware of where you are gathering, because assembly points have themselves been targeted. This is one of the few scenes where your instinct to move towards the casualties is exactly the wrong instinct.",
+          "standard": "Blast injury is classified in four categories, commonly coexisting within a single patient. Primary blast injury results from the overpressure wave, affecting gas-containing organs — pulmonary, auditory and gastrointestinal. Blast lung produces alveolar haemorrhage and oedema, may present with minimal initial external findings, and may develop or progress over hours, requiring serial reassessment. Tympanic membrane rupture indicates significant overpressure exposure but intact membranes do not exclude pulmonary primary blast injury and are not a reliable screening finding. Secondary blast injury comprises penetrating trauma from projected fragments and environmental debris, accounting for the majority of casualties in most explosive events. Tertiary blast injury results from displacement of the body with subsequent impact, producing blunt and crush injury. Quaternary blast injury encompasses thermal injury, inhalation injury, toxic exposure, crush from structural collapse and exacerbation of pre-existing conditions. Scene hazards include secondary devices deliberately targeting responders, structural instability, fire and debris; entry awaits declaration of scene safety, and assembly points require consideration."
+        },
+        "eli_new": {
+          "analogy": "Four categories: the wave, the debris, the landing, and everything else. A single patient collects several, and the one that kills them may still be forming.",
+          "body": "Intact eardrums do not clear anybody. It is a tempting screening test and it is not a reliable one — blast lung occurs with eardrums intact, and it develops over hours in a patient who initially looks fine."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the four blast injury categories and explain what makes blast lung dangerous.",
+          "must_hit": [
+            {
+              "point": "Primary is the pressure wave affecting air-filled organs",
+              "accept": [
+                "primary",
+                "pressure",
+                "wave",
+                "air",
+                "lung",
+                "ear",
+                "bowel"
+              ]
+            },
+            {
+              "point": "Secondary is penetrating trauma from debris and fragments",
+              "accept": [
+                "secondary",
+                "debris",
+                "fragment",
+                "penetrat",
+                "glass"
+              ]
+            },
+            {
+              "point": "Tertiary is the body being thrown and striking something",
+              "accept": [
+                "tertiary",
+                "thrown",
+                "blunt",
+                "strike",
+                "displac"
+              ]
+            },
+            {
+              "point": "Quaternary is everything else: burns, inhalation, crush, existing conditions",
+              "accept": [
+                "quaternary",
+                "burn",
+                "inhalation",
+                "crush",
+                "existing",
+                "toxic"
+              ]
+            },
+            {
+              "point": "Blast lung can develop or worsen over hours with little to see",
+              "accept": [
+                "blast lung",
+                "hours",
+                "worsen",
+                "develop",
+                "nothing to see"
+              ]
+            },
+            {
+              "point": "Intact eardrums do not exclude blast lung",
+              "accept": [
+                "eardrum",
+                "intact",
+                "exclude",
+                "screen",
+                "rupture"
+              ]
+            },
+            {
+              "point": "Scene safety: secondary devices, collapse, fire",
+              "accept": [
+                "secondary device",
+                "safety",
+                "collapse",
+                "fire",
+                "scene",
+                "enter"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He walked away",
+          "dispatch": "Debrief — explosion, one patient self-presented two hours later.",
+          "body": "He had walked out of the building without a mark on him, declined assessment at the scene, and gone home.\n\nTwo hours later he arrived at hospital short of breath.\n\nThe pressure wave had torn the tissue in his lungs at the moment of the blast. It had simply taken two hours to show."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "PRIMARY blast injury",
+            "value": "the pressure wave",
+            "note": "Air-filled organs: LUNGS, EARS, BOWEL. Includes blast lung and ruptured eardrums."
+          },
+          {
+            "label": "SECONDARY blast injury",
+            "value": "debris and fragments",
+            "note": "Penetrating trauma. The most common cause of casualties in most explosions."
+          },
+          {
+            "label": "TERTIARY blast injury",
+            "value": "the body thrown",
+            "note": "Blunt trauma, fractures, head injury, crush from collapse."
+          },
+          {
+            "label": "QUATERNARY blast injury",
+            "value": "everything else",
+            "note": "Burns, inhalation injury, toxic exposure, and worsening of conditions the patient already had."
+          },
+          {
+            "label": "Blast lung — when it shows",
+            "value": "over hours",
+            "note": "Can be present with almost nothing to see at first contact. Reassess over time."
+          },
+          {
+            "label": "Intact eardrums",
+            "value": "exclude nothing",
+            "note": "A tempting screening test and not a reliable one. Blast lung occurs with eardrums intact."
+          },
+          {
+            "label": "Categories per patient",
+            "value": "often several",
+            "note": "One patient commonly has injuries from more than one category at once."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the blast injury classification and the relationship between tympanic membrane rupture and other primary blast injury against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-08-04",
+      "title": "Trauma in pregnancy",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-02-05",
+        "EMT-06-05-04",
+        "EMT-06-07-05"
+      ],
+      "key_points": [
+        "The best treatment for the unborn baby is resuscitating the mother — treat her, and the baby is treated with her",
+        "A pregnant patient has an increased blood volume, so she can lose a substantial amount before her vital signs change",
+        "By the time the mother shows signs of shock, blood has already been diverted away from the uterus",
+        "A normal maternal blood pressure therefore does not mean the pregnancy is unaffected",
+        "After about the middle of pregnancy, lying flat lets the uterus compress the large vein returning blood to the heart, dropping the blood pressure",
+        "Tilt the patient to the left, or manually displace the uterus to the left, to relieve that compression",
+        "If spinal precautions are needed, tilt the whole device rather than turning the patient on it",
+        "Abdominal trauma can separate the placenta from the uterus, which may present with abdominal pain, contractions, or vaginal bleeding — and sometimes with none of those",
+        "Any pregnant patient beyond early pregnancy who has been in significant trauma needs assessment, however well she seems"
+      ],
+      "misconceptions": [
+        "Being reassured by normal maternal vital signs",
+        "Leaving a pregnant patient flat on her back after mid-pregnancy",
+        "Treating the fetus instead of the mother",
+        "Allowing a well-seeming pregnant patient to refuse assessment after significant trauma"
+      ],
+      "exam_favorites": [
+        "Treat the mother to treat the baby",
+        "Increased blood volume masks loss",
+        "Tilt to the left",
+        "Placental separation can be occult"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The organising principle of this whole concept is one sentence: the best treatment for the baby is resuscitating the mother. Everything follows from that. You treat her — airway, oxygen, bleeding control, position, transport — and in doing so you treat the baby. There is no separate fetal treatment available to you, and attention spent on the pregnancy rather than on the patient is attention misdirected.\n\nPhysiology changes things in ways that matter.\n\nA pregnant woman carries a substantially increased blood volume. That is protective for delivery, and it works against you in trauma: she can lose a large amount of blood before her pulse and blood pressure change in any way you would notice.\n\nAnd there is a consequence that is easy to miss. The body protects the mother's core circulation at the expense of the less essential circulation — and the uterus is in that second category. So blood is diverted away from the placenta before the mother's vital signs change. By the time you see maternal shock, the baby has been under-perfused for some time already.\n\nWhich means a normal maternal blood pressure is not reassurance about the pregnancy. Treat significant mechanism plus pregnancy as significant, whatever the numbers say.\n\nThen positioning, which is the single most useful practical thing here. From roughly the middle of pregnancy onwards, the uterus is heavy enough that lying flat on the back lets it compress the large vein that returns blood from the lower body to the heart. Less blood returns, so less is pumped out, and the blood pressure falls — purely from position.\n\nThe fix is simple: tilt her to the left, or have somebody manually push the uterus to the left. Either relieves the compression. If she needs spinal precautions, tilt the entire device — board, scoop, stretcher — rather than turning her on top of it. Wedging under the right side of the board works.\n\nThis is worth doing early and worth checking, because a pregnant trauma patient left flat on her back can develop a low blood pressure that has nothing to do with her injuries and everything to do with how she is lying.\n\nAbdominal trauma carries a specific risk: the placenta separating from the wall of the uterus. It can follow relatively modest trauma, including a simple fall or a low-speed collision with a seatbelt. It may present with abdominal pain, contractions, or vaginal bleeding — and it may present with none of those, because bleeding can be concealed behind the placenta.\n\nSo: any pregnant patient beyond early pregnancy involved in significant trauma needs assessment, even if she feels entirely well and particularly if she wants to decline. Say why. And transport to somewhere that can assess both of them.",
+          "standard": "Maternal resuscitation constitutes the sole available fetal intervention. Physiological hypervolaemia of pregnancy permits substantial haemorrhage before maternal vital sign derangement. Compensatory mechanisms preferentially preserve maternal central circulation, diverting flow from the uterus prior to maternal decompensation; normal maternal blood pressure therefore carries no reassurance regarding uteroplacental perfusion. From approximately mid-gestation, supine positioning permits uterine compression of the inferior vena cava, reducing venous return and cardiac output with consequent hypotension independent of injury. Management comprises left lateral tilt or manual leftward uterine displacement; where spinal precautions are required the entire device is tilted, typically by wedging beneath the right side, rather than repositioning the patient upon it. Placental abruption may follow relatively minor trauma and presents variably with abdominal pain, uterine contractions or vaginal bleeding, or may be entirely occult owing to concealed retroplacental haemorrhage. Assessment is indicated for any pregnant patient beyond early gestation involved in significant trauma irrespective of apparent wellbeing."
+        },
+        "eli_new": {
+          "analogy": "There are two patients and one of them is unreachable. Everything you do for the one in front of you is the only thing available to the other.",
+          "body": "Tilt her left. It costs nothing, takes seconds, and a pregnant trauma patient left flat can have a blood pressure that drops for no reason other than the position you left her in."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why treating the mother treats the baby, and the positioning rule in later pregnancy.",
+          "must_hit": [
+            {
+              "point": "The best treatment for the baby is resuscitating the mother",
+              "accept": [
+                "mother",
+                "baby",
+                "fetus",
+                "resuscitat",
+                "treat her",
+                "best"
+              ]
+            },
+            {
+              "point": "Increased blood volume means she loses a lot before vital signs change",
+              "accept": [
+                "volume",
+                "increase",
+                "lose",
+                "vital",
+                "change",
+                "mask"
+              ]
+            },
+            {
+              "point": "Blood is diverted from the uterus before maternal signs appear",
+              "accept": [
+                "divert",
+                "uterus",
+                "placenta",
+                "before",
+                "perfus"
+              ]
+            },
+            {
+              "point": "A normal maternal blood pressure does not mean the pregnancy is unaffected",
+              "accept": [
+                "normal",
+                "pressure",
+                "reassur",
+                "unaffected",
+                "not"
+              ]
+            },
+            {
+              "point": "After mid-pregnancy, lying flat compresses the vein returning blood to the heart",
+              "accept": [
+                "flat",
+                "supine",
+                "compress",
+                "vein",
+                "return",
+                "vena cava"
+              ]
+            },
+            {
+              "point": "Tilt her to the left or displace the uterus to the left",
+              "accept": [
+                "tilt",
+                "left",
+                "displace",
+                "manually",
+                "wedge"
+              ]
+            },
+            {
+              "point": "Tilt the whole device if spinal precautions are needed",
+              "accept": [
+                "device",
+                "board",
+                "whole",
+                "tilt",
+                "wedge",
+                "scoop"
+              ]
+            },
+            {
+              "point": "Placental separation can occur with modest trauma and may be occult",
+              "accept": [
+                "placenta",
+                "separat",
+                "abruption",
+                "occult",
+                "modest",
+                "conceal"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Flat on the board",
+          "dispatch": "Medic 3 — 28 weeks pregnant, low-speed collision, spinal precautions applied.",
+          "body": "Everything had been done correctly and she was secured flat on the board with a collar and blocks.\n\nHer blood pressure had drifted down over ten minutes and nobody could find a reason for it in her injuries, because there was not one.\n\nThey wedged the right side of the board up. Her pressure came back before they reached the end of the road."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the physiological changes of pregnancy, the gestation at which positioning becomes important, and the presentation of placental separation against the current text. No specific gestational week thresholds are stated because sources vary."
     }
   ]
 }
