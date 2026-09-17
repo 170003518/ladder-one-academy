@@ -752,6 +752,281 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-03-09. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-01-C01",
+      "concept_id": "EMT-04-04-01",
+      "type": "concept",
+      "front": {
+        "title": "What shock is",
+        "summary": "Perfusion, not pressure"
+      },
+      "back": {
+        "body": "Shock = inadequate PERFUSION — cells not getting oxygen · NOT the same as low blood pressure · COMPENSATED: fast pulse, cool pale clammy skin, anxious and restless, pressure STILL NORMAL — the body is winning · DECOMPENSATED: pressure falls, mental status changes, pulse thready — the body has lost · IRREVERSIBLE: damage persists even if perfusion returns · Catch it in the COMPENSATED stage",
+        "why_it_matters": "The early signs are the body fighting. The late signs are the body losing."
+      },
+      "high_yield": true,
+      "number": 31,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-01-C02",
+      "concept_id": "EMT-04-04-01",
+      "type": "compare",
+      "front": {
+        "title": "Compensated vs. decompensated",
+        "summary": "Where you want to catch it"
+      },
+      "back": {
+        "body": "Compensated shock holds a normal blood pressure with a fast pulse, cool pale clammy skin and an anxious restless patient — the compensation is working. Decompensated shock has a falling pressure, a thready or slowing pulse, cold mottled skin and a confused or drowsy patient. The first is where intervention still works.",
+        "why_it_matters": "Waiting for the pressure to drop means waiting until the body has already been overrun."
+      },
+      "high_yield": false,
+      "number": 32,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-02-C03",
+      "concept_id": "EMT-04-04-02",
+      "type": "concept",
+      "front": {
+        "title": "Hypovolaemic shock",
+        "summary": "The tank is empty"
+      },
+      "back": {
+        "body": "Loss of circulating volume, usually blood · HIDDEN bleeding: chest, abdomen, pelvis, THIGHS — two broken femurs alone can do it · Also vomiting, diarrhoea, burns, heat illness · Fast weak pulse, cool pale clammy skin, thirst, anxiety, FLAT NECK VEINS · Control bleeding, oxygen, KEEP WARM, position per protocol, MOVE — the fix is surgical",
+        "why_it_matters": "A patient can bleed to death internally while looking, at first glance, largely intact."
+      },
+      "high_yield": true,
+      "number": 33,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-03-C04",
+      "concept_id": "EMT-04-04-03",
+      "type": "concept",
+      "front": {
+        "title": "Cardiogenic shock",
+        "summary": "Full tank, failed pump"
+      },
+      "back": {
+        "body": "The pump has failed; volume is ADEQUATE · Usually a large MI, also arrhythmias and end-stage heart failure · NECK VEINS DISTENDED and lungs often WET · FLUID IS WRONG — it floods congested lungs · Position follows the breathing: usually UPRIGHT, not flat · Can present without chest pain · Recognition, oxygen, position, short scene time, early ALS",
+        "why_it_matters": "Same shocked patient, opposite neck. That look decides whether fluid is medicine or poison."
+      },
+      "high_yield": true,
+      "number": 34,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-04-C05",
+      "concept_id": "EMT-04-04-04",
+      "type": "concept",
+      "front": {
+        "title": "Distributive shock",
+        "summary": "The container got bigger"
+      },
+      "back": {
+        "body": "Vessels dilate — same volume, bigger space · SEPTIC: overwhelming infection, may be WARM and FLUSHED early · ANAPHYLACTIC: fast, with airway swelling, wheeze, hives, gut symptoms — the one with a time-critical specific treatment, assisted per protocol · NEUROGENIC: spinal cord injury, vessels below lose their signal → WARM, DRY, PINK skin and a pulse that is NOT FAST",
+        "why_it_matters": "A shocked patient who is not tachycardic should make you think neurogenic."
+      },
+      "high_yield": true,
+      "number": 35,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-04-C06",
+      "concept_id": "EMT-04-04-04",
+      "type": "compare",
+      "front": {
+        "title": "Neurogenic vs. every other shock",
+        "summary": "The exception worth learning"
+      },
+      "back": {
+        "body": "Most shock gives cool, pale, clammy skin and a fast pulse. Neurogenic shock gives warm, dry, pink skin below the injury and a pulse that is normal or slow, because the same spinal injury cut the pathway that would otherwise speed the heart. The patient looks well and is not.",
+        "why_it_matters": "If you only learn one exception in shock, learn this one."
+      },
+      "high_yield": true,
+      "number": 36,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-05-C07",
+      "concept_id": "EMT-04-04-05",
+      "type": "concept",
+      "front": {
+        "title": "Obstructive shock",
+        "summary": "Something stood on the hose"
+      },
+      "back": {
+        "body": "Heart works, volume adequate, something OUTSIDE is blocking flow · TENSION PNEUMOTHORAX: air compressing heart and great vessels — develops while you work · CARDIAC TAMPONADE: fluid round the heart stops it filling · MASSIVE PE: clot blocking outflow to the lungs · ALL THREE: DISTENDED NECK VEINS · Fluid does not fix any of them · Recognise, call ALS, move",
+        "why_it_matters": "Full neck veins in a deteriorating chest trauma patient puts tension pneumothorax at the top of the list."
+      },
+      "high_yield": true,
+      "number": 37,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-06-C08",
+      "concept_id": "EMT-04-04-06",
+      "type": "concept",
+      "front": {
+        "title": "Reading a shocked patient",
+        "summary": "Four looks"
+      },
+      "back": {
+        "body": "MENTAL STATUS: anxious and restless early, confused and drowsy late · SKIN: cool, pale, clammy (exception: neurogenic) · PULSE: fast and weakening (exception: neurogenic) · NECK VEINS: FLAT = volume loss, fluid helps · DISTENDED = pump failure or obstruction, fluid harms · BLOOD PRESSURE CHANGES LAST — never the trigger · Children hold pressure even longer",
+        "why_it_matters": "The neck is the observation most often skipped and the one that sorts the categories."
+      },
+      "high_yield": true,
+      "number": 38,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-06-C09",
+      "concept_id": "EMT-04-04-06",
+      "type": "numbers",
+      "front": {
+        "title": "Shock at a glance",
+        "summary": "What each finding points to"
+      },
+      "back": {
+        "body": "See the numbers card: mental status early then late; skin cool pale clammy with the neurogenic exception; pulse fast and weakening with the same exception; FLAT neck veins mean volume loss and fluid helps; DISTENDED neck veins mean pump failure or obstruction and fluid harms; blood pressure changes last.",
+        "why_it_matters": "Two seconds at the neck changes the treatment."
+      },
+      "high_yield": true,
+      "number": 39,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-07-C10",
+      "concept_id": "EMT-04-04-07",
+      "type": "concept",
+      "front": {
+        "title": "Managing shock",
+        "summary": "Short list, done early"
+      },
+      "back": {
+        "body": "RECOGNISE from skin, pulse and mental status — not from a cuff · CONTROL external bleeding first · Airway, breathing, oxygen as indicated · KEEP THEM WARM — cold impairs clotting; blankets are TREATMENT · Position per protocol, but BREATHING OVERRIDES if the lungs are congested · NOTHING BY MOUTH — they may go to surgery · Early ALS, short scene time · REASSESS: shock moves",
+        "why_it_matters": "Almost nothing that fixes shock happens in the back of an ambulance. Recognition, bleeding, warmth and time are what you control."
+      },
+      "high_yield": true,
+      "number": 40,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-07-C11",
+      "concept_id": "EMT-04-04-07",
+      "type": "skill",
+      "front": {
+        "title": "Bleeding control and shock management",
+        "summary": "Critical steps and the common fails"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: standard precautions, control external haemorrhage, airway and breathing with oxygen, recognise shock without waiting for a blood pressure, KEEP WARM, nothing by mouth, early ALS and short scene time, reassess and document the trend.",
+        "why_it_matters": "The neglected step is warmth, and the consequence does not show on a monitor until much later."
+      },
+      "high_yield": false,
+      "number": 41,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-04-07. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

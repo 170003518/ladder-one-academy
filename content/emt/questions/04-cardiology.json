@@ -1922,6 +1922,606 @@
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-01-Q001",
+      "concept_id": "EMT-04-04-01",
+      "style": "recall",
+      "stem": "What is shock?",
+      "options": [
+        {
+          "text": "A blood pressure below a set value",
+          "rationale": "Shock is defined by perfusion, not by a number."
+        },
+        {
+          "text": "Inadequate perfusion of tissue",
+          "rationale": "Correct — cells are not getting the oxygen they need."
+        },
+        {
+          "text": "An emotional reaction to injury",
+          "rationale": "That is a different use of the word entirely."
+        },
+        {
+          "text": "A heart rate above 100",
+          "rationale": "Tachycardia is a sign, not the definition."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-01-Q002",
+      "concept_id": "EMT-04-04-01",
+      "style": "application",
+      "stem": "A patient has a pulse of 126, cool clammy skin and a normal blood pressure. What stage is this?",
+      "options": [
+        {
+          "text": "Not in shock, because the pressure is normal",
+          "rationale": "This is exactly the patient who gets missed."
+        },
+        {
+          "text": "Compensated shock",
+          "rationale": "Correct — the body is successfully defending the pressure, for now."
+        },
+        {
+          "text": "Decompensated shock",
+          "rationale": "Decompensation is marked by a falling pressure."
+        },
+        {
+          "text": "Irreversible shock",
+          "rationale": "Nothing here indicates irreversible injury."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-01-Q003",
+      "concept_id": "EMT-04-04-01",
+      "style": "application",
+      "stem": "Why is a falling blood pressure a late finding in shock?",
+      "options": [
+        {
+          "text": "Because cuffs are inaccurate",
+          "rationale": "Accuracy is not the mechanism."
+        },
+        {
+          "text": "Because compensation maintains it until those mechanisms fail",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "Because blood pressure is unrelated to perfusion",
+          "rationale": "It is related, just late."
+        },
+        {
+          "text": "Because it only falls in bleeding",
+          "rationale": "It falls across shock types once compensation fails."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-02-Q001",
+      "concept_id": "EMT-04-04-02",
+      "style": "recall",
+      "stem": "Which finding is characteristic of hypovolaemic shock?",
+      "options": [
+        {
+          "text": "Distended neck veins",
+          "rationale": "Distension suggests pump failure or obstruction."
+        },
+        {
+          "text": "Flat neck veins",
+          "rationale": "Correct — there is not enough volume to fill them."
+        },
+        {
+          "text": "Warm dry pink skin",
+          "rationale": "That suggests neurogenic shock."
+        },
+        {
+          "text": "A slow strong pulse",
+          "rationale": "Hypovolaemia typically produces a fast weak pulse."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-02-Q002",
+      "concept_id": "EMT-04-04-02",
+      "style": "application",
+      "stem": "Where can substantial bleeding occur with little visible externally?",
+      "options": [
+        {
+          "text": "Only in the abdomen",
+          "rationale": "Several sites can conceal major blood loss."
+        },
+        {
+          "text": "Chest, abdomen, pelvis and thighs",
+          "rationale": "Correct — two broken femurs alone can cause shock."
+        },
+        {
+          "text": "Only from scalp wounds",
+          "rationale": "Scalp wounds bleed visibly."
+        },
+        {
+          "text": "Nowhere; major bleeding is always visible",
+          "rationale": "Occult haemorrhage is a central concept here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-02-Q003",
+      "concept_id": "EMT-04-04-02",
+      "style": "application",
+      "stem": "Why does keeping a shocked patient warm matter?",
+      "options": [
+        {
+          "text": "It improves their mood",
+          "rationale": "Comfort is real but not the clinical reason."
+        },
+        {
+          "text": "Because cold impairs clotting and worsens outcome",
+          "rationale": "Correct — blankets are treatment, not comfort."
+        },
+        {
+          "text": "It raises the blood pressure directly",
+          "rationale": "Warming is not a pressor."
+        },
+        {
+          "text": "It speeds the heart rate usefully",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-03-Q001",
+      "concept_id": "EMT-04-04-03",
+      "style": "recall",
+      "stem": "What distinguishes cardiogenic shock at the bedside?",
+      "options": [
+        {
+          "text": "Flat neck veins and dry lungs",
+          "rationale": "That combination suggests hypovolaemia."
+        },
+        {
+          "text": "Distended neck veins and often crackles",
+          "rationale": "Correct — blood backing up behind a failing pump."
+        },
+        {
+          "text": "Warm dry pink skin and bradycardia",
+          "rationale": "That suggests neurogenic shock."
+        },
+        {
+          "text": "A visible external haemorrhage",
+          "rationale": "That suggests hypovolaemia."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-03-Q002",
+      "concept_id": "EMT-04-04-03",
+      "style": "application",
+      "stem": "Why is fluid inappropriate in cardiogenic shock?",
+      "options": [
+        {
+          "text": "The tank is not empty and fluid worsens pulmonary congestion",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "Fluid causes bleeding",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Fluid lowers the heart rate",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Fluid cannot be given to any shocked patient",
+          "rationale": "It is appropriate in hypovolaemia."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-04-Q001",
+      "concept_id": "EMT-04-04-04",
+      "style": "recall",
+      "stem": "Which type of shock classically produces warm, dry, pink skin?",
+      "options": [
+        {
+          "text": "Hypovolaemic",
+          "rationale": "Hypovolaemia produces cool pale clammy skin."
+        },
+        {
+          "text": "Neurogenic",
+          "rationale": "Correct — the vessels below the injury have lost their signal to constrict."
+        },
+        {
+          "text": "Cardiogenic",
+          "rationale": "Cardiogenic shock produces cool clammy skin."
+        },
+        {
+          "text": "Obstructive",
+          "rationale": "Obstructive shock does not produce this picture."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-04-Q002",
+      "concept_id": "EMT-04-04-04",
+      "style": "application",
+      "stem": "A shocked patient is not tachycardic. What should this suggest?",
+      "options": [
+        {
+          "text": "The patient is not really in shock",
+          "rationale": "Shock without tachycardia is unusual but real."
+        },
+        {
+          "text": "Consider neurogenic shock",
+          "rationale": "Correct — the injury has cut the pathway that would speed the heart."
+        },
+        {
+          "text": "The pulse was measured incorrectly",
+          "rationale": "Possible, but the concept being tested is neurogenic shock."
+        },
+        {
+          "text": "The patient is an athlete",
+          "rationale": "Athletic bradycardia does not explain shock."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-04-Q003",
+      "concept_id": "EMT-04-04-04",
+      "style": "recall",
+      "stem": "Which distributive shock has a specific, time-critical treatment an EMT may assist with?",
+      "options": [
+        {
+          "text": "Septic shock",
+          "rationale": "Sepsis is treated in hospital; there is no EMT-assisted antidote."
+        },
+        {
+          "text": "Anaphylactic shock",
+          "rationale": "Correct, assisted per protocol."
+        },
+        {
+          "text": "Neurogenic shock",
+          "rationale": "There is no specific EMT-assisted treatment."
+        },
+        {
+          "text": "None of them",
+          "rationale": "Anaphylaxis is the exception."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-05-Q001",
+      "concept_id": "EMT-04-04-05",
+      "style": "recall",
+      "stem": "Which three conditions cause obstructive shock?",
+      "options": [
+        {
+          "text": "Tension pneumothorax, cardiac tamponade and massive pulmonary embolism",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "Sepsis, anaphylaxis and spinal injury",
+          "rationale": "Those are distributive causes."
+        },
+        {
+          "text": "Bleeding, vomiting and burns",
+          "rationale": "Those cause hypovolaemia."
+        },
+        {
+          "text": "Myocardial infarction, arrhythmia and heart failure",
+          "rationale": "Those cause cardiogenic shock."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-05-Q002",
+      "concept_id": "EMT-04-04-05",
+      "style": "application",
+      "stem": "What do all three causes of obstructive shock share at the bedside?",
+      "options": [
+        {
+          "text": "Flat neck veins",
+          "rationale": "Flat veins suggest volume loss."
+        },
+        {
+          "text": "Distended neck veins, because blood cannot get through",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "Warm dry skin",
+          "rationale": "Not characteristic of obstruction."
+        },
+        {
+          "text": "A slow pulse",
+          "rationale": "Not characteristic of obstruction."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-05-Q003",
+      "concept_id": "EMT-04-04-05",
+      "style": "scenario",
+      "stem": "A stabbed chest trauma patient is deteriorating, with one quiet side and distended neck veins. What should you suspect?",
+      "options": [
+        {
+          "text": "Hypovolaemic shock from blood loss",
+          "rationale": "The distended veins argue against simple volume loss."
+        },
+        {
+          "text": "Tension pneumothorax",
+          "rationale": "Correct — and it develops while you are working."
+        },
+        {
+          "text": "Neurogenic shock",
+          "rationale": "Nothing suggests a spinal injury."
+        },
+        {
+          "text": "Anaphylaxis",
+          "rationale": "Nothing suggests an allergic reaction."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-06-Q001",
+      "concept_id": "EMT-04-04-06",
+      "style": "recall",
+      "stem": "Which four observations sort most shocked patients into a category?",
+      "options": [
+        {
+          "text": "Mental status, skin, pulse and neck veins",
+          "rationale": "Correct — and the neck is the one most often skipped."
+        },
+        {
+          "text": "Blood pressure, temperature, pupils and reflexes",
+          "rationale": "Not the discriminating set."
+        },
+        {
+          "text": "Respiratory rate, oxygen saturation, glucose and ECG",
+          "rationale": "Useful data, but not the categorising set."
+        },
+        {
+          "text": "Height, weight, age and history",
+          "rationale": "Not assessment findings of shock."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-06-Q002",
+      "concept_id": "EMT-04-04-06",
+      "style": "application",
+      "stem": "A shocked patient has distended neck veins. What does this rule out?",
+      "options": [
+        {
+          "text": "Pump failure",
+          "rationale": "Distension points toward pump failure."
+        },
+        {
+          "text": "Simple volume loss",
+          "rationale": "Correct — an empty tank does not produce full veins."
+        },
+        {
+          "text": "Obstruction",
+          "rationale": "Distension points toward obstruction."
+        },
+        {
+          "text": "Nothing at all",
+          "rationale": "It is a genuinely discriminating finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-06-Q003",
+      "concept_id": "EMT-04-04-06",
+      "style": "application",
+      "stem": "Why do children maintain a normal blood pressure longer than adults in shock?",
+      "options": [
+        {
+          "text": "Because their hearts are stronger in absolute terms",
+          "rationale": "Absolute strength is not the mechanism."
+        },
+        {
+          "text": "Because they compensate very efficiently, so pressure falls very late",
+          "rationale": "Correct — mental status and capillary refill matter more in children."
+        },
+        {
+          "text": "Because they have more blood per kilogram",
+          "rationale": "Volume per kilogram is not the compensation mechanism."
+        },
+        {
+          "text": "Because paediatric cuffs read high",
+          "rationale": "Instrument error is not the explanation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-07-Q001",
+      "concept_id": "EMT-04-04-07",
+      "style": "recall",
+      "stem": "Which of these is an EMT priority in shock?",
+      "options": [
+        {
+          "text": "Giving the patient fluids by mouth",
+          "rationale": "Nothing by mouth — they may go to surgery."
+        },
+        {
+          "text": "Keeping the patient warm",
+          "rationale": "Correct, and it is the step most often neglected."
+        },
+        {
+          "text": "Waiting on scene for the blood pressure to fall",
+          "rationale": "Waiting for deterioration is never the plan."
+        },
+        {
+          "text": "Laying every shocked patient flat regardless of breathing",
+          "rationale": "Breathing overrides positioning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-07-Q002",
+      "concept_id": "EMT-04-04-07",
+      "style": "application",
+      "stem": "Why is a shocked patient given nothing by mouth?",
+      "options": [
+        {
+          "text": "Because it worsens nausea",
+          "rationale": "Nausea is not the primary reason."
+        },
+        {
+          "text": "Because they may require surgery",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "Because fluids raise blood pressure too quickly",
+          "rationale": "Oral fluid is not the concern here."
+        },
+        {
+          "text": "Because it dilutes the blood",
+          "rationale": "Not the reasoning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-07-Q003",
+      "concept_id": "EMT-04-04-07",
+      "style": "sequence",
+      "stem": "Put shock management in order: 1) keep the patient warm and minimise scene time, 2) control external bleeding, 3) manage airway and breathing with oxygen as indicated, 4) take standard precautions.",
+      "options": [
+        {
+          "text": "4, 2, 3, 1",
+          "rationale": "Correct. Precautions, stop the bleeding, airway and breathing, then warmth and transport."
+        },
+        {
+          "text": "2, 4, 3, 1",
+          "rationale": "Standard precautions come before patient contact."
+        },
+        {
+          "text": "4, 3, 2, 1",
+          "rationale": "Catastrophic external bleeding is controlled before moving to airway."
+        },
+        {
+          "text": "3, 4, 2, 1",
+          "rationale": "Airway management does not precede standard precautions."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

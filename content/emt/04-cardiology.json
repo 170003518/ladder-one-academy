@@ -52,6 +52,19 @@
         "EMT-04-03-08",
         "EMT-04-03-09"
       ]
+    },
+    {
+      "id": "EMT-04-04",
+      "title": "Shock",
+      "concepts": [
+        "EMT-04-04-01",
+        "EMT-04-04-02",
+        "EMT-04-04-03",
+        "EMT-04-04-04",
+        "EMT-04-04-05",
+        "EMT-04-04-06",
+        "EMT-04-04-07"
+      ]
     }
   ],
   "concepts": [
@@ -2870,6 +2883,1032 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-01",
+      "title": "What shock is, and its stages",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-01-03"
+      ],
+      "related": [
+        "EMT-04-04-06",
+        "EMT-03-02-05"
+      ],
+      "key_points": [
+        "Shock is inadequate perfusion: cells are not getting the oxygen they need",
+        "It is not the same as low blood pressure; a patient can be in shock with a normal pressure",
+        "Compensated shock is the body successfully defending perfusion — fast pulse, cool pale skin, anxiety, normal pressure",
+        "Decompensated shock is compensation failing — falling pressure, altered mental status, weakening pulse",
+        "Irreversible shock is damage that persists even if perfusion is restored",
+        "The whole skill is recognising the compensated stage, because that is where intervention still works",
+        "By the time blood pressure falls, the patient has been in trouble for some time"
+      ],
+      "misconceptions": [
+        "Defining shock as low blood pressure",
+        "Waiting for hypotension before treating",
+        "Being reassured by a normal pressure in a patient with cool clammy skin"
+      ],
+      "exam_favorites": [
+        "Shock is perfusion, not pressure",
+        "The three stages",
+        "That recognition happens in the compensated stage"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Shock is a supply problem at the level of the cells. Something has interrupted the delivery of oxygen to tissue, and tissue that is not getting oxygen starts to fail.\n\nThe most important thing to get straight immediately: shock is not low blood pressure. A patient can be deeply in shock with a blood pressure that looks completely normal, and that is exactly the patient who gets missed.\n\nThe stages explain why. In compensated shock, the body notices the problem and fights it. It speeds the heart up, it clamps down the blood vessels in the skin and the gut to send blood where it matters, and it makes the patient anxious and restless. What you see is a fast pulse, cool pale clammy skin, anxiety, and a blood pressure that is still normal — because the compensation is working.\n\nIn decompensated shock, the compensation runs out. Now the blood pressure falls, the mental status changes, and the pulse becomes weak and thready. This stage is visible to everybody, and it is much later than you wanted.\n\nIrreversible shock is the point at which enough damage has been done that restoring perfusion no longer saves the patient.\n\nSo the entire clinical skill in shock is recognising the first stage, from skin and pulse and mental status, while the numbers still look acceptable. Waiting for the blood pressure to confirm your suspicion means waiting until the body has already lost.",
+          "standard": "Shock is inadequate tissue perfusion resulting in cellular hypoxia, and is defined by perfusion failure rather than by hypotension; normal blood pressure does not exclude shock. Compensated shock describes the phase in which physiological mechanisms successfully maintain perfusion pressure, producing tachycardia, peripheral vasoconstriction with cool pale diaphoretic skin, anxiety and restlessness, with blood pressure preserved. Decompensated shock describes failure of these mechanisms, characterised by hypotension, deteriorating mental status and weak thready pulses. Irreversible shock denotes cellular and organ injury that persists despite restoration of perfusion. Clinical recognition during the compensated phase, on the basis of cutaneous findings, pulse quality and mental status rather than blood pressure, is the determinant of outcome, as hypotension indicates that compensation has already been exhausted."
+        },
+        "eli_new": {
+          "analogy": "The body is fighting hard and quietly. The blood pressure is the last thing to surrender.",
+          "body": "Everyone learns shock as a list of signs. The useful frame is that the early signs are the body fighting, and the late signs are the body losing. Cool skin and a fast pulse are not the illness — they are the defence. When they disappear and the pressure drops, the defence has been overrun."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Define shock, describe its stages, and explain why a normal blood pressure is not reassuring.",
+          "must_hit": [
+            {
+              "point": "Shock is inadequate perfusion, not low blood pressure",
+              "accept": [
+                "perfusion",
+                "oxygen",
+                "cell",
+                "not blood pressure",
+                "not hypotension"
+              ]
+            },
+            {
+              "point": "Compensated: fast pulse, cool pale clammy skin, anxiety, normal pressure",
+              "accept": [
+                "compensat",
+                "fast",
+                "cool",
+                "pale",
+                "clammy",
+                "anxious",
+                "normal pressure"
+              ]
+            },
+            {
+              "point": "Decompensated: falling pressure, altered mental status, weak pulse",
+              "accept": [
+                "decompensat",
+                "falling",
+                "altered",
+                "weak",
+                "thready",
+                "hypotens"
+              ]
+            },
+            {
+              "point": "Irreversible: damage persists even if perfusion is restored",
+              "accept": [
+                "irreversible",
+                "damage",
+                "too late",
+                "persist"
+              ]
+            },
+            {
+              "point": "Recognition must happen in the compensated stage",
+              "accept": [
+                "early",
+                "compensated",
+                "recogni",
+                "before",
+                "late sign"
+              ]
+            }
+          ],
+          "model_answer": "Shock is inadequate perfusion — cells not getting the oxygen they need — and it is not the same as low blood pressure, because a patient can be deeply shocked with a normal reading. In compensated shock the body is fighting: it speeds the heart, clamps down the vessels in the skin and gut, and makes the patient anxious, so you see a fast pulse, cool pale clammy skin and restlessness with a pressure that still looks fine. In decompensated shock the compensation fails and the pressure falls, mental status changes and the pulse becomes thready. Irreversible shock is damage that persists even if perfusion is restored. The whole skill is recognising the first stage from skin, pulse and mental status, because waiting for the pressure to confirm it means waiting until the body has already lost."
+        },
+        "story": {
+          "title": "The pressure was fine",
+          "dispatch": "Rescue 6 — 24-year-old male, motorcycle down, conscious and talking.",
+          "body": "Blood pressure 118 over 74. The student wrote it down and relaxed.\n\nPulse 126 and thin. Skin grey, cold, wet. He kept asking the same question three times and could not sit still.\n\nEvery one of those findings was his body fighting hard to keep that 118 where it was. It held for another nine minutes and then it did not."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Blood pressure",
+              "left": "Normal — the body is holding it",
+              "right": "Falling"
+            },
+            {
+              "feature": "Pulse",
+              "left": "Fast, may still be strong",
+              "right": "Fast and thready, or slowing"
+            },
+            {
+              "feature": "Skin",
+              "left": "Cool, pale, clammy",
+              "right": "Cold, mottled, cyanotic"
+            },
+            {
+              "feature": "Mental state",
+              "left": "Anxious, restless",
+              "right": "Confused, drowsy, unresponsive"
+            },
+            {
+              "feature": "What it means",
+              "left": "The body is winning, for now",
+              "right": "The body has lost"
+            },
+            {
+              "feature": "Where you want to catch it",
+              "left": "HERE",
+              "right": "Too late"
+            }
+          ],
+          "left_label": "Compensated shock",
+          "right_label": "Decompensated shock"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification, findings and management description against the current text. No medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-02",
+      "title": "Hypovolaemic shock",
+      "domain": "CARD",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-04-01"
+      ],
+      "related": [
+        "EMT-04-04-06",
+        "EMT-04-04-07"
+      ],
+      "key_points": [
+        "Caused by loss of volume from the circulation, most often blood",
+        "External bleeding is visible; internal bleeding into the chest, abdomen, pelvis or thighs is not",
+        "Fluid losses from vomiting, diarrhoea, burns or heat illness produce the same picture without blood",
+        "Classic findings: fast weak pulse, cool pale clammy skin, thirst, anxiety, and flat neck veins",
+        "Control any external bleeding, keep the patient warm, give oxygen if indicated, position per protocol, and transport",
+        "Definitive treatment for bleeding is surgical; time to that is the thing you influence most"
+      ],
+      "misconceptions": [
+        "Assuming shock without visible blood is not hypovolaemic",
+        "Allowing a shocked patient to become cold",
+        "Delaying transport for interventions that do not stop the bleeding"
+      ],
+      "exam_favorites": [
+        "Internal bleeding sites",
+        "Flat neck veins",
+        "Keeping the patient warm"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Hypovolaemic shock is the simplest kind to understand: there is not enough volume in the circulation. Most often that is blood.\n\nExternal bleeding you can see and control. The dangerous version is the bleeding you cannot see — into the chest, into the abdomen, into the pelvis, and into the thighs, all of which can hold a great deal of blood with very little to show on the outside. A patient can be exsanguinating internally while looking, at first glance, largely intact.\n\nThe same picture occurs without any blood at all. Prolonged vomiting and diarrhoea, extensive burns, and severe heat illness all strip volume from the circulation, and the body responds the same way.\n\nWhat you see is the compensating picture: fast weak pulse, cool pale clammy skin, thirst, anxiety, and — usefully — flat neck veins, because there is not enough volume to fill them.\n\nYour job is short and specific. Stop any external bleeding you can. Give oxygen if indicated. Keep the patient warm, which matters more than people think, because a cold patient clots badly and cold makes everything worse. Position according to your protocol. And move, because the treatment for internal bleeding is an operating theatre and the only part of that you control is how quickly they get there.",
+          "standard": "Hypovolaemic shock results from reduction in circulating volume, most commonly haemorrhage. External haemorrhage is apparent and amenable to direct control; occult haemorrhage into the thoracic cavity, abdomen, retroperitoneum, pelvis and thighs may involve substantial volume with minimal external evidence. Non-haemorrhagic volume loss from prolonged vomiting, diarrhoea, extensive burns and severe heat illness produces an equivalent physiological picture. Findings include tachycardia with weak peripheral pulses, cool pale diaphoretic skin, thirst, anxiety and flat jugular veins reflecting reduced venous filling. Prehospital management comprises control of external haemorrhage, supplemental oxygen where indicated, prevention of hypothermia — as hypothermia impairs coagulation — positioning according to protocol, and expedited transport, since definitive management of haemorrhage is surgical."
+        },
+        "eli_new": {
+          "analogy": "Flat neck veins say the tank is empty. Full neck veins say something else is wrong.",
+          "body": "The thigh is the site people forget. A closed femoral fracture can hold enough blood to cause shock on its own, and two of them will do it reliably, with nothing visible at all."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what causes hypovolaemic shock, where hidden bleeding goes, and why keeping the patient warm matters.",
+          "must_hit": [
+            {
+              "point": "Loss of circulating volume, usually blood",
+              "accept": [
+                "volume",
+                "blood",
+                "loss",
+                "bleed"
+              ]
+            },
+            {
+              "point": "Hidden bleeding into chest, abdomen, pelvis, thighs",
+              "accept": [
+                "chest",
+                "abdomen",
+                "pelvis",
+                "thigh",
+                "internal",
+                "hidden"
+              ]
+            },
+            {
+              "point": "Non-blood losses: vomiting, diarrhoea, burns, heat",
+              "accept": [
+                "vomit",
+                "diarrh",
+                "burn",
+                "heat",
+                "fluid"
+              ]
+            },
+            {
+              "point": "Flat neck veins",
+              "accept": [
+                "neck vein",
+                "flat",
+                "jvd"
+              ]
+            },
+            {
+              "point": "Keep warm — cold impairs clotting",
+              "accept": [
+                "warm",
+                "cold",
+                "clot",
+                "hypotherm",
+                "blanket"
+              ]
+            }
+          ],
+          "model_answer": "It is caused by losing volume from the circulation, most often blood. External bleeding you can see and control; the dangerous kind is internal — into the chest, abdomen, pelvis and thighs, all of which hold a lot of blood with nothing visible outside. The same picture happens without blood at all through prolonged vomiting or diarrhoea, extensive burns or severe heat illness. You see a fast weak pulse, cool pale clammy skin, thirst, anxiety and flat neck veins, because there is not enough volume to fill them. Control what bleeding you can, oxygen if indicated, position per protocol, and keep them warm — a cold patient clots badly. Then move, because the treatment for internal bleeding is surgery and the part you control is how fast they get there."
+        },
+        "story": {
+          "title": "Nothing to see",
+          "dispatch": "Rescue 6 — fall from height, industrial site, patient conscious.",
+          "body": "There was almost no blood on the ground and everyone found that reassuring for about four minutes.\n\nBoth femurs were broken. His pulse was 130 and thin, his skin was grey, and his neck veins were completely flat.\n\nAll of that blood was still inside him, in his thighs, and none of it was doing him any good."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification, findings and management description against the current text. No medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-03",
+      "title": "Cardiogenic shock as a category",
+      "domain": "CARD",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-04-01",
+        "EMT-04-02-04"
+      ],
+      "related": [
+        "EMT-04-02-04",
+        "EMT-04-04-05"
+      ],
+      "key_points": [
+        "The pump has failed; volume is adequate",
+        "Most often follows a large myocardial infarction, but also arises from arrhythmias and end-stage heart failure",
+        "Neck veins are distended rather than flat, and the lungs are often wet",
+        "Fluid is not the treatment and can make it worse",
+        "Position depends on the patient: upright if the lungs are congested, which is common",
+        "EMT contribution is recognition, oxygen, positioning, minimal scene time and early ALS"
+      ],
+      "misconceptions": [
+        "Giving fluid to a shocked patient without checking the neck veins",
+        "Laying a patient with pulmonary congestion flat",
+        "Missing it because the patient does not complain of chest pain"
+      ],
+      "exam_favorites": [
+        "Full neck veins and wet lungs",
+        "Why fluid harms",
+        "Positioning"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Cardiogenic shock belongs in the shock classification as the category where the pump itself has failed. There is enough blood; the heart cannot move it.\n\nThe usual cause is a heart attack large enough to destroy a substantial amount of muscle, but it also comes from rhythms that are too fast or too slow to produce output, and from heart failure that has finally decompensated.\n\nWhat separates it at the bedside is the venous side. In hypovolaemic shock the neck veins are flat because the tank is empty. Here they are distended, because blood is backing up behind a failing pump. And you will often hear crackles, because the same backpressure is pushing fluid into the lungs.\n\nThat distinction drives the treatment. Fluid helps an empty tank. Fluid given to a patient whose lungs are already congested makes things worse, and that is why looking at the neck matters so much before anybody reaches for a bag.\n\nPosition follows the lungs. A shocked patient is conventionally laid flat, but a cardiogenic patient with pulmonary congestion cannot tolerate it and should usually be sitting up. Let the breathing decide.\n\nAnd remember it can present without chest pain, particularly in the groups who present atypically. A shocked patient with full neck veins and wet lungs has told you what category they are in whether or not they mention their chest.",
+          "standard": "Cardiogenic shock constitutes the category of shock arising from failure of myocardial pump function with adequate circulating volume. The predominant cause is extensive myocardial infarction, with additional aetiologies including bradyarrhythmias and tachyarrhythmias producing inadequate output, and decompensated chronic heart failure. Distinguishing features include jugular venous distension rather than collapse, reflecting venous congestion proximal to the failing ventricle, and pulmonary crackles from elevated pulmonary venous pressure. Volume administration is inappropriate and aggravates pulmonary oedema. Positioning is determined by respiratory status, with upright positioning indicated where pulmonary congestion is present, in contrast to the supine positioning conventionally applied in hypovolaemic shock. Presentation may occur without chest pain, particularly in populations prone to atypical presentation."
+        },
+        "eli_new": {
+          "analogy": "Same shocked patient, opposite neck. That one look decides whether fluid is medicine or poison.",
+          "body": "The categories of shock are worth learning through what they look like at the neck and the lungs, because those two observations separate the ones where fluid helps from the ones where it kills."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you would recognise cardiogenic shock and why fluid is the wrong treatment.",
+          "must_hit": [
+            {
+              "point": "Pump failure with adequate volume",
+              "accept": [
+                "pump",
+                "volume",
+                "enough blood",
+                "failing heart"
+              ]
+            },
+            {
+              "point": "Distended neck veins and often crackles",
+              "accept": [
+                "neck vein",
+                "jvd",
+                "distend",
+                "crackle",
+                "wet"
+              ]
+            },
+            {
+              "point": "Fluid worsens pulmonary congestion",
+              "accept": [
+                "fluid",
+                "congest",
+                "worse",
+                "lungs",
+                "harm"
+              ]
+            },
+            {
+              "point": "Position upright if the lungs are congested",
+              "accept": [
+                "upright",
+                "sit",
+                "position",
+                "flat"
+              ]
+            }
+          ],
+          "model_answer": "The pump has failed while the volume is adequate — usually after a large heart attack, but also from rhythms too fast or slow to produce output, or decompensated heart failure. You recognise it at the neck and the lungs: neck veins distended rather than flat because blood is backing up behind the failing pump, and often crackles because that backpressure is pushing fluid into the lungs. Fluid is wrong because the tank is not empty, and adding to congested lungs makes it worse. Position follows the breathing — a shocked patient is conventionally laid flat, but this one usually needs to sit up. And it can present without chest pain, so full neck veins plus wet lungs tells you the category whether or not they mention their chest."
+        },
+        "story": {
+          "title": "Opposite neck",
+          "dispatch": "Rescue 6 — 74-year-old male, collapse, shocked on arrival.",
+          "body": "Grey, wet, thready, confused. Every shock sign you could want.\n\nThe student had learned shocked patient, lay them flat, give fluid. She got as far as reaching for the blanket roll.\n\nThe officer turned the patient's chin and pointed at his neck. The veins were standing out. Two minutes later the patient was sitting up and breathing better for it."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification, findings and management description against the current text. No medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-04",
+      "title": "Distributive shock: septic, anaphylactic and neurogenic",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-04-01"
+      ],
+      "related": [
+        "EMT-02-05-04",
+        "EMT-04-04-06"
+      ],
+      "key_points": [
+        "The container has got bigger: blood vessels dilate so the same volume no longer fills the space",
+        "Septic shock follows overwhelming infection; the patient is often febrile and may be warm and flushed early",
+        "Anaphylactic shock follows a severe allergic reaction and often includes airway swelling, wheeze, hives and gastrointestinal symptoms",
+        "Neurogenic shock follows spinal cord injury and loses the signal that keeps vessels constricted",
+        "Neurogenic shock classically produces warm, dry, pink skin below the injury and a pulse that is not fast",
+        "A shocked patient who is not tachycardic should make you think of neurogenic shock",
+        "Anaphylaxis is the one with a time-critical, specific treatment, assisted per protocol"
+      ],
+      "misconceptions": [
+        "Expecting every shocked patient to be cool, pale and tachycardic",
+        "Missing anaphylaxis because there is no rash",
+        "Assuming a warm shocked patient is not really in shock"
+      ],
+      "exam_favorites": [
+        "The container enlarging",
+        "Neurogenic shock without tachycardia",
+        "Anaphylaxis is time-critical"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Distributive shock is the category where the volume has not changed and the pump is working, but the container has got bigger. Blood vessels dilate, the same amount of blood no longer fills the space, and pressure falls.\n\nThere are three versions worth knowing.\n\nSeptic shock comes from an infection that has overwhelmed the body. There may be fever, there is often a source you can find, and the picture can be confusing because early on the patient may be warm and flushed rather than cool and pale.\n\nAnaphylactic shock comes from a severe allergic reaction. It arrives fast, and it usually brings friends: swelling of the face, lips or airway, wheeze or stridor, hives, and often vomiting or abdominal cramps. It is the one on this list with a specific, time-critical treatment, and an EMT assists with it per protocol.\n\nNeurogenic shock comes from a spinal cord injury that has cut the signal telling blood vessels to stay constricted. Below the level of injury, the vessels relax and stay relaxed.\n\nThat last one breaks the pattern you have learned, and it is worth holding onto. The skin is warm, dry and pink rather than cool, pale and clammy. And the pulse is often normal or even slow, because the same injury has cut the nerve pathway that would otherwise speed the heart up. A shocked patient who is not tachycardic is unusual, and neurogenic shock is the reason to consider.",
+          "standard": "Distributive shock results from pathological vasodilation producing a relative hypovolaemia, in which an unchanged circulating volume is inadequate for an enlarged vascular capacity. Septic shock follows systemic infection and may present with fever and, in earlier phases, warm flushed skin rather than the cool pallor characteristic of other shock states. Anaphylactic shock follows severe hypersensitivity reaction and characteristically includes angio-oedema, bronchospasm or stridor, urticaria and gastrointestinal symptoms; it is the distributive subtype with specific time-critical treatment, administered at EMT level by assistance under protocol. Neurogenic shock follows spinal cord injury with interruption of sympathetic outflow, producing vasodilation below the level of injury with warm, dry, pink skin, and absence of compensatory tachycardia owing to loss of sympathetic cardiac innervation; bradycardia may be present. Shock without tachycardia should prompt consideration of neurogenic aetiology."
+        },
+        "eli_new": {
+          "analogy": "Same amount of water, bigger bucket. Nothing was lost; the space just got larger.",
+          "body": "Neurogenic shock is the one that breaks every pattern you have been taught, which is precisely why it is worth learning properly. Warm, dry, pink and not tachycardic, in a patient with a spinal injury, is a shocked patient who does not look shocked at all."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what distributive shock is and what makes neurogenic shock look different from the others.",
+          "must_hit": [
+            {
+              "point": "Vessels dilate so the same volume no longer fills the space",
+              "accept": [
+                "dilat",
+                "container",
+                "bigger",
+                "space",
+                "relative"
+              ]
+            },
+            {
+              "point": "Septic from infection, anaphylactic from allergy, neurogenic from spinal injury",
+              "accept": [
+                "septic",
+                "infection",
+                "anaphyla",
+                "allerg",
+                "neurogenic",
+                "spinal"
+              ]
+            },
+            {
+              "point": "Neurogenic: warm, dry, pink skin",
+              "accept": [
+                "warm",
+                "dry",
+                "pink",
+                "below"
+              ]
+            },
+            {
+              "point": "Neurogenic: no compensatory tachycardia, may be slow",
+              "accept": [
+                "not fast",
+                "no tachycard",
+                "slow",
+                "brady",
+                "normal pulse"
+              ]
+            },
+            {
+              "point": "Anaphylaxis is time-critical with a specific treatment",
+              "accept": [
+                "anaphyla",
+                "time",
+                "specific",
+                "protocol",
+                "assist"
+              ]
+            }
+          ],
+          "model_answer": "The volume has not changed and the pump works, but the container got bigger: vessels dilate and the same blood no longer fills the space. Septic shock follows overwhelming infection and may be warm and flushed early rather than cool and pale. Anaphylactic shock follows a severe allergic reaction, arrives fast, and usually brings airway swelling, wheeze or stridor, hives and gastrointestinal symptoms — it is the one with a specific time-critical treatment that an EMT assists with per protocol. Neurogenic shock follows spinal cord injury that cuts the signal keeping vessels constricted, so below the injury the skin is warm, dry and pink rather than cool and clammy, and the pulse is often normal or slow because the same injury cut the pathway that would speed the heart. A shocked patient who is not tachycardic should make you think of it."
+        },
+        "story": {
+          "title": "Warm and pink and shocked",
+          "dispatch": "Rescue 6 — diving incident, shallow water, patient unable to move his legs.",
+          "body": "His blood pressure was low and his skin was warm, dry and pink, and his pulse was 62.\n\nEverything the student had learned about shock said this was not a shocked patient. Cool, pale, clammy, fast — none of it.\n\nHe had a cord injury and his vessels below it had stopped being told to squeeze. The pattern was not broken. It was a different pattern."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Skin",
+              "left": "Cool, pale, clammy",
+              "right": "Warm, dry, pink below the injury"
+            },
+            {
+              "feature": "Pulse",
+              "left": "Fast",
+              "right": "Normal or slow"
+            },
+            {
+              "feature": "Cause",
+              "left": "Volume or pump problem",
+              "right": "Spinal cord injury, lost vessel tone"
+            },
+            {
+              "feature": "Neck veins",
+              "left": "Flat if hypovolaemic",
+              "right": "Variable"
+            },
+            {
+              "feature": "Clue",
+              "left": "Looks shocked",
+              "right": "Does NOT look shocked"
+            }
+          ],
+          "left_label": "Most shock (hypovolaemic etc.)",
+          "right_label": "Neurogenic shock"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification, findings and management description against the current text. No medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-05",
+      "title": "Obstructive shock",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-04-01"
+      ],
+      "related": [
+        "EMT-02-05-06",
+        "EMT-02-05-05"
+      ],
+      "key_points": [
+        "Something outside the heart is physically blocking blood flow",
+        "Tension pneumothorax: air trapped in the chest compresses the heart and great vessels",
+        "Cardiac tamponade: fluid around the heart stops it filling",
+        "Massive pulmonary embolism: a clot blocks the outflow to the lungs",
+        "All three produce shock with distended neck veins, because blood cannot get through",
+        "The heart and the volume may both be fine; the obstruction is the problem",
+        "Recognition matters because the treatments are specific and none of them is fluid"
+      ],
+      "misconceptions": [
+        "Treating obstructive shock with fluid alone",
+        "Missing a developing tension pneumothorax in a deteriorating chest trauma patient",
+        "Expecting flat neck veins in every shocked trauma patient"
+      ],
+      "exam_favorites": [
+        "The three causes",
+        "Distended neck veins in all of them",
+        "That fluid is not the answer"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Obstructive shock is the category where the heart works, the volume is adequate, and something is physically in the way.\n\nThree causes matter at this level.\n\nA tension pneumothorax is air that has got into the chest and cannot get out. With every breath more accumulates, pressure rises, and eventually it presses on the heart and on the great vessels, so blood cannot return. This is the one that develops in front of you in a chest trauma patient who is getting worse.\n\nCardiac tamponade is fluid collecting in the sac around the heart. The sac does not stretch quickly, so as fluid accumulates the heart has less and less room to fill. A heart that cannot fill cannot eject.\n\nA massive pulmonary embolism is a clot large enough to block the outflow from the right side of the heart to the lungs. Everything backs up behind it.\n\nNotice what all three have in common: blood cannot get through, so it backs up, so the neck veins distend. A shocked patient with full neck veins is either a failed pump or an obstruction, and in a trauma patient who is deteriorating, obstruction should be high on your list.\n\nNone of these is fixed with fluid. Each has a specific treatment, and none of those treatments is in an EMT's hands. What is in your hands is recognising the pattern, saying so out loud, getting ALS moving and getting the patient to a hospital.",
+          "standard": "Obstructive shock arises from mechanical impediment to cardiac filling or outflow in the presence of adequate myocardial function and circulating volume. Tension pneumothorax produces progressive intrapleural pressure elevation with mediastinal compression and impaired venous return. Cardiac tamponade results from pericardial fluid accumulation restricting ventricular filling, with the relatively non-compliant pericardium limiting accommodation. Massive pulmonary embolism obstructs right ventricular outflow. All three produce venous congestion proximal to the obstruction with consequent jugular venous distension, and shock accompanied by distended neck veins indicates either pump failure or obstruction rather than hypovolaemia. Volume administration does not address the underlying mechanism in any of the three; definitive management is specific to the cause and lies beyond EMT scope, rendering recognition, early advanced life support activation and expedited transport the principal prehospital contributions."
+        },
+        "eli_new": {
+          "analogy": "The pump works and the tank is full. Something has stood on the hose.",
+          "body": "Grouping these three together is worth the effort because they look alike at the bedside and they are all treated by removing the obstruction rather than by adding volume. Full neck veins in a shocked trauma patient should move tension pneumothorax straight to the top of your list."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Name the three causes of obstructive shock and explain what they have in common.",
+          "must_hit": [
+            {
+              "point": "Tension pneumothorax, cardiac tamponade, massive pulmonary embolism",
+              "accept": [
+                "tension",
+                "pneumothorax",
+                "tamponade",
+                "embol"
+              ]
+            },
+            {
+              "point": "Something outside the heart blocks flow",
+              "accept": [
+                "block",
+                "obstruct",
+                "outside",
+                "mechanical",
+                "in the way"
+              ]
+            },
+            {
+              "point": "All produce distended neck veins",
+              "accept": [
+                "neck vein",
+                "jvd",
+                "distend",
+                "back up"
+              ]
+            },
+            {
+              "point": "Fluid is not the treatment",
+              "accept": [
+                "not fluid",
+                "fluid",
+                "does not",
+                "specific treatment"
+              ]
+            }
+          ],
+          "model_answer": "Tension pneumothorax, cardiac tamponade and massive pulmonary embolism. In all three the heart works and the volume is adequate, but something outside the heart is physically blocking flow — air compressing the heart and great vessels, fluid around the heart stopping it filling, or a clot blocking outflow to the lungs. What they have in common at the bedside is that blood cannot get through, so it backs up and the neck veins distend. That is why a shocked patient with full neck veins is either a failed pump or an obstruction, and in a deteriorating chest trauma patient tension pneumothorax goes to the top of the list. None of them is fixed with fluid; your contribution is recognising it, calling for ALS and moving."
+        },
+        "story": {
+          "title": "Getting worse in front of you",
+          "dispatch": "Rescue 6 — assault, stab wound to the left chest, conscious on arrival.",
+          "body": "He was talking when you found him and he was not talking eight minutes later.\n\nHis pressure was dropping, his neck veins were standing out, and the left side of his chest was much quieter than the right.\n\nNothing about him had bled enough to explain it. The blood was fine. The air in his chest was the problem, and it had been building the whole time you were working."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification, findings and management description against the current text. No medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-06",
+      "title": "Assessment findings by stage and by type",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-04-02",
+        "EMT-04-04-03",
+        "EMT-04-04-04",
+        "EMT-04-04-05"
+      ],
+      "related": [
+        "EMT-03-02-05",
+        "EMT-03-05-05"
+      ],
+      "key_points": [
+        "The common thread across all shock is inadequate perfusion; the differences are in the details",
+        "Look at four things together: mental status, skin, pulse and neck veins",
+        "Flat neck veins point to volume loss; distended neck veins point to pump failure or obstruction",
+        "Warm, dry, pink skin with a pulse that is not fast points to neurogenic shock",
+        "Blood pressure is the last thing to change and should never be the trigger for recognition",
+        "Capillary refill and mental status are useful early, especially in children"
+      ],
+      "misconceptions": [
+        "Relying on blood pressure to recognise shock",
+        "Assessing skin without also looking at the neck",
+        "Applying one shock picture to every patient"
+      ],
+      "exam_favorites": [
+        "The four-thing look",
+        "Flat versus distended neck veins",
+        "The neurogenic exception"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Every shock has the same underlying problem and four or five different ways of getting there, so the assessment is a small number of observations read together.\n\nFour things, every time. Mental status: anxious and restless early, confused and drowsy late. Skin: usually cool, pale and clammy, and the exception is worth knowing. Pulse: usually fast and progressively weaker, and again there is an exception. And neck veins, which is the observation most often skipped and the one that sorts the categories.\n\nFlat neck veins mean there is not enough volume to fill them — hypovolaemia. Distended neck veins mean blood is backing up, which is either a pump that has failed or an obstruction in the way. That single look separates the patients for whom fluid helps from the patients for whom it harms.\n\nThe exception to the skin and pulse pattern is neurogenic shock. Warm, dry, pink skin, and a pulse that is normal or slow, in a patient with a spinal injury. If you only ever learn one exception in shock, learn that one, because that patient looks well and is not.\n\nAnd blood pressure sits at the end of all of this, not the beginning. It is the last thing to move, and by the time it moves the useful window has narrowed considerably. In children, who compensate extremely well, it moves even later — which is why mental status and capillary refill carry so much weight in paediatric assessment.",
+          "standard": "Shock states share the common feature of inadequate tissue perfusion while differing in mechanism, and assessment integrates a small number of observations. Mental status progresses from anxiety and restlessness to confusion and reduced responsiveness. Skin is characteristically cool, pale and diaphoretic, with neurogenic shock the notable exception. Pulse is characteristically tachycardic with progressive reduction in quality, again with neurogenic shock excepted. Jugular venous assessment discriminates between categories: flat veins indicate hypovolaemia while distended veins indicate pump failure or obstruction, a distinction determining the appropriateness of volume administration. Blood pressure changes late and should not constitute the trigger for recognition. Pediatric patients compensate efficiently and maintain blood pressure until late decompensation, increasing the relative value of mental status and capillary refill in this population."
+        },
+        "eli_new": {
+          "analogy": "Mental status, skin, pulse, neck. Four looks, and they sort almost every shocked patient into the right box.",
+          "body": "The neck veins are the observation most often skipped, because everything else can be done by touch while you are already holding the wrist. Turning the chin and looking at the neck takes two seconds and changes the treatment."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the four things you look at in a shocked patient and what the neck veins tell you.",
+          "must_hit": [
+            {
+              "point": "Mental status, skin, pulse, neck veins",
+              "accept": [
+                "mental",
+                "skin",
+                "pulse",
+                "neck"
+              ]
+            },
+            {
+              "point": "Flat neck veins mean volume loss",
+              "accept": [
+                "flat",
+                "hypovol",
+                "volume",
+                "empty"
+              ]
+            },
+            {
+              "point": "Distended neck veins mean pump failure or obstruction",
+              "accept": [
+                "distend",
+                "full",
+                "pump",
+                "obstruct"
+              ]
+            },
+            {
+              "point": "Neurogenic is the exception: warm, dry, pink, not fast",
+              "accept": [
+                "neurogenic",
+                "warm",
+                "dry",
+                "pink",
+                "not fast",
+                "slow"
+              ]
+            },
+            {
+              "point": "Blood pressure changes last",
+              "accept": [
+                "blood pressure",
+                "last",
+                "late",
+                "not the trigger"
+              ]
+            }
+          ],
+          "model_answer": "Mental status, skin, pulse and neck veins, read together. Mental status goes from anxious and restless to confused and drowsy. Skin is usually cool, pale and clammy. Pulse is usually fast and progressively weaker. And the neck veins sort the categories: flat means there is not enough volume to fill them, so hypovolaemia; distended means blood is backing up, so either a failed pump or an obstruction — and that one look separates the patients fluid helps from the ones it harms. The exception to the skin and pulse pattern is neurogenic shock, which is warm, dry, pink and not tachycardic in a patient with a spinal injury. Blood pressure is the last thing to move, so it is never what triggers recognition, and in children it moves later still."
+        },
+        "story": {
+          "title": "Turn the chin",
+          "dispatch": "Rescue 6 — training scenario debrief.",
+          "body": "Three crews ran the same shocked-patient scenario and two of them reached for fluid.\n\nThe one that did not had a member who turned the manikin's chin and looked at the neck before anything else, and said out loud: veins are up, this is not volume.\n\nThe debrief was about how long that observation takes. It is about two seconds, and almost nobody does it."
+        },
+        "do": {
+          "activity": "shock_category",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each patient into the category their findings point to.",
+          "config": {
+            "buckets": [
+              "Volume loss",
+              "Pump failure or obstruction",
+              "Neurogenic"
+            ],
+            "items": [
+              {
+                "text": "Fast thready pulse, cool clammy skin, FLAT neck veins after a fall",
+                "bucket": 0
+              },
+              {
+                "text": "Shocked, crackles in the lungs, DISTENDED neck veins after chest pain",
+                "bucket": 1
+              },
+              {
+                "text": "Low pressure, WARM DRY PINK skin, pulse 58, cannot move his legs",
+                "bucket": 2
+              },
+              {
+                "text": "Deteriorating stab wound to the chest, one side quiet, neck veins up",
+                "bucket": 1
+              },
+              {
+                "text": "Prolonged vomiting and diarrhoea, thirsty, tachycardic, flat neck veins",
+                "bucket": 0
+              },
+              {
+                "text": "Diving injury, hypotensive, skin warm and dry, no tachycardia",
+                "bucket": 2
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Mental status",
+            "value": "anxious and restless early, confused and drowsy late",
+            "unit": "",
+            "note": ""
+          },
+          {
+            "label": "Skin",
+            "value": "cool, pale, clammy",
+            "unit": "",
+            "note": "Exception: neurogenic is warm, dry, pink."
+          },
+          {
+            "label": "Pulse",
+            "value": "fast and weakening",
+            "unit": "",
+            "note": "Exception: neurogenic may be normal or slow."
+          },
+          {
+            "label": "FLAT neck veins",
+            "value": "volume loss",
+            "unit": "",
+            "note": "Fluid helps."
+          },
+          {
+            "label": "DISTENDED neck veins",
+            "value": "pump failure or obstruction",
+            "unit": "",
+            "note": "Fluid harms."
+          },
+          {
+            "label": "Blood pressure",
+            "value": "changes LAST",
+            "unit": "",
+            "note": "Never the trigger for recognition. Later still in children."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification, findings and management description against the current text. No medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-07",
+      "title": "EMT management of shock",
+      "domain": "CARD",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-04-06"
+      ],
+      "related": [
+        "EMT-04-04-02",
+        "EMT-04-04-03"
+      ],
+      "key_points": [
+        "Recognise it early, from skin, pulse and mental status rather than from blood pressure",
+        "Control any external bleeding immediately",
+        "Manage airway and breathing, and give oxygen where indicated",
+        "Keep the patient warm — a cold patient clots worse and does worse",
+        "Position per protocol, and let breathing override positioning if the lungs are congested",
+        "Do not give anything by mouth",
+        "Minimise scene time and request ALS early, because the definitive treatment is usually elsewhere",
+        "Reassess frequently, because shock is a moving target"
+      ],
+      "misconceptions": [
+        "Spending time on scene on interventions that do not address the cause",
+        "Allowing a shocked patient to get cold",
+        "Giving a shocked patient something to drink",
+        "Laying a congested cardiogenic patient flat because that is the shock position"
+      ],
+      "exam_favorites": [
+        "Warmth",
+        "Position overridden by breathing",
+        "Minimal scene time"
+      ],
+      "modes": {
+        "read": {
+          "plain": "What an EMT does for shock is short, and most of its value is in doing it early and then moving.\n\nRecognise it. That is the first and largest contribution, and it comes from skin, pulse and mental status, not from a cuff.\n\nControl external bleeding straight away. If blood is leaving the patient and you can stop it, nothing else you do matters as much.\n\nAirway and breathing as always, with oxygen where indicated.\n\nKeep them warm. This is quietly one of the most valuable things on the list and it is the one most often neglected. A cold patient clots badly, and a shocked patient loses heat fast — undressed on a cold surface, often wet, with a body that has shut down its surface circulation. Blankets are treatment, not comfort.\n\nPosition according to your protocol, with one caveat: if the lungs are congested, breathing wins. A cardiogenic patient who cannot lie flat should not be laid flat because a textbook said shock patients go supine.\n\nNothing by mouth, however thirsty they are — and hypovolaemic patients are often extremely thirsty. They may be going to surgery.\n\nRequest ALS early and keep scene time short. Almost every definitive treatment for shock happens somewhere other than where you are standing.\n\nAnd reassess constantly. Shock moves, generally in one direction, and the patient you loaded is not the patient you will hand over.",
+          "standard": "Prehospital management of shock at EMT level comprises early recognition based on cutaneous findings, pulse quality and mental status rather than blood pressure; immediate control of external haemorrhage; airway and ventilatory management with supplemental oxygen where indicated; active prevention of hypothermia, as hypothermia impairs coagulation and shocked patients lose heat rapidly through exposure, moisture and cutaneous vasoconstriction; positioning according to protocol, modified where pulmonary congestion precludes recumbency; withholding of oral intake in anticipation of possible operative management; early advanced life support activation; minimisation of scene time, as definitive management is generally not available prehospitally; and frequent reassessment, as shock states progress."
+        },
+        "eli_new": {
+          "analogy": "Find it early, stop the bleeding, keep them warm, and get out of the driveway.",
+          "body": "The list is short because the honest answer is that almost nothing that fixes shock happens in the back of an ambulance. The things you do control are recognition, bleeding, warmth and time, and time is usually the biggest of them."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "List what an EMT does for a shocked patient and explain why keeping them warm matters.",
+          "must_hit": [
+            {
+              "point": "Recognise early from skin, pulse and mental status",
+              "accept": [
+                "recogni",
+                "early",
+                "skin",
+                "pulse",
+                "mental"
+              ]
+            },
+            {
+              "point": "Control external bleeding",
+              "accept": [
+                "bleed",
+                "hemorrhage",
+                "haemorrhage",
+                "control",
+                "stop"
+              ]
+            },
+            {
+              "point": "Oxygen and airway management",
+              "accept": [
+                "oxygen",
+                "airway",
+                "breath"
+              ]
+            },
+            {
+              "point": "Keep warm, because cold impairs clotting",
+              "accept": [
+                "warm",
+                "blanket",
+                "cold",
+                "clot",
+                "hypotherm"
+              ]
+            },
+            {
+              "point": "Nothing by mouth, minimal scene time, early ALS",
+              "accept": [
+                "nothing by mouth",
+                "npo",
+                "drink",
+                "scene time",
+                "als",
+                "transport"
+              ]
+            }
+          ],
+          "model_answer": "Recognise it early from skin, pulse and mental status rather than waiting for a blood pressure. Control any external bleeding immediately. Manage airway and breathing and give oxygen where indicated. Keep them warm — this is the one most often neglected and it matters because a cold patient clots badly, and a shocked patient loses heat fast when they are undressed, often wet, on a cold surface with their surface circulation shut down, so blankets are treatment rather than comfort. Position per protocol, but let breathing override it if the lungs are congested. Nothing by mouth, however thirsty they are, because they may be going to surgery. Request ALS early, keep scene time short, and reassess constantly, because shock moves."
+        },
+        "story": {
+          "title": "Blankets are treatment",
+          "dispatch": "Rescue 6 — pedestrian struck, wet road, November.",
+          "body": "He had been cut out of his clothes for assessment, which was correct, and then left that way on a board in the rain for six minutes, which was not.\n\nThe officer asked for blankets before she asked for anything else, and somebody looked surprised.\n\nHe was already shocked. Cold was going to make his blood clot worse, and nothing about that was going to show up on a monitor until much later."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Bleeding control and shock management",
+          "steps": [
+            {
+              "text": "Take standard precautions",
+              "critical": true
+            },
+            {
+              "text": "Control external haemorrhage — direct pressure, then tourniquet or packing as indicated",
+              "critical": true,
+              "note": "Nothing else matters as much while blood is leaving the patient."
+            },
+            {
+              "text": "Manage airway and breathing; give oxygen where indicated",
+              "critical": true
+            },
+            {
+              "text": "Recognise shock from skin, pulse and mental status — do not wait for a blood pressure",
+              "critical": true
+            },
+            {
+              "text": "KEEP THE PATIENT WARM",
+              "critical": true,
+              "note": "Most neglected step. Cold impairs clotting."
+            },
+            {
+              "text": "Position per protocol; let breathing override if the lungs are congested",
+              "critical": false
+            },
+            {
+              "text": "Give nothing by mouth",
+              "critical": true
+            },
+            {
+              "text": "Request ALS early and minimise scene time",
+              "critical": true
+            },
+            {
+              "text": "Reassess frequently and document the trend",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the classification, findings and management description against the current text. No medication names or doses are stated here; those are protocol-specific and were deliberately omitted."
     }
   ]
 }
