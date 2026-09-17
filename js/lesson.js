@@ -88,7 +88,14 @@ function readMode(concept, depth) {
        </div>`
     : `<p class="depth-none">Plain English only so far — the standard and deep-dive layers are not written yet.</p>`;
 
-  return `${toggle}<div class="prose">${read[current].split(/\n{2,}/).map(p => `<p>${esc(p)}</p>`).join('')}</div>`;
+  /* A pointer concept is a signpost, not a lesson. The route is rendered as a
+     button so the reader is not left reading "go to the Test Center" with no
+     way to get there. */
+  const pointer = concept.pointer
+    ? `<p class="pointer-go"><a class="cta" href="${esc(concept.pointer)}">Open it</a></p>`
+    : '';
+
+  return `${toggle}<div class="prose">${read[current].split(/\n{2,}/).map(p => `<p>${esc(p)}</p>`).join('')}</div>${pointer}`;
 }
 
 function simpleMode(mode, concept) {

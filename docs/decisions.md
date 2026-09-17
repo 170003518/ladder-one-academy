@@ -424,3 +424,73 @@ and no question bank at all (see the entry above), so it has no quiz pool to
 fill. Writing questions for it would mean testing the reader on advice about
 taking exams rather than on clinical content, which is not what the item asked
 for.
+
+## Batch 4 — the readiness meter gained a fourth component
+
+Batch 4 item 7 required the full simulation and the adaptive mode to be "wired
+into the readiness meter". The meter already had a `simulations` component
+reading `tiers.emt.simulations`, so the full simulation writes straight into it.
+The adaptive run does not fit there: an adaptive test's percentage correct
+converges toward the point where you are half likely to be right, whoever you
+are, so recording it as a score would tell the meter nothing and would drag it
+down for strong candidates.
+
+So the meter now has four components and the weights were rebalanced:
+
+| Component | was | now |
+|---|---|---|
+| Module exams | 50% | 40% |
+| Card retention | 30% | 25% |
+| Full simulations | 20% | 20% |
+| Adaptive estimate | — | 15% |
+
+Two judgement calls inside that:
+
+**The adaptive component uses the most recent run, not the best.** The other
+components are performances, and taking your best of them is fair. An adaptive
+run is a measurement of where you are now, and the best measurement you ever
+produced is not a measurement of anything.
+
+**Ability is mapped so the standard reads 80.** The estimate is on the same 1–5
+scale as question difficulty, with the standard at 3. The other components are
+percentages where the module-exam pass mark is 80, so ability is mapped
+piecewise-linearly to put the cut at 80, the ceiling at 100 and the floor at 0.
+Mapping the cut to 50 — the obvious alternative — would put an at-standard
+candidate halfway down the meter for no reason a reader could follow.
+
+The existing caveat on the readiness screen still applies to all of it: these
+weights are a judgement, not a statistic, and there is no outcome data to fit
+them against.
+
+## Batch 4 — the adaptive engine, and how it was tuned
+
+A one-parameter model: every item is treated as equally discriminating and its
+difficulty is the 1–5 number already on the question. After each answer the
+estimate moves by the surprise, `theta += step * (result - p)`, with the step
+decaying as evidence accumulates so late answers cannot swing it. Precision is
+`1/sqrt(sum of p(1-p))`, and the run stops when the estimate is confidently
+clear of the standard, when it has stopped moving, or at the 60-item cap, with
+a 30-item minimum.
+
+The constants were tuned against synthetic responders driven through the real
+UI, not chosen on paper. The first attempt (step 1.4, 20-item minimum) sent a
+75%-correct responder to the top of the scale in 20 items and gave a 50%
+responder anything from 1.7 to 4.3. The shipped constants (step 0.5 decaying on
+n/4, 30-item minimum, decisions requiring precision as well as a gap) put a 50%
+responder at 2.67–3.33 across four runs, a 25% responder at 1.84, and an
+85% responder at 4.06–4.39.
+
+One honest limitation, stated on the intro screen: the estimate is bounded by
+the difficulty of the questions that exist. A candidate who gets most of the
+hardest items right sits at the top of the scale because there is nothing harder
+to ask them.
+
+## Batch 4 — the `pointer` field on concepts
+
+Module 11's placeholders were required to "link to the Test Center rather than
+lessons". Concept prose is escaped on render, so a link could not live in the
+text, and `related` only takes concept ids. Rather than string-match titles in
+the UI, the concept schema gained an optional `pointer` field holding an in-app
+hash route. `lesson.js` renders it as a button under the read pane and
+`overview.js` renders it beside the concept row. Three concepts use it, all
+pointing at `#/test`.

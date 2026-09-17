@@ -15,6 +15,7 @@ import { renderLadder } from './ladder.js';
 import { renderLesson, markViewed, modesFor } from './lesson.js';
 import * as quiz from './quiz.js';
 import * as exam from './exam.js';
+import * as sim from './simulation.js';
 import { renderPrintCard } from './print.js';
 import { pickDo, resetDo } from './interact.js';
 import * as hear from './hear.js';
@@ -128,6 +129,13 @@ async function loadQuestions(moduleId) {
   return app.questionsByModule[moduleId];
 }
 
+/** Every EMT module's bank, concatenated. The simulation draws across all of them. */
+async function loadAllQuestions(tierKey = 'emt') {
+  const mods = app.modulesByTier[tierKey] || [];
+  const banks = await Promise.all(mods.map(m => loadQuestions(m.id)));
+  return banks.flat();
+}
+
 /** Lazily pull a module's card deck. */
 async function loadDeck(moduleId) {
   if (app.decksByModule[moduleId]) return app.decksByModule[moduleId];
@@ -183,6 +191,10 @@ async function route() {
   // Nothing should keep talking after the view changes.
   hear.abandon();
   if (ctx?.kind === 'deck' && parts[0] !== 'deck') deck.abandon();
+  // A running simulation is dropped the moment you navigate off it. Leaving the
+  // timer running behind another screen would quietly time out a paper nobody
+  // is sitting any more.
+  if (parts[0] !== 'sim') sim.abandon();
 
   if (parts[0] === 'exam' && parts[1]) {
     const mod = findModule(decodeURIComponent(parts[1]));
@@ -191,6 +203,29 @@ async function route() {
     const questions = await loadQuestions(mod.id);
     ctx = { kind: 'exam', module: mod, questions };
     app.el.innerHTML = shell(exam.renderExam(mod, questions));
+    return done();
+  }
+
+  if (parts[0] === 'test') {
+    exam.abandon(); quiz.abandon(); sim.abandon();
+    const mods = app.modulesByTier.emt || [];
+    const banks = await Promise.all(mods.map(m => loadQuestions(m.id)));
+    const counts = {};
+    mods.forEach((m, i) => { counts[m.id] = banks[i].length; });
+    ctx = { kind: 'testcenter', modules: mods, counts };
+    app.el.innerHTML = shell(sim.renderTestCenter(mods, counts));
+    return done();
+  }
+
+  if (parts[0] === 'sim' && (parts[1] === 'full' || parts[1] === 'adaptive')) {
+    exam.abandon(); quiz.abandon();
+    const kind = parts[1];
+    // Leaving a running simulation for the other mode throws it away; coming
+    // back to the same one mid-run keeps it, so a stray re-render is survivable.
+    if (sim.isRunning() && sim.mode() !== kind) sim.abandon();
+    const questions = await loadAllQuestions('emt');
+    ctx = { kind: 'sim', simMode: kind, questions };
+    app.el.innerHTML = shell(sim.renderSim(kind, questions));
     return done();
   }
 
@@ -208,7 +243,7 @@ async function route() {
   }
 
   if (parts[0] === 'readiness') {
-    exam.abandon(); quiz.abandon();
+    exam.abandon(); quiz.abandon(); sim.abandon();
     ctx = { kind: 'readiness' };
     app.el.innerHTML = shell(renderReadiness(app.modulesByTier.emt, app.cardsByTier.emt));
     return done();
@@ -322,6 +357,7 @@ async function route() {
 
   quiz.abandon();
   exam.abandon();
+  sim.abandon();
   ctx = null;
   app.el.innerHTML = shell(renderLadder(progress.load(), {
     modulesByTier: app.modulesByTier,
@@ -346,6 +382,25 @@ function done() {
   window.scrollTo(0, 0);
 }
 
+/* The simulation clock ticks once a second. Re-rendering the whole view that
+   often would be wasteful and would fight the confidence buttons, so only the
+   clock element is touched — unless the run has ended, which only the two-hour
+   limit can do on its own, and that needs the full screen. */
+function simClockText(r) {
+  const sec = r.mode === 'full'
+    ? Math.max(0, Math.floor((r.deadline - Date.now()) / 1000))
+    : r.elapsed;
+  return `${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`;
+}
+
+function onSimTick(r) {
+  if (r.stage !== 'question') return refresh();
+  const el = document.getElementById('sim-clock');
+  if (!el) return;
+  el.textContent = simClockText(r);
+  if (r.mode === 'full' && (r.deadline - Date.now()) <= 5 * 60 * 1000) el.classList.add('is-low');
+}
+
 function examClock() {
   const el = document.getElementById('exam-clock');
   return el ? el.textContent : '';
@@ -355,6 +410,8 @@ function examClock() {
 function refresh() {
   if (!ctx) return route();
   if (ctx.kind === 'exam') { app.el.innerHTML = shell(exam.renderExam(ctx.module, ctx.questions)); return; }
+  if (ctx.kind === 'sim') { app.el.innerHTML = shell(sim.renderSim(ctx.simMode, ctx.questions)); return; }
+  if (ctx.kind === 'testcenter') { app.el.innerHTML = shell(sim.renderTestCenter(ctx.modules, ctx.counts)); return; }
   if (ctx.kind === 'print') return route();
   if (ctx.kind === 'library') { app.el.innerHTML = shell(renderLibrary(app.libraryIndex, ctx)); return; }
   if (ctx.kind === 'readiness') { app.el.innerHTML = shell(renderReadiness(app.modulesByTier.emt, app.cardsByTier.emt)); return; }
@@ -383,6 +440,7 @@ function wire() {
   app.el.addEventListener('click', async ev => {
     const t = ev.target.closest('[data-depth], #mark-viewed, #quiz-start, [data-answer], [data-confidence], #quiz-again, '
       + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print, '
+      + '[data-sim-start], [data-sim-answer], [data-sim-confidence], #sim-review, '
       + '[data-do-pick], #do-reset, #hear-play, #hear-stop, #teach-submit, #teach-again, '
       + '[data-see-zoom], #see-close, [data-sort-item], [data-sort-bucket], [data-sort-unplace], #sort-check, #sort-reset, '
       + '#ws-new, #deck-all, #deck-none, #deck-study, #deck-study-all, #deck-flip, [data-grade], #deck-stop, #deck-back, '
@@ -427,6 +485,16 @@ function wire() {
       return refresh();
     }
 
+    /* --- Full simulation and adaptive practice --- */
+    if (t.dataset.simStart !== undefined) {
+      if (t.dataset.simStart === 'adaptive') sim.startAdaptive(ctx.questions, onSimTick);
+      else sim.startFull(ctx.questions, Number(t.dataset.simStart), onSimTick);
+      return refresh();
+    }
+    if (t.dataset.simAnswer !== undefined) { sim.choose(Number(t.dataset.simAnswer)); return refresh(); }
+    if (t.dataset.simConfidence) { sim.tagAndAdvance(t.dataset.simConfidence); return refresh(); }
+    if (t.id === 'sim-review') { sim.toReview(); return refresh(); }
+
     /* --- Module exam --- */
     if (t.id === 'exam-start') {
       exam.abandon();
@@ -441,9 +509,12 @@ function wire() {
     if (t.dataset.examAnswer !== undefined) { exam.choose(Number(t.dataset.examAnswer)); return refresh(); }
     if (t.dataset.examConfidence) { exam.tagAndAdvance(t.dataset.examConfidence); return refresh(); }
     if (t.id === 'exam-review') { exam.toReview(); return refresh(); }
-    if (t.id === 'review-back') { exam.toResult(); return refresh(); }
-    if (t.id === 'review-prev') { exam.reviewGo(-1); return refresh(); }
-    if (t.id === 'review-next') { exam.reviewGo(1); return refresh(); }
+    // The review nav is shared by the module exam and the simulation; which one
+    // it drives is decided by the view you are in, not by a second set of ids.
+    const reviewer = ctx?.kind === 'sim' ? sim : exam;
+    if (t.id === 'review-back') { reviewer.toResult(); return refresh(); }
+    if (t.id === 'review-prev') { reviewer.reviewGo(-1); return refresh(); }
+    if (t.id === 'review-next') { reviewer.reviewGo(1); return refresh(); }
 
     if (t.id === 'do-print') { window.print(); return; }
 

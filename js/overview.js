@@ -126,6 +126,7 @@ export function renderOverview(mod, questions) {
                   ${done ? '<span class="ov-done">Complete</span>' : ''}
                 </span>
               </a>
+              ${c.pointer ? `<a class="ov-pointer" href="${esc(c.pointer)}">Open →</a>` : ''}
               <span class="dots">${modeDots(c, state, hasQ(id))}</span>
             </li>`;
           }).join('')}

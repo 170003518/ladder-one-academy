@@ -3,9 +3,10 @@
 
    One 0–100 score per tier, built from three components:
 
-     Module exams      50%   best score on each built module's exam, averaged
-     Card retention    30%   proportion of seen cards not currently lapsing
+     Module exams      40%   best score on each built module's exam, averaged
+     Card retention    25%   proportion of seen cards not currently lapsing
      Full simulations  20%   average of the best two full simulations
+     Adaptive estimate 15%   the most recent adaptive run's ability estimate
 
    The weights are a judgement, not a statistic. §3.6 says the meter "turns
    green when you're statistically ready", and there is no statistics here yet —
@@ -24,7 +25,7 @@ import { retention } from './srs.js';
 const esc = s => String(s).replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-export const WEIGHTS = { exams: 0.5, retention: 0.3, simulations: 0.2 };
+export const WEIGHTS = { exams: 0.4, retention: 0.25, simulations: 0.2, adaptive: 0.15 };
 export const READY_AT = 85;           // placeholder threshold — see the note above
 export const DOMAINS = ['AIR', 'CARD', 'TRAU', 'MED', 'OPS'];
 
@@ -44,13 +45,22 @@ export function compute(state, modules, cards, tierKey = 'emt', modulesInTier = 
     .map(s => s.score_pct).sort((a, b) => b - a).slice(0, 2);
   const simulations = sims.length ? sims.reduce((a, b) => a + b, 0) / sims.length : null;
 
+  /* The adaptive component takes the MOST RECENT run, not the best. The others
+     are performances, and taking your best of them is fair. An adaptive run is
+     a measurement of where you are now, and taking the best measurement you
+     ever produced is not a measurement of anything. */
+  const adaptRuns = state.tiers?.[tierKey]?.adaptive || [];
+  const lastAdapt = adaptRuns.length ? adaptRuns[adaptRuns.length - 1] : null;
+  const adaptive = lastAdapt ? lastAdapt.score_pct : null;
+
   /* Components that have no data yet contribute nothing and their weight is
      removed from the denominator, so an early score is not dragged toward zero
      by simulations nobody has sat. */
   const parts = [
     { key: 'exams', value: exams, weight: WEIGHTS.exams },
     { key: 'retention', value: ret, weight: WEIGHTS.retention },
-    { key: 'simulations', value: simulations, weight: WEIGHTS.simulations }
+    { key: 'simulations', value: simulations, weight: WEIGHTS.simulations },
+    { key: 'adaptive', value: adaptive, weight: WEIGHTS.adaptive }
   ];
   const active = parts.filter(p => p.value != null);
   const denom = active.reduce((a, p) => a + p.weight, 0);
@@ -62,7 +72,13 @@ export function compute(state, modules, cards, tierKey = 'emt', modulesInTier = 
     components: {
       exams: { value: exams == null ? null : Math.round(exams), n: examScores.length, of: built, weight: WEIGHTS.exams },
       retention: { value: ret, n: cards.filter(c => state.srs?.[c.id]?.last_result).length, of: cards.length, weight: WEIGHTS.retention },
-      simulations: { value: simulations == null ? null : Math.round(simulations), n: sims.length, of: 2, weight: WEIGHTS.simulations }
+      simulations: { value: simulations == null ? null : Math.round(simulations), n: sims.length, of: 2, weight: WEIGHTS.simulations },
+      adaptive: {
+        value: adaptive == null ? null : Math.round(adaptive),
+        n: adaptRuns.length, of: adaptRuns.length || 1, weight: WEIGHTS.adaptive,
+        theta: lastAdapt ? lastAdapt.theta : null, se: lastAdapt ? lastAdapt.se : null,
+        items: lastAdapt ? lastAdapt.items : null
+      }
     },
     coverage: { built, total: modulesInTier, pct: Math.round((built / modulesInTier) * 100) }
   };
@@ -182,8 +198,15 @@ export function renderReadiness(modules, cards) {
       ${bar(c.retention.value, `Card retention · ${Math.round(c.retention.weight * 100)}%`,
         c.retention.n ? `${c.retention.n} of ${c.retention.of} cards reviewed at least once` : 'no cards reviewed yet')}
       ${bar(c.simulations.value, `Full simulations · ${Math.round(c.simulations.weight * 100)}%`,
-        c.simulations.n ? `best ${c.simulations.n} of 2 counted` : 'no full simulation sat yet — not built')}
+        c.simulations.n ? `best ${c.simulations.n} of 2 counted` : 'no full simulation sat yet')}
+      ${bar(c.adaptive.value, `Adaptive estimate · ${Math.round(c.adaptive.weight * 100)}%`,
+        c.adaptive.n
+          ? `latest of ${c.adaptive.n} run${c.adaptive.n === 1 ? '' : 's'} · ability ${c.adaptive.theta} ± ${c.adaptive.se} over ${c.adaptive.items} items`
+          : 'no adaptive run yet')}
     </div>
+    <p class="meta">Both are sat in the <a href="#/test">Test Center</a>. The adaptive row uses the
+      <b>most recent</b> run rather than the best one, because an ability estimate is a measurement of where you
+      are now — the best measurement you ever produced is not a measurement of anything.</p>
     <p class="meta">A component with no data contributes nothing and its weight is removed from the denominator,
       so the score is not dragged down by a simulation nobody has sat.</p>
 

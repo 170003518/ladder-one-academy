@@ -219,6 +219,8 @@ export function renderLadder(state, { modulesByTier, loadError, cardsByTier = {}
     </div>
     ${banner}
     <p class="ladder-tools">
+      <a href="#/test">Test Center</a> — module exams, the full simulation and adaptive practice.
+      <span class="sep">·</span>
       <a href="#/library">Library</a> — search every concept, card, mnemonic and drug written so far.
     </p>
     <div class="rungs">

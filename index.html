@@ -107,6 +107,23 @@
   .stub h1 { margin-bottom: var(--space-2); }
   .verify-flag { color: var(--signal-yellow); font-size: var(--fs-sm); }
 
+  .pointer-go { margin-top: var(--space-4); }
+  .ov-pointer { font-weight: 600; font-size: var(--fs-sm); white-space: nowrap; }
+
+  /* --- Test Center -------------------------------------------------------- */
+  .ladder-tools .sep { margin: 0 var(--space-2); opacity: 0.6; }
+  .tc-cards { display: grid; gap: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+              margin: var(--space-4) 0 var(--space-5); }
+  .tc-card { display: block; padding: var(--space-4); border: 1px solid var(--border); border-radius: 10px;
+             background: var(--surface-raised); color: inherit; text-decoration: none; }
+  .tc-card:hover { border-color: var(--line-blue); }
+  .tc-card h2 { margin: 0 0 var(--space-2); font-size: var(--fs-md); }
+  .tc-card p { margin: 0 0 var(--space-3); color: var(--text-muted); font-size: var(--fs-sm); }
+  .tc-go { font-weight: 600; color: var(--line-blue); font-size: var(--fs-sm); }
+  .sim-lengths { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-4); }
+  .cta--quiet { background: var(--surface-raised); color: var(--text); box-shadow: none; }
+  .exam-clock.is-low { color: var(--danger, #c0392b); font-weight: 700; }
+
   /* --- Library ----------------------------------------------------------- */
   .ladder-tools { margin: 0 0 var(--space-4); color: var(--text-muted); font-size: var(--fs-sm); }
   .ladder-tools a { font-weight: 600; }
