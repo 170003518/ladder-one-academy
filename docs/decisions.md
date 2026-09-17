@@ -182,3 +182,22 @@
 - **"Study all" is the fallback** for studying ahead of an exam. It ignores the due date but still reschedules every card graded, and the screen says so — a study-ahead session that silently left the schedule untouched would be more surprising than one that moves it.
 - Grades are written the moment they are given, not at the end of a session, so abandoning a session keeps the work already done. Session state itself stays in memory.
 - The grade buttons show where each choice sends the card ("today", "tomorrow", "15 days") before it is pressed.
+
+## 2026-09-17 — Fill standard ventilation and suction values
+
+Values supplied by AJ and filled into the concepts, cards and questions that had been left deliberately blank. Everything stays `verify: true`, and every affected `verify_notes` now says the figure **was supplied from standard curriculum and must still be checked against AAOS Emergency Care 12e and the current AHA guidelines**.
+
+| Value | Where it landed |
+|---|---|
+| Suction max per pass — adult 15 s, child 10 s, infant 5 s | EMT-02-02-06 key points, both Read layers, Teach `must_hit` and model answer, skill-card step, concept card, **new Numbers card** |
+| Infant FBAO — cycles of 5 back slaps then 5 chest thrusts | EMT-02-02-07 key points, both Read layers, Teach, algorithm node, concept and algorithm cards |
+| Respiratory arrest with a pulse — adult 1 breath every 5–6 s, infant/child 1 every 2–3 s | EMT-02-04-02 key points, both Read layers, Teach, Numbers card |
+| Advanced airway during CPR — 1 breath every 6 s, compressions continuous | EMT-02-04-02, same places |
+| CPAP typical start — 5–10 cm H2O per protocol | EMT-02-04-05 key points, both Read layers, Teach, **new Numbers card** |
+
+- **Six new questions** test the supplied figures: adult and infant suction limits, the infant 5-and-5 cycle, the pediatric ventilation interval, the advanced-airway interval, and the CPAP starting pressure. `question_targets` recomputed from the actual bank for the four affected concepts.
+- **Two new Numbers cards** (`EMT-02-02-06-C11` Suction limits, `EMT-02-04-05-C09` CPAP at a glance), so both concepts now declare and supply a numbers card. Deck renumbered by concept order as the policy requires — **61 cards**, and card numbers have moved again.
+- **Still omitted by instruction**: the COPD target saturation range, and all medication names, doses and puff counts. Verified absent by pattern search across all three content files.
+- One incidental fix: EMT-02-05-10's story said a nurse had helped a child with "two puffs". That reads as a dose, so it is now "helped him with it once" — no loss to the narrative.
+- **`accept` keywords must be at least 2 characters.** Adding "5" to two Teach `must_hit` lists failed the schema. Replaced with "5 seconds", "5 back", "5 chest" and "five" — a bare "5" would have matched almost any answer containing a digit anyway, so the constraint was protecting the check as well as the data.
+- **Flowchart alt trimmed 998 → 776 characters**, keeping every box name (ASTHMA, COPD, PULMONARY EDEMA, PNEUMOTHORAX, GETTING WORSE, CHEST SOUNDS CLEAR, PULMONARY EMBOLISM), every branch label, and the named findings. The SVG's own `<desc>` was updated to the identical text — they had been allowed to drift apart when the diagram was first written, and now match exactly.

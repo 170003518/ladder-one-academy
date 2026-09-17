@@ -1713,7 +1713,8 @@
         "Rigid tip for thick material in the mouth; soft flexible catheter for the nose, a stoma, or through an adjunct",
         "Measure insertion depth as you would an OPA, from the corner of the mouth to the earlobe",
         "Insert without suction applied; apply suction only as you withdraw",
-        "Suctioning removes air as well as fluid, so it is time-limited and the patient is reoxygenated afterwards",
+        "Suctioning removes air as well as fluid, so each pass is time-limited: adult no more than 15 seconds, child 10 seconds, infant 5 seconds",
+        "Reoxygenate or ventilate between passes",
         "If the patient vomits, roll them and clear the airway before anything else"
       ],
       "misconceptions": [
@@ -1724,14 +1725,15 @@
       ],
       "exam_favorites": [
         "Suction on withdrawal only",
+        "The 15 / 10 / 5 second limits by age",
         "Rigid versus soft catheter selection",
         "Measuring the depth",
         "That suctioning removes oxygen and is therefore time-limited"
       ],
       "modes": {
         "read": {
-          "plain": "Positioning fixes a tongue. It does nothing about blood, vomit or secretions. For those you need suction.\n\nThere are two tips. The rigid one, sometimes called a tonsil tip or Yankauer, is for the mouth, and it is the one for thick material. The soft flexible catheter is for the nose, a stoma, or for going through an airway adjunct; it is narrow and clogs on anything chunky.\n\nMeasure before you insert, the same way you size an OPA: corner of the mouth to the earlobe. That is as deep as the tip goes.\n\nHere is the part that matters most. Put the tip in with the suction off. Only turn it on as you pull back out, sweeping as you go. Suction on the way in grabs the tissue you are sliding past and does no good at all.\n\nAnd remember what you are removing. Suction takes out air along with the fluid, so you cannot just keep going. Work in limited passes, then put oxygen or ventilation back on, then go again if you need to.\n\nIf the patient vomits, everything stops. Roll them, clear it out, and only then go back to what you were doing.",
-          "standard": "Suctioning removes liquid and semi-solid material from the airway that positioning and adjuncts cannot clear. Rigid pharyngeal (tonsil-tip) catheters are used for the oropharynx and for thick material; soft flexible catheters are used for the nasopharynx, tracheostomy stomas, and passage through an airway adjunct. Insertion depth is estimated externally using the same landmarks as OPA sizing, from the corner of the mouth to the earlobe, and the catheter should not be advanced beyond the measured depth. Suction is applied only during withdrawal, using a sweeping motion; applying suction during insertion causes mucosal trauma without clearing material. Because suctioning evacuates oxygen along with secretions, it is performed in limited passes with reoxygenation or ventilation between attempts. Active vomiting takes precedence over all other airway interventions: the patient is positioned to allow drainage and the airway cleared before ventilation resumes."
+          "plain": "Positioning fixes a tongue. It does nothing about blood, vomit or secretions. For those you need suction.\n\nThere are two tips. The rigid one, sometimes called a tonsil tip or Yankauer, is for the mouth, and it is the one for thick material. The soft flexible catheter is for the nose, a stoma, or for going through an airway adjunct; it is narrow and clogs on anything chunky.\n\nMeasure before you insert, the same way you size an OPA: corner of the mouth to the earlobe. That is as deep as the tip goes.\n\nHere is the part that matters most. Put the tip in with the suction off. Only turn it on as you pull back out, sweeping as you go. Suction on the way in grabs the tissue you are sliding past and does no good at all.\n\nAnd remember what you are removing. Suction takes out air along with the fluid, so you cannot just keep going. Each pass is capped by age: no more than 15 seconds in an adult, 10 in a child, 5 in an infant. Then put oxygen or ventilation back on, and go again if you need to.\n\nIf the patient vomits, everything stops. Roll them, clear it out, and only then go back to what you were doing.",
+          "standard": "Suctioning removes liquid and semi-solid material from the airway that positioning and adjuncts cannot clear. Rigid pharyngeal (tonsil-tip) catheters are used for the oropharynx and for thick material; soft flexible catheters are used for the nasopharynx, tracheostomy stomas, and passage through an airway adjunct. Insertion depth is estimated externally using the same landmarks as OPA sizing, from the corner of the mouth to the earlobe, and the catheter should not be advanced beyond the measured depth. Suction is applied only during withdrawal, using a sweeping motion; applying suction during insertion causes mucosal trauma without clearing material. Because suctioning evacuates oxygen along with secretions, each pass is time-limited by patient age: a maximum of 15 seconds in the adult, 10 seconds in the child and 5 seconds in the infant, with reoxygenation or ventilation between attempts. Active vomiting takes precedence over all other airway interventions: the patient is positioned to allow drainage and the airway cleared before ventilation resumes."
         },
         "eli_new": {
           "analogy": "A straw in a milkshake. You push the straw in quietly, and you only start sucking on the way back out.",
@@ -1777,18 +1779,20 @@
               ]
             },
             {
-              "point": "Limited passes, because suction removes oxygen too",
+              "point": "Limited passes — 15 seconds adult, 10 child, 5 infant — because suction removes oxygen too",
               "accept": [
-                "oxygen",
+                "15",
+                "10",
+                "seconds",
                 "limited",
                 "reoxygenate",
-                "time",
-                "seconds",
-                "pass"
+                "oxygen",
+                "5 seconds",
+                "five"
               ]
             }
           ],
-          "model_answer": "Use the rigid tonsil tip in the mouth, especially for thick material, and the soft flexible catheter for the nose, a stoma, or through an adjunct. Measure the depth against the face just like an OPA, corner of the mouth to the earlobe, and do not go past it. Put the tip in with the suction off and only switch it on as you withdraw, sweeping as you come out. Keep each pass short, because you are pulling out oxygen along with the fluid, and reoxygenate or ventilate between passes. If the patient is actively vomiting, roll them and clear it before anything else."
+          "model_answer": "Use the rigid tonsil tip in the mouth, especially for thick material, and the soft flexible catheter for the nose, a stoma, or through an adjunct. Measure the depth against the face just like an OPA, corner of the mouth to the earlobe, and do not go past it. Put the tip in with the suction off and only switch it on as you withdraw, sweeping as you come out. Cap each pass by age — 15 seconds in an adult, 10 in a child, 5 in an infant — because you are pulling out oxygen along with the fluid, and reoxygenate or ventilate between passes. If the patient is actively vomiting, roll them and clear it before anything else."
         },
         "story": {
           "title": "The sound before the vomit",
@@ -1835,7 +1839,8 @@
       },
       "cards": [
         "concept",
-        "skill"
+        "skill",
+        "numbers"
       ],
       "card_data": {
         "skill": {
@@ -1868,24 +1873,56 @@
               "critical": true
             },
             {
-              "text": "Keep the pass short and reoxygenate or ventilate between passes",
+              "text": "Keep the pass within the time limit: 15 seconds adult, 10 child, 5 infant",
               "critical": true,
-              "note": "Exact time limits: confirm against the current text."
+              "note": "Then reoxygenate or ventilate before the next pass."
             },
             {
               "text": "Repeat as needed and reassess the airway",
               "critical": false
             }
           ]
-        }
+        },
+        "numbers": [
+          {
+            "label": "Adult, maximum per pass",
+            "value": "15",
+            "unit": "seconds",
+            "note": "Reoxygenate between passes."
+          },
+          {
+            "label": "Child, maximum per pass",
+            "value": "10",
+            "unit": "seconds",
+            "note": ""
+          },
+          {
+            "label": "Infant, maximum per pass",
+            "value": "5",
+            "unit": "seconds",
+            "note": ""
+          },
+          {
+            "label": "Insertion depth",
+            "value": "corner of the mouth to the earlobe",
+            "unit": "",
+            "note": "Same landmark as OPA sizing."
+          },
+          {
+            "label": "Suction applied",
+            "value": "on withdrawal only",
+            "unit": "",
+            "note": "In with it off."
+          }
+        ]
       },
       "question_targets": {
-        "recall": 2,
-        "application": 1,
+        "recall": 3,
+        "application": 2,
         "sequence": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the exact maximum suction times the current text gives for adult, child and infant — these differ between texts and editions and have deliberately been left out here. Also confirm the catheter naming and the measurement landmark."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Values for suction times, infant FBAO cycle counts, ventilation rates and CPAP starting pressure were supplied from standard curriculum and MUST still be checked against AAOS Emergency Care 12e and the current AHA guidelines before this is treated as study material."
     },
     {
       "schema_version": "1.0.0",
@@ -1905,7 +1942,7 @@
         "A mild obstruction with good air exchange is left alone to cough; interfering can make it complete",
         "A severe obstruction cannot speak, cough effectively, or move air, and needs immediate intervention",
         "A responsive adult or child over one year gets abdominal thrusts",
-        "A responsive infant under one year gets alternating back slaps and chest thrusts, not abdominal thrusts",
+        "A responsive infant under one year gets repeated cycles of 5 back slaps then 5 chest thrusts, never abdominal thrusts",
         "Chest thrusts replace abdominal thrusts in late pregnancy or a patient too large to encircle",
         "When the patient becomes unresponsive, begin CPR and look in the mouth each time you open the airway",
         "Remove an object only if you can see it; blind finger sweeps are not performed"
@@ -1919,14 +1956,15 @@
       "exam_favorites": [
         "Mild versus severe and what each gets",
         "The age cut-off at one year",
+        "The 5 back slaps then 5 chest thrusts cycle in infants",
         "Chest thrusts in pregnancy or obesity",
         "No blind finger sweeps",
         "What changes the moment the patient becomes unresponsive"
       ],
       "modes": {
         "read": {
-          "plain": "The first decision is not what to do; it is how bad it is. A patient who is coughing hard, wheezing between coughs and moving air has a mild obstruction, and the best thing you can do is stand there and encourage them. Their cough generates more pressure than your hands will.\n\nA severe obstruction looks different. No sound, or a thin high-pitched squeak. Cannot speak. Cannot cough. Maybe clutching the throat. That patient needs you now.\n\nFor a responsive adult or a child over one year, abdominal thrusts. Stand behind, fist above the navel and below the ribs, and thrust inward and upward, repeating until it clears or they go unresponsive.\n\nAn infant under one year is different. Support the head and jaw, face down along your forearm, and deliver back slaps between the shoulder blades, then turn them over and give chest thrusts. Alternate. No abdominal thrusts in an infant.\n\nIf the patient is in late pregnancy or you simply cannot get your arms around them, move your hands to the chest and thrust there instead.\n\nThe moment they go unresponsive, everything changes. Lower them to the floor and start CPR. Every time you open the airway to give breaths, look in the mouth first. If you see the object, take it out. If you do not see it, do not go fishing.",
-          "standard": "Foreign body airway obstruction is classified by the adequacy of air exchange. Mild obstruction, characterized by forceful coughing and audible air movement, is managed by encouraging the patient to continue coughing; intervention risks converting a partial obstruction to a complete one. Severe obstruction is recognized by the inability to speak, cough effectively, or move air, and may be accompanied by high-pitched stridor or the universal choking sign. In the responsive adult or child older than one year, abdominal thrusts are delivered above the umbilicus and below the xiphoid process, directed inward and upward, and repeated until the obstruction is relieved or the patient becomes unresponsive. In the infant under one year, abdominal thrusts are not used; management consists of alternating back slaps delivered between the scapulae with the infant supported prone and head-dependent, and chest thrusts delivered supine. Chest thrusts substitute for abdominal thrusts in late pregnancy or where the rescuer cannot encircle the abdomen. When the patient becomes unresponsive, chest compressions are initiated; the mouth is inspected each time the airway is opened for ventilation and a visualized object removed. Blind finger sweeps are not performed."
+          "plain": "The first decision is not what to do; it is how bad it is. A patient who is coughing hard, wheezing between coughs and moving air has a mild obstruction, and the best thing you can do is stand there and encourage them. Their cough generates more pressure than your hands will.\n\nA severe obstruction looks different. No sound, or a thin high-pitched squeak. Cannot speak. Cannot cough. Maybe clutching the throat. That patient needs you now.\n\nFor a responsive adult or a child over one year, abdominal thrusts. Stand behind, fist above the navel and below the ribs, and thrust inward and upward, repeating until it clears or they go unresponsive.\n\nAn infant under one year is different. Support the head and jaw, face down along your forearm, and deliver 5 back slaps between the shoulder blades. Then turn them over and give 5 chest thrusts. Repeat that cycle — 5 and 5 — until it clears or they go unresponsive. No abdominal thrusts in an infant.\n\nIf the patient is in late pregnancy or you simply cannot get your arms around them, move your hands to the chest and thrust there instead.\n\nThe moment they go unresponsive, everything changes. Lower them to the floor and start CPR. Every time you open the airway to give breaths, look in the mouth first. If you see the object, take it out. If you do not see it, do not go fishing.",
+          "standard": "Foreign body airway obstruction is classified by the adequacy of air exchange. Mild obstruction, characterized by forceful coughing and audible air movement, is managed by encouraging the patient to continue coughing; intervention risks converting a partial obstruction to a complete one. Severe obstruction is recognized by the inability to speak, cough effectively, or move air, and may be accompanied by high-pitched stridor or the universal choking sign. In the responsive adult or child older than one year, abdominal thrusts are delivered above the umbilicus and below the xiphoid process, directed inward and upward, and repeated until the obstruction is relieved or the patient becomes unresponsive. In the infant under one year, abdominal thrusts are not used; management consists of repeated cycles of five back slaps delivered between the scapulae with the infant supported prone and head-dependent, followed by five chest thrusts delivered supine, continued until the obstruction is relieved or the infant becomes unresponsive. Chest thrusts substitute for abdominal thrusts in late pregnancy or where the rescuer cannot encircle the abdomen. When the patient becomes unresponsive, chest compressions are initiated; the mouth is inspected each time the airway is opened for ventilation and a visualized object removed. Blind finger sweeps are not performed."
         },
         "eli_new": {
           "analogy": "A cough is a bigger, better-aimed thrust than anything you can do with your hands. Do not interrupt a working cough.",
@@ -1971,12 +2009,13 @@
               ]
             },
             {
-              "point": "Infants under one get back slaps and chest thrusts",
+              "point": "Infants under one get cycles of 5 back slaps then 5 chest thrusts",
               "accept": [
                 "back slap",
                 "chest thrust",
                 "infant",
-                "under one"
+                "under one",
+                "five"
               ]
             },
             {
@@ -1991,7 +2030,7 @@
               ]
             }
           ],
-          "model_answer": "First decide how bad it is. If they are coughing forcefully and moving air, that is a mild obstruction and your job is to encourage the cough and stay ready. If they cannot speak, cannot cough and are not moving air, that is severe and you act immediately. For a responsive adult or a child over one, abdominal thrusts above the navel and below the ribs, inward and upward, until it clears or they go out. For an infant under one, no abdominal thrusts: support them face down along your forearm for back slaps between the shoulder blades, then turn them for chest thrusts, and alternate. Use chest thrusts instead on a patient in late pregnancy or one you cannot get your arms around. If they become unresponsive, lower them down and start CPR, and each time you open the airway to ventilate, look in the mouth and remove anything you can actually see. Never sweep blindly."
+          "model_answer": "First decide how bad it is. If they are coughing forcefully and moving air, that is a mild obstruction and your job is to encourage the cough and stay ready. If they cannot speak, cannot cough and are not moving air, that is severe and you act immediately. For a responsive adult or a child over one, abdominal thrusts above the navel and below the ribs, inward and upward, until it clears or they go out. For an infant under one, no abdominal thrusts: support them face down along your forearm for 5 back slaps between the shoulder blades, then turn them for 5 chest thrusts, repeating that cycle. Use chest thrusts instead on a patient in late pregnancy or one you cannot get your arms around. If they become unresponsive, lower them down and start CPR, and each time you open the airway to ventilate, look in the mouth and remove anything you can actually see. Never sweep blindly."
         },
         "story": {
           "title": "The quiet table",
@@ -2070,7 +2109,7 @@
             },
             {
               "id": "infant",
-              "text": "Back slaps, then chest thrusts; alternate",
+              "text": "Cycles of 5 back slaps, then 5 chest thrusts",
               "kind": "action"
             },
             {
@@ -2166,13 +2205,13 @@
         }
       },
       "question_targets": {
-        "recall": 2,
+        "recall": 3,
         "application": 1,
         "scenario": 1,
         "sequence": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the landmark wording for abdominal thrusts, the number of back slaps and chest thrusts the current text teaches for infants, and the exact age cut-off and unresponsive-patient sequence against the current AHA guidelines the text is aligned to."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Values for suction times, infant FBAO cycle counts, ventilation rates and CPAP starting pressure were supplied from standard curriculum and MUST still be checked against AAOS Emergency Care 12e and the current AHA guidelines before this is treated as study material."
     },
     {
       "schema_version": "1.0.0",
@@ -3213,26 +3252,29 @@
       ],
       "key_points": [
         "Ventilation rate depends on the patient's age, whether there is a pulse, and whether an advanced airway is in place",
-        "An adult in respiratory arrest with a pulse is ventilated at roughly one breath every 5 to 6 seconds",
-        "Children and infants are ventilated faster than adults, and the exact rate has changed between guideline editions",
+        "Adult in respiratory arrest with a pulse: 1 breath every 5 to 6 seconds",
+        "Infant or child in respiratory arrest with a pulse: 1 breath every 2 to 3 seconds",
+        "During CPR with an advanced airway in place: 1 breath every 6 seconds, without pausing compressions",
         "Ventilating too fast is actively harmful: it inflates the stomach and reduces blood return to the heart",
         "Each breath is delivered over about a second, just until the chest rises"
       ],
       "misconceptions": [
         "Ventilating as fast as adrenaline suggests rather than counting",
-        "Using the same rate for an adult and an infant",
-        "Believing that more ventilation is always better"
+        "Using the adult interval on an infant or child, who need roughly twice as many breaths",
+        "Believing that more ventilation is always better",
+        "Pausing compressions to ventilate once an advanced airway is in place"
       ],
       "exam_favorites": [
-        "The adult rescue-breathing interval",
-        "That pediatric rates are faster",
+        "The adult 5 to 6 second interval",
+        "The pediatric 2 to 3 second interval",
+        "1 every 6 seconds with an advanced airway during CPR",
         "Why hyperventilation is harmful",
         "One second per breath, to chest rise"
       ],
       "modes": {
         "read": {
-          "plain": "Rate matters as much as technique. Too slow and the patient stays hypoxic. Too fast and you actively cause harm, which surprises people.\n\nFor an adult who has a pulse but is not breathing, the commonly taught interval is one breath every 5 to 6 seconds. Say it out loud as you go — squeeze, two, three, four, five.\n\nChildren and infants get ventilated faster than adults, because their normal rates are faster. The exact numbers have been revised between guideline editions, so use the figure your current text and protocol give rather than a number you half-remember.\n\nDeliver each breath over about a second, and only until the chest rises. A fast, hard squeeze forces air past the esophagus into the stomach.\n\nThe reason to care about going too fast is not just gastric distention. Every positive-pressure breath raises the pressure inside the chest, and that pressure works against blood returning to the heart. Ventilate too fast and you can drop the very output you are trying to support.",
-          "standard": "Ventilation rate is determined by patient age, the presence of a pulse, and whether an advanced airway is in place. For the adult in respiratory arrest with a perfusing rhythm, ventilation is commonly taught at approximately one breath every 5 to 6 seconds. Pediatric patients are ventilated at higher rates reflecting their higher baseline respiratory rates; the specific intervals have been revised across guideline editions and must be taken from the current standard rather than recalled. Each ventilation is delivered over approximately one second to visible chest rise. Excessive ventilation rate or volume produces gastric insufflation with attendant regurgitation risk, and raises intrathoracic pressure sufficiently to impede venous return and reduce cardiac output. Hyperventilation is therefore not a benign error."
+          "plain": "Rate matters as much as technique. Too slow and the patient stays hypoxic. Too fast and you actively cause harm, which surprises people.\n\nFor an adult who has a pulse but is not breathing, the commonly taught interval is one breath every 5 to 6 seconds. Say it out loud as you go — squeeze, two, three, four, five.\n\nInfants and children get ventilated faster, because their normal rates are faster: one breath every 2 to 3 seconds. That is roughly twice as many breaths as the adult, and it feels fast if you are used to adults.\n\nThere is a third case. Once an advanced airway is in place during CPR, ventilation stops being tied to compressions altogether: one breath every 6 seconds, delivered without pausing the compressions.\n\nDeliver each breath over about a second, and only until the chest rises. A fast, hard squeeze forces air past the esophagus into the stomach.\n\nThe reason to care about going too fast is not just gastric distention. Every positive-pressure breath raises the pressure inside the chest, and that pressure works against blood returning to the heart. Ventilate too fast and you can drop the very output you are trying to support.",
+          "standard": "Ventilation rate is determined by patient age, the presence of a pulse, and whether an advanced airway is in place. For the adult in respiratory arrest with a perfusing rhythm, ventilation is delivered at one breath every 5 to 6 seconds. Infants and children with a perfusing rhythm are ventilated at one breath every 2 to 3 seconds, reflecting their higher baseline respiratory rate. Where an advanced airway is in place during cardiopulmonary resuscitation, ventilation is delivered at one breath every 6 seconds and is no longer synchronised with compressions, which continue uninterrupted. Each ventilation is delivered over approximately one second to visible chest rise. Excessive ventilation rate or volume produces gastric insufflation with attendant regurgitation risk, and raises intrathoracic pressure sufficiently to impede venous return and reduce cardiac output. Hyperventilation is therefore not a benign error."
         },
         "eli_new": {
           "analogy": "Every squeeze is a small squeeze on the heart as well as the lungs. Do it too often and you strangle the pump you are trying to help.",
@@ -3249,13 +3291,33 @@
           "prompt": "Explain to a new EMT how fast to ventilate an adult who has a pulse but is not breathing, and why going faster is not better.",
           "must_hit": [
             {
-              "point": "About one breath every 5 to 6 seconds for an adult",
+              "point": "Adult: about one breath every 5 to 6 seconds",
               "accept": [
                 "5 to 6",
                 "5-6",
                 "every six",
                 "every 6",
                 "every five"
+              ]
+            },
+            {
+              "point": "Infant or child: one breath every 2 to 3 seconds",
+              "accept": [
+                "2 to 3",
+                "2-3",
+                "every two",
+                "every 2",
+                "every three"
+              ]
+            },
+            {
+              "point": "Advanced airway during CPR: one every 6 seconds, compressions continuous",
+              "accept": [
+                "every 6",
+                "every six",
+                "advanced airway",
+                "without pausing",
+                "continuous"
               ]
             },
             {
@@ -3268,26 +3330,18 @@
               ]
             },
             {
-              "point": "Too fast inflates the stomach",
+              "point": "Too fast inflates the stomach and reduces blood return to the heart",
               "accept": [
                 "stomach",
                 "gastric",
-                "distention",
-                "distension"
-              ]
-            },
-            {
-              "point": "Too fast reduces blood return to the heart",
-              "accept": [
                 "venous return",
                 "blood return",
                 "cardiac output",
-                "pressure in the chest",
                 "intrathoracic"
               ]
             }
           ],
-          "model_answer": "For an adult with a pulse who is not breathing, the commonly taught interval is one breath every 5 to 6 seconds, delivered over about a second, just until the chest rises. Count out loud, because adrenaline makes everyone go faster than they think. Going faster is not better: extra volume and extra rate push air into the stomach, and every positive-pressure breath raises the pressure inside the chest, which works against blood coming back to the heart. Hyperventilating can lower the output you are trying to support. Children and infants are ventilated faster than adults, but take that number from your current text because it has changed between editions."
+          "model_answer": "For an adult with a pulse who is not breathing, one breath every 5 to 6 seconds, delivered over about a second, just until the chest rises. For an infant or child with a pulse, one every 2 to 3 seconds — roughly twice as many, which feels fast if you are used to adults. Once an advanced airway is in during CPR, it is one every 6 seconds and you stop pausing compressions for it. Count out loud, because adrenaline makes everyone go faster than they think. Going faster is not better: extra volume and extra rate push air into the stomach, and every positive-pressure breath raises the pressure inside the chest, which works against blood coming back to the heart, so hyperventilating can lower the output you are trying to support."
         },
         "story": {
           "title": "Counting out loud",
@@ -3305,35 +3359,35 @@
             "label": "Adult, pulse present, not breathing",
             "value": "1 breath every 5 to 6",
             "unit": "seconds",
-            "note": "Confirm against the current text."
+            "note": ""
+          },
+          {
+            "label": "Infant or child, pulse present",
+            "value": "1 breath every 2 to 3",
+            "unit": "seconds",
+            "note": "Roughly twice the adult rate."
+          },
+          {
+            "label": "Advanced airway in place during CPR",
+            "value": "1 breath every 6",
+            "unit": "seconds",
+            "note": "Compressions do not pause."
           },
           {
             "label": "Length of each breath",
             "value": "about 1",
             "unit": "second",
             "note": "Deliver just to visible chest rise."
-          },
-          {
-            "label": "Child and infant rates",
-            "value": "faster than adult",
-            "unit": "",
-            "note": "Exact figures revised between guideline editions — fill from the current source."
-          },
-          {
-            "label": "With an advanced airway in place",
-            "value": "—",
-            "unit": "",
-            "note": "Not stated here; take from the current text and protocol."
           }
         ]
       },
       "question_targets": {
-        "recall": 2,
-        "application": 1,
+        "recall": 3,
+        "application": 2,
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the adult rescue-breathing interval and, critically, the CURRENT pediatric and infant ventilation rates and the rate used with an advanced airway in place — these have changed between guideline editions and are deliberately not stated here."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Values for suction times, infant FBAO cycle counts, ventilation rates and CPAP starting pressure were supplied from standard curriculum and MUST still be checked against AAOS Emergency Care 12e and the current AHA guidelines before this is treated as study material. Ventilation rates in particular have been revised between AHA guideline editions — confirm all three intervals against the edition your course uses."
     },
     {
       "schema_version": "1.0.0",
@@ -3620,6 +3674,7 @@
         "The patient must be awake enough to cooperate, follow instructions and protect their own airway",
         "Contraindicated in respiratory or cardiac arrest, in a patient who cannot protect their airway, and in a patient who is vomiting",
         "Hypotension and suspected pneumothorax are contraindications because the pressure impedes venous return",
+        "Typical starting pressure is 5 to 10 cm H2O, titrated per local protocol",
         "Talk the patient through it: the mask is tight and frightening, and tolerance decides whether it works"
       ],
       "misconceptions": [
@@ -3632,12 +3687,13 @@
         "Awake and breathing on their own is the entry requirement",
         "Arrest and inability to protect the airway are absolute contraindications",
         "Why hypotension matters",
+        "Typical starting pressure 5 to 10 cm H2O per protocol",
         "That coaching determines tolerance"
       ],
       "modes": {
         "read": {
-          "plain": "CPAP is a tight mask that delivers continuous pressure, so the patient is breathing against a constant push. That pressure holds small airways and alveoli open at the end of each breath instead of letting them collapse, and in pulmonary edema it helps push fluid back out of the air spaces.\n\nThe patient has to be doing the breathing. CPAP supports a patient who is working hard and losing; it does not breathe for anyone. Awake, able to follow instructions, able to protect their own airway.\n\nThe classic candidates are heart failure with pulmonary edema, and COPD exacerbations, within your protocol.\n\nThe contraindications follow from the same logic. Respiratory or cardiac arrest means they cannot breathe against it, so they need ventilation instead. A patient who cannot protect their airway, or who is vomiting, will aspirate behind a sealed mask. Low blood pressure is a problem because the pressure in the chest works against blood returning to the heart. Suspected pneumothorax is a problem for obvious reasons.\n\nFinally, the human part. A tight mask blowing air at a frightened, breathless person feels like drowning. Explain it, hold it gently against the face before strapping, and keep talking. Most CPAP failures are tolerance failures.",
-          "standard": "Continuous positive airway pressure (CPAP) delivers a constant positive pressure throughout the respiratory cycle, maintaining alveolar and small-airway patency at end-expiration, increasing functional residual capacity, and in cardiogenic pulmonary edema promoting movement of fluid out of the alveolar space. It is indicated for the spontaneously breathing patient with increased work of breathing and persistent hypoxia, classically in acute decompensated heart failure with pulmonary edema and in COPD exacerbation, subject to local protocol. The patient must be alert enough to cooperate with the mask, follow instruction, and protect the airway. Contraindications include respiratory or cardiac arrest, inadequate spontaneous ventilation, inability to protect the airway, active vomiting, hypotension, and suspected pneumothorax; elevated intrathoracic pressure impedes venous return and may precipitate hemodynamic compromise. Coaching is a determinant of success, as mask intolerance is a common cause of failure."
+          "plain": "CPAP is a tight mask that delivers continuous pressure, so the patient is breathing against a constant push. That pressure holds small airways and alveoli open at the end of each breath instead of letting them collapse, and in pulmonary edema it helps push fluid back out of the air spaces.\n\nThe patient has to be doing the breathing. CPAP supports a patient who is working hard and losing; it does not breathe for anyone. Awake, able to follow instructions, able to protect their own airway.\n\nThe classic candidates are heart failure with pulmonary edema, and COPD exacerbations, within your protocol.\n\nThe contraindications follow from the same logic. Respiratory or cardiac arrest means they cannot breathe against it, so they need ventilation instead. A patient who cannot protect their airway, or who is vomiting, will aspirate behind a sealed mask. Low blood pressure is a problem because the pressure in the chest works against blood returning to the heart. Suspected pneumothorax is a problem for obvious reasons.\n\nStarting pressure is typically 5 to 10 cm H2O, titrated within your protocol. The exact number is a protocol decision, not a textbook constant, so know your service's.\n\nFinally, the human part. A tight mask blowing air at a frightened, breathless person feels like drowning. Explain it, hold it gently against the face before strapping, and keep talking. Most CPAP failures are tolerance failures.",
+          "standard": "Continuous positive airway pressure (CPAP) delivers a constant positive pressure throughout the respiratory cycle, maintaining alveolar and small-airway patency at end-expiration, increasing functional residual capacity, and in cardiogenic pulmonary edema promoting movement of fluid out of the alveolar space. It is indicated for the spontaneously breathing patient with increased work of breathing and persistent hypoxia, classically in acute decompensated heart failure with pulmonary edema and in COPD exacerbation, subject to local protocol. The patient must be alert enough to cooperate with the mask, follow instruction, and protect the airway. Contraindications include respiratory or cardiac arrest, inadequate spontaneous ventilation, inability to protect the airway, active vomiting, hypotension, and suspected pneumothorax; elevated intrathoracic pressure impedes venous return and may precipitate hemodynamic compromise. Typical starting pressures are 5 to 10 cm H2O, titrated in accordance with local protocol. Coaching is a determinant of success, as mask intolerance is a common cause of failure."
         },
         "eli_new": {
           "analogy": "It is a stiff breeze against a door that keeps swinging shut — the door stays open because the pressure never stops.",
@@ -3698,9 +3754,19 @@
                 "pressure",
                 "venous return"
               ]
+            },
+            {
+              "point": "Typical starting pressure 5 to 10 cm H2O per protocol",
+              "accept": [
+                "5 to 10",
+                "5-10",
+                "cm h2o",
+                "cmh2o",
+                "protocol"
+              ]
             }
           ],
-          "model_answer": "CPAP is for an awake patient who is breathing on their own but working hard and staying hypoxic — classically pulmonary edema from heart failure, or a COPD exacerbation, within protocol. They have to be able to cooperate and protect their own airway, because the mask seals tight. You do not use it on someone in arrest or breathing inadequately, because CPAP supports breathing rather than replacing it, and that patient needs ventilation. You do not use it on someone who cannot protect their airway or who is vomiting, because they will aspirate behind the mask. Hypotension rules it out because the pressure in the chest works against blood returning to the heart, and a suspected pneumothorax rules it out too. And you coach them through it — most failures are the patient pulling the mask off."
+          "model_answer": "CPAP is for an awake patient who is breathing on their own but working hard and staying hypoxic — classically pulmonary edema from heart failure, or a COPD exacerbation, within protocol. They have to be able to cooperate and protect their own airway, because the mask seals tight. You do not use it on someone in arrest or breathing inadequately, because CPAP supports breathing rather than replacing it, and that patient needs ventilation. You do not use it on someone who cannot protect their airway or who is vomiting, because they will aspirate behind the mask. Hypotension rules it out because the pressure in the chest works against blood returning to the heart, and a suspected pneumothorax rules it out too. Starting pressure is typically 5 to 10 cm H2O, titrated per your protocol. And you coach them through it — most failures are the patient pulling the mask off."
         },
         "story": {
           "title": "Talk them into it",
@@ -3747,7 +3813,8 @@
       },
       "cards": [
         "concept",
-        "compare"
+        "compare",
+        "numbers"
       ],
       "card_data": {
         "compare": {
@@ -3780,15 +3847,41 @@
           ],
           "left_label": "CPAP",
           "right_label": "Bag-valve-mask"
-        }
+        },
+        "numbers": [
+          {
+            "label": "Typical starting pressure",
+            "value": "5 to 10",
+            "unit": "cm H2O",
+            "note": "Titrated per local protocol; not a textbook constant."
+          },
+          {
+            "label": "Patient must be",
+            "value": "awake, cooperative, breathing on their own",
+            "unit": "",
+            "note": ""
+          },
+          {
+            "label": "Absolute contraindications",
+            "value": "arrest, inadequate breathing, cannot protect airway, vomiting",
+            "unit": "",
+            "note": ""
+          },
+          {
+            "label": "Also contraindicated",
+            "value": "hypotension, suspected pneumothorax",
+            "unit": "",
+            "note": "Pressure impedes venous return."
+          }
+        ]
       },
       "question_targets": {
-        "recall": 2,
+        "recall": 3,
         "application": 1,
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the indication and contraindication lists against the current text AND your local protocol, and note that no pressure settings (cmH2O) are stated here because they are protocol-specific."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Values for suction times, infant FBAO cycle counts, ventilation rates and CPAP starting pressure were supplied from standard curriculum and MUST still be checked against AAOS Emergency Care 12e and the current AHA guidelines before this is treated as study material. CPAP pressures are protocol-specific — confirm the starting pressure and titration range against your own service's protocol."
     },
     {
       "schema_version": "1.0.0",
@@ -4711,7 +4804,7 @@
           "id": "resp_compare_flow",
           "src": "media/emt/02/resp_compare_flow.svg",
           "kind": "diagram",
-          "alt": "A comparison chart for a short-of-breath patient, branching on what is heard in the chest. Wheeze on exhalation leads to asthma, episodic with a known trigger and where a silent chest means worse rather than better, and below it COPD, with a long smoking history, barrel chest and pursed-lip breathing, assessed against the patient's own baseline. Crackles worst at the bases lead to pulmonary edema, a heart problem rather than a lung one, supported by inability to lie flat, pink frothy sputum, distended neck veins and swollen ankles, treated with CPAP per protocol. Quiet breath sounds on one side lead to pneumothorax, sudden, sharp and one-sided, classically in a tall thin young adult, with a dashed warning box below for tension pneumothorax marked by falling blood pressure, raised neck veins and a trachea pushed away. A separate dashed box covers a chest that sounds clear, with sudden onset, sharp pain on inspiration, a fast heart rate and risk factors, pointing to pulmonary embolism.",
+          "alt": "Chart for a short-of-breath patient, branching on what is heard. Wheeze on exhalation: ASTHMA (episodic, reversible; silent chest is worse not better), and below it COPD (smoking history, barrel chest, pursed lips; compare to their baseline; do not withhold oxygen). Crackles worst at the bases: PULMONARY EDEMA, a heart problem not a lung one (cannot lie flat, pink frothy sputum, distended neck veins, swollen ankles; CPAP per protocol). Quiet on one side: PNEUMOTHORAX (sudden, sharp, one-sided; tall, thin, young; no trauma), with a dashed GETTING WORSE box below — falling blood pressure, neck veins up, trachea pushed away — meaning tension, ALS now. A dashed CHEST SOUNDS CLEAR box: sudden onset, sharp on inspiration, fast heart rate, risk factors: PULMONARY EMBOLISM.",
           "caption": "What you hear narrows it down; the history decides it. The two dashed boxes are the ones where the chest can sound deceptively normal.",
           "source": "original",
           "license": "L1A original, drawn for this project",
@@ -5504,7 +5597,7 @@
         "story": {
           "title": "The puff that went nowhere",
           "dispatch": "Rescue 2 — 9-year-old, asthma attack, school nurse's office.",
-          "body": "He has his own inhaler and the nurse has already helped him with two puffs. He is still working hard and you can hear him from across the room.\n\nWatching him try again, you see it: he presses, and breathes in about half a second later. The puff hits the back of his throat and stops there.\n\nThere is a spacer in the side pocket of his bag, unused. With the spacer on, he takes the same medication over four ordinary breaths, and this time you can hear it reach where it was meant to go."
+          "body": "He has his own inhaler and the nurse has already helped him with it once. He is still working hard and you can hear him from across the room.\n\nWatching him try again, you see it: he presses, and breathes in about half a second later. The puff hits the back of his throat and stops there.\n\nThere is a spacer in the side pocket of his bag, unused. With the spacer on, he takes the same medication over four ordinary breaths, and this time you can hear it reach where it was meant to go."
         }
       },
       "cards": [

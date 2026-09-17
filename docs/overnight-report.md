@@ -63,6 +63,11 @@ Everything here was decided without you and logged in `docs/decisions.md` as it 
 
 ## 4. Numbers I deliberately did not write
 
+> **Superseded 17 Sep 2026.** Most of these were supplied and filled in — see `docs/decisions.md`,
+> "Fill standard ventilation and suction values". Still omitted by instruction: the COPD target
+> saturation range, and all medication names, doses and puff counts. The section below is kept as the
+> record of what was missing and why.
+
 You said to omit anything I was not confident was the standard textbook value. These gaps are intentional and each is named in the relevant `verify_notes`.
 
 - **Suction time limits** (adult / child / infant maximum seconds). Texts and editions differ. EMT-02-02-06 teaches "limited passes, reoxygenate between them" and the skill card's step says the seconds must be filled in from the source.
@@ -106,7 +111,7 @@ Specific things to look at first:
 2. **EMT-02-05-07 hyperventilation syndrome** is the highest-risk teaching point I wrote. It is framed as a diagnosis of exclusion with the paper bag explicitly ruled out. Check that framing against your source.
 3. **EMT-02-05-08 epiglottitis** carries a never-examine-the-airway rule. Confirm the wording.
 4. **Cricoid pressure** is taught as historical and "no longer routinely recommended". Confirm your text agrees.
-5. **The `resp_compare_flow.svg` alt text is 998 characters against a 1000 cap.** Any edit to that diagram will overflow the schema. Either keep it short or raise the cap again.
+5. ~~The `resp_compare_flow.svg` alt text is 998 characters against a 1000 cap.~~ Trimmed to 776 on 17 Sep, with every box name, branch label and named finding intact. The SVG's own `<desc>` was updated to match.
 6. **13 `related` links point at concepts in modules that do not exist yet** (Modules 01, 03, 04, 05, 09). Schema-valid forward references; they will resolve as those modules get built.
 7. **Card numbers moved again.** The deck is renumbered on every merge until you freeze it. Do not print a deck and expect the numbers to match later.
 

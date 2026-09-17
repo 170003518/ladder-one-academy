@@ -438,7 +438,7 @@
         "summary": "In quiet, out sucking"
       },
       "back": {
-        "body": "Rigid tonsil tip for the mouth and thick material · Soft catheter for nose, stoma or through an adjunct · Measure corner of mouth to earlobe · Insert with suction OFF · Apply suction only while withdrawing · Limited passes, reoxygenate between them · Vomiting outranks everything else",
+        "body": "Rigid tonsil tip for the mouth and thick material · Soft catheter for nose, stoma or through an adjunct · Measure corner of mouth to earlobe · Insert with suction OFF · Apply suction only while withdrawing · Max per pass: adult 15 s, child 10 s, infant 5 s · Reoxygenate between passes · Vomiting outranks everything else",
         "why_it_matters": "Suctioning on the way in is a critical fail, and bagging through vomit drives it into the lungs."
       },
       "high_yield": true,
@@ -463,8 +463,8 @@
         "summary": "Critical steps and the common fails"
       },
       "back": {
-        "body": "See the skill card steps. Critical: eye protection, confirm suction at the tip, measure the depth, insert with suction off, suction only on withdrawal, reoxygenate between passes.",
-        "why_it_matters": "Exact maximum suction times were deliberately left blank — confirm them against the current text."
+        "body": "See the skill card steps. Critical: eye protection, confirm suction at the tip, measure the depth, insert with suction off, suction only on withdrawal, keep the pass within 15 s adult / 10 s child / 5 s infant, reoxygenate between passes.",
+        "why_it_matters": "Suctioning on the way in and running over the time limit are the two critical fails."
       },
       "high_yield": false,
       "number": 19,
@@ -480,6 +480,31 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-02-06-C11",
+      "concept_id": "EMT-02-02-06",
+      "type": "numbers",
+      "front": {
+        "title": "Suction limits",
+        "summary": "How long, how deep, when the vacuum is on"
+      },
+      "back": {
+        "body": "Adult max 15 s per pass · Child max 10 s · Infant max 5 s · Depth: corner of the mouth to the earlobe · Suction applied on WITHDRAWAL only · Reoxygenate or ventilate between passes",
+        "why_it_matters": "Running over the limit strips oxygen from a patient who had little to spare."
+      },
+      "high_yield": true,
+      "number": 20,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Values supplied from standard curriculum and not yet checked against a source. Confirm against AAOS Emergency Care 12e and the current AHA guidelines before printing or drilling this card."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-02-07-C11",
       "concept_id": "EMT-02-02-07",
       "type": "concept",
@@ -488,11 +513,11 @@
         "summary": "The first decision is how bad it is"
       },
       "back": {
-        "body": "Forceful cough, air moving = MILD: encourage the cough, do not interfere · Cannot speak, cough or move air = SEVERE: act now · Over one year: abdominal thrusts · Under one year: back slaps and chest thrusts · Late pregnancy or too large to encircle: chest thrusts · Unresponsive: CPR, look before breaths, no blind sweeps",
+        "body": "Forceful cough, air moving = MILD: encourage the cough, do not interfere · Cannot speak, cough or move air = SEVERE: act now · Over one year: abdominal thrusts · Under one year: cycles of 5 back slaps then 5 chest thrusts · Late pregnancy or too large to encircle: chest thrusts · Unresponsive: CPR, look before breaths, no blind sweeps",
         "why_it_matters": "Interrupting a working cough can turn a partial obstruction into a complete one."
       },
       "high_yield": true,
-      "number": 20,
+      "number": 21,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -513,11 +538,11 @@
         "summary": "Air moving? Responsive? Under one?"
       },
       "back": {
-        "body": "Moving air and coughing forcefully → encourage the cough. Not moving air → responsive? If yes, under one year gets back slaps and chest thrusts, over one gets abdominal thrusts. If no, start CPR and check the mouth before each set of breaths.",
+        "body": "Moving air and coughing forcefully → encourage the cough. Not moving air → responsive? If yes, under one year gets cycles of 5 back slaps then 5 chest thrusts, over one gets abdominal thrusts. If no, start CPR and check the mouth before each set of breaths.",
         "why_it_matters": "Three questions in order get you to the right action every time."
       },
       "high_yield": false,
-      "number": 21,
+      "number": 22,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -542,7 +567,7 @@
         "why_it_matters": "Landmark errors and continuing thrusts after the patient collapses are the two fails."
       },
       "high_yield": false,
-      "number": 22,
+      "number": 23,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -567,7 +592,7 @@
         "why_it_matters": "The duration calculation and the 200 psi rule are guaranteed exam material and real-world safety."
       },
       "high_yield": true,
-      "number": 23,
+      "number": 24,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -592,7 +617,7 @@
         "why_it_matters": "A sheared valve turns a cylinder into a projectile; a greased fitting can ignite."
       },
       "high_yield": false,
-      "number": 24,
+      "number": 25,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -617,7 +642,7 @@
         "why_it_matters": "Device selection is the single most-tested airway decision at the EMT level."
       },
       "high_yield": true,
-      "number": 25,
+      "number": 26,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -642,7 +667,7 @@
         "why_it_matters": "The most common device you'll use, and the one most often used wrong by cranking the flow."
       },
       "high_yield": false,
-      "number": 26,
+      "number": 27,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -667,7 +692,7 @@
         "why_it_matters": "Skipping the reservoir fill or missing inadequate breathing are the two classic errors."
       },
       "high_yield": true,
-      "number": 27,
+      "number": 28,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -692,7 +717,7 @@
         "why_it_matters": "The device-selection question between NRB and BVM is on every EMT exam."
       },
       "high_yield": true,
-      "number": 28,
+      "number": 29,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -717,7 +742,7 @@
         "why_it_matters": "The exam asks which device gives a precise concentration and what makes a partial rebreather different."
       },
       "high_yield": false,
-      "number": 29,
+      "number": 30,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -742,7 +767,7 @@
         "why_it_matters": "A 99% reading on a fire victim is a trap question and a real-world killer."
       },
       "high_yield": true,
-      "number": 30,
+      "number": 31,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -767,7 +792,7 @@
         "why_it_matters": "The 94% line is where the oxygen decision starts."
       },
       "high_yield": true,
-      "number": 31,
+      "number": 32,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -792,7 +817,7 @@
         "why_it_matters": "Routine 15 L/min for everyone is gone; the exam tests whether you know why and who still gets it."
       },
       "high_yield": true,
-      "number": 32,
+      "number": 33,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -817,7 +842,7 @@
         "why_it_matters": "Reflex 15 L/min for everyone is old practice, and the exam tests whether you know why."
       },
       "high_yield": true,
-      "number": 33,
+      "number": 34,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -842,7 +867,7 @@
         "why_it_matters": "You are pulling the face into the mask, not pressing the mask onto the face."
       },
       "high_yield": true,
-      "number": 34,
+      "number": 35,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -867,7 +892,7 @@
         "why_it_matters": "Sealing before opening the airway and over-squeezing are the two things that fail this station."
       },
       "high_yield": false,
-      "number": 35,
+      "number": 36,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -888,11 +913,11 @@
         "summary": "Slower than your hands want"
       },
       "back": {
-        "body": "Adult with a pulse, not breathing: about 1 breath every 5 to 6 seconds · Each breath over about 1 second, to chest rise · Children and infants are faster — take the number from your current text · Too fast inflates the stomach AND reduces blood return to the heart · Count out loud",
+        "body": "Adult with a pulse, not breathing: 1 breath every 5 to 6 seconds · Infant or child with a pulse: 1 every 2 to 3 seconds · Advanced airway during CPR: 1 every 6 seconds, compressions do not pause · Each breath over about 1 second, to chest rise · Too fast inflates the stomach AND reduces blood return to the heart · Count out loud",
         "why_it_matters": "Hyperventilation is an active harm, not just a wasted effort."
       },
       "high_yield": true,
-      "number": 36,
+      "number": 37,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -913,11 +938,11 @@
         "summary": "The figures, and the ones deliberately left blank"
       },
       "back": {
-        "body": "See the numbers card. Adult rescue breathing 1 every 5 to 6 seconds; each breath about 1 second. Pediatric, infant and advanced-airway rates are NOT filled in — they have changed between guideline editions.",
-        "why_it_matters": "Using a half-remembered pediatric rate is worse than looking it up."
+        "body": "See the numbers card: adult 1 breath every 5 to 6 seconds; infant or child 1 every 2 to 3 seconds; advanced airway during CPR 1 every 6 seconds with continuous compressions; each breath about 1 second to chest rise.",
+        "why_it_matters": "The pediatric interval is roughly twice the adult rate, and using the adult one on a child is the classic error."
       },
       "high_yield": false,
-      "number": 37,
+      "number": 38,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -942,7 +967,7 @@
         "why_it_matters": "The patient is the gauge. How the bag feels tells you nothing about what reached the lungs."
       },
       "high_yield": false,
-      "number": 38,
+      "number": 39,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -967,7 +992,7 @@
         "why_it_matters": "The instinct to squeeze harder is exactly backwards."
       },
       "high_yield": false,
-      "number": 39,
+      "number": 40,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -988,11 +1013,11 @@
         "summary": "Support for a patient who is still breathing"
       },
       "back": {
-        "body": "Holds airways and alveoli open through the whole cycle · For an AWAKE patient breathing on their own, working hard, staying hypoxic · Classic: pulmonary edema, COPD exacerbation (per protocol) · NOT in arrest, inadequate breathing, inability to protect the airway, vomiting, hypotension, suspected pneumothorax · Coach them or they will pull it off",
+        "body": "Holds airways and alveoli open through the whole cycle · For an AWAKE patient breathing on their own, working hard, staying hypoxic · Classic: pulmonary edema, COPD exacerbation (per protocol) · Typical start 5 to 10 cm H2O, titrated per protocol · NOT in arrest, inadequate breathing, inability to protect the airway, vomiting, hypotension, suspected pneumothorax · Coach them or they will pull it off",
         "why_it_matters": "Every contraindication follows from one fact: CPAP supports breathing, it does not replace it."
       },
       "high_yield": true,
-      "number": 40,
+      "number": 41,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1017,7 +1042,7 @@
         "why_it_matters": "Choosing between them is really one question: is the patient still breathing adequately?"
       },
       "high_yield": false,
-      "number": 41,
+      "number": 42,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1027,6 +1052,31 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-04-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-05-C09",
+      "concept_id": "EMT-02-04-05",
+      "type": "numbers",
+      "front": {
+        "title": "CPAP at a glance",
+        "summary": "Pressure, patient, and the absolute no's"
+      },
+      "back": {
+        "body": "Typical start 5 to 10 cm H2O, titrated per protocol · Patient must be awake, cooperative, breathing on their own · NOT in arrest, inadequate breathing, unable to protect the airway, or vomiting · Also not in hypotension or suspected pneumothorax",
+        "why_it_matters": "Every contraindication follows from one fact: CPAP supports breathing, it does not replace it."
+      },
+      "high_yield": true,
+      "number": 43,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Values supplied from standard curriculum and not yet checked against a source. Confirm against AAOS Emergency Care 12e and the current AHA guidelines before printing or drilling this card."
     },
     {
       "schema_version": "1.0.0",
@@ -1042,7 +1092,7 @@
         "why_it_matters": "Timing matters more than force in this one."
       },
       "high_yield": true,
-      "number": 42,
+      "number": 44,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1067,7 +1117,7 @@
         "why_it_matters": "Everything you know about airways assumes the air goes in at the face. This patient is the exception."
       },
       "high_yield": false,
-      "number": 43,
+      "number": 45,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1092,7 +1142,7 @@
         "why_it_matters": "Oximetry lags. Capnography does not — no air moving means no waveform, immediately."
       },
       "high_yield": false,
-      "number": 44,
+      "number": 46,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1117,7 +1167,7 @@
         "why_it_matters": "In arrest, the number often moves before anyone can feel a pulse."
       },
       "high_yield": false,
-      "number": 45,
+      "number": 47,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1142,7 +1192,7 @@
         "why_it_matters": "The quiet chest is the finding that catches people out."
       },
       "high_yield": true,
-      "number": 46,
+      "number": 48,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1167,7 +1217,7 @@
         "why_it_matters": "The question is never whether they are short of breath — it is how today compares with their normal."
       },
       "high_yield": true,
-      "number": 47,
+      "number": 49,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1192,7 +1242,7 @@
         "why_it_matters": "Knowing which is which explains why they breathe the way they do."
       },
       "high_yield": false,
-      "number": 48,
+      "number": 50,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1217,7 +1267,7 @@
         "why_it_matters": "An older patient who is suddenly 'not themselves' may have pneumonia and no fever at all."
       },
       "high_yield": false,
-      "number": 49,
+      "number": 51,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1242,7 +1292,7 @@
         "why_it_matters": "The pillow question is one of the most useful things you can ask."
       },
       "high_yield": true,
-      "number": 50,
+      "number": 52,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1267,7 +1317,7 @@
         "why_it_matters": "Five findings that together separate this from asthma and COPD."
       },
       "high_yield": false,
-      "number": 51,
+      "number": 53,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1292,7 +1342,7 @@
         "why_it_matters": "Clear lungs must not reassure you. The history is what saves the patient."
       },
       "high_yield": true,
-      "number": 52,
+      "number": 54,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1317,7 +1367,7 @@
         "why_it_matters": "Listen at the same level on both sides — the asymmetry is the finding."
       },
       "high_yield": true,
-      "number": 53,
+      "number": 55,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1342,7 +1392,7 @@
         "why_it_matters": "Deciding 'just anxiety' at the front door is how a clot in the lung gets missed."
       },
       "high_yield": true,
-      "number": 54,
+      "number": 56,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1367,7 +1417,7 @@
         "why_it_matters": "Calm is treatment here, not comfort."
       },
       "high_yield": true,
-      "number": 55,
+      "number": 57,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1392,7 +1442,7 @@
         "why_it_matters": "Four questions — how fast, what cough, what voice, are they drooling — separate them."
       },
       "high_yield": false,
-      "number": 56,
+      "number": 58,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1417,7 +1467,7 @@
         "why_it_matters": "By the time someone looks infectious you have already been breathing their air."
       },
       "high_yield": false,
-      "number": 57,
+      "number": 59,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1442,7 +1492,7 @@
         "why_it_matters": "The hardest part of an inhaler is the timing, and the sickest patients are worst at it."
       },
       "high_yield": true,
-      "number": 58,
+      "number": 60,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -1467,7 +1517,7 @@
         "why_it_matters": "Assisting with someone else's medication and not reassessing are the two fails."
       },
       "high_yield": false,
-      "number": 59,
+      "number": 61,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
