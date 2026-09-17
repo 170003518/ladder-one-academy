@@ -1,0 +1,537 @@
+{
+  "schema_version": "1.0.0",
+  "id": "EMT-04",
+  "tier": "emt",
+  "number": 4,
+  "title": "Cardiology & Resuscitation",
+  "short_title": "Cardiology",
+  "domain_weighting": {
+    "CARD": 100
+  },
+  "exam": {
+    "length": 25,
+    "pass_pct": 80,
+    "retake_after_hours": 24
+  },
+  "lessons": [
+    {
+      "id": "EMT-04-01",
+      "title": "Cardiovascular review",
+      "concepts": [
+        "EMT-04-01-01",
+        "EMT-04-01-02",
+        "EMT-04-01-03",
+        "EMT-04-01-04"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-01",
+      "title": "Cardiac anatomy and the path of blood",
+      "domain": "CARD",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-04-01-02",
+        "EMT-04-02-03"
+      ],
+      "key_points": [
+        "Four chambers: right atrium, right ventricle, left atrium, left ventricle",
+        "The right side receives oxygen-poor blood from the body and sends it to the lungs",
+        "The left side receives oxygen-rich blood from the lungs and sends it to the body",
+        "Valves keep blood moving one way only",
+        "The left ventricle is the thickest chamber because it pushes blood to the whole body",
+        "Understanding the path is what makes left-sided and right-sided failure make sense"
+      ],
+      "misconceptions": [
+        "Believing the right side pumps to the body",
+        "Thinking oxygenated and deoxygenated blood mix in a normal heart",
+        "Learning the chambers without learning the direction of flow"
+      ],
+      "exam_favorites": [
+        "The order of the circuit",
+        "Which side goes where",
+        "Why the left ventricle is thickest"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The heart is two pumps in one housing, working side by side, and almost everything in cardiology makes more sense once the path is clear.\n\nBlood coming back from the body is oxygen-poor. It arrives in the right atrium, drops into the right ventricle, and the right ventricle sends it to the lungs. In the lungs it picks up oxygen and gives up carbon dioxide.\n\nIt comes back into the left atrium, drops into the left ventricle, and the left ventricle sends it out to the entire body. Then it starts again.\n\nValves sit between the chambers and at the exits, and their only job is to stop blood going backwards. When they work, the circuit is one-way.\n\nOne piece of anatomy is worth noticing: the left ventricle is considerably thicker than the right. The right only has to push blood to the lungs, which are next door. The left has to push it to your toes and your brain.\n\nHold that circuit in mind and heart failure stops being a list to memorise. If the left side fails, blood backs up behind it into the lungs. If the right side fails, blood backs up behind it into the body. The symptoms follow from the plumbing.",
+          "standard": "The heart comprises four chambers functioning as two pumps in series. Deoxygenated systemic venous blood enters the right atrium, passes into the right ventricle, and is ejected to the pulmonary circulation for gas exchange. Oxygenated blood returns to the left atrium, passes into the left ventricle, and is ejected into the systemic circulation. Atrioventricular and semilunar valves maintain unidirectional flow. The left ventricular myocardium is substantially thicker than the right, reflecting the higher pressure required to perfuse the systemic rather than the pulmonary circulation. Comprehension of this circuit is prerequisite to understanding failure states, as left ventricular failure produces pulmonary congestion and right ventricular failure produces systemic venous congestion."
+        },
+        "eli_new": {
+          "analogy": "Two pumps in one box. The right one delivers next door; the left one delivers to the whole country.",
+          "body": "Memorising four chamber names gets you nothing. Following one drop of blood all the way round the circuit once gets you the whole of heart failure for free."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Trace a drop of blood through the heart and explain why the left ventricle is thickest.",
+          "must_hit": [
+            {
+              "point": "Right atrium to right ventricle to the lungs",
+              "accept": [
+                "right atrium",
+                "right ventricle",
+                "lung",
+                "pulmonary"
+              ]
+            },
+            {
+              "point": "Left atrium to left ventricle to the body",
+              "accept": [
+                "left atrium",
+                "left ventricle",
+                "body",
+                "systemic"
+              ]
+            },
+            {
+              "point": "Valves keep flow one way",
+              "accept": [
+                "valve",
+                "one way",
+                "backward",
+                "unidirection"
+              ]
+            },
+            {
+              "point": "Left ventricle is thickest because it supplies the whole body",
+              "accept": [
+                "thick",
+                "left ventricle",
+                "whole body",
+                "pressure",
+                "further"
+              ]
+            }
+          ],
+          "model_answer": "Oxygen-poor blood comes back from the body into the right atrium, drops into the right ventricle, and is pushed to the lungs, where it picks up oxygen. It returns to the left atrium, drops into the left ventricle, and is pushed out to the whole body. Valves between the chambers and at the exits stop it going backwards, so the circuit is one-way. The left ventricle is much thicker because the right only has to push blood next door to the lungs while the left has to reach your toes and your brain. That circuit is why left-sided failure backs up into the lungs and right-sided failure backs up into the body."
+        },
+        "story": {
+          "title": "Follow the drop",
+          "dispatch": "Training day — cardiology block, station three.",
+          "body": "The class had been naming chambers for twenty minutes and nobody could explain why a patient with heart failure had swollen ankles.\n\nThe instructor drew one circle on the whiteboard and traced a single drop round it with a finger, out loud, twice.\n\nSomebody at the back said: so if the right side fails, it backs up into the body — that is the ankles. That was the whole lesson."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the anatomy, terminology and any figures against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-02",
+      "title": "The electrical conduction system",
+      "domain": "CARD",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-01-01"
+      ],
+      "related": [
+        "EMT-04-03-02",
+        "EMT-04-02-07"
+      ],
+      "key_points": [
+        "The heart generates its own electrical impulses and does not need a nerve from the brain to beat",
+        "The normal impulse starts in the sinoatrial node, the heart's natural pacemaker",
+        "It travels to the atrioventricular node, which briefly delays it so the atria can empty into the ventricles",
+        "From there it spreads down specialised fibres through the ventricles, which contract",
+        "Lower parts of the system can take over at slower rates if the site above them fails",
+        "Electrical activity and mechanical pumping are different things: a rhythm on a monitor does not prove a pulse"
+      ],
+      "misconceptions": [
+        "Assuming a rhythm on the monitor means the heart is pumping",
+        "Believing the heart needs a signal from the brain to beat",
+        "Treating the delay at the AV node as a fault"
+      ],
+      "exam_favorites": [
+        "SA node as pacemaker",
+        "The AV node delay and why it exists",
+        "Electrical activity is not a pulse"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The heart makes its own electricity. Cut every nerve to it and it will keep beating, which is why a transplanted heart works at all.\n\nThe normal impulse starts in the sinoatrial node, up in the right atrium. It is the fastest-firing site, so it sets the pace, and that is why it is called the natural pacemaker. The impulse spreads across both atria and they contract.\n\nThen it reaches the atrioventricular node, which does something that looks like a flaw and is not: it holds the impulse for a moment. That pause is deliberate. It gives the atria time to finish emptying into the ventricles before the ventricles squeeze. Without the delay, all four chambers would contract at once and the pump would be far less efficient.\n\nAfter the delay, the impulse runs down specialised conducting fibres into the ventricles, which contract and eject blood.\n\nIf the sinoatrial node fails, sites further down can take over, each at a slower intrinsic rate than the one above it. The heart has backups, and they are progressively slower.\n\nOne thing to hold firmly: electricity and pumping are separate. A monitor showing an organised rhythm tells you the electrical system is doing something. It does not tell you the muscle is responding. That is why you feel for a pulse, and why a patient can have a perfectly reasonable-looking rhythm on screen and no output at all.",
+          "standard": "The myocardium possesses intrinsic automaticity and generates its own depolarising impulses independent of central nervous system input. The sinoatrial node, possessing the highest intrinsic rate, normally initiates depolarisation and functions as the dominant pacemaker. The impulse propagates across the atria producing atrial contraction, then reaches the atrioventricular node where conduction is briefly delayed, permitting completion of ventricular filling prior to ventricular systole. Conduction then proceeds through specialised ventricular conducting tissue, producing ventricular contraction. Subsidiary pacemaker sites distal to the sinoatrial node possess progressively slower intrinsic rates and assume pacemaker function on failure of more proximal sites. Electrical activity and mechanical contraction are distinct: an organised rhythm on monitoring does not establish the presence of cardiac output, which is why pulse assessment remains necessary."
+        },
+        "eli_new": {
+          "analogy": "The wiring and the plumbing are separate systems. The monitor watches the wiring. Your fingers watch the plumbing.",
+          "body": "The single most important idea here is the last one. Every new provider at some point looks at an organised-looking rhythm on a screen and assumes the patient has a pulse. The screen is showing electricity. Only your fingers can tell you whether the muscle did anything about it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the normal conduction pathway and explain why a rhythm on the monitor does not prove there is a pulse.",
+          "must_hit": [
+            {
+              "point": "SA node is the natural pacemaker",
+              "accept": [
+                "sinoatrial",
+                "sa node",
+                "pacemaker"
+              ]
+            },
+            {
+              "point": "AV node delays the impulse to allow ventricular filling",
+              "accept": [
+                "av node",
+                "atrioventricular",
+                "delay",
+                "fill",
+                "pause"
+              ]
+            },
+            {
+              "point": "Then through the ventricles, which contract",
+              "accept": [
+                "ventric",
+                "contract",
+                "conduct",
+                "fibre",
+                "fiber"
+              ]
+            },
+            {
+              "point": "Electrical activity is not the same as mechanical pumping",
+              "accept": [
+                "electric",
+                "mechanical",
+                "pulse",
+                "not the same",
+                "output"
+              ]
+            }
+          ],
+          "model_answer": "The impulse starts in the sinoatrial node in the right atrium, which fires fastest and so sets the pace — the natural pacemaker. It spreads across the atria, which contract, then reaches the atrioventricular node, which deliberately holds it for a moment so the atria can finish emptying into the ventricles before they squeeze. After that delay it runs down specialised fibres through the ventricles, which contract and eject blood. If the SA node fails, sites below it take over at progressively slower rates. And electricity is not pumping: an organised rhythm on a monitor tells you the wiring is firing, not that the muscle responded, which is why you still put your fingers on a pulse."
+        },
+        "story": {
+          "title": "The screen looked fine",
+          "dispatch": "Rescue 6 — collapse, CPR in progress by bystanders.",
+          "body": "The monitor went on and showed something organised and regular, and the room relaxed for about two seconds.\n\nThe medic did not look at the screen. She had two fingers on his neck and said, keep going.\n\nThere was no pulse. The electricity was running and the muscle was not answering, and the only thing that told anyone was a hand on a neck."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the anatomy, terminology and any figures against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-03",
+      "title": "Cardiac output, stroke volume, preload and afterload",
+      "domain": "CARD",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-01-01"
+      ],
+      "related": [
+        "EMT-04-04-01",
+        "EMT-03-05-01"
+      ],
+      "key_points": [
+        "Cardiac output is how much blood the heart moves in a minute",
+        "Cardiac output equals heart rate multiplied by stroke volume",
+        "Stroke volume is how much blood leaves the ventricle with each beat",
+        "Preload is how full the ventricle is before it contracts",
+        "Afterload is the resistance the ventricle has to push against",
+        "A heart can compensate for falling stroke volume by increasing rate, which is why a fast pulse is an early shock sign",
+        "Compensation has limits: a rate that goes too high leaves too little filling time and output falls"
+      ],
+      "misconceptions": [
+        "Treating a normal heart rate as proof of adequate cardiac output",
+        "Assuming a faster rate always means more output",
+        "Confusing preload with afterload"
+      ],
+      "exam_favorites": [
+        "The output equation",
+        "Preload versus afterload",
+        "Why tachycardia is an early shock sign"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Cardiac output is the amount of blood the heart moves in a minute, and it is the number the whole body actually cares about. It is made of two things multiplied together: how often the heart beats, and how much it ejects each time.\n\nStroke volume is that second part — the volume leaving the ventricle per beat. Two things shape it. Preload is how full the ventricle is when it starts to squeeze: more filling generally means more ejected, within limits. Afterload is what it has to push against: higher resistance means less gets out for the same effort.\n\nThe equation explains a great deal of what you see. A patient losing blood has less coming back to the heart, so preload falls, so stroke volume falls. Output would fall too — except the body speeds the heart up to compensate. That is exactly why tachycardia is one of the earliest signs of shock, and why it appears long before blood pressure moves.\n\nBut compensation has a ceiling. Filling happens between beats, and if the rate climbs high enough there is not enough time between beats to fill. Past that point, going faster produces less output rather than more.\n\nAnd this is why a normal heart rate is not proof of adequate output. Rate is one of two terms in the equation. A normal rate with a tiny stroke volume is still a patient in trouble.",
+          "standard": "Cardiac output is the volume of blood ejected by the heart per minute and is the product of heart rate and stroke volume. Stroke volume is determined principally by preload, the ventricular end-diastolic volume, and afterload, the resistance against which the ventricle ejects. Reduced preload, as occurs in hypovolaemia, reduces stroke volume; compensatory tachycardia maintains cardiac output and accounts for tachycardia being an early manifestation of shock, preceding measurable hypotension. Compensation is limited, as ventricular filling occurs during diastole and excessive heart rate reduces diastolic filling time sufficiently to decrease stroke volume and therefore output. A heart rate within normal limits does not establish adequate cardiac output, as rate constitutes only one determinant."
+        },
+        "eli_new": {
+          "analogy": "Output is how many buckets per minute. Rate is how often you swing; stroke volume is how full the bucket is.",
+          "body": "People fixate on heart rate because it is the number that is easy to get. It is only half of the equation, and a body that is quietly compensating will hold the visible half steady while the invisible half collapses."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain cardiac output and why a fast pulse is an early sign of shock.",
+          "must_hit": [
+            {
+              "point": "Cardiac output = heart rate x stroke volume",
+              "accept": [
+                "heart rate",
+                "stroke volume",
+                "times",
+                "multipl",
+                "output"
+              ]
+            },
+            {
+              "point": "Preload is filling; afterload is resistance",
+              "accept": [
+                "preload",
+                "afterload",
+                "fill",
+                "resistance"
+              ]
+            },
+            {
+              "point": "Falling stroke volume is compensated by a faster rate",
+              "accept": [
+                "compensat",
+                "faster",
+                "tachycard",
+                "maintain"
+              ]
+            },
+            {
+              "point": "Too fast leaves too little filling time",
+              "accept": [
+                "filling time",
+                "too fast",
+                "diastol",
+                "between beats",
+                "ceiling",
+                "limit"
+              ]
+            }
+          ],
+          "model_answer": "Cardiac output is how much blood the heart moves per minute, and it equals heart rate multiplied by stroke volume. Stroke volume is what leaves the ventricle per beat, shaped by preload — how full it is before it squeezes — and afterload, the resistance it pushes against. When a patient loses blood, preload falls and stroke volume falls with it, so the body speeds the heart up to hold output steady. That is why tachycardia is one of the earliest shock signs and shows long before blood pressure moves. But filling happens between beats, so past a certain rate there is not enough time to fill and output starts falling instead. And a normal rate proves nothing on its own, because it is only one of the two terms."
+        },
+        "story": {
+          "title": "Half the equation",
+          "dispatch": "Rescue 6 — 22-year-old female, fainted at work.",
+          "body": "Her heart rate was 118 and the student wrote it down as anxiety, which is a very popular explanation for a fast pulse in a young woman.\n\nThe paramedic asked what the other half of the equation was doing. Skin cool. Pulse thin. Pressure normal, for now.\n\nThe rate was 118 because something had taken the volume away and her body was covering for it."
+        },
+        "do": {
+          "activity": "output_effect",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each change: does it tend to raise or lower cardiac output?",
+          "config": {
+            "buckets": [
+              "Raises output",
+              "Lowers output"
+            ],
+            "items": [
+              {
+                "text": "Significant blood loss reducing preload",
+                "bucket": 1
+              },
+              {
+                "text": "Moderate increase in heart rate with adequate filling time",
+                "bucket": 0
+              },
+              {
+                "text": "Heart rate so fast there is no time to fill between beats",
+                "bucket": 1
+              },
+              {
+                "text": "Stronger ventricular contraction increasing stroke volume",
+                "bucket": 0
+              },
+              {
+                "text": "A sharp rise in the resistance the ventricle pushes against",
+                "bucket": 1
+              },
+              {
+                "text": "Improved venous return after fluid is replaced",
+                "bucket": 0
+              }
+            ]
+          }
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Cardiac output",
+            "value": "heart rate x stroke volume",
+            "unit": "",
+            "note": "The number the body actually cares about."
+          },
+          {
+            "label": "Stroke volume",
+            "value": "volume ejected per beat",
+            "unit": "",
+            "note": "Shaped by preload and afterload."
+          },
+          {
+            "label": "Preload",
+            "value": "how full the ventricle is before it squeezes",
+            "unit": "",
+            "note": "Falls with blood loss."
+          },
+          {
+            "label": "Afterload",
+            "value": "resistance the ventricle pushes against",
+            "unit": "",
+            "note": "Higher resistance, less ejected."
+          },
+          {
+            "label": "Early shock sign",
+            "value": "tachycardia",
+            "unit": "",
+            "note": "Compensating for falling stroke volume, long before BP moves."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the anatomy, terminology and any figures against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-04",
+      "title": "Coronary circulation",
+      "domain": "CARD",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-01-01"
+      ],
+      "related": [
+        "EMT-04-02-01",
+        "EMT-04-01-03"
+      ],
+      "key_points": [
+        "The heart muscle does not take oxygen from the blood inside its chambers; it has its own vessels",
+        "The coronary arteries branch off the aorta immediately as it leaves the left ventricle",
+        "They fill mainly between beats rather than during the squeeze",
+        "A blocked coronary artery starves the muscle downstream of it, which is what a heart attack is",
+        "Which artery is blocked determines which part of the muscle is affected",
+        "Anything that shortens the time between beats reduces coronary filling"
+      ],
+      "misconceptions": [
+        "Thinking the heart is nourished by the blood passing through its chambers",
+        "Assuming coronary arteries fill during contraction",
+        "Treating chest pain as unrelated to coronary flow"
+      ],
+      "exam_favorites": [
+        "Where the coronary arteries arise",
+        "That they fill between beats",
+        "What a blockage causes"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A detail that surprises people: the heart muscle gets no oxygen at all from the blood sitting inside its chambers. It has its own supply, like any other organ.\n\nThe coronary arteries are the very first branches off the aorta, coming off within a centimetre or two of where blood leaves the left ventricle. The heart takes its cut before anybody else does, which tells you something about priority.\n\nThey fill mostly between beats. During contraction the muscle squeezes down on the vessels running through it, so flow is limited; when the muscle relaxes, the vessels open and fill. That has a practical consequence: a very fast heart rate shortens the gaps, and the gaps are when the heart feeds itself.\n\nWhen one of these arteries narrows or blocks, the muscle downstream of the blockage stops getting oxygen. That is what is happening in a heart attack — not the whole heart failing, but the territory supplied by one vessel starving.\n\nWhich vessel is blocked decides which part of the muscle is affected, and that is why not every heart attack looks or behaves the same.",
+          "standard": "Myocardial perfusion is supplied by the coronary arteries rather than by blood within the cardiac chambers. The coronary arteries arise from the aorta immediately distal to the aortic valve, receiving perfusion before the remainder of the systemic circulation. Coronary filling occurs predominantly during diastole, as systolic myocardial contraction compresses intramyocardial vessels and limits flow; tachycardia therefore reduces coronary perfusion time by shortening diastole. Occlusion of a coronary artery produces ischaemia and subsequently infarction of the myocardium supplied distal to the occlusion, constituting myocardial infarction. The distribution of injury, and consequently the clinical and electrocardiographic presentation, is determined by the vessel involved."
+        },
+        "eli_new": {
+          "analogy": "The heart pays itself first, and it collects between beats, not during them.",
+          "body": "The chambers are full of oxygenated blood, so the assumption that the muscle helps itself to it is natural. It does not. The muscle is fed by pipes on the outside, and those pipes fill in the pauses."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how the heart muscle gets its own blood supply and why a very fast heart rate is a problem for it.",
+          "must_hit": [
+            {
+              "point": "Coronary arteries, not blood in the chambers",
+              "accept": [
+                "coronary",
+                "own",
+                "not from the chambers",
+                "arteries"
+              ]
+            },
+            {
+              "point": "They branch off the aorta right after it leaves the left ventricle",
+              "accept": [
+                "aorta",
+                "first",
+                "branch",
+                "left ventricle"
+              ]
+            },
+            {
+              "point": "They fill mainly between beats",
+              "accept": [
+                "between beats",
+                "diastol",
+                "relax",
+                "not during"
+              ]
+            },
+            {
+              "point": "A blockage starves the muscle downstream — a heart attack",
+              "accept": [
+                "block",
+                "occlu",
+                "starve",
+                "infarct",
+                "heart attack",
+                "downstream"
+              ]
+            }
+          ],
+          "model_answer": "The heart muscle takes nothing from the blood inside its chambers — it has its own supply through the coronary arteries, which are the very first branches off the aorta just after blood leaves the left ventricle, so the heart pays itself first. They fill mainly between beats, because during contraction the muscle squeezes the vessels running through it. That means a very fast heart rate shortens the gaps, and the gaps are exactly when the heart feeds itself. If one of those arteries narrows or blocks, the muscle downstream starves, which is what a heart attack is — and which vessel is involved decides which part of the muscle is affected."
+        },
+        "story": {
+          "title": "Between the beats",
+          "dispatch": "Training day — cardiology block, station four.",
+          "body": "Somebody asked why a very fast heart rate was dangerous in a patient with chest pain, given that more beats should mean more blood.\n\nThe instructor said: more beats, yes. Less time between them, though, and that is when the heart drinks.\n\nThe room went quiet for a second and then several people wrote it down."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the anatomy, terminology and any figures against the current text."
+    }
+  ]
+}

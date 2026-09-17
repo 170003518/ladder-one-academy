@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-04",
+  "tier": "emt",
+  "cards": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-01-C01",
+      "concept_id": "EMT-04-01-01",
+      "type": "concept",
+      "front": {
+        "title": "Path of blood",
+        "summary": "Two pumps in one box"
+      },
+      "back": {
+        "body": "Body → RIGHT atrium → right ventricle → LUNGS (picks up oxygen) → LEFT atrium → left ventricle → BODY · Valves keep it one-way · Left ventricle is thickest because it supplies the whole body, not just next door · LEFT fails → backs up into the LUNGS · RIGHT fails → backs up into the BODY (ankles, neck veins)",
+        "why_it_matters": "Follow one drop round the circuit and heart failure stops being a list to memorise."
+      },
+      "high_yield": true,
+      "number": 1,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-01-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-02-C02",
+      "concept_id": "EMT-04-01-02",
+      "type": "concept",
+      "front": {
+        "title": "Conduction system",
+        "summary": "Wiring and plumbing are separate"
+      },
+      "back": {
+        "body": "The heart makes its OWN electricity — no nerve from the brain needed · SA node = natural pacemaker, fires fastest · AV node DELAYS the impulse so the atria can finish emptying · Then down through the ventricles, which contract · Lower sites take over if the one above fails, each SLOWER · A rhythm on the monitor does NOT prove a pulse",
+        "why_it_matters": "The monitor watches the wiring. Your fingers watch the plumbing."
+      },
+      "high_yield": true,
+      "number": 2,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-01-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-03-C03",
+      "concept_id": "EMT-04-01-03",
+      "type": "concept",
+      "front": {
+        "title": "Cardiac output",
+        "summary": "Rate x stroke volume"
+      },
+      "back": {
+        "body": "Cardiac output = HEART RATE x STROKE VOLUME · Stroke volume = what leaves per beat, set by PRELOAD (how full before the squeeze) and AFTERLOAD (what it pushes against) · Blood loss → preload down → stroke volume down → body raises RATE to compensate · That is why TACHYCARDIA is an early shock sign, before BP moves · Too fast = no filling time = output falls",
+        "why_it_matters": "A normal heart rate proves nothing. It is one of two terms."
+      },
+      "high_yield": true,
+      "number": 3,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-01-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-03-C04",
+      "concept_id": "EMT-04-01-03",
+      "type": "numbers",
+      "front": {
+        "title": "Output at a glance",
+        "summary": "The equation and its parts"
+      },
+      "back": {
+        "body": "See the numbers card: output = rate x stroke volume; stroke volume is per-beat ejection; preload is filling; afterload is resistance; tachycardia is the early compensation and appears long before blood pressure changes.",
+        "why_it_matters": "Everything in shock follows from this one equation."
+      },
+      "high_yield": false,
+      "number": 4,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-01-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-04-C05",
+      "concept_id": "EMT-04-01-04",
+      "type": "concept",
+      "front": {
+        "title": "Coronary circulation",
+        "summary": "The heart pays itself first"
+      },
+      "back": {
+        "body": "The muscle gets NOTHING from blood inside the chambers · Coronary arteries are the FIRST branches off the aorta, just past the left ventricle · They fill mainly BETWEEN beats — contraction squeezes them shut · So a very fast rate cuts the heart's own supply · A blockage starves the muscle downstream = heart attack · Which vessel decides which territory",
+        "why_it_matters": "More beats, yes — but less time between them, and that is when the heart drinks."
+      },
+      "high_yield": true,
+      "number": 5,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 4,
+        "module_name": "Cardiology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-04-01-04. Check every figure on this card against the source before it is printed or drilled."
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "EMT-04",
+  "tier": "emt",
+  "questions": [
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-01-Q001",
+      "concept_id": "EMT-04-01-01",
+      "style": "recall",
+      "stem": "Where does the right ventricle send blood?",
+      "options": [
+        {
+          "text": "To the body",
+          "rationale": "That is the left ventricle's job."
+        },
+        {
+          "text": "To the lungs",
+          "rationale": "Correct — the right side supplies the pulmonary circulation."
+        },
+        {
+          "text": "To the left atrium directly",
+          "rationale": "Blood reaches the left atrium via the lungs."
+        },
+        {
+          "text": "To the coronary arteries",
+          "rationale": "The coronary arteries arise from the aorta."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-01-Q002",
+      "concept_id": "EMT-04-01-01",
+      "style": "application",
+      "stem": "Why is the left ventricle thicker than the right?",
+      "options": [
+        {
+          "text": "Because it holds more blood",
+          "rationale": "Wall thickness reflects pressure generated, not volume held."
+        },
+        {
+          "text": "Because it must generate enough pressure to supply the whole body",
+          "rationale": "Correct. Wall thickness tracks the pressure a chamber has to generate."
+        },
+        {
+          "text": "Because it beats more often",
+          "rationale": "Both ventricles beat at the same rate."
+        },
+        {
+          "text": "Because it contains the conduction system",
+          "rationale": "The conduction system runs through both."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-01-Q003",
+      "concept_id": "EMT-04-01-01",
+      "style": "application",
+      "stem": "If the left side of the heart fails, where does blood back up?",
+      "options": [
+        {
+          "text": "Into the lungs",
+          "rationale": "Correct — which is why left-sided failure causes pulmonary congestion."
+        },
+        {
+          "text": "Into the legs and abdomen",
+          "rationale": "That is the pattern of right-sided failure."
+        },
+        {
+          "text": "Into the coronary arteries",
+          "rationale": "Coronary flow is not where backpressure accumulates."
+        },
+        {
+          "text": "Nowhere; failure does not cause backpressure",
+          "rationale": "Backpressure is the mechanism of congestion."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-02-Q001",
+      "concept_id": "EMT-04-01-02",
+      "style": "recall",
+      "stem": "Which structure is the heart's natural pacemaker?",
+      "options": [
+        {
+          "text": "The atrioventricular node",
+          "rationale": "The AV node is a backup site, not the normal pacemaker."
+        },
+        {
+          "text": "The sinoatrial node",
+          "rationale": "Correct — it fires fastest and therefore sets the pace."
+        },
+        {
+          "text": "The left ventricle",
+          "rationale": "The ventricles are not the normal origin of the impulse."
+        },
+        {
+          "text": "The vagus nerve",
+          "rationale": "The vagus influences rate but does not generate the impulse."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-02-Q002",
+      "concept_id": "EMT-04-01-02",
+      "style": "application",
+      "stem": "Why does the atrioventricular node delay the impulse?",
+      "options": [
+        {
+          "text": "To allow the atria to finish emptying into the ventricles",
+          "rationale": "Correct — the pause is deliberate and improves filling."
+        },
+        {
+          "text": "To slow the overall heart rate",
+          "rationale": "Rate is set by the pacemaker site, not by this delay."
+        },
+        {
+          "text": "To protect the conduction fibres",
+          "rationale": "Protection is not the purpose of the delay."
+        },
+        {
+          "text": "It is a fault that occurs with age",
+          "rationale": "The delay is a normal design feature."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-02-Q003",
+      "concept_id": "EMT-04-01-02",
+      "style": "application",
+      "stem": "A monitor shows an organised rhythm. What does this establish?",
+      "options": [
+        {
+          "text": "That the patient has a pulse",
+          "rationale": "Electrical activity does not establish mechanical output."
+        },
+        {
+          "text": "That the electrical system is producing impulses, nothing more",
+          "rationale": "Correct — you still check a pulse."
+        },
+        {
+          "text": "That cardiac output is adequate",
+          "rationale": "Output cannot be inferred from the tracing."
+        },
+        {
+          "text": "That CPR can be stopped",
+          "rationale": "Stopping compressions on a rhythm alone would be an error."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-03-Q001",
+      "concept_id": "EMT-04-01-03",
+      "style": "recall",
+      "stem": "What is cardiac output?",
+      "options": [
+        {
+          "text": "Heart rate multiplied by stroke volume",
+          "rationale": "Correct — the volume moved per minute."
+        },
+        {
+          "text": "Stroke volume divided by heart rate",
+          "rationale": "That is not the relationship."
+        },
+        {
+          "text": "The pressure in the aorta",
+          "rationale": "That is blood pressure, a different quantity."
+        },
+        {
+          "text": "The volume of the left ventricle",
+          "rationale": "Chamber volume is not output."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-03-Q002",
+      "concept_id": "EMT-04-01-03",
+      "style": "recall",
+      "stem": "What does preload describe?",
+      "options": [
+        {
+          "text": "The resistance the ventricle pushes against",
+          "rationale": "That is afterload."
+        },
+        {
+          "text": "How full the ventricle is before it contracts",
+          "rationale": "Correct. Preload is the filling; afterload is the resistance."
+        },
+        {
+          "text": "The thickness of the ventricular wall",
+          "rationale": "Wall thickness is a structural property."
+        },
+        {
+          "text": "The rate at which the ventricle contracts",
+          "rationale": "Rate is a separate variable."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-03-Q003",
+      "concept_id": "EMT-04-01-03",
+      "style": "application",
+      "stem": "Why is tachycardia an early sign of shock?",
+      "options": [
+        {
+          "text": "Because the heart is inflamed",
+          "rationale": "Inflammation is not the mechanism."
+        },
+        {
+          "text": "Because the body raises rate to maintain output as stroke volume falls",
+          "rationale": "Correct — and it does so long before blood pressure moves."
+        },
+        {
+          "text": "Because pain always raises heart rate",
+          "rationale": "Pain can, but that is not the shock mechanism."
+        },
+        {
+          "text": "Because blood pressure has already fallen",
+          "rationale": "Blood pressure typically has not fallen yet at this stage."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-03-Q004",
+      "concept_id": "EMT-04-01-03",
+      "style": "application",
+      "stem": "Why does a very high heart rate eventually reduce cardiac output?",
+      "options": [
+        {
+          "text": "Because the heart muscle tires immediately",
+          "rationale": "Fatigue is not the described mechanism."
+        },
+        {
+          "text": "Because there is too little time between beats for the ventricle to fill",
+          "rationale": "Correct — filling happens in the gaps."
+        },
+        {
+          "text": "Because the valves stop working above a certain rate",
+          "rationale": "Valve failure is not the mechanism."
+        },
+        {
+          "text": "Because afterload falls to zero",
+          "rationale": "Afterload does not fall to zero."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-04-Q001",
+      "concept_id": "EMT-04-01-04",
+      "style": "recall",
+      "stem": "Where do the coronary arteries arise?",
+      "options": [
+        {
+          "text": "From the pulmonary artery",
+          "rationale": "They arise from the aorta, not the pulmonary artery."
+        },
+        {
+          "text": "From the aorta, immediately after it leaves the left ventricle",
+          "rationale": "Correct — the heart takes its supply first."
+        },
+        {
+          "text": "From the right atrium",
+          "rationale": "Arteries do not arise from an atrium."
+        },
+        {
+          "text": "From the inferior vena cava",
+          "rationale": "That is a vein returning blood to the heart."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-04-Q002",
+      "concept_id": "EMT-04-01-04",
+      "style": "application",
+      "stem": "When do the coronary arteries fill?",
+      "options": [
+        {
+          "text": "During contraction, when pressure is highest",
+          "rationale": "Contraction compresses the vessels and limits flow."
+        },
+        {
+          "text": "Mainly between beats, when the muscle relaxes",
+          "rationale": "Correct — which is why tachycardia reduces coronary filling time."
+        },
+        {
+          "text": "Continuously and equally throughout the cycle",
+          "rationale": "Flow is not equal across the cycle."
+        },
+        {
+          "text": "Only during deep inspiration",
+          "rationale": "Respiration is not what drives coronary filling."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-04-Q003",
+      "concept_id": "EMT-04-01-04",
+      "style": "application",
+      "stem": "What happens when a coronary artery becomes blocked?",
+      "options": [
+        {
+          "text": "The whole heart stops immediately",
+          "rationale": "A blockage affects a territory, not necessarily the whole heart at once."
+        },
+        {
+          "text": "The muscle downstream of the blockage is starved of oxygen",
+          "rationale": "Correct — that is a myocardial infarction."
+        },
+        {
+          "text": "Blood is rerouted through the chambers",
+          "rationale": "The chambers do not supply the muscle."
+        },
+        {
+          "text": "The conduction system takes over the blood supply",
+          "rationale": "Conduction tissue does not supply blood."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    }
+  ]
+}
