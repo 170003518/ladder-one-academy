@@ -59,6 +59,20 @@
         "EMT-03-04-04",
         "EMT-03-04-05"
       ]
+    },
+    {
+      "id": "EMT-03-05",
+      "title": "Vital signs",
+      "concepts": [
+        "EMT-03-05-01",
+        "EMT-03-05-02",
+        "EMT-03-05-03",
+        "EMT-03-05-04",
+        "EMT-03-05-05",
+        "EMT-03-05-06",
+        "EMT-03-05-07",
+        "EMT-03-05-08"
+      ]
     }
   ],
   "concepts": [
@@ -2748,6 +2762,936 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the sequence and the findings list the current text gives for this examination."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-01",
+      "title": "Pulse: rate, rhythm and quality",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-03-02-05",
+        "EMT-03-05-03"
+      ],
+      "key_points": [
+        "Three things every time: rate, rhythm and quality — a number alone is not a pulse assessment",
+        "Normal adult resting rate is 60 to 100 beats per minute",
+        "Rates are faster in children and faster still in infants, falling toward adult values with age",
+        "Rhythm is regular or irregular",
+        "Quality is strong, weak or thready — a thready pulse is a perfusion finding",
+        "Radial in a responsive patient, carotid in an unresponsive adult, brachial in an infant",
+        "A weak fast pulse with cool skin is a compensating patient, whatever the number says"
+      ],
+      "misconceptions": [
+        "Recording a rate and calling that the pulse",
+        "Using a carotid pulse routinely in a conscious patient",
+        "Treating a normal rate as reassurance when the pulse is thready"
+      ],
+      "exam_favorites": [
+        "Rate, rhythm and quality together",
+        "Adult normal range",
+        "Site by age and responsiveness"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A pulse is three findings, not one. Rate, rhythm and quality — and the two that get skipped are the two that carry the most information.\n\nRate in a resting adult is normally 60 to 100. Children run faster, and infants faster again, with rates falling toward adult values as they grow. Take the exact pediatric bands from your text, because they differ between editions.\n\nRhythm is simply whether the beats are evenly spaced. Irregular is a finding worth reporting even when everything else looks fine.\n\nQuality is what your fingers feel. Strong and full, or weak, or thready — thin and difficult to find. A thready pulse says the volume behind each beat is small, and that is a perfusion statement that a number cannot make.\n\nWhere you feel depends on the patient. Radial in a responsive adult. Carotid in an unresponsive adult, because peripheral pulses disappear early when perfusion falls. Brachial in an infant.\n\nAnd put the three together. A pulse of 104 means very little on its own. A pulse of 104 that is thready, in a patient whose skin is cool and damp, is a patient compensating for something.",
+          "standard": "Pulse assessment comprises rate, rhythm and quality. Normal resting adult rate is 60 to 100 beats per minute; pediatric rates are higher and decline toward adult values with increasing age, with specific age-band ranges varying between texts. Rhythm is characterised as regular or irregular. Quality is described as strong, weak or thready and reflects stroke volume and perfusion status. Assessment site is determined by age and responsiveness: radial in the responsive adult, carotid in the unresponsive adult owing to early loss of peripheral pulses in hypoperfusion, and brachial in the infant. Interpretation requires integration of all three components with other perfusion findings, as rate alone is a poor discriminator."
+        },
+        "eli_new": {
+          "analogy": "A number tells you how often the pump is working. Quality tells you how much is coming out each time.",
+          "body": "New EMTs count and write the number down. The number is the least informative of the three findings. Whether each beat feels strong or barely there is what tells you how the patient is doing."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the three components of a pulse assessment and why the number alone is not enough.",
+          "must_hit": [
+            {
+              "point": "Rate, rhythm and quality",
+              "accept": [
+                "rate",
+                "rhythm",
+                "quality"
+              ]
+            },
+            {
+              "point": "Normal adult 60 to 100",
+              "accept": [
+                "60",
+                "100",
+                "60 to 100"
+              ]
+            },
+            {
+              "point": "Site: radial responsive, carotid unresponsive, brachial infant",
+              "accept": [
+                "radial",
+                "carotid",
+                "brachial"
+              ]
+            },
+            {
+              "point": "A thready pulse is a perfusion finding",
+              "accept": [
+                "thready",
+                "weak",
+                "perfusion",
+                "volume",
+                "compensat"
+              ]
+            }
+          ],
+          "model_answer": "Rate, rhythm and quality, every time. Normal resting adult rate is 60 to 100; children are faster and infants faster still, falling toward adult values with age. Rhythm is just whether the beats are evenly spaced, and irregular is worth reporting. Quality is what your fingers feel — strong, weak, or thready — and a thready pulse says there is little volume behind each beat, which is a perfusion statement a number cannot make. Radial in a responsive adult, carotid in an unresponsive one because peripheral pulses go early, brachial in an infant. A rate of 104 means little; 104 and thready with cool damp skin is a compensating patient."
+        },
+        "story": {
+          "title": "A hundred and four",
+          "dispatch": "Rescue 4 — 26-year-old female, abdominal pain.",
+          "body": "Her pulse was 104, which the student wrote down and moved past because it was only just outside the range.\n\nThe paramedic put two fingers on the same wrist and said one word: thready.\n\nIt was the quality, not the rate, that made her a different patient. The number had been almost normal right up until it was not."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-02",
+      "title": "Respirations: rate and quality",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-05-01"
+      ],
+      "related": [
+        "EMT-02-01-05",
+        "EMT-03-02-04"
+      ],
+      "key_points": [
+        "Rate and quality together, the same way a pulse needs more than a number",
+        "Normal adult resting rate is 12 to 20 breaths per minute",
+        "Children breathe faster, infants faster still, falling toward adult values with age",
+        "Quality covers depth, effort and sound: normal, shallow, laboured, noisy",
+        "Count without telling the patient you are counting, because being watched changes the rate",
+        "A rate inside the normal range with shallow depth and heavy effort is not a normal respiratory assessment"
+      ],
+      "misconceptions": [
+        "Counting a rate and recording nothing about quality",
+        "Announcing that you are counting respirations",
+        "Treating a normal rate as a normal respiratory status"
+      ],
+      "exam_favorites": [
+        "Adult normal range",
+        "Rate plus quality",
+        "Counting without announcing it"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Respirations are assessed the same way as a pulse: a number plus a description, and the description is where the information lives.\n\nA resting adult normally breathes 12 to 20 times a minute. Children are faster and infants faster again, falling toward adult figures as they grow; take the exact bands from your text.\n\nQuality means depth, effort and sound. Is the chest moving normally or barely? Are they using muscles they should not need? Is there a noise — wheeze, stridor, gurgling, snoring?\n\nThere is a practical trick that matters. Breathing is partly voluntary, so a patient who knows you are counting will change what they are doing without meaning to. Count while appearing to do something else — keep your fingers on their wrist after you have finished taking the pulse and watch the chest.\n\nAnd resist the reassurance of a normal number. Sixteen shallow, laboured breaths a minute is not a normal respiratory assessment. It is a patient working hard at a rate that happens to look fine on paper.",
+          "standard": "Respiratory assessment comprises rate and quality. Normal resting adult rate is 12 to 20 breaths per minute; pediatric rates are higher and decline toward adult values with age, with age-band ranges varying between texts. Quality encompasses depth, work of breathing and audible sounds including wheeze, stridor, gurgling and snoring. Because respiration is under partial voluntary control, patient awareness of assessment alters the observed rate; counting is therefore performed unobtrusively, conventionally while maintaining the appearance of pulse assessment. A rate within the normal range does not establish adequate ventilation, as reduced tidal volume and increased work of breathing may coexist with a normal rate."
+        },
+        "eli_new": {
+          "analogy": "Ask someone to breathe normally and they immediately cannot. Count them while they think you are still on the wrist.",
+          "body": "The rate is the part that is easy to write in a box, so it gets all the attention. Depth and effort decide whether the patient is actually ventilating, and neither of them has a number."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how you assess respirations and why you do not tell the patient you are counting.",
+          "must_hit": [
+            {
+              "point": "Rate and quality together",
+              "accept": [
+                "rate",
+                "quality",
+                "depth",
+                "effort"
+              ]
+            },
+            {
+              "point": "Normal adult 12 to 20",
+              "accept": [
+                "12",
+                "20",
+                "12 to 20"
+              ]
+            },
+            {
+              "point": "Counting is done unobtrusively because breathing is partly voluntary",
+              "accept": [
+                "voluntar",
+                "unobtrusive",
+                "without telling",
+                "wrist",
+                "change",
+                "aware"
+              ]
+            },
+            {
+              "point": "A normal rate with shallow effortful breathing is not normal",
+              "accept": [
+                "shallow",
+                "labour",
+                "labor",
+                "effort",
+                "not normal",
+                "still"
+              ]
+            }
+          ],
+          "model_answer": "Rate and quality together. A resting adult is normally 12 to 20; children are faster and infants faster still, falling toward adult values with age. Quality means depth, effort and sound — is the chest really moving, are they using accessory muscles, is there a wheeze or a gurgle. You count without announcing it, usually by keeping your fingers on the wrist after the pulse, because breathing is partly voluntary and a patient who knows you are watching changes what they do. And a normal number is not a normal assessment: sixteen shallow laboured breaths a minute is a patient working hard at a rate that only looks fine on paper."
+        },
+        "story": {
+          "title": "Breathe normally",
+          "dispatch": "Rescue 4 — 19-year-old male, chest tightness.",
+          "body": "The student told him he was going to count his breathing, and asked him to breathe normally.\n\nHe immediately could not. The next thirty seconds were the least natural breathing anyone in that room had ever done.\n\nThe paramedic took the wrist again, said nothing, looked at the chest, and got a completely different number."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-03",
+      "title": "Blood pressure by auscultation and palpation",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-05-01"
+      ],
+      "related": [
+        "EMT-03-02-05",
+        "EMT-03-06-02"
+      ],
+      "key_points": [
+        "Systolic is the pressure while the heart contracts; diastolic is the pressure between contractions",
+        "Auscultation gives both numbers; palpation gives a systolic only, recorded as systolic over P",
+        "Palpation is used where noise or movement makes auscultation impossible",
+        "Cuff size matters: a cuff that is too small reads falsely high and one too large reads falsely low",
+        "Normal adult systolic is commonly quoted as roughly 90 to 140 mmHg",
+        "A useful minimum systolic for a child aged 1 to 10 is 70 plus twice the age in years",
+        "Blood pressure is a late sign; it holds until compensation fails"
+      ],
+      "misconceptions": [
+        "Using an adult cuff on a child or a small adult",
+        "Treating a normal blood pressure as evidence that perfusion is fine",
+        "Recording a palpated pressure as though both numbers were obtained"
+      ],
+      "exam_favorites": [
+        "Auscultation versus palpation",
+        "Cuff size errors",
+        "70 plus twice the age",
+        "That blood pressure is a late sign"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Blood pressure is two numbers. Systolic is the pressure in the arteries while the heart is squeezing; diastolic is what remains between beats.\n\nAuscultation — listening with a stethoscope while letting the cuff down — gives you both. Palpation gives you only a systolic: you feel for the radial pulse returning as the cuff deflates, and you record it as a number over P. You use palpation when the back of a moving ambulance or a noisy scene makes listening impossible, and it is a perfectly legitimate measurement, just an incomplete one.\n\nCuff size is the error that produces most of the bad readings you will see. Too small a cuff reads falsely high, too large reads falsely low. An adult cuff on a child gives you a number that is confidently wrong, which is worse than no number.\n\nNormal adult systolic is commonly quoted around 90 to 140. For children between one and ten, a widely taught minimum acceptable systolic is 70 plus twice the age in years.\n\nAnd the most important thing about blood pressure is what it is not. It is a late sign. A young patient will hold a normal pressure while losing a great deal of blood, right up until they cannot, and then it falls quickly. Skin, pulse quality and mental status all move earlier.",
+          "standard": "Blood pressure comprises systolic pressure during ventricular contraction and diastolic pressure between contractions. Auscultation yields both values; palpation yields systolic pressure only, documented as systolic over P, and is indicated where ambient noise or motion precludes auscultation. Cuff selection materially affects accuracy: an undersized cuff produces falsely elevated readings and an oversized cuff falsely reduced readings. Normal adult systolic pressure is commonly cited as approximately 90 to 140 mmHg. A widely taught minimum acceptable systolic pressure for children aged one to ten years is 70 plus twice the age in years. Blood pressure is a late indicator of hypoperfusion, being maintained by compensatory mechanisms until those mechanisms fail, at which point decline may be rapid; cutaneous findings, pulse quality and mental status change earlier."
+        },
+        "eli_new": {
+          "analogy": "Blood pressure is the last domino. By the time it falls, the others already have.",
+          "body": "A normal blood pressure feels like permission to relax. It is not. The body defends blood pressure harder than almost anything else, which is exactly why a falling one means the defence has already been overwhelmed."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between auscultated and palpated blood pressure, and why a normal blood pressure is not reassuring on its own.",
+          "must_hit": [
+            {
+              "point": "Auscultation gives both numbers, palpation gives systolic only",
+              "accept": [
+                "ausculat",
+                "auscult",
+                "listen",
+                "palpat",
+                "systolic only",
+                "over p"
+              ]
+            },
+            {
+              "point": "Cuff too small reads high, too large reads low",
+              "accept": [
+                "cuff",
+                "too small",
+                "too large",
+                "falsely"
+              ]
+            },
+            {
+              "point": "Blood pressure is a late sign",
+              "accept": [
+                "late",
+                "last",
+                "compensat",
+                "holds",
+                "until"
+              ]
+            },
+            {
+              "point": "Skin, pulse quality and mental status change earlier",
+              "accept": [
+                "skin",
+                "pulse quality",
+                "mental",
+                "earlier",
+                "before"
+              ]
+            }
+          ],
+          "model_answer": "Auscultation, listening as the cuff deflates, gives you systolic and diastolic. Palpation gives you a systolic only, felt as the radial pulse returns, and is recorded as the number over P — it is legitimate when noise or movement makes listening impossible, just incomplete. Cuff size drives most bad readings: too small reads falsely high, too large falsely low, and an adult cuff on a child gives you a number that is confidently wrong. Normal adult systolic is roughly 90 to 140, and for a child between one and ten a widely taught minimum is 70 plus twice the age in years. And a normal pressure is not reassurance, because it is a late sign — the body defends it until it cannot, so skin, pulse quality and mental status all move first."
+        },
+        "story": {
+          "title": "Confidently wrong",
+          "dispatch": "Rescue 4 — 6-year-old, fall from a climbing frame.",
+          "body": "The first pressure came back reassuringly normal and everyone relaxed slightly.\n\nIt had been taken with the adult cuff, because it was the one clipped to the monitor.\n\nWith the right cuff, the number was considerably lower, and the plan for the call changed."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives. Confirm the adult normal range and the pediatric minimum systolic formula against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-04",
+      "title": "Pupils",
+      "domain": "MED",
+      "difficulty": 2,
+      "prereqs": [],
+      "related": [
+        "EMT-03-02-02",
+        "EMT-03-05-05"
+      ],
+      "key_points": [
+        "Assessed for size, equality and reactivity to light",
+        "PERRL: Pupils Equal, Round, Reactive to Light",
+        "Unequal pupils in a patient with a head injury or altered mental status are a significant finding",
+        "Pinpoint pupils are classically associated with opioids",
+        "Fixed and dilated pupils are an ominous finding in an unresponsive patient",
+        "Some people have naturally unequal pupils, and some have a prosthetic eye or previous surgery — ask if you can"
+      ],
+      "misconceptions": [
+        "Reporting unequal pupils without checking whether it is normal for that patient",
+        "Assessing pupils in bright sunlight and calling them unreactive",
+        "Treating pupil findings in isolation from level of consciousness"
+      ],
+      "exam_favorites": [
+        "What PERRL stands for",
+        "Pinpoint and opioids",
+        "That pre-existing differences exist"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Pupils are quick, free, and tell you something about the brain and about drugs.\n\nYou are checking three things: size, whether the two sides are equal, and whether they react to light. The shorthand is PERRL — pupils equal, round, reactive to light.\n\nUnequal pupils matter most in the company of other findings. In an alert patient with no head injury, a small difference may simply be how they are made. In a patient with a head injury or a falling level of consciousness, inequality is a serious finding and needs to be reported immediately.\n\nPinpoint pupils are classically opioids, and in an unresponsive patient with slow shallow breathing that picture is fairly characteristic. Fixed and dilated pupils in an unresponsive patient are an ominous sign.\n\nTwo practical cautions. Bright sunlight will make pupils small and sluggish and you will report a finding that is really the weather. And some patients have naturally unequal pupils, a prosthetic eye, or previous eye surgery — if there is anyone to ask, ask.",
+          "standard": "Pupillary assessment evaluates size, equality and reactivity to light, summarised as PERRL: pupils equal, round and reactive to light. Anisocoria in the context of head injury or declining level of consciousness constitutes a significant finding warranting immediate communication, whereas minor physiological anisocoria occurs in a proportion of the population. Miosis is classically associated with opioid toxicity, particularly in combination with respiratory depression and reduced responsiveness. Fixed dilated pupils in an unresponsive patient represent an ominous finding. Assessment in bright ambient light produces constricted, apparently sluggish pupils and may generate spurious findings; pre-existing anisocoria, ocular prosthesis and previous ophthalmic surgery should be excluded by history where obtainable."
+        },
+        "eli_new": {
+          "analogy": "Two small windows onto the brainstem, and they cost nothing to look at.",
+          "body": "Pupils are most useful alongside something else. On their own they generate false alarms; next to a head injury or a falling level of consciousness, they become one of the more useful things you can report."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what you assess about pupils and when inequality matters most.",
+          "must_hit": [
+            {
+              "point": "Size, equality and reactivity to light",
+              "accept": [
+                "size",
+                "equal",
+                "react",
+                "light",
+                "perrl"
+              ]
+            },
+            {
+              "point": "Inequality matters most with head injury or altered mental status",
+              "accept": [
+                "head injury",
+                "altered",
+                "conscious",
+                "unequal",
+                "anisocor"
+              ]
+            },
+            {
+              "point": "Pinpoint suggests opioids",
+              "accept": [
+                "pinpoint",
+                "constrict",
+                "opioid",
+                "narcotic",
+                "miosis"
+              ]
+            },
+            {
+              "point": "Some people are naturally unequal or have had eye surgery",
+              "accept": [
+                "natural",
+                "normal for them",
+                "prosthet",
+                "surgery",
+                "baseline"
+              ]
+            }
+          ],
+          "model_answer": "Size, whether the two sides are equal, and whether they react to light — PERRL. Inequality matters most in company: in an alert patient with no head injury a small difference may just be how they are made, but in a head injury or a falling level of consciousness it is a serious finding to report immediately. Pinpoint pupils are classically opioids, especially alongside slow shallow breathing and unresponsiveness, and fixed dilated pupils in an unresponsive patient are ominous. Two cautions: bright sunlight makes pupils small and sluggish and generates false findings, and some patients have naturally unequal pupils, a prosthetic eye or previous surgery, so ask if there is anyone to ask."
+        },
+        "story": {
+          "title": "That is how he is",
+          "dispatch": "Rescue 4 — 71-year-old male, weakness.",
+          "body": "One pupil was noticeably larger than the other and the new EMT went slightly pale.\n\nHis wife, without looking up, said he had had a cataract operation on that eye in 2011 and it had been like that ever since.\n\nThe finding was real. It was also twelve years old, and nobody would have known that without asking."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-05",
+      "title": "Skin: colour, temperature and condition",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-02-05"
+      ],
+      "related": [
+        "EMT-03-02-05",
+        "EMT-03-05-08"
+      ],
+      "key_points": [
+        "Colour, temperature and condition — the same three you checked in the primary assessment",
+        "Pale, cool and clammy is the classic shock picture, from blood being shunted away from the surface",
+        "Cyanosis is a late and serious finding of inadequate oxygenation",
+        "Flushed hot dry skin suggests heat illness or fever; flushed can also occur in some poisonings",
+        "Mottling, especially in children, is a serious perfusion finding",
+        "In patients with darker skin, check the lips, the nail beds, the palms and the conjunctiva",
+        "Capillary refill is most useful in children and is affected by cold surroundings"
+      ],
+      "misconceptions": [
+        "Assessing skin colour only in the face, particularly in darker-skinned patients",
+        "Treating cyanosis as an early warning rather than a late one",
+        "Using capillary refill as a reliable adult measure in a cold environment"
+      ],
+      "exam_favorites": [
+        "The three components",
+        "Where to look in darker skin",
+        "That cyanosis is late"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Skin is the cheapest and fastest information you will get on any patient, and it costs nothing but the back of your hand.\n\nThree components. Colour, temperature and condition — meaning moisture. Pink, warm and dry is the reassuring combination. Pale, cool and clammy is the classic picture of a patient in shock, because the body pulls blood away from the skin to keep the core supplied, and that decision is made early.\n\nCyanosis, the blue-grey colour of poor oxygenation, is a late sign. It is serious when you see it, but by the time it appears things have been wrong for a while. Flushed, hot and dry suggests heat illness or fever. Mottling — that blotchy marbled pattern — is a significant perfusion finding, particularly in a child.\n\nOne thing worth being deliberate about: assessing colour in patients with darker skin. Looking only at the face will mislead you. Look at the lips, the nail beds, the palms and the conjunctiva, where changes in colour show regardless of pigmentation.\n\nCapillary refill is a useful addition, particularly in children. It is less reliable in adults and it is thrown off by a cold room or a cold night, so do not lean on it alone.",
+          "standard": "Cutaneous assessment comprises colour, temperature and condition. Pallor with cool, diaphoretic skin reflects sympathetically mediated peripheral vasoconstriction and is characteristic of shock, occurring early in compensation. Cyanosis indicates inadequate oxygenation and is a late finding. Flushed, hot, dry skin suggests hyperthermia or febrile illness, and flushing occurs in certain toxidromes. Mottling represents significant perfusion compromise, particularly in pediatric patients. In patients with darker skin pigmentation, colour assessment of the face is unreliable; the lips, nail beds, palms and conjunctivae provide accurate assessment sites. Capillary refill has greatest utility in pediatric assessment, demonstrates reduced reliability in adults, and is confounded by low ambient temperature."
+        },
+        "eli_new": {
+          "analogy": "The body turns the outside lights off first. You can see that decision with the back of your hand.",
+          "body": "Because skin findings need no equipment, they get treated as less serious than a number from a machine. They are frequently the earliest thing you will notice, and they are available before you have opened the bag."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what the skin tells you and how you assess colour in a patient with dark skin.",
+          "must_hit": [
+            {
+              "point": "Colour, temperature and condition",
+              "accept": [
+                "colour",
+                "color",
+                "temperature",
+                "condition",
+                "moist",
+                "clammy"
+              ]
+            },
+            {
+              "point": "Pale, cool, clammy is the shock picture",
+              "accept": [
+                "pale",
+                "cool",
+                "clammy",
+                "shock",
+                "shunt"
+              ]
+            },
+            {
+              "point": "Cyanosis is a late sign",
+              "accept": [
+                "cyanosis",
+                "blue",
+                "late"
+              ]
+            },
+            {
+              "point": "In darker skin check lips, nail beds, palms, conjunctiva",
+              "accept": [
+                "lip",
+                "nail",
+                "palm",
+                "conjunctiv",
+                "mucous"
+              ]
+            }
+          ],
+          "model_answer": "Colour, temperature and condition. Pink, warm and dry is what you want; pale, cool and clammy is the classic shock picture, because the body shunts blood from the skin early to protect the core. Cyanosis is a late and serious finding of poor oxygenation. Flushed, hot and dry points to heat illness or fever, and mottling — that blotchy marbled look — is a significant perfusion finding, especially in a child. In patients with darker skin, assessing the face will mislead you: look at the lips, nail beds, palms and conjunctiva, where colour change shows regardless of pigmentation. Capillary refill helps most in children and is unreliable in a cold environment."
+        },
+        "story": {
+          "title": "Look at the palms",
+          "dispatch": "Rescue 4 — 52-year-old male, feeling faint, shop floor.",
+          "body": "The student said his colour looked fine, which it did, at his face, under fluorescent light.\n\nThe paramedic turned his hand over. The palms were washed out and the nail beds were pale, and his conjunctiva was the colour of paper.\n\nSame patient, same room, completely different assessment — just a different place to look."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-06",
+      "title": "Pulse oximetry and capnography as vital signs",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-05-02"
+      ],
+      "related": [
+        "EMT-02-03-05",
+        "EMT-02-04-08"
+      ],
+      "key_points": [
+        "Pulse oximetry estimates the percentage of haemoglobin carrying oxygen",
+        "It tells you about oxygenation and says nothing about ventilation",
+        "It is unreliable in poor peripheral perfusion, cold extremities, movement, nail polish and carbon monoxide poisoning",
+        "In carbon monoxide poisoning the reading can be falsely reassuring or falsely high",
+        "Capnography measures exhaled carbon dioxide and reflects ventilation",
+        "Treat the patient, not the number: a good saturation in a patient who looks terrible does not settle the question"
+      ],
+      "misconceptions": [
+        "Treating a pulse oximetry reading as proof that breathing is adequate",
+        "Trusting an oximeter on a cold, poorly perfused finger",
+        "Relying on oximetry in a patient pulled from a fire"
+      ],
+      "exam_favorites": [
+        "Oxygenation versus ventilation",
+        "When oximetry lies",
+        "Carbon monoxide"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two devices that produce numbers, and the useful thing is knowing exactly what each number is about.\n\nPulse oximetry estimates the percentage of haemoglobin that is carrying oxygen. That is oxygenation. It tells you nothing about whether the patient is moving air — a patient can have an excellent saturation while barely ventilating, right up until they do not.\n\nAnd it lies in specific, predictable circumstances. A cold finger. Poor peripheral perfusion, which means every shocked patient. Movement. Nail polish. And most dangerously, carbon monoxide poisoning, where the device cannot distinguish what is bound to the haemoglobin and may give you a reassuring number on a patient who is severely poisoned. A patient out of a house fire with a normal saturation has not been cleared by that reading.\n\nCapnography measures the carbon dioxide in exhaled breath, which is a ventilation measurement — it tells you air is actually moving.\n\nThe single rule that covers both: treat the patient, not the number. A reassuring reading on a patient who looks terrible means you have a reassuring reading and a patient who looks terrible, and the patient is the more reliable of the two.",
+          "standard": "Pulse oximetry estimates arterial oxyhaemoglobin saturation and therefore reflects oxygenation rather than ventilation; adequate saturation may coexist with grossly inadequate ventilation. Accuracy is degraded by peripheral hypoperfusion, hypothermia of the extremity, motion artefact and nail polish. In carbon monoxide poisoning, conventional pulse oximetry cannot differentiate carboxyhaemoglobin from oxyhaemoglobin and may return normal or elevated readings despite severe toxicity. Capnography measures exhaled carbon dioxide and provides direct assessment of ventilation. Both modalities are adjuncts to, and never substitutes for, clinical assessment; discordance between a reassuring numerical value and an unwell patient is resolved in favour of the clinical picture."
+        },
+        "eli_new": {
+          "analogy": "The oximeter tells you what is in the tank. It does not tell you whether the engine is turning over.",
+          "body": "Numbers from machines feel more authoritative than what you can see, which is exactly backwards in the situations where the machine is least reliable — cold, shocked, poisoned patients are the ones where the device fails and where you most need to be right."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what pulse oximetry measures, when it is unreliable, and how capnography differs.",
+          "must_hit": [
+            {
+              "point": "Oximetry measures oxygenation, not ventilation",
+              "accept": [
+                "oxygen",
+                "saturation",
+                "not ventilation",
+                "oxygenation"
+              ]
+            },
+            {
+              "point": "Unreliable in poor perfusion, cold, movement, nail polish",
+              "accept": [
+                "cold",
+                "perfusion",
+                "movement",
+                "motion",
+                "nail polish",
+                "shock"
+              ]
+            },
+            {
+              "point": "Carbon monoxide gives a falsely reassuring reading",
+              "accept": [
+                "carbon monoxide",
+                "co",
+                "falsely",
+                "fire"
+              ]
+            },
+            {
+              "point": "Capnography reflects ventilation",
+              "accept": [
+                "capnograph",
+                "carbon dioxide",
+                "ventilation",
+                "etco2"
+              ]
+            },
+            {
+              "point": "Treat the patient, not the number",
+              "accept": [
+                "treat the patient",
+                "not the number",
+                "clinical",
+                "looks"
+              ]
+            }
+          ],
+          "model_answer": "Pulse oximetry estimates the percentage of haemoglobin carrying oxygen, so it is about oxygenation and says nothing about whether air is moving — a patient can have a fine saturation while barely ventilating. It lies predictably: cold fingers, poor peripheral perfusion, movement, nail polish, and most dangerously carbon monoxide, where it cannot tell what is bound to the haemoglobin and may look normal in a severely poisoned patient. Capnography measures exhaled carbon dioxide, which is a ventilation measurement, so it tells you air is genuinely moving. The rule covering both is treat the patient, not the number: a good reading on a patient who looks terrible just means you have both of those things, and the patient is the more reliable one."
+        },
+        "story": {
+          "title": "Ninety-eight percent",
+          "dispatch": "Rescue 4 — house fire, one occupant removed by crews.",
+          "body": "He was confused and had soot around his nose and his saturation read 98 percent.\n\nThe student said his oxygen was fine. The officer said it read fine, which is a different sentence.\n\nCarbon monoxide binds to the same haemoglobin, and the probe cannot tell the difference. He went on high-flow oxygen regardless of the number."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-07",
+      "title": "Blood glucose measurement",
+      "domain": "MED",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-03-02-02"
+      ],
+      "related": [
+        "EMT-03-04-05",
+        "EMT-03-02-02"
+      ],
+      "key_points": [
+        "Indicated in any patient with an altered mental status, and in any known diabetic who is unwell",
+        "Hypoglycaemia mimics stroke, intoxication, psychiatric illness and simple confusion",
+        "It is one of the few causes of altered mental status an EMT can identify and, within scope, treat",
+        "Clean the site, use a fresh lancet, and dispose of sharps immediately and properly",
+        "A normal glucose does not explain away an altered patient — it removes one cause",
+        "Confirm the exact treatment thresholds and your service's scope for treating them"
+      ],
+      "misconceptions": [
+        "Omitting a glucose because the patient smells of alcohol",
+        "Assuming a normal reading explains the whole presentation",
+        "Leaving a used lancet loose on the bag or the stretcher"
+      ],
+      "exam_favorites": [
+        "Which patients need one",
+        "That hypoglycaemia mimics other conditions",
+        "Sharps handling"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A blood glucose is one of the highest-value measurements an EMT takes, because it finds a common cause of altered mental status that is otherwise indistinguishable from several serious conditions.\n\nWho gets one: anybody with an altered mental status, and any known diabetic who is unwell for any reason.\n\nThe reason it matters so much is what hypoglycaemia looks like. It looks like a stroke — one-sided weakness, slurred speech. It looks like intoxication — aggression, confusion, unsteadiness. It looks like a psychiatric emergency. It looks like a patient who is simply not making sense. Every one of those patients deserves a glucose before anybody settles on an explanation, and the patient who smells of alcohol is the one most likely to be denied one.\n\nThe procedure is simple: clean site, fresh lancet, sample, read, and put the sharp straight into the container. Not on the stretcher, not in your pocket.\n\nAnd read the result carefully. A normal glucose does not explain an altered patient. It removes one cause from the list, which is genuinely useful, and leaves you still looking for the reason.\n\nTreatment thresholds and what you are permitted to give vary by protocol; confirm both.",
+          "standard": "Blood glucose measurement is indicated in all patients with altered mental status and in known diabetic patients presenting with any acute illness. Hypoglycaemia produces presentations clinically indistinguishable from cerebrovascular accident, intoxication, psychiatric emergency and non-specific confusion, and is a correctable cause identifiable at the EMT level. Procedure comprises site cleansing, use of a single-use lancet, sample acquisition and immediate sharps disposal into an approved container. A euglycaemic result excludes hypoglycaemia as a cause but does not account for altered mental status of other aetiology, and assessment continues. Treatment thresholds and permitted interventions are protocol-determined."
+        },
+        "eli_new": {
+          "analogy": "It is a stroke, a psychiatric emergency, or a drunk patient — until a drop of blood says it was none of those.",
+          "body": "The patient least likely to get a glucose is the patient who smells of alcohol, and that is precisely the patient in whom missing hypoglycaemia is most likely and most harmful."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain who gets a blood glucose and why hypoglycaemia is so easy to miss.",
+          "must_hit": [
+            {
+              "point": "Any altered mental status, and any unwell diabetic",
+              "accept": [
+                "altered",
+                "mental status",
+                "conscious",
+                "diabet"
+              ]
+            },
+            {
+              "point": "It mimics stroke, intoxication and psychiatric illness",
+              "accept": [
+                "stroke",
+                "intoxicat",
+                "drunk",
+                "alcohol",
+                "psychiatric",
+                "mimic"
+              ]
+            },
+            {
+              "point": "A normal result removes one cause but does not explain the patient",
+              "accept": [
+                "normal",
+                "does not explain",
+                "one cause",
+                "still",
+                "rule out"
+              ]
+            },
+            {
+              "point": "Dispose of the sharp immediately",
+              "accept": [
+                "sharp",
+                "lancet",
+                "dispose",
+                "container"
+              ]
+            }
+          ],
+          "model_answer": "Any patient with an altered mental status, and any known diabetic who is unwell. It matters because hypoglycaemia looks like other things — one-sided weakness and slurred speech like a stroke, confusion and aggression like intoxication, or a psychiatric emergency — and it is one of very few causes an EMT can both find and, within scope, treat. The patient who smells of alcohol is the one most often denied a glucose and the one in whom missing it does most harm. Clean site, fresh lancet, sharp straight into the container. And a normal reading removes one cause rather than explaining the patient, so you keep looking."
+        },
+        "story": {
+          "title": "He smelled of drink",
+          "dispatch": "Rescue 4 — male, intoxicated, found in a doorway.",
+          "body": "He smelled strongly of alcohol, he was aggressive, and he was not making sense. Everybody had already decided what this was.\n\nYour partner did a glucose anyway, mostly out of habit.\n\nIt was low. He had been drinking, and he was also hypoglycaemic, and the second of those was the one that was going to kill him."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Blood glucose measurement",
+          "steps": [
+            {
+              "text": "Take standard precautions including gloves",
+              "critical": true
+            },
+            {
+              "text": "Confirm the indication: altered mental status, or an unwell diabetic",
+              "critical": false
+            },
+            {
+              "text": "Prepare the meter and confirm the strips are in date",
+              "critical": true,
+              "note": "Expired strips give unreliable readings."
+            },
+            {
+              "text": "Clean the site and allow it to dry",
+              "critical": false
+            },
+            {
+              "text": "Use a fresh single-use lancet",
+              "critical": true,
+              "note": "Never reuse a lancet between patients or sites."
+            },
+            {
+              "text": "Obtain the sample and apply it to the strip",
+              "critical": false
+            },
+            {
+              "text": "Dispose of the sharp immediately into the sharps container",
+              "critical": true,
+              "note": "Not on the stretcher, not in a pocket."
+            },
+            {
+              "text": "Record the reading and the time, and act within protocol",
+              "critical": true
+            },
+            {
+              "text": "Continue assessing — a normal reading removes one cause, it does not explain the patient",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives. Confirm the treatment thresholds and what your service permits an EMT to administer."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-08",
+      "title": "Temperature",
+      "domain": "MED",
+      "difficulty": 1,
+      "prereqs": [],
+      "related": [
+        "EMT-03-05-05"
+      ],
+      "key_points": [
+        "Taken where the history suggests it matters: fever, heat illness, cold exposure, infection, and in the very young and very old",
+        "A hot patient is not always febrile: consider environmental heat illness as well as infection",
+        "A cold patient may be hypothermic even in mild weather if they have been down for a long time or are elderly, thin or intoxicated",
+        "In hypothermia, handle the patient gently and take a longer look for a pulse",
+        "The route of measurement affects the reading; record which route you used"
+      ],
+      "misconceptions": [
+        "Assuming a hot patient has an infection",
+        "Ruling out hypothermia because the weather is mild",
+        "Handling a hypothermic patient roughly"
+      ],
+      "exam_favorites": [
+        "Who needs a temperature",
+        "Heat illness versus fever",
+        "Hypothermia in mild weather"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Temperature is not measured on everyone, and the skill is knowing when it earns its place: a patient who feels hot or cold, a suspected infection, heat exposure, cold exposure, and both ends of the age range, where temperature regulation is least reliable.\n\nA hot patient is not automatically an infected patient. Heat illness produces a hot patient too, and the distinction matters enormously because the treatments diverge. Look at the context — what were they doing, where, and for how long.\n\nA cold patient is the one people miss. Hypothermia does not require snow. An elderly person who has been on a kitchen floor overnight in a house with the heating off can be profoundly hypothermic in autumn. So can someone thin, or intoxicated, or simply down for a long time.\n\nIf you do have a hypothermic patient, two things change. Handle them gently, because a very cold heart is irritable. And look longer for a pulse than you normally would, because it may be very slow and very weak.\n\nFinally, record the route. An oral, tympanic and skin temperature are not the same measurement, and the number is only interpretable if the receiving clinician knows how it was taken.",
+          "standard": "Temperature measurement is indicated where history or examination suggests thermal dysregulation: suspected infection, hyperthermic or hypothermic exposure, and at the extremes of age where thermoregulation is impaired. Hyperthermia may reflect environmental heat illness rather than febrile infection, and the distinction alters management substantially. Hypothermia occurs in the absence of extreme ambient cold, particularly in elderly, cachectic or intoxicated patients and following prolonged immobility; mild ambient temperature does not exclude it. In the hypothermic patient, gentle handling is required owing to myocardial irritability, and pulse assessment is prolonged as bradycardia and reduced pulse volume may render a pulse difficult to detect. The measurement route materially affects the value obtained and should be documented alongside the reading."
+        },
+        "eli_new": {
+          "analogy": "Hypothermia does not need snow. It needs time, and a floor.",
+          "body": "The mental model of hypothermia is mountains and blizzards, which is why the elderly patient found on a kitchen floor in October gets missed. Time on a cold surface does most of the work."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain when you would take a temperature and why a cold patient can be missed in mild weather.",
+          "must_hit": [
+            {
+              "point": "Fever, heat or cold exposure, infection, very young and very old",
+              "accept": [
+                "fever",
+                "heat",
+                "cold",
+                "infection",
+                "young",
+                "old",
+                "elderly"
+              ]
+            },
+            {
+              "point": "A hot patient may be heat illness rather than infection",
+              "accept": [
+                "heat illness",
+                "environment",
+                "not infection",
+                "exposure"
+              ]
+            },
+            {
+              "point": "Hypothermia occurs in mild weather after long exposure",
+              "accept": [
+                "mild",
+                "not cold",
+                "floor",
+                "overnight",
+                "long",
+                "time",
+                "elderly"
+              ]
+            },
+            {
+              "point": "Handle gently and check the pulse longer",
+              "accept": [
+                "gentl",
+                "rough",
+                "longer",
+                "slow",
+                "pulse"
+              ]
+            }
+          ],
+          "model_answer": "You take one where the history makes it matter: suspected fever or infection, heat exposure, cold exposure, and at both ends of the age range where temperature regulation is poorest. A hot patient is not automatically infected — heat illness produces a hot patient too and the treatments diverge, so read the context. And a cold patient is the one that gets missed: hypothermia does not need snow, just time on a cold surface, so an elderly person down overnight in an unheated house can be profoundly hypothermic in autumn. If they are hypothermic, handle them gently because a cold heart is irritable, and look longer than usual for a pulse. Record which route you used, because oral, tympanic and skin readings are not interchangeable."
+        },
+        "story": {
+          "title": "October, indoors",
+          "dispatch": "Rescue 4 — 83-year-old female, fallen, unable to get up, found by a neighbour.",
+          "body": "It was October and it was not cold outside. The heating had been off for two days because she could not reach the switch after she fell.\n\nShe had been on the kitchen tiles for somewhere around fourteen hours.\n\nHer temperature was the finding that reorganised the whole call, and nobody had expected it in that weather."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique and the normal ranges the current text gives."
     }
   ]
 }

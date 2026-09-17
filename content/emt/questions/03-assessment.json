@@ -1982,6 +1982,756 @@
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-01-Q001",
+      "concept_id": "EMT-03-05-01",
+      "style": "recall",
+      "stem": "What three things are assessed about a pulse?",
+      "options": [
+        {
+          "text": "Rate, rhythm and quality",
+          "rationale": "Correct — the last two carry most of the information."
+        },
+        {
+          "text": "Rate, pressure and volume",
+          "rationale": "Pressure is measured separately with a cuff."
+        },
+        {
+          "text": "Rate, colour and temperature",
+          "rationale": "Colour and temperature describe the skin."
+        },
+        {
+          "text": "Rate alone",
+          "rationale": "A number alone is not a pulse assessment."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-01-Q002",
+      "concept_id": "EMT-03-05-01",
+      "style": "recall",
+      "stem": "What is the normal resting pulse range for an adult?",
+      "options": [
+        {
+          "text": "40 to 60 beats per minute",
+          "rationale": "Below the usual normal range."
+        },
+        {
+          "text": "60 to 100 beats per minute",
+          "rationale": "Correct — the commonly taught adult resting range."
+        },
+        {
+          "text": "100 to 140 beats per minute",
+          "rationale": "Above the adult normal range."
+        },
+        {
+          "text": "20 to 40 beats per minute",
+          "rationale": "Far below any normal adult range."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-01-Q003",
+      "concept_id": "EMT-03-05-01",
+      "style": "application",
+      "stem": "A patient's pulse is 104 and thready, and their skin is cool and damp. What does this suggest?",
+      "options": [
+        {
+          "text": "A normal finding, since 104 is only just outside the range",
+          "rationale": "The quality and skin findings make this not a normal picture."
+        },
+        {
+          "text": "A patient compensating for poor perfusion",
+          "rationale": "Correct — quality and skin say more here than the rate does."
+        },
+        {
+          "text": "An athlete at rest",
+          "rationale": "An athlete at rest would not be thready and clammy."
+        },
+        {
+          "text": "Anxiety alone",
+          "rationale": "Anxiety does not usually produce a thready pulse with cool damp skin."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-02-Q001",
+      "concept_id": "EMT-03-05-02",
+      "style": "recall",
+      "stem": "What is the normal resting respiratory rate for an adult?",
+      "options": [
+        {
+          "text": "6 to 10 breaths per minute",
+          "rationale": "Below the normal adult range."
+        },
+        {
+          "text": "12 to 20 breaths per minute",
+          "rationale": "Correct — the commonly taught adult range."
+        },
+        {
+          "text": "24 to 32 breaths per minute",
+          "rationale": "Above the adult normal range."
+        },
+        {
+          "text": "30 to 60 breaths per minute",
+          "rationale": "That range belongs to infants, not adults."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-02-Q002",
+      "concept_id": "EMT-03-05-02",
+      "style": "application",
+      "stem": "Why should you avoid telling a patient you are counting their respirations?",
+      "options": [
+        {
+          "text": "Because it wastes time",
+          "rationale": "Time is not the issue."
+        },
+        {
+          "text": "Because breathing is partly voluntary and awareness changes the rate",
+          "rationale": "Correct — that is why you count while appearing to take a pulse."
+        },
+        {
+          "text": "Because patients find it rude",
+          "rationale": "Politeness is not the reason."
+        },
+        {
+          "text": "Because it is not part of the assessment",
+          "rationale": "Respiratory rate is very much part of it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-02-Q003",
+      "concept_id": "EMT-03-05-02",
+      "style": "application",
+      "stem": "A patient breathes 16 times a minute, shallowly, using accessory muscles. How do you interpret this?",
+      "options": [
+        {
+          "text": "Normal, because 16 is within range",
+          "rationale": "Rate within range does not establish adequacy."
+        },
+        {
+          "text": "Abnormal — the rate looks fine but the quality does not",
+          "rationale": "Correct. Depth and effort decide adequacy."
+        },
+        {
+          "text": "Normal, because accessory muscle use is common",
+          "rationale": "Accessory muscle use is not a normal finding."
+        },
+        {
+          "text": "Impossible to interpret without a blood pressure",
+          "rationale": "Respiratory adequacy is judged on its own findings."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-03-Q001",
+      "concept_id": "EMT-03-05-03",
+      "style": "recall",
+      "stem": "What does a blood pressure obtained by palpation give you?",
+      "options": [
+        {
+          "text": "Both systolic and diastolic",
+          "rationale": "Palpation cannot detect the diastolic point."
+        },
+        {
+          "text": "Systolic only, recorded as systolic over P",
+          "rationale": "Correct. You feel the radial pulse return; there is no diastolic point to feel."
+        },
+        {
+          "text": "Diastolic only",
+          "rationale": "Palpation detects the return of the pulse, which is systolic."
+        },
+        {
+          "text": "Mean arterial pressure",
+          "rationale": "Not obtainable by palpation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-03-Q002",
+      "concept_id": "EMT-03-05-03",
+      "style": "application",
+      "stem": "What happens if you use a cuff that is too small for the patient?",
+      "options": [
+        {
+          "text": "The reading is falsely high",
+          "rationale": "Correct — and an adult cuff on a child is confidently wrong."
+        },
+        {
+          "text": "The reading is falsely low",
+          "rationale": "That is the effect of an oversized cuff."
+        },
+        {
+          "text": "The reading is unaffected",
+          "rationale": "Cuff size materially affects accuracy."
+        },
+        {
+          "text": "The cuff will not inflate",
+          "rationale": "It inflates; it just reads incorrectly."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-03-Q003",
+      "concept_id": "EMT-03-05-03",
+      "style": "application",
+      "stem": "Why is a normal blood pressure not reassuring on its own?",
+      "options": [
+        {
+          "text": "Because blood pressure is a late sign, held until compensation fails",
+          "rationale": "Correct. Skin, pulse quality and mental status change earlier."
+        },
+        {
+          "text": "Because cuffs are inaccurate in all settings",
+          "rationale": "Cuffs are accurate when correctly sized and applied."
+        },
+        {
+          "text": "Because blood pressure is not a vital sign",
+          "rationale": "It is a vital sign."
+        },
+        {
+          "text": "Because it only matters in trauma",
+          "rationale": "It matters across presentations."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-03-Q004",
+      "concept_id": "EMT-03-05-03",
+      "style": "application",
+      "stem": "What is a widely taught minimum acceptable systolic pressure for a child aged 1 to 10?",
+      "options": [
+        {
+          "text": "90 mmHg regardless of age",
+          "rationale": "A single figure across that age range is not the taught rule."
+        },
+        {
+          "text": "70 plus twice the age in years",
+          "rationale": "Correct — the commonly taught formula."
+        },
+        {
+          "text": "50 plus the age in years",
+          "rationale": "Not the taught formula."
+        },
+        {
+          "text": "The same as an adult",
+          "rationale": "Children have different thresholds from adults."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-04-Q001",
+      "concept_id": "EMT-03-05-04",
+      "style": "recall",
+      "stem": "What does PERRL stand for?",
+      "options": [
+        {
+          "text": "Pupils Equal, Round, Reactive to Light",
+          "rationale": "Correct — the standard shorthand for a normal pupil assessment."
+        },
+        {
+          "text": "Pupils Enlarged, Rigid, Responsive to Light",
+          "rationale": "Not the accepted expansion."
+        },
+        {
+          "text": "Position, Equality, Reaction, Response, Light",
+          "rationale": "Not the accepted expansion."
+        },
+        {
+          "text": "Pupils Equal and Regular in Left eye",
+          "rationale": "Not the accepted expansion."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-04-Q002",
+      "concept_id": "EMT-03-05-04",
+      "style": "application",
+      "stem": "When is pupil inequality most significant?",
+      "options": [
+        {
+          "text": "In any patient, always equally significant",
+          "rationale": "Context changes its significance substantially."
+        },
+        {
+          "text": "In a patient with a head injury or a falling level of consciousness",
+          "rationale": "Correct — that combination makes it a serious finding."
+        },
+        {
+          "text": "Only in patients under 18",
+          "rationale": "Age is not the determinant."
+        },
+        {
+          "text": "Only in bright sunlight",
+          "rationale": "Bright light produces spurious findings rather than significant ones."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-04-Q003",
+      "concept_id": "EMT-03-05-04",
+      "style": "application",
+      "stem": "A patient has one pupil larger than the other and his wife says it has been that way since eye surgery. What does this mean?",
+      "options": [
+        {
+          "text": "The finding is still an emergency",
+          "rationale": "A long-standing surgical cause changes the interpretation."
+        },
+        {
+          "text": "It is a pre-existing difference and should be documented as such",
+          "rationale": "Correct — ask about baseline whenever you can."
+        },
+        {
+          "text": "The wife's account should be disregarded",
+          "rationale": "Collateral history is legitimate and valuable."
+        },
+        {
+          "text": "Pupils should not have been assessed",
+          "rationale": "Assessing them was correct."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-05-Q001",
+      "concept_id": "EMT-03-05-05",
+      "style": "recall",
+      "stem": "Which combination is the classic picture of shock?",
+      "options": [
+        {
+          "text": "Flushed, hot and dry",
+          "rationale": "That suggests heat illness or fever."
+        },
+        {
+          "text": "Pale, cool and clammy",
+          "rationale": "Correct — blood shunted from the skin to protect the core."
+        },
+        {
+          "text": "Pink, warm and dry",
+          "rationale": "That is the reassuring combination."
+        },
+        {
+          "text": "Yellow, warm and dry",
+          "rationale": "Jaundice is a different finding entirely."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-05-Q002",
+      "concept_id": "EMT-03-05-05",
+      "style": "application",
+      "stem": "Where do you assess skin colour in a patient with darker skin?",
+      "options": [
+        {
+          "text": "The forehead only",
+          "rationale": "The face is unreliable for this purpose."
+        },
+        {
+          "text": "Lips, nail beds, palms and conjunctiva",
+          "rationale": "Correct — colour change shows there regardless of pigmentation."
+        },
+        {
+          "text": "The soles of the feet only",
+          "rationale": "Too limited, and not the taught set of sites."
+        },
+        {
+          "text": "Colour cannot be assessed",
+          "rationale": "It can, at the right sites."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-05-Q003",
+      "concept_id": "EMT-03-05-05",
+      "style": "recall",
+      "stem": "What does cyanosis indicate, and how early does it appear?",
+      "options": [
+        {
+          "text": "Poor oxygenation, and it is an early warning sign",
+          "rationale": "It is a late sign, not an early one."
+        },
+        {
+          "text": "Poor oxygenation, and it is a late sign",
+          "rationale": "Correct — serious when present, but things have been wrong for a while."
+        },
+        {
+          "text": "Fever, and it appears early",
+          "rationale": "Cyanosis is not a fever finding."
+        },
+        {
+          "text": "Dehydration, and it appears late",
+          "rationale": "Cyanosis reflects oxygenation, not hydration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-06-Q001",
+      "concept_id": "EMT-03-05-06",
+      "style": "recall",
+      "stem": "What does pulse oximetry measure?",
+      "options": [
+        {
+          "text": "Whether air is moving in and out",
+          "rationale": "That is ventilation, which capnography assesses."
+        },
+        {
+          "text": "The percentage of haemoglobin carrying oxygen",
+          "rationale": "Correct — oxygenation, not ventilation."
+        },
+        {
+          "text": "The amount of carbon dioxide exhaled",
+          "rationale": "That is capnography."
+        },
+        {
+          "text": "Blood pressure in the finger",
+          "rationale": "It does not measure pressure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-06-Q002",
+      "concept_id": "EMT-03-05-06",
+      "style": "application",
+      "stem": "Why can pulse oximetry be dangerously misleading in a patient rescued from a house fire?",
+      "options": [
+        {
+          "text": "Because smoke coats the probe",
+          "rationale": "Contamination is not the mechanism."
+        },
+        {
+          "text": "Because carbon monoxide binds haemoglobin and the device cannot tell the difference",
+          "rationale": "Correct — the reading can look normal in a severely poisoned patient."
+        },
+        {
+          "text": "Because heat damages the sensor",
+          "rationale": "Sensor damage is not the described problem."
+        },
+        {
+          "text": "Because fire patients always have low saturations",
+          "rationale": "The problem is falsely reassuring readings, not low ones."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-06-Q003",
+      "concept_id": "EMT-03-05-06",
+      "style": "application",
+      "stem": "A patient looks terrible but the pulse oximeter reads 98 percent. What should you do?",
+      "options": [
+        {
+          "text": "Accept the number and downgrade your concern",
+          "rationale": "The patient is the more reliable of the two."
+        },
+        {
+          "text": "Treat the patient, and treat the number as one piece of information",
+          "rationale": "Correct. The patient is the more reliable of the two."
+        },
+        {
+          "text": "Remove the probe and take no further readings",
+          "rationale": "Readings still have value alongside assessment."
+        },
+        {
+          "text": "Document that the patient is stable",
+          "rationale": "Appearance contradicts that conclusion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-07-Q001",
+      "concept_id": "EMT-03-05-07",
+      "style": "recall",
+      "stem": "Which patients should have a blood glucose measured?",
+      "options": [
+        {
+          "text": "Only known diabetics",
+          "rationale": "Any altered patient warrants one."
+        },
+        {
+          "text": "Any patient with an altered mental status, and any unwell diabetic",
+          "rationale": "Correct. Altered is a much wider net than known diabetic."
+        },
+        {
+          "text": "Only unresponsive patients",
+          "rationale": "Altered is broader than unresponsive."
+        },
+        {
+          "text": "Only patients over 65",
+          "rationale": "Age is not the criterion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-07-Q002",
+      "concept_id": "EMT-03-05-07",
+      "style": "application",
+      "stem": "Why is the patient who smells of alcohol particularly important to test?",
+      "options": [
+        {
+          "text": "Because alcohol raises blood glucose",
+          "rationale": "Not the reasoning being tested."
+        },
+        {
+          "text": "Because hypoglycaemia mimics intoxication and is the diagnosis most likely to be missed in them",
+          "rationale": "Correct. That patient is least likely to be tested and most harmed by the omission."
+        },
+        {
+          "text": "Because intoxicated patients cannot consent",
+          "rationale": "Consent is a separate issue."
+        },
+        {
+          "text": "Because alcohol damages the meter",
+          "rationale": "It does not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-07-Q003",
+      "concept_id": "EMT-03-05-07",
+      "style": "sequence",
+      "stem": "Put blood glucose measurement in order: 1) dispose of the lancet in the sharps container, 2) clean the site, 3) obtain the sample and read the meter, 4) use a fresh single-use lancet.",
+      "options": [
+        {
+          "text": "2, 4, 3, 1",
+          "rationale": "Correct. Clean, lance with a fresh lancet, read, then dispose immediately."
+        },
+        {
+          "text": "4, 2, 3, 1",
+          "rationale": "Lancing before cleaning the site reverses two steps."
+        },
+        {
+          "text": "2, 3, 4, 1",
+          "rationale": "You cannot obtain a sample before using the lancet."
+        },
+        {
+          "text": "2, 4, 1, 3",
+          "rationale": "Disposing of the lancet before reading the meter is out of order."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-08-Q001",
+      "concept_id": "EMT-03-05-08",
+      "style": "recall",
+      "stem": "Which patient most clearly warrants a temperature measurement?",
+      "options": [
+        {
+          "text": "An alert patient with an isolated finger laceration",
+          "rationale": "No thermal question is raised."
+        },
+        {
+          "text": "An elderly patient found on a floor after a prolonged period",
+          "rationale": "Correct — prolonged immobility risks hypothermia at any season."
+        },
+        {
+          "text": "A patient with a sprained wrist and normal vitals",
+          "rationale": "No thermal question is raised."
+        },
+        {
+          "text": "A patient with a nosebleed",
+          "rationale": "No thermal question is raised."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-08-Q002",
+      "concept_id": "EMT-03-05-08",
+      "style": "application",
+      "stem": "Why can hypothermia be missed in mild weather?",
+      "options": [
+        {
+          "text": "Because thermometers are inaccurate indoors",
+          "rationale": "Instrument accuracy is not the issue."
+        },
+        {
+          "text": "Because prolonged contact with a cold surface can cool a patient without extreme ambient cold",
+          "rationale": "Correct, especially in elderly, thin or intoxicated patients."
+        },
+        {
+          "text": "Because hypothermia only occurs below freezing",
+          "rationale": "It does not require freezing conditions."
+        },
+        {
+          "text": "Because mild weather raises body temperature",
+          "rationale": "Mild weather does not protect against it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-08-Q003",
+      "concept_id": "EMT-03-05-08",
+      "style": "application",
+      "stem": "What two things change in your handling of a hypothermic patient?",
+      "options": [
+        {
+          "text": "Handle gently and take longer to check for a pulse",
+          "rationale": "Correct — a cold heart is irritable and the pulse may be slow and weak."
+        },
+        {
+          "text": "Handle briskly and check the pulse quickly",
+          "rationale": "Both of these are the opposite of correct practice."
+        },
+        {
+          "text": "Nothing changes about handling",
+          "rationale": "Handling does change in hypothermia."
+        },
+        {
+          "text": "Avoid taking a pulse at all",
+          "rationale": "A pulse check is still required, just a longer one."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

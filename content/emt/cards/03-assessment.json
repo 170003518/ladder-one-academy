@@ -702,6 +702,256 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-04-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-01-C01",
+      "concept_id": "EMT-03-05-01",
+      "type": "concept",
+      "front": {
+        "title": "Pulse",
+        "summary": "Three findings, not one"
+      },
+      "back": {
+        "body": "RATE + RHYTHM + QUALITY, every time · Adult resting 60 to 100 · Children faster, infants faster still, falling toward adult with age · Rhythm: regular or irregular · Quality: strong, weak, THREADY · Radial if responsive · Carotid if unresponsive · Brachial in an infant · 104 and thready with cool skin is a compensating patient",
+        "why_it_matters": "The number is the least informative of the three findings."
+      },
+      "high_yield": true,
+      "number": 29,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-01-C10",
+      "concept_id": "EMT-03-05-01",
+      "type": "numbers",
+      "front": {
+        "title": "Normal vital signs by age",
+        "summary": "Adult and infant figures; the middle bands are unfilled"
+      },
+      "back": {
+        "body": "ADULT — pulse 60 to 100 · respirations 12 to 20 · systolic roughly 90 to 140. INFANT (under 1) — pulse 100 to 160 · respirations 30 to 60. CHILD (1 to 10) minimum acceptable systolic = 70 + (2 x age in years). The intermediate age bands (toddler, preschool, school age, adolescent) are NOT filled in here: those ranges vary between texts and editions. Pattern to hold onto: rates are fastest in infancy and fall toward adult values with age.",
+        "why_it_matters": "A confidently wrong pediatric range is worse than an obvious gap. Fill the middle bands from your own text."
+      },
+      "high_yield": true,
+      "number": 30,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-02-C02",
+      "concept_id": "EMT-03-05-02",
+      "type": "concept",
+      "front": {
+        "title": "Respirations",
+        "summary": "Count without saying so"
+      },
+      "back": {
+        "body": "RATE + QUALITY · Adult resting 12 to 20 · Children faster, infants faster still · Quality = depth, effort, sound · Count while appearing to still be on the wrist — breathing is partly VOLUNTARY and awareness changes it · 16 shallow laboured breaths is NOT a normal respiratory assessment",
+        "why_it_matters": "Ask someone to breathe normally and they immediately cannot."
+      },
+      "high_yield": true,
+      "number": 31,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-03-C03",
+      "concept_id": "EMT-03-05-03",
+      "type": "concept",
+      "front": {
+        "title": "Blood pressure",
+        "summary": "The last domino to fall"
+      },
+      "back": {
+        "body": "Auscultation gives BOTH numbers; palpation gives systolic only, recorded as systolic over P · Cuff too SMALL reads falsely HIGH; too large reads falsely low · Adult systolic commonly quoted about 90 to 140 · Child 1 to 10 minimum systolic: 70 + (2 x age in years) · BP is a LATE sign — skin, pulse quality and mental status move first",
+        "why_it_matters": "The body defends blood pressure hardest, which is why a falling one means the defence has already failed."
+      },
+      "high_yield": true,
+      "number": 32,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-04-C04",
+      "concept_id": "EMT-03-05-04",
+      "type": "concept",
+      "front": {
+        "title": "Pupils",
+        "summary": "Size, equality, reactivity"
+      },
+      "back": {
+        "body": "PERRL — Pupils Equal, Round, Reactive to Light · Inequality matters MOST with head injury or falling level of consciousness · Pinpoint classically opioids, especially with slow shallow breathing · Fixed and dilated in an unresponsive patient is ominous · Bright sunlight creates false findings · Some people are naturally unequal or have had eye surgery — ASK",
+        "why_it_matters": "Pupils are most useful in company. Alone they generate false alarms."
+      },
+      "high_yield": false,
+      "number": 33,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-05-C05",
+      "concept_id": "EMT-03-05-05",
+      "type": "concept",
+      "front": {
+        "title": "Skin",
+        "summary": "The cheapest monitor you own"
+      },
+      "back": {
+        "body": "Colour · Temperature · Condition · Pink, warm, dry = good · PALE, COOL, CLAMMY = shock, blood shunted from the skin early · Cyanosis = poor oxygenation and a LATE sign · Flushed, hot, dry = heat illness or fever · Mottling = serious, especially in children · DARKER SKIN: look at lips, nail beds, palms, conjunctiva · Capillary refill best in children, unreliable when cold",
+        "why_it_matters": "Looking only at the face will mislead you on a patient with darker skin."
+      },
+      "high_yield": true,
+      "number": 34,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-06-C06",
+      "concept_id": "EMT-03-05-06",
+      "type": "concept",
+      "front": {
+        "title": "Oximetry and capnography",
+        "summary": "Two numbers, two different questions"
+      },
+      "back": {
+        "body": "Pulse oximetry = OXYGENATION, says nothing about ventilation · Unreliable with cold fingers, poor perfusion, movement, nail polish · CARBON MONOXIDE: the device cannot tell the difference and may read normal in a severely poisoned patient · Capnography = VENTILATION, proof air is moving · Treat the patient, not the number",
+        "why_it_matters": "A patient out of a house fire with a normal saturation has not been cleared by that reading."
+      },
+      "high_yield": true,
+      "number": 35,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-07-C07",
+      "concept_id": "EMT-03-05-07",
+      "type": "concept",
+      "front": {
+        "title": "Blood glucose",
+        "summary": "The cause you can actually fix"
+      },
+      "back": {
+        "body": "Indicated for ANY altered mental status, and any unwell diabetic · Hypoglycaemia MIMICS stroke, intoxication, psychiatric emergency and plain confusion · The patient who smells of alcohol is the one most often denied a glucose and most harmed by it · Fresh lancet, sharp straight into the container · A NORMAL result removes one cause — it does not explain the patient",
+        "why_it_matters": "One of very few causes of altered mental status an EMT can both find and treat."
+      },
+      "high_yield": true,
+      "number": 36,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-07-C08",
+      "concept_id": "EMT-03-05-07",
+      "type": "skill",
+      "front": {
+        "title": "Blood glucose measurement",
+        "summary": "Critical steps and the common fails"
+      },
+      "back": {
+        "body": "See the skill card steps. Critical: gloves, in-date strips, fresh single-use lancet, IMMEDIATE sharps disposal, record reading and time, and keep assessing after a normal result.",
+        "why_it_matters": "The lancet left loose on the stretcher is how crews get stuck."
+      },
+      "high_yield": false,
+      "number": 37,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-08-C09",
+      "concept_id": "EMT-03-05-08",
+      "type": "concept",
+      "front": {
+        "title": "Temperature",
+        "summary": "Hypothermia does not need snow"
+      },
+      "back": {
+        "body": "Take one for: fever or suspected infection, heat exposure, cold exposure, very young and very old · A HOT patient may be heat illness, not infection — the treatments diverge · A cold patient may be hypothermic in MILD weather after long contact with a cold surface, especially if elderly, thin or intoxicated · Handle GENTLY and check the pulse LONGER · Record the route used",
+        "why_it_matters": "The elderly patient on a kitchen floor in October is the one who gets missed."
+      },
+      "high_yield": false,
+      "number": 38,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 3,
+        "module_name": "Assessment"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-03-05-08. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }
