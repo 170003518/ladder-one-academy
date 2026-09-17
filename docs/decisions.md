@@ -301,3 +301,23 @@ Two validator rules were too strict and have been relaxed:
   exists on disk is an error; the rest are counted as notes.
 - `quiz.js` draws `min(pool_size, available)`, so a concept with fewer questions than
   its `pool_size` degrades gracefully. That is thinness to report, not a defect.
+
+## Module 06 concept count (batch 3, item 3)
+
+The batch asked for 9 lessons and 50 concepts. The blueprint's Module 06 outline
+lists 45 sub-items across those 9 lessons, so five concepts had to be added. Rather
+than padding, the five were chosen where the batch's own card requests implied a
+concept that the outline had folded into a larger one:
+
+- **06-02-05 Tourniquet application** and **06-02-06 Wound packing and hemostatic
+  dressings** split out of the outline's single "external bleeding control" item,
+  because the batch asks for a skill card with sequence questions for each.
+- **06-05-06 Pelvic binder application**, split from "pelvic fractures and pelvic
+  binder", for the same reason.
+- **06-06-08 Helmet removal**, a standard trauma topic the outline omits.
+- **06-08-04 Trauma in pregnancy**, which the blueprint does not place anywhere:
+  Module 07's obstetrics lesson covers complications of pregnancy, not trauma to a
+  pregnant patient, so it sits in multi-system trauma.
+
+Final shape: 06-01 (4), 06-02 (6), 06-03 (4), 06-04 (5), 06-05 (6), 06-06 (8),
+06-07 (6), 06-08 (4), 06-09 (7) = 50.
