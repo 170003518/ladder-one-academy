@@ -202,6 +202,406 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-01-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-01-C01",
+      "concept_id": "EMT-09-02-01",
+      "type": "concept",
+      "front": {
+        "title": "Oxygen",
+        "summary": "Target it, do not default"
+      },
+      "back": {
+        "body": "OXYGEN IS A DRUG — indications, contraindications, effects and harms like anything else · INDICATED where the patient is HYPOXIC or where HYPOXIA IS LIKELY given the presentation — you do not always have a number first · MORE IS NOT AUTOMATICALLY BETTER: the aim is ADEQUATE OXYGENATION, NOT MAXIMUM DELIVERY, and excess is harmful in some conditions. TARGET PER PROTOCOL · DEVICE FOLLOWS NEED: cannula (lower) · non-rebreather (high) · BAG-VALVE-MASK where breathing is INADEQUATE — that patient needs SOMEONE TO MOVE AIR FOR THEM, not a richer mixture · OXYGEN DOES NOT BURN; IT MAKES EVERYTHING ELSE BURN FASTER — a real fire hazard, and SAY IT OUT LOUD to family who smoke · CYLINDERS ARE HIGH PRESSURE — a damaged valve is a projectile · DURATION AND DEVICE DETAIL LIVE IN MODULE 02",
+        "why_it_matters": "He had genuinely not thought about it, which is the usual answer."
+      },
+      "high_yield": true,
+      "number": 9,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-01-C02",
+      "concept_id": "EMT-09-02-01",
+      "type": "drug",
+      "front": {
+        "title": "Oxygen",
+        "summary": "Medical gas"
+      },
+      "back": {
+        "body": "See the drug card fields.",
+        "why_it_matters": "Dose per protocol / verify. Duration calculation: EMT-02-03-01."
+      },
+      "high_yield": true,
+      "number": 10,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-02-C03",
+      "concept_id": "EMT-09-02-02",
+      "type": "concept",
+      "front": {
+        "title": "Oral glucose",
+        "summary": "Airway first, always"
+      },
+      "back": {
+        "body": "GIVEN FOR SUSPECTED LOW BLOOD SUGAR — and one of the most satisfying things an EMT does · THE PATIENT MUST BE ABLE TO SWALLOW AND PROTECT THEIR OWN AIRWAY. That governs everything else · AND HERE IS THE TRAP: LOW SUGAR PRODUCES EXACTLY THE PATIENTS IN WHOM THAT IS UNCERTAIN — drowsy, confused, intermittently responsive. The indication and the danger arrive in the SAME PATIENT · NEVER TO AN UNCONSCIOUS PATIENT: not a smear, not on the gums, not because the family says it usually works · PLACE BETWEEN THE CHEEK AND THE GUM, not deep in the mouth · REASSESS — improvement is usually within MINUTES; document before and after · NO IMPROVEMENT MEANS THINK AGAIN, NOT GIVE MORE: stroke, head injury, overdose, hypoxia, infection",
+        "why_it_matters": "This might be the right drug for the wrong problem. Saying it early started everything else."
+      },
+      "high_yield": true,
+      "number": 11,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-02-C04",
+      "concept_id": "EMT-09-02-02",
+      "type": "drug",
+      "front": {
+        "title": "Oral glucose",
+        "summary": "Simple sugar"
+      },
+      "back": {
+        "body": "See the drug card fields.",
+        "why_it_matters": "Dose per protocol / verify. Never to a patient who cannot protect their airway."
+      },
+      "high_yield": true,
+      "number": 12,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-03-C05",
+      "concept_id": "EMT-09-02-03",
+      "type": "concept",
+      "front": {
+        "title": "Aspirin",
+        "summary": "It acts on the clot"
+      },
+      "back": {
+        "body": "A HEART ATTACK IS A CLOT BLOCKING A CORONARY ARTERY · PLATELETS START THE CLOT; ASPIRIN MAKES THEM LESS ABLE TO STICK TOGETHER, LIMITING IT · SO IT IS NOT TREATING THE PAIN — IT IS ACTING ON THE MECHANISM OF THE DISEASE · IT IS ONE OF VERY FEW PREHOSPITAL ACTIONS IN HEART ATTACK WITH CLEAR EVIDENCE OF BENEFIT · GIVE IT EARLY — the benefit is greatest BEFORE the clot is established, it takes seconds and needs no equipment, so it belongs at the FRONT of the call · CHEWED, not swallowed whole, where protocol directs · CONTRAINDICATIONS: known ALLERGY · ACTIVE BLEEDING · per protocol · cannot protect the airway · ASK WHETHER THEY HAVE ALREADY TAKEN IT TODAY — many take it daily, and some take one at onset, and nobody volunteers it · NOT GIVEN TO CHILDREN FOR FEVER",
+        "why_it_matters": "He had taken one two hours earlier, because that is what he had been told to do."
+      },
+      "high_yield": true,
+      "number": 13,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-03-C06",
+      "concept_id": "EMT-09-02-03",
+      "type": "drug",
+      "front": {
+        "title": "Aspirin",
+        "summary": "Antiplatelet"
+      },
+      "back": {
+        "body": "See the drug card fields.",
+        "why_it_matters": "Dose per protocol / verify. Acts on the clot, not on the pain."
+      },
+      "high_yield": true,
+      "number": 14,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-04-C07",
+      "concept_id": "EMT-09-02-04",
+      "type": "concept",
+      "front": {
+        "title": "Nitroglycerin",
+        "summary": "It lowers blood pressure"
+      },
+      "back": {
+        "body": "DILATES VESSELS → LESS WORK FOR THE HEART → LESS OXYGEN DEMAND → the pain eases · AT EMT LEVEL THIS IS USUALLY ASSISTING WITH THE PATIENT'S OWN PRESCRIPTION — prescribed to them, in date, protocol criteria met · SUBLINGUAL tablet or spray — fast, bypasses the gut and liver · EVERY DANGER FOLLOWS FROM ONE PROPERTY: IT LOWERS BLOOD PRESSURE · SYSTOLIC BELOW YOUR PROTOCOL'S THRESHOLD — contraindicated · ERECTILE DYSFUNCTION MEDICATION within your protocol's period — THE COMBINATION CAN DROP PRESSURE CATASTROPHICALLY AND HAS KILLED PEOPLE. ASK, PRIVATELY, MATTER-OF-FACTLY · HEAD INJURY · MAXIMUM DOSES PER PROTOCOL · BLOOD PRESSURE BEFORE EACH DOSE AND AFTER, EVERY TIME · WARN ABOUT HEADACHE · SIT OR LIE THEM DOWN — fainting is real · FULL LIST WITH FIGURES: EMT-04-02-08",
+        "why_it_matters": "Somebody asked the family to fetch his list from upstairs, and then asked it."
+      },
+      "high_yield": true,
+      "number": 15,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-04-C08",
+      "concept_id": "EMT-09-02-04",
+      "type": "drug",
+      "front": {
+        "title": "Nitroglycerin",
+        "summary": "Vasodilator"
+      },
+      "back": {
+        "body": "See the drug card fields.",
+        "why_it_matters": "Dose per protocol / verify. Blood pressure before every dose."
+      },
+      "high_yield": true,
+      "number": 16,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-05-C09",
+      "concept_id": "EMT-09-02-05",
+      "type": "concept",
+      "front": {
+        "title": "Epinephrine",
+        "summary": "The error is hesitation"
+      },
+      "back": {
+        "body": "EPINEPHRINE IS THE TREATMENT FOR ANAPHYLAXIS — not one of them, THE one · IT OPENS THE AIRWAYS, TIGHTENS THE VESSELS AND SUPPORTS THE PRESSURE AT THE SAME TIME, which is why nothing substitutes for it · THE COMMONEST ERROR IS GIVING IT TOO LATE — not wrongly, not too much. TOO LATE. Deaths in anaphylaxis are associated with the minutes spent being careful · IN TRUE ANAPHYLAXIS THERE IS NO ABSOLUTE CONTRAINDICATION — a cardiac history is not a reason to withhold it · INTRAMUSCULAR, OUTER THIGH, THROUGH CLOTHING — by design · HOLD FOR THE DEVICE'S TIME, THEN NOTE THE TIME · THUMB CLEAR OF BOTH ENDS — injecting your own thumb removes a provider from the call · IT WEARS OFF: a second dose may be needed · EVERY PATIENT IS TRANSPORTED",
+        "why_it_matters": "The partner said one word, which was now, and gave it."
+      },
+      "high_yield": true,
+      "number": 17,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-05-C10",
+      "concept_id": "EMT-09-02-05",
+      "type": "drug",
+      "front": {
+        "title": "Epinephrine",
+        "summary": "Auto-injector"
+      },
+      "back": {
+        "body": "See the drug card fields.",
+        "why_it_matters": "Dose per protocol / verify. Paediatric strengths: Module 05."
+      },
+      "high_yield": true,
+      "number": 18,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-06-C11",
+      "concept_id": "EMT-09-02-06",
+      "type": "concept",
+      "front": {
+        "title": "Bronchodilator inhalers",
+        "summary": "Technique is the dose"
+      },
+      "back": {
+        "body": "RELAXES THE MUSCLE AROUND THE AIRWAYS, opening them · At EMT level usually ASSISTING WITH THE PATIENT'S OWN INHALER — prescribed to them, in date, protocol criteria met · TECHNIQUE IS WHERE THE DOSE IS LOST: a badly used inhaler puts most of it ON THE BACK OF THE THROAT · SHAKE → BREATHE OUT → SEAL → FIRE AT THE START OF A SLOW DEEP BREATH IN → HOLD BRIEFLY. THE COORDINATION IS THE WHOLE TRICK · A SPACER IMPROVES DELIVERY CONSIDERABLY — many patients own one and have left it in a drawer. ASK · FAST HEART RATE, TREMOR AND JITTERINESS ARE EXPECTED — warn them, or they will think they are getting worse · REASSESS BY LISTENING AND BY WORK OF BREATHING, not by asking · A PATIENT TOO EXHAUSTED TO BREATHE IN DEEPLY CANNOT USE ONE — ESCALATE, do not repeat",
+        "why_it_matters": "The next dose actually went where it was supposed to."
+      },
+      "high_yield": true,
+      "number": 19,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-06-C12",
+      "concept_id": "EMT-09-02-06",
+      "type": "drug",
+      "front": {
+        "title": "Bronchodilator",
+        "summary": "Metered-dose inhaler"
+      },
+      "back": {
+        "body": "See the drug card fields.",
+        "why_it_matters": "Dose per protocol / verify. Usually assisting with the patient's own device."
+      },
+      "high_yield": true,
+      "number": 20,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-07-C13",
+      "concept_id": "EMT-09-02-07",
+      "type": "concept",
+      "front": {
+        "title": "Naloxone",
+        "summary": "Ventilate first"
+      },
+      "back": {
+        "body": "BLOCKS THE RECEPTORS THE OPIOID IS ACTING ON · OPIOID OVERDOSE KILLS BY STOPPING BREATHING — they are not dying of being unconscious · SO WHERE BREATHING IS INADEQUATE, VENTILATE FIRST, THEN GIVE IT · INTRANASAL OR INTRAMUSCULAR at EMT level — neither needs a vein · AIM FOR ADEQUATE BREATHING, NOT A FULLY AWAKE PATIENT. Breathing well but drowsy IS A SUCCESS · NALOXONE CAN WEAR OFF BEFORE THE OPIOID DOES — SO EVERY PATIENT IS TRANSPORTED AND WATCHED, however well they look. 'WHAT WOKE YOU UP WILL WEAR OFF BEFORE WHAT PUT YOU DOWN' · EXPECT WITHDRAWAL IN DEPENDENT PATIENTS: nausea, vomiting, pain, AGITATION — A DRUG EFFECT, NOT BAD BEHAVIOUR. Stand clear, have suction ready, explain calmly · NO RESPONSE? RECONSIDER THE DIAGNOSIS",
+        "why_it_matters": "By the time it went in, the patient had been oxygenated for two minutes rather than reversed while blue."
+      },
+      "high_yield": true,
+      "number": 21,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-07-C14",
+      "concept_id": "EMT-09-02-07",
+      "type": "drug",
+      "front": {
+        "title": "Naloxone",
+        "summary": "Opioid antagonist"
+      },
+      "back": {
+        "body": "See the drug card fields.",
+        "why_it_matters": "Dose per protocol / verify. Ventilate first; transport every patient."
+      },
+      "high_yield": true,
+      "number": 22,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-07. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-08-C15",
+      "concept_id": "EMT-09-02-08",
+      "type": "concept",
+      "front": {
+        "title": "Activated charcoal",
+        "summary": "Know what yours carries"
+      },
+      "back": {
+        "body": "BINDS CERTAIN SWALLOWED POISONS IN THE GUT so less is absorbed — the charcoal itself passes straight through · THREE LIMITS: IT DOES NOT BIND EVERYTHING · IT IS TIME-CRITICAL, and the benefit falls away as the poison is absorbed · MANY SYSTEMS NO LONGER CARRY IT, AND MANY REQUIRE MEDICAL DIRECTION — FIND OUT WHAT YOURS DOES · THE PATIENT MUST BE ALERT ENOUGH TO SWALLOW AND PROTECT THEIR AIRWAY, and here it is ABSOLUTE: ASPIRATED CHARCOAL CAUSES SEVERE LUNG INJURY · POISONED PATIENTS FLUCTUATE — ASK WHAT THEY WILL BE LIKE IN TEN MINUTES, NOT JUST NOW · CONTRAINDICATED AFTER CORROSIVES (no benefit, and it hides the damaged tissue) AND PETROLEUM PRODUCTS (aspiration on vomiting) · IT IS GENUINELY UNPLEASANT — SAY SO HONESTLY · USE POISON CONTROL",
+        "why_it_matters": "What is she likely to be in ten minutes, given what she took and when?"
+      },
+      "high_yield": true,
+      "number": 23,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-08. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-08-C16",
+      "concept_id": "EMT-09-02-08",
+      "type": "drug",
+      "front": {
+        "title": "Activated charcoal",
+        "summary": "Adsorbent"
+      },
+      "back": {
+        "body": "See the drug card fields.",
+        "why_it_matters": "Dose per protocol / verify. Many systems no longer carry it."
+      },
+      "high_yield": true,
+      "number": 24,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 9,
+        "module_name": "Pharmacology"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-09-02-08. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

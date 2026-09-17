@@ -26,6 +26,20 @@
         "EMT-09-01-06",
         "EMT-09-01-07"
       ]
+    },
+    {
+      "id": "EMT-09-02",
+      "title": "The EMT medications",
+      "concepts": [
+        "EMT-09-02-01",
+        "EMT-09-02-02",
+        "EMT-09-02-03",
+        "EMT-09-02-04",
+        "EMT-09-02-05",
+        "EMT-09-02-06",
+        "EMT-09-02-07",
+        "EMT-09-02-08"
+      ]
     }
   ],
   "concepts": [
@@ -1179,6 +1193,1467 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm your own scope, which medications are standing orders, and your medical direction contact procedure against your local protocol, which varies considerably by system. No medication doses appear anywhere in this module; every dose field reads 'per protocol / verify'."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-01",
+      "title": "Oxygen",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-02-03-01",
+        "EMT-02-02-01",
+        "EMT-09-01-02"
+      ],
+      "key_points": [
+        "Oxygen is a drug, and it is the one EMTs give most often",
+        "It is indicated where the patient is hypoxic or where hypoxia is likely given their condition",
+        "More is not automatically better — the aim is adequate oxygenation, not maximum delivery",
+        "Excessive oxygen can be harmful in some conditions, so target it rather than defaulting to the highest flow",
+        "The delivery device is chosen by how much the patient needs and what they will tolerate",
+        "Nasal cannula for lower concentrations, non-rebreather for high, bag-valve-mask where breathing is inadequate",
+        "Oxygen supports combustion, so it is a fire hazard around any ignition source",
+        "Cylinders are under high pressure and become dangerous projectiles if the valve is damaged",
+        "Cylinder duration depends on the pressure remaining, the cylinder size and the flow rate you choose",
+        "Cylinder duration calculation and device selection are covered in Module 02, and are not repeated here"
+      ],
+      "misconceptions": [
+        "Giving the highest flow to every patient regardless of need",
+        "Assuming more oxygen is always safer",
+        "Using oxygen near an ignition source",
+        "Failing to check remaining cylinder pressure before a long transport"
+      ],
+      "exam_favorites": [
+        "Target, do not default",
+        "Fire hazard",
+        "Duration lives in Module 02"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Oxygen is a drug. It is the one you will give most often, and being routine is exactly why it deserves stating plainly — it has indications, contraindications, effects and harms like anything else.\n\nIt is indicated where the patient is hypoxic, or where hypoxia is likely given their condition and presentation. That second part matters: you do not always have a number, and a patient who is clearly working hard to breathe, or who has a mechanism or condition that makes hypoxia likely, may need oxygen before any measurement confirms it.\n\nThe idea that has changed most in recent practice is this: more is not automatically better. For a long time the default was the highest flow available for almost everybody. Current practice targets adequate oxygenation rather than maximum delivery, because excessive oxygen is harmful in some conditions. Follow your protocol, which will give you the targets your system uses, and think in terms of what this patient needs rather than what the equipment can produce.\n\nDevice selection follows the same logic. A nasal cannula delivers lower concentrations, is well tolerated, and suits a patient who needs some support and can breathe adequately. A non-rebreather mask delivers high concentrations for a patient who needs them. And a bag-valve-mask is for a patient whose breathing is inadequate — which is a different problem entirely, because that patient does not need more oxygen in the air they are moving, they need someone to move air for them. Confusing those two situations is one of the more consequential errors in airway management.\n\nTwo safety points that are specific to oxygen as a physical substance.\n\nIt supports combustion. Oxygen does not burn, but it makes everything else burn far more readily and far faster. So it is a genuine fire hazard around any ignition source — smoking, open flame, sparks, faulty electrical equipment. That includes patients and family members who smoke, and it is worth saying out loud rather than assuming everyone knows.\n\nAnd cylinders are under very high pressure. A cylinder with a damaged valve can become a projectile capable of going through a wall. Secure cylinders properly, do not drop them, and handle the valve carefully.\n\nFinally, cylinder duration. How long a cylinder lasts depends on the pressure remaining, the cylinder size and the flow rate you have chosen — and running out mid-transport is a preventable failure that has real consequences. The calculation itself, along with device selection in detail, is covered in Module 02 and is deliberately not repeated here. Go and look at it there rather than learning a second, slightly different version of the same thing.",
+          "standard": "Oxygen constitutes a pharmaceutical agent with indications, contraindications, effects and potential harms, and is the most frequently administered agent at EMT level. Indications comprise documented hypoxia or clinical circumstances in which hypoxia is probable, the latter permitting administration in advance of measurement where work of breathing, mechanism or condition indicate likelihood. Contemporary practice targets adequate oxygenation rather than maximal delivery, prior practice having defaulted to maximal flow; excessive administration produces harm in certain conditions, and protocol-specified targets should be applied. Device selection follows required concentration and patient tolerance: nasal cannula provides lower concentrations with good tolerance for patients with adequate spontaneous ventilation; non-rebreather mask provides high concentrations; bag-valve-mask ventilation addresses inadequate ventilation, a distinct problem requiring assisted air movement rather than increased inspired concentration, the conflation of which constitutes a significant airway management error. Oxygen supports combustion without itself burning, substantially increasing ignition readiness and combustion rate of other materials, constituting a fire hazard around smoking materials, open flame, sparks and defective electrical equipment, warranting explicit communication to patients and bystanders. Cylinders contain gas at high pressure and may become projectiles following valve damage, requiring secure stowage and careful handling. Cylinder duration is determined by residual pressure, cylinder capacity and selected flow rate, with mid-transport exhaustion constituting a preventable failure; duration calculation and detailed device selection are addressed in Module 02 and are not duplicated here."
+        },
+        "eli_new": {
+          "analogy": "Oxygen does not burn. It makes everything else burn far more readily, which is a more dangerous property than burning would be.",
+          "body": "More is not automatically better. The aim is adequate oxygenation, not maximum delivery, and a patient whose breathing is inadequate needs you to move air for them rather than a richer mixture in the air they are failing to move."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how oxygen is used and what makes it hazardous.",
+          "must_hit": [
+            {
+              "point": "Oxygen is a drug with indications and harms",
+              "accept": [
+                "drug",
+                "indication",
+                "harm",
+                "contraindication",
+                "like anything"
+              ]
+            },
+            {
+              "point": "Indicated in hypoxia or where hypoxia is likely",
+              "accept": [
+                "hypox",
+                "likely",
+                "condition",
+                "presentation",
+                "indicated"
+              ]
+            },
+            {
+              "point": "More is not automatically better — target adequate oxygenation",
+              "accept": [
+                "more",
+                "not better",
+                "target",
+                "adequate",
+                "maximum"
+              ]
+            },
+            {
+              "point": "Excessive oxygen is harmful in some conditions",
+              "accept": [
+                "excess",
+                "harm",
+                "some conditions",
+                "protocol",
+                "target"
+              ]
+            },
+            {
+              "point": "Device follows need: cannula, non-rebreather, bag-valve-mask",
+              "accept": [
+                "cannula",
+                "non-rebreather",
+                "bag-valve",
+                "device",
+                "tolerate"
+              ]
+            },
+            {
+              "point": "Inadequate breathing needs assisted ventilation, not a richer mixture",
+              "accept": [
+                "inadequate",
+                "assist",
+                "ventilat",
+                "move air",
+                "different"
+              ]
+            },
+            {
+              "point": "Oxygen supports combustion and is a fire hazard",
+              "accept": [
+                "combustion",
+                "fire",
+                "burn",
+                "ignition",
+                "smoking"
+              ]
+            },
+            {
+              "point": "Cylinders are high pressure; duration is covered in Module 02",
+              "accept": [
+                "cylinder",
+                "pressure",
+                "projectile",
+                "duration",
+                "module 02"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Someone was smoking",
+          "dispatch": "Medic 5 — breathing difficulty at a private address.",
+          "body": "The oxygen went on within about ninety seconds, which was correct and well done.\n\nSomebody then noticed the son standing in the doorway with a cigarette, and said so out loud rather than assuming he knew.\n\nHe had genuinely not thought about it, which is the usual answer."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "oxygen",
+          "class": "medical gas",
+          "indications": [
+            "Hypoxia",
+            "Conditions in which hypoxia is likely given the presentation",
+            "Inadequate breathing, WITH assisted ventilation rather than oxygen alone"
+          ],
+          "contraindications": [
+            "Relative: conditions where excessive oxygen is harmful — TARGET PER PROTOCOL rather than defaulting to maximum flow",
+            "Never used near an ignition source"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify",
+          "route": "Inhaled — nasal cannula, non-rebreather mask, or bag-valve-mask where ventilation is inadequate",
+          "onset": "Rapid. Cylinder duration depends on residual pressure, cylinder size and flow rate — see EMT-02-03-01",
+          "side_effects": [
+            "Drying of mucous membranes",
+            "Harm from excessive administration in certain conditions",
+            "Fire hazard — supports combustion"
+          ],
+          "scope": "EMT administers. Device selection and cylinder duration are covered in Module 02 and are not duplicated here."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Oxygen targets and indications have changed in recent practice and vary by system: confirm against your own protocol. Cylinder duration calculation is deliberately not reproduced here — see EMT-02-03-01. NO DOSE IS STATED. Every dose field on every drug card in this module reads 'per protocol / verify'. Confirm doses, indications and contraindications against your own protocol and the current text before use."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-02",
+      "title": "Oral glucose",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-02"
+      ],
+      "related": [
+        "EMT-05-02-01",
+        "EMT-09-01-02",
+        "EMT-09-01-04"
+      ],
+      "key_points": [
+        "Oral glucose is given for suspected low blood sugar in a patient who can protect their own airway",
+        "It is a simple sugar, usually supplied as a gel, absorbed through the tissues of the mouth and the gut",
+        "The absolute requirement is that the patient can swallow and can protect their airway",
+        "Do not give it to an unconscious patient or anyone who cannot swallow — they will aspirate it",
+        "It is also contraindicated where the patient cannot follow commands enough to hold it in their mouth",
+        "Place it between the cheek and the gum, or as your protocol directs, rather than deep in the mouth",
+        "Improvement is usually noticeable within minutes, and reassessment is how you find out",
+        "If there is no improvement, consider other causes of altered mental status rather than assuming more is needed",
+        "Recheck the blood sugar where your protocol allows and document before and after values",
+        "The dose is per protocol — confirm it, and confirm whether your system uses it at all"
+      ],
+      "misconceptions": [
+        "Giving glucose to a patient who cannot protect their airway",
+        "Assuming no improvement means give more",
+        "Placing it deep in the mouth rather than in the cheek",
+        "Attributing all altered mental status to low sugar"
+      ],
+      "exam_favorites": [
+        "Airway first",
+        "Cheek and gum",
+        "No improvement means think again"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Oral glucose is given for suspected low blood sugar, and it is one of the most satisfying things an EMT does — a patient who was confused, combative or unrousable can become entirely themselves within minutes.\n\nIt is a simple sugar, usually supplied as a gel in a tube, and it is absorbed through the tissues of the mouth to some extent and through the gut once swallowed.\n\nAnd there is one requirement that governs everything: the patient must be able to swallow and protect their own airway.\n\nThat is worth stating as strongly as possible, because low blood sugar produces exactly the patients in whom this is uncertain. Someone who is drowsy, or confused, or only intermittently responsive, is the patient this drug was designed for and also the patient who may aspirate it. So the assessment comes first. Can they follow a simple instruction? Can they hold something in their mouth? Can they swallow on request? If you are not confident, do not give it, and treat them as a patient who needs a route you do not have — which means transport and a request for help.\n\nDo not give it to an unconscious patient. Ever. Not a smear on the gums, not a little bit, not because the family says it usually works. An unconscious patient with gel in their mouth is an aspiration waiting to happen, and aspiration can be fatal.\n\nWhen it is appropriate, placement matters. Between the cheek and the gum, or wherever your protocol directs, rather than deep in the mouth or on the back of the tongue — you want it where it will sit and dissolve rather than where it can be inhaled.\n\nThen reassess, which is the part that turns this into medicine rather than a procedure. Improvement is usually noticeable within a few minutes. Look for it specifically, and document what you saw before and after.\n\nAnd if there is no improvement, the correct response is not automatically to give more. It is to think again. Altered mental status has many causes, and low blood sugar is only one of them — a stroke, a head injury, an overdose, hypoxia, an infection. A patient who does not respond to glucose may have been given the right drug for the wrong problem, and that information is valuable rather than disappointing.\n\nRecheck the blood sugar where your protocol allows it, and document both values along with the time.\n\nThe dose is per protocol. Confirm it, and confirm whether your system carries this at all — practice varies, and some systems have moved to other approaches.",
+          "standard": "Oral glucose is administered for suspected hypoglycaemia in patients with intact airway protective reflexes. It comprises a simple carbohydrate, typically supplied as gel, absorbed partially through oral mucosa and subsequently enterally. The governing requirement is demonstrated capacity to swallow and protect the airway. This assumes particular significance as hypoglycaemia produces precisely the population in which airway protection is uncertain: drowsy, confused or intermittently responsive patients constitute both the indicated population and the aspiration-risk population. Assessment precedes administration, addressing ability to follow simple instruction, retain material in the mouth and swallow on request; where capacity is uncertain, administration is withheld and the patient managed by transport and escalation. Administration to unconscious patients is absolutely contraindicated, including small quantities or gingival application, as aspiration carries potential mortality. Where administration is appropriate, placement between cheek and gingiva, or as protocol specifies, is preferred to posterior placement, permitting dissolution without inhalation risk. Reassessment follows administration, with improvement typically apparent within minutes; pre- and post-administration findings should be documented. Absence of improvement indicates reconsideration of aetiology rather than repeat administration, as altered mental status has multiple causes including cerebrovascular event, head injury, toxic ingestion, hypoxia and infection; non-response constitutes diagnostic information. Blood glucose should be rechecked where protocol permits, with both values and times documented. Dose is protocol-determined, and carriage varies between systems."
+        },
+        "eli_new": {
+          "analogy": "Low blood sugar produces exactly the patients in whom swallowing is uncertain. The drug's indication and its biggest danger arrive in the same patient.",
+          "body": "Never in an unconscious patient. Not a smear on the gums, not a little bit, not because the family says it usually works."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain when oral glucose is given and the one thing that governs it.",
+          "must_hit": [
+            {
+              "point": "Given for suspected low blood sugar",
+              "accept": [
+                "low blood sugar",
+                "hypoglyc",
+                "suspected",
+                "glucose",
+                "sugar"
+              ]
+            },
+            {
+              "point": "The patient must be able to swallow and protect their airway",
+              "accept": [
+                "swallow",
+                "airway",
+                "protect",
+                "must",
+                "able"
+              ]
+            },
+            {
+              "point": "Hypoglycaemia produces exactly the patients in whom this is uncertain",
+              "accept": [
+                "drowsy",
+                "confus",
+                "uncertain",
+                "same patient",
+                "risk"
+              ]
+            },
+            {
+              "point": "Never to an unconscious patient",
+              "accept": [
+                "never",
+                "unconscious",
+                "aspirat",
+                "not even",
+                "gums"
+              ]
+            },
+            {
+              "point": "Place between cheek and gum, not deep in the mouth",
+              "accept": [
+                "cheek",
+                "gum",
+                "placement",
+                "not deep",
+                "tongue"
+              ]
+            },
+            {
+              "point": "Reassess — improvement is usually within minutes",
+              "accept": [
+                "reassess",
+                "minutes",
+                "improve",
+                "document",
+                "before and after"
+              ]
+            },
+            {
+              "point": "No improvement means think again, not give more",
+              "accept": [
+                "no improvement",
+                "think",
+                "other causes",
+                "not more",
+                "again"
+              ]
+            },
+            {
+              "point": "Other causes of altered mental status exist",
+              "accept": [
+                "stroke",
+                "head injury",
+                "overdose",
+                "hypox",
+                "infection"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Not better",
+          "dispatch": "Medic 3 — altered mental status, low reading on the meter.",
+          "body": "The sugar was low, the gel went in correctly, and eight minutes later nothing had changed.\n\nSomebody said out loud that this might be the right drug for the wrong problem.\n\nIt was, and saying it early is what got the rest of the assessment started."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "oral glucose",
+          "class": "carbohydrate / simple sugar",
+          "indications": [
+            "Suspected hypoglycaemia in a patient who CAN SWALLOW AND PROTECT THEIR OWN AIRWAY"
+          ],
+          "contraindications": [
+            "UNCONSCIOUS PATIENT — absolute. Not a smear, not on the gums, not a little bit",
+            "Unable to swallow",
+            "Unable to follow instruction well enough to keep it in their mouth",
+            "Known allergy"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify",
+          "route": "Oral — placed between the cheek and the gum, or as protocol directs. NOT deep in the mouth",
+          "onset": "Usually noticeable within minutes — REASSESS and document before and after",
+          "side_effects": [
+            "Aspiration if given to a patient who cannot protect the airway",
+            "Nausea"
+          ],
+          "scope": "EMT administers per protocol. NO IMPROVEMENT MEANS RECONSIDER THE CAUSE, not give more."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm oral glucose indications, contraindications, placement and whether your system carries it against your local protocol. NO DOSE IS STATED. Every dose field on every drug card in this module reads 'per protocol / verify'. Confirm doses, indications and contraindications against your own protocol and the current text before use."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-03",
+      "title": "Aspirin",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-04"
+      ],
+      "related": [
+        "EMT-04-02-07",
+        "EMT-04-02-08",
+        "EMT-09-01-04"
+      ],
+      "key_points": [
+        "Aspirin is given in suspected heart attack because it reduces the clotting that is causing it",
+        "It works by making platelets less able to stick together, which limits the clot",
+        "It is one of the few prehospital interventions with clear evidence of benefit in heart attack",
+        "It is given early, because the benefit is greatest before the clot is established",
+        "Chewing it speeds absorption, so it is chewed rather than swallowed whole where protocol directs",
+        "Contraindications include known allergy, active bleeding, and per your protocol",
+        "Ask specifically about bleeding disorders and whether the patient already takes it today",
+        "It is not a painkiller in this context, and the patient's pain is treated separately",
+        "The patient must be able to swallow and protect their airway, as with anything oral",
+        "Aspirin is not given to children for fever because of a rare but serious complication"
+      ],
+      "misconceptions": [
+        "Delaying aspirin while sorting out other things",
+        "Assuming the patient has already taken it without asking",
+        "Giving it to a patient who cannot protect their airway",
+        "Treating it as a painkiller for chest pain"
+      ],
+      "exam_favorites": [
+        "Why it works",
+        "Give it early",
+        "Chew, do not swallow"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Aspirin is given in suspected heart attack, and it is worth understanding why, because the reason makes the urgency obvious.\n\nA heart attack happens because a clot forms in a coronary artery and blocks the blood supply to part of the heart muscle. Platelets are the cells that clump together to start a clot. Aspirin makes platelets less able to stick to each other, which limits the clot from growing and helps keep the vessel from closing completely.\n\nSo aspirin is not treating the pain. It is acting on the actual mechanism of the disease, and that is the reason it matters.\n\nAnd it is one of the very few things done in the prehospital phase of a heart attack with clear, well-established evidence of benefit — in terms of lives saved per action taken, this simple tablet outperforms most of what is done on these calls.\n\nWhich leads to the practical point: give it early. The benefit is greatest before the clot is well established, so this belongs near the front of the call rather than being remembered on the way to hospital. It is quick, it needs no equipment, and it should not be waiting behind other tasks.\n\nWhere protocol directs, it is chewed rather than swallowed whole, because chewing breaks it up and speeds absorption. Tell the patient to chew it and then swallow, and expect them to comment on the taste.\n\nContraindications. Known allergy, which you ask about before giving it as you would with anything. Active bleeding. And whatever else your protocol specifies. Ask specifically about bleeding disorders and about recent bleeding, because patients do not always connect those things to chest pain.\n\nAsk whether they have already taken it today — many people with cardiac histories take a small dose daily, and some will have taken a tablet when the pain started because they were told to. That is exactly the kind of thing that is not volunteered and that changes what you give.\n\nAnd as with anything oral: the patient must be able to swallow and protect their airway.\n\nOne further point worth carrying. Aspirin is not given to children for fever, because of a rare but serious complication associated with its use in children with viral illness. That is not a prehospital cardiac issue, but it is a piece of knowledge that occasionally matters when a parent asks you what they can give.\n\nThe dose is per protocol, and it is not the same as the dose used for pain. Confirm it.",
+          "standard": "Aspirin is administered in suspected acute coronary syndrome on the basis of its antiplatelet mechanism. Myocardial infarction results from coronary thrombus formation with consequent interruption of myocardial perfusion; platelets mediate initial thrombus formation, and aspirin impairs platelet aggregation, limiting thrombus propagation and vessel occlusion. Aspirin therefore addresses disease mechanism rather than symptom. It constitutes one of few prehospital interventions in myocardial infarction with established evidence of mortality benefit, with favourable benefit per intervention relative to other measures in this setting. Administration should occur early, as benefit is greatest prior to thrombus establishment; administration should precede rather than follow other tasks, requiring no equipment and minimal time. Where protocol specifies, the tablet is chewed rather than swallowed intact, as disintegration accelerates absorption. Contraindications comprise known allergy, active haemorrhage and protocol-specified additional criteria; specific enquiry regarding bleeding disorders and recent haemorrhage is indicated, as patients may not associate these with the presenting complaint. Enquiry regarding prior administration on the same day is indicated, as daily low-dose therapy is common among patients with cardiac history and self-administration at symptom onset occurs; this information is infrequently volunteered. Airway protection requirements apply as for all oral administration. Aspirin is not administered to children for pyrexia owing to a rare but serious complication associated with use during viral illness. Dose is protocol-determined and differs from analgesic dosing."
+        },
+        "eli_new": {
+          "analogy": "Aspirin is not treating the chest pain. It is acting on the clot that is causing the chest pain, which is why the timing matters so much.",
+          "body": "Give it early. It takes seconds, needs no equipment, and the benefit is greatest before the clot is established — so it belongs near the front of the call, not remembered on the way in."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why aspirin is given in suspected heart attack and what you check first.",
+          "must_hit": [
+            {
+              "point": "A heart attack is caused by a clot blocking a coronary artery",
+              "accept": [
+                "clot",
+                "coronary",
+                "block",
+                "artery",
+                "muscle"
+              ]
+            },
+            {
+              "point": "Aspirin stops platelets sticking together, limiting the clot",
+              "accept": [
+                "platelet",
+                "stick",
+                "clump",
+                "limit",
+                "aggregat"
+              ]
+            },
+            {
+              "point": "It treats the mechanism, not the pain",
+              "accept": [
+                "not pain",
+                "mechanism",
+                "disease",
+                "cause",
+                "painkiller"
+              ]
+            },
+            {
+              "point": "It has clear evidence of benefit",
+              "accept": [
+                "evidence",
+                "benefit",
+                "lives",
+                "proven",
+                "few"
+              ]
+            },
+            {
+              "point": "Give it early — before the clot is established",
+              "accept": [
+                "early",
+                "front",
+                "before",
+                "establish",
+                "quick"
+              ]
+            },
+            {
+              "point": "Chewed rather than swallowed whole where protocol directs",
+              "accept": [
+                "chew",
+                "swallow",
+                "absorb",
+                "faster",
+                "whole"
+              ]
+            },
+            {
+              "point": "Contraindications include allergy and active bleeding",
+              "accept": [
+                "allergy",
+                "bleeding",
+                "contraindication",
+                "disorder",
+                "protocol"
+              ]
+            },
+            {
+              "point": "Ask whether they have already taken it today",
+              "accept": [
+                "already",
+                "today",
+                "daily",
+                "taken",
+                "ask"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "This morning",
+          "dispatch": "Medic 6 — chest pain, cardiac history.",
+          "body": "Somebody asked whether he had taken anything when the pain started, which is not a question people volunteer an answer to.\n\nHe had. Two hours earlier, because that is what he had been told to do.\n\nIt changed what went in, and it went in the report."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "aspirin",
+          "trade": "various",
+          "class": "antiplatelet / salicylate",
+          "indications": [
+            "Suspected acute coronary syndrome — chest pain or presentation suggesting heart attack, per protocol"
+          ],
+          "contraindications": [
+            "Known allergy",
+            "Active bleeding",
+            "Per your protocol — confirm the full list",
+            "Unable to swallow or protect the airway"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "Not applicable at EMT level. NOT given to children for fever — rare but serious complication in viral illness",
+          "route": "Oral — CHEWED rather than swallowed whole where protocol directs, which speeds absorption",
+          "onset": "Give EARLY — benefit is greatest before the clot is established",
+          "side_effects": [
+            "Gastric irritation",
+            "Increased bleeding",
+            "Allergic reaction"
+          ],
+          "scope": "EMT administers per protocol. ASK WHETHER THEY HAVE ALREADY TAKEN IT TODAY — nobody volunteers it."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm aspirin indications, contraindications, formulation and whether it is chewed against your local protocol. NO DOSE IS STATED. Every dose field on every drug card in this module reads 'per protocol / verify'. Confirm doses, indications and contraindications against your own protocol and the current text before use."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-04",
+      "title": "Nitroglycerin",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-04"
+      ],
+      "related": [
+        "EMT-04-02-08",
+        "EMT-04-02-07",
+        "EMT-09-01-07"
+      ],
+      "key_points": [
+        "Nitroglycerin relieves cardiac chest pain by dilating blood vessels and reducing the heart's workload",
+        "At EMT level it is usually assisting the patient with their own prescribed medication",
+        "It is given under the tongue as a tablet or spray, which absorbs quickly and bypasses the gut",
+        "Because it dilates vessels, it lowers blood pressure — which is the source of most of its dangers",
+        "Systolic blood pressure below the threshold in your protocol is a contraindication",
+        "Erectile dysfunction medication within the preceding period is a contraindication, because the combination can drop pressure catastrophically",
+        "Head injury is a contraindication, and there is a maximum number of doses per protocol",
+        "Take a blood pressure before each dose and again afterwards, every time",
+        "Warn the patient about headache, which is common and expected",
+        "Have the patient sitting or lying down, because fainting after a dose is a real risk"
+      ],
+      "misconceptions": [
+        "Giving a dose without a blood pressure",
+        "Failing to ask about erectile dysfunction medication",
+        "Assisting with someone else's prescription",
+        "Leaving the patient standing after a dose"
+      ],
+      "exam_favorites": [
+        "Blood pressure before every dose",
+        "The ED medication question",
+        "Sit them down"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Nitroglycerin relieves cardiac chest pain, and it does so by dilating blood vessels. Widening the vessels reduces the amount of work the heart has to do to push blood out, which reduces how much oxygen the heart muscle needs — and chest pain of cardiac origin comes from heart muscle not getting enough oxygen for what it is being asked to do. Reduce the demand and the pain eases.\n\nAt EMT level, this is usually assisting a patient with their own prescribed medication rather than administering one your service carries. Which brings its own conditions: it must be prescribed to this patient, it must be in date, and your protocol will specify the criteria.\n\nIt goes under the tongue — tablet or spray — where it absorbs quickly through a rich blood supply and bypasses the gut and the liver entirely. That is why it works in minutes rather than in half an hour.\n\nNow the important part, and it all follows from one fact: because it dilates blood vessels, it lowers blood pressure. Every significant danger with this drug comes from that single property, and if you hold on to that, the contraindications stop being a list to memorise and become obvious consequences.\n\nA patient whose blood pressure is already low cannot afford to lose more. So a systolic pressure below the threshold in your protocol is a contraindication. Take a blood pressure before each dose — not before the first one only, before each one — and take another afterwards.\n\nErectile dysfunction medications also dilate blood vessels, by a related mechanism. Combining them with nitroglycerin can drop the blood pressure catastrophically and has killed people. So you ask, and you ask in a way that gets an honest answer: privately where you can, matter-of-factly, explaining why you need to know. This is not an optional or embarrassing question; it is one of the few questions on any call where the answer directly determines whether a drug is safe. Your protocol will specify the time period involved.\n\nHead injury is a contraindication, and there is a maximum number of doses in your protocol.\n\nPractical points that make the difference between a good administration and a bad one. Warn the patient about headache — it is common, it is expected, and it is much less alarming if somebody said it would happen. And have them sitting or lying down. Fainting after a dose is a genuine risk because the blood pressure drops, and a patient who faints standing up now has a head injury as well as chest pain.\n\nThe full contraindication list for nitroglycerin, with the specific figures, lives in EMT-04-02-08. Go and read it there.",
+          "standard": "Nitroglycerin relieves cardiac chest pain by vasodilatation, reducing cardiac workload and consequently myocardial oxygen demand; anginal pain arises from myocardial oxygen demand exceeding supply, and demand reduction relieves it. At EMT level administration typically comprises assistance with the patient's own prescribed medication rather than service-carried administration, subject to conditions including prescription to that patient, validity of expiry and protocol-specified criteria. Administration is sublingual by tablet or spray, affording rapid absorption through vascular mucosa with avoidance of gastrointestinal transit and hepatic first pass, producing onset within minutes. All significant hazards derive from the vasodilatory mechanism producing reduction in blood pressure. Systolic blood pressure below the protocol-specified threshold constitutes a contraindication; blood pressure measurement is required prior to each dose rather than prior to the first alone, with post-administration measurement. Erectile dysfunction medications produce vasodilatation by a related mechanism; concurrent administration may produce profound hypotension with reported fatality, and specific enquiry is mandatory, conducted privately and matter-of-factly with explanation of rationale, the protocol specifying the relevant interval. Head injury constitutes a contraindication, and protocols specify a maximum dose number. Patients should be forewarned of headache, which is common and expected. Patients should be seated or recumbent during administration, as post-administration syncope is a recognised risk and syncope from standing adds head injury to the presenting complaint. The complete contraindication list with specific figures is held in EMT-04-02-08."
+        },
+        "eli_new": {
+          "analogy": "Every danger with this drug comes from one property: it lowers blood pressure. Hold on to that and the contraindications stop being a list and become obvious.",
+          "body": "Blood pressure before every dose, not just the first. And ask the erectile dysfunction medication question properly — it is one of very few questions where the answer decides whether a drug is safe."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how nitroglycerin works and why its contraindications are what they are.",
+          "must_hit": [
+            {
+              "point": "It dilates vessels, reducing the heart's workload and oxygen demand",
+              "accept": [
+                "dilat",
+                "vessel",
+                "workload",
+                "demand",
+                "oxygen"
+              ]
+            },
+            {
+              "point": "At EMT level it is usually assisting with the patient's own prescription",
+              "accept": [
+                "assist",
+                "own",
+                "prescribed",
+                "patient",
+                "conditions"
+              ]
+            },
+            {
+              "point": "Sublingual, absorbing quickly and bypassing the gut",
+              "accept": [
+                "sublingual",
+                "under the tongue",
+                "spray",
+                "fast",
+                "bypass"
+              ]
+            },
+            {
+              "point": "Every danger follows from the fact that it lowers blood pressure",
+              "accept": [
+                "lowers",
+                "blood pressure",
+                "danger",
+                "follows",
+                "property"
+              ]
+            },
+            {
+              "point": "Systolic below the protocol threshold is a contraindication",
+              "accept": [
+                "systolic",
+                "threshold",
+                "below",
+                "contraindication",
+                "protocol"
+              ]
+            },
+            {
+              "point": "Erectile dysfunction medication is a contraindication — ask specifically",
+              "accept": [
+                "erectile",
+                "dysfunction",
+                "ask",
+                "combination",
+                "catastroph"
+              ]
+            },
+            {
+              "point": "Head injury, and a maximum number of doses",
+              "accept": [
+                "head injury",
+                "maximum",
+                "doses",
+                "three",
+                "protocol"
+              ]
+            },
+            {
+              "point": "Blood pressure before each dose; warn about headache; sit them down",
+              "accept": [
+                "before each",
+                "headache",
+                "warn",
+                "sitting",
+                "faint"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Privately",
+          "dispatch": "Medic 9 — chest pain, patient has his own spray, family present.",
+          "body": "The question is an awkward one to ask with a man's wife and daughter standing in the room.\n\nSomebody asked the family to fetch his medication list from upstairs, and then asked it.\n\nThe answer was yes. Nothing went under that tongue."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "nitroglycerin",
+          "trade": "various",
+          "class": "vasodilator / nitrate",
+          "indications": [
+            "Cardiac chest pain, per protocol, in a patient with their OWN prescribed medication"
+          ],
+          "contraindications": [
+            "Systolic blood pressure below the threshold in YOUR protocol",
+            "ERECTILE DYSFUNCTION MEDICATION within the period your protocol specifies — the combination can drop pressure catastrophically",
+            "Head injury",
+            "Maximum number of doses per protocol already given",
+            "Not prescribed to this patient, or out of date"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "Not applicable at EMT level",
+          "route": "Sublingual — tablet or spray. Absorbs fast and bypasses the gut and liver",
+          "onset": "Minutes. TAKE A BLOOD PRESSURE BEFORE EACH DOSE AND AGAIN AFTERWARDS",
+          "side_effects": [
+            "HEADACHE — common and expected; warn the patient",
+            "Hypotension",
+            "Dizziness and fainting — HAVE THEM SITTING OR LYING DOWN"
+          ],
+          "scope": "EMT usually ASSISTS with the patient's own. IT LOWERS BLOOD PRESSURE. Full list: EMT-04-02-08."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. The full nitroglycerin contraindication list with specific figures is held in EMT-04-02-08 and carries its own verify note. Confirm the systolic threshold, the erectile dysfunction medication interval and the maximum dose count against your local protocol. NO DOSE IS STATED. Every dose field on every drug card in this module reads 'per protocol / verify'. Confirm doses, indications and contraindications against your own protocol and the current text before use."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-05",
+      "title": "Epinephrine by auto-injector",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-02"
+      ],
+      "related": [
+        "EMT-05-03-02",
+        "EMT-05-03-01",
+        "EMT-09-01-02"
+      ],
+      "key_points": [
+        "Epinephrine is the treatment for anaphylaxis, and nothing else takes its place",
+        "It works on several problems at once: it opens the airways, tightens the vessels and supports the blood pressure",
+        "The most common error in anaphylaxis is giving it too late, not giving it wrongly",
+        "There is no absolute contraindication in true anaphylaxis — the alternative is worse than any risk",
+        "It is given intramuscularly, into the outer thigh, and it works through clothing",
+        "Hold the injector in place for the time the device specifies, then note the time of administration",
+        "The device is held with the thumb away from both ends, because injecting a thumb is a real and preventable injury",
+        "Effects wear off, and a patient may deteriorate again, so a second dose may be needed per protocol",
+        "Every patient given epinephrine is transported, however well they look afterwards",
+        "Paediatric devices exist in a different strength, and the paediatric detail is covered in Module 05"
+      ],
+      "misconceptions": [
+        "Waiting to see whether anaphylaxis improves on its own",
+        "Placing the thumb over the end of the injector",
+        "Assuming a patient who improves does not need transport",
+        "Hesitating because of a cardiac history in true anaphylaxis"
+      ],
+      "exam_favorites": [
+        "Too late is the error",
+        "Outer thigh, through clothing",
+        "Always transport"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Epinephrine is the treatment for anaphylaxis. Not one of the treatments — the treatment. Nothing else takes its place, and every other measure is supportive around it.\n\nIt works because it does several things at once, each addressing a different part of what anaphylaxis is doing. It opens the airways, reversing the bronchospasm that is stopping air moving. It tightens blood vessels, which reverses the massive dilation that is dropping the blood pressure. And it reduces the further release of the chemicals driving the reaction. One drug, acting on the airway and the circulation simultaneously, which is why it works when nothing else does.\n\nNow the most important thing in this concept, and it is not pharmacology. The commonest error in anaphylaxis is giving epinephrine too late. Not giving it wrongly, not giving too much — too late. People hesitate, wait to see whether it settles, try something else first, or want to be certain before committing. And deaths from anaphylaxis are associated with delayed administration.\n\nSo understand the risk balance properly. In true anaphylaxis there is no absolute contraindication. A patient with a cardiac history still gets it, because a severe allergic reaction will kill them faster and more certainly than the drug will. The hesitation that feels like caution is, in this specific situation, the dangerous option.\n\nAdministration. It goes intramuscularly into the outer thigh — the muscle there is large, well supplied with blood, and easy to find on any patient in any position. It works through clothing, which is deliberate, because the device was designed to be used by frightened people in the real world rather than in a clinic.\n\nHold the injector in place for the time the device specifies, so the full dose is delivered rather than partly left in the device. Then note the time of administration, because that time drives everything that follows.\n\nOne mechanical point worth emphasising: hold the device with your thumb away from both ends. Injecting your own thumb happens, it is painful, it can cause real vascular injury, and it removes a provider from the call. Grip it in a fist, needle end away from you, and look at which end is which before you move.\n\nThe effects wear off, and this matters clinically. A patient can improve dramatically and then deteriorate again as the drug wears off while the reaction continues. So a second dose may be indicated per your protocol, and the patient must be watched rather than assumed to be fixed.\n\nWhich leads to the rule: every patient given epinephrine is transported, however well they look. Improvement is not resolution, the reaction can return, and a patient who refuses at this point needs a real conversation about why.\n\nPaediatric auto-injectors exist in a different strength, and the paediatric detail is covered in Module 05 rather than repeated here.",
+          "standard": "Epinephrine constitutes the definitive treatment for anaphylaxis, with all other measures supportive. Its efficacy derives from simultaneous action on multiple pathophysiological components: bronchodilatation reversing bronchospasm, vasoconstriction reversing vasodilatation-induced hypotension, and attenuation of further mediator release. The predominant error in anaphylaxis management is delayed rather than incorrect administration, with hesitation, observation for spontaneous improvement, trial of alternative measures and diagnostic certainty-seeking contributing; mortality from anaphylaxis is associated with administration delay. In true anaphylaxis no absolute contraindication exists, including cardiac history, as untreated severe allergic reaction carries greater and more immediate mortality than the agent; apparent caution constitutes the hazardous option in this circumstance. Administration is intramuscular into the lateral thigh, selected for muscle bulk, vascularity and accessibility in any patient position, and is effective through clothing by design, the device being intended for lay use under duress. The injector is held in position for the device-specified interval to ensure complete delivery, and administration time recorded, as subsequent management depends upon it. The device is grasped in a fist with the thumb clear of both ends and the needle end directed away, as inadvertent digital injection occurs, causes pain and potential vascular injury, and removes a provider from the incident. Drug effect is time-limited, and clinical deterioration may recur as effect declines while the reaction persists; repeat administration may be indicated per protocol and continued observation is required. All patients receiving epinephrine require transport irrespective of apparent recovery, as improvement does not constitute resolution. Paediatric auto-injectors exist at differing strength; paediatric detail is addressed in Module 05."
+        },
+        "eli_new": {
+          "analogy": "One drug, acting on the airway and the circulation at the same time. That is why nothing else substitutes for it.",
+          "body": "The error is hesitation. In true anaphylaxis there is no absolute contraindication, and the caution that feels responsible is the dangerous choice."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why epinephrine is the treatment for anaphylaxis and how it is given.",
+          "must_hit": [
+            {
+              "point": "It is the treatment, not one of several",
+              "accept": [
+                "the treatment",
+                "nothing else",
+                "definitive",
+                "replaces",
+                "only"
+              ]
+            },
+            {
+              "point": "It opens airways, tightens vessels and supports blood pressure",
+              "accept": [
+                "airway",
+                "open",
+                "vessel",
+                "tighten",
+                "pressure",
+                "bronch"
+              ]
+            },
+            {
+              "point": "The commonest error is giving it too late",
+              "accept": [
+                "too late",
+                "delay",
+                "hesitat",
+                "commonest",
+                "error"
+              ]
+            },
+            {
+              "point": "There is no absolute contraindication in true anaphylaxis",
+              "accept": [
+                "no absolute",
+                "contraindication",
+                "cardiac",
+                "anyway",
+                "worse"
+              ]
+            },
+            {
+              "point": "Intramuscular into the outer thigh, working through clothing",
+              "accept": [
+                "intramuscular",
+                "thigh",
+                "outer",
+                "clothing",
+                "through"
+              ]
+            },
+            {
+              "point": "Hold in place for the specified time and note the time given",
+              "accept": [
+                "hold",
+                "place",
+                "time",
+                "note",
+                "record"
+              ]
+            },
+            {
+              "point": "Keep the thumb away from both ends",
+              "accept": [
+                "thumb",
+                "end",
+                "fist",
+                "inject",
+                "away"
+              ]
+            },
+            {
+              "point": "Effects wear off; transport every patient",
+              "accept": [
+                "wear off",
+                "second dose",
+                "deteriorate",
+                "transport",
+                "always"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Now",
+          "dispatch": "Medic 1 — severe allergic reaction, patient has her own injector.",
+          "body": "Somebody wanted to take another set of observations first, which sounds like good practice.\n\nThe partner said one word, which was now, and gave it.\n\nDeaths in anaphylaxis are associated with the minutes people spend being careful."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "epinephrine",
+          "trade": "various auto-injectors",
+          "class": "sympathomimetic / vasoconstrictor and bronchodilator",
+          "indications": [
+            "ANAPHYLAXIS — severe allergic reaction, per protocol"
+          ],
+          "contraindications": [
+            "NONE ABSOLUTE IN TRUE ANAPHYLAXIS — a cardiac history is not a reason to withhold it",
+            "Device not prescribed to this patient, or out of date, where you are assisting"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify — paediatric devices are a different strength; see Module 05",
+          "route": "Intramuscular, OUTER THIGH. Works THROUGH CLOTHING by design",
+          "onset": "Rapid, and IT WEARS OFF — a patient can improve and then deteriorate again. A second dose may be indicated per protocol",
+          "side_effects": [
+            "Tachycardia",
+            "Palpitations",
+            "Anxiety, tremor",
+            "Pallor",
+            "Headache"
+          ],
+          "scope": "EMT administers or assists per protocol. THE COMMONEST ERROR IS GIVING IT TOO LATE. ALWAYS TRANSPORT."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm epinephrine indications, device handling, repeat dosing and transport requirements against your local protocol. Paediatric strengths and detail are covered in Module 05 and are not duplicated here. NO DOSE IS STATED. Every dose field on every drug card in this module reads 'per protocol / verify'. Confirm doses, indications and contraindications against your own protocol and the current text before use."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-06",
+      "title": "Bronchodilators by inhaler",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-07"
+      ],
+      "related": [
+        "EMT-05-01-02",
+        "EMT-02-01-01",
+        "EMT-09-01-07"
+      ],
+      "key_points": [
+        "Bronchodilators relax the muscle around the airways, opening them in asthma and similar conditions",
+        "At EMT level this is usually assisting a patient with their own prescribed inhaler",
+        "Check it is prescribed to this patient, is in date, and that the criteria in your protocol are met",
+        "Shake the inhaler, have the patient breathe out, then fire it as they breathe in slowly and deeply",
+        "Ask them to hold the breath briefly afterwards so the drug settles in the airways",
+        "Technique is where most of the dose is lost — a badly used inhaler delivers very little",
+        "A spacer improves delivery considerably and is worth using where one is available",
+        "Side effects follow from the mechanism: a faster heart rate, tremor and anxiety are expected",
+        "Reassess afterwards by listening and by looking at the work of breathing, not just by asking",
+        "A patient who is too tired or too obstructed to take a deep breath in cannot use an inhaler effectively"
+      ],
+      "misconceptions": [
+        "Firing the inhaler without coordinating with the breath",
+        "Not checking the prescription or the expiry",
+        "Treating tremor and a fast heart rate as an adverse reaction",
+        "Using an inhaler in a patient too exhausted to inhale"
+      ],
+      "exam_favorites": [
+        "Coordinate with the breath",
+        "Spacers",
+        "Too tired to inhale"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Bronchodilators relax the smooth muscle wrapped around the airways. In asthma and similar conditions that muscle has tightened, narrowing the tubes and making it hard to move air, particularly outward. Relax the muscle and the airway opens.\n\nAt EMT level this is usually assisting a patient with their own prescribed inhaler rather than administering one your service carries. So the assisting conditions apply: check it is prescribed to this patient, check it is in date, and check that the criteria in your protocol are met.\n\nTechnique is the part that decides whether this works, and it is worth taking seriously, because a badly used inhaler delivers a small fraction of its dose and the rest ends up on the back of the throat.\n\nShake the inhaler. Have the patient breathe out, away from the device. Then have them put it to their lips, seal around it, and fire it at the start of a slow, deep breath in — the coordination is the whole trick. Firing before the breath starts, or after it has finished, wastes most of it.\n\nThen ask them to hold the breath briefly, which lets the drug settle into the airways rather than being immediately blown out again.\n\nA spacer, if one is available, improves delivery considerably. It holds the dose in a chamber so the timing does not have to be perfect, which matters enormously in someone who is breathless and frightened. Many patients own one and have left it in a drawer. Ask.\n\nSide effects follow directly from the mechanism, which makes them easy to remember. These drugs act on receptors that are also present in the heart and elsewhere, so a faster heart rate, tremor, and a feeling of anxiety or jitteriness are expected rather than alarming. Tell the patient, because a shaky patient who was not warned will think they are getting worse.\n\nReassess properly afterwards. Listen to the chest, look at the work of breathing, look at the position they have chosen and whether they can now speak in longer sentences. Asking \"is that better?\" is worth something, but a frightened patient will often say yes regardless. Look for the objective change.\n\nAnd hold on to the limitation that matters most. An inhaler requires the patient to take a deep breath in and coordinate with the device. A patient who is exhausted, or so obstructed that they cannot move much air, cannot use one effectively — the drug does not reach the airways that need it. That patient is a different and more serious problem, and recognising it means escalating rather than repeating a dose that is not getting in.",
+          "standard": "Bronchodilators produce relaxation of bronchial smooth muscle, reversing the bronchoconstriction characteristic of asthma and related conditions which narrows the airway and impairs airflow, particularly expiratory. At EMT level administration typically comprises assistance with the patient's own prescribed inhaler, subject to verification of prescription to that patient, validity of expiry and protocol criteria. Administration technique substantially determines delivered dose, as poor technique results in oropharyngeal deposition of the majority of the dose. Technique comprises shaking the device, exhalation directed away from the device, lip seal, and actuation at the commencement of a slow deep inspiration, the coordination being the critical element, with actuation before or after inspiration wasting the dose. Brief breath-holding follows, permitting airway deposition rather than immediate exhalation. Spacer devices substantially improve delivery by retaining the dose within a chamber, reducing dependence on coordination, which is of particular value in dyspnoeic and distressed patients; many patients possess unused spacers and specific enquiry is warranted. Adverse effects derive from the mechanism, as target receptors are present in cardiac and other tissues, producing expected tachycardia, tremor and anxiety; patients should be forewarned, as unanticipated tremor may be interpreted as deterioration. Reassessment comprises auscultation, observation of work of breathing, positioning and sentence length, as subjective enquiry is unreliable in distressed patients. The principal limitation is that inhaler use requires adequate inspiratory effort and device coordination; exhausted or severely obstructed patients cannot achieve airway delivery, and such presentations require escalation rather than repeated ineffective administration."
+        },
+        "eli_new": {
+          "analogy": "A badly used inhaler puts most of the dose on the back of the throat. The coordination with the breath is not a refinement; it is the whole thing.",
+          "body": "A patient too exhausted to take a deep breath in cannot use an inhaler. The drug never reaches the airways that need it, and that patient needs escalation rather than another puff."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how a bronchodilator inhaler is used and what limits it.",
+          "must_hit": [
+            {
+              "point": "It relaxes the muscle around the airways",
+              "accept": [
+                "relax",
+                "muscle",
+                "airway",
+                "open",
+                "smooth"
+              ]
+            },
+            {
+              "point": "At EMT level it is usually assisting with the patient's own inhaler",
+              "accept": [
+                "assist",
+                "own",
+                "prescribed",
+                "check",
+                "date"
+              ]
+            },
+            {
+              "point": "Shake it, breathe out, fire at the start of a slow deep breath in",
+              "accept": [
+                "shake",
+                "breathe out",
+                "fire",
+                "slow",
+                "deep",
+                "coordinat"
+              ]
+            },
+            {
+              "point": "Hold the breath briefly afterwards",
+              "accept": [
+                "hold",
+                "breath",
+                "settle",
+                "briefly",
+                "after"
+              ]
+            },
+            {
+              "point": "Poor technique loses most of the dose",
+              "accept": [
+                "technique",
+                "lost",
+                "throat",
+                "fraction",
+                "badly"
+              ]
+            },
+            {
+              "point": "A spacer improves delivery considerably",
+              "accept": [
+                "spacer",
+                "chamber",
+                "delivery",
+                "coordinat",
+                "ask"
+              ]
+            },
+            {
+              "point": "Fast heart rate, tremor and anxiety are expected side effects",
+              "accept": [
+                "heart rate",
+                "tremor",
+                "anxiety",
+                "jittery",
+                "expected",
+                "warn"
+              ]
+            },
+            {
+              "point": "A patient too tired or obstructed to inhale cannot use one",
+              "accept": [
+                "exhaust",
+                "tired",
+                "obstruct",
+                "cannot",
+                "escalat"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "In the drawer",
+          "dispatch": "Medic 4 — asthma, patient using her own inhaler, poor effect.",
+          "body": "She was firing it and breathing at roughly the same time, which is what most people do when frightened.\n\nSomebody asked whether she had a spacer, and she did, in a kitchen drawer.\n\nThe next dose actually went where it was supposed to."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "bronchodilator (beta agonist) by metered-dose inhaler",
+          "trade": "various",
+          "class": "bronchodilator / beta agonist",
+          "indications": [
+            "Bronchospasm — asthma and similar conditions, per protocol, using the PATIENT'S OWN PRESCRIBED inhaler"
+          ],
+          "contraindications": [
+            "Not prescribed to this patient",
+            "Out of date",
+            "Protocol criteria not met",
+            "Known allergy",
+            "Patient unable to take an adequate breath in — the drug will not reach the airways"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify",
+          "route": "Inhaled. SHAKE → BREATHE OUT → SEAL → FIRE AT THE START OF A SLOW DEEP BREATH IN → HOLD. USE A SPACER.",
+          "onset": "Minutes. Reassess by LISTENING and by WORK OF BREATHING, not by asking",
+          "side_effects": [
+            "Faster heart rate",
+            "Tremor",
+            "Anxiety or jitteriness — EXPECTED, and worth warning about"
+          ],
+          "scope": "EMT usually ASSISTS with the patient's own inhaler. TECHNIQUE IS WHERE THE DOSE IS LOST."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm inhaler assistance criteria, technique and whether your service carries a bronchodilator against your local protocol. NO DOSE IS STATED. Every dose field on every drug card in this module reads 'per protocol / verify'. Confirm doses, indications and contraindications against your own protocol and the current text before use."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-07",
+      "title": "Naloxone",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-03"
+      ],
+      "related": [
+        "EMT-05-08-02",
+        "EMT-09-01-03",
+        "EMT-02-02-01"
+      ],
+      "key_points": [
+        "Naloxone reverses opioid overdose by blocking the receptors the opioid is acting on",
+        "The problem it treats is the breathing — opioid overdose kills by stopping respiration",
+        "Ventilate first where breathing is inadequate, because oxygen is the immediate need",
+        "It is given intranasally or intramuscularly at EMT level, depending on your protocol and device",
+        "It works within minutes, and the aim is adequate breathing rather than a fully awake patient",
+        "Naloxone can wear off before the opioid does, so the overdose can return",
+        "Every patient given naloxone needs transport and observation, whatever they say afterwards",
+        "Waking a dependent patient abruptly can produce agitation and withdrawal, so expect it and plan for it",
+        "Approach the waking patient calmly, explain what has happened, and be positioned safely",
+        "It has no effect on non-opioid causes, so no response means reconsider the diagnosis"
+      ],
+      "misconceptions": [
+        "Giving naloxone before addressing inadequate breathing",
+        "Aiming for a fully awake patient rather than adequate breathing",
+        "Allowing a reversed patient to refuse transport without a real conversation",
+        "Assuming no response means give more"
+      ],
+      "exam_favorites": [
+        "Ventilate first",
+        "It wears off first",
+        "Aim for breathing, not waking"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Naloxone reverses opioid overdose. It works as an antagonist — it occupies the receptors the opioid is acting on and blocks it, which reverses the effect.\n\nBut start with what the problem actually is, because it determines what you do first. Opioid overdose kills by stopping breathing. The patient is not dying of being unconscious; they are dying of not breathing. Which means that in a patient whose breathing is inadequate, ventilation comes first. Get oxygen moving, then give the drug. A patient who has been ventilated for two minutes before naloxone is in a far better position than one who received naloxone two minutes earlier while not breathing.\n\nAt EMT level naloxone is given intranasally or intramuscularly depending on your protocol and the device your service carries. Both work; neither requires a vein.\n\nIt works within minutes. And here is the aim, which is frequently misunderstood: you are aiming for adequate breathing, not for a fully awake patient. A patient who is breathing well but still drowsy is a success. Pushing on until they sit up is not a better outcome, and it makes the next part considerably worse.\n\nNow the thing that matters most, and it comes straight from the pharmacology concept. Naloxone can wear off before the opioid does. Many opioids last considerably longer than the reversal agent, so the patient can wake up, feel fine, want to go home — and then stop breathing again an hour later when the naloxone fades and the opioid is still there.\n\nWhich makes the rule absolute: every patient given naloxone needs transport and observation. However well they look. However firmly they insist. However embarrassed they are. This is a conversation worth having properly, and the explanation — that what woke you up will wear off before what put you down — is one most patients actually understand when it is put plainly rather than as an instruction.\n\nExpect the waking to be difficult. In a patient who is opioid dependent, abrupt reversal produces immediate withdrawal: nausea, vomiting, pain, sweating, agitation, and sometimes real aggression. That is not bad behaviour, it is a drug effect, and knowing it is coming lets you handle it well. Be positioned so you are not directly over them. Have the suction ready for the vomiting. Speak calmly, explain what has happened and where they are, and do not crowd them. Waking up surrounded by strangers with no memory of how you got there is frightening before any withdrawal is added.\n\nAnd finally: naloxone does nothing to a non-opioid cause. If there is no response, the answer is not necessarily more — it is to reconsider the diagnosis. A head injury, low blood sugar, a stroke or a different poisoning all produce unresponsive patients, and a lack of response to naloxone is useful information about which of those you might be dealing with.",
+          "standard": "Naloxone reverses opioid toxicity by competitive antagonism at opioid receptors. Opioid overdose produces mortality through respiratory depression; the patient's critical deficit is ventilation rather than consciousness. Where ventilation is inadequate, assisted ventilation precedes pharmacological reversal, as oxygenation constitutes the immediate requirement and prior ventilation improves outcome relative to reversal administered during apnoea. At EMT level administration is intranasal or intramuscular according to protocol and available device, neither requiring venous access. Onset occurs within minutes. The therapeutic target is adequate ventilation rather than full arousal; a patient ventilating adequately while remaining drowsy represents therapeutic success, and titration to full consciousness confers no benefit while worsening subsequent management. Naloxone duration may be shorter than that of the ingested opioid, permitting recurrence of respiratory depression following naloxone decline while opioid effect persists. Consequently all patients receiving naloxone require transport and observation irrespective of apparent recovery or refusal; explanation that the reversal agent will wear off before the opioid is generally comprehensible to patients when stated plainly. Abrupt reversal in opioid-dependent patients precipitates acute withdrawal comprising nausea, vomiting, pain, diaphoresis, agitation and occasionally aggression; this constitutes a pharmacological effect rather than behavioural issue, and anticipation permits appropriate management including provider positioning outside the patient's immediate reach, suction readiness, calm orientation of the patient to circumstances and location, and avoidance of crowding. Naloxone has no effect on non-opioid aetiologies; absence of response indicates diagnostic reconsideration including head injury, hypoglycaemia, cerebrovascular event and alternative poisoning rather than repeat administration."
+        },
+        "eli_new": {
+          "analogy": "What woke you up will wear off before what put you down. That one sentence is the whole transport conversation.",
+          "body": "Ventilate first. The patient is not dying of being unconscious, they are dying of not breathing, and oxygen is the immediate need."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how naloxone is used and why the patient must be transported.",
+          "must_hit": [
+            {
+              "point": "It blocks the receptors the opioid is acting on",
+              "accept": [
+                "block",
+                "receptor",
+                "antagonist",
+                "reverse",
+                "opioid"
+              ]
+            },
+            {
+              "point": "Opioid overdose kills by stopping breathing",
+              "accept": [
+                "breathing",
+                "respirat",
+                "kills",
+                "stop",
+                "not conscious"
+              ]
+            },
+            {
+              "point": "Ventilate first where breathing is inadequate",
+              "accept": [
+                "ventilat",
+                "first",
+                "oxygen",
+                "before",
+                "inadequate"
+              ]
+            },
+            {
+              "point": "Given intranasally or intramuscularly at EMT level",
+              "accept": [
+                "intranasal",
+                "intramuscular",
+                "nose",
+                "muscle",
+                "no vein"
+              ]
+            },
+            {
+              "point": "Aim for adequate breathing, not a fully awake patient",
+              "accept": [
+                "adequate",
+                "breathing",
+                "not awake",
+                "aim",
+                "drowsy"
+              ]
+            },
+            {
+              "point": "Naloxone can wear off before the opioid does",
+              "accept": [
+                "wear off",
+                "before",
+                "longer",
+                "return",
+                "shorter"
+              ]
+            },
+            {
+              "point": "Every patient needs transport and observation",
+              "accept": [
+                "transport",
+                "observ",
+                "every",
+                "refus",
+                "however"
+              ]
+            },
+            {
+              "point": "Expect withdrawal and agitation; no response means reconsider the diagnosis",
+              "accept": [
+                "withdrawal",
+                "agitat",
+                "vomit",
+                "no response",
+                "reconsider"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Two minutes of air",
+          "dispatch": "Medic 8 — unresponsive, breathing very slow, opioid suspected.",
+          "body": "Somebody was already unwrapping the naloxone, which was the right drug and the wrong order.\n\nThe partner started bagging and said give it in two minutes.\n\nBy the time it went in, the patient had been oxygenated for two minutes rather than reversed while blue."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "naloxone",
+          "trade": "various",
+          "class": "opioid antagonist",
+          "indications": [
+            "Suspected opioid overdose with respiratory depression, per protocol"
+          ],
+          "contraindications": [
+            "Known allergy",
+            "No effect on non-opioid causes — no response means RECONSIDER THE DIAGNOSIS, not give more"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify",
+          "route": "Intranasal or intramuscular at EMT level, per protocol and device. Neither needs a vein",
+          "onset": "Minutes — AND IT CAN WEAR OFF BEFORE THE OPIOID DOES, so the overdose can return",
+          "side_effects": [
+            "ACUTE WITHDRAWAL in dependent patients: nausea, vomiting, pain, sweating, AGITATION, sometimes aggression",
+            "This is a DRUG EFFECT, not bad behaviour"
+          ],
+          "scope": "EMT administers per protocol. VENTILATE FIRST. Aim for BREATHING, not waking. ALWAYS TRANSPORT."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm naloxone route, device, repeat dosing and transport requirements against your local protocol, which vary considerably. NO DOSE IS STATED. Every dose field on every drug card in this module reads 'per protocol / verify'. Confirm doses, indications and contraindications against your own protocol and the current text before use."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-08",
+      "title": "Activated charcoal",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-09-01-02"
+      ],
+      "related": [
+        "EMT-05-08-01",
+        "EMT-09-01-02",
+        "EMT-09-01-07"
+      ],
+      "key_points": [
+        "Activated charcoal binds certain swallowed poisons in the gut so less of them is absorbed",
+        "It only works on substances it binds, and it does not bind everything",
+        "It is time-critical: the benefit falls away as the poison is absorbed",
+        "Many systems no longer carry it or require medical direction for its use — know what yours does",
+        "The patient must be alert enough to swallow and protect their own airway",
+        "It is contraindicated where the patient has an altered mental status or cannot swallow",
+        "It is contraindicated after swallowing a corrosive substance or a petroleum product",
+        "Aspiration of charcoal causes severe lung injury, which is the reason the airway rule is absolute",
+        "It is unpleasant to take, so explain it honestly and expect refusal",
+        "Contact medical direction and poison control as your protocol directs, rather than deciding alone"
+      ],
+      "misconceptions": [
+        "Giving charcoal to a patient with altered mental status",
+        "Giving it after a corrosive or petroleum ingestion",
+        "Assuming your service still carries it",
+        "Deciding alone rather than contacting medical direction"
+      ],
+      "exam_favorites": [
+        "Airway and alertness",
+        "Corrosives and petroleum",
+        "Practice has changed"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Activated charcoal binds certain swallowed poisons inside the gut, so that less of the poison is absorbed into the bloodstream. The charcoal is not absorbed itself; it passes through carrying whatever it has bound.\n\nThree things limit it, and they are the reason practice has changed.\n\nFirst, it only works on substances it binds, and it does not bind everything. Some important poisons are unaffected by it entirely.\n\nSecond, it is time-critical. Its benefit comes from binding poison before it is absorbed, so the value falls away as time passes and absorption proceeds.\n\nThird — and this is the practical one — many systems no longer carry it, and many that do require contact with medical direction before it is used. Practice has moved considerably on this over the years. So find out what your own service does, because assuming is how you end up looking for something that is not on the vehicle.\n\nNow the safety rules, which are absolute.\n\nThe patient must be alert enough to swallow and protect their own airway. That is the same rule as every other oral medication, and here it carries extra weight, because aspirated charcoal causes severe lung injury. It is not an inert powder in the lungs; it produces serious and sometimes lasting damage. So an altered mental status, drowsiness, or any doubt about swallowing means no.\n\nAnd this is exactly the population where doubt is common. Poisoned patients frequently have fluctuating mental status, and a patient who is alert now may not be in ten minutes as the poison takes effect. That trajectory is worth thinking about before you give something that must be swallowed.\n\nIt is contraindicated after swallowing a corrosive substance — a strong acid or alkali — for two reasons: it does not help, and it obscures the view for the doctor who will need to look at the damaged tissue. And it is contraindicated after petroleum products, because vomiting them back up carries a high risk of aspiration and lung injury.\n\nPractically: it is genuinely unpleasant to drink. It is black, gritty and unappealing. Explain that honestly rather than pretending otherwise, because a patient who was told it tastes fine and then tastes it will not take the rest. Some patients simply refuse, and that is their right.\n\nAnd contact medical direction and poison control as your protocol directs. Poisoning is an area where specialist advice is immediately available by telephone and changes management more often than in almost any other presentation. Use it rather than deciding alone.",
+          "standard": "Activated charcoal adsorbs certain ingested toxins within the gastrointestinal tract, reducing systemic absorption; the charcoal itself is not absorbed and transits carrying bound substance. Three factors limit utility. Efficacy is confined to substances it adsorbs, with certain clinically significant toxins unaffected. Benefit is time-dependent, deriving from adsorption prior to absorption and declining with elapsed time. Practice has changed substantially, with many systems no longer carrying the agent and many requiring medical direction authorisation; providers should establish their own service's position. Safety requirements are absolute. The patient must possess sufficient alertness to swallow and protect the airway, the standard oral administration requirement carrying additional weight as charcoal aspiration produces severe and potentially lasting pulmonary injury rather than inert deposition. Altered mental status, drowsiness or uncertainty regarding swallow precludes administration. Poisoned patients characteristically demonstrate fluctuating mental status, and a currently alert patient may deteriorate as absorption proceeds; anticipated trajectory should inform the decision to administer an agent requiring swallowing. Administration is contraindicated following ingestion of corrosive substances, strong acid or alkali, as it confers no benefit and obscures endoscopic visualisation of injured tissue, and following petroleum distillate ingestion owing to aspiration risk on emesis with consequent pulmonary injury. The preparation is organoleptically unpleasant, being black and gritty; honest explanation is preferable, as misrepresentation compromises completion of the dose, and refusal is within patient rights. Medical direction and poison control consultation should occur as protocol directs, specialist telephone advice being immediately available and frequently altering management in toxicological presentations."
+        },
+        "eli_new": {
+          "analogy": "The charcoal is not absorbed. It passes straight through carrying whatever it managed to grab on the way.",
+          "body": "Aspirated charcoal is not inert powder in the lungs — it causes severe injury. That is why the swallow-and-protect-your-airway rule is absolute here rather than merely important."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how activated charcoal works and when it must not be given.",
+          "must_hit": [
+            {
+              "point": "It binds certain swallowed poisons in the gut so less is absorbed",
+              "accept": [
+                "bind",
+                "adsorb",
+                "gut",
+                "absorb",
+                "poison"
+              ]
+            },
+            {
+              "point": "It does not bind everything",
+              "accept": [
+                "not everything",
+                "certain",
+                "some",
+                "unaffected",
+                "limited"
+              ]
+            },
+            {
+              "point": "It is time-critical",
+              "accept": [
+                "time",
+                "early",
+                "falls away",
+                "absorbed",
+                "critical"
+              ]
+            },
+            {
+              "point": "Many systems no longer carry it or require medical direction",
+              "accept": [
+                "no longer",
+                "carry",
+                "medical direction",
+                "varies",
+                "changed"
+              ]
+            },
+            {
+              "point": "The patient must be alert and able to protect their airway",
+              "accept": [
+                "alert",
+                "swallow",
+                "airway",
+                "protect",
+                "absolute"
+              ]
+            },
+            {
+              "point": "Aspirated charcoal causes severe lung injury",
+              "accept": [
+                "aspirat",
+                "lung",
+                "injury",
+                "severe",
+                "damage"
+              ]
+            },
+            {
+              "point": "Contraindicated after corrosives and petroleum products",
+              "accept": [
+                "corrosive",
+                "acid",
+                "alkali",
+                "petroleum",
+                "hydrocarbon"
+              ]
+            },
+            {
+              "point": "Contact medical direction and poison control",
+              "accept": [
+                "medical direction",
+                "poison control",
+                "advice",
+                "telephone",
+                "protocol"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "In ten minutes",
+          "dispatch": "Medic 2 — overdose, patient currently alert and cooperative.",
+          "body": "She was alert enough to drink it, right then, at that moment.\n\nSomebody asked what she was likely to be in ten minutes, given what she had taken and when.\n\nThat question is the one worth asking before you give anything that has to be swallowed."
+        }
+      },
+      "cards": [
+        "concept",
+        "drug"
+      ],
+      "card_data": {
+        "drug": {
+          "generic": "activated charcoal",
+          "trade": "various",
+          "class": "adsorbent",
+          "indications": [
+            "Certain ingested poisons, per protocol and usually with medical direction or poison control advice"
+          ],
+          "contraindications": [
+            "ALTERED MENTAL STATUS or inability to swallow and protect the airway — ASPIRATED CHARCOAL CAUSES SEVERE LUNG INJURY",
+            "CORROSIVE ingestion — strong acid or alkali: no benefit, and it obscures the view of the damaged tissue",
+            "PETROLEUM PRODUCTS — high aspiration risk on vomiting",
+            "Known allergy"
+          ],
+          "dose_adult": "per protocol / verify",
+          "dose_peds": "per protocol / verify",
+          "route": "Oral — the patient must drink it, and it is black, gritty and genuinely unpleasant. Explain that honestly",
+          "onset": "TIME-CRITICAL — the benefit falls away as the poison is absorbed",
+          "side_effects": [
+            "Vomiting",
+            "Aspiration with severe lung injury if the airway is unprotected",
+            "Black stools"
+          ],
+          "scope": "MANY SYSTEMS NO LONGER CARRY IT — know what yours does. Use poison control. Airway rule is absolute."
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm whether your service carries activated charcoal, its indications, contraindications and authorisation requirements against your local protocol — practice has changed considerably and varies widely. NO DOSE IS STATED. Every dose field on every drug card in this module reads 'per protocol / verify'. Confirm doses, indications and contraindications against your own protocol and the current text before use."
     }
   ]
 }

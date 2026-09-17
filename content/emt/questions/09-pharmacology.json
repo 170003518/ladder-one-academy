@@ -1262,6 +1262,1446 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-01-Q001",
+      "concept_id": "EMT-09-02-01",
+      "style": "recall",
+      "stem": "What is the aim when giving oxygen?",
+      "options": [
+        {
+          "text": "The highest flow the equipment can deliver",
+          "rationale": "More is not automatically better."
+        },
+        {
+          "text": "Adequate oxygenation, targeted per protocol",
+          "rationale": "Correct — adequate oxygenation, targeted per protocol."
+        },
+        {
+          "text": "A fixed flow for every patient",
+          "rationale": "Not current practice."
+        },
+        {
+          "text": "Whatever the patient asks for",
+          "rationale": "Not how it is targeted."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-01-Q002",
+      "concept_id": "EMT-09-02-01",
+      "style": "application",
+      "stem": "A patient's breathing is inadequate. What do they need?",
+      "options": [
+        {
+          "text": "A higher oxygen concentration by mask",
+          "rationale": "They cannot move enough air to use it."
+        },
+        {
+          "text": "Assisted ventilation — someone to move air for them",
+          "rationale": "Correct — assisted ventilation — someone to move air for them."
+        },
+        {
+          "text": "A nasal cannula at high flow",
+          "rationale": "Not the intervention needed."
+        },
+        {
+          "text": "Positioning alone",
+          "rationale": "Insufficient for inadequate breathing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-01-Q003",
+      "concept_id": "EMT-09-02-01",
+      "style": "recall",
+      "stem": "Why is oxygen a fire hazard?",
+      "options": [
+        {
+          "text": "It ignites easily",
+          "rationale": "Oxygen itself does not burn."
+        },
+        {
+          "text": "It supports combustion, making everything else burn more readily and faster",
+          "rationale": "Correct — it supports combustion, making everything else burn more readily and faster."
+        },
+        {
+          "text": "The cylinder can explode spontaneously",
+          "rationale": "Not the described hazard."
+        },
+        {
+          "text": "It produces static electricity",
+          "rationale": "Not the hazard."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-01-Q004",
+      "concept_id": "EMT-09-02-01",
+      "style": "recall",
+      "stem": "Why must cylinders be secured?",
+      "options": [
+        {
+          "text": "They are heavy and awkward",
+          "rationale": "Not the principal hazard."
+        },
+        {
+          "text": "A damaged valve can turn a cylinder into a projectile",
+          "rationale": "Correct — a damaged valve can turn a cylinder into a projectile."
+        },
+        {
+          "text": "They leak when tipped",
+          "rationale": "Not the described hazard."
+        },
+        {
+          "text": "They are expensive",
+          "rationale": "Not a safety reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-01-Q005",
+      "concept_id": "EMT-09-02-01",
+      "style": "application",
+      "stem": "What determines how long a cylinder lasts?",
+      "options": [
+        {
+          "text": "The patient's respiratory rate",
+          "rationale": "Not the determinant."
+        },
+        {
+          "text": "Residual pressure, cylinder size and the flow rate you choose",
+          "rationale": "Correct — the calculation is in Module 02."
+        },
+        {
+          "text": "The delivery device only",
+          "rationale": "One factor among several."
+        },
+        {
+          "text": "The ambient temperature",
+          "rationale": "Not the principal determinant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-01-Q006",
+      "concept_id": "EMT-09-02-01",
+      "style": "scenario",
+      "stem": "When may oxygen be indicated before any measurement?",
+      "options": [
+        {
+          "text": "Never — always measure first",
+          "rationale": "Measurement is not always available or necessary first."
+        },
+        {
+          "text": "When the presentation makes hypoxia likely, such as visible hard work of breathing",
+          "rationale": "Correct — when the presentation makes hypoxia likely, such as visible hard work of breathing."
+        },
+        {
+          "text": "Only on medical direction",
+          "rationale": "Not generally required."
+        },
+        {
+          "text": "Only in trauma",
+          "rationale": "Not restricted to trauma."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-02-Q001",
+      "concept_id": "EMT-09-02-02",
+      "style": "recall",
+      "stem": "What governs whether oral glucose may be given?",
+      "options": [
+        {
+          "text": "The blood sugar reading alone",
+          "rationale": "The reading is not the governing factor."
+        },
+        {
+          "text": "Whether the patient can swallow and protect their own airway",
+          "rationale": "Correct — whether the patient can swallow and protect their own airway."
+        },
+        {
+          "text": "Whether the patient is diabetic",
+          "rationale": "Not the governing factor."
+        },
+        {
+          "text": "Whether medical direction is available",
+          "rationale": "Not the governing factor."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-02-Q002",
+      "concept_id": "EMT-09-02-02",
+      "style": "application",
+      "stem": "May you place a small amount on the gums of an unconscious patient?",
+      "options": [
+        {
+          "text": "Yes, a small amount is safe",
+          "rationale": "No amount is safe."
+        },
+        {
+          "text": "No — never, in any amount",
+          "rationale": "Correct — no — never, in any amount."
+        },
+        {
+          "text": "Yes, if the family says it usually works",
+          "rationale": "Never — their experience does not make it safe."
+        },
+        {
+          "text": "Yes, if the sugar reading is very low",
+          "rationale": "The reading does not change it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-02-Q003",
+      "concept_id": "EMT-09-02-02",
+      "style": "recall",
+      "stem": "Where is oral glucose placed?",
+      "options": [
+        {
+          "text": "On the back of the tongue",
+          "rationale": "That risks inhalation."
+        },
+        {
+          "text": "Between the cheek and the gum, or as protocol directs",
+          "rationale": "Correct — between the cheek and the gum, or as protocol directs."
+        },
+        {
+          "text": "Under the tongue",
+          "rationale": "Not the described placement."
+        },
+        {
+          "text": "Swallowed with water",
+          "rationale": "Not the method described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-02-Q004",
+      "concept_id": "EMT-09-02-02",
+      "style": "application",
+      "stem": "There is no improvement after glucose. What should you do?",
+      "options": [
+        {
+          "text": "Give a second dose",
+          "rationale": "Not automatically."
+        },
+        {
+          "text": "Reconsider the cause — altered mental status has many causes",
+          "rationale": "Correct — reconsider the cause — altered mental status has many causes."
+        },
+        {
+          "text": "Assume the gel was faulty",
+          "rationale": "Not the reasoning."
+        },
+        {
+          "text": "Wait longer without acting",
+          "rationale": "Reassess and reconsider."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-02-Q005",
+      "concept_id": "EMT-09-02-02",
+      "style": "recall",
+      "stem": "How quickly is improvement usually seen?",
+      "options": [
+        {
+          "text": "Within seconds",
+          "rationale": "Faster than realistic."
+        },
+        {
+          "text": "Within minutes",
+          "rationale": "Correct — look for it specifically and document it."
+        },
+        {
+          "text": "Within an hour",
+          "rationale": "Slower than expected."
+        },
+        {
+          "text": "Only after hospital treatment",
+          "rationale": "Improvement is often prehospital."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-02-Q006",
+      "concept_id": "EMT-09-02-02",
+      "style": "scenario",
+      "stem": "Which other causes of altered mental status should you consider?",
+      "options": [
+        {
+          "text": "None if the sugar was low",
+          "rationale": "A low sugar does not exclude other causes."
+        },
+        {
+          "text": "Stroke, head injury, overdose, hypoxia and infection",
+          "rationale": "Correct — stroke, head injury, overdose, hypoxia and infection."
+        },
+        {
+          "text": "Only diabetic causes",
+          "rationale": "Too narrow."
+        },
+        {
+          "text": "Only psychiatric causes",
+          "rationale": "Too narrow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-03-Q001",
+      "concept_id": "EMT-09-02-03",
+      "style": "recall",
+      "stem": "How does aspirin help in a heart attack?",
+      "options": [
+        {
+          "text": "It relieves the chest pain",
+          "rationale": "It is not given as a painkiller here."
+        },
+        {
+          "text": "It makes platelets less able to stick together, limiting the clot",
+          "rationale": "Correct — it makes platelets less able to stick together, limiting the clot."
+        },
+        {
+          "text": "It dilates the coronary arteries",
+          "rationale": "That is a different drug's action."
+        },
+        {
+          "text": "It slows the heart rate",
+          "rationale": "Not its action."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-03-Q002",
+      "concept_id": "EMT-09-02-03",
+      "style": "application",
+      "stem": "Why should aspirin be given early?",
+      "options": [
+        {
+          "text": "It takes hours to absorb",
+          "rationale": "It does not."
+        },
+        {
+          "text": "The benefit is greatest before the clot is established",
+          "rationale": "Correct — the benefit is greatest before the clot is established."
+        },
+        {
+          "text": "It must be given before oxygen",
+          "rationale": "Not a sequencing rule."
+        },
+        {
+          "text": "Protocol requires it within five minutes",
+          "rationale": "Not a general rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-03-Q003",
+      "concept_id": "EMT-09-02-03",
+      "style": "recall",
+      "stem": "Why is aspirin chewed where protocol directs?",
+      "options": [
+        {
+          "text": "It tastes better chewed",
+          "rationale": "It does not."
+        },
+        {
+          "text": "Chewing breaks it up and speeds absorption",
+          "rationale": "Correct — chewing breaks it up and speeds absorption."
+        },
+        {
+          "text": "It prevents gastric irritation",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It avoids the need for water",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-03-Q004",
+      "concept_id": "EMT-09-02-03",
+      "style": "application",
+      "stem": "Which question is easily missed before giving aspirin?",
+      "options": [
+        {
+          "text": "Whether the patient smokes",
+          "rationale": "Not the critical question."
+        },
+        {
+          "text": "Whether they have already taken it today",
+          "rationale": "Correct — many take it daily or at onset."
+        },
+        {
+          "text": "Whether they have eaten",
+          "rationale": "Not the critical question."
+        },
+        {
+          "text": "Whether they drove themselves",
+          "rationale": "Not relevant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-03-Q005",
+      "concept_id": "EMT-09-02-03",
+      "style": "recall",
+      "stem": "What are the contraindications to aspirin?",
+      "options": [
+        {
+          "text": "Any chest pain of uncertain cause",
+          "rationale": "Not a contraindication."
+        },
+        {
+          "text": "Known allergy, active bleeding, and per protocol",
+          "rationale": "Correct — known allergy, active bleeding, and per protocol."
+        },
+        {
+          "text": "Age over seventy",
+          "rationale": "Not a contraindication."
+        },
+        {
+          "text": "Previous heart attack",
+          "rationale": "Not a contraindication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-03-Q006",
+      "concept_id": "EMT-09-02-03",
+      "style": "scenario",
+      "stem": "Why is aspirin not given to children for fever?",
+      "options": [
+        {
+          "text": "It does not work in children",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "A rare but serious complication is associated with its use in viral illness",
+          "rationale": "Correct — a rare but serious complication is associated with its use in viral illness."
+        },
+        {
+          "text": "The tablets are too large",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It causes drowsiness",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-04-Q001",
+      "concept_id": "EMT-09-02-04",
+      "style": "recall",
+      "stem": "How does nitroglycerin relieve cardiac chest pain?",
+      "options": [
+        {
+          "text": "It blocks pain signals from the heart",
+          "rationale": "It is not an analgesic."
+        },
+        {
+          "text": "It dilates vessels, reducing the heart's workload and oxygen demand",
+          "rationale": "Correct — it dilates vessels, reducing the heart's workload and oxygen demand."
+        },
+        {
+          "text": "It dissolves the clot",
+          "rationale": "That is not its action."
+        },
+        {
+          "text": "It slows the heart rate directly",
+          "rationale": "Not its mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-04-Q002",
+      "concept_id": "EMT-09-02-04",
+      "style": "application",
+      "stem": "Where do nitroglycerin's dangers come from?",
+      "options": [
+        {
+          "text": "Its effect on the clot",
+          "rationale": "It has no effect on the clot."
+        },
+        {
+          "text": "The fact that it lowers blood pressure",
+          "rationale": "Correct — every significant danger follows from that."
+        },
+        {
+          "text": "Its rapid absorption",
+          "rationale": "Absorption speed is not the hazard."
+        },
+        {
+          "text": "Its headache side effect",
+          "rationale": "Unpleasant but not dangerous."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-04-Q003",
+      "concept_id": "EMT-09-02-04",
+      "style": "application",
+      "stem": "Why ask about erectile dysfunction medication?",
+      "options": [
+        {
+          "text": "It affects the patient's cardiac history",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Combined with nitroglycerin it can drop blood pressure catastrophically",
+          "rationale": "Correct — combined with nitroglycerin it can drop blood pressure catastrophically."
+        },
+        {
+          "text": "It changes the dose required",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is a documentation requirement",
+          "rationale": "It is a safety question."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-04-Q004",
+      "concept_id": "EMT-09-02-04",
+      "style": "recall",
+      "stem": "When should blood pressure be taken?",
+      "options": [
+        {
+          "text": "Before the first dose only",
+          "rationale": "Before each dose, and again afterwards."
+        },
+        {
+          "text": "Before each dose and again afterwards",
+          "rationale": "Correct — before each dose and again afterwards."
+        },
+        {
+          "text": "Only if the patient feels unwell",
+          "rationale": "Measure regardless."
+        },
+        {
+          "text": "After all doses are given",
+          "rationale": "Too late to guide them."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-04-Q005",
+      "concept_id": "EMT-09-02-04",
+      "style": "recall",
+      "stem": "Why should the patient be sitting or lying down?",
+      "options": [
+        {
+          "text": "It improves absorption",
+          "rationale": "Position does not affect absorption here."
+        },
+        {
+          "text": "Fainting after a dose is a real risk as the pressure drops",
+          "rationale": "Correct — fainting after a dose is a real risk as the pressure drops."
+        },
+        {
+          "text": "It reduces headache",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It is more comfortable",
+          "rationale": "The reason is safety."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-04-Q006",
+      "concept_id": "EMT-09-02-04",
+      "style": "scenario",
+      "stem": "What should the patient be warned about?",
+      "options": [
+        {
+          "text": "Nausea and vomiting",
+          "rationale": "Not the characteristic warning."
+        },
+        {
+          "text": "Headache — common and expected",
+          "rationale": "Correct, and far less alarming if forewarned."
+        },
+        {
+          "text": "Blurred vision",
+          "rationale": "Not the characteristic effect."
+        },
+        {
+          "text": "A metallic taste",
+          "rationale": "Not the characteristic effect."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-05-Q001",
+      "concept_id": "EMT-09-02-05",
+      "style": "recall",
+      "stem": "What is the commonest error in anaphylaxis management?",
+      "options": [
+        {
+          "text": "Giving too large a dose",
+          "rationale": "Not the commonest error."
+        },
+        {
+          "text": "Giving epinephrine too late",
+          "rationale": "Correct — deaths are associated with delay."
+        },
+        {
+          "text": "Using the wrong route",
+          "rationale": "Not the commonest error."
+        },
+        {
+          "text": "Failing to give oxygen",
+          "rationale": "Not the commonest error."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-05-Q002",
+      "concept_id": "EMT-09-02-05",
+      "style": "application",
+      "stem": "A patient in anaphylaxis has a cardiac history. Do you withhold epinephrine?",
+      "options": [
+        {
+          "text": "Yes, the cardiac risk is too high",
+          "rationale": "The reaction will kill them faster and more certainly."
+        },
+        {
+          "text": "No — there is no absolute contraindication in true anaphylaxis",
+          "rationale": "Correct — no — there is no absolute contraindication in true anaphylaxis."
+        },
+        {
+          "text": "Only with medical direction approval",
+          "rationale": "Follow protocol; the principle stands."
+        },
+        {
+          "text": "Give half the dose",
+          "rationale": "Not an option available to you."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-05-Q003",
+      "concept_id": "EMT-09-02-05",
+      "style": "recall",
+      "stem": "Where and how is an auto-injector given?",
+      "options": [
+        {
+          "text": "Into the upper arm, with clothing removed",
+          "rationale": "Not the standard site or method."
+        },
+        {
+          "text": "Intramuscularly into the outer thigh, through clothing",
+          "rationale": "Correct — intramuscularly into the outer thigh, through clothing."
+        },
+        {
+          "text": "Subcutaneously into the abdomen",
+          "rationale": "Not the route."
+        },
+        {
+          "text": "Into a vein",
+          "rationale": "Outside EMT scope and not the device's route."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-05-Q004",
+      "concept_id": "EMT-09-02-05",
+      "style": "application",
+      "stem": "Why hold the device with your thumb clear of both ends?",
+      "options": [
+        {
+          "text": "It improves the injection angle",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Injecting your own thumb causes real injury and removes you from the call",
+          "rationale": "Correct — injecting your own thumb causes real injury and removes you from the call."
+        },
+        {
+          "text": "It prevents the device from misfiring",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is more comfortable to grip",
+          "rationale": "The reason is injury prevention."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-05-Q005",
+      "concept_id": "EMT-09-02-05",
+      "style": "recall",
+      "stem": "What must happen after epinephrine is given?",
+      "options": [
+        {
+          "text": "The patient may be released if they improve",
+          "rationale": "Every patient is transported."
+        },
+        {
+          "text": "The patient is transported, however well they look",
+          "rationale": "Correct — the effect wears off."
+        },
+        {
+          "text": "A second dose is always given",
+          "rationale": "Only if indicated per protocol."
+        },
+        {
+          "text": "Observation on scene for thirty minutes",
+          "rationale": "Transport is required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-05-Q006",
+      "concept_id": "EMT-09-02-05",
+      "style": "scenario",
+      "stem": "Why does epinephrine work in anaphylaxis when other things do not?",
+      "options": [
+        {
+          "text": "It acts faster than other drugs",
+          "rationale": "Speed is not the whole reason."
+        },
+        {
+          "text": "It opens the airways and tightens the vessels at the same time",
+          "rationale": "Correct — it opens the airways and tightens the vessels at the same time."
+        },
+        {
+          "text": "It removes the allergen",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It blocks the immune response entirely",
+          "rationale": "Not its mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-06-Q001",
+      "concept_id": "EMT-09-02-06",
+      "style": "recall",
+      "stem": "How does a bronchodilator work?",
+      "options": [
+        {
+          "text": "It reduces airway swelling",
+          "rationale": "Not its immediate action."
+        },
+        {
+          "text": "It relaxes the muscle around the airways, opening them",
+          "rationale": "Correct — it relaxes the muscle around the airways, opening them."
+        },
+        {
+          "text": "It thins secretions",
+          "rationale": "Not its action."
+        },
+        {
+          "text": "It increases oxygen in the blood directly",
+          "rationale": "Not its action."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-06-Q002",
+      "concept_id": "EMT-09-02-06",
+      "style": "application",
+      "stem": "When should the inhaler be fired?",
+      "options": [
+        {
+          "text": "Before the patient starts breathing in",
+          "rationale": "Most of the dose is wasted."
+        },
+        {
+          "text": "At the start of a slow, deep breath in",
+          "rationale": "Correct — at the start of a slow, deep breath in."
+        },
+        {
+          "text": "At the end of a breath in",
+          "rationale": "Too late — the breath is already finishing."
+        },
+        {
+          "text": "While breathing out",
+          "rationale": "The dose will not reach the airways."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-06-Q003",
+      "concept_id": "EMT-09-02-06",
+      "style": "application",
+      "stem": "Why is a spacer useful?",
+      "options": [
+        {
+          "text": "It increases the dose delivered per puff",
+          "rationale": "It improves delivery rather than the dose."
+        },
+        {
+          "text": "It holds the dose so the timing does not have to be perfect",
+          "rationale": "Correct — it holds the dose so the timing does not have to be perfect."
+        },
+        {
+          "text": "It filters out side effects",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It makes the inhaler last longer",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-06-Q004",
+      "concept_id": "EMT-09-02-06",
+      "style": "recall",
+      "stem": "A patient develops tremor and a fast heart rate after a dose. What is this?",
+      "options": [
+        {
+          "text": "An allergic reaction",
+          "rationale": "Not an allergic pattern."
+        },
+        {
+          "text": "Expected side effects from the drug's mechanism",
+          "rationale": "Correct — and worth warning about beforehand."
+        },
+        {
+          "text": "A sign of deterioration",
+          "rationale": "Not in itself."
+        },
+        {
+          "text": "An overdose",
+          "rationale": "Not indicated by these findings alone."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-06-Q005",
+      "concept_id": "EMT-09-02-06",
+      "style": "application",
+      "stem": "A patient is too exhausted to take a deep breath in. What does that mean?",
+      "options": [
+        {
+          "text": "Give more puffs",
+          "rationale": "The drug is not reaching the airways."
+        },
+        {
+          "text": "The inhaler cannot work — this is a more serious problem needing escalation",
+          "rationale": "Correct — the inhaler cannot work — this is a more serious problem needing escalation."
+        },
+        {
+          "text": "Use a spacer and continue",
+          "rationale": "A spacer helps coordination, not effort."
+        },
+        {
+          "text": "Wait and try again in five minutes",
+          "rationale": "Escalation is needed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-06-Q006",
+      "concept_id": "EMT-09-02-06",
+      "style": "scenario",
+      "stem": "How should you reassess after a dose?",
+      "options": [
+        {
+          "text": "Ask whether it is better",
+          "rationale": "Frightened patients often say yes regardless."
+        },
+        {
+          "text": "Listen to the chest and look at the work of breathing and sentence length",
+          "rationale": "Correct — listen to the chest and look at the work of breathing and sentence length."
+        },
+        {
+          "text": "Check the inhaler counter",
+          "rationale": "Not a reassessment of the patient."
+        },
+        {
+          "text": "Recheck the blood pressure only",
+          "rationale": "Not the relevant reassessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-07-Q001",
+      "concept_id": "EMT-09-02-07",
+      "style": "recall",
+      "stem": "What does opioid overdose kill by?",
+      "options": [
+        {
+          "text": "Cardiac arrhythmia",
+          "rationale": "Not the primary mechanism."
+        },
+        {
+          "text": "Stopping breathing",
+          "rationale": "Correct — which is why ventilation comes first."
+        },
+        {
+          "text": "Lowering blood pressure",
+          "rationale": "Not the primary mechanism."
+        },
+        {
+          "text": "Seizures",
+          "rationale": "Not the primary mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-07-Q002",
+      "concept_id": "EMT-09-02-07",
+      "style": "application",
+      "stem": "A patient's breathing is inadequate and opioid overdose is suspected. What comes first?",
+      "options": [
+        {
+          "text": "Naloxone immediately",
+          "rationale": "The right drug in the wrong order."
+        },
+        {
+          "text": "Assisted ventilation, then naloxone",
+          "rationale": "Correct — assisted ventilation, then naloxone."
+        },
+        {
+          "text": "A blood sugar check",
+          "rationale": "Useful, but not the immediate need."
+        },
+        {
+          "text": "Positioning alone",
+          "rationale": "Insufficient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-07-Q003",
+      "concept_id": "EMT-09-02-07",
+      "style": "recall",
+      "stem": "What is the aim when giving naloxone?",
+      "options": [
+        {
+          "text": "A fully awake, alert patient",
+          "rationale": "Not the aim, and it makes things worse."
+        },
+        {
+          "text": "Adequate breathing",
+          "rationale": "Correct — breathing well but drowsy is a success."
+        },
+        {
+          "text": "A normal heart rate",
+          "rationale": "Not the target."
+        },
+        {
+          "text": "Full recall of events",
+          "rationale": "Not the target."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-07-Q004",
+      "concept_id": "EMT-09-02-07",
+      "style": "application",
+      "stem": "Why must every patient given naloxone be transported?",
+      "options": [
+        {
+          "text": "For documentation purposes",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Naloxone can wear off before the opioid, so the overdose can return",
+          "rationale": "Correct — naloxone can wear off before the opioid, so the overdose can return."
+        },
+        {
+          "text": "They will need a second dose at hospital",
+          "rationale": "Not necessarily."
+        },
+        {
+          "text": "Protocol requires it in all cases",
+          "rationale": "The reason is pharmacological."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-07-Q005",
+      "concept_id": "EMT-09-02-07",
+      "style": "application",
+      "stem": "A dependent patient wakes agitated and aggressive. What is that?",
+      "options": [
+        {
+          "text": "Deliberate bad behaviour",
+          "rationale": "It is a drug effect."
+        },
+        {
+          "text": "Acute withdrawal — a drug effect to be anticipated and managed",
+          "rationale": "Correct — acute withdrawal — a drug effect to be anticipated and managed."
+        },
+        {
+          "text": "A sign of head injury",
+          "rationale": "Not indicated by this alone."
+        },
+        {
+          "text": "An allergic reaction",
+          "rationale": "Not an allergic pattern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-07-Q006",
+      "concept_id": "EMT-09-02-07",
+      "style": "scenario",
+      "stem": "There is no response to naloxone. What does that suggest?",
+      "options": [
+        {
+          "text": "Give a larger dose",
+          "rationale": "Not the first conclusion."
+        },
+        {
+          "text": "Reconsider the diagnosis — it has no effect on non-opioid causes",
+          "rationale": "Correct — reconsider the diagnosis — it has no effect on non-opioid causes."
+        },
+        {
+          "text": "The drug was faulty",
+          "rationale": "Unlikely and unhelpful."
+        },
+        {
+          "text": "The route was wrong",
+          "rationale": "Possible, but reconsidering the cause comes first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-08-Q001",
+      "concept_id": "EMT-09-02-08",
+      "style": "recall",
+      "stem": "How does activated charcoal work?",
+      "options": [
+        {
+          "text": "It neutralises poisons chemically",
+          "rationale": "Not its mechanism."
+        },
+        {
+          "text": "It binds certain poisons in the gut so less is absorbed",
+          "rationale": "Correct — it binds certain poisons in the gut so less is absorbed."
+        },
+        {
+          "text": "It causes vomiting to empty the stomach",
+          "rationale": "That is not its purpose."
+        },
+        {
+          "text": "It speeds elimination through the kidneys",
+          "rationale": "Not its mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-08-Q002",
+      "concept_id": "EMT-09-02-08",
+      "style": "recall",
+      "stem": "Why is the airway rule absolute for charcoal?",
+      "options": [
+        {
+          "text": "It tastes unpleasant",
+          "rationale": "Not a safety reason."
+        },
+        {
+          "text": "Aspirated charcoal causes severe lung injury",
+          "rationale": "Correct — aspirated charcoal causes severe lung injury."
+        },
+        {
+          "text": "It sets solid in the airway",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It blocks the oxygen mask",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-08-Q003",
+      "concept_id": "EMT-09-02-08",
+      "style": "recall",
+      "stem": "After which ingestions is charcoal contraindicated?",
+      "options": [
+        {
+          "text": "Paracetamol and aspirin",
+          "rationale": "Not the contraindicated categories."
+        },
+        {
+          "text": "Corrosives and petroleum products",
+          "rationale": "Correct — corrosives and petroleum products."
+        },
+        {
+          "text": "Alcohol only",
+          "rationale": "Not the described contraindications."
+        },
+        {
+          "text": "Any tablet overdose",
+          "rationale": "Not a general contraindication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-08-Q004",
+      "concept_id": "EMT-09-02-08",
+      "style": "application",
+      "stem": "A poisoned patient is alert now. What should you consider before giving charcoal?",
+      "options": [
+        {
+          "text": "Whether they will consent",
+          "rationale": "Consent matters, but not the described consideration."
+        },
+        {
+          "text": "What their mental status will be in ten minutes as absorption proceeds",
+          "rationale": "Correct — what their mental status will be in ten minutes as absorption proceeds."
+        },
+        {
+          "text": "Whether they have eaten",
+          "rationale": "Not the consideration."
+        },
+        {
+          "text": "How far the hospital is",
+          "rationale": "Not the consideration described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-08-Q005",
+      "concept_id": "EMT-09-02-08",
+      "style": "application",
+      "stem": "Does every service carry activated charcoal?",
+      "options": [
+        {
+          "text": "Yes, it is a standard EMT medication",
+          "rationale": "Practice has changed considerably."
+        },
+        {
+          "text": "No — many no longer carry it, and many require medical direction",
+          "rationale": "Correct — no — many no longer carry it, and many require medical direction."
+        },
+        {
+          "text": "Only rural services carry it",
+          "rationale": "Not the pattern."
+        },
+        {
+          "text": "Only paramedic units carry it",
+          "rationale": "Not the pattern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-09-02-08-Q006",
+      "concept_id": "EMT-09-02-08",
+      "style": "scenario",
+      "stem": "How should you describe the taste to a patient?",
+      "options": [
+        {
+          "text": "Tell them it is not unpleasant",
+          "rationale": "They will stop as soon as they taste it."
+        },
+        {
+          "text": "Honestly — it is black, gritty and genuinely unpleasant",
+          "rationale": "Correct — honestly — it is black, gritty and genuinely unpleasant."
+        },
+        {
+          "text": "Avoid mentioning it",
+          "rationale": "Honesty gets more of the dose down."
+        },
+        {
+          "text": "Tell them it tastes of charcoal only",
+          "rationale": "Understates it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }
