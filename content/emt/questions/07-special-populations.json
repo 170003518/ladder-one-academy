@@ -4142,6 +4142,726 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-01-Q001",
+      "concept_id": "EMT-07-05-01",
+      "style": "application",
+      "stem": "What is the most useful opening technique with a patient who has a disability?",
+      "options": [
+        {
+          "text": "Ask the caregiver for the history first",
+          "rationale": "The questions go to the patient first."
+        },
+        {
+          "text": "Ask the patient how they communicate and how they would like to be helped",
+          "rationale": "Correct — ask the patient how they communicate and how they would like to be helped."
+        },
+        {
+          "text": "Begin the assessment without discussion to save time",
+          "rationale": "You will get less, not more."
+        },
+        {
+          "text": "Use simplified language with everyone",
+          "rationale": "Not appropriate for every disability."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-01-Q002",
+      "concept_id": "EMT-07-05-01",
+      "style": "recall",
+      "stem": "What does a physical disability tell you about cognition?",
+      "options": [
+        {
+          "text": "That some impairment is likely",
+          "rationale": "It tells you nothing."
+        },
+        {
+          "text": "Nothing at all",
+          "rationale": "Correct — and a speech difficulty says nothing about intelligence."
+        },
+        {
+          "text": "That communication will be limited",
+          "rationale": "Not a valid inference."
+        },
+        {
+          "text": "That a caregiver must answer",
+          "rationale": "Not a valid inference."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-01-Q003",
+      "concept_id": "EMT-07-05-01",
+      "style": "application",
+      "stem": "How should you guide a patient with a visual impairment?",
+      "options": [
+        {
+          "text": "Take their arm and steer them",
+          "rationale": "That is being moved rather than led."
+        },
+        {
+          "text": "Offer your arm and let them take it",
+          "rationale": "Correct — offer your arm and let them take it."
+        },
+        {
+          "text": "Walk ahead and describe the route",
+          "rationale": "Less useful than offering an arm."
+        },
+        {
+          "text": "Use a wheelchair regardless",
+          "rationale": "Not necessary or respectful."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-01-Q004",
+      "concept_id": "EMT-07-05-01",
+      "style": "scenario",
+      "stem": "You notice an unusual finding in a patient with a cognitive disability. What do you do?",
+      "options": [
+        {
+          "text": "Record it as their normal",
+          "rationale": "That assumption is how illness gets missed."
+        },
+        {
+          "text": "Ask the patient and their caregiver whether it is a change from baseline",
+          "rationale": "Correct — ask the patient and their caregiver whether it is a change from baseline."
+        },
+        {
+          "text": "Ignore it if the caregiver seems unconcerned",
+          "rationale": "Ask specifically rather than infer."
+        },
+        {
+          "text": "Treat it as an emergency regardless",
+          "rationale": "Establish the baseline first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-01-Q005",
+      "concept_id": "EMT-07-05-01",
+      "style": "recall",
+      "stem": "What role does the regular caregiver play?",
+      "options": [
+        {
+          "text": "They answer all questions on the patient's behalf",
+          "rationale": "Questions go to the patient first."
+        },
+        {
+          "text": "They provide the baseline, which turns your observations into findings",
+          "rationale": "Correct — they provide the baseline, which turns your observations into findings."
+        },
+        {
+          "text": "They have no clinical role",
+          "rationale": "They are genuinely valuable."
+        },
+        {
+          "text": "They provide consent in all cases",
+          "rationale": "Consent is a separate question."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-01-Q006",
+      "concept_id": "EMT-07-05-01",
+      "style": "recall",
+      "stem": "What should travel with the patient?",
+      "options": [
+        {
+          "text": "Only their medications",
+          "rationale": "Far too narrow."
+        },
+        {
+          "text": "Communication devices, mobility aids, hearing aids, glasses, and assistance animals",
+          "rationale": "Correct — communication devices, mobility aids, hearing aids, glasses, and assistance animals."
+        },
+        {
+          "text": "Nothing, to avoid loss",
+          "rationale": "They lose the ability to function without them."
+        },
+        {
+          "text": "Only items the hospital requests",
+          "rationale": "Bring them regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-02-Q001",
+      "concept_id": "EMT-07-05-02",
+      "style": "recall",
+      "stem": "Why does a tracheostomy change your airway management?",
+      "options": [
+        {
+          "text": "It makes the mouth easier to access",
+          "rationale": "It does not."
+        },
+        {
+          "text": "For many patients it is the only airway — nothing goes through the mouth or nose",
+          "rationale": "Correct — for many patients it is the only airway — nothing goes through the mouth or nose."
+        },
+        {
+          "text": "It prevents suctioning",
+          "rationale": "Suction is often exactly what is needed."
+        },
+        {
+          "text": "It rules out ventilation",
+          "rationale": "You ventilate through the stoma."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-02-Q002",
+      "concept_id": "EMT-07-05-02",
+      "style": "sequence",
+      "stem": "A home ventilator is alarming and the patient is deteriorating. What do you do?",
+      "options": [
+        {
+          "text": "Read the alarm code and adjust the settings",
+          "rationale": "Not while the patient deteriorates."
+        },
+        {
+          "text": "Disconnect the patient and ventilate manually with your own bag",
+          "rationale": "Correct — disconnect the patient and ventilate manually with your own bag."
+        },
+        {
+          "text": "Call the equipment supplier",
+          "rationale": "Not the immediate action."
+        },
+        {
+          "text": "Wait for the caregiver to reset it",
+          "rationale": "Ventilate first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-02-Q003",
+      "concept_id": "EMT-07-05-02",
+      "style": "application",
+      "stem": "Who is the most valuable information source on these calls?",
+      "options": [
+        {
+          "text": "The hospital by radio",
+          "rationale": "Useful, but not the first source."
+        },
+        {
+          "text": "The caregiver who manages the device every day",
+          "rationale": "Correct — the caregiver who manages the device every day."
+        },
+        {
+          "text": "The equipment manual",
+          "rationale": "Not practical in an emergency."
+        },
+        {
+          "text": "The patient's medical records",
+          "rationale": "Rarely available on scene."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-02-Q004",
+      "concept_id": "EMT-07-05-02",
+      "style": "sequence",
+      "stem": "A feeding tube has come out. What do you do?",
+      "options": [
+        {
+          "text": "Reinsert it carefully",
+          "rationale": "Never reinsert on scene."
+        },
+        {
+          "text": "Cover the site, note the time it came out, and transport",
+          "rationale": "Correct — cover the site, note the time it came out, and transport."
+        },
+        {
+          "text": "Tape it back in place",
+          "rationale": "Not appropriate."
+        },
+        {
+          "text": "Treat it as an airway emergency",
+          "rationale": "It is rarely immediately life-threatening."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-02-Q005",
+      "concept_id": "EMT-07-05-02",
+      "style": "recall",
+      "stem": "How does a blocked shunt present?",
+      "options": [
+        {
+          "text": "Fever and rash",
+          "rationale": "Not the presentation."
+        },
+        {
+          "text": "Headache, vomiting, irritability or drowsiness and altered mental status",
+          "rationale": "Correct — and a bulging fontanelle in an infant."
+        },
+        {
+          "text": "Abdominal distension only",
+          "rationale": "Not the presentation."
+        },
+        {
+          "text": "Localised neck swelling",
+          "rationale": "Not the presentation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-02-Q006",
+      "concept_id": "EMT-07-05-02",
+      "style": "application",
+      "stem": "Should you use a patient's central venous line?",
+      "options": [
+        {
+          "text": "Yes, it is established access",
+          "rationale": "Not unless specifically authorised."
+        },
+        {
+          "text": "Only if your protocol and training specifically permit it",
+          "rationale": "Correct — only if your protocol and training specifically permit it."
+        },
+        {
+          "text": "Yes, in any emergency",
+          "rationale": "Authorisation still applies."
+        },
+        {
+          "text": "Never under any circumstances",
+          "rationale": "Some protocols do permit it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-03-Q001",
+      "concept_id": "EMT-07-05-03",
+      "style": "application",
+      "stem": "When should additional resources be requested?",
+      "options": [
+        {
+          "text": "Once the move has begun and proves difficult",
+          "rationale": "That is when injuries happen."
+        },
+        {
+          "text": "Early, before the move starts",
+          "rationale": "Correct — early, before the move starts."
+        },
+        {
+          "text": "Only if the patient asks",
+          "rationale": "Not the patient's decision."
+        },
+        {
+          "text": "After the first attempt fails",
+          "rationale": "Too late — the planning has to precede the move."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-03-Q002",
+      "concept_id": "EMT-07-05-03",
+      "style": "recall",
+      "stem": "What happens if a blood pressure cuff is too small?",
+      "options": [
+        {
+          "text": "It reads falsely low",
+          "rationale": "It reads falsely high."
+        },
+        {
+          "text": "It reads falsely high",
+          "rationale": "Correct — and can invent hypertension."
+        },
+        {
+          "text": "It fails to inflate",
+          "rationale": "Not the usual result."
+        },
+        {
+          "text": "It has no effect on accuracy",
+          "rationale": "Sizing matters considerably."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-03-Q003",
+      "concept_id": "EMT-07-05-03",
+      "style": "application",
+      "stem": "Why sit a bariatric patient up where their condition allows?",
+      "options": [
+        {
+          "text": "It is more comfortable only",
+          "rationale": "It is a clinical intervention."
+        },
+        {
+          "text": "Weight on the chest and abdomen restricts the diaphragm, making breathing harder when flat",
+          "rationale": "Correct — weight on the chest and abdomen restricts the diaphragm, making breathing harder when flat."
+        },
+        {
+          "text": "It makes the move easier",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "It improves cuff accuracy",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-03-Q004",
+      "concept_id": "EMT-07-05-03",
+      "style": "recall",
+      "stem": "What should you plan before starting the move?",
+      "options": [
+        {
+          "text": "The lift off the bed only",
+          "rationale": "The lift is rarely the hard part."
+        },
+        {
+          "text": "The whole route out, including doors, corners, stairs and surfaces",
+          "rationale": "Correct — the whole route out, including doors, corners, stairs and surfaces."
+        },
+        {
+          "text": "The destination hospital",
+          "rationale": "Important but not the move plan."
+        },
+        {
+          "text": "The documentation",
+          "rationale": "Not the planning that matters here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-03-Q005",
+      "concept_id": "EMT-07-05-03",
+      "style": "scenario",
+      "stem": "A bariatric patient reports chest pain. What is the risk in your reasoning?",
+      "options": [
+        {
+          "text": "Over-investigating a benign complaint",
+          "rationale": "That is not the described risk."
+        },
+        {
+          "text": "Attributing the symptom to their weight and missing serious illness",
+          "rationale": "Correct — attributing the symptom to their weight and missing serious illness."
+        },
+        {
+          "text": "Assuming it is cardiac",
+          "rationale": "Cardiac assessment is appropriate."
+        },
+        {
+          "text": "Spending too long on the history",
+          "rationale": "History is more valuable here, not less."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-03-Q006",
+      "concept_id": "EMT-07-05-03",
+      "style": "recall",
+      "stem": "Why does assessment take more effort in bariatric patients?",
+      "options": [
+        {
+          "text": "Patients are less cooperative",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Landmarks are less obvious and breath, heart sounds and pulses are harder to find",
+          "rationale": "Correct — landmarks are less obvious and breath, heart sounds and pulses are harder to find."
+        },
+        {
+          "text": "Equipment always fails",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Histories are less reliable",
+          "rationale": "Histories become more valuable, not less."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-04-Q001",
+      "concept_id": "EMT-07-05-04",
+      "style": "application",
+      "stem": "You are called to a hospice patient. What should you establish first?",
+      "options": [
+        {
+          "text": "That nothing is to be done",
+          "rationale": "Never assume that."
+        },
+        {
+          "text": "What has changed and what the family would like to happen",
+          "rationale": "Correct — what has changed and what the family would like to happen."
+        },
+        {
+          "text": "Whether the patient is resuscitatable",
+          "rationale": "Not the opening question."
+        },
+        {
+          "text": "Which agency provides the hospice",
+          "rationale": "Not clinically relevant first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-04-Q002",
+      "concept_id": "EMT-07-05-04",
+      "style": "recall",
+      "stem": "Documentation of a patient's wishes is unclear or absent. What is the default?",
+      "options": [
+        {
+          "text": "Withhold resuscitation as the family requests",
+          "rationale": "Follow protocol; the default resolves towards resuscitation."
+        },
+        {
+          "text": "Resuscitate — you can stop later, but you cannot undo not starting",
+          "rationale": "Correct — resuscitate — you can stop later, but you cannot undo not starting."
+        },
+        {
+          "text": "Wait for documentation before acting",
+          "rationale": "Waiting is not an option."
+        },
+        {
+          "text": "Decide based on the patient's appearance",
+          "rationale": "Never an appropriate basis."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-04-Q003",
+      "concept_id": "EMT-07-05-04",
+      "style": "recall",
+      "stem": "What does comfort care involve?",
+      "options": [
+        {
+          "text": "Nothing, by definition",
+          "rationale": "Comfort care is active care."
+        },
+        {
+          "text": "Positioning, oxygen where appropriate, gentle handling and presence",
+          "rationale": "Correct — positioning, oxygen where appropriate, gentle handling and presence."
+        },
+        {
+          "text": "Only medication administration",
+          "rationale": "Not at EMT level, and not only that."
+        },
+        {
+          "text": "Transport without assessment",
+          "rationale": "Assessment still applies."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-04-Q004",
+      "concept_id": "EMT-07-05-04",
+      "style": "application",
+      "stem": "A patient stopped taking their medication. What should you consider?",
+      "options": [
+        {
+          "text": "They were careless",
+          "rationale": "An unfair and frequently wrong assumption."
+        },
+        {
+          "text": "They may have been unable to afford or store it, and will not volunteer that",
+          "rationale": "Correct — they may have been unable to afford or store it, and will not volunteer that."
+        },
+        {
+          "text": "They no longer needed it",
+          "rationale": "Not a safe assumption."
+        },
+        {
+          "text": "Their doctor stopped it",
+          "rationale": "Possible, but ask rather than assume."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-04-Q005",
+      "concept_id": "EMT-07-05-04",
+      "style": "scenario",
+      "stem": "A patient's child offers to interpret. What should you do?",
+      "options": [
+        {
+          "text": "Accept, as it is fastest",
+          "rationale": "Children must not be used as interpreters."
+        },
+        {
+          "text": "Use the interpretation service your system provides",
+          "rationale": "Correct — use the interpretation service your system provides."
+        },
+        {
+          "text": "Use gestures instead",
+          "rationale": "Not adequate for medical information."
+        },
+        {
+          "text": "Proceed without a history",
+          "rationale": "Unsafe — the history is not optional."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-04-Q006",
+      "concept_id": "EMT-07-05-04",
+      "style": "recall",
+      "stem": "Why do some patients present very late in an illness?",
+      "options": [
+        {
+          "text": "They do not notice symptoms",
+          "rationale": "Rarely the reason."
+        },
+        {
+          "text": "Cost, mistrust, or previous poor treatment",
+          "rationale": "Correct — treat them, do not comment on the delay."
+        },
+        {
+          "text": "They prefer to wait",
+          "rationale": "Not the usual reason."
+        },
+        {
+          "text": "They lack transport only",
+          "rationale": "One factor among several."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

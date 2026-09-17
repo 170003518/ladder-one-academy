@@ -60,6 +60,16 @@
         "EMT-07-04-04",
         "EMT-07-04-05"
       ]
+    },
+    {
+      "id": "EMT-07-05",
+      "title": "Patients with special challenges",
+      "concepts": [
+        "EMT-07-05-01",
+        "EMT-07-05-02",
+        "EMT-07-05-03",
+        "EMT-07-05-04"
+      ]
     }
   ],
   "concepts": [
@@ -4143,6 +4153,690 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm elder abuse indicators and your mandated reporting obligation against the current text and your local law and protocol, which vary by jurisdiction."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-01",
+      "title": "Physical, sensory and cognitive disability",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-05-02",
+        "EMT-07-04-05",
+        "EMT-01-05-01"
+      ],
+      "key_points": [
+        "Start by assuming capacity and speaking to the patient, whatever the disability",
+        "Ask the patient how they communicate and how they would like to be helped — they are the expert",
+        "A physical disability says nothing about cognition, and a speech difficulty says nothing about intelligence",
+        "For hearing impairment: face them, reduce noise, write things down, and ask about a preferred method",
+        "For visual impairment: say who you are, describe what you are about to do, and offer your arm rather than taking theirs",
+        "For cognitive or intellectual disability: simple concrete language, one idea at a time, and extra time to respond",
+        "The regular caregiver knows the patient's baseline and their communication, and is invaluable — but is not the patient",
+        "Bring communication devices, mobility aids, hearing aids and glasses with the patient",
+        "Assistance animals travel with the patient, and they are working rather than pets",
+        "Adjust the assessment rather than skipping it — do not assume a finding is 'just their normal' without checking"
+      ],
+      "misconceptions": [
+        "Addressing the caregiver instead of the patient",
+        "Assuming a physical disability implies cognitive impairment",
+        "Leaving communication devices or mobility aids behind",
+        "Dismissing an abnormal finding as their normal without checking"
+      ],
+      "exam_favorites": [
+        "Ask the patient how they communicate",
+        "Baseline from the caregiver",
+        "Adjust, do not skip"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Start from the right default: assume capacity, and speak to the patient. Whatever the disability, the person in front of you is the patient, and the most common complaint disabled people make about healthcare is being talked over.\n\nThe single most useful technique is also the simplest. Ask the patient how they communicate, and how they would like to be helped. They have lived in this body and navigated this system for years; they know what works and they are used to explaining it. Ask, then do what they say.\n\nTwo assumptions to unlearn. A physical disability tells you nothing about cognition — someone in a wheelchair, or with cerebral palsy, or with a tremor, may have an entirely typical intellect and frequently a specialist knowledge of their own condition that exceeds yours. And a speech difficulty tells you nothing about intelligence. Difficulty producing speech is not difficulty producing thought, and treating it as such is both wrong and deeply insulting.\n\nSome practical adjustments.\n\nHearing impairment. Face them so they can see your mouth, reduce background noise, and do not shout. Write things down — a pen and paper solves an enormous number of these situations. Ask whether they sign, lip-read, or prefer writing, and follow their preference. If they use an interpreter, look at the patient, not the interpreter.\n\nVisual impairment. Say who you are when you arrive and say when you are leaving the room, because silence is disorienting. Describe what you are about to do before you touch them. When guiding, offer your arm and let them take it rather than gripping and steering — the difference is being led rather than moved.\n\nCognitive or intellectual disability. Simple, concrete language. One idea at a time. Ask one question, then wait. Avoid figures of speech, which can be taken literally. And do not mistake taking longer to answer for being unable to answer.\n\nThe regular caregiver is genuinely valuable. They know the baseline — what this patient is normally like, what they normally understand, what they normally manage — and that baseline is what turns your observations into findings. Use them for exactly that. But they are not the patient, and the questions still go to the patient first.\n\nBring the equipment. Communication devices, mobility aids, hearing aids, glasses. Without them the person loses their ability to function and to be understood, sometimes for days in a hospital that does not know what they need.\n\nAssistance animals travel with the patient. They are working animals, they are not pets, and separating them creates a problem you do not need.\n\nAnd the clinical discipline: adjust the assessment, do not skip it. The temptation on these calls is to write an unusual finding off as 'just their normal'. Sometimes it is. But you establish that by asking, not by assuming, and that assumption is exactly how acute illness gets missed in people who already have a diagnosis.",
+          "standard": "Patients with disability should be presumed to possess capacity and addressed directly. The most effective approach is to ask the patient how they communicate and what assistance they prefer, as patients possess expertise in their own condition and its management. Physical disability carries no implication regarding cognition, and impaired speech production carries no implication regarding intellect. Hearing impairment is accommodated by facing the patient, reducing ambient noise, avoiding shouting, offering written communication, and establishing preferred modality; where an interpreter is present, the patient rather than the interpreter is addressed. Visual impairment is accommodated by verbal identification on arrival and departure, description of intended actions before contact, and offering an arm for guidance rather than grasping and directing. Cognitive or intellectual disability is accommodated by concrete language, presentation of single concepts sequentially, avoidance of idiom, and allowance of additional response time; delayed response should not be interpreted as inability to respond. Regular caregivers provide essential baseline information regarding the patient's usual function, comprehension and capability, which contextualises assessment findings, but do not replace the patient as the primary source. Communication devices, mobility aids, hearing aids and spectacles should accompany the patient. Assistance animals are working animals and travel with the patient. Assessment should be adapted rather than abbreviated; attribution of abnormal findings to the patient's baseline requires confirmation rather than assumption."
+        },
+        "eli_new": {
+          "analogy": "Offering your arm is being led. Taking theirs is being moved. The same two seconds, an entirely different experience.",
+          "body": "Ask the patient how they communicate. They have done this hundreds of times, they know what works, and it takes about five seconds."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to assess and communicate with a patient who has a disability.",
+          "must_hit": [
+            {
+              "point": "Assume capacity and speak to the patient",
+              "accept": [
+                "capacity",
+                "patient",
+                "directly",
+                "assume",
+                "over"
+              ]
+            },
+            {
+              "point": "Ask the patient how they communicate and what help they want",
+              "accept": [
+                "ask",
+                "how",
+                "communicate",
+                "prefer",
+                "expert"
+              ]
+            },
+            {
+              "point": "Physical disability does not imply cognitive impairment",
+              "accept": [
+                "physical",
+                "cognit",
+                "intellect",
+                "not imply",
+                "speech"
+              ]
+            },
+            {
+              "point": "Hearing: face them, reduce noise, write things down",
+              "accept": [
+                "face",
+                "noise",
+                "write",
+                "sign",
+                "shout",
+                "lip"
+              ]
+            },
+            {
+              "point": "Visual: identify yourself, describe actions, offer your arm",
+              "accept": [
+                "say who",
+                "describe",
+                "offer",
+                "arm",
+                "guide"
+              ]
+            },
+            {
+              "point": "Cognitive: concrete language, one idea, extra time",
+              "accept": [
+                "concrete",
+                "simple",
+                "one",
+                "time",
+                "idiom",
+                "wait"
+              ]
+            },
+            {
+              "point": "The caregiver gives baseline but is not the patient",
+              "accept": [
+                "caregiver",
+                "baseline",
+                "normal",
+                "not the patient",
+                "valuable"
+              ]
+            },
+            {
+              "point": "Bring devices and aids; adjust the assessment rather than skipping it",
+              "accept": [
+                "bring",
+                "device",
+                "aid",
+                "adjust",
+                "skip",
+                "assume"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Five seconds",
+          "dispatch": "Medic 3 — adult with cerebral palsy, unwell, communication difficulty reported.",
+          "body": "Somebody started asking the support worker the questions, which is how these calls usually go.\n\nThe patient's partner asked them to ask him instead, and said he used a board.\n\nHe answered everything, including a medication name nobody else in the room knew."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm disability communication and assessment guidance against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-02",
+      "title": "Technology-dependent patients at home",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-05-01"
+      ],
+      "related": [
+        "EMT-07-05-01",
+        "EMT-02-04-01",
+        "EMT-07-03-03"
+      ],
+      "key_points": [
+        "Increasing numbers of people live at home with medical technology, and you will meet them",
+        "The caregiver is usually expert in this specific device and this specific patient — listen to them first",
+        "Common devices: tracheostomy tubes, home ventilators, feeding tubes, central venous lines, shunts and ostomies",
+        "A tracheostomy is a surgical airway at the neck, and for many of these patients it is the only airway they have",
+        "Blocked tracheostomies are the commonest emergency: suction per protocol, and ventilate through the stoma if needed",
+        "Home ventilator failure is managed by removing the patient from the machine and ventilating manually",
+        "Do not troubleshoot an unfamiliar machine — treat the patient, use your own equipment, and bring the caregiver",
+        "Feeding tube problems are rarely immediately life-threatening; dislodgement is not an emergency to fix on scene",
+        "A shunt drains fluid from the brain, and a blockage presents as headache, vomiting and altered mental status",
+        "Bring the equipment, the supplies and the caregiver, and take the patient to a facility that knows them where possible"
+      ],
+      "misconceptions": [
+        "Trying to troubleshoot an unfamiliar home ventilator",
+        "Ignoring the caregiver's expertise",
+        "Attempting to reinsert a dislodged feeding tube",
+        "Forgetting that the tracheostomy may be the only airway"
+      ],
+      "exam_favorites": [
+        "Listen to the caregiver",
+        "Disconnect and bag",
+        "Shunt symptoms"
+      ],
+      "modes": {
+        "read": {
+          "plain": "More people than ever live at home with medical technology that used to keep them in hospital, and you will meet them. Children with complex conditions, adults with neuromuscular disease, patients on long-term ventilation. It is a call type worth being ready for, because the equipment is unfamiliar and the situation feels intimidating.\n\nSo start with the most useful thing on the whole call: the caregiver. A parent or partner who manages this device every day is genuinely expert in this specific machine and this specific patient. They know what normal looks like, what the alarm means, what usually fixes it, and what happened the last three times. Listening to them first is not politeness, it is the fastest route to the right action. Ask what is different from usual, and ask what they normally do.\n\nThe devices you will meet.\n\nA tracheostomy is a surgical opening into the trachea at the front of the neck, usually holding a tube. The essential point: for many of these patients, the tracheostomy is the only airway they have. Air does not go through the mouth or nose at all. So a blocked tube is a blocked airway, and that is the commonest emergency you will attend for these patients. Suction the tube per your protocol and training. If you need to ventilate, you ventilate through the stoma, with the caregiver telling you what usually works. Most caregivers carry a spare tube and know how to change it; support them rather than taking over.\n\nHome ventilators. When a ventilator fails or alarms and the patient is in trouble, the answer is simple and it is almost always right: take the patient off the machine and ventilate them manually with your own bag. Do not stand there trying to interpret an unfamiliar interface while the patient deteriorates. Disconnect and bag. The machine's problem becomes somebody else's problem later.\n\nAnd generalise that: do not troubleshoot unfamiliar equipment. Treat the patient with your own equipment and your own skills, and bring the caregiver who understands the device.\n\nFeeding tubes go through the abdominal wall or the nose into the stomach. Problems are common and rarely immediately life-threatening: blockage, leaking, or the tube coming out. A dislodged feeding tube is not something to fix on scene — do not attempt to reinsert it. Cover it, note the time it came out, and transport.\n\nCentral venous lines give long-term access to a large vein. Do not use them unless your protocol and training specifically permit it. Bleeding, infection at the site and dislodgement are the problems you will see.\n\nA shunt drains excess fluid from the brain to the abdomen, usually with tubing you can feel under the skin on the side of the head and neck. When one blocks, pressure rises — and the presentation is headache, vomiting, irritability or drowsiness, and altered mental status. In an infant, a bulging fontanelle. Shunt failure is an emergency and the caregiver will usually recognise it before you do.\n\nOstomies collect waste through an opening in the abdominal wall. They rarely cause emergencies, and dignity is the main consideration.\n\nAnd finally, practicalities. Bring the equipment, the supplies and the spare parts. Bring the caregiver. And where your system allows it, transport to the facility that knows this patient, because these patients are usually followed by a specialist team and going elsewhere can cost hours.",
+          "standard": "Increasing numbers of patients reside at home with medical technology formerly requiring inpatient care, including children with complex conditions and adults with neuromuscular disease or requiring long-term ventilation. Caregivers possess device-specific and patient-specific expertise and should be consulted first regarding deviation from baseline and usual corrective measures. Tracheostomy comprises a surgical tracheal opening, frequently holding a tube, and for many patients constitutes the sole airway, with no upper airway patency; tube obstruction therefore constitutes airway obstruction and is the commonest emergency, managed by suction per protocol and, where ventilation is required, by ventilation via the stoma. Caregivers frequently carry spare tubes and are competent in replacement. Home ventilator failure is managed by disconnection and manual ventilation with the provider's own equipment rather than by interrogation of an unfamiliar interface; this principle generalises to all unfamiliar equipment. Enteral feeding tubes traverse the abdominal wall or nasal route to the stomach; complications include obstruction, leakage and dislodgement, are rarely immediately life-threatening, and dislodged tubes should not be reinserted prehospitally. Central venous catheters provide long-term venous access and should not be used unless specifically authorised by protocol and training; complications include bleeding, site infection and dislodgement. Cerebrospinal fluid shunts divert fluid from the cerebral ventricles, typically to the peritoneum; obstruction produces raised intracranial pressure presenting as headache, vomiting, irritability, drowsiness and altered mental status, with bulging fontanelle in infants, and constitutes an emergency. Ostomies rarely produce emergencies and require attention to dignity. Equipment, supplies and caregivers should accompany the patient, with transport directed where possible to the facility holding the patient's specialist follow-up."
+        },
+        "eli_new": {
+          "analogy": "Disconnect and bag. Whatever the machine is doing, your own bag-valve-mask is a device you understand completely, and the patient needs air rather than a diagnosis of the ventilator.",
+          "body": "The caregiver is the most valuable thing on the call. They have managed this device every day for years and they know what the alarm means. Ask them what is different and what they normally do."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to manage a technology-dependent patient at home, including a tracheostomy and a ventilator problem.",
+          "must_hit": [
+            {
+              "point": "The caregiver is expert in this device and this patient",
+              "accept": [
+                "caregiver",
+                "expert",
+                "parent",
+                "ask",
+                "usual"
+              ]
+            },
+            {
+              "point": "A tracheostomy may be the patient's only airway",
+              "accept": [
+                "tracheostomy",
+                "only airway",
+                "stoma",
+                "neck",
+                "surgical"
+              ]
+            },
+            {
+              "point": "A blocked tracheostomy is a blocked airway — suction per protocol, ventilate through the stoma",
+              "accept": [
+                "block",
+                "suction",
+                "stoma",
+                "ventilat",
+                "airway"
+              ]
+            },
+            {
+              "point": "Ventilator failure: disconnect and ventilate manually",
+              "accept": [
+                "disconnect",
+                "bag",
+                "manual",
+                "ventilator",
+                "off the machine"
+              ]
+            },
+            {
+              "point": "Do not troubleshoot unfamiliar equipment",
+              "accept": [
+                "not troubleshoot",
+                "unfamiliar",
+                "own equipment",
+                "treat the patient",
+                "machine"
+              ]
+            },
+            {
+              "point": "Do not reinsert a dislodged feeding tube",
+              "accept": [
+                "feeding",
+                "reinsert",
+                "dislodg",
+                "cover",
+                "transport"
+              ]
+            },
+            {
+              "point": "Shunt blockage causes headache, vomiting and altered mental status",
+              "accept": [
+                "shunt",
+                "headache",
+                "vomit",
+                "altered",
+                "fontanelle",
+                "pressure"
+              ]
+            },
+            {
+              "point": "Bring the equipment, supplies and caregiver, and consider the specialist facility",
+              "accept": [
+                "bring",
+                "equipment",
+                "supplies",
+                "caregiver",
+                "facility",
+                "specialist"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Off the machine",
+          "dispatch": "Medic 6 — ventilator alarming, patient in distress.",
+          "body": "One of them was crouched at the machine reading an alarm code they had never seen before.\n\nThe other disconnected the circuit and started bagging, and the patient's colour came back.\n\nThe alarm code got worked out in a hospital corridor an hour later by somebody whose job that was."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Tracheostomy or ventilator emergency",
+          "steps": [
+            {
+              "text": "ASK THE CAREGIVER FIRST: what is different from usual, and what do you normally do?",
+              "critical": true,
+              "note": "They manage this device every day. This is the fastest route to the right action, not a courtesy."
+            },
+            {
+              "text": "REMEMBER THE TRACHEOSTOMY MAY BE THE ONLY AIRWAY — nothing goes through the mouth or nose",
+              "critical": true
+            },
+            {
+              "text": "VENTILATOR ALARMING AND PATIENT IN TROUBLE → DISCONNECT AND VENTILATE MANUALLY with your own bag",
+              "critical": true,
+              "note": "Do not stand reading an unfamiliar interface while the patient deteriorates."
+            },
+            {
+              "text": "DO NOT TROUBLESHOOT UNFAMILIAR EQUIPMENT — treat the patient with your own equipment and skills",
+              "critical": true
+            },
+            {
+              "text": "BLOCKED TRACHEOSTOMY: SUCTION THE TUBE per your protocol and training",
+              "critical": true
+            },
+            {
+              "text": "If ventilation is needed, VENTILATE THROUGH THE STOMA — ask the caregiver what usually works",
+              "critical": true
+            },
+            {
+              "text": "The caregiver usually carries a SPARE TUBE and can change it — SUPPORT THEM rather than taking over",
+              "critical": false
+            },
+            {
+              "text": "DISLODGED FEEDING TUBE: DO NOT REINSERT. Cover it, note the time it came out, transport",
+              "critical": true
+            },
+            {
+              "text": "CENTRAL LINE: do NOT use it unless your protocol and training specifically permit",
+              "critical": true
+            },
+            {
+              "text": "SHUNT: headache, vomiting, irritability or drowsiness, altered mental status, bulging fontanelle in an infant → EMERGENCY",
+              "critical": true
+            },
+            {
+              "text": "BRING THE EQUIPMENT, THE SUPPLIES, THE SPARE PARTS AND THE CAREGIVER",
+              "critical": true
+            },
+            {
+              "text": "Where your system allows, transport to THE FACILITY THAT KNOWS THIS PATIENT",
+              "critical": false
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm home medical device management, tracheostomy emergency steps and shunt failure presentation against the current text and your local protocol, which governs suctioning and device handling."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-03",
+      "title": "Bariatric patients",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-05-01",
+        "EMT-08-02-01",
+        "EMT-03-05-01"
+      ],
+      "key_points": [
+        "Plan the move before you start it, and be honest about how many people you need",
+        "Call for additional resources early — asking later, mid-lift, is when people get hurt",
+        "Know your equipment's weight limits and your service's bariatric resources before you need them",
+        "Standard equipment may not fit or may not hold: stretchers, immobilisation devices, blood pressure cuffs",
+        "A cuff that is too small reads falsely high, so use an appropriately sized one and note which you used",
+        "Assessment is harder: landmarks are less obvious, breath and heart sounds are quieter, palpation is limited",
+        "Breathing is affected by position — lying flat may be poorly tolerated, so sit them up where you can",
+        "Plan the route out of the building, not just the lift off the bed",
+        "Preserve dignity absolutely: no comments, no visible effort commentary, and never discuss weight in earshot except clinically",
+        "Treat the presenting complaint on its merits and do not attribute everything to the patient's weight"
+      ],
+      "misconceptions": [
+        "Starting a move before planning it",
+        "Asking for help only once the lift has begun",
+        "Using a cuff that is too small and believing the reading",
+        "Attributing every symptom to the patient's weight"
+      ],
+      "exam_favorites": [
+        "Plan the whole route",
+        "Right-sized cuff",
+        "Dignity"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two things make these calls go wrong: starting before you have planned, and not asking for enough help.\n\nSo plan the move before you begin it. Where is the patient, what is the route out, how many corners, how many stairs, how wide is the doorway, what is the surface outside? The lift off the bed is rarely the hard part. The stairwell is the hard part, and you want to have thought about it while everybody is still fresh and nobody is holding any weight.\n\nAnd call for additional resources early. Asking for another crew at the start costs you a few minutes. Asking halfway down a staircase costs somebody their back, and it is how both providers and patients get injured on these calls. Be honest about the number of people you need rather than optimistic.\n\nKnow your equipment. Stretchers, stair chairs, immobilisation devices and lifting equipment all have weight limits, and exceeding them is how equipment fails at the worst possible moment. Find out what your service carries for bariatric patients, what those limits are, and how you request the specialist resource — before the call, not during it.\n\nEquipment fit is a related and separate problem. A blood pressure cuff that is too small reads falsely high, which can turn a normotensive patient into an apparently hypertensive one and send the whole assessment sideways. Use an appropriately sized cuff, and document which you used.\n\nAssessment itself is harder and that is worth saying plainly rather than pretending otherwise. Landmarks are less obvious. Breath sounds and heart sounds are quieter and harder to hear. Palpating the abdomen gives you less. Peripheral pulses can be difficult to find. None of this changes what you are looking for; it means you work harder, listen longer, and rely more on the history and the overall picture.\n\nPositioning matters clinically. Lying flat may be genuinely poorly tolerated, because weight on the chest and abdomen restricts the diaphragm and makes breathing harder. Sit the patient up where their condition allows it — that is a clinical intervention, not a comfort measure.\n\nThen dignity, which matters as much as any of the above. No comments. No visible sighing or commentary about effort. No discussion of the patient's weight in earshot except where it is clinically necessary, and then clinically. Many bariatric patients have had humiliating experiences with healthcare and will be watching for the next one. You can be the crew that was straightforwardly professional about it.\n\nAnd a clinical point that follows from that: treat the presenting complaint on its merits. Attributing every symptom to the patient's weight is both an insult and a diagnostic error, and it is exactly how serious illness gets missed in patients who are used to being told their problems are their own fault.",
+          "standard": "Bariatric patient management requires advance planning of the complete extrication route rather than the initial transfer alone, including doorway dimensions, corners, stairs and external surfaces, undertaken before commencement while personnel are unfatigued. Additional resources should be requested early; late requests during an incomplete move are associated with provider and patient injury, and personnel requirements should be estimated realistically. Equipment weight limits apply to stretchers, stair chairs, immobilisation devices and lifting equipment, and providers should establish their service's bariatric resources, limits and request process in advance. Equipment sizing affects measurement validity: an undersized blood pressure cuff produces falsely elevated readings, and appropriately sized equipment should be used and documented. Assessment is technically more difficult, with reduced landmark definition, diminished breath and heart sound audibility, limited abdominal palpation and difficulty locating peripheral pulses, requiring greater reliance on history and overall presentation. Supine positioning may be poorly tolerated owing to thoracic and abdominal restriction of diaphragmatic excursion; upright positioning where clinically permissible constitutes a clinical intervention. Dignity requires absence of comment regarding weight or physical effort except where clinically necessary. The presenting complaint must be evaluated on its merits, as attribution of symptoms to body habitus constitutes both a diagnostic error and a recognised source of missed serious illness."
+        },
+        "eli_new": {
+          "analogy": "The lift off the bed is never the hard part. The stairwell is the hard part, and you want to have solved it before anybody is holding any weight.",
+          "body": "A cuff that is too small reads high. Get that one thing wrong and you have invented hypertension and sent the whole assessment in the wrong direction."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to manage a bariatric patient call safely and respectfully.",
+          "must_hit": [
+            {
+              "point": "Plan the whole route before starting the move",
+              "accept": [
+                "plan",
+                "route",
+                "stairs",
+                "door",
+                "before"
+              ]
+            },
+            {
+              "point": "Call for additional resources early",
+              "accept": [
+                "resources",
+                "help",
+                "early",
+                "crew",
+                "request"
+              ]
+            },
+            {
+              "point": "Know equipment weight limits and bariatric resources in advance",
+              "accept": [
+                "weight limit",
+                "equipment",
+                "stretcher",
+                "bariatric",
+                "advance"
+              ]
+            },
+            {
+              "point": "An undersized cuff reads falsely high",
+              "accept": [
+                "cuff",
+                "small",
+                "falsely high",
+                "size",
+                "document"
+              ]
+            },
+            {
+              "point": "Assessment is harder — sounds are quieter, landmarks less obvious",
+              "accept": [
+                "harder",
+                "sounds",
+                "quieter",
+                "landmark",
+                "palpat",
+                "pulse"
+              ]
+            },
+            {
+              "point": "Lying flat may be poorly tolerated — sit them up where possible",
+              "accept": [
+                "flat",
+                "supine",
+                "sit",
+                "position",
+                "diaphragm",
+                "breath"
+              ]
+            },
+            {
+              "point": "Preserve dignity — no comments about weight or effort",
+              "accept": [
+                "dignity",
+                "comment",
+                "effort",
+                "respect",
+                "earshot"
+              ]
+            },
+            {
+              "point": "Treat the complaint on its merits rather than attributing it to weight",
+              "accept": [
+                "merits",
+                "attribut",
+                "weight",
+                "missed",
+                "error"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Halfway down",
+          "dispatch": "Medic 8 — assistance requested, additional crew en route.",
+          "body": "The officer asked for a second crew before anyone touched the patient, and somebody muttered that they could probably manage.\n\nThey got as far as the second landing before everyone understood why the request had gone in.\n\nNobody muttered on the way back up."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm bariatric equipment limits, cuff sizing guidance and moving and handling procedure against your service's own equipment specifications and protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-05-04",
+      "title": "Terminal illness, hospice and social challenges",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-05-01",
+        "EMT-01-04-01",
+        "EMT-01-05-02"
+      ],
+      "key_points": [
+        "Hospice and palliative care aim at comfort and quality of life rather than cure",
+        "Being on hospice does not mean nobody wants your help — find out what they actually called for",
+        "Ask what the family wants to happen, and look for documentation of the patient's wishes",
+        "Follow your protocol on advance directives and do-not-resuscitate orders, and call medical direction if it is unclear",
+        "Comfort care is still care: positioning, oxygen where appropriate, gentle handling and presence",
+        "Uncertainty about paperwork resolves towards resuscitation — you can stop, but you cannot undo not starting",
+        "Poverty and homelessness affect health through cold, injury, untreated illness and inability to obtain medication",
+        "Patients may delay calling until very late because of cost, mistrust or previous poor treatment",
+        "Language barriers are safety issues — use the service your system provides rather than a child in the family",
+        "Treat everyone the same way regardless of circumstances, appearance or address"
+      ],
+      "misconceptions": [
+        "Assuming a hospice patient wants nothing done",
+        "Withholding resuscitation on unclear paperwork",
+        "Using a child as an interpreter",
+        "Judging a patient by their circumstances or address"
+      ],
+      "exam_favorites": [
+        "Ask what they called for",
+        "Unclear paperwork means resuscitate",
+        "Interpreters"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Hospice and palliative care are aimed at comfort and quality of life rather than cure. The patient has a condition that is not going to be fixed, and the care around them has been reorganised around living as well as possible instead of living as long as possible.\n\nThe mistake crews make is assuming that a hospice patient means nobody wants anything done. Sometimes that is exactly right. But families call for many reasons: uncontrolled pain, a fall, breathing that frightened them, a device problem, exhaustion, or simply not knowing what else to do at three in the morning. Find out what they actually called for. Ask the question directly and gently: what has changed, and what would you like to happen?\n\nLook for documentation of the patient's wishes. Advance directives and do-not-resuscitate orders come in different forms in different places, and the form your system recognises is the one that governs. Follow your protocol, and when it is unclear, call medical direction — that is exactly what they are for.\n\nWhere paperwork is genuinely uncertain or absent, the default resolves towards resuscitation. Not because anybody wants to override a patient's wishes, but because of the asymmetry: a resuscitation that turns out to be unwanted can be stopped once the documentation surfaces, while not starting cannot be undone. Do that with as much gentleness as you can, and explain to the family why.\n\nAnd hold on to this: comfort care is still care. Positioning someone so they can breathe more easily. Oxygen where it is appropriate and your protocol allows. Gentle handling. Cleaning someone up. Sitting with a family. None of that is doing nothing, and on some of these calls it is the most useful thing anybody does all shift.\n\nThen the social side, which is not separate from the medicine.\n\nPoverty and homelessness affect health directly — exposure and cold, injury, violence, untreated chronic illness, no safe place to store medication or keep it refrigerated, and no way to obtain it in the first place. A patient who stopped taking their medication may not have been careless; they may have been unable to afford it, and they will often not volunteer that.\n\nPeople also delay calling. Because of what it might cost, because of how they have been treated before, or because they do not trust the system. Which means some patients arrive far later in an illness than they should have, and the correct response to that is to get on with treating them, not to comment on the delay.\n\nLanguage barriers are a safety issue rather than an inconvenience. Use whatever interpretation service your system provides. Try not to use a family member, and specifically do not use a child — children should not be made responsible for their parent's medical information, they may not understand it, and they may soften what is said. When an interpreter is used, speak to the patient and look at the patient.\n\nAnd the simple rule underneath all of it: treat everyone the same way regardless of their circumstances, their appearance or their address. Patients notice which crew you were.",
+          "standard": "Hospice and palliative care prioritise comfort and quality of life over curative intent in patients with terminal conditions. Hospice enrolment does not imply that intervention is unwanted; families summon EMS for uncontrolled symptoms, falls, respiratory distress, device malfunction, caregiver exhaustion or uncertainty, and providers should establish the specific reason for the call and the family's expectations. Documentation of patient wishes should be sought; advance directives and do-not-resuscitate orders vary in form by jurisdiction, and the locally recognised documentation governs. Protocol should be followed, with medical direction consulted where the situation is unclear. Where documentation is absent or genuinely uncertain, the default position is resuscitation, reflecting the asymmetry between a resuscitation that may be discontinued on emergence of documentation and a withheld resuscitation that cannot be reversed. Comfort measures constitute active care, including positioning, oxygen where appropriate and protocol permits, gentle handling, hygiene and presence with the family. Poverty and homelessness affect health through exposure, injury, violence, untreated chronic disease, and inability to obtain, store or refrigerate medication; medication non-adherence may reflect cost rather than choice and is infrequently volunteered. Delayed presentation may reflect cost, prior negative experience or distrust, and warrants treatment rather than comment. Language barriers constitute a safety issue; system-provided interpretation should be used in preference to family members, and children must not serve as interpreters. Care should be delivered equivalently irrespective of circumstances, appearance or address."
+        },
+        "eli_new": {
+          "analogy": "You can stop a resuscitation once the paperwork turns up. You cannot restart the one you decided not to begin.",
+          "body": "Being on hospice does not tell you what this call is about. Ask what changed and what they would like to happen — the answer is frequently something you can help with."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to approach a hospice call and the social factors that affect patients' health.",
+          "must_hit": [
+            {
+              "point": "Hospice aims at comfort and quality of life rather than cure",
+              "accept": [
+                "comfort",
+                "quality",
+                "cure",
+                "palliat",
+                "hospice"
+              ]
+            },
+            {
+              "point": "Find out what the family actually called for",
+              "accept": [
+                "called",
+                "ask",
+                "what changed",
+                "want",
+                "reason"
+              ]
+            },
+            {
+              "point": "Look for documentation and follow protocol on directives and DNR",
+              "accept": [
+                "directive",
+                "dnr",
+                "document",
+                "protocol",
+                "medical direction"
+              ]
+            },
+            {
+              "point": "Unclear or absent paperwork resolves towards resuscitation",
+              "accept": [
+                "unclear",
+                "resuscitat",
+                "default",
+                "stop",
+                "undo"
+              ]
+            },
+            {
+              "point": "Comfort care is still care",
+              "accept": [
+                "comfort",
+                "still care",
+                "position",
+                "gentle",
+                "presence"
+              ]
+            },
+            {
+              "point": "Poverty and homelessness affect health directly",
+              "accept": [
+                "poverty",
+                "homeless",
+                "cold",
+                "medication",
+                "afford",
+                "untreated"
+              ]
+            },
+            {
+              "point": "Patients may delay calling because of cost or mistrust",
+              "accept": [
+                "delay",
+                "cost",
+                "mistrust",
+                "treated",
+                "late"
+              ]
+            },
+            {
+              "point": "Use a proper interpreter and never a child",
+              "accept": [
+                "interpret",
+                "language",
+                "child",
+                "service",
+                "family member"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "What did you call for",
+          "dispatch": "Medic 1 — hospice patient, family requesting assistance.",
+          "body": "Somebody said on the way in that there would be nothing to do here.\n\nThe daughter had called because her mother had slipped down the bed and could not breathe properly, and she could not move her alone.\n\nIt took four minutes and it was the only thing that call needed."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm advance directive and DNR handling against your local protocol and law, which vary considerably by jurisdiction. Confirm oxygen use in comfort care against your protocol."
     }
   ]
 }
