@@ -107,7 +107,8 @@ export function renderOverview(mod, questions) {
           <div>
             <h2>${esc(lesson.title)}</h2>
             <p class="meta"><span class="num">${lesson.id}</span> ·
-              <span class="num">${p.done}</span> of <span class="num">${p.total}</span> concepts complete</p>
+              <span class="num">${p.done}</span> of <span class="num">${p.total}</span> concepts complete ·
+              <a href="#/worksheet/${encodeURIComponent(lesson.id)}">Worksheet</a></p>
           </div>
         </header>
         <ul class="ov-concepts">

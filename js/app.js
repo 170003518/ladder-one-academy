@@ -24,6 +24,7 @@ import * as sort from './sort.js';
 import * as deckprint from './deckprint.js';
 import * as deck from './deck.js';
 import { renderOverview } from './overview.js';
+import { buildWorksheet, renderWorksheetView, newSeed } from './worksheet.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -162,6 +163,24 @@ async function route() {
     return done();
   }
 
+  if (parts[0] === 'worksheet' && parts[1]) {
+    exam.abandon(); quiz.abandon();
+    const lessonId = decodeURIComponent(parts[1]);
+    let mod = null, lesson = null;
+    for (const mods of Object.values(app.modulesByTier)) {
+      for (const m of mods) {
+        const l = m.lessons.find(x => x.id === lessonId);
+        if (l) { mod = m; lesson = l; break; }
+      }
+      if (lesson) break;
+    }
+    const seed = parts[2] ? Number(decodeURIComponent(parts[2])) : newSeed();
+    const sheet = (mod && lesson) ? buildWorksheet(mod, lesson, seed) : { items: [], diagrams: [], seed };
+    ctx = { kind: 'worksheet', module: mod, lesson, sheet };
+    app.el.innerHTML = shell(renderWorksheetView(mod, lesson, sheet));
+    return done();
+  }
+
   if (parts[0] === 'module' && parts[1]) {
     exam.abandon(); quiz.abandon();
     const moduleId = decodeURIComponent(parts[1]);
@@ -285,6 +304,7 @@ function refresh() {
   if (!ctx) return route();
   if (ctx.kind === 'exam') { app.el.innerHTML = shell(exam.renderExam(ctx.module, ctx.questions)); return; }
   if (ctx.kind === 'print') return route();
+  if (ctx.kind === 'worksheet') { app.el.innerHTML = shell(renderWorksheetView(ctx.module, ctx.lesson, ctx.sheet)); return; }
   if (ctx.kind === 'overview') { app.el.innerHTML = shell(renderOverview(ctx.module, ctx.questions)); return; }
   if (ctx.kind === 'deck') { app.el.innerHTML = shell(deck.renderDeck(ctx.module, ctx.deck)); return; }
   if (ctx.kind === 'deckprint') { app.el.innerHTML = shell(deckprint.renderDeckPrint(ctx.module, ctx.deck)); return; }
@@ -311,7 +331,7 @@ function wire() {
       + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print, '
       + '[data-do-pick], #do-reset, #hear-play, #hear-stop, #teach-submit, #teach-again, '
       + '[data-see-zoom], #see-close, [data-sort-item], [data-sort-bucket], [data-sort-unplace], #sort-check, #sort-reset, '
-      + '#deck-all, #deck-none, #deck-study, #deck-study-all, #deck-flip, [data-grade], #deck-stop, #deck-back');
+      + '#ws-new, #deck-all, #deck-none, #deck-study, #deck-study-all, #deck-flip, [data-grade], #deck-stop, #deck-back');
     if (!t) return;
 
     if (t.dataset.depth) { app.depth = t.dataset.depth; return refresh(); }
@@ -355,6 +375,15 @@ function wire() {
     if (t.id === 'review-next') { exam.reviewGo(1); return refresh(); }
 
     if (t.id === 'do-print') { window.print(); return; }
+
+    /* --- Worksheet --- */
+    if (t.id === 'ws-new') {
+      const seed = newSeed();
+      ctx.sheet = buildWorksheet(ctx.module, ctx.lesson, seed);
+      // The seed goes in the hash so a printed sheet can be regenerated exactly.
+      history.replaceState(null, '', `#/worksheet/${encodeURIComponent(ctx.lesson.id)}/${seed}`);
+      return refresh();
+    }
 
     /* --- Do It --- */
     if (t.dataset.doPick) {

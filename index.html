@@ -543,6 +543,21 @@
   .dot.is-unseen { border-style: dashed; }
   .dot.is-absent { opacity: .3; }
 
+  /* --- Worksheets --------------------------------------------------------- */
+  .worksheet .ws-items { margin: 0; padding-left: 0.3in; }
+  .worksheet .ws-items li { margin-bottom: 0.19in; line-height: 1.6; break-inside: avoid; }
+  .worksheet .ws-q { font-size: 10.5pt; }
+  .worksheet .ws-instr { font-size: 9.5pt; color: var(--ink-muted); margin: 0.1in 0 0.16in; }
+  .worksheet .ws-diagram { text-align: center; margin-bottom: 0.16in; }
+  .worksheet .ws-diagram img { max-width: 100%; max-height: 4.6in; }
+  .worksheet .ws-lines { margin: 0; padding-left: 0.3in; columns: 2; column-gap: 0.4in; }
+  .worksheet .ws-lines li { border-bottom: 0.75pt solid var(--rule); height: 0.32in; margin-bottom: 0.12in; break-inside: avoid; }
+  .worksheet .ws-key { margin: 0; padding-left: 0.3in; columns: 2; column-gap: 0.4in; font-size: 9.5pt; }
+  .worksheet .ws-key li { margin-bottom: 0.08in; break-inside: avoid; }
+  .worksheet .ws-key em { color: var(--ink-muted); font-size: 8.5pt; display: block; }
+  .worksheetview .paper-stage .l1a-page { margin-bottom: var(--space-6); }
+  #ws-new { background: var(--surface-raised); color: var(--text); border: 1px solid var(--border); }
+
   /* --- Dev mode banner ---------------------------------------------------- */
   .devbanner {
     background: var(--signal-yellow); color: var(--navy);
