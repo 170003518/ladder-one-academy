@@ -3242,6 +3242,906 @@
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-01-Q001",
+      "concept_id": "EMT-07-04-01",
+      "style": "recall",
+      "stem": "What single idea underlies most geriatric care?",
+      "options": [
+        {
+          "text": "Older patients always have multiple diseases",
+          "rationale": "Common, but not the underlying idea."
+        },
+        {
+          "text": "Ageing reduces reserve — the capacity to compensate",
+          "rationale": "Correct — ageing reduces reserve — the capacity to compensate."
+        },
+        {
+          "text": "Older patients cannot consent",
+          "rationale": "Untrue and not the idea."
+        },
+        {
+          "text": "Medication causes most presentations",
+          "rationale": "An important factor, not the core idea."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-01-Q002",
+      "concept_id": "EMT-07-04-01",
+      "style": "application",
+      "stem": "An older patient is bleeding but the heart rate is normal. What should you conclude?",
+      "options": [
+        {
+          "text": "They are compensating well",
+          "rationale": "A normal rate is not evidence of coping."
+        },
+        {
+          "text": "Very little — they may be unable to raise the rate, or medication prevents it",
+          "rationale": "Correct — very little — they may be unable to raise the rate, or medication prevents it."
+        },
+        {
+          "text": "The bleeding is minor",
+          "rationale": "No such inference is available."
+        },
+        {
+          "text": "The reading is inaccurate",
+          "rationale": "The reading may be perfectly accurate and still unhelpful."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-01-Q003",
+      "concept_id": "EMT-07-04-01",
+      "style": "recall",
+      "stem": "Why can an older person bleed inside the skull for weeks before symptoms appear?",
+      "options": [
+        {
+          "text": "Their blood clots more slowly",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "The brain shrinks, leaving space for blood to accumulate and stretching bridging veins",
+          "rationale": "Correct — the brain shrinks, leaving space for blood to accumulate and stretching bridging veins."
+        },
+        {
+          "text": "Their skull is thinner",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "They do not report symptoms",
+          "rationale": "Not the anatomical reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-01-Q004",
+      "concept_id": "EMT-07-04-01",
+      "style": "scenario",
+      "stem": "An older patient bumped their head last week and is confused today. What do you think?",
+      "options": [
+        {
+          "text": "Unrelated, given the time gap",
+          "rationale": "The time gap is exactly the pattern."
+        },
+        {
+          "text": "A slow intracranial bleed is a genuine concern",
+          "rationale": "Correct — a slow intracranial bleed is a genuine concern."
+        },
+        {
+          "text": "Normal age-related confusion",
+          "rationale": "Never assume that."
+        },
+        {
+          "text": "Only relevant if they were knocked out",
+          "rationale": "Loss of consciousness is not required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-01-Q005",
+      "concept_id": "EMT-07-04-01",
+      "style": "recall",
+      "stem": "Why do older patients tear their skin so easily?",
+      "options": [
+        {
+          "text": "Poor nutrition in all older people",
+          "rationale": "Not the described reason."
+        },
+        {
+          "text": "Skin thins and loses elasticity with age",
+          "rationale": "Correct — handle gently, and mind tape and straps."
+        },
+        {
+          "text": "Reduced circulation only",
+          "rationale": "Not the primary reason."
+        },
+        {
+          "text": "Medication effects only",
+          "rationale": "Not the primary reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-01-Q006",
+      "concept_id": "EMT-07-04-01",
+      "style": "application",
+      "stem": "Why is dehydration common and easily missed in older patients?",
+      "options": [
+        {
+          "text": "They drink deliberately less",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "Thirst sensation declines, so they dehydrate without feeling thirsty",
+          "rationale": "Correct — thirst sensation declines, so they dehydrate without feeling thirsty."
+        },
+        {
+          "text": "They cannot absorb fluid",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "They lose more fluid through skin",
+          "rationale": "Not the described reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-02-Q001",
+      "concept_id": "EMT-07-04-02",
+      "style": "application",
+      "stem": "An older patient has weakness and nausea but no chest pain. Can you exclude a heart attack?",
+      "options": [
+        {
+          "text": "Yes, chest pain is required",
+          "rationale": "It is frequently absent in older patients."
+        },
+        {
+          "text": "No — heart attacks in older patients often present without chest pain",
+          "rationale": "Correct — no — heart attacks in older patients often present without chest pain."
+        },
+        {
+          "text": "Only if the ECG is normal",
+          "rationale": "Absence of pain excludes nothing regardless."
+        },
+        {
+          "text": "Yes, if they deny pain when asked directly",
+          "rationale": "Denial of pain does not exclude it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-02-Q002",
+      "concept_id": "EMT-07-04-02",
+      "style": "application",
+      "stem": "An older patient is confused with no fever. Can you exclude infection?",
+      "options": [
+        {
+          "text": "Yes, infection requires fever",
+          "rationale": "Infection frequently presents without fever."
+        },
+        {
+          "text": "No — confusion may be the only sign of a serious infection",
+          "rationale": "Correct — no — confusion may be the only sign of a serious infection."
+        },
+        {
+          "text": "Only if they have no cough",
+          "rationale": "Not a valid exclusion."
+        },
+        {
+          "text": "Yes, if the skin feels cool",
+          "rationale": "Not a valid exclusion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-02-Q003",
+      "concept_id": "EMT-07-04-02",
+      "style": "recall",
+      "stem": "What does new or worsening confusion in an older patient mean?",
+      "options": [
+        {
+          "text": "It is a normal part of ageing",
+          "rationale": "Confusion is never normal ageing."
+        },
+        {
+          "text": "It is a symptom of physical illness until proved otherwise",
+          "rationale": "Correct — it is a symptom of physical illness until proved otherwise."
+        },
+        {
+          "text": "It indicates dementia",
+          "rationale": "Dementia does not arrive over two days."
+        },
+        {
+          "text": "It is usually psychological",
+          "rationale": "Look for a physical cause first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-02-Q004",
+      "concept_id": "EMT-07-04-02",
+      "style": "recall",
+      "stem": "Why does atypical presentation happen so often in older patients?",
+      "options": [
+        {
+          "text": "They exaggerate symptoms",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Reduced pain sensation, blunted responses, comorbidities and medications blur the picture",
+          "rationale": "Correct — reduced pain sensation, blunted responses, comorbidities and medications blur the picture."
+        },
+        {
+          "text": "They are seen later in the illness",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "They have fewer symptoms overall",
+          "rationale": "Not an accurate account."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-02-Q005",
+      "concept_id": "EMT-07-04-02",
+      "style": "scenario",
+      "stem": "Why ask what is normal for this patient?",
+      "options": [
+        {
+          "text": "For documentation completeness",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "Without a baseline you cannot tell whether the current state is a change",
+          "rationale": "Correct — without a baseline you cannot tell whether the current state is a change."
+        },
+        {
+          "text": "To assess capacity to consent",
+          "rationale": "A separate question."
+        },
+        {
+          "text": "To decide the destination",
+          "rationale": "Not the primary purpose."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-02-Q006",
+      "concept_id": "EMT-07-04-02",
+      "style": "application",
+      "stem": "The family says the patient is just not themselves, with nothing specific. What is that worth?",
+      "options": [
+        {
+          "text": "Very little without objective findings",
+          "rationale": "It frequently outperforms the examination."
+        },
+        {
+          "text": "High-quality clinical information from people who see them daily",
+          "rationale": "Correct — high-quality clinical information from people who see them daily."
+        },
+        {
+          "text": "A reason to reassure the family",
+          "rationale": "Not the appropriate response."
+        },
+        {
+          "text": "Relevant only if vital signs are abnormal",
+          "rationale": "It stands on its own."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-03-Q001",
+      "concept_id": "EMT-07-04-03",
+      "style": "recall",
+      "stem": "What is polypharmacy?",
+      "options": [
+        {
+          "text": "Taking medication from multiple pharmacies",
+          "rationale": "Not the definition."
+        },
+        {
+          "text": "Taking many medications at once",
+          "rationale": "Correct — and it is the norm in older patients."
+        },
+        {
+          "text": "Taking medication without a prescription",
+          "rationale": "Not the definition."
+        },
+        {
+          "text": "Prescribing beyond guidelines",
+          "rationale": "Not the definition."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-03-Q002",
+      "concept_id": "EMT-07-04-03",
+      "style": "application",
+      "stem": "You cannot find a cause for an older patient's falls. What should you look at?",
+      "options": [
+        {
+          "text": "Their diet",
+          "rationale": "Not the highest-yield area."
+        },
+        {
+          "text": "Their medications — drugs frequently cause the presentation",
+          "rationale": "Correct — their medications — drugs frequently cause the presentation."
+        },
+        {
+          "text": "Their exercise habits",
+          "rationale": "Not the highest-yield area."
+        },
+        {
+          "text": "Their sleep pattern",
+          "rationale": "Not the highest-yield area."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-03-Q003",
+      "concept_id": "EMT-07-04-03",
+      "style": "recall",
+      "stem": "Why can a long-standing dose suddenly become a problem?",
+      "options": [
+        {
+          "text": "Medications expire and change strength",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "Ageing changes how the body handles drugs, so the same dose becomes too much",
+          "rationale": "Correct — ageing changes how the body handles drugs, so the same dose becomes too much."
+        },
+        {
+          "text": "Tolerance always develops",
+          "rationale": "The opposite concern applies here."
+        },
+        {
+          "text": "Only if the patient changes brand",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-03-Q004",
+      "concept_id": "EMT-07-04-03",
+      "style": "application",
+      "stem": "What is the highest-yield medication question in geriatrics?",
+      "options": [
+        {
+          "text": "How long have you taken these?",
+          "rationale": "Useful, but not highest-yield."
+        },
+        {
+          "text": "What has changed recently — started, stopped or altered?",
+          "rationale": "Correct — what has changed recently — started, stopped or altered?."
+        },
+        {
+          "text": "Who prescribed these?",
+          "rationale": "Useful context, not highest-yield."
+        },
+        {
+          "text": "Do you take them with food?",
+          "rationale": "Not a high-yield question here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-03-Q005",
+      "concept_id": "EMT-07-04-03",
+      "style": "scenario",
+      "stem": "Which medications do patients routinely fail to mention?",
+      "options": [
+        {
+          "text": "Their long-term prescriptions",
+          "rationale": "Usually mentioned."
+        },
+        {
+          "text": "Over-the-counter medicines, supplements and herbal products",
+          "rationale": "Correct — ask directly."
+        },
+        {
+          "text": "Anything given by a specialist",
+          "rationale": "Usually mentioned."
+        },
+        {
+          "text": "Recently started prescriptions",
+          "rationale": "Usually mentioned if asked."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-03-Q006",
+      "concept_id": "EMT-07-04-03",
+      "style": "recall",
+      "stem": "What should you do with the patient's medications?",
+      "options": [
+        {
+          "text": "Leave them at home for safety",
+          "rationale": "They are genuinely valuable to the hospital."
+        },
+        {
+          "text": "Bring them, or photograph the list",
+          "rationale": "Correct — bring them, or photograph the list."
+        },
+        {
+          "text": "Record only the names you recognise",
+          "rationale": "Record everything."
+        },
+        {
+          "text": "Ask the family to bring them later",
+          "rationale": "Reconstruction later is often impossible."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-04-Q001",
+      "concept_id": "EMT-07-04-04",
+      "style": "recall",
+      "stem": "What is the most important question after an older person falls?",
+      "options": [
+        {
+          "text": "How far they fell",
+          "rationale": "Distance matters less than cause."
+        },
+        {
+          "text": "Why they fell",
+          "rationale": "Correct — the fall is often the presentation of an illness."
+        },
+        {
+          "text": "What surface they landed on",
+          "rationale": "Secondary."
+        },
+        {
+          "text": "Whether they can stand now",
+          "rationale": "Useful, but not the key question."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-04-Q002",
+      "concept_id": "EMT-07-04-04",
+      "style": "application",
+      "stem": "A patient cannot remember the moment before hitting the floor. What does that suggest?",
+      "options": [
+        {
+          "text": "Ordinary confusion after a fall",
+          "rationale": "Do not assume that."
+        },
+        {
+          "text": "A syncopal event until proved otherwise",
+          "rationale": "Correct — a different call entirely."
+        },
+        {
+          "text": "A head injury caused by landing",
+          "rationale": "Possible, but the gap itself points to syncope."
+        },
+        {
+          "text": "Nothing of significance",
+          "rationale": "It is highly significant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-04-Q003",
+      "concept_id": "EMT-07-04-04",
+      "style": "recall",
+      "stem": "How does a hip fracture typically appear?",
+      "options": [
+        {
+          "text": "Leg lengthened and rotated inward",
+          "rationale": "The opposite of the classic finding."
+        },
+        {
+          "text": "Leg shortened and rotated outward, with inability to bear weight",
+          "rationale": "Correct — leg shortened and rotated outward, with inability to bear weight."
+        },
+        {
+          "text": "No visible deformity in most cases",
+          "rationale": "There is usually a classic appearance."
+        },
+        {
+          "text": "Both legs equally affected",
+          "rationale": "A fracture is unilateral."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-04-Q004",
+      "concept_id": "EMT-07-04-04",
+      "style": "application",
+      "stem": "Why does blood-thinning medication change a head injury call?",
+      "options": [
+        {
+          "text": "It makes assessment harder",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Bleeding happens more readily and continues longer, raising urgency and often changing destination",
+          "rationale": "Correct — bleeding happens more readily and continues longer, raising urgency and often changing destination."
+        },
+        {
+          "text": "It prevents bleeding entirely",
+          "rationale": "It does the opposite."
+        },
+        {
+          "text": "It only matters for external wounds",
+          "rationale": "It matters most for internal bleeding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-04-Q005",
+      "concept_id": "EMT-07-04-04",
+      "style": "scenario",
+      "stem": "Why are rib fractures dangerous in older patients?",
+      "options": [
+        {
+          "text": "They puncture the lung more often",
+          "rationale": "Not the described mechanism."
+        },
+        {
+          "text": "Pain limits breathing and coughing, leading to secretion retention and pneumonia",
+          "rationale": "Correct — pain limits breathing and coughing, leading to secretion retention and pneumonia."
+        },
+        {
+          "text": "They take longer to heal",
+          "rationale": "Not the acute danger."
+        },
+        {
+          "text": "They bleed heavily",
+          "rationale": "Not the principal concern here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-04-Q006",
+      "concept_id": "EMT-07-04-04",
+      "style": "recall",
+      "stem": "Why does time spent on the floor matter?",
+      "options": [
+        {
+          "text": "It indicates how severe the fall was",
+          "rationale": "Not what it tells you."
+        },
+        {
+          "text": "A long lie causes dehydration, pressure injury, hypothermia and muscle breakdown",
+          "rationale": "Correct — a long lie causes dehydration, pressure injury, hypothermia and muscle breakdown."
+        },
+        {
+          "text": "It affects documentation only",
+          "rationale": "It is clinically significant."
+        },
+        {
+          "text": "It determines whether they need transport",
+          "rationale": "Transport is indicated regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-05-Q001",
+      "concept_id": "EMT-07-04-05",
+      "style": "application",
+      "stem": "A patient does not answer your questions. What should you consider first?",
+      "options": [
+        {
+          "text": "That they are confused",
+          "rationale": "The commonest misjudgement in geriatrics."
+        },
+        {
+          "text": "That they may not be able to hear you — sensory loss is not cognitive loss",
+          "rationale": "Correct — that they may not be able to hear you — sensory loss is not cognitive loss."
+        },
+        {
+          "text": "That they are refusing care",
+          "rationale": "Not the first consideration."
+        },
+        {
+          "text": "That they have had a stroke",
+          "rationale": "Possible, but check they can hear you first."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-05-Q002",
+      "concept_id": "EMT-07-04-05",
+      "style": "recall",
+      "stem": "Why is shouting unhelpful with a hard-of-hearing patient?",
+      "options": [
+        {
+          "text": "It startles them",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "It distorts speech and raises pitch, and higher pitches are lost first",
+          "rationale": "Correct — it distorts speech and raises pitch, and higher pitches are lost first."
+        },
+        {
+          "text": "It damages hearing aids",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is against protocol",
+          "rationale": "Not a protocol matter."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-05-Q003",
+      "concept_id": "EMT-07-04-05",
+      "style": "application",
+      "stem": "Why bring hearing aids and glasses to hospital?",
+      "options": [
+        {
+          "text": "For the patient's comfort only",
+          "rationale": "It is far more than comfort."
+        },
+        {
+          "text": "Without them the patient cannot participate in their own care, possibly for days",
+          "rationale": "Correct — without them the patient cannot participate in their own care, possibly for days."
+        },
+        {
+          "text": "To prevent theft from the home",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "They are required for documentation",
+          "rationale": "Not a documentation matter."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-05-Q004",
+      "concept_id": "EMT-07-04-05",
+      "style": "recall",
+      "stem": "Which forms does elder abuse take?",
+      "options": [
+        {
+          "text": "Physical abuse only",
+          "rationale": "Far too narrow."
+        },
+        {
+          "text": "Physical, emotional, sexual and financial abuse, and neglect",
+          "rationale": "Correct — physical, emotional, sexual and financial abuse, and neglect."
+        },
+        {
+          "text": "Neglect only",
+          "rationale": "Too narrow."
+        },
+        {
+          "text": "Financial abuse only",
+          "rationale": "Too narrow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-05-Q005",
+      "concept_id": "EMT-07-04-05",
+      "style": "scenario",
+      "stem": "A caregiver answers every question for the patient and will not leave the room. What is that?",
+      "options": [
+        {
+          "text": "Normal protective behaviour",
+          "rationale": "It may be, but it is also a recognised warning sign."
+        },
+        {
+          "text": "A recognised warning sign that should be noted and documented",
+          "rationale": "Correct — a recognised warning sign that should be noted and documented."
+        },
+        {
+          "text": "Grounds to confront them",
+          "rationale": "Never confront on scene."
+        },
+        {
+          "text": "Irrelevant if the patient seems well",
+          "rationale": "It is noted regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-05-Q006",
+      "concept_id": "EMT-07-04-05",
+      "style": "recall",
+      "stem": "What is the reporting threshold for suspected elder abuse?",
+      "options": [
+        {
+          "text": "Proof of abuse",
+          "rationale": "Proof is not required."
+        },
+        {
+          "text": "Suspicion",
+          "rationale": "Correct — and do not confront the caregiver."
+        },
+        {
+          "text": "Agreement from the patient",
+          "rationale": "Not required."
+        },
+        {
+          "text": "Confirmation by the hospital",
+          "rationale": "Not required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

@@ -49,6 +49,17 @@
         "EMT-07-03-08",
         "EMT-07-03-09"
       ]
+    },
+    {
+      "id": "EMT-07-04",
+      "title": "Geriatrics",
+      "concepts": [
+        "EMT-07-04-01",
+        "EMT-07-04-02",
+        "EMT-07-04-03",
+        "EMT-07-04-04",
+        "EMT-07-04-05"
+      ]
     }
   ],
   "concepts": [
@@ -3295,6 +3306,843 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm paediatric trauma priorities, triage criteria and destination guidance against the current text and your local protocol. Significant-mechanism thresholds are deliberately not reproduced here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-01",
+      "title": "What changes with age",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-04-02",
+        "EMT-07-04-04",
+        "EMT-01-06-01"
+      ],
+      "key_points": [
+        "Ageing reduces reserve in every system, which matters most when something goes wrong",
+        "Reserve is the capacity to compensate — an older patient has less of it and uses it up faster",
+        "Cardiovascular: stiffer vessels, less ability to increase rate, so they tolerate volume loss poorly",
+        "Respiratory: stiffer chest wall, weaker muscles, less effective cough, so secretions and infection are harder to clear",
+        "Neurological: slower nerve conduction, reduced sensation, and the brain shrinks slightly within the skull",
+        "That extra space inside the skull lets bleeding accumulate for a long time before symptoms appear",
+        "Thermoregulation is poorer, so they become hypothermic and hyperthermic more easily",
+        "Skin is thinner and more fragile, so minor forces cause significant wounds",
+        "Bones are less dense, so ordinary falls produce fractures that would not occur in a younger person",
+        "Vision, hearing, taste and thirst all decline, which affects both safety and assessment"
+      ],
+      "misconceptions": [
+        "Treating reduced reserve as a normal finding that needs no allowance",
+        "Assuming a normal heart rate means a normal response to blood loss",
+        "Judging a head injury by how well they seem immediately afterwards",
+        "Underestimating skin injury from apparently trivial force"
+      ],
+      "exam_favorites": [
+        "Reserve is the key idea",
+        "The shrinking brain and bleeding",
+        "Falls produce fractures"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Almost everything about geriatric care follows from one idea: ageing reduces reserve.\n\nReserve is the spare capacity a body has to compensate when something goes wrong. A younger patient losing blood increases their heart rate, clamps down their vessels and holds their pressure for a long time. An older patient has less of that capacity, uses it up faster, and therefore arrives at trouble sooner and with less warning. Everything below is a version of that.\n\nCardiovascular. Vessels stiffen, the heart becomes less able to increase its rate on demand, and many patients take medication that actively prevents the rate from rising. Which produces a trap worth naming: an older person can be seriously hypovolaemic with a heart rate that looks perfectly normal. Never take a normal rate as evidence they are coping.\n\nRespiratory. The chest wall stiffens, the muscles weaken, and the cough becomes less effective. So secretions are harder to clear and infections are harder to fight off, which is part of why pneumonia is so serious in older people.\n\nNeurological. Nerve conduction slows, sensation is reduced — including pain sensation, which has enormous consequences for how illness presents — and the brain shrinks slightly within the skull.\n\nThat last one deserves its own paragraph, because it has a direct clinical consequence you will meet. As the brain shrinks, the space between it and the skull increases, and the small bridging veins crossing that space are stretched and vulnerable. Two results. A relatively minor head impact can tear them. And because there is room for blood to accumulate, a bleed can grow for a long time — days or weeks — before it produces symptoms. So an older person who bumped their head last week and is now confused is a genuine concern, and someone who seems fine immediately after a fall has not been cleared of anything.\n\nThermoregulation is poorer. They become hypothermic and hyperthermic more readily, and they may not feel it happening or complain of it.\n\nSkin thins and loses elasticity, so forces that would leave a younger person unmarked produce large skin tears and bruising. Handle gently, and be careful with tape and straps.\n\nBones lose density, so a fall from standing can fracture a hip, a wrist or a vertebra — injuries that simply would not occur in a younger person from the same fall. And sometimes the fracture causes the fall rather than the other way round.\n\nAnd the senses decline: vision, hearing, taste, and thirst. The first two affect both safety and your assessment. Reduced thirst matters more than it sounds — older people become dehydrated without feeling thirsty, which makes dehydration common and easy to miss.",
+          "standard": "Geriatric physiology is characterised principally by reduced physiological reserve, defined as capacity to compensate for insult; reserve declines with age and is exhausted more rapidly, producing earlier decompensation with less warning. Cardiovascular changes comprise arterial stiffening and reduced chronotropic capacity, frequently compounded by rate-limiting medication, such that significant hypovolaemia may coexist with an apparently normal heart rate. Respiratory changes comprise chest wall stiffening, respiratory muscle weakening and reduced cough efficacy, impairing secretion clearance and infection resistance. Neurological changes comprise slowed nerve conduction, reduced sensation including nociception, and cerebral atrophy. Cerebral atrophy increases the subdural space and places tension on bridging veins, permitting vascular injury from relatively minor impact and allowing haemorrhage to accumulate over days to weeks before symptom onset; delayed presentation of confusion following remote head injury is therefore significant, and immediate post-injury normality does not exclude injury. Thermoregulatory capacity is reduced, with increased susceptibility to hypothermia and hyperthermia and reduced symptomatic awareness. Cutaneous thinning and elasticity loss produce skin tears and bruising from minimal force, requiring careful handling and caution with adhesives and straps. Reduced bone density permits fracture of hip, wrist or vertebrae from standing-height falls, and fracture may precede rather than result from the fall. Sensory decline affects vision, hearing, taste and thirst; reduced thirst contributes to under-recognised dehydration."
+        },
+        "eli_new": {
+          "analogy": "Reserve is the money in the account. Everyone spends the same when things go wrong; older patients simply have less in there to spend.",
+          "body": "The brain shrinking away from the skull is why a head bump last week can be today's confusion. There is room for blood to collect quietly, and it does."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what reduced reserve means and give the main age-related changes and their consequences.",
+          "must_hit": [
+            {
+              "point": "Ageing reduces reserve — the capacity to compensate",
+              "accept": [
+                "reserve",
+                "compensat",
+                "capacity",
+                "spare",
+                "less"
+              ]
+            },
+            {
+              "point": "Stiff vessels and limited rate response, often plus medication",
+              "accept": [
+                "vessel",
+                "stiff",
+                "rate",
+                "medication",
+                "beta",
+                "hypovolaem"
+              ]
+            },
+            {
+              "point": "A normal heart rate does not mean they are coping",
+              "accept": [
+                "normal",
+                "heart rate",
+                "not",
+                "coping",
+                "trap"
+              ]
+            },
+            {
+              "point": "Stiff chest, weak muscles, poor cough",
+              "accept": [
+                "chest wall",
+                "cough",
+                "muscle",
+                "secretion",
+                "pneumonia"
+              ]
+            },
+            {
+              "point": "Brain shrinkage stretches bridging veins and allows slow bleeding",
+              "accept": [
+                "shrink",
+                "atroph",
+                "bridging",
+                "vein",
+                "space",
+                "slow"
+              ]
+            },
+            {
+              "point": "Symptoms of a bleed can appear days or weeks later",
+              "accept": [
+                "days",
+                "weeks",
+                "later",
+                "delayed",
+                "confus"
+              ]
+            },
+            {
+              "point": "Poor thermoregulation and fragile skin",
+              "accept": [
+                "temperature",
+                "thermo",
+                "hypotherm",
+                "skin",
+                "tear",
+                "fragile"
+              ]
+            },
+            {
+              "point": "Reduced bone density means ordinary falls cause fractures",
+              "accept": [
+                "bone",
+                "density",
+                "fracture",
+                "fall",
+                "hip"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Last Tuesday",
+          "dispatch": "Medic 4 — elderly male, confusion, no obvious cause.",
+          "body": "The family said nothing had happened. Pressed a little, they mentioned he had caught his head on a cupboard door the week before and been completely fine.\n\nThe crew wrote it down and said it out loud at handover.\n\nThere had been room in there for a week's worth of bleeding."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the age-related physiological changes against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-02",
+      "title": "Atypical presentation",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-04-01"
+      ],
+      "related": [
+        "EMT-07-04-01",
+        "EMT-07-04-03",
+        "EMT-04-02-01",
+        "EMT-05-01-01"
+      ],
+      "key_points": [
+        "Serious illness in older patients frequently presents without its classic signs",
+        "Reduced pain sensation, blunted responses and multiple coexisting conditions all blur the picture",
+        "A heart attack can present without chest pain — weakness, shortness of breath, nausea or confusion instead",
+        "Infection can present without fever — confusion, weakness or a fall may be the only sign",
+        "New or worsening confusion in an older patient is a symptom of physical illness until proved otherwise",
+        "Falls and generalised weakness are extremely common presentations of an underlying acute illness",
+        "The family saying the patient is not themselves is high-quality clinical information",
+        "Never dismiss vague presentations — vagueness in an older patient is a warning, not a reassurance",
+        "Ask about baseline: what is normal for this person, and what has changed and when",
+        "Assume something serious and work to rule it out, rather than the reverse"
+      ],
+      "misconceptions": [
+        "Excluding a heart attack because there is no chest pain",
+        "Excluding infection because there is no fever",
+        "Attributing new confusion to dementia or age",
+        "Treating a vague presentation as a low-acuity call"
+      ],
+      "exam_favorites": [
+        "Atypical is typical",
+        "Confusion is a physical symptom",
+        "Ask about baseline"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Here is the most useful sentence in geriatric care: in older patients, serious illness frequently arrives without its classic signs. Atypical presentation is so common that it is really the typical presentation, and everything you learned as the textbook picture of a disease is the picture in a younger patient.\n\nWhy does that happen? Several reasons stack up. Pain sensation is reduced, so the pain that normally announces a problem may be absent or mild. Physiological responses are blunted, so the fever or the tachycardia that should appear may not. Multiple coexisting conditions and their medications mask and mimic each other. And cognitive impairment, where present, may prevent the patient from reporting what they feel at all.\n\nThe two examples worth knowing cold.\n\nA heart attack can present with no chest pain whatsoever. Instead: weakness, shortness of breath, nausea, sweating, fatigue, a fall, or simply new confusion. Which means the absence of chest pain excludes nothing in an older patient, and an older person with unexplained weakness or breathlessness deserves a cardiac assessment.\n\nAn infection can present with no fever at all. A serious infection — pneumonia, urinary infection, sepsis — may show up as confusion, weakness, a fall, poor appetite or simply not being right. Absence of fever excludes nothing either.\n\nWhich leads to the single most useful rule in this concept: new or worsening confusion in an older patient is a symptom of physical illness until proved otherwise. Not age. Not dementia. Dementia does not arrive over two days. If the family says the confusion is new or worse than usual, you are looking for a physical cause — infection, hypoxia, low blood sugar, a bleed, a medication problem, a heart attack.\n\nAnd falls and generalised weakness are enormously common presentations of underlying acute illness. \"Found on the floor\" is a presentation that deserves a full assessment, not a lift and a conversation about the carpet. The question is always why they fell.\n\nOne piece of assessment technique matters more here than anywhere. Ask about baseline. What is normal for this person? Do they normally walk, talk, know the day, feed themselves? What has changed, and when? Without a baseline, a confused patient is just confused; with one, a confused patient may be dramatically and acutely changed.\n\nAnd take the family seriously. When someone who sees this person every day says they are not themselves, that is high-quality clinical information and it frequently outperforms your examination.\n\nThe discipline: assume something serious and work to rule it out. In older patients, vagueness is a warning, not a reassurance.",
+          "standard": "Serious illness in geriatric patients frequently presents without characteristic features, such that atypical presentation constitutes the predominant pattern. Contributing factors include reduced nociception, blunted physiological response, multiple comorbidities with mutual masking and mimicry, polypharmacy, and cognitive impairment limiting symptom reporting. Myocardial infarction may present without chest pain, manifesting instead as weakness, dyspnoea, nausea, diaphoresis, fatigue, falls or new confusion; absence of chest pain does not exclude acute coronary syndrome, and unexplained weakness or dyspnoea warrants cardiac evaluation. Infection, including pneumonia, urinary tract infection and sepsis, may present without pyrexia, manifesting as confusion, weakness, falls, reduced appetite or non-specific functional decline. New or worsening confusion in an older patient constitutes a symptom of physical illness until excluded, and is not attributable to age or to dementia, which does not develop acutely; causes to consider include infection, hypoxia, hypoglycaemia, intracranial haemorrhage, medication effects and myocardial infarction. Falls and generalised weakness are common presentations of underlying acute pathology and warrant full assessment directed at aetiology. Baseline functional and cognitive status should be established to permit interpretation of current findings. Caregiver report of deviation from baseline constitutes high-quality clinical information. The appropriate approach presumes serious pathology pending exclusion."
+        },
+        "eli_new": {
+          "analogy": "Everything you learned as the classic picture of a disease is the picture in a younger patient. In an older one, the disease frequently forgets to bring its symptoms.",
+          "body": "New confusion is a physical symptom. Dementia does not arrive over two days, so if the family says this is new, go looking for infection, hypoxia, low sugar, a bleed or a heart attack."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain atypical presentation in older patients and the rule about new confusion.",
+          "must_hit": [
+            {
+              "point": "Serious illness often presents without classic signs",
+              "accept": [
+                "atypical",
+                "classic",
+                "without",
+                "typical",
+                "vague"
+              ]
+            },
+            {
+              "point": "Reduced pain sensation and blunted responses contribute",
+              "accept": [
+                "pain",
+                "sensation",
+                "blunt",
+                "response",
+                "comorbid",
+                "medication"
+              ]
+            },
+            {
+              "point": "Heart attack can present without chest pain",
+              "accept": [
+                "heart attack",
+                "chest pain",
+                "without",
+                "weakness",
+                "nausea",
+                "breathless"
+              ]
+            },
+            {
+              "point": "Infection can present without fever",
+              "accept": [
+                "infection",
+                "fever",
+                "without",
+                "confusion",
+                "sepsis"
+              ]
+            },
+            {
+              "point": "New or worsening confusion is a physical symptom until proved otherwise",
+              "accept": [
+                "confusion",
+                "new",
+                "physical",
+                "until",
+                "dementia"
+              ]
+            },
+            {
+              "point": "Dementia does not arrive over two days",
+              "accept": [
+                "dementia",
+                "not",
+                "days",
+                "acute",
+                "gradual"
+              ]
+            },
+            {
+              "point": "Falls and weakness are common presentations of acute illness",
+              "accept": [
+                "fall",
+                "weakness",
+                "why",
+                "presentation",
+                "floor"
+              ]
+            },
+            {
+              "point": "Establish baseline and take the family's report seriously",
+              "accept": [
+                "baseline",
+                "normal",
+                "family",
+                "not themselves",
+                "changed"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Not herself",
+          "dispatch": "Medic 7 — elderly female, no complaint, daughter concerned.",
+          "body": "There was nothing to find. No pain, no fever, normal observations, and the patient said she was fine.\n\nThe daughter kept saying she was just not herself, and could not be more specific than that.\n\nThe crew transported on the daughter's sentence alone. It was the best piece of information on that call."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Classic (younger) presentation",
+          "right_label": "How it often looks in an older patient",
+          "rows": [
+            {
+              "feature": "Heart attack",
+              "left": "Crushing central chest pain radiating to arm or jaw",
+              "right": "WEAKNESS · BREATHLESSNESS · NAUSEA · SWEATING · A FALL · NEW CONFUSION — and frequently NO CHEST PAIN AT ALL"
+            },
+            {
+              "feature": "Infection or sepsis",
+              "left": "Fever, rigors, localised symptoms",
+              "right": "CONFUSION · WEAKNESS · A FALL · POOR APPETITE — and OFTEN NO FEVER"
+            },
+            {
+              "feature": "Pain generally",
+              "left": "Reported clearly and proportionately",
+              "right": "REDUCED SENSATION — pain may be mild, absent, or never reported"
+            },
+            {
+              "feature": "Heart rate response",
+              "left": "Rises predictably with illness or blood loss",
+              "right": "MAY NOT RISE — reduced capacity, or medication preventing it"
+            },
+            {
+              "feature": "New confusion",
+              "left": "Uncommon and obviously abnormal",
+              "right": "COMMON — and it is a PHYSICAL SYMPTOM until proved otherwise, NOT age and NOT dementia"
+            },
+            {
+              "feature": "A fall",
+              "left": "Usually explained by the mechanism",
+              "right": "OFTEN THE PRESENTATION OF AN ACUTE ILLNESS — the question is WHY they fell"
+            },
+            {
+              "feature": "Vague presentation",
+              "left": "Usually low acuity",
+              "right": "A WARNING, NOT A REASSURANCE"
+            },
+            {
+              "feature": "Best single piece of information",
+              "left": "The patient's own description",
+              "right": "THE FAMILY SAYING THEY ARE NOT THEMSELVES — and the BASELINE to compare against"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the atypical presentation patterns and the causes of acute confusion against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-03",
+      "title": "Polypharmacy",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-04-01"
+      ],
+      "related": [
+        "EMT-07-04-01",
+        "EMT-07-04-02",
+        "EMT-09-01-01"
+      ],
+      "key_points": [
+        "Polypharmacy is taking many medications at once, and it is very common in older patients",
+        "More medications means more interactions, more side effects and more chances for error",
+        "Medications can cause the presentation you are called to — falls, confusion, weakness, bleeding",
+        "Ageing changes how drugs are handled, so a dose tolerated for years can become too much",
+        "Multiple prescribers who do not know about each other is a common source of duplication",
+        "Practical errors are common: doses taken twice, doses missed, or the wrong medication taken",
+        "Some medications blunt the signs you rely on, such as preventing the heart rate from rising",
+        "Bring the medications with you, or photograph the list — it is genuinely valuable to the hospital",
+        "Ask what they actually take, not what the label says, and ask about anything recently changed",
+        "Over-the-counter medicines, supplements and someone else's tablets all count and are often unmentioned"
+      ],
+      "misconceptions": [
+        "Recording only prescribed medicines",
+        "Assuming a long-standing dose cannot suddenly be a problem",
+        "Ignoring recent medication changes",
+        "Leaving medications behind on a serious call"
+      ],
+      "exam_favorites": [
+        "Medications as a cause",
+        "Recent changes",
+        "Take the bottles"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Polypharmacy means taking many medications at once, and among older patients it is the norm rather than the exception. Several conditions, several prescribers, and over years the list only grows.\n\nThe issue is not the number itself, it is what the number produces. More medications means more interactions, more side effects, and more opportunities for something to go wrong in the taking of them.\n\nAnd here is the part that changes how you think about calls: medications frequently cause the presentation you were called for. A fall caused by a drug that lowered the blood pressure or caused drowsiness. Confusion caused by a sedative or a new prescription. Weakness, dizziness, nausea, bleeding — all can be drug effects rather than disease. So when you cannot find a cause, look at the list.\n\nAgeing changes how the body handles drugs. Kidney and liver function decline, body composition changes, and the result is that a dose somebody tolerated perfectly well for ten years can gradually become too much without anything visibly changing. Nothing has to be new for a medication to become the problem.\n\nMultiple prescribers is a specific and common failure. A specialist prescribes one thing, a family doctor another, a hospital discharge adds a third, and nobody sees the whole list. Duplicate medicines with different names are a classic result.\n\nThen the practical errors, which are extremely common and rarely admitted spontaneously. Taking a dose twice because they could not remember taking it. Missing doses. Taking someone else's tablets. Getting confused between similar-looking boxes. Running out and not renewing.\n\nSome medications actively blunt the signs you rely on. The clearest example is a drug that prevents the heart rate from rising — so your bleeding or septic patient has a heart rate that looks fine. Knowing what they take tells you which of your findings you can trust.\n\nPractically: take the medications with you. Gather the bottles into a bag and bring them, or photograph the list. The hospital finds this genuinely valuable, and reconstructing it later from a confused patient is often impossible.\n\nWhen you ask, ask well. Ask what they actually take, not what the label says — those differ more often than you would think. Ask specifically what has changed recently, because a new medication, a stopped medication or a changed dose in the last week or two is one of the highest-yield questions in geriatrics. And ask about over-the-counter medicines, herbal supplements and vitamins, which people do not think of as medication and will not mention unless asked directly.",
+          "standard": "Polypharmacy denotes concurrent use of multiple medications and is prevalent among geriatric patients owing to multiple comorbidities and multiple prescribers. Associated risks comprise drug interactions, adverse effects, and administration error. Medications frequently constitute the aetiology of the presenting complaint, including falls secondary to hypotension or sedation, confusion secondary to sedative or newly prescribed agents, and weakness, dizziness, nausea or haemorrhage as adverse effects; medication review is indicated where no other cause is apparent. Age-related decline in renal and hepatic function and altered body composition alter drug handling, such that a long-tolerated dose may become excessive without change in regimen. Multiple prescribers without shared oversight produce duplication, including the same agent under different names. Administration errors are common and infrequently volunteered, including duplicate dosing, omission, ingestion of another person's medication, confusion between similar packaging, and lapsed supply. Certain agents blunt diagnostic signs, notably rate-limiting medications preventing compensatory tachycardia, and knowledge of the regimen informs interpretation of findings. Medications should be transported with the patient or the list photographed, as retrospective reconstruction is frequently impossible. History should establish actual rather than prescribed consumption, recent additions, cessations or dose changes, and use of over-the-counter preparations, herbal products and supplements, which patients do not classify as medication."
+        },
+        "eli_new": {
+          "analogy": "When you cannot find a cause on an older patient's call, the answer is quite often sitting in a carrier bag on the kitchen counter.",
+          "body": "The highest-yield question in geriatrics is what changed recently. A new tablet, a stopped tablet or a changed dose in the last fortnight explains an enormous number of these calls."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain polypharmacy and how you should take a medication history from an older patient.",
+          "must_hit": [
+            {
+              "point": "Polypharmacy is taking many medications and is very common",
+              "accept": [
+                "polypharmacy",
+                "many",
+                "multiple",
+                "common",
+                "norm"
+              ]
+            },
+            {
+              "point": "More medications means more interactions, side effects and errors",
+              "accept": [
+                "interact",
+                "side effect",
+                "error",
+                "risk",
+                "more"
+              ]
+            },
+            {
+              "point": "Medications can cause the presentation itself",
+              "accept": [
+                "cause",
+                "presentation",
+                "fall",
+                "confusion",
+                "weakness"
+              ]
+            },
+            {
+              "point": "Ageing changes drug handling so a long-standing dose can become too much",
+              "accept": [
+                "kidney",
+                "liver",
+                "handl",
+                "tolerated",
+                "too much",
+                "years"
+              ]
+            },
+            {
+              "point": "Multiple prescribers cause duplication",
+              "accept": [
+                "prescriber",
+                "duplicat",
+                "specialist",
+                "list",
+                "nobody"
+              ]
+            },
+            {
+              "point": "Some drugs blunt the signs you rely on",
+              "accept": [
+                "blunt",
+                "heart rate",
+                "rise",
+                "mask",
+                "sign"
+              ]
+            },
+            {
+              "point": "Take the medications or photograph the list",
+              "accept": [
+                "bring",
+                "take",
+                "bottle",
+                "photograph",
+                "list"
+              ]
+            },
+            {
+              "point": "Ask what changed recently and about over-the-counter and supplements",
+              "accept": [
+                "changed",
+                "recent",
+                "over-the-counter",
+                "supplement",
+                "herbal",
+                "actually take"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The carrier bag",
+          "dispatch": "Medic 1 — elderly male, repeated falls, no obvious cause found.",
+          "body": "The examination was unremarkable and nobody could explain the falls.\n\nSomebody emptied the kitchen counter into a carrier bag and brought it, and mentioned at handover that two of the boxes were the same drug under different names.\n\nThat sentence was the whole call."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm polypharmacy risks and medication history technique against the current text. No medication names or doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-04",
+      "title": "Falls and trauma in older patients",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-04-01"
+      ],
+      "related": [
+        "EMT-07-04-01",
+        "EMT-07-04-02",
+        "EMT-06-01-01"
+      ],
+      "key_points": [
+        "The most important question after a fall is why they fell, not how far",
+        "A fall is frequently the presentation of an acute illness rather than an accident",
+        "Ask specifically whether they tripped or whether they blacked out, and whether they remember landing",
+        "Ordinary standing-height falls produce serious fractures because bone density is reduced",
+        "Sometimes the fracture happens first and causes the fall, rather than resulting from it",
+        "Hip fracture typically presents with a shortened, externally rotated leg and inability to bear weight",
+        "Head injury in older patients may bleed slowly, so a normal appearance after the fall is not reassurance",
+        "Blood-thinning medication makes any head injury considerably more serious",
+        "Rib fractures are dangerous in older patients because pain restricts breathing and leads to pneumonia",
+        "Long lies on the floor cause dehydration, pressure injury, hypothermia and muscle breakdown"
+      ],
+      "misconceptions": [
+        "Treating a fall as a mechanical event and not looking for a cause",
+        "Being reassured by a normal appearance after a head injury",
+        "Underestimating rib fractures",
+        "Missing the significance of a long lie"
+      ],
+      "exam_favorites": [
+        "Why they fell",
+        "Blood thinners and head injury",
+        "The long lie"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The most important question after an older person falls is not how far they fell. It is why they fell.\n\nBecause a fall is very often the presentation of an acute illness rather than an accident. A heart rhythm problem, an infection, a heart attack, low blood sugar, a stroke, dehydration, a medication effect — all of them cause falls, and the fall gets reported while the cause goes unmentioned. Treating the bruise and leaving the cause behind is the classic failure on these calls.\n\nSo ask directly, and ask well. Did you trip, or did you black out? Do you remember landing? Do you remember getting up to walk? What were you doing immediately before? A patient who tripped over a rug will tell you about the rug. A patient who cannot account for the moment before they hit the floor has had a syncopal event until proved otherwise, and that is a different call entirely.\n\nThen the injuries, which are more serious than the mechanism suggests because bone density is reduced. A fall from standing produces hip, wrist, shoulder and vertebral fractures that would not occur in a younger person from the same fall. And sometimes the sequence runs the other way — a weakened bone fractures under ordinary load and the fracture causes the fall.\n\nHip fracture is the classic and it has a classic appearance: the leg shortened and rotated outward, severe pain on any movement, and an inability to bear weight. Handle gently, pad well, and expect ordinary movement to hurt considerably.\n\nHead injury deserves particular care for the reason covered earlier — the brain has shrunk, there is space for blood to accumulate, and a bleed can develop slowly. So a patient who looks entirely normal after hitting their head has not been cleared of anything.\n\nAnd this is where you must ask about blood-thinning medication. Any head injury in a patient taking an anticoagulant or antiplatelet drug is considerably more serious, bleeds more readily and bleeds for longer. It changes the urgency, it changes the destination in many systems, and it must be said out loud at handover.\n\nRib fractures are quietly dangerous in older patients. The problem is not the bone; it is that the pain prevents deep breathing and coughing, secretions accumulate, and pneumonia follows. In an older patient with reduced respiratory reserve, that is a genuinely life-threatening chain.\n\nAnd finally, ask how long they were on the floor. A long lie is an injury in its own right: dehydration, pressure injury to the skin, hypothermia from lying on a cold floor for hours, and muscle breakdown that damages the kidneys. Someone found on the floor who says they fell yesterday evening is sicker than the fall alone accounts for.",
+          "standard": "Following a fall in a geriatric patient, determination of aetiology takes precedence over characterisation of mechanism, as falls frequently represent the presentation of acute illness including dysrhythmia, infection, myocardial infarction, hypoglycaemia, cerebrovascular event, dehydration and medication effect. History should specifically distinguish mechanical fall from syncopal event, addressing recollection of the moment preceding impact, of landing, and of preceding activity; inability to account for the immediate pre-impact period indicates syncope pending exclusion. Reduced bone density produces fractures of hip, wrist, shoulder and vertebrae from standing-height falls, and pathological fracture may precede and precipitate the fall. Hip fracture characteristically presents with limb shortening, external rotation, severe pain on movement and inability to weight-bear, requiring careful handling and padding. Head injury carries elevated significance given cerebral atrophy permitting slow haemorrhage accumulation; normal initial appearance does not exclude injury. Anticoagulant and antiplatelet therapy substantially increases the severity of head injury, affecting urgency and destination in many systems, and must be communicated at handover. Rib fractures carry disproportionate risk through pain-limited ventilation and cough, producing secretion retention and pneumonia in patients with reduced respiratory reserve. Prolonged periods on the floor constitute independent pathology, producing dehydration, pressure injury, hypothermia and rhabdomyolysis with renal consequences."
+        },
+        "eli_new": {
+          "analogy": "Everyone on scene looks at where they landed. The useful information is in the second before that.",
+          "body": "Two questions change these calls: did you black out, and are you on blood thinners. Ask both every single time."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to assess an older patient who has fallen.",
+          "must_hit": [
+            {
+              "point": "The key question is why they fell, not how far",
+              "accept": [
+                "why",
+                "cause",
+                "not how far",
+                "reason",
+                "acute"
+              ]
+            },
+            {
+              "point": "Falls are often the presentation of acute illness",
+              "accept": [
+                "illness",
+                "rhythm",
+                "infection",
+                "heart attack",
+                "stroke",
+                "sugar"
+              ]
+            },
+            {
+              "point": "Distinguish a trip from a blackout",
+              "accept": [
+                "trip",
+                "black out",
+                "syncop",
+                "remember",
+                "landing"
+              ]
+            },
+            {
+              "point": "Standing-height falls cause serious fractures because bone density is reduced",
+              "accept": [
+                "bone",
+                "density",
+                "fracture",
+                "hip",
+                "standing"
+              ]
+            },
+            {
+              "point": "Sometimes the fracture causes the fall",
+              "accept": [
+                "fracture first",
+                "cause",
+                "before",
+                "pathological",
+                "other way"
+              ]
+            },
+            {
+              "point": "Head injury may bleed slowly; normal appearance is not reassurance",
+              "accept": [
+                "head",
+                "slow",
+                "bleed",
+                "normal",
+                "not reassur"
+              ]
+            },
+            {
+              "point": "Blood thinners make any head injury much more serious",
+              "accept": [
+                "blood thin",
+                "anticoagul",
+                "antiplatelet",
+                "serious",
+                "handover"
+              ]
+            },
+            {
+              "point": "Rib fractures lead to pneumonia, and long lies cause their own injuries",
+              "accept": [
+                "rib",
+                "pneumonia",
+                "breathing",
+                "long lie",
+                "dehydrat",
+                "hypotherm",
+                "pressure"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Since yesterday",
+          "dispatch": "Engine 2 — elderly female, fall, assistance required.",
+          "body": "She was apologetic about the trouble and said she had just slipped getting up.\n\nSomebody asked when, and she said yesterday evening, and she had been on the tiles since.\n\nThe fall was the smallest thing wrong with her by then."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm fall assessment, hip fracture findings, anticoagulation significance and long-lie complications against the current text and your local protocol. No medication names or doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-04-05",
+      "title": "Communication, dignity and elder abuse",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-04-02",
+        "EMT-07-05-01",
+        "EMT-01-04-01"
+      ],
+      "key_points": [
+        "Assume capacity and speak to the patient, not about them over their head",
+        "Sensory loss is not cognitive loss — someone who cannot hear you is not confused",
+        "Speak clearly and a little slower, face them so they can see your mouth, and reduce background noise",
+        "Shouting distorts speech and rarely helps; lower pitch and clarity help more than volume",
+        "Give them time to answer, because processing takes longer and interrupting loses the information",
+        "Keep hearing aids, glasses and dentures with the patient — removing them removes their ability to participate",
+        "Preserve dignity: cover them, explain before touching, and use their name and title",
+        "Elder abuse includes physical, emotional, sexual and financial abuse, and neglect",
+        "Warning signs mirror child abuse: a history that does not match, delays in care, injuries of different ages, fear of a caregiver",
+        "Know your reporting obligation, report suspicion rather than proof, and do not confront the caregiver"
+      ],
+      "misconceptions": [
+        "Mistaking deafness for confusion",
+        "Shouting instead of speaking clearly",
+        "Leaving hearing aids and glasses behind",
+        "Confronting a suspected abuser on scene"
+      ],
+      "exam_favorites": [
+        "Sensory loss is not cognitive loss",
+        "Bring the glasses and hearing aids",
+        "Report suspicion"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Start with the default: assume capacity, and speak to the patient. Talking about someone over their head, to a relative, while they are sitting right there, is the most common and most resented failure in geriatric care. Ask them first. Go to the family when you need to, and say why.\n\nThen the single most useful correction anyone can make: sensory loss is not cognitive loss. A patient who cannot hear your questions is not confused; they are deaf. A patient who cannot see you gesture is not unresponsive; they cannot see. An enormous number of older patients get written down as confused when the actual problem was that nobody made themselves understood.\n\nSo communicate properly. Face them, so they can see your mouth — many people lip-read more than they realise. Get down to their level. Reduce the background noise, which means turning the radio off and asking the room to be quiet. Speak clearly and slightly slower, in shorter sentences.\n\nAnd do not shout. Shouting distorts speech, raises pitch, and higher pitches are typically lost first, so it makes things worse while also being humiliating. Lowering your pitch and speaking clearly helps far more than volume.\n\nGive them time. Processing takes longer with age, and the instinct to fill a silence or rephrase the question two seconds in destroys the answer that was coming. Ask, then wait.\n\nPractical point that matters more than it sounds: keep the hearing aids, the glasses and the dentures with the patient and bring them. Removing them removes the person's ability to participate in their own care, and in a hospital that may last for days.\n\nDignity throughout. Cover them. Explain before you touch. Use their name and the title they prefer, not \"sweetheart\" or \"love\". Being unwell should not cost somebody their status as an adult.\n\nThen elder abuse, which is underdiagnosed and which you are positioned to notice. It takes several forms: physical, emotional, sexual, financial, and neglect. Financial abuse and neglect are the commonest and the least visible.\n\nThe warning signs mirror child abuse closely. A history that does not match the injury. Delays in seeking care. Injuries of clearly different ages. Poor hygiene, malnutrition, untreated conditions, or an unsafe or filthy environment. Medication that is not being given, or evidence that supplies have run out. A caregiver who answers every question for the patient or will not leave the room. And a patient who seems frightened of a specific person.\n\nThe rules are the same as for children. Know your reporting obligation, which exists in most jurisdictions. Report suspicion, not proof. Do not confront the caregiver — it endangers the patient after you leave and it may end the transport. Document objectively, with quotes and descriptions rather than conclusions. Treat, transport, and report through your procedure.",
+          "standard": "Geriatric patients should be presumed to possess decision-making capacity and addressed directly rather than through accompanying persons. Sensory impairment must be distinguished from cognitive impairment; hearing or visual loss is frequently misrecorded as confusion. Effective communication comprises facing the patient to permit lip-reading, positioning at eye level, reducing ambient noise, and speaking clearly at moderate pace in short sentences. Shouting is counterproductive, distorting speech and raising pitch, with higher frequencies preferentially lost; reduced pitch with increased clarity is preferable. Adequate response time must be allowed, as processing speed declines with age and premature rephrasing prevents response. Hearing aids, spectacles and dentures should accompany the patient, as their absence removes capacity to participate in care for the duration of admission. Dignity is preserved through covering, explanation before contact, and use of the patient's preferred name and title. Elder abuse encompasses physical, emotional, sexual and financial abuse and neglect, with financial abuse and neglect most prevalent and least apparent. Indicators parallel those of child abuse: history incongruent with injury, delayed presentation, injuries of differing ages, poor hygiene, malnutrition, untreated conditions, unsafe environment, medication non-administration or exhausted supply, a caregiver who answers for the patient or declines to leave, and patient fear of an identified individual. Reporting obligations exist in most jurisdictions; the threshold is suspicion, confrontation is contraindicated, and documentation should be objective."
+        },
+        "eli_new": {
+          "analogy": "Shouting raises your pitch, and high pitches are exactly what goes first. You are making yourself harder to understand while also embarrassing someone.",
+          "body": "Bring the hearing aids and the glasses. Without them your patient cannot take part in their own care, possibly for days, and everyone in the hospital will write down that they are confused."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to communicate with an older patient and what raises suspicion of elder abuse.",
+          "must_hit": [
+            {
+              "point": "Assume capacity and speak to the patient directly",
+              "accept": [
+                "capacity",
+                "directly",
+                "patient",
+                "not over",
+                "assume"
+              ]
+            },
+            {
+              "point": "Sensory loss is not cognitive loss",
+              "accept": [
+                "sensory",
+                "hearing",
+                "deaf",
+                "not confus",
+                "cognitive"
+              ]
+            },
+            {
+              "point": "Face them, reduce noise, speak clearly and slower",
+              "accept": [
+                "face",
+                "noise",
+                "clear",
+                "slow",
+                "level",
+                "lip"
+              ]
+            },
+            {
+              "point": "Do not shout — lower pitch and clarity help more",
+              "accept": [
+                "shout",
+                "pitch",
+                "volume",
+                "distort",
+                "clarity"
+              ]
+            },
+            {
+              "point": "Give time to answer",
+              "accept": [
+                "time",
+                "wait",
+                "pause",
+                "process",
+                "interrupt"
+              ]
+            },
+            {
+              "point": "Bring hearing aids, glasses and dentures",
+              "accept": [
+                "hearing aid",
+                "glasses",
+                "dentures",
+                "bring",
+                "participate"
+              ]
+            },
+            {
+              "point": "Elder abuse includes physical, emotional, sexual, financial and neglect",
+              "accept": [
+                "physical",
+                "emotional",
+                "sexual",
+                "financial",
+                "neglect"
+              ]
+            },
+            {
+              "point": "Report suspicion, do not confront, document objectively",
+              "accept": [
+                "suspicion",
+                "report",
+                "not confront",
+                "document",
+                "objective"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "He was not confused",
+          "dispatch": "Medic 5 — elderly male, reported as confused and uncooperative.",
+          "body": "Two people had already documented him as confused. He had answered nothing they asked.\n\nSomebody turned the television off, sat in front of him and spoke normally.\n\nHe answered every question, in order, and asked a couple of good ones back."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm elder abuse indicators and your mandated reporting obligation against the current text and your local law and protocol, which vary by jurisdiction."
     }
   ]
 }
