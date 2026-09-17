@@ -1751,6 +1751,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-03-03-Q005",
+      "concept_id": "EMT-02-03-03",
+      "style": "sequence",
+      "stem": "Put applying a non-rebreather mask in order: 1) place the mask on the face and tighten the strap, 2) set the flow rate, 3) confirm the patient is breathing adequately, 4) inflate the reservoir bag fully.",
+      "options": [
+        {
+          "text": "3, 2, 4, 1",
+          "rationale": "Correct. Confirm the device suits the patient, set the flow, fill the reservoir, then apply — the bag must be full before the mask reaches the face."
+        },
+        {
+          "text": "3, 1, 2, 4",
+          "rationale": "Applying the mask before setting flow and filling the reservoir means the first breaths are not oxygen-rich."
+        },
+        {
+          "text": "2, 4, 1, 3",
+          "rationale": "Checking breathing adequacy last risks putting an NRB on a patient who needed a bag-valve-mask."
+        },
+        {
+          "text": "1, 2, 4, 3",
+          "rationale": "This reverses the whole sequence, applying the mask before any preparation or assessment."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-03-04-Q001",
       "concept_id": "EMT-02-03-04",
       "style": "recall",
