@@ -5912,6 +5912,1086 @@
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-01-Q001",
+      "concept_id": "EMT-06-07-01",
+      "style": "recall",
+      "stem": "Why are rib fractures dangerous?",
+      "options": [
+        {
+          "text": "The broken ends usually puncture the heart",
+          "rationale": "That is not the usual pathway."
+        },
+        {
+          "text": "Pain stops deep breathing, leading to collapse and later pneumonia",
+          "rationale": "Correct. It carries real mortality, especially in older patients."
+        },
+        {
+          "text": "They always cause a flail chest",
+          "rationale": "Most do not."
+        },
+        {
+          "text": "They cause massive external bleeding",
+          "rationale": "Rib fractures do not bleed externally."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-01-Q002",
+      "concept_id": "EMT-06-07-01",
+      "style": "recall",
+      "stem": "Should a chest with rib fractures be strapped to relieve pain?",
+      "options": [
+        {
+          "text": "Yes, it is effective pain relief",
+          "rationale": "It works by preventing the ventilation that must be preserved."
+        },
+        {
+          "text": "No — it restricts the breathing that must be encouraged",
+          "rationale": "Correct. No binding, no straps, no tight bandaging."
+        },
+        {
+          "text": "Only for the first hour",
+          "rationale": "Not for any period; the harm applies throughout."
+        },
+        {
+          "text": "Only in older patients",
+          "rationale": "Older patients are the ones it harms most."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-01-Q003",
+      "concept_id": "EMT-06-07-01",
+      "style": "recall",
+      "stem": "How is flail chest defined?",
+      "options": [
+        {
+          "text": "Any two broken ribs",
+          "rationale": "Two ribs does not meet the definition."
+        },
+        {
+          "text": "Three or more ribs broken in two or more places each",
+          "rationale": "Correct — creating a segment disconnected from the chest wall."
+        },
+        {
+          "text": "A single rib broken in three places",
+          "rationale": "Not the definition."
+        },
+        {
+          "text": "Any rib fracture with a pneumothorax",
+          "rationale": "That describes a complication, not flail chest."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-01-Q004",
+      "concept_id": "EMT-06-07-01",
+      "style": "application",
+      "stem": "Why can paradoxical movement be absent on first assessment?",
+      "options": [
+        {
+          "text": "Because it only occurs in unconscious patients",
+          "rationale": "It occurs regardless of consciousness."
+        },
+        {
+          "text": "Because muscle spasm splints the segment until the muscles tire",
+          "rationale": "Correct. It may appear an hour or more later."
+        },
+        {
+          "text": "Because it requires the patient to be supine",
+          "rationale": "Position is not the determinant."
+        },
+        {
+          "text": "Because it needs a chest x-ray to detect",
+          "rationale": "It is visible when present."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-01-Q005",
+      "concept_id": "EMT-06-07-01",
+      "style": "application",
+      "stem": "What usually harms a flail chest patient most?",
+      "options": [
+        {
+          "text": "The mechanical movement of the segment",
+          "rationale": "The mechanics are dramatic but not the main threat."
+        },
+        {
+          "text": "The pulmonary contusion underneath",
+          "rationale": "Correct. Gas exchange fails over the hours after injury."
+        },
+        {
+          "text": "Blood loss from the broken ribs",
+          "rationale": "Rib fractures do not usually bleed significantly."
+        },
+        {
+          "text": "Pain alone",
+          "rationale": "Pain contributes, but the contusion determines outcome."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-01-Q006",
+      "concept_id": "EMT-06-07-01",
+      "style": "scenario",
+      "stem": "What does a lower rib fracture raise concern about?",
+      "options": [
+        {
+          "text": "The heart",
+          "rationale": "The heart sits higher and more centrally."
+        },
+        {
+          "text": "The liver and spleen underneath",
+          "rationale": "Correct. Left lower ribs particularly raise concern about the spleen."
+        },
+        {
+          "text": "The kidneys only",
+          "rationale": "The liver and spleen are the primary concern."
+        },
+        {
+          "text": "The diaphragm only",
+          "rationale": "The solid organs are the main concern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-02-Q001",
+      "concept_id": "EMT-06-07-02",
+      "style": "recall",
+      "stem": "How does a tension pneumothorax develop?",
+      "options": [
+        {
+          "text": "The lung tears and bleeds into the chest",
+          "rationale": "That describes a haemothorax."
+        },
+        {
+          "text": "A one-way flap lets air in with each breath and not out, so pressure builds",
+          "rationale": "Correct, progressively collapsing the lung and shifting the mediastinum."
+        },
+        {
+          "text": "The diaphragm ruptures",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "The heart enlarges and compresses the lung",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-02-Q002",
+      "concept_id": "EMT-06-07-02",
+      "style": "recall",
+      "stem": "Why does a tension pneumothorax cause shock?",
+      "options": [
+        {
+          "text": "Because the patient loses blood into the chest",
+          "rationale": "No blood is lost in a tension pneumothorax."
+        },
+        {
+          "text": "Because the shift kinks the great veins, so blood stops returning to the heart",
+          "rationale": "Correct. It presents as a breathing problem and kills as a circulation one."
+        },
+        {
+          "text": "Because the heart muscle is damaged",
+          "rationale": "The heart muscle is not directly injured."
+        },
+        {
+          "text": "Because of pain-induced vasodilation",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-02-Q003",
+      "concept_id": "EMT-06-07-02",
+      "style": "application",
+      "stem": "How useful are tracheal deviation and distended neck veins?",
+      "options": [
+        {
+          "text": "They are the earliest and most reliable signs",
+          "rationale": "Both are late and frequently absent."
+        },
+        {
+          "text": "Limited — both are late and often absent, so do not wait for them",
+          "rationale": "Correct. Distress, absent breath sounds and falling pressure are enough."
+        },
+        {
+          "text": "They exclude a tension pneumothorax when absent",
+          "rationale": "They exclude nothing."
+        },
+        {
+          "text": "They only occur in penetrating trauma",
+          "rationale": "They occur regardless of mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-02-Q004",
+      "concept_id": "EMT-06-07-02",
+      "style": "application",
+      "stem": "A patient with a sealed chest wound deteriorates with rising ventilation resistance. What should you do?",
+      "options": [
+        {
+          "text": "Tighten the occlusive dressing further",
+          "rationale": "This worsens the trapped-air problem."
+        },
+        {
+          "text": "Release the occlusive dressing to vent the trapped air, then reapply",
+          "rationale": "Correct. It can reverse a tension you caused by sealing the wound."
+        },
+        {
+          "text": "Remove the dressing permanently",
+          "rationale": "Lift, vent and reapply."
+        },
+        {
+          "text": "Increase the ventilation rate",
+          "rationale": "More positive pressure makes it worse."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-02-Q005",
+      "concept_id": "EMT-06-07-02",
+      "style": "recall",
+      "stem": "How can positive pressure ventilation cause harm here?",
+      "options": [
+        {
+          "text": "It cannot; ventilation is always beneficial",
+          "rationale": "It can convert a simple pneumothorax into a tension one."
+        },
+        {
+          "text": "It can push air into the pleural space with each squeeze, converting simple to tension",
+          "rationale": "Correct. Deterioration after starting to bag should prompt this thought."
+        },
+        {
+          "text": "It dries the airway",
+          "rationale": "Not the concern in this context."
+        },
+        {
+          "text": "It causes hyperventilation only",
+          "rationale": "Not the danger described."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-02-Q006",
+      "concept_id": "EMT-06-07-02",
+      "style": "scenario",
+      "stem": "What is the key breath sound finding, and how is it obtained?",
+      "options": [
+        {
+          "text": "Wheeze throughout both lungs",
+          "rationale": "Not a pneumothorax finding."
+        },
+        {
+          "text": "Reduced or absent on one side, found by comparing both sides",
+          "rationale": "Correct. The finding is the difference between them."
+        },
+        {
+          "text": "Crackles at both bases",
+          "rationale": "Suggests fluid, not air in the pleural space."
+        },
+        {
+          "text": "Stridor at the throat",
+          "rationale": "An upper airway finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-03-Q001",
+      "concept_id": "EMT-06-07-03",
+      "style": "recall",
+      "stem": "Why is a vented chest seal preferred to a plain occlusive dressing?",
+      "options": [
+        {
+          "text": "It sticks better to wet skin",
+          "rationale": "Adhesion is not the reason."
+        },
+        {
+          "text": "Its one-way valve stops air entering while letting trapped air escape",
+          "rationale": "Correct. A four-sided seal blocks both directions."
+        },
+        {
+          "text": "It is more comfortable",
+          "rationale": "Comfort is not the rationale."
+        },
+        {
+          "text": "It controls bleeding better",
+          "rationale": "Bleeding control is not its main function."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-03-Q002",
+      "concept_id": "EMT-06-07-03",
+      "style": "recall",
+      "stem": "What can a plain four-sided occlusive dressing cause?",
+      "options": [
+        {
+          "text": "Nothing harmful; it is always safe",
+          "rationale": "It can convert an open pneumothorax into a tension one."
+        },
+        {
+          "text": "A tension pneumothorax, by sealing the only exit for leaking air",
+          "rationale": "Correct, a considerably worse problem."
+        },
+        {
+          "text": "An infection only",
+          "rationale": "Infection is not the acute danger."
+        },
+        {
+          "text": "Excessive bleeding",
+          "rationale": "Not the mechanism of harm."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-03-Q003",
+      "concept_id": "EMT-06-07-03",
+      "style": "sequence",
+      "stem": "What must be done before sealing a chest wound?",
+      "options": [
+        {
+          "text": "Pack the wound first",
+          "rationale": "Chest wounds are never packed."
+        },
+        {
+          "text": "Check the back, sides and armpits for other wounds",
+          "rationale": "Correct. A sealed front with an open exit wound fixes half the problem."
+        },
+        {
+          "text": "Obtain a full medical history",
+          "rationale": "History does not precede sealing."
+        },
+        {
+          "text": "Apply a cervical collar",
+          "rationale": "Not a prerequisite for sealing."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-03-Q004",
+      "concept_id": "EMT-06-07-03",
+      "style": "application",
+      "stem": "A patient deteriorates with rising distress and falling pressure after you applied a chest seal. What do you do?",
+      "options": [
+        {
+          "text": "Apply a second seal over the first",
+          "rationale": "This worsens the trapped air."
+        },
+        {
+          "text": "Lift a corner of the seal to vent the trapped air, then reapply",
+          "rationale": "Correct. Immediately, without waiting for late signs."
+        },
+        {
+          "text": "Increase the oxygen flow and continue",
+          "rationale": "Oxygen does not release trapped air."
+        },
+        {
+          "text": "Remove the seal permanently",
+          "rationale": "Lift, vent and reapply."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-03-Q005",
+      "concept_id": "EMT-06-07-03",
+      "style": "recall",
+      "stem": "How is a plain occlusive dressing improvised into a valve?",
+      "options": [
+        {
+          "text": "Taped on all four sides tightly",
+          "rationale": "That is the configuration that causes tension."
+        },
+        {
+          "text": "Taped on three sides, leaving one edge free",
+          "rationale": "Correct, per protocol. The free edge lifts to let air out."
+        },
+        {
+          "text": "Taped on two opposite sides",
+          "rationale": "Not the described technique."
+        },
+        {
+          "text": "Held in place by hand without tape",
+          "rationale": "Not a reliable seal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-03-Q006",
+      "concept_id": "EMT-06-07-03",
+      "style": "sequence",
+      "stem": "Should an open chest wound be packed?",
+      "options": [
+        {
+          "text": "Yes, tightly, as with a junctional wound",
+          "rationale": "The chest is a cavity with no floor to pack against."
+        },
+        {
+          "text": "No — gauze may enter the chest and achieves nothing",
+          "rationale": "Correct. Seal it instead."
+        },
+        {
+          "text": "Only if bleeding is heavy",
+          "rationale": "Packing is not indicated regardless of bleeding."
+        },
+        {
+          "text": "Only with hemostatic gauze",
+          "rationale": "The gauze type does not change the contraindication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-04-Q001",
+      "concept_id": "EMT-06-07-04",
+      "style": "recall",
+      "stem": "What distinguishes a hemothorax from a pneumothorax in the field?",
+      "options": [
+        {
+          "text": "The side it occurs on",
+          "rationale": "Either can occur on either side."
+        },
+        {
+          "text": "A hemothorax gives breathing signs PLUS signs of shock",
+          "rationale": "Correct. The blood has also left the circulation."
+        },
+        {
+          "text": "A hemothorax causes more pain",
+          "rationale": "Pain does not distinguish them."
+        },
+        {
+          "text": "A hemothorax always has an open wound",
+          "rationale": "Neither requires an open wound."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-04-Q002",
+      "concept_id": "EMT-06-07-04",
+      "style": "recall",
+      "stem": "Why does cardiac tamponade cause shock?",
+      "options": [
+        {
+          "text": "The heart muscle stops contracting",
+          "rationale": "Contractility is preserved."
+        },
+        {
+          "text": "External pressure stops the heart filling between beats",
+          "rationale": "Correct. A heart that cannot fill has nothing to send out."
+        },
+        {
+          "text": "The coronary arteries are blocked",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "The patient bleeds externally",
+          "rationale": "Tamponade bleeds into the sac, not outside."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-04-Q003",
+      "concept_id": "EMT-06-07-04",
+      "style": "application",
+      "stem": "A shocked patient with a small central chest stab wound has clear breath sounds bilaterally. What does this suggest?",
+      "options": [
+        {
+          "text": "A simple pneumothorax",
+          "rationale": "Breath sounds would be reduced on one side."
+        },
+        {
+          "text": "Cardiac tamponade",
+          "rationale": "Correct. Clear lungs argue against the chest and point at the heart."
+        },
+        {
+          "text": "A hemothorax",
+          "rationale": "Breath sounds would be reduced on the affected side."
+        },
+        {
+          "text": "No significant injury",
+          "rationale": "Shock with a penetrating central chest wound is always significant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-04-Q004",
+      "concept_id": "EMT-06-07-04",
+      "style": "recall",
+      "stem": "How useful is Beck triad in the field?",
+      "options": [
+        {
+          "text": "Highly reliable and usually complete",
+          "rationale": "It is late and frequently incomplete."
+        },
+        {
+          "text": "Limited — muffled sounds are rarely audible and neck veins may be flat",
+          "rationale": "Correct. Use the pattern instead."
+        },
+        {
+          "text": "It excludes tamponade when absent",
+          "rationale": "It excludes nothing."
+        },
+        {
+          "text": "It is the only way to diagnose tamponade",
+          "rationale": "The clinical pattern is far more available to you."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-04-Q005",
+      "concept_id": "EMT-06-07-04",
+      "style": "application",
+      "stem": "How much does the size of a penetrating chest wound tell you?",
+      "options": [
+        {
+          "text": "It is proportional to the internal damage",
+          "rationale": "There is no such relationship."
+        },
+        {
+          "text": "Nothing — a fingertip-sized wound is a classic tamponade",
+          "rationale": "Correct. The track matters, not the hole."
+        },
+        {
+          "text": "A small wound excludes cardiac injury",
+          "rationale": "It excludes nothing."
+        },
+        {
+          "text": "Large wounds are always more serious",
+          "rationale": "Not reliably so."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-04-Q006",
+      "concept_id": "EMT-06-07-04",
+      "style": "scenario",
+      "stem": "What is the EMT treatment for either condition?",
+      "options": [
+        {
+          "text": "Needle decompression of the chest",
+          "rationale": "Not indicated for either, and beyond most EMT scopes."
+        },
+        {
+          "text": "Oxygen, positioning, warmth, minimal handling and immediate transport with a pre-alert",
+          "rationale": "Correct. Both need a surgeon quickly."
+        },
+        {
+          "text": "Chest compressions",
+          "rationale": "Not indicated in a patient with a pulse."
+        },
+        {
+          "text": "Fluid by mouth to replace losses",
+          "rationale": "Nothing by mouth; they may need theatre."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-05-Q001",
+      "concept_id": "EMT-06-07-05",
+      "style": "recall",
+      "stem": "How do solid and hollow organ injuries differ?",
+      "options": [
+        {
+          "text": "Solid organs leak; hollow organs bleed",
+          "rationale": "That is the wrong way round."
+        },
+        {
+          "text": "Solid organs bleed; hollow organs leak and cause peritonitis over hours",
+          "rationale": "Correct. Neither shows on the skin."
+        },
+        {
+          "text": "Both bleed identically",
+          "rationale": "They fail in different ways."
+        },
+        {
+          "text": "Hollow organ injury is always immediately obvious",
+          "rationale": "It develops over hours."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-05-Q002",
+      "concept_id": "EMT-06-07-05",
+      "style": "application",
+      "stem": "A patient has a soft, non-tender abdomen an hour after a serious impact. What does that tell you?",
+      "options": [
+        {
+          "text": "There is no abdominal injury",
+          "rationale": "Blunt abdominal trauma can be completely occult early."
+        },
+        {
+          "text": "Very little — guarding and rigidity take time to develop",
+          "rationale": "Correct. Read the mechanism and the pulse instead."
+        },
+        {
+          "text": "The mechanism was overestimated",
+          "rationale": "The abdomen does not assess the mechanism."
+        },
+        {
+          "text": "Transport can be delayed",
+          "rationale": "Never a conclusion from a soft abdomen."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-05-Q003",
+      "concept_id": "EMT-06-07-05",
+      "style": "recall",
+      "stem": "What must never be done with eviscerated organs?",
+      "options": [
+        {
+          "text": "Cover them with a moist dressing",
+          "rationale": "That is exactly what should be done."
+        },
+        {
+          "text": "Push them back inside",
+          "rationale": "Correct. It contaminates the cavity and damages bowel."
+        },
+        {
+          "text": "Keep them moist",
+          "rationale": "Keeping them moist is essential."
+        },
+        {
+          "text": "Position the patient with knees bent",
+          "rationale": "That is appropriate positioning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-05-Q004",
+      "concept_id": "EMT-06-07-05",
+      "style": "sequence",
+      "stem": "How is an evisceration dressed?",
+      "options": [
+        {
+          "text": "A dry sterile dressing alone",
+          "rationale": "Exposed bowel dries out and dies."
+        },
+        {
+          "text": "A moist sterile dressing covered by an occlusive layer",
+          "rationale": "Correct. The moist layer keeps it alive; the occlusive layer stops it drying."
+        },
+        {
+          "text": "An occlusive layer directly on the organs",
+          "rationale": "The moist layer goes first."
+        },
+        {
+          "text": "Gauze packed into the wound around them",
+          "rationale": "Packing is not appropriate here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-05-Q005",
+      "concept_id": "EMT-06-07-05",
+      "style": "application",
+      "stem": "A seatbelt has left a red mark across a patient's lower abdomen. How significant is that?",
+      "options": [
+        {
+          "text": "Superficial and unimportant",
+          "rationale": "If the belt marked the skin, the force went into what was behind it."
+        },
+        {
+          "text": "Significant — it indicates force transmitted to the structures underneath",
+          "rationale": "Correct. It is a genuinely useful sign."
+        },
+        {
+          "text": "It indicates the belt was worn incorrectly only",
+          "rationale": "Fit may be relevant but the force is the point."
+        },
+        {
+          "text": "It rules out internal injury since the belt worked",
+          "rationale": "The belt working does not mean nothing was injured."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-05-Q006",
+      "concept_id": "EMT-06-07-05",
+      "style": "recall",
+      "stem": "Which penetrating wounds may have entered the abdomen?",
+      "options": [
+        {
+          "text": "Only those below the umbilicus",
+          "rationale": "The abdomen extends much higher than that."
+        },
+        {
+          "text": "Any between the nipple line and the groin, including flank and back wounds",
+          "rationale": "Correct. The diaphragm rises well into the chest."
+        },
+        {
+          "text": "Only wounds on the front of the body",
+          "rationale": "Flank and posterior wounds can reach it."
+        },
+        {
+          "text": "Only large wounds",
+          "rationale": "Size is irrelevant to the track."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-06-Q001",
+      "concept_id": "EMT-06-07-06",
+      "style": "recall",
+      "stem": "What causes commotio cordis?",
+      "options": [
+        {
+          "text": "A severe crushing chest injury damaging the heart",
+          "rationale": "The heart is structurally normal and undamaged."
+        },
+        {
+          "text": "A blow to the chest landing in a narrow vulnerable window of the cardiac cycle",
+          "rationale": "Correct. Timing, not force."
+        },
+        {
+          "text": "An underlying heart condition triggered by exercise",
+          "rationale": "There is no underlying condition."
+        },
+        {
+          "text": "Bleeding into the sac around the heart",
+          "rationale": "That is tamponade."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-06-Q002",
+      "concept_id": "EMT-06-07-06",
+      "style": "recall",
+      "stem": "Who is most affected by commotio cordis?",
+      "options": [
+        {
+          "text": "Older adults with heart disease",
+          "rationale": "The heart is normal and the patients are typically young."
+        },
+        {
+          "text": "Children and adolescents, whose chest walls are more compliant",
+          "rationale": "Correct. Force transmits more readily to the heart."
+        },
+        {
+          "text": "Only professional athletes",
+          "rationale": "It is not restricted to professionals."
+        },
+        {
+          "text": "Patients on anticoagulants",
+          "rationale": "Anticoagulation is not relevant here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-06-Q003",
+      "concept_id": "EMT-06-07-06",
+      "style": "application",
+      "stem": "A 14-year-old collapses immediately after being struck in the chest by a puck. What should you assume?",
+      "options": [
+        {
+          "text": "He has been winded and needs a minute",
+          "rationale": "This assumption is what kills these patients."
+        },
+        {
+          "text": "He is in cardiac arrest until proven otherwise",
+          "rationale": "Correct. Start CPR and get a defibrillator now."
+        },
+        {
+          "text": "He has a fractured rib",
+          "rationale": "Chest injury is typically absent."
+        },
+        {
+          "text": "He has fainted from the pain",
+          "rationale": "Collapse immediately after a chest blow is treated as arrest."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-06-Q004",
+      "concept_id": "EMT-06-07-06",
+      "style": "application",
+      "stem": "What determines survival in commotio cordis?",
+      "options": [
+        {
+          "text": "How severe the blow was",
+          "rationale": "Force is not what determines the outcome."
+        },
+        {
+          "text": "How quickly defibrillation is delivered",
+          "rationale": "Correct. Survival falls steeply with every minute of delay."
+        },
+        {
+          "text": "Whether the chest was injured",
+          "rationale": "There is usually no chest injury."
+        },
+        {
+          "text": "The patient's fitness level",
+          "rationale": "Fitness does not determine the outcome here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-06-Q005",
+      "concept_id": "EMT-06-07-06",
+      "style": "recall",
+      "stem": "Should you examine the chest for injury before starting resuscitation?",
+      "options": [
+        {
+          "text": "Yes, to identify what was damaged",
+          "rationale": "There is usually no injury to find, and looking costs minutes."
+        },
+        {
+          "text": "No — start CPR and get the pads on",
+          "rationale": "Correct. Let the machine decide."
+        },
+        {
+          "text": "Yes, but only briefly",
+          "rationale": "Any delay is consequential here."
+        },
+        {
+          "text": "Only if there is visible bruising",
+          "rationale": "Bruising is typically absent."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-06-Q006",
+      "concept_id": "EMT-06-07-06",
+      "style": "scenario",
+      "stem": "Why is early defibrillation especially worthwhile in commotio cordis?",
+      "options": [
+        {
+          "text": "Because these patients are usually already hospitalised",
+          "rationale": "They are usually at sporting events."
+        },
+        {
+          "text": "Because the heart is structurally normal and will work again if restarted",
+          "rationale": "Correct. They are young, healthy and salvageable."
+        },
+        {
+          "text": "Because defibrillation is easier in young patients",
+          "rationale": "Ease is not the reason."
+        },
+        {
+          "text": "Because they rarely need CPR as well",
+          "rationale": "They need both."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

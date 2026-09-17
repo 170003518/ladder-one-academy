@@ -82,6 +82,18 @@
         "EMT-06-06-07",
         "EMT-06-06-08"
       ]
+    },
+    {
+      "id": "EMT-06-07",
+      "title": "Chest and abdominal trauma",
+      "concepts": [
+        "EMT-06-07-01",
+        "EMT-06-07-02",
+        "EMT-06-07-03",
+        "EMT-06-07-04",
+        "EMT-06-07-05",
+        "EMT-06-07-06"
+      ]
     }
   ],
   "concepts": [
@@ -6070,6 +6082,1161 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm helmet removal indications and technique against the current text and local protocol. Sports helmet and shoulder pad management varies by sport and by governing body guidance."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-01",
+      "title": "Rib fractures and flail chest",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-07-02",
+        "EMT-06-07-04",
+        "EMT-02-05-01"
+      ],
+      "key_points": [
+        "Rib fractures hurt enormously and the pain stops the patient breathing deeply, which leads to poor ventilation and later pneumonia",
+        "The problem with rib fractures is rarely the bone; it is the reduced breathing and what is underneath",
+        "Never strap or bind a chest to relieve the pain, because that restricts ventilation further",
+        "Encourage deep breathing despite the pain, and support the injured side with the patient's own arm or a pillow",
+        "Upper rib fractures mean substantial force, and lower rib fractures raise concern for the liver and spleen underneath",
+        "Flail chest is three or more ribs broken in two or more places each, creating a segment disconnected from the rest of the chest wall",
+        "That segment moves paradoxically — inwards on inspiration and outwards on expiration — which is the opposite of the rest of the chest",
+        "Paradoxical movement can be hidden early by muscle spasm, so it may only appear as the patient tires",
+        "The pulmonary contusion under a flail segment is usually what harms the patient, not the mechanical movement"
+      ],
+      "misconceptions": [
+        "Strapping or binding the chest",
+        "Allowing shallow breathing because deep breaths hurt",
+        "Treating the flail segment mechanically and ignoring the lung underneath",
+        "Dismissing lower rib fractures without considering the liver or spleen"
+      ],
+      "exam_favorites": [
+        "Never strap the chest",
+        "Paradoxical movement",
+        "The contusion underneath is the real injury",
+        "Lower ribs and the organs below"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Rib fractures are one of the most painful injuries there is, and the pain is the problem more than the bone.\n\nHere is the sequence. A broken rib hurts when the chest expands. So the patient stops expanding it. They take shallow breaths, they stop coughing, and the parts of the lung that are not being inflated collapse down and fill with secretions. Days later that becomes pneumonia. In an older patient, rib fractures carry a mortality that surprises people, and it is almost entirely through this pathway.\n\nWhich gives you the treatment, and it is counterintuitive: encourage deep breathing despite the pain. Coach them. Ask them to take a deep breath periodically and to cough even though it hurts. Let them hold a pillow or their own arm against the injured side while they do it, which supports the segment and genuinely helps.\n\nAnd never strap or bind the chest. It was done for a long time, it relieves pain, and it does so precisely by stopping the chest expanding — which is the exact thing causing the harm. No binding, no tight bandaging, no straps around the chest.\n\nWhere the ribs are broken tells you something. The upper ribs are short, thick and well protected by the shoulder girdle, so breaking them requires substantial force, and that force went somewhere. The lower ribs overlie the liver on the right and the spleen on the left, so lower rib fractures raise real concern about those organs — a patient with left lower rib fractures has a spleen you should be thinking about.\n\nFlail chest is a specific and serious pattern: three or more ribs broken in two or more places each. That creates a segment of chest wall that is no longer connected to the rest of the rib cage — it is floating.\n\nBecause it is disconnected, it does not follow the chest wall. It follows the pressure inside the chest. When the patient breathes in and the pressure inside drops, that segment is sucked inwards while the rest of the chest goes out. On expiration it pushes outwards while the rest comes in. That is paradoxical movement, and seeing it is unmistakable.\n\nTwo cautions. First, it can be hidden early. Muscle spasm around the injury splints the segment, so paradoxical movement may not appear until the patient tires and the muscles fatigue — sometimes an hour or more in. A chest that looked fine early can start moving paradoxically later.\n\nSecond, and more important: the paradoxical movement is not the main problem. Underneath a flail segment is a lung that took the same impact, and that bruised lung — the pulmonary contusion — is usually what harms the patient. It swells, it fills, and gas exchange fails over the hours after injury. So the treatment is not about the mechanics of the segment. It is oxygen, watching the breathing closely, supporting ventilation if it becomes inadequate, and transport. Do not let a dramatic-looking chest wall distract from the lung underneath it.",
+          "standard": "Rib fracture pain restricts thoracic excursion, producing hypoventilation, atelectasis and retained secretions with subsequent pneumonia; this pathway accounts for substantial mortality in geriatric patients. Management encourages deep breathing and coughing despite pain, with self-splinting using the patient's arm or a pillow. Chest strapping or binding is contraindicated, relieving pain by restricting the ventilation that must be preserved. Upper rib fractures indicate substantial transmitted force owing to protection by the shoulder girdle; lower rib fractures raise concern for hepatic and splenic injury. Flail chest denotes three or more ribs fractured in two or more locations each, producing a chest wall segment mechanically discontinuous from the thoracic cage. The segment follows intrathoracic pressure rather than chest wall motion, moving inward on inspiration and outward on expiration — paradoxical movement. Early muscular splinting may mask paradoxical movement, which emerges as muscle fatigue develops. The underlying pulmonary contusion, rather than the mechanical abnormality, predominantly determines outcome, producing progressive gas exchange failure over hours. Management comprises oxygenation, close respiratory monitoring, ventilatory support where inadequate, and transport."
+        },
+        "eli_new": {
+          "analogy": "A flail segment follows the pressure inside the chest instead of the chest itself. It is the only part of the rib cage that has stopped taking instructions.",
+          "body": "Never strap a chest. It works — it genuinely relieves the pain — and it does so by preventing exactly the breathing that stops these patients getting pneumonia and dying of it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why rib fractures are dangerous, what flail chest is, and what actually harms the patient.",
+          "must_hit": [
+            {
+              "point": "Pain stops deep breathing, causing collapse and later pneumonia",
+              "accept": [
+                "pain",
+                "shallow",
+                "deep",
+                "pneumonia",
+                "collapse",
+                "breath"
+              ]
+            },
+            {
+              "point": "Never strap or bind the chest",
+              "accept": [
+                "strap",
+                "bind",
+                "never",
+                "restrict"
+              ]
+            },
+            {
+              "point": "Encourage deep breaths, supported with a pillow or their arm",
+              "accept": [
+                "encourage",
+                "deep",
+                "cough",
+                "pillow",
+                "arm",
+                "support"
+              ]
+            },
+            {
+              "point": "Lower rib fractures raise concern for liver and spleen",
+              "accept": [
+                "lower",
+                "liver",
+                "spleen",
+                "underneath",
+                "organ"
+              ]
+            },
+            {
+              "point": "Flail chest is 3 or more ribs broken in 2 or more places each",
+              "accept": [
+                "three",
+                "two places",
+                "flail",
+                "segment",
+                "ribs"
+              ]
+            },
+            {
+              "point": "The segment moves paradoxically — in on inspiration, out on expiration",
+              "accept": [
+                "paradox",
+                "inward",
+                "outward",
+                "inspiration",
+                "opposite"
+              ]
+            },
+            {
+              "point": "Muscle spasm can hide it early",
+              "accept": [
+                "spasm",
+                "hide",
+                "later",
+                "tire",
+                "fatigue",
+                "mask"
+              ]
+            },
+            {
+              "point": "The pulmonary contusion underneath is what harms the patient",
+              "accept": [
+                "contusion",
+                "lung",
+                "underneath",
+                "bruis",
+                "gas exchange"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It appeared at forty minutes",
+          "dispatch": "Medic 3 — crush injury to the chest, patient conscious, breathing adequately.",
+          "body": "The chest wall moved normally on the first assessment and on the second, and the crew recorded that both times.\n\nForty minutes in, a section on the left started drawing inwards each time he breathed in.\n\nThe ribs had been broken the whole time. The muscles had been splinting the segment until they got tired."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the flail chest definition and the guidance against chest strapping against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-02",
+      "title": "Pneumothorax and tension pneumothorax",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-07-01"
+      ],
+      "related": [
+        "EMT-06-07-03",
+        "EMT-06-07-04",
+        "EMT-02-05-01"
+      ],
+      "key_points": [
+        "A pneumothorax is air in the space between the lung and the chest wall, which collapses the lung on that side",
+        "Signs are shortness of breath, chest pain worse on breathing, and reduced or absent breath sounds on the affected side",
+        "A tension pneumothorax develops when air enters that space with each breath and cannot escape, so pressure builds",
+        "The rising pressure collapses the lung completely and then pushes the structures in the middle of the chest towards the other side",
+        "That shift kinks the great veins returning blood to the heart, so the patient goes into obstructive shock — a circulation problem caused by a breathing injury",
+        "Signs are severe respiratory distress, absent breath sounds on one side, and increasing hypotension",
+        "Distended neck veins and a trachea deviated away from the affected side are late and often absent, so do not wait for them",
+        "It can be caused by a chest injury, or by positive pressure ventilation converting a simple pneumothorax into a tension one",
+        "EMT treatment is high-flow oxygen, ventilation support, releasing an occlusive dressing if one is in place, and immediate transport — needle decompression is beyond most EMT scopes"
+      ],
+      "misconceptions": [
+        "Waiting for tracheal deviation before acting",
+        "Not releasing an occlusive dressing when tension develops",
+        "Assuming ventilating the patient is always safe",
+        "Treating a tension pneumothorax as purely a breathing problem"
+      ],
+      "exam_favorites": [
+        "How a tension develops",
+        "Why it causes shock",
+        "Tracheal deviation is late",
+        "Releasing an occlusive dressing"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The lung sits against the inside of the chest wall, held there by the pressure relationship between them. Let air into the space between and that relationship fails: the lung falls away from the wall and collapses. That is a pneumothorax.\n\nA simple one gives you shortness of breath, chest pain that is worse on breathing in, and breath sounds that are reduced or absent on that side when you listen. Listen to both sides and compare — the finding is the difference between them.\n\nA tension pneumothorax is a different order of problem, and it develops from a specific mechanism. If the injury creates a one-way flap, air enters that space on every breath and cannot get out. Each breath adds a little more, and the pressure climbs.\n\nFirst it collapses the lung on that side completely. Then, with nowhere else to go, it starts pushing everything in the middle of the chest — the heart, the great vessels, the airway — across towards the other side.\n\nAnd that shift is what kills. The large veins bringing blood back to the heart are thin-walled and low-pressure, and they kink as the structures move. Blood stops returning to the heart. The heart cannot pump out what does not arrive, and the patient goes into shock.\n\nThat is the key idea. A tension pneumothorax presents as a breathing problem and kills as a circulation problem. This is obstructive shock: the pump and the volume are fine, and something is mechanically obstructing the flow.\n\nSo the signs are severe respiratory distress, absent breath sounds on one side, and a blood pressure that is falling. Anxiety, then confusion. A rising pulse.\n\nNow the two famous signs: distended neck veins, and a trachea pushed away from the affected side. Both are real, both are late, and both are frequently absent. Tracheal deviation in particular is difficult to see and usually appears very late, and the patient with severe distress, absent breath sounds on one side and falling pressure needs action long before it appears. Do not wait for it.\n\nCauses: a chest injury with a flap, blunt or penetrating. And an important one that is under your control — positive pressure ventilation. Bagging a patient who has a simple pneumothorax pushes air into that space with every squeeze and can convert it to a tension. So if a patient deteriorates after you start ventilating, that is a specific thought to have quickly.\n\nTreatment at EMT level: high-flow oxygen, support ventilation carefully, and transport immediately with a pre-alert. Needle decompression is what fixes it and it is beyond most EMT scopes — know yours.\n\nOne thing that is within your scope and matters enormously: if the patient has an occlusive dressing on a chest wound and develops signs of tension, release that dressing. Lift a corner, let the trapped air out, and reapply. That single action can reverse a tension you caused by sealing the wound.",
+          "standard": "Pneumothorax denotes air within the pleural space, disrupting the pressure relationship maintaining lung expansion and producing collapse. Findings comprise dyspnoea, pleuritic chest pain and diminished or absent breath sounds on the affected side, identified by bilateral comparison. Tension pneumothorax develops where a one-way valve permits progressive air accumulation without escape. Rising intrapleural pressure produces complete ipsilateral lung collapse followed by mediastinal displacement contralaterally. Displacement kinks the thin-walled great veins, impairing venous return and producing obstructive shock; the presentation is respiratory and the mechanism of death circulatory. Findings comprise severe respiratory distress, unilateral absent breath sounds and progressive hypotension with tachycardia and altered mental status. Jugular venous distension and contralateral tracheal deviation are late and frequently absent, and treatment must not await them. Aetiology includes penetrating and blunt chest trauma and positive pressure ventilation converting simple to tension pneumothorax; deterioration following commencement of ventilation should prompt this consideration. EMT management comprises high-concentration oxygen, careful ventilatory support, immediate transport with prearrival notification, and release of any occlusive dressing in situ to vent accumulated air. Needle decompression exceeds most EMT scopes of practice."
+        },
+        "eli_new": {
+          "analogy": "Each breath adds air to a space that cannot empty. The lung goes first, then the heart gets pushed sideways and the veins feeding it kink shut.",
+          "body": "The two signs everybody learns — neck veins and tracheal deviation — are the two you should not wait for. Severe distress, absent breath sounds on one side, and a falling blood pressure is enough. If you have sealed a chest wound and the patient deteriorates, release the seal."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how a tension pneumothorax develops, why it causes shock, and what you can do.",
+          "must_hit": [
+            {
+              "point": "Air in the space between lung and chest wall collapses the lung",
+              "accept": [
+                "air",
+                "space",
+                "pleural",
+                "collapse",
+                "lung"
+              ]
+            },
+            {
+              "point": "Reduced or absent breath sounds on one side, compared with the other",
+              "accept": [
+                "breath sound",
+                "absent",
+                "reduced",
+                "compare",
+                "side"
+              ]
+            },
+            {
+              "point": "A one-way flap lets air in with each breath and not out",
+              "accept": [
+                "one-way",
+                "flap",
+                "valve",
+                "each breath",
+                "escape",
+                "build"
+              ]
+            },
+            {
+              "point": "Pressure pushes the middle of the chest towards the other side",
+              "accept": [
+                "push",
+                "shift",
+                "mediastin",
+                "middle",
+                "across"
+              ]
+            },
+            {
+              "point": "That kinks the great veins so blood stops returning — obstructive shock",
+              "accept": [
+                "vein",
+                "return",
+                "kink",
+                "shock",
+                "obstructive",
+                "heart"
+              ]
+            },
+            {
+              "point": "Neck veins and tracheal deviation are late and often absent",
+              "accept": [
+                "neck vein",
+                "trachea",
+                "deviat",
+                "late",
+                "absent",
+                "wait"
+              ]
+            },
+            {
+              "point": "Ventilating a simple pneumothorax can convert it to a tension",
+              "accept": [
+                "ventilat",
+                "bag",
+                "positive pressure",
+                "convert",
+                "deteriorat"
+              ]
+            },
+            {
+              "point": "Release an occlusive dressing if tension develops",
+              "accept": [
+                "release",
+                "occlusive",
+                "dressing",
+                "lift",
+                "vent",
+                "seal"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "After we started bagging",
+          "dispatch": "Medic 9 — chest trauma, ventilation commenced, patient deteriorating.",
+          "body": "He had been breathing inadequately so they had started assisting with a bag-valve mask, which was entirely the right decision.\n\nOver the next three minutes his pressure fell and the resistance on the bag increased.\n\nEvery squeeze had been pushing air into a space that could not empty. The intervention was right and it had converted a simple pneumothorax into a tension one."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Simple pneumothorax",
+          "right_label": "Tension pneumothorax",
+          "rows": [
+            {
+              "feature": "What is happening",
+              "left": "Air in the pleural space; lung partly or fully collapsed",
+              "right": "Air entering with every breath and unable to escape"
+            },
+            {
+              "feature": "Breath sounds",
+              "left": "Reduced or absent on one side",
+              "right": "ABSENT on one side"
+            },
+            {
+              "feature": "Breathing",
+              "left": "Short of breath, pain worse on inspiration",
+              "right": "SEVERE respiratory distress"
+            },
+            {
+              "feature": "Blood pressure",
+              "left": "Normal",
+              "right": "FALLING — this is the finding that changes everything"
+            },
+            {
+              "feature": "Pulse",
+              "left": "Normal or mildly raised",
+              "right": "Fast and rising"
+            },
+            {
+              "feature": "Neck veins and trachea",
+              "left": "Normal",
+              "right": "May be distended and deviated — LATE and OFTEN ABSENT"
+            },
+            {
+              "feature": "Why it kills",
+              "left": "Impaired gas exchange",
+              "right": "Venous return obstructed — OBSTRUCTIVE SHOCK"
+            },
+            {
+              "feature": "Made worse by",
+              "left": "Positive pressure ventilation — it can convert to the right column",
+              "right": "Any occlusive dressing sealing the escape route"
+            },
+            {
+              "feature": "Your action",
+              "left": "Oxygen, monitor closely, transport",
+              "right": "RELEASE any occlusive dressing, oxygen, transport NOW, pre-alert"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm tension pneumothorax findings and EMT-level management, including whether needle decompression is within your scope, against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-03",
+      "title": "Open chest wounds and the vented chest seal",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-07-02"
+      ],
+      "related": [
+        "EMT-06-07-02",
+        "EMT-06-03-03",
+        "EMT-06-02-01"
+      ],
+      "key_points": [
+        "An open chest wound lets air enter the chest through the wound instead of through the airway, collapsing the lung",
+        "The old term sucking chest wound describes the sound air makes moving through it",
+        "The treatment is a vented chest seal, which stops air entering while letting trapped air escape",
+        "A vented seal has a one-way valve; a plain occlusive dressing seals in both directions and can cause a tension pneumothorax",
+        "If only a plain occlusive dressing is available, tape it on three sides so the free edge acts as a valve, per protocol",
+        "Check the patient's back and sides for other wounds before sealing, because an exit wound also needs sealing",
+        "After sealing, watch for tension developing: rising distress and falling blood pressure mean the seal must be released",
+        "Do not pack an open chest wound",
+        "The patient usually breathes best sitting up if their condition allows, and needs high-flow oxygen and rapid transport"
+      ],
+      "misconceptions": [
+        "Using a plain occlusive dressing without venting",
+        "Sealing a front wound and missing the exit wound behind",
+        "Packing an open chest wound",
+        "Leaving a seal in place when the patient deteriorates after applying it"
+      ],
+      "exam_favorites": [
+        "Vented versus plain seals",
+        "Check for exit wounds",
+        "Release the seal if tension develops",
+        "Never pack a chest wound"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Air is meant to enter the chest through the airway, drawn in by the chest expanding. An open chest wound gives it a second route. When the chest expands, air comes in through the hole as well, and air in the pleural space collapses the lung.\n\nThe old name for it — a sucking chest wound — comes from the sound, and it is descriptive: air moving in and out through a wound makes a noise you do not mistake for anything else. You may also see bubbling or frothy blood around it.\n\nThe treatment is a vented chest seal. It is an adhesive dressing with a one-way valve built in, and the valve is the entire point: it stops air entering through the wound, while letting air that is already trapped inside escape.\n\nWhy the valve matters is the important part. A plain occlusive dressing sealed on all four sides blocks air in both directions. If that patient also has a lung injury leaking air into the chest — and with a penetrating chest wound they very well may — you have sealed the only exit, and the air that keeps arriving has nowhere to go. You have converted an open pneumothorax into a tension pneumothorax, which is a considerably worse problem.\n\nIf you have only a plain occlusive dressing, the traditional answer is to tape it on three sides and leave the fourth free. The loose edge lifts when pressure rises inside and lets air out, and is pushed flat when the patient breathes in. It is a homemade valve and it works. Follow your protocol on whether and how to do this.\n\nBefore you seal anything, look for other wounds. Sit them forward, check the back, check the sides, check the armpits. Penetrating objects make exit wounds, and a seal on the front with an open hole in the back has fixed half the problem. This is easy to skip in a hurry and it is exactly the thing to be systematic about.\n\nThen, having sealed it, keep watching — specifically for tension. Increasing respiratory distress, falling blood pressure, rising pulse after you applied the seal means air is accumulating. The answer is immediate: lift a corner of the seal, let the air out, and reapply. Do not hesitate and do not wait for the classic late signs.\n\nDo not pack an open chest wound. The chest is a cavity; gauze pushed into it does nothing useful and may enter the chest itself.\n\nPosition them sitting up if their condition allows, since most patients with a chest injury breathe more easily upright. High-flow oxygen, and go.",
+          "standard": "Open chest wounds permit air entry into the pleural space through the chest wall rather than the airway, producing lung collapse; the historical term sucking chest wound derives from the characteristic auditory finding, with associated bubbling or frothy blood. Management employs a vented chest seal incorporating a one-way valve, excluding air entry while permitting egress of accumulated intrapleural air. Unvented occlusive dressings occlude bidirectionally and, where concurrent pulmonary injury produces ongoing air leak, convert open pneumothorax to tension pneumothorax. Where only unvented material is available, three-sided taping creates a functional flutter valve, per protocol. Systematic examination of the posterior and lateral chest precedes sealing, as exit wounds require equivalent management. Following application, deterioration — increasing respiratory distress, hypotension, tachycardia — indicates tension development and requires immediate release of the seal with subsequent reapplication. Wound packing is contraindicated in thoracic wounds. Upright positioning is preferred where condition permits, with high-concentration oxygen and expedited transport."
+        },
+        "eli_new": {
+          "analogy": "A vented seal is a door that only opens outwards. A plain dressing is a door that is nailed shut, and the air inside keeps arriving.",
+          "body": "Check the back. A seal on the front of the chest with an unsealed exit wound behind has fixed half the problem, and sitting somebody forward for five seconds is all it takes to find out."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what an open chest wound does, why a vented seal is used, and what you check and watch for.",
+          "must_hit": [
+            {
+              "point": "Air enters through the wound instead of the airway, collapsing the lung",
+              "accept": [
+                "air",
+                "wound",
+                "airway",
+                "collapse",
+                "lung",
+                "enter"
+              ]
+            },
+            {
+              "point": "A vented seal has a one-way valve",
+              "accept": [
+                "vent",
+                "valve",
+                "one-way",
+                "seal"
+              ]
+            },
+            {
+              "point": "A plain occlusive dressing can cause a tension pneumothorax",
+              "accept": [
+                "plain",
+                "occlusive",
+                "tension",
+                "seal",
+                "both",
+                "trapped"
+              ]
+            },
+            {
+              "point": "Tape on three sides if only a plain dressing is available",
+              "accept": [
+                "three",
+                "sides",
+                "tape",
+                "flap",
+                "free edge"
+              ]
+            },
+            {
+              "point": "Check the back and sides for exit wounds before sealing",
+              "accept": [
+                "back",
+                "exit",
+                "side",
+                "check",
+                "other wound"
+              ]
+            },
+            {
+              "point": "If they deteriorate after sealing, release the seal and reapply",
+              "accept": [
+                "release",
+                "lift",
+                "corner",
+                "deteriorat",
+                "reapply"
+              ]
+            },
+            {
+              "point": "Never pack a chest wound; sit them up and give high-flow oxygen",
+              "accept": [
+                "pack",
+                "never",
+                "sit",
+                "upright",
+                "oxygen",
+                "transport"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Nobody looked at the back",
+          "dispatch": "Medic 1 — stabbing, single wound to the left chest, patient conscious.",
+          "body": "The seal went on promptly and correctly, over a wound just below the left nipple, and the crew moved on to oxygen and transport.\n\nAt hospital a second wound was found under the left shoulder blade.\n\nSitting him forward for five seconds would have found it. Nobody had, because the wound at the front was obvious and they were busy."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Open chest wound",
+          "steps": [
+            {
+              "text": "Recognise it: air moving through the wound, bubbling or frothy blood, respiratory distress",
+              "critical": true
+            },
+            {
+              "text": "Expose the chest and CHECK THE BACK, SIDES AND ARMPITS for other wounds",
+              "critical": true,
+              "note": "An exit wound needs sealing too. Sitting them forward for five seconds is all it takes."
+            },
+            {
+              "text": "Seal the wound with a VENTED chest seal",
+              "critical": true,
+              "note": "The one-way valve stops air entering while letting trapped air escape."
+            },
+            {
+              "text": "If only a plain occlusive dressing is available, TAPE IT ON THREE SIDES per protocol",
+              "critical": true,
+              "note": "The free edge is a homemade valve. A four-sided seal can cause a tension pneumothorax."
+            },
+            {
+              "text": "Seal every wound you found, not just the first one",
+              "critical": true
+            },
+            {
+              "text": "DO NOT PACK a chest wound",
+              "critical": true
+            },
+            {
+              "text": "High-flow oxygen; support ventilation carefully if inadequate",
+              "critical": true
+            },
+            {
+              "text": "Sit the patient up if their condition allows",
+              "critical": false
+            },
+            {
+              "text": "WATCH FOR TENSION AFTER SEALING: rising distress, falling pressure, rising pulse",
+              "critical": true
+            },
+            {
+              "text": "If tension develops, LIFT A CORNER OF THE SEAL, vent the air, and reapply",
+              "critical": true,
+              "note": "Immediately. Do not wait for neck veins or a deviated trachea."
+            },
+            {
+              "text": "Reassess breath sounds, pressure and pulse continuously",
+              "critical": true
+            },
+            {
+              "text": "Expedite transport and pre-alert",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm chest seal guidance, including whether three-sided taping is still taught by your service, against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-04",
+      "title": "Hemothorax and cardiac tamponade",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-06-07-02"
+      ],
+      "related": [
+        "EMT-06-07-02",
+        "EMT-06-02-04",
+        "EMT-04-04-01"
+      ],
+      "key_points": [
+        "A hemothorax is blood in the space around the lung, which both collapses the lung and removes blood from the circulation",
+        "It causes shortness of breath and reduced breath sounds like a pneumothorax, but with signs of shock alongside",
+        "The chest can hold a large volume, so a hemothorax can bleed a patient into shock with nothing visible outside",
+        "Cardiac tamponade is blood collecting in the sac around the heart, which cannot stretch",
+        "That pressure stops the heart filling properly between beats, so it pumps less with every beat",
+        "Beck triad is muffled heart sounds, distended neck veins and low blood pressure — and like most triads it is late and often incomplete",
+        "Tamponade is more common with penetrating injury to the central chest, and a small wound can cause it",
+        "A patient in shock with penetrating central chest trauma and clear lung sounds should raise the suspicion",
+        "Neither is treatable by an EMT: oxygen, position, keep warm, and immediate transport with a pre-alert"
+      ],
+      "misconceptions": [
+        "Expecting external bleeding in a hemothorax",
+        "Waiting for Beck triad before suspecting tamponade",
+        "Assuming a small chest wound is minor",
+        "Spending scene time on a patient who needs a surgeon"
+      ],
+      "exam_favorites": [
+        "Blood in the chest is hidden bleeding",
+        "Why tamponade stops the heart filling",
+        "Beck triad is late",
+        "Both need a surgeon"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Two chest injuries that kill by mechanisms worth understanding, because neither is anything you can fix and recognising them changes how fast you move.\n\nA hemothorax is blood in the pleural space — the same space that air fills in a pneumothorax, but filled with blood instead. Torn vessels in the chest wall, in the lung, or one of the great vessels itself.\n\nIt does two things at once. The blood takes up room, so the lung on that side is compressed and collapses, and you get shortness of breath and reduced breath sounds — much like a pneumothorax. And that blood has left the circulation, so the patient is also bleeding, with the signs of shock.\n\nThat combination is how you tell them apart. A pneumothorax gives breathing signs. A hemothorax gives breathing signs plus shock.\n\nThe chest is large and can hold a great deal of blood, so a patient can lose a substantial proportion of their volume into a chest cavity with nothing visible from outside. Percussion is dull rather than hyper-resonant if your protocol has you percuss, but the honest field finding is reduced breath sounds plus a rising pulse and falling pressure.\n\nCardiac tamponade is different and more specific. The heart sits in a fibrous sac, and that sac does not stretch quickly. If blood leaks into it — from a stab wound to the heart, or a tear from blunt force — the sac fills. Because it cannot expand, the pressure inside rises and squeezes the heart from outside.\n\nThe heart can still contract. What it cannot do is fill. Between beats, the chambers should relax and take in blood, and external pressure prevents that. So each beat ejects less and less. The patient goes into shock with a heart that is beating perfectly well.\n\nThe classic teaching sign is Beck triad: muffled heart sounds, distended neck veins, and low blood pressure. Know it, and know its limits — muffled heart sounds are close to impossible to appreciate in a noisy ambulance, neck veins may be flat if the patient is also bleeding elsewhere, and all three together are uncommon. Like every triad in trauma, it is late and frequently incomplete.\n\nWhat should actually raise your suspicion is a pattern: a patient in shock, with penetrating trauma to the central chest, whose lungs sound clear. That last part is the useful bit — shock with a chest injury and normal breath sounds on both sides points away from a hemothorax or tension pneumothorax and towards the heart.\n\nAnd a small wound is no reassurance. A single stab wound in the central chest, with a mark you could cover with a fingertip, is a classic tamponade.\n\nNeither of these is treatable by an EMT. Both need a surgeon, quickly. Oxygen, position them as they tolerate, keep them warm, handle them minimally, and transport immediately with a pre-alert that says penetrating chest trauma and shock. That sentence mobilises a team.",
+          "standard": "Haemothorax denotes blood accumulation within the pleural space from chest wall, pulmonary or great vessel injury, producing both pulmonary compression with dyspnoea and reduced breath sounds, and circulating volume loss with shock. The combination of respiratory findings with shock distinguishes it from pneumothorax. Thoracic capacity permits loss of a substantial proportion of blood volume without external evidence; percussion yields dullness where assessed. Cardiac tamponade denotes blood accumulation within the non-compliant pericardial sac, producing external cardiac compression. Contractility is preserved while diastolic filling is impaired, progressively reducing stroke volume and producing shock despite effective myocardial contraction. Beck triad — muffled heart sounds, jugular venous distension, hypotension — is late, frequently incomplete, and of limited prehospital utility: heart sounds are rarely appreciable in transport, and jugular distension may be absent with concurrent haemorrhage. Suspicion arises from shock with central penetrating chest trauma and clear bilateral breath sounds, the latter arguing against haemothorax and tension pneumothorax. Wound size carries no prognostic value. Neither condition is amenable to EMT intervention; management comprises oxygen, tolerated positioning, normothermia, minimal handling and immediate transport with prearrival notification specifying penetrating chest trauma with shock."
+        },
+        "eli_new": {
+          "analogy": "Tamponade is a heart squeezed inside a bag that will not stretch. It beats perfectly well. It just cannot fill between beats, and a heart that cannot fill has nothing to send out.",
+          "body": "The useful pattern is shock plus a central chest wound plus clear lung sounds. Clear lungs on both sides argue against the chest injuries and point at the heart, and that is far more available to you than muffled heart sounds in a moving ambulance."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what distinguishes a hemothorax from a pneumothorax, and how tamponade causes shock.",
+          "must_hit": [
+            {
+              "point": "A hemothorax is blood in the space around the lung",
+              "accept": [
+                "blood",
+                "pleural",
+                "space",
+                "lung",
+                "hemothorax",
+                "haemothorax"
+              ]
+            },
+            {
+              "point": "It collapses the lung AND removes blood from the circulation",
+              "accept": [
+                "collapse",
+                "circulation",
+                "shock",
+                "both",
+                "volume"
+              ]
+            },
+            {
+              "point": "Breathing signs plus shock distinguish it from a pneumothorax",
+              "accept": [
+                "shock",
+                "breathing",
+                "distinguish",
+                "plus",
+                "pneumothorax"
+              ]
+            },
+            {
+              "point": "Tamponade is blood in the sac around the heart, which cannot stretch",
+              "accept": [
+                "sac",
+                "pericard",
+                "heart",
+                "stretch",
+                "tamponade"
+              ]
+            },
+            {
+              "point": "The heart can contract but cannot fill between beats",
+              "accept": [
+                "fill",
+                "contract",
+                "beat",
+                "diastol",
+                "between"
+              ]
+            },
+            {
+              "point": "Beck triad is muffled sounds, distended neck veins and low pressure — and is late",
+              "accept": [
+                "beck",
+                "muffl",
+                "neck vein",
+                "pressure",
+                "late",
+                "incomplete"
+              ]
+            },
+            {
+              "point": "Shock with a central chest wound and clear lung sounds suggests tamponade",
+              "accept": [
+                "clear",
+                "lung",
+                "central",
+                "penetrat",
+                "shock",
+                "suspicion"
+              ]
+            },
+            {
+              "point": "Neither is treatable by an EMT — oxygen, warm, transport, pre-alert",
+              "accept": [
+                "oxygen",
+                "warm",
+                "transport",
+                "pre-alert",
+                "surgeon",
+                "not treatable"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Clear on both sides",
+          "dispatch": "Medic 4 — single stab wound to the central chest, patient shocked.",
+          "body": "The wound was small enough to cover with a fingertip and there was almost no external bleeding.\n\nHis pressure was 76, his pulse was 130, and both lungs sounded completely clear.\n\nNobody heard a muffled heart sound and nobody saw a distended neck vein. The clear lungs were the finding — they argued against the chest, which left the heart."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Hemothorax",
+          "right_label": "Cardiac tamponade",
+          "rows": [
+            {
+              "feature": "What is filling",
+              "left": "The space around the LUNG, with blood",
+              "right": "The SAC around the HEART, with blood"
+            },
+            {
+              "feature": "Breath sounds",
+              "left": "REDUCED on the affected side",
+              "right": "CLEAR on both sides — the useful finding"
+            },
+            {
+              "feature": "Why shock happens",
+              "left": "Blood has left the circulation",
+              "right": "The heart cannot FILL between beats"
+            },
+            {
+              "feature": "Heart function",
+              "left": "Normal, with too little to pump",
+              "right": "Contracting normally, unable to fill"
+            },
+            {
+              "feature": "Neck veins",
+              "left": "Flat — they are volume depleted",
+              "right": "May be distended — but often are not"
+            },
+            {
+              "feature": "Classic teaching sign",
+              "left": "Dullness to percussion",
+              "right": "Beck triad — late and usually incomplete"
+            },
+            {
+              "feature": "Typical mechanism",
+              "left": "Blunt or penetrating chest trauma",
+              "right": "PENETRATING trauma to the CENTRAL chest"
+            },
+            {
+              "feature": "Wound size",
+              "left": "No relationship to severity",
+              "right": "No relationship — a fingertip wound is classic"
+            },
+            {
+              "feature": "Your treatment",
+              "left": "Oxygen, warm, position, GO",
+              "right": "Oxygen, warm, position, GO"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the haemothorax and tamponade presentations and the limits of Beck triad against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-05",
+      "title": "Abdominal trauma and evisceration",
+      "domain": "TRAU",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-06-02-04",
+        "EMT-06-07-01",
+        "EMT-06-03-03"
+      ],
+      "key_points": [
+        "The abdomen holds solid organs that bleed and hollow organs that leak, and both are invisible from outside",
+        "Solid organ injury — liver, spleen — bleeds, and is the usual cause of shock from abdominal trauma",
+        "Hollow organ injury — bowel, stomach — spills contents, which irritates the lining and causes peritonitis over hours",
+        "Blunt abdominal trauma can be entirely occult: a soft, non-tender abdomen early does not exclude serious injury",
+        "The most useful finding is not the abdomen at all — it is the mechanism plus rising pulse and falling pressure",
+        "Any penetrating wound between the nipples and the groin may have entered the abdomen",
+        "An evisceration is abdominal contents protruding through a wound, and they are never pushed back inside",
+        "Cover an evisceration with a moist sterile dressing and then an occlusive layer to stop it drying out",
+        "Position with knees bent to relax the abdominal wall, nothing by mouth, keep warm, and transport rapidly"
+      ],
+      "misconceptions": [
+        "Pushing eviscerated organs back inside",
+        "Being reassured by a soft abdomen early",
+        "Using a dry dressing on an evisceration",
+        "Assuming a wound below the nipple line cannot involve the abdomen"
+      ],
+      "exam_favorites": [
+        "Solid organs bleed, hollow organs leak",
+        "A soft abdomen early means nothing",
+        "Never push an evisceration back",
+        "Moist then occlusive"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The abdomen contains two kinds of organ, and they fail in two different ways.\n\nSolid organs — the liver, the spleen, the kidneys — are dense and full of blood. Injure them and they bleed, sometimes torrentially, into the abdominal cavity. This is what causes shock in abdominal trauma, and it is entirely invisible.\n\nHollow organs — bowel, stomach, bladder — are containers. Injure them and they spill their contents into a cavity that is meant to be sterile. That causes peritonitis, and it develops over hours rather than minutes. The patient who looks reasonable now can have a rigid, agonising abdomen later.\n\nBoth are invisible from outside. Which brings us to the problem this concept exists to address: blunt abdominal trauma can be completely occult early. A patient can have a lacerated spleen bleeding steadily and a soft, non-tender abdomen for a considerable time. Guarding and rigidity develop as blood accumulates and irritates the lining, and that takes time.\n\nSo a soft abdomen early is not reassurance. It is a finding you note and do not rely on.\n\nWhat you rely on instead is the mechanism and the vital signs. Handlebars into the abdomen. A seatbelt mark across the lower abdomen — which is a genuinely useful sign, because if the belt marked the skin it transmitted considerable force to what was behind it. A fall from height. Lower rib fractures. Combine any of those with a pulse that is climbing and a pressure that is drifting down, and you have an abdomen that is bleeding, whatever your hands find.\n\nFor penetrating trauma, know the boundaries. Anything entering between the nipple line and the groin may have gone into the abdomen. The diaphragm rises well up into the chest, so a wound that looks like a chest wound can be abdominal, and a wound in the flank or the back can reach the abdomen too. Look everywhere, including the back and the buttocks.\n\nAn evisceration is abdominal contents — usually bowel — protruding through a wound. It looks alarming and the management is specific.\n\nDo not push them back in. Ever. You would contaminate the abdominal cavity with whatever is on the surface, you can damage the bowel, and you can convert a manageable situation into a far worse one. It is a surgeon's job in a theatre.\n\nCover them with a sterile dressing moistened with sterile saline, and then cover that with an occlusive layer to hold the moisture in. Exposed bowel dries out quickly, and dried bowel dies. The moist layer keeps it alive; the occlusive layer stops the moist layer drying.\n\nDo not use anything that will stick or shed fibres, and do not apply pressure to the protruding organs.\n\nPosition them on their back with knees bent, which relaxes the abdominal wall and reduces both pain and tension on the wound. Nothing by mouth, because they are going to theatre. Keep them warm, give oxygen as indicated, and transport quickly with a pre-alert.",
+          "standard": "The abdomen contains solid viscera, which haemorrhage, and hollow viscera, which perforate and leak; both produce injury invisible on external examination. Solid organ injury — hepatic, splenic, renal — produces intraperitoneal haemorrhage and is the principal cause of shock in abdominal trauma. Hollow viscus injury spills contents into the peritoneal cavity, producing peritonitis over hours. Blunt abdominal trauma may be occult, with a soft, non-tender abdomen despite significant injury; guarding and rigidity develop as accumulating blood irritates the peritoneum. Early benign examination therefore carries no exclusionary value. Assessment relies on mechanism — handlebar injury, seatbelt marking of the lower abdomen indicating transmitted force, falls from height, lower rib fractures — combined with rising pulse and falling blood pressure. Penetrating wounds between the nipple line and the groin, including flank and posterior wounds, may involve the abdomen, as the diaphragm extends superiorly into the thorax. Evisceration requires covering with sterile saline-moistened dressing beneath an occlusive layer to prevent desiccation, which causes bowel necrosis. Replacement of protruding viscera is contraindicated, risking contamination and injury. Adherent or fibre-shedding materials and pressure on protruding organs are avoided. Supine positioning with flexed knees relaxes the abdominal wall; nil by mouth, normothermia and expedited transport are indicated."
+        },
+        "eli_new": {
+          "analogy": "Solid organs bleed and hollow organs leak. The bleeding kills you today and the leaking kills you tomorrow, and neither shows on the skin.",
+          "body": "A soft abdomen an hour after a serious impact tells you almost nothing. The rigidity everybody learns to look for takes time to develop, and by the time it is there the patient has been bleeding for a while. Read the mechanism and the pulse instead."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how solid and hollow organ injuries differ, and how an evisceration is managed.",
+          "must_hit": [
+            {
+              "point": "Solid organs bleed; hollow organs leak and cause peritonitis over hours",
+              "accept": [
+                "solid",
+                "bleed",
+                "hollow",
+                "leak",
+                "peritonitis",
+                "spill"
+              ]
+            },
+            {
+              "point": "Both are invisible from outside",
+              "accept": [
+                "invisible",
+                "outside",
+                "occult",
+                "hidden"
+              ]
+            },
+            {
+              "point": "A soft abdomen early does not exclude serious injury",
+              "accept": [
+                "soft",
+                "early",
+                "exclude",
+                "rigid",
+                "time",
+                "reassur"
+              ]
+            },
+            {
+              "point": "Rely on mechanism plus rising pulse and falling pressure",
+              "accept": [
+                "mechanism",
+                "pulse",
+                "pressure",
+                "seatbelt",
+                "handlebar",
+                "rising"
+              ]
+            },
+            {
+              "point": "Wounds between the nipples and the groin may enter the abdomen",
+              "accept": [
+                "nipple",
+                "groin",
+                "boundar",
+                "diaphragm",
+                "back",
+                "flank"
+              ]
+            },
+            {
+              "point": "Never push eviscerated organs back in",
+              "accept": [
+                "never",
+                "push",
+                "back",
+                "replace",
+                "inside"
+              ]
+            },
+            {
+              "point": "Cover with a moist sterile dressing then an occlusive layer",
+              "accept": [
+                "moist",
+                "sterile",
+                "occlusive",
+                "dry",
+                "saline",
+                "cover"
+              ]
+            },
+            {
+              "point": "Knees bent, nothing by mouth, keep warm, transport",
+              "accept": [
+                "knees",
+                "bent",
+                "nothing by mouth",
+                "warm",
+                "transport"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The belt mark",
+          "dispatch": "Medic 6 — front seat passenger, restrained, walking at scene.",
+          "body": "She was out of the car and talking, her abdomen was soft, and she was annoyed at being made to sit down.\n\nThere was a red line across her lower abdomen where the lap belt had been.\n\nIf the belt marked the skin, the force behind it went into whatever was underneath. Her pulse was 104 and climbing, and the soft abdomen was the least useful thing about her."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Evisceration",
+          "steps": [
+            {
+              "text": "Do NOT push the organs back inside — ever",
+              "critical": true,
+              "note": "It contaminates the abdominal cavity and damages bowel. It is a surgeon's job in a theatre."
+            },
+            {
+              "text": "Do not apply pressure to the protruding organs",
+              "critical": true
+            },
+            {
+              "text": "Control any significant bleeding around the wound edges, not on the organs",
+              "critical": true
+            },
+            {
+              "text": "Cover the organs with a sterile dressing MOISTENED with sterile saline",
+              "critical": true,
+              "note": "Exposed bowel dries quickly, and dried bowel dies."
+            },
+            {
+              "text": "Cover the moist dressing with an OCCLUSIVE layer to hold the moisture in",
+              "critical": true
+            },
+            {
+              "text": "Use nothing that sticks or sheds fibres",
+              "critical": true
+            },
+            {
+              "text": "Position supine with the KNEES BENT to relax the abdominal wall",
+              "critical": true
+            },
+            {
+              "text": "NOTHING BY MOUTH — they are going to theatre",
+              "critical": true
+            },
+            {
+              "text": "Keep the patient warm",
+              "critical": true
+            },
+            {
+              "text": "Oxygen as indicated; assess for shock by pulse and skin",
+              "critical": true
+            },
+            {
+              "text": "Check for other wounds including the back and flanks",
+              "critical": true
+            },
+            {
+              "text": "Expedite transport and pre-alert",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm evisceration management, including the dressing sequence, against the current text and local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-06-07-06",
+      "title": "Commotio cordis",
+      "domain": "TRAU",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-04-03-01",
+        "EMT-04-03-02",
+        "EMT-06-07-01"
+      ],
+      "key_points": [
+        "Commotio cordis is cardiac arrest caused by a blow to the chest at a vulnerable moment in the cardiac cycle",
+        "It occurs in a structurally normal heart with no underlying disease and no damage to the chest",
+        "The blow does not need to be severe — a ball, a puck, an elbow, a fist at a modest speed can do it",
+        "It is most common in children and adolescents, whose chest walls are more compliant and transmit force to the heart",
+        "The timing is what matters: the impact must land in a very narrow window during the heart's electrical cycle",
+        "The result is ventricular fibrillation, and the patient collapses immediately after the impact",
+        "Treatment is immediate high-quality CPR and defibrillation as early as possible — this is what survival depends on",
+        "Survival is strongly linked to how quickly a defibrillator is applied, so send for one the moment somebody goes down after a chest impact",
+        "Anyone who collapses after a blow to the chest is assumed to be in arrest until proven otherwise"
+      ],
+      "misconceptions": [
+        "Assuming a young athlete who collapses is winded",
+        "Delaying a defibrillator because the patient is young and healthy",
+        "Looking for chest injury and delaying CPR",
+        "Assuming the impact was too minor to matter"
+      ],
+      "exam_favorites": [
+        "A normal heart and a modest blow",
+        "The narrow timing window",
+        "Defibrillate as early as possible",
+        "Collapse after a chest blow is an arrest"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Commotio cordis is a rare and specific event: a blow to the chest at exactly the wrong moment stops the heart.\n\nThere is nothing wrong with the heart. It is structurally normal, with no disease, no abnormality, nothing that would have been found on any test beforehand. And there is usually nothing wrong with the chest either — no broken ribs, no bruising, often not even a mark.\n\nThe blow does not have to be hard. A cricket ball, a baseball, a hockey puck, an elbow in a tackle, a punch — impacts at speeds that would ordinarily produce a bruise and a complaint.\n\nWhat makes it happen is timing. The heart has a brief window during its electrical cycle where it is vulnerable to being thrown into a chaotic rhythm. That window is very short — a matter of milliseconds in each cardiac cycle. An impact that lands during it can trigger ventricular fibrillation. An identical impact a fraction of a second earlier or later does nothing at all.\n\nThat is why it is rare, and why it is nobody's fault. The same blow, delivered a thousand times, would do this once.\n\nIt affects children and adolescents disproportionately. Their chest walls are more flexible and transmit the force of an impact through to the heart more effectively, where an adult's stiffer chest absorbs more of it.\n\nWhat you will be told is that a young person was struck in the chest and went down, usually immediately or within a few seconds. The collapse follows the impact so closely that bystanders connect them.\n\nAnd here is the response that matters, because it is the whole concept. Anybody who collapses after a blow to the chest is in cardiac arrest until proven otherwise. Not winded. Not stunned. Not needing a minute.\n\nThat assumption is the difference between survival and death, because the treatment is immediate high-quality CPR and defibrillation as early as it can possibly be achieved. Survival is strongly tied to how quickly a shock is delivered, and it falls steeply with every minute of delay.\n\nSo: the moment somebody goes down after a chest impact, send for a defibrillator. Do not wait to see if they get up. Do not examine the chest for injury first — there is usually no injury to find, and looking for it costs the minutes that decide the outcome. Start compressions, get the pads on, and let the machine decide.\n\nThese patients are young, healthy, and have a heart that will work perfectly well again if it is restarted. That makes early defibrillation extraordinarily worthwhile here.",
+          "standard": "Commotio cordis denotes cardiac arrest precipitated by blunt precordial impact during a narrow electrically vulnerable phase of the cardiac cycle. The myocardium is structurally normal without underlying pathology, and thoracic injury is typically absent. Impact energy required is modest, arising from projectiles such as balls or pucks, or from bodily contact. Paediatric and adolescent patients are disproportionately affected owing to greater chest wall compliance transmitting force to the myocardium. The mechanism depends on temporal coincidence with a vulnerable window of milliseconds duration, producing ventricular fibrillation; identical impact outside this window produces no effect, accounting for the rarity. Presentation comprises collapse immediately or within seconds of precordial impact. Any collapse following blunt chest impact is presumed to be cardiac arrest. Management comprises immediate high-quality cardiopulmonary resuscitation and defibrillation at the earliest opportunity, survival correlating strongly with time to defibrillation. Examination for thoracic injury prior to resuscitation is contraindicated, as injury is typically absent and the delay is consequential. Prognosis with early defibrillation is favourable given the structurally normal myocardium."
+        },
+        "eli_new": {
+          "analogy": "A normal heart, a normal chest, and a ball that arrived during a window a few milliseconds long. Everything about it is ordinary except the timing.",
+          "body": "Anybody who goes down after a blow to the chest is in cardiac arrest until proven otherwise. Not winded. The instinct to give them a minute to get their breath back is the thing that kills them."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what commotio cordis is, who it affects, and what you do when somebody collapses after a chest blow.",
+          "must_hit": [
+            {
+              "point": "A blow to the chest at a vulnerable moment in the cardiac cycle",
+              "accept": [
+                "blow",
+                "chest",
+                "timing",
+                "cycle",
+                "vulnerable",
+                "window"
+              ]
+            },
+            {
+              "point": "The heart is structurally normal and there is usually no chest injury",
+              "accept": [
+                "normal",
+                "structural",
+                "no injury",
+                "healthy",
+                "disease"
+              ]
+            },
+            {
+              "point": "The blow does not need to be severe",
+              "accept": [
+                "not severe",
+                "modest",
+                "ball",
+                "puck",
+                "elbow",
+                "minor"
+              ]
+            },
+            {
+              "point": "It affects children and adolescents disproportionately",
+              "accept": [
+                "child",
+                "adolescent",
+                "young",
+                "compliant",
+                "flexible"
+              ]
+            },
+            {
+              "point": "It causes ventricular fibrillation and immediate collapse",
+              "accept": [
+                "fibrillation",
+                "vf",
+                "collapse",
+                "immediate",
+                "arrest"
+              ]
+            },
+            {
+              "point": "Anyone collapsing after a chest blow is in arrest until proven otherwise",
+              "accept": [
+                "arrest",
+                "until",
+                "proven",
+                "winded",
+                "assume"
+              ]
+            },
+            {
+              "point": "Immediate CPR and the earliest possible defibrillation",
+              "accept": [
+                "cpr",
+                "compress",
+                "defibrillat",
+                "aed",
+                "early",
+                "shock"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Give him a minute",
+          "dispatch": "Medic 2 — 14-year-old, collapsed at a hockey match after being struck in the chest.",
+          "body": "Everybody on the touchline assumed he had been winded, because that is what happens when you take a puck to the chest, and they gave him a moment.\n\nThe moment lasted about ninety seconds before anybody started compressions.\n\nHis heart was completely normal and would have worked perfectly again. What it needed was a shock, and every one of those ninety seconds cost something."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the commotio cordis description and the emphasis on early defibrillation against the current text and current resuscitation guidelines."
     }
   ]
 }
