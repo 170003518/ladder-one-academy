@@ -1622,6 +1622,366 @@
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-01-Q001",
+      "concept_id": "EMT-08-03-01",
+      "style": "recall",
+      "stem": "When may you approach a crashed vehicle?",
+      "options": [
+        {
+          "text": "As soon as you can see a patient",
+          "rationale": "Never before stabilisation."
+        },
+        {
+          "text": "Once it has been stabilised and the hazards identified",
+          "rationale": "Correct — once it has been stabilised and the hazards identified."
+        },
+        {
+          "text": "Once traffic has slowed",
+          "rationale": "Stabilisation is still required."
+        },
+        {
+          "text": "Once the engine is off",
+          "rationale": "Necessary but not sufficient."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-01-Q002",
+      "concept_id": "EMT-08-03-01",
+      "style": "recall",
+      "stem": "Why is an undeployed airbag dangerous?",
+      "options": [
+        {
+          "text": "It obstructs access",
+          "rationale": "That is not the hazard."
+        },
+        {
+          "text": "It is a stored charge that can fire late, even after power is disconnected",
+          "rationale": "Correct — it is a stored charge that can fire late, even after power is disconnected."
+        },
+        {
+          "text": "It releases toxic gas",
+          "rationale": "Not the principal hazard."
+        },
+        {
+          "text": "It becomes live only in a fire",
+          "rationale": "It can fire without fire."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-01-Q003",
+      "concept_id": "EMT-08-03-01",
+      "style": "application",
+      "stem": "There is a downed power line across the vehicle. What do you do?",
+      "options": [
+        {
+          "text": "Approach carefully avoiding the line",
+          "rationale": "The ground itself may be energised."
+        },
+        {
+          "text": "Nobody approaches until the utility confirms it is dead, and occupants stay in the vehicle",
+          "rationale": "Correct — nobody approaches until the utility confirms it is dead, and occupants stay in the vehicle."
+        },
+        {
+          "text": "Move the line with a non-conductive tool",
+          "rationale": "Not an EMS task."
+        },
+        {
+          "text": "Approach if the line is not sparking",
+          "rationale": "A line can be live without any visible sign."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-01-Q004",
+      "concept_id": "EMT-08-03-01",
+      "style": "recall",
+      "stem": "What is simple access?",
+      "options": [
+        {
+          "text": "Access requiring only hand tools",
+          "rationale": "Simple access uses no tools at all."
+        },
+        {
+          "text": "Reaching the patient without tools — doors, windows, asking them to unlock",
+          "rationale": "Correct — reaching the patient without tools — doors, windows, asking them to unlock."
+        },
+        {
+          "text": "Access performed by rescue personnel",
+          "rationale": "That is complex access."
+        },
+        {
+          "text": "Access through the roof",
+          "rationale": "That is complex access."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-01-Q005",
+      "concept_id": "EMT-08-03-01",
+      "style": "application",
+      "stem": "What makes electric and hybrid vehicles different?",
+      "options": [
+        {
+          "text": "They are heavier to stabilise",
+          "rationale": "Not the principal difference."
+        },
+        {
+          "text": "High-voltage systems, hazardous cabling and batteries that can reignite later",
+          "rationale": "Correct — high-voltage systems, hazardous cabling and batteries that can reignite later."
+        },
+        {
+          "text": "They cannot be cut at all",
+          "rationale": "They can, by trained personnel with procedures."
+        },
+        {
+          "text": "They have no airbags",
+          "rationale": "They have airbags like any other vehicle."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-01-Q006",
+      "concept_id": "EMT-08-03-01",
+      "style": "scenario",
+      "stem": "A vehicle is sitting upright on its wheels. Is it stable?",
+      "options": [
+        {
+          "text": "Yes, upright vehicles are stable",
+          "rationale": "They can still roll, rock and settle."
+        },
+        {
+          "text": "No — it can still move, especially with people climbing in and out",
+          "rationale": "Correct — no — it can still move, especially with people climbing in and out."
+        },
+        {
+          "text": "Only if the handbrake is on",
+          "rationale": "Not sufficient."
+        },
+        {
+          "text": "Only on level ground",
+          "rationale": "Still requires stabilisation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-02-Q001",
+      "concept_id": "EMT-08-03-02",
+      "style": "recall",
+      "stem": "What is your job during an extrication?",
+      "options": [
+        {
+          "text": "Assisting with the tools",
+          "rationale": "The pull towards the tools is real and wrong."
+        },
+        {
+          "text": "The patient — stay with them and keep working",
+          "rationale": "Correct — the patient — stay with them and keep working."
+        },
+        {
+          "text": "Traffic control",
+          "rationale": "Usually someone else's role."
+        },
+        {
+          "text": "Documentation",
+          "rationale": "Not during the extrication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-02-Q002",
+      "concept_id": "EMT-08-03-02",
+      "style": "sequence",
+      "stem": "The patient deteriorates mid-extrication. What do you do?",
+      "options": [
+        {
+          "text": "Wait until the rescue team asks for an update",
+          "rationale": "Say it immediately and unprompted."
+        },
+        {
+          "text": "Say so immediately and clearly, so the plan can change",
+          "rationale": "Correct — say so immediately and clearly, so the plan can change."
+        },
+        {
+          "text": "Speed up your own care and say nothing",
+          "rationale": "The plan needs to change outside the car."
+        },
+        {
+          "text": "Request a second ambulance",
+          "rationale": "Not the immediate action."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-02-Q003",
+      "concept_id": "EMT-08-03-02",
+      "style": "application",
+      "stem": "Why does the patient's condition matter to the rescue team?",
+      "options": [
+        {
+          "text": "It determines the destination hospital",
+          "rationale": "Later decision."
+        },
+        {
+          "text": "It decides whether the extrication is methodical or fast and rough",
+          "rationale": "Correct — it decides whether the extrication is methodical or fast and rough."
+        },
+        {
+          "text": "It affects their documentation",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It does not affect their work",
+          "rationale": "It changes it entirely."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-02-Q004",
+      "concept_id": "EMT-08-03-02",
+      "style": "application",
+      "stem": "Why explain each step to the patient before it happens?",
+      "options": [
+        {
+          "text": "It is a courtesy only",
+          "rationale": "It materially affects how they cope."
+        },
+        {
+          "text": "Extrication is terrifying and extremely loud, and warning changes how they tolerate it",
+          "rationale": "Correct — extrication is terrifying and extremely loud, and warning changes how they tolerate it."
+        },
+        {
+          "text": "It satisfies consent requirements",
+          "rationale": "Not the primary reason."
+        },
+        {
+          "text": "It keeps them awake",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-02-Q005",
+      "concept_id": "EMT-08-03-02",
+      "style": "sequence",
+      "stem": "What must the patient be protected from during extrication?",
+      "options": [
+        {
+          "text": "Glass and debris only",
+          "rationale": "There is more than that."
+        },
+        {
+          "text": "Glass, debris, noise and cold, including their face and eyes",
+          "rationale": "Correct — glass, debris, noise and cold, including their face and eyes."
+        },
+        {
+          "text": "Noise only",
+          "rationale": "Too narrow."
+        },
+        {
+          "text": "Nothing, if they are covered by a blanket",
+          "rationale": "A blanket alone is not enough."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-02-Q006",
+      "concept_id": "EMT-08-03-02",
+      "style": "recall",
+      "stem": "How is the patient removed?",
+      "options": [
+        {
+          "text": "Through whichever opening was easiest to create",
+          "rationale": "Ease of access does not decide it."
+        },
+        {
+          "text": "Along the path of least harm, in the direction their injuries allow",
+          "rationale": "Correct — along the path of least harm, in the direction their injuries allow."
+        },
+        {
+          "text": "Through the roof in all cases",
+          "rationale": "Not a general rule."
+        },
+        {
+          "text": "Feet first always",
+          "rationale": "Not a general rule."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

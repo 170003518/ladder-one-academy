@@ -34,6 +34,14 @@
         "EMT-08-02-03",
         "EMT-08-02-04"
       ]
+    },
+    {
+      "id": "EMT-08-03",
+      "title": "Access and extrication",
+      "concepts": [
+        "EMT-08-03-01",
+        "EMT-08-03-02"
+      ]
     }
   ],
   "concepts": [
@@ -1541,6 +1549,378 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm positioning guidance, particularly for shock, and securing procedure against your local protocol and your service's equipment."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-01",
+      "title": "Scene hazards, stabilisation and gaining access",
+      "domain": "OPS",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-08-03-02",
+        "EMT-08-01-04",
+        "EMT-01-02-01"
+      ],
+      "key_points": [
+        "Nobody approaches a crashed vehicle until it has been stabilised and the hazards identified",
+        "A vehicle on its wheels can still roll, and a vehicle on its side or roof is inherently unstable",
+        "Stabilisation means the vehicle cannot move while people are working in and around it",
+        "Traffic is the first hazard at nearly every vehicle incident and it does not stop for you",
+        "Fuel, fire and electrical hazards require the engine off and, where trained personnel are present, the battery isolated",
+        "Undeployed airbags can fire late — stay out of their path and do not work in front of an undeployed bag",
+        "Electric and hybrid vehicles carry high-voltage systems and need specific procedures and trained personnel",
+        "Downed power lines make the whole area a no-go until the utility confirms the line is dead",
+        "Simple access means getting to the patient without tools — try the doors, try the windows, try asking",
+        "Complex access requires tools and training, and it belongs to rescue personnel rather than to you"
+      ],
+      "misconceptions": [
+        "Approaching before the vehicle is stabilised",
+        "Working in front of an undeployed airbag",
+        "Assuming a downed line is dead because it is not sparking",
+        "Attempting complex access without training or equipment"
+      ],
+      "exam_favorites": [
+        "Stabilise first",
+        "Undeployed airbags",
+        "Try the door"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Nobody approaches a crashed vehicle until it has been stabilised and the hazards identified. That sentence does the most work in this concept, because the instinct on arrival is to walk straight to the person you can see, and that instinct is what gets responders hurt.\n\nStart with stability, because vehicles move more than people expect. A car sitting apparently normally on its wheels can still roll, rock, or settle — particularly with people climbing in and out of it and with the suspension still loaded. A vehicle on its side or on its roof is inherently unstable and will move if anybody leans on it. Stabilisation means making the vehicle unable to move while people work in and around it, using cribbing, chocks, struts and whatever your rescue crews carry. It happens before, not during.\n\nTraffic is the first hazard at nearly every vehicle incident, and it is covered in the roadway safety concept, but the point bears repeating here: the crash is stationary and the traffic is not. It does not stop for you, and the drivers are looking at the wreck rather than at you.\n\nFuel and fire. Spilled fuel is both a fire hazard and a slip hazard. The engine gets switched off. Where trained personnel are present, the battery is isolated, which removes the ignition source and disables electrical systems. Follow your service's procedure rather than improvising with a battery terminal.\n\nAirbags deserve real attention because they are a hazard people forget. An airbag that has already deployed is spent and harmless apart from residue. An undeployed airbag is a stored explosive charge that can fire late, including after the vehicle's power has been disconnected, because many systems hold a reserve. So do not work in front of an undeployed bag, do not put your body or your head in its path, and be aware that they are not only in the steering wheel — there are side bags, curtain bags and knee bags in modern vehicles.\n\nElectric and hybrid vehicles carry high-voltage systems with cabling that is dangerous to cut and batteries that can reignite hours later. They require specific procedures and trained personnel. Identify the vehicle type early and say so, because it changes the rescue plan.\n\nDowned power lines make the whole area a no-go until the utility confirms the line is dead. A line does not have to spark, move or make noise to be live, and the ground around a downed line can be energised. Nobody approaches, nobody touches the vehicle, and patients inside are told to stay inside — they are safer in the vehicle than stepping out of it.\n\nThen access, which splits in two.\n\nSimple access means reaching the patient without tools. And it starts with the things people skip in the excitement: try the doors, all of them, including the ones that look damaged. Try the windows. Try the tailgate. Ask the patient to unlock it. A surprising number of vehicles that look like they need cutting open have a door that opens perfectly well on the far side.\n\nComplex access requires tools, and it requires training. Cutting, spreading, glass management, roof removal — that work belongs to rescue personnel with the equipment and the training for it. Your job while it happens is the patient, which is the next concept.",
+          "standard": "Approach to a crashed vehicle is prohibited prior to stabilisation and hazard identification. Vehicles retain capacity for movement notwithstanding apparently normal orientation, with rolling, rocking and settling occurring under loaded suspension and occupant movement; vehicles resting on side or roof are inherently unstable. Stabilisation renders the vehicle immobile during operations using cribbing, chocks and struts, and precedes rather than accompanies access. Traffic constitutes the primary hazard at most vehicle incidents. Fuel spillage presents fire and slip hazards; the engine is shut down and, where trained personnel are available, the battery isolated per service procedure to remove ignition sources and disable electrical systems. Deployed airbags are expended and present only residue hazard; undeployed airbags constitute stored explosive charges capable of late deployment including following power disconnection owing to reserve capacitance, and personnel must avoid positioning within their deployment path, noting the presence of steering, side, curtain and knee units in contemporary vehicles. Electric and hybrid vehicles carry high-voltage systems with hazardous cabling and batteries subject to delayed reignition, requiring specific procedures, trained personnel and early identification. Downed conductors render the surrounding area inaccessible pending utility confirmation of de-energisation; conductors may be live without visible or audible indication and surrounding ground may be energised, and vehicle occupants are safer remaining within the vehicle. Simple access comprises patient contact without tools and begins with systematic attempts at all doors including damaged ones, windows, tailgate and patient-operated unlocking. Complex access requires tools and training and is the responsibility of rescue personnel."
+        },
+        "eli_new": {
+          "analogy": "A spent airbag is harmless. An undeployed one is a stored explosive charge that can fire late, even after the power is cut. Do not put your head where it is going to go.",
+          "body": "Try the doors. All of them, including the damaged-looking ones. A surprising number of cars that look like they need cutting open have a perfectly good door on the far side."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the hazards at a vehicle incident and the difference between simple and complex access.",
+          "must_hit": [
+            {
+              "point": "Nobody approaches until the vehicle is stabilised",
+              "accept": [
+                "stabilis",
+                "stabiliz",
+                "before",
+                "approach",
+                "nobody"
+              ]
+            },
+            {
+              "point": "Vehicles on their wheels can still move; on side or roof they are unstable",
+              "accept": [
+                "roll",
+                "rock",
+                "settle",
+                "side",
+                "roof",
+                "unstable"
+              ]
+            },
+            {
+              "point": "Traffic is the first hazard at nearly every vehicle incident",
+              "accept": [
+                "traffic",
+                "first",
+                "hazard",
+                "road",
+                "stationary"
+              ]
+            },
+            {
+              "point": "Engine off and battery isolated by trained personnel",
+              "accept": [
+                "engine",
+                "off",
+                "battery",
+                "isolat",
+                "ignition",
+                "fuel"
+              ]
+            },
+            {
+              "point": "Undeployed airbags can fire late, even after power is cut",
+              "accept": [
+                "airbag",
+                "undeployed",
+                "late",
+                "reserve",
+                "path"
+              ]
+            },
+            {
+              "point": "Electric and hybrid vehicles need specific procedures",
+              "accept": [
+                "electric",
+                "hybrid",
+                "high-voltage",
+                "trained",
+                "identify"
+              ]
+            },
+            {
+              "point": "Downed lines make the area a no-go until the utility confirms",
+              "accept": [
+                "downed",
+                "power line",
+                "utility",
+                "dead",
+                "no-go",
+                "inside"
+              ]
+            },
+            {
+              "point": "Simple access uses no tools; complex access belongs to rescue personnel",
+              "accept": [
+                "simple",
+                "tools",
+                "door",
+                "complex",
+                "rescue",
+                "training"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The far door",
+          "dispatch": "Engine 5 — vehicle collision, one occupant, extrication tools being prepared.",
+          "body": "The driver's door was crushed into the frame and everybody had assumed the obvious about the rest of it.\n\nSomebody walked round and tried the rear passenger door, which opened on the first pull.\n\nThe tools went back on the truck."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm vehicle stabilisation, battery isolation, airbag and alternative-fuel vehicle procedures against your service's policy and training, which govern who performs each step."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-08-03-02",
+      "title": "Extrication roles and protecting the patient",
+      "domain": "OPS",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-08-03-01"
+      ],
+      "related": [
+        "EMT-08-03-01",
+        "EMT-08-02-02",
+        "EMT-06-03-01"
+      ],
+      "key_points": [
+        "Extrication is a team activity with defined roles, and everybody works to one plan",
+        "One person is in command of the incident and one person is responsible for the patient",
+        "Your job during extrication is the patient, not the tools — stay with them and keep working",
+        "Tell the rescue team what the patient's condition needs, because it changes how fast and how they cut",
+        "Rescue needs to know if the patient is deteriorating, because that changes the plan from tidy to quick",
+        "Protect the patient from glass, debris, noise, cold and dust throughout",
+        "Explain what is about to happen before it happens — extrication is frightening and extremely loud",
+        "Maintain manual spinal stabilisation as your protocol directs while the vehicle is worked on",
+        "Reassess frequently, because a trapped patient's condition changes while everyone is busy",
+        "The patient is removed along the path of least harm, in the direction their injuries allow"
+      ],
+      "misconceptions": [
+        "Leaving the patient to help with tools",
+        "Failing to tell rescue that the patient is deteriorating",
+        "Not warning the patient before cutting begins",
+        "Forgetting to reassess during a long extrication"
+      ],
+      "exam_favorites": [
+        "Stay with the patient",
+        "Tell rescue about condition",
+        "Warn before it happens"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Extrication is a team activity with defined roles, and its success depends on everybody working to one plan rather than several good intentions happening simultaneously.\n\nSo there is one person in command of the incident, and one person responsible for the patient. Know which you are. On most EMS calls at a rescue, you are the second.\n\nWhich leads to the most useful instruction in this concept: your job is the patient, not the tools. The pull towards the interesting equipment is real, and it is wrong. Somebody has to be inside or alongside that vehicle managing the airway, controlling bleeding, monitoring, reassuring and reassessing, and that is you. Get in, stay in, and keep working.\n\nThen the communication that makes the whole thing work. Tell the rescue team what the patient's condition needs, because it changes how they do their job. A stable patient in a complicated vehicle allows a methodical, tidy extrication that takes twenty minutes and does minimal further harm. A patient who is deteriorating changes the plan entirely — the team will accept a rougher, faster route out because time has become the dominant factor. They cannot make that judgement from outside the car. You have to tell them, and you have to tell them when it changes.\n\nThat is worth emphasising. Rescue crews will frequently ask for an update, but do not wait to be asked. If the patient's condition worsens, say so immediately and clearly, because the plan needs to change and the people who would change it are outside holding equipment.\n\nProtect the patient physically throughout. Glass, dust and debris from cutting and glass management — cover them, including the face and eyes. Noise, which is genuinely extreme; hearing protection where it is available. Cold, because a patient sitting in a wrecked vehicle with the roof and doors removed is exposed to the weather for a long period. And the general assault of the whole environment.\n\nExplain what is about to happen before it happens. Extrication is terrifying from the inside — enormous noise, the car shaking, glass breaking, metal tearing, and strangers in masks working around you. A patient who has been told that the next noise will be the roof being cut and that it will be very loud copes with it very differently from one who has not. Keep talking throughout, and say when the next loud thing is coming.\n\nMaintain manual spinal stabilisation as your protocol directs while the vehicle is being worked on, because the vehicle moves as it is cut and spread.\n\nReassess frequently. This is where long extrications fail: everyone is busy, the noise makes conversation difficult, the patient is partly hidden, and twenty minutes pass in which nobody has actually rechecked anything. Set yourself a rhythm and keep it.\n\nAnd the patient comes out along the path of least harm — in the direction their injuries allow, through the opening that requires the least movement of them, rather than through whichever hole was easiest to make.",
+          "standard": "Extrication constitutes a coordinated team operation with defined roles executed under a single plan. Command of the incident and responsibility for the patient are separately designated; EMS personnel at rescue incidents typically hold the latter. The patient care role requires continuous patient attendance rather than participation in tool operations, comprising airway management, haemorrhage control, monitoring, reassurance and reassessment. Communication of patient condition to the rescue team is essential, as condition determines extrication method and pace: stable patients permit methodical extrication minimising secondary injury, whereas deterioration justifies accelerated extrication accepting increased movement. Rescue personnel cannot assess condition from outside the vehicle, and deterioration must be communicated immediately and unprompted. Physical protection comprises covering against glass, dust and debris including the face and eyes, hearing protection against extreme noise where available, and thermal protection during prolonged exposure following roof and door removal. Anticipatory explanation is required, as extrication produces extreme noise, vehicle movement, glass breakage and metal deformation; forewarning materially affects patient tolerance, and continuous communication should be maintained. Manual spinal stabilisation is maintained per protocol during vehicle manipulation, as the vehicle moves during cutting and spreading. Frequent reassessment is required, as prolonged extrication with environmental noise and restricted patient access predisposes to unrecognised deterioration. Patient removal follows the path producing least harm, determined by injury pattern and required movement rather than ease of access creation."
+        },
+        "eli_new": {
+          "analogy": "A stable patient buys the rescue team twenty tidy minutes. A deteriorating one buys them nothing, and only you can tell them which situation they are in.",
+          "body": "Your job is the patient, not the tools. The pull towards the interesting equipment is real and it is wrong — get in the car and stay there."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the EMS role during an extrication.",
+          "must_hit": [
+            {
+              "point": "Extrication is a team activity with one plan and defined roles",
+              "accept": [
+                "team",
+                "roles",
+                "plan",
+                "command",
+                "one"
+              ]
+            },
+            {
+              "point": "Your job is the patient, not the tools",
+              "accept": [
+                "patient",
+                "not tools",
+                "stay",
+                "inside",
+                "job"
+              ]
+            },
+            {
+              "point": "Tell rescue what the patient's condition needs",
+              "accept": [
+                "tell",
+                "condition",
+                "rescue",
+                "communicat",
+                "needs"
+              ]
+            },
+            {
+              "point": "Deterioration changes the plan from tidy to quick",
+              "accept": [
+                "deteriorat",
+                "change",
+                "quick",
+                "faster",
+                "plan"
+              ]
+            },
+            {
+              "point": "Protect from glass, debris, noise and cold",
+              "accept": [
+                "glass",
+                "debris",
+                "noise",
+                "cold",
+                "cover",
+                "eyes"
+              ]
+            },
+            {
+              "point": "Explain what is about to happen before it happens",
+              "accept": [
+                "explain",
+                "warn",
+                "before",
+                "loud",
+                "talk"
+              ]
+            },
+            {
+              "point": "Maintain manual spinal stabilisation per protocol",
+              "accept": [
+                "manual",
+                "spinal",
+                "stabilis",
+                "protocol",
+                "moves"
+              ]
+            },
+            {
+              "point": "Reassess frequently and remove along the path of least harm",
+              "accept": [
+                "reassess",
+                "frequent",
+                "path",
+                "least harm",
+                "direction"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Say it now",
+          "dispatch": "Rescue 2 — extrication in progress, roof removal about to begin.",
+          "body": "The plan was the careful one, and it was the right plan for the patient they had ten minutes earlier.\n\nThe person inside the car said, loudly and once, that the patient was going off.\n\nThe plan changed inside twenty seconds, and the patient came out the fast way."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "EMS role during extrication",
+          "steps": [
+            {
+              "text": "KNOW YOUR ROLE — one person commands the incident, ONE PERSON IS RESPONSIBLE FOR THE PATIENT. At a rescue you are usually the second",
+              "critical": true
+            },
+            {
+              "text": "YOUR JOB IS THE PATIENT, NOT THE TOOLS — get in, stay in, keep working",
+              "critical": true
+            },
+            {
+              "text": "MANAGE THE PATIENT: airway, bleeding, monitoring, reassurance",
+              "critical": true
+            },
+            {
+              "text": "MAINTAIN MANUAL SPINAL STABILISATION as your protocol directs — the vehicle MOVES as it is cut",
+              "critical": true
+            },
+            {
+              "text": "TELL RESCUE WHAT THE PATIENT'S CONDITION NEEDS — it decides whether the extrication is tidy or fast",
+              "critical": true
+            },
+            {
+              "text": "IF THE PATIENT DETERIORATES, SAY SO IMMEDIATELY AND CLEARLY. Do NOT wait to be asked",
+              "critical": true,
+              "note": "The people who would change the plan are outside the car holding equipment. They cannot see what you can."
+            },
+            {
+              "text": "COVER THE PATIENT against glass, dust and debris — INCLUDING THE FACE AND EYES",
+              "critical": true
+            },
+            {
+              "text": "Hearing protection where available — the noise is genuinely extreme",
+              "critical": false
+            },
+            {
+              "text": "KEEP THEM WARM — roof and doors off means long exposure to the weather",
+              "critical": true
+            },
+            {
+              "text": "EXPLAIN EACH THING BEFORE IT HAPPENS — 'the next noise is the roof, it will be very loud'",
+              "critical": true
+            },
+            {
+              "text": "REASSESS ON A RHYTHM — long extrications are where twenty minutes pass with nothing rechecked",
+              "critical": true
+            },
+            {
+              "text": "REMOVE ALONG THE PATH OF LEAST HARM — the direction the injuries allow, not the easiest hole to make",
+              "critical": true
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "sequence": 2
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm extrication roles, spinal stabilisation practice and removal decisions against the current text and your local protocol."
     }
   ]
 }
