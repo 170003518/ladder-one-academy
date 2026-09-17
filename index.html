@@ -493,6 +493,56 @@
   .grade--good  { border-left: 3px solid var(--line-blue); }
   .grade--easy  { border-left: 3px solid var(--star-white); }
 
+  /* --- Progress rings ----------------------------------------------------- */
+  .ring { flex: none; display: block; }
+
+  /* --- Ladder module rows ------------------------------------------------- */
+  .modrow { padding: var(--space-3) 0; border-top: 1px solid var(--border); }
+  .modrow__head { display: flex; gap: var(--space-3); align-items: center; }
+  .modrow__t { display: block; font-size: var(--fs-md); text-decoration: none; color: var(--text); }
+  .modrow__t:hover { text-decoration: underline; }
+  .lessonlist { list-style: none; margin: var(--space-3) 0 0 var(--space-6); padding: 0; }
+  .lessonlist li { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-1) 0; font-size: var(--fs-sm); }
+  .lessonlist a { flex: 1; color: var(--text-muted); text-decoration: none; }
+  .lessonlist a:hover { color: var(--text); text-decoration: underline; }
+  .lessonlist .num { color: var(--text-muted); font-size: var(--fs-xs); }
+
+  /* --- Module overview ---------------------------------------------------- */
+  .ov-head { display: flex; gap: var(--space-5); align-items: center; flex-wrap: wrap; margin-bottom: var(--space-5); }
+  .ov-head h1 { margin-bottom: var(--space-2); }
+  .ov-actions { display: flex; gap: var(--space-3); align-items: center; flex-wrap: wrap; margin-top: var(--space-3); }
+  .ov-actions .cta { font-size: var(--fs-sm); padding: var(--space-2) var(--space-4); }
+
+  .ov-key { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center; font-size: var(--fs-xs); color: var(--text-muted); margin-bottom: var(--space-5); }
+  .ov-key__t { font-family: var(--font-display); letter-spacing: var(--tracking-wide); text-transform: uppercase; }
+  .key-item { display: inline-flex; align-items: center; gap: var(--space-1); }
+
+  .ov-lesson { border-top: 1px solid var(--border); padding-top: var(--space-4); margin-bottom: var(--space-5); }
+  .ov-lesson > header { display: flex; gap: var(--space-3); align-items: center; margin-bottom: var(--space-3); }
+  .ov-lesson h2 { font-size: var(--fs-md); margin: 0 0 2px; }
+  .ov-lesson .meta { margin: 0; font-size: var(--fs-xs); }
+
+  .ov-concepts { list-style: none; margin: 0; padding: 0; }
+  .ov-concepts li { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-2) 0; border-top: 1px solid var(--border); flex-wrap: wrap; }
+  .ov-concepts a { flex: 1 1 18rem; display: flex; align-items: center; gap: var(--space-2); text-decoration: none; color: var(--text); font-size: var(--fs-sm); }
+  .ov-concepts a:hover .ov-t { text-decoration: underline; }
+  .ov-concepts li.is-done .ov-t { color: var(--text-muted); }
+  .ov-flags { display: inline-flex; gap: var(--space-2); align-items: center; }
+  .ov-done { font-size: var(--fs-xs); color: var(--line-blue); text-transform: uppercase; letter-spacing: var(--tracking-wide); font-family: var(--font-display); }
+  .ov-focus { font-size: var(--fs-xs); color: var(--ember); text-transform: uppercase; letter-spacing: var(--tracking-wide); font-family: var(--font-display); }
+  .ov-missing { color: var(--ember); font-size: var(--fs-sm); }
+
+  .dots { display: inline-flex; gap: 3px; flex: none; }
+  .dot {
+    width: 1.35rem; height: 1.35rem; border-radius: var(--radius-sm);
+    display: inline-flex; align-items: center; justify-content: center;
+    font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+    border: 1px solid var(--border); color: var(--text-muted); background: var(--surface);
+  }
+  .dot.is-viewed { background: var(--tier-color); border-color: var(--tier-color); color: var(--navy); }
+  .dot.is-unseen { border-style: dashed; }
+  .dot.is-absent { opacity: .3; }
+
   /* --- Dev mode banner ---------------------------------------------------- */
   .devbanner {
     background: var(--signal-yellow); color: var(--navy);

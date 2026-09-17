@@ -5,6 +5,11 @@
    ========================================================================== */
 
 import { TIERS, tierStatus, isAttested, isConceptComplete } from './progress.js';
+import { lessonProgress, ring } from './overview.js';
+
+/* How many modules each tier has in the blueprint, so "3 of 11 built" is a real
+   fraction rather than a hardcoded denominator. From docs/emt-blueprint.md. */
+export const MODULES_IN_TIER = { emt: 11, fire: 17, medic: 10 };
 
 const esc = s => String(s).replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -91,7 +96,7 @@ export function nextIncomplete(state, modules) {
 
 /* --- Render --------------------------------------------------------------- */
 
-function tierCard(tier, status, { modules, progress, attested, progressByModule }) {
+function tierCard(tier, status, { modules, progress, attested, progressByModule, state }) {
   const locked = status === 'locked';
   const stateLabel = status === 'complete' ? 'Complete' : locked ? 'Locked' : 'In progress';
 
@@ -100,18 +105,40 @@ function tierCard(tier, status, { modules, progress, attested, progressByModule 
        <p class="browse">You can still see what is inside — it just will not open yet.</p>`
     : modules.length
       ? `<p class="meta"><span class="num">${progress.done}</span> of <span class="num">${progress.total}</span> concepts complete
-           · <span class="num">${modules.length}</span> of <span class="num">11</span> modules built</p>
+           · <span class="num">${modules.length}</span> of <span class="num">${MODULES_IN_TIER[tier.key] || '?'}</span> modules built</p>
          <div class="bar" role="img" aria-label="${progress.pct}% complete">
            <span style="width:${progress.pct}%"></span>
          </div>
          <ul class="modlist">${modules.map(m => {
            const ex = progressByModule[m.id] || {};
-           return `<li>
-             <span class="num">${String(m.number).padStart(2, '0')}</span> ${esc(m.title)}
-             <em>${m.lessons.length} lessons · ${m.concepts.length} concepts${
-               ex.best_pct != null ? ` · exam best <span class="num">${ex.best_pct}%</span>` : ''}${
-               ex.complete ? ' · <b>passed</b>' : ''}</em>
+           const mp = m.lessons.reduce((a, l) => {
+             const lp = lessonProgress(state, l);
+             return { done: a.done + lp.done, total: a.total + lp.total };
+           }, { done: 0, total: 0 });
+           const mpct = mp.total ? Math.round((mp.done / mp.total) * 100) : 0;
+           return `<li class="modrow">
+             <div class="modrow__head">
+               ${ring(mpct, 40)}
+               <div>
+                 <a class="modrow__t" href="#/module/${encodeURIComponent(m.id)}">
+                   <span class="num">${String(m.number).padStart(2, '0')}</span> ${esc(m.title)}</a>
+                 <em>${m.lessons.length} lessons · ${m.concepts.length} concepts${
+                   ex.best_pct != null ? ` · exam best <span class="num">${ex.best_pct}%</span>` : ''}${
+                   ex.complete ? ' · <b>passed</b>' : ''}</em>
+               </div>
+             </div>
+             <ul class="lessonlist">
+               ${m.lessons.map(l => {
+                 const lp = lessonProgress(state, l);
+                 return `<li>
+                   ${ring(lp.pct, 26)}
+                   <a href="#/lesson/${encodeURIComponent(l.concepts[0])}">${esc(l.title)}</a>
+                   <span class="num">${lp.done}/${lp.total}</span>
+                 </li>`;
+               }).join('')}
+             </ul>
              <span class="modlinks">
+               <a href="#/module/${encodeURIComponent(m.id)}">Overview</a>
                <a href="#/exam/${encodeURIComponent(m.id)}">Module exam</a>
                <a href="#/print/${encodeURIComponent(m.id)}">Print a card</a>
                <a href="#/deck/${encodeURIComponent(m.id)}">Study the deck</a>
@@ -152,7 +179,7 @@ export function renderLadder(state, { modulesByTier, loadError }) {
     const p = tierProgress(state, mods);
     // A tier is only complete when it has content AND all of it is done.
     // With one stub module built, EMT can never be complete yet — correct.
-    return mods.length > 0 && p.total > 0 && p.done === p.total && mods.length >= 11;
+    return mods.length > 0 && p.total > 0 && p.done === p.total && mods.length >= (MODULES_IN_TIER[key] || Infinity);
   };
 
   for (const tier of TIERS) {
@@ -194,7 +221,8 @@ export function renderLadder(state, { modulesByTier, loadError }) {
         modules: modulesByTier[t.key] || [],
         progress: progressByTier[t.key],
         attested: isAttested(state, t.key),
-        progressByModule: state.modules || {}
+        progressByModule: state.modules || {},
+        state
       })).join('')}
     </div>
   </section>`;

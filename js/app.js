@@ -23,6 +23,7 @@ import * as see from './see.js';
 import * as sort from './sort.js';
 import * as deckprint from './deckprint.js';
 import * as deck from './deck.js';
+import { renderOverview } from './overview.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -161,6 +162,16 @@ async function route() {
     return done();
   }
 
+  if (parts[0] === 'module' && parts[1]) {
+    exam.abandon(); quiz.abandon();
+    const moduleId = decodeURIComponent(parts[1]);
+    const mod = findModule(moduleId);
+    const questions = await loadQuestions(moduleId);
+    ctx = { kind: 'overview', module: mod, questions };
+    app.el.innerHTML = shell(renderOverview(mod, questions));
+    return done();
+  }
+
   if (parts[0] === 'deck') {
     exam.abandon(); quiz.abandon();
     const moduleId = parts[1] ? decodeURIComponent(parts[1]) : 'EMT-02';
@@ -274,6 +285,7 @@ function refresh() {
   if (!ctx) return route();
   if (ctx.kind === 'exam') { app.el.innerHTML = shell(exam.renderExam(ctx.module, ctx.questions)); return; }
   if (ctx.kind === 'print') return route();
+  if (ctx.kind === 'overview') { app.el.innerHTML = shell(renderOverview(ctx.module, ctx.questions)); return; }
   if (ctx.kind === 'deck') { app.el.innerHTML = shell(deck.renderDeck(ctx.module, ctx.deck)); return; }
   if (ctx.kind === 'deckprint') { app.el.innerHTML = shell(deckprint.renderDeckPrint(ctx.module, ctx.deck)); return; }
   ctx.depth = app.depth;

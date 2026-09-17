@@ -224,3 +224,11 @@ Values supplied by AJ and filled into the concepts, cards and questions that had
 - **Print-safe throughout**: every distinction carries a label as well as a colour, and where a colour does carry meaning the diagram says so in a key — the chain-of-survival link 3 is blue *and* captioned as the converting link; the shock graph's dashed blue line is labelled as blood pressure.
 - **The primary assessment chart uses dashed outlines for rules rather than steps.** X for catastrophic bleeding and "fix before you move on" are both properties of the sequence, not stages within it, and the key says so.
 - Alt text runs 541–889 characters, comfortably inside the 1000 cap raised for exactly this purpose.
+
+## 2026-09-17 — Ladder rings and the Module Overview screen
+
+- The "N of 11 modules built" denominator now comes from `MODULES_IN_TIER` in `ladder.js` (EMT 11, Fire 17, Paramedic 10, from the blueprint) rather than a literal 11, so the Fire and Paramedic rungs will read correctly when they exist. Tier completion uses the same constant.
+- Each built module on the Ladder now shows a completion ring, its lessons each with their own ring and an `n/total` count, and links to Overview, Module exam, Study the deck and Print the deck.
+- **New Module Overview screen** at `#/module/<moduleId>`: overall ring, per-lesson rings, and every concept listed with **eight mode dots**. Each dot is one of three states — viewed, written but not yet viewed, or not written at all — with a key above. That three-state distinction is the point: a percentage cannot tell you *which* mode you have not been through, and the whole eight-mode design depends on being able to see that.
+- The dots also surface `focus` and `high_yield` flags per concept, so the Focus List is visible somewhere other than at the end of a quiz.
+- Rings are a single SVG circle with a `stroke-dashoffset`, shared by `ladder.js` and `overview.js` rather than duplicated.
