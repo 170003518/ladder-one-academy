@@ -95,6 +95,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-01-01-Q004",
+      "concept_id": "EMT-04-01-01",
+      "style": "recall",
+      "stem": "What do the heart valves do?",
+      "options": [
+        {
+          "text": "Regulate the heart rate",
+          "rationale": "They have no electrical role."
+        },
+        {
+          "text": "Keep blood moving in one direction only",
+          "rationale": "Correct — keep blood moving in one direction only."
+        },
+        {
+          "text": "Supply the heart muscle with blood",
+          "rationale": "That is the coronary circulation."
+        },
+        {
+          "text": "Generate the pumping pressure",
+          "rationale": "The muscle does that."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-01-Q005",
+      "concept_id": "EMT-04-01-01",
+      "style": "application",
+      "stem": "Which side of the heart receives oxygen-poor blood from the body?",
+      "options": [
+        {
+          "text": "The left side",
+          "rationale": "The left side receives oxygen-rich blood from the lungs."
+        },
+        {
+          "text": "The right side",
+          "rationale": "Correct — and sends it to the lungs."
+        },
+        {
+          "text": "Both sides equally",
+          "rationale": "They handle different circulations."
+        },
+        {
+          "text": "Neither — blood is oxygenated in the heart",
+          "rationale": "Oxygenation happens in the lungs."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-01-02-Q001",
       "concept_id": "EMT-04-01-02",
       "style": "recall",
@@ -179,6 +239,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-02-Q004",
+      "concept_id": "EMT-04-01-02",
+      "style": "recall",
+      "stem": "What happens if the sinoatrial node fails?",
+      "options": [
+        {
+          "text": "The heart stops immediately",
+          "rationale": "Lower sites can take over."
+        },
+        {
+          "text": "Lower parts of the conduction system can take over, at slower rates",
+          "rationale": "Correct — lower parts of the conduction system can take over, at slower rates."
+        },
+        {
+          "text": "The brain takes over the rhythm",
+          "rationale": "The heart does not need a nerve from the brain."
+        },
+        {
+          "text": "The atria and ventricles beat independently forever",
+          "rationale": "Not the described consequence."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-02-Q005",
+      "concept_id": "EMT-04-01-02",
+      "style": "application",
+      "stem": "Does the heart need a nerve from the brain to beat?",
+      "options": [
+        {
+          "text": "Yes, the brainstem drives each beat",
+          "rationale": "The heart generates its own impulses."
+        },
+        {
+          "text": "No — it generates its own electrical impulses",
+          "rationale": "Correct — no — it generates its own electrical impulses."
+        },
+        {
+          "text": "Only during exercise",
+          "rationale": "Not the case."
+        },
+        {
+          "text": "Only in an unconscious patient",
+          "rationale": "Not the case."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -305,6 +425,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-01-03-Q005",
+      "concept_id": "EMT-04-01-03",
+      "style": "recall",
+      "stem": "What does afterload describe?",
+      "options": [
+        {
+          "text": "How full the ventricle is before it contracts",
+          "rationale": "That is preload."
+        },
+        {
+          "text": "The resistance the ventricle has to push against",
+          "rationale": "Correct — the resistance the ventricle has to push against."
+        },
+        {
+          "text": "The volume leaving with each beat",
+          "rationale": "That is stroke volume."
+        },
+        {
+          "text": "The total output per minute",
+          "rationale": "That is cardiac output."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-01-04-Q001",
       "concept_id": "EMT-04-01-04",
       "style": "recall",
@@ -389,6 +539,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-04-Q004",
+      "concept_id": "EMT-04-01-04",
+      "style": "application",
+      "stem": "Why does anything that shortens the time between beats reduce coronary filling?",
+      "options": [
+        {
+          "text": "The coronary arteries narrow at speed",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "The coronary arteries fill mainly between beats rather than during the squeeze",
+          "rationale": "Correct — the coronary arteries fill mainly between beats rather than during the squeeze."
+        },
+        {
+          "text": "Blood becomes thicker at high rates",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "The aorta closes at high rates",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-01-04-Q005",
+      "concept_id": "EMT-04-01-04",
+      "style": "recall",
+      "stem": "Where does the heart muscle get its oxygen?",
+      "options": [
+        {
+          "text": "From the blood inside its chambers",
+          "rationale": "It does not take oxygen from there."
+        },
+        {
+          "text": "From its own coronary arteries",
+          "rationale": "Correct — from its own coronary arteries."
+        },
+        {
+          "text": "From the pulmonary veins directly",
+          "rationale": "Not the supply."
+        },
+        {
+          "text": "From the pericardial fluid",
+          "rationale": "Not a source of oxygen."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -485,6 +695,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-02-01-Q004",
+      "concept_id": "EMT-04-02-01",
+      "style": "recall",
+      "stem": "What is angina?",
+      "options": [
+        {
+          "text": "Muscle dying from a complete blockage",
+          "rationale": "That is infarction."
+        },
+        {
+          "text": "Demand outrunning supply, usually on exertion and relieved by rest",
+          "rationale": "Correct — demand outrunning supply, usually on exertion and relieved by rest."
+        },
+        {
+          "text": "Inflammation of the heart lining",
+          "rationale": "Not the definition."
+        },
+        {
+          "text": "An irregular heart rhythm",
+          "rationale": "Not the definition."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-01-Q005",
+      "concept_id": "EMT-04-02-01",
+      "style": "application",
+      "stem": "Which associated findings support an acute coronary syndrome?",
+      "options": [
+        {
+          "text": "Fever and a productive cough",
+          "rationale": "Those suggest infection."
+        },
+        {
+          "text": "Shortness of breath, sweating, nausea and a feeling of impending doom",
+          "rationale": "Correct — shortness of breath, sweating, nausea and a feeling of impending doom."
+        },
+        {
+          "text": "A sore, swollen calf",
+          "rationale": "That suggests an embolic source."
+        },
+        {
+          "text": "Unilateral absent breath sounds",
+          "rationale": "That suggests a pneumothorax."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-02-02-Q001",
       "concept_id": "EMT-04-02-02",
       "style": "recall",
@@ -569,6 +839,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-02-Q004",
+      "concept_id": "EMT-04-02-02",
+      "style": "application",
+      "stem": "What should you do when a high-risk patient is unwell in a way you cannot explain?",
+      "options": [
+        {
+          "text": "Reassure and monitor at home",
+          "rationale": "Not appropriate."
+        },
+        {
+          "text": "Consider a cardiac cause",
+          "rationale": "Correct — consider a cardiac cause."
+        },
+        {
+          "text": "Assume a psychiatric cause",
+          "rationale": "Never the first assumption."
+        },
+        {
+          "text": "Wait for chest pain to develop",
+          "rationale": "Chest pain may never develop."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-02-Q005",
+      "concept_id": "EMT-04-02-02",
+      "style": "recall",
+      "stem": "Which presentations count as atypical for a heart attack?",
+      "options": [
+        {
+          "text": "Crushing central chest pain radiating to the arm",
+          "rationale": "That is the classic presentation."
+        },
+        {
+          "text": "Shortness of breath alone, weakness, nausea, back or jaw discomfort, or simply feeling unwell",
+          "rationale": "Correct — shortness of breath alone, weakness, nausea, back or jaw discomfort, or simply feeling unwell."
+        },
+        {
+          "text": "Sharp pain worse on inspiration only",
+          "rationale": "Not the listed atypical set."
+        },
+        {
+          "text": "Pain reproducible on palpation",
+          "rationale": "Not the listed atypical set."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -665,6 +995,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-02-03-Q004",
+      "concept_id": "EMT-04-02-03",
+      "style": "application",
+      "stem": "Why do left- and right-sided heart failure commonly occur together?",
+      "options": [
+        {
+          "text": "They have the same cause in all patients",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Left-sided failure eventually strains the right",
+          "rationale": "Correct — left-sided failure eventually strains the right."
+        },
+        {
+          "text": "Both sides share one muscle",
+          "rationale": "They are distinct chambers."
+        },
+        {
+          "text": "Treatment causes the other to fail",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-03-Q005",
+      "concept_id": "EMT-04-02-03",
+      "style": "application",
+      "stem": "A heart failure patient says they now sleep sitting in a chair. Why does lying flat make them worse?",
+      "options": [
+        {
+          "text": "The chest wall is compressed when supine",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "Lying flat increases congestion in the lungs, so they cannot breathe",
+          "rationale": "Correct — lying flat increases congestion in the lungs, so they cannot breathe."
+        },
+        {
+          "text": "It reduces the heart rate",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It increases the work of the right side only",
+          "rationale": "Not the described mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-02-04-Q001",
       "concept_id": "EMT-04-02-04",
       "style": "recall",
@@ -749,6 +1139,96 @@
       ],
       "correct_index": 0,
       "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-04-Q004",
+      "concept_id": "EMT-04-02-04",
+      "style": "application",
+      "stem": "Which intervention most helps an acutely worsening heart failure patient, per protocol?",
+      "options": [
+        {
+          "text": "Lying them flat",
+          "rationale": "That worsens their breathing."
+        },
+        {
+          "text": "Sitting them up and, per protocol, CPAP",
+          "rationale": "Correct — sitting them up and, per protocol, CPAP."
+        },
+        {
+          "text": "Fluid administration",
+          "rationale": "Contraindicated in congestion."
+        },
+        {
+          "text": "A nebulised bronchodilator",
+          "rationale": "Not the intervention that changes these patients."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-04-Q005",
+      "concept_id": "EMT-04-02-04",
+      "style": "recall",
+      "stem": "What most often causes cardiogenic shock?",
+      "options": [
+        {
+          "text": "Severe blood loss",
+          "rationale": "That produces hypovolaemic shock."
+        },
+        {
+          "text": "A large myocardial infarction",
+          "rationale": "Correct — a large myocardial infarction."
+        },
+        {
+          "text": "An allergic reaction",
+          "rationale": "That is anaphylactic shock."
+        },
+        {
+          "text": "Spinal cord injury",
+          "rationale": "That is neurogenic shock."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-04-Q006",
+      "concept_id": "EMT-04-02-04",
+      "style": "application",
+      "stem": "What is the EMT contribution in cardiogenic shock?",
+      "options": [
+        {
+          "text": "Fluid resuscitation",
+          "rationale": "Fluid can make it worse."
+        },
+        {
+          "text": "Oxygen, position, rapid transport and early advanced care",
+          "rationale": "Correct — oxygen, position, rapid transport and early advanced care."
+        },
+        {
+          "text": "Lowering the blood pressure",
+          "rationale": "Not an EMT action."
+        },
+        {
+          "text": "Delaying transport until stable",
+          "rationale": "They will not stabilise on scene."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -845,6 +1325,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-02-05-Q004",
+      "concept_id": "EMT-04-02-05",
+      "style": "application",
+      "stem": "Should an EMT try to lower a very high blood pressure in the field?",
+      "options": [
+        {
+          "text": "Yes, if the reading is extreme",
+          "rationale": "Not an EMT action."
+        },
+        {
+          "text": "No",
+          "rationale": "Correct — no."
+        },
+        {
+          "text": "Only with medical direction",
+          "rationale": "Not within EMT scope."
+        },
+        {
+          "text": "Only if the patient has a headache",
+          "rationale": "Symptoms do not change the scope."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-05-Q005",
+      "concept_id": "EMT-04-02-05",
+      "style": "recall",
+      "stem": "What should be reported to the receiving hospital?",
+      "options": [
+        {
+          "text": "The blood pressure number alone",
+          "rationale": "The findings matter as much."
+        },
+        {
+          "text": "The number and the findings together",
+          "rationale": "Correct — the number and the findings together."
+        },
+        {
+          "text": "The findings alone",
+          "rationale": "The number matters too."
+        },
+        {
+          "text": "Only if the patient is symptomatic",
+          "rationale": "Report regardless."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-02-06-Q001",
       "concept_id": "EMT-04-02-06",
       "style": "recall",
@@ -935,6 +1475,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-02-06-Q004",
+      "concept_id": "EMT-04-02-06",
+      "style": "recall",
+      "stem": "What is the difference between an aneurysm and a dissection?",
+      "options": [
+        {
+          "text": "An aneurysm is a tear; a dissection is a bulge",
+          "rationale": "The definitions are reversed."
+        },
+        {
+          "text": "An aneurysm is a weakened, bulging section; a dissection is a tear allowing blood between the layers",
+          "rationale": "Correct — an aneurysm is a weakened, bulging section; a dissection is a tear allowing blood between the layers."
+        },
+        {
+          "text": "They are the same thing",
+          "rationale": "They are distinct."
+        },
+        {
+          "text": "An aneurysm only occurs in the abdomen",
+          "rationale": "It can occur elsewhere."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-06-Q005",
+      "concept_id": "EMT-04-02-06",
+      "style": "application",
+      "stem": "How should a patient with a suspected aortic dissection be handled?",
+      "options": [
+        {
+          "text": "With repeated deep palpation to localise it",
+          "rationale": "Never in suspected aneurysm or dissection."
+        },
+        {
+          "text": "Gently, with recognition and rapid transport",
+          "rationale": "Correct — gently, with recognition and rapid transport."
+        },
+        {
+          "text": "With fluid resuscitation on scene",
+          "rationale": "Not an EMT action here."
+        },
+        {
+          "text": "With prolonged on-scene assessment",
+          "rationale": "Time matters."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-02-07-Q001",
       "concept_id": "EMT-04-02-07",
       "style": "recall",
@@ -1019,6 +1619,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-07-Q004",
+      "concept_id": "EMT-04-02-07",
+      "style": "application",
+      "stem": "Which interventions actually change outcome in cardiac arrest?",
+      "options": [
+        {
+          "text": "Advanced airway placement above all",
+          "rationale": "Not the interventions that change outcome most."
+        },
+        {
+          "text": "Early recognition, early compressions and early defibrillation",
+          "rationale": "Correct — early recognition, early compressions and early defibrillation."
+        },
+        {
+          "text": "Rapid transport above all",
+          "rationale": "Not the main determinant."
+        },
+        {
+          "text": "Medication administration",
+          "rationale": "Not the EMT-level determinant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-02-07-Q005",
+      "concept_id": "EMT-04-02-07",
+      "style": "recall",
+      "stem": "Which other causes of cardiac arrest should be considered besides a primary cardiac event?",
+      "options": [
+        {
+          "text": "Only respiratory failure",
+          "rationale": "There are several."
+        },
+        {
+          "text": "Respiratory failure, severe blood loss, electrolyte problems, drowning, electrocution, overdose and hypothermia",
+          "rationale": "Correct — respiratory failure, severe blood loss, electrolyte problems, drowning, electrocution, overdose and hypothermia."
+        },
+        {
+          "text": "Only drowning and electrocution",
+          "rationale": "Too narrow."
+        },
+        {
+          "text": "Only overdose",
+          "rationale": "Too narrow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1295,6 +1955,96 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-03-01-Q003",
+      "concept_id": "EMT-04-03-01",
+      "style": "recall",
+      "stem": "What is the first link in the chain of survival?",
+      "options": [
+        {
+          "text": "Early defibrillation",
+          "rationale": "That is a later link."
+        },
+        {
+          "text": "Recognition of arrest and activation of the emergency response",
+          "rationale": "Correct — recognition of arrest and activation of the emergency response."
+        },
+        {
+          "text": "High-quality CPR",
+          "rationale": "That is the second link."
+        },
+        {
+          "text": "Advanced care",
+          "rationale": "That comes later."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-01-Q004",
+      "concept_id": "EMT-04-03-01",
+      "style": "application",
+      "stem": "Why does each link lose value if the ones before it are missing?",
+      "options": [
+        {
+          "text": "The links are scored separately",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "The chain is a sequence — defibrillation works poorly on a heart that has had no compressions",
+          "rationale": "Correct — the chain is a sequence — defibrillation works poorly on a heart that has had no compressions."
+        },
+        {
+          "text": "Later links are less important",
+          "rationale": "They are not less important."
+        },
+        {
+          "text": "Only the first link matters",
+          "rationale": "All links matter."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-01-Q005",
+      "concept_id": "EMT-04-03-01",
+      "style": "recall",
+      "stem": "Which link is now recognised as part of the chain rather than its end?",
+      "options": [
+        {
+          "text": "Defibrillation",
+          "rationale": "An established middle link."
+        },
+        {
+          "text": "Recovery",
+          "rationale": "Correct — recovery."
+        },
+        {
+          "text": "Transport",
+          "rationale": "Not a named link."
+        },
+        {
+          "text": "Documentation",
+          "rationale": "Not a link."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-03-02-Q001",
       "concept_id": "EMT-04-03-02",
       "style": "recall",
@@ -1409,6 +2159,36 @@
       ],
       "correct_index": 0,
       "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-02-Q005",
+      "concept_id": "EMT-04-03-02",
+      "style": "recall",
+      "stem": "How often should the person compressing be swapped?",
+      "options": [
+        {
+          "text": "Every 30 seconds",
+          "rationale": "More often than needed."
+        },
+        {
+          "text": "About every 2 minutes",
+          "rationale": "Correct — quality falls as they tire."
+        },
+        {
+          "text": "Every 5 minutes",
+          "rationale": "Quality falls before then."
+        },
+        {
+          "text": "Only when they ask",
+          "rationale": "Fatigue is not reliably self-recognised."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1535,6 +2315,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-03-03-Q005",
+      "concept_id": "EMT-04-03-03",
+      "style": "recall",
+      "stem": "What is the compression depth for a child?",
+      "options": [
+        {
+          "text": "About 1.5 inches (4 cm)",
+          "rationale": "That is the infant depth."
+        },
+        {
+          "text": "About 2 inches (5 cm), or at least one third of the chest depth",
+          "rationale": "Correct — about 2 inches (5 cm), or at least one third of the chest depth."
+        },
+        {
+          "text": "At least 2.4 inches (6 cm)",
+          "rationale": "Above the adult maximum."
+        },
+        {
+          "text": "Half the chest depth",
+          "rationale": "Not the taught figure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-03-04-Q001",
       "concept_id": "EMT-04-03-04",
       "style": "recall",
@@ -1655,6 +2465,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-03-04-Q005",
+      "concept_id": "EMT-04-03-04",
+      "style": "application",
+      "stem": "A medication patch sits where a pad needs to go. What do you do?",
+      "options": [
+        {
+          "text": "Place the pad on top of it",
+          "rationale": "Remove the patch first."
+        },
+        {
+          "text": "Remove the patch and place the pad",
+          "rationale": "Correct — remove the patch and place the pad."
+        },
+        {
+          "text": "Place the pad elsewhere and hope",
+          "rationale": "Remove the patch."
+        },
+        {
+          "text": "Withhold defibrillation",
+          "rationale": "Never withhold defibrillation for this."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-03-05-Q001",
       "concept_id": "EMT-04-03-05",
       "style": "recall",
@@ -1715,6 +2555,96 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-03-05-Q003",
+      "concept_id": "EMT-04-03-05",
+      "style": "recall",
+      "stem": "What does high-performance CPR treat resuscitation as?",
+      "options": [
+        {
+          "text": "A set of individual tasks",
+          "rationale": "That is what it moves away from."
+        },
+        {
+          "text": "A choreographed team activity with defined roles",
+          "rationale": "Correct — a choreographed team activity with defined roles."
+        },
+        {
+          "text": "A single-provider skill",
+          "rationale": "Not the model."
+        },
+        {
+          "text": "An advanced-provider activity",
+          "rationale": "It applies at every level."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-05-Q004",
+      "concept_id": "EMT-04-03-05",
+      "style": "application",
+      "stem": "Why are roles defined before the call rather than on scene?",
+      "options": [
+        {
+          "text": "It saves paperwork",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "So nobody negotiates roles during the resuscitation",
+          "rationale": "Correct — so nobody negotiates roles during the resuscitation."
+        },
+        {
+          "text": "It satisfies training requirements",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Roles cannot be changed later",
+          "rationale": "They can be adapted."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-05-Q005",
+      "concept_id": "EMT-04-03-05",
+      "style": "application",
+      "stem": "How is CPR quality established in a high-performance team?",
+      "options": [
+        {
+          "text": "By the team's confidence in itself",
+          "rationale": "Quality is measured, not assumed."
+        },
+        {
+          "text": "It is measured, using feedback devices where available",
+          "rationale": "Correct — it is measured, using feedback devices where available."
+        },
+        {
+          "text": "By the outcome of the call",
+          "rationale": "Outcome is not a quality measure."
+        },
+        {
+          "text": "By the team leader's impression",
+          "rationale": "Impression is not measurement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-03-06-Q001",
       "concept_id": "EMT-04-03-06",
       "style": "recall",
@@ -1765,6 +2695,96 @@
         {
           "text": "It prevents defibrillation",
           "rationale": "Defibrillation continues with a device in place."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-06-Q003",
+      "concept_id": "EMT-04-03-06",
+      "style": "recall",
+      "stem": "What do mechanical CPR devices deliver?",
+      "options": [
+        {
+          "text": "Ventilations at a set rate",
+          "rationale": "They deliver compressions."
+        },
+        {
+          "text": "Chest compressions automatically at a set rate and depth",
+          "rationale": "Correct — chest compressions automatically at a set rate and depth."
+        },
+        {
+          "text": "Defibrillation shocks",
+          "rationale": "They do not defibrillate."
+        },
+        {
+          "text": "Medication",
+          "rationale": "They do not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-06-Q004",
+      "concept_id": "EMT-04-03-06",
+      "style": "application",
+      "stem": "Where are mechanical devices particularly useful?",
+      "options": [
+        {
+          "text": "On short, uncomplicated resuscitations",
+          "rationale": "Their advantage shows elsewhere."
+        },
+        {
+          "text": "During transport, on stairs, and in prolonged resuscitation",
+          "rationale": "Correct — during transport, on stairs, and in prolonged resuscitation."
+        },
+        {
+          "text": "In paediatric arrest specifically",
+          "rationale": "Not their particular niche."
+        },
+        {
+          "text": "Only in hospital",
+          "rationale": "They are prehospital devices too."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-06-Q005",
+      "concept_id": "EMT-04-03-06",
+      "style": "recall",
+      "stem": "What governs the use of mechanical CPR devices?",
+      "options": [
+        {
+          "text": "The manufacturer's preference",
+          "rationale": "Not what governs use."
+        },
+        {
+          "text": "Local protocol and training",
+          "rationale": "Correct — local protocol and training."
+        },
+        {
+          "text": "The team leader's discretion alone",
+          "rationale": "Protocol governs."
+        },
+        {
+          "text": "National law in all cases",
+          "rationale": "Protocol and training govern."
         }
       ],
       "correct_index": 1,
@@ -1865,6 +2885,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-03-07-Q004",
+      "concept_id": "EMT-04-03-07",
+      "style": "application",
+      "stem": "Why should the team stay in place after ROSC?",
+      "options": [
+        {
+          "text": "To complete documentation together",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "Re-arrest is common in the first minutes",
+          "rationale": "Correct — re-arrest is common in the first minutes."
+        },
+        {
+          "text": "To reassure the family",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "Because transport requires everyone",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-07-Q005",
+      "concept_id": "EMT-04-03-07",
+      "style": "recall",
+      "stem": "What does ROSC mean for the call?",
+      "options": [
+        {
+          "text": "The call is effectively over",
+          "rationale": "ROSC is the start of the next problem."
+        },
+        {
+          "text": "The patient is still critically unwell and needs immediate reassessment",
+          "rationale": "Correct — the patient is still critically unwell and needs immediate reassessment."
+        },
+        {
+          "text": "Monitoring can be reduced",
+          "rationale": "Monitoring continues."
+        },
+        {
+          "text": "Transport becomes non-urgent",
+          "rationale": "It remains urgent."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-03-08-Q001",
       "concept_id": "EMT-04-03-08",
       "style": "recall",
@@ -1949,6 +3029,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-08-Q004",
+      "concept_id": "EMT-04-03-08",
+      "style": "application",
+      "stem": "Why does an unclear document mean you begin resuscitation?",
+      "options": [
+        {
+          "text": "It protects you legally",
+          "rationale": "The reasoning is clinical."
+        },
+        {
+          "text": "Starting is reversible; not starting is not",
+          "rationale": "Correct — starting is reversible; not starting is not."
+        },
+        {
+          "text": "Documents are usually invalid",
+          "rationale": "Not the reasoning."
+        },
+        {
+          "text": "The family prefers it",
+          "rationale": "Not the basis for the decision."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-08-Q005",
+      "concept_id": "EMT-04-03-08",
+      "style": "recall",
+      "stem": "Which findings mean resuscitation is not started?",
+      "options": [
+        {
+          "text": "Absent pulse and absent breathing",
+          "rationale": "Those indicate arrest, and resuscitation begins."
+        },
+        {
+          "text": "Obvious signs of irreversible death such as decomposition, rigor mortis or injuries incompatible with life",
+          "rationale": "Correct — obvious signs of irreversible death such as decomposition, rigor mortis or injuries incompatible with life."
+        },
+        {
+          "text": "A family member's request alone",
+          "rationale": "Not sufficient."
+        },
+        {
+          "text": "A long downtime reported by bystanders",
+          "rationale": "Not on its own."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2045,6 +3185,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-03-09-Q004",
+      "concept_id": "EMT-04-03-09",
+      "style": "application",
+      "stem": "How does trauma arrest from major blood loss change management?",
+      "options": [
+        {
+          "text": "Compressions alone are sufficient",
+          "rationale": "Compressions move an empty circulation."
+        },
+        {
+          "text": "The bleeding must be controlled and transport must be rapid",
+          "rationale": "Correct — the bleeding must be controlled and transport must be rapid."
+        },
+        {
+          "text": "Ventilation becomes the only priority",
+          "rationale": "Bleeding control is the priority."
+        },
+        {
+          "text": "Resuscitation is not attempted",
+          "rationale": "Resuscitation is attempted."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-09-Q005",
+      "concept_id": "EMT-04-03-09",
+      "style": "application",
+      "stem": "What is the first consideration in an electrocution arrest?",
+      "options": [
+        {
+          "text": "Beginning compressions immediately",
+          "rationale": "Scene safety comes first."
+        },
+        {
+          "text": "Making the scene safe, because the rescuer is at risk",
+          "rationale": "Correct — making the scene safe, because the rescuer is at risk."
+        },
+        {
+          "text": "Applying the AED",
+          "rationale": "After the scene is safe."
+        },
+        {
+          "text": "Checking for entry and exit wounds",
+          "rationale": "Later in the assessment."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-04-01-Q001",
       "concept_id": "EMT-04-04-01",
       "style": "recall",
@@ -2129,6 +3329,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-01-Q004",
+      "concept_id": "EMT-04-04-01",
+      "style": "recall",
+      "stem": "What is irreversible shock?",
+      "options": [
+        {
+          "text": "Shock with a blood pressure below a set value",
+          "rationale": "Not the definition."
+        },
+        {
+          "text": "Damage that persists even if perfusion is restored",
+          "rationale": "Correct — damage that persists even if perfusion is restored."
+        },
+        {
+          "text": "Shock that does not respond to fluid",
+          "rationale": "Not the definition."
+        },
+        {
+          "text": "Shock in a patient with no pulse",
+          "rationale": "Not the definition."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-01-Q005",
+      "concept_id": "EMT-04-04-01",
+      "style": "application",
+      "stem": "Which stage of shock is the one worth learning to recognise?",
+      "options": [
+        {
+          "text": "Decompensated",
+          "rationale": "Recognition there is late."
+        },
+        {
+          "text": "Compensated — because that is where intervention still works",
+          "rationale": "Correct — compensated — because that is where intervention still works."
+        },
+        {
+          "text": "Irreversible",
+          "rationale": "Far too late."
+        },
+        {
+          "text": "All are equally recognisable",
+          "rationale": "Compensated is the one that gets missed."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2225,6 +3485,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-04-02-Q004",
+      "concept_id": "EMT-04-04-02",
+      "style": "recall",
+      "stem": "Which non-bleeding causes produce hypovolaemic shock?",
+      "options": [
+        {
+          "text": "Infection and allergy",
+          "rationale": "Those are distributive causes."
+        },
+        {
+          "text": "Vomiting, diarrhoea, burns and heat illness",
+          "rationale": "Correct — vomiting, diarrhoea, burns and heat illness."
+        },
+        {
+          "text": "Spinal cord injury",
+          "rationale": "That is neurogenic."
+        },
+        {
+          "text": "A large heart attack",
+          "rationale": "That is cardiogenic."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-02-Q005",
+      "concept_id": "EMT-04-04-02",
+      "style": "application",
+      "stem": "What is the definitive treatment for shock from bleeding?",
+      "options": [
+        {
+          "text": "Fluid replacement in the field",
+          "rationale": "Not definitive."
+        },
+        {
+          "text": "Surgery — and time to it is what you influence most",
+          "rationale": "Correct — surgery — and time to it is what you influence most."
+        },
+        {
+          "text": "Oxygen administration",
+          "rationale": "Supportive, not definitive."
+        },
+        {
+          "text": "Positioning",
+          "rationale": "Supportive, not definitive."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-04-03-Q001",
       "concept_id": "EMT-04-04-03",
       "style": "recall",
@@ -2279,6 +3599,96 @@
       ],
       "correct_index": 0,
       "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-03-Q003",
+      "concept_id": "EMT-04-04-03",
+      "style": "application",
+      "stem": "How should a cardiogenic shock patient with congested lungs be positioned?",
+      "options": [
+        {
+          "text": "Flat, to support blood pressure",
+          "rationale": "That worsens the breathing."
+        },
+        {
+          "text": "Upright",
+          "rationale": "Correct — breathing overrides the usual shock positioning."
+        },
+        {
+          "text": "Head down",
+          "rationale": "Contraindicated here."
+        },
+        {
+          "text": "On the left side",
+          "rationale": "Not the described position."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-03-Q004",
+      "concept_id": "EMT-04-04-03",
+      "style": "recall",
+      "stem": "Besides a large heart attack, what else causes cardiogenic shock?",
+      "options": [
+        {
+          "text": "Major blood loss",
+          "rationale": "That is hypovolaemic."
+        },
+        {
+          "text": "Arrhythmias and end-stage heart failure",
+          "rationale": "Correct — arrhythmias and end-stage heart failure."
+        },
+        {
+          "text": "Spinal cord injury",
+          "rationale": "That is neurogenic."
+        },
+        {
+          "text": "Severe infection",
+          "rationale": "That is septic."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-03-Q005",
+      "concept_id": "EMT-04-04-03",
+      "style": "application",
+      "stem": "What is the EMT contribution in cardiogenic shock?",
+      "options": [
+        {
+          "text": "Fluid and rapid transport",
+          "rationale": "Fluid is not the treatment."
+        },
+        {
+          "text": "Recognition, oxygen, positioning, minimal scene time and early advanced care",
+          "rationale": "Correct — recognition, oxygen, positioning, minimal scene time and early advanced care."
+        },
+        {
+          "text": "Prolonged on-scene stabilisation",
+          "rationale": "They will not stabilise on scene."
+        },
+        {
+          "text": "Lowering the heart rate",
+          "rationale": "Not an EMT action."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2375,6 +3785,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-04-04-Q004",
+      "concept_id": "EMT-04-04-04",
+      "style": "recall",
+      "stem": "What is the underlying problem in distributive shock?",
+      "options": [
+        {
+          "text": "There is not enough blood",
+          "rationale": "Volume may be adequate."
+        },
+        {
+          "text": "The vessels dilate, so the same volume no longer fills the space",
+          "rationale": "Correct — the vessels dilate, so the same volume no longer fills the space."
+        },
+        {
+          "text": "The pump has failed",
+          "rationale": "That is cardiogenic."
+        },
+        {
+          "text": "Flow is physically blocked",
+          "rationale": "That is obstructive."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-04-Q005",
+      "concept_id": "EMT-04-04-04",
+      "style": "application",
+      "stem": "How does septic shock often present early?",
+      "options": [
+        {
+          "text": "Cold, pale and clammy",
+          "rationale": "That comes later."
+        },
+        {
+          "text": "Febrile, and sometimes warm and flushed",
+          "rationale": "Correct — febrile, and sometimes warm and flushed."
+        },
+        {
+          "text": "With distended neck veins",
+          "rationale": "Not the characteristic early picture."
+        },
+        {
+          "text": "With a slow pulse",
+          "rationale": "Tachycardia is usual."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-04-05-Q001",
       "concept_id": "EMT-04-04-05",
       "style": "recall",
@@ -2459,6 +3929,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-05-Q004",
+      "concept_id": "EMT-04-04-05",
+      "style": "recall",
+      "stem": "What is happening in cardiac tamponade?",
+      "options": [
+        {
+          "text": "Air compresses the lung",
+          "rationale": "That is a pneumothorax."
+        },
+        {
+          "text": "Fluid around the heart stops it filling",
+          "rationale": "Correct — fluid around the heart stops it filling."
+        },
+        {
+          "text": "A clot blocks outflow to the lungs",
+          "rationale": "That is a pulmonary embolism."
+        },
+        {
+          "text": "The heart muscle has infarcted",
+          "rationale": "That is cardiogenic shock."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-05-Q005",
+      "concept_id": "EMT-04-04-05",
+      "style": "application",
+      "stem": "Why does recognition of obstructive shock matter so much?",
+      "options": [
+        {
+          "text": "It is the commonest form of shock",
+          "rationale": "It is not."
+        },
+        {
+          "text": "The treatments are specific and none of them is fluid",
+          "rationale": "Correct — the treatments are specific and none of them is fluid."
+        },
+        {
+          "text": "It always resolves with oxygen",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It cannot be treated at all",
+          "rationale": "It can, specifically."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2555,6 +4085,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-04-04-06-Q004",
+      "concept_id": "EMT-04-04-06",
+      "style": "application",
+      "stem": "What do flat neck veins point to?",
+      "options": [
+        {
+          "text": "Pump failure",
+          "rationale": "Distended veins point there."
+        },
+        {
+          "text": "Volume loss",
+          "rationale": "Correct — volume loss."
+        },
+        {
+          "text": "Obstruction",
+          "rationale": "Distended veins point there."
+        },
+        {
+          "text": "Neurogenic shock specifically",
+          "rationale": "Not the distinguishing finding."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-06-Q005",
+      "concept_id": "EMT-04-04-06",
+      "style": "recall",
+      "stem": "Which findings are useful early in children with shock?",
+      "options": [
+        {
+          "text": "Blood pressure",
+          "rationale": "It changes last."
+        },
+        {
+          "text": "Capillary refill and mental status",
+          "rationale": "Correct — capillary refill and mental status."
+        },
+        {
+          "text": "Temperature",
+          "rationale": "Not the early perfusion indicator."
+        },
+        {
+          "text": "Respiratory rate alone",
+          "rationale": "Useful, but not the pair named."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-04-04-07-Q001",
       "concept_id": "EMT-04-04-07",
       "style": "recall",
@@ -2639,6 +4229,66 @@
       ],
       "correct_index": 0,
       "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-07-Q004",
+      "concept_id": "EMT-04-04-07",
+      "style": "application",
+      "stem": "When should positioning be overridden in a shocked patient?",
+      "options": [
+        {
+          "text": "Never — protocol positioning always applies",
+          "rationale": "Breathing can override it."
+        },
+        {
+          "text": "When the lungs are congested and breathing is compromised",
+          "rationale": "Correct — when the lungs are congested and breathing is compromised."
+        },
+        {
+          "text": "When the patient objects",
+          "rationale": "Comfort is considered, but this is the clinical rule."
+        },
+        {
+          "text": "When transport is short",
+          "rationale": "Duration does not change it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-04-07-Q005",
+      "concept_id": "EMT-04-04-07",
+      "style": "recall",
+      "stem": "From what should shock be recognised?",
+      "options": [
+        {
+          "text": "Blood pressure",
+          "rationale": "It changes last."
+        },
+        {
+          "text": "Skin, pulse and mental status",
+          "rationale": "Correct — skin, pulse and mental status."
+        },
+        {
+          "text": "Capnography",
+          "rationale": "Not the primary recognition."
+        },
+        {
+          "text": "The mechanism alone",
+          "rationale": "Mechanism raises suspicion; findings recognise it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."

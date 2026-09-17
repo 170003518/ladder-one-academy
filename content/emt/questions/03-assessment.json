@@ -95,6 +95,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-01-01-Q004",
+      "concept_id": "EMT-03-01-01",
+      "style": "application",
+      "stem": "Why does an injured EMT make the scene worse rather than just less staffed?",
+      "options": [
+        {
+          "text": "It delays documentation",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "They stop being a rescuer and become a second patient",
+          "rationale": "Correct — they stop being a rescuer and become a second patient."
+        },
+        {
+          "text": "It requires an incident report",
+          "rationale": "Not the clinical reason."
+        },
+        {
+          "text": "It affects the crew's response times",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-01-Q005",
+      "concept_id": "EMT-03-01-01",
+      "style": "scenario",
+      "stem": "You cannot make an unsafe scene safe. What do you do?",
+      "options": [
+        {
+          "text": "Enter carefully and work quickly",
+          "rationale": "Never enter a scene you cannot make safe."
+        },
+        {
+          "text": "Stage and wait for the resource that can make it safe",
+          "rationale": "Correct — stage and wait for the resource that can make it safe."
+        },
+        {
+          "text": "Send one crew member in to assess",
+          "rationale": "Not acceptable."
+        },
+        {
+          "text": "Ask bystanders to assist",
+          "rationale": "Not acceptable."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-01-02-Q001",
       "concept_id": "EMT-03-01-02",
       "style": "recall",
@@ -179,6 +239,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-02-Q004",
+      "concept_id": "EMT-03-01-02",
+      "style": "recall",
+      "stem": "What is the baseline precaution for every patient contact?",
+      "options": [
+        {
+          "text": "Gloves",
+          "rationale": "Correct — gloves."
+        },
+        {
+          "text": "Gown and gloves",
+          "rationale": "A gown is added when heavy contamination is likely."
+        },
+        {
+          "text": "Eye protection",
+          "rationale": "Added where splashing is possible."
+        },
+        {
+          "text": "A mask",
+          "rationale": "Added for a coughing or feverish patient."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-02-Q005",
+      "concept_id": "EMT-03-01-02",
+      "style": "application",
+      "stem": "Are precautions fixed once chosen during size-up?",
+      "options": [
+        {
+          "text": "Yes, changing them mid-call causes confusion",
+          "rationale": "They are upgraded as you learn more."
+        },
+        {
+          "text": "No — they are upgraded as you learn more",
+          "rationale": "Correct — no — they are upgraded as you learn more."
+        },
+        {
+          "text": "Only if the patient's diagnosis changes",
+          "rationale": "Upgrade on new information of any kind."
+        },
+        {
+          "text": "Only with your partner's agreement",
+          "rationale": "Not a matter of agreement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -275,6 +395,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-01-03-Q004",
+      "concept_id": "EMT-03-01-03",
+      "style": "application",
+      "stem": "A diabetic patient crashes a car. What do they have?",
+      "options": [
+        {
+          "text": "A mechanism of injury only",
+          "rationale": "They have both."
+        },
+        {
+          "text": "Both a nature of illness and a mechanism of injury",
+          "rationale": "Correct — both a nature of illness and a mechanism of injury."
+        },
+        {
+          "text": "A nature of illness only",
+          "rationale": "They have both."
+        },
+        {
+          "text": "Neither, until the cause is confirmed",
+          "rationale": "Both apply from the outset."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-03-Q005",
+      "concept_id": "EMT-03-01-03",
+      "style": "recall",
+      "stem": "Where does the information about nature of illness or mechanism come from?",
+      "options": [
+        {
+          "text": "The dispatch information alone",
+          "rationale": "Only part of it."
+        },
+        {
+          "text": "The scene, the patient, family and bystanders",
+          "rationale": "Correct — the scene, the patient, family and bystanders."
+        },
+        {
+          "text": "The patient's own account only",
+          "rationale": "Too narrow."
+        },
+        {
+          "text": "The physical examination only",
+          "rationale": "The scene and the history matter too."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-01-04-Q001",
       "concept_id": "EMT-03-01-04",
       "style": "recall",
@@ -359,6 +539,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-04-Q004",
+      "concept_id": "EMT-03-01-04",
+      "style": "recall",
+      "stem": "Who is included in the patient count?",
+      "options": [
+        {
+          "text": "Only those who are complaining",
+          "rationale": "The count is wider than that."
+        },
+        {
+          "text": "Everyone involved, including people who walked away, are still in a vehicle, or are not complaining",
+          "rationale": "Correct — everyone involved, including people who walked away, are still in a vehicle, or are not complaining."
+        },
+        {
+          "text": "Only those who are visibly injured",
+          "rationale": "Too narrow."
+        },
+        {
+          "text": "Only those inside vehicles",
+          "rationale": "Too narrow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-01-04-Q005",
+      "concept_id": "EMT-03-01-04",
+      "style": "application",
+      "stem": "Which of these counts as a resource?",
+      "options": [
+        {
+          "text": "Additional ambulances only",
+          "rationale": "Resources are broader than transport."
+        },
+        {
+          "text": "Law enforcement, fire suppression, power, rescue and air medical as well as ambulances",
+          "rationale": "Correct — law enforcement, fire suppression, power, rescue and air medical as well as ambulances."
+        },
+        {
+          "text": "Only resources dispatched by your own service",
+          "rationale": "Not the limit."
+        },
+        {
+          "text": "Only medical resources",
+          "rationale": "Non-medical resources count."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "OPS",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -485,6 +725,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-01-05-Q005",
+      "concept_id": "EMT-03-01-05",
+      "style": "application",
+      "stem": "Does a reassuring physical examination cancel a significant mechanism?",
+      "options": [
+        {
+          "text": "Yes, findings override mechanism",
+          "rationale": "It does not."
+        },
+        {
+          "text": "No — mechanism raises suspicion that a normal exam does not remove",
+          "rationale": "Correct — no — mechanism raises suspicion that a normal exam does not remove."
+        },
+        {
+          "text": "Only in adults",
+          "rationale": "The principle applies to all ages."
+        },
+        {
+          "text": "Only if vital signs are normal too",
+          "rationale": "Normal findings do not cancel mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "OPS",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-02-01-Q001",
       "concept_id": "EMT-03-02-01",
       "style": "recall",
@@ -565,6 +835,66 @@
         {
           "text": "Discharge him at scene",
           "rationale": "Nothing here supports that."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-01-Q004",
+      "concept_id": "EMT-03-02-01",
+      "style": "application",
+      "stem": "What does the general impression determine?",
+      "options": [
+        {
+          "text": "The diagnosis",
+          "rationale": "It is not a diagnosis."
+        },
+        {
+          "text": "The pace of everything that follows",
+          "rationale": "Correct — the pace of everything that follows."
+        },
+        {
+          "text": "The destination hospital",
+          "rationale": "Decided later."
+        },
+        {
+          "text": "The transport priority on its own",
+          "rationale": "It contributes to that decision."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-01-Q005",
+      "concept_id": "EMT-03-02-01",
+      "style": "recall",
+      "stem": "When is the general impression formed?",
+      "options": [
+        {
+          "text": "After the first set of vital signs",
+          "rationale": "Before touching the patient."
+        },
+        {
+          "text": "In the first few seconds, from the doorway, before touching the patient",
+          "rationale": "Correct — in the first few seconds, from the doorway, before touching the patient."
+        },
+        {
+          "text": "During the focused examination",
+          "rationale": "Far too late in the sequence."
+        },
+        {
+          "text": "At handover",
+          "rationale": "Not an impression at that point."
         }
       ],
       "correct_index": 1,
@@ -695,6 +1025,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-02-02-Q005",
+      "concept_id": "EMT-03-02-02",
+      "style": "recall",
+      "stem": "What does the V in AVPU mean?",
+      "options": [
+        {
+          "text": "The patient is verbal and orientated",
+          "rationale": "It means they respond to voice."
+        },
+        {
+          "text": "The patient responds to your voice, even if only by opening their eyes",
+          "rationale": "Correct — the patient responds to your voice, even if only by opening their eyes."
+        },
+        {
+          "text": "The patient has verbal difficulty",
+          "rationale": "Not the meaning."
+        },
+        {
+          "text": "The patient is vocalising without words",
+          "rationale": "Not the meaning."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-02-03-Q001",
       "concept_id": "EMT-03-02-03",
       "style": "recall",
@@ -779,6 +1139,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-03-Q004",
+      "concept_id": "EMT-03-02-03",
+      "style": "application",
+      "stem": "What is the airway question in the primary survey?",
+      "options": [
+        {
+          "text": "Is there an airway present?",
+          "rationale": "Everyone has an airway."
+        },
+        {
+          "text": "Is it open, and will it stay open?",
+          "rationale": "Correct — is it open, and will it stay open?."
+        },
+        {
+          "text": "Is the patient breathing?",
+          "rationale": "That is the breathing assessment."
+        },
+        {
+          "text": "Is an adjunct needed?",
+          "rationale": "That follows from the answer."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-03-Q005",
+      "concept_id": "EMT-03-02-03",
+      "style": "application",
+      "stem": "You find an airway problem during the primary survey. What do you do?",
+      "options": [
+        {
+          "text": "Note it and complete the survey",
+          "rationale": "You fix what you find before moving on."
+        },
+        {
+          "text": "Fix it there — positioning, suction or an adjunct — then continue",
+          "rationale": "Correct — fix it there — positioning, suction or an adjunct — then continue."
+        },
+        {
+          "text": "Move straight to transport",
+          "rationale": "Manage the airway first."
+        },
+        {
+          "text": "Reassess it after the vital signs",
+          "rationale": "Act on it immediately."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -875,6 +1295,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-02-04-Q004",
+      "concept_id": "EMT-03-02-04",
+      "style": "recall",
+      "stem": "How is inadequate breathing handled in the primary survey?",
+      "options": [
+        {
+          "text": "Noted for the focused assessment",
+          "rationale": "Treated at this point."
+        },
+        {
+          "text": "Treated here with ventilation",
+          "rationale": "Correct — treated here with ventilation."
+        },
+        {
+          "text": "Managed with a nasal cannula",
+          "rationale": "Inadequate breathing needs ventilation."
+        },
+        {
+          "text": "Reassessed in five minutes",
+          "rationale": "Treated immediately."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-04-Q005",
+      "concept_id": "EMT-03-02-04",
+      "style": "application",
+      "stem": "How do you assess air movement if looking is not enough?",
+      "options": [
+        {
+          "text": "Take a pulse oximetry reading",
+          "rationale": "That reflects oxygenation, not movement."
+        },
+        {
+          "text": "Listen for it, and feel for it if you need to",
+          "rationale": "Correct — listen for it, and feel for it if you need to."
+        },
+        {
+          "text": "Count the rate more carefully",
+          "rationale": "Rate alone is not adequacy."
+        },
+        {
+          "text": "Wait and observe",
+          "rationale": "Assess actively."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-02-05-Q001",
       "concept_id": "EMT-03-02-05",
       "style": "recall",
@@ -959,6 +1439,66 @@
       ],
       "correct_index": 0,
       "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-05-Q004",
+      "concept_id": "EMT-03-02-05",
+      "style": "application",
+      "stem": "Where do you check a pulse in a responsive patient?",
+      "options": [
+        {
+          "text": "Carotid",
+          "rationale": "That is for an unresponsive adult."
+        },
+        {
+          "text": "Radial",
+          "rationale": "Correct — radial."
+        },
+        {
+          "text": "Brachial",
+          "rationale": "That is for an infant."
+        },
+        {
+          "text": "Femoral",
+          "rationale": "Not the routine site."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-05-Q005",
+      "concept_id": "EMT-03-02-05",
+      "style": "recall",
+      "stem": "When is major external bleeding controlled?",
+      "options": [
+        {
+          "text": "After the full primary survey",
+          "rationale": "Immediately, at the circulation step."
+        },
+        {
+          "text": "Immediately, at this point in the primary assessment",
+          "rationale": "Correct — immediately, at this point in the primary assessment."
+        },
+        {
+          "text": "During the rapid full-body scan",
+          "rationale": "Too late — it is controlled in the primary assessment."
+        },
+        {
+          "text": "After the transport decision",
+          "rationale": "Too late — bleeding control precedes it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1055,6 +1595,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-02-06-Q004",
+      "concept_id": "EMT-03-02-06",
+      "style": "application",
+      "stem": "Can the transport priority be revised?",
+      "options": [
+        {
+          "text": "No, once set it stands",
+          "rationale": "It can be revised in either direction."
+        },
+        {
+          "text": "Yes — in either direction, as the patient changes",
+          "rationale": "Correct — yes — in either direction, as the patient changes."
+        },
+        {
+          "text": "Only upward",
+          "rationale": "It can move either way."
+        },
+        {
+          "text": "Only with medical direction",
+          "rationale": "Not required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-06-Q005",
+      "concept_id": "EMT-03-02-06",
+      "style": "application",
+      "stem": "What does a high priority decision mean in practice?",
+      "options": [
+        {
+          "text": "Faster driving only",
+          "rationale": "It is about when the patient leaves."
+        },
+        {
+          "text": "The patient goes now, with further assessment done on the way",
+          "rationale": "Correct — the patient goes now, with further assessment done on the way."
+        },
+        {
+          "text": "A different hospital automatically",
+          "rationale": "Destination is a separate judgement."
+        },
+        {
+          "text": "More frequent documentation",
+          "rationale": "Not what priority means."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-02-07-Q001",
       "concept_id": "EMT-03-02-07",
       "style": "recall",
@@ -1139,6 +1739,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-07-Q004",
+      "concept_id": "EMT-03-02-07",
+      "style": "application",
+      "stem": "How long should the X step take in XABC?",
+      "options": [
+        {
+          "text": "As long as it needs, before anything else",
+          "rationale": "It takes seconds."
+        },
+        {
+          "text": "Seconds — apply the tourniquet or pressure, then go straight to airway",
+          "rationale": "Correct — seconds — apply the tourniquet or pressure, then go straight to airway."
+        },
+        {
+          "text": "It replaces the airway assessment entirely",
+          "rationale": "It reorders, it does not replace."
+        },
+        {
+          "text": "It is completed after the primary survey",
+          "rationale": "It comes first when it applies."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-02-07-Q005",
+      "concept_id": "EMT-03-02-07",
+      "style": "recall",
+      "stem": "Why was XABC introduced?",
+      "options": [
+        {
+          "text": "To simplify the assessment",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Because massive external bleeding kills faster than anything else in the first minutes",
+          "rationale": "Correct — because massive external bleeding kills faster than anything else in the first minutes."
+        },
+        {
+          "text": "Because airway management changed",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "To match hospital practice",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1235,6 +1895,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-03-01-Q004",
+      "concept_id": "EMT-03-03-01",
+      "style": "recall",
+      "stem": "What does the L in SAMPLE stand for?",
+      "options": [
+        {
+          "text": "Level of consciousness",
+          "rationale": "Not the L."
+        },
+        {
+          "text": "Last oral intake",
+          "rationale": "Correct — last oral intake."
+        },
+        {
+          "text": "Location of pain",
+          "rationale": "Not the L."
+        },
+        {
+          "text": "Level of pain",
+          "rationale": "Not the L."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-01-Q005",
+      "concept_id": "EMT-03-03-01",
+      "style": "application",
+      "stem": "What does the A in SAMPLE cover?",
+      "options": [
+        {
+          "text": "Airway status",
+          "rationale": "That is the primary assessment."
+        },
+        {
+          "text": "Allergies to medications, foods and environment",
+          "rationale": "Correct — allergies to medications, foods and environment."
+        },
+        {
+          "text": "Alertness",
+          "rationale": "Not the A."
+        },
+        {
+          "text": "Abdominal findings",
+          "rationale": "Not the A."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-03-02-Q001",
       "concept_id": "EMT-03-03-02",
       "style": "recall",
@@ -1319,6 +2039,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-02-Q004",
+      "concept_id": "EMT-03-03-02",
+      "style": "recall",
+      "stem": "What does the P in OPQRST ask?",
+      "options": [
+        {
+          "text": "The patient's pain score",
+          "rationale": "That is severity."
+        },
+        {
+          "text": "What makes it worse and what makes it better",
+          "rationale": "Correct — provocation and palliation."
+        },
+        {
+          "text": "The position of the pain",
+          "rationale": "That is region."
+        },
+        {
+          "text": "Previous episodes",
+          "rationale": "That falls under time."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-02-Q005",
+      "concept_id": "EMT-03-03-02",
+      "style": "application",
+      "stem": "What does the R in OPQRST cover?",
+      "options": [
+        {
+          "text": "Rate of onset",
+          "rationale": "That falls under onset."
+        },
+        {
+          "text": "Region and radiation — where it is and where it travels",
+          "rationale": "Correct — region and radiation — where it is and where it travels."
+        },
+        {
+          "text": "Relief measures",
+          "rationale": "That is palliation."
+        },
+        {
+          "text": "Recurrence",
+          "rationale": "That falls under time."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1415,6 +2195,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-03-03-Q004",
+      "concept_id": "EMT-03-03-03",
+      "style": "recall",
+      "stem": "What is the primary problem?",
+      "options": [
+        {
+          "text": "What the patient says is wrong",
+          "rationale": "That is the chief complaint."
+        },
+        {
+          "text": "What is actually threatening the patient, which may differ from the complaint",
+          "rationale": "Correct — what is actually threatening the patient, which may differ from the complaint."
+        },
+        {
+          "text": "The diagnosis made at hospital",
+          "rationale": "Not the prehospital meaning."
+        },
+        {
+          "text": "The first finding in the primary survey",
+          "rationale": "Not the definition."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-03-Q005",
+      "concept_id": "EMT-03-03-03",
+      "style": "application",
+      "stem": "Why might a patient lead with the symptom that frightens them rather than the one that matters?",
+      "options": [
+        {
+          "text": "They are being deliberately unhelpful",
+          "rationale": "Not a fair reading."
+        },
+        {
+          "text": "Fear directs attention, and the frightening symptom is not always the dangerous one",
+          "rationale": "Correct — fear directs attention, and the frightening symptom is not always the dangerous one."
+        },
+        {
+          "text": "They do not know what matters clinically",
+          "rationale": "True but not the point being made."
+        },
+        {
+          "text": "They are seeking attention",
+          "rationale": "Not an appropriate assumption."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-03-04-Q001",
       "concept_id": "EMT-03-03-04",
       "style": "recall",
@@ -1499,6 +2339,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-04-Q004",
+      "concept_id": "EMT-03-03-04",
+      "style": "application",
+      "stem": "Why avoid leading questions?",
+      "options": [
+        {
+          "text": "They take longer",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "They manufacture findings that were never there",
+          "rationale": "Correct — they manufacture findings that were never there."
+        },
+        {
+          "text": "Patients find them rude",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "They are hard to document",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-03-04-Q005",
+      "concept_id": "EMT-03-03-04",
+      "style": "application",
+      "stem": "How should sensitive subjects be asked about?",
+      "options": [
+        {
+          "text": "Indirectly, to avoid embarrassment",
+          "rationale": "Indirect questions get unclear answers."
+        },
+        {
+          "text": "Directly and without an audience",
+          "rationale": "Correct — directly and without an audience."
+        },
+        {
+          "text": "Through a family member",
+          "rationale": "Not appropriate."
+        },
+        {
+          "text": "Left to the hospital",
+          "rationale": "They may be relevant now."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1625,6 +2525,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-04-01-Q005",
+      "concept_id": "EMT-03-04-01",
+      "style": "application",
+      "stem": "How long should a rapid full-body scan take?",
+      "options": [
+        {
+          "text": "Five to ten minutes",
+          "rationale": "That is a detailed examination."
+        },
+        {
+          "text": "Well under a couple of minutes",
+          "rationale": "Correct — well under a couple of minutes."
+        },
+        {
+          "text": "As long as the injuries require",
+          "rationale": "It is a fast sweep by design."
+        },
+        {
+          "text": "Until every finding is documented",
+          "rationale": "Documentation follows."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-04-02-Q001",
       "concept_id": "EMT-03-04-02",
       "style": "recall",
@@ -1705,6 +2635,66 @@
         {
           "text": "Repeat the respiratory examination until you find something",
           "rationale": "Repetition does not widen the search."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-02-Q004",
+      "concept_id": "EMT-03-04-02",
+      "style": "application",
+      "stem": "Does focused mean brief?",
+      "options": [
+        {
+          "text": "Yes — focused examinations are quick",
+          "rationale": "Focused is not the same as brief."
+        },
+        {
+          "text": "No — the examination of the relevant system should be thorough",
+          "rationale": "Correct — no — the examination of the relevant system should be thorough."
+        },
+        {
+          "text": "Only in stable patients",
+          "rationale": "The principle is general."
+        },
+        {
+          "text": "Only where the history is clear",
+          "rationale": "The principle is general."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-02-Q005",
+      "concept_id": "EMT-03-04-02",
+      "style": "recall",
+      "stem": "What directs a focused medical assessment?",
+      "options": [
+        {
+          "text": "The mechanism of injury",
+          "rationale": "That directs a trauma assessment."
+        },
+        {
+          "text": "The chief complaint and the history",
+          "rationale": "Correct — the chief complaint and the history."
+        },
+        {
+          "text": "The first set of vital signs",
+          "rationale": "They inform but do not direct it."
+        },
+        {
+          "text": "The dispatch information",
+          "rationale": "Not the driver."
         }
       ],
       "correct_index": 1,
@@ -1805,6 +2795,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-04-03-Q004",
+      "concept_id": "EMT-03-04-03",
+      "style": "recall",
+      "stem": "What does the P in DCAP-BTLS stand for?",
+      "options": [
+        {
+          "text": "Pain",
+          "rationale": "Pain on palpation is tenderness."
+        },
+        {
+          "text": "Punctures and penetrations",
+          "rationale": "Correct — punctures and penetrations."
+        },
+        {
+          "text": "Pallor",
+          "rationale": "Not part of the mnemonic."
+        },
+        {
+          "text": "Position",
+          "rationale": "Not part of the mnemonic."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-03-Q005",
+      "concept_id": "EMT-03-04-03",
+      "style": "recall",
+      "stem": "What does the S in DCAP-BTLS stand for?",
+      "options": [
+        {
+          "text": "Skin colour",
+          "rationale": "Not part of the mnemonic."
+        },
+        {
+          "text": "Swelling",
+          "rationale": "Correct — swelling."
+        },
+        {
+          "text": "Symmetry",
+          "rationale": "Not part of the mnemonic."
+        },
+        {
+          "text": "Sensation",
+          "rationale": "Not part of the mnemonic."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-04-04-Q001",
       "concept_id": "EMT-03-04-04",
       "style": "recall",
@@ -1889,6 +2939,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-04-Q004",
+      "concept_id": "EMT-03-04-04",
+      "style": "application",
+      "stem": "What kind of findings does the detailed examination pick up?",
+      "options": [
+        {
+          "text": "Only life-threatening injuries",
+          "rationale": "Those are found earlier."
+        },
+        {
+          "text": "Findings that are not immediately life-threatening but still matter",
+          "rationale": "Correct — findings that are not immediately life-threatening but still matter."
+        },
+        {
+          "text": "Only findings the patient reports",
+          "rationale": "It is a systematic examination."
+        },
+        {
+          "text": "Only findings visible without exposure",
+          "rationale": "Exposure is part of it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-04-Q005",
+      "concept_id": "EMT-03-04-04",
+      "style": "recall",
+      "stem": "How thorough is the detailed examination compared with the rapid scan?",
+      "options": [
+        {
+          "text": "Faster and more selective",
+          "rationale": "It is slower and more thorough."
+        },
+        {
+          "text": "Thorough and unhurried, covering every region in order",
+          "rationale": "Correct — thorough and unhurried, covering every region in order."
+        },
+        {
+          "text": "The same, repeated for confirmation",
+          "rationale": "It is more detailed, not identical."
+        },
+        {
+          "text": "Limited to the injured region",
+          "rationale": "It covers every region."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
       "domain": "TRAU",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1985,6 +3095,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-04-05-Q004",
+      "concept_id": "EMT-03-04-05",
+      "style": "application",
+      "stem": "Why consider trauma in an unresponsive patient on a medical call?",
+      "options": [
+        {
+          "text": "Trauma calls are more common",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "An unresponsive patient may have fallen, and cannot tell you",
+          "rationale": "Correct — an unresponsive patient may have fallen, and cannot tell you."
+        },
+        {
+          "text": "Protocol requires spinal precautions for all unresponsive patients",
+          "rationale": "Not the reasoning given."
+        },
+        {
+          "text": "Medical causes are rare",
+          "rationale": "They are not."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-04-05-Q005",
+      "concept_id": "EMT-03-04-05",
+      "style": "application",
+      "stem": "Which part of the scene is part of the history for an unresponsive patient?",
+      "options": [
+        {
+          "text": "Nothing — the history comes from the patient",
+          "rationale": "The patient cannot give one."
+        },
+        {
+          "text": "Medication bottles, medical alert jewellery, oxygen equipment and the position found",
+          "rationale": "Correct — medication bottles, medical alert jewellery, oxygen equipment and the position found."
+        },
+        {
+          "text": "Only what family report",
+          "rationale": "The scene itself is evidence."
+        },
+        {
+          "text": "Only the dispatch information",
+          "rationale": "Far too narrow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "TRAU",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-05-01-Q001",
       "concept_id": "EMT-03-05-01",
       "style": "recall",
@@ -2065,6 +3235,66 @@
         {
           "text": "Anxiety alone",
           "rationale": "Anxiety does not usually produce a thready pulse with cool damp skin."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-01-Q004",
+      "concept_id": "EMT-03-05-01",
+      "style": "recall",
+      "stem": "Where do you take a pulse in an infant?",
+      "options": [
+        {
+          "text": "Radial",
+          "rationale": "Not the site used in infants."
+        },
+        {
+          "text": "Brachial",
+          "rationale": "Correct — brachial."
+        },
+        {
+          "text": "Carotid",
+          "rationale": "Not used in infants."
+        },
+        {
+          "text": "Femoral",
+          "rationale": "Not the routine site."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-01-Q005",
+      "concept_id": "EMT-03-05-01",
+      "style": "recall",
+      "stem": "What does thready describe?",
+      "options": [
+        {
+          "text": "A pulse rate",
+          "rationale": "It describes quality."
+        },
+        {
+          "text": "Pulse quality — weak and difficult to feel",
+          "rationale": "Correct — pulse quality — weak and difficult to feel."
+        },
+        {
+          "text": "Pulse rhythm",
+          "rationale": "Rhythm is regular or irregular."
+        },
+        {
+          "text": "Skin condition",
+          "rationale": "Not a skin finding."
         }
       ],
       "correct_index": 1,
@@ -2159,6 +3389,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-02-Q004",
+      "concept_id": "EMT-03-05-02",
+      "style": "recall",
+      "stem": "What does respiratory quality cover?",
+      "options": [
+        {
+          "text": "Rate only",
+          "rationale": "Rate is separate from quality."
+        },
+        {
+          "text": "Depth, effort and sound",
+          "rationale": "Correct — depth, effort and sound."
+        },
+        {
+          "text": "Oxygen saturation",
+          "rationale": "A separate measurement."
+        },
+        {
+          "text": "Rhythm only",
+          "rationale": "Quality covers more than rhythm."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-02-Q005",
+      "concept_id": "EMT-03-05-02",
+      "style": "application",
+      "stem": "How do respiratory rates change with age?",
+      "options": [
+        {
+          "text": "They rise with age",
+          "rationale": "They fall toward adult values with age."
+        },
+        {
+          "text": "Children breathe faster and infants faster still, falling toward adult values with age",
+          "rationale": "Correct — children breathe faster and infants faster still, falling toward adult values with age."
+        },
+        {
+          "text": "They are the same at all ages",
+          "rationale": "They are not."
+        },
+        {
+          "text": "They vary randomly",
+          "rationale": "There is a clear pattern."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2285,6 +3575,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-05-03-Q005",
+      "concept_id": "EMT-03-05-03",
+      "style": "recall",
+      "stem": "How is a palpated blood pressure recorded?",
+      "options": [
+        {
+          "text": "As a systolic and diastolic",
+          "rationale": "Palpation gives a systolic only."
+        },
+        {
+          "text": "As the systolic over P",
+          "rationale": "Correct — as the systolic over P."
+        },
+        {
+          "text": "As a mean pressure",
+          "rationale": "Not how it is recorded."
+        },
+        {
+          "text": "It is not recorded",
+          "rationale": "It is recorded, with the method noted."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-05-04-Q001",
       "concept_id": "EMT-03-05-04",
       "style": "recall",
@@ -2369,6 +3689,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-04-Q004",
+      "concept_id": "EMT-03-05-04",
+      "style": "recall",
+      "stem": "Which finding is classically associated with opioids?",
+      "options": [
+        {
+          "text": "Dilated pupils",
+          "rationale": "Not the classic association."
+        },
+        {
+          "text": "Pinpoint pupils",
+          "rationale": "Correct — pinpoint pupils."
+        },
+        {
+          "text": "Unequal pupils",
+          "rationale": "Not the classic association."
+        },
+        {
+          "text": "Non-reactive pupils",
+          "rationale": "Not the classic association."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-04-Q005",
+      "concept_id": "EMT-03-05-04",
+      "style": "application",
+      "stem": "What are pupils assessed for?",
+      "options": [
+        {
+          "text": "Colour and shape only",
+          "rationale": "Not the assessment."
+        },
+        {
+          "text": "Size, equality and reactivity to light",
+          "rationale": "Correct — size, equality and reactivity to light."
+        },
+        {
+          "text": "Reactivity only",
+          "rationale": "Size and equality matter too."
+        },
+        {
+          "text": "Size only",
+          "rationale": "Equality and reactivity matter too."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2465,6 +3845,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-05-05-Q004",
+      "concept_id": "EMT-03-05-05",
+      "style": "application",
+      "stem": "What does mottled skin in a child suggest?",
+      "options": [
+        {
+          "text": "A normal finding in cold weather only",
+          "rationale": "It is a serious perfusion finding."
+        },
+        {
+          "text": "A serious perfusion problem",
+          "rationale": "Correct — a serious perfusion problem."
+        },
+        {
+          "text": "A local skin reaction",
+          "rationale": "Not the significance."
+        },
+        {
+          "text": "Fever",
+          "rationale": "Not the significance."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-05-Q005",
+      "concept_id": "EMT-03-05-05",
+      "style": "application",
+      "stem": "What limits the usefulness of capillary refill?",
+      "options": [
+        {
+          "text": "It only works in adults",
+          "rationale": "It is most useful in children."
+        },
+        {
+          "text": "It is affected by cold surroundings",
+          "rationale": "Correct — it is affected by cold surroundings."
+        },
+        {
+          "text": "It requires equipment",
+          "rationale": "It requires none."
+        },
+        {
+          "text": "It cannot be repeated",
+          "rationale": "It can be repeated freely."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-05-06-Q001",
       "concept_id": "EMT-03-05-06",
       "style": "recall",
@@ -2549,6 +3989,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-06-Q004",
+      "concept_id": "EMT-03-05-06",
+      "style": "recall",
+      "stem": "What does capnography reflect?",
+      "options": [
+        {
+          "text": "Oxygenation",
+          "rationale": "That is pulse oximetry."
+        },
+        {
+          "text": "Ventilation",
+          "rationale": "Correct — ventilation."
+        },
+        {
+          "text": "Perfusion",
+          "rationale": "Not what it measures."
+        },
+        {
+          "text": "Cardiac output directly",
+          "rationale": "Not what it measures."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-06-Q005",
+      "concept_id": "EMT-03-05-06",
+      "style": "application",
+      "stem": "Which conditions make pulse oximetry unreliable?",
+      "options": [
+        {
+          "text": "Fever and dehydration",
+          "rationale": "Not the listed causes."
+        },
+        {
+          "text": "Poor peripheral perfusion, cold extremities, movement, nail polish and carbon monoxide poisoning",
+          "rationale": "Correct — poor peripheral perfusion, cold extremities, movement, nail polish and carbon monoxide poisoning."
+        },
+        {
+          "text": "High altitude only",
+          "rationale": "Not the listed causes."
+        },
+        {
+          "text": "Any patient over sixty",
+          "rationale": "Age is not a factor."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2645,6 +4145,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-05-07-Q004",
+      "concept_id": "EMT-03-05-07",
+      "style": "application",
+      "stem": "A patient with altered mental status has a normal blood glucose. What does that mean?",
+      "options": [
+        {
+          "text": "The patient is not truly altered",
+          "rationale": "It does not mean that."
+        },
+        {
+          "text": "One cause has been removed, not that the alteration is explained",
+          "rationale": "Correct — one cause has been removed, not that the alteration is explained."
+        },
+        {
+          "text": "The meter is faulty",
+          "rationale": "Do not assume that."
+        },
+        {
+          "text": "No further assessment is needed",
+          "rationale": "Assessment continues."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-07-Q005",
+      "concept_id": "EMT-03-05-07",
+      "style": "recall",
+      "stem": "Which conditions does hypoglycaemia mimic?",
+      "options": [
+        {
+          "text": "Only intoxication",
+          "rationale": "It mimics several things."
+        },
+        {
+          "text": "Stroke, intoxication, psychiatric illness and simple confusion",
+          "rationale": "Correct — stroke, intoxication, psychiatric illness and simple confusion."
+        },
+        {
+          "text": "Only stroke",
+          "rationale": "Too narrow."
+        },
+        {
+          "text": "Only psychiatric illness",
+          "rationale": "Too narrow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-05-08-Q001",
       "concept_id": "EMT-03-05-08",
       "style": "recall",
@@ -2729,6 +4289,66 @@
       ],
       "correct_index": 0,
       "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-08-Q004",
+      "concept_id": "EMT-03-05-08",
+      "style": "recall",
+      "stem": "Why record the route used to measure a temperature?",
+      "options": [
+        {
+          "text": "For billing purposes",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "The route affects the reading",
+          "rationale": "Correct — the route affects the reading."
+        },
+        {
+          "text": "It identifies the equipment used",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is required by law",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-05-08-Q005",
+      "concept_id": "EMT-03-05-08",
+      "style": "application",
+      "stem": "Which patients most warrant a temperature measurement?",
+      "options": [
+        {
+          "text": "Every patient, without exception",
+          "rationale": "Taken where the history suggests it matters."
+        },
+        {
+          "text": "Patients with fever, heat or cold exposure or infection, and the very young and very old",
+          "rationale": "Correct — patients with fever, heat or cold exposure or infection, and the very young and very old."
+        },
+        {
+          "text": "Only trauma patients",
+          "rationale": "Not the indication."
+        },
+        {
+          "text": "Only patients who report feeling hot",
+          "rationale": "Too narrow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2825,6 +4445,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-03-06-01-Q004",
+      "concept_id": "EMT-03-06-01",
+      "style": "recall",
+      "stem": "What is a commonly taught reassessment interval for a stable patient?",
+      "options": [
+        {
+          "text": "Every 5 minutes",
+          "rationale": "That is the unstable interval."
+        },
+        {
+          "text": "Every 15 minutes",
+          "rationale": "Correct — every 15 minutes."
+        },
+        {
+          "text": "Every 30 minutes",
+          "rationale": "Longer than taught."
+        },
+        {
+          "text": "Once per transport",
+          "rationale": "Far too infrequent."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-01-Q005",
+      "concept_id": "EMT-03-06-01",
+      "style": "application",
+      "stem": "Why does the time of each reassessment matter?",
+      "options": [
+        {
+          "text": "It is required for documentation only",
+          "rationale": "There is a clinical reason."
+        },
+        {
+          "text": "Without times you have readings but no trend",
+          "rationale": "Correct — without times you have readings but no trend."
+        },
+        {
+          "text": "It determines the next interval",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It affects the handover format",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-03-06-02-Q001",
       "concept_id": "EMT-03-06-02",
       "style": "application",
@@ -2909,6 +4589,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-02-Q004",
+      "concept_id": "EMT-03-06-02",
+      "style": "application",
+      "stem": "Why report trends rather than single numbers at handover?",
+      "options": [
+        {
+          "text": "It is quicker",
+          "rationale": "It is not necessarily quicker."
+        },
+        {
+          "text": "Direction carries more information than any single value",
+          "rationale": "Correct — direction carries more information than any single value."
+        },
+        {
+          "text": "Single numbers are usually inaccurate",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is the required format",
+          "rationale": "The reason is clinical."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-03-06-02-Q005",
+      "concept_id": "EMT-03-06-02",
+      "style": "recall",
+      "stem": "Which findings should be watched together to detect deterioration?",
+      "options": [
+        {
+          "text": "Blood pressure alone",
+          "rationale": "Blood pressure changes late."
+        },
+        {
+          "text": "Level of consciousness, pulse rate and quality, respiratory rate and effort, skin, and blood pressure",
+          "rationale": "Correct — level of consciousness, pulse rate and quality, respiratory rate and effort, skin, and blood pressure."
+        },
+        {
+          "text": "Pulse and blood pressure only",
+          "rationale": "Too narrow."
+        },
+        {
+          "text": "Skin colour alone",
+          "rationale": "Too narrow."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."

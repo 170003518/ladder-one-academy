@@ -125,6 +125,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-05-01-01-Q005",
+      "concept_id": "EMT-05-01-01",
+      "style": "application",
+      "stem": "Why is the medication list worth gathering even when a patient says they take a lot of things?",
+      "options": [
+        {
+          "text": "It shortens the handover",
+          "rationale": "It lengthens it, usefully."
+        },
+        {
+          "text": "The list frequently explains the presentation, and 'a lot of things' is not a reason to skip it",
+          "rationale": "Correct — the list frequently explains the presentation, and 'a lot of things' is not a reason to skip it."
+        },
+        {
+          "text": "It is required for billing",
+          "rationale": "Not a clinical reason."
+        },
+        {
+          "text": "It proves the patient is compliant",
+          "rationale": "Not what it establishes."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-05-01-02-Q001",
       "concept_id": "EMT-05-01-02",
       "style": "recall",
@@ -209,6 +239,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-02-Q004",
+      "concept_id": "EMT-05-01-02",
+      "style": "recall",
+      "stem": "Which complaints make up the bulk of medical EMS calls?",
+      "options": [
+        {
+          "text": "Chest pain, shortness of breath, altered mental status, abdominal pain, weakness, dizziness, syncope, nausea and vomiting",
+          "rationale": "Correct — chest pain, shortness of breath, altered mental status, abdominal pain, weakness, dizziness, syncope, nausea and vomiting."
+        },
+        {
+          "text": "Fractures, burns, lacerations and head injuries",
+          "rationale": "Those are trauma presentations."
+        },
+        {
+          "text": "Fever, rash and sore throat",
+          "rationale": "Not the bulk of medical calls."
+        },
+        {
+          "text": "Anxiety and insomnia",
+          "rationale": "Not the common presentations listed."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-01-02-Q005",
+      "concept_id": "EMT-05-01-02",
+      "style": "application",
+      "stem": "A patient reports abdominal pain. What does the complaint tell you about the system involved?",
+      "options": [
+        {
+          "text": "It confirms a gastrointestinal cause",
+          "rationale": "The complaint does not confirm a system."
+        },
+        {
+          "text": "Very little — the same complaint can come from many systems, so it starts the assessment",
+          "rationale": "Correct — very little — the same complaint can come from many systems, so it starts the assessment."
+        },
+        {
+          "text": "It excludes a cardiac cause",
+          "rationale": "It excludes nothing."
+        },
+        {
+          "text": "It indicates a surgical problem",
+          "rationale": "Not established by the complaint alone."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1325,6 +1415,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-05-03-01-Q005",
+      "concept_id": "EMT-05-03-01",
+      "style": "recall",
+      "stem": "What happens to blood glucose when a diabetic patient takes their medication and then does not eat?",
+      "options": [
+        {
+          "text": "It rises",
+          "rationale": "Missing food with medication taken lowers it."
+        },
+        {
+          "text": "It falls",
+          "rationale": "Correct — it falls."
+        },
+        {
+          "text": "It stays the same",
+          "rationale": "The medication acts regardless of food."
+        },
+        {
+          "text": "It becomes unmeasurable",
+          "rationale": "Not a real effect."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-05-03-02-Q001",
       "concept_id": "EMT-05-03-02",
       "style": "recall",
@@ -1799,6 +1919,36 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-03-04-Q005",
+      "concept_id": "EMT-05-03-04",
+      "style": "application",
+      "stem": "Why should you avoid trying to name a specific endocrine disorder in the field?",
+      "options": [
+        {
+          "text": "The names are difficult to pronounce",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "The EMT task is recognising that something endocrine may be happening, and care is supportive either way",
+          "rationale": "Correct — the EMT task is recognising that something endocrine may be happening, and care is supportive either way."
+        },
+        {
+          "text": "It is outside your scope to have an opinion",
+          "rationale": "Having an impression is appropriate; naming it is not the task."
+        },
+        {
+          "text": "Endocrine emergencies are never prehospital",
+          "rationale": "They do present prehospitally."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -4139,6 +4289,36 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "MED",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-05-06-04-Q005",
+      "concept_id": "EMT-05-06-04",
+      "style": "application",
+      "stem": "Why does severe upper abdominal pain deserve serious assessment rather than being dismissed as indigestion?",
+      "options": [
+        {
+          "text": "Indigestion does not exist",
+          "rationale": "Indigestion exists; it is simply not a safe assumption here."
+        },
+        {
+          "text": "Cholecystitis, pancreatitis and other serious causes present this way",
+          "rationale": "Correct — cholecystitis, pancreatitis and other serious causes present this way."
+        },
+        {
+          "text": "Patients exaggerate abdominal pain",
+          "rationale": "An unfair and unhelpful assumption."
+        },
+        {
+          "text": "Indigestion always presents lower down",
+          "rationale": "Not a reliable distinction."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
       "domain": "MED",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."

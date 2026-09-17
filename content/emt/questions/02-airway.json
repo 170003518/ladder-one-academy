@@ -125,6 +125,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-01-01-Q005",
+      "concept_id": "EMT-02-01-01",
+      "style": "recall",
+      "stem": "Which structure is the only complete ring of cartilage in the airway?",
+      "options": [
+        {
+          "text": "The thyroid cartilage",
+          "rationale": "It is incomplete posteriorly."
+        },
+        {
+          "text": "The cricoid cartilage",
+          "rationale": "Correct — and the cricothyroid membrane sits just above it."
+        },
+        {
+          "text": "The first tracheal ring",
+          "rationale": "Tracheal rings are incomplete posteriorly."
+        },
+        {
+          "text": "The epiglottis",
+          "rationale": "The epiglottis is a flap, not a ring."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-01-02-Q001",
       "concept_id": "EMT-02-01-02",
       "style": "application",
@@ -242,6 +272,36 @@
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-02-Q005",
+      "concept_id": "EMT-02-01-02",
+      "style": "application",
+      "stem": "Why does a small amount of airway swelling matter more in a child than an adult?",
+      "options": [
+        {
+          "text": "Children produce more secretions",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "The airway is narrower overall, so the same swelling takes a far larger share of it",
+          "rationale": "Correct — the airway is narrower overall, so the same swelling takes a far larger share of it."
+        },
+        {
+          "text": "Children cannot cough",
+          "rationale": "They can, less effectively."
+        },
+        {
+          "text": "Swelling spreads faster in children",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
@@ -368,6 +428,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-01-03-Q005",
+      "concept_id": "EMT-02-01-03",
+      "style": "recall",
+      "stem": "Which is normally the passive part of breathing?",
+      "options": [
+        {
+          "text": "Inhalation",
+          "rationale": "Inhalation is active — the diaphragm and intercostals contract."
+        },
+        {
+          "text": "Exhalation",
+          "rationale": "Correct — normal exhalation is passive."
+        },
+        {
+          "text": "Both are active",
+          "rationale": "Only inhalation is active normally."
+        },
+        {
+          "text": "Both are passive",
+          "rationale": "Inhalation requires muscular effort."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-01-04-Q001",
       "concept_id": "EMT-02-01-04",
       "style": "recall",
@@ -455,6 +545,66 @@
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-04-Q004",
+      "concept_id": "EMT-02-01-04",
+      "style": "recall",
+      "stem": "What is the normal respiratory rate for an infant under one year?",
+      "options": [
+        {
+          "text": "12 to 20 breaths per minute",
+          "rationale": "That is the adult range."
+        },
+        {
+          "text": "About 25 to 50 breaths per minute",
+          "rationale": "Correct — about 25 to 50 breaths per minute."
+        },
+        {
+          "text": "About 15 to 30 breaths per minute",
+          "rationale": "That is the child range."
+        },
+        {
+          "text": "About 60 to 80 breaths per minute",
+          "rationale": "Well above the normal range."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-04-Q005",
+      "concept_id": "EMT-02-01-04",
+      "style": "application",
+      "stem": "A patient breathes 16 times a minute but each breath is visibly shallow. What does the rate tell you?",
+      "options": [
+        {
+          "text": "That breathing is adequate",
+          "rationale": "Rate alone is not adequacy."
+        },
+        {
+          "text": "Little on its own — a normal rate with shallow depth can still be inadequate ventilation",
+          "rationale": "Correct — little on its own — a normal rate with shallow depth can still be inadequate ventilation."
+        },
+        {
+          "text": "That the patient is compensating well",
+          "rationale": "Not established by rate."
+        },
+        {
+          "text": "That oxygen is not needed",
+          "rationale": "No such inference."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
@@ -581,6 +731,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-01-05-Q005",
+      "concept_id": "EMT-02-01-05",
+      "style": "application",
+      "stem": "A patient is breathing adequately but is hypoxic. What do they need?",
+      "options": [
+        {
+          "text": "Ventilation with a bag-valve-mask",
+          "rationale": "That is for inadequate breathing."
+        },
+        {
+          "text": "Supplemental oxygen",
+          "rationale": "Correct — supplemental oxygen."
+        },
+        {
+          "text": "An oropharyngeal airway",
+          "rationale": "Not indicated by hypoxia alone."
+        },
+        {
+          "text": "Nothing until the rate changes",
+          "rationale": "Hypoxia is treated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-02-01-Q001",
       "concept_id": "EMT-02-02-01",
       "style": "recall",
@@ -701,6 +881,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-02-01-Q005",
+      "concept_id": "EMT-02-02-01",
+      "style": "recall",
+      "stem": "Which hand position is correct for a head-tilt/chin-lift?",
+      "options": [
+        {
+          "text": "Both hands on the forehead",
+          "rationale": "One hand lifts the chin."
+        },
+        {
+          "text": "One hand on the forehead, fingertips of the other on the bony part of the chin",
+          "rationale": "Correct — one hand on the forehead, fingertips of the other on the bony part of the chin."
+        },
+        {
+          "text": "Fingers in the soft tissue under the jaw",
+          "rationale": "That can push the tongue back."
+        },
+        {
+          "text": "One hand behind the neck, one on the chin",
+          "rationale": "Not the described technique."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-02-02-Q001",
       "concept_id": "EMT-02-02-02",
       "style": "recall",
@@ -791,6 +1001,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-02-02-Q004",
+      "concept_id": "EMT-02-02-02",
+      "style": "application",
+      "stem": "Why does a jaw-thrust usually need a second rescuer when ventilating?",
+      "options": [
+        {
+          "text": "It requires specialised equipment",
+          "rationale": "It does not."
+        },
+        {
+          "text": "Holding the jaw-thrust occupies both hands and is tiring, leaving nobody to squeeze the bag",
+          "rationale": "Correct — holding the jaw-thrust occupies both hands and is tiring, leaving nobody to squeeze the bag."
+        },
+        {
+          "text": "Protocol requires two providers for all trauma",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "It is performed from the side",
+          "rationale": "It is performed from the head."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-02-Q005",
+      "concept_id": "EMT-02-02-02",
+      "style": "recall",
+      "stem": "How does a jaw-thrust open the airway?",
+      "options": [
+        {
+          "text": "By tilting the head backwards",
+          "rationale": "That is the head-tilt/chin-lift."
+        },
+        {
+          "text": "By moving the mandible forward without tilting the head",
+          "rationale": "Correct — by moving the mandible forward without tilting the head."
+        },
+        {
+          "text": "By lifting the tongue with an instrument",
+          "rationale": "Not the manoeuvre."
+        },
+        {
+          "text": "By extending the neck slightly",
+          "rationale": "Extension is what it avoids."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-02-03-Q001",
       "concept_id": "EMT-02-02-03",
       "style": "recall",
@@ -875,6 +1145,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-03-Q004",
+      "concept_id": "EMT-02-02-03",
+      "style": "application",
+      "stem": "Which patient should NOT be placed in the recovery position?",
+      "options": [
+        {
+          "text": "An unresponsive patient breathing adequately after a faint",
+          "rationale": "A suitable candidate."
+        },
+        {
+          "text": "A patient whose mechanism suggests spinal injury",
+          "rationale": "Correct — a patient whose mechanism suggests spinal injury."
+        },
+        {
+          "text": "A postictal patient with saliva pooling and no trauma",
+          "rationale": "A suitable candidate."
+        },
+        {
+          "text": "An intoxicated patient breathing well with no injury",
+          "rationale": "A suitable candidate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-03-Q005",
+      "concept_id": "EMT-02-02-03",
+      "style": "recall",
+      "stem": "Does the recovery position remove the need for monitoring?",
+      "options": [
+        {
+          "text": "Yes, the airway is protected once positioned",
+          "rationale": "Position is not a substitute for reassessment."
+        },
+        {
+          "text": "No — the patient still needs continuous monitoring",
+          "rationale": "Correct — no — the patient still needs continuous monitoring."
+        },
+        {
+          "text": "Only if the patient is breathing normally",
+          "rationale": "Monitoring continues regardless."
+        },
+        {
+          "text": "Only during transport",
+          "rationale": "Monitoring is continuous."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1001,6 +1331,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-02-04-Q005",
+      "concept_id": "EMT-02-02-04",
+      "style": "recall",
+      "stem": "How is an oropharyngeal airway inserted in a small child?",
+      "options": [
+        {
+          "text": "Tip toward the roof of the mouth and rotated 180 degrees",
+          "rationale": "That is the adult technique."
+        },
+        {
+          "text": "Right side up, using a tongue depressor",
+          "rationale": "Correct — right side up, using a tongue depressor."
+        },
+        {
+          "text": "Sideways and rotated 90 degrees",
+          "rationale": "Not the described technique."
+        },
+        {
+          "text": "Through the nose",
+          "rationale": "That is a different adjunct."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-02-05-Q001",
       "concept_id": "EMT-02-02-05",
       "style": "recall",
@@ -1115,6 +1475,36 @@
       ],
       "correct_index": 0,
       "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-05-Q005",
+      "concept_id": "EMT-02-02-05",
+      "style": "recall",
+      "stem": "Does a nasopharyngeal airway protect against aspiration?",
+      "options": [
+        {
+          "text": "Yes, it seals the airway",
+          "rationale": "It does not seal anything."
+        },
+        {
+          "text": "No — it does not protect against vomiting or aspiration",
+          "rationale": "Correct — no — it does not protect against vomiting or aspiration."
+        },
+        {
+          "text": "Only if correctly sized",
+          "rationale": "Sizing does not confer protection."
+        },
+        {
+          "text": "Only in an unresponsive patient",
+          "rationale": "It never protects against aspiration."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -1601,6 +1991,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-03-01-Q005",
+      "concept_id": "EMT-02-03-01",
+      "style": "recall",
+      "stem": "Why must oil, grease and petroleum products be kept away from oxygen equipment?",
+      "options": [
+        {
+          "text": "They degrade the rubber seals",
+          "rationale": "Not the principal hazard."
+        },
+        {
+          "text": "Oxygen supports combustion, and these can ignite violently in its presence",
+          "rationale": "Correct — oxygen supports combustion, and these can ignite violently in its presence."
+        },
+        {
+          "text": "They interfere with the flowmeter",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "They void the hydrostatic test",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-03-02-Q001",
       "concept_id": "EMT-02-03-02",
       "style": "recall",
@@ -1718,6 +2138,36 @@
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Confirm escalation guidance in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02-Q005",
+      "concept_id": "EMT-02-03-02",
+      "style": "recall",
+      "stem": "Why is a nasal cannula useless for a mouth-breather?",
+      "options": [
+        {
+          "text": "The prongs fall out",
+          "rationale": "Not the principal reason."
+        },
+        {
+          "text": "The oxygen is delivered into the nostrils, which the patient is not drawing air through",
+          "rationale": "Correct — the oxygen is delivered into the nostrils, which the patient is not drawing air through."
+        },
+        {
+          "text": "The flow rate is too low",
+          "rationale": "Flow is not the issue."
+        },
+        {
+          "text": "It dries the mouth",
+          "rationale": "Not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
@@ -1961,6 +2411,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-03-04-Q004",
+      "concept_id": "EMT-02-03-04",
+      "style": "recall",
+      "stem": "What is a tracheostomy mask for?",
+      "options": [
+        {
+          "text": "Delivering precise oxygen concentrations",
+          "rationale": "That is a Venturi mask."
+        },
+        {
+          "text": "Delivering oxygen over a stoma to a patient who breathes through the neck",
+          "rationale": "Correct — delivering oxygen over a stoma to a patient who breathes through the neck."
+        },
+        {
+          "text": "Humidifying oxygen on long transports",
+          "rationale": "That is humidified oxygen."
+        },
+        {
+          "text": "Rebreathing part of the exhaled volume",
+          "rationale": "That is a partial rebreather."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-04-Q005",
+      "concept_id": "EMT-02-03-04",
+      "style": "application",
+      "stem": "When is humidified oxygen most useful?",
+      "options": [
+        {
+          "text": "On every call",
+          "rationale": "Not needed for short calls."
+        },
+        {
+          "text": "On long transports and for paediatric patients",
+          "rationale": "Correct — on long transports and for paediatric patients."
+        },
+        {
+          "text": "Whenever high flow is used",
+          "rationale": "Flow is not the determinant."
+        },
+        {
+          "text": "Only in cardiac arrest",
+          "rationale": "Not the indication."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-03-05-Q001",
       "concept_id": "EMT-02-03-05",
       "style": "scenario",
@@ -2078,6 +2588,36 @@
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Confirm definition in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-05-Q005",
+      "concept_id": "EMT-02-03-05",
+      "style": "recall",
+      "stem": "What does a pulse oximeter actually measure?",
+      "options": [
+        {
+          "text": "The amount of oxygen dissolved in the blood",
+          "rationale": "Not what it measures."
+        },
+        {
+          "text": "The percentage of haemoglobin saturated with oxygen",
+          "rationale": "Correct — the percentage of haemoglobin saturated with oxygen."
+        },
+        {
+          "text": "The carbon dioxide level",
+          "rationale": "That is capnography."
+        },
+        {
+          "text": "The efficiency of ventilation",
+          "rationale": "It reflects oxygenation, not ventilation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     },
     {
       "schema_version": "1.0.0",
@@ -2204,6 +2744,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-03-06-Q005",
+      "concept_id": "EMT-02-03-06",
+      "style": "recall",
+      "stem": "Which statement about oxygen is correct?",
+      "options": [
+        {
+          "text": "It has no side effects at any dose",
+          "rationale": "Oxygen is a drug with side effects."
+        },
+        {
+          "text": "It is a drug with indications, a dose and side effects",
+          "rationale": "Correct — it is a drug with indications, a dose and side effects."
+        },
+        {
+          "text": "It should be given at maximum flow to every patient",
+          "rationale": "No longer recommended."
+        },
+        {
+          "text": "It is withheld from all COPD patients",
+          "rationale": "Never withheld from a COPD patient in true distress."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-04-01-Q001",
       "concept_id": "EMT-02-04-01",
       "style": "recall",
@@ -2318,6 +2888,36 @@
       ],
       "correct_index": 0,
       "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-01-Q005",
+      "concept_id": "EMT-02-04-01",
+      "style": "application",
+      "stem": "Why must oxygen be attached to a bag-valve-mask?",
+      "options": [
+        {
+          "text": "It makes the bag easier to squeeze",
+          "rationale": "It does not."
+        },
+        {
+          "text": "Without oxygen and a filled reservoir the bag delivers only room air",
+          "rationale": "Correct — without oxygen and a filled reservoir the bag delivers only room air."
+        },
+        {
+          "text": "It prevents gastric distension",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It is required for the seal",
+          "rationale": "Unrelated to the seal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2594,6 +3194,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-04-03-Q004",
+      "concept_id": "EMT-02-04-03",
+      "style": "recall",
+      "stem": "Which finding indicates that artificial ventilation is NOT adequate?",
+      "options": [
+        {
+          "text": "Visible, equal chest rise with each breath",
+          "rationale": "That indicates adequacy."
+        },
+        {
+          "text": "No chest rise, or a progressively distending stomach",
+          "rationale": "Correct — no chest rise, or a progressively distending stomach."
+        },
+        {
+          "text": "Improving skin colour",
+          "rationale": "That indicates adequacy."
+        },
+        {
+          "text": "An improving heart rate",
+          "rationale": "That indicates adequacy."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-03-Q005",
+      "concept_id": "EMT-02-04-03",
+      "style": "application",
+      "stem": "How often is the adequacy of ventilation assessed?",
+      "options": [
+        {
+          "text": "Once, after the first few breaths",
+          "rationale": "It is assessed continuously."
+        },
+        {
+          "text": "Continuously throughout",
+          "rationale": "Correct — continuously throughout."
+        },
+        {
+          "text": "Only when the patient changes",
+          "rationale": "Continuously."
+        },
+        {
+          "text": "At handover only",
+          "rationale": "Far too infrequent."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-04-04-Q001",
       "concept_id": "EMT-02-04-04",
       "style": "recall",
@@ -2678,6 +3338,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-04-Q004",
+      "concept_id": "EMT-02-04-04",
+      "style": "application",
+      "stem": "Why does a distended stomach make ventilation harder?",
+      "options": [
+        {
+          "text": "It absorbs the oxygen",
+          "rationale": "It does not."
+        },
+        {
+          "text": "It pushes up against the diaphragm",
+          "rationale": "Correct — it pushes up against the diaphragm."
+        },
+        {
+          "text": "It blocks the airway directly",
+          "rationale": "Not the mechanism."
+        },
+        {
+          "text": "It reduces the mask seal",
+          "rationale": "Not the mechanism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-04-Q005",
+      "concept_id": "EMT-02-04-04",
+      "style": "recall",
+      "stem": "What must be immediately available whenever you are ventilating a patient?",
+      "options": [
+        {
+          "text": "A second bag-valve-mask",
+          "rationale": "Useful, not the requirement stated."
+        },
+        {
+          "text": "Suction",
+          "rationale": "Correct — suction."
+        },
+        {
+          "text": "A cervical collar",
+          "rationale": "Not the requirement."
+        },
+        {
+          "text": "A pulse oximeter",
+          "rationale": "Useful, but not the stated requirement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -2924,6 +3644,66 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-04-06-Q004",
+      "concept_id": "EMT-02-04-06",
+      "style": "application",
+      "stem": "What happens if you squeeze against a patient's exhalation?",
+      "options": [
+        {
+          "text": "You deliver a larger breath",
+          "rationale": "You deliver nothing and fight them."
+        },
+        {
+          "text": "You fight the patient and deliver nothing useful",
+          "rationale": "Correct — you fight the patient and deliver nothing useful."
+        },
+        {
+          "text": "You reduce gastric distension",
+          "rationale": "It increases the risk."
+        },
+        {
+          "text": "It has no effect either way",
+          "rationale": "It is actively unhelpful."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-06-Q005",
+      "concept_id": "EMT-02-04-06",
+      "style": "recall",
+      "stem": "What are you doing when you assist a patient's ventilations?",
+      "options": [
+        {
+          "text": "Replacing their breaths entirely",
+          "rationale": "That is full ventilation."
+        },
+        {
+          "text": "Adding volume to the breaths they are already taking",
+          "rationale": "Correct — adding volume to the breaths they are already taking."
+        },
+        {
+          "text": "Slowing their respiratory rate",
+          "rationale": "Not the purpose."
+        },
+        {
+          "text": "Providing oxygen without pressure",
+          "rationale": "Assisting means positive pressure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-04-07-Q001",
       "concept_id": "EMT-02-04-07",
       "style": "recall",
@@ -3008,6 +3788,66 @@
       ],
       "correct_index": 0,
       "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-07-Q004",
+      "concept_id": "EMT-02-04-07",
+      "style": "application",
+      "stem": "Which mask often seals better over an adult's stoma?",
+      "options": [
+        {
+          "text": "A large adult mask",
+          "rationale": "Usually too large for the stoma."
+        },
+        {
+          "text": "A paediatric or infant mask",
+          "rationale": "Correct — a paediatric or infant mask."
+        },
+        {
+          "text": "A non-rebreather mask",
+          "rationale": "Not a ventilation mask."
+        },
+        {
+          "text": "No mask is needed",
+          "rationale": "A seal is still required."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-04-07-Q005",
+      "concept_id": "EMT-02-04-07",
+      "style": "recall",
+      "stem": "Why might a stoma need suctioning before ventilation will work?",
+      "options": [
+        {
+          "text": "The stoma closes over without air flow",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Secretions block stomas readily",
+          "rationale": "Correct — secretions block stomas readily."
+        },
+        {
+          "text": "The mask cannot seal without suction",
+          "rationale": "Not the reason."
+        },
+        {
+          "text": "Suction opens the airway",
+          "rationale": "Suction clears it; it does not open it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -3134,6 +3974,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-04-08-Q005",
+      "concept_id": "EMT-02-04-08",
+      "style": "application",
+      "stem": "Why do capnography and pulse oximetry answer different questions?",
+      "options": [
+        {
+          "text": "One is more accurate than the other",
+          "rationale": "Accuracy is not the distinction."
+        },
+        {
+          "text": "Capnography reflects ventilation; pulse oximetry reflects oxygenation",
+          "rationale": "Correct — capnography reflects ventilation; pulse oximetry reflects oxygenation."
+        },
+        {
+          "text": "One works only in cardiac arrest",
+          "rationale": "Both work in most situations."
+        },
+        {
+          "text": "They measure the same thing by different means",
+          "rationale": "They measure different things."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-05-01-Q001",
       "concept_id": "EMT-02-05-01",
       "style": "recall",
@@ -3248,6 +4118,36 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-01-Q005",
+      "concept_id": "EMT-02-05-01",
+      "style": "application",
+      "stem": "Why is fatigue an ominous sign in a patient who has been fighting an asthma attack for hours?",
+      "options": [
+        {
+          "text": "It means the medication has worked",
+          "rationale": "It does not."
+        },
+        {
+          "text": "A patient too tired to keep working is a patient about to stop ventilating adequately",
+          "rationale": "Correct — a patient too tired to keep working is a patient about to stop ventilating adequately."
+        },
+        {
+          "text": "Fatigue is expected and unimportant",
+          "rationale": "It is a warning sign."
+        },
+        {
+          "text": "It indicates the attack was mild",
+          "rationale": "The opposite."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -3374,6 +4274,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-05-02-Q005",
+      "concept_id": "EMT-02-05-02",
+      "style": "recall",
+      "stem": "What is the usual cause of COPD?",
+      "options": [
+        {
+          "text": "Repeated chest infections alone",
+          "rationale": "Not the usual cause."
+        },
+        {
+          "text": "Long-term smoking",
+          "rationale": "Correct — long-term smoking."
+        },
+        {
+          "text": "A single severe pneumonia",
+          "rationale": "Not the usual cause."
+        },
+        {
+          "text": "An inherited condition in most cases",
+          "rationale": "Not the usual cause."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-05-03-Q001",
       "concept_id": "EMT-02-05-03",
       "style": "recall",
@@ -3458,6 +4388,66 @@
       ],
       "correct_index": 0,
       "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-03-Q004",
+      "concept_id": "EMT-02-05-03",
+      "style": "recall",
+      "stem": "Where does the problem sit in pneumonia?",
+      "options": [
+        {
+          "text": "In the airways only",
+          "rationale": "It is the lung tissue itself."
+        },
+        {
+          "text": "In the lung tissue itself, with fluid and pus filling the air sacs",
+          "rationale": "Correct — in the lung tissue itself, with fluid and pus filling the air sacs."
+        },
+        {
+          "text": "In the pleural space",
+          "rationale": "That is a different condition."
+        },
+        {
+          "text": "In the pulmonary vessels",
+          "rationale": "That describes an embolism."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-03-Q005",
+      "concept_id": "EMT-02-05-03",
+      "style": "application",
+      "stem": "What is EMT care for pneumonia?",
+      "options": [
+        {
+          "text": "Antibiotics per protocol",
+          "rationale": "Outside EMT scope."
+        },
+        {
+          "text": "Oxygen, position of comfort and transport",
+          "rationale": "Correct — the infection is treated in hospital."
+        },
+        {
+          "text": "Assisted ventilation in all cases",
+          "rationale": "Only where breathing is inadequate."
+        },
+        {
+          "text": "Nebulised medication in all cases",
+          "rationale": "Not the general management."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -3584,6 +4574,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-05-04-Q005",
+      "concept_id": "EMT-02-05-04",
+      "style": "application",
+      "stem": "Which other findings support a diagnosis of heart failure in a breathless patient?",
+      "options": [
+        {
+          "text": "Fever and a productive cough",
+          "rationale": "Those suggest infection."
+        },
+        {
+          "text": "Distended neck veins and swollen ankles",
+          "rationale": "Correct — distended neck veins and swollen ankles."
+        },
+        {
+          "text": "A sore, swollen calf",
+          "rationale": "That suggests an embolic source."
+        },
+        {
+          "text": "Unilateral absent breath sounds",
+          "rationale": "That suggests a pneumothorax."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-05-05-Q001",
       "concept_id": "EMT-02-05-05",
       "style": "recall",
@@ -3704,6 +4724,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-05-05-Q005",
+      "concept_id": "EMT-02-05-05",
+      "style": "recall",
+      "stem": "What is EMT treatment for a suspected pulmonary embolism?",
+      "options": [
+        {
+          "text": "Assisted ventilation in all cases",
+          "rationale": "Only if breathing is inadequate."
+        },
+        {
+          "text": "Oxygen, position and rapid transport",
+          "rationale": "Correct — there is no EMT treatment beyond this."
+        },
+        {
+          "text": "Nebulised medication",
+          "rationale": "Not indicated."
+        },
+        {
+          "text": "Aspirin per protocol",
+          "rationale": "Not the indication for aspirin."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-05-06-Q001",
       "concept_id": "EMT-02-05-06",
       "style": "recall",
@@ -3788,6 +4838,66 @@
       ],
       "correct_index": 1,
       "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-06-Q004",
+      "concept_id": "EMT-02-05-06",
+      "style": "recall",
+      "stem": "What would you expect to find on the affected side in a spontaneous pneumothorax?",
+      "options": [
+        {
+          "text": "Increased breath sounds",
+          "rationale": "Sounds are reduced or absent."
+        },
+        {
+          "text": "Reduced or absent breath sounds",
+          "rationale": "Correct — reduced or absent breath sounds."
+        },
+        {
+          "text": "Crackles throughout",
+          "rationale": "Not the finding."
+        },
+        {
+          "text": "Normal breath sounds always",
+          "rationale": "Sounds are typically abnormal."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-06-Q005",
+      "concept_id": "EMT-02-05-06",
+      "style": "application",
+      "stem": "What does 'spontaneous' mean in spontaneous pneumothorax?",
+      "options": [
+        {
+          "text": "That it resolves on its own",
+          "rationale": "It does not necessarily."
+        },
+        {
+          "text": "That it happened without trauma",
+          "rationale": "Correct — that it happened without trauma."
+        },
+        {
+          "text": "That it came on slowly",
+          "rationale": "Onset is typically sudden."
+        },
+        {
+          "text": "That it affects both sides",
+          "rationale": "It is typically one-sided."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -3914,6 +5024,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-05-07-Q005",
+      "concept_id": "EMT-02-05-07",
+      "style": "application",
+      "stem": "How should hyperventilation syndrome be managed?",
+      "options": [
+        {
+          "text": "Paper-bag rebreathing",
+          "rationale": "Paper-bag rebreathing is not done."
+        },
+        {
+          "text": "Coach the breathing rate down, give oxygen if there is any doubt, and transport",
+          "rationale": "Correct — coach the breathing rate down, give oxygen if there is any doubt, and transport."
+        },
+        {
+          "text": "Reassurance alone with no transport",
+          "rationale": "Transport is indicated."
+        },
+        {
+          "text": "Assisted ventilation",
+          "rationale": "Not indicated."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-05-08-Q001",
       "concept_id": "EMT-02-05-08",
       "style": "recall",
@@ -4034,6 +5174,36 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "EMT-02-05-08-Q005",
+      "concept_id": "EMT-02-05-08",
+      "style": "recall",
+      "stem": "How does croup typically present?",
+      "options": [
+        {
+          "text": "Sudden high fever, drooling and a muffled voice",
+          "rationale": "That is epiglottitis."
+        },
+        {
+          "text": "A harsh barking cough with stridor, coming on over days and worse at night",
+          "rationale": "Correct — a harsh barking cough with stridor, coming on over days and worse at night."
+        },
+        {
+          "text": "Wheezing that is worse on exhalation",
+          "rationale": "That suggests asthma."
+        },
+        {
+          "text": "Unilateral reduced breath sounds",
+          "rationale": "Not the presentation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 4,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "EMT-02-05-09-Q001",
       "concept_id": "EMT-02-05-09",
       "style": "recall",
@@ -4118,6 +5288,66 @@
       ],
       "correct_index": 1,
       "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-09-Q004",
+      "concept_id": "EMT-02-05-09",
+      "style": "recall",
+      "stem": "What do standard precautions plus respiratory illness add?",
+      "options": [
+        {
+          "text": "Nothing beyond gloves",
+          "rationale": "Eye protection and a mask are added."
+        },
+        {
+          "text": "Eye protection and a mask",
+          "rationale": "Correct — eye protection and a mask."
+        },
+        {
+          "text": "A gown in every case",
+          "rationale": "Not the stated addition."
+        },
+        {
+          "text": "A respirator for every patient",
+          "rationale": "Not the stated addition."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-09-Q005",
+      "concept_id": "EMT-02-05-09",
+      "style": "application",
+      "stem": "What should happen after a respiratory exposure?",
+      "options": [
+        {
+          "text": "Nothing, if you feel well",
+          "rationale": "Exposures are reported regardless."
+        },
+        {
+          "text": "Report and document it through your service's process",
+          "rationale": "Correct — report and document it through your service's process."
+        },
+        {
+          "text": "Tell the receiving hospital only",
+          "rationale": "Your own service's process applies."
+        },
+        {
+          "text": "Wait for symptoms before reporting",
+          "rationale": "Report at the time."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
@@ -4238,6 +5468,36 @@
       ],
       "correct_index": 0,
       "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-05-10-Q005",
+      "concept_id": "EMT-02-05-10",
+      "style": "application",
+      "stem": "What must be confirmed before assisting with a patient's inhaler?",
+      "options": [
+        {
+          "text": "That the patient has used it before",
+          "rationale": "Not the requirement."
+        },
+        {
+          "text": "That it is prescribed to this patient, is not expired, and protocol criteria are met",
+          "rationale": "Correct — that it is prescribed to this patient, is not expired, and protocol criteria are met."
+        },
+        {
+          "text": "That the hospital has been notified",
+          "rationale": "Not required first."
+        },
+        {
+          "text": "That the patient can hold it themselves",
+          "rationale": "Helpful, not the requirement."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 5,
       "domain": "AIR",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."

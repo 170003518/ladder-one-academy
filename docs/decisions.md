@@ -400,3 +400,27 @@ special casing.
 Consequence worth knowing: Module 11 has no module exam and contributes nothing
 to the full simulation. That is correct — it is a guide to the exam, not content
 the exam tests.
+
+## Batch 4 — question top-up and Module 11
+
+Batch 4 item 6 asked for every concept to reach at least five servable-style
+questions so lesson checks stop repeating. 160 questions were written across
+Modules 02 (42), 03 (58), 04 (55) and 05 (6); Modules 01 and 06 through 10 were
+already at five or more per concept.
+
+Two notes on the wording:
+
+"Servable" is read as "of the kind that gets served", not as the literal
+`isServable()` predicate in js/bank.js. That predicate withholds any question
+with `verify: true`, and the standing instruction for every batch has been
+`verify: true` everywhere — so under the literal reading no question in the
+platform is servable and the target would be unreachable. The operative target
+is the quiz pool: `quiz.js` draws `min(pool_size, available)` and `pool_size` is
+5, so a concept with four questions repeats one. Every concept that can have a
+pool now has at least five.
+
+Module 11 is the deliberate exception. Its concepts are read-only with no cards
+and no question bank at all (see the entry above), so it has no quiz pool to
+fill. Writing questions for it would mean testing the reader on advice about
+taking exams rather than on clinical content, which is not what the item asked
+for.
