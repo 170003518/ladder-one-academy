@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 640" width="780" height="640" role="img" aria-labelledby="t d">
+  <title id="t">The paediatric assessment triangle</title>
+  <desc id="d">A triangle with one assessment arm on each side, formed from the doorway without equipment and before touching the child. Top: APPEARANCE, asking whether the brain is perfused and oxygenated, assessed by TICLS - Tone, Interactiveness, Consolability, Look or gaze, Speech or cry. Bottom left: WORK OF BREATHING - stridor, grunting and wheeze; tripoding, sniffing position and refusing to lie down; retractions; nasal flaring; head bobbing in infants. Bottom right: CIRCULATION TO THE SKIN - pallor, mottling and cyanosis. A warning beside the appearance arm states that the quiet child is the trap: a screaming child is spending energy and interacting, and a floppy silent child who does not mind a stranger is usually the sicker one. A table below gives the four patterns: breathing abnormal alone is respiratory distress; breathing and appearance abnormal is respiratory failure; appearance and skin abnormal with normal breathing is shock; all three abnormal is cardiopulmonary failure.</desc>
+  <style>
+    .tri{fill:none;stroke:#2E7DFF;stroke-width:3}
+    .box{fill:#F5F7FA;stroke:#0F1F3D;stroke-width:2}
+    .warn{fill:#FFF4EE;stroke:#F25C19;stroke-width:2}
+    .txt{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#0F1F3D}
+    .sm{font-family:Inter,Arial,sans-serif;font-size:11px;fill:#8A94A6}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:14px;letter-spacing:1px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .cap{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .mono{font-family:'IBM Plex Mono',Menlo,monospace;font-size:11.5px;font-weight:700;fill:#0F1F3D}
+    .hdr{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:12px;letter-spacing:1px;fill:#FFFFFF}
+  </style>
+  <rect width="780" height="640" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="34">PAEDIATRIC ASSESSMENT TRIANGLE</text>
+  <text class="cap" x="28" y="54">Formed from the doorway. No equipment, no touching, a few seconds.</text>
+
+  <polygon class="tri" points="390,92 214,330 566,330"/>
+
+  <!-- Appearance -->
+  <rect class="box" x="238" y="96" width="304" height="86" rx="6"/>
+  <text class="ttl" x="254" y="118">APPEARANCE</text>
+  <text class="sm" x="254" y="136">Is the brain perfused and oxygenated?</text>
+  <text class="mono" x="254" y="158">T·I·C·L·S</text>
+  <text class="txt" x="322" y="158">Tone · Interactiveness · Consolability</text>
+  <text class="txt" x="322" y="174">Look or gaze · Speech or cry</text>
+
+  <!-- Work of breathing -->
+  <rect class="box" x="28" y="352" width="336" height="112" rx="6"/>
+  <text class="ttl" x="44" y="374">WORK OF BREATHING</text>
+  <text class="txt" x="44" y="396">Sounds: stridor · grunting · wheeze</text>
+  <text class="txt" x="44" y="414">Position: tripoding · sniffing · will not lie down</text>
+  <text class="txt" x="44" y="432">Retractions · nasal flaring</text>
+  <text class="txt" x="44" y="450">Head bobbing in infants</text>
+
+  <!-- Circulation -->
+  <rect class="box" x="416" y="352" width="336" height="112" rx="6"/>
+  <text class="ttl" x="432" y="374">CIRCULATION TO THE SKIN</text>
+  <text class="txt" x="432" y="396">Pallor</text>
+  <text class="txt" x="432" y="414">Mottling</text>
+  <text class="txt" x="432" y="432">Cyanosis</text>
+  <text class="sm" x="432" y="452">What the periphery looks like when the core is prioritised.</text>
+
+  <!-- quiet child warning -->
+  <rect class="warn" x="574" y="96" width="178" height="112" rx="6"/>
+  <text class="ttl" x="588" y="118">THE QUIET CHILD</text>
+  <text class="txt" x="588" y="140">A screaming child is</text>
+  <text class="txt" x="588" y="156">spending energy and</text>
+  <text class="txt" x="588" y="172">interacting. A floppy,</text>
+  <text class="txt" x="588" y="188">silent child is usually</text>
+  <text class="txt" x="588" y="204">the sicker one.</text>
+
+  <!-- patterns table -->
+  <rect x="28" y="492" width="724" height="26" fill="#0F1F3D"/>
+  <text class="hdr" x="42" y="510">WHAT THE PATTERN MEANS</text>
+  <line x1="28" y1="518" x2="752" y2="518" stroke="#0F1F3D" stroke-width="1"/>
+  <text class="mono" x="42" y="540">Breathing only</text>
+  <text class="txt" x="230" y="540">→ RESPIRATORY DISTRESS — still compensating</text>
+  <text class="mono" x="42" y="562">Breathing + appearance</text>
+  <text class="txt" x="230" y="562">→ RESPIRATORY FAILURE — compensation is going. Act now</text>
+  <text class="mono" x="42" y="584">Appearance + skin</text>
+  <text class="txt" x="230" y="584">→ SHOCK — a perfusion problem rather than an airway one</text>
+  <text class="mono" x="42" y="606">All three</text>
+  <text class="txt" x="230" y="606">→ CARDIOPULMONARY FAILURE — nothing about this waits</text>
+  <line x1="28" y1="618" x2="752" y2="618" stroke="#8A94A6" stroke-width="1"/>
+  <text class="cap" x="28" y="634">A child not behaving like a child is a sick child, whatever the numbers say. Confirm against your own text.</text>
+</svg>

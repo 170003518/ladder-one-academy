@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 780" width="800" height="780" role="img" aria-labelledby="t d">
+  <title id="t">START triage flow</title>
+  <desc id="d">Decision flowchart for START triage, Simple Triage And Rapid Treatment. Step 1: can the patient walk? Yes leads to MINOR, directed to a designated area. No continues. Step 2: is the patient breathing? Not breathing leads to OPEN THE AIRWAY; if breathing starts the patient is IMMEDIATE, if not the patient is DECEASED and you move on. Step 3, for a breathing patient: respiratory rate above 30 leads to IMMEDIATE, otherwise continue. Step 4: perfusion, meaning absent radial pulse or capillary refill over 2 seconds, leads to IMMEDIATE, otherwise continue; major bleeding is controlled here. Step 5: mental status, cannot follow a simple command leads to IMMEDIATE, can follow leads to DELAYED. A panel states the only three interventions permitted during triage: open the airway, control major bleeding, move on. A footer states that the system is built to be fast rather than accurate, that the pace is seconds per patient, and that triage is repeated because a tag is a snapshot and not a verdict.</desc>
+  <style>
+    .box{fill:#F5F7FA;stroke:#0F1F3D;stroke-width:2}
+    .act{fill:#0F1F3D;stroke:#0F1F3D;stroke-width:2}
+    .dia{fill:#FFFFFF;stroke:#2E7DFF;stroke-width:2}
+    .warn{fill:#FFF4EE;stroke:#F25C19;stroke-width:2}
+    .txt{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#0F1F3D}
+    .txtw{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#FFFFFF}
+    .sm{font-family:Inter,Arial,sans-serif;font-size:11px;fill:#8A94A6}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:13px;letter-spacing:1px;fill:#0F1F3D}
+    .ttlw{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:13px;letter-spacing:1px;fill:#FFFFFF}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .cap{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .arr{stroke:#0F1F3D;stroke-width:1.8;fill:none}
+    .yes{font-family:'IBM Plex Mono',Menlo,monospace;font-size:11px;font-weight:700;fill:#C0392B}
+    .no{font-family:'IBM Plex Mono',Menlo,monospace;font-size:11px;font-weight:700;fill:#1B7F4B}
+    .tagI{fill:#C0392B;stroke:#C0392B}
+    .tagD{fill:#E8B21A;stroke:#C99400}
+    .tagM{fill:#1B7F4B;stroke:#1B7F4B}
+    .tagX{fill:#2B2F38;stroke:#2B2F38}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0F1F3D"/></marker>
+  </defs>
+  <rect width="800" height="780" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="34">START TRIAGE</text>
+  <text class="cap" x="28" y="54">Simple Triage And Rapid Treatment — built to be FAST, not accurate. Seconds per patient.</text>
+
+  <!-- 1 walk -->
+  <polygon class="dia" points="250,78 420,78 460,114 420,150 250,150 210,114"/>
+  <text class="ttl" x="262" y="110">1 · CAN THEY WALK?</text>
+  <text class="sm" x="262" y="130">Say it loudly to the whole scene</text>
+  <line class="arr" x1="460" y1="114" x2="560" y2="114" marker-end="url(#a)"/>
+  <text class="yes" x="492" y="106">YES</text>
+  <rect class="tagM" x="566" y="92" width="200" height="44" rx="6"/>
+  <text class="ttlw" x="580" y="112">MINOR</text>
+  <text class="txtw" x="580" y="128" style="font-size:11px">Direct them to the point you name</text>
+
+  <line class="arr" x1="335" y1="150" x2="335" y2="186" marker-end="url(#a)"/>
+  <text class="no" x="342" y="172">NO</text>
+
+  <!-- 2 breathing -->
+  <polygon class="dia" points="250,186 420,186 460,222 420,258 250,258 210,222"/>
+  <text class="ttl" x="262" y="218">2 · BREATHING?</text>
+  <text class="sm" x="262" y="238">Look and listen. Do not wait.</text>
+
+  <line class="arr" x1="210" y1="222" x2="120" y2="222" marker-end="url(#a)"/>
+  <text class="no" x="140" y="214">NO</text>
+  <rect class="act" x="28" y="200" width="88" height="44" rx="6"/>
+  <text class="ttlw" x="40" y="219">OPEN THE</text>
+  <text class="ttlw" x="40" y="236">AIRWAY</text>
+  <line class="arr" x1="72" y1="244" x2="72" y2="292" marker-end="url(#a)"/>
+  <polygon class="dia" points="28,292 150,292 172,320 150,348 28,348 6,320"/>
+  <text class="ttl" x="36" y="316">BREATHING</text>
+  <text class="ttl" x="36" y="334">NOW?</text>
+  <line class="arr" x1="172" y1="320" x2="236" y2="320" marker-end="url(#a)"/>
+  <text class="yes" x="188" y="312">YES</text>
+  <line class="arr" x1="89" y1="348" x2="89" y2="394" marker-end="url(#a)"/>
+  <text class="no" x="96" y="378">NO</text>
+  <rect class="tagX" x="10" y="394" width="180" height="44" rx="6"/>
+  <text class="ttlw" x="24" y="414">DECEASED</text>
+  <text class="txtw" x="24" y="430" style="font-size:11px">Move on. This is the hard one.</text>
+
+  <!-- immediate column -->
+  <rect class="tagI" x="236" y="298" width="200" height="44" rx="6"/>
+  <text class="ttlw" x="250" y="326">IMMEDIATE</text>
+
+  <line class="arr" x1="420" y1="222" x2="620" y2="222" marker-end="url(#a)"/>
+  <text class="yes" x="500" y="214">BREATHING</text>
+  <line class="arr" x1="620" y1="222" x2="620" y2="264"/>
+
+  <!-- 3 rate -->
+  <polygon class="dia" points="520,264 700,264 736,300 700,336 520,336 484,300"/>
+  <text class="ttl" x="532" y="294">3 · RATE ABOVE 30?</text>
+  <text class="sm" x="532" y="314">Breaths per minute</text>
+  <line class="arr" x1="484" y1="300" x2="442" y2="310" marker-end="url(#a)"/>
+  <text class="yes" x="444" y="292">YES</text>
+  <line class="arr" x1="610" y1="336" x2="610" y2="376" marker-end="url(#a)"/>
+  <text class="no" x="618" y="362">NO</text>
+
+  <!-- 4 perfusion -->
+  <polygon class="dia" points="500,376 720,376 756,416 720,456 500,456 464,416"/>
+  <text class="ttl" x="512" y="404">4 · PERFUSION</text>
+  <text class="txt" x="512" y="422">No radial pulse, or capillary</text>
+  <text class="txt" x="512" y="438">refill over 2 seconds?</text>
+  <line class="arr" x1="464" y1="416" x2="402" y2="348" marker-end="url(#a)"/>
+  <text class="yes" x="398" y="380">YES</text>
+  <line class="arr" x1="610" y1="456" x2="610" y2="500" marker-end="url(#a)"/>
+  <text class="sm" x="470" y="480">Control major bleeding when you find it</text>
+  <text class="no" x="618" y="484">NO</text>
+
+  <!-- 5 mental status -->
+  <polygon class="dia" points="500,500 720,500 756,540 720,580 500,580 464,540"/>
+  <text class="ttl" x="512" y="528">5 · MENTAL STATUS</text>
+  <text class="txt" x="512" y="546">Can they follow a simple</text>
+  <text class="txt" x="512" y="562">command?</text>
+  <line class="arr" x1="500" y1="546" x2="422" y2="614" marker-end="url(#a)"/>
+  <text class="no" x="452" y="586">NO</text>
+  <rect class="tagI" x="236" y="608" width="180" height="44" rx="6"/>
+  <text class="ttlw" x="250" y="636">IMMEDIATE</text>
+  <line class="arr" x1="610" y1="580" x2="610" y2="616" marker-end="url(#a)"/>
+  <text class="yes" x="618" y="602">YES</text>
+  <rect class="tagD" x="510" y="616" width="200" height="44" rx="6"/>
+  <text class="ttl" x="524" y="644">DELAYED</text>
+
+  <!-- interventions panel -->
+  <rect class="warn" x="28" y="470" width="300" height="122" rx="6"/>
+  <text class="ttl" x="44" y="494">ONLY THREE INTERVENTIONS</text>
+  <text class="txt" x="44" y="518">1 · Open the airway</text>
+  <text class="txt" x="44" y="538">2 · Control major bleeding</text>
+  <text class="txt" x="44" y="558">3 · Move on</text>
+  <text class="sm" x="44" y="580">Anything else means you have stopped triaging.</text>
+
+  <!-- footer -->
+  <line x1="28" y1="684" x2="772" y2="684" stroke="#8A94A6" stroke-width="1"/>
+  <text class="txt" x="28" y="708">The walking-wounded step often removes most of the problem in fifteen seconds. Say it loudly, once, to the whole scene.</text>
+  <text class="txt" x="28" y="730">TRIAGE IS REPEATED. A tag is a snapshot of one moment, not a verdict — patients change while you work.</text>
+  <text class="cap" x="28" y="758">Figures are the standard published START values. Confirm against your own text and the triage system your service actually uses.</text>
+</svg>

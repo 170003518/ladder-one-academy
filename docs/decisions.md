@@ -494,3 +494,14 @@ the UI, the concept schema gained an optional `pointer` field holding an in-app
 hash route. `lesson.js` renders it as a button under the read pane and
 `overview.js` renders it beside the concept row. Three concepts use it, all
 pointing at `#/test`.
+
+## Batch 4 — a pre-existing defect found while attaching diagrams
+
+The four Module 06 diagrams shipped in batch 3 were attached to concepts through
+the `media[]` manifest but never listed in `modes.see`. `see.js` resolves
+`modes.see` against the manifest and renders nothing that is not in both, so
+those four figures never appeared in the app at all — they were reachable only
+through the worksheet generator, which reads `media[]` directly.
+
+Fixed for all nine concepts that carry media: EMT-06-02-02, EMT-06-04-01,
+EMT-06-04-02 and EMT-06-06-06 from batch 3, and the five attached in this batch.

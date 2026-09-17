@@ -569,7 +569,10 @@
           "title": "Her fourth",
           "dispatch": "Medic 3 — in labour, contractions two minutes apart, hospital 25 minutes away.",
           "body": "She said calmly, between contractions, that this one was coming now and that she had done this three times before.\n\nThe crew started for the hospital because 25 minutes did not sound like very long.\n\nThey delivered in a lay-by eleven minutes later. She had been working from considerably better information than they were."
-        }
+        },
+        "see": [
+          "stages_of_labour"
+        ]
       },
       "cards": [
         "concept"
@@ -580,7 +583,18 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the stages of labour and the signs of imminent delivery against the current text and local protocol on transport versus on-scene delivery decisions."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the stages of labour and the signs of imminent delivery against the current text and local protocol on transport versus on-scene delivery decisions.",
+      "media": [
+        {
+          "id": "stages_of_labour",
+          "src": "media/emt/07/stages_of_labour.svg",
+          "kind": "diagram",
+          "alt": "A horizontal timeline of labour in three stages, with the EMT decision point marked. FIRST STAGE runs from the onset of regular contractions to full dilation of the cervix and is the longest stage; contractions become longer, stronger and closer together; the membranes may rupture; this is usually the stage in which there is time to transport. SECOND STAGE runs from full dilation to the delivery of the baby; the mother feels an urge to push or to bear down, and CROWNING appears - the head visible at the opening. THIRD STAGE runs from the delivery of the baby to the delivery of the placenta, which separates and delivers on its own. A decision box between the first and second stages reads CROWNING DECIDES IT: if the head is visible you deliver where you are, because transporting gives the same event with less room, light and hands. A footer notes that the mother is the patient who gets forgotten and is the one who bleeds, and that durations vary enormously and are not stated.",
+          "caption": "Three stages, and the decision that sits between the first two: crowning means you deliver where you are.",
+          "source": "original",
+          "license": "Original work for Ladder One Academy"
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -2265,7 +2279,10 @@
           "title": "Too easy",
           "dispatch": "Medic 3 — two year old, fever, parents worried.",
           "body": "The student remarked that this one was easy because the child had let them do everything without complaining.\n\nThe preceptor asked when they had last met a well two year old who let a stranger do everything without complaining.\n\nThey upgraded on the way in."
-        }
+        },
+        "see": [
+          "pediatric_assessment_triangle"
+        ]
       },
       "cards": [
         "concept",
@@ -2326,7 +2343,18 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the components of the paediatric assessment triangle and the TICLS mnemonic against the current text. Paediatric vital sign normal ranges are deliberately NOT reproduced here; use the lifespan vital signs numbers card in EMT-03-05-01 and confirm it against the current text."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the components of the paediatric assessment triangle and the TICLS mnemonic against the current text. Paediatric vital sign normal ranges are deliberately NOT reproduced here; use the lifespan vital signs numbers card in EMT-03-05-01 and confirm it against the current text.",
+      "media": [
+        {
+          "id": "pediatric_assessment_triangle",
+          "src": "media/emt/07/pediatric_assessment_triangle.svg",
+          "kind": "diagram",
+          "alt": "A triangle with one assessment arm on each side, formed from the doorway without equipment and before touching the child. Top: APPEARANCE, asking whether the brain is perfused and oxygenated, assessed by TICLS - Tone, Interactiveness, Consolability, Look or gaze, Speech or cry. Bottom left: WORK OF BREATHING - stridor, grunting and wheeze; tripoding, sniffing position and refusing to lie down; retractions; nasal flaring; head bobbing in infants. Bottom right: CIRCULATION TO THE SKIN - pallor, mottling and cyanosis. A warning beside the appearance arm states that the quiet child is the trap: a screaming child is spending energy and interacting, and a floppy silent child who does not mind a stranger is usually the sicker one. A table below gives the four patterns: breathing abnormal alone is respiratory distress; breathing and appearance abnormal is respiratory failure; appearance and skin abnormal with normal breathing is shock; all three abnormal is cardiopulmonary failure.",
+          "caption": "Formed from the doorway, without equipment, before you touch the child — and the pattern says which system is failing.",
+          "source": "original",
+          "license": "Original work for Ladder One Academy"
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",

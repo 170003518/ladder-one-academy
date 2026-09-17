@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" role="img" aria-labelledby="t d">
+  <title id="t">Incident command system structure</title>
+  <desc id="d">An organisation chart for the incident command system. At the top is the INCIDENT COMMANDER - exactly one person, known to everyone, with command transferred formally when it changes. To the side sit the COMMAND STAFF: safety officer, public information officer and liaison officer, who report directly to the commander. Below are the four GENERAL STAFF sections: OPERATIONS, which does the work; PLANNING, which tracks resources and writes the plan; LOGISTICS, which supplies and supports; and FINANCE AND ADMINISTRATION, which tracks cost and time. Beneath Operations at an EMS incident sit the four functional roles: TRIAGE, TREATMENT, TRANSPORT and STAGING. Two notes explain that the structure scales both ways - a small incident may be one person doing everything, which is still incident command - and that span of control, the number one supervisor can oversee, is about three to seven, five being a working number; exceeding it is why large incidents grow layers.</desc>
+  <style>
+    .cmd{fill:#0F1F3D;stroke:#0F1F3D;stroke-width:2}
+    .sec{fill:#F5F7FA;stroke:#0F1F3D;stroke-width:2}
+    .staff{fill:#EAF1FF;stroke:#2E7DFF;stroke-width:2}
+    .ems{fill:#FFF4EE;stroke:#F25C19;stroke-width:2}
+    .txt{font-family:Inter,Arial,sans-serif;font-size:12px;fill:#0F1F3D}
+    .txtw{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#D8DEE8}
+    .sm{font-family:Inter,Arial,sans-serif;font-size:11px;fill:#5A6577}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:13px;letter-spacing:1px;fill:#0F1F3D}
+    .ttlw{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:15px;letter-spacing:1px;fill:#FFFFFF}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .cap{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .mono{font-family:'IBM Plex Mono',Menlo,monospace;font-size:11.5px;font-weight:700;fill:#C0392B}
+    .ln{stroke:#0F1F3D;stroke-width:1.8;fill:none}
+  </style>
+  <rect width="900" height="620" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="34">INCIDENT COMMAND SYSTEM</text>
+  <text class="cap" x="28" y="54">One plan, clear roles, and a span of control a human being can actually manage.</text>
+
+  <!-- commander -->
+  <rect class="cmd" x="330" y="80" width="250" height="62" rx="6"/>
+  <text class="ttlw" x="348" y="106">INCIDENT COMMANDER</text>
+  <text class="txtw" x="348" y="126">Exactly one. Transferred formally.</text>
+
+  <!-- command staff -->
+  <line class="ln" x1="580" y1="111" x2="668" y2="111"/>
+  <rect class="staff" x="668" y="76" width="204" height="72" rx="6"/>
+  <text class="ttl" x="684" y="98">COMMAND STAFF</text>
+  <text class="txt" x="684" y="118">Safety officer · Liaison officer</text>
+  <text class="txt" x="684" y="136">Public information officer</text>
+
+  <!-- trunk -->
+  <line class="ln" x1="455" y1="142" x2="455" y2="178"/>
+  <line class="ln" x1="130" y1="178" x2="780" y2="178"/>
+  <line class="ln" x1="130" y1="178" x2="130" y2="204"/>
+  <line class="ln" x1="347" y1="178" x2="347" y2="204"/>
+  <line class="ln" x1="563" y1="178" x2="563" y2="204"/>
+  <line class="ln" x1="780" y1="178" x2="780" y2="204"/>
+
+  <rect class="sec" x="28" y="204" width="204" height="96" rx="6"/>
+  <text class="ttl" x="44" y="228">OPERATIONS</text>
+  <text class="txt" x="44" y="250">Does the work of the</text>
+  <text class="txt" x="44" y="268">incident. The people</text>
+  <text class="txt" x="44" y="286">with their hands on it.</text>
+
+  <rect class="sec" x="245" y="204" width="204" height="96" rx="6"/>
+  <text class="ttl" x="261" y="228">PLANNING</text>
+  <text class="txt" x="261" y="250">Tracks resources and</text>
+  <text class="txt" x="261" y="268">patients, and writes</text>
+  <text class="txt" x="261" y="286">the plan.</text>
+
+  <rect class="sec" x="461" y="204" width="204" height="96" rx="6"/>
+  <text class="ttl" x="477" y="228">LOGISTICS</text>
+  <text class="txt" x="477" y="250">Supplies and supports —</text>
+  <text class="txt" x="477" y="268">equipment, food, water,</text>
+  <text class="txt" x="477" y="286">fuel, relief.</text>
+
+  <rect class="sec" x="678" y="204" width="194" height="96" rx="6"/>
+  <text class="ttl" x="694" y="228">FINANCE / ADMIN</text>
+  <text class="txt" x="694" y="250">Tracks cost, time and</text>
+  <text class="txt" x="694" y="268">what was used.</text>
+
+  <!-- EMS functions under operations -->
+  <line class="ln" x1="130" y1="300" x2="130" y2="330"/>
+  <line class="ln" x1="88" y1="330" x2="740" y2="330"/>
+  <line class="ln" x1="88" y1="330" x2="88" y2="356"/>
+  <line class="ln" x1="305" y1="330" x2="305" y2="356"/>
+  <line class="ln" x1="522" y1="330" x2="522" y2="356"/>
+  <line class="ln" x1="740" y1="330" x2="740" y2="356"/>
+  <text class="sm" x="150" y="322">At an EMS incident, Operations carries the four functional roles:</text>
+
+  <rect class="ems" x="28" y="356" width="192" height="86" rx="6"/>
+  <text class="ttl" x="44" y="378">TRIAGE</text>
+  <text class="txt" x="44" y="398">Sorts the patients and</text>
+  <text class="txt" x="44" y="416">works out who needs</text>
+  <text class="txt" x="44" y="434">what first.</text>
+
+  <rect class="ems" x="238" y="356" width="192" height="86" rx="6"/>
+  <text class="ttl" x="254" y="378">TREATMENT</text>
+  <text class="txt" x="254" y="398">Care in the treatment</text>
+  <text class="txt" x="254" y="416">area, grouped by</text>
+  <text class="txt" x="254" y="434">priority.</text>
+
+  <rect class="ems" x="448" y="356" width="192" height="86" rx="6"/>
+  <text class="ttl" x="464" y="378">TRANSPORT</text>
+  <text class="txt" x="464" y="398">Who goes where and in</text>
+  <text class="txt" x="464" y="416">what order. RECORDS IT,</text>
+  <text class="txt" x="464" y="434">because nobody can later.</text>
+
+  <rect class="ems" x="658" y="356" width="192" height="86" rx="6"/>
+  <text class="ttl" x="674" y="378">STAGING</text>
+  <text class="txt" x="674" y="398">Holds arriving units so</text>
+  <text class="txt" x="674" y="416">they stay findable and</text>
+  <text class="txt" x="674" y="434">assignable.</text>
+
+  <!-- notes -->
+  <rect class="staff" x="28" y="470" width="404" height="96" rx="6"/>
+  <text class="ttl" x="44" y="494">SPAN OF CONTROL</text>
+  <text class="txt" x="44" y="516">About 3 to 7 people per supervisor, 5 as a working number.</text>
+  <text class="txt" x="44" y="536">Exceed it and you add a LAYER — which is why large incidents</text>
+  <text class="txt" x="44" y="556">grow depth. That is arithmetic about attention, not bureaucracy.</text>
+
+  <rect class="staff" x="448" y="470" width="424" height="96" rx="6"/>
+  <text class="ttl" x="464" y="494">IT SCALES BOTH WAYS</text>
+  <text class="txt" x="464" y="516">A small incident may be ONE PERSON doing everything, and that</text>
+  <text class="txt" x="464" y="536">is still incident command. The structure grows to fit the incident;</text>
+  <text class="txt" x="464" y="556">the incident is not forced into the structure.</text>
+
+  <text class="mono" x="28" y="590">YOU TAKE ASSIGNMENTS FROM ONE SUPERVISOR ONLY. FREELANCING IS THE DANGER, AND IT IS ALWAYS WELL INTENTIONED.</text>
+  <text class="cap" x="28" y="610">Section names and structure vary between systems. Confirm against your own local system and the current text.</text>
+</svg>

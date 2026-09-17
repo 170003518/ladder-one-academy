@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" width="820" height="620" role="img" aria-labelledby="t d">
+  <title id="t">Hazardous materials control zones</title>
+  <desc id="d">Three nested control zones drawn as rectangles, with the wind blowing from the left. Innermost is the HOT ZONE, the exclusion zone containing the release: only trained personnel in appropriate protection enter, and the only patient care is getting the patient out - no assessment, no treatment, no vital signs. Around it is the WARM ZONE, the decontamination corridor, where contamination is reduced and protective equipment is removed in sequence; life-saving intervention only, by trained and protected people. Outermost is the COLD ZONE, containing the command post, staging, the treatment area, transport and the ambulances, and this is where EMTs work; nothing contaminated enters it. A single one-way arrow runs from hot through warm into cold, labelled ONE WAY ONLY, with a note that reverse movement requires going through the whole process again. A wind arrow at the top left is labelled: position upwind and uphill, and if the wind shifts the zones move - including wherever you parked.</desc>
+  <style>
+    .cold{fill:#F5F7FA;stroke:#1B7F4B;stroke-width:3}
+    .warm{fill:#FFF4EE;stroke:#F25C19;stroke-width:3}
+    .hot{fill:#FBE6E3;stroke:#C0392B;stroke-width:3}
+    .txt{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#0F1F3D}
+    .sm{font-family:Inter,Arial,sans-serif;font-size:11px;fill:#5A6577}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:15px;letter-spacing:1px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .cap{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .mono{font-family:'IBM Plex Mono',Menlo,monospace;font-size:11px;font-weight:700;fill:#C0392B}
+    .arr{stroke:#0F1F3D;stroke-width:2.4;fill:none}
+    .wind{stroke:#2E7DFF;stroke-width:2.4;fill:none}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0F1F3D"/></marker>
+    <marker id="w" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2E7DFF"/></marker>
+  </defs>
+  <rect width="820" height="620" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="34">HAZMAT CONTROL ZONES</text>
+  <text class="cap" x="28" y="54">Hot, warm, cold — and movement runs one way only.</text>
+
+  <!-- wind -->
+  <line class="wind" x1="30" y1="86" x2="150" y2="86" marker-end="url(#w)"/>
+  <text class="ttl" x="160" y="90">WIND</text>
+  <text class="sm" x="212" y="90">Position UPWIND and UPHILL. If the wind shifts, THE ZONES MOVE — including where you parked.</text>
+
+  <!-- cold -->
+  <rect class="cold" x="28" y="110" width="764" height="380" rx="10"/>
+  <text class="ttl" x="46" y="136">COLD ZONE — support</text>
+  <text class="txt" x="46" y="156">Command post · staging · TREATMENT · transport · the ambulances</text>
+  <text class="txt" x="46" y="174">THIS IS WHERE EMTs WORK, unless specifically trained and equipped otherwise</text>
+  <text class="mono" x="46" y="194">NOTHING CONTAMINATED ENTERS — not a patient, not a responder, not a piece of kit</text>
+
+  <!-- warm -->
+  <rect class="warm" x="214" y="214" width="536" height="244" rx="10"/>
+  <text class="ttl" x="232" y="240">WARM ZONE — decontamination corridor</text>
+  <text class="txt" x="232" y="260">Contamination is REDUCED on the way out · PPE removed IN SEQUENCE</text>
+  <text class="txt" x="232" y="278">Trained, protected decontamination personnel only</text>
+  <text class="txt" x="232" y="296">LIFE-SAVING INTERVENTION ONLY — not general patient care</text>
+
+  <!-- hot -->
+  <rect class="hot" x="380" y="320" width="352" height="116" rx="10"/>
+  <text class="ttl" x="398" y="346">HOT ZONE — exclusion</text>
+  <text class="txt" x="398" y="366">Contains the release. Everything inside is contaminated</text>
+  <text class="txt" x="398" y="384">Trained personnel in appropriate protection ONLY</text>
+  <text class="mono" x="398" y="404">NO PATIENT CARE BEYOND GETTING THEM OUT</text>
+  <text class="sm" x="398" y="422">No assessment. No treatment. No vital signs.</text>
+
+  <!-- one-way arrow -->
+  <line class="arr" x1="380" y1="378" x2="252" y2="378" marker-end="url(#a)"/>
+  <line class="arr" x1="214" y1="378" x2="120" y2="378" marker-end="url(#a)"/>
+  <text class="mono" x="252" y="366">ONE WAY ONLY</text>
+  <text class="sm" x="120" y="400">HOT → WARM → COLD. Never back without going</text>
+  <text class="sm" x="120" y="414">through the whole process again.</text>
+
+  <!-- footer -->
+  <line x1="28" y1="516" x2="792" y2="516" stroke="#8A94A6" stroke-width="1"/>
+  <text class="txt" x="28" y="540">Every shortcut across a boundary makes the incident bigger — and shortcuts are always taken by well-meaning people in a hurry.</text>
+  <text class="txt" x="28" y="562">CONTAMINATED PATIENTS NEVER ENTER THE AMBULANCE. An interior cannot be decontaminated, and a contaminated vehicle is</text>
+  <text class="txt" x="28" y="580">out of service and a hazard in itself.</text>
+  <text class="cap" x="28" y="606">Zone definitions, entry criteria and your own scope in each zone are set by your local protocol and hazmat plan. Confirm before use.</text>
+</svg>

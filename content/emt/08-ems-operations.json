@@ -2092,7 +2092,10 @@
           "title": "Where is he",
           "dispatch": "Command — personnel accountability check, all units report.",
           "body": "One name did not come back, and for about ninety seconds nobody could say where he was.\n\nHe had seen something useful and gone to do it, which was well intentioned and correct on its own terms.\n\nNobody had known. That was the entire problem, and everybody on that scene remembered it."
-        }
+        },
+        "see": [
+          "ics_structure"
+        ]
       },
       "cards": [
         "concept"
@@ -2103,7 +2106,18 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm incident command terminology, span of control figures and structure against the current text and your local system, which may use different section names."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm incident command terminology, span of control figures and structure against the current text and your local system, which may use different section names.",
+      "media": [
+        {
+          "id": "ics_structure",
+          "src": "media/emt/08/ics_structure.svg",
+          "kind": "diagram",
+          "alt": "An organisation chart for the incident command system. At the top is the INCIDENT COMMANDER - exactly one person, known to everyone, with command transferred formally when it changes. To the side sit the COMMAND STAFF: safety officer, public information officer and liaison officer, who report directly to the commander. Below are the four GENERAL STAFF sections: OPERATIONS, which does the work; PLANNING, which tracks resources and writes the plan; LOGISTICS, which supplies and supports; and FINANCE AND ADMINISTRATION, which tracks cost and time. Beneath Operations at an EMS incident sit the four functional roles: TRIAGE, TREATMENT, TRANSPORT and STAGING. Two notes explain that the structure scales both ways - a small incident may be one person doing everything, which is still incident command - and that span of control, the number one supervisor can oversee, is about three to seven, five being a working number; exceeding it is why large incidents grow layers.",
+          "caption": "One commander, four sections, and the four EMS functions under Operations. Span of control is why large incidents grow layers.",
+          "source": "original",
+          "license": "Original work for Ladder One Academy"
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -2404,7 +2418,10 @@
           "title": "Everyone who can hear me",
           "dispatch": "Medic 4 — triage assigned, approximately thirty patients reported.",
           "body": "Thirty patients is a number that makes people freeze, and for a second or two everybody did.\n\nThen somebody shouted the walking wounded instruction, and about nineteen people stood up and walked over to the fence.\n\nWhat was left was eleven patients, which is a problem you can actually work."
-        }
+        },
+        "see": [
+          "start_triage_flow"
+        ]
       },
       "cards": [
         "concept",
@@ -2560,7 +2577,18 @@
         "sequence": 2
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Triage algorithm figures (START: respiratory rate above 30, capillary refill over 2 seconds or absent radial pulse, ability to follow simple commands; JumpSTART: respiratory rate below 15 or above 45, five rescue breaths) are standard published values for those systems but MUST be confirmed against the current text and against the triage system your own service actually uses, which may differ. No medication names or doses appear."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Triage algorithm figures (START: respiratory rate above 30, capillary refill over 2 seconds or absent radial pulse, ability to follow simple commands; JumpSTART: respiratory rate below 15 or above 45, five rescue breaths) are standard published values for those systems but MUST be confirmed against the current text and against the triage system your own service actually uses, which may differ. No medication names or doses appear.",
+      "media": [
+        {
+          "id": "start_triage_flow",
+          "src": "media/emt/08/start_triage_flow.svg",
+          "kind": "diagram",
+          "alt": "Decision flowchart for START triage, Simple Triage And Rapid Treatment. Step 1: can the patient walk? Yes leads to MINOR, directed to a designated area. No continues. Step 2: is the patient breathing? Not breathing leads to OPEN THE AIRWAY; if breathing starts the patient is IMMEDIATE, if not the patient is DECEASED and you move on. Step 3, for a breathing patient: respiratory rate above 30 leads to IMMEDIATE, otherwise continue. Step 4: perfusion, meaning absent radial pulse or capillary refill over 2 seconds, leads to IMMEDIATE, otherwise continue; major bleeding is controlled here. Step 5: mental status, cannot follow a simple command leads to IMMEDIATE, can follow leads to DELAYED. A panel states the only three interventions permitted during triage: open the airway, control major bleeding, move on. A footer states that the system is built to be fast rather than accurate, that the pace is seconds per patient, and that triage is repeated because a tag is a snapshot and not a verdict.",
+          "caption": "Five steps and only three permitted interventions. Built to be fast rather than accurate, and that trade is deliberate.",
+          "source": "original",
+          "license": "Original work for Ladder One Academy"
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",
@@ -3205,7 +3233,10 @@
           "title": "The wind turned",
           "dispatch": "Command — hazmat incident, treatment area established.",
           "body": "The treatment area had been in exactly the right place when it was set up.\n\nSomebody with a windsock said, twenty minutes later, that it was no longer the right place.\n\nMoving it cost them eight minutes of confusion and saved them everything else."
-        }
+        },
+        "see": [
+          "hazmat_zones"
+        ]
       },
       "cards": [
         "concept",
@@ -3265,7 +3296,18 @@
         "scenario": 1
       },
       "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm zone definitions, entry criteria and your own scope in each zone against your local protocol and your service's hazmat plan, which govern who may enter where."
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm zone definitions, entry criteria and your own scope in each zone against your local protocol and your service's hazmat plan, which govern who may enter where.",
+      "media": [
+        {
+          "id": "hazmat_zones",
+          "src": "media/emt/08/hazmat_zones.svg",
+          "kind": "diagram",
+          "alt": "Three nested control zones drawn as rectangles, with the wind blowing from the left. Innermost is the HOT ZONE, the exclusion zone containing the release: only trained personnel in appropriate protection enter, and the only patient care is getting the patient out - no assessment, no treatment, no vital signs. Around it is the WARM ZONE, the decontamination corridor, where contamination is reduced and protective equipment is removed in sequence; life-saving intervention only, by trained and protected people. Outermost is the COLD ZONE, containing the command post, staging, the treatment area, transport and the ambulances, and this is where EMTs work; nothing contaminated enters it. A single one-way arrow runs from hot through warm into cold, labelled ONE WAY ONLY, with a note that reverse movement requires going through the whole process again. A wind arrow at the top left is labelled: position upwind and uphill, and if the wind shifts the zones move - including wherever you parked.",
+          "caption": "Hot, warm, cold — one way only. If the wind shifts, the zones move, including wherever you parked.",
+          "source": "original",
+          "license": "Original work for Ladder One Academy"
+        }
+      ]
     },
     {
       "schema_version": "1.0.0",

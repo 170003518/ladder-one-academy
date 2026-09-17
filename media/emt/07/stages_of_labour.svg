@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" width="860" height="560" role="img" aria-labelledby="t d">
+  <title id="t">The stages of labour</title>
+  <desc id="d">A horizontal timeline of labour in three stages, with the EMT decision point marked. FIRST STAGE runs from the onset of regular contractions to full dilation of the cervix and is the longest stage; contractions become longer, stronger and closer together; the membranes may rupture; this is usually the stage in which there is time to transport. SECOND STAGE runs from full dilation to the delivery of the baby; the mother feels an urge to push or to bear down, and CROWNING appears - the head visible at the opening. THIRD STAGE runs from the delivery of the baby to the delivery of the placenta, which separates and delivers on its own. A decision box between the first and second stages reads CROWNING DECIDES IT: if the head is visible you deliver where you are, because transporting gives the same event with less room, light and hands. A footer notes that the mother is the patient who gets forgotten and is the one who bleeds, and that durations vary enormously and are not stated.</desc>
+  <style>
+    .band{fill:#F5F7FA;stroke:#0F1F3D;stroke-width:2}
+    .band2{fill:#EAF1FF;stroke:#2E7DFF;stroke-width:2}
+    .band3{fill:#F1F7F3;stroke:#1B7F4B;stroke-width:2}
+    .warn{fill:#FFF4EE;stroke:#F25C19;stroke-width:2.5}
+    .txt{font-family:Inter,Arial,sans-serif;font-size:12.5px;fill:#0F1F3D}
+    .sm{font-family:Inter,Arial,sans-serif;font-size:11px;fill:#5A6577}
+    .ttl{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:14px;letter-spacing:1px;fill:#0F1F3D}
+    .hd{font-family:Oswald,Impact,'Arial Narrow',sans-serif;font-size:21px;letter-spacing:1px;fill:#0F1F3D}
+    .cap{font-family:Inter,Arial,sans-serif;font-size:11.5px;fill:#8A94A6}
+    .mono{font-family:'IBM Plex Mono',Menlo,monospace;font-size:11.5px;font-weight:700;fill:#C0392B}
+    .arr{stroke:#0F1F3D;stroke-width:2.2;fill:none}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0F1F3D"/></marker>
+  </defs>
+  <rect width="860" height="560" fill="#FFFFFF"/>
+  <text class="hd" x="28" y="34">THE STAGES OF LABOUR</text>
+  <text class="cap" x="28" y="54">Three stages, and one decision that sits between the first two.</text>
+
+  <!-- timeline -->
+  <line class="arr" x1="28" y1="96" x2="832" y2="96" marker-end="url(#a)"/>
+  <circle cx="34" cy="96" r="5" fill="#0F1F3D"/>
+  <text class="sm" x="28" y="84">Regular contractions begin</text>
+  <text class="sm" x="742" y="84">Placenta delivered</text>
+
+  <!-- first stage -->
+  <rect class="band" x="28" y="116" width="286" height="160" rx="8"/>
+  <text class="ttl" x="44" y="140">FIRST STAGE</text>
+  <text class="sm" x="44" y="158">Onset of regular contractions → full dilation</text>
+  <text class="txt" x="44" y="182">THE LONGEST STAGE</text>
+  <text class="txt" x="44" y="202">Contractions get LONGER, STRONGER</text>
+  <text class="txt" x="44" y="220">and CLOSER TOGETHER</text>
+  <text class="txt" x="44" y="240">The membranes may rupture</text>
+  <text class="txt" x="44" y="262">Usually the stage with time to transport</text>
+
+  <!-- decision -->
+  <rect class="warn" x="330" y="116" width="196" height="160" rx="8"/>
+  <text class="ttl" x="346" y="140">CROWNING DECIDES IT</text>
+  <text class="txt" x="346" y="164">The head visible at the</text>
+  <text class="txt" x="346" y="182">opening is the answer.</text>
+  <text class="txt" x="346" y="200">The history is only</text>
+  <text class="txt" x="346" y="218">supporting evidence.</text>
+  <text class="mono" x="346" y="244">DELIVER WHERE</text>
+  <text class="mono" x="346" y="260">YOU ARE</text>
+
+  <!-- second stage -->
+  <rect class="band2" x="542" y="116" width="290" height="160" rx="8"/>
+  <text class="ttl" x="558" y="140">SECOND STAGE</text>
+  <text class="sm" x="558" y="158">Full dilation → delivery of the baby</text>
+  <text class="txt" x="558" y="182">An URGE TO PUSH or to bear down</text>
+  <text class="txt" x="558" y="202">CROWNING</text>
+  <text class="txt" x="558" y="222">Support the head with gentle</text>
+  <text class="txt" x="558" y="240">counter-pressure — control the speed,</text>
+  <text class="txt" x="558" y="258">DO NOT PULL</text>
+
+  <!-- third stage -->
+  <rect class="band3" x="28" y="304" width="400" height="140" rx="8"/>
+  <text class="ttl" x="44" y="328">THIRD STAGE</text>
+  <text class="sm" x="44" y="346">Delivery of the baby → delivery of the placenta</text>
+  <text class="txt" x="44" y="370">The placenta separates and delivers ON ITS OWN</text>
+  <text class="txt" x="44" y="390">It goes IN A BAG and travels with you</text>
+  <text class="txt" x="44" y="410">Watch for bleeding · massage the uterus per protocol</text>
+  <text class="txt" x="44" y="430">Keep her warm</text>
+
+  <!-- two patients -->
+  <rect class="warn" x="446" y="304" width="386" height="140" rx="8"/>
+  <text class="ttl" x="462" y="328">YOU NOW HAVE TWO PATIENTS</text>
+  <text class="txt" x="462" y="352">Everybody looks at the baby. That is what happens,</text>
+  <text class="txt" x="462" y="370">and it is entirely understandable.</text>
+  <text class="mono" x="462" y="396">THE MOTHER IS THE ONE WHO GETS FORGOTTEN</text>
+  <text class="txt" x="462" y="418">and she is the one who bleeds. Turn round and</text>
+  <text class="txt" x="462" y="436">look at her, deliberately.</text>
+
+  <!-- footer -->
+  <line x1="28" y1="474" x2="832" y2="474" stroke="#8A94A6" stroke-width="1"/>
+  <text class="txt" x="28" y="498">Durations vary enormously between people and between pregnancies, and no figures are given here for that reason.</text>
+  <text class="cap" x="28" y="524">Confirm the stages, the findings and your own delivery procedure against the current text and your local protocol.</text>
+  <text class="cap" x="28" y="544">Suction practice at delivery has changed and varies by system — follow your own protocol rather than what you have seen.</text>
+</svg>
