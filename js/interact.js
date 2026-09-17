@@ -47,6 +47,27 @@ function shapeOf(config) {
 }
 
 /**
+ * Group a number for reading: 2400 becomes 2,400. Pinned to en-US rather than
+ * the viewer's locale because the content itself is written US-style — the
+ * worked solution beside it already says "2,400 mL/min", and the two must match.
+ * Non-numeric values pass through untouched.
+ */
+function fmtNum(v) {
+  return (typeof v === 'number' && Number.isFinite(v)) ? v.toLocaleString('en-US') : String(v);
+}
+
+/**
+ * "within 1 minutes" reads badly. Singularise a plain-word unit when the value
+ * is exactly 1. Symbol units like mL/min contain punctuation and never
+ * pluralise, so they are left alone.
+ */
+function unitFor(value, unit) {
+  if (!unit) return '';
+  if (value === 1 && /^[A-Za-z]+s$/.test(unit)) return unit.slice(0, -1);
+  return unit;
+}
+
+/**
  * The stated answer on a calculation, whatever unit the content used.
  * Oxygen duration was authored as answer_minutes; alveolar ventilation as
  * answer_value + answer_unit. Read both rather than making the content pick one.
@@ -120,8 +141,10 @@ function renderChoice(concept, cfg, state) {
           ${(() => {
             const a = statedAnswer(cfg);
             if (!a) return '';
-            return `The answer is <span class="num">${esc(String(a.value))}</span>${a.unit ? ` ${esc(a.unit)}` : ''}${
-              cfg.tolerance ? ` (within <span class="num">${esc(String(cfg.tolerance))}</span>${a.unit ? ` ${esc(a.unit)}` : ''})` : ''}.`;
+            const answerUnit = unitFor(a.value, a.unit);
+            const tolUnit = unitFor(cfg.tolerance, a.unit);
+            return `The answer is <span class="num">${esc(fmtNum(a.value))}</span>${answerUnit ? ` ${esc(answerUnit)}` : ''}${
+              cfg.tolerance ? ` (within <span class="num">${esc(fmtNum(cfg.tolerance))}</span>${tolUnit ? ` ${esc(tolUnit)}` : ''})` : ''}.`;
           })()}</p>
         ${cfg.worked_solution ? `<p class="do-worked num">${esc(cfg.worked_solution)}</p>` : ''}
       </div>

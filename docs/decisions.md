@@ -115,3 +115,11 @@
 - **Sorting does not mark as you go.** Everything is placed, then Check reveals what was wrong and where each miss belonged. Marking each drop instantly would turn a judgement exercise into trial and error.
 - **Calculation activities read `answer_value` + `answer_unit` as well as `answer_minutes`.** Oxygen duration was authored one way and alveolar ventilation another; the renderer reads both rather than forcing the content to pick.
 - **Card numbering continued from the existing maximum**, so the new lesson-01 cards are numbered 16–24 while the lesson-03 cards they teach *after* hold 5–15. Print order therefore does not match teaching order, and numbers 1–2 are now unused. Left as instructed; renumbering by concept ID is a one-liner when wanted.
+
+## 2026-09-16 — Card numbering and number formatting
+
+- **`media[].alt` cap of 1000 characters approved.**
+- **Card `number` follows concept ID order**, which is teaching order because the IDs are zero-padded: `EMT-02-01-01` … `EMT-02-03-06`. Within a concept, the card id keeps its own order (C01 before C02). The deck is renumbered 1..N as a contiguous run — no gaps.
+- **Cards are renumbered on every content merge, and will keep moving, until the deck is frozen for printing.** Merging a new lesson inserts cards in the middle of the sequence, so a card's number is not a stable identifier and nothing should reference it — the card `id` is the identity, `number` is only print order. When the tier's content is final, freeze the numbering and stop renumbering; until then, do not print a deck and expect the numbers to still match later.
+- Calculation answers are formatted with thousands separators, pinned to `en-US` rather than the viewer's locale so the figure matches the worked solution written beside it ("2,400 mL/min" in both).
+- A unit that is a plain word is singularised when its value is exactly 1 — "within 1 minute", not "within 1 minutes". Symbol units containing punctuation (`mL/min`) never pluralise and are left alone.

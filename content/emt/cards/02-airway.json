@@ -5,331 +5,6 @@
   "cards": [
     {
       "schema_version": "1.0.0",
-      "id": "EMT-02-02-01-C03",
-      "concept_id": "EMT-02-02-01",
-      "type": "concept",
-      "front": {
-        "title": "Head-tilt/chin-lift",
-        "summary": "The default manual airway maneuver."
-      },
-      "back": {
-        "body": "In an unresponsive patient the tongue is the most likely obstruction. This maneuver moves the jaw, and the tongue with it, off the back of the throat. It is the first choice when nothing about the mechanism raises a spinal concern.",
-        "why_it_matters": "Its one contraindication is the entire reason the other maneuver exists."
-      },
-      "high_yield": false,
-      "number": 3,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-02-02-C04",
-      "concept_id": "EMT-02-02-02",
-      "type": "compare",
-      "front": {
-        "title": "Head-tilt/chin-lift vs. jaw-thrust",
-        "summary": "Which maneuver, and why."
-      },
-      "back": {
-        "body": "Both open the airway. Head-tilt/chin-lift is the default when nothing about the mechanism suggests a spinal injury. Jaw-thrust is for when it does — it gets the jaw forward without the head movement the default requires.",
-        "why_it_matters": "Pick the maneuver that matches how the patient got hurt."
-      },
-      "high_yield": false,
-      "number": 4,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-01-C01",
-      "concept_id": "EMT-02-03-01",
-      "type": "numbers",
-      "front": {
-        "title": "Oxygen cylinders at a glance",
-        "summary": "Sizes, pressures, and the duration formula."
-      },
-      "back": {
-        "body": "Full ~2,000 psi · Swap at 200 psi · D ~350 L (0.16) · E ~625 L (0.28) · M ~3,000 L (1.56) · Duration (min) = (psi − 200) × constant ÷ L/min",
-        "why_it_matters": "The duration calculation and the 200 psi rule are guaranteed exam material and real-world safety."
-      },
-      "high_yield": true,
-      "number": 5,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-01. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-01-C02",
-      "concept_id": "EMT-02-03-01",
-      "type": "concept",
-      "front": {
-        "title": "Oxygen safety",
-        "summary": "Oxygen is not flammable, but it makes everything else burn."
-      },
-      "back": {
-        "body": "No oil, grease, or petroleum near fittings · Secure the cylinder · Away from heat and flame · Open the valve slowly, stand to the side · Check the hydrostatic test date",
-        "why_it_matters": "A sheared valve turns a cylinder into a projectile; a greased fitting can ignite."
-      },
-      "high_yield": false,
-      "number": 6,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-01. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-02-C01",
-      "concept_id": "EMT-02-03-02",
-      "type": "compare",
-      "front": {
-        "title": "Nasal cannula vs. non-rebreather",
-        "summary": "The two devices you will use on almost every call."
-      },
-      "back": {
-        "body": "Cannula: 1 to 6 L/min · 24 to 44% · breathing well, mildly low sat · not for mouth breathers or distress. NRB: 10 to 15 L/min · up to ~90% · breathing adequately, needs high O2 · not for inadequate breathing (use BVM).",
-        "why_it_matters": "Device selection is the single most-tested airway decision at the EMT level."
-      },
-      "high_yield": true,
-      "number": 7,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-02. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-03-C01",
-      "concept_id": "EMT-02-03-03",
-      "type": "skill",
-      "front": {
-        "title": "Applying a non-rebreather",
-        "summary": "Six steps; four are critical."
-      },
-      "back": {
-        "body": "1. Confirm adequate breathing (critical) · 2. Set 10 to 15 L/min (critical) · 3. Fill the reservoir before applying (critical) · 4. Seal mask, tighten strap · 5. Bag must not collapse more than one-third; raise flow if it does (critical) · 6. Reassess SpO2 and work of breathing",
-        "why_it_matters": "Skipping the reservoir fill or missing inadequate breathing are the two classic errors."
-      },
-      "high_yield": true,
-      "number": 8,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-03. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-04-C01",
-      "concept_id": "EMT-02-03-04",
-      "type": "compare",
-      "front": {
-        "title": "Partial rebreather vs. Venturi",
-        "summary": "Two masks you need to recognize but rarely use."
-      },
-      "back": {
-        "body": "Partial rebreather: no one-way valve, some rebreathing, ~40 to 60%, 6 to 10 L/min, rare in EMS. Venturi: color-coded adapters, precise ~24 to 50%, flow printed on adapter, for controlled FiO2 (some COPD).",
-        "why_it_matters": "The exam asks which device gives a precise concentration and what makes a partial rebreather different."
-      },
-      "high_yield": false,
-      "number": 9,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-04. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-05-C01",
-      "concept_id": "EMT-02-03-05",
-      "type": "concept",
-      "front": {
-        "title": "When the pulse ox lies",
-        "summary": "Treat the patient, not the number."
-      },
-      "back": {
-        "body": "Falsely high: carbon monoxide poisoning. Unreliable: poor perfusion, shock, cold, hypothermia, nail polish or artificial nails, bright light, motion. Normal SpO2 does not rule out inadequate ventilation.",
-        "why_it_matters": "A 99% reading on a fire victim is a trap question and a real-world killer."
-      },
-      "high_yield": true,
-      "number": 10,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-05. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-05-C02",
-      "concept_id": "EMT-02-03-05",
-      "type": "numbers",
-      "front": {
-        "title": "SpO2 ranges",
-        "summary": "What normal looks like and where concern starts."
-      },
-      "back": {
-        "body": "Normal: 95 to 100% · Concern in the acutely ill: below 94% · CO poisoning: reads falsely high, never trust",
-        "why_it_matters": "The 94% line is where the oxygen decision starts."
-      },
-      "high_yield": true,
-      "number": 11,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-05. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-06-C01",
-      "concept_id": "EMT-02-03-06",
-      "type": "numbers",
-      "front": {
-        "title": "Oxygen targets",
-        "summary": "Oxygen is a drug. Dose it."
-      },
-      "back": {
-        "body": "Most patients: titrate to 94 to 99% · CO2-retaining COPD: ~88 to 92% per protocol, never withhold in distress · High-flow without hesitation: hypoxia, shock, respiratory distress, inadequate breathing, CO poisoning",
-        "why_it_matters": "Routine 15 L/min for everyone is gone; the exam tests whether you know why and who still gets it."
-      },
-      "high_yield": true,
-      "number": 12,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-06. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-02-C02",
-      "concept_id": "EMT-02-03-02",
-      "type": "concept",
-      "front": {
-        "title": "Nasal cannula",
-        "summary": "Low-flow oxygen for the patient who is breathing well"
-      },
-      "back": {
-        "body": "Two prongs just inside the nostrils · 1 to 6 L/min · roughly 24 to 44% O2 · For adequate breathing with a mildly low sat · Above 6 L/min: switch device, don't raise flow · Useless for mouth breathers or a blocked nose",
-        "why_it_matters": "The most common device you'll use, and the one most often used wrong by cranking the flow."
-      },
-      "high_yield": false,
-      "number": 13,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-02. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-03-C02",
-      "concept_id": "EMT-02-03-03",
-      "type": "concept",
-      "front": {
-        "title": "Non-rebreather mask",
-        "summary": "High-concentration oxygen for the patient who is still breathing adequately"
-      },
-      "back": {
-        "body": "10 to 15 L/min · Up to ~90% O2 · Fill the reservoir before applying · One-way valves keep exhaled air out · Bag must not collapse more than one-third · Inadequate breathing means BVM, not NRB",
-        "why_it_matters": "The device-selection question between NRB and BVM is on every EMT exam."
-      },
-      "high_yield": true,
-      "number": 14,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-03. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-03-06-C02",
-      "concept_id": "EMT-02-03-06",
-      "type": "concept",
-      "front": {
-        "title": "Oxygen is a drug",
-        "summary": "Titrate it like one"
-      },
-      "back": {
-        "body": "Target 94 to 99% for most patients · Below target: give and adjust · In range and comfortable: no oxygen needed · Routine high-flow for non-hypoxic cardiac and stroke patients is no longer recommended · Hypoxia, shock, distress, inadequate breathing, CO: high-flow now",
-        "why_it_matters": "Reflex 15 L/min for everyone is old practice, and the exam tests whether you know why."
-      },
-      "high_yield": true,
-      "number": 15,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-06. Check every figure on this card against the source before it is printed or drilled."
-    },
-    {
-      "schema_version": "1.0.0",
       "id": "EMT-02-01-01-C01",
       "concept_id": "EMT-02-01-01",
       "type": "concept",
@@ -342,7 +17,7 @@
         "why_it_matters": "Structure names show up as distractors for each other; know which side of the line each sits on."
       },
       "high_yield": true,
-      "number": 16,
+      "number": 1,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -367,7 +42,7 @@
         "why_it_matters": "The most common obstruction has the simplest fix, and it is the first airway skill you learn."
       },
       "high_yield": true,
-      "number": 17,
+      "number": 2,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -392,7 +67,7 @@
         "why_it_matters": "Every difference is tested, and every difference changes how you position the head."
       },
       "high_yield": true,
-      "number": 18,
+      "number": 3,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -417,7 +92,7 @@
         "why_it_matters": "The classic pediatric airway question, and a real fix you will use on every unresponsive infant."
       },
       "high_yield": true,
-      "number": 19,
+      "number": 4,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -442,7 +117,7 @@
         "why_it_matters": "The exam asks which one is broken, and chest rise alone never answers that."
       },
       "high_yield": true,
-      "number": 20,
+      "number": 5,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -467,7 +142,7 @@
         "why_it_matters": "Explains why shallow breathing is worse than the rate suggests."
       },
       "high_yield": true,
-      "number": 21,
+      "number": 6,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -492,7 +167,7 @@
         "why_it_matters": "A rate of 28 is normal in a toddler and abnormal in an adult; the exam will ask both."
       },
       "high_yield": true,
-      "number": 22,
+      "number": 7,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -517,7 +192,7 @@
         "why_it_matters": "Oxygen versus ventilation is the single most important airway decision at the EMT level."
       },
       "high_yield": true,
-      "number": 23,
+      "number": 8,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -542,7 +217,7 @@
         "why_it_matters": "Effort is where you catch inadequate breathing before the late signs appear."
       },
       "high_yield": true,
-      "number": 24,
+      "number": 9,
       "print_size": "3x5",
       "footer": {
         "tier": "EMT",
@@ -552,6 +227,331 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-01-C03",
+      "concept_id": "EMT-02-02-01",
+      "type": "concept",
+      "front": {
+        "title": "Head-tilt/chin-lift",
+        "summary": "The default manual airway maneuver."
+      },
+      "back": {
+        "body": "In an unresponsive patient the tongue is the most likely obstruction. This maneuver moves the jaw, and the tongue with it, off the back of the throat. It is the first choice when nothing about the mechanism raises a spinal concern.",
+        "why_it_matters": "Its one contraindication is the entire reason the other maneuver exists."
+      },
+      "high_yield": false,
+      "number": 10,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-02-02-C04",
+      "concept_id": "EMT-02-02-02",
+      "type": "compare",
+      "front": {
+        "title": "Head-tilt/chin-lift vs. jaw-thrust",
+        "summary": "Which maneuver, and why."
+      },
+      "back": {
+        "body": "Both open the airway. Head-tilt/chin-lift is the default when nothing about the mechanism suggests a spinal injury. Jaw-thrust is for when it does — it gets the jaw forward without the head movement the default requires.",
+        "why_it_matters": "Pick the maneuver that matches how the patient got hurt."
+      },
+      "high_yield": false,
+      "number": 11,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-01-C01",
+      "concept_id": "EMT-02-03-01",
+      "type": "numbers",
+      "front": {
+        "title": "Oxygen cylinders at a glance",
+        "summary": "Sizes, pressures, and the duration formula."
+      },
+      "back": {
+        "body": "Full ~2,000 psi · Swap at 200 psi · D ~350 L (0.16) · E ~625 L (0.28) · M ~3,000 L (1.56) · Duration (min) = (psi − 200) × constant ÷ L/min",
+        "why_it_matters": "The duration calculation and the 200 psi rule are guaranteed exam material and real-world safety."
+      },
+      "high_yield": true,
+      "number": 12,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-01-C02",
+      "concept_id": "EMT-02-03-01",
+      "type": "concept",
+      "front": {
+        "title": "Oxygen safety",
+        "summary": "Oxygen is not flammable, but it makes everything else burn."
+      },
+      "back": {
+        "body": "No oil, grease, or petroleum near fittings · Secure the cylinder · Away from heat and flame · Open the valve slowly, stand to the side · Check the hydrostatic test date",
+        "why_it_matters": "A sheared valve turns a cylinder into a projectile; a greased fitting can ignite."
+      },
+      "high_yield": false,
+      "number": 13,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02-C01",
+      "concept_id": "EMT-02-03-02",
+      "type": "compare",
+      "front": {
+        "title": "Nasal cannula vs. non-rebreather",
+        "summary": "The two devices you will use on almost every call."
+      },
+      "back": {
+        "body": "Cannula: 1 to 6 L/min · 24 to 44% · breathing well, mildly low sat · not for mouth breathers or distress. NRB: 10 to 15 L/min · up to ~90% · breathing adequately, needs high O2 · not for inadequate breathing (use BVM).",
+        "why_it_matters": "Device selection is the single most-tested airway decision at the EMT level."
+      },
+      "high_yield": true,
+      "number": 14,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-02-C02",
+      "concept_id": "EMT-02-03-02",
+      "type": "concept",
+      "front": {
+        "title": "Nasal cannula",
+        "summary": "Low-flow oxygen for the patient who is breathing well"
+      },
+      "back": {
+        "body": "Two prongs just inside the nostrils · 1 to 6 L/min · roughly 24 to 44% O2 · For adequate breathing with a mildly low sat · Above 6 L/min: switch device, don't raise flow · Useless for mouth breathers or a blocked nose",
+        "why_it_matters": "The most common device you'll use, and the one most often used wrong by cranking the flow."
+      },
+      "high_yield": false,
+      "number": 15,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-03-C01",
+      "concept_id": "EMT-02-03-03",
+      "type": "skill",
+      "front": {
+        "title": "Applying a non-rebreather",
+        "summary": "Six steps; four are critical."
+      },
+      "back": {
+        "body": "1. Confirm adequate breathing (critical) · 2. Set 10 to 15 L/min (critical) · 3. Fill the reservoir before applying (critical) · 4. Seal mask, tighten strap · 5. Bag must not collapse more than one-third; raise flow if it does (critical) · 6. Reassess SpO2 and work of breathing",
+        "why_it_matters": "Skipping the reservoir fill or missing inadequate breathing are the two classic errors."
+      },
+      "high_yield": true,
+      "number": 16,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-03-C02",
+      "concept_id": "EMT-02-03-03",
+      "type": "concept",
+      "front": {
+        "title": "Non-rebreather mask",
+        "summary": "High-concentration oxygen for the patient who is still breathing adequately"
+      },
+      "back": {
+        "body": "10 to 15 L/min · Up to ~90% O2 · Fill the reservoir before applying · One-way valves keep exhaled air out · Bag must not collapse more than one-third · Inadequate breathing means BVM, not NRB",
+        "why_it_matters": "The device-selection question between NRB and BVM is on every EMT exam."
+      },
+      "high_yield": true,
+      "number": 17,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-04-C01",
+      "concept_id": "EMT-02-03-04",
+      "type": "compare",
+      "front": {
+        "title": "Partial rebreather vs. Venturi",
+        "summary": "Two masks you need to recognize but rarely use."
+      },
+      "back": {
+        "body": "Partial rebreather: no one-way valve, some rebreathing, ~40 to 60%, 6 to 10 L/min, rare in EMS. Venturi: color-coded adapters, precise ~24 to 50%, flow printed on adapter, for controlled FiO2 (some COPD).",
+        "why_it_matters": "The exam asks which device gives a precise concentration and what makes a partial rebreather different."
+      },
+      "high_yield": false,
+      "number": 18,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-05-C01",
+      "concept_id": "EMT-02-03-05",
+      "type": "concept",
+      "front": {
+        "title": "When the pulse ox lies",
+        "summary": "Treat the patient, not the number."
+      },
+      "back": {
+        "body": "Falsely high: carbon monoxide poisoning. Unreliable: poor perfusion, shock, cold, hypothermia, nail polish or artificial nails, bright light, motion. Normal SpO2 does not rule out inadequate ventilation.",
+        "why_it_matters": "A 99% reading on a fire victim is a trap question and a real-world killer."
+      },
+      "high_yield": true,
+      "number": 19,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-05-C02",
+      "concept_id": "EMT-02-03-05",
+      "type": "numbers",
+      "front": {
+        "title": "SpO2 ranges",
+        "summary": "What normal looks like and where concern starts."
+      },
+      "back": {
+        "body": "Normal: 95 to 100% · Concern in the acutely ill: below 94% · CO poisoning: reads falsely high, never trust",
+        "why_it_matters": "The 94% line is where the oxygen decision starts."
+      },
+      "high_yield": true,
+      "number": 20,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-06-C01",
+      "concept_id": "EMT-02-03-06",
+      "type": "numbers",
+      "front": {
+        "title": "Oxygen targets",
+        "summary": "Oxygen is a drug. Dose it."
+      },
+      "back": {
+        "body": "Most patients: titrate to 94 to 99% · CO2-retaining COPD: ~88 to 92% per protocol, never withhold in distress · High-flow without hesitation: hypoxia, shock, respiratory distress, inadequate breathing, CO poisoning",
+        "why_it_matters": "Routine 15 L/min for everyone is gone; the exam tests whether you know why and who still gets it."
+      },
+      "high_yield": true,
+      "number": 21,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-03-06-C02",
+      "concept_id": "EMT-02-03-06",
+      "type": "concept",
+      "front": {
+        "title": "Oxygen is a drug",
+        "summary": "Titrate it like one"
+      },
+      "back": {
+        "body": "Target 94 to 99% for most patients · Below target: give and adjust · In range and comfortable: no oxygen needed · Routine high-flow for non-hypoxic cardiac and stroke patients is no longer recommended · Hypoxia, shock, distress, inadequate breathing, CO: high-flow now",
+        "why_it_matters": "Reflex 15 L/min for everyone is old practice, and the exam tests whether you know why."
+      },
+      "high_yield": true,
+      "number": 22,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-06. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }
