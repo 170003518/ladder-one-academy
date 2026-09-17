@@ -34,6 +34,21 @@
         "EMT-07-02-02",
         "EMT-07-02-03"
       ]
+    },
+    {
+      "id": "EMT-07-03",
+      "title": "Pediatrics",
+      "concepts": [
+        "EMT-07-03-01",
+        "EMT-07-03-02",
+        "EMT-07-03-03",
+        "EMT-07-03-04",
+        "EMT-07-03-05",
+        "EMT-07-03-06",
+        "EMT-07-03-07",
+        "EMT-07-03-08",
+        "EMT-07-03-09"
+      ]
     }
   ],
   "concepts": [
@@ -1712,6 +1727,1574 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm preterm care and prehospital viability decision-making against the current text and your local protocol. The resuscitation figures referenced here (ventilate below 100, compressions below 60 after 30 seconds of effective ventilation, 3:1 ratio) MUST be confirmed against current AHA/NRP guidelines, which are revised on a cycle. No medication names or doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-03-01",
+      "title": "Approaching the child",
+      "domain": "MED",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-03-02",
+        "EMT-07-03-03",
+        "EMT-01-05-01"
+      ],
+      "key_points": [
+        "How you approach a child determines how much assessment you actually get",
+        "Get down to their eye level — standing over a small child is intimidating and produces resistance",
+        "Keep the child with the caregiver wherever possible; separating them makes everything harder",
+        "The caregiver is your ally and your information source, and a calm caregiver produces a calm child",
+        "Assess toe to head in small children, saving the frightening parts of the exam for last",
+        "Infants respond to warmth, gentleness and their caregiver's voice, not to explanation",
+        "Toddlers and preschoolers fear separation and strangers, and take things extremely literally",
+        "School age children want to be told what is happening and want to be treated honestly",
+        "Adolescents want privacy, dignity and to be spoken to directly rather than about",
+        "Never lie to a child about whether something will hurt — you lose them for the whole call"
+      ],
+      "misconceptions": [
+        "Standing over a child and talking down at them",
+        "Separating a child from the caregiver unnecessarily",
+        "Telling a child something will not hurt when it will",
+        "Talking about an adolescent rather than to them"
+      ],
+      "exam_favorites": [
+        "Toe to head in small children",
+        "Keep the caregiver",
+        "Never lie about pain"
+      ],
+      "modes": {
+        "read": {
+          "plain": "How you approach a child decides how much assessment you actually get. That is not a soft skill point; it is the difference between a useful examination and a screaming, rigid, uncooperative patient you learn nothing from.\n\nStart with your own position. Get down to their eye level. An adult in a uniform standing over a small child is an intimidating shape, and the response is predictable — withdrawal, crying, resistance. Kneel, sit, get low.\n\nKeep the child with the caregiver wherever it is possible. A child in a parent's arms will tolerate an examination that the same child on a stretcher alone will fight. And the caregiver is your ally twice over: they are your information source, because they know what normal looks like for this child better than you ever will, and their emotional state transmits straight into the child. A calm caregiver produces a calm child. Which means calming the parent is a clinical intervention, not a courtesy.\n\nThe examination sequence itself changes. With small children, work toe to head rather than head to toe, saving the parts they find most threatening — the face, the airway, anything near the eyes — for last. By then they have seen you touch their foot and their knee and their belly without anything bad happening.\n\nThen adjust for developmental stage, because what frightens a child changes completely as they grow.\n\nInfants respond to warmth, gentleness and a familiar voice. They do not respond to explanation, so do not waste time on it — be warm and keep the caregiver close.\n\nToddlers and preschoolers fear separation and strangers most of all, and they are startlingly literal. Say you are going to take their blood pressure and they may reasonably expect you to take something away and keep it. Use simple, concrete language, let them touch equipment, and offer choices where the answer does not matter — which arm, which finger — because a small amount of control goes a long way.\n\nSchool age children want to be told what is happening, and they want honesty. They can cooperate remarkably well if you explain first.\n\nAdolescents want privacy and dignity, and they want to be spoken to directly rather than discussed over their heads. Give them the chance to answer questions away from a parent where that is appropriate and safe.\n\nAnd the rule that spans all of them: never tell a child something will not hurt when it will. You get one chance at that, and when it turns out to be a lie you have lost their trust for the rest of the call and possibly for the next crew as well. Say that it will pinch, say how long, and then be right.",
+          "standard": "The approach to paediatric patients materially determines assessment yield. Positioning at the child's eye level reduces the intimidation of an adult provider in uniform standing over a small patient, which predictably produces withdrawal and resistance. Maintaining caregiver proximity improves tolerance of examination; the caregiver additionally serves as the authority on the child's baseline and transmits emotional state to the child, rendering caregiver reassurance a clinical intervention. Examination sequence in small children proceeds toe to head, deferring threatening components involving the face and airway. Approach is modified by developmental stage: infants respond to warmth, gentleness and familiar voice rather than explanation; toddlers and preschool children experience stranger and separation anxiety and interpret language literally, benefiting from concrete phrasing, equipment familiarisation and inconsequential choices conferring control; school-age children cooperate with prior explanation and require honesty; adolescents require privacy, dignity, direct address and, where appropriate and safe, opportunity to answer independently of caregivers. Providers must not misrepresent whether a procedure will cause pain, as loss of trust compromises the remainder of the encounter and subsequent care."
+        },
+        "eli_new": {
+          "analogy": "Kneeling down changes you from a looming uniform into a person. It is the cheapest clinical intervention you will ever perform.",
+          "body": "Calming the parent is treatment. Their state goes straight into the child, and a frightened parent will hand you a frightened patient every single time."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to approach a child and how that changes with developmental stage.",
+          "must_hit": [
+            {
+              "point": "Get down to the child's eye level",
+              "accept": [
+                "eye level",
+                "kneel",
+                "low",
+                "down",
+                "stand over"
+              ]
+            },
+            {
+              "point": "Keep the child with the caregiver",
+              "accept": [
+                "caregiver",
+                "parent",
+                "keep",
+                "separat",
+                "arms"
+              ]
+            },
+            {
+              "point": "A calm caregiver produces a calm child",
+              "accept": [
+                "calm",
+                "parent",
+                "transmit",
+                "emotional",
+                "ally"
+              ]
+            },
+            {
+              "point": "Assess toe to head in small children",
+              "accept": [
+                "toe to head",
+                "toe",
+                "last",
+                "face",
+                "sequence"
+              ]
+            },
+            {
+              "point": "Toddlers fear separation and take language literally",
+              "accept": [
+                "toddler",
+                "separat",
+                "stranger",
+                "literal",
+                "concrete"
+              ]
+            },
+            {
+              "point": "School-age children want explanation and honesty",
+              "accept": [
+                "school",
+                "explain",
+                "honest",
+                "tell",
+                "cooperat"
+              ]
+            },
+            {
+              "point": "Adolescents want privacy and direct address",
+              "accept": [
+                "adolescent",
+                "teen",
+                "privacy",
+                "dignity",
+                "directly"
+              ]
+            },
+            {
+              "point": "Never lie about whether something will hurt",
+              "accept": [
+                "never lie",
+                "hurt",
+                "honest",
+                "trust",
+                "pinch"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The floor",
+          "dispatch": "Medic 2 — four year old, fever, refusing to be examined.",
+          "body": "Two crews had already tried from standing. The child screamed at both of them.\n\nThe third person sat on the kitchen floor and started with the child's shoe.\n\nBy the time they reached the chest, the child was showing them a toy."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm developmental stage descriptions and approach guidance against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-03-02",
+      "title": "How children differ anatomically and physiologically",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-03-01"
+      ],
+      "related": [
+        "EMT-07-03-01",
+        "EMT-07-03-03",
+        "EMT-07-03-05"
+      ],
+      "key_points": [
+        "A child is not a small adult — the differences change what goes wrong and how fast",
+        "Bigger head and prominent occiput: the neck flexes when they lie flat, so pad under the shoulders",
+        "Bigger tongue relative to the mouth, and a narrower, softer, more collapsible airway",
+        "Small amounts of swelling or secretions block a small airway far more than a large one",
+        "Ribs are more horizontal and more cartilaginous, so children depend heavily on the diaphragm",
+        "Because the ribs are flexible, severe internal injury can occur without any rib fracture",
+        "Larger surface area for their size means they lose heat fast, including during resuscitation",
+        "Blood volume is smaller in absolute terms, so a loss that looks minor can be a large fraction of it",
+        "Children compensate extremely well and then decompensate abruptly — the crash is sudden, not gradual",
+        "The liver and spleen are relatively large and less protected by the rib cage"
+      ],
+      "misconceptions": [
+        "Treating a child as a scaled-down adult",
+        "Assuming no rib fracture means no chest injury",
+        "Extending the neck to open an infant airway",
+        "Underestimating how fast a child cools"
+      ],
+      "exam_favorites": [
+        "Pad the shoulders",
+        "Injury without fracture",
+        "Compensate then crash"
+      ],
+      "modes": {
+        "read": {
+          "plain": "A child is not a small adult. That phrase gets repeated until it means nothing, so here is what it actually changes.\n\nThe head. Children have proportionally larger heads with a prominent occiput. Lay a small child flat on a board and the head pushes the neck into flexion, which narrows the airway you were trying to protect. The fix is a pad under the shoulders to bring the airway back to neutral — the opposite of the adult, where you might pad the head.\n\nThe airway itself. The tongue is proportionally bigger and more likely to obstruct. The airway is narrower, and the tissues are softer and more collapsible, which means hyperextending the neck can kink the airway shut rather than open it. Neutral to slightly extended, no more.\n\nAnd there is a geometry point worth understanding rather than memorising: a small amount of swelling in a small tube takes away a far larger proportion of the opening than the same swelling in a big tube. This is why croup and epiglottitis and a mouthful of secretions do to a child what they would not do to an adult. Small airways are unforgiving.\n\nThe chest. A child's ribs sit more horizontally and are far more cartilaginous — flexible rather than rigid. Two consequences. First, they cannot increase their tidal volume much by moving the ribs, so they depend heavily on the diaphragm, which is why anything pressing on the abdomen or a distended stomach impairs breathing. Second, and much more important: force passes through a flexible chest wall into the organs without breaking the ribs. Severe lung or organ injury with no fracture at all is entirely possible. A rib fracture in a child means enormous force was applied.\n\nTemperature. A larger surface area for their size and less insulation means they cool fast, and cold makes everything worse. Keep them covered, including during resuscitation, when it is easiest to forget.\n\nBlood volume. Children have more blood per kilogram but much less in absolute terms. A volume of blood that would be trivial in an adult can be a substantial fraction of a small child's circulating volume. Do not judge blood loss by the size of the puddle; judge it against the size of the patient.\n\nOrgans. The liver and spleen are relatively large and sit lower and less protected by the rib cage, so abdominal trauma injures them readily.\n\nAnd the single most important physiological point, which deserves its own concept: children compensate extraordinarily well. Their cardiovascular reserve is excellent, and they can maintain a normal-looking blood pressure while in serious trouble. Then the compensation fails, and it fails abruptly rather than gradually. The deterioration is a cliff, not a slope. Which means a child who looks borderline is a child you act on now, not one you watch.",
+          "standard": "Paediatric anatomy and physiology differ from adult in ways that alter both pathology and rate of deterioration. Proportionally larger head and prominent occiput produce cervical flexion in supine positioning, requiring shoulder padding to restore neutral airway alignment, inverse to adult practice. Airway differences comprise proportionally larger tongue, narrower calibre and softer, more collapsible tissues, such that hyperextension may occlude rather than open the airway. Reduced airway calibre means a given degree of oedema or secretion occupies a substantially greater proportion of the lumen, accounting for the disproportionate impact of upper airway pathology. Thoracic ribs are more horizontally oriented and more cartilaginous, limiting tidal volume augmentation by rib movement and producing diaphragmatic dependence, such that abdominal pressure or gastric distension impairs ventilation; flexibility additionally permits transmission of force to underlying organs without fracture, and paediatric rib fracture implies substantial force. Increased surface area to mass ratio with reduced insulation produces rapid heat loss. Circulating volume is greater per unit mass but smaller in absolute terms, so a given haemorrhage represents a larger proportional loss. The liver and spleen are relatively large and less protected by the thoracic cage. Physiologically, paediatric compensatory reserve is substantial, maintaining apparently normal blood pressure during significant compromise, with decompensation occurring abruptly rather than progressively."
+        },
+        "eli_new": {
+          "analogy": "A small amount of swelling in a small tube costs a far bigger share of the opening than the same swelling in a big one. That is most of paediatric airway trouble in one sentence.",
+          "body": "The flexible rib cage is the trap. Force passes straight through it into the lungs and liver without breaking anything, so a child with a normal-looking chest can have a badly injured one underneath."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how children differ anatomically and why each difference matters.",
+          "must_hit": [
+            {
+              "point": "Larger head and occiput flex the neck when supine — pad the shoulders",
+              "accept": [
+                "head",
+                "occiput",
+                "flex",
+                "pad",
+                "shoulder"
+              ]
+            },
+            {
+              "point": "Larger tongue and narrower, softer, collapsible airway",
+              "accept": [
+                "tongue",
+                "narrow",
+                "soft",
+                "collaps",
+                "airway"
+              ]
+            },
+            {
+              "point": "Small swelling blocks a small airway disproportionately",
+              "accept": [
+                "swelling",
+                "small",
+                "proportion",
+                "obstruct",
+                "secretion"
+              ]
+            },
+            {
+              "point": "Horizontal cartilaginous ribs mean diaphragm dependence",
+              "accept": [
+                "rib",
+                "cartilag",
+                "horizontal",
+                "diaphragm",
+                "depend"
+              ]
+            },
+            {
+              "point": "Severe injury can occur without rib fracture",
+              "accept": [
+                "without",
+                "fracture",
+                "flexible",
+                "force",
+                "through"
+              ]
+            },
+            {
+              "point": "They lose heat fast because of surface area",
+              "accept": [
+                "heat",
+                "cold",
+                "surface area",
+                "insulat",
+                "cover"
+              ]
+            },
+            {
+              "point": "Blood volume is small in absolute terms",
+              "accept": [
+                "blood",
+                "volume",
+                "absolute",
+                "small",
+                "loss"
+              ]
+            },
+            {
+              "point": "They compensate well and then decompensate abruptly",
+              "accept": [
+                "compensat",
+                "abrupt",
+                "cliff",
+                "crash",
+                "sudden"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Nothing broken",
+          "dispatch": "Engine 6 — child struck by a car, chest wall looks intact.",
+          "body": "The chest film later showed no fractures at all, which somebody on scene had taken as reassuring.\n\nThe lungs underneath had taken the entire force of it.\n\nThe ribs had bent and sprung back. Nothing about that was reassuring."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "Adult",
+          "right_label": "Child",
+          "rows": [
+            {
+              "feature": "Head and airway positioning",
+              "left": "Head pad to reach the sniffing position",
+              "right": "PROMINENT OCCIPUT flexes the neck when supine — PAD UNDER THE SHOULDERS instead"
+            },
+            {
+              "feature": "Airway calibre",
+              "left": "Wide; modest swelling is tolerated",
+              "right": "NARROW, SOFT AND COLLAPSIBLE — a small amount of swelling takes a large share of the lumen"
+            },
+            {
+              "feature": "Neck extension",
+              "left": "Extension generally opens the airway",
+              "right": "OVER-EXTENSION CAN KINK IT SHUT — neutral to slightly extended"
+            },
+            {
+              "feature": "Rib cage",
+              "left": "Rigid and protective; fractures with force",
+              "right": "HORIZONTAL AND CARTILAGINOUS — force passes THROUGH to the organs with NO FRACTURE"
+            },
+            {
+              "feature": "Meaning of a rib fracture",
+              "left": "Common in significant trauma",
+              "right": "IMPLIES ENORMOUS FORCE — look hard for what is underneath"
+            },
+            {
+              "feature": "Breathing mechanics",
+              "left": "Ribs and diaphragm share the work",
+              "right": "HEAVILY DIAPHRAGM DEPENDENT — a distended stomach or pressure on the abdomen impairs breathing"
+            },
+            {
+              "feature": "Temperature",
+              "left": "Cools relatively slowly",
+              "right": "LARGE SURFACE AREA, LITTLE INSULATION — cools fast, including mid-resuscitation"
+            },
+            {
+              "feature": "Blood volume",
+              "left": "Large absolute volume",
+              "right": "MORE per kilogram but MUCH LESS IN TOTAL — judge blood loss against the size of the patient"
+            },
+            {
+              "feature": "Liver and spleen",
+              "left": "Largely under the rib cage",
+              "right": "RELATIVELY LARGE AND LESS PROTECTED — readily injured"
+            },
+            {
+              "feature": "Deterioration",
+              "left": "Usually a gradual slope",
+              "right": "COMPENSATES BEAUTIFULLY THEN FALLS OFF A CLIFF — act on borderline, do not watch it"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the paediatric anatomical and physiological differences against the current text. Paediatric vital sign normal ranges are deliberately NOT reproduced here; use the lifespan vital signs numbers card in EMT-03-05-01 and confirm it against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-03-03",
+      "title": "The pediatric assessment triangle",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-03-02"
+      ],
+      "related": [
+        "EMT-07-03-02",
+        "EMT-07-03-04",
+        "EMT-07-03-05",
+        "EMT-03-02-01"
+      ],
+      "key_points": [
+        "The paediatric assessment triangle is a structured way of forming a general impression from across the room",
+        "It uses only what you can see and hear — no equipment, no touching the child",
+        "Three arms: Appearance, Work of Breathing, and Circulation to the Skin",
+        "Appearance asks whether the brain is being adequately perfused and oxygenated",
+        "TICLS for appearance: Tone, Interactiveness, Consolability, Look or gaze, Speech or cry",
+        "Work of breathing covers abnormal sounds, positioning, retractions, nasal flaring and head bobbing",
+        "Circulation to the skin covers pallor, mottling and cyanosis",
+        "It answers two questions: how sick, and which system is failing",
+        "It takes seconds and it happens before you lay a hand on the child",
+        "Abnormal appearance alone is significant — a child who is not behaving like a child is a sick child"
+      ],
+      "misconceptions": [
+        "Skipping the triangle and going straight to vital signs",
+        "Touching the child before forming the impression",
+        "Treating a quiet, floppy child as settled",
+        "Assuming a normal appearance rules out serious illness"
+      ],
+      "exam_favorites": [
+        "TICLS",
+        "The three arms",
+        "Across the room, before touching"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The paediatric assessment triangle is a structured way of doing what experienced people do instinctively: forming a general impression from the doorway, before you touch anything.\n\nAnd its great virtue is that it needs no equipment at all. Only what you can see and hear. It takes a few seconds, it happens before you lay a hand on the child, and it answers two questions: how sick is this child, and which system is in trouble?\n\nThree arms.\n\nAppearance. This is the most important one, because it is asking whether the brain is being adequately perfused and oxygenated. A brain that is short of either does not behave normally, and in a child that shows up in behaviour long before it shows up in a number. The memory aid is TICLS. Tone — are they moving normally or floppy? Interactiveness — do they engage with you, reach for things, notice what is happening? Consolability — can the caregiver settle them, or is the crying inconsolable? Look or gaze — do they fix on faces, or is there a vacant stare? Speech or cry — is it strong and appropriate, or weak, and is there any cry at all?\n\nAnd this is where the quiet child trap lives. A screaming child is using energy and interacting, which is reassuring. A quiet, floppy child who does not object to strangers is frequently the sicker one. Do not mistake silence for settled.\n\nWork of breathing. Everything visible and audible about the effort of breathing. Abnormal sounds — stridor, grunting, wheezing. Abnormal positioning — sitting forward, tripoding, refusing to lie down, the sniffing position. Retractions — skin pulling in between or below the ribs or at the neck. Nasal flaring. Head bobbing in infants. All of it says the child is working harder than they should.\n\nCirculation to the skin. Pallor, mottling, cyanosis. What the periphery looks like when the body is prioritising the core.\n\nNow the useful part: the pattern tells you which system is failing. Breathing abnormal but appearance and skin normal points to respiratory distress. Appearance also abnormal points to respiratory failure. Appearance and skin abnormal with normal breathing points towards shock. All three abnormal is a child in serious trouble.\n\nThe triangle does not replace anything. You still do your primary assessment, your vital signs, your history. What it gives you is a rapid, structured first impression, and a reason to act quickly on a child who does not look right before any number has told you so.\n\nAnd hold on to that last point, because it is the whole value. A child who is not behaving like a child is a sick child, even when everything you can measure is normal.",
+          "standard": "The paediatric assessment triangle provides a structured general impression formed without equipment or physical contact, using visual and auditory information alone, and addresses two questions: severity of illness and the physiological system involved. It comprises three components. Appearance reflects adequacy of cerebral perfusion and oxygenation, assessed by the mnemonic TICLS: Tone, Interactiveness, Consolability, Look or gaze, and Speech or cry. Abnormal appearance may precede measurable abnormality; a quiet, hypotonic child who does not resist strangers frequently represents greater severity than a vigorously crying child. Work of breathing encompasses audible abnormal sounds including stridor, grunting and wheeze; abnormal positioning including tripoding, sniffing position and refusal to lie supine; retractions; nasal flaring; and head bobbing in infants. Circulation to the skin encompasses pallor, mottling and cyanosis. Component patterns indicate the system involved: isolated abnormal work of breathing suggests respiratory distress; addition of abnormal appearance suggests respiratory failure; abnormal appearance and circulation with normal breathing suggests shock; abnormality of all three indicates severe compromise. The triangle supplements rather than replaces primary assessment, vital signs and history, and justifies early intervention in a child whose behaviour is abnormal despite normal measured parameters."
+        },
+        "eli_new": {
+          "analogy": "It is the doorway impression, written down. Three things you can see from across the room, before you touch anything.",
+          "body": "The quiet child is the trap. A screaming child is spending energy and interacting with you. A floppy, silent child who does not mind a stranger touching them is usually the sicker one."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe the paediatric assessment triangle and what each arm tells you.",
+          "must_hit": [
+            {
+              "point": "It is formed across the room without equipment or touching",
+              "accept": [
+                "across",
+                "room",
+                "no equipment",
+                "without touch",
+                "impression"
+              ]
+            },
+            {
+              "point": "Three arms: appearance, work of breathing, circulation to skin",
+              "accept": [
+                "appearance",
+                "work of breathing",
+                "circulation",
+                "skin",
+                "three"
+              ]
+            },
+            {
+              "point": "Appearance reflects brain perfusion and oxygenation",
+              "accept": [
+                "brain",
+                "perfus",
+                "oxygen",
+                "appearance",
+                "behaviour"
+              ]
+            },
+            {
+              "point": "TICLS: tone, interactiveness, consolability, look, speech or cry",
+              "accept": [
+                "ticls",
+                "tone",
+                "interact",
+                "consol",
+                "gaze",
+                "speech",
+                "cry"
+              ]
+            },
+            {
+              "point": "Work of breathing: sounds, positioning, retractions, flaring, head bobbing",
+              "accept": [
+                "stridor",
+                "grunt",
+                "retract",
+                "flar",
+                "tripod",
+                "bobbing"
+              ]
+            },
+            {
+              "point": "Circulation to skin: pallor, mottling, cyanosis",
+              "accept": [
+                "pallor",
+                "mottl",
+                "cyanosis",
+                "skin",
+                "colour"
+              ]
+            },
+            {
+              "point": "The pattern indicates which system is failing",
+              "accept": [
+                "pattern",
+                "system",
+                "distress",
+                "failure",
+                "shock"
+              ]
+            },
+            {
+              "point": "A quiet floppy child is often sicker than a screaming one",
+              "accept": [
+                "quiet",
+                "floppy",
+                "silent",
+                "screaming",
+                "sicker"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Too easy",
+          "dispatch": "Medic 3 — two year old, fever, parents worried.",
+          "body": "The student remarked that this one was easy because the child had let them do everything without complaining.\n\nThe preceptor asked when they had last met a well two year old who let a stranger do everything without complaining.\n\nThey upgraded on the way in."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "APPEARANCE — is the brain perfused and oxygenated?",
+            "value": "TICLS",
+            "note": "T Tone · I Interactiveness · C Consolability · L Look or gaze · S Speech or cry"
+          },
+          {
+            "label": "The quiet child trap",
+            "value": "silence is not settled",
+            "note": "A screaming child is spending energy and interacting. A FLOPPY, SILENT child who does not mind a stranger is usually the SICKER one."
+          },
+          {
+            "label": "WORK OF BREATHING — how hard are they working?",
+            "value": "look and listen",
+            "note": "Sounds: stridor, grunting, wheeze · Position: tripoding, sniffing, refusing to lie down · Retractions · Nasal flaring · Head bobbing in infants"
+          },
+          {
+            "label": "CIRCULATION TO THE SKIN — what does the periphery look like?",
+            "value": "pallor · mottling · cyanosis",
+            "note": "What happens when the body prioritises the core."
+          },
+          {
+            "label": "Breathing abnormal only",
+            "value": "respiratory DISTRESS",
+            "note": "Appearance and skin still normal — compensating."
+          },
+          {
+            "label": "Breathing AND appearance abnormal",
+            "value": "respiratory FAILURE",
+            "note": "Compensation is failing. Act now."
+          },
+          {
+            "label": "Appearance AND skin abnormal, breathing normal",
+            "value": "SHOCK",
+            "note": "Perfusion problem rather than an airway problem."
+          },
+          {
+            "label": "All three abnormal",
+            "value": "serious trouble",
+            "note": "Cardiopulmonary failure. Nothing about this waits."
+          },
+          {
+            "label": "What it costs",
+            "value": "a few seconds, no equipment",
+            "note": "Formed from the doorway BEFORE you touch the child. It supplements the primary assessment; it does not replace it."
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the components of the paediatric assessment triangle and the TICLS mnemonic against the current text. Paediatric vital sign normal ranges are deliberately NOT reproduced here; use the lifespan vital signs numbers card in EMT-03-05-01 and confirm it against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-03-04",
+      "title": "Respiratory distress and respiratory failure",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-03-03"
+      ],
+      "related": [
+        "EMT-07-03-03",
+        "EMT-07-03-05",
+        "EMT-02-01-01"
+      ],
+      "key_points": [
+        "Respiratory problems are the commonest path to paediatric cardiac arrest, which makes this the highest-value chapter in paediatrics",
+        "Distress is a child working hard and succeeding; failure is a child working hard and losing",
+        "Distress looks loud and busy: retractions, flaring, grunting, noisy breathing, tripoding, a child who is alert and frightened",
+        "Failure looks quiet: decreasing effort, decreasing tone, altered mental status, a slowing heart rate",
+        "The quiet chest and the calm child are the most dangerous findings in paediatric respiratory illness",
+        "A falling heart rate in a struggling child is a very late and very ominous sign",
+        "Let a child in distress hold whatever position they have chosen — they have found the one that works",
+        "Agitating a child who is compensating can tip them into failure, so keep them calm and with the caregiver",
+        "Treat failure by assisting ventilation, and do not wait for arrest to do it",
+        "Recognising failure early is the single most useful paediatric skill there is"
+      ],
+      "misconceptions": [
+        "Reading a quiet chest as improvement",
+        "Reading a calm child as settled rather than exhausted",
+        "Forcing a child in distress to lie down",
+        "Upsetting a compensating child with unnecessary procedures"
+      ],
+      "exam_favorites": [
+        "Distress vs failure",
+        "The quiet chest",
+        "Bradycardia is late and ominous"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Respiratory problems are the commonest route to paediatric cardiac arrest. Children rarely arrest from a heart that fails on its own; they arrest because breathing failed first and the heart followed. Which makes this the highest-value thing in paediatrics: if you recognise and treat respiratory failure early, you prevent the arrest entirely.\n\nThe distinction that matters is between distress and failure.\n\nDistress is a child working hard and succeeding. The work is visible and audible, and that is the point — you can see the compensation happening. Retractions between and below the ribs and at the neck. Nasal flaring. Grunting, which is an infant trying to hold pressure in the lungs. Noisy breathing. Tripoding, or the sniffing position, or a flat refusal to lie down. A fast rate. And crucially, the child is alert, frightened, and objecting. The system is stressed and holding.\n\nFailure is a child working hard and losing. And here is the part that catches people, because failure does not look worse in the obvious way. It looks quieter.\n\nThe effort decreases, because they are exhausted. The noise decreases, because less air is moving — a chest that has gone quiet after being noisy has not improved, it has stopped ventilating. The muscle tone decreases. Mental status changes: drowsy, floppy, not interacting, not fighting you any more. And the heart rate, which was fast, begins to fall. Bradycardia in a struggling child is very late and very ominous, and it is usually the last thing before arrest.\n\nSo the dangerous findings in paediatric respiratory illness are all findings that look like improvement. The quiet chest. The calm child. The slowing heart rate. If any of those appear in a child who was loud and fast ten minutes ago, they are worse, not better.\n\nTwo practical points.\n\nLet a child in distress keep whatever position they have chosen. They have found the one that works, and they know more about their own airway than you do. Forcing them flat for your convenience can be actively harmful.\n\nAnd keep them calm. Agitation increases oxygen demand, and a child who is just barely compensating can be tipped into failure by crying. Which means a procedure that upsets a marginal child needs to be worth the cost. Keep the caregiver close, keep your voice low, and leave them alone where you can.\n\nTreatment of failure is assisted ventilation, and the mistake is waiting. Do not wait for arrest to begin ventilating a child who has stopped compensating.",
+          "standard": "Respiratory pathology constitutes the predominant pathway to paediatric cardiac arrest, arrest typically following respiratory rather than primary cardiac failure; early recognition and treatment of respiratory failure therefore prevents arrest. Respiratory distress denotes effective compensation, characterised by visible and audible work: intercostal, subcostal and suprasternal retractions, nasal flaring, grunting, audible abnormal breath sounds, tripod or sniffing positioning, refusal of supine position, tachypnoea, with preserved alertness and appropriate distress behaviour. Respiratory failure denotes failing compensation and presents paradoxically as reduced rather than increased activity: diminished respiratory effort from fatigue, diminished breath sounds reflecting reduced air movement, decreased muscle tone, altered mental status with reduced interactiveness, and bradycardia. A previously noisy chest that becomes quiet indicates deteriorating ventilation rather than improvement, and bradycardia in a compromised child is a late and preminal finding. Management principles include permitting the child to maintain self-selected positioning, minimising agitation as increased oxygen demand may precipitate failure in a marginally compensating child, maintaining caregiver proximity, and deferring non-essential procedures. Failure is managed by assisted ventilation, initiated before arrest occurs."
+        },
+        "eli_new": {
+          "analogy": "Distress is loud and busy. Failure is quiet. In paediatric breathing, quiet is the frightening one.",
+          "body": "Everything that looks like improvement in a struggling child — the chest going quiet, the child settling, the heart rate coming down — is the list of signs that they are running out. Be suspicious of good news that arrives too easily."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Distinguish paediatric respiratory distress from failure and explain why it matters so much.",
+          "must_hit": [
+            {
+              "point": "Respiratory failure is the commonest route to paediatric arrest",
+              "accept": [
+                "arrest",
+                "commonest",
+                "leading",
+                "respiratory",
+                "first"
+              ]
+            },
+            {
+              "point": "Distress is working hard and succeeding",
+              "accept": [
+                "distress",
+                "working",
+                "compensat",
+                "succeed",
+                "alert"
+              ]
+            },
+            {
+              "point": "Distress signs: retractions, flaring, grunting, noise, positioning",
+              "accept": [
+                "retract",
+                "flar",
+                "grunt",
+                "noisy",
+                "tripod",
+                "position"
+              ]
+            },
+            {
+              "point": "Failure is working hard and losing, and it looks quiet",
+              "accept": [
+                "failure",
+                "quiet",
+                "losing",
+                "decreas",
+                "exhaust"
+              ]
+            },
+            {
+              "point": "A quiet chest means less air moving, not improvement",
+              "accept": [
+                "quiet chest",
+                "less air",
+                "not improv",
+                "silent",
+                "worse"
+              ]
+            },
+            {
+              "point": "Bradycardia is a very late and ominous sign",
+              "accept": [
+                "bradycard",
+                "slow",
+                "heart rate",
+                "late",
+                "ominous"
+              ]
+            },
+            {
+              "point": "Let the child keep their chosen position and keep them calm",
+              "accept": [
+                "position",
+                "calm",
+                "agitat",
+                "leave",
+                "caregiver"
+              ]
+            },
+            {
+              "point": "Treat failure with assisted ventilation without waiting for arrest",
+              "accept": [
+                "ventilat",
+                "assist",
+                "not wait",
+                "early",
+                "arrest"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It got quieter",
+          "dispatch": "Medic 5 — toddler, difficulty breathing, wheezing on arrival.",
+          "body": "Halfway to hospital somebody said the wheeze had settled and the child had stopped fussing.\n\nThe partner looked at the child rather than the monitor and started assisting ventilations.\n\nThe wheeze had settled because almost nothing was moving."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "left_label": "DISTRESS (working and winning)",
+          "right_label": "FAILURE (working and losing)",
+          "rows": [
+            {
+              "feature": "Overall impression",
+              "left": "LOUD AND BUSY — obvious effort",
+              "right": "QUIET — and quiet is the frightening one"
+            },
+            {
+              "feature": "Respiratory effort",
+              "left": "Increased: retractions, flaring, grunting, accessory muscles",
+              "right": "DECREASING — they are exhausted"
+            },
+            {
+              "feature": "Breath sounds",
+              "left": "Noisy: wheeze, stridor, grunting",
+              "right": "DIMINISHING OR QUIET — less air is moving, NOT improvement"
+            },
+            {
+              "feature": "Mental status",
+              "left": "ALERT, frightened, objecting to you",
+              "right": "ALTERED: drowsy, not interacting, no longer fighting you"
+            },
+            {
+              "feature": "Muscle tone",
+              "left": "Normal, often rigid with effort",
+              "right": "DECREASING, floppy"
+            },
+            {
+              "feature": "Heart rate",
+              "left": "FAST",
+              "right": "FALLING — bradycardia is VERY LATE AND VERY OMINOUS"
+            },
+            {
+              "feature": "Position",
+              "left": "Self-selected: tripod, sniffing, refuses to lie flat",
+              "right": "May no longer hold any position"
+            },
+            {
+              "feature": "What it means",
+              "left": "Compensating. Keep them calm and do not tip them over",
+              "right": "COMPENSATION HAS FAILED"
+            },
+            {
+              "feature": "What you do",
+              "left": "Position of comfort, caregiver close, minimal agitation, oxygen per protocol",
+              "right": "ASSIST VENTILATION — and do NOT wait for arrest to start"
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the distress and failure findings against the current text. Paediatric vital sign normal ranges are deliberately NOT reproduced here; use the lifespan vital signs numbers card in EMT-03-05-01 and confirm it against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-03-05",
+      "title": "Pediatric shock",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-03-03"
+      ],
+      "related": [
+        "EMT-07-03-02",
+        "EMT-07-03-03",
+        "EMT-06-02-01"
+      ],
+      "key_points": [
+        "Children compensate for shock exceptionally well, which is exactly what makes it dangerous",
+        "They maintain a normal-looking blood pressure until very late by increasing rate and clamping down peripherally",
+        "Hypotension in a child is a late and ominous finding, not an early one",
+        "The early signs are all peripheral: tachycardia, poor capillary refill, cool mottled skin, weak peripheral pulses",
+        "Altered appearance is an early and important sign, because the brain notices poor perfusion first",
+        "Decreased urine output — fewer wet nappies — is useful history from the caregiver",
+        "Dehydration from vomiting and diarrhoea is a common paediatric cause and is easy to underestimate",
+        "Blood loss that looks small can be a large fraction of a small child's circulating volume",
+        "Never wait for a blood pressure to fall before treating a child as being in shock",
+        "Keep them warm, position appropriately, give oxygen per protocol, and transport without delay"
+      ],
+      "misconceptions": [
+        "Waiting for hypotension before treating",
+        "Reassurance from a normal blood pressure",
+        "Underestimating blood loss because the volume looks small",
+        "Letting a shocked child get cold"
+      ],
+      "exam_favorites": [
+        "Hypotension is late",
+        "Peripheral signs come first",
+        "Judge loss against patient size"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Children compensate for shock exceptionally well, and that is exactly what makes paediatric shock dangerous. Their cardiovascular reserve is excellent. They increase their heart rate, clamp down the periphery hard, and maintain a normal-looking blood pressure while a substantial fraction of their circulating volume is gone.\n\nSo the single most important thing to carry away is this: a normal blood pressure in a child tells you almost nothing reassuring. Hypotension in a child is late. By the time the pressure falls, compensation has already failed, and what follows is fast.\n\nWhich means you have to read the signs that come earlier, and they are all peripheral or behavioural.\n\nTachycardia is usually first, though it is non-specific — fever, fear and pain all do it too. Capillary refill lengthens. The skin goes cool, pale, then mottled. Peripheral pulses weaken while central pulses are still strong, which is the body prioritising the core and is a useful comparison to make deliberately — feel both.\n\nAnd appearance changes, which brings the assessment triangle straight back in. The brain notices poor perfusion early, so a child who is less interactive, less consolable, floppier or vacant is telling you about their perfusion before any number does.\n\nOne piece of history worth asking for specifically: urine output. How many wet nappies today, compared with a normal day? Caregivers know this, and a dramatic reduction is real evidence of volume depletion.\n\nOn causes: dehydration from vomiting and diarrhoea is extremely common in children and is easy to underestimate, because there is nothing dramatic to look at. And in trauma, remember the volume point from the anatomy concept — a child's total blood volume is small, so a loss that would be unremarkable in an adult can be a large share of theirs. Judge blood loss against the size of the patient, not against the size of the puddle.\n\nManagement at EMT level is unglamorous and effective. Oxygen per protocol. Position appropriately. Control any bleeding. Keep them warm, because a cold child does worse and shocked children lose heat quickly. And transport without delay, because the definitive treatment is not in your vehicle.\n\nThe discipline to build is treating on the early signs. If you wait for the blood pressure to confirm what the skin and the appearance already told you, you have waited too long.",
+          "standard": "Paediatric compensatory capacity for shock is substantial, maintaining apparently normal blood pressure through tachycardia and peripheral vasoconstriction despite significant volume depletion. Hypotension therefore constitutes a late finding indicating compensatory failure, with rapid subsequent deterioration; normal blood pressure does not exclude significant shock. Early indicators are peripheral and behavioural: tachycardia, though non-specific given fever, anxiety and pain as confounders; prolonged capillary refill; cool, pale, then mottled skin; and diminished peripheral pulses with preserved central pulses, a comparison that should be performed deliberately. Altered appearance reflects early cerebral hypoperfusion and precedes measurable change. Reduced urine output, elicited as reduction in wet nappies against the child's baseline, provides useful corroborating history. Dehydration secondary to vomiting and diarrhoea is a common and readily underestimated paediatric aetiology. In trauma, small absolute circulating volume means apparently modest haemorrhage may represent substantial proportional loss, and loss should be assessed relative to patient size. Prehospital management comprises oxygen per protocol, appropriate positioning, haemorrhage control, maintenance of normothermia, and expeditious transport. Treatment is initiated on early findings rather than deferred pending hypotension."
+        },
+        "eli_new": {
+          "analogy": "A child holds their blood pressure up the way someone holds a heavy door — completely, right up until the moment they cannot hold it at all.",
+          "body": "Never let a normal blood pressure reassure you about a child. It is the last thing to go, and when it goes, so do they."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain why paediatric shock is dangerous and which signs appear first.",
+          "must_hit": [
+            {
+              "point": "Children compensate exceptionally well",
+              "accept": [
+                "compensat",
+                "reserve",
+                "well",
+                "maintain",
+                "hold"
+              ]
+            },
+            {
+              "point": "Blood pressure stays normal until very late",
+              "accept": [
+                "blood pressure",
+                "normal",
+                "late",
+                "hypotens",
+                "last"
+              ]
+            },
+            {
+              "point": "Hypotension is a late and ominous finding",
+              "accept": [
+                "hypotens",
+                "late",
+                "ominous",
+                "failed",
+                "after"
+              ]
+            },
+            {
+              "point": "Early signs are peripheral: tachycardia, capillary refill, cool mottled skin, weak peripheral pulses",
+              "accept": [
+                "tachycard",
+                "capillary",
+                "refill",
+                "mottl",
+                "cool",
+                "peripheral pulse"
+              ]
+            },
+            {
+              "point": "Altered appearance reflects early poor cerebral perfusion",
+              "accept": [
+                "appearance",
+                "brain",
+                "perfus",
+                "interact",
+                "floppy"
+              ]
+            },
+            {
+              "point": "Reduced wet nappies is useful history",
+              "accept": [
+                "urine",
+                "nappies",
+                "diaper",
+                "output",
+                "wet"
+              ]
+            },
+            {
+              "point": "Small absolute blood volume means small losses matter",
+              "accept": [
+                "volume",
+                "small",
+                "absolute",
+                "loss",
+                "size"
+              ]
+            },
+            {
+              "point": "Keep warm, oxygen per protocol, and transport without delay",
+              "accept": [
+                "warm",
+                "oxygen",
+                "transport",
+                "delay",
+                "bleeding"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "The pressure was fine",
+          "dispatch": "Medic 8 — child, several days of vomiting and diarrhoea.",
+          "body": "Somebody read out a blood pressure that was entirely normal for the age and looked relieved.\n\nThe skin was mottled to the knees and the child had not had a wet nappy since the previous evening.\n\nThey treated the skin and the nappies and ignored the number."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm paediatric shock recognition against the current text. Paediatric vital sign normal ranges are deliberately NOT reproduced here; use the lifespan vital signs numbers card in EMT-03-05-01 and confirm it against the current text."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-03-06",
+      "title": "Pediatric seizures and fever",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-03-03",
+        "EMT-07-03-04",
+        "EMT-05-04-01"
+      ],
+      "key_points": [
+        "Seizure care in a child is the same as in an adult: protect them, do not restrain them, and do not put anything in the mouth",
+        "Protect the head, clear the space, position for airway protection after the seizure, and give oxygen per protocol",
+        "Febrile seizures happen in young children with a rising temperature and are usually brief and self-limiting",
+        "A febrile seizure is terrifying for the caregiver and usually benign for the child — both of those facts need managing",
+        "Any child who has seized needs transport and evaluation, because the cause is what matters",
+        "A seizure lasting a long time, or repeating without recovery in between, is an emergency",
+        "Look for other causes: head injury, low blood sugar, poisoning, infection, hypoxia",
+        "Ask about fever, recent illness, medications in the house, head injury and any seizure history",
+        "Cool the child sensibly rather than aggressively — remove excess clothing, do not use ice or cold water",
+        "Expect and manage the postictal period rather than being surprised by it"
+      ],
+      "misconceptions": [
+        "Restraining a seizing child",
+        "Putting something in the mouth",
+        "Aggressive cooling with ice or cold water",
+        "Treating a febrile seizure as needing no evaluation"
+      ],
+      "exam_favorites": [
+        "Protect, do not restrain",
+        "Febrile seizures",
+        "Look for the cause"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Seizure care in a child is the same as in an adult, and the basics do not change. Protect them from injury. Do not restrain them. Do not put anything in the mouth — that instruction is old and wrong and still occasionally attempted. Protect the head, move furniture away, note the time and what you actually saw, and once the seizure stops, position for airway protection, suction if needed and give oxygen per protocol.\n\nWhat is distinctively paediatric is the febrile seizure. Young children can seize when their temperature rises — and it is the rise rather than the absolute height that seems to matter. They are typically brief, generalised and self-limiting, and they stop before or shortly after you arrive.\n\nHere is the practical shape of that call. A febrile seizure is usually benign for the child and absolutely terrifying for the caregiver, who has quite often just watched what they believed was their child dying. Both of those facts need managing. Treat the child, and then genuinely treat the parent — explain what happened, explain what you are doing, and do not dismiss it, because the fear is real even when the seizure was not dangerous.\n\nEvery child who has seized is transported and evaluated. Not because the seizure itself needs hospital treatment, but because the cause does, and you cannot exclude the important causes on a living-room floor.\n\nSo keep a differential running. Head injury. Low blood sugar, which is worth checking and correcting per protocol. Poisoning or ingestion, especially in a toddler who was briefly unsupervised — ask what is in the house. Infection, including meningitis. Hypoxia. Fever is the commonest explanation in a young child, and assuming it is the explanation is how the others get missed.\n\nAsk specifically: was there a fever, has the child been unwell, does the child have a seizure history and is this one different from their usual, what medications are in the house, and could there have been a head injury.\n\nOn cooling: sensible, not aggressive. Remove excess clothing and blankets. Do not use ice, cold water or alcohol — they can cause shivering, which raises temperature, and they are unpleasant for a child who has just had a very bad few minutes.\n\nAnd expect the postictal period. A child who has seized may be drowsy, confused and unresponsive-looking for some time. That is expected. What is not expected is failing to gradually improve, or seizing again without recovering in between, or a seizure that simply does not stop — each of which is an emergency and a reason to move.",
+          "standard": "Paediatric seizure management follows general principles: protection from injury without restraint, avoidance of oral insertion of any object, cranial protection, environmental clearance, documentation of duration and observed features, and post-ictal airway positioning with suction and oxygen per protocol. Febrile seizures occur in young children in association with rising temperature, with rate of rise apparently more relevant than absolute value, and are characteristically brief, generalised and self-limiting. Such events are typically benign for the patient while producing marked caregiver distress, requiring explicit explanation and reassurance alongside clinical care. All children who have seized require transport and evaluation, as determination of aetiology cannot be completed prehospitally. Differential considerations include head injury, hypoglycaemia, which should be assessed and corrected per protocol, toxic ingestion particularly in unsupervised toddlers, infection including meningitis, and hypoxia; attribution to fever without consideration of alternatives risks missing significant causes. History should address fever, recent illness, prior seizure history and deviation from the patient's usual pattern, medications accessible in the environment, and possible head injury. Cooling should be moderate, comprising removal of excess clothing; ice, cold water and alcohol are contraindicated as shivering elevates temperature. Post-ictal drowsiness and confusion are expected; failure to improve progressively, recurrent seizures without interval recovery, and prolonged seizure activity constitute emergencies."
+        },
+        "eli_new": {
+          "analogy": "Febrile seizures are usually harmless to the child and devastating to the parent watching. You are treating two patients, and only one of them is on the floor.",
+          "body": "Fever is the commonest explanation in a young child, and assuming it is the explanation is exactly how head injury, low sugar and ingestion get missed. Keep asking."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to manage a child who has had a seizure, including a febrile seizure.",
+          "must_hit": [
+            {
+              "point": "Protect from injury, do not restrain, nothing in the mouth",
+              "accept": [
+                "protect",
+                "not restrain",
+                "nothing in the mouth",
+                "injury",
+                "head"
+              ]
+            },
+            {
+              "point": "Afterwards position for airway, suction, oxygen per protocol",
+              "accept": [
+                "position",
+                "airway",
+                "suction",
+                "oxygen",
+                "after"
+              ]
+            },
+            {
+              "point": "Febrile seizures occur with a rising temperature and are usually brief",
+              "accept": [
+                "febrile",
+                "fever",
+                "rise",
+                "brief",
+                "self-limit"
+              ]
+            },
+            {
+              "point": "Usually benign for the child but terrifying for the caregiver",
+              "accept": [
+                "benign",
+                "terrif",
+                "parent",
+                "caregiver",
+                "reassur"
+              ]
+            },
+            {
+              "point": "All children who seize need transport and evaluation",
+              "accept": [
+                "transport",
+                "evaluat",
+                "all",
+                "cause",
+                "hospital"
+              ]
+            },
+            {
+              "point": "Consider head injury, low sugar, poisoning, infection, hypoxia",
+              "accept": [
+                "head injury",
+                "sugar",
+                "glucose",
+                "poison",
+                "infection",
+                "hypox"
+              ]
+            },
+            {
+              "point": "Cool sensibly — no ice, cold water or alcohol",
+              "accept": [
+                "cool",
+                "ice",
+                "cold water",
+                "alcohol",
+                "shiver",
+                "clothing"
+              ]
+            },
+            {
+              "point": "Prolonged or repeated seizures without recovery are emergencies",
+              "accept": [
+                "prolong",
+                "repeat",
+                "without recovery",
+                "emergency",
+                "does not stop"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Two patients",
+          "dispatch": "Medic 2 — two year old, seizure, now stopped.",
+          "body": "The child was drowsy and pink and breathing perfectly well by the time they arrived.\n\nThe mother was shaking so badly she could not hold the door.\n\nOne of them sat with her and explained the whole thing twice. That was the treatment that call needed."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm febrile seizure characteristics, cooling guidance and the seizure differential against the current text and your local protocol. No medication names or doses appear."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-03-07",
+      "title": "Sudden infant death and the unexpected infant event",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-03-08",
+        "EMT-07-02-01",
+        "EMT-01-04-01"
+      ],
+      "key_points": [
+        "Sudden infant death is the sudden, unexplained death of an infant, typically found during sleep",
+        "Begin resuscitation unless there are obvious signs of irreversible death, and follow your protocol",
+        "Do not speculate about cause and never suggest or imply blame to the family",
+        "Observe and document the scene factually: position found, surroundings, temperature, time last seen well",
+        "Document what you observe, not what you conclude — the difference matters enormously here",
+        "These calls are among the hardest EMS runs there are, and the crew needs support afterwards too",
+        "A brief resolved unexplained event is an episode of colour change, tone change, breathing change or altered responsiveness that has resolved",
+        "An infant who looks entirely well after such an event still needs transport and evaluation",
+        "Take the caregiver's account seriously even when the infant appears normal to you now",
+        "Handle the family with care and let them stay with the infant where it is possible"
+      ],
+      "misconceptions": [
+        "Speculating about cause on scene",
+        "Implying blame to caregivers",
+        "Leaving a well-looking infant at home after an unexplained event",
+        "Documenting conclusions rather than observations"
+      ],
+      "exam_favorites": [
+        "Observe, do not conclude",
+        "Transport after an event",
+        "Crew support"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Sudden infant death is the sudden and unexplained death of an infant, typically found during sleep, where nothing in the history or the scene accounts for it. It remains unexplained after investigation, which is the essential point — it is not a thing you can diagnose on scene, and you should not try.\n\nWhat you do on scene is straightforward to state and very hard to do.\n\nBegin resuscitation unless there are obvious signs of irreversible death, and follow your protocol and medical direction on that question. Most systems ask you to start.\n\nDo not speculate about cause. Not to the family, not to each other in earshot, not in your documentation. And never suggest or imply blame, including by the questions you ask or the way you ask them. Parents in this situation are already searching for what they did wrong, and a badly phrased question will stay with them permanently.\n\nObserve the scene carefully and document it factually. The position the infant was found in. The surroundings — bedding, objects, sleeping surface, who else was in the bed. Room temperature. When the infant was last seen well, and by whom. Any medication or illness. This information genuinely matters to the investigation that follows, and you are the only clinician who will ever see that room as it was.\n\nAnd hold on to the distinction that governs all of it: document what you observe, not what you conclude. \"Infant found prone on an adult bed with two pillows and a duvet\" is an observation. \"Infant suffocated by bedding\" is a conclusion, it is not yours to make, and it can do real damage.\n\nBe honest about the other thing too. These are among the hardest calls in EMS, and they affect experienced people badly. The crew needs support afterwards, and asking for it is not weakness. Know what your service provides before you need it.\n\nThen the related presentation: the brief resolved unexplained event. An infant has an episode — a change in colour, a change in tone, a change in breathing, or a period of altered responsiveness — which frightens the caregiver badly and has completely resolved by the time you arrive. The infant in front of you looks entirely normal.\n\nThe rule is that the infant still needs transport and evaluation. A normal-looking infant after such an event has not been cleared of anything; the causes that matter are not visible to you, and they are not excluded by a baby who is currently smiling at the ceiling.\n\nAnd take the caregiver's account seriously. They watched something that frightened them enough to call, they know this infant, and your reassurance should never take the form of suggesting they imagined it.",
+          "standard": "Sudden infant death denotes the sudden, unexplained death of an infant, typically discovered during sleep, remaining unexplained following investigation; prehospital diagnosis is not possible or appropriate. Resuscitation is initiated unless obvious signs of irreversible death are present, in accordance with protocol and medical direction. Providers must not speculate as to cause in any setting, including documentation and discussion within family hearing, and must avoid any suggestion or implication of caregiver culpability, including through phrasing of history questions. Scene observation and factual documentation are important contributions to subsequent investigation and should record position found, bedding and sleep surface, objects present, co-sleeping arrangements, ambient temperature, time and person last observing the infant well, and relevant illness or medication. Documentation must record observation rather than conclusion. These incidents carry substantial provider psychological impact and warrant crew support following the call. A brief resolved unexplained event describes an episode of altered colour, tone, breathing or responsiveness in an infant that has fully resolved at the time of assessment. Transport and evaluation remain indicated despite apparently normal findings, as relevant aetiologies are not excluded by current normality, and caregiver accounts should be accorded credibility."
+        },
+        "eli_new": {
+          "analogy": "You are the only clinician who will ever see that room the way it was. Describe it, and leave the conclusions to people whose job that is.",
+          "body": "The line that protects everyone is observation versus conclusion. Write where the infant was and what was in the cot. Do not write why."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how to manage a suspected sudden infant death and a brief resolved unexplained event.",
+          "must_hit": [
+            {
+              "point": "Sudden infant death is sudden and unexplained, usually found during sleep",
+              "accept": [
+                "sudden",
+                "unexplained",
+                "sleep",
+                "infant",
+                "death"
+              ]
+            },
+            {
+              "point": "Begin resuscitation unless there are obvious signs of irreversible death",
+              "accept": [
+                "resuscitat",
+                "begin",
+                "unless",
+                "obvious",
+                "protocol"
+              ]
+            },
+            {
+              "point": "Do not speculate about cause or imply blame",
+              "accept": [
+                "speculat",
+                "blame",
+                "cause",
+                "not",
+                "imply"
+              ]
+            },
+            {
+              "point": "Observe and document the scene factually",
+              "accept": [
+                "scene",
+                "document",
+                "position",
+                "bedding",
+                "temperature",
+                "last seen"
+              ]
+            },
+            {
+              "point": "Document observations, not conclusions",
+              "accept": [
+                "observ",
+                "conclusion",
+                "factual",
+                "what you saw",
+                "not why"
+              ]
+            },
+            {
+              "point": "The crew needs support afterwards",
+              "accept": [
+                "crew",
+                "support",
+                "hard",
+                "affect",
+                "debrief"
+              ]
+            },
+            {
+              "point": "A resolved unexplained event still needs transport and evaluation",
+              "accept": [
+                "transport",
+                "evaluat",
+                "resolved",
+                "event",
+                "still"
+              ]
+            },
+            {
+              "point": "Take the caregiver's account seriously",
+              "accept": [
+                "caregiver",
+                "serious",
+                "account",
+                "believe",
+                "parent"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "What was written",
+          "dispatch": "Medic 6 — infant unresponsive, resuscitation in progress.",
+          "body": "The report said the infant was found prone on an adult bed with two pillows and a duvet, and gave the time last seen well.\n\nIt did not say why. Somebody had wanted to add a sentence and was talked out of it.\n\nThe investigators used everything in that paragraph. The extra sentence would have helped nobody."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm terminology, resuscitation decision-making and documentation guidance for sudden infant death and brief resolved unexplained events against the current text and your local protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-03-08",
+      "title": "Recognising abuse and neglect",
+      "domain": "MED",
+      "difficulty": 5,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-07-03-07",
+        "EMT-01-04-01",
+        "EMT-01-04-02"
+      ],
+      "key_points": [
+        "EMS providers are mandated reporters in most systems — know your obligation before you need it",
+        "You report suspicion, not proof, and you are not required to be certain",
+        "The strongest single indicator is a history that does not match the injury",
+        "Also concerning: a history that changes, a delay in seeking care, or an injury impossible for the child's developmental stage",
+        "Injuries in unusual places, patterned injuries, and injuries of clearly different ages raise suspicion",
+        "Neglect can present as poor hygiene, malnutrition, untreated conditions or an unsafe environment",
+        "Do not confront or accuse the caregiver — it endangers the child and it ends the call",
+        "Your job on scene is the child's medical care, safe transport, and factual documentation",
+        "Document objectively with quotes where relevant, and describe injuries without interpreting them",
+        "Follow your reporting procedure, and remember that reporting is a legal protection for you as well"
+      ],
+      "misconceptions": [
+        "Confronting or accusing a caregiver on scene",
+        "Waiting for proof before reporting",
+        "Recording interpretations rather than observations",
+        "Assuming another agency will make the report"
+      ],
+      "exam_favorites": [
+        "History that does not match",
+        "Report suspicion, not proof",
+        "Do not confront"
+      ],
+      "modes": {
+        "read": {
+          "plain": "In most systems EMS providers are mandated reporters, which means the law requires you to report suspected abuse or neglect. Find out what your specific obligation is and how the reporting is done before you are standing in a house needing to know.\n\nAnd take the weight off yourself with this: you report suspicion, not proof. You are not the investigator, you are not required to be certain, and you are not deciding what happened. You are reporting that something concerned you, to people whose job is to find out.\n\nWhat concerns you, in practice?\n\nThe strongest single indicator is a history that does not match the injury. A mechanism described that could not produce what you are looking at, or an injury far more severe than the story accounts for. Related to that: a history that changes between tellings or between people, a substantial unexplained delay in seeking care, or an injury that is impossible for the child's developmental stage — an infant who cannot yet roll over does not roll off things.\n\nThen the physical findings. Injuries in unusual places, rather than the shins, knees, elbows and foreheads where mobile children injure themselves. Patterned injuries that suggest the shape of an object. Injuries that are clearly of different ages. Burns with unusual patterns or distributions.\n\nNeglect looks different and is easy to miss because there is no single event: persistently poor hygiene, malnutrition, untreated medical conditions, a child dressed inappropriately for the weather, an unsafe or grossly unsuitable environment.\n\nNone of these proves anything by itself. Children do get hurt in odd ways, families do live in difficult circumstances, and a single finding is a reason to look carefully rather than a verdict.\n\nNow the most important practical rule: do not confront or accuse the caregiver. It does not help. It can make the scene unsafe for you, it can make things worse for the child after you leave, and it can end the call — a caregiver who becomes hostile may refuse transport, and then the child stays. Stay professional, stay neutral, and get the child to hospital.\n\nYour job on scene is three things: the child's medical care, safe transport, and factual documentation.\n\nDocument objectively. Quote what people said, in quotation marks, attributed to who said it. Describe injuries by location, size, colour and appearance, without interpreting them. \"Four-centimetre linear bruise to the left posterior thigh\" is documentation. \"Bruise from a belt\" is an interpretation you cannot support.\n\nThen make the report through your procedure. Do not assume the hospital or another agency will do it. And it is worth knowing that reporting in good faith is legally protected in most jurisdictions — the system is built to make reporting the safe thing to do.",
+          "standard": "EMS providers hold mandated reporter status in most jurisdictions, and providers should establish their specific statutory obligation and reporting mechanism in advance. The threshold for reporting is suspicion rather than proof; providers are not investigators and certainty is not required. The most significant indicator is incongruence between reported mechanism and observed injury, including injury severity disproportionate to the stated history. Additional concerning features include inconsistent histories across tellings or informants, unexplained delay in seeking care, and injury incompatible with the child's developmental capabilities. Physical findings raising concern include injuries at atypical anatomical sites rather than the shins, knees, elbows and forehead typical of accidental paediatric injury; patterned injuries suggesting an implement; injuries of differing apparent ages; and burns of atypical pattern or distribution. Neglect may manifest as persistent poor hygiene, malnutrition, untreated medical conditions, inappropriate clothing for conditions, or unsafe environment. Individual findings are not diagnostic. Providers must not confront or accuse caregivers, as this may compromise scene safety, worsen the child's subsequent circumstances, and precipitate transport refusal. Prehospital responsibilities comprise medical care, safe transport and objective documentation using direct quotation with attribution and injury description by location, dimension, colour and appearance without interpretation. Reporting proceeds through the provider's own procedure and is generally afforded legal protection when made in good faith."
+        },
+        "eli_new": {
+          "analogy": "You are not deciding what happened. You are telling the people whose job that is that something did not add up.",
+          "body": "The single most useful question is whether the story explains the injury. When it does not, that is the finding — and it is enough to report on its own."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what raises suspicion of child abuse and what you should and should not do on scene.",
+          "must_hit": [
+            {
+              "point": "EMS providers are mandated reporters in most systems",
+              "accept": [
+                "mandated",
+                "reporter",
+                "required",
+                "law",
+                "obligation"
+              ]
+            },
+            {
+              "point": "You report suspicion, not proof",
+              "accept": [
+                "suspicion",
+                "not proof",
+                "certain",
+                "investigator",
+                "threshold"
+              ]
+            },
+            {
+              "point": "A history that does not match the injury is the strongest indicator",
+              "accept": [
+                "history",
+                "match",
+                "mechanism",
+                "story",
+                "inconsist"
+              ]
+            },
+            {
+              "point": "Delay in seeking care and developmentally impossible injuries concern you",
+              "accept": [
+                "delay",
+                "develop",
+                "stage",
+                "roll",
+                "impossible"
+              ]
+            },
+            {
+              "point": "Unusual locations, patterned injuries, injuries of different ages",
+              "accept": [
+                "unusual",
+                "pattern",
+                "different ages",
+                "location",
+                "burn"
+              ]
+            },
+            {
+              "point": "Neglect shows as hygiene, malnutrition, untreated conditions, unsafe environment",
+              "accept": [
+                "neglect",
+                "hygiene",
+                "malnutrition",
+                "untreated",
+                "environment"
+              ]
+            },
+            {
+              "point": "Do not confront or accuse the caregiver",
+              "accept": [
+                "not confront",
+                "accuse",
+                "neutral",
+                "hostile",
+                "refuse"
+              ]
+            },
+            {
+              "point": "Document objectively with quotes and descriptions, not interpretations",
+              "accept": [
+                "document",
+                "quote",
+                "objective",
+                "describe",
+                "interpret"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "It did not add up",
+          "dispatch": "Medic 9 — infant with a limb injury, mechanism unclear.",
+          "body": "The story was that the infant had rolled off the sofa. The infant was not yet rolling over.\n\nNobody said anything about that in the house. They treated the arm and drove.\n\nThe report said what the caregiver had said, in quotation marks, and what the infant could and could not do. That was all it needed to say."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm mandated reporter obligations, reporting procedure and indicators of abuse and neglect against the current text and your local law and protocol, which vary by jurisdiction."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-07-03-09",
+      "title": "Pediatric trauma considerations",
+      "domain": "MED",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-07-03-02"
+      ],
+      "related": [
+        "EMT-07-03-02",
+        "EMT-07-03-05",
+        "EMT-06-01-01"
+      ],
+      "key_points": [
+        "Trauma is a leading cause of death in children, and blunt mechanisms predominate",
+        "Because the body is smaller, force is distributed across more of it — multi-system injury is the norm, not the exception",
+        "The large head means head injury is common and often the most significant injury present",
+        "Flexible bones transmit force to organs without breaking, so serious injury can exist with no fracture",
+        "Assume the mechanism and treat for what it could have caused, rather than what you can see",
+        "Airway management follows the paediatric rules: neutral position, pad the shoulders, do not over-extend",
+        "Keep them warm — trauma, exposure and a large surface area combine to cool a child fast",
+        "Blood loss that appears modest may be a large fraction of a small circulating volume",
+        "They compensate well then crash, so transport decisions are made early rather than after deterioration",
+        "Transport to a facility with paediatric capability where your system provides one"
+      ],
+      "misconceptions": [
+        "Reassurance from the absence of fractures",
+        "Waiting for deterioration before deciding on transport",
+        "Over-extending the neck during airway management",
+        "Letting an injured child get cold"
+      ],
+      "exam_favorites": [
+        "Multi-system is the norm",
+        "Head injury dominates",
+        "Decide transport early"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Trauma is a leading cause of death in children, and the mechanisms are overwhelmingly blunt — falls, being struck by vehicles, motor vehicle collisions, bicycles.\n\nThe governing idea is one of geometry. A child is small, so the same amount of force is distributed across a much larger proportion of the body. Multi-system injury is therefore the normal presentation rather than the unusual one. An adult struck by a car may have one badly injured leg; a child struck by the same car has taken that force through the legs, the abdomen, the chest and the head. Look everywhere, always.\n\nThe head deserves particular attention because it is proportionally large, relatively heavy and frequently leads in a fall. Head injury is common in paediatric trauma and is very often the most significant injury present. Watch mental status carefully, and take a change in it seriously.\n\nThen bring back the flexibility point from the anatomy concept, because it matters more in trauma than anywhere else. A child's bones and rib cage bend. Force passes through to the organs underneath without necessarily breaking anything. Which means the absence of fractures is not reassurance — a chest that looks intact can conceal badly injured lungs, and an abdomen with no external mark can conceal an injured liver or spleen.\n\nThis leads to the central discipline of paediatric trauma: assume the mechanism. Treat for what the forces involved could have caused, not for what you can currently see. Children hide injury well, and then stop hiding it suddenly.\n\nSome specifics.\n\nAirway management follows the paediatric rules. Neutral position, pad under the shoulders to offset the occiput, and do not over-extend a soft, collapsible airway.\n\nTemperature is a genuine problem. Trauma, exposure, cut-away clothing and a large surface area combine to cool a child fast, and hypothermia worsens bleeding and outcomes. Cover them, warm the compartment, and keep doing it while you work.\n\nBlood loss is judged against the patient. A volume that would barely register in an adult may be a large share of a small child's circulating volume.\n\nAnd the compensation point drives the most consequential decision you make. Children hold on, then crash. So transport decisions get made early, on mechanism and on the first impression, rather than after the child has deteriorated enough to make the decision obvious. If you are waiting for confirmation, you are waiting too long.\n\nFinally, where your system provides one, transport to a facility with paediatric capability, and pre-alert.",
+          "standard": "Trauma constitutes a leading cause of paediatric mortality, with blunt mechanisms predominating including falls, pedestrian injury, motor vehicle collision and cycling injury. Reduced body size distributes applied force across a greater proportion of the body, rendering multi-system injury the typical rather than exceptional presentation and requiring comprehensive assessment. The proportionally large, heavy head frequently leads in falls; head injury is common and often the most significant injury present, warranting careful monitoring of mental status. Skeletal and thoracic flexibility permits transmission of force to underlying organs without fracture, so absence of fracture does not exclude significant thoracic or abdominal visceral injury. Management proceeds on presumed mechanism, treating for potential injury rather than demonstrated injury, as paediatric patients conceal injury effectively before abrupt decompensation. Airway management follows paediatric principles: neutral positioning with shoulder padding and avoidance of over-extension. Hypothermia risk is elevated by exposure, clothing removal and surface area to mass ratio, and worsens haemorrhage and outcome; active covering and compartment warming are indicated throughout. Haemorrhage is assessed relative to patient size given small absolute circulating volume. Given the compensation pattern, transport decisions are made early on mechanism and initial impression rather than following demonstrated deterioration. Transport is directed to paediatric-capable facilities where the system provides them, with prearrival notification."
+        },
+        "eli_new": {
+          "analogy": "An adult struck by a car may have one injured leg. A child struck by the same car has taken that force through everything at once.",
+          "body": "Assume the mechanism. Children conceal injury extremely well and then stop concealing it all at once, so treat what the forces could have done rather than what you can currently find."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what is different about paediatric trauma and how it changes your decisions.",
+          "must_hit": [
+            {
+              "point": "Blunt mechanisms predominate and trauma is a leading cause of death",
+              "accept": [
+                "blunt",
+                "leading",
+                "death",
+                "fall",
+                "vehicle"
+              ]
+            },
+            {
+              "point": "Smaller body means force is distributed — multi-system injury is normal",
+              "accept": [
+                "multi",
+                "system",
+                "distribut",
+                "force",
+                "everywhere"
+              ]
+            },
+            {
+              "point": "The large head means head injury is common and often dominant",
+              "accept": [
+                "head",
+                "large",
+                "injury",
+                "mental status",
+                "leads"
+              ]
+            },
+            {
+              "point": "Flexible bones mean serious injury without fracture",
+              "accept": [
+                "flexible",
+                "fracture",
+                "without",
+                "organ",
+                "through"
+              ]
+            },
+            {
+              "point": "Assume the mechanism and treat for what it could have caused",
+              "accept": [
+                "assume",
+                "mechanism",
+                "could",
+                "potential",
+                "not what you see"
+              ]
+            },
+            {
+              "point": "Airway: neutral, pad the shoulders, do not over-extend",
+              "accept": [
+                "neutral",
+                "pad",
+                "shoulder",
+                "extend",
+                "airway"
+              ]
+            },
+            {
+              "point": "Keep them warm — hypothermia worsens bleeding and outcome",
+              "accept": [
+                "warm",
+                "cold",
+                "hypotherm",
+                "cover",
+                "exposure"
+              ]
+            },
+            {
+              "point": "Decide transport early because they compensate then crash",
+              "accept": [
+                "transport",
+                "early",
+                "compensat",
+                "crash",
+                "decide"
+              ]
+            }
+          ]
+        },
+        "story": {
+          "title": "Decide now",
+          "dispatch": "Engine 3 — child struck by a car at low speed, walking at the scene.",
+          "body": "The child was up and talking and somebody suggested waiting to see how things developed.\n\nThe officer asked what force had gone through that body and where it had gone.\n\nThey made the transport decision on the mechanism, which is the only time you get to make it early."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 3,
+        "application": 2,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm paediatric trauma priorities, triage criteria and destination guidance against the current text and your local protocol. Significant-mechanism thresholds are deliberately not reproduced here."
     }
   ]
 }
