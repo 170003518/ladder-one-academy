@@ -21,6 +21,7 @@ import * as hear from './hear.js';
 import * as teach from './teach.js';
 import * as see from './see.js';
 import * as sort from './sort.js';
+import * as deckprint from './deckprint.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -150,6 +151,17 @@ async function route() {
     return done();
   }
 
+  if (parts[0] === 'print' && parts[1] === 'deck') {
+    exam.abandon(); quiz.abandon();
+    const moduleId = parts[2] ? decodeURIComponent(parts[2]) : 'EMT-02';
+    const mod = findModule(moduleId);
+    const deck = await loadDeck(moduleId);
+    deckprint.setModule(moduleId);
+    ctx = { kind: 'deckprint', module: mod, deck };
+    app.el.innerHTML = shell(deckprint.renderDeckPrint(mod, deck));
+    return done();
+  }
+
   if (parts[0] === 'print' && parts[1]) {
     exam.abandon(); quiz.abandon();
     const first = decodeURIComponent(parts[1]);
@@ -242,6 +254,7 @@ function refresh() {
   if (!ctx) return route();
   if (ctx.kind === 'exam') { app.el.innerHTML = shell(exam.renderExam(ctx.module, ctx.questions)); return; }
   if (ctx.kind === 'print') return route();
+  if (ctx.kind === 'deckprint') { app.el.innerHTML = shell(deckprint.renderDeckPrint(ctx.module, ctx.deck)); return; }
   ctx.depth = app.depth;
   app.el.innerHTML = shell(renderLesson(ctx));
 }
@@ -264,7 +277,8 @@ function wire() {
     const t = ev.target.closest('[data-depth], #mark-viewed, #quiz-start, [data-answer], [data-confidence], #quiz-again, '
       + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print, '
       + '[data-do-pick], #do-reset, #hear-play, #hear-stop, #teach-submit, #teach-again, '
-      + '[data-see-zoom], #see-close, [data-sort-item], [data-sort-bucket], [data-sort-unplace], #sort-check, #sort-reset');
+      + '[data-see-zoom], #see-close, [data-sort-item], [data-sort-bucket], [data-sort-unplace], #sort-check, #sort-reset, '
+      + '#deck-all, #deck-none');
     if (!t) return;
 
     if (t.dataset.depth) { app.depth = t.dataset.depth; return refresh(); }
@@ -342,6 +356,10 @@ function wire() {
     if (t.dataset.sortBucket !== undefined) { sort.drop(ctx.concept.id, Number(t.dataset.sortBucket)); return refresh(); }
     if (t.id === 'sort-check') { sort.check(ctx.concept.id); return refresh(); }
     if (t.id === 'sort-reset') { sort.reset(ctx.concept.id); return refresh(); }
+
+    /* --- Deck print --- */
+    if (t.id === 'deck-all')  { deckprint.selectAll(ctx.deck.cards || []); return refresh(); }
+    if (t.id === 'deck-none') { deckprint.selectNone(); return refresh(); }
   });
 
   /* Drag and drop is the desktop path into the same sort functions the taps use.
@@ -369,7 +387,13 @@ function wire() {
   });
 
   app.el.addEventListener('change', ev => {
-    const tierKey = ev.target?.dataset?.attest;
+    const el = ev.target;
+    if (el?.dataset?.deckScope)  { deckprint.setScope(el.dataset.deckScope); return refresh(); }
+    if (el?.dataset?.deckMode)   { deckprint.setMode(el.dataset.deckMode); return refresh(); }
+    if (el?.id === 'deck-lesson'){ deckprint.setLesson(el.value); return refresh(); }
+    if (el?.dataset?.deckCard)   { deckprint.toggleCard(el.dataset.deckCard); return refresh(); }
+
+    const tierKey = el?.dataset?.attest;
     if (!tierKey) return;
     progress.setAttested(tierKey, ev.target.checked);
     const name = tierKey === 'fire' ? 'Fire' : 'Paramedic';

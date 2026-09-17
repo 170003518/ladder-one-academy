@@ -402,6 +402,44 @@
   .sort-empty { font-size: var(--fs-sm); color: var(--text-muted); font-style: italic; margin: 0; }
   #sort-check:disabled { opacity: .5; cursor: default; }
 
+  /* --- Deck print --------------------------------------------------------- */
+  .deck-opts { display: flex; gap: var(--space-5); flex-wrap: wrap; margin: var(--space-4) 0; }
+  .deck-opts fieldset {
+    flex: 1 1 18rem; border: 1px solid var(--border); border-radius: var(--radius);
+    padding: var(--space-4); margin: 0;
+  }
+  .deck-opts legend {
+    font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--text-muted);
+    padding: 0 var(--space-2);
+  }
+  .deck-opts label { display: flex; gap: var(--space-2); align-items: baseline; margin-bottom: var(--space-2); font-size: var(--fs-sm); cursor: pointer; }
+  .deck-opts label em { display: block; font-style: normal; font-size: var(--fs-xs); color: var(--text-muted); }
+  .deck-opts select {
+    font: inherit; font-size: var(--fs-sm); width: 100%;
+    background: var(--surface-raised); color: var(--text);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: var(--space-2) var(--space-3); margin: var(--space-1) 0 var(--space-3);
+  }
+  .deck-opts select:disabled { opacity: .45; }
+
+  .deck-pick { border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-4); margin-bottom: var(--space-4); }
+  .deck-pick__bar { display: flex; gap: var(--space-3); align-items: center; flex-wrap: wrap; margin-bottom: var(--space-3); }
+  .deck-pick__bar button {
+    font: inherit; font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase;
+    background: var(--surface-raised); color: var(--text);
+    border: 1px solid var(--border); border-radius: var(--radius-pill);
+    padding: var(--space-2) var(--space-4); cursor: pointer;
+  }
+  .deck-list { list-style: none; margin: 0; padding: 0; max-height: 18rem; overflow-y: auto; }
+  .deck-list label { display: flex; gap: var(--space-3); align-items: baseline; padding: var(--space-2) 0; border-top: 1px solid var(--border); font-size: var(--fs-sm); cursor: pointer; }
+  .deck-list em { font-style: normal; font-size: var(--fs-xs); color: var(--text-muted); margin-left: auto; }
+  .deck-list .num { color: var(--text-muted); }
+
+  .deckprint .paper-stage .l1a-sheet { margin-bottom: var(--space-6); }
+  .printview__actions button:disabled { opacity: .5; cursor: default; }
+
   /* --- Dev mode banner ---------------------------------------------------- */
   .devbanner {
     background: var(--signal-yellow); color: var(--navy);

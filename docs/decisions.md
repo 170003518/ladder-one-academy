@@ -123,3 +123,13 @@
 - **Cards are renumbered on every content merge, and will keep moving, until the deck is frozen for printing.** Merging a new lesson inserts cards in the middle of the sequence, so a card's number is not a stable identifier and nothing should reference it — the card `id` is the identity, `number` is only print order. When the tier's content is final, freeze the numbering and stop renumbering; until then, do not print a deck and expect the numbers to still match later.
 - Calculation answers are formatted with thousands separators, pinned to `en-US` rather than the viewer's locale so the figure matches the worked solution written beside it ("2,400 mL/min" in both).
 - A unit that is a plain word is singularised when its value is exactly 1 — "within 1 minute", not "within 1 minutes". Symbol units containing punctuation (`mL/min`) never pluralise and are left alone.
+
+## 2026-09-16 — Deck print: multiple cards per sheet
+
+- Deck print route at `#/print/deck/<moduleId>`. Scope is whole module, one lesson, or a hand-picked set; cards always print in deck `number` order.
+- **Sheet order is front, back, front, back** through the deck, so each back sheet immediately follows the fronts it belongs to. Four cards per Letter sheet using the existing `.l1a-sheet` tiling — 2 columns × 2 rows inside a 7.5 × 10in live area.
+- **Mirroring is an artefact of the flip, not a property of the deck.** That is the whole difference between the two modes:
+  - **Double-sided**: the printer turns the paper on the long edge, flipping it left-to-right, so the backs grid is mirrored (`direction: rtl`) and each back lands behind its own front.
+  - **Single-sided**: nothing is turned over — you print every sheet one side up, cut fronts and backs, and pair them by position. Mirroring here would put every back behind the *wrong* front, so backs are **not** mirrored in this mode.
+  This was the ambiguous part of the brief ("alternates front and back sheets" describes both modes); the mirroring rule is the reading that actually produces correctly-assembled cards.
+- Verified: a 12-card selection produces exactly **3 front sheets and 3 back sheets**, 4 cards each, in front/back alternation. In duplex, front columns 48/384/48/384 against back columns 384/48/384/48 with rows matching — every back mirrored onto its front. In single-sided, front and back columns are identical.

@@ -9,16 +9,16 @@
 const esc = s => String(s).replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-const TIER_CLASS = { EMT: 'tier-emt', Fire: 'tier-fire', Paramedic: 'tier-medic' };
+export const TIER_CLASS = { EMT: 'tier-emt', Fire: 'tier-fire', Paramedic: 'tier-medic' };
 
-const TYPE_LABEL = {
+export const TYPE_LABEL = {
   concept: 'Concept', drug: 'Drug', skill: 'Skill', numbers: 'Numbers',
   algorithm: 'Algorithm', mnemonic: 'Mnemonic', compare: 'Compare'
 };
 
 /* The mark, single colour, inherits the surrounding ink. Same geometry as
    brand/logo-mono.svg. */
-const STAMP = `<svg viewBox="0 0 200 240" aria-hidden="true">
+export const STAMP = `<svg viewBox="0 0 200 240" aria-hidden="true">
   <path d="M100 6 L188 30 V132 C188 186 148 218 100 234 C52 218 12 186 12 132 V30 Z"
         fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
   <rect x="93.5" y="37" width="13" height="50"/>
@@ -36,7 +36,7 @@ function footerLine(f) {
   return `Rung ${f.rung} · ${esc(f.tier)} · Module ${f.module_number} — ${esc(f.module_name)}`;
 }
 
-function cardFront(card) {
+export function cardFront(card) {
   const f = card.footer;
   return `
   <div class="l1a-card ${TIER_CLASS[f.tier] || 'tier-emt'}">
@@ -57,7 +57,7 @@ function cardFront(card) {
   </div>`;
 }
 
-function cardBack(card) {
+export function cardBack(card) {
   const f = card.footer;
   return `
   <div class="l1a-card ${TIER_CLASS[f.tier] || 'tier-emt'}">
