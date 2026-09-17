@@ -1112,6 +1112,816 @@
       "domain": "CARD",
       "verify": true,
       "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-01-Q001",
+      "concept_id": "EMT-04-03-01",
+      "style": "recall",
+      "stem": "What do chest compressions primarily achieve?",
+      "options": [
+        {
+          "text": "They usually restart the heart on their own",
+          "rationale": "Compressions rarely restore circulation by themselves."
+        },
+        {
+          "text": "They keep blood moving so the heart stays worth shocking",
+          "rationale": "Correct — they buy time for defibrillation."
+        },
+        {
+          "text": "They replace the need for defibrillation",
+          "rationale": "They do not; they preserve the chance that a shock works."
+        },
+        {
+          "text": "They warm the patient",
+          "rationale": "Not the purpose of compressions."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-01-Q002",
+      "concept_id": "EMT-04-03-01",
+      "style": "application",
+      "stem": "Which links in the chain of survival most often belong to bystanders?",
+      "options": [
+        {
+          "text": "Advanced care and post-arrest care",
+          "rationale": "Those are delivered by professionals."
+        },
+        {
+          "text": "Recognition and early CPR",
+          "rationale": "Correct, and they matter more to survival than anything added later."
+        },
+        {
+          "text": "Defibrillation only",
+          "rationale": "Bystanders may defibrillate, but recognition and CPR are the first two links."
+        },
+        {
+          "text": "Recovery only",
+          "rationale": "Recovery is a later link."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-02-Q001",
+      "concept_id": "EMT-04-03-02",
+      "style": "recall",
+      "stem": "What is the correct compression rate for an adult?",
+      "options": [
+        {
+          "text": "60 to 80 per minute",
+          "rationale": "Too slow to generate adequate circulation."
+        },
+        {
+          "text": "100 to 120 per minute",
+          "rationale": "Correct — the same rate applies at every age."
+        },
+        {
+          "text": "140 to 160 per minute",
+          "rationale": "Faster than recommended and compromises depth and recoil."
+        },
+        {
+          "text": "As fast as possible",
+          "rationale": "Speed without depth and recoil does not circulate blood."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-02-Q002",
+      "concept_id": "EMT-04-03-02",
+      "style": "recall",
+      "stem": "What is the correct adult compression depth?",
+      "options": [
+        {
+          "text": "About 1 inch (2.5 cm)",
+          "rationale": "Too shallow to generate circulation."
+        },
+        {
+          "text": "At least 2 inches (5 cm) and no more than about 2.4 inches (6 cm)",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "At least 4 inches (10 cm)",
+          "rationale": "Excessive and causes injury without benefit."
+        },
+        {
+          "text": "Whatever depth feels comfortable",
+          "rationale": "Depth is specified because it determines effectiveness."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-02-Q003",
+      "concept_id": "EMT-04-03-02",
+      "style": "application",
+      "stem": "Why does leaning on the chest between compressions reduce effectiveness?",
+      "options": [
+        {
+          "text": "It tires the rescuer faster",
+          "rationale": "Fatigue is not the mechanism of harm here."
+        },
+        {
+          "text": "The chest cannot fully recoil, so the heart cannot refill",
+          "rationale": "Correct — you end up compressing an empty heart."
+        },
+        {
+          "text": "It causes the pads to detach",
+          "rationale": "Leaning does not detach pads."
+        },
+        {
+          "text": "It slows the compression rate",
+          "rationale": "Rate and recoil are separate problems."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-02-Q004",
+      "concept_id": "EMT-04-03-02",
+      "style": "sequence",
+      "stem": "Put adult CPR in order: 1) begin compressions at 100 to 120 per minute, 2) confirm no pulse, 3) apply the AED as soon as it arrives, 4) confirm unresponsiveness and absent normal breathing.",
+      "options": [
+        {
+          "text": "4, 2, 1, 3",
+          "rationale": "Correct. Confirm unresponsive and not breathing, confirm no pulse, compress, and defibrillate as soon as the device arrives."
+        },
+        {
+          "text": "2, 4, 1, 3",
+          "rationale": "Checking a pulse before establishing unresponsiveness reverses the assessment."
+        },
+        {
+          "text": "4, 1, 2, 3",
+          "rationale": "You confirm pulselessness before starting compressions."
+        },
+        {
+          "text": "1, 4, 2, 3",
+          "rationale": "Compressions do not begin before the assessment that justifies them."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-03-Q001",
+      "concept_id": "EMT-04-03-03",
+      "style": "recall",
+      "stem": "What is the compression-to-ventilation ratio for two-rescuer CPR on a child?",
+      "options": [
+        {
+          "text": "30:2",
+          "rationale": "That is the single-rescuer ratio."
+        },
+        {
+          "text": "15:2",
+          "rationale": "Correct — more breaths, more often, because paediatric arrest is usually respiratory."
+        },
+        {
+          "text": "5:1",
+          "rationale": "Not a current ratio."
+        },
+        {
+          "text": "Continuous compressions with no ventilation",
+          "rationale": "Ventilation is essential in paediatric arrest."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-03-Q002",
+      "concept_id": "EMT-04-03-03",
+      "style": "recall",
+      "stem": "What is the compression depth for an infant?",
+      "options": [
+        {
+          "text": "About 1.5 inches (4 cm), or one third of the chest depth",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "About 2 inches (5 cm)",
+          "rationale": "That is the child depth."
+        },
+        {
+          "text": "About 3 inches (7.5 cm)",
+          "rationale": "Excessive for an infant."
+        },
+        {
+          "text": "As shallow as possible to avoid injury",
+          "rationale": "Inadequate depth does not circulate blood."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-03-Q003",
+      "concept_id": "EMT-04-03-03",
+      "style": "application",
+      "stem": "Why does the two-rescuer ratio change for children and infants?",
+      "options": [
+        {
+          "text": "Because their hearts are smaller",
+          "rationale": "Size is not the reason for the ratio change."
+        },
+        {
+          "text": "Because paediatric arrest is usually respiratory, so ventilation carries more of the work",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "Because two rescuers can work faster",
+          "rationale": "Speed is not the reasoning."
+        },
+        {
+          "text": "Because children tire more quickly",
+          "rationale": "Patient fatigue is not relevant in arrest."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-03-Q004",
+      "concept_id": "EMT-04-03-03",
+      "style": "recall",
+      "stem": "Where do you check a pulse in an infant?",
+      "options": [
+        {
+          "text": "Carotid",
+          "rationale": "Not the site used in infants."
+        },
+        {
+          "text": "Brachial",
+          "rationale": "Correct — the upper arm."
+        },
+        {
+          "text": "Radial",
+          "rationale": "Peripheral and unreliable in arrest."
+        },
+        {
+          "text": "Femoral only",
+          "rationale": "Brachial is the taught site for infants."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-04-Q001",
+      "concept_id": "EMT-04-03-04",
+      "style": "recall",
+      "stem": "When should the AED be applied?",
+      "options": [
+        {
+          "text": "After completing the current cycle of compressions",
+          "rationale": "Waiting for the cycle to finish delays defibrillation."
+        },
+        {
+          "text": "As soon as it arrives",
+          "rationale": "Correct — every minute of delay reduces the chance of success."
+        },
+        {
+          "text": "Only after five minutes of CPR",
+          "rationale": "No such waiting period applies."
+        },
+        {
+          "text": "Only if ALS is unavailable",
+          "rationale": "AED use is not contingent on ALS availability."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-04-Q002",
+      "concept_id": "EMT-04-03-04",
+      "style": "application",
+      "stem": "What do you do immediately after delivering a shock?",
+      "options": [
+        {
+          "text": "Check for a pulse",
+          "rationale": "Pausing to check costs seconds of compressions."
+        },
+        {
+          "text": "Resume compressions immediately",
+          "rationale": "Correct — the rhythm check comes at the next cycle."
+        },
+        {
+          "text": "Reassess the airway",
+          "rationale": "Airway reassessment does not take priority over resuming compressions."
+        },
+        {
+          "text": "Wait for the device to advise",
+          "rationale": "The device advises resuming compressions."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-04-Q003",
+      "concept_id": "EMT-04-03-04",
+      "style": "application",
+      "stem": "Paediatric pads are not available for a 5-year-old in a shockable rhythm. What do you do?",
+      "options": [
+        {
+          "text": "Withhold defibrillation",
+          "rationale": "Withholding a shock from a shockable rhythm is the worse error."
+        },
+        {
+          "text": "Use adult pads",
+          "rationale": "Correct — an imperfect shock beats no shock."
+        },
+        {
+          "text": "Continue CPR only until paediatric pads arrive",
+          "rationale": "Waiting wastes the window in which a shock works."
+        },
+        {
+          "text": "Halve the compression depth instead",
+          "rationale": "Compression depth is unrelated to pad availability."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-04-Q004",
+      "concept_id": "EMT-04-03-04",
+      "style": "sequence",
+      "stem": "Put AED use in order: 1) deliver the shock, 2) bare and dry the chest, 3) clear everyone and confirm visually, 4) apply the pads and let it analyse.",
+      "options": [
+        {
+          "text": "2, 4, 3, 1",
+          "rationale": "Correct. Prepare the chest, apply and analyse, clear and look, then shock."
+        },
+        {
+          "text": "4, 2, 3, 1",
+          "rationale": "Pads will not adhere to a chest that has not been bared and dried."
+        },
+        {
+          "text": "2, 3, 4, 1",
+          "rationale": "You clear for analysis after the pads are on, not before."
+        },
+        {
+          "text": "3, 2, 4, 1",
+          "rationale": "Clearing before the pads are even applied is out of sequence."
+        }
+      ],
+      "correct_index": 0,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-05-Q001",
+      "concept_id": "EMT-04-03-05",
+      "style": "recall",
+      "stem": "What is compression fraction?",
+      "options": [
+        {
+          "text": "The depth of each compression as a proportion of chest depth",
+          "rationale": "That describes depth, not fraction."
+        },
+        {
+          "text": "The proportion of resuscitation time during which compressions are happening",
+          "rationale": "Correct — the key quality metric."
+        },
+        {
+          "text": "The ratio of compressions to ventilations",
+          "rationale": "That is the compression-to-ventilation ratio."
+        },
+        {
+          "text": "The number of rescuers compressing",
+          "rationale": "Not what the term means."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-05-Q002",
+      "concept_id": "EMT-04-03-05",
+      "style": "application",
+      "stem": "Why should the team leader not perform compressions?",
+      "options": [
+        {
+          "text": "Because compressions are beneath their role",
+          "rationale": "Role status is not the reasoning."
+        },
+        {
+          "text": "Because somebody must keep overall awareness of timing, quality, plan and family",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "Because leaders tire faster",
+          "rationale": "Fatigue is not the reason."
+        },
+        {
+          "text": "Because protocol forbids it",
+          "rationale": "This is a performance principle rather than a prohibition."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-06-Q001",
+      "concept_id": "EMT-04-03-06",
+      "style": "recall",
+      "stem": "What is the main advantage of a mechanical CPR device?",
+      "options": [
+        {
+          "text": "It removes the need for ventilation",
+          "rationale": "Ventilation continues as before."
+        },
+        {
+          "text": "Its compression quality does not decay over time",
+          "rationale": "Correct — identical at minute forty."
+        },
+        {
+          "text": "It is faster than a human compressor",
+          "rationale": "Rate is the same; consistency is the advantage."
+        },
+        {
+          "text": "It replaces the need for a team",
+          "rationale": "The rest of the resuscitation continues around it."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-06-Q002",
+      "concept_id": "EMT-04-03-06",
+      "style": "application",
+      "stem": "What is the main risk when applying a mechanical CPR device?",
+      "options": [
+        {
+          "text": "It may overheat",
+          "rationale": "Not the clinical risk described."
+        },
+        {
+          "text": "Positioning it may create a long interruption in compressions",
+          "rationale": "Correct — the pause can outweigh the benefit."
+        },
+        {
+          "text": "It always compresses too deeply",
+          "rationale": "Devices are set to appropriate depth."
+        },
+        {
+          "text": "It prevents defibrillation",
+          "rationale": "Defibrillation continues with a device in place."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-07-Q001",
+      "concept_id": "EMT-04-03-07",
+      "style": "recall",
+      "stem": "Which sign often indicates ROSC before a pulse can be felt?",
+      "options": [
+        {
+          "text": "A fall in end-tidal carbon dioxide",
+          "rationale": "A fall suggests the opposite."
+        },
+        {
+          "text": "A sudden sustained rise in end-tidal carbon dioxide",
+          "rationale": "Correct — it reflects restored pulmonary blood flow."
+        },
+        {
+          "text": "Dilated pupils",
+          "rationale": "Not a reliable early ROSC indicator."
+        },
+        {
+          "text": "A drop in skin temperature",
+          "rationale": "Not an indicator of ROSC."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-07-Q002",
+      "concept_id": "EMT-04-03-07",
+      "style": "application",
+      "stem": "Why is hyperventilation harmful immediately after ROSC?",
+      "options": [
+        {
+          "text": "It cools the patient",
+          "rationale": "Temperature is not the mechanism."
+        },
+        {
+          "text": "It raises pressure in the chest and reduces blood return to a fragile heart",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "It causes the pads to fail",
+          "rationale": "Pads are unaffected."
+        },
+        {
+          "text": "It is not harmful; more ventilation is better",
+          "rationale": "This is precisely the error being tested."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-07-Q003",
+      "concept_id": "EMT-04-03-07",
+      "style": "application",
+      "stem": "What should happen to the defibrillator pads after ROSC?",
+      "options": [
+        {
+          "text": "Remove them so the patient is comfortable",
+          "rationale": "Re-arrest is common in the first minutes."
+        },
+        {
+          "text": "Leave them attached",
+          "rationale": "Correct — and keep the team in place."
+        },
+        {
+          "text": "Replace them with new pads",
+          "rationale": "Replacement is unnecessary."
+        },
+        {
+          "text": "Move them to the back",
+          "rationale": "Repositioning serves no purpose here."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-08-Q001",
+      "concept_id": "EMT-04-03-08",
+      "style": "recall",
+      "stem": "Which of the following means resuscitation is not started?",
+      "options": [
+        {
+          "text": "A relative says the patient would not have wanted it, with no documentation",
+          "rationale": "A verbal account without documentation is not sufficient."
+        },
+        {
+          "text": "Obvious rigor mortis and dependent lividity",
+          "rationale": "Correct — a sign of irreversible death."
+        },
+        {
+          "text": "The patient is elderly",
+          "rationale": "Age is never the criterion."
+        },
+        {
+          "text": "The patient has a chronic illness",
+          "rationale": "Chronic illness is not a criterion."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-08-Q002",
+      "concept_id": "EMT-04-03-08",
+      "style": "application",
+      "stem": "A care home says there is a DNR but cannot produce it. What do you do?",
+      "options": [
+        {
+          "text": "Withhold resuscitation on their word",
+          "rationale": "An unverified verbal account is not a legal instruction."
+        },
+        {
+          "text": "Begin resuscitation while somebody finds the document",
+          "rationale": "Correct — starting is reversible, not starting is not."
+        },
+        {
+          "text": "Search the building yourself for the paperwork",
+          "rationale": "Searching must not delay compressions."
+        },
+        {
+          "text": "Wait for a physician to attend before deciding",
+          "rationale": "Waiting in an arrest is not an option."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-08-Q003",
+      "concept_id": "EMT-04-03-08",
+      "style": "application",
+      "stem": "Who generally decides to stop a resuscitation that has begun?",
+      "options": [
+        {
+          "text": "The most senior EMT on scene alone",
+          "rationale": "Termination is not an individual field decision."
+        },
+        {
+          "text": "A physician, or under a specific protocol",
+          "rationale": "Correct. This is the point the concept turns on."
+        },
+        {
+          "text": "The family",
+          "rationale": "The family does not make the clinical decision."
+        },
+        {
+          "text": "Whoever is performing compressions",
+          "rationale": "Not an individual decision."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-09-Q001",
+      "concept_id": "EMT-04-03-09",
+      "style": "recall",
+      "stem": "Why does ventilation carry extra weight in a drowning arrest?",
+      "options": [
+        {
+          "text": "Because water in the lungs must be pumped out",
+          "rationale": "Removing water is not the priority."
+        },
+        {
+          "text": "Because the arrest is hypoxic in origin",
+          "rationale": "Correct — the problem began with no oxygen."
+        },
+        {
+          "text": "Because compressions are ineffective when wet",
+          "rationale": "Compressions remain effective."
+        },
+        {
+          "text": "Because the heart is unaffected in drowning",
+          "rationale": "The heart is affected, secondary to hypoxia."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-09-Q002",
+      "concept_id": "EMT-04-03-09",
+      "style": "application",
+      "stem": "What does 'not dead until warm and dead' mean in practice?",
+      "options": [
+        {
+          "text": "Hypothermic patients cannot be resuscitated",
+          "rationale": "The opposite is the point being made."
+        },
+        {
+          "text": "Resuscitation continues and the decision is made later after rewarming",
+          "rationale": "Correct — survivors have come from apparently hopeless hypothermic arrests."
+        },
+        {
+          "text": "Only warm patients receive compressions",
+          "rationale": "All arrest patients receive compressions."
+        },
+        {
+          "text": "Rewarming must be completed before compressions begin",
+          "rationale": "Compressions begin immediately."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-09-Q003",
+      "concept_id": "EMT-04-03-09",
+      "style": "application",
+      "stem": "Why is the uterus displaced to the left in a late-pregnancy arrest?",
+      "options": [
+        {
+          "text": "To make compressions more comfortable",
+          "rationale": "Comfort is not the reason."
+        },
+        {
+          "text": "To relieve pressure on the large vein returning blood to the heart",
+          "rationale": "Correct — that pressure alone can prevent effective resuscitation."
+        },
+        {
+          "text": "To protect the fetus from compressions",
+          "rationale": "Not the mechanism being described."
+        },
+        {
+          "text": "To allow pad placement",
+          "rationale": "Pad placement is not the reason."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "CARD",
+      "verify": true,
+      "verify_notes": "Written from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the fact tested and every option's rationale against the source, then add a source reference."
     }
   ]
 }

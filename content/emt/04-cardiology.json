@@ -37,6 +37,21 @@
         "EMT-04-02-07",
         "EMT-04-02-08"
       ]
+    },
+    {
+      "id": "EMT-04-03",
+      "title": "CPR and AED",
+      "concepts": [
+        "EMT-04-03-01",
+        "EMT-04-03-02",
+        "EMT-04-03-03",
+        "EMT-04-03-04",
+        "EMT-04-03-05",
+        "EMT-04-03-06",
+        "EMT-04-03-07",
+        "EMT-04-03-08",
+        "EMT-04-03-09"
+      ]
     }
   ],
   "concepts": [
@@ -1594,6 +1609,1267 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the presentation and management description against the current text. NO medication names or doses are stated here; those are protocol-specific and were deliberately omitted. Confirm the contraindication list, the protocol thresholds for blood pressure, and the medication names and doses from your own protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-01",
+      "title": "The chain of survival",
+      "domain": "CARD",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-04-03-02",
+        "EMT-04-03-04"
+      ],
+      "key_points": [
+        "A sequence of actions, each of which loses value if the ones before it are missing",
+        "Recognition of arrest and activation of emergency response comes first",
+        "Early high-quality CPR is the second link and buys time for everything after it",
+        "Early defibrillation is the link that most often converts a shockable rhythm",
+        "Advanced care and post-arrest care follow",
+        "Recovery is now recognised as part of the chain rather than the end of it",
+        "Bystander action on the first two links does more for survival than anything an EMT adds later"
+      ],
+      "misconceptions": [
+        "Treating defibrillation as the only link that matters",
+        "Believing survival begins when the ambulance arrives",
+        "Delaying compressions to prepare equipment"
+      ],
+      "exam_favorites": [
+        "The order of the links",
+        "Why early CPR buys time",
+        "That bystander action dominates outcome"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The chain of survival is a way of saying that cardiac arrest survival is not one intervention, it is a sequence, and a chain is only as strong as its weakest link.\n\nIt starts with somebody recognising that this is an arrest and calling for help. Nothing else can begin until that happens, and delay here is the single commonest reason people die.\n\nThen early, high-quality CPR. Compressions do not usually restart a heart. What they do is keep some blood moving to the brain and the heart muscle itself, which keeps the heart in a state where a shock might still work. Compressions buy time for the next link.\n\nThen early defibrillation. For a shockable rhythm, this is the intervention that actually converts it, and every minute of delay reduces the chance.\n\nThen advanced care, and then the care that happens after the heart restarts, which is where a great deal of the eventual outcome is decided. Recovery is now included as a link in its own right, recognising that surviving to hospital discharge is not the end of the story.\n\nThe uncomfortable truth for professionals is that the first two links belong to bystanders, and they matter more than anything you will do. A patient who had compressions from a stranger within a minute has a different outcome from one who waited eight minutes for you.",
+          "standard": "The chain of survival describes the sequence of interventions determining outcome in cardiac arrest, in which the effectiveness of later interventions depends on the timely completion of earlier ones. The links comprise recognition of arrest and activation of the emergency response system; early high-quality cardiopulmonary resuscitation; early defibrillation; advanced resuscitative care; post-cardiac-arrest care; and recovery. Chest compressions rarely restore spontaneous circulation independently but maintain coronary and cerebral perfusion, preserving myocardial viability and the likelihood of successful defibrillation. Survival declines with each minute of delay to defibrillation in shockable rhythms. The initial links are predominantly executed by lay responders, and bystander recognition and compression have a greater aggregate effect on survival than subsequent professional interventions."
+        },
+        "eli_new": {
+          "analogy": "Compressions do not usually restart the heart. They keep it worth shocking.",
+          "body": "The instinct is to think of the defibrillator as the thing that saves people, and the compressions as what you do while waiting for it. It is closer to the opposite: compressions are what keep the patient in a condition where the shock can still work."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "List the chain of survival in order and explain what compressions actually achieve.",
+          "must_hit": [
+            {
+              "point": "Recognition and calling for help comes first",
+              "accept": [
+                "recogni",
+                "call",
+                "activate",
+                "911",
+                "999",
+                "help"
+              ]
+            },
+            {
+              "point": "Early high-quality CPR",
+              "accept": [
+                "cpr",
+                "compress",
+                "early"
+              ]
+            },
+            {
+              "point": "Early defibrillation",
+              "accept": [
+                "defib",
+                "shock",
+                "aed"
+              ]
+            },
+            {
+              "point": "Advanced care, post-arrest care and recovery",
+              "accept": [
+                "advanced",
+                "post",
+                "recovery",
+                "hospital"
+              ]
+            },
+            {
+              "point": "Compressions keep the heart shockable rather than restarting it",
+              "accept": [
+                "buy time",
+                "perfusion",
+                "shockable",
+                "keep",
+                "brain",
+                "rarely restart"
+              ]
+            }
+          ],
+          "model_answer": "Recognition of the arrest and calling for help; early high-quality CPR; early defibrillation; advanced care; post-arrest care; and recovery, which is now a link in its own right. Compressions rarely restart a heart — what they do is keep blood moving to the brain and to the heart muscle itself, which keeps the heart in a state where a shock can still work. So compressions buy time for defibrillation rather than substituting for it. And the uncomfortable part is that the first two links belong to bystanders, and a patient who got compressions from a stranger within a minute has a very different outcome from one who waited eight minutes for an ambulance."
+        },
+        "story": {
+          "title": "Before you arrived",
+          "dispatch": "Rescue 6 — cardiac arrest, bystander CPR in progress, gym.",
+          "body": "By the time you were through the door, a personal trainer had been doing compressions for four minutes and somebody had run for the AED on the wall.\n\nHe survived, and he walked out of hospital nine days later.\n\nThe crew got the credit. What actually decided it had already happened before the ambulance turned into the car park."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-02",
+      "title": "Adult CPR",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-02-07"
+      ],
+      "related": [
+        "EMT-04-03-03",
+        "EMT-04-03-05"
+      ],
+      "key_points": [
+        "Confirm unresponsiveness, absent normal breathing and no pulse, then start compressions immediately",
+        "Hands on the lower half of the sternum, heel of one hand with the other on top",
+        "Compress at 100 to 120 per minute",
+        "Compress at least 2 inches (5 cm) and no more than 2.4 inches (6 cm) in an adult",
+        "Allow full chest recoil between compressions; leaning on the chest reduces filling",
+        "Ratio is 30 compressions to 2 breaths, whether there are one or two rescuers",
+        "Keep interruptions under 10 seconds",
+        "Swap the person compressing about every 2 minutes, because quality falls as they tire",
+        "With an advanced airway in place, compressions become continuous and ventilation is 1 breath every 6 seconds"
+      ],
+      "misconceptions": [
+        "Leaning on the chest and preventing full recoil",
+        "Pausing compressions for longer than 10 seconds",
+        "Continuing to compress past the point of fatigue rather than swapping",
+        "Delaying compressions to attach equipment"
+      ],
+      "exam_favorites": [
+        "Rate and depth",
+        "Full recoil",
+        "The 10-second interruption limit",
+        "Swapping every 2 minutes"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Adult CPR begins the moment you have your three findings: unresponsive, not breathing normally, no pulse. Do not go looking for anything else first.\n\nHands go on the lower half of the sternum, heel of one hand with the other stacked on top, arms straight, shoulders over your hands so your body weight does the work rather than your arms.\n\nThe numbers matter. Compress at 100 to 120 per minute. Go at least 2 inches — 5 centimetres — deep, and not more than about 2.4 inches, or 6 centimetres. Too shallow does not move blood; too deep causes injury without benefit.\n\nLet the chest come all the way back up between compressions. This is the detail most commonly done badly. If you lean on the chest, it cannot refill, and you are compressing an empty heart. Full recoil is as important as depth.\n\nRatio is 30 compressions to 2 breaths in an adult, whether you are alone or working with somebody.\n\nKeep every interruption under 10 seconds. Everything — rhythm checks, moving the patient, placing an adjunct — is measured against that limit.\n\nAnd swap whoever is compressing roughly every 2 minutes. Quality falls off long before the person doing it notices, and they will tell you they are fine. Swap anyway.\n\nOnce an advanced airway is in place, the ratio disappears. Compressions become continuous, and ventilation runs alongside at one breath every 6 seconds.",
+          "standard": "Adult cardiopulmonary resuscitation is initiated immediately upon identification of unresponsiveness, absent normal breathing and absent pulse. Hand position is the lower half of the sternum, with the heel of one hand and the second hand superimposed, elbows extended and shoulders positioned above the hands. Compression rate is 100 to 120 per minute at a depth of at least 5 cm and not exceeding approximately 6 cm. Complete chest recoil between compressions is required, as residual leaning impairs ventricular filling and reduces the efficacy of subsequent compressions. The compression-to-ventilation ratio is 30:2 for single- and two-rescuer adult CPR. Interruptions are limited to under 10 seconds. Compressor rotation approximately every 2 minutes is recommended, as compression quality deteriorates before the provider perceives fatigue. Following advanced airway placement, compressions are delivered continuously with ventilation at one breath every 6 seconds."
+        },
+        "eli_new": {
+          "analogy": "Push hard, push fast, let it all the way back up, and do not stop.",
+          "body": "Of the four things that make compressions good — depth, rate, recoil and minimal interruption — recoil is the one people get wrong without knowing it. Leaning feels like commitment. It is actually stopping the heart from refilling."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe adult CPR: rate, depth, ratio, and the two things people most often get wrong.",
+          "must_hit": [
+            {
+              "point": "Rate 100 to 120 per minute",
+              "accept": [
+                "100",
+                "120",
+                "100 to 120"
+              ]
+            },
+            {
+              "point": "Depth at least 2 inches or 5 cm, not more than about 6 cm",
+              "accept": [
+                "2 inches",
+                "5 cm",
+                "2.4",
+                "6 cm",
+                "at least 2"
+              ]
+            },
+            {
+              "point": "Ratio 30 to 2",
+              "accept": [
+                "30:2",
+                "30 to 2",
+                "thirty"
+              ]
+            },
+            {
+              "point": "Full recoil, no leaning",
+              "accept": [
+                "recoil",
+                "lean",
+                "all the way",
+                "back up"
+              ]
+            },
+            {
+              "point": "Interruptions under 10 seconds, swap every 2 minutes",
+              "accept": [
+                "10 second",
+                "ten second",
+                "2 minute",
+                "two minute",
+                "swap",
+                "rotate"
+              ]
+            }
+          ],
+          "model_answer": "Start as soon as you have unresponsive, not breathing normally and no pulse. Heel of one hand on the lower half of the sternum with the other on top, arms straight, shoulders over your hands. Compress 100 to 120 per minute, at least 2 inches or 5 centimetres deep and no more than about 2.4 inches or 6 centimetres. Ratio is 30 to 2 whether you are alone or with a partner. The two things people get wrong are recoil and interruptions: leaning on the chest stops it refilling so you are compressing an empty heart, and every pause should be under 10 seconds. Swap compressors about every 2 minutes, because quality drops well before the person notices. Once there is an advanced airway, compressions become continuous with a breath every 6 seconds."
+        },
+        "story": {
+          "title": "I'm fine",
+          "dispatch": "Rescue 6 — cardiac arrest, residence, long carry down.",
+          "body": "He had been compressing for nearly four minutes and he said he was fine, because everybody says they are fine.\n\nThe officer watched the chest rather than the man. The compressions were still fast and they were no longer deep, and the chest was not coming all the way back up.\n\nThey swapped mid-count. The difference in the waveform on the monitor was visible within three compressions."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers",
+        "skill"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Rate, all ages",
+            "value": "100 to 120",
+            "unit": "per minute",
+            "note": ""
+          },
+          {
+            "label": "Adult depth",
+            "value": "at least 2 in (5 cm), not more than 2.4 in (6 cm)",
+            "unit": "",
+            "note": ""
+          },
+          {
+            "label": "Adult ratio",
+            "value": "30:2",
+            "unit": "",
+            "note": "One or two rescuers."
+          },
+          {
+            "label": "Interruptions",
+            "value": "under 10",
+            "unit": "seconds",
+            "note": "Everything is measured against this."
+          },
+          {
+            "label": "Swap compressor",
+            "value": "about every 2",
+            "unit": "minutes",
+            "note": "Quality falls before the provider notices."
+          },
+          {
+            "label": "With an advanced airway",
+            "value": "continuous compressions, 1 breath every 6 seconds",
+            "unit": "",
+            "note": "The ratio no longer applies."
+          }
+        ],
+        "skill": {
+          "sheet": "Adult CPR",
+          "steps": [
+            {
+              "text": "Confirm unresponsive, not breathing normally, no pulse",
+              "critical": true,
+              "note": "Agonal gasps are not breathing."
+            },
+            {
+              "text": "Expose the chest and position hands on the lower half of the sternum",
+              "critical": false
+            },
+            {
+              "text": "Compress at 100 to 120 per minute",
+              "critical": true
+            },
+            {
+              "text": "Compress at least 2 inches (5 cm), not more than 2.4 inches (6 cm)",
+              "critical": true
+            },
+            {
+              "text": "Allow FULL chest recoil between compressions",
+              "critical": true,
+              "note": "Leaning stops the heart refilling — the most common quality failure."
+            },
+            {
+              "text": "Deliver 30 compressions to 2 ventilations",
+              "critical": true
+            },
+            {
+              "text": "Keep every interruption under 10 seconds",
+              "critical": true
+            },
+            {
+              "text": "Apply the AED as soon as it arrives",
+              "critical": true
+            },
+            {
+              "text": "Swap compressor about every 2 minutes",
+              "critical": false,
+              "note": "Swap even when the provider says they are fine."
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-03",
+      "title": "Child and infant CPR differences",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-03-02"
+      ],
+      "related": [
+        "EMT-04-03-02",
+        "EMT-02-01-02"
+      ],
+      "key_points": [
+        "A child is from about one year to puberty; an infant is under one year",
+        "Rate is the same at all ages: 100 to 120 per minute",
+        "Child depth is about 2 inches (5 cm), or at least one third of the chest depth",
+        "Infant depth is about 1.5 inches (4 cm), or at least one third of the chest depth",
+        "Child compressions use one or two hands; infant compressions use two fingers, or two thumbs with hands encircling the chest for two rescuers",
+        "Ratio is 30:2 with a single rescuer and 15:2 with two rescuers in children and infants",
+        "Pediatric arrest is more often respiratory, so ventilation matters more than in adults",
+        "Check a brachial pulse in an infant rather than a carotid"
+      ],
+      "misconceptions": [
+        "Using the adult 30:2 ratio with two rescuers on a child",
+        "Compressing an infant too shallowly for fear of causing harm",
+        "Neglecting ventilation in a pediatric arrest"
+      ],
+      "exam_favorites": [
+        "The two-rescuer 15:2 ratio",
+        "Depth as a fraction of chest depth",
+        "Why ventilation matters more"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Children are not small adults in arrest either, and several numbers change.\n\nDefinitions first, because the ratios depend on them. An infant is under one year. A child runs from about one year to the onset of puberty. After that, treat them as an adult.\n\nWhat does not change is rate: 100 to 120 per minute at every age.\n\nDepth does change, and it is expressed two ways. For a child, about 2 inches or 5 centimetres, or at least one third of the depth of the chest. For an infant, about 1.5 inches or 4 centimetres, or again at least one third. The one-third rule is the more useful version, because it scales to the child in front of you.\n\nHand position changes. A child gets one hand, or two if you need them. An infant gets two fingers if you are alone, or the two-thumb encircling technique if there are two of you, which produces better compressions.\n\nThe ratio is the thing most often got wrong. Alone, it is 30:2, same as an adult. With two rescuers on a child or an infant, it becomes 15:2 — more breaths, more often.\n\nThat ratio change is not arbitrary. Children arrest from respiratory causes far more often than adults do, so ventilation carries more of the work. In an adult arrest, compressions dominate; in a child, breathing is nearer the heart of the problem.\n\nOne practical detail: an infant pulse is checked at the brachial artery in the upper arm, not the neck.",
+          "standard": "Pediatric resuscitation parameters differ by age category: infant denotes under one year and child from approximately one year to the onset of puberty, beyond which adult parameters apply. Compression rate remains 100 to 120 per minute across all ages. Compression depth is approximately 5 cm in the child and approximately 4 cm in the infant, or at least one third of the anteroposterior chest diameter, the latter formulation scaling appropriately to patient size. Child compressions employ one or two hands; infant compressions employ the two-finger technique for single rescuers or the two-thumb encircling-hands technique for two rescuers, the latter producing superior compression quality. The compression-to-ventilation ratio is 30:2 for single-rescuer and 15:2 for two-rescuer pediatric resuscitation, reflecting the predominantly respiratory aetiology of pediatric arrest. Infant pulse assessment is performed at the brachial artery."
+        },
+        "eli_new": {
+          "analogy": "Adults arrest from the heart; children arrest from the breathing. The ratio change is that fact written down.",
+          "body": "The 15:2 ratio is the single most commonly missed number in pediatric resuscitation, and it is worth understanding rather than memorising: children need more ventilation because breathing is usually what failed first."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain how child and infant CPR differ from adult CPR and why the two-rescuer ratio changes.",
+          "must_hit": [
+            {
+              "point": "Infant is under one year; child is one year to puberty",
+              "accept": [
+                "under one",
+                "one year",
+                "puberty",
+                "infant",
+                "child"
+              ]
+            },
+            {
+              "point": "Rate is the same, 100 to 120",
+              "accept": [
+                "100",
+                "120",
+                "same rate"
+              ]
+            },
+            {
+              "point": "Depth about 5 cm child, 4 cm infant, or one third of chest depth",
+              "accept": [
+                "5 cm",
+                "4 cm",
+                "2 inch",
+                "1.5",
+                "one third",
+                "third"
+              ]
+            },
+            {
+              "point": "Two-rescuer ratio is 15:2",
+              "accept": [
+                "15:2",
+                "15 to 2",
+                "fifteen"
+              ]
+            },
+            {
+              "point": "Pediatric arrest is usually respiratory, so ventilation matters more",
+              "accept": [
+                "respiratory",
+                "breathing",
+                "ventilation",
+                "cause"
+              ]
+            }
+          ],
+          "model_answer": "An infant is under one year; a child is about one year to puberty, and after that you treat them as an adult. Rate is unchanged at 100 to 120. Depth is about 2 inches or 5 centimetres in a child and about 1.5 inches or 4 centimetres in an infant, or at least one third of the chest depth, which is the version that scales to the patient. A child gets one or two hands; an infant gets two fingers alone, or two thumbs with your hands encircling the chest if there are two of you, which compresses better. The ratio is 30 to 2 alone but 15 to 2 with two rescuers — more breaths, more often — because paediatric arrest is usually respiratory in origin, so ventilation is doing more of the work. And an infant pulse is checked brachially, not at the neck."
+        },
+        "story": {
+          "title": "Fifteen and two",
+          "dispatch": "Rescue 6 — 8-month-old, unresponsive, not breathing, home.",
+          "body": "Two of you, an infant, and the new EMT started counting to thirty out of pure muscle memory.\n\nThe officer said fifteen, without breaking rhythm, and they reset.\n\nHe had been drilled on adults for six months. Nothing about the room told him this was different except the size of the patient, and the number that changes is the one nobody practises."
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers",
+        "compare"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Rate, all ages",
+            "value": "100 to 120",
+            "unit": "per minute",
+            "note": "Unchanged by age."
+          },
+          {
+            "label": "Child depth",
+            "value": "about 2 in (5 cm) or one third of chest depth",
+            "unit": "",
+            "note": "1 year to puberty."
+          },
+          {
+            "label": "Infant depth",
+            "value": "about 1.5 in (4 cm) or one third of chest depth",
+            "unit": "",
+            "note": "Under 1 year."
+          },
+          {
+            "label": "Ratio, single rescuer",
+            "value": "30:2",
+            "unit": "",
+            "note": "Same as adult."
+          },
+          {
+            "label": "Ratio, two rescuers",
+            "value": "15:2",
+            "unit": "",
+            "note": "Child and infant only — the most missed number."
+          },
+          {
+            "label": "Infant pulse site",
+            "value": "brachial",
+            "unit": "",
+            "note": "Not carotid."
+          }
+        ],
+        "compare": {
+          "rows": [
+            {
+              "feature": "Depth",
+              "left": "About 5 cm, or one third of chest",
+              "right": "About 4 cm, or one third of chest"
+            },
+            {
+              "feature": "Hands",
+              "left": "One or two hands",
+              "right": "Two fingers, or two thumbs encircling"
+            },
+            {
+              "feature": "Single-rescuer ratio",
+              "left": "30:2",
+              "right": "30:2"
+            },
+            {
+              "feature": "Two-rescuer ratio",
+              "left": "15:2",
+              "right": "15:2"
+            },
+            {
+              "feature": "Pulse site",
+              "left": "Carotid or femoral",
+              "right": "Brachial"
+            },
+            {
+              "feature": "Rate",
+              "left": "100 to 120",
+              "right": "100 to 120"
+            }
+          ],
+          "left_label": "Child (1 yr to puberty)",
+          "right_label": "Infant (under 1 yr)"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-04",
+      "title": "Using an AED",
+      "domain": "CARD",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-03-02"
+      ],
+      "related": [
+        "EMT-04-03-01",
+        "EMT-04-03-09"
+      ],
+      "key_points": [
+        "Apply it as soon as it arrives; do not finish a cycle first",
+        "Turn it on and follow the prompts — the device drives the sequence",
+        "Bare the chest and dry it if wet; pads do not stick to water or sweat",
+        "Standard adult pad placement is upper right chest and lower left side",
+        "Use pediatric pads or a pediatric setting for children under 8 where available; if not available, adult pads may be used rather than withholding defibrillation",
+        "Nobody touches the patient while it analyses or shocks — say it out loud and look before you press",
+        "Resume compressions immediately after the shock without checking a pulse first",
+        "Remove a medication patch under a pad, and place pads away from an implanted device"
+      ],
+      "misconceptions": [
+        "Delaying pad placement to finish a cycle of compressions",
+        "Shocking without visually confirming everyone is clear",
+        "Withholding defibrillation from a child because pediatric pads are unavailable",
+        "Placing a pad directly over a medication patch or a pacemaker"
+      ],
+      "exam_favorites": [
+        "Clear before analyse and shock",
+        "Resume compressions immediately after the shock",
+        "Pediatric pads and the fallback"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The defibrillator is the link that converts shockable rhythms, and everything about using one is designed around getting it on fast and not interrupting compressions more than you must.\n\nWhen it arrives, apply it. Do not finish the cycle you are in. Turn it on and do what it tells you; the machine runs the sequence and it is designed to be used by people with far less training than you.\n\nThe chest has to be bare and dry. Pads will not stick through water, sweat or a hairy chest, and a pad that is not stuck is a shock that does not reach the heart.\n\nStandard adult placement is one pad on the upper right chest below the collarbone and one on the lower left side, below and lateral to the left nipple.\n\nFor children under about 8, use pediatric pads or a pediatric setting if you have them. If you do not have them, use the adult pads. An imperfect shock is better than no shock, and withholding defibrillation from a child in a shockable rhythm because the right pads were not in the bag is the worse error.\n\nClearing is the part where discipline matters. Nobody touches the patient while the machine analyses and nobody touches during the shock. Say it out loud, and then actually look — at the head, at the feet, at your own knees. People have been shocked because somebody announced clear without checking.\n\nAfter the shock, go straight back to compressions. Do not pause to check a pulse. The rhythm check comes at the next cycle.\n\nTwo details worth knowing: peel off a medication patch that is under where a pad needs to go, and place pads slightly away from an obvious implanted pacemaker or defibrillator.",
+          "standard": "Automated external defibrillator application should occur immediately upon arrival of the device rather than at completion of a compression cycle. The device is activated and its prompts followed. The chest must be exposed and dried, as pad adhesion is compromised by moisture and excessive chest hair, and inadequate adhesion impairs energy delivery. Standard adult pad placement is anterolateral, with one pad inferior to the right clavicle and the second at the left mid-axillary line below the nipple. Pediatric pads or a pediatric attenuating setting should be used in children under approximately eight years where available; where unavailable, adult pads are used rather than withholding defibrillation. All personnel must be clear of the patient during analysis and shock delivery, confirmed both verbally and visually. Chest compressions are resumed immediately following shock delivery without an intervening pulse check. Transdermal medication patches beneath the pad site are removed, and pads are positioned away from implanted cardiac devices."
+        },
+        "eli_new": {
+          "analogy": "The machine will tell you what to do. Your jobs are to get it on fast, keep everyone off the patient, and go straight back to compressions.",
+          "body": "The hardest habit is resuming compressions the instant the shock is delivered. Everyone wants to look for a pulse, because that is the moment they have been waiting for. Looking costs seconds, and seconds of no compressions is exactly what the whole procedure is built to avoid."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe how you use an AED, including what you do immediately after the shock.",
+          "must_hit": [
+            {
+              "point": "Apply as soon as it arrives, follow the prompts",
+              "accept": [
+                "as soon",
+                "immediately",
+                "prompt",
+                "turn it on",
+                "follow"
+              ]
+            },
+            {
+              "point": "Bare and dry the chest",
+              "accept": [
+                "bare",
+                "dry",
+                "wet",
+                "water",
+                "sweat",
+                "hair"
+              ]
+            },
+            {
+              "point": "Clear everyone before analysis and shock, and look",
+              "accept": [
+                "clear",
+                "touch",
+                "look",
+                "stand back"
+              ]
+            },
+            {
+              "point": "Resume compressions immediately after the shock, no pulse check",
+              "accept": [
+                "immediately",
+                "straight",
+                "no pulse check",
+                "resume",
+                "compress"
+              ]
+            },
+            {
+              "point": "Pediatric pads if available, adult pads rather than no shock",
+              "accept": [
+                "pediatric",
+                "child",
+                "adult pads",
+                "rather than",
+                "available"
+              ]
+            }
+          ],
+          "model_answer": "Apply it the moment it arrives rather than finishing a cycle, turn it on and follow the prompts, because the device drives the sequence. Bare the chest and dry it — pads do not stick through water or sweat, and a pad that is not stuck is a shock that does not reach the heart. Standard adult placement is upper right chest and lower left side. For children under about eight use paediatric pads or a paediatric setting if you have them, and if you do not, use adult pads rather than withholding the shock. Clear everyone before analysis and before the shock: say it out loud and then actually look. And the moment the shock is delivered, go straight back to compressions without checking a pulse — that check comes at the next rhythm check."
+        },
+        "story": {
+          "title": "Say it and look",
+          "dispatch": "Rescue 6 — arrest in a corridor, AED from the wall in use.",
+          "body": "The crew member called clear and pressed the button in the same breath, which is how it is usually done and how it should never be done.\n\nA family member had reached in from behind to touch his father's shoulder and got a jolt up the arm for it. Not a serious one. It could have been.\n\nAfter that, in that service, clear meant saying it, then looking head, feet and your own knees, and then pressing."
+        }
+      },
+      "cards": [
+        "concept",
+        "skill"
+      ],
+      "card_data": {
+        "skill": {
+          "sheet": "Cardiac arrest management — AED",
+          "steps": [
+            {
+              "text": "Confirm arrest and ensure compressions are in progress",
+              "critical": true
+            },
+            {
+              "text": "Apply the AED as soon as it arrives — do not finish the cycle",
+              "critical": true
+            },
+            {
+              "text": "Turn it on and follow the prompts",
+              "critical": false
+            },
+            {
+              "text": "Bare the chest and dry it; remove a medication patch under a pad site",
+              "critical": true,
+              "note": "Pads do not stick to water or sweat."
+            },
+            {
+              "text": "Place pads: upper right chest, lower left side (paediatric pads or setting for under 8 if available)",
+              "critical": true,
+              "note": "If paediatric pads are unavailable, use adult pads rather than withholding the shock."
+            },
+            {
+              "text": "Clear everyone for analysis — say it AND look",
+              "critical": true
+            },
+            {
+              "text": "Clear everyone for the shock — say it AND look, then deliver",
+              "critical": true,
+              "note": "Announcing clear without looking is how bystanders get shocked."
+            },
+            {
+              "text": "Resume compressions IMMEDIATELY after the shock, without a pulse check",
+              "critical": true
+            },
+            {
+              "text": "Continue cycles and follow device prompts",
+              "critical": false
+            }
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "sequence": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-05",
+      "title": "High-performance CPR and pit-crew roles",
+      "domain": "CARD",
+      "difficulty": 3,
+      "prereqs": [
+        "EMT-04-03-02"
+      ],
+      "related": [
+        "EMT-04-03-02",
+        "EMT-04-03-06"
+      ],
+      "key_points": [
+        "High-performance CPR treats resuscitation as a choreographed team activity rather than a set of individual tasks",
+        "Every person has a defined role before the call, so nobody negotiates on scene",
+        "Compression fraction — the proportion of time compressions are actually happening — is the measure that matters most",
+        "Changeovers are planned and rehearsed so they cost seconds rather than tens of seconds",
+        "One person runs the resuscitation and does not have their hands on the patient",
+        "Quality is measured, not assumed, and feedback devices are used where available"
+      ],
+      "misconceptions": [
+        "Deciding roles on scene while the patient is in arrest",
+        "Treating compression pauses as unavoidable",
+        "Having the team leader also performing compressions"
+      ],
+      "exam_favorites": [
+        "Compression fraction",
+        "Pre-assigned roles",
+        "The leader keeps their hands free"
+      ],
+      "modes": {
+        "read": {
+          "plain": "High-performance CPR is the recognition that resuscitation is a team performance, and that teams perform better when everybody knows their job before they walk in.\n\nThe pit-crew idea is exactly what it sounds like. In motorsport, nobody discusses who is changing which wheel when the car arrives. Everyone has a position, they move to it, and the work happens in parallel. Resuscitation done well looks the same: compressor, ventilator, defibrillator operator, airway, and a leader, each going to their place without a conversation.\n\nThe measurement that matters is compression fraction — what proportion of the whole resuscitation had compressions actually happening. Every pause reduces it, and blood pressure generated by compressions falls away within seconds of stopping and takes several compressions to build back up. That is why pauses are so expensive and why shaving seconds off changeovers is worth rehearsing.\n\nChangeovers get planned. The next compressor is already kneeling in position, hands hovering, and the swap happens on a count during the rhythm check rather than as a negotiation.\n\nAnd the leader keeps their hands off the patient. Somebody has to be watching the whole thing — the clock, the quality, the plan, the family — and that person cannot also be counting compressions.",
+          "standard": "High-performance cardiopulmonary resuscitation conceptualises resuscitation as a coordinated team performance with pre-assigned roles, eliminating on-scene role negotiation. Roles typically comprise compressor, ventilator, defibrillator operator, airway manager and team leader. The principal quality metric is chest compression fraction, the proportion of resuscitation time during which compressions are delivered; coronary perfusion pressure generated by compressions decays within seconds of cessation and requires multiple compressions to re-establish, rendering interruptions disproportionately costly. Compressor changeover is planned and rehearsed, with the incoming provider positioned in advance and transition executed during rhythm analysis. The team leader maintains a hands-off role to preserve global situational awareness, including timing, quality monitoring, treatment planning and family communication."
+        },
+        "eli_new": {
+          "analogy": "A pit crew does not decide who is changing the tyre when the car pulls in.",
+          "body": "The difference between adequate and excellent resuscitation is almost entirely made of seconds that nobody thought were important — a slow changeover, a pause that ran long, a defibrillator that was not ready. Those seconds add up to the compression fraction, and compression fraction tracks survival."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what high-performance CPR means and why compression fraction matters.",
+          "must_hit": [
+            {
+              "point": "Pre-assigned roles rather than negotiating on scene",
+              "accept": [
+                "role",
+                "assign",
+                "before",
+                "pit crew",
+                "position"
+              ]
+            },
+            {
+              "point": "Compression fraction is the key measure",
+              "accept": [
+                "fraction",
+                "proportion",
+                "time",
+                "percentage"
+              ]
+            },
+            {
+              "point": "Pressure falls within seconds of stopping and takes compressions to rebuild",
+              "accept": [
+                "falls",
+                "seconds",
+                "rebuild",
+                "pressure",
+                "decay",
+                "perfusion"
+              ]
+            },
+            {
+              "point": "The leader keeps their hands off the patient",
+              "accept": [
+                "leader",
+                "hands off",
+                "not compress",
+                "oversee",
+                "watching"
+              ]
+            }
+          ],
+          "model_answer": "It treats resuscitation as a choreographed team performance rather than a set of individual tasks. Roles — compressor, ventilator, defibrillator operator, airway, leader — are assigned before the call so nobody negotiates on scene, exactly like a pit crew. The measure that matters is compression fraction, the proportion of the whole resuscitation during which compressions are actually happening. It matters because the pressure compressions generate falls away within seconds of stopping and takes several compressions to build back, so every pause is disproportionately expensive. Changeovers are rehearsed, with the next compressor already kneeling in position and swapping on a count during the rhythm check. And the leader keeps their hands off the patient, because somebody has to watch the clock, the quality and the family."
+        },
+        "story": {
+          "title": "Everybody knew where to stand",
+          "dispatch": "Rescue 6 — arrest, second floor flat, three crews responding.",
+          "body": "Nine people ended up in a small bedroom and it should have been chaos.\n\nIt was not, because the service had drilled positions. Compressor at the chest, next compressor kneeling behind ready, airway at the head, defib operator at the left, officer standing back with a clipboard and no hands on anybody.\n\nThe post-call download showed compressions running for over ninety percent of the time they were there. Nobody had to be told anything twice."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-06",
+      "title": "Mechanical CPR devices",
+      "domain": "CARD",
+      "difficulty": 2,
+      "prereqs": [
+        "EMT-04-03-05"
+      ],
+      "related": [
+        "EMT-04-03-05"
+      ],
+      "key_points": [
+        "Devices that deliver chest compressions automatically at a set rate and depth",
+        "Their advantage is consistency: they do not tire and their quality does not decay",
+        "Particularly useful during transport, on stairs, and in prolonged resuscitation",
+        "Applying one must not create a long pause in compressions",
+        "They are an awareness-level topic for EMTs and their use is governed by local protocol and training",
+        "They do not replace the team: everything else in the resuscitation continues around them"
+      ],
+      "misconceptions": [
+        "Stopping compressions for a long period while positioning a device",
+        "Assuming a device removes the need for the rest of the resuscitation",
+        "Using a device without service-specific training"
+      ],
+      "exam_favorites": [
+        "Consistency as the advantage",
+        "That application must not cause a long pause",
+        "Awareness level for EMTs"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Mechanical CPR devices do the compressions for you, at a rate and depth that does not change no matter how long the resuscitation runs.\n\nThat consistency is the whole argument for them. A human compressor is at their best for about two minutes and then declines, whatever they believe about themselves. A machine is identical at minute forty to how it was at minute one.\n\nThey are most valuable where human compressions are worst: moving a patient down a staircase, in the back of a moving ambulance, and in very long resuscitations. Compressions on the move are nearly always poor, and a device removes that problem.\n\nThe risk is in the application. Getting one positioned takes time, and if that time is a pause in compressions you may have given away more than the device gains back. It goes on during a planned pause, quickly, with the team ready.\n\nFor an EMT this is an awareness topic. Whether you use one, and how, is set by your service's protocol and training, and a device you have not been trained on is not a device you should be fitting to a patient in arrest.\n\nAnd it does not replace anybody. Ventilation, defibrillation, the leader, the family — all of that continues exactly as before, with a machine doing one part of it.",
+          "standard": "Mechanical chest compression devices deliver automated compressions at predetermined rate and depth. Their principal advantage is consistency, as device performance does not degrade over time whereas human compression quality declines measurably within approximately two minutes. They are of particular value where manual compression quality is inherently compromised: during extrication, stair descent, transport in a moving vehicle and prolonged resuscitation. Application must be accomplished without prolonged interruption of compressions, as pauses incurred during device positioning may offset the benefit conferred. Device use at EMT level is determined by service protocol and specific training. Mechanical compression substitutes only for manual compression; ventilation, defibrillation, team leadership and family communication continue unchanged."
+        },
+        "eli_new": {
+          "analogy": "A person is excellent for two minutes. A machine is identical at minute forty.",
+          "body": "The temptation with any new equipment is to treat getting it on as the goal. The goal is still compressions with minimal interruption; the device is only worth it if fitting it costs less than it gives back."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the advantage of a mechanical CPR device and the main risk in using one.",
+          "must_hit": [
+            {
+              "point": "Consistent quality that does not decay",
+              "accept": [
+                "consistent",
+                "does not tire",
+                "quality",
+                "decay",
+                "same"
+              ]
+            },
+            {
+              "point": "Useful in transport, stairs and long resuscitations",
+              "accept": [
+                "transport",
+                "stairs",
+                "moving",
+                "prolonged",
+                "long"
+              ]
+            },
+            {
+              "point": "Application must not cause a long pause",
+              "accept": [
+                "pause",
+                "interrupt",
+                "quickly",
+                "time"
+              ]
+            },
+            {
+              "point": "Governed by protocol and training",
+              "accept": [
+                "protocol",
+                "training",
+                "service",
+                "awareness"
+              ]
+            }
+          ],
+          "model_answer": "The advantage is consistency: a human compressor is at their best for about two minutes and declines after that whatever they think, while a device is identical at minute forty. They are most valuable where manual compressions are worst — down stairs, in a moving ambulance, and in very long resuscitations. The main risk is the application itself: positioning one takes time, and if that time becomes a long pause in compressions you may give away more than the device gains back, so it goes on during a planned pause with the team ready. For an EMT it is an awareness topic governed by local protocol and training, and it replaces only the compressions — everything else in the resuscitation carries on."
+        },
+        "story": {
+          "title": "On the stairs",
+          "dispatch": "Rescue 6 — arrest, fourth floor, no lift.",
+          "body": "Four flights of narrow stairs with a patient in arrest is where manual compressions go to die. You cannot compress properly on a stretcher going down a turn.\n\nThe device went on during a planned pause at the rhythm check — about eleven seconds, and the team had rehearsed it.\n\nAll the way down those stairs the compressions were exactly as deep and exactly as fast as they had been in the flat."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-07",
+      "title": "Return of spontaneous circulation and post-arrest care",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-03-02",
+        "EMT-04-03-04"
+      ],
+      "related": [
+        "EMT-02-04-08",
+        "EMT-04-03-04"
+      ],
+      "key_points": [
+        "ROSC means the heart has resumed producing a pulse",
+        "Signs include a palpable pulse, a rise in end-tidal carbon dioxide, movement, and sometimes breathing",
+        "The patient is still critically unwell; ROSC is the beginning of the next problem, not the end of the call",
+        "Reassess airway, breathing and circulation immediately and support whatever is failing",
+        "Avoid hyperventilation: it raises pressure in the chest and reduces blood return to a heart that has just restarted",
+        "Re-arrest is common in the first minutes, so keep the defibrillator attached and the team in place",
+        "Handle gently, keep monitoring, and transport to somewhere that can provide post-arrest care"
+      ],
+      "misconceptions": [
+        "Treating ROSC as the end of the resuscitation",
+        "Hyperventilating a patient after ROSC",
+        "Removing the defibrillator pads once a pulse returns"
+      ],
+      "exam_favorites": [
+        "Signs of ROSC",
+        "Why hyperventilation harms",
+        "That re-arrest is common"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Return of spontaneous circulation is the moment the heart starts producing a pulse again, and it is not the end of anything. It is the start of a different and equally dangerous phase.\n\nYou will notice it several ways. A pulse you can feel. A sudden sustained rise in end-tidal carbon dioxide, which often comes first. Movement, purposeful or otherwise. Sometimes the patient starts breathing.\n\nThe immediate job is to go straight back to the beginning. Airway — is it open, will it stay open, do they need an adjunct. Breathing — are they breathing at all, and adequately, and do you need to ventilate. Circulation — what is the pulse doing, what is the blood pressure, what does the skin look like.\n\nThere is one specific trap. The urge after ROSC is to ventilate enthusiastically, because it feels like helping. Do not. Every positive-pressure breath raises the pressure inside the chest and works against blood returning to a heart that has just started again and is extremely fragile. Hyperventilation after ROSC actively harms, and it is a common error made by people who are relieved.\n\nRe-arrest in the first minutes is common. Leave the pads on. Keep the team where they are. Do not start packing up.\n\nAnd handle them gently. Get them to somewhere that can deliver post-arrest care, which is where a large part of the eventual outcome is actually determined.",
+          "standard": "Return of spontaneous circulation denotes restoration of a perfusing cardiac rhythm and is identified by return of a palpable pulse, an abrupt sustained rise in end-tidal carbon dioxide which frequently precedes palpable pulse return, spontaneous movement and sometimes spontaneous respiration. ROSC represents transition to the post-arrest phase rather than resolution, and immediate reassessment of airway, breathing and circulation with support of failing parameters is required. Hyperventilation must be avoided, as elevated intrathoracic pressure impedes venous return to a recently reperfused and haemodynamically fragile myocardium. Re-arrest occurs commonly within the initial post-ROSC period; defibrillation pads remain attached and the resuscitation team remains assembled. Gentle handling, continuous monitoring and transport to a facility capable of delivering post-arrest care are indicated, as post-arrest management substantially determines eventual neurological outcome."
+        },
+        "eli_new": {
+          "analogy": "Getting a pulse back is halftime, not the final whistle.",
+          "body": "The emotional shape of the call changes completely at ROSC — relief floods in, people start talking, and the discipline drops. That is exactly the moment the patient is most likely to arrest again."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain what ROSC is, how you recognise it, and the mistake people make immediately afterwards.",
+          "must_hit": [
+            {
+              "point": "The heart has resumed producing a pulse",
+              "accept": [
+                "pulse",
+                "circulation",
+                "rosc",
+                "perfusing"
+              ]
+            },
+            {
+              "point": "Signs include a pulse, a rise in end-tidal CO2, movement",
+              "accept": [
+                "end-tidal",
+                "etco2",
+                "carbon dioxide",
+                "movement",
+                "breathing"
+              ]
+            },
+            {
+              "point": "Reassess airway, breathing and circulation immediately",
+              "accept": [
+                "airway",
+                "breathing",
+                "circulation",
+                "reassess",
+                "abc"
+              ]
+            },
+            {
+              "point": "Do not hyperventilate — it reduces blood return",
+              "accept": [
+                "hyperventilat",
+                "too fast",
+                "venous return",
+                "pressure",
+                "harm"
+              ]
+            },
+            {
+              "point": "Re-arrest is common; leave the pads on",
+              "accept": [
+                "re-arrest",
+                "again",
+                "pads",
+                "leave",
+                "team"
+              ]
+            }
+          ],
+          "model_answer": "ROSC is the heart producing a pulse again, and it is the start of a new problem rather than the end of the call. You recognise it by a palpable pulse, a sudden sustained rise in end-tidal carbon dioxide which often comes first, movement, and sometimes spontaneous breathing. Go straight back to airway, breathing and circulation and support whatever is failing. The mistake people make is hyperventilating out of relief: every positive-pressure breath raises the pressure in the chest and works against blood returning to a heart that has only just restarted and is very fragile. Re-arrest in the first minutes is common, so leave the pads on, keep the team in place, handle the patient gently and transport somewhere that can give post-arrest care."
+        },
+        "story": {
+          "title": "Halftime",
+          "dispatch": "Rescue 6 — arrest, ROSC achieved on scene.",
+          "body": "The moment the pulse came back the room got loud. Somebody laughed. Two people started coiling cables.\n\nThe officer said, nobody moves, pads stay on, and asked for a blood pressure.\n\nHe re-arrested in the ambulance ninety seconds later, and the pads were still on him, and that is the only reason the second shock happened when it did."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-08",
+      "title": "When resuscitation is not started or is stopped",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-03-02"
+      ],
+      "related": [
+        "EMT-04-03-07"
+      ],
+      "key_points": [
+        "A valid do-not-resuscitate order or equivalent advance directive is a legal instruction and is followed",
+        "Obvious signs of irreversible death mean resuscitation is not started — decapitation, decomposition, rigor mortis, dependent lividity, injuries incompatible with life",
+        "If a document is not immediately available or its validity is unclear, begin resuscitation while it is sorted out",
+        "Starting is reversible; not starting is not",
+        "Stopping a resuscitation once begun is generally a physician or protocol decision, not an individual one",
+        "Family distress does not change the clinical decision, but how you talk to the family changes everything about how it lands"
+      ],
+      "misconceptions": [
+        "Withholding resuscitation because a relative says the patient would not want it, with no documentation",
+        "Delaying compressions while searching the house for paperwork",
+        "Deciding alone to stop a resuscitation you have begun"
+      ],
+      "exam_favorites": [
+        "Obvious signs of death",
+        "When in doubt, start",
+        "That stopping is a protocol decision"
+      ],
+      "modes": {
+        "read": {
+          "plain": "There are two situations in which resuscitation is not attempted, and both need to be clear in your head before you are standing in somebody's bedroom at four in the morning.\n\nThe first is a valid do-not-resuscitate order or equivalent advance directive. This is a legal instruction from the patient about their own care, and it is followed. Requirements for validity vary by jurisdiction, so know what a valid one looks like where you work.\n\nThe second is obvious, irreversible death. The classic signs are decapitation, decomposition, rigor mortis, dependent lividity, and injuries plainly incompatible with life. These are situations where resuscitation is not a close call.\n\nOutside those two, start. And this is the rule worth carrying: if the paperwork is not in front of you, or you cannot tell whether it is valid, or a family member is telling you something but there is nothing to show you, begin resuscitation. Starting a resuscitation that later turns out to have been unwanted is a recoverable situation. Not starting one that should have happened is not.\n\nDo not search the house for a document while a patient is in arrest. Somebody else looks; you compress.\n\nStopping something you have started is a different decision, and it is generally made by a physician or under a specific protocol, not by one person at the scene.\n\nAnd separately from all of the above: the family is watching. The clinical decision is not changed by their distress, but how you explain what is happening, and whether you use the person's name, will be remembered for a very long time.",
+          "standard": "Resuscitation is withheld in two circumstances. The first is the presence of a valid do-not-resuscitate order or equivalent advance directive, which constitutes a legal instruction regarding the patient's care; validity criteria are jurisdiction-specific. The second is the presence of signs of irreversible death, conventionally decapitation, decomposition, rigor mortis, dependent lividity and injuries incompatible with life. In all other circumstances resuscitation is initiated. Where documentation is unavailable, incomplete or of uncertain validity, resuscitation is commenced while the position is clarified, on the principle that initiation is reversible whereas omission is not. Searching for documentation must not delay compressions. Termination of resuscitation once commenced is generally a physician decision or governed by specific protocol rather than individual judgement. Family distress does not alter the clinical decision, though communication substantially affects the family's experience of the event."
+        },
+        "eli_new": {
+          "analogy": "Starting can be undone. Not starting cannot.",
+          "body": "The pressure in the room at this moment is enormous, and it comes from people who love the patient and are certain about what they would have wanted. Certainty is not documentation. If you are in doubt, your hands go on the chest and somebody else finds the paperwork."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain when you would not start a resuscitation and what you do when the situation is unclear.",
+          "must_hit": [
+            {
+              "point": "A valid DNR or advance directive is followed",
+              "accept": [
+                "dnr",
+                "do not resuscitate",
+                "directive",
+                "polst",
+                "legal"
+              ]
+            },
+            {
+              "point": "Obvious signs of irreversible death",
+              "accept": [
+                "rigor",
+                "lividity",
+                "decapitat",
+                "decompos",
+                "incompatible"
+              ]
+            },
+            {
+              "point": "If unclear or undocumented, start",
+              "accept": [
+                "start",
+                "begin",
+                "doubt",
+                "unclear",
+                "while"
+              ]
+            },
+            {
+              "point": "Starting is reversible; not starting is not",
+              "accept": [
+                "reversible",
+                "undo",
+                "cannot",
+                "recover"
+              ]
+            },
+            {
+              "point": "Stopping is a physician or protocol decision",
+              "accept": [
+                "physician",
+                "medical direction",
+                "protocol",
+                "not alone"
+              ]
+            }
+          ],
+          "model_answer": "You withhold resuscitation in two situations: a valid do-not-resuscitate order or equivalent advance directive, which is a legal instruction and is followed; and obvious irreversible death — decapitation, decomposition, rigor mortis, dependent lividity, injuries plainly incompatible with life. Outside those, you start. If the paperwork is not in front of you, or you cannot judge whether it is valid, or a relative is telling you something without documentation, begin resuscitation while it gets sorted out, because starting is reversible and not starting is not. Do not search the house while someone is in arrest — somebody else looks, you compress. And stopping a resuscitation you have begun is generally a physician or protocol decision rather than yours alone."
+        },
+        "story": {
+          "title": "Somebody else looks",
+          "dispatch": "Rescue 6 — cardiac arrest, care home, staff performing CPR.",
+          "body": "A staff member met you at the door saying there was a DNR, definitely, it was in the file, she just could not find which file.\n\nYour partner started compressions. The officer asked her to go and find it and to bring it to him, and she did, and it took about four minutes.\n\nIt was valid, and the resuscitation stopped. Had it not been valid, those four minutes would have been the only reason the patient had a chance."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material. Confirm your jurisdiction's requirements for a valid DNR and your service's termination-of-resuscitation protocol."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-04-03-09",
+      "title": "Special resuscitation situations",
+      "domain": "CARD",
+      "difficulty": 4,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-04-03-02"
+      ],
+      "related": [
+        "EMT-04-03-08",
+        "EMT-04-04-02"
+      ],
+      "key_points": [
+        "Drowning: hypoxia is the cause, so ventilation matters more and rescue breaths come early",
+        "Hypothermia: the heart is irritable, so handle gently, check a pulse for longer, and do not assume death until the patient is warm",
+        "Pregnancy: manually displace the uterus to the patient's left to take pressure off the major vein returning blood to the heart",
+        "Trauma: arrest from major blood loss needs the bleeding controlled and rapid transport; compressions alone move an empty circulation",
+        "Electrocution: make the scene safe first, and remember the rescuer is at risk",
+        "Overdose: naloxone may reverse an opioid cause but does not replace compressions in arrest",
+        "The core of resuscitation does not change; these situations add something, they do not replace it"
+      ],
+      "misconceptions": [
+        "Delaying compressions to look for the special-case modification",
+        "Declaring death in a hypothermic patient before rewarming",
+        "Approaching an electrocution scene before the source is isolated"
+      ],
+      "exam_favorites": [
+        "Drowning is hypoxic",
+        "Not dead until warm and dead",
+        "Uterine displacement in pregnancy"
+      ],
+      "modes": {
+        "read": {
+          "plain": "The basics of resuscitation do not change in these situations. Each simply adds something.\n\nDrowning is a hypoxic arrest. The problem started with no oxygen, not with a rhythm, so ventilation carries more weight and rescue breaths come early rather than being an afterthought.\n\nHypothermia changes two things. A very cold heart is electrically irritable, so handle the patient gently. And a very cold patient may have a pulse so slow and faint that you cannot find it in the usual ten seconds — take longer. There is a saying worth remembering: not dead until warm and dead. Profound hypothermia has produced survivors from situations that looked hopeless, so resuscitation continues and the decision is made later, in hospital.\n\nIn late pregnancy the uterus presses on the large vein returning blood to the heart when the patient is on her back, and that pressure alone can prevent effective resuscitation. Somebody manually displaces the uterus to the patient's left. That single action can change whether compressions work at all.\n\nTrauma arrest from blood loss is a different problem: compressions circulate a container that is empty. Controlling catastrophic bleeding and getting to surgery matter more than anything else you can do.\n\nElectrocution begins with the scene, not the patient. If the source is not isolated, the person who goes to help becomes the next patient.\n\nAnd in overdose, naloxone may address an opioid cause, but a patient in arrest still needs compressions. The antidote is not a substitute for resuscitation.",
+          "standard": "Resuscitation fundamentals remain unchanged in special circumstances, which impose additional considerations. Drowning produces hypoxic arrest, increasing the relative importance of ventilation and indicating early rescue breathing. Hypothermia renders the myocardium electrically irritable, requiring gentle handling, and profound bradycardia with reduced pulse volume necessitates prolonged pulse assessment; resuscitation is continued pending rewarming, as neurologically intact survival has been reported following prolonged hypothermic arrest. In advanced pregnancy, aortocaval compression by the gravid uterus in the supine position impairs venous return, and manual left uterine displacement is performed. Traumatic arrest secondary to exsanguination requires hemorrhage control and expedited transport, as compressions circulate an inadequately filled vascular system. Electrical injury requires isolation of the source prior to patient contact. In opioid toxicity, naloxone may address the underlying cause but does not substitute for chest compressions in established arrest."
+        },
+        "eli_new": {
+          "analogy": "Each of these adds one thing to the standard resuscitation. None of them replaces it.",
+          "body": "The risk with special situations is that people go looking for the special part and forget the ordinary part. The compressions still have to be fast, deep and uninterrupted; the modification sits on top of that, not instead of it."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Describe what changes in resuscitation for drowning, hypothermia and late pregnancy.",
+          "must_hit": [
+            {
+              "point": "Drowning is hypoxic, so ventilation matters more",
+              "accept": [
+                "drown",
+                "hypox",
+                "ventilat",
+                "breath",
+                "oxygen"
+              ]
+            },
+            {
+              "point": "Hypothermia: gentle handling, longer pulse check, not dead until warm",
+              "accept": [
+                "hypotherm",
+                "gentle",
+                "longer",
+                "warm",
+                "cold"
+              ]
+            },
+            {
+              "point": "Pregnancy: displace the uterus to the left",
+              "accept": [
+                "uterus",
+                "left",
+                "displace",
+                "pregnan"
+              ]
+            },
+            {
+              "point": "The fundamentals do not change",
+              "accept": [
+                "same",
+                "fundamental",
+                "still",
+                "does not change",
+                "on top"
+              ]
+            }
+          ],
+          "model_answer": "The basics never change; each of these adds something. Drowning is a hypoxic arrest — the problem began with no oxygen rather than a rhythm — so ventilation carries more weight and rescue breaths come early. In hypothermia the heart is electrically irritable so you handle the patient gently, and the pulse may be so slow and faint that you need longer than the usual ten seconds to find it; resuscitation continues, because someone is not dead until they are warm and dead. In late pregnancy the uterus compresses the large vein returning blood to the heart when she is supine, so somebody manually displaces it to her left, and that alone can decide whether compressions work. Trauma arrest from bleeding needs the bleeding controlled, and electrocution needs the source isolated before anybody approaches."
+        },
+        "story": {
+          "title": "Not dead until warm",
+          "dispatch": "Rescue 6 — male pulled from a reservoir, prolonged immersion, water temperature near freezing.",
+          "body": "He had been in the water a long time and he looked, to everyone standing there, unequivocally dead.\n\nThe officer said the sentence out loud so that nobody on that bank had to decide for themselves: not dead until warm and dead.\n\nThey resuscitated him the whole way in and handed him over still cold. What happened after that was somebody else's decision to make, with a temperature probe and a warming circuit, and not one made on a riverbank."
+        }
+      },
+      "cards": [
+        "concept"
+      ],
+      "question_targets": {
+        "recall": 2,
+        "application": 1,
+        "scenario": 1
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level); not reviewed against a source text. Confirm the technique description against the current text. Compression depths, rates and ratios here are taken from current AHA guidelines as permitted, but they are revised between guideline editions — confirm every figure against AAOS Emergency Care 12e and the AHA edition your course uses before this is treated as study material."
     }
   ]
 }
