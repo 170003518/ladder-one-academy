@@ -12,6 +12,7 @@ import { isServable } from './bank.js';
 import { renderDo } from './interact.js';
 import { renderHear } from './hear.js';
 import { renderTeach } from './teach.js';
+import { renderSee } from './see.js';
 
 export const esc = s => String(s).replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -103,6 +104,8 @@ function simpleMode(mode, concept) {
       return renderHear(concept);
     case 'teach':
       return renderTeach(concept);
+    case 'see':
+      return renderSee(concept);
     default:
       return `<div class="stub-box"><h2>${esc(MODE_LABEL[mode])} — not built yet</h2>
         <p>The concept carries data for this mode, but the renderer is still to come.</p></div>`;

@@ -25,7 +25,8 @@ Personal EMT → Fire → Paramedic learning platform and test-prep program for 
 ```
 index.html              app shell
 js/                     app.js (router/state), progress.js, ladder.js, lesson.js,
-                        interact.js (Do It), hear.js (Hear It / TTS), teach.js (Teach It Back),
+                        interact.js (Do It), sort.js (sort into buckets), see.js (See It),
+                        hear.js (Hear It / TTS), teach.js (Teach It Back),
                         bank.js (question selection), quiz.js (lesson check), exam.js (module exam),
                         print.js — still to come: deck.js, srs.js
 brand/                  theme.css, logo.svg, logo-mono.svg, print.css, preview.html

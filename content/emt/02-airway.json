@@ -19,7 +19,10 @@
       "title": "Airway anatomy and physiology",
       "concepts": [
         "EMT-02-01-01",
-        "EMT-02-01-02"
+        "EMT-02-01-02",
+        "EMT-02-01-03",
+        "EMT-02-01-04",
+        "EMT-02-01-05"
       ]
     },
     {
@@ -50,18 +53,167 @@
       "title": "Upper vs. lower airway structures",
       "domain": "AIR",
       "difficulty": 1,
+      "high_yield": true,
+      "prereqs": [],
+      "related": [
+        "EMT-01-06-03",
+        "EMT-02-02-01",
+        "EMT-02-02-04"
+      ],
       "key_points": [
-        "The airway is described in two halves, upper and lower, and the dividing landmark is a named structure",
-        "Each half has a characteristic set of problems, which is why the split is worth knowing",
-        "Structure names appear in questions as distractors for one another"
+        "The upper airway runs from the nose and mouth to the larynx: nasopharynx, oropharynx, laryngopharynx, and larynx",
+        "The lower airway runs from the trachea down: trachea, carina, right and left mainstem bronchi, bronchioles, alveoli",
+        "The epiglottis is a leaf-shaped flap that covers the glottic opening during swallowing to keep food out of the trachea",
+        "The larynx (voice box) contains the vocal cords; the glottic opening between them is the narrowest part of the adult airway",
+        "The cricoid cartilage is the only complete ring of cartilage in the airway; the cricothyroid membrane sits just above it",
+        "The tongue is the most common cause of airway obstruction in an unresponsive patient because it relaxes back against the posterior pharynx",
+        "Gas exchange happens only in the alveoli; everything above them is a conducting passage"
+      ],
+      "misconceptions": [
+        "Thinking the trachea is part of the upper airway",
+        "Believing gas exchange happens in the bronchi",
+        "Forgetting that the tongue, not a foreign body, is the usual obstruction in the unresponsive patient"
+      ],
+      "exam_favorites": [
+        "Where the upper airway ends and the lower airway begins (the larynx / trachea boundary)",
+        "Function of the epiglottis",
+        "The tongue as the most common airway obstruction",
+        "The only complete cartilage ring (cricoid)"
       ],
       "modes": {
         "read": {
-          "plain": "Air has to travel a route from the outside world down into the lungs. That route is divided into an upper section and a lower section, and knowing which structures belong to which half is what lets you predict where a problem is and what it will sound like."
+          "plain": "Air has one job on the way in: reach the alveoli, the millions of tiny sacs deep in the lungs where oxygen crosses into the blood. Everything between the nose and those sacs is just a hallway. Your job as an EMT is to keep the hallway open.\n\nThe upper airway is everything above the voice box. Air enters through the nose and mouth, passes through the pharynx (the throat), and reaches the larynx. The pharynx has three sections named for what sits in front of them: the nasopharynx behind the nose, the oropharynx behind the mouth, and the laryngopharynx just above the larynx. At the entrance to the larynx sits the epiglottis, a leaf-shaped flap that flips down when you swallow so food goes to the esophagus, not the lungs.\n\nThe larynx holds the vocal cords. The gap between them is the glottic opening, and in an adult it is the narrowest point in the whole airway. Just below the larynx is the cricoid cartilage, the only complete ring of cartilage in the airway. Everything else is C-shaped and open at the back.\n\nThe lower airway starts at the trachea, the windpipe. It runs down to a fork called the carina, where it splits into the right and left mainstem bronchi, one to each lung. Those branch again and again into smaller bronchioles until they end at the alveoli, where the actual work of breathing happens.\n\nOne structure deserves special attention: the tongue. In an unresponsive patient lying on their back, the tongue relaxes and falls against the back of the throat. That is the number one cause of airway obstruction you will see, and it is why the first airway skills you learn are simply about moving the tongue out of the way.",
+          "standard": "The airway is divided at the larynx. The upper airway consists of the nasal cavity, oral cavity, pharynx, and larynx. The pharynx is subdivided into the nasopharynx, oropharynx, and laryngopharynx (hypopharynx). The nasal passages warm, filter, and humidify inspired air. The epiglottis, a leaf-shaped cartilage at the base of the tongue, occludes the glottic opening during swallowing to protect the lower airway from aspiration.\n\nThe larynx houses the vocal cords; the glottic opening between them is the narrowest point of the adult airway. The thyroid cartilage forms the anterior prominence of the larynx. Immediately inferior is the cricoid cartilage, the only complete cartilaginous ring in the airway. The cricothyroid membrane lies between the two and is the site for surgical airway access at the advanced level.\n\nThe lower airway begins at the trachea, which descends to the carina at approximately the level of the sternal angle and bifurcates into the right and left mainstem bronchi. The right mainstem is wider and more vertical, which is why aspirated material and misplaced tubes more often enter the right lung. The bronchi divide into progressively smaller bronchioles ending in alveolar sacs, where gas exchange occurs across the alveolar-capillary membrane.\n\nIn the unresponsive supine patient, loss of muscle tone allows the tongue to fall posteriorly against the pharyngeal wall, producing the most common form of airway obstruction. Basic positioning maneuvers correct this by displacing the mandible and tongue anteriorly."
+        },
+        "eli_new": {
+          "analogy": "The airway is a tree upside down: the trunk is the trachea, the branches are the bronchi, and the leaves are the alveoli.",
+          "body": "Above the trunk is the entrance: nose, mouth, throat, and a gate called the larynx. The epiglottis is the lid on that gate. When you swallow it closes so your sandwich goes down the other pipe.\n\nBelow the gate is the tree. Trunk (trachea), first two branches (bronchi), thousands of twigs (bronchioles), and finally the leaves (alveoli). Only the leaves do photosynthesis, and only the alveoli do gas exchange. The rest is plumbing.\n\nThe tongue is a wet sponge sitting at the entrance. Stand up and it stays put. Lie an unconscious person flat and the sponge slumps backward and blocks the door. That single fact is why airway management starts with tilting a head."
+        },
+        "see": [
+          "airway_upper_lower"
+        ],
+        "hear": {
+          "source": "tts"
+        },
+        "do": {
+          "activity": "sort_airway_structures",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each structure into the upper or lower airway.",
+          "config": {
+            "buckets": [
+              "Upper airway",
+              "Lower airway"
+            ],
+            "items": [
+              {
+                "text": "Nasopharynx",
+                "bucket": 0
+              },
+              {
+                "text": "Epiglottis",
+                "bucket": 0
+              },
+              {
+                "text": "Larynx",
+                "bucket": 0
+              },
+              {
+                "text": "Trachea",
+                "bucket": 1
+              },
+              {
+                "text": "Carina",
+                "bucket": 1
+              },
+              {
+                "text": "Bronchioles",
+                "bucket": 1
+              },
+              {
+                "text": "Alveoli",
+                "bucket": 1
+              },
+              {
+                "text": "Oropharynx",
+                "bucket": 0
+              }
+            ]
+          }
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the path air takes from the nose to the alveoli, and where the upper airway ends.",
+          "must_hit": [
+            {
+              "point": "Pharynx then larynx",
+              "accept": [
+                "pharynx",
+                "throat",
+                "larynx",
+                "voice box"
+              ]
+            },
+            {
+              "point": "Upper airway ends at the larynx; lower begins at the trachea",
+              "accept": [
+                "larynx",
+                "trachea",
+                "windpipe"
+              ]
+            },
+            {
+              "point": "Bronchi to bronchioles to alveoli",
+              "accept": [
+                "bronchi",
+                "bronchioles",
+                "alveoli"
+              ]
+            }
+          ],
+          "model_answer": "Air comes in the nose or mouth, passes through the pharynx, and reaches the larynx, which is where the upper airway ends. Below that is the lower airway: the trachea, which splits at the carina into two bronchi, which branch into bronchioles and end in the alveoli. Gas exchange only happens in the alveoli."
+        },
+        "story": {
+          "title": "Snoring is not sleeping",
+          "dispatch": "Rescue 4, 24-year-old male, unresponsive, possible overdose, friends on scene.",
+          "body": "He is flat on his back on the kitchen floor, and from the doorway you hear it: a wet, rattling snore with every breath. His friends think he is sleeping it off. You know what that sound is. It is his tongue, slumped back against his throat, letting only a sliver of air past.\n\nYou kneel, tilt his head back, and lift his chin. The snore stops instantly and his chest rises clean and quiet. Nothing else has changed; you just moved the sponge out of the doorway. Your partner reaches for an airway adjunct to hold it there while you get the rest of the assessment going. The friends are staring. 'That's it?' one of them asks. For the next thirty seconds, yes. That is it."
         }
       },
+      "cards": [
+        "concept",
+        "mnemonic"
+      ],
+      "card_data": {
+        "mnemonic": {
+          "acronym": "Upper stops at the larynx",
+          "expansion": [
+            "Nose and mouth",
+            "Pharynx (naso, oro, laryngo)",
+            "Larynx with epiglottis and vocal cords",
+            "Then LOWER: trachea, carina, bronchi, bronchioles, alveoli"
+          ]
+        }
+      },
+      "question_targets": {
+        "recall": 4,
+        "application": 2
+      },
+      "media": [
+        {
+          "id": "airway_upper_lower",
+          "src": "media/emt/02/airway_upper_lower.svg",
+          "kind": "diagram",
+          "alt": "Side-view diagram of the airway. Upper airway labeled in one color: nasal cavity, oral cavity, nasopharynx, oropharynx, laryngopharynx, epiglottis, larynx. Lower airway labeled in a second color: trachea, carina, right and left mainstem bronchi, bronchioles, alveoli. A dashed line marks the upper/lower boundary at the larynx.",
+          "caption": "The upper airway ends at the larynx. Everything from the trachea down is lower airway, and only the alveoli exchange gas.",
+          "source": "original",
+          "license": "L1A original, drawn for this project",
+          "print_safe": true
+        }
+      ],
       "verify": true,
-      "verify_notes": "Stub. The dividing landmark, the full structure list for each half, and the characteristic problems of each half are all unwritten. Nothing here has been checked against a source text. Fill from AAOS Emergency Care and confirm the structure list against the current National EMS Education Standards."
+      "verify_notes": "Confirm the upper/lower boundary definition, pharynx subdivisions, and the statement that the glottic opening is the narrowest point of the adult airway against AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
@@ -69,18 +221,669 @@
       "title": "Pediatric airway differences",
       "domain": "AIR",
       "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-01-01"
+      ],
+      "related": [
+        "EMT-07-03-03",
+        "EMT-02-02-01",
+        "EMT-02-04-02"
+      ],
       "key_points": [
-        "A child's airway differs from an adult's in several specific, testable ways",
-        "Each anatomical difference changes how you position, size equipment, and ventilate",
-        "This concept is the reason pediatric airway questions have different right answers than adult ones"
+        "Children have a proportionally larger tongue in a smaller mouth, so the tongue obstructs the airway more easily",
+        "A large occiput (back of the head) flexes the neck forward when the child lies flat; pad under the shoulders to keep the airway neutral",
+        "The airway is smaller and narrower overall, so a little swelling or a small object causes a big obstruction",
+        "The narrowest point in a young child is at the cricoid ring, not the vocal cords, giving the airway a funnel shape",
+        "The larynx sits higher and more anterior, and the epiglottis is floppier and more U-shaped",
+        "The trachea is soft and easily kinked; hyperextending the neck can close the airway rather than open it",
+        "Children have a higher metabolic rate and less reserve, so they become hypoxic faster than adults",
+        "Infants rely on the diaphragm to breathe and are preferential nose breathers for the first months of life"
+      ],
+      "misconceptions": [
+        "Tilting a child's head back as far as an adult's (hyperextension kinks the soft trachea)",
+        "Assuming a child can tolerate hypoxia as long as an adult can",
+        "Laying an infant flat on a hard surface and expecting a neutral airway"
+      ],
+      "exam_favorites": [
+        "Why you pad under an infant's shoulders",
+        "Narrowest point of the pediatric airway (cricoid)",
+        "Proportionally larger tongue and occiput",
+        "Why children desaturate faster"
       ],
       "modes": {
         "read": {
-          "plain": "A child is not a small adult. Several parts of the airway are proportioned differently, and each of those differences changes something you physically do at the head of the stretcher. The exam tests the differences by making you pick the pediatric-specific action."
+          "plain": "A child is not a small adult, and nowhere is that more true than the airway. Almost every difference works against you, so you need to know them cold.\n\nStart with the tongue. A child's tongue is big for the size of the mouth, so it blocks the airway even more easily than an adult's. Then the head: a young child's skull is large in the back, so when you lay them flat the big occiput tips the head forward and bends the neck, folding the airway. The fix is to slide a folded towel under the shoulders, which brings the head back to a neutral position with the ear canal level with the shoulder.\n\nThe whole airway is smaller and narrower. That matters because obstruction is about area. A millimeter of swelling that an adult would never notice can cut a toddler's airway in half. The narrowest point is also different: in an adult it is the vocal cords, but in a young child it is the cricoid ring below them, so the airway is shaped like a funnel.\n\nThe larynx sits higher and further forward, and the epiglottis is floppy and shaped like a U, which can make things harder to see for advanced providers. The trachea is soft. If you crank a child's head back the way you might an adult's, you can kink that soft tube shut. Keep the tilt gentle; neutral for infants, only slightly extended for children.\n\nFinally, children burn oxygen fast and have almost no reserve. An adult who stops breathing has a few minutes of stored oxygen. A child has far less. When a child's breathing goes bad, you act now.",
+          "standard": "Pediatric airway anatomy differs from adult anatomy in ways that increase the risk of obstruction and complicate management. The tongue is proportionally larger relative to the oral cavity, and the occiput is proportionally larger, which flexes the cervical spine when the child is supine. Padding beneath the shoulders in infants and small children restores a neutral position, with the external auditory canal aligned with the anterior shoulder.\n\nAll airway diameters are smaller, so equivalent degrees of edema or foreign material produce disproportionately greater resistance to airflow. The larynx is positioned higher and more anteriorly, the epiglottis is longer, softer, and more omega-shaped, and the narrowest point of the airway is at the cricoid cartilage rather than at the glottis, producing a funnel-shaped configuration until roughly age 8 to 10.\n\nThe trachea has less cartilaginous support and is more compliant, so hyperextension or hyperflexion of the neck can occlude it; the head-tilt/chin-lift is performed with only slight extension in children and a neutral position in infants. Infants are preferential nasal breathers and depend heavily on diaphragmatic excursion; gastric distention from aggressive ventilation impairs breathing significantly.\n\nBecause metabolic rate and oxygen consumption are higher and functional residual capacity is lower, children desaturate rapidly during apnea or hypoventilation. Respiratory compromise is the leading cause of cardiac arrest in children, which is why early airway and ventilation support are the priority in pediatric resuscitation."
+        },
+        "eli_new": {
+          "analogy": "A child's airway is a drinking straw; an adult's is a garden hose. Pinch each one the same amount and see which stops flowing.",
+          "body": "Everything about the pediatric airway is a smaller, softer, more crowded version of the adult one. The tongue is too big for the room. The head is too big for the neck, so lying flat bends the straw. The straw itself is thin, so a little swelling closes it, and it is soft, so bending the neck too far pinches it.\n\nAnd the kid is running the engine at high RPM with a tiny gas tank. Adults coast for minutes without oxygen; children run out almost immediately. Every difference says the same thing: be gentle with the position, and be fast with the fix."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain to a new EMT why you position a child's airway differently from an adult's.",
+          "must_hit": [
+            {
+              "point": "Large occiput flexes the neck; pad under shoulders",
+              "accept": [
+                "occiput",
+                "back of the head",
+                "pad",
+                "towel",
+                "shoulders",
+                "neutral"
+              ]
+            },
+            {
+              "point": "Soft trachea; do not hyperextend",
+              "accept": [
+                "hyperextend",
+                "kink",
+                "soft",
+                "too far back",
+                "gentle"
+              ]
+            },
+            {
+              "point": "Larger tongue / smaller airway obstructs easily",
+              "accept": [
+                "tongue",
+                "smaller",
+                "narrow",
+                "swelling",
+                "obstruct"
+              ]
+            }
+          ],
+          "model_answer": "A child's head is big in the back, so lying flat tips the head forward and folds the airway. You pad under the shoulders to bring the head neutral. Then you do not tilt the head back very far, because the trachea is soft and hyperextending can kink it shut. And because the tongue is big and the airway is narrow, it obstructs easily, so you keep a close watch and fix problems fast, because kids run out of oxygen quickly."
+        },
+        "story": {
+          "title": "The folded towel",
+          "dispatch": "Engine 2, Rescue 2, 9-month-old, not breathing normally after a fall, mother on scene.",
+          "body": "The infant is on the living room floor, limp, making slow gurgling breaths. Mom is frantic. You go to lay the baby on the stretcher and your partner, who has kids, catches your hand. 'Wait.' She folds a towel into a flat square and slides it under the baby's shoulders. The head, which had been tipped forward with the chin nearly on the chest, settles back level. The gurgling eases.\n\nYou hold a gentle neutral position, no tilt, and get the bag-valve-mask on. The chest rises with each squeeze. Later, on the way in, your partner explains the towel. 'That big head bends the neck. Flat on a board, you've folded the straw. The towel unfolds it.' You will never put an infant on a flat surface again without reaching for a towel first."
         }
       },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Tongue",
+              "left": "Proportional",
+              "right": "Large for the mouth; obstructs easily"
+            },
+            {
+              "feature": "Occiput",
+              "left": "Neutral when supine",
+              "right": "Large; flexes neck. Pad under shoulders"
+            },
+            {
+              "feature": "Narrowest point",
+              "left": "Glottic opening (vocal cords)",
+              "right": "Cricoid ring (funnel shape)"
+            },
+            {
+              "feature": "Trachea",
+              "left": "Firm",
+              "right": "Soft; hyperextension kinks it"
+            },
+            {
+              "feature": "Head tilt",
+              "left": "Full extension",
+              "right": "Slight (child), neutral (infant)"
+            },
+            {
+              "feature": "Oxygen reserve",
+              "left": "Minutes",
+              "right": "Seconds to a minute; desaturates fast"
+            }
+          ],
+          "left_label": "Adult airway",
+          "right_label": "Pediatric airway"
+        }
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 3
+      },
+      "media": [],
       "verify": true,
-      "verify_notes": "Stub. The specific anatomical differences, the ages at which they stop applying, and the positioning and equipment-sizing changes that follow from each are all unwritten. No numbers, no ages, no equipment sizes have been entered. Fill from AAOS Emergency Care and the current pediatric airway guidance."
+      "verify_notes": "Confirm the age at which the narrowest point shifts from cricoid to glottis, the positioning guidance (neutral for infants, slight extension for children), and the 'preferential nasal breathers' statement against AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-03",
+      "title": "Ventilation, respiration, and oxygenation",
+      "domain": "AIR",
+      "difficulty": 2,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-01-01"
+      ],
+      "related": [
+        "EMT-01-07-01",
+        "EMT-01-07-04",
+        "EMT-02-03-05",
+        "EMT-02-04-01"
+      ],
+      "key_points": [
+        "Ventilation is the mechanical movement of air into and out of the lungs",
+        "Respiration is the exchange of gases: external respiration at the alveoli (oxygen in, carbon dioxide out of the blood) and internal respiration at the cells",
+        "Oxygenation is the loading of oxygen onto hemoglobin and delivery to tissues",
+        "A patient can be ventilating (moving air) and still not be oxygenating (for example, carbon monoxide poisoning or a lung full of fluid)",
+        "A patient can be oxygenating at the moment and still be failing to ventilate (carbon dioxide builds up when breathing is too slow or shallow)",
+        "Tidal volume is the air moved in one breath (about 500 mL in an adult); minute volume = tidal volume × respiratory rate",
+        "Dead space is air that never reaches the alveoli (about 150 mL); shallow breaths waste a larger share on dead space",
+        "Inhalation is active (diaphragm and intercostals contract); normal exhalation is passive",
+        "The drive to breathe is normally triggered by rising carbon dioxide, sensed in the brainstem"
+      ],
+      "misconceptions": [
+        "Using 'breathing' to mean all three things at once and missing which one has failed",
+        "Assuming chest rise means the patient is oxygenating",
+        "Thinking a normal pulse ox proves the patient is ventilating adequately"
+      ],
+      "exam_favorites": [
+        "Definitions of ventilation vs. respiration vs. oxygenation",
+        "Minute volume calculation",
+        "Why shallow breathing is so inefficient (dead space)",
+        "Carbon dioxide as the normal breathing stimulus"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Three words get used as if they mean the same thing, and the exam will test whether you know they do not.\n\nVentilation is moving air. Chest rises, chest falls, air goes in and out. That is all ventilation means. A bag-valve-mask ventilates. It says nothing about whether any oxygen is getting into the blood.\n\nRespiration is the swap. At the alveoli, oxygen moves into the blood and carbon dioxide moves out. That is external respiration. Out at the cells the reverse happens, oxygen off the blood and into the cell, carbon dioxide out; that is internal respiration.\n\nOxygenation is getting oxygen onto the hemoglobin in red blood cells and delivering it to the tissues. Pulse oximetry tries to measure this.\n\nWhy does the distinction matter? Because they fail separately. A carbon monoxide victim may be ventilating beautifully, chest rising, air flowing, and not oxygenating at all because CO has hijacked the hemoglobin. A patient breathing 6 shallow times a minute may still show a decent oxygen reading for a little while, but they are not ventilating enough, and carbon dioxide is piling up in the blood. When you assess breathing, ask which of the three is broken.\n\nA couple of numbers help. One normal adult breath moves about 500 mL of air; that is tidal volume. Multiply it by the breaths per minute and you get minute volume, the total air moved per minute. But about 150 mL of every breath just fills the hallway, the trachea and bronchi, and never reaches the alveoli. That is dead space. If a patient takes tiny 200 mL breaths, 150 of every 200 is wasted. Shallow breathing is far worse than the rate alone suggests.\n\nLast piece: what makes you breathe at all. Normally it is rising carbon dioxide, sensed by the brainstem. When CO2 climbs, you breathe faster. Oxygen level is a backup trigger that only takes over in some chronic lung patients.",
+          "standard": "Ventilation is the mechanical process of moving air into and out of the lungs, driven by pressure changes from contraction of the diaphragm and intercostal muscles during inhalation and passive elastic recoil during normal exhalation. Respiration is gas exchange: external respiration across the alveolar-capillary membrane and internal respiration between systemic capillaries and tissue cells, both occurring by diffusion along concentration gradients. Oxygenation refers to the binding of oxygen to hemoglobin and its delivery to tissues.\n\nThese processes are assessed separately because they fail independently. Impaired ventilation (hypoventilation) causes carbon dioxide retention and respiratory acidosis even when oxygenation is transiently preserved. Impaired diffusion or hemoglobin dysfunction (pulmonary edema, carbon monoxide poisoning) causes hypoxia despite adequate ventilation. Impaired perfusion (shock, pulmonary embolism) prevents delivery even when both ventilation and alveolar gas exchange are intact.\n\nTidal volume in a resting adult is approximately 500 mL. Minute volume equals tidal volume multiplied by respiratory rate; normal is roughly 6 to 8 L/min. Anatomic dead space, air remaining in conducting airways that does not participate in gas exchange, is approximately 150 mL. Alveolar ventilation therefore equals (tidal volume − dead space) × rate, which is why rapid shallow breathing can produce a normal-appearing minute volume with markedly reduced effective ventilation.\n\nThe primary respiratory drive is regulated by central chemoreceptors in the medulla responding to arterial CO2 and pH. Peripheral chemoreceptors responsive to low oxygen provide a secondary, hypoxic drive that becomes clinically relevant primarily in patients with chronic CO2 retention."
+        },
+        "eli_new": {
+          "analogy": "Ventilation is the delivery truck, respiration is unloading at the dock, oxygenation is the cargo actually arriving at the stores.",
+          "body": "The truck can run all day (chest rising and falling) and deliver nothing if the dock is flooded (fluid in the lungs) or the cargo is fake (carbon monoxide on the hemoglobin). That is ventilating without oxygenating. Or the trucks can be running too rarely and too small, so garbage (carbon dioxide) piles up at the stores even though today's shelves still look stocked. That is failing to ventilate while oxygenation looks fine for now.\n\nDead space is the part of the truck bed that always stays empty. A big truck (500 mL) with 150 mL of empty bed is fine. A tiny truck (200 mL) with the same 150 mL of empty bed barely delivers anything. Shallow breaths are tiny trucks."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "do": {
+          "activity": "minute_volume_calc",
+          "type": "calculation",
+          "prompt": "A patient breathes 24 times a minute with a tidal volume of 250 mL. Dead space is 150 mL. What is the effective alveolar ventilation per minute?",
+          "config": {
+            "answer_value": 2400,
+            "answer_unit": "mL/min",
+            "tolerance": 100,
+            "worked_solution": "(250 − 150) × 24 = 100 × 24 = 2,400 mL/min. Compare a normal adult: (500 − 150) × 12 = 4,200 mL/min. Breathing twice as fast still moves far less useful air.",
+            "choices": [
+              "6,000 mL/min",
+              "3,600 mL/min",
+              "2,400 mL/min",
+              "1,200 mL/min"
+            ],
+            "correct_choice": 2
+          }
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "Explain the difference between ventilation, respiration, and oxygenation, and give one example of a patient who is ventilating but not oxygenating.",
+          "must_hit": [
+            {
+              "point": "Ventilation is moving air",
+              "accept": [
+                "moving air",
+                "air in and out",
+                "mechanical",
+                "chest rise"
+              ]
+            },
+            {
+              "point": "Respiration is gas exchange",
+              "accept": [
+                "gas exchange",
+                "exchange",
+                "alveoli",
+                "swap"
+              ]
+            },
+            {
+              "point": "Oxygenation is oxygen onto hemoglobin / to tissues",
+              "accept": [
+                "hemoglobin",
+                "tissues",
+                "oxygen into the blood",
+                "loading"
+              ]
+            },
+            {
+              "point": "Example: CO poisoning or fluid in lungs",
+              "accept": [
+                "carbon monoxide",
+                "CO",
+                "pulmonary edema",
+                "fluid",
+                "drowning"
+              ]
+            }
+          ],
+          "model_answer": "Ventilation is just moving air in and out of the lungs. Respiration is the gas exchange, oxygen into the blood and carbon dioxide out at the alveoli, and the reverse at the cells. Oxygenation is oxygen loading onto hemoglobin and reaching the tissues. A carbon monoxide victim can be ventilating fine, chest rising normally, but not oxygenating because CO has taken the oxygen's place on the hemoglobin."
+        },
+        "story": {
+          "title": "Chest rise is not the finish line",
+          "dispatch": "Medic 9, 52-year-old male, found unresponsive in a running car in a closed garage.",
+          "body": "Fire has already pulled him out. He is breathing, maybe 14 times a minute, chest rising evenly, color surprisingly pink. The rookie says 'his breathing's fine.' You put him on a non-rebreather at 15 anyway and start toward the truck, because you know what a closed garage means.\n\nIn the back you explain it. He is ventilating: air is moving. He is probably even respiring: gas is crossing at the alveoli. But he is not oxygenating, because carbon monoxide is sitting on his hemoglobin and the oxygen has nowhere to bind. The pink skin and the normal chest rise are both lying. The pulse ox will lie too. All three words look fine on the surface, and one of them is broken underneath. That is why you never stop at 'his breathing's fine.'"
+        }
+      },
+      "cards": [
+        "concept",
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Adult tidal volume",
+            "value": "~500",
+            "unit": "mL",
+            "note": "one breath"
+          },
+          {
+            "label": "Dead space",
+            "value": "~150",
+            "unit": "mL",
+            "note": "never reaches alveoli"
+          },
+          {
+            "label": "Minute volume",
+            "value": "tidal volume × rate",
+            "unit": "",
+            "note": "normal ~6 to 8 L/min"
+          },
+          {
+            "label": "Alveolar ventilation",
+            "value": "(TV − dead space) × rate",
+            "unit": "",
+            "note": "why shallow is worse than it looks"
+          },
+          {
+            "label": "Normal breathing trigger",
+            "value": "rising CO2",
+            "unit": "",
+            "note": "sensed in brainstem"
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 3,
+        "application": 3,
+        "calculation": 1
+      },
+      "media": [],
+      "verify": true,
+      "verify_notes": "Confirm tidal volume (~500 mL), dead space (~150 mL), normal minute volume range, and the definitions as worded in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-04",
+      "title": "Normal breathing: rate, depth, and effort by age",
+      "domain": "AIR",
+      "difficulty": 1,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-01-03"
+      ],
+      "related": [
+        "EMT-03-05-02",
+        "EMT-01-08-01",
+        "EMT-07-03-03"
+      ],
+      "key_points": [
+        "Normal adult respiratory rate: 12 to 20 breaths per minute",
+        "Normal child (1 to 12 years) respiratory rate: about 15 to 30 breaths per minute",
+        "Normal infant (under 1 year) respiratory rate: about 25 to 50 breaths per minute",
+        "Normal breathing is regular in rhythm, adequate in depth (visible, equal chest rise), quiet, and effortless",
+        "No accessory muscle use, no retractions, no nasal flaring, and the patient can speak in full sentences",
+        "Count respirations for 30 seconds and multiply by 2; do not tell the patient you are counting or the rate will change",
+        "Rate alone is not adequacy: a patient breathing 16 times a minute with shallow breaths may still be ventilating inadequately"
+      ],
+      "misconceptions": [
+        "Memorizing only the adult range and applying it to children",
+        "Telling the patient 'I'm going to count your breathing' (they will change it)",
+        "Treating a normal rate as proof of adequate breathing without looking at depth and effort"
+      ],
+      "exam_favorites": [
+        "Normal respiratory rate ranges for adult, child, and infant",
+        "Signs that define normal, effortless breathing",
+        "How to count respirations without alerting the patient"
+      ],
+      "modes": {
+        "read": {
+          "plain": "Before you can spot breathing that is wrong, you need a clear picture of breathing that is right. Normal breathing has three parts: rate, depth, and effort. All three have to be in range.\n\nRate is breaths per minute, and it depends on age. An adult breathes 12 to 20 times a minute. A child, roughly age one through twelve, breathes faster, about 15 to 30. An infant under a year breathes faster still, about 25 to 50. Memorize all three, because a rate of 28 is normal for a toddler and worrying for an adult.\n\nDepth is how much air moves with each breath. You judge it by looking: the chest should rise visibly and evenly on both sides. Put a hand on the chest if you need to. Shallow breathing with barely any chest movement is a warning sign even if the rate is fine.\n\nEffort is how hard the patient is working. Normal breathing is quiet and looks easy. The neck and shoulder muscles are not straining, the skin between the ribs is not sucking in, the nostrils are not flaring, and the person can talk in full sentences without stopping for air. Any of those signs means breathing is no longer effortless.\n\nCount the rate by watching the chest for 30 seconds and doubling it. A trick: keep your fingers on the wrist as if you are still taking a pulse. If a patient knows you are counting their breaths, the number changes.",
+          "standard": "Normal respiratory rates vary with age. Adults breathe at approximately 12 to 20 breaths per minute, children (1 to 12 years) at approximately 15 to 30, and infants (under 1 year) at approximately 25 to 50. Rates above or below these ranges in a symptomatic patient warrant further assessment, but rate must be interpreted alongside depth and effort.\n\nAdequate depth is assessed by observing symmetric chest rise; tidal volume cannot be measured in the field but is inferred from visible excursion and, when auscultated, breath sounds present in all fields. Normal breathing is quiet, regular, and effortless, without accessory muscle use of the sternocleidomastoid or intercostal muscles, without supraclavicular, intercostal, or subcostal retractions, and without nasal flaring or tripod positioning. A patient breathing normally can speak full sentences without pausing.\n\nRespirations are counted over 30 seconds and doubled, ideally while the EMT appears to still be palpating a radial pulse, because conscious awareness alters respiratory pattern. Rhythm should be regular; irregular patterns, periods of apnea, or agonal gasps indicate inadequate breathing regardless of the counted rate."
+        },
+        "eli_new": {
+          "analogy": "Normal breathing is like a good idle on a car engine: steady, quiet, not revving, not stalling.",
+          "body": "You check three gauges. RPM is the rate, and the normal idle depends on the model: adults 12 to 20, kids 15 to 30, infants 25 to 50. Throttle depth is how much air each breath moves; the chest should visibly rise. And the engine should sound smooth: no straining, no whistling, no knocking. If the driver can carry on a conversation without gasping, the engine is idling fine.\n\nAnd do not tell the driver you are listening to the engine. People rev when they know you are watching."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "State the normal respiratory rate ranges for an adult, a child, and an infant, and describe what normal breathing looks like beyond the number.",
+          "must_hit": [
+            {
+              "point": "Adult 12 to 20",
+              "accept": [
+                "12 to 20",
+                "12-20",
+                "twelve to twenty"
+              ]
+            },
+            {
+              "point": "Child 15 to 30",
+              "accept": [
+                "15 to 30",
+                "15-30",
+                "fifteen to thirty"
+              ]
+            },
+            {
+              "point": "Infant 25 to 50",
+              "accept": [
+                "25 to 50",
+                "25-50",
+                "twenty-five to fifty"
+              ]
+            },
+            {
+              "point": "Regular, adequate chest rise, no effort, full sentences",
+              "accept": [
+                "chest rise",
+                "effort",
+                "full sentences",
+                "quiet",
+                "regular",
+                "accessory"
+              ]
+            }
+          ],
+          "model_answer": "Adults breathe 12 to 20 times a minute, children about 15 to 30, and infants about 25 to 50. Normal breathing is also regular, with visible and equal chest rise, quiet, and easy: no neck muscles straining, no retractions, no nasal flaring, and the patient can speak in full sentences."
+        },
+        "story": {
+          "title": "Twenty-eight",
+          "dispatch": "Rescue 6, 2-year-old female, fever and cough, daycare center.",
+          "body": "She is sitting in a staff member's lap, flushed, a little cranky, and clearly annoyed at you. You count while pretending to look at her wrist: 28 breaths a minute. The daycare worker sees the number on your notepad and panics. 'That's so fast.'\n\nIt is not, for her. Two-year-olds sit in the 15 to 30 range, and she is inside it. More importantly, you look at the rest: her chest rises evenly, the breathing is quiet, no flaring at the nostrils, no skin sucking in between the ribs, and she just yelled 'NO' at you in a full, loud voice. The rate is one gauge. The rest of the picture says a sick toddler who is breathing fine. You explain that to the worker while you finish the assessment, and the panic goes out of the room."
+        }
+      },
+      "cards": [
+        "numbers"
+      ],
+      "card_data": {
+        "numbers": [
+          {
+            "label": "Adult",
+            "value": "12 to 20",
+            "unit": "breaths/min",
+            "note": ""
+          },
+          {
+            "label": "Child (1 to 12 yr)",
+            "value": "15 to 30",
+            "unit": "breaths/min",
+            "note": ""
+          },
+          {
+            "label": "Infant (under 1 yr)",
+            "value": "25 to 50",
+            "unit": "breaths/min",
+            "note": ""
+          },
+          {
+            "label": "How to count",
+            "value": "30 sec × 2",
+            "unit": "",
+            "note": "don't tell the patient"
+          },
+          {
+            "label": "Normal looks like",
+            "value": "regular, even chest rise, quiet, full sentences",
+            "unit": "",
+            "note": ""
+          }
+        ]
+      },
+      "question_targets": {
+        "recall": 4,
+        "application": 2
+      },
+      "media": [],
+      "verify": true,
+      "verify_notes": "Confirm the exact age brackets and rate ranges AAOS 12e uses (some editions list additional brackets for toddlers and adolescents); adopt the textbook's table exactly."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-05",
+      "title": "Adequate vs. inadequate breathing",
+      "domain": "AIR",
+      "difficulty": 3,
+      "high_yield": true,
+      "prereqs": [
+        "EMT-02-01-03",
+        "EMT-02-01-04"
+      ],
+      "related": [
+        "EMT-02-04-01",
+        "EMT-02-04-06",
+        "EMT-03-02-04",
+        "EMT-02-03-03"
+      ],
+      "key_points": [
+        "Adequate breathing: rate in the normal range for age, regular rhythm, visible equal chest rise, quiet, effortless, patient alert and able to speak full sentences",
+        "Inadequate breathing: rate too slow or too fast for age, shallow depth, irregular rhythm, or visible effort",
+        "Signs of effort: accessory muscle use (neck and shoulder muscles), retractions (skin pulling in between or under the ribs), nasal flaring, tripod position, pursed-lip breathing",
+        "Two- or three-word dyspnea (can only speak a few words per breath) is a red flag",
+        "Late signs: cyanosis, altered mental status, agonal gasps",
+        "The decision that follows: adequate breathing with hypoxia gets supplemental oxygen; inadequate breathing gets ventilation with a BVM, not just a mask",
+        "Agonal gasps are not breathing; treat the patient as not breathing",
+        "Reassess constantly; adequate can become inadequate within minutes"
+      ],
+      "misconceptions": [
+        "Putting a non-rebreather on a patient whose breathing is inadequate and expecting it to help",
+        "Counting agonal gasps as respirations",
+        "Assuming a talking patient is fine without noticing they are speaking two words at a time",
+        "Waiting for cyanosis before acting (it is a late sign)"
+      ],
+      "exam_favorites": [
+        "The signs of inadequate breathing",
+        "Adequate breathing plus hypoxia = oxygen; inadequate breathing = BVM",
+        "Agonal gasps are not effective breathing",
+        "Cyanosis and altered mental status as late signs"
+      ],
+      "modes": {
+        "read": {
+          "plain": "This is the decision that the whole airway module builds toward. Every breathing patient you meet falls on one side of a line: adequate or inadequate. Which side decides what you do next.\n\nAdequate breathing looks like normal breathing. The rate is in range for the patient's age, the rhythm is regular, the chest rises visibly and evenly, it is quiet, it looks easy, and the patient is alert and can talk in full sentences. If any of that is off, you are looking at inadequate breathing.\n\nInadequate breathing shows up in the rate (too fast or too slow for age), the depth (shallow, barely any chest movement), the rhythm (irregular, with pauses), or the effort. Effort is where you will catch most of them. Watch for neck and shoulder muscles pulling with each breath, skin sucking in between the ribs or below them, nostrils flaring, a patient leaning forward on their hands in the tripod position, or breathing out through pursed lips. Listen to how they talk: a patient who can only get two or three words out before gasping for air is in trouble.\n\nThe late signs are the ones you never want to be the first to notice: blue or gray skin, confusion or sleepiness, and agonal gasps. Agonal gasps are slow, irregular, snoring or gasping breaths from a brain that is shutting down. They are not breathing. A patient with agonal gasps is treated as a patient who is not breathing at all.\n\nNow the decision. A patient whose breathing is adequate but whose oxygen level is low gets supplemental oxygen: a cannula or a non-rebreather. A patient whose breathing is inadequate gets ventilated. That means a bag-valve-mask, breathing for them or with them, because no mask sitting on the face can fix a rate or a depth that is too low. This single distinction, oxygen versus ventilation, is the most important thing in this lesson.\n\nAnd it can change. A patient who was adequate five minutes ago can tire out and become inadequate. Reassess every few minutes.",
+          "standard": "Assessment of breathing adequacy integrates rate, rhythm, depth (tidal volume), and work of breathing against age-appropriate norms, together with mental status and the patient's ability to speak. Adequate breathing is characterized by a normal rate for age, regular rhythm, symmetric and visible chest excursion, quiet respirations without adventitious sounds audible without a stethoscope, absence of accessory muscle use, and an alert patient able to speak in full sentences.\n\nInadequate breathing may be evidenced by bradypnea or tachypnea for age, shallow or irregular respirations, or increased work of breathing: use of sternocleidomastoid and intercostal muscles, supraclavicular, intercostal, or subcostal retractions, nasal flaring, tripod positioning, and pursed-lip exhalation. Two- to three-word dyspnea, inability to lie flat, and audible wheezing, stridor, or gurgling are additional indicators. Cyanosis, altered mental status, and agonal respirations are late findings signifying impending respiratory failure or arrest. Agonal gasps are ineffective and are managed as apnea.\n\nManagement follows directly from the assessment. Patients with adequate breathing who are hypoxic or at risk receive supplemental oxygen titrated to an SpO2 of 94% to 99%. Patients with inadequate breathing require assisted or complete positive-pressure ventilation with a bag-valve-mask and supplemental oxygen, because passive delivery devices cannot correct insufficient rate or tidal volume. Reassessment at frequent intervals is essential because adequacy can deteriorate rapidly with fatigue."
+        },
+        "eli_new": {
+          "analogy": "Adequate breathing is a swimmer doing laps. Inadequate breathing is a swimmer starting to thrash.",
+          "body": "A good swimmer looks smooth: steady strokes, regular breathing, no wasted motion. The moment they start to struggle you see it before they go under: the strokes get choppy, the head bobs, the neck strains, they cannot answer you between breaths. That is accessory muscles, retractions, and two-word sentences.\n\nWhen the swimmer is only thrashing a little, you throw them a flotation ring: that is oxygen. When they are going under, a ring does nothing. You get in the water and swim for them: that is the bag-valve-mask. The whole skill is knowing which swimmer you are looking at, and looking again every couple of minutes because tired swimmers go under fast."
+        },
+        "hear": {
+          "source": "tts"
+        },
+        "do": {
+          "activity": "adequate_or_inadequate",
+          "type": "sort_into_buckets",
+          "prompt": "Sort each finding: is it a sign of adequate or inadequate breathing?",
+          "config": {
+            "buckets": [
+              "Adequate",
+              "Inadequate"
+            ],
+            "items": [
+              {
+                "text": "Speaking in full sentences",
+                "bucket": 0
+              },
+              {
+                "text": "Nasal flaring",
+                "bucket": 1
+              },
+              {
+                "text": "Adult rate of 16, even chest rise",
+                "bucket": 0
+              },
+              {
+                "text": "Tripod position",
+                "bucket": 1
+              },
+              {
+                "text": "Retractions between the ribs",
+                "bucket": 1
+              },
+              {
+                "text": "Quiet, regular rhythm",
+                "bucket": 0
+              },
+              {
+                "text": "Two-word dyspnea",
+                "bucket": 1
+              },
+              {
+                "text": "Agonal gasps",
+                "bucket": 1
+              },
+              {
+                "text": "Infant rate of 34, alert and crying loudly",
+                "bucket": 0
+              }
+            ]
+          }
+        },
+        "quiz": {
+          "pool_size": 5,
+          "pass_pct": 80
+        },
+        "teach": {
+          "prompt": "List the signs that tell you a patient's breathing is inadequate, and explain what changes about your treatment when it is.",
+          "must_hit": [
+            {
+              "point": "Rate or depth abnormal for age",
+              "accept": [
+                "rate",
+                "shallow",
+                "too slow",
+                "too fast",
+                "depth"
+              ]
+            },
+            {
+              "point": "Signs of effort",
+              "accept": [
+                "accessory",
+                "retractions",
+                "flaring",
+                "tripod",
+                "effort",
+                "working hard"
+              ]
+            },
+            {
+              "point": "Few words per breath, altered mental status, cyanosis",
+              "accept": [
+                "two words",
+                "few words",
+                "sentences",
+                "confused",
+                "altered",
+                "cyanosis",
+                "blue"
+              ]
+            },
+            {
+              "point": "Inadequate means ventilate with BVM, not just oxygen",
+              "accept": [
+                "BVM",
+                "bag",
+                "ventilate",
+                "breathe for them",
+                "not just a mask"
+              ]
+            }
+          ],
+          "model_answer": "Inadequate breathing shows up as a rate that is too fast or too slow for age, shallow chest movement, an irregular rhythm, or visible effort: neck muscles straining, retractions, nasal flaring, tripod position, pursed lips. Patients who can only say two or three words per breath, who are confused or drowsy, or who are turning blue are in serious trouble, and agonal gasps mean they are effectively not breathing. When breathing is inadequate, oxygen alone is not enough; you ventilate with a bag-valve-mask."
+        },
+        "story": {
+          "title": "The line",
+          "dispatch": "Engine 1, Rescue 1, 66-year-old female, difficulty breathing, history of COPD, husband on scene.",
+          "body": "She is on the edge of the bed, hands on her knees, shoulders hunched up around her ears, breathing through pursed lips. You ask her name. 'Carol.' You ask what happened. 'Can't... breathe... since... lunch.' Three words at a time. Skin between her ribs pulls in with every breath. Rate 32. Sats 84%.\n\nYou put a non-rebreather on her at 15 and get her onto the stretcher. Two minutes later something changes. Her eyes are drifting closed. Her shoulders have stopped hunching, not because she is better but because she is too tired to fight anymore. The breaths are slower now, 8 a minute, and shallow. The bag on the mask barely moves.\n\nShe just crossed the line. The mask comes off and the BVM comes out, and you squeeze in time with her failing breaths, assisting every one. This is the whole lesson in one call: the same patient, adequate then inadequate, and the treatment changed the moment she did. If you had not reassessed, you would have missed it."
+        }
+      },
+      "cards": [
+        "concept",
+        "compare"
+      ],
+      "card_data": {
+        "compare": {
+          "rows": [
+            {
+              "feature": "Rate",
+              "left": "Normal for age",
+              "right": "Too fast or too slow for age"
+            },
+            {
+              "feature": "Depth",
+              "left": "Visible, equal chest rise",
+              "right": "Shallow, minimal movement"
+            },
+            {
+              "feature": "Rhythm",
+              "left": "Regular",
+              "right": "Irregular, pauses, agonal gasps"
+            },
+            {
+              "feature": "Effort",
+              "left": "Quiet, easy",
+              "right": "Accessory muscles, retractions, flaring, tripod"
+            },
+            {
+              "feature": "Speech",
+              "left": "Full sentences",
+              "right": "Two or three words at a time"
+            },
+            {
+              "feature": "Late signs",
+              "left": "None",
+              "right": "Cyanosis, altered mental status"
+            },
+            {
+              "feature": "Treatment",
+              "left": "Oxygen if hypoxic",
+              "right": "Ventilate with BVM"
+            }
+          ],
+          "left_label": "Adequate breathing",
+          "right_label": "Inadequate breathing"
+        }
+      },
+      "question_targets": {
+        "recall": 2,
+        "application": 3,
+        "scenario": 3
+      },
+      "media": [],
+      "verify": true,
+      "verify_notes": "Confirm the signs list and the adequate-vs-inadequate treatment rule as worded in AAOS 12e; confirm the textbook's handling of agonal respirations."
     },
     {
       "schema_version": "1.0.0",

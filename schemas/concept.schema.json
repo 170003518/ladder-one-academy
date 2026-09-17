@@ -434,10 +434,10 @@
             "enum": ["diagram", "photo", "flowchart", "ecg", "animation", "audio"]
           },
           "alt": {
-            "description": "Required. Accessibility is a non-negotiable.",
+            "description": "Required. Accessibility is a non-negotiable. Long is fine and often correct: a labelled anatomy diagram or an ECG strip needs every label spelled out, because alt text is the only way a screen-reader user gets the picture at all. Put the teaching point in caption instead - that is shown to everyone.",
             "type": "string",
             "minLength": 3,
-            "maxLength": 300
+            "maxLength": 1000
           },
           "caption": { "type": "string", "maxLength": 300 },
           "source": {

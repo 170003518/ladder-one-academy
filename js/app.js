@@ -19,6 +19,8 @@ import { renderPrintCard } from './print.js';
 import { pickDo, resetDo } from './interact.js';
 import * as hear from './hear.js';
 import * as teach from './teach.js';
+import * as see from './see.js';
+import * as sort from './sort.js';
 
 /* Every content file the app knows about. The Ladder reports "N of 11 modules
    built" from the length of the module list. Question banks are loaded lazily —
@@ -194,7 +196,11 @@ async function route() {
 
     // Switching concept clears a Teach It Back attempt; switching mode does not,
     // so tabbing away and back does not throw away what was written.
-    if (ctx?.kind === 'lesson' && ctx.concept.id !== found.concept.id) teach.reset(ctx.concept.id);
+    if (ctx?.kind === 'lesson' && ctx.concept.id !== found.concept.id) {
+      teach.reset(ctx.concept.id);
+      sort.reset(ctx.concept.id);
+    }
+    see.closeZoom();
 
     ctx = { kind: 'lesson', ...found, mode, depth: app.depth, questions };
     app.el.innerHTML = shell(renderLesson(ctx));
@@ -257,7 +263,8 @@ function wire() {
   app.el.addEventListener('click', ev => {
     const t = ev.target.closest('[data-depth], #mark-viewed, #quiz-start, [data-answer], [data-confidence], #quiz-again, '
       + '#exam-start, [data-exam-answer], [data-exam-confidence], #exam-review, #review-prev, #review-next, #review-back, #do-print, '
-      + '[data-do-pick], #do-reset, #hear-play, #hear-stop, #teach-submit, #teach-again');
+      + '[data-do-pick], #do-reset, #hear-play, #hear-stop, #teach-submit, #teach-again, '
+      + '[data-see-zoom], #see-close, [data-sort-item], [data-sort-bucket], [data-sort-unplace], #sort-check, #sort-reset');
     if (!t) return;
 
     if (t.dataset.depth) { app.depth = t.dataset.depth; return refresh(); }
@@ -324,6 +331,37 @@ function wire() {
       return refresh();
     }
     if (t.id === 'teach-again') { teach.reset(ctx.concept.id); return refresh(); }
+
+    /* --- See It --- */
+    if (t.dataset.seeZoom) { see.zoom(ctx.concept.id, t.dataset.seeZoom); return refresh(); }
+    if (t.id === 'see-close') { see.closeZoom(); return refresh(); }
+
+    /* --- Do It: sort into buckets --- */
+    if (t.dataset.sortItem !== undefined) { sort.select(ctx.concept.id, Number(t.dataset.sortItem)); return refresh(); }
+    if (t.dataset.sortUnplace !== undefined) { sort.unplace(ctx.concept.id, Number(t.dataset.sortUnplace)); return refresh(); }
+    if (t.dataset.sortBucket !== undefined) { sort.drop(ctx.concept.id, Number(t.dataset.sortBucket)); return refresh(); }
+    if (t.id === 'sort-check') { sort.check(ctx.concept.id); return refresh(); }
+    if (t.id === 'sort-reset') { sort.reset(ctx.concept.id); return refresh(); }
+  });
+
+  /* Drag and drop is the desktop path into the same sort functions the taps use.
+     dragstart carries the item index; a bucket accepts the drop. Touch never
+     fires these, which is why tap-then-tap exists. */
+  app.el.addEventListener('dragstart', ev => {
+    const item = ev.target.closest?.('[data-sort-item]');
+    if (!item) return;
+    ev.dataTransfer.setData('text/plain', item.dataset.sortItem);
+    ev.dataTransfer.effectAllowed = 'move';
+  });
+  app.el.addEventListener('dragover', ev => {
+    if (ev.target.closest?.('[data-sort-bucket]')) { ev.preventDefault(); ev.dataTransfer.dropEffect = 'move'; }
+  });
+  app.el.addEventListener('drop', ev => {
+    const bucket = ev.target.closest?.('[data-sort-bucket]');
+    if (!bucket) return;
+    ev.preventDefault();
+    const idx = Number(ev.dataTransfer.getData('text/plain'));
+    if (Number.isInteger(idx)) { sort.drop(ctx.concept.id, Number(bucket.dataset.sortBucket), idx); refresh(); }
   });
 
   app.el.addEventListener('input', ev => {
@@ -382,6 +420,13 @@ function wire() {
     quiz.abandon();
     say('Progress cleared.');
     route();
+  });
+
+  document.addEventListener('keydown', ev => {
+    if (ev.key === 'Escape' && ctx?.kind === 'lesson' && see.isZoomed(ctx.concept.id)) {
+      see.closeZoom();
+      refresh();
+    }
   });
 
   window.addEventListener('hashchange', route);

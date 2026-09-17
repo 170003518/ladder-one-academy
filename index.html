@@ -326,6 +326,82 @@
   .teach-accept { display: block; font-size: var(--fs-xs); font-style: italic; opacity: .8; }
   .teach-caveat { font-size: var(--fs-xs); color: var(--text-muted); margin: 0; }
 
+  /* --- See It ------------------------------------------------------------- */
+  .see-fig { margin: 0 0 var(--space-6); max-width: 40rem; }
+  .see-open {
+    display: block; width: 100%; padding: 0; cursor: zoom-in; position: relative;
+    background: var(--star-white); border: 1px solid var(--border); border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .see-open img { display: block; width: 100%; height: auto; }
+  .see-hint {
+    position: absolute; right: var(--space-2); bottom: var(--space-2);
+    background: rgba(15,31,61,.82); color: var(--star-white);
+    font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase;
+    padding: var(--space-1) var(--space-3); border-radius: var(--radius-pill);
+  }
+  .see-fig figcaption { margin-top: var(--space-3); font-size: var(--fs-sm); }
+  .see-credit { margin: var(--space-2) 0 0; font-size: var(--fs-xs); color: var(--text-muted); }
+
+  .see-zoom {
+    position: fixed; inset: 0; z-index: 50;
+    background: rgba(8,19,40,.94);
+    display: flex; flex-direction: column;
+  }
+  .see-zoom__bar {
+    display: flex; align-items: center; justify-content: space-between; gap: var(--space-4);
+    padding: var(--space-3) var(--space-5); border-bottom: 1px solid var(--border);
+    font-size: var(--fs-sm); color: var(--text-muted);
+  }
+  .see-zoom__bar button {
+    font: inherit; font-family: var(--font-display); font-size: var(--fs-xs);
+    letter-spacing: var(--tracking-wide); text-transform: uppercase;
+    background: var(--surface-raised); color: var(--text);
+    border: 1px solid var(--border); border-radius: var(--radius-pill);
+    padding: var(--space-2) var(--space-4); cursor: pointer; flex: none;
+  }
+  .see-zoom__stage {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+    padding: var(--space-5); overflow: auto; background: var(--star-white);
+  }
+  .see-zoom__stage img { max-width: 100%; max-height: 100%; }
+
+  /* --- Do It: sort into buckets ------------------------------------------- */
+  .sort-how { font-size: var(--fs-sm); color: var(--text-muted); margin-bottom: var(--space-3); }
+  .sort-tray {
+    display: flex; flex-wrap: wrap; gap: var(--space-2);
+    padding: var(--space-3); margin-bottom: var(--space-5);
+    border: 1px dashed var(--border); border-radius: var(--radius); min-height: 3.5rem;
+  }
+  .sort-item {
+    font: inherit; font-size: var(--fs-sm); color: var(--text);
+    background: var(--surface-raised); border: 1px solid var(--border);
+    border-radius: var(--radius-pill); padding: var(--space-2) var(--space-4); cursor: pointer;
+  }
+  .sort-item:hover:not(:disabled) { border-color: var(--slate); }
+  .sort-item.is-selected { background: var(--signal-yellow); color: var(--navy); border-color: var(--signal-yellow); }
+  .sort-item--placed { display: block; width: 100%; text-align: left; margin-bottom: var(--space-2); border-radius: var(--radius); }
+  .sort-item--placed.is-right { border-color: var(--line-blue); box-shadow: inset 3px 0 0 var(--line-blue); }
+  .sort-item--placed.is-wrong { border-color: var(--ember); box-shadow: inset 3px 0 0 var(--ember); }
+  .sort-item--placed:disabled { cursor: default; }
+  .sort-belongs { display: block; font-style: italic; font-size: var(--fs-xs); color: var(--ember); margin-top: 2px; }
+
+  .sort-buckets { display: flex; gap: var(--space-4); flex-wrap: wrap; }
+  .sort-bucket {
+    flex: 1 1 14rem; background: var(--surface);
+    border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-4);
+  }
+  .sort-bucket.is-target { border-color: var(--signal-yellow); border-style: dashed; }
+  .sort-bucket h3 {
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-size: var(--fs-md); margin-bottom: var(--space-3);
+  }
+  .sort-count { color: var(--text-muted); font-size: var(--fs-sm); }
+  .sort-drop { min-height: 4rem; }
+  .sort-empty { font-size: var(--fs-sm); color: var(--text-muted); font-style: italic; margin: 0; }
+  #sort-check:disabled { opacity: .5; cursor: default; }
+
   /* --- Dev mode banner ---------------------------------------------------- */
   .devbanner {
     background: var(--signal-yellow); color: var(--navy);

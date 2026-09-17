@@ -8,180 +8,576 @@
       "id": "EMT-02-01-01-Q001",
       "concept_id": "EMT-02-01-01",
       "style": "recall",
-      "stem": "The EMT curriculum describes the airway as divided into how many named sections?",
+      "stem": "Which structure marks the boundary between the upper and lower airway?",
       "options": [
         {
-          "text": "One continuous passage with no divisions",
-          "rationale": "The curriculum does divide it; treating it as one undivided passage is the misconception this question targets."
+          "text": "The epiglottis",
+          "rationale": "The epiglottis is part of the upper airway; it guards the entrance to the larynx but is not the dividing line."
         },
         {
-          "text": "Two — an upper section and a lower section",
-          "rationale": "Correct. The airway is described in two halves, upper and lower, separated by a named landmark structure."
+          "text": "The larynx",
+          "rationale": "Correct. The upper airway ends at the larynx; the lower airway begins with the trachea just below it."
         },
         {
-          "text": "Three — upper, middle and lower",
-          "rationale": "There is no middle section in this scheme; three is a plausible-sounding invention."
+          "text": "The carina",
+          "rationale": "The carina is well into the lower airway, where the trachea splits into the two mainstem bronchi."
         },
         {
-          "text": "Four, one for each lung lobe group",
-          "rationale": "Lobes describe lung anatomy, not the division of the airway passage itself."
+          "text": "The oropharynx",
+          "rationale": "The oropharynx is the middle section of the pharynx, entirely within the upper airway."
         }
       ],
       "correct_index": 1,
       "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm boundary definition in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-01-01-Q002",
       "concept_id": "EMT-02-01-01",
       "style": "recall",
-      "stem": "Why is the airway split into an upper and a lower section at all?",
+      "stem": "The function of the epiglottis is to:",
       "options": [
         {
-          "text": "Because each half has its own characteristic set of problems",
-          "rationale": "Correct. The split is worth knowing because it predicts the kind of problem you are dealing with."
+          "text": "Produce sound for speech",
+          "rationale": "Sound is produced by the vocal cords within the larynx, not the epiglottis."
         },
         {
-          "text": "Because only the upper half carries air",
-          "rationale": "Both halves carry air; this option misstates the basic function."
+          "text": "Cover the opening of the trachea during swallowing",
+          "rationale": "Correct. The leaf-shaped epiglottis folds over the glottic opening so food and liquid go to the esophagus rather than the lungs."
         },
         {
-          "text": "Because EMTs do not assess the lower half",
-          "rationale": "Scope does not define the anatomical split, and the lower half is very much assessed."
+          "text": "Warm and humidify inhaled air",
+          "rationale": "Warming and humidifying happen in the nasal passages."
         },
         {
-          "text": "Because the division matches the two lungs",
-          "rationale": "The split is a single landmark along one passage, not a left-right division."
+          "text": "Exchange oxygen and carbon dioxide",
+          "rationale": "Gas exchange occurs only in the alveoli."
         }
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-01-01-Q003",
       "concept_id": "EMT-02-01-01",
       "style": "application",
-      "stem": "On an exam, structure names from the two halves of the airway most often appear as:",
+      "stem": "The most common cause of airway obstruction in an unresponsive patient lying supine is:",
       "options": [
         {
-          "text": "Distractors for one another",
-          "rationale": "Correct. Options are built from names in the other half, so knowing which half a structure belongs to is what separates the answers."
+          "text": "A foreign body",
+          "rationale": "Foreign bodies cause obstruction, but far less often than the tongue in an unresponsive patient."
         },
         {
-          "text": "Answers that are never tested",
-          "rationale": "Structure names are tested routinely; this option is simply false."
+          "text": "The tongue",
+          "rationale": "Correct. Loss of muscle tone lets the tongue fall back against the posterior pharynx. Positioning maneuvers correct this."
         },
         {
-          "text": "Items that only appear in trauma questions",
-          "rationale": "They appear across medical and trauma questions alike."
+          "text": "Swelling of the epiglottis",
+          "rationale": "Epiglottitis is a real but uncommon cause, mostly in specific infections."
         },
         {
-          "text": "Items that only appear in pediatric questions",
-          "rationale": "Pediatrics has its own differences, but structure naming is not limited to it."
+          "text": "Collapse of the trachea",
+          "rationale": "The adult trachea is supported by cartilage rings and does not collapse under normal conditions."
         }
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "difficulty": 1,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-01-Q004",
+      "concept_id": "EMT-02-01-01",
+      "style": "recall",
+      "stem": "Gas exchange between the air and the blood takes place in the:",
+      "options": [
+        {
+          "text": "Bronchi",
+          "rationale": "The bronchi are conducting airways; no gas exchange occurs there."
+        },
+        {
+          "text": "Trachea",
+          "rationale": "The trachea only conducts air to and from the lungs."
+        },
+        {
+          "text": "Alveoli",
+          "rationale": "Correct. Oxygen and carbon dioxide diffuse across the thin alveolar-capillary membrane."
+        },
+        {
+          "text": "Larynx",
+          "rationale": "The larynx houses the vocal cords and marks the top of the lower airway; it does not exchange gas."
+        }
+      ],
+      "correct_index": 2,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-01-02-Q001",
       "concept_id": "EMT-02-01-02",
-      "style": "recall",
-      "stem": "Compared with an adult's airway, a child's airway:",
+      "style": "application",
+      "stem": "When positioning an infant's airway, the EMT places padding under the shoulders because:",
       "options": [
         {
-          "text": "Is identical, only smaller in every dimension",
-          "rationale": "This is the exact misconception the concept exists to correct — a child is not a scaled-down adult."
+          "text": "Infants have a proportionally large occiput that flexes the neck when supine",
+          "rationale": "Correct. The large back of the head tips the chin toward the chest, folding the airway; padding restores a neutral position."
         },
         {
-          "text": "Differs in several specific ways that change what you physically do",
-          "rationale": "Correct. Each difference changes positioning, equipment sizing or ventilation."
+          "text": "Infants have weak neck muscles that need support",
+          "rationale": "Muscle strength is not the reason; skull proportion is."
         },
         {
-          "text": "Differs only in overall length",
-          "rationale": "Length alone does not account for the changes in approach the concept describes."
+          "text": "It elevates the chest to improve breathing",
+          "rationale": "The padding goes under the shoulders to level the head, not to raise the chest."
         },
         {
-          "text": "Differs in ways that require no change in approach",
-          "rationale": "If no change followed, the differences would not be testable or clinically relevant."
+          "text": "It prevents the tongue from falling forward",
+          "rationale": "The tongue falls backward, not forward, and the padding addresses head position, not the tongue directly."
         }
       ],
-      "correct_index": 1,
+      "correct_index": 0,
       "difficulty": 2,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-01-02-Q002",
       "concept_id": "EMT-02-01-02",
       "style": "recall",
-      "stem": "Each anatomical difference in the pediatric airway matters because it changes:",
+      "stem": "The narrowest point of a young child's airway is the:",
       "options": [
         {
-          "text": "How you position the patient, size equipment, and ventilate",
-          "rationale": "Correct. The differences are worth learning because each maps to a physical action."
+          "text": "Vocal cords",
+          "rationale": "The vocal cords (glottic opening) are the narrowest point in an adult, not a young child."
         },
         {
-          "text": "Only which medications are given",
-          "rationale": "Medication choice is not what this concept is about."
+          "text": "Cricoid ring",
+          "rationale": "Correct. In young children the cricoid cartilage is the narrowest point, giving the airway a funnel shape."
         },
         {
-          "text": "Only the transport destination",
-          "rationale": "Destination decisions are a separate topic entirely."
+          "text": "Nasopharynx",
+          "rationale": "The nasal passages are small but are not the narrowest point of the airway."
         },
         {
-          "text": "Nothing you physically do at the head of the stretcher",
-          "rationale": "The whole point of the concept is that each difference changes an action."
+          "text": "Carina",
+          "rationale": "The carina is a branch point in the lower airway, not the narrowest part."
         }
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "difficulty": 2,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",
       "id": "EMT-02-01-02-Q003",
       "concept_id": "EMT-02-01-02",
       "style": "application",
-      "stem": "Pediatric airway questions often have a different correct answer from the adult version because:",
+      "stem": "Hyperextending a small child's neck during a head-tilt/chin-lift may:",
       "options": [
         {
-          "text": "The anatomical differences change which action is indicated",
-          "rationale": "Correct. Same scenario, different anatomy, therefore a different right answer."
+          "text": "Improve airflow by straightening the airway",
+          "rationale": "In adults, extension helps. In small children the opposite can occur."
         },
         {
-          "text": "Children are always transported regardless of findings",
-          "rationale": "Transport decisions are not what makes the airway answer differ."
+          "text": "Kink the soft trachea and obstruct the airway",
+          "rationale": "Correct. The pediatric trachea has little cartilage support; overextension can collapse it. Use only slight extension in children and a neutral position in infants."
         },
         {
-          "text": "EMTs are not permitted to manage pediatric airways",
-          "rationale": "Pediatric airway management is within EMT scope."
+          "text": "Have no effect on the airway",
+          "rationale": "Head position has a major effect on the pediatric airway."
         },
         {
-          "text": "The exam scores pediatric items differently",
-          "rationale": "Scoring is not the reason the clinical answer changes."
+          "text": "Cause the epiglottis to seal the trachea",
+          "rationale": "The epiglottis does not close in response to head extension."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-02-Q004",
+      "concept_id": "EMT-02-01-02",
+      "style": "application",
+      "stem": "Compared with adults, children who stop breathing become hypoxic more quickly because they:",
+      "options": [
+        {
+          "text": "Have a slower metabolic rate",
+          "rationale": "Backwards. Children have a faster metabolic rate."
+        },
+        {
+          "text": "Have a higher metabolic rate and less oxygen reserve",
+          "rationale": "Correct. Children consume oxygen faster and have less stored in the lungs, so desaturation is rapid."
+        },
+        {
+          "text": "Have larger lungs relative to body size",
+          "rationale": "Pediatric lung volume relative to oxygen demand is smaller, not larger."
+        },
+        {
+          "text": "Cannot use their diaphragm",
+          "rationale": "Infants rely heavily on the diaphragm; that is not the reason for rapid hypoxia."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-03-Q001",
+      "concept_id": "EMT-02-01-03",
+      "style": "recall",
+      "stem": "The mechanical movement of air into and out of the lungs is called:",
+      "options": [
+        {
+          "text": "Respiration",
+          "rationale": "Respiration is gas exchange, not air movement."
+        },
+        {
+          "text": "Ventilation",
+          "rationale": "Correct. Ventilation is the physical movement of air; it says nothing about whether gas exchange is occurring."
+        },
+        {
+          "text": "Oxygenation",
+          "rationale": "Oxygenation is oxygen loading onto hemoglobin and delivery to tissues."
+        },
+        {
+          "text": "Perfusion",
+          "rationale": "Perfusion is blood flow through tissues."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm definitions in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-03-Q002",
+      "concept_id": "EMT-02-01-03",
+      "style": "scenario",
+      "stem": "A patient pulled from a house fire is breathing 16 times a minute with full chest rise but is confused and has a headache. Which process is most likely failing?",
+      "options": [
+        {
+          "text": "Ventilation",
+          "rationale": "Air is moving normally, so ventilation is intact."
+        },
+        {
+          "text": "Oxygenation",
+          "rationale": "Correct. Carbon monoxide binds hemoglobin, so oxygen cannot load and reach tissues even though air movement is normal."
+        },
+        {
+          "text": "Both ventilation and respiration have stopped",
+          "rationale": "Air is moving and gas is still crossing the alveoli; the failure is at the hemoglobin."
+        },
+        {
+          "text": "Nothing; the patient is breathing normally",
+          "rationale": "A confused fire victim with a headache is hypoxic until proven otherwise, regardless of normal chest rise."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "secondary_concepts": [
+        "EMT-05-05-04"
+      ],
+      "verify": true,
+      "verify_notes": "Confirm CO mechanism wording in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-03-Q003",
+      "concept_id": "EMT-02-01-03",
+      "style": "calculation",
+      "stem": "An adult breathes 12 times per minute with a tidal volume of 500 mL. What is the minute volume?",
+      "options": [
+        {
+          "text": "500 mL",
+          "rationale": "That is one breath's tidal volume, not the total per minute."
+        },
+        {
+          "text": "4,200 mL",
+          "rationale": "This is alveolar ventilation after subtracting 150 mL dead space, which the question did not ask for."
+        },
+        {
+          "text": "6,000 mL",
+          "rationale": "Correct. Minute volume = tidal volume × rate = 500 × 12 = 6,000 mL."
+        },
+        {
+          "text": "12,000 mL",
+          "rationale": "This doubles the tidal volume; check the multiplication."
+        }
+      ],
+      "correct_index": 2,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm formula in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-03-Q004",
+      "concept_id": "EMT-02-01-03",
+      "style": "application",
+      "stem": "Why is rapid, shallow breathing less effective than the rate alone suggests?",
+      "options": [
+        {
+          "text": "A larger share of each breath is wasted on dead space that never reaches the alveoli",
+          "rationale": "Correct. About 150 mL of every breath fills the conducting airways; with a 200 mL breath, only 50 mL reaches the alveoli."
+        },
+        {
+          "text": "Fast breathing lowers the oxygen concentration of inhaled air",
+          "rationale": "Inhaled air is 21% oxygen regardless of rate."
+        },
+        {
+          "text": "The alveoli close at high respiratory rates",
+          "rationale": "Alveoli do not close because of rate."
+        },
+        {
+          "text": "The diaphragm cannot contract at rates above 20",
+          "rationale": "The diaphragm functions at much higher rates; the issue is volume, not muscle capacity."
         }
       ],
       "correct_index": 0,
       "difficulty": 2,
       "domain": "AIR",
       "verify": true,
-      "verify_notes": "Placeholder item. Written only from this concept's stub key points and plain-English read text; no source text was consulted and no clinical figures, doses, ages or equipment sizes are involved. Rewrite against AAOS Emergency Care once the concept itself is filled in, then add a source reference."
+      "verify_notes": "Confirm dead space explanation in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-04-Q001",
+      "concept_id": "EMT-02-01-04",
+      "style": "recall",
+      "stem": "The normal respiratory rate for an adult at rest is:",
+      "options": [
+        {
+          "text": "8 to 12 breaths per minute",
+          "rationale": "Below the normal adult range; a rate of 8 is bradypnea."
+        },
+        {
+          "text": "12 to 20 breaths per minute",
+          "rationale": "Correct. This is the standard adult range."
+        },
+        {
+          "text": "15 to 30 breaths per minute",
+          "rationale": "This is the range for a child."
+        },
+        {
+          "text": "25 to 50 breaths per minute",
+          "rationale": "This is the range for an infant."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-04-Q002",
+      "concept_id": "EMT-02-01-04",
+      "style": "application",
+      "stem": "A 6-month-old is breathing 40 times per minute, alert, with even chest rise and no retractions. This rate is:",
+      "options": [
+        {
+          "text": "Dangerously fast; begin assisted ventilation",
+          "rationale": "Ventilation is for inadequate breathing. This infant is alert with easy, even breathing."
+        },
+        {
+          "text": "Normal for an infant",
+          "rationale": "Correct. Infants breathe about 25 to 50 times per minute; 40 with no signs of effort is normal."
+        },
+        {
+          "text": "Too slow for an infant",
+          "rationale": "40 is within, not below, the infant range."
+        },
+        {
+          "text": "Normal only if the infant is crying",
+          "rationale": "The rate is normal at rest; crying would push it higher."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-04-Q003",
+      "concept_id": "EMT-02-01-04",
+      "style": "application",
+      "stem": "The best technique for counting a patient's respiratory rate is to:",
+      "options": [
+        {
+          "text": "Tell the patient you are counting so they breathe normally",
+          "rationale": "Awareness changes the rate. Never announce that you are counting."
+        },
+        {
+          "text": "Watch the chest for 30 seconds and double the count while appearing to take a pulse",
+          "rationale": "Correct. This gives an accurate rate without the patient consciously altering their breathing."
+        },
+        {
+          "text": "Count for 5 seconds and multiply by 12",
+          "rationale": "Too short an interval to be accurate, especially with irregular breathing."
+        },
+        {
+          "text": "Ask the patient how fast they are breathing",
+          "rationale": "Patients cannot reliably report their own rate."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 1,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-05-Q001",
+      "concept_id": "EMT-02-01-05",
+      "style": "scenario",
+      "stem": "A 70-year-old man is breathing 8 times per minute with shallow chest rise and is difficult to arouse. The most appropriate action is to:",
+      "options": [
+        {
+          "text": "Apply a non-rebreather mask at 15 L/min",
+          "rationale": "A passive mask cannot fix a rate and depth that are too low. This patient is not ventilating adequately."
+        },
+        {
+          "text": "Begin ventilations with a bag-valve-mask and supplemental oxygen",
+          "rationale": "Correct. Inadequate rate, inadequate depth, and altered mental status: this patient needs positive-pressure ventilation now."
+        },
+        {
+          "text": "Place a nasal cannula at 4 L/min and reassess",
+          "rationale": "Far too little support for a patient in respiratory failure."
+        },
+        {
+          "text": "Place the patient in the recovery position and monitor",
+          "rationale": "Positioning does not correct inadequate ventilation."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-05-Q002",
+      "concept_id": "EMT-02-01-05",
+      "style": "recall",
+      "stem": "Which of the following is a LATE sign of inadequate breathing?",
+      "options": [
+        {
+          "text": "Nasal flaring",
+          "rationale": "Nasal flaring is an early sign of increased work of breathing."
+        },
+        {
+          "text": "Tripod positioning",
+          "rationale": "Tripoding is an early compensatory posture."
+        },
+        {
+          "text": "Cyanosis",
+          "rationale": "Correct. Blue or gray skin means hypoxia is already severe; do not wait for it before acting."
+        },
+        {
+          "text": "Speaking in short phrases",
+          "rationale": "Short phrases signal distress but appear well before cyanosis."
+        }
+      ],
+      "correct_index": 2,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-05-Q003",
+      "concept_id": "EMT-02-01-05",
+      "style": "application",
+      "stem": "A patient is making slow, irregular gasping breaths about four times a minute. The EMT should treat this patient as:",
+      "options": [
+        {
+          "text": "Breathing adequately but slowly",
+          "rationale": "Agonal gasps are not effective breathing."
+        },
+        {
+          "text": "Not breathing",
+          "rationale": "Correct. Agonal gasps come from a failing brainstem and move no useful air. Manage as apnea."
+        },
+        {
+          "text": "Hyperventilating",
+          "rationale": "Four gasps a minute is the opposite of hyperventilation."
+        },
+        {
+          "text": "Having a seizure",
+          "rationale": "Agonal respirations are a sign of impending or actual cardiac arrest, not a seizure."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 2,
+      "domain": "AIR",
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-05-Q004",
+      "concept_id": "EMT-02-01-05",
+      "style": "scenario",
+      "stem": "A 45-year-old woman with asthma is sitting upright, leaning forward on her hands, and can say only two or three words before pausing to breathe. Her rate is 30 and her SpO2 is 88%. These findings indicate:",
+      "options": [
+        {
+          "text": "Adequate breathing with mild hypoxia; nasal cannula",
+          "rationale": "Tripod position, two-word dyspnea, and a rate of 30 are signs of significant distress, not mild hypoxia."
+        },
+        {
+          "text": "Inadequate breathing with significant distress; high-concentration oxygen now and prepare to assist ventilations",
+          "rationale": "Correct. She is still moving air, so start with a non-rebreather and her inhaler per protocol, but the effort signs mean she may tire and need BVM assistance. Reassess constantly."
+        },
+        {
+          "text": "Normal breathing for an asthma patient",
+          "rationale": "There is no 'normal' that includes tripoding and two-word dyspnea."
+        },
+        {
+          "text": "Hyperventilation syndrome; coach slow breathing",
+          "rationale": "Hypoxia at 88% with a known asthma history is not hyperventilation syndrome."
+        }
+      ],
+      "correct_index": 1,
+      "difficulty": 3,
+      "domain": "AIR",
+      "secondary_concepts": [
+        "EMT-02-05-01"
+      ],
+      "verify": true,
+      "verify_notes": "Confirm in AAOS 12e."
     },
     {
       "schema_version": "1.0.0",

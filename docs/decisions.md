@@ -103,3 +103,15 @@
 - **Submitting records the mode-viewed flag**, including a blank submit — the result screen makes an empty answer obvious.
 - **A Teach attempt survives switching modes but not switching concepts**, so tabbing away and back does not throw away what was written.
 - Three concept cards added (EMT-02-03-02-C02, -03-C02, -06-C02), closing the gap where those concepts declared a `concept` card in `cards[]` that the draft never supplied. Every concept's declared `cards[]` is now covered by the deck.
+
+## 2026-09-16 — Content: EMT-02-01 Airway anatomy; See It and sort renderers
+
+- Lesson EMT-02-01 goes from 2 stub concepts to **5 authored concepts**; bank 35 → **48 questions**; deck 15 → **22 cards**. First real media in the repo: `media/emt/02/airway_upper_lower.svg`, registered in EMT-02-01-01's `media[]`. Everything still `verify: true`.
+- **Field adaptations, content untouched:** `card_data.compare.left_name` / `right_name` → `left_label` / `right_label`, and `rows[].label` → `rows[].feature`, on EMT-02-01-02 and EMT-02-01-05 (13 rows). Card metadata supplied on all 9 new cards: `schema_version`, `print_size`, `number`, `footer`, `verify_notes`.
+- **`media[].alt` cap raised from 300 to 1000 characters.** The airway diagram's alt is 327 characters because it names every labelled structure in both colour groups. Truncating it would gut the one thing alt text exists for, and accessibility is a stated non-negotiable. Long alt is correct for a labelled diagram; the teaching point belongs in `caption`, which everyone sees.
+- **See It renders only what the concept's `media[]` manifest resolves**, by id. A `modes.see` entry with no manifest match renders a visible "missing from the manifest" box rather than a broken image — that is what keeps master-plan §10.7's copyright manifest enforceable instead of decorative. Each figure shows caption, kind, source and licence, and flags anything not print-safe.
+- **Opening the See It tab marks the mode viewed.** There is nothing to complete in it — the mode is the looking.
+- **`sort_into_buckets` takes two inputs**: tap an item then tap a bucket (works on touch), or drag an item onto a bucket (desktop only — touch never fires drag events, which is why the tap path is the primary one). Both routes call the same functions.
+- **Sorting does not mark as you go.** Everything is placed, then Check reveals what was wrong and where each miss belonged. Marking each drop instantly would turn a judgement exercise into trial and error.
+- **Calculation activities read `answer_value` + `answer_unit` as well as `answer_minutes`.** Oxygen duration was authored one way and alveolar ventilation another; the renderer reads both rather than forcing the content to pick.
+- **Card numbering continued from the existing maximum**, so the new lesson-01 cards are numbered 16–24 while the lesson-03 cards they teach *after* hold 5–15. Print order therefore does not match teaching order, and numbers 1–2 are now unused. Left as instructed; renumbering by concept ID is a one-liner when wanted.

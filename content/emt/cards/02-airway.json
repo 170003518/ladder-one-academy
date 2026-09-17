@@ -5,56 +5,6 @@
   "cards": [
     {
       "schema_version": "1.0.0",
-      "id": "EMT-02-01-01-C01",
-      "concept_id": "EMT-02-01-01",
-      "type": "concept",
-      "front": {
-        "title": "Upper vs. lower airway",
-        "summary": "Why the airway is described in two halves."
-      },
-      "back": {
-        "body": "The airway is split into an upper and a lower section at a named landmark. Each half has its own characteristic set of problems, which is what makes the split worth knowing rather than trivia.",
-        "why_it_matters": "Structure names from one half are the standard distractors for the other."
-      },
-      "high_yield": false,
-      "number": 1,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
-    },
-    {
-      "schema_version": "1.0.0",
-      "id": "EMT-02-01-02-C02",
-      "concept_id": "EMT-02-01-02",
-      "type": "concept",
-      "front": {
-        "title": "Pediatric airway differences",
-        "summary": "A child is not a small adult."
-      },
-      "back": {
-        "body": "Several parts of a child's airway are proportioned differently from an adult's. Each difference changes something you physically do — how you position, how you size equipment, how you ventilate.",
-        "why_it_matters": "It is why pediatric airway questions have different right answers than the adult versions."
-      },
-      "high_yield": false,
-      "number": 2,
-      "print_size": "3x5",
-      "footer": {
-        "tier": "EMT",
-        "rung": 1,
-        "module_number": 2,
-        "module_name": "Airway"
-      },
-      "verify": true,
-      "verify_notes": "Placeholder card generated from this concept's stub key points. Nothing on it has been checked against a source text and no clinical figures are present. Rebuild from the concept's card_data once the concept itself is filled in."
-    },
-    {
-      "schema_version": "1.0.0",
       "id": "EMT-02-02-01-C03",
       "concept_id": "EMT-02-02-01",
       "type": "concept",
@@ -377,6 +327,231 @@
       },
       "verify": true,
       "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-03-06. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-01-C01",
+      "concept_id": "EMT-02-01-01",
+      "type": "concept",
+      "front": {
+        "title": "Upper vs. lower airway",
+        "summary": "The dividing line is the larynx."
+      },
+      "back": {
+        "body": "Upper: nose, mouth, pharynx (naso, oro, laryngo), epiglottis, larynx with vocal cords. Lower: trachea, carina, right and left bronchi, bronchioles, alveoli. Gas exchange only in alveoli. Cricoid is the only complete cartilage ring.",
+        "why_it_matters": "Structure names show up as distractors for each other; know which side of the line each sits on."
+      },
+      "high_yield": true,
+      "number": 16,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-01-C02",
+      "concept_id": "EMT-02-01-01",
+      "type": "mnemonic",
+      "front": {
+        "title": "The tongue is the obstruction",
+        "summary": "In the unresponsive supine patient, assume the tongue first."
+      },
+      "back": {
+        "body": "Loss of muscle tone → tongue falls back against the posterior pharynx → snoring, partial or complete obstruction. Fix: head-tilt/chin-lift or jaw-thrust, then an airway adjunct to hold it.",
+        "why_it_matters": "The most common obstruction has the simplest fix, and it is the first airway skill you learn."
+      },
+      "high_yield": true,
+      "number": 17,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-01. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-02-C01",
+      "concept_id": "EMT-02-01-02",
+      "type": "compare",
+      "front": {
+        "title": "Adult vs. pediatric airway",
+        "summary": "Smaller, softer, more crowded, less reserve."
+      },
+      "back": {
+        "body": "Child: large tongue, large occiput (pad under shoulders), narrow airway, narrowest at cricoid, high anterior larynx, floppy U-shaped epiglottis, soft trachea (no hyperextension), fast desaturation. Head tilt: slight for children, neutral for infants.",
+        "why_it_matters": "Every difference is tested, and every difference changes how you position the head."
+      },
+      "high_yield": true,
+      "number": 18,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-02-C02",
+      "concept_id": "EMT-02-01-02",
+      "type": "concept",
+      "front": {
+        "title": "Pad the shoulders",
+        "summary": "Why an infant's airway folds when they lie flat."
+      },
+      "back": {
+        "body": "The large occiput tips the chin toward the chest and flexes the neck. A folded towel under the shoulders levels the head so the ear canal lines up with the front of the shoulder. Neutral position, no tilt.",
+        "why_it_matters": "The classic pediatric airway question, and a real fix you will use on every unresponsive infant."
+      },
+      "high_yield": true,
+      "number": 19,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-02. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-03-C01",
+      "concept_id": "EMT-02-01-03",
+      "type": "concept",
+      "front": {
+        "title": "Ventilation, respiration, oxygenation",
+        "summary": "Three different things that fail separately."
+      },
+      "back": {
+        "body": "Ventilation: moving air (chest rise). Respiration: gas exchange at the alveoli and at the cells. Oxygenation: oxygen onto hemoglobin and out to tissues. CO poisoning = ventilating, not oxygenating. Slow shallow breathing = not ventilating, CO2 builds up.",
+        "why_it_matters": "The exam asks which one is broken, and chest rise alone never answers that."
+      },
+      "high_yield": true,
+      "number": 20,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-03-C02",
+      "concept_id": "EMT-02-01-03",
+      "type": "numbers",
+      "front": {
+        "title": "Breathing volumes",
+        "summary": "Tidal volume, dead space, minute volume."
+      },
+      "back": {
+        "body": "Tidal volume ~500 mL (adult) · Dead space ~150 mL · Minute volume = TV × rate, normal ~6 to 8 L/min · Alveolar ventilation = (TV − 150) × rate · Normal drive to breathe = rising CO2",
+        "why_it_matters": "Explains why shallow breathing is worse than the rate suggests."
+      },
+      "high_yield": true,
+      "number": 21,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-03. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-04-C01",
+      "concept_id": "EMT-02-01-04",
+      "type": "numbers",
+      "front": {
+        "title": "Normal respiratory rates",
+        "summary": "By age. Memorize all three."
+      },
+      "back": {
+        "body": "Adult 12 to 20 · Child (1 to 12 yr) 15 to 30 · Infant (under 1 yr) 25 to 50 · Count 30 seconds × 2 without telling the patient · Normal = regular, even chest rise, quiet, effortless, full sentences",
+        "why_it_matters": "A rate of 28 is normal in a toddler and abnormal in an adult; the exam will ask both."
+      },
+      "high_yield": true,
+      "number": 22,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-04. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-05-C01",
+      "concept_id": "EMT-02-01-05",
+      "type": "compare",
+      "front": {
+        "title": "Adequate vs. inadequate breathing",
+        "summary": "The decision the whole airway module builds toward."
+      },
+      "back": {
+        "body": "Adequate: normal rate for age, regular, even chest rise, quiet, easy, full sentences → oxygen if hypoxic. Inadequate: rate too fast or slow, shallow, irregular, accessory muscles, retractions, flaring, tripod, 2 to 3 word dyspnea → ventilate with BVM. Late: cyanosis, altered mental status, agonal gasps (= not breathing).",
+        "why_it_matters": "Oxygen versus ventilation is the single most important airway decision at the EMT level."
+      },
+      "high_yield": true,
+      "number": 23,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-05. Check every figure on this card against the source before it is printed or drilled."
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "EMT-02-01-05-C02",
+      "concept_id": "EMT-02-01-05",
+      "type": "concept",
+      "front": {
+        "title": "Signs of effort",
+        "summary": "What working hard to breathe looks like."
+      },
+      "back": {
+        "body": "Accessory muscle use (neck, shoulders) · Retractions (skin pulling in between or under ribs) · Nasal flaring · Tripod position · Pursed-lip breathing · Two or three words per breath · Cannot lie flat",
+        "why_it_matters": "Effort is where you catch inadequate breathing before the late signs appear."
+      },
+      "high_yield": true,
+      "number": 24,
+      "print_size": "3x5",
+      "footer": {
+        "tier": "EMT",
+        "rung": 1,
+        "module_number": 2,
+        "module_name": "Airway"
+      },
+      "verify": true,
+      "verify_notes": "Drafted from standard EMT curriculum (AAOS Emergency Care 12e level) and not yet reviewed against a source text, same as its parent concept EMT-02-01-05. Check every figure on this card against the source before it is printed or drilled."
     }
   ]
 }

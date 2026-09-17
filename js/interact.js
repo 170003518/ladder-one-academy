@@ -21,6 +21,8 @@
    recorded to progress and nothing gates on it.
    ========================================================================== */
 
+import { renderSort } from './sort.js';
+
 const esc = s => String(s).replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -38,9 +40,21 @@ export function pickDo(conceptId, itemIndex, choiceIndex) {
 
 function shapeOf(config) {
   if (!config) return 'none';
+  if (Array.isArray(config.buckets) && Array.isArray(config.items)) return 'sort';
   if (Array.isArray(config.patients) && Array.isArray(config.devices)) return 'match';
   if (Array.isArray(config.choices) && Number.isInteger(config.correct_choice)) return 'choice';
   return 'unknown';
+}
+
+/**
+ * The stated answer on a calculation, whatever unit the content used.
+ * Oxygen duration was authored as answer_minutes; alveolar ventilation as
+ * answer_value + answer_unit. Read both rather than making the content pick one.
+ */
+function statedAnswer(cfg) {
+  if (cfg.answer_value != null) return { value: cfg.answer_value, unit: cfg.answer_unit || '' };
+  if (cfg.answer_minutes != null) return { value: cfg.answer_minutes, unit: 'minutes' };
+  return null;
 }
 
 /* --- match: one device per patient ---------------------------------------- */
@@ -103,10 +117,12 @@ function renderChoice(concept, cfg, state) {
     ${done ? `
       <div class="do-solution ${correct ? 'is-right' : 'is-wrong'}">
         <p class="do-verdict">${correct ? 'Correct.' : 'Not quite.'}
-          ${cfg.answer_minutes != null
-            ? `The answer is <span class="num">${esc(String(cfg.answer_minutes))}</span> minutes${
-                cfg.tolerance ? ` (within <span class="num">${esc(String(cfg.tolerance))}</span>)` : ''}.`
-            : ''}</p>
+          ${(() => {
+            const a = statedAnswer(cfg);
+            if (!a) return '';
+            return `The answer is <span class="num">${esc(String(a.value))}</span>${a.unit ? ` ${esc(a.unit)}` : ''}${
+              cfg.tolerance ? ` (within <span class="num">${esc(String(cfg.tolerance))}</span>${a.unit ? ` ${esc(a.unit)}` : ''})` : ''}.`;
+          })()}</p>
         ${cfg.worked_solution ? `<p class="do-worked num">${esc(cfg.worked_solution)}</p>` : ''}
       </div>
       <div class="do-foot"><button type="button" id="do-reset">Try it again</button></div>` : ''}`;
@@ -128,6 +144,9 @@ export function renderDo(concept) {
          <code>${esc(mode.type || '?')}</code>, but its config is not a shape any renderer handles yet.</p>
     </div>`;
   }
+
+  // Sorting owns its own state and its own markup; it is not a pick-one.
+  if (shape === 'sort') return renderSort(concept);
 
   const state = picks.get(concept.id) || {};
   const body = shape === 'match'
